@@ -59,9 +59,27 @@ body::after{content:'';position:fixed;top:-200px;left:50%;transform:translateX(-
 @keyframes pulse{from{opacity:0.7}to{opacity:1}}
 
 /* VERSE SEPARATOR */
-.verse-sep{text-align:center;margin:0.8rem 0;font-family:'Scheherazade New',serif;font-size:0.9rem;color:var(--text-muted);direction:rtl}
-.verse-sep span{background:var(--surface);padding:0 0.7rem;position:relative;z-index:1}
-.verse-sep::before{content:'';display:block;height:1px;background:var(--border);margin-top:0.9rem;position:relative;top:-0.7rem}
+.verse-sep{
+  display:flex;align-items:center;gap:0.8rem;
+  margin:1.2rem 0 0.6rem;
+  direction:ltr;
+}
+.verse-sep-line{flex:1;height:1px;background:var(--border)}
+.verse-sep-label{
+  display:flex;align-items:center;gap:0.5rem;
+  font-family:'Cormorant Garamond',serif;
+  font-size:0.75rem;color:var(--gold);
+  letter-spacing:0.16em;text-transform:uppercase;
+  white-space:nowrap;
+}
+.verse-sep-btn{
+  width:22px;height:22px;border-radius:50%;
+  background:var(--gold-dim);border:1px solid var(--border-active);
+  color:var(--gold-light);cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:0.65rem;transition:all 0.2s;flex-shrink:0;
+}
+.verse-sep-btn:hover{background:rgba(201,168,76,0.38);transform:scale(1.12)}
 
 /* EXPLORATION */
 .verse-wrapper{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:2.5rem 2rem;margin-bottom:1.2rem}
@@ -429,10 +447,11 @@ const VERSE_CHAIN = [
 // Audio mot par mot — utilise le numéro de verset et la position dans le verset
 function wordUrls(idx){
   const w = W[idx];
-  const n = String(w.p).padStart(3,"0");
+  const v = String(w.v).padStart(3,"0");   // 255 → "255"
+  const n = String(w.p).padStart(3,"0");   // position dans le verset → "001"
   return [
-    "https://audio.qurancdn.com/wbw/00"+w.v+"_"+n+".mp3",
-    "https://everyayah.com/data/wbw/00"+w.v+"_"+n+".mp3",
+    "https://audio.qurancdn.com/wbw/002_"+v+"_"+n+".mp3",
+    "https://everyayah.com/data/wbw/002_"+v+"_"+n+".mp3",
   ];
 }
 
@@ -603,17 +622,50 @@ function setMode(n){
 /* ═══════════════════════════════════════
    MODE 0 — EXPLORATION
 ═══════════════════════════════════════ */
+/* Lecture d'un seul verset (depuis le séparateur) */
+function playVerseOnly(verseNum){
+  const chainIdx = verseNum - 255;
+  if(chainIdx < 0 || chainIdx >= VERSE_CHAIN.length) return;
+  if(verseAu){ verseAu.pause(); verseAu=null; }
+  verseChainIdx = chainIdx;
+  // On joue un seul verset (pas de chaîne automatique)
+  const urls = VERSE_CHAIN[chainIdx];
+  tryVerseOnce(verseNum, urls, 0);
+}
+
+function tryVerseOnce(verseNum, urls, i){
+  if(i >= urls.length){ setAbStatus("err","Indisponible"); return; }
+  setAbStatus("loading","V."+verseNum+"…");
+  const au = new Audio(urls[i]);
+  au.preload="auto";
+  au.addEventListener("error",()=>tryVerseOnce(verseNum, urls, i+1),{once:true});
+  au.addEventListener("canplay",()=>{
+    verseAu = au;
+    au.play()
+      .then(()=>{ setAbStatus("ok","V."+verseNum); updatePlayBtn(true); startProgress(); })
+      .catch(()=>setAbStatus("ok","Prêt — ▶"));
+  },{once:true});
+  au.addEventListener("ended",()=>{ verseAu=null; updatePlayBtn(false); setAbStatus("ok","Terminé"); },{once:true});
+  au.load();
+}
+
 function buildExplore(){
   const c=document.getElementById("verse-display");
   c.innerHTML="";
-  let lastVerse=255;
+  let lastVerse=null;
   W.forEach((w,i)=>{
-    // Séparateur de verset
+    // Séparateur au début de chaque verset (y compris le 255)
     if(w.v!==lastVerse){
       lastVerse=w.v;
       const sep=document.createElement("div");
       sep.className="verse-sep";
-      sep.innerHTML='<span>· Verset '+w.v+' ·</span>';
+      sep.innerHTML=
+        '<div class="verse-sep-line"></div>'+
+        '<div class="verse-sep-label">'+
+          'Verset '+w.v+
+          ' <button class="verse-sep-btn" onclick="playVerseOnly('+w.v+')" title="Écouter le verset '+w.v+'">🔊</button>'+
+        '</div>'+
+        '<div class="verse-sep-line"></div>';
       c.appendChild(sep);
     }
     const s=document.createElement("span");
