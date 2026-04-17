@@ -95,7 +95,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     <p class="list-sub">Traduction fran&ccedil;aise du Dr G.H. Abolqasemi Fakhri &mdash; 114 sourates</p>
     <div class="list-search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
-      <input id="listSearch" type="text" placeholder="Rechercher une sourate...">
+      <input id="listSearch" type="text" placeholder="Rechercher une sourate ou taper 23-5 pour sourate 23 verset 5...">
     </div>
   </div>
   <div class="surah-grid" id="surahGrid"></div>
@@ -138,12 +138,31 @@ Q.forEach(function(s){
 });
 
 // Search in list
-document.getElementById('listSearch').addEventListener('input', function(){
+var listSearchEl = document.getElementById('listSearch');
+listSearchEl.addEventListener('input', function(){
   var q = this.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   gridEl.querySelectorAll('.surah-card').forEach(function(c){
     var txt = c.getAttribute('data-search').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     c.classList.toggle('hidden', q && txt.indexOf(q) === -1);
   });
+});
+listSearchEl.addEventListener('keydown', function(e){
+  if (e.key === 'Enter') {
+    var val = this.value.trim();
+    var m = val.match(/^(\d{1,3})\s*[-:\.\/]\s*(\d+)$/);
+    if (m) {
+      var sn = parseInt(m[1]), vn = parseInt(m[2]);
+      if (sn >= 1 && sn <= 114) { openSurah(sn, vn); return; }
+    }
+    var mn = val.match(/^(\d{1,3})$/);
+    if (mn) {
+      var sn2 = parseInt(mn[1]);
+      if (sn2 >= 1 && sn2 <= 114) { openSurah(sn2); return; }
+    }
+    // If not a number pattern, click the first visible card
+    var first = gridEl.querySelector('.surah-card:not(.hidden)');
+    if (first) first.click();
+  }
 });
 
 function showList() {
@@ -158,7 +177,7 @@ function openSurah(num, scrollToVerse) {
   if (!s) return;
 
   listEl.style.display = 'none';
-  view.style.display = '';
+  view.style.display = 'block';
   selWrap.classList.add('active');
   surahSel.value = num;
 
