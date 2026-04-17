@@ -3,66 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vidéos</title>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500&display=swap" rel="stylesheet">
+<title>Vidéos — Les Partisans</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta Sans',sans-serif;display:flex;align-items:center;justify-content:center;overflow:hidden}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg stroke='%23c9a84c' stroke-width='0.4' opacity='0.06'%3E%3Cpolygon points='40,3 74,22 74,58 40,77 6,58 6,22'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
-.wrap{text-align:center;padding:40px;max-width:480px;position:relative;z-index:1}
-.icon{font-size:4rem;margin-bottom:24px;filter:drop-shadow(0 0 20px rgba(201,168,76,0.3))}
-.title{font-family:'Cinzel',serif;font-size:1.6rem;font-weight:700;color:#c9a84c;margin-bottom:12px}
-.desc{color:#5a6480;font-size:0.95rem;line-height:1.7;margin-bottom:32px}
-.badge{display:inline-block;padding:8px 20px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.25);border-radius:20px;font-family:'Cinzel',serif;font-size:0.72rem;letter-spacing:.1em;text-transform:uppercase;color:#c9a84c}
+html,body{min-height:100%;background:#070c18;color:#e2d9c4;font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;line-height:1.6}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23c9a84c' stroke-width='0.3' opacity='0.05'%3E%3Crect x='22' y='22' width='56' height='56' rx='2'/%3E%3Crect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='28'/%3E%3C/g%3E%3C/svg%3E");background-size:100px;pointer-events:none;z-index:0}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:#070c18}::-webkit-scrollbar-thumb{background:rgba(201,168,76,0.3);border-radius:3px}
+
+.wrap{max-width:1100px;margin:0 auto;padding:40px 24px 80px;position:relative;z-index:1}
+.hero{text-align:center;margin-bottom:40px}
+.hero-ornament{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:20px}
+.orn-line{height:1px;width:70px;background:linear-gradient(to right,transparent,#c9a84c)}.orn-line.r{background:linear-gradient(to left,transparent,#c9a84c)}
+.orn-gem{width:6px;height:6px;background:#c9a84c;transform:rotate(45deg);box-shadow:0 0 6px rgba(201,168,76,0.5)}
+.hero-label{font-family:'Cinzel',serif;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:14px}
+.hero-title{font-family:'Cinzel',serif;font-size:clamp(1.3rem,3.5vw,2rem);font-weight:700;color:#e8e2d0;line-height:1.25;margin-bottom:8px}
+.hero-title span{color:#c9a84c}
+.hero-sub{font-size:0.95rem;color:#5a6480}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px}
+
+.video-card{background:rgba(19,29,53,0.7);border:1px solid rgba(201,168,76,0.12);border-radius:14px;overflow:hidden;transition:all .3s}
+.video-card:hover{border-color:rgba(201,168,76,0.35);box-shadow:0 8px 28px rgba(0,0,0,0.35),0 0 16px rgba(201,168,76,0.06)}
+
+.video-thumb{position:relative;width:100%;padding-bottom:56.25%;background:#0a1628;cursor:pointer;overflow:hidden}
+.video-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .3s,opacity .3s}
+.video-card:hover .video-thumb img{transform:scale(1.03);opacity:0.85}
+.play-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;background:rgba(201,168,76,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,0,0,0.5);transition:transform .2s,background .2s;z-index:2}
+.play-btn:hover{transform:translate(-50%,-50%) scale(1.1);background:#c9a84c}
+.play-btn svg{width:24px;height:24px;margin-left:3px}
+
+.video-embed{position:relative;width:100%;padding-bottom:56.25%;background:#000}
+.video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:none}
+
+.video-info{padding:16px 18px}
+.video-num{font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:.15em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:4px}
+.video-title{font-size:1rem;font-weight:600;color:#e8e2d0;line-height:1.4;margin-bottom:6px}
+.video-channel{font-size:0.82rem;color:#5a6480}
+
+/* Light theme */
+[data-theme="light"] body{background:#e8e0d4!important;color:#2c2114!important}
+[data-theme="light"] body::before{opacity:0.4!important}
+[data-theme="light"] .hero-title{color:#2c2114!important}
+[data-theme="light"] .hero-title span{color:#7a5c24!important}
+[data-theme="light"] .hero-label{color:#7a5c24!important}
+[data-theme="light"] .hero-sub{color:#7a6e56!important}
+[data-theme="light"] .video-card{background:rgba(235,228,216,0.7)!important;border-color:rgba(122,92,36,0.12)!important}
+[data-theme="light"] .video-card:hover{border-color:rgba(122,92,36,0.3)!important;box-shadow:0 8px 28px rgba(60,45,20,0.1)!important}
+[data-theme="light"] .video-num{color:#7a5c24!important}
+[data-theme="light"] .video-title{color:#2c2114!important}
+[data-theme="light"] .video-channel{color:#7a6e56!important}
+[data-theme="light"] .play-btn{background:rgba(122,92,36,0.85)!important}
+[data-theme="light"] .video-thumb{background:#d8d0c0!important}
+[data-theme="light"] ::-webkit-scrollbar-track{background:#e8e0d4!important}
+[data-theme="light"] ::-webkit-scrollbar-thumb{background:rgba(122,92,36,0.25)!important}
+
+@media(max-width:600px){
+  .wrap{padding:28px 14px 60px}
+  .grid{grid-template-columns:1fr;gap:16px}
+  .video-info{padding:14px 16px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="icon">🎬</div>
-  <div class="title">Vidéos</div>
-  <p class="desc">Conférences, documentaires et enseignements en vidéo sur l'islam chiite, l'histoire de l'Ahl al-Bayt et la spiritualité islamique.</p>
-  <span class="badge">Contenu à venir</span>
+<div class="hero">
+<div class="hero-label">Cha&#238;ne YouTube</div>
+<div class="hero-ornament"><div class="orn-line"></div><div class="orn-gem"></div><div class="orn-line r"></div></div>
+<h1 class="hero-title">Les <span>Partisans</span> &mdash; Vid&#233;os</h1>
+<div class="hero-sub">Conf&#233;rences, enseignements et documentaires islamiques</div>
 </div>
 
-<style id="injected-light-theme">
-[data-theme="light"] body{background:#e8e0d4!important;color:#2c2114!important}
-[data-theme="light"] *{border-color:rgba(122,92,36,0.12)!important}
-[data-theme="light"] .header,.sidebar,.search-panel,.nav-footer{background:rgba(225,218,206,0.97)!important}
-[data-theme="light"] .header-title,.sidebar-header h2{color:#7a5c24!important}
-[data-theme="light"] .content-area{background:#e8e0d4!important}
-[data-theme="light"] .chapter-content,.chapter-text,.chapter-text p{color:#2c2114!important}
-[data-theme="light"] .question-block{background:rgba(220,212,196,0.5)!important}
-[data-theme="light"] .question-text{color:#2c2114!important}
-[data-theme="light"] .section-heading{color:#7a5c24!important}
-[data-theme="light"] .reponse-label{color:#7a5c24!important}
-[data-theme="light"] .sidebar{background:rgba(225,218,206,0.97)!important}
-[data-theme="light"] .sidebar-item{border-color:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .sidebar-item:hover,.sidebar-item.active{background:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .sidebar-tab.active{color:#7a5c24!important;border-bottom-color:#7a5c24!important}
-[data-theme="light"] .home-screen{background:#e8e0d4!important}
-[data-theme="light"] .home-title,.home-subtitle,.home-desc{color:#2c2114!important}
-[data-theme="light"] .home-start{background:#7a5c24!important}
-[data-theme="light"] .home-toc{background:rgba(235,228,216,0.8)!important;border-color:rgba(122,92,36,0.12)!important}
-[data-theme="light"] .home-toc-title{color:#7a5c24!important}
-[data-theme="light"] .home-toc-item{border-color:rgba(122,92,36,0.08)!important;color:#2c2114!important}
-[data-theme="light"] .home-toc-item:hover{background:rgba(122,92,36,0.06)!important}
-[data-theme="light"] .note-banner{background:rgba(122,92,36,0.06)!important;border-left-color:#7a5c24!important}
-[data-theme="light"] .search-input-wrap{background:rgba(220,212,196,0.6)!important}
-[data-theme="light"] .search-input{color:#2c2114!important}
-[data-theme="light"] .nav-btn{color:#7a5c24!important;border-color:rgba(122,92,36,0.2)!important}
-[data-theme="light"] .nav-btn:hover{background:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .nav-progress{color:#5a4e3c!important}
-[data-theme="light"] .footnote{color:#5a4e3c!important}
-[data-theme="light"] .fn-ref a,.fn-back,.fn-back-num{color:#7a5c24!important}
-[data-theme="light"] .download-section{background:rgba(235,228,216,0.6)!important;border-color:rgba(122,92,36,0.12)!important}
-[data-theme="light"] .header-btn{color:#2c2114!important}
-[data-theme="light"] .sidebar-item-title{color:#2c2114!important}
-[data-theme="light"] .sidebar-item-num{color:#7a5c24!important}
-[data-theme="light"] ::-webkit-scrollbar-track{background:#e8e0d4!important}
-[data-theme="light"] ::-webkit-scrollbar-thumb{background:rgba(122,92,36,0.25)!important}
-</style>
-<!-- Theme listener: receives theme from parent portal -->
+<div class="grid" id="videoGrid"></div>
+</div>
+
 <script>
+var VIDEOS = [
+  {id:"1Zu2zt9NsmA", title:"Vid\u00e9o 1"},
+  {id:"KRylBQAvTGU", title:"Vid\u00e9o 2"},
+  {id:"oF7r_-E45jA", title:"Vid\u00e9o 3"},
+  {id:"gf9wxiIeUy0", title:"Vid\u00e9o 4"},
+  {id:"A5k8sPrYO14", title:"Vid\u00e9o 5"},
+  {id:"BV_xNLt5hfQ", title:"Vid\u00e9o 6"},
+  {id:"umzxiK9Nvkc", title:"Vid\u00e9o 7"},
+  {id:"EE1-FZqcPHY", title:"Vid\u00e9o 8"},
+  {id:"pjaPsRkAda0", title:"Vid\u00e9o 9"}
+];
+
+var grid = document.getElementById('videoGrid');
+
+VIDEOS.forEach(function(v, i) {
+  var card = document.createElement('div');
+  card.className = 'video-card';
+  card.innerHTML =
+    '<div class="video-thumb" id="thumb-' + v.id + '">' +
+      '<img src="https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg" alt="' + v.title + '" loading="lazy">' +
+      '<div class="play-btn"><svg viewBox="0 0 24 24" fill="#070c18"><polygon points="8,5 19,12 8,19"/></svg></div>' +
+    '</div>' +
+    '<div class="video-info">' +
+      '<div class="video-num">Vid\u00e9o ' + (i + 1) + '</div>' +
+      '<div class="video-title" id="title-' + v.id + '">' + v.title + '</div>' +
+      '<div class="video-channel">Les Partisans</div>' +
+    '</div>';
+  grid.appendChild(card);
+
+  // Click to play: replace thumbnail with iframe
+  card.querySelector('.video-thumb').addEventListener('click', function() {
+    var embed = document.createElement('div');
+    embed.className = 'video-embed';
+    embed.innerHTML = '<iframe src="https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+    this.parentNode.replaceChild(embed, this);
+  });
+});
+
+// Fetch real titles from YouTube oEmbed (best effort)
+VIDEOS.forEach(function(v) {
+  fetch('https://noembed.com/embed?url=https://www.youtube.com/watch?v=' + v.id)
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data && data.title) {
+        var el = document.getElementById('title-' + v.id);
+        if (el) el.textContent = data.title;
+      }
+    })
+    .catch(function() {});
+});
+
+// Theme listener
 window.addEventListener('message', function(e) {
   if (e.data && e.data.type === 'theme') {
     if (e.data.theme === 'light') {
