@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hadith al-Kisâ' — Le Hadith de la Couverture</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Scheherazade+New:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;background:#070c18;color:#e2d9c4;font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.8;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23c9a84c' stroke-width='0.3' opacity='0.055'%3E%3Crect x='22' y='22' width='56' height='56' rx='2'/%3E%3Crect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='28'/%3E%3C/g%3E%3C/svg%3E");background-size:100px;pointer-events:none;z-index:0}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:#070c18}::-webkit-scrollbar-thumb{background:rgba(201,168,76,0.3);border-radius:3px}
+
+.wrap{max-width:800px;margin:0 auto;padding:40px 28px 100px;position:relative;z-index:1}
+.hero{text-align:center;margin-bottom:44px}
+.hero-ornament{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:24px}
+.orn-line{height:1px;width:80px;background:linear-gradient(to right,transparent,#c9a84c)}.orn-line.r{background:linear-gradient(to left,transparent,#c9a84c)}
+.orn-gem{width:7px;height:7px;background:#c9a84c;transform:rotate(45deg);box-shadow:0 0 8px rgba(201,168,76,0.6)}
+.hero-label{font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.22em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:16px}
+.hero-title{font-family:'Cinzel',serif;font-size:clamp(1.4rem,3.5vw,2.2rem);font-weight:700;color:#e8e2d0;line-height:1.25;margin-bottom:6px}
+.hero-title span{color:#c9a84c}
+.hero-ar{font-family:'Scheherazade New',serif;font-size:1.8rem;color:#c9a84c;opacity:0.7;margin-bottom:12px;direction:rtl}
+.hero-subtitle{font-size:1.05rem;color:#7a6a4a;font-style:italic;margin-bottom:28px;line-height:1.6}
+.hero-divider{width:120px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:0 auto}
+
+/* Audio player */
+.audio-section{background:rgba(19,29,53,0.6);border:1px solid rgba(201,168,76,0.2);border-radius:14px;padding:22px 26px;margin-bottom:40px;text-align:center}
+.audio-label{font-family:'Cinzel',serif;font-size:0.78rem;letter-spacing:0.15em;text-transform:uppercase;color:#c9a84c;margin-bottom:14px;opacity:0.7}
+.audio-player{width:100%;max-width:500px;margin:0 auto}
+.audio-player audio{width:100%;outline:none}
+.audio-note{font-size:0.85rem;color:#5a6480;margin-top:10px}
+
+/* Passage blocks */
+.passage{margin-bottom:36px;padding:24px;background:rgba(13,22,42,0.5);border:1px solid rgba(201,168,76,0.1);border-radius:14px;transition:border-color 0.3s}
+.passage:hover{border-color:rgba(201,168,76,0.25)}
+.passage-ar{font-family:'Scheherazade New',serif;font-size:1.6rem;line-height:2.2;color:#e8e2d0;direction:rtl;text-align:right;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid rgba(201,168,76,0.08)}
+.passage-translit{font-size:0.95rem;color:#8a7a5a;font-style:italic;line-height:1.7;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid rgba(201,168,76,0.06)}
+.passage-fr{font-size:1.15rem;color:#cec6b0;line-height:1.9}
+.passage-fr strong{color:#e8c06a}
+
+/* Invocation highlight */
+.passage.invocation{border-left:3px solid #c9a84c;background:rgba(201,168,76,0.04)}
+.passage.divine{border-left:3px solid #6ab4e8;background:rgba(106,180,232,0.03)}
+.passage.divine .passage-fr{color:#b8d4e8}
+.passage.angel{border-left:3px solid #8ae86a;background:rgba(138,232,106,0.03)}
+
+/* Section dividers */
+.sdiv{display:flex;align-items:center;gap:16px;margin:40px 0}
+.sdiv-line{height:1px;flex:1;background:linear-gradient(to right,transparent,rgba(201,168,76,0.2),transparent)}
+.sdiv-gem{width:5px;height:5px;background:rgba(201,168,76,0.4);transform:rotate(45deg)}
+.sdiv-label{font-family:'Cinzel',serif;font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:#c9a84c;opacity:0.5;white-space:nowrap}
+
+/* Intro text */
+.intro{font-size:1.1rem;color:#9aa3b8;line-height:1.85;margin-bottom:36px;text-align:center;max-width:640px;margin-left:auto;margin-right:auto}
+
+.sources{background:rgba(7,12,24,0.8);border:1px solid rgba(201,168,76,0.12);border-radius:12px;padding:24px 28px;margin-top:48px}
+.sources-title{font-family:'Cinzel',serif;font-size:0.78rem;letter-spacing:0.18em;text-transform:uppercase;color:#c9a84c;margin-bottom:14px;opacity:0.7}
+.source-item{font-size:0.95rem;color:#7a6a4a;margin-bottom:8px;line-height:1.6;padding-left:14px;position:relative}
+.source-item::before{content:'·';position:absolute;left:0;color:#c9a84c;opacity:0.5}
+
+@media(max-width:600px){
+  .wrap{padding:28px 16px 80px}
+  .passage{padding:18px 16px}
+  .passage-ar{font-size:1.35rem;line-height:2}
+  .passage-fr{font-size:1.05rem}
+  .passage-translit{font-size:0.85rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+<div class="hero-label">Hadith des Ahl al-Bayt</div>
+<div class="hero-ornament"><div class="orn-line"></div><div class="orn-gem"></div><div class="orn-line r"></div></div>
+<h1 class="hero-title">Hadith <span>al-Kisâ'</span></h1>
+<div class="hero-ar">حَديثُ الكِساء</div>
+<div class="hero-subtitle">Le Hadith de la Couverture — Rapporté par Fâtimah az-Zahrâ' (عليها السلام)<br>d'après Jâbir ibn 'Abdallah al-Ansârî</div>
+<div class="hero-divider"></div>
+</div>
+
+<div class="audio-section">
+<div class="audio-label">Écouter le Hadith al-Kisâ'</div>
+<div class="audio-player"><audio controls preload="metadata"><source src="Hadith-al-Kisa.mp3" type="audio/mpeg">Votre navigateur ne supporte pas l'audio.</audio></div>
+<div class="audio-note">Récitation complète — Appuyez sur ▶ pour écouter</div>
+</div>
+
+<p class="intro">Le Hadith al-Kisâ' (حديث الكساء) est l'un des hadiths les plus vénérés de la tradition chiite. Il relate l'événement au cours duquel le Prophète Muhammad (ṣ) rassembla sous une couverture du Yémen les membres de sa famille — 'Alî, Fâtimah, al-Hasan et al-Husayn — et où Dieu révéla le verset de la purification (Coran 33:33).</p>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">Début du récit</div><div class="sdiv-line"></div></div>
+
+<div class="passage">
+<div class="passage-ar">بِسَنَدٍ صَحيحٍ عَنْ جابِرِ بْنِ عَبْدِاللَّهِ الاَنْصاري عَنْ فاطِمَةَ الزَّهْراءِ عَلَيهَا السَّلامُ بِنْتِ رَسُولِ اللَّهِ صَلَّي اللَّهُ عَلَيهِ وَآلِهِ قالَ سَمِعْتُ فاطِمَةَ اَنَّها قالَتْ</div>
+<div class="passage-translit">Bi-sanadin sahîhin 'an Jâbiri bni 'Abdi-llâhi al-Ansârî, 'an Fâtimata az-Zahrâ' 'alayhâ-s-salâm, binti Rasûli-llâhi sallâ-llâhu 'alayhi wa âlih, qâla: sami'tu Fâtimata annahâ qâlat.</div>
+<div class="passage-fr">Selon une chaîne de transmission juste remontant à Jâbir fils de 'Abdallah al-Ansârî, de Fâtimah az-Zahrâ' (que la paix soit sur elle), fille du Messager de Dieu (que Dieu prie sur lui et sur sa famille). Il dit : « J'ai entendu Fâtimah dire :</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">دَخَلَ عَلَيَّ اَبي رَسُولُ اللَّهِ في بَعْضِ الْأَيَّامِ، فَقالَ السَّلامُ عَلَيْكِ يا فاطِمَةُ، فَقُلْتُ عَلَيْكَ السَّلامُ</div>
+<div class="passage-translit">Dakhala 'alayya abî rasûlu-llâhi fî ba'di-l-ayyâmi, fa-qâla : assalâmu 'alayki yâ Fâtimatu. Faqultu 'alayka-s-salâmu.</div>
+<div class="passage-fr">Un certain jour, le Messager de Dieu est entré chez moi et m'a dit : <strong>« Que la paix soit sur toi, ô Fâtimah ! »</strong> Je lui répondis : « Que la paix soit sur toi ! »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">قالَ اِنّي اَجِدُ في بَدَني ضُعْفاً، فَقُلْتُ لَهُ اُعيذُكَ بِاللَّهِ يا اَبَتاهُ مِنَ الضُّعْفِ</div>
+<div class="passage-translit">Qâla : innî ajidu fî badanî da'fann. Faqultu lahu : u'îdhu-ka bi-llâhi, yâ abatâhu, mina-d-da'fî.</div>
+<div class="passage-fr">Il dit : « Je sens une faiblesse dans mon corps. » Je lui répondis : « Que Dieu te protège de la faiblesse, ô mon père ! »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقَالَ يا فاطِمَةُ ايتيني بِالْكِسآءِ الْيَماني فَغَطّيني بِهِ، فَاَتَيْتُهُ بِالْكِسآءِ الْيَماني فَغَطَّيْتُهُ بِهِ</div>
+<div class="passage-translit">Fa-qâla: yâ Fâtimatu îtînî bi-l-kisâ'i-l-yamâniyyi fa-ghattînî bihi. Fa-ataytuhu bi-l-kisâ'i-l-yamâniyyi, fa-ghattaytuhu bihi.</div>
+<div class="passage-fr">Il dit : <strong>« Ô Fâtimah, donne-moi la couverture du Yémen et recouvre-moi avec ! »</strong> Je lui donnai la couverture du Yémen et le couvris avec.</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">وَصِرْتُ اَنْظُرُ اِلَيْهِ، وَاِذا وَجْهُهُ يَتَلَأْلَؤُ كَاَنَّهُ الْبَدْرُ في لَيْلَةِ تَمامِهِ وَكَمالِهِ</div>
+<div class="passage-translit">Wa sirtu anzhuru ilayhi wa idhâ wajhuhu yatala'la'a ka-annahu-l-badru fî laylati tamâmihi wa kamâlihi.</div>
+<div class="passage-fr">Puis je me mis à le regarder : son visage brillait comme la lune durant une nuit de pleine-lune parfaite.</div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">L'arrivée d'al-Hasan</div><div class="sdiv-line"></div></div>
+
+<div class="passage">
+<div class="passage-ar">فَما كانَتْ اِلاَّ ساعَةً وَاِذا بِوَلَدِيَ الْحَسَنِ قَدْ اَقْبَلَ، وَقالَ السَّلامُ عَلَيْكِ يا اُمَّاهُ، فَقُلْتُ وَعَلَيْكَ السَّلامُ يا قُرَّةَ عَيْني وَثَمَرَةَ فُؤادي</div>
+<div class="passage-translit">Fa-mâ kânat illâ sâ'atunn wa idhâ bi-waladî-l-Hasani qad aqbala wa qâla : as-salâmu alayki, yâ ummâhu ! Fa-qultu : wa 'alayka-s-salâmu, yâ qurrata 'aynî wa thamarata fu'âdî.</div>
+<div class="passage-fr">Il ne passa pas un moment qu'arriva mon fils al-Hasan. Il avança et dit : <strong>« Que la paix soit sur toi, ô ma mère ! »</strong> Je lui répondis : « Que la paix soit sur toi, ô plaisir de mes yeux et fruit de mes entrailles ! »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ يا اُمَّاهُ اِنّي اَشَمُّ عِنْدَكِ رآئِحَةً طَيِّبَةً، كَاَنَّها رآئِحَةُ جَدّي رَسُولِ اللَّهِ، فَقُلْتُ نَعَمْ اِنَّ جَدَّكَ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla : Yâ ummâhu, innî ashummu 'indaki râ'ihatann tayyibatann ka-annahâ râ'ihatu jiddî rasûli-llâhi. Fa-qultu : na'am, inna jaddaka tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il dit : « Ô ma mère, je sens chez toi une bonne odeur, comme si c'était l'odeur de mon grand-père, le Messager de Dieu. » Je lui dis : « Oui, en effet, ton grand-père est sous la couverture. »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَاَقْبَلَ الْحَسَنُ نَحْوَ الْكِسآءِ، وَقالَ السَّلامُ عَلَيْكَ يا جَدَّاهُ يا رَسُولَ اللَّهِ، اَتَاْذَنُ لي اَنْ اَدْخُلَ مَعَكَ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-aqbala-l-Hasanu nahwa-l-kisâ'i wa qâla : as-salâmu 'alayka yâ jaddâhu, yâ rasûla-llâhi. A ta'dhanu lî an adkhula ma'aka tahta-l-kisâ'i.</div>
+<div class="passage-fr">Al-Hasan s'approcha de la couverture et dit : <strong>« Que la paix soit sur toi, ô grand-père, ô Messager de Dieu ! M'autorises-tu à entrer avec toi sous la couverture ? »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ وَعَلَيْكَ السَّلامُ يا وَلَدي وَيا صاحِبَ حَوْضي، قَدْ اَذِنْتُ لَكَ، فَدَخَلَ مَعَهُ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla : wa 'alayka-s-salâmu yâ waladî, wa yâ sâhiba hawdî, qad adhintu laka, fa-dakhala ma'ahu tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il répondit : <strong>« Que la paix soit sur toi, ô mon fils, ô Maître de mon Bassin [al-Kawthar], je t'en donne l'autorisation. »</strong> Alors, il pénétra sous la couverture, avec lui.</div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">L'arrivée d'al-Husayn</div><div class="sdiv-line"></div></div>
+
+<div class="passage">
+<div class="passage-ar">فَما كانَتْ اِلاَّ ساعَةً وَاِذا بِوَلَدِيَ الْحُسَيْنِ قَدْ اَقْبَلَ، وَقالَ السَّلامُ عَلَيْكِ يا اُمَّاهُ، فَقُلْتُ وَعَلَيْكَ السَّلامُ يا وَلَدي وَيا قُرَّةَ عَيْني وَثَمَرَةَ فُؤادي</div>
+<div class="passage-translit">Fa-mâ kânat illâ sâ'atunn wa idhâ bi-waladî-l-Husayni qad aqbala wa qâla : As-salâmu 'alayki yâ ummâhu ! Fa-qultu : wa 'alayka as-salâmu, yâ waladî, wa yâ qurrata 'aynî, wa thamarata fu'âdî.</div>
+<div class="passage-fr">Il ne passa pas un moment qu'arriva mon fils al-Husayn (que la paix soit sur lui). Il avança et dit : <strong>« Que la paix soit sur toi, ô ma mère ! »</strong> Je lui répondis : « Que la paix soit sur toi, ô plaisir de mes yeux et fruit de mes entrailles ! »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ لي يا اُمَّاهُ اِنّي اَشَمُّ عِنْدَكِ رآئِحَةً طَيِّبَةً، كَاَنَّها رآئِحَةُ جَدّي رَسُولِ اللَّهِ فَقُلْتُ نَعَمْ اِنَّ جَدَّكَ وَاَخاكَ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla lî : yâ ummâhu innî ashummu 'indaki râ'ihatann tayyibatann ka-annahâ râ'ihatu jaddî rasûli-llâhi. Fa-qultu : na'am, inna jaddaka wa akhâka tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il dit : « Ô ma mère, je sens chez toi une bonne odeur, comme si c'était l'odeur de mon grand-père, le Messager de Dieu. » Je lui dis : « Oui, en effet, ton grand-père et ton frère sont sous la couverture. »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَدَنَي الْحُسَيْنُ نَحْوَ الْكِسآءِ، وَقالَ السَّلامُ عَلَيْكَ يا جَدَّاهُ، اَلسَّلامُ عَلَيْكَ يا مَنِ اخْتارَهُ اللَّهُ، اَتَاْذَنُ لي اَنْ اَكُونَ مَعَكُما تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-danâ-l-Husaynu nahwa al-kisâ'i wa qâla : as-salâmu 'alayka yâ jaddâhu, as-salâmu 'alayka man akhtârahu-llâhu, a ta'dhan lî an akûna ma'akumâ tahta-l-kisâ'i.</div>
+<div class="passage-fr">Al-Husayn s'approcha de la couverture et dit : <strong>« Que la paix soit sur toi, ô grand-père, ô celui que Dieu a choisi ! M'autorises-tu à entrer avec vous sous la couverture ? »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ وَعَلَيْكَ السَّلامُ يا وَلَدي وَيا شافِعَ اُمَّتي، قَدْ اَذِنْتُ لَكَ فَدَخَلَ مَعَهُما تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla : wa 'alayka as-salâmu yâ waladî wa shâfi'a ummatî. Qad adhintu laka. Fa-dakhala ma'ahumâ tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il répondit : <strong>« Que la paix soit sur toi, ô mon fils et Intercesseur de ma communauté, je t'en donne l'autorisation. »</strong> Alors, il pénétra sous la couverture, avec eux deux.</div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">L'arrivée de 'Alî</div><div class="sdiv-line"></div></div>
+
+<div class="passage">
+<div class="passage-ar">فَاَقْبَلَ عِنْدَ ذلِكَ اَبُوالْحَسَنِ عَلِيُّ بْنُ اَبي طالِبٍ، وَقالَ السَّلامُ عَلَيْكِ يا بِنْتَ رَسُولِ اللَّهِ، فَقُلْتُ وَعَلَيْكَ السَّلامُ يا اَبَا الْحَسَنِ وَيا اَميرَ الْمُؤْمِنينَ</div>
+<div class="passage-translit">Fa-aqbala 'inda dhâlika abû-l-Hasani, 'Aliyyunn bnu abî Tâlibinn wa qâla : as-salâmu alayki yâ binta rasûli-llâhi. Fa-qultu : wa 'alayka as-salâmu, yâ abâ-l-Hasani, wa yâ amîra-l-mu'minîna.</div>
+<div class="passage-fr">Arriva alors Abû-l-Hasan, 'Alî ibn Abî Tâlib qui dit : <strong>« Que la paix soit sur toi, ô fille du Messager de Dieu ! »</strong> Je lui répondis : « Que la paix soit sur toi, ô Abû-l-Hasan, ô Prince des croyants ! »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ يا فاطِمَةُ اِنّي اَشَمُّ عِنْدَكِ رائِحَةً طَيِّبَةً كَاَنَّها رآئِحَةُ اَخي وَابْنِ عَمّي رَسُولِ اللَّهِ، فَقُلْتُ نَعَمْ ها هُوَ مَعَ وَلَدَيْكَ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla : yâ Fâtimatu, innî ashummu 'indaki râ'ihatann tayyibatann, ka-annahâ râ'ihatu akhî wa-bni 'ammî, rasûli-llâhi. Faqultu : na'am, hâ huwa ma'a waladayka tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il dit : « Ô Fâtimah, je sens chez toi une bonne odeur, comme si c'était l'odeur de mon frère et fils de mon oncle, le Messager de Dieu. » Je lui répondis : « Oui ! En effet, il est là, sous la couverture, avec tes deux fils. »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَاَقْبَلَ عَلِيٌّ نَحْوَ الْكِسآءِ، وَقالَ السَّلامُ عَلَيْكَ يا رَسُولَ اللَّهِ، اَتَاْذَنُ لي اَنْ اَكُونَ مَعَكُمْ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-aqbala 'Aliyyunn nahwâ-l-kisâ'i wa qâla : as-salâmu 'alayka, yâ rasûla-llâhi. A ta'dhanu lî an akûna ma'akum tahta-l-kisâ'i.</div>
+<div class="passage-fr">'Alî s'approcha de la couverture et dit : <strong>« Que la paix soit sur toi, ô Messager de Dieu ! M'autorises-tu à entrer avec vous sous la couverture ? »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">قالَ لَهُ وَعَلَيْكَ السَّلامُ يا اَخي يا وَصِيّي وَخَليفَتي وَصاحِبَ لِوآئي، قَدْ اَذِنْتُ لَكَ فَدَخَلَ عَلِيٌّ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Qâla lahu : wa 'alayka as-salâmu, yâ akhî, wa yâ wasiyyî wa khalîfatî wa sâhiba liwâ'î. Qad adhintu laka. Fa-dakhala 'Aliyyunn tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il répondit : <strong>« Que la paix soit sur toi, ô mon frère, ô mon Légataire, ô mon successeur et porteur de mon étendard ! Je t'en donne l'autorisation. »</strong> 'Alî pénétra sous la couverture.</div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">Fâtimah entre sous la couverture</div><div class="sdiv-line"></div></div>
+
+<div class="passage">
+<div class="passage-ar">ثُمَّ اَتَيْتُ نَحْوَ الْكِسآءِ، وَقُلْتُ اَلسَّلامُ عَلَيْكَ يا اَبَتاهُ يا رَسُولَ اللَّهِ، اَتَاْذَنُ لي اَن اَكُونَ مَعَكُمْ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Thumma ataytu nahwa-l-kisâ'i wa qultu : as-salâmu 'alayka, yâ abatâhu, yâ rasûla-llâhi. A ta'dhana lî an akûna ma'akum tahta-l-kisâ'i.</div>
+<div class="passage-fr">Ensuite, je me suis dirigée vers la couverture et dis : <strong>« Que la paix soit sur toi, ô père, ô Messager de Dieu ! M'autorises-tu à être avec vous sous la couverture ? »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">قالَ وَعَلَيْكِ السَّلامُ يا بِنْتي وَيا بَضْعَتي قَدْ اَذِنْتُ لَكِ، فَدَخَلْتُ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Qâla : wa 'alayki as-salâmu, yâ bintî wa yâ bid'atî. Qad adhintu laki. Fa-dakhaltu tahta-l-kisâ'i.</div>
+<div class="passage-fr">Il répondit : <strong>« Que la paix soit sur toi, ô ma fille, ô [chair de] ma chair ! Je t'en donne l'autorisation. »</strong> Alors je pénétrai sous la couverture.</div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">L'invocation du Prophète</div><div class="sdiv-line"></div></div>
+
+<div class="passage invocation">
+<div class="passage-ar">فَلَمَّا اكْتَمَلْنا جَميعاً تَحْتَ الْكِسآءِ، اَخَذَ اَبي رَسُولُ اللَّهِ بِطَرَفَيِ الْكِسآءِ، وَاَوْمَئَ بِيَدِهِ الْيُمْني اِلَي السَّمآءِ، وَقالَ</div>
+<div class="passage-translit">Fa-lammâ aktamalnâ jamî'ann tahta-l-kisâ'i, akhadha abî rasûlu-llâhi bi-tarafayî-l-kisâ'i wa awma'a bi-yadihi-l-yumnâ ilâ-s-samâ'i wa qâla :</div>
+<div class="passage-fr">Quand nous fûmes tous sous la couverture, mon père, le Messager de Dieu, prit les extrémités de la couverture et indiqua le ciel de la main droite et dit :</div>
+</div>
+
+<div class="passage invocation">
+<div class="passage-ar">اَللَّهُمَّ اِنَّ هؤُلاءِ اَهْلُ بَيْتي وَخآصَّتي وَحآمَّتي، لَحْمُهُمْ لَحْمي، وَدَمُهُمْ دَمي، يُؤْلِمُني ما يُؤْلِمُهُمْ، وَيَحْزُنُني ما يَحْزُنُهُمْ، اَنَا حَرْبٌ لِمَنْ حارَبَهُمْ، وَسِلْمٌ لِمَنْ سالَمَهُمْ وَعَدُوٌّ لِمَنْ عاداهُمْ، وَمُحِبٌّ لِمَنْ اَحَبَّهُمْ، اِنَّهُمْ مِنّي وَاَنَا مِنْهُمْ، فَاجْعَلْ صَلَواتِكَ وَبَرَكاتِكَ وَرَحْمَتَكَ، وَغُفْرانَكَ وَرِضْوانَكَ عَلَيَّ وَعَلَيْهِمْ، وَاَذْهِبْ عَنْهُمُ الرِّجْسَ، وَطَهِّرْهُمْ تَطْهيراً</div>
+<div class="passage-translit">Allâhumma, inna ha'ulâ'i ahlu baytî wa khâssatî wa hâmmatî, lahmuhum lahmî, wa damuhum damî, yû'limunî mâ yû'limuhum wa yuhzinunî mâ yuhzinuhum. Anâ harbunn li-man hârabahum, wa silmunn li-man sâlamahum, wa 'aduwwunn li-man 'âdâhum, wa muhibbunn li-man ahabbahum. Innahum minnî wa anâ minhum. Fa-j'al salawâtika wa barakâtika wa rahmataka wa ghufrânaka wa ridwânaka 'alayya wa 'alayhim, wa adhhib 'anhumu ar-rijsa wa tahhirhum tat'hîrann.</div>
+<div class="passage-fr"><strong>« Ô mon Dieu, ceux-là sont les gens de ma maison, mes plus propres, ceux qui sont sous ma protection, leur chair est ma chair, leur sang est mon sang, me fait souffrir celui qui les fait souffrir, m'attriste celui qui les attriste. Moi, je suis en guerre contre ceux qui sont en guerre contre eux et en paix avec ceux qui sont en paix avec eux. Je suis hostile à ceux qui leur sont hostiles et affectueux avec ceux qui le sont avec eux. Car ils sont de moi et moi, je suis d'eux. Alors place Tes Prières, Tes Bénédictions, Ta Miséricorde, Ton Pardon et Ton Agrément sur moi et sur eux, éloigne d'eux la souillure et purifie-les totalement. »</strong></div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">La Parole de Dieu</div><div class="sdiv-line"></div></div>
+
+<div class="passage divine">
+<div class="passage-ar">فَقالَ اللَّهُ عَزَّوَجَلَّ يا مَلائِكَتي وَيا سُكَّانَ سَمواتي، اِنّي ما خَلَقْتُ سَمآءً مَبْنِيَّةً، وَلا اَرْضاً مَدْحِيَّةً، وَلا قَمَراً مُنيراً، وَلا شَمْساً مُضِيئَةً، وَلا فَلَكاً يَدُورُ، وَلا بَحْراً يَجْري، وَلا فُلْكاً يَسْري، اِلاَّ في مَحَبَّةِ هؤُلاءِ الْخَمْسَةِ الَّذينَ هُمْ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla Allâhu, 'azza wa jalla : yâ malâ'ikatî wa yâ sukkâna samâwâtî, innî mâ khalaqtu samâ'ann mabniyyatann, wa lâ ardann madahiyyatann, wa lâ qamarann munîrann, wa lâ shamsann mudî'atann, wa lâ falakann yadûru, wa lâ bahrann yajrî, wa lâ fulkann yasrî, illâ fî mahabbati ha'ulâ'i al-khamsati al-ladhîna hum tahta-l-kisâ'i.</div>
+<div class="passage-fr"><strong>« Ô Mes Anges, ô habitants de Mes Cieux, Je n'ai créé aucun ciel construit, aucune terre étalée, aucune lune lumineuse, aucun soleil radieux, aucun corps céleste qui tourne, aucune mer qui s'écoule, aucun vaisseau qui navigue, que par amour pour ces cinq qui sont sous la couverture. »</strong></div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">Gabriel descend</div><div class="sdiv-line"></div></div>
+
+<div class="passage angel">
+<div class="passage-ar">فَقالَ الْأَمينُ جِبْرآئيلُ يا رَبِّ وَمَنْ تَحْتَ الْكِسآءِ</div>
+<div class="passage-translit">Fa-qâla al-amînu Jabrâ'îlu : yâ rabbi, wa man tahta-l-kisâ'i ?</div>
+<div class="passage-fr">Alors Gabriel, le Fidèle dit : <strong>« Ô Seigneur, et qui est sous la couverture ? »</strong></div>
+</div>
+
+<div class="passage divine">
+<div class="passage-ar">قالَ عَزَّوَجَلَّ هُمْ اَهْلُ بَيْتِ النُّبُوَّةِ، وَمَعْدِنُ الرِّسالَةِ، هُمْ فاطِمَةُ وَاَبُوها وَبَعْلُها وَبَنُوها</div>
+<div class="passage-translit">Fa-qâla 'azza wa jalla : hum ahlu bayti-n-nubuwwati wa ma'dinu-r-risâlati, hum Fâtimatu wa abûhâ wa ba'luhâ wa banûhâ.</div>
+<div class="passage-fr"><strong>« Ce sont les gens de la Maison de la Prophétie, et le Joyau du Message, ce sont Fâtimah, son père, son époux et ses deux fils. »</strong></div>
+</div>
+
+<div class="passage angel">
+<div class="passage-ar">فَقالَ جِبْرآئيلُ يا رَبِّ، اَتَاْذَنُ لي اَنْ اَهْبِطَ اِلَي الْأَرْضِ لِأَكُونَ مَعَهُمْ سادِساً</div>
+<div class="passage-translit">Fa-qâla Jabrâ'îlu : yâ rabbi. A ta'dhanu lî an ahbita ilâ-l-ardi li-akûna ma'ahum sâdisann ?</div>
+<div class="passage-fr">Gabriel dit alors : <strong>« Ô mon Seigneur, m'autorises-Tu à descendre sur terre pour être, avec eux, le sixième ? »</strong></div>
+</div>
+
+<div class="passage divine">
+<div class="passage-ar">فَقالَ اللَّهُ نَعَمْ قَدْ اَذِنْتُ لَكَ</div>
+<div class="passage-translit">Fa-qâla Allâhu : na'am, qad adhintu laka.</div>
+<div class="passage-fr"><strong>« Oui, Je t'y autorise. »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَهَبَطَ الْأَمينُ جِبْرآئيلُ، وَقالَ السَّلامُ عَلَيْكَ يا رَسُولَ اللَّهِ، الْعَلِيُ الْأَعْلي يُقْرِئُكَ السَّلامَ، وَيَخُصُّكَ بِالتَّحِيَّةِ وَالْإِكْرامِ، وَيَقُولُ لَكَ وَعِزَّتي وَجَلالي اِنّي ما خَلَقْتُ سَمآءً مَبْنِيَّةً، وَلا اَرْضاً مَدْحِيَّةً، وَلا قَمَراً مُنيراً، وَلا شَمْساً مُضيئَةً وَلا فَلَكاً يَدُورُ، وَلا بَحْراً يَجْري، وَلا فُلْكاً يَسْري، اِلاَّ لِأَجْلِكُمْ وَمَحَبَّتِكُمْ، وَقَدْ اَذِنَ لي اَنْ اَدْخُلَ مَعَكُمْ، فَهَلْ تَاْذَنُ لي يا رَسُولَ اللَّهِ</div>
+<div class="passage-translit">Fa-habata-l-amînu Jabrâ'îlu wa qâla : As-salâmu 'alayka yâ rasûla-llâhi, al-'Aliyyu al-A'lâ yuqri'uka as-salâma wa yakhussuka bi-t-tahiyyati wa-l-ikrâmi wa yaqûlu laka : wa 'izzatî wa jalâlî, innî mâ khalaqtu samâ'ann mabniyyatann, wa lâ ardann mad'hiyyatann wa lâ qamarann munîrann, wa lâ shamsann mudî'atann, wa lâ falakann yadûru, wa lâ bahrann yajrî, wa lâ fulkann yasrî, illâ li-ajlikum wa mahabbatikum, wa qad adhina lî an adkhula ma'akum. Fa-hal ta'dhanu lî, yâ rasûla-llâhi.</div>
+<div class="passage-fr">Gabriel, le fidèle, descendit sur terre et dit : « Que la paix soit sur toi, ô Messager de Dieu ! Le Très-Élevé t'envoie le salut de paix et les salutations et les honneurs et te fait dire : <strong>Par Ma Gloire et Ma Majesté, Je n'ai créé aucun ciel construit, aucune terre étalée, aucune lune lumineuse, aucun soleil radieux, aucun corps céleste qui tourne, aucune mer qui s'écoule, aucun vaisseau qui navigue, que pour vous et par amour pour vous.</strong> Il m'a autorisé à entrer avec vous. M'y autorises-tu, ô Messager de Dieu ? »</div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ رَسُولُ اللَّهِ وَعَلَيْكَ السَّلامُ يا اَمينَ وَحْيِ اللَّهِ، اِنَّهُ نَعَمْ قَدْ اَذِنْتُ لَكَ</div>
+<div class="passage-translit">Fa-qâla rasûlu-llâhi : wa 'alayka as-salâmu, yâ amîna wahyi-llâhi, innahu na'am, qad adhintu laka.</div>
+<div class="passage-fr">Le Messager de Dieu lui répondit : <strong>« Que la paix soit sur toi, ô fidèle Révélation de Dieu ! Bien sûr que je t'y autorise ! »</strong></div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">La Révélation du verset de la Purification</div><div class="sdiv-line"></div></div>
+
+<div class="passage invocation">
+<div class="passage-ar">فَدَخَلَ جِبْرآئيلُ مَعَنا تَحْتَ الْكِسآءِ، فَقالَ لِأَبي اِنَّ اللَّهَ قَدْ اَوْحى اِلَيْكُمْ يَقُولُ: اِنَّما يُريدُ اللَّهُ لِيُذْهِبَ عَنْكُمُ الرِّجْسَ اَهْلَ الْبَيْتِ، وَيُطَهِّرَكُمْ تَطْهيراً</div>
+<div class="passage-translit">Fa-dakhala Jabrâ'îlu ma'anâ tahta-l-kisâ'i. Fa-qâla li-abî : inna-llâha qad awhâ ilaykum, yaqûlu : innamâ yurîdu-llâhu li-yudhhiba 'ankum ar-rijsa, ahla-l-bayti, wa yutahhirakum tat'hîrann.</div>
+<div class="passage-fr">Alors Gabriel entra, avec nous, sous la couverture et dit à mon père : « Dieu vous a révélé : <strong>En effet, Dieu veut éloigner de vous, les gens de la Maison, la souillure et vous purifier totalement.</strong> » (Coran 33:33)</div>
+</div>
+
+<div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">La promesse</div><div class="sdiv-line"></div></div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ عَلِيٌّ لِأَبي يا رَسُولَ اللَّهِ، اَخْبِرْني ما لِجُلُوسِنا هذا تَحْتَ الْكِسآءِ مِنَ الْفَضْلِ عِنْدَ اللَّهِ؟</div>
+<div class="passage-translit">Fa-qâla 'Aliyyunn li-abî : yâ rasûla-llâhi, akhbirnî mâ li-julûsinâ hâdhâ tahta-l-kisâ'i mina-l-fadli 'inda-llâhi?</div>
+<div class="passage-fr">Alors 'Alî dit à mon père : « Ô Messager de Dieu, dis-moi : quelle faveur allons-nous recevoir de Dieu pour être assis sous la couverture ? »</div>
+</div>
+
+<div class="passage invocation">
+<div class="passage-ar">فَقالَ النَّبِيُّ وَالَّذي بَعَثَني بِالْحَقِّ نَبِيّاً، وَاصْطَفاني بِالرِّسالَةِ نَجِيّاً، ما ذُكِرَ خَبَرُنا هذا في مَحْفِلٍ مِنْ مَحافِلِ اَهْلِ الْأَرْضِ، وَفيهِ جَمْعٌ مِنْ شَيعَتِنا وَمُحِبّينا، اِلاَّ وَنَزَلَتْ عَلَيْهِمُ الرَّحْمَةُ وَحَفَّتْ بِهِمُ الْمَلائِكَةُ، وَاسْتَغْفَرَتْ لَهُمْ اِلي اَنْ يَتَفَرَّقُوا</div>
+<div class="passage-translit">Fa-qâla an-nabiyyu : wa-l-ladhî ba'athanî bi-l-haqqi nabiyyann wa-stafânî bi-r-risâlati najiyyann, mâ dhukira khabarunâ hâdhâ fî mahfilinn min mahâfîli ahli-l-ardi wa fîhi jam'unn min shî'atinâ wa muhibbînâ, illâ wa nazalat 'alayhimu ar-rahmatu wa haffat bihimu al-malâ'ikatu wa-staghfarat lahum ilâ an yatafarraqû.</div>
+<div class="passage-fr">Le Prophète répondit : <strong>« Par Celui qui m'a envoyé en toute Vérité comme Prophète et m'a choisi pour me confier le Message, cette nouvelle sur nous n'est pas évoquée dans quelque assemblée de gens de la terre où sont rassemblés nos partisans et ceux qui nous aiment, que la Miséricorde ne soit descendue sur eux, que les Anges ne les aient entourés et n'aient demandé pardon pour eux avant qu'ils ne se soient séparés. »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ عَلِيٌّ اِذاً وَاللَّهِ فُزْنا وَفازَ شيعَتُنا وَرَبِّ الْكَعْبَةِ</div>
+<div class="passage-translit">Fa-qâla 'Aliyyu : idhin, wa-llâhi, fuznâ wa fâza shî'atunâ, wa rabbi-l-ka'bati.</div>
+<div class="passage-fr">'Alî (que la Paix soit sur lui) dit : <strong>« Alors, par Dieu, nous sommes les vainqueurs et nos partisans sont les vainqueurs, Seigneur de la Ka'bah ! »</strong></div>
+</div>
+
+<div class="passage invocation">
+<div class="passage-ar">فَقالَ النَّبِيُّ ثانِياً يا عَلِيُّ وَالَّذي بَعَثَني بِالْحَقِّ نَبِيّاً، وَاصْطَفاني بِالرِّسالَةِ نَجِيّاً، ما ذُكِرَ خَبَرُنا هذا في مَحْفِلٍ مِنْ مَحافِلِ اَهْلِ الْأَرْضِ، وَفيهِ جَمْعٌ مِنْ شيعَتِنا وَمُحِبّينا، وَفيهِمْ مَهْمُومٌ اِلاَّ وَفَرَّجَ اللَّهُ هَمَّهُ، وَلا مَغْمُومٌ اِلاَّ وَكَشَفَ اللَّهُ غَمَّهُ، وَلا طالِبُ حاجَةٍ اِلاَّ وَقَضَي اللّهُ حاجَتَهُ</div>
+<div class="passage-translit">Fa-qâla abî rasûlu-llâhi : yâ 'Aliyyunn, wa-l-ladhî ba'athanî bi-l-haqqi nabiyyann wa-stafânî bi-r-risâlati najiyann, mâ dhukira khabarunâ hâdhâ fî mahfilinn min mahâfîli ahli-l-ardi wa fîhi jam'unn min shî'atinâ wa muhibbînâ, wa fîhim mahmûmunn illâ wa farraja-llâhu hammahu, wa lâ maghmûmunn illâ wa kashafa-llâhu ghammahu, wa lâ tâlibu hâjatinn illâ wa qadâ-llâhu hâjatahu.</div>
+<div class="passage-fr">Le Messager de Dieu dit : <strong>« Ô 'Alî, par Celui qui m'a envoyé en toute Vérité comme Prophète et m'a choisi pour me confier le Message, cette nouvelle nous concernant n'est pas évoquée dans quelque assemblée de gens sur terre où sont rassemblés nos partisans et ceux qui nous aiment, que, certains ayant des soucis, Dieu ne les ait dissipés, des chagrins que Dieu ne les ait soulagés, ni une demande que Dieu n'ait agréée. »</strong></div>
+</div>
+
+<div class="passage">
+<div class="passage-ar">فَقالَ عَلِيٌّ اِذاً وَاللَّهِ فُزْنا وَسُعِدْنا، وَكَذلِكَ شيعَتُنا فازُوا وَسُعِدُوا فِي الدُّنْيا وَالْأخِرَةِ، وَرَبِّ الْكَعْبَةِ</div>
+<div class="passage-translit">Fa-qâla 'Aliyyunn : idhan wa-llâhi fuznâ wa su'idnâ, wa kadhâlika shî'atunâ fâzû wa su'idû fî-d-dunyâ wa-l-âkhirati, wa rabbi-l-ka'bati.</div>
+<div class="passage-fr">'Alî (que la Paix soit sur lui) dit : <strong>« Alors, par Dieu, nous sommes les vainqueurs et les bienheureux et nos partisans sont les vainqueurs et les bienheureux, sur terre et dans l'Au-delà, Seigneur de la Ka'bah ! »</strong></div>
+</div>
+
+<div class="sources"><div class="sources-title">Sources</div>
+<p class="source-item"><em>'Awâlim al-'Ulûm</em>, de Shaykh 'Abdallah al-Bahrânî al-Isfahânî — source principale de cette version du hadith.</p>
+<p class="source-item">Le verset de la Purification : Coran 33:33 (sourate Al-Ahzâb).</p>
+<p class="source-item">Ce hadith est rapporté avec des variantes dans de nombreuses sources chiites et sunnites, dont le <em>Sahîh de Muslim</em> et le <em>Musnad d'Ahmad</em>.</p>
+</div>
+</div>
+</body>
+</html>

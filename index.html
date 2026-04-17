@@ -138,6 +138,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     <button class="nav-tab" id="tab-4">Invocations</button>
     <button class="nav-tab" id="tab-5">Biblioth&#232;que</button>
     <button class="nav-tab" id="tab-6">Vid&#233;os</button>
+    <button class="nav-tab" id="tab-hadith">Hadiths</button>
   </div>
 </nav>
 
@@ -163,6 +164,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       <button class="filter-tag" data-filter="invocations">Invocations</button>
       <button class="filter-tag" data-filter="bibliotheque">Biblioth&#232;que</button>
       <button class="filter-tag" data-filter="videos">Vid&#233;os</button>
+      <button class="filter-tag" data-filter="hadith">Hadiths</button>
     </div>
     <div class="search-count" id="searchCount"></div>
   </div>
@@ -207,6 +209,14 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       <div class="card-title">Du&#8217;&#x101; &amp; Ziy&#x101;ra</div>
       <div class="card-desc">Invocations et visites pieuses de l'Ahl al-Bayt, tir&#233;es de la &#7778;a&#7717;&#299;fa as-Sajj&#257;diyya.</div>
       <div class="card-footer"><span class="card-meta">As-&#7778;a&#7717;&#299;fa &middot; Ziy&#257;ra</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Hadiths -->
+    <div class="card" id="card-hadith" data-theme="hadith" data-keywords="hadith kisa couverture ahl bayt fatimah ali hasan husayn prophete" onclick="openSubMenu('hadith')">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 6 L28 6 C29 6 30 7 30 8 L30 28 C30 29 29 30 28 30 L8 30 C7 30 6 29 6 28 L6 8 C6 7 7 6 8 6Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 6 L10 30" stroke="#c9a84c" stroke-width="1.5"/><line x1="14" y1="12" x2="26" y2="12" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="16" x2="26" y2="16" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="20" x2="22" y2="20" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="24" x2="24" y2="24" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg></div>
+      <div class="card-tag">Hadiths</div>
+      <div class="card-title">Hadiths des Ahl al-Bayt</div>
+      <div class="card-desc">Hadiths majeurs de la tradition chiite : al-Kis&#226;', Thaqalayn et autres r&#233;cits fondateurs.</div>
+      <div class="card-footer"><span class="card-meta">Audio &middot; Arabe &middot; Fran&#231;ais</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
     </div>
     <!-- Bibliothèque -->
     <div class="card soon" id="card-5" data-theme="bibliotheque" data-keywords="bibliotheque livres textes fiqh theologie spiritualite">
@@ -279,6 +289,22 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       </div>
     </div>
   </div>
+
+  <div class="submenu" id="submenu-hadith" style="display:none">
+    <div class="submenu-header">
+      <button class="submenu-back" onclick="closeSubMenu()">&#8592; Retour</button>
+      <div class="submenu-title">&#128220; Hadiths des Ahl al-Bayt</div>
+    </div>
+    <div class="submenu-cards">
+      <div class="card" id="card-10">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 6 L28 6 C29 6 30 7 30 8 L30 28 C30 29 29 30 28 30 L8 30 C7 30 6 29 6 28 L6 8 C6 7 7 6 8 6Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 6 L10 30" stroke="#c9a84c" stroke-width="1.5"/><line x1="14" y1="12" x2="26" y2="12" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="16" x2="26" y2="16" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="20" x2="22" y2="20" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg></div>
+        <div class="card-tag">Hadith sacr&#233;</div>
+        <div class="card-title">Hadith al-Kis&#226;'</div>
+        <div class="card-desc">Le Hadith de la Couverture — Arabe, translitt&#233;ration et traduction fran&#231;aise, avec audio.</div>
+        <div class="card-footer"><span class="card-meta">Audio &middot; Trilingue &middot; Coran 33:33</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+    </div>
+  </div>
 </div><!-- fin .home -->
 
 <!-- IFRAMES — position:fixed, hors du flux, hors de tout conteneur -->
@@ -292,6 +318,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <div class="iframe-wrap" id="frame7"><div class="loader" id="loader7"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe7"></iframe></div>
 <div class="iframe-wrap" id="frame8"><div class="loader" id="loader8"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe8"></iframe></div>
 <div class="iframe-wrap" id="frame9"><div class="loader" id="loader9"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe9"></iframe></div>
+<div class="iframe-wrap" id="frame10"><div class="loader" id="loader10"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe10"></iframe></div>
 
 <script>
 (function(){
@@ -305,7 +332,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     "videos.html",
     "article-connaissance.html",
     "coran-lecture.html",
-    "usul-al-din.html"
+    "usul-al-din.html",
+    "hadith-kisa.html"
   ];
   var N = MODULES.length;
   var loaded = new Array(N).fill(false);
@@ -411,6 +439,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   /* ── Onglets thématiques → ouvrent le sous-menu ── */
   document.getElementById('tab-chiisme').addEventListener('click', function(){ openSubMenu('chiisme'); });
   document.getElementById('tab-coran').addEventListener('click', function(){ openSubMenu('coran'); });
+  document.getElementById('tab-hadith').addEventListener('click', function(){ openSubMenu('hadith'); });
 
   /* ── Onglets directs → ouvrent le module ── */
   var directTabs = {1:1, 3:3, 4:4, 5:5, 6:6};
@@ -423,7 +452,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
-  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9};
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10};
   Object.keys(cardModules).forEach(function(cardId){
     var el = document.getElementById('card-' + cardId);
     if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId]); });
