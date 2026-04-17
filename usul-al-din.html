@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Usûl al-Dîn — Les Fondements de la Foi dans le Chiisme</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Scheherazade+New:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500;0,600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;background:#070c18;color:#e2d9c4;font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.8;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23c9a84c' stroke-width='0.3' opacity='0.055'%3E%3Crect x='22' y='22' width='56' height='56' rx='2'/%3E%3Crect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='28'/%3E%3C/g%3E%3C/svg%3E");background-size:100px;pointer-events:none;z-index:0}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:#070c18}::-webkit-scrollbar-thumb{background:rgba(201,168,76,0.3);border-radius:3px}
+.wrap{max-width:760px;margin:0 auto;padding:56px 28px 100px;position:relative;z-index:1}
+.hero{text-align:center;margin-bottom:52px}
+.hero-ornament{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:24px}
+.orn-line{height:1px;width:80px;background:linear-gradient(to right,transparent,#c9a84c)}.orn-line.r{background:linear-gradient(to left,transparent,#c9a84c)}
+.orn-gem{width:7px;height:7px;background:#c9a84c;transform:rotate(45deg);box-shadow:0 0 8px rgba(201,168,76,0.6)}
+.hero-label{font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.22em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:16px}
+.hero-title{font-family:'Cinzel',serif;font-size:clamp(1.4rem,3.5vw,2.1rem);font-weight:700;color:#e8e2d0;line-height:1.25;margin-bottom:10px}
+.hero-title span{color:#c9a84c}
+.hero-subtitle{font-size:1.1rem;color:#7a6a4a;font-style:italic;margin-bottom:28px;line-height:1.6}
+.hero-divider{width:120px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:0 auto}
+.toc{background:rgba(19,29,53,0.6);border:1px solid rgba(201,168,76,0.15);border-radius:14px;padding:22px 26px;margin-bottom:48px}
+.toc-title{font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.18em;text-transform:uppercase;color:#c9a84c;margin-bottom:14px;opacity:0.8}
+.toc-list{list-style:none;display:flex;flex-direction:column;gap:8px}
+.toc-item{display:flex;align-items:baseline;gap:10px;cursor:pointer;transition:color 0.2s}
+.toc-item:hover .toc-link{color:#e8c06a}
+.toc-num{font-family:'Cinzel',serif;font-size:0.72rem;color:#c9a84c;opacity:0.5;min-width:26px;flex-shrink:0}
+.toc-link{font-size:1rem;color:#9aa3b8;transition:color 0.2s}
+.section{margin-bottom:52px;scroll-margin-top:20px}
+.section-header{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+.section-num{font-family:'Cinzel',serif;font-size:0.75rem;font-weight:700;color:#c9a84c;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.25);border-radius:6px;padding:4px 10px;flex-shrink:0}
+.section-title{font-family:'Cinzel',serif;font-size:1.2rem;font-weight:600;color:#e8e2d0;line-height:1.3}
+.section-line{height:1px;flex:1;background:linear-gradient(to right,rgba(201,168,76,0.2),transparent)}
+.body-text{font-size:1.15rem;color:#cec6b0;line-height:1.95;margin-bottom:18px;text-align:justify}
+.body-text strong{color:#e8c06a;font-weight:600}
+.body-text em{color:#b8a882}
+.quran{background:rgba(201,168,76,0.05);border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:18px 24px;margin:22px 0;text-align:center}
+.quran-fr{font-style:italic;font-size:1.1rem;color:#ddd5bf;margin-bottom:8px;line-height:1.8}
+.quran-ref{font-family:'Cinzel',serif;font-size:0.78rem;color:#c9a84c;opacity:0.55;letter-spacing:0.1em}
+.concept-list{list-style:none;margin:16px 0 22px;display:flex;flex-direction:column;gap:12px}
+.concept-item{display:flex;align-items:baseline;gap:12px;font-size:1.1rem;color:#cec6b0;line-height:1.8}
+.concept-bullet{width:5px;height:5px;background:#c9a84c;transform:rotate(45deg);flex-shrink:0;margin-top:10px;box-shadow:0 0 4px rgba(201,168,76,0.4)}
+.concept-item strong{color:#e8c06a;font-weight:600}
+.pillar-box{background:rgba(13,22,42,0.7);border:1px solid rgba(201,168,76,0.2);border-left:3px solid #c9a84c;border-radius:0 12px 12px 0;padding:20px 24px;margin:22px 0;position:relative;overflow:hidden}
+.pillar-box::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at top left,rgba(201,168,76,0.05),transparent 60%);pointer-events:none}
+.pillar-box .pillar-name{font-family:'Cinzel',serif;font-size:1rem;font-weight:700;color:#c9a84c;margin-bottom:6px}
+.pillar-box .pillar-ar{font-family:'Scheherazade New',serif;font-size:1.3rem;color:#c9a84c;opacity:0.6;margin-bottom:10px}
+.pillar-box .pillar-text{font-size:1.1rem;color:#ddd5bf;line-height:1.85}
+.synthesis-grid{display:grid;grid-template-columns:1fr;gap:10px;margin:22px 0}
+.synthesis-item{display:flex;align-items:baseline;gap:12px;font-size:1.05rem;color:#cec6b0;line-height:1.7;padding:10px 16px;background:rgba(19,29,53,0.4);border:1px solid rgba(201,168,76,0.08);border-radius:8px}
+.synthesis-item strong{color:#c9a84c;font-weight:700;min-width:130px;flex-shrink:0}
+.synthesis-item em{color:#9aa3b8;font-style:italic}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0}
+.sdiv-line{height:1px;flex:1;background:linear-gradient(to right,transparent,rgba(201,168,76,0.2),transparent)}
+.sdiv-gem{width:5px;height:5px;background:rgba(201,168,76,0.4);transform:rotate(45deg)}
+.sources{background:rgba(7,12,24,0.8);border:1px solid rgba(201,168,76,0.12);border-radius:12px;padding:24px 28px;margin-top:48px}
+.sources-title{font-family:'Cinzel',serif;font-size:0.78rem;letter-spacing:0.18em;text-transform:uppercase;color:#c9a84c;margin-bottom:18px;opacity:0.7}
+.source-item{font-size:0.95rem;color:#7a6a4a;margin-bottom:10px;line-height:1.6;padding-left:14px;position:relative}
+.source-item::before{content:'·';position:absolute;left:0;color:#c9a84c;opacity:0.5}
+@media(max-width:600px){.wrap{padding:36px 18px 80px}.body-text{font-size:1.05rem}.synthesis-item{flex-direction:column;gap:4px}.synthesis-item strong{min-width:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+<div class="hero-label">Théologie chiite duodécimaine</div>
+<div class="hero-ornament"><div class="orn-line"></div><div class="orn-gem"></div><div class="orn-line r"></div></div>
+<h1 class="hero-title">Usûl al-Dîn : Les <span>Fondements</span><br>de la Foi dans le <span>Chiisme</span></h1>
+<div class="hero-subtitle">Les cinq piliers doctrinaux — At-Tawhîd · Al-ʿAdl · An-Nubuwwah · Al-Imâmah · Al-Maʿâd</div>
+<div class="hero-divider"></div>
+</div>
+
+<div class="toc"><div class="toc-title">Table des matières</div>
+<ul class="toc-list">
+<li class="toc-item" onclick="document.getElementById('s0').scrollIntoView({behavior:'smooth'})"><span class="toc-num">Intro</span><span class="toc-link">Qu'est-ce que les Usûl al-Dîn ?</span></li>
+<li class="toc-item" onclick="document.getElementById('s1').scrollIntoView({behavior:'smooth'})"><span class="toc-num">I</span><span class="toc-link">At-Tawhîd — L'Unicité de Dieu</span></li>
+<li class="toc-item" onclick="document.getElementById('s2').scrollIntoView({behavior:'smooth'})"><span class="toc-num">II</span><span class="toc-link">Al-ʿAdl — La Justice Divine</span></li>
+<li class="toc-item" onclick="document.getElementById('s3').scrollIntoView({behavior:'smooth'})"><span class="toc-num">III</span><span class="toc-link">An-Nubuwwah — La Prophétie</span></li>
+<li class="toc-item" onclick="document.getElementById('s4').scrollIntoView({behavior:'smooth'})"><span class="toc-num">IV</span><span class="toc-link">Al-Imâmah — L'Imamat</span></li>
+<li class="toc-item" onclick="document.getElementById('s5').scrollIntoView({behavior:'smooth'})"><span class="toc-num">V</span><span class="toc-link">Al-Maʿâd — La Résurrection</span></li>
+<li class="toc-item" onclick="document.getElementById('s6').scrollIntoView({behavior:'smooth'})"><span class="toc-num">VI</span><span class="toc-link">Pourquoi ces cinq principes ?</span></li>
+</ul></div>
+
+<div class="section" id="s0"><div class="section-header"><span class="section-num">Introduction</span><div class="section-line"></div></div>
+<p class="body-text">Dans l'islam chiite imamite, la foi ne repose pas uniquement sur des pratiques rituelles. Elle s'ancre d'abord dans des <strong>croyances fondamentales</strong> appelées <strong>Usûl al-Dîn</strong> — littéralement les « racines de la religion ». Ces cinq principes forment le cœur de la théologie chiite : les accepter et les comprendre, c'est la condition première pour être un croyant accompli.</p>
+<p class="body-text">Les Usûl al-Dîn sont les <strong>cinq piliers doctrinaux</strong> du chiisme duodécimain, à distinguer des <em>Furûʿ al-Dîn</em> (les branches de la religion), qui concernent les actes d'adoration comme la prière ou le jeûne.</p>
+<ul class="concept-list">
+<li class="concept-item"><div class="concept-bullet"></div><span>Les <strong>Usûl</strong> relèvent de la <strong>conviction intérieure</strong> — on doit les croire par la raison et le cœur.</span></li>
+<li class="concept-item"><div class="concept-bullet"></div><span>Les <strong>Furûʿ</strong> relèvent des <strong>actes extérieurs</strong> — on doit les pratiquer dans le quotidien.</span></li>
+</ul>
+<p class="body-text">Nier l'un des Usûl al-Dîn est considéré comme une rupture grave avec la foi. C'est pourquoi chaque croyant chiite est invité à les comprendre profondément, et pas seulement à les mémoriser.</p>
+</div>
+
+<div class="section-divider"><div class="sdiv-line"></div><div class="sdiv-gem"></div><div class="sdiv-line"></div></div>
+
+<div class="section" id="s1"><div class="section-header"><span class="section-num">I</span><h2 class="section-title">At-Tawhîd — L'Unicité de Dieu</h2></div>
+<p class="body-text">Le Tawhîd est le fondement de tout. Il affirme qu'<strong>Allâh est Un</strong>, sans associé, sans ressemblance avec Ses créatures, sans commencement ni fin. Ce n'est pas simplement dire « Dieu existe » — c'est comprendre que Dieu est l'<strong>Existence Nécessaire</strong> dont tout le reste dépend.</p>
+<div class="quran"><div class="quran-fr">« Dis : Il est Allâh, Unique. Allâh, le Refuge éternel. Il n'engendre pas et n'est pas engendré. Et nul n'est égal à Lui. »</div><div class="quran-ref">Sourate Al-Ikhlâs · 112:1–4</div></div>
+<p class="body-text">Dans la théologie chiite, le Tawhîd se décline en trois niveaux :</p>
+<ul class="concept-list">
+<li class="concept-item"><div class="concept-bullet"></div><span><strong>L'unicité de l'essence</strong> : Dieu est absolument Un, sans parties ni division.</span></li>
+<li class="concept-item"><div class="concept-bullet"></div><span><strong>L'unicité des attributs</strong> : Ses attributs (savoir, puissance, vie…) ne sont pas distincts de Son essence — il n'y a pas un « Dieu » et séparément « Sa science », tout est Un.</span></li>
+<li class="concept-item"><div class="concept-bullet"></div><span><strong>L'unicité des actes</strong> : Dieu seul crée, gouverne et soutient l'univers. Lui seul mérite l'adoration.</span></li>
+</ul>
+<p class="body-text">Le Tawhîd est donc bien plus qu'un slogan : c'est une <strong>vision du monde entière</strong>, qui oriente chaque acte et chaque pensée du croyant.</p>
+</div>
+
+<div class="section-divider"><div class="sdiv-line"></div><div class="sdiv-gem"></div><div class="sdiv-line"></div></div>
+
+<div class="section" id="s2"><div class="section-header"><span class="section-num">II</span><h2 class="section-title">Al-ʿAdl — La Justice Divine</h2></div>
+<p class="body-text">L'ʿAdl affirme que <strong>Dieu est juste par essence</strong> : Il n'agit jamais de manière injuste ou arbitraire. Tout ce qu'Il fait est empreint de sagesse, même si la raison humaine n'en perçoit pas toujours la portée.</p>
+<p class="body-text">Ce principe a une conséquence fondamentale : l'être humain est <strong>libre</strong> de ses choix. Dieu n'oblige personne à faire le mal pour ensuite le punir — ce serait une injustice. Le croyant chiite est donc responsable de ses actes devant Allâh.</p>
+<div class="quran"><div class="quran-fr">« Allâh ne fait subir aucune injustice aux hommes, mais ce sont les hommes qui se font du tort à eux-mêmes. »</div><div class="quran-ref">Sourate Yûnus · 10:44</div></div>
+<p class="body-text">C'est sur ce point que le chiisme se distingue de certaines écoles sunnites qui adoptent une vision plus prédestiniste : pour les chiites, la liberté et la responsabilité humaines sont des réalités réelles, pas illusoires.</p>
+</div>
+
+<div class="section-divider"><div class="sdiv-line"></div><div class="sdiv-gem"></div><div class="sdiv-line"></div></div>
+
+<div class="section" id="s3"><div class="section-header"><span class="section-num">III</span><h2 class="section-title">An-Nubuwwah — La Prophétie</h2></div>
+<p class="body-text">Allâh n'a pas laissé l'humanité sans guide. Il a envoyé des <strong>prophètes</strong> tout au long de l'histoire pour transmettre Sa parole et guider les hommes vers le droit chemin. Les chiites croient, selon la tradition, en une longue chaîne de 124 000 prophètes, depuis Adam jusqu'à <strong>Muhammad (ṣ)</strong>, le sceau des prophètes — après lui, il n'en viendra plus aucun (Coran 33:40).</p>
+<p class="body-text">Les prophètes sont <strong>infaillibles</strong> (<em>maʿṣûmûn</em>) : protégés de l'erreur et du péché dans la transmission du message divin. Parmi eux, certains ont apporté une loi nouvelle (<em>sharîʿah</em>) comme Ibrâhîm, Mûsâ, ʿÎsâ et Muhammad.</p>
+<p class="body-text">Le message du Prophète Muhammad est <strong>universel et éternel</strong> : le Coran, révélé en arabe, est la Parole de Dieu parfaitement préservée, guide pour toute l'humanité jusqu'au Jour dernier.</p>
+</div>
+
+<div class="section-divider"><div class="sdiv-line"></div><div class="sdiv-gem"></div><div class="sdiv-line"></div></div>
+
+<div class="section" id="s4"><div class="section-header"><span class="section-num">IV</span><h2 class="section-title">Al-Imâmah — L'Imamat</h2></div>
+<p class="body-text">C'est le pilier <strong>le plus distinctif</strong> du chiisme, celui qui le sépare le plus clairement du sunnisme. L'Imâmah affirme qu'après le Prophète Muhammad, la direction spirituelle et religieuse de la communauté musulmane revenait de droit à <strong>douze Imams désignés par Dieu</strong>, issus de sa descendance via sa fille Fâṭimah et son cousin ʿAlî ibn Abî Ṭâlib.</p>
+<div class="pillar-box">
+<div class="pillar-name">Les douze Imams</div>
+<div class="pillar-text">ʿAlî · Ḥasan · Ḥusayn · ʿAlî Zayn al-ʿÂbidîn · Muḥammad al-Bâqir · Jaʿfar aṣ-Ṣâdiq · Mûsâ al-Kâẓim · ʿAlî ar-Riḍâ · Muḥammad al-Jawâd · ʿAlî al-Hâdî · Ḥasan al-ʿAskarî · et enfin <strong>Muḥammad al-Mahdî</strong> — le douzième Imam, en occultation depuis le IX<sup>e</sup> siècle et dont le retour annoncera la justice universelle.</div>
+</div>
+<p class="body-text">Comme les prophètes, les Imams sont <strong>infaillibles</strong> et <strong>savants de la vérité</strong> : ils interprètent le Coran, préservent la religion et guident la communauté. Leur désignation repose sur des textes coraniques et prophétiques, dont le célèbre hadith de <strong>Ghadîr Khumm</strong>, où le Prophète désigna ʿAlî comme son successeur.</p>
+</div>
+
+<div class="section-divider"><div class="sdiv-line"></div><div class="sdiv-gem"></div><div class="sdiv-line"></div></div>
+
+<div class="section" id="s5"><div class="section-header"><span class="section-num">V</span><h2 class="section-title">Al-Maʿâd — La Résurrection</h2></div>
+<p class="body-text">Le Maʿâd est la croyance en la <strong>vie après la mort</strong> : après le décès, chaque être humain sera ressuscité, jugé selon ses actes et rétribué en conséquence — par le paradis (<em>jannah</em>) ou l'enfer (<em>jahannam</em>).</p>
+<p class="body-text">Ce pilier rappelle que la vie ici-bas est une étape, non une finalité. Il motive une éthique de responsabilité : chaque parole, chaque geste compte devant Allâh.</p>
+<div class="quran"><div class="quran-fr">« Quiconque aura fait le poids d'un atome de bien le verra. Et quiconque aura fait le poids d'un atome de mal le verra. »</div><div class="quran-ref">Sourate Az-Zalzalah · 99:7–8</div></div>
+</div>
+
+<div class="section-divider"><div class="sdiv-line"></div><div class="sdiv-gem"></div><div class="sdiv-line"></div></div>
+
+<div class="section" id="s6"><div class="section-header"><span class="section-num">VI</span><h2 class="section-title">Pourquoi ces cinq principes ?</h2></div>
+<p class="body-text">Ensemble, les Usûl al-Dîn forment une <strong>vision cohérente et complète</strong> de la relation entre Dieu, l'homme et l'univers :</p>
+<div class="synthesis-grid">
+<div class="synthesis-item"><strong>At-Tawhîd</strong> <em>dit qui est Dieu</em></div>
+<div class="synthesis-item"><strong>Al-ʿAdl</strong> <em>dit comment Dieu juge et agit envers nous</em></div>
+<div class="synthesis-item"><strong>An-Nubuwwah</strong> <em>dit comment Il nous guide</em></div>
+<div class="synthesis-item"><strong>Al-Imâmah</strong> <em>dit qui préserve ce guide après le Prophète</em></div>
+<div class="synthesis-item"><strong>Al-Maʿâd</strong> <em>dit vers quoi nous nous dirigeons</em></div>
+</div>
+<p class="body-text">Retirer l'un de ces piliers, c'est comme retirer une colonne d'un édifice : la structure entière vacille. C'est pourquoi les grands savants chiites, de l'Imam Jaʿfar aṣ-Ṣâdiq jusqu'aux théologiens contemporains, ont toujours insisté sur leur <strong>compréhension raisonnée</strong>, pas leur simple récitation.</p>
+<p class="body-text">Les Usûl al-Dîn ne sont pas une liste de dogmes figés à avaler mécaniquement. Ils sont une <strong>invitation à réfléchir</strong> : sur l'existence de Dieu, sur le sens de la vie, sur la responsabilité humaine et sur la finalité de toute chose. Dans le chiisme, la foi est indissociable de la raison — croire, c'est aussi <strong>comprendre</strong>.</p>
+</div>
+
+<div class="sources"><div class="sources-title">Sources</div>
+<p class="source-item"><em>ʿAqâʾid al-Imâmiyya</em>, de Muḥammad Riḍâ al-Muẓaffar — exposé classique des croyances imamites.</p>
+<p class="source-item"><em>Tajrîd al-Iʿtiqâd</em>, de Naṣîr al-Dîn al-Ṭûsî — traité fondateur de la théologie chiite rationnelle.</p>
+<p class="source-item"><em>Kitâb al-Kâfî</em>, Uṣûl, d'al-Kulaynî — en particulier le <em>Kitâb al-Tawḥîd</em> et le <em>Kitâb al-Ḥujja</em>.</p>
+<p class="source-item"><em>Biḥâr al-Anwâr</em>, de al-ʿAllâmah al-Majlisî — encyclopédie de hadiths chiites, volumes sur le Tawhîd et l'Imâmah.</p>
+<p class="source-item">Versets coraniques : Al-Ikhlâṣ 112:1–4, Yûnus 10:44, Al-Aḥzâb 33:40, Az-Zalzalah 99:7–8.</p>
+</div>
+</div>
+</body>
+</html>

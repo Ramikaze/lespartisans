@@ -247,6 +247,13 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
         <div class="card-desc">Les m&#233;rites de la connaissance et le r&#244;le central de la Raison dans la tradition chiite.</div>
         <div class="card-footer"><span class="card-meta">&#703;Aql &middot; &#703;Ilm &middot; Jahl</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
       </div>
+      <div class="card" id="card-9">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="18,3 21,14 33,14 23,21 27,32 18,25 9,32 13,21 3,14 15,14" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3"/><circle cx="18" cy="18" r="5" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.6"/><circle cx="18" cy="18" r="2" fill="#c9a84c" fill-opacity="0.5"/></svg></div>
+        <div class="card-tag">Th&#233;ologie</div>
+        <div class="card-title">Us&#251;l al-D&#238;n &mdash; Fondements de la Foi</div>
+        <div class="card-desc">Les cinq piliers doctrinaux du chiisme : Tawh&#238;d, &#703;Adl, Nubuwwah, Im&#226;mah et Ma&#703;&#226;d.</div>
+        <div class="card-footer"><span class="card-meta">5 piliers &middot; Th&#233;ologie rationnelle</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
     </div>
   </div>
 
@@ -284,6 +291,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <div class="iframe-wrap" id="frame6"><div class="loader" id="loader6"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe6"></iframe></div>
 <div class="iframe-wrap" id="frame7"><div class="loader" id="loader7"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe7"></iframe></div>
 <div class="iframe-wrap" id="frame8"><div class="loader" id="loader8"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe8"></iframe></div>
+<div class="iframe-wrap" id="frame9"><div class="loader" id="loader9"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe9"></iframe></div>
 
 <script>
 (function(){
@@ -296,7 +304,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     "bibliotheque.html",
     "videos.html",
     "article-connaissance.html",
-    "coran-lecture.html"
+    "coran-lecture.html",
+    "usul-al-din.html"
   ];
   var N = MODULES.length;
   var loaded = new Array(N).fill(false);
@@ -414,7 +423,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
-  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8};
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9};
   Object.keys(cardModules).forEach(function(cardId){
     var el = document.getElementById('card-' + cardId);
     if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId]); });
