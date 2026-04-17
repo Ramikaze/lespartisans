@@ -319,6 +319,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     if (g) g.style.display = 'grid';
   }
 
+  var _fromPop = false;
+
   /* ── ACCUEIL ── */
   function home() {
     hideAllFrames();
@@ -326,7 +328,6 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     document.getElementById('homeScreen').style.display = '';
     clearTabs();
     document.getElementById('tab-home').classList.add('active');
-    /* Reset search */
     var si = document.getElementById('searchInput');
     if (si) si.value = '';
     document.querySelectorAll('#cardsGrid .card').forEach(function(c){ c.classList.remove('search-hidden'); });
@@ -338,6 +339,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     var nr = document.getElementById('noResults');
     if (nr) nr.style.display = 'none';
     window.scrollTo(0, 0);
+    if (!_fromPop) try{history.pushState({page:'home'}, '', '#')}catch(e){};
   }
 
   /* ── Ouvrir un module dans un iframe ── */
@@ -356,9 +358,10 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       }, { once: true });
       iframe.src = MODULES[idx];
     }
+    if (!_fromPop) try{history.pushState({page:'module',idx:idx}, '', '#m' + idx)}catch(e){};
   }
 
-  /* ── Ouvrir un sous-menu thématique (sur la page d'accueil) ── */
+  /* ── Ouvrir un sous-menu thématique ── */
   window.openSubMenu = function(id) {
     hideAllFrames();
     document.getElementById('homeScreen').style.display = '';
@@ -369,12 +372,28 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     var tabEl = document.getElementById('tab-' + id);
     if (tabEl) tabEl.classList.add('active');
     window.scrollTo(0, 0);
+    if (!_fromPop) try{history.pushState({page:'submenu',id:id}, '', '#' + id)}catch(e){};
   };
 
-  /* ── Fermer un sous-menu (bouton Retour) ── */
+  /* ── Fermer un sous-menu ── */
   window.closeSubMenu = function() {
     home();
   };
+
+  /* ── Bouton retour du navigateur ── */
+  window.addEventListener('popstate', function(e) {
+    _fromPop = true;
+    var s = e.state;
+    if (s && s.page === 'module') {
+      openModule(s.idx);
+    } else if (s && s.page === 'submenu') {
+      openSubMenu(s.id);
+    } else {
+      home();
+    }
+    _fromPop = false;
+  });
+  try{history.replaceState({page:'home'}, '', '#')}catch(e){};
 
   /* ── Câblage : Logo + Accueil ── */
   document.getElementById('logoBtn').addEventListener('click', home);

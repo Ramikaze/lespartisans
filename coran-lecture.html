@@ -194,11 +194,14 @@ listSearchEl.addEventListener('keydown', function(e){
   }
 });
 
+var _fromPop = false;
+
 function showList() {
   listEl.style.display = '';
   view.style.display = 'none';
   selWrap.classList.remove('active');
   window.scrollTo(0, 0);
+  if (!_fromPop) try{history.pushState({page:'list'}, '', '#')}catch(e){};
 }
 
 function openSurah(num, scrollToVerse) {
@@ -251,7 +254,21 @@ function openSurah(num, scrollToVerse) {
   } else {
     window.scrollTo(0, 0);
   }
+  if (!_fromPop) try{history.pushState({page:'surah',num:num}, '', '#s' + num)}catch(e){};
 }
+
+/* ── Bouton retour du navigateur ── */
+window.addEventListener('popstate', function(e) {
+  _fromPop = true;
+  var s = e.state;
+  if (s && s.page === 'surah') {
+    openSurah(s.num);
+  } else {
+    showList();
+  }
+  _fromPop = false;
+});
+try{history.replaceState({page:'list'}, '', '#')}catch(e){};
 
 surahSel.addEventListener('change', function(){
   openSurah(parseInt(this.value));
