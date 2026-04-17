@@ -377,6 +377,13 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
         <div class="card-desc">Traduction fran&#231;aise int&#233;grale par le Dr Abolqasemi Fakhri &#8212; 114 sourates, navigation par verset.</div>
         <div class="card-footer"><span class="card-meta">114 sourates &middot; 6236 versets</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
       </div>
+      <div class="card" id="card-11">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="4" width="24" height="28" rx="3" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><line x1="12" y1="12" x2="24" y2="12" stroke="#c9a84c" stroke-width="1" opacity="0.5"/><line x1="12" y1="17" x2="24" y2="17" stroke="#c9a84c" stroke-width="1" opacity="0.5"/><line x1="12" y1="22" x2="20" y2="22" stroke="#c9a84c" stroke-width="1" opacity="0.5"/><circle cx="14" cy="27" r="3" fill="none" stroke="#c9a84c" stroke-width="1.2"/><path d="M13 27 L14 28 L16 26" stroke="#c9a84c" stroke-width="1.2" fill="none"/></svg></div>
+        <div class="card-tag">Apprentissage interactif</div>
+        <div class="card-title">Apprendre le Verset du Tr&#244;ne</div>
+        <div class="card-desc">Flashcards, quiz QCM et reconstitution mot par mot pour m&#233;moriser les versets 255&#8211;257.</div>
+        <div class="card-footer"><span class="card-meta">98 mots &middot; Flashcards &middot; Quiz</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
     </div>
   </div>
 
@@ -409,6 +416,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
 <div class="iframe-wrap" id="frame8"><div class="loader" id="loader8"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe8"></iframe></div>
 <div class="iframe-wrap" id="frame9"><div class="loader" id="loader9"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe9"></iframe></div>
 <div class="iframe-wrap" id="frame10"><div class="loader" id="loader10"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe10"></iframe></div>
+<div class="iframe-wrap" id="frame11"><div class="loader" id="loader11"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe11"></iframe></div>
 
 <script>
 (function(){
@@ -423,7 +431,8 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     "article-connaissance.html",
     "coran-lecture.html",
     "usul-al-din.html",
-    "hadith-kisa.html"
+    "hadith-kisa.html",
+    "verset-apprentissage.html"
   ];
   var N = MODULES.length;
   var loaded = new Array(N).fill(false);
@@ -544,7 +553,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
-  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10};
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11};
   Object.keys(cardModules).forEach(function(cardId){
     var el = document.getElementById('card-' + cardId);
     if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId]); });
