@@ -123,6 +123,14 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
 /* Ziyara style — slightly more solemn */
 .c-zv{display:flex;gap:12px;margin-bottom:10px;padding:10px 12px;border-radius:8px;background:rgba(255,255,255,0.015);border-left:2px solid rgba(201,168,76,0.2)}
 .c-zv-text{font-size:13.5px;line-height:1.82;color:#cec6b0}
+
+/* Trilingual verse (Arabic + transliteration + French) */
+.c-tri{margin-bottom:14px;padding:12px 14px;border-radius:10px;background:rgba(255,255,255,0.018);border:1px solid rgba(255,255,255,0.035);transition:background .2s}
+.c-tri:hover{background:rgba(201,168,76,0.04);border-color:rgba(201,168,76,0.1)}
+.c-tri-ar{font-family:'Amiri','Scheherazade New',serif;font-size:1.25rem;color:#c9a84c;direction:rtl;text-align:right;line-height:2;margin-bottom:6px}
+.c-tri-tr{font-size:0.78rem;color:#9aa3b8;font-style:italic;line-height:1.6;margin-bottom:6px;padding-left:2px}
+.c-tri-fr{font-size:0.88rem;color:#cec6b0;line-height:1.75}
+
 .c-zv-ar{font-family:'Amiri',serif,sans-serif;font-size:14px;color:#c9a84c;opacity:.75;direction:rtl;margin-top:4px;font-style:italic}
 </style>
 </head>
@@ -184,10 +192,145 @@ var DATA = {
         { id: 'z-warith',  label: 'Ziyārat Wārith',        emoji: '🩸' },
         { id: 'z-ashura',  label: 'Ziyara \'Āshūrā',       emoji: '🕊️' },
       ]
+    },
+    {
+      id: 'dua-classiques',
+      label: 'Du\'ā classiques',
+      icon: '🤲',
+      items: [
+        { id: 'kumayl', label: 'Du\'ā Kumayl', emoji: '🌙' },
+      ]
     }
   ],
 
   invocations: {
+
+
+    kumayl: {
+      source: 'Du\'ā classiques — Misbāḥ al-Mutahajid',
+      title: 'Du\'ā Kumayl',
+      subtitle: 'L\'invocation de Kumayl fils de Ziyād, enseignée par le Prince des croyants (p). Elle est récitée la nuit du milieu du mois de Sha\'aban et les nuits du vendredi.',
+      body: [
+        {t:'intro',tx:'Elle est une des invocations les plus connues. Le grand savant al-Majlisî (que Dieu lui fasse miséricorde) dit qu\'elle est la meilleure des invocations. Elle est l\'invocation d\'al-Khuḍr(p) que le Prince des croyants enseigna à Kumayl, un de ses plus proches compagnons. On l\'invoque la nuit du milieu du mois de Sha\'aban et les nuits du vendredi.'},
+        {t:'tri',ar:'اللَّهُمَّ إِنِّي أَسْأَلُكَ بِرَحْمَتِكَ الَّتِي وَسِعَتْ كُلَّ شَيْءٍ،',tr:'Allâhumma, innî as\'aluka, bi-rahmatika al-latî wasi\'at kulla shay\'inn,',fr:'Mon Dieu, je Te demande, par Ta Miséricorde qui embrasse toute chose,'},
+        {t:'tri',ar:'وَبِقُوَّتِكَ الَّتِي قَهَرْتَ بِهَا كُلَّ شَيْءٍ، وَخَضَعَ لَهَا كُلَّ شَيْءٍ، وَذَلَّ لَهَا كُلَّ شَيْءٍ،',tr:'wa bi-quwwatika al-latî qaharta bihâ kulla shay\'inn, wa khada\'a lahâ kullu shay\'inn, wa dhalla lahâ kullu shay\'inn,',fr:'par Ta Force avec laquelle Tu subjugues toute chose, à laquelle toute chose se soumet, devant laquelle toute chose s\'abaisse,'},
+        {t:'tri',ar:'وَبِجَبَرُوتِكَ الَّتِي غَلَبْتَ بِهَا كُلَّ شَيْءٍ، وَبِعِزَّتِكَ الَّتِي لَا يَقُومُ لَهَا شَيْءٌ،',tr:'wa bi-jabarûtika al-latî ghalabta bihâ kulla shay\'inn, wa bi-\'izzatika al-latî lâ yaqûmu lahâ shay\'unn,',fr:'par Ta Force dominatrice avec laquelle Tu vaincs toute chose, par Ta Toute-Puissance à laquelle rien ne s\'oppose,'},
+        {t:'tri',ar:'وَبِعَظَمَتِكَ الَّتِي مَلَأَتْ كُلَّ شَيْءٍ، وَبِسُلْطَانِكَ الَّذِي عَلَا كُلَّ شَيْءٍ،',tr:'wa bi-\'azhamatika al-latî mala\'at kulla shay\'inn, wa bi-sultânika al-ladhî \'alâ kulla shay\'inn,',fr:'par Ta Grandeur qui remplit toute chose, par Ton Pouvoir qui s\'élève au-dessus de toute chose,'},
+        {t:'tri',ar:'وَبِوَجْهِكَ الْبَاقِي بَعْدَ فَنَاءِ كُلِّ شَيْءٍ، وَبِأَسْمَائِكَ الَّتِي مَلَأَتْ أَرْكَانَ كُلِّ شَيْءٍ،',tr:'wa bi-wajhika al-bâqî ba\'da fanâ\'i kulli shay\'inn, wa bi-asmâ\'ika al-latî mala\'at arkâna kulli shay\'inn,',fr:'par Ta Face qui subsiste après l\'anéantissement de toute chose, par Tes Noms qui remplissent les piliers de toute chose,'},
+        {t:'tri',ar:'وَبِعِلْمِكَ الَّذِي أَحَاطَ بِكُلِّ شَيْءٍ، وَبِنُورِ وَجْهِكَ الَّذِي أَضَاءَ لَهُ كُلُّ شَيْءٍ،',tr:'wa bi-\'ilmika al-ladhî ahâta bi-kulli shay\'inn, wa bi-nûri wajhika al-ladhî adâ\'a lahu kullu shay\'inn,',fr:'par Ton Savoir qui englobe toute chose, par la Lumière de Ta Face pour qui toute chose s\'illumine,'},
+        {t:'tri',ar:'يَا نُورُ يَا قُدُّوسُ، يَا أَوَّلَ الْأَوَّلِينَ، وَيَا آخِرَ الْآخِرِينَ.',tr:'yâ nûru, yâ quddûsu, yâ awwala-l-awwalîna, wa yâ âkhira-l-âkhirîna.',fr:'ô Lumière, ô Saint, ô le Premier des premiers, ô le Dernier des derniers !'},
+        {t:'tri',ar:'اللَّهُمَّ اغْفِرْ لِيَ الذُّنُوبَ الَّتِي تَهْتِكُ الْعِصَمَ،',tr:'Allâhumma-ghfir liya adh-dhu-nûba al-latî tahtika -l-\'isama',fr:'Mon Dieu, pardonne-moi les péchés qui déchirent les voiles protecteurs !'},
+        {t:'tri',ar:'اللَّهُمَّ اغْفِرْ لِيَ الذُّنُوبَ الَّتِي تُنْزِلُ النِّقَمَ،',tr:'Allâhumma-ghfir liya adh-dhu-nûba al-latî tunzilu-n-niqama.',fr:'Mon Dieu, pardonne-moi les péchés qui font descendre les châtiments !'},
+        {t:'tri',ar:'اللَّهُمَّ اغْفِرْ لِيَ الذُّنُوبَ الَّتِي تُغَيِّرُ النِّعَمَ،',tr:'Allâhumma-ghfir liya adh-dhu-nûba al-latî tughayyiru an-ni\'ama',fr:'Mon Dieu, pardonne-moi les péchés qui altèrent les bienfaits !'},
+        {t:'tri',ar:'اللَّهُمَّ اغْفِرْ لِيَ الذُّنُوبَ الَّتِي تَحْبِسُ الدُّعَاءَ،',tr:'Allâhumma-ghfir liya adh-dhu-nûba al-latî tahbisu-d-du\'â\'a !',fr:'Mon Dieu, pardonne-moi les péchés qui retiennent l\'invocation !'},
+        {t:'tri',ar:'اللَّهُمَّ اغْفِرْ لِيَ الذُّنُوبَ الَّتِي تُنْزِلُ الْبَلَاءَ،',tr:'Allâhumma-ghfir liya adh-dhu-nûba al-latî tunzilu-l-balâ\'a !',fr:'Mon Dieu, pardonne-moi les péchés qui font descendre le malheur !'},
+        {t:'tri',ar:'اللَّهُمَّ اغْفِرْ لِي كُلَّ ذَنْبٍ أَذْنَبْتُهُ، وَكُلَّ خَطِيئَةٍ أَخْطَأْتُهَا،',tr:'Allâhumma-ghfir liya kulla dhanbinn adhnabtuhu wa kulla khati\'atinn akhta\'tuhâ !',fr:'Mon Dieu, pardonne-moi tous les péchés que j\'ai commis et toute faute que j\'ai faite !'},
+        {t:'tri',ar:'اللَّهُمَّ إِنِّي أَتَقَرَّبُ إِلَيْكَ بِذِكْرِكَ، وَأَسْتَشْفِعُ بِكَ إِلَى نَفْسِكَ،',tr:'Allâhumma, innî ataqarrabu ilayka bi-dhikrika, wa-stashfi\'u bika ilâ nafsika,',fr:'Mon Dieu, je m\'approche de Toi par Ton Évocation, j\'implore Ton Intercession auprès de Toi,'},
+        {t:'tri',ar:'وَأَسْأَلُكَ بِجُودِكَ أَنْ تُدْنِيَنِي مِنْ قُرْبِكَ، وَأَنْ تُوزِعَنِي شُكْرَكَ، وَأَنْ تُلْهِمَنِي ذِكْرَكَ.',tr:'wa as\'aluka bi-jûdika an tudni-yanî min qurbika wa an tûzi\'anî shukraka wa an tulhimanî dhikraka.',fr:'et je Te demande par Ta Générosité de me rapprocher de Toi, de me suggérer de Te remercier et de m\'inspirer de T\'évoquer !'},
+        {t:'tri',ar:'اللَّهُمَّ إِنِّي أََسْأَلُكَ سُؤَالَ خَاضِعٍ مُتَذَلِّلٍ خَاشِعٍ، أَنْ تُسَامِحَنِي وَتَرْحَمَنِي،',tr:'Allâhumma, innî as\'aluka su\'âla khâdi\'inn, mutadhallilinn, khâ-shi\'inn, an tusâmihanî wa tarhamanî,',fr:'Mon Dieu, je T\'implore, en étant soumis à Toi, en m\'abaissant devant Toi, humblement, de me pardonner, de me faire miséricorde,'},
+        {t:'tri',ar:'وَتَجْعَلَنِي بِقِسْمِكَ رَاضِياً قَانِعاً، وَفِي جَمِيعِ الْأَحْوَالِ مُتَوَاضِعاً.',tr:'wa taj\'alanî bi-qasmika râdi-yann, qâni\'ann wa fî jamî\'i-l-ahwâli mutawâdi\'ann.',fr:'et de me rendre satisfait et convaincu de Ton Partage, et humble en toute circonstance !'},
+        {t:'tri',ar:'اللَّهُمَّ وَأَسْأَلُكَ سُؤَالَ مَنِ اشْتَدَّتْ فَاقَتُهُ، وَأَنْزَلَ بِكَ عِنْدَ الشَّدَائِدِ حَاجَتَهُ، وَعَظُمَ فِيمَا عِنْدَكَ رَغْبَتُهُ.',tr:'Allâhumma, wa as\'aluka su\'âla man ashtaddat fâqatuhu, wa anzala bika \'inda-sh-shadâ\'idi hâjatahu wa \'azhuma fîmâ \'indaka raghbatuhu.',fr:'Mon Dieu, je Te présente la demande de quelqu\'un dont l\'indigence s\'est beaucoup accrue, qui a déposé auprès de Toi sa requête dans l\'adversité, dont le désir de ce qu\'il y a auprès de Toi est devenu grandiose.'},
+        {t:'tri',ar:'اللَّهُمَّ عَظُمَ سُلْطَانُكَ وَعَلَا مَكَانُكَ، وَخَفِيَ مَكْرُكَ وَظَهَرَ أَمْرُكَ، وَغَلَبَ قَهْرُكَ وَجَرَتْ قُدْرَتُكَ، وَلَا يُمْكِنُ الْفِرَارُ مِنْ حُكُومَتِكَ.',tr:'Allâhumma, \'azhuma sultânuka wa \'alâ makânuka wa khafiya makruka wa zhahara amruka, wa ghalaba qahruka wa jarat qudratuka wa lâ yumkinu-l-firâru min hukûmatika.',fr:'Mon Dieu, Ton Pouvoir est grandiose, Ton Lieu élevé, Ta Ruse cachée, Ton Ordre manifeste, Ta Force est victorieuse, Ta Puissance courante et il n\'est pas possible d\'échapper à Ton Gouvernement.'},
+        {t:'tri',ar:'اللَّهُمَّ لَا أَجِدُ لِذُنُوبِي غَافِراً وَلَا لِقَبَائِحِي سَاتِراً، وَلَا لِشَيْءٍ مِنْ عَمَلِيَ الْقَبِيحِ بِالْحَسَنِ مُبَدِّلاً غَيْرَكَ،',tr:'Allâhumma, lâ ajidu li-dhunûbî ghâfirann wa lâ li-qabâ\'ihî sâtirann, wa lâ li-shay\'inn min \'amalî-l-qabîhi bi-l-hasani mu-baddilann ghayraka.',fr:'Mon Dieu, je ne vois personne pour pardonner mes péchés, recouvrir mes ignominies, remplacer mes mauvaises actions par des bienfaits autre que Toi !'},
+        {t:'tri',ar:'لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ وَبِحَمْدِكَ',tr:'Lâ ilâha illâ anta subhânaka wa bi-hamdika.',fr:'Point de divinité autre que Toi, que Tu sois Glorifié et par Ta Louange !'},
+        {t:'tri',ar:'ظَلَمْتُ نَفْسِي، وَتَجَرَّأْتُ بِجَهْلِي، وَسَكَنْتُ إِلَى قَدِيمِ ذِكْرِكَ لِي وَمَنِّكَ عَلَيَّ.',tr:'Zhalamtu nafsî, wa tajjara\'tu bi-jahlî, wa sakantu ilâ qadîmi dhikrika lî wa mannika \'alayya.',fr:'Je me suis fait du tort à moi-même, je me suis enhardi à cause de mon ignorance, et je me suis fié à l\'éternité de Ton Rappel pour moi et de Ta Grâce à mon égard !'},
+        {t:'tri',ar:'اللَّهُمَّ مَوْلَايَ كَمْ مِنْ قَبِيحٍ سَتَرْتَهُ، وَكَمْ مِنْ فَادِحٍ مِنَ الْبَلَاءِ أَقَلْتَهُ،',tr:'Allâhumma mawlâya kam min qabîhinn satartahu, wa kam min fâdihinn mina-l-balâ\'i aqaltahu,',fr:'Mon Dieu, mon Maître, combien de vilaines actions as-Tu recouvertes, combien d\'accablantes calamités m\'as Tu épargnées,'},
+        {t:'tri',ar:'وَكَمْ مِنْ عِثَارٍ وَقَيْتَهُ، وَكَمْ مِنْ مَكْرُوهٍ دَفَعْتَهُ، وَكَمْ مِنْ ثَنَاءٍ جَمِيلٍ لَسْتُ أَهْلًا لَهُ نَشَرْتَهُ.',tr:'wa kam min \'ithârinn waqay-tahu wa kam min makrûhinn dafa\'tahu, wa kam min thanâ\'-inn jamîlinn lastu ahlann lahu nashartahu.',fr:'de combien de faux-pas m\'as-Tu protégé, combien d\'adversités as-Tu repoussées de moi, combien de belles louanges que je ne méritais pas as-Tu répandues !'},
+        {t:'tri',ar:'اللَّهُمَّ عَظُمَ بَلَائِي، وَأَفْرَطَ بِي سُوءُ حَالِي، وَقَصُرَتْ بِي أَعْمَالِي،',tr:'Allâhumma, \'azhuma balâ\'î wa afrata bî sû\'u hâlî, wa qasurat bî a\'mâlî,',fr:'Mon Dieu, mon malheur est devenu grandiose, mon état s\'est empiré à l\'excès, mes bonnes actions me font défaut,'},
+        {t:'tri',ar:'وَقَعَدَتْ بِي أَغْلَالِي، وَحَبَسَنِي عَنْ نَفْعِي بُعْدُ آمَالِي،',tr:'wa qa\'adat bî aghlâlî, wa habasanî \'an naf\'î bu\'du âmâlî.',fr:'les liens de mes péchés m\'entravent et la longueur de mes espoirs ne m\'est pas profitable.'},
+        {t:'tri',ar:'وَخَدَعَتْنِي الدُّنْيَا بِغُرُورِهَا، وَنَفْسِي بِخِيَانَتِهَا، وَمِطَالِي يَا سَيِّدِي',tr:'Wa khada\'atnî-d-dunyâ bi-ghu-rûrihâ, wa nafsî bi-khiyânatihâ, wa mitâlî yâ sayyidî.',fr:'Le monde ici-bas m\'a trompé avec ses illusions ainsi que mon âme avec sa perfidie et ma tendance à remettre à plus tard, ô mon Maître !'},
+        {t:'tri',ar:'فَأَسْأَلُكَ بِعِزَّتِكَ أَنْ لَا يَحْجُبَ عَنْكَ دُعَائِي سُوءُ عَمَلِي وَفِعَالِي،',tr:'Fa-as\'aluka, bi-\'izzatika an lâ yahjuba \'anka du\'â\'î sû\'u \'amalî wa fi\'âlî,',fr:'Aussi, je Te demande, par Ta Puissance, de ne pas laisser mes mauvaises actions être un voile entre mes invocations et Toi,'},
+        {t:'tri',ar:'وَلَا تَفْضَحْنِي بِخَفِيِّ مَا اطَّلَعْتَ عَلَيْهِ مِنْ سِرِّي،',tr:'wa lâ tafdahanî bi-khafiyyi mâ attala\'ta \'alayhi min sirrî,',fr:'de ne pas me déshonorer en dévoilant mes secrets intérieurs dont Tu as connaissance,'},
+        {t:'tri',ar:'وَلَا تُعَاجِلْنِي بِالْعُقُوبَةِ عَلَى مَا عَمِلْتُهُ فِي خَلَوَاتِي مِنْ سُوءِ فِعْلِي وَإِسَاءَتِي،',tr:'wa lâ tu\'âjilnî bi-l-\'uqûbati \'alâ mâ \'amiltuhu fî khalawâtî min sû\'i fi\'lî wa isâ\'atî,',fr:'de ne pas T\'empresser de me punir pour les mauvaises actions et les méfaits que j\'ai faits dans l\'isolement,'},
+        {t:'tri',ar:'وَدَوَامِ تَفْرِيطِي وَجَهَالَتِي، وَكَثْرَةِ شَهَوَاتِي وَغَفْلَتِي،',tr:'wa dawâmi tafrîtî wa jahâlatî wa kathrati shahawâtî wa ghaflatî,',fr:'pour la permanence de mes excès et de mon ignorance, pour la multitude de mes passions et de mon insouciance,'},
+        {t:'tri',ar:'وَكُنِ اللَّهُمَّ بِعِزَّتِكَ لِي فِي الْأَحْوَالِ كُلِّهَا رَءُوفاً، وَعَلَيَّ فِي جَمِيعِ الْأُمُورِ عَطُوفاً.',tr:'wa kun, Allâhumma, bi-\'izzatika lî fî-l-ahwâli kullihâ ra\'ûfann, wa \'alayya fî jamî\'i-l-umûri \'atûfann.',fr:'je Te demande, ô mon Dieu, d\'être, par Ta Puissance, Bon envers moi dans toutes les situations et Bienveillant dans l\'ensemble des ordres.'},
+        {t:'tri',ar:'إِلَهِي وَرَبِّي مَنْ لِي غَيْرُكَ أَسْأَلُهُ كَشْفَ ضُرِّي وَالنَّظَرَ فِي أَمْرِي،',tr:'Ilâhî wa rabbî, man lî ghayruka as\'aluhu kashfa durrî wa-n-nazhara fî amrî.',fr:'Mon Dieu et mon Seigneur, à qui m\'adresser, autre que Toi, pour demander de soulager ma misère et considérer mon ordre ?'},
+        {t:'tri',ar:'إِلَهِي وَمَوْلَايَ أَجْرَيْتَ عَلَيَّ حُكْماً اتَّبَعْتُ فِيهِ هَوَى نَفْسِي وَلَمْ أَحْتَرِسْ فِيهِ مِنْ تَزْيِينِ عَدُوِّي،',tr:'Ilâhî wa mawlâya, ajrayta \'alayya hukmann attaba\'tu fîhi hawâ nafsî wa lam ahtaris fîhi min tazyîni \'aduwwiyî,',fr:'Mon Dieu et mon Maître, Tu m\'as instauré un règlement et au lieu de T\'obéir je n\'ai suivi que les passions de mon âme, je n\'ai pas pris garde aux embellissements de mon ennemi,'},
+        {t:'tri',ar:'فَغَرَّنِي بِمَا أَهْوَى وَأَسْعَدَهُ عَلَى ذَلِكَ الْقَضَاءُ',tr:'fa-gharranî bimâ ahwâ wa as\'adahu \'alâ dhâlika al-qadâ\'u.',fr:'alors il m\'a trompé par ce que j\'ai désiré, le Décret arrêté l\'aidant en cela.'},
+        {t:'tri',ar:'فَتَجَاوَزْتُ بِمَا جَرَى عَلَيَّ مِنْ ذَلِكَ بَعْضَ حُدُودِكَ، وَخَالَفْتُ بَعْضَ أَوَامِرِكَ،',tr:'Fa-tajâwaztu bimâ jarâ \'alayya min dhâlika ba\'da hudûdika, wa khâlaftu ba\'da awâmirika.',fr:'Alors j\'ai transgressé certaines de Tes Lois de ce que Tu m\'as instauré à ce propos, et j\'ai désobéi à certains de Tes Ordres.'},
+        {t:'tri',ar:'فَلَكَ الْحُجَّةُ عَلَيَّ فِي جَمِيعِ ذَلِكَ، وَلَا حُجَّةَ لِي فِيمَا جَرَى عَلَيَّ فِيهِ قَضَاؤُكَ، وَأَلْزَمَنِي حُكْمُكَ وَبَلَاؤُكَ،',tr:'Falaka-l-hujjatu \'alayya fî jamî\'i dhâlika, wa lâ hujjata lî fîmâ jarâ \'alayya fîhi qadâ\'uka, wa alzamanî hukmuka wa balâ\'uka.',fr:'Alors Tu as l\'argument à mon encontre pour l\'ensemble de cela, et moi je n\'en ai aucun pour ma défense à propos de Ton Décret en cours, ainsi que Ton Jugement et Ton Épreuve que Tu m\'as imposés.'},
+        {t:'tri',ar:'وَقَدْ أَتَيْتُكَ يَا إِلَهِي بَعْدَ تَقْصِيرِي وَإِسْرَافِي عَلَى نَفْسِي',tr:'Wa qad ataytuka yâ ilâhî ba\'da taqsîrî wa isrâfî \'alâ nafsî,',fr:'Je suis déjà venu à Toi, ô mon Dieu, après ma défaillance et mes excès,'},
+        {t:'tri',ar:'مُعْتَذِراً نَادِماً مُنْكَسِراً مُسْتَقِيلاً مُسْتَغْفِراً مُنِيباً مُقِرّاً مُذْعِناً مُعْتَرِفاً،',tr:'mu\'tadhirann, nâdimann, mun-kasirann, mustaqîlann, mustagh-firann, munîbann, muqirrann, mudh\'inann, mu\'tarifann.',fr:'Te présentant les excuses, regrettant, abattu, demandant l\'absolution, implorant le pardon, me repentant, reconnaissant mes péchés, docile, me confessant à Toi.'},
+        {t:'tri',ar:'لَا أَجِدُ مَفَرّاً مِمَّا كَانَ مِنِّي وَلَا مَفْزَعاً أَتَوَجَّهُ إِلَيْهِ فِي أَمْرِي، غَيْرَ قَبُولِكَ عُذْرِي وَإِدْخَالِكَ إِيَّايَ فِي سَعَةِ مِنْ رَحْمَتِكَ،',tr:'Lâ ajidu mafarrann mimmâ kâna minnî wa lâ mafza\'ann atawajjahu ilayhi fî amrî, ghayra qabûlika \'udhrî wa idkhâlika iyyâya fî sa\'atinn rahmatika.',fr:'Je ne trouve aucun lieu où fuir de ce que j\'ai fait, ni d\'abri vers où me diriger, en dehors de Ton acceptation de mes excuses et mon admission dans l\'étendue de Ta Miséricorde.'},
+        {t:'tri',ar:'اللَّهُمَّ فَاقْبَلْ عُذْرِي وَارْحَمْ شِدَّةَ ضُرِّي، وَفُكَّنِي مِنْ شَدِّ وَثَاقِي،',tr:'Allâhumma, fa-qbal \'udhrî wa-rham shiddata durrî, wa fukkanî min shaddi wathâqî.',fr:'Alors, mon Dieu, accepte mes excuses, aie pitié de la gravité de mon dommage, délivre-moi de la lourdeur de mes chaînes !'},
+        {t:'tri',ar:'يَا رَبِّ ارْحَمْ ضَعْفَ بَدَنِي وَرِقَّةَ جِلْدِي وَدِقَّةَ عَظْمِي،',tr:'Yâ rabbi, arham da\'fa badanî wa riqqata jildî wa diqqata \'azhmî.',fr:'Ô Seigneur, aie pitié de la faiblesse de mon corps, de la délicatesse de ma peau, de la finesse de mes os !'},
+        {t:'tri',ar:'يَا مَنْ بَدَأَ خَلْقِي وَذِكْرِي وَتَرْبِيَتِي وَبِرِّي وَتَغْذِيَتِي، هَبْنِي لِابْتِدَاءِ كَرَمِكَ وَسَالِفِ بِرِّكَ بِي،',tr:'Yâ man bada\'a khalqî wa dhikrî wa tarbiyatî wa birrî wa taghdhiyatî, habnî li-ibtidâ\'i karamika wa sâlifi birrika bî.',fr:'Ô Celui qui est à l\'origine de ma création, de mon éducation, du dévouement envers moi et de ma nourriture, continue de me pourvoir, par la Grâce de Ta Générosité initiale et de Ta Bienveillance préalable à mon égard.'},
+        {t:'tri',ar:'يَا إِلَهِي وَسَيِّدِي وَرَبِّي، أَتُرَاكَ مُعَذِّبِي بِنَارِكَ بَعْدَ تَوْحِيدِكَ،',tr:'Yâ ilâhî, wa sayyidî, wa rabbî, a turâka mu\'adhdhibî bi-nârika ba\'da tawhîdika,',fr:'Ô mon Dieu, mon Maître et mon Seigneur, est-ce que Tu me verrais être châtié par Ton Feu après que j\'eus proclamé Ton Unicité,'},
+        {t:'tri',ar:'وَبَعْدَمَا انْطَوَى عَلَيْهِ قَلْبِي مِنْ مَعْرِفَتِكَ، لَهِجَ بِهِ لِسَانِي مِنْ ذِكْرِكَ، وَاعْتَقَدَهُ ضَمِيرِي مِنْ حُبِّكَ،',tr:'wa ba\'damâ-ntawâ \'alayhi qalbî min ma\'rifatika, lahija bihi lisânî min dhikrika wa-\'taqadahu damîrî min hubbika,',fr:'que mon cœur se fut empli de Ta Connaissance, que ma langue se fut attachée à T\'évoquer et que ma conscience se fut convaincue de Ton Amour,'},
+        {t:'tri',ar:'وَبَعْدَ صِدْقِ اعْتِرَافِي وَدُعَائِي خَاضِعاً لِرُبُوبِيَّتِكَ،',tr:'wa ba\'da sidqi a\'tirâfi wa du\'â\'î khâdi\'ann li-rubûbiyyatika.',fr:'et après la sincérité de la reconnaissance de mes péchés et de mes invocations, me soumettant à Ta Seigneurie ?!'},
+        {t:'tri',ar:'هَيْهَاتَ أَنْتَ أَكْرَمُ مِنْ أَنْ تُضَيِّعَ مَنْ رَبَّيْتَهُ، أَوْ تُبْعِدَ مَنْ أَدْنَيْتَهُ،',tr:'Hayhâta, anta akramu min an tudayyi\'a man rabbaytahu aw tuba\'\'\'ida man adnaytahu,',fr:'Non ! Jamais ! Tu es plus Généreux que cela, pour abandonner celui que Tu as élevé ou pour éloigner celui que Tu as rapproché,'},
+        {t:'tri',ar:'أَوْ تُشَرِّدَ مَنْ آوَيْتَهُ، أَوْ تُسَلِّمَ إِلَى الْبَلَاءِ مَنْ كَفَيْتَهُ وَرَحِمْتَهُ،',tr:'aw tusharrida man âwaytahu aw tusallima ilâ-l-balâ\'i man kafaytahu wa rahimtahu.',fr:'ou pour chasser celui que Tu as abrité, ou pour livrer quelqu\'un au malheur dont Tu l\'avais épargné, à qui Tu as fait miséricorde !'},
+        {t:'tri',ar:'وَلَيْتَ شِعْرِي يَا سَيِّدِي وَإِلَهِي وَمَوْلَايَ،',tr:'Wa layta shi\'rî, yâ sayyidî, wa ilâhî, wa mawlâya,',fr:'Ô si je savais, ô mon Maître, mon Dieu, mon Souverain,'},
+        {t:'tri',ar:'أَتُسَلِّطُ النَّارَ عَلَى وُجُوهٍ خَرَّتْ لِعَظَمَتِكَ سَاجِدَةً، وَعَلَى أَلْسُنٍ نَطَقَتْ بِتَوْحِيدِكَ صَادِقَةً، وَبِشُكْرِكَ مَادِحَةً،',tr:'a tusallitu-n-nâra \'alâ ujûhinn kharrat li-\'azhamatika sâjida-tann, wa \'alâ alsuninn nataqat bi-tawhîdika sâdiqatann wa bi-shukrika mâdihatann,',fr:'est-ce que Tu donnerais le pouvoir au Feu de s\'emparer de visages qui sont tombés prosternés devant Ta Grandeur, de langues qui ont parlé de Ton Unicité en toute sincérité et qui T\'ont remercié en Te louant,'},
+        {t:'tri',ar:'وَعَلَى قُلُوبٍ اعْتَرَفَتْ بِإِلَهِيَّتِكَ مُحَقِّقَةً، وَعَلَى ضَمَائِرَ حَوَتْ مِنَ الْعِلْمِ بِكَ حَتَّى صَارَتْ خَاشِعَةً،',tr:'wa \'alâ qulûbinn a\'tarafat bi-ilâhiyyatika muhaqqiqatann, wa \'alâ damâ\'ira hawat mina-l-\'ilmi bika hattâ sârat khâ-shi\'atann,',fr:'de cœurs qui ont reconnu Ta Divinité avec certitude, de consciences qui se sont imprégnées de Ta Connaissance au point de devenir humbles,'},
+        {t:'tri',ar:'وَعَلَى جَوَارِحَ سَعَتْ إِلَى أَوْطَانِ تَعَبُّدِكَ طَائِعَةً، وَأَشَارَتْ بِاسْتِغْفَارِكَ مُذْعِنَةً،',tr:'wa \'alâ jawâriha sa\'at ilâ awtâni ta\'abbudika tâ\'i\'atann, wa ashârat bi-stighfârika mudh\'inatann ?!',fr:'de membres qui se sont rendus aux lieux où l\'on T\'adore par obéissance à Toi, et qui ont indiqué la demande de Ton Pardon en toute docilité ?!'},
+        {t:'tri',ar:'مَا هَكَذَا الظَّنُّ بِكَ، وَلَا أُخْبِرْنَا بِفَضْلِكَ عَنْكَ يَا كَرِيمُ،',tr:'Mâ hakadhâ azh-zhannu bika, wa lâ ukhbirnâ bi-fadlika \'anka yâ karîmu.',fr:'Non ! Ce n\'est pas l\'opinion que nous avons de Toi, ni ce qui nous a été indiqué par Ta Faveur sur Toi, ô très Généreux !'},
+        {t:'tri',ar:'يَا رَبِّ، وَأَنْتَ تَعْلَمُ ضَعْفِي عَنْ قَلِيلٍ مِنْ بَلَاءِ الدُّنْيَا وَعُقُوبَاتِهَا، وَمَا يَجْرِي فِيهَا مِنَ الْمَكَارِهِ عَلَى أَهْلِهَا،',tr:'Yâ rabbi, wa anta ta\'lamu da\'fî \'an qalîlinn min balâ\'i-d-dunyâ wa \'uqûbâtihâ, wa mâ yajrî fîhâ mina-l-makârihi \'alâ ahlihâ,',fr:'Ô mon Seigneur, Tu connais ma faiblesse devant le peu d\'épreuves de ce monde et de ses châtiments, devant les adversités qui arrivent à ses habitants,'},
+        {t:'tri',ar:'عَلَى أَنَّ ذَلِكَ بَلَاءٌ وَمَكْرُوهٌ، قَلِيلٌ مَكْثُهُ، يَسِيرٌ بَقَاؤُهُ، قَصِيرٌ مُدَّتُهُ،',tr:'\'alâ anna dhalika balâ\'unn wa makrûhunn, qalîlunn makthu-hu, yasîrunn baqâ\'uhu, qasîrunn muddatuhu.',fr:'alors que ce sont des épreuves et des adversités passagères, éphémères, de courte durée !'},
+        {t:'tri',ar:'فَكَيْفَ احْتِمَالِي لِبَلَاءِ الْآخِرَةِ وَجَلِيلِ وُقُوعِ الْمَكَارِهِ فِيهَا،',tr:'Fa-kayfa ihtimâlî li-balâ\'i-l-âkhirati wa jalîli uqû\'i-l-makârihi fîhâ,',fr:'Alors, comment pourrais-je supporter les épreuves de l\'Au-delà, ses adversités grandioses,'},
+        {t:'tri',ar:'وَهُوَ بَلَاءٌ تَطُولُ مُدَّتُهُ، وَيَدُومُ مَقَامُهُ، وَلَا يُخَفَّفُ عَنْ أَهْلِهِ،',tr:'wa huwa balâ\'unn tatûlu muddatuhu wa yadûmu ma-qâmuhu wa lâ yukhaffafu \'an ahlihi,',fr:'alors que ce sont des épreuves de longue durée, permanentes, qui ne sont pas allégées pour ses tenants,'},
+        {t:'tri',ar:'لِأَنَّهُ لَا يَكُونُ إِلَّا عَنْ غَضَبِكَ وَانْتِقَامِكَ وَسَخَطِكَ، وَهَذَا مَا لَا تَقُومُ لَهُ السَّمَاوَاتُ وَالْأَرْضُ،',tr:'li-innahu lâ yakûnu illâ \'an ghadabika wa-ntiqâmika wa sakhatika, wa hadhâ mâ lâ taqûmu lahu as-samâwâtu wa-l-ardu;',fr:'parce qu\'elles ne proviennent que de Ta Colère, de Ta Vengeance et de Ton Courroux, et cela est ce que ni les cieux ni la terre ne peuvent supporter !'},
+        {t:'tri',ar:'يَا سَيِّدِي فَكَيْفَ بِي وَأَنَا عَبْدُكَ الضَّعِيفُ الذَّلِيلُ، الْحَقِيرُ الْمِسْكِينُ،',tr:'Yâ sayyidî, fa-kayfa bî wa anâ \'abduka ad-da\'îfu adh-dhalîlu, al-haqîru, al-miskînu.',fr:'Alors, ô mon Maître, qu\'en serait-il de moi, moi qui suis Ton serviteur faible, vil, méprisable, misérable ?'},
+        {t:'tri',ar:'يَا إِلَهِي وَرَبِّي وَسَيِّدِي وَمَوْلَايَ، لِأَيِّ الْأُمُورِ إِلَيْكَ أَشْكُو، وَلِمَا مِنْهَا أَضِجُّ وَأَبْكِي،',tr:'Yâ ilâhî wa rabbî wa sayyidî wa mawlâya, li-ayyi-l-umûri ilayka ashkû, wa lima minhâ adijju wa abkî.',fr:'Ô mon Dieu, mon Seigneur, mon Maître, mon Tuteur, de quelles choses me plaindre auprès de Toi, pour lesquelles je crierai et je pleurerai ?'},
+        {t:'tri',ar:'لِأَلِيمِ الْعَذَابِ وَشِدَّتِهِ أَمْ لِطُولِ الْبَلَاءِ وَمُدَّتِهِ،',tr:'Li-alîmi-l-\'adhâbi wa shidda-tihi am li-tûli-l-balâ\'i wa muddatihi ?',fr:'De la douleur et de l\'intensité du châtiment ou de la permanence de l\'épreuve et de sa durée ?'},
+        {t:'tri',ar:'فَلَئِنْ صَيَّرْتَنِي لِلْعُقُوبَاتِ مَعَ أَعْدَائِكَ، وَجَمَعْتَ بَيْنِي وَبَيْنَ أَهْلِ بَلَائِكَ،',tr:'Fa-la\'in sayyartanî li-l-\'uqûbâti ma\'a a\'dâ\'ika, wa jama\'ta baynî wa bayna ahli balâ\'ika,',fr:'Et si Tu m\'envoyais aux châtiments avec Tes ennemis, que Tu me mettais avec les tenants de Tes Épreuves,'},
+        {t:'tri',ar:'وَفَرَّقْتَ بَيْنِي وَبَيْنَ أَحِبَّائِكَ وَأَوْلِيَائِكَ،',tr:'wa farraqta baynî wa bayna ahibbâ\'ika wa awliyâ\'ika,',fr:'et que Tu me séparais de Tes Bien-aimés et de Tes Proches-alliés,'},
+        {t:'tri',ar:'فَهَبْنِي يَا إِلَهِي وَسَيِّدِي وَمَوْلَايَ وَرَبِّي صَبَرْتُ عَلَى عَذَابِكَ، فَكَيْفَ أَصْبِرُ عَلَى فِرَاقِكَ،',tr:'fa-habnî, yâ ilâhî wa sayyidî wa mawlâya wa rabbî, sabartu \'alâ \'adhâbika, fa-kayfa asbiru \'alâ firâqika ?',fr:'à supposer, ô mon Maître, que j\'endurerais Ton Châtiment, comment supporterais-je Ta Séparation ?'},
+        {t:'tri',ar:'وَهَبْنِي صَبَرْتُ عَلَى حَرِّ نَارِكَ، فَكَيْفَ أَصْبِرُ عَنِ النَّظَرِ إِلَى كَرَامَتِكَ، أَمْ كَيْفَ أَسْكُنُ فِي النَّارِ وَرَجَائِي عَفْوُكَ،',tr:'Wa-habnî sabartu \'alâ harri nârika fa-kayfa asbiru \'ani-n-nazhari ilâ karâmatika ? Am kayfa askunu fî-n-nâri wa rajâ\'î \'afuka ?',fr:'À supposer que j\'endurerais la chaleur de Ton feu, comment supporterais-je de ne pas voir Ta Noblesse ? Ou comment résiderais-je dans le Feu alors que mon espoir est Ton Pardon ?'},
+        {t:'tri',ar:'فَبِعِزَّتِكَ يَا سَيِّدِي وَمَوْلَايَ أُقْسِمُ صَادِقاً، لَئِنْ تَرَكْتَنِي نَاطِقاً لَأَضِجَّنَّ إِلَيْكَ بَيْنَ أَهْلِهَا ضَجِيجَ الْآمِلِينَ،',tr:'Fa-bi-\'izzatika yâ sayyidî wa mawlâya uqsimu sâdiqann, la\'in taraktanî nâtiqann, la-adijjanna ilayka bayna ahlihâ dajîja-l-âmilîna,',fr:'Alors, par Ta Puissance, ô mon Maître, je jure en toute sincérité, que si Tu me laissais la parole, je hurlerais vers Toi parmi ses habitants, du vacarme de ceux qui ont espoir,'},
+        {t:'tri',ar:'وَلَأَصْرُخَنَّ صُرَاخَ الْمُسْتَصْرِخِينَ، وَلَأَبْكِيَنَّ عَلَيْكَ بُكَاءَ الْفَاقِدِينَ، وَلَأُنَادِيَنَّكَ أَيْنَ كُنْتَ',tr:'wa la-asrukhanna surâkha-l-mustasrikhîna, wa la-abkiyanna \'alayka bukâ\'a-l-fâqidîna, wa la-unâdiyannaka ayna kunta.',fr:'je crierais du cri de ceux qui appellent au secours, je pleurerais sur Toi des pleurs de ceux qui pleurent sur leurs disparus et je T\'appellerais : « Où es-Tu ? ».'},
+        {t:'tri',ar:'يَا وَلِيَّ الْمُؤْمِنِينَ، يَا غَايَةَ آمَالِ الْعَارِفِينَ، يَا غِيَاثَ الْمُسْتَغِيثِينَ، يَا حَبِيبَ قُلُوبِ الصَّادِقِينَ، وَيَا إِلَهَ الْعَالَمِينَ،',tr:'Yâ waliyya-l-mu\'minîna, yâ ghâyata âmâli-l-\'ârifîna, yâ ghiyâtha-l-mustaghîthîna, yâ habîba qulûbi-s-sâdiqîna, wa yâ ilâha-l-\'âlamîna,',fr:'Ô Maître des croyants, ô But des espoirs de ceux qui savent, ô Secours de ceux qui appellent à l\'aide, ô Bien-aimé des cœurs des Sincères, ô Dieu des mondes,'},
+        {t:'tri',ar:'أَفَتُرَاكَ سُبْحَانَكَ يَا إِلَهِي وَبِحَمْدِكَ تَسْمَعُ فِيهَا صَوْتَ عَبْدٍ مُسْلِمٍ سُجِنَ فِيهَا بِمُخَالَفَتِهِ،',tr:'a-fa-turâka, subhânaka yâ ilâhî wa bi-hamdika, tasma\'u fîhâ sawta \'abdinn musliminn sujina fîhâ bi-mukhâlafatihi,',fr:'est-ce que Tu Te vois – que Tu sois Glorifié – entendre la voix d\'un serviteur soumis, enfermé en Enfer pour T\'avoir désobéi,'},
+        {t:'tri',ar:'وَذَاقَ طَعْمَ عَذَابِهَا بِمَعْصِيَتِهِ، وَحُبِسَ بَيْنَ أَطْبَاقِهَا بِجُرْمِهِ وَجَرِيرَتِهِ،',tr:'wa dhâqa ta\'ma \'adhâbihâ bi-ma\'siyatihi, wa habusa bay-na atbâqihâ bi-jurmihi wa jarîratihi,',fr:'goûtant à ses châtiments à cause de ses actes de désobéissance, détenu dans des étages de l\'Enfer à cause de ses crimes et de ses délits,'},
+        {t:'tri',ar:'وَهُوَ يَضِجُّ إِلَيْكَ ضَجِيجَ مُؤَمِّلٍ لِرَحْمَتِكَ، وَيُنَادِيكَ بِلِسَانِ أَهْلِ تَوْحِيدِكَ، وَيَتَوَسَّلُ إِلَيْكَ بِرُبُوبِيَّتِكَ، يَا مَوْلَايَ',tr:'wa huwa yadijju ilayka dajîja mu\'ammilinn li-rahmatika, wa yunâdîka bi-lisâni ahli tawhîdika, wa yatawassalu ilayka bi-rubûbiyyatika, yâ mawlâya.',fr:'qui hurlerait vers Toi du vacarme de celui qui a espoir en Ta Miséricorde, qui T\'appellerait de la langue des gens de Ton Unicité, qui chercherait à s\'approcher de Toi par Ta Seigneurie, ô mon Maître ?!'},
+        {t:'tri',ar:'فَكَيْفَ يَبْقَى فِي الْعَذَابِ وَهُوَ يَرْجُو مَا سَلَفَ مِنْ حِلْمِكَ،',tr:'Fa-kayfa yabqâ fî-l-\'adhâbi wa huwa yarjû mâ salafa min hilmika.',fr:'Il resterait dans les châtiments alors qu\'il a espoir en Ta Mansuétude préalable ?!'},
+        {t:'tri',ar:'أَمْ كَيْفَ تُؤْلِمُهُ النَّارُ وَهُوَ يَأْمُلُ فَضْلَكَ وَرَحْمَتَكَ،',tr:'Am kayfa tu\'limuhu an-nâru wa huwa yâ\'mulu fadlaka wa rahmataka.',fr:'Le feu le ferait souffrir alors qu\'il espère en Ta Faveur et en Ta Miséricorde ?!'},
+        {t:'tri',ar:'أَمْ كَيْفَ يُحْرِقُهُ لَهِيبُهَا وَأَنْتَ تَسْمَعُ صَوْتَهُ وَتَرَى مَكَانَهُ،',tr:'Am kayfa yuhriquhu lahîbuhâ wa anta tasma\'u sawtahu wa tarâ makânahu.',fr:'Les flammes le brûleraient alors que Tu entends sa voix et que Tu vois son emplacement ?!'},
+        {t:'tri',ar:'أَمْ كَيْفَ يَشْتَمِلُ عَلَيْهِ زَفِيرُهَا وَأَنْتَ تَعْلَمُ ضَعْفَهُ،',tr:'Am kayfa yashtamilu \'alayhi zafîruhâ wa anta ta\'lamu da\'fahu.',fr:'Les crépitements du feu le cerneraient alors que Tu connais sa faiblesse ?!'},
+        {t:'tri',ar:'أَمْ كَيْفَ يَتَقَلْقَلُ بَيْنَ أَطْبَاقِهَا وَأَنْتَ تَعْلَمُ صِدْقَهُ،',tr:'Am kayfa yataqalqalu bayna atbâqihâ wa anta ta\'lamu sidqahu.',fr:'Il serait ballotté entre ses étages alors que Tu connais sa sincérité ?!'},
+        {t:'tri',ar:'أَمْ كَيْفَ تَزْجُرُهُ زَبَانِيَتُهَا وَهُوَ يُنَادِيكَ يَا رَبَّاهُ،',tr:'Am kayfa tazjuruhu zabâni-yatuhâ wa huwa yunâdîka yâ rabbâhu.',fr:'Les sbires le rabroueraient-ils alors qu\'il T\'appelle : « Ô mon Seigneur ! » ?!'},
+        {t:'tri',ar:'أَمْ كَيْفَ يَرْجُو فَضْلَكَ فِي عِتْقِهِ مِنْهَا فَتَتْرُكَهُ فِيهَا،',tr:'Am kayfa yarjû fadlaka fî \'itqihi minhâ fa-tatrukahu fîhâ.',fr:'Ou Tu le laisserais en enfer alors qu\'il espère en Ta Grâce pour être libéré de là ?!'},
+        {t:'tri',ar:'هَيْهَاتَ مَا ذَلِكَ الظَّنُّ بِكَ وَلَا الْمَعْرُوفُ مِنْ فَضْلِكَ، وَلَا مُشْبِهٌ لِمَا عَامَلْتَ بِهِ الْمُوَحِّدِينَ مِنْ بِرِّكَ وَإِحْسَانِكَ،',tr:'Hayhâta mâ dhalika-zh-zhannu bika wa lâ al-ma\'rûfu min fadlika, wa lâ mushbihunn limâ \'âmalta bihi-l-muwahhidîna min birrika wa ihsânika.',fr:'Non ! Loin de cela ! Ce n\'est pas l\'opinion que l\'on a de Toi ni de ce qui est connu de Ta Faveur, ni ne ressemble à la Bonté avec lesquelles Tu T\'es comporté avec les monothéistes !'},
+        {t:'tri',ar:'فَبِالْيَقِينِ أَقْطَعُ، لَوْ لَا مَا حَكَمْتَ بِهِ مِنْ تَعْذِيبِ جَاحِدِيكَ، وَقَضَيْتَ بِهِ مِنْ إِخْلَادِ مُعَانِدِيكَ،',tr:'Fa-bi-l-yaqîni aqta\'u, law lâ mâ hakamta bihi min ta\'dhîbi jâhidîka, wa qadayta bihi min ikhlâdi mu\'ânidîka,',fr:'Aussi, j\'affirme avec certitude que, si Tu n\'avais pas décidé de châtier les renégats, ni décrété pour ceux qui s\'entêtent l\'éternité dans l\'Enfer,'},
+        {t:'tri',ar:'لَجَعَلْتَ النَّارَ كُلَّهَا بَرْداً وَسَلَاماً، وَمَا كَانَتْ لِأَحَدٍ فِيهَا مَقَرّاً وَلَا مُقَاماً',tr:'la-ja\'alta an-nâra kullahâ bardann wa salâmann, wa mâ kânat li-ahadinn fîhâ maqarrann wa lâ muqâmann.',fr:'Tu aurais rendu le Feu frais et paisible et personne n\'y aurait trouvé demeure ni station.'},
+        {t:'tri',ar:'لَكِنَّكَ تَقَدَّسَتْ أَسْمَاؤُكَ أَقْسَمْتَ أَنْ تَمْلَأَهَا مِنَ الْكَافِرِينَ، مِنَ الْجِنَّةِ وَالنَّاسِ أَجْمَعِينَ، وَأَنْ تُخَلِّدَ فِيهَا الْمُعَانِدِينَ،',tr:'Lakinnaka taqaddasat asmâ\'-uka aqsamta an tamla\'ahâ mina-l-kâfirîna, mina-l-jinnati wa-n-nâsi ajma\'îna, wa an tukhallida fîhâ-l-mu\'ânidîna.',fr:'Mais Toi, que Tes Noms soient sanctifiés, Tu as juré de le remplir des incroyants de l\'ensemble des djinns et des gens, et d\'y laisser ceux qui s\'entêtent dans la désobéissance.'},
+        {t:'tri',ar:'وَأَنْتَ جَلَّ ثَنَاؤُكَ قُلْتَ مُبْتَدِئاً، وَتَطَوَّلْتَ بِالْإِنْعَامِ مُتَكَرِّماً،',tr:'wa anta, jalla thanâ\'uka, qulta mubtadi\'ann, wa tatawwalta bi-l-in\'âmi mutakarrimann,',fr:'Et Toi, que Ta Louange soit magnifiée, Tu as dit préalablement et Tu as favorisé le croyant en l\'honorant :'},
+        {t:'tri',ar:'﴿ أَفَمَنْ كَانَ مُؤْمِناً كَمَنْ كَانَ فَاسِقاً لَا يَسْتَوُونَ ﴾.',tr:'A-fa-man kâna mu\'minann kaman kâna fâsiqann lâ yasta\'ûna.',fr:'« Le croyant serait-il semblable au pervers ? Ils ne s\'équivalent pas ! » (32:18)'},
+        {t:'tri',ar:'إِلَهِي وَسَيِّدِي، فَأَسْأَلُكَ بِالْقُدْرَةِ الَّتِي قَدَّرْتَهَا، وَبِالْقَضِيَّةِ الَّتِي حَتَمْتَهَا وَحَكَمْتَهَا، وَغَلَبْتَ مَنْ عَلَيْهِ أَجْرَيْتَهَا،',tr:'Ilâhî wa sayyidî, fa-as\'aluka bi-l-qudrati al-latî qaddartahâ, wa bi-l-qadiyyati al-latî hatamtahâ wa hakamtahâ wa ghalabta man \'alayhi ajraytahâ,',fr:'Mon Dieu et mon Maître, je Te demande, par la Puissance dont Tu as donné la mesure, et par la Question que Tu as imposée et statuée,'},
+        {t:'tri',ar:'أَنْ تَهَبَ لِي فِي هَذِهِ اللَّيْلَةِ وَفِي هَذِهِ السَّاعَةِ، كُلَّ جُرْمٍ أَجْرَمْتُهُ، وَكُلَّ ذَنْبٍ أَذْنَبْتُهُ، وَكُلَّ قَبِيحٍ أَسْرَرْتُهُ،',tr:'an tahaba lî fî hadhihi-l-laylati wa fî hadhihi-s-sâ\'ati, kulla jurminn ajramtuhu, wa kulla dhanbinn adhnabtuhu, wa kulla qabîhinn asrartuhu,',fr:'de me pardonner, en cette nuit et en cette heure, tout crime que j\'ai commis, tout péché que j\'ai fait, toute chose détestable que j\'ai tenue secrète,'},
+        {t:'tri',ar:'وَكُلَّ جَهْلٍ عَمِلْتُهُ، كَتَمْتُهُ أَوْ أَعْلَنْتُهُ، أَخْفَيْتُهُ أَوْ أَظْهَرْتُهُ،',tr:'wa kulla jahlinn \'amiltuhu, katamtuhu aw a\'lantuhu akh-faytuhu aw azhhartuhu,',fr:'tout acte que j\'ai effectué par ignorance, que j\'ai dissimulé ou que j\'ai divulgué, que j\'ai caché ou que j\'ai mis en évidence,'},
+        {t:'tri',ar:'وَكُلَّ سَيِّئَةٍ أَمَرْتَ بِإِثْبَاتِهَا الْكِرَامَ الْكَاتِبِينَ،',tr:'wa kulla sayyi\'atinn amarta bi-ithbâtihâ al-kirâma-l-kâtibîna,',fr:'toute mauvaise action pour laquelle Tu demandes l\'attestation des nobles scribes,'},
+        {t:'tri',ar:'الَّذِينَ وَكَّلْتَهُمْ بِحِفْظِ مَا يَكُونُ مِنِّي، وَجَعَلْتَهُمْ شُهُوداً عَلَيَّ مَعَ جَوَارِحِي،',tr:'al-ladhîna wakkaltahum bi-hifzhi mâ yakûnu minnî, wa ja\'altahum shuhûdann \'alayya ma\'a jawârihî,',fr:'que Tu avais chargés d\'enregistrer tout ce qui provient de moi, et que Tu avais placés comme témoins avec mes membres, à mon encontre,'},
+        {t:'tri',ar:'وَكُنْتَ أَنْتَ الرَّقِيبَ عَلَيَّ مِنْ وَرَائِهِمْ، وَالشَّاهِدَ لِمَا خَفِيَ عَنْهُمْ، وَبِرَحْمَتِكَ أَخْفَيْتَهُ، وَبِفَضْلِكَ سَتَرْتَهُ،',tr:'wa kunta anta-r-raqîba \'alayya min warâ\'ihim, wa-sh-shâhida lima khafiya \'anhum wa bi-rahmatika akhfaytahu, wa bi-fadlika satartahu.',fr:'alors que Toi, Tu m\'observais derrière eux, et Tu étais le Témoin de ce qui leur était dissimulé, de ce que Tu avais caché par Ta Miséricorde, de ce que Tu avais gardé secret par Ta Faveur.'},
+        {t:'tri',ar:'وَأَنْ تُوَفِّرَ حَظِّي مِنْ كُلِّ خَيْرٍ تُنْزِلُهُ أَوْ إِحْسَانٍ تُفْضِلُهُ',tr:'wa an tuwaffira hazhzhî min kulli khayrinn tunziluhu aw ihsâninn tufdiluhu,',fr:'Et je Te demande de m\'accorder généreusement ma part de tout Bien que Tu fais descendre, de tout bienfait dont Tu fais Grâce,'},
+        {t:'tri',ar:'أَوْ بِرٍّ تَنْشُرُهُ، أَوْ رِزْقٍ تَبْسُطُهُ، أَوْ ذَنْبٍ تَغْفِرُهُ، أَوْ خَطَأٍ تَسْتُرُهُ',tr:'aw birrinn tanshiruhu aw rizqinn tabsituhu aw dhanbinn taghfiruhu aw khata\'inn tas-turuhu,',fr:'de toute Bonté que Tu répands, de toute Ressource que Tu étends, de tout péché que Tu pardonnes ou de toute faute que Tu dissimules,'},
+        {t:'tri',ar:'يَا رَبِّ يَا رَبِّ يَا رَبِّ، يَا إِلَهِي وَسَيِّدِي وَمَوْلَايَ وَمَالِكَ رِقِّي،',tr:'yâ rabbi, yâ rabbi, yâ rabbi, yâ ilâhî, wa sayyidî, wa mawlâya, wa mâlika riqqî.',fr:'ô mon Seigneur, ô mon Seigneur, ô mon Seigneur, ô mon Dieu, ô mon Souverain, ô mon Maître et Détenteur de ma servitude.'},
+        {t:'tri',ar:'يَا مَنْ بِيَدِهِ نَاصِيَتِي، يَا عَلِيماً بِضُرِّي وَمَسْكَنَتِي، يَا خَبِيراً بِفَقْرِي وَفَاقَتِي، يَا رَبِّ يَا رَبِّ يَا رَبِّ،',tr:'Yâ man bi-yadihi nâsiyatî, yâ \'alîmann bi-durrî wa maskanatî, yâ khabîrann bi-faqrî wa fâqatî, yâ rabbi, yâ rabbi, yâ rabbi,',fr:'Ô Celui qui a entre Ses Mains mon toupet, ô Celui qui connaît ma misère et mon indigence, ô Celui qui est au courant de ma pauvreté et de mon dénuement, ô mon Seigneur,'},
+        {t:'tri',ar:'أَسْأَلُكَ بِحَقِّكَ وَقُدْسِكَ وَأَعْظَمِ صِفَاتِكَ وَأَسْمَائِكَ،',tr:'as\'aluka bi-haqqika wa qud-sika wa a\'zhami sifâtika wa asmâ\'ika,',fr:'je Te demande, par la Grâce de Ton Droit, de Ta Sainteté et du plus grandiose de Tes Attributs et de Tes Noms,'},
+        {t:'tri',ar:'أَنْ تَجْعَلَ أَوْقَاتِي فِي اللَّيْلِ وَالنَّهَارِ بِذِكْرِكَ مَعْمُورَةً، وَبِخِدْمَتِكَ مَوْصُولَةً،',tr:'an taj\'ala awqâtî fî-l-layli wa-n-nahâri, bi-dhikrika ma\'mû-ratann, wa bi-khidmatika mawsûlatann,',fr:'de faire en sorte que je passe tout mon temps, le jour et la nuit, à T\'évoquer et à Te servir de façon ininterrompue,'},
+        {t:'tri',ar:'وَأَعْمَالِي عِنْدَكَ مَقْبُولَةً، حَتَّى تَكُونَ أَعْمَالِي وَأَوْرَادِي كُلُّهَا وِرْداً وَاحِداً، وَحَالِي فِي خِدْمَتِكَ سَرْمَداً،',tr:'wa a\'mâlî \'indaka maqbûla-tann, hattâ takûna a\'mâlî wa awrâdî kulluhâ wirdann wâhidann, wa hâlî fî khidmatika sarmadann.',fr:'que mes actes soient agréés par Toi, afin que tous mes actes et toutes mes invocations deviennent une seule invocation, et que je sois perpétuellement à Ton Service.'},
+        {t:'tri',ar:'يَا سَيِّدِي يَا مَنْ عَلَيْهِ مُعَوَّلِي، يَا مَنْ إِلَيْهِ شَكَوْتُ أَحْوَالِي، يَا رَبِّ يَا رَبِّ يَا رَبِّ،',tr:'Yâ sayyidî, yâ man \'alayhi mu\'awwalî, yâ man ilayhi shakawtu ahwâlî, yâ rabbi, yâ rabbi, yâ rabbi,',fr:'Ô mon Maître, ô Celui sur qui je compte, ô Celui à qui je me plains de mes états, ô mon Seigneur,'},
+        {t:'tri',ar:'قَوِّ عَلَى خِدْمَتِكَ جَوَارِحِي، وَاشْدُدْ عَلَى الْعَزِيمَةِ جَوَانِحِي،',tr:'qawwi \'alâ khidmatika jawârihî, wa-shdud \'alâ-l-\'azîmati jawânihî,',fr:'renforce mes membres à Ton Service et raffermis la détermination de mon cœur,'},
+        {t:'tri',ar:'وَهَبْ لِيَ الْجِدَّ فِي خَشْيَتِكَ، وَالدَّوَامَ فِي الاتِّصَالِ بِخِدْمَتِكَ،',tr:'wa hab liya-l-jidda fî khashyatika, wa-d-dawâma fî-l-ittisâli bi-khidmatika,',fr:'accorde-moi de Te craindre avec sérieux et de Te servir en permanence, sans discontinuité,'},
+        {t:'tri',ar:'حَتَّى أَسْرَحَ إِلَيْكَ فِي مَيَادِينِ السَّابِقِينَ، وَأُسْرِعَ إِلَيْكَ فِي الْمُبَادِرِينَ',tr:'hattâ asraha ilayka fî mayâdîni-s-sâbiqîna, wa usri\'a ilayka fî-l-mubâdirîna,',fr:'afin que je me rende vers Toi dans les domaines des prédécesseurs, que je me précipite vers Toi parmi ceux qui prennent les initiatives,'},
+        {t:'tri',ar:'وَأَشْتَاقَ إِلَى قُرْبِكَ فِي الْمُشْتَاقِينَ، وَأَدْنُوَ مِنْكَ دُنُوَّ الْمُخْلِصِينَ،',tr:'wa-shtâqa ilâ qurbika fî-l-mushtâqîna, wa adnuwa minka dunuwwa-l-mukhlisîna,',fr:'que je désire ardemment Ta Proximité parmi ceux à qui Tu manques, que je me rapproche de Toi du rapprochement des sincères,'},
+        {t:'tri',ar:'وَأَخَافَكَ مَخَافَةَ الْمُوقِنِينَ، وَأَجْتَمِعَ فِي جِوَارِكَ مَعَ الْمُؤْمِنِينَ.',tr:'wa akhâfaka makhâfata-l-mûqinîna, wa ajtami\'a fî jiwâ-rika ma\'a-l-mu\'minîna.',fr:'que je Te craigne de la peur de ceux qui ont atteint la certitude, que je rejoigne les croyants dans Ton Voisinage.'},
+        {t:'tri',ar:'اللَّهُمَّ وَمَنْ أَرَادَنِي بِسُوءٍ فَأَرِدْهُ، وَمَنْ كَادَنِي فَكِدْهُ،',tr:'Allâhumma, wa man arâdanî bi-sû\'inn fa-arid\'hu, wa man kâdanî fa-kid\'hu,',fr:'Ô mon Dieu, mène à la perte celui qui me veut du mal, use de Tes Stratagèmes contre celui qui veut ruser contre moi,'},
+        {t:'tri',ar:'وَاجْعَلْنِي مِنْ أَحْسَنِ عَبِيدِكَ نَصِيباً عِنْدَكَ، وَأَقْرَبِهِمْ مَنْزِلَةً مِنْكَ، وَأَخَصِّهِمْ زُلْفَةً لَدَيْكَ،',tr:'wa-j\'alnî min ahsani \'abîdika nasîbann \'indaka, wa aqrabihim manzilatann minka, akhassihim zulfatann ladayka,',fr:'fais que je sois, parmi Tes serviteurs, celui qui a la meilleure part auprès de Toi, la plus proche demeure et la plus particulière proximité,'},
+        {t:'tri',ar:'فَإِنَّهُ لَا يُنَالُ ذَلِكَ إِلَّا بِفَضْلِكَ،',tr:'fa-innahu lâ yunâlu dhâlika illâ bi-fadlika.',fr:'car cela ne peut être obtenu que par Ta Faveur !'},
+        {t:'tri',ar:'وَجُدْ لِي بِجُودِكَ، وَاعْطِفْ عَلَيَّ بِمَجْدِكَ، وَاحْفَظْنِي بِرَحْمَتِكَ،',tr:'Wa jud lî bi-jûdika, wa-\'tif \'alayya bi-majdika, wa-hfazhnî bi-rahmatika,',fr:'Sois Généreux à mon égard, éprouve de la compassion par Ta Gloire, protège-moi par Ta Miséricorde,'},
+        {t:'tri',ar:'وَاجْعَلْ لِسَانِي بِذِكْرِكَ لَهِجاً، وَقَلْبِي بِحُبِّكَ مُتَيَّماً،',tr:'wa-j\'al lisânî bi-dhikrika lahijann, wa qalbî bi-hubbika mutayyamann,',fr:'fais que ma langue T\'évoque constamment, que mon cœur soit passionné par Ton Amour,'},
+        {t:'tri',ar:'وَمُنَّ عَلَيَّ بِحُسْنِ إِجَابَتِكَ، وَأَقِلْنِي عَثْرَتِي وَاغْفِرْ زَلَّتِي،',tr:'wa munna \'alayya bi-husni ijâbatika, wa aqilnî \'athratî wa-ghfir zallatî,',fr:'accorde-moi une bonne réponse de Ta Part, atténue mes fautes et pardonne mes faux-pas,'},
+        {t:'tri',ar:'فَإِنَّكَ قَضَيْتَ عَلَى عِبَادِكَ بِعِبَادَتِكَ، وَأَمَرْتَهُمْ بِدُعَائِكَ، وَضَمِنْتَ لَهُمُ الْإِجَابَةَ،',tr:'fa-innaka qadayta \'alâ \'ibâdika bi-\'ibâdatika, wa amartahum bi-du\'â\'ika, wa daminta lahumu al-ijâbata.',fr:'car Tu as imposé à Tes serviteurs de T\'adorer, Tu leur as ordonné de T\'invoquer et Tu leur as assuré de répondre !'},
+        {t:'tri',ar:'فَإِلَيْكَ يَا رَبِّ نَصَبْتُ وَجْهِي، وَإِلَيْكَ يَا رَبِّ مَدَدْتُ يَدِي،',tr:'Fa-ilayka yâ rabbi nasabtu wajhî, wa ilayka yâ rabbi madadtu yadî.',fr:'Alors, c\'est vers Toi, ô mon Seigneur, que je tourne mon visage, c\'est vers Toi que je tends les mains !'},
+        {t:'tri',ar:'فَبِعِزَّتِكَ اسْتَجِبْ لِي دُعَائِي وَبَلِّغْنِي مُنَايَ، وَلَا تَقْطَعْ مِنْ فَضْلِكَ رَجَائِي، وَاكْفِنِي شَرَّ الْجِنِّ وَالْإِنْسِ مِنْ أَعْدَائِي،',tr:'Fa-bi-\'izzatika-stajib lî du\'â\'î wa ballighnî munâya, wa lâ taqta\' min fadlika rajâ\'î, wa-kfinî sharra-l-jinna wa-l-insi min a\'dâ\'î.',fr:'Aussi, par Ta Puissance, exauce ma demande et réalise mon souhait, ne me fais pas perdre espoir en Tes Faveurs, et préserve-moi du mal de mes ennemis !'},
+        {t:'tri',ar:'يَا سَرِيعَ الرِّضَا، اغْفِرْ لِمَنْ لَا يَمْلِكُ إِلَّا الدُّعَاءَ، فَإِنَّكَ فَعَّالٌ لِمَا تَشَاءُ،',tr:'Yâ sarî\'a-r-ridâ, ighfir li-man lâ yamliku illâ-d-du\'â\'a, fa-innaka fa\'\'\'âlunn limâ tashâ\'u.',fr:'Ô Celui qui donne rapidement satisfaction, pardonne à celui qui ne possède que l\'invocation, car Tu fais ce que Tu veux !'},
+        {t:'tri',ar:'يَا مَنِ اسْمُهُ دَوَاءٌ، وَذِكْرُهُ شِفَاءٌ، وَطَاعَتُهُ غِنًى، ارْحَمْ مَنْ رَأْسُ مَالِهِ الرَّجَاءُ، وَسِلَاحُهُ الْبُكَاءُ،',tr:'Yâ mani-smuhu dawâ\'unn, wa dhikruhu shifâ\'unnn wa tâ\'atuhu ghinann, irham man ra\'su mâlihi ar-rajâ\'u wa silâhuhu al-bukâ\'u.',fr:'Ô Celui dont le Nom est Remède, le Souvenir Guérison, à qui l\'obéissance est Richesse, fais miséricorde à celui qui n\'a pour capital que l\'espoir et pour arme que les pleurs !'},
+        {t:'tri',ar:'يَا سَابِغَ النِّعَمِ، يَا دَافِعَ النِّقَمِ، يَا نُورَ الْمُسْتَوْحِشِينَ فِي الظُّلَمِ، يَا عَالِماً لَا يُعَلَّمُ،',tr:'Yâ sâbigha-n-ni\'ami, yâ dâfi\'a-n-niqami, yâ nûra-l-mustawhishîna fî-zh-zhulami, yâ \'âlimann lâ yu\'allamu,',fr:'Ô Celui qui répand les bienfaits et qui repousse les châtiments, ô Lumière de ceux qui sont esseulés dans les ténèbres, ô Savant sans avoir appris,'},
+        {t:'tri',ar:'صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ، وَافْعَلْ بِي مَا أَنْتَ أَهْلُهُ،',tr:'salli \'alâ Muhammadinn wa âli Muhammadinn, wa-f\'al bî mâ anta ahluhu.',fr:'prie sur Mohammed et sur la famille de Mohammed, et fais de moi ce dont Tu es Digne !'},
+        {t:'tri',ar:'وَصَلَّى اللَّهُ عَلَى رَسُولِهِ وَالْأَئِمَّةِ الْمَيَامِينِ مِنْ آلِهِ وَسَلَّمَ تَسْلِيماً كَثِيراً.',tr:'Wa sallâ-llâhu \'alâ rasûlihi wa-l-a\'immati-l-mayâmîna min âlihi, wa sallama taslîmann kathîrann.',fr:'Que Dieu prie sur Son Messager et les Imams Bien-heureux de sa famille, et salue de beaucoup de saluts de paix !'}
+      ]
+    },
 
     inv7: {
       source: 'As-Ṣaḥīfa as-Sajjādiyya',
@@ -529,6 +672,12 @@ function showInvocation(id) {
         html += '<div class="c-verse"><div class="c-vnum">'+v.n+'</div><div class="c-vtext">'+v.tx+'</div></div>';
       } else if(v.t === 'zv') {
         html += '<div class="c-zv"><div class="c-zv-text">'+v.tx+(v.ar?'<div class="c-zv-ar">'+v.ar+'</div>':'')+'</div></div>';
+      } else if(v.t === 'tri') {
+        html += '<div class="c-tri">';
+        if(v.ar) html += '<div class="c-tri-ar">'+v.ar+'</div>';
+        if(v.tr) html += '<div class="c-tri-tr">'+v.tr+'</div>';
+        html += '<div class="c-tri-fr">'+v.fr+'</div>';
+        html += '</div>';
       }
     });
   }
@@ -543,39 +692,43 @@ function showInvocation(id) {
 </script>
 
 <style id="injected-light-theme">
+/* ── Light theme — Du'ā & Ziyāra ── */
 [data-theme="light"] body{background:#e8e0d4!important;color:#2c2114!important}
-[data-theme="light"] *{border-color:rgba(122,92,36,0.12)!important}
-[data-theme="light"] .header,.sidebar,.search-panel,.nav-footer{background:rgba(225,218,206,0.97)!important}
-[data-theme="light"] .header-title,.sidebar-header h2{color:#7a5c24!important}
-[data-theme="light"] .content-area{background:#e8e0d4!important}
-[data-theme="light"] .chapter-content,.chapter-text,.chapter-text p{color:#2c2114!important}
-[data-theme="light"] .question-block{background:rgba(220,212,196,0.5)!important}
-[data-theme="light"] .question-text{color:#2c2114!important}
-[data-theme="light"] .section-heading{color:#7a5c24!important}
-[data-theme="light"] .reponse-label{color:#7a5c24!important}
-[data-theme="light"] .sidebar{background:rgba(225,218,206,0.97)!important}
-[data-theme="light"] .sidebar-item{border-color:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .sidebar-item:hover,.sidebar-item.active{background:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .sidebar-tab.active{color:#7a5c24!important;border-bottom-color:#7a5c24!important}
-[data-theme="light"] .home-screen{background:#e8e0d4!important}
-[data-theme="light"] .home-title,.home-subtitle,.home-desc{color:#2c2114!important}
-[data-theme="light"] .home-start{background:#7a5c24!important}
-[data-theme="light"] .home-toc{background:rgba(235,228,216,0.8)!important;border-color:rgba(122,92,36,0.12)!important}
-[data-theme="light"] .home-toc-title{color:#7a5c24!important}
-[data-theme="light"] .home-toc-item{border-color:rgba(122,92,36,0.08)!important;color:#2c2114!important}
-[data-theme="light"] .home-toc-item:hover{background:rgba(122,92,36,0.06)!important}
-[data-theme="light"] .note-banner{background:rgba(122,92,36,0.06)!important;border-left-color:#7a5c24!important}
-[data-theme="light"] .search-input-wrap{background:rgba(220,212,196,0.6)!important}
-[data-theme="light"] .search-input{color:#2c2114!important}
-[data-theme="light"] .nav-btn{color:#7a5c24!important;border-color:rgba(122,92,36,0.2)!important}
-[data-theme="light"] .nav-btn:hover{background:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .nav-progress{color:#5a4e3c!important}
-[data-theme="light"] .footnote{color:#5a4e3c!important}
-[data-theme="light"] .fn-ref a,.fn-back,.fn-back-num{color:#7a5c24!important}
-[data-theme="light"] .download-section{background:rgba(235,228,216,0.6)!important;border-color:rgba(122,92,36,0.12)!important}
-[data-theme="light"] .header-btn{color:#2c2114!important}
-[data-theme="light"] .sidebar-item-title{color:#2c2114!important}
-[data-theme="light"] .sidebar-item-num{color:#7a5c24!important}
+[data-theme="light"] .sidebar{background:#ddd5c6!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .sb-header{border-color:rgba(122,92,36,0.12)!important}
+[data-theme="light"] .sb-title{color:#7a5c24!important}
+[data-theme="light"] .sb-sub{color:#8a7c66!important}
+[data-theme="light"] .sb-theme{color:#5a4e3c!important}
+[data-theme="light"] .sb-theme:hover{color:#7a5c24!important;background:rgba(122,92,36,0.06)!important}
+[data-theme="light"] .sb-theme.open{color:#7a5c24!important;background:rgba(122,92,36,0.08)!important;border-left-color:rgba(122,92,36,0.4)!important}
+[data-theme="light"] .sb-chevron{color:#7a5c24!important}
+[data-theme="light"] .sb-item{color:#6b5e48!important}
+[data-theme="light"] .sb-item:hover{color:#7a5c24!important;background:rgba(122,92,36,0.05)!important}
+[data-theme="light"] .sb-item.active{color:#7a5c24!important;background:rgba(122,92,36,0.1)!important;border-left-color:#7a5c24!important}
+[data-theme="light"] .sb-toggle{background:#d8d0c2!important;border-color:rgba(122,92,36,0.2)!important;color:#7a5c24!important}
+[data-theme="light"] .sb-toggle:hover{background:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .welcome-title{color:#7a5c24!important}
+[data-theme="light"] .welcome-hint{color:#8a7c66!important}
+[data-theme="light"] .c-title{color:#2c2114!important}
+[data-theme="light"] .c-subtitle{color:#6b5e48!important}
+[data-theme="light"] .c-source{color:#7a5c24!important}
+[data-theme="light"] .c-vtext{color:#3d3425!important}
+[data-theme="light"] .c-verse{background:rgba(122,92,36,0.03)!important;border-color:rgba(122,92,36,0.08)!important}
+[data-theme="light"] .c-verse:hover{background:rgba(122,92,36,0.06)!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .c-vnum{border-color:rgba(122,92,36,0.3)!important;color:#7a5c24!important}
+[data-theme="light"] .c-intro{color:#6b5e48!important;background:rgba(122,92,36,0.04)!important;border-left-color:rgba(122,92,36,0.3)!important}
+[data-theme="light"] .c-instruction{color:#7a5c24!important;background:rgba(122,92,36,0.06)!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .c-prose p{color:#3d3425!important}
+[data-theme="light"] .c-salawat{color:#7a5c24!important}
+[data-theme="light"] .c-divider{background:linear-gradient(90deg,rgba(122,92,36,0.25),transparent)!important}
+[data-theme="light"] .c-zv{background:rgba(122,92,36,0.03)!important;border-left-color:rgba(122,92,36,0.25)!important}
+[data-theme="light"] .c-zv-text{color:#3d3425!important}
+[data-theme="light"] .c-zv-ar{color:#7a5c24!important}
+[data-theme="light"] .c-tri{background:rgba(122,92,36,0.03)!important;border-color:rgba(122,92,36,0.08)!important}
+[data-theme="light"] .c-tri:hover{background:rgba(122,92,36,0.06)!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .c-tri-ar{color:#7a5c24!important}
+[data-theme="light"] .c-tri-tr{color:#8a7c66!important}
+[data-theme="light"] .c-tri-fr{color:#3d3425!important}
 [data-theme="light"] ::-webkit-scrollbar-track{background:#e8e0d4!important}
 [data-theme="light"] ::-webkit-scrollbar-thumb{background:rgba(122,92,36,0.25)!important}
 </style>
@@ -583,16 +736,21 @@ function showInvocation(id) {
 <script>
 window.addEventListener('message', function(e) {
   if (e.data && e.data.type === 'theme') {
-    if (e.data.theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-    }
+    var t = e.data.theme;
+    document.documentElement.setAttribute('data-theme', t);
+    document.body.setAttribute('data-theme', t === 'light' ? '' : 'dark');
+    // Also try calling the module's own theme function
+    try { if (typeof setTheme === 'function') setTheme(t); } catch(ex) {}
+    try { if (typeof S !== 'undefined' && S.th !== undefined) { S.th = t === 'light' ? 'light' : 'dark'; document.body.setAttribute('data-theme', S.th); } } catch(ex) {}
+    // Force canvas/render update
+    try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
 });
 try {
   if (localStorage.getItem('theme') === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
+    document.body.setAttribute('data-theme', '');
+    try { if (typeof S !== 'undefined') { S.th = 'light'; document.body.setAttribute('data-theme', 'light'); } } catch(ex) {}
   }
 } catch(e) {}
 </script>
