@@ -786,23 +786,62 @@ function closeDetail() {
 [data-theme="light"] .sidebar-item-num{color:#7a5c24!important}
 [data-theme="light"] ::-webkit-scrollbar-track{background:#e8e0d4!important}
 [data-theme="light"] ::-webkit-scrollbar-thumb{background:rgba(122,92,36,0.25)!important}
+
+/* Light mode: SVG tree */
+[data-theme="light"] #tree-container{background:#e8e0d4!important}
+[data-theme="light"] .header{background:rgba(225,218,206,0.95)!important;border-color:rgba(122,92,36,0.18)!important}
+[data-theme="light"] .header-title{color:#7a5c24!important}
+[data-theme="light"] .leg-item{color:#5a4e3c!important}
+[data-theme="light"] .z-btn{background:rgba(225,218,206,0.9)!important;border-color:rgba(122,92,36,0.2)!important;color:#7a5c24!important}
+[data-theme="light"] .z-btn:hover{background:rgba(122,92,36,0.1)!important;border-color:#7a5c24!important}
+[data-theme="light"] .z-info{color:#7a6e56!important}
+[data-theme="light"] .dp{background:#ebe4d6!important;border-color:rgba(122,92,36,0.18)!important;box-shadow:-10px 0 40px rgba(60,45,20,0.15)!important}
+[data-theme="light"] .dp-close{background:rgba(220,212,196,0.8)!important;border-color:rgba(122,92,36,0.15)!important;color:#5a4e3c!important}
+[data-theme="light"] .dp-name{color:#2c2114!important}
+[data-theme="light"] .dp-arabic{color:#7a5c24!important}
+[data-theme="light"] .dp-dates{color:#7a5c24!important}
+[data-theme="light"] .dp-label{color:#7a5c24!important}
+[data-theme="light"] .dp-desc{color:#5a4e3c!important}
+[data-theme="light"] .dp-title-tag{background:rgba(122,92,36,0.06)!important;border-color:rgba(122,92,36,0.15)!important;color:#7a5c24!important}
+[data-theme="light"] .dp-rel{background:rgba(122,92,36,0.04)!important;border-color:rgba(122,92,36,0.1)!important}
+[data-theme="light"] .dp-rel:hover{background:rgba(122,92,36,0.08)!important}
+[data-theme="light"] .dp-rel-name{color:#2c2114!important}
+[data-theme="light"] .dp-rel-type{color:#7a6e56!important}
+[data-theme="light"] .dp-overlay.open{background:rgba(232,224,212,0.5)!important}
 </style>
 <!-- Theme listener: receives theme from parent portal -->
 <script>
 window.addEventListener('message', function(e) {
   if (e.data && e.data.type === 'theme') {
-    if (e.data.theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-    }
+    var t = e.data.theme;
+    document.documentElement.setAttribute('data-theme', t);
+    document.body.setAttribute('data-theme', t === 'light' ? '' : 'dark');
+    // Also try calling the module's own theme function
+    try { if (typeof setTheme === 'function') setTheme(t); } catch(ex) {}
+    try { if (typeof S !== 'undefined' && S.th !== undefined) { S.th = t === 'light' ? 'light' : 'dark'; document.body.setAttribute('data-theme', S.th); } } catch(ex) {}
+    // Force canvas/render update
+    try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
+    // Update SVG background for theme
+    try {
+      var svgBg = document.querySelector('#tree-svg > rect');
+      if (svgBg) svgBg.setAttribute('fill', t === 'light' ? '#e8e0d4' : '#070c18');
+    } catch(ex) {}
   }
 });
 try {
   if (localStorage.getItem('theme') === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
+    document.body.setAttribute('data-theme', '');
+    try { if (typeof S !== 'undefined') { S.th = 'light'; document.body.setAttribute('data-theme', 'light'); } } catch(ex) {}
   }
 } catch(e) {}
+// Set SVG bg for light mode on load
+try {
+  if (localStorage.getItem('theme') === 'light') {
+    var svgBg2 = document.querySelector('#tree-svg > rect');
+    if (svgBg2) svgBg2.setAttribute('fill', '#e8e0d4');
+  }
+} catch(e2) {}
 </script>
 </body>
 </html>

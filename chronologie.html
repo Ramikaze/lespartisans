@@ -440,7 +440,7 @@ em { font-style: italic; color: var(--gold); }
   scrollbar-color: var(--gold-dim) var(--bg-surface);
   cursor: grab;
   position: relative;
-  height: 580px;
+  height: 680px;
   border-radius: var(--radius-lg);
   background: var(--bg-surface);
   border: 1px solid var(--border);
@@ -2353,6 +2353,11 @@ function initGraph() {
     alpha *= 0.992;
   }
 
+
+  function isLightTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'light';
+  }
+
   function draw() {
     ctx.clearRect(0,0,canvas.width,canvas.height);
     ctx.save();
@@ -2379,7 +2384,7 @@ function initGraph() {
       const dimmed = selectedId && !isHighlighted;
       ctx.beginPath();
       ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y);
-      ctx.strokeStyle = isHighlighted ? 'rgba(201,168,76,0.7)' : dimmed ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.1)';
+      ctx.strokeStyle = isHighlighted ? (isLightTheme()?'rgba(122,92,36,0.7)':'rgba(201,168,76,0.7)') : dimmed ? (isLightTheme()?'rgba(80,60,30,0.06)':'rgba(255,255,255,0.04)') : (isLightTheme()?'rgba(80,60,30,0.18)':'rgba(255,255,255,0.1)');
       ctx.lineWidth = isHighlighted ? 1.5 : 0.8;
       ctx.stroke();
     }
@@ -2409,7 +2414,7 @@ function initGraph() {
       ctx.fillStyle = dimmed ? c+'33' : c;
       ctx.fill();
       if (isSelected) {
-        ctx.strokeStyle = '#fff';
+        ctx.strokeStyle = isLightTheme() ? '#2c2114' : '#fff';
         ctx.lineWidth = 2;
         ctx.stroke();
       }
@@ -2418,7 +2423,7 @@ function initGraph() {
       if (!dimmed || isConnected) {
         const fontSize = isSelected ? 11 : isHovered ? 10 : 9;
         ctx.font = `${isSelected?'bold ':''} ${fontSize}px 'EB Garamond', serif`;
-        ctx.fillStyle = dimmed ? 'rgba(200,200,200,0.2)' : isSelected ? '#fff' : 'rgba(230,226,208,0.85)';
+        ctx.fillStyle = dimmed ? (isLightTheme()?'rgba(80,60,30,0.15)':'rgba(200,200,200,0.2)') : isSelected ? (isLightTheme()?'#2c2114':'#fff') : (isLightTheme()?'rgba(44,33,20,0.85)':'rgba(230,226,208,0.85)');
         const shortName = n.name.split(' ').slice(0,3).join(' ');
         ctx.fillText(shortName, n.x+r+3, n.y+4);
       }
@@ -2530,22 +2535,22 @@ renderTimeline('all');
 <script>
 window.addEventListener('message', function(e) {
   if (e.data && e.data.type === 'theme') {
-    if (e.data.theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-    }
-    // Force canvas redraw with new theme colors
+    var t = e.data.theme;
+    document.documentElement.setAttribute('data-theme', t);
+    document.body.setAttribute('data-theme', t);
+    if (t !== 'light') { document.documentElement.removeAttribute('data-theme'); document.body.removeAttribute('data-theme'); }
+    // Force canvas redraw with new colors
     if (typeof draw === 'function') { try { draw(); } catch(ex) {} }
     if (typeof render === 'function') { try { render(); } catch(ex) {} }
-    if (typeof redraw === 'function') { try { redraw(); } catch(ex) {} }
-    // Dispatch resize to trigger any layout recalculation
+    // Restart graph animation to pick up new theme colors
+    try { if (typeof alpha !== 'undefined') alpha = 0.3; } catch(ex) {}
     window.dispatchEvent(new Event('resize'));
   }
 });
 try {
   if (localStorage.getItem('theme') === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
+    document.body.setAttribute('data-theme', 'light');
   }
 } catch(e) {}
 </script>

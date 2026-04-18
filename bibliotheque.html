@@ -65,16 +65,21 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <script>
 window.addEventListener('message', function(e) {
   if (e.data && e.data.type === 'theme') {
-    if (e.data.theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-    }
+    var t = e.data.theme;
+    document.documentElement.setAttribute('data-theme', t);
+    document.body.setAttribute('data-theme', t === 'light' ? '' : 'dark');
+    // Also try calling the module's own theme function
+    try { if (typeof setTheme === 'function') setTheme(t); } catch(ex) {}
+    try { if (typeof S !== 'undefined' && S.th !== undefined) { S.th = t === 'light' ? 'light' : 'dark'; document.body.setAttribute('data-theme', S.th); } } catch(ex) {}
+    // Force canvas/render update
+    try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
 });
 try {
   if (localStorage.getItem('theme') === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
+    document.body.setAttribute('data-theme', '');
+    try { if (typeof S !== 'undefined') { S.th = 'light'; document.body.setAttribute('data-theme', 'light'); } } catch(ex) {}
   }
 } catch(e) {}
 </script>
