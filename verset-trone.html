@@ -126,16 +126,16 @@ body::before{content:'';position:fixed;inset:0;
 
 
 /* ── MAIN TABS ── */
-.note-info{max-width:600px;margin:16px auto 0;padding:0 8px}
-.note-toggle{background:none;border:1px solid var(--border);color:var(--gold);font-size:.78rem;padding:8px 16px;border-radius:10px;cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:6px;margin:0 auto;transition:all .2s;opacity:0.7}
+.note-info{max-width:650px;margin:20px auto 0;padding:0 8px}
+.note-toggle{background:none;border:1px solid var(--border);color:var(--gold);font-size:.88rem;padding:10px 20px;border-radius:10px;cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:8px;margin:0 auto;transition:all .2s;opacity:0.8}
 .note-toggle:hover{opacity:1;border-color:var(--border-a)}
-.note-toggle .arrow{transition:transform .2s;font-size:.6rem}
+.note-toggle .arrow{transition:transform .2s;font-size:.65rem}
 .note-toggle.open .arrow{transform:rotate(90deg)}
-.note-body{display:none;margin-top:12px;padding:16px 20px;background:var(--surface);border:1px solid var(--border);border-radius:12px;font-size:.88rem;color:var(--text);line-height:1.8}
+.note-body{display:none;margin-top:14px;padding:20px 24px;background:var(--surface);border:1px solid var(--border);border-radius:12px;font-size:.95rem;color:var(--text);line-height:1.85}
 .note-body.open{display:block}
-.note-body h3{font-family:'Cinzel',serif;font-size:.82rem;font-weight:700;color:var(--gold);letter-spacing:.06em;margin:16px 0 8px}
+.note-body h3{font-family:'Cinzel',serif;font-size:.88rem;font-weight:700;color:var(--gold);letter-spacing:.06em;margin:18px 0 10px}
 .note-body h3:first-child{margin-top:0}
-.note-body p{margin-bottom:10px}
+.note-body p{margin-bottom:12px}
 .note-body em{color:var(--gold);font-style:normal;opacity:0.9}
 .main-tabs{display:flex;gap:4px;padding:10px 16px 0;justify-content:center;flex-wrap:wrap}
 .main-tab{background:none;border:1px solid var(--border);color:var(--text-muted);padding:8px 20px;border-radius:10px;font-family:'Cinzel',serif;font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:all .2s}
@@ -257,6 +257,48 @@ body::before{content:'';position:fixed;inset:0;
 [data-theme="light"] .rev-ar{color:#2c2114!important}
 [data-theme="light"] .progress-bar{background:rgba(122,92,36,0.1)!important}
 [data-theme="light"] .progress-fill{background:#7a5c24!important}
+/* ── Light: Lecture versets ── */
+[data-theme="light"] .header .h-arabic{color:#7a5c24!important;text-shadow:none!important}
+[data-theme="light"] .h-sub{color:#8a7c66!important}
+[data-theme="light"] .h-progress{color:#7a5c24!important}
+[data-theme="light"] .verse-block{background:rgba(235,228,216,0.6)!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .verse-block.v255{border-color:rgba(122,92,36,0.25)!important}
+[data-theme="light"] .verse-text{color:#7a5c24!important;text-shadow:none!important}
+[data-theme="light"] .verse-text .w:hover,[data-theme="light"] .verse-text .w.active{background:rgba(122,92,36,0.12)!important;color:#2c2114!important}
+[data-theme="light"] .verse-text .w.playing{background:rgba(122,92,36,0.2)!important;color:#2c2114!important;text-shadow:none!important;box-shadow:0 0 0 2px rgba(122,92,36,0.35)!important}
+[data-theme="light"] .verse-num{color:#7a5c24!important}
+[data-theme="light"] .verse-label-line{background:rgba(122,92,36,0.12)!important}
+[data-theme="light"] .stop-mark{color:#7a5c24!important}
+[data-theme="light"] .verse-end{color:#7a5c24!important}
+[data-theme="light"] .verse-translation{background:rgba(122,92,36,0.05)!important;border-left-color:rgba(122,92,36,0.3)!important;color:#3d3425!important}
+/* ── Light: Audio inline ── */
+[data-theme="light"] .ab-inline{border-top-color:rgba(122,92,36,0.12)!important}
+[data-theme="light"] .ab-btn{background:rgba(122,92,36,0.08)!important;border-color:rgba(122,92,36,0.2)!important;color:#7a5c24!important}
+[data-theme="light"] .ab-btn:hover{background:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .ab-btn.active{background:rgba(122,92,36,0.2)!important}
+[data-theme="light"] .ab-prog{background:rgba(122,92,36,0.1)!important}
+[data-theme="light"] .ab-fill{background:linear-gradient(to right,#7a5c24,#a08040)!important}
+[data-theme="light"] .ab-time{color:#8a7c66!important}
+/* ── Light: Onglets principaux ── */
+[data-theme="light"] .main-tab{border-color:rgba(122,92,36,0.15)!important;color:#8a7c66!important}
+[data-theme="light"] .main-tab:hover{border-color:rgba(122,92,36,0.3)!important;color:#7a5c24!important}
+[data-theme="light"] .main-tab.active{background:rgba(122,92,36,0.12)!important;border-color:rgba(122,92,36,0.35)!important;color:#7a5c24!important}
+/* ── Light: Note explicative ── */
+[data-theme="light"] .note-toggle{border-color:rgba(122,92,36,0.2)!important;color:#7a5c24!important}
+[data-theme="light"] .note-toggle:hover{border-color:rgba(122,92,36,0.4)!important}
+[data-theme="light"] .note-body{background:rgba(235,228,216,0.7)!important;border-color:rgba(122,92,36,0.15)!important;color:#2c2114!important}
+[data-theme="light"] .note-body h3{color:#7a5c24!important}
+[data-theme="light"] .note-body em{color:#7a5c24!important}
+/* ── Light: Tooltip ── */
+[data-theme="light"] #tooltip{background:rgba(235,228,216,0.97)!important;border-color:rgba(122,92,36,0.3)!important;box-shadow:0 8px 32px rgba(60,45,20,0.15)!important}
+[data-theme="light"] .tt-arabic{color:#7a5c24!important}
+[data-theme="light"] .tt-trans{color:#7a5c24!important}
+[data-theme="light"] .tt-fr{color:#2c2114!important}
+[data-theme="light"] .tt-gram{color:#8a7c66!important}
+[data-theme="light"] .tt-audio{background:rgba(122,92,36,0.1)!important;border-color:rgba(122,92,36,0.25)!important;color:#7a5c24!important}
+/* ── Light: scrollbar ── */
+[data-theme="light"] ::-webkit-scrollbar-track{background:#e8e0d4!important}
+[data-theme="light"] ::-webkit-scrollbar-thumb{background:rgba(122,92,36,0.25)!important}
 
 @media(max-width:600px){
   .container{padding:20px 14px 60px}
