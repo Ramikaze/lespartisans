@@ -1951,8 +1951,8 @@ function linkify(text, currentId) {
    HORIZONTAL TIMELINE
    ============================================================ */
 let timelineZoom = 1.0;
-const ZOOM_MIN = 0.25, ZOOM_MAX = 5.0, ZOOM_STEP = 0.2, ZOOM_DEFAULT = 1.0;
-const TL_PAD = 140, TL_MIN = 560, TL_MAX = 2030, TL_BASE_PPY = 7;
+const ZOOM_MIN = 0.25, ZOOM_MAX = 5.0, ZOOM_STEP = 0.06, ZOOM_DEFAULT = 1.0;
+const TL_PAD = 200, TL_MIN = 540, TL_MAX = 2030, TL_BASE_PPY = 7;
 
 function updateZoomUI() {
   const pct = ((timelineZoom - ZOOM_MIN) / (ZOOM_MAX - ZOOM_MIN)) * 100;
@@ -2020,9 +2020,9 @@ function renderTimeline(era, typeFilter) {
 
   if (!nodes.length) { track.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-dim);font-size:0.9rem;">Aucun élément pour cette période.</div>'; return; }
 
-  const MIN_DATE = 560, MAX_DATE = 2030;
+  const MIN_DATE = 540, MAX_DATE = 2030;
   const PX_PER_YEAR = 7 * timelineZoom;
-  const PAD = 140;
+  const PAD = 200;
   const totalW = (MAX_DATE - MIN_DATE) * PX_PER_YEAR + PAD * 2;
   track.style.width = totalW + 'px';
 
