@@ -34,13 +34,13 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
   display:flex;align-items:center;gap:8px;
   padding:9px 14px;cursor:pointer;
   font-size:12px;font-weight:600;color:#9aa3b8;
-  transition:all .18s;white-space:nowrap;
+  transition:all .18s;
   border-left:2px solid transparent;
 }
 .sb-theme:hover{color:#c9a84c;background:rgba(201,168,76,0.05)}
 .sb-theme.open{color:#c9a84c;border-left-color:rgba(201,168,76,0.4);background:rgba(201,168,76,0.06)}
 .sb-theme-icon{font-size:14px;flex-shrink:0}
-.sb-theme-label{flex:1;overflow:hidden;text-overflow:ellipsis}
+.sb-theme-label{flex:1;line-height:1.4}
 .sb-chevron{font-size:9px;transition:transform .2s;flex-shrink:0;color:#c9a84c;opacity:.6}
 .sb-theme.open .sb-chevron{transform:rotate(90deg)}
 
@@ -50,7 +50,7 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
 .sb-item{
   display:block;padding:7px 14px 7px 36px;
   font-size:11.5px;color:#6b7280;cursor:pointer;
-  transition:all .15s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  transition:all .15s;line-height:1.4;
   border-left:2px solid transparent;
 }
 .sb-item:hover{color:#c9a84c;background:rgba(201,168,76,0.04)}
@@ -101,9 +101,10 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
 
 /* Intro */
 .c-intro{
-  font-size:12.5px;color:#9aa3b8;font-style:italic;line-height:1.7;
-  padding:10px 14px;border-left:2px solid rgba(201,168,76,0.3);
-  background:rgba(201,168,76,0.03);border-radius:0 8px 8px 0;margin-bottom:16px;
+  font-size:var(--inv-fr-size,14.5px);color:#9aa3b8;font-style:italic;line-height:1.7;
+  padding:12px 16px;border-left:2px solid rgba(201,168,76,0.3);
+  background:rgba(201,168,76,0.03);border-radius:0 8px 8px 0;margin-bottom:18px;
+  text-align:justify;hyphens:auto;
 }
 /* Salawat */
 .c-salawat{
@@ -119,7 +120,7 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
 /* Instruction */
 .c-instruction{font-size:12px;color:#c9a84c;font-weight:600;margin:14px 0 8px;padding:6px 12px;background:rgba(201,168,76,0.06);border-radius:6px;border:1px solid rgba(201,168,76,0.15)}
 /* Prose */
-.c-prose p{font-size:var(--inv-fr-size,13.5px);line-height:1.85;color:#cec6b0;margin-bottom:11px}
+.c-prose p{font-size:var(--inv-fr-size,15px);line-height:1.85;color:#cec6b0;margin-bottom:14px;text-align:justify;hyphens:auto}
 .c-prose p:last-child{margin-bottom:0}
 
 /* Ziyara style — slightly more solemn */
@@ -1048,7 +1049,7 @@ toggle.addEventListener('click', function(){
 
 // ══ RENDER INVOCATION ══
 // Font size controls
-var _invAr = 1.25, _invFr = 0.88;
+var _invAr = 1.25, _invFr = 0.95;
 function invFs(type, dir) {
   var step = 0.1;
   if (type === 'ar') {
