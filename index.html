@@ -221,6 +221,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
 <body>
 <nav class="top-nav">
   <div class="nav-logo" id="logoBtn">&#xFDFD; Les Partisans</div>
+  <div class="nav-spacer"></div>
   <div class="theme-toggle" id="themeToggle" title="Changer de thème">
     <div class="theme-opt active" id="themeDark" title="Mode sombre">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -228,18 +229,6 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     <div class="theme-opt" id="themeLight" title="Mode clair">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
     </div>
-  </div>
-  <div class="nav-spacer"></div>
-  <div class="nav-tabs">
-    <button class="nav-tab active" id="tab-home">Accueil</button>
-    <button class="nav-tab" id="tab-chiisme">Le Chiisme</button>
-    <button class="nav-tab" id="tab-coran">Le Coran</button>
-    <button class="nav-tab" id="tab-ahlulbayt">Ahl al-Bayt</button>
-    <button class="nav-tab" id="tab-hadith">Hadiths</button>
-    <button class="nav-tab" id="tab-4">Invocations</button>
-    <button class="nav-tab" id="tab-resister">R&#233;sister</button>
-    <button class="nav-tab" id="tab-1">Chronologie</button>
-    <button class="nav-tab" id="tab-6">Vid&#233;os</button>
   </div>
 </nav>
 
@@ -516,11 +505,6 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   var N = MODULES.length;
   var loaded = new Array(N).fill(false);
 
-  /* ── Réinitialiser tous les onglets ── */
-  function clearTabs() {
-    document.querySelectorAll('.nav-tab').forEach(function(t){ t.classList.remove('active'); });
-  }
-
   /* ── Fermer tous les iframes ── */
   function hideAllFrames() {
     for (var i = 0; i < N; i++) document.getElementById('frame' + i).classList.remove('active');
@@ -541,8 +525,6 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     hideAllFrames();
     closeAllSubMenus();
     document.getElementById('homeScreen').style.display = '';
-    clearTabs();
-    document.getElementById('tab-home').classList.add('active');
     var si = document.getElementById('searchInput');
     if (si) si.value = '';
     document.querySelectorAll('#cardsGrid .card').forEach(function(c){ c.classList.remove('search-hidden'); });
@@ -563,7 +545,6 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     hideAllFrames();
     document.getElementById('frame' + idx).classList.add('active');
     document.body.classList.add('iframe-active');
-    clearTabs();
     if (!loaded[idx]) {
       loaded[idx] = true;
       var iframe = document.getElementById('iframe' + idx);
@@ -585,9 +566,6 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     document.getElementById('cardsGrid').style.display = 'none';
     document.querySelectorAll('.submenu').forEach(function(s){ s.style.display = 'none'; });
     document.getElementById('submenu-' + id).style.display = 'block';
-    clearTabs();
-    var tabEl = document.getElementById('tab-' + id);
-    if (tabEl) tabEl.classList.add('active');
     window.scrollTo(0, 0);
     if (!_fromPop) try{history.pushState({page:'submenu',id:id}, '', '#' + id)}catch(e){};
   };
@@ -610,27 +588,34 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     }
     _fromPop = false;
   });
-  try{history.replaceState({page:'home'}, '', '#')}catch(e){};
 
-  /* ── Câblage : Logo + Accueil ── */
+  function handleInitialLoad() {
+    var hash = window.location.hash;
+    if (hash.startsWith('#m')) {
+      var idx = parseInt(hash.substring(2), 10);
+      if (!isNaN(idx) && idx >= 0 && idx < MODULES.length) {
+        _fromPop = true;
+        openModule(idx);
+        _fromPop = false;
+        try{history.replaceState({page:'module',idx:idx}, '', hash)}catch(e){};
+        return;
+      }
+    } else if (hash.length > 1) {
+      var id = hash.substring(1);
+      if (document.getElementById('submenu-' + id)) {
+        _fromPop = true;
+        openSubMenu(id);
+        _fromPop = false;
+        try{history.replaceState({page:'submenu',id:id}, '', hash)}catch(e){};
+        return;
+      }
+    }
+    try{history.replaceState({page:'home'}, '', '#')}catch(e){};
+  }
+  handleInitialLoad();
+
+  /* ── Câblage : Logo ── */
   document.getElementById('logoBtn').addEventListener('click', home);
-  document.getElementById('tab-home').addEventListener('click', home);
-
-  /* ── Onglets thématiques → ouvrent le sous-menu ── */
-  document.getElementById('tab-chiisme').addEventListener('click', function(){ openSubMenu('chiisme'); });
-  document.getElementById('tab-coran').addEventListener('click', function(){ openSubMenu('coran'); });
-  document.getElementById('tab-hadith').addEventListener('click', function(){ openSubMenu('hadith'); });
-  document.getElementById('tab-ahlulbayt').addEventListener('click', function(){ openSubMenu('ahlulbayt'); });
-
-  /* ── Onglets directs → ouvrent le module ── */
-  var directTabs = {1:1, 4:4, 6:6, 'resister':15};
-  Object.keys(directTabs).forEach(function(tabId){
-    var el = document.getElementById('tab-' + tabId);
-    if (el) el.addEventListener('click', function(){
-      openModule(directTabs[tabId]);
-      el.classList.add('active');
-    });
-  });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
   var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16};
