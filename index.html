@@ -547,7 +547,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     document.getElementById('frame' + idx).classList.add('active');
     document.body.classList.add('iframe-active');
     
-    var src = MODULES[idx] + (innerState ? '#' + innerState : '');
+    var src = MODULES[idx] + '?v=' + Date.now() + (innerState ? '#' + innerState : '');
 
     if (!loaded[idx]) {
       loaded[idx] = true;
