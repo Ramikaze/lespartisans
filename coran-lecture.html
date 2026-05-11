@@ -19,7 +19,17 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .hdr-sep{flex:1}
 .sel-wrap{display:none;align-items:center;gap:8px;flex-wrap:wrap}
 .sel-wrap.active{display:flex}
+.reciter-sel{max-width:220px;font-size:14px}
 .sel{background:rgba(19,29,53,0.8);color:#e2d9c4;border:1px solid rgba(201,168,76,0.3);border-radius:8px;padding:8px 14px;font-family:inherit;font-size:16px;cursor:pointer;outline:none;max-width:340px}
+.list-reciter{display:flex;align-items:center;gap:10px;justify-content:center;margin-top:16px}
+.list-reciter label{font-size:15px;color:#5a6480;font-family:'Cinzel',serif;letter-spacing:.03em}
+.list-reciter select{background:rgba(19,29,53,0.6);color:#e2d9c4;border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:8px 14px;font-family:inherit;font-size:15px;cursor:pointer;outline:none;max-width:260px;transition:border-color .2s}
+.list-reciter select:focus{border-color:rgba(201,168,76,0.5)}
+.list-reciter select option{background:#0a1628;color:#e2d9c4}
+[data-theme="light"] .list-reciter label{color:#7a6e56!important}
+[data-theme="light"] .list-reciter select{background:rgba(220,212,196,0.6)!important;color:#2c2114!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .list-reciter select:focus{border-color:rgba(122,92,36,0.4)!important}
+[data-theme="light"] .list-reciter select option{background:#e8e0d4!important;color:#2c2114!important}
 .sel:focus{border-color:#c9a84c}
 .sel option{background:#0a1628;color:#e2d9c4}
 .verse-jump{width:75px;text-align:center}
@@ -219,6 +229,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     <select class="sel" id="surahSel"></select>
     <input class="sel verse-jump" id="verseInput" type="number" min="1" placeholder="Verset">
     <button class="btn-go" id="goBtn">Aller</button>
+    <select class="sel reciter-sel" id="reciterSel" title="Récitateur"></select>
     <div class="font-ctrl" id="fontCtrl">
       <div class="fc-grp"><span class="fc-label ar-label">ع</span><button class="fc-btn" onclick="cfs('ar',-1)">−</button><button class="fc-btn" onclick="cfs('ar',1)">+</button></div>
       <div class="fc-grp"><span class="fc-label">Fr</span><button class="fc-btn" onclick="cfs('fr',-1)">−</button><button class="fc-btn" onclick="cfs('fr',1)">+</button></div>
@@ -234,6 +245,10 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     <div class="list-search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
       <input id="listSearch" type="text" placeholder="Rechercher une sourate ou taper 23-5 pour sourate 23 verset 5...">
+    </div>
+    <div class="list-reciter">
+      <label for="listReciterSel">Récitateur :</label>
+      <select id="listReciterSel"></select>
     </div>
   </div>
 
@@ -413,7 +428,7 @@ function openSurah(num, scrollToVerse) {
     }
     h += '<span class="verse-num">' + v[0] + '</span>';
     h += '<span class="verse-text">' + v[1] + '</span>';
-    h += '<div class="verse-audio" id="' + audioId + '" data-src="https://everyayah.com/data/Husary_128kbps/' + sStr + vStr + '.mp3">';
+    h += '<div class="verse-audio" id="' + audioId + '" data-src="https://everyayah.com/data/' + getReciter().id + '/' + sStr + vStr + '.mp3">';
     h += '<button class="va-btn" onclick="toggleVerseAudio(\'' + audioId + '\')" title="\u00c9couter"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg></button>';
     h += '<div class="va-bar" onclick="seekVerseAudio(event,\'' + audioId + '\')">';
     h += '<div class="va-fill"></div></div>';
@@ -491,7 +506,68 @@ verseInput.addEventListener('keydown', function(e){
   if (e.key === 'Enter') document.getElementById('goBtn').click();
 });
 
-/* ── VERSE AUDIO SYSTEM — Al-Husary ── */
+/* ── RECITERS DATA ── */
+var RECITERS = [
+  {id:'Husary_128kbps', name:'Al-Husary (Murattal)', cdn:'ar.husary'},
+  {id:'Husary_128kbps_Mujawwad', name:'Al-Husary (Mujawwad)', cdn:'ar.husarymujawwad'},
+  {id:'Husary_Muallim_128kbps', name:'Al-Husary (Muallim)', cdn:''},
+
+  {id:'MaherAlMuaiqly128kbps', name:'Maher Al-Muaiqly', cdn:'ar.mahermuaiqly'},
+  {id:'Abdurrahmaan_As-Sudais_192kbps', name:'Abdurrahman As-Sudais', cdn:'ar.abdurrahmaansudais'},
+  {id:'Saood_ash-Shuraym_128kbps', name:'Saood Ash-Shuraym', cdn:'ar.saoodshuraym'},
+  {id:'Abdul_Basit_Murattal_192kbps', name:'Abdul Basit (Murattal)', cdn:'ar.abdulsamad'},
+  {id:'Abdul_Basit_Mujawwad_128kbps', name:'Abdul Basit (Mujawwad)', cdn:''},
+  {id:'AbdulSamad_64kbps_QuranExplorer.Com', name:'Abdul Samad', cdn:'ar.abdulsamad'},
+  {id:'Abdullah_Basfar_192kbps', name:'Abdullah Basfar', cdn:'ar.abdullahbasfar'},
+  {id:'Abdullah_Matroud_128kbps', name:'Abdullah Matroud', cdn:''},
+  {id:'Hudhaify_128kbps', name:'Ali Al-Hudhaify', cdn:'ar.hudhaify'},
+  {id:'Muhammad_Ayyoub_128kbps', name:'Muhammad Ayyoub', cdn:'ar.muhammadayyoub'},
+  {id:'Muhammad_Jibreel_128kbps', name:'Muhammad Jibreel', cdn:'ar.muhammadjibreel'},
+  {id:'Hani_Rifai_192kbps', name:'Hani Ar-Rifai', cdn:'ar.hanirifai'},
+  {id:'Minshawy_Murattal_128kbps', name:'Al-Minshawi (Murattal)', cdn:''},
+  {id:'Minshawy_Mujawwad_192kbps', name:'Al-Minshawi (Mujawwad)', cdn:''},
+  {id:'Abu_Bakr_Ash-Shaatree_128kbps', name:'Abu Bakr Ash-Shaatree', cdn:'ar.shaatree'},
+  {id:'Ahmed_ibn_Ali_al-Ajamy_128kbps_ketaballah.net', name:'Ahmed Al-Ajamy', cdn:'ar.ahmedajamy'},
+  {id:'Nasser_Alqatami_128kbps', name:'Nasser Al-Qatami', cdn:''},
+  {id:'Yasser_Ad-Dussary_128kbps', name:'Yasser Ad-Dussary', cdn:''},
+  {id:'Parhizgar_48kbps', name:'Parhizgar (Iran)', cdn:'ar.parhizgar'},
+  {id:'Karim_Mansoori_40kbps', name:'Karim Mansoori (Iran)', cdn:''},
+  {id:'Ibrahim_Akhdar_64kbps', name:'Ibrahim Akhdar', cdn:'ar.ibrahimakhbar'},
+  {id:'Fares_Abbad_64kbps', name:'Fares Abbad', cdn:''},
+  {id:'Ali_Jaber_64kbps', name:'Ali Jaber', cdn:''}
+];
+
+var reciterSel = document.getElementById('reciterSel');
+var listReciterSel = document.getElementById('listReciterSel');
+[reciterSel, listReciterSel].forEach(function(sel){
+  RECITERS.forEach(function(r){
+    var o = document.createElement('option');
+    o.value = r.id;
+    o.textContent = r.name;
+    sel.appendChild(o);
+  });
+});
+try { var _savedReciter = localStorage.getItem('quran_reciter'); if (_savedReciter) { reciterSel.value = _savedReciter; listReciterSel.value = _savedReciter; } } catch(e) {}
+function onReciterChange(val) {
+  try { localStorage.setItem('quran_reciter', val); } catch(e) {}
+  reciterSel.value = val;
+  listReciterSel.value = val;
+  /* Purge cached audio players */
+  Object.keys(_vaPlayers).forEach(function(k){ try{_vaPlayers[k].pause();}catch(e){} });
+  _vaPlayers = {}; _vaCurrentId = null;
+  /* Reload current surah to update audio URLs */
+  var sn = parseInt(surahSel.value);
+  if (sn && view.style.display !== 'none') openSurah(sn);
+}
+reciterSel.addEventListener('change', function(){ onReciterChange(this.value); });
+listReciterSel.addEventListener('change', function(){ onReciterChange(this.value); });
+
+function getReciter() {
+  var id = reciterSel.value || 'Husary_128kbps';
+  return RECITERS.find(function(r){ return r.id === id; }) || RECITERS[0];
+}
+
+/* ── VERSE AUDIO SYSTEM ── */
 var _vaPlayers = {};
 var _vaCurrentId = null;
 
@@ -527,13 +603,15 @@ function toggleVerseAudio(id) {
     });
     au.addEventListener('error', function() {
       /* Try fallback CDN */
+      var rec = getReciter();
+      var cdnId = rec.cdn || 'ar.husary';
       var parts = src.match(/(\d{3})(\d{3})\.mp3/);
       if (parts) {
         var sn = parseInt(parts[1]);
         var vn = parseInt(parts[2]);
         var offset = 0;
         for (var i = 0; i < Q.length; i++) { if (Q[i].n < sn) offset += Q[i].c; }
-        au.src = 'https://cdn.islamic.network/quran/audio/128/ar.husary/' + (offset + vn) + '.mp3';
+        au.src = 'https://cdn.islamic.network/quran/audio/128/' + cdnId + '/' + (offset + vn) + '.mp3';
       }
     });
     _vaPlayers[id] = au;
