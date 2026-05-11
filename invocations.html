@@ -48,16 +48,22 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
 /* Sub-items */
 .sb-items{max-height:0;overflow:hidden;transition:max-height .3s cubic-bezier(.4,0,.2,1)}
 .sb-items.open{max-height:10000px}
+.sb-sub-items{max-height:0;overflow:hidden;transition:max-height .3s cubic-bezier(.4,0,.2,1)}
+.sb-sub-items.open{max-height:10000px}
 .sb-item{
   display:block;padding:7px 14px 7px 36px;
   font-size:11.5px;color:#6b7280;cursor:pointer;
   transition:all .15s;line-height:1.4;
   border-left:2px solid transparent;
 }
+.sb-sub-items .sb-item{padding-left:48px}
 .sb-item:hover{color:#c9a84c;background:rgba(201,168,76,0.04)}
 .sb-item.active{color:#c9a84c;font-weight:600;background:rgba(201,168,76,0.08);border-left-color:#c9a84c}
 .sb-item.disabled{opacity:0.35;pointer-events:none;font-style:italic}
-.sb-item.subheader{font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#c9a84c;opacity:0.5;pointer-events:none;padding:12px 14px 4px;border-left:none;font-weight:600}
+.sb-item.subheader{font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#c9a84c;opacity:0.8;cursor:pointer;padding:12px 14px 8px 24px;border-left:none;font-weight:600;display:flex;align-items:center;justify-content:space-between}
+.sb-item.subheader:hover{background:rgba(201,168,76,0.05)}
+.sb-item.subheader .sb-chevron{transform:rotate(0deg);transition:transform .2s;color:#c9a84c}
+.sb-item.subheader.open .sb-chevron{transform:rotate(90deg)}
 
 /* ══ TOGGLE BUTTON ══ */
 .sb-toggle{
@@ -204,68 +210,68 @@ var DATA = {
         { id: 'intro-ame', label: 'Élever l\'âme, rabaisser l\'ego', emoji: '📖' },
         { id: 'intro-avant', label: 'Avant-propos', emoji: '📖' },
         { type: 'header', label: 'Invocations (1–54)' },
-        { id: 's1',  label: '1. Louange à Dieu', disabled: true },
-        { id: 's2',  label: '2. Bénédictions sur le Prophète ﷺ et sa Famille', disabled: true },
-        { id: 's3',  label: '3. Bénédictions sur les Serviteurs du Trône', disabled: true },
-        { id: 's4',  label: '4. Bénédictions sur les témoins des Prophètes', disabled: true },
-        { id: 's5',  label: '5. Pour Lui-Même et Ses Amis Rapprochés', disabled: true },
-        { id: 's6',  label: '6. Pour l\'Aube et le Crépuscule', disabled: true },
-        { id: 'inv7', label: '7. Tâches préoccupantes', emoji: '📖' },
-        { id: 's8',  label: '8. Pour Son Abri sûr', disabled: true },
-        { id: 's9',  label: '9. Dans Son Désir', disabled: true },
-        { id: 's10', label: '10. À la Recherche du Refuge de Dieu', disabled: true },
-        { id: 's11', label: '11. Pour les Bons Résultats', disabled: true },
-        { id: 's12', label: '12. Pour la Confidence', disabled: true },
-        { id: 's13', label: '13. Recherche des moyens d\'existence', disabled: true },
-        { id: 's14', label: '14. Préserver des mauvaises actions', disabled: true },
-        { id: 's15', label: '15. Pour la Guérison', disabled: true },
-        { id: 's16', label: '16. Pour la Libération', disabled: true },
-        { id: 's17', label: '17. Contre Satan', disabled: true },
-        { id: 's18', label: '18. Dans les Périls', disabled: true },
-        { id: 's19', label: '19. Demande de Pluie', disabled: true },
-        { id: 'makarem', label: '20. Mâkarem al-Akhlāq', emoji: '📖' },
-        { id: 's21', label: '21. Lorsqu\'un fait est attristant', disabled: true },
-        { id: 's22', label: '22. Dans les difficultés', disabled: true },
-        { id: 's23', label: '23. Pour le Bien-être', disabled: true },
-        { id: 's24', label: '24. Pour les Parents', disabled: true },
-        { id: 's25', label: '25. Pour les Enfants', disabled: true },
-        { id: 's26', label: '26. Pour les voisins et les amis', disabled: true },
-        { id: 's27', label: '27. Pour les gens des frontières', disabled: true },
-        { id: 's28', label: '28. Dans la fuite face au danger', disabled: true },
-        { id: 's29', label: '29. Lorsque les provisions sont rationnées', disabled: true },
-        { id: 's30', label: '30. Remboursement des dettes', disabled: true },
-        { id: 's31', label: '31. Pour le Repentir', disabled: true },
-        { id: 's32', label: '32. Prière de la nuit', disabled: true },
-        { id: 's33', label: '33. Demande du Meilleur', disabled: true },
-        { id: 's34', label: '34. Lors de l\'affliction', disabled: true },
-        { id: 's35', label: '35. Satisfaction de Son Décret', disabled: true },
-        { id: 's36', label: '36. Lorsque l\'on entend le tonnerre', disabled: true },
-        { id: 's37', label: '37. Formuler des Remerciements', disabled: true },
-        { id: 's38', label: '38. Demander le Pardon', disabled: true },
-        { id: 's39', label: '39. À la recherche du Pardon', disabled: true },
-        { id: 's40', label: '40. Lorsque la Mort est venue', disabled: true },
-        { id: 's41', label: '41. Aspirer à une protection', disabled: true },
-        { id: 's42', label: '42. Lors de la lecture du Coran', disabled: true },
-        { id: 's43', label: '43. Lorsque apparaît la nouvelle Lune', disabled: true },
-        { id: 's44', label: '44. Au début du mois de Ramadan', disabled: true },
-        { id: 's45', label: '45. Fin du mois de Ramadan', disabled: true },
-        { id: 's46', label: '46. Rupture du jeûne et vendredi', disabled: true },
-        { id: 's47', label: '47. Pour le jour de ʿArafa', disabled: true },
-        { id: 's48', label: '48. Jour du Sacrifice et vendredi', disabled: true },
-        { id: 's49', label: '49. Repousser les ruses des ennemis', disabled: true },
-        { id: 's50', label: '50. Dans la Crainte', disabled: true },
-        { id: 's51', label: '51. Imploration et Humiliation', disabled: true },
-        { id: 's52', label: '52. Pour implorer Dieu', disabled: true },
-        { id: 's53', label: '53. Humilité devant Le Glorieux', disabled: true },
-        { id: 's54', label: '54. Éloigner les soucis', disabled: true },
+        { id: 's1',  label: '1. Invocation de Louange à Dieu', disabled: true },
+        { id: 's2',  label: '2. Invocation de Bénédictions sur le Prophète ﷺ et sa Famille', disabled: true },
+        { id: 's3',  label: '3. Invocation de Bénédictions sur les Serviteurs du Trône', disabled: true },
+        { id: 's4',  label: '4. Invocation de Bénédictions sur les témoins des Prophètes', disabled: true },
+        { id: 's5',  label: '5. Invocation pour Lui-Même et Ses Amis Rapprochés', disabled: true },
+        { id: 's6',  label: '6. Invocation pour l\'Aube et le Crépuscule', disabled: true },
+        { id: 'inv7', label: '7. Invocation pour les Tâches préoccupantes', emoji: '📖' },
+        { id: 's8',  label: '8. Invocation pour Son Abri sûr', disabled: true },
+        { id: 's9',  label: '9. Invocation dans Son Désir', disabled: true },
+        { id: 's10', label: '10. Invocation à la Recherche du Refuge de Dieu', disabled: true },
+        { id: 's11', label: '11. Invocation pour les Bons Résultats', disabled: true },
+        { id: 's12', label: '12. Invocation pour la Confidence', disabled: true },
+        { id: 's13', label: '13. Invocation pour la Recherche des moyens d\'existence', disabled: true },
+        { id: 's14', label: '14. Invocation pour Préserver des mauvaises actions', disabled: true },
+        { id: 's15', label: '15. Invocation pour la Guérison', disabled: true },
+        { id: 's16', label: '16. Invocation pour la Libération', disabled: true },
+        { id: 's17', label: '17. Invocation contre Satan', disabled: true },
+        { id: 's18', label: '18. Invocation dans les Périls', disabled: true },
+        { id: 's19', label: '19. Invocation de Demande de Pluie', disabled: true },
+        { id: 'makarem', label: '20. Invocation Mâkarem al-Akhlāq', emoji: '📖' },
+        { id: 's21', label: '21. Invocation lorsqu\'un fait est attristant', disabled: true },
+        { id: 's22', label: '22. Invocation dans les difficultés', disabled: true },
+        { id: 's23', label: '23. Invocation pour le Bien-être', disabled: true },
+        { id: 's24', label: '24. Invocation pour les Parents', disabled: true },
+        { id: 's25', label: '25. Invocation pour les Enfants', disabled: true },
+        { id: 's26', label: '26. Invocation pour les voisins et les amis', disabled: true },
+        { id: 's27', label: '27. Invocation pour les gens des frontières', disabled: true },
+        { id: 's28', label: '28. Invocation dans la fuite face au danger', disabled: true },
+        { id: 's29', label: '29. Invocation lorsque les provisions sont rationnées', disabled: true },
+        { id: 's30', label: '30. Invocation pour le Remboursement des dettes', disabled: true },
+        { id: 's31', label: '31. Invocation pour le Repentir', disabled: true },
+        { id: 's32', label: '32. Invocation de Prière de la nuit', disabled: true },
+        { id: 's33', label: '33. Invocation pour la Demande du Meilleur', disabled: true },
+        { id: 's34', label: '34. Invocation lors de l\'affliction', disabled: true },
+        { id: 's35', label: '35. Invocation pour la Satisfaction de Son Décret', disabled: true },
+        { id: 's36', label: '36. Invocation lorsque l\'on entend le tonnerre', disabled: true },
+        { id: 's37', label: '37. Invocation pour Formuler des Remerciements', disabled: true },
+        { id: 's38', label: '38. Invocation pour Demander le Pardon', disabled: true },
+        { id: 's39', label: '39. Invocation à la recherche du Pardon', disabled: true },
+        { id: 's40', label: '40. Invocation lorsque la Mort est venue', disabled: true },
+        { id: 's41', label: '41. Invocation pour Aspirer à une protection', disabled: true },
+        { id: 's42', label: '42. Invocation lors de la lecture du Coran', disabled: true },
+        { id: 's43', label: '43. Invocation lorsque apparaît la nouvelle Lune', disabled: true },
+        { id: 's44', label: '44. Invocation au début du mois de Ramadan', disabled: true },
+        { id: 's45', label: '45. Invocation à la Fin du mois de Ramadan', disabled: true },
+        { id: 's46', label: '46. Invocation à la Rupture du jeûne et vendredi', disabled: true },
+        { id: 's47', label: '47. Invocation pour le jour de ʿArafa', disabled: true },
+        { id: 's48', label: '48. Invocation au Jour du Sacrifice et vendredi', disabled: true },
+        { id: 's49', label: '49. Invocation pour Repousser les ruses des ennemis', disabled: true },
+        { id: 's50', label: '50. Invocation dans la Crainte', disabled: true },
+        { id: 's51', label: '51. Invocation pour l\'Imploration et Humiliation', disabled: true },
+        { id: 's52', label: '52. Invocation pour implorer Dieu', disabled: true },
+        { id: 's53', label: '53. Invocation d\'Humilité devant Le Glorieux', disabled: true },
+        { id: 's54', label: '54. Invocation pour Éloigner les soucis', disabled: true },
         { type: 'header', label: 'Glorifications (55–61)' },
         { id: 's55', label: '55. Glorification de Zayn al-ʿĀbidīn', disabled: true },
         { id: 's56', label: '56. Invocation et Louange', disabled: true },
         { id: 's57', label: '57. Mention des Ahl al-Bayt', disabled: true },
         { id: 's58', label: '58. Bénédiction en faveur d\'Adam', disabled: true },
-        { id: 's59', label: '59. Face à la détresse et la délivrance', disabled: true },
-        { id: 's60', label: '60. Ce qu\'il redoutait et craignait', disabled: true },
-        { id: 's61', label: '61. Face à son humiliation', disabled: true },
+        { id: 's59', label: '59. Invocation face à la détresse et la délivrance', disabled: true },
+        { id: 's60', label: '60. Invocation face à ce qu\'il redoutait et craignait', disabled: true },
+        { id: 's61', label: '61. Invocation face à son humiliation', disabled: true },
         { type: 'header', label: 'Invocations des jours (62–68)' },
         { id: 'dimanche',  label: '62. Invocation du Dimanche', emoji: '📖' },
         { id: 'lundi',     label: '63. Invocation du Lundi', emoji: '📖' },
@@ -1194,12 +1200,34 @@ DATA.themes.forEach(function(theme) {
   var itemsDiv = document.createElement('div');
   itemsDiv.className = 'sb-items';
 
+  var currentContainer = itemsDiv;
+
   theme.items.forEach(function(item) {
-    var el = document.createElement('div');
     if (item.type === 'header') {
-      el.className = 'sb-item subheader';
-      el.textContent = item.label;
+      var headerBtn = document.createElement('div');
+      headerBtn.className = 'sb-item subheader';
+      headerBtn.innerHTML = '<span class="sb-theme-label">' + item.label + '</span><span class="sb-chevron">›</span>';
+      
+      var subItemsDiv = document.createElement('div');
+      subItemsDiv.className = 'sb-sub-items';
+      
+      headerBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var isOpen = subItemsDiv.classList.contains('open');
+        if (!isOpen) {
+          subItemsDiv.classList.add('open');
+          headerBtn.classList.add('open');
+        } else {
+          subItemsDiv.classList.remove('open');
+          headerBtn.classList.remove('open');
+        }
+      });
+      
+      itemsDiv.appendChild(headerBtn);
+      itemsDiv.appendChild(subItemsDiv);
+      currentContainer = subItemsDiv;
     } else {
+      var el = document.createElement('div');
       el.className = 'sb-item' + (item.disabled ? ' disabled' : '');
       el.textContent = (item.emoji || '') + ' ' + item.label;
       if (!item.disabled) {
@@ -1209,8 +1237,8 @@ DATA.themes.forEach(function(theme) {
           showInvocation(item.id);
         });
       }
+      currentContainer.appendChild(el);
     }
-    itemsDiv.appendChild(el);
   });
 
   themeBtn.addEventListener('click', function() {
