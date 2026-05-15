@@ -1270,7 +1270,9 @@ toggle.addEventListener('click', function(){
 
 // ══ RENDER INVOCATION ══
 // Font size controls
-var _invAr = 1.25, _invFr = 0.95;
+var _invAr = 1.55, _invFr = 1.25;
+document.documentElement.style.setProperty('--inv-ar-size', _invAr + 'rem');
+document.documentElement.style.setProperty('--inv-fr-size', _invFr + 'rem');
 function invFs(type, dir) {
   var step = 0.1;
   if (type === 'ar') {
