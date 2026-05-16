@@ -3864,16 +3864,33 @@ const AUNE_SAGESSE = [
         "title": "40 - LE MONDE INTERMÉDIAIRE (AL-BARZAKH)",
         "subparts": [
             {
-                "title": "231 - La signification du monde intermédiaire",
-                "content": []
+                "title": "La signification du monde intermédiaire",
+                "content": [
+                    {
+                        "number": "762",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : «Par Allah, je crains pour vous le barzakh !» Je lui demandai : «Qu'est-ce que le barzakh ?» Il dit : «La tombe, de l'instant de la mort jusqu'au Jour de la Résurrection.»<sup>844</sup>"
+                    }
+                ],
+                "introduction": "«<i>Derrière eux, cependant, il y a une barrière (barzakh), jusqu'au jour où ils seront ressuscités.</i>»<sup>843</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:169-171, 23:99-100, 40:11)</span>"
             },
             {
-                "title": "232 - L'âme des croyants dans le monde intermédiaire",
-                "content": []
+                "title": "L'âme des croyants dans le monde intermédiaire",
+                "content": [
+                    {
+                        "number": "763",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les âmes des croyants seront dans des chambres au Paradis, mangeront de sa nourriture, se désaltèreront de ses boissons, se rendront visite et diront : «Seigneur, établis pour nous l'Heure [la Résurrection] afin que Tu accomplisses ce que Tu nous as promis».<sup>846</sup>"
+                    }
+                ],
+                "introduction": "«<i>Ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants, auprès de leur Seigneur, bien pourvus.</i>»<sup>845</sup>"
             },
             {
-                "title": "233 - L'âme des mécréants dans le monde intermédiaire",
-                "content": []
+                "title": "L'âme des mécréants dans le monde intermédiaire",
+                "content": [
+                    {
+                        "number": "764",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, les âmes des mécréants sont dans le feu de la Géhenne ; elles y sont exposées et disent : «Seigneur, n'établis pas l'Heure [la Résurrection], n'accomplis pas ce que Tu nous as promis !»<sup>847</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -3881,12 +3898,40 @@ const AUNE_SAGESSE = [
         "title": "41 - LA BÉNÉDICTION",
         "subparts": [
             {
-                "title": "234 - La signification de la bénédiction",
-                "content": []
+                "title": "La signification de la bénédiction",
+                "content": [
+                    {
+                        "number": "765",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole d'Allah le Très-Haut «<i>Où que je sois, Il m'a rendu béni</i>»<sup>849</sup> : [Béni signifie] très bénéfique [aux autres].<sup>850</sup>"
+                    }
+                ],
+                "introduction": "«<i>Où que je sois, Il m'a rendu béni ; et Il m'a recommandé la prière (ṣalāt) et la zakāt tant que je vivrai.</i>»<sup>848</sup>"
             },
             {
-                "title": "235 - Ce qui suscite la bénédiction et ce qui l'éloigne",
-                "content": []
+                "title": "Ce qui suscite la bénédiction et ce qui l'éloigne",
+                "content": [
+                    {
+                        "number": "766",
+                        "text": "Le Messager d'Allah (s) a dit : Dosez votre nourriture, car la bénédiction est dans la nourriture bien dosée.<sup>852</sup>"
+                    },
+                    {
+                        "number": "767",
+                        "text": "Le Messager d'Allah (s) a dit : La bénédiction est dans le commerce.<sup>853</sup>"
+                    },
+                    {
+                        "number": "768",
+                        "text": "Le Messager d'Allah (s) a dit : Il existe quatre choses dont l'une n'entre pas dans une maison sans la détruire de telle sorte qu'elle ne pourra plus prospérer par les bénédictions : la trahison, le vol, la consommation du vin et l'adultère.<sup>854</sup>"
+                    },
+                    {
+                        "number": "769",
+                        "text": "L'Imām 'Alī (as) a dit : Par la justice, les bénédictions sont multipliées.<sup>855</sup>"
+                    },
+                    {
+                        "number": "770",
+                        "text": "L'Imām 'Alī (as) a dit : Quand les crimes prédominent, les bénédictions disparaissent.<sup>856</sup>"
+                    }
+                ],
+                "introduction": "«<i>Et si les habitants des cités avaient cru et avaient été pieux, Nous leur aurions certainement accordé des bénédictions du ciel et de la terre. Mais ils ont démenti et Nous les avons donc saisis pour ce qu'ils avaient acquis.</i>»<sup>851</sup>"
             }
         ]
     },
@@ -3894,8 +3939,49 @@ const AUNE_SAGESSE = [
         "title": "42 - LA GAIETÉ",
         "subparts": [
             {
-                "title": "236 - L'encouragement à la gaieté",
-                "content": []
+                "title": "L'encouragement à la gaieté",
+                "content": [
+                    {
+                        "number": "771",
+                        "text": "Le Messager d'Allah (s) a dit : La gaieté fait disparaître la rancœur.<sup>857</sup>"
+                    },
+                    {
+                        "number": "772",
+                        "text": "Le Messager d'Allah (s) a dit : Rencontre ton frère avec un visage gai.<sup>858</sup>"
+                    },
+                    {
+                        "number": "773",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, vous ne pourrez jamais faire bénéficier tous les gens de vos biens, alors rencontrez-les avec un visage radieux et de la gaieté.<sup>859</sup>"
+                    },
+                    {
+                        "number": "774",
+                        "text": "L'Imām 'Alī (as) a dit : La gaieté est le piège de l'affection.<sup>860</sup>"
+                    },
+                    {
+                        "number": "775",
+                        "text": "L'Imām 'Alī (as) a dit : La gaieté est le trait de l'homme libre.<sup>861</sup>"
+                    },
+                    {
+                        "number": "776",
+                        "text": "L'Imām 'Alī (as) a dit : La gaieté est la cause de l'amour.<sup>862</sup>"
+                    },
+                    {
+                        "number": "777",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la gaieté du croyant est sur son visage, sa force dans sa religion, et sa tristesse dans son cœur.<sup>863</sup>"
+                    },
+                    {
+                        "number": "778",
+                        "text": "L'Imām 'Alī (as) a dit : Ta gaieté indique la noblesse et la générosité de ton âme.<sup>864</sup>"
+                    },
+                    {
+                        "number": "779",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque vous rencontrez vos frères, saluez-vous mutuellement et faites preuve de jovialité et de gaieté. Ainsi, vous vous séparerez alors que les fardeaux [de vos péchés] auront disparus.<sup>865</sup>"
+                    },
+                    {
+                        "number": "780",
+                        "text": "L'Imām 'Alī (as) a dit : Le meilleur moyen permettant aux gens de gagner les cœurs de ceux qu'ils affectionnent et de faire disparaître l'animosité des cœurs de leurs ennemis est de faire preuve de gaieté lorsqu'ils les rencontrent, de demander de leurs nouvelles en leur absence, et d'être jovial avec eux en leur présence.<sup>866</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -3903,8 +3989,34 @@ const AUNE_SAGESSE = [
         "title": "43 - LA CLAIRVOYANCE",
         "subparts": [
             {
-                "title": "237 - La clairvoyance",
-                "content": []
+                "title": "La clairvoyance",
+                "content": [
+                    {
+                        "number": "781",
+                        "text": "Le Messager d'Allah (s) a dit : L'aveugle n'est pas celui qui a perdu la vue ; l'aveugle est celui qui a perdu la clairvoyance.<sup>868</sup>"
+                    },
+                    {
+                        "number": "782",
+                        "text": "L'Imām 'Alī (as) a dit : Le regard de l'œil est inutile si la clairvoyance est aveugle.<sup>869</sup>"
+                    },
+                    {
+                        "number": "783",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, le clairvoyant est celui qui écoute et qui réfléchit, qui regarde et qui voit, et qui bénéficie des leçons ; puis il prend un chemin clair où il évite de tomber dans les abysses.<sup>870</sup>"
+                    },
+                    {
+                        "number": "784",
+                        "text": "L'Imām 'Alī (as) a dit : La vision ne dépend pas des yeux, car les yeux peuvent parfois tromper leur propriétaire, alors que l'intellect ne trompe jamais celui qui lui demande bon conseil.<sup>871</sup>"
+                    },
+                    {
+                        "number": "785",
+                        "text": "L'Imām 'Alī (as) a dit : Perdre la vue est plus aisé que de perdre la clairvoyance.<sup>872</sup>"
+                    },
+                    {
+                        "number": "786",
+                        "text": "L'Imām 'Alī (as) a dit : La plus clairvoyante des personnes est celle qui voit ses propres défauts et renonce en conséquence à ses péchés.<sup>873</sup>"
+                    }
+                ],
+                "introduction": "«<i>Nous avons destiné à l'Enfer un grand nombre de djinns et d'hommes. Ils ont des cœurs mais ne comprennent pas, ils ont des yeux mais ne voient pas, ils ont des oreilles mais n'entendent pas. Ceux-là sont comme les bestiaux, même plus égarés encore. Tels sont les insouciants.</i>»<sup>867</sup>"
             }
         ]
     },
@@ -3912,20 +4024,62 @@ const AUNE_SAGESSE = [
         "title": "44 - LE FAUX",
         "subparts": [
             {
-                "title": "238 - Mise en garde contre le fait de suivre le faux",
-                "content": []
+                "title": "Mise en garde contre le fait de suivre le faux",
+                "content": [
+                    {
+                        "number": "787",
+                        "text": "L'Imām 'Alī (as) a dit : Le faux est tentateur et trompeur.<sup>876</sup>"
+                    },
+                    {
+                        "number": "788",
+                        "text": "L'Imām 'Alī (as) a dit : Je creuserai le faux jusqu'à ce que la vérité sorte de son flanc.<sup>877</sup>"
+                    },
+                    {
+                        "number": "789",
+                        "text": "L'Imām 'Alī (as) a dit : La vérité est le chemin du Paradis, le faux est le chemin du Feu et sur chaque chemin, il y a un prédicateur [appelant à chacun de ces chemins].<sup>878</sup>"
+                    },
+                    {
+                        "number": "790",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui soutient le faux aura opprimé la vérité.<sup>879</sup>"
+                    }
+                ],
+                "introduction": "«<i>Et dis : «La Vérité est venue et l'erreur a disparu.» Certes, l'erreur est vouée à disparaître.</i>»<sup>874</sup><br><br>«<i>Bien au contraire, Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît. Et malheur à vous pour ce que vous attribuez [injustement à Allah] !</i>»<sup>875</sup>"
             },
             {
-                "title": "239 - Discerner la vérité du faux",
-                "content": []
+                "title": "Discerner la vérité du faux",
+                "content": [
+                    {
+                        "number": "791",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, quatre doigts séparent la vérité du faux... Le faux est de dire «j'ai entendu», et la vérité est de dire «j'ai vu».<sup>880</sup>"
+                    }
+                ]
             },
             {
-                "title": "240 - Mêler la vérité au faux",
-                "content": []
+                "title": "Mêler la vérité au faux",
+                "content": [
+                    {
+                        "number": "792",
+                        "text": "L'Imām 'Alī (as) a dit : Si le faux était préservé de tout mélange avec la vérité, il ne resterait pas indéfinissable pour ceux qui y aspirent, et si la vérité était préservée de tout mélange avec le faux, les langues de ses opposants se tairaient. Cependant, un peu de ceci est souvent mélangé avec un peu de cela.<sup>882</sup>"
+                    },
+                    {
+                        "number": "793",
+                        "text": "L'Imām 'Alī (as) a dit : Combien d'égarements ont été embellis par un verset du Livre d'Allah comme est embelli le dinar de bronze par une couche d'argent !<sup>883</sup>"
+                    }
+                ],
+                "introduction": "«<i>Et ne mêlez pas le faux à la vérité. Ne cachez pas sciemment la vérité.</i>»<sup>881</sup>"
             },
             {
-                "title": "241 - Le faux ne peut être reconnu comme étant le vrai",
-                "content": []
+                "title": "Le faux ne peut être reconnu comme étant le vrai",
+                "content": [
+                    {
+                        "number": "794",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah a refusé de présenter le faux comme une vérité certaine, et Il a refusé de présenter la vérité dans le cœur du croyant comme une chose indéniablement fausse. Allah a également refusé que dans le cœur du mécréant obstiné, le faux soit présenté comme une vérité indéniable. S'Il n'avait pas procédé de la sorte, la vérité n'aurait pu être distinguée du faux.<sup>884</sup>"
+                    },
+                    {
+                        "number": "795",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le cœur ne peut jamais reconnaître que la vérité est le faux, tout comme il ne peut jamais reconnaître que le faux est la vérité.<sup>885</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -3933,20 +4087,128 @@ const AUNE_SAGESSE = [
         "title": "45 - L'AVERSION",
         "subparts": [
             {
-                "title": "242 - Ceux qu'Allah a en aversion",
-                "content": []
+                "title": "Ceux qu'Allah a en aversion",
+                "content": [
+                    {
+                        "number": "796",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah a en aversion la personne âgée commettant l'adultère, le riche oppresseur, le pauvre arrogant et le mendiant qui insiste. Il annule la rétribution du bienfaiteur qui se vante de son acte, et Il déteste le menteur éhonté et insolent.<sup>886</sup>"
+                    },
+                    {
+                        "number": "797",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Béni et le Très-Haut a en aversion toute personne qui connait la vie de ce monde et ignore l'Au-delà.<sup>887</sup>"
+                    },
+                    {
+                        "number": "798",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah a en aversion toute personne grossière qui se pavane et fréquente les marchés, qui ressemble à un cadavre la nuit et à un âne la journée, et qui connait la vie de ce monde et ignore l'Au-delà.<sup>888</sup>"
+                    },
+                    {
+                        "number": "799",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah a en aversion tout homme chez qui l'on s'introduit et qui ne se défend pas.<sup>889</sup>"
+                    },
+                    {
+                        "number": "800",
+                        "text": "L'Imām 'Alī (as) a dit : Allah loué soit-Il a en aversion l'insolent qui commet impudemment des actes de désobéissance.<sup>890</sup>"
+                    },
+                    {
+                        "number": "801",
+                        "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) avait pour habitude de dire : «En vérité, Allah a en aversion celui qui se renfrogne face à ses frères.»<sup>891</sup>"
+                    },
+                    {
+                        "number": "802",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Allah a en aversion l'indécent qui expose ses vices en public.<sup>892</sup>"
+                    }
+                ]
             },
             {
-                "title": "243 - Les personnes qu'Allah a le plus en aversion",
-                "content": []
+                "title": "Les personnes qu'Allah a le plus en aversion",
+                "content": [
+                    {
+                        "number": "803",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah a le plus en aversion trois sortes de personnes : un homme qui dort beaucoup durant la journée et ne fait aucune prière pendant la nuit ; un homme qui mange beaucoup, qui ne dit pas le Nom d'Allah devant la nourriture et qui ne rend pas grâce à Allah ; et enfin, un homme qui rit beaucoup et sans raison.<sup>893</sup>"
+                    },
+                    {
+                        "number": "804",
+                        "text": "Le Messager d'Allah (s) a dit : Les trois types de personnes qu'Allah a le plus en aversion sont : un athée dans le Sanctuaire [de La Mecque], un homme qui veut introduire une tradition païenne anté-islamique dans l'islam, et un homme qui veut [faire couler] le sang d'une personne sans une juste cause.<sup>894</sup>"
+                    },
+                    {
+                        "number": "805",
+                        "text": "Le Messager d'Allah (s) a dit : Ceux qu'Allah a le plus en aversion sont ceux qui rapportent la médisance, désunissent leurs frères, et guettent les faux-pas des innocents.<sup>895</sup>"
+                    },
+                    {
+                        "number": "806",
+                        "text": "Le Messager d'Allah (s) a dit : La créature qu'Allah le Très-Haut a le plus en aversion est un savant qui rend visite aux dirigeants.<sup>896</sup>"
+                    },
+                    {
+                        "number": "807",
+                        "text": "<em>Kanz al-'Ummāl</em> : Le Messager d'Allah (s) a dit : En vérité, ceux que j'ai le plus en aversion et les plus éloignés de moi le Jour du Jugement sont ceux qui bavardent beaucoup, les prétentieux et les <i>mutafayhiqūn</i>. On lui demanda : «Ô Messager d'Allah, qui sont les <i>mutafayhiqūn</i> ?» Il (s) répondit : «Les arrogants.»<sup>897</sup>"
+                    },
+                    {
+                        "number": "808",
+                        "text": "L'Imām 'Alī (as) a dit : La créature qu'Allah a le plus en aversion est le calomniateur.<sup>898</sup>"
+                    },
+                    {
+                        "number": "809",
+                        "text": "L'Imām 'Alī (as) a dit : Les personnes qu'Allah - loué soit-Il - a le plus en aversion sont celles dont la seule préoccupation est [la satisfaction des désirs de] leur ventre et [de] leurs parties intimes.<sup>899</sup>"
+                    },
+                    {
+                        "number": "810",
+                        "text": "L'Imām 'Alī (as) a dit : La créature qu'Allah le Très-Haut a le plus en aversion est l'ignorant.<sup>900</sup>"
+                    },
+                    {
+                        "number": "811",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la créature qu'Allah a le plus en aversion est une personne qui a rassemblé un certain savoir, trompant [les gens] dans les pénombres de la dissension, et qui est aveugle aux bienfaits et au calme de la trêve. Ses semblables l'ont nommé savant, alors qu'elle n'a jamais bénéficié ne serait-ce qu'un jour de son savoir.<sup>901</sup>"
+                    },
+                    {
+                        "number": "812",
+                        "text": "L'Imām 'Alī (as) a dit : La personne qu'Allah - loué soit-Il - a le plus en aversion est un savant autoritaire et dominant.<sup>902</sup>"
+                    },
+                    {
+                        "number": "813",
+                        "text": "L'Imām al-Bāqir (as) a dit : Moïse demanda : «Seigneur, quel est le serviteur que Tu as le plus en aversion ?» Il répondit : «Celui qui est comme un cadavre durant la nuit et qui est oisif durant la journée.»<sup>903</sup>"
+                    },
+                    {
+                        "number": "814",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La créature d'Allah la plus tenue en aversion est un serviteur craint par les gens en raison de sa langue.<sup>904</sup>"
+                    }
+                ]
             },
             {
-                "title": "244 - Les actes qu'Allah a en aversion",
-                "content": []
+                "title": "Les actes qu'Allah a en aversion",
+                "content": [
+                    {
+                        "number": "815",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas de chose qu'Allah a autant en aversion qu'un ventre plein.<sup>905</sup>"
+                    },
+                    {
+                        "number": "816",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas de chose qu'Allah a autant en aversion que l'avarice et les mauvaises manières. En vérité, elles corrompent les actes de la même façon que la terre corrompt le miel.<sup>906</sup>"
+                    },
+                    {
+                        "number": "817",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah a en aversion le long sommeil et la longue oisiveté.<sup>907</sup>"
+                    },
+                    {
+                        "number": "818",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Trois choses méritent l'aversion d'Allah le Tout-Puissant : le sommeil [excessif] sans veillée [nocturne], le rire sans raison, et le fait de manger sans avoir faim.<sup>908</sup>"
+                    },
+                    {
+                        "number": "819",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Un homme de [la tribu de] Khath'am vint voir le Prophète (s) et lui demanda : «Quels sont les actes qu'Allah le Tout-Puissant a le plus en aversion ?» Il (s) répondit : «Le fait d'associer une chose à Allah.» L'homme dit : «Quoi d'autre ?» Il (s) dit : «Rompre les liens familiaux.» L'homme dit : «Quoi d'autre ?» Il répondit : «Ordonner le blâmable et interdire le recommandable.»<sup>909</sup>"
+                    },
+                    {
+                        "number": "820",
+                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, Allah a en aversion les commérages, la dilapidation des biens, et les demandes incessantes.<sup>910</sup>"
+                    }
+                ]
             },
             {
-                "title": "245 - La malveillance",
-                "content": []
+                "title": "La malveillance",
+                "content": [
+                    {
+                        "number": "821",
+                        "text": "Le Messager d'Allah (s) a dit : Vous avez été atteints du même mal qui a touché les autres nations avant vous : la malveillance et la jalousie.<sup>911</sup>"
+                    }
+                ]
             }
         ]
     },
