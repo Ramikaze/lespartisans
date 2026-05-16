@@ -1,5 +1,20 @@
 const AUNE_SAGESSE = [
   {
+    "title": "Introduction et Préfaces",
+    "original": "Introduction et Préfaces",
+    "subparts": [
+      {
+        "title": "Préface de l'auteur"
+      },
+      {
+        "title": "Introduction du traducteur"
+      },
+      {
+        "title": "Notes de bas de page"
+      }
+    ]
+  },
+  {
     "title": "Le sacrifice de soi",
     "original": "LE SACRIFICE DE SOT",
     "subparts": [
@@ -5725,19 +5740,19 @@ const AUNE_SAGESSE = [
   },
   {
     "title": "Le savoit ccottaîn .",
-    "original": "LE SAVOIT CCOTTAÎN .",
+    "original": "LE SAVOIR CERTAIN .",
     "subparts": [
       {
-        "title": "- la sgh 666 ce bsovrrrvanaen rare"
+        "title": "- la signification de la certitude"
       },
       {
-        "title": "Les signes de celui qui à là cottitume"
+        "title": "Les signes de celui qui à la certitude"
       },
       {
-        "title": "La faiblesse de là certitudc"
+        "title": "La faiblesse de la certitude"
       },
       {
-        "title": "L'augmentation de la cettituac"
+        "title": "L'augmentation de la certitude"
       },
       {
         "title": "Ai-käfr, vol. 1, p. 53, no. 14, selon la narration de hammäd ibn ‘uthmän, rawdat al-wä ‘igin, p. 233."
