@@ -3377,16 +3377,45 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "209 - La raison de la création de l'homme",
-                "content": []
+                "title": "La raison de la création de l'homme",
+                "content": [
+                    {
+                        "number": "640",
+                        "text": "L'Imām 'Alī (as) a dit : La crainte d'Allah vous a été ordonnée, et c'est pour la bienfaisance et l'obéissance [à Allah] que vous avez été créés.<sup>712</sup>"
+                    },
+                    {
+                        "number": "641",
+                        "text": "L'Imām Ḥusayn (as) a dit : Ô gens ! En vérité, Allah, que soit exalté Son rappel, n'a créé les serviteurs que pour qu'ils Le connaissent. Lorsqu'ils Le connaissent, ils L'adorent, et lorsqu'ils L'adorent, ils n'ont plus besoin, par Son adoration, d'adorer autre que Lui. Un homme lui demanda : «Ô fils du Messager d'Allah, que je te sois sacrifié, quelle est la connaissance d'Allah ?» Il répondit : «C'est la connaissance que les gens doivent avoir de l'Imām de leur époque, et à qui l'obéissance est obligatoire.»<sup>713</sup>"
+                    },
+                    {
+                        "number": "642",
+                        "text": "A un athée qui lui demanda : «Pour quelle raison a-t-Il créé l'humanité s'Il n'avait nul besoin d'elle et qu'Il n'était pas obligé de le faire, et étant donné qu'il ne Lui convient pas non plus de l'avoir créée par jeu ?», l'Imām al-Ṣādiq (as), répondit : «Il l'a créée pour [lui] révéler Sa sagesesse, mettre en application Sa science et exécuter Son plan.»<sup>714</sup>"
+                    },
+                    {
+                        "number": "643",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole Divine : «<i>Or, ils ne cessent d'être en désaccord [entre eux], à l'exception de ceux auxquels ton Seigneur a accordé miséricorde, c'est pour cela qu'Il les a créés.</i>»<sup>715</sup> : Il les a créés pour qu'ils agissent de manière à mériter Sa miséricorde, afin qu'Il leur accorde Sa Miséricorde.<sup>716</sup>"
+                    }
+                ],
+                "introduction": "«<i>Je n'ai créé les djinns et les hommes que pour qu'ils M'adorent.</i>»<sup>710</sup><br><br>«<i>Et si ton Seigneur l'avait voulu, Il aurait fait des gens une seule communauté. Or, ils ne cessent d'être en désaccord [entre eux], à l'exception de ceux auxquels ton Seigneur a accordé miséricorde. C'est pour cela qu'Il les a créés.</i>»<sup>711</sup>"
             },
             {
-                "title": "210 - La faiblesse de l'homme",
-                "content": []
+                "title": "La faiblesse de l'homme",
+                "content": [
+                    {
+                        "number": "644",
+                        "text": "L'Imām 'Alī (as) a dit : Pauvre fils d'Adam ! Le terme [de sa vie] est caché, ses maladies sont invisibles, ses actes sont consignés. Un moustique le fait souffrir, il peut mourir d'une suffocation, et peut sentir mauvais à cause d'une sueur.<sup>718</sup>"
+                    }
+                ],
+                "introduction": "«<i>L'homme a été créé faible.</i>»<sup>717</sup>"
             },
             {
-                "title": "211 - Mesurer la valeur de l'être humain",
-                "content": []
+                "title": "Mesurer la valeur de l'être humain",
+                "content": [
+                    {
+                        "number": "645",
+                        "text": "L'Imām 'Alī (as) a dit : [La valeur de] l'homme est [mesurée à l'aune] de ses deux plus petits organes : son cœur et sa langue. Quand il combat, qu'il combatte avec un cœur ferme et lorsqu'il parle, qu'il parle avec éloquence.<sup>719</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -3395,7 +3424,156 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "212 - Chaque chose comporte un fléau",
-                "content": []
+                "content": [
+                    {
+                        "number": "646",
+                        "text": "Le Messager d'Allah (s) a dit : Le fléau de l'humour est l'absence de honte ; le fléau du courage est l'agressivité ; le fléau de la générosité est de mentionner et de faire sentir ses largesses aux autres ; le fléau de la beauté est l'arrogance ; le fléau de l'adoration est de se trouver en suspens ; le fléau de la parole est le mensonge ; le fléau de la connaissance est l'oubli ; le fléau de la sagesse est la bêtise ; le fléau de la bonne lignée est la fierté ; et le fléau de la libéralité est le gaspillage.<sup>720</sup>"
+                    },
+                    {
+                        "number": "647",
+                        "text": "Le Messager d'Allah (s) a dit : Le fléau de la religion est la passion.<sup>721</sup>"
+                    },
+                    {
+                        "number": "660",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de l'intelligence est la passion.<sup>734</sup>"
+                    },
+                    {
+                        "number": "661",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la gloire sont les obstacles du destin.<sup>735</sup>"
+                    },
+                    {
+                        "number": "662",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de l'âme est la passion pour ce bas-monde.<sup>736</sup>"
+                    },
+                    {
+                        "number": "663",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la consultation est la contradiction des avis.<sup>737</sup>"
+                    },
+                    {
+                        "number": "664",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des rois est la mauvaise conduite.<sup>738</sup>"
+                    },
+                    {
+                        "number": "665",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des ministres est le cœur corrompu.<sup>739</sup>"
+                    },
+                    {
+                        "number": "666",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des savants est l'amour de la direction.<sup>740</sup>"
+                    },
+                    {
+                        "number": "667",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des gouverneurs est la faiblesse de leur gestion et de leur politique.<sup>741</sup>"
+                    },
+                    {
+                        "number": "668",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des soldats est de désobéir à leurs commandants.<sup>742</sup>"
+                    },
+                    {
+                        "number": "669",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de l'entraînement est le triomphe de l'habitude.<sup>743</sup>"
+                    },
+                    {
+                        "number": "670",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des sujets est d'abandonner l'obéissance.<sup>744</sup>"
+                    },
+                    {
+                        "number": "671",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la piété est l'absence de contentement.<sup>745</sup>"
+                    },
+                    {
+                        "number": "672",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des juges est l'avidité.<sup>746</sup>"
+                    },
+                    {
+                        "number": "673",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des justes est le manque de piété.<sup>747</sup>"
+                    },
+                    {
+                        "number": "688",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des gens ordinaires est un savant dépravé.<sup>762</sup>"
+                    },
+                    {
+                        "number": "689",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la justice est un oppresseur puissant.<sup>763</sup>"
+                    },
+                    {
+                        "number": "690",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des civilisations [et du développement] est la tyrannie des dirigeants.<sup>764</sup>"
+                    },
+                    {
+                        "number": "691",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la puissance est l'entrave aux bonnes actions.<sup>765</sup>"
+                    },
+                    {
+                        "number": "692",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau du cœur est l'admiration de soi.<sup>766</sup>"
+                    },
+                    {
+                        "number": "693",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la parole est le mensonge.<sup>767</sup>"
+                    },
+                    {
+                        "number": "694",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des travaux est l'incompétence des travailleurs.<sup>768</sup>"
+                    },
+                    {
+                        "number": "695",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de l'espoir est l'échéance de la vie.<sup>769</sup>"
+                    },
+                    {
+                        "number": "696",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la loyauté est la traîtrise.<sup>770</sup>"
+                    },
+                    {
+                        "number": "697",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la résolution est la perte de l'occasion.<sup>771</sup>"
+                    },
+                    {
+                        "number": "698",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la confiance est la trahison.<sup>772</sup>"
+                    },
+                    {
+                        "number": "699",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des juristes en religion est le manque de piété.<sup>773</sup>"
+                    },
+                    {
+                        "number": "700",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la libéralité est le gaspillage.<sup>774</sup>"
+                    },
+                    {
+                        "number": "701",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des moyens de subsistance est l'absence de prudence [dans la dépense].<sup>775</sup>"
+                    },
+                    {
+                        "number": "702",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la parole est la prolongation.<sup>776</sup>"
+                    },
+                    {
+                        "number": "703",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la richesse est l'avarice.<sup>777</sup>"
+                    },
+                    {
+                        "number": "704",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des espérances est l'échéance de la vie.<sup>778</sup>"
+                    },
+                    {
+                        "number": "705",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau du bien est un mauvais compagnon.<sup>779</sup>"
+                    },
+                    {
+                        "number": "706",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la puissance est l'agressivité et la tyrannie.<sup>780</sup>"
+                    },
+                    {
+                        "number": "707",
+                        "text": "L'Imām 'Alī (as) a dit : La source des fléaux est d'être épris des [vains] plaisirs.<sup>781</sup>"
+                    },
+                    {
+                        "number": "708",
+                        "text": "L'Imām 'Alī (as) a dit : Le pire des fléaux de l'intellect est l'orgueil.<sup>782</sup>"
+                    }
+                ]
             }
         ]
     },
