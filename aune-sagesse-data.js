@@ -3586,23 +3586,96 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "214 - L'explication de l'avarice",
-                "content": []
+                "content": [
+                    {
+                        "number": "719",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'avarice empreinte d'avidité est pire que l'avarice, car l'avare l'est concernant ses propres biens, tandis que l'avare avide convoite également ce que les autres possèdent en plus de ce qu'il a lui-même, de telle sorte qu'il ne peut voir quelque chose dans les mains des gens sans espérer se l'accaparer de façon licite ou illicite. Il n'est jamais rassasié et ne profite pas de ce qu'Allah lui a accordé.<sup>795</sup>"
+                    }
+                ]
             },
             {
-                "title": "215 - L'avare",
-                "content": []
+                "title": "L'avare",
+                "content": [
+                    {
+                        "number": "720",
+                        "text": "Le Messager d'Allah (s) a dit : Le moins serein parmi les gens est l'avare.<sup>796</sup>"
+                    },
+                    {
+                        "number": "721",
+                        "text": "L'Imām 'Alī (as) a dit : L'avare emmagasine [la richesse] pour ses héritiers.<sup>797</sup>"
+                    },
+                    {
+                        "number": "722",
+                        "text": "L'Imām 'Alī (as) a dit : L'avare ne peut avoir d'ami.<sup>798</sup>"
+                    },
+                    {
+                        "number": "723",
+                        "text": "L'Imām 'Alī (as) a dit : Je suis étonné de l'avare : il précipite la pauvreté qu'il fuit, et il rate la richesse à laquelle il aspire. Il vit ainsi comme un pauvre sur cette terre et sera jugé comme un riche dans l'Au-delà.<sup>799</sup>"
+                    },
+                    {
+                        "number": "724",
+                        "text": "L'Imām 'Alī (as) a dit : L'avare est loin d'Allah, loin des gens et proche du Feu.<sup>800</sup>"
+                    },
+                    {
+                        "number": "725",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Personne ne devrait autant souhaiter la richesse aux autres que les avares, car lorsque les gens deviennent riches, ils se tiennent éloignés de leurs biens.<sup>801</sup>"
+                    },
+                    {
+                        "number": "726",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'avarice de l'avare provient de son manque de confiance en son Seigneur, car celui qui est certain de la compensation [d'Allah] donnera avec générosité.<sup>802</sup>"
+                    }
+                ]
             },
             {
-                "title": "216 - Le véritable avare",
-                "content": []
+                "title": "Le véritable avare",
+                "content": [
+                    {
+                        "number": "727",
+                        "text": "Le Messager d'Allah (s) a dit : Le véritable avare est celui qui refuse de prélever l'aumône légale sur ses biens et refuse de dépenser pour les besoins de sa communauté, alors qu'en dehors de cela il est prodigue et dépense abondamment.<sup>803</sup>"
+                    },
+                    {
+                        "number": "728",
+                        "text": "Le Messager d'Allah (s) a dit : Le véritable avare est celui en présence de qui mon nom est mentionné et qui ne dit pas «que le salut soit sur lui».<sup>804</sup>"
+                    }
+                ]
             },
             {
-                "title": "217 - La plus avare des personnes",
-                "content": []
+                "title": "La plus avare des personnes",
+                "content": [
+                    {
+                        "number": "729",
+                        "text": "Le Messager d'Allah (s) a dit : La plus avare des personnes est celle qui fait preuve d'avarice dans ce qu'Allah lui a ordonné de donner [l'aumône].<sup>805</sup>"
+                    },
+                    {
+                        "number": "730",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la plus avare des personnes est celle qui est avare en salutations.<sup>806</sup>"
+                    },
+                    {
+                        "number": "731",
+                        "text": "L'Imām 'Alī (as) a dit : La plus avare des personnes est celle qui ne dépense pas son propre argent pour elle-même et le garde pour ses héritiers.<sup>807</sup>"
+                    },
+                    {
+                        "number": "732",
+                        "text": "L'Imām 'Alī (as) a dit : Faire preuve d'avarice dans ce qu'Allah - loué soit-Il - a ordonné de payer à partir de ses biens est la plus laide des avarices.<sup>808</sup>"
+                    },
+                    {
+                        "number": "733",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'Emir des croyants (as) envoya cinq charges de dattes [portées tour à tour par un chameau] à un homme. Un homme dit alors à l'Emir des croyants (as) : «Par Allah, il ne t'avait rien demandé ; des cinq charges, une seule lui aurait suffi !» L'Emir des croyants (as) lui dit alors : «Qu'Allah ne multiplie pas le nombre de personnes comme toi parmi les croyants ! C'est moi qui donne et toi qui fais preuve d'avarice ?!»<sup>809</sup>"
+                    }
+                ]
             },
             {
-                "title": "218 - Le signe de l'avarice",
-                "content": []
+                "title": "Le signe de l'avarice",
+                "content": [
+                    {
+                        "number": "734",
+                        "text": "L'Imām 'Alī (as) a dit : Se justifier de façon abondante [pour ne pas donner] est un signe d'avarice.<sup>810</sup>"
+                    },
+                    {
+                        "number": "735",
+                        "text": "L'Imām 'Alī (as) a dit : L'avare se justifie en présentant [de nombreuses] excuses et justifications.<sup>811</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -3610,32 +3683,95 @@ const AUNE_SAGESSE = [
         "title": "37 - L'INNOVATION (AL-BID'A)",
         "subparts": [
             {
-                "title": "219 - Mise en garde contre l'innovation",
-                "content": []
+                "title": "Mise en garde contre l'innovation",
+                "content": [
+                    {
+                        "number": "736",
+                        "text": "Le Messager d'Allah (s) a dit : Les pires des choses sont les innovations [en matière de religion]. Certes, toute innovation [en matière de religion] est un égarement, et tout égarement mène à l'Enfer.<sup>813</sup>"
+                    },
+                    {
+                        "number": "737",
+                        "text": "Le Messager d'Allah (s) a dit : Ne t'avise pas de mettre en place une pratique (sunna) basée sur une innovation, car tout homme qui est à l'origine d'une mauvaise pratique en portera le péché ainsi que les gens qui l'ont mise en application.<sup>814</sup>"
+                    },
+                    {
+                        "number": "738",
+                        "text": "L'Imām 'Alī (as) a dit : Toute innovation [en matière de religion] mise en place génère l'abandon d'une pratique commune. Par conséquent, évitez les innovations et maintenez-vous dans la voie claire. En vérité, les traditions établies sont les meilleures, et les innovées sont les pires.<sup>815</sup>"
+                    },
+                    {
+                        "number": "739",
+                        "text": "L'Imām 'Alī (as) a dit : Rien ne détruit autant la religion que les innovations.<sup>816</sup>"
+                    }
+                ]
             },
             {
-                "title": "220 - Les innovateurs",
-                "content": []
+                "title": "Les innovateurs",
+                "content": [
+                    {
+                        "number": "740",
+                        "text": "Le Messager d'Allah (s) a dit : Les innovateurs sont la pire chose de la création et de la nature créée.<sup>817</sup>"
+                    },
+                    {
+                        "number": "741",
+                        "text": "Le Messager d'Allah (s) a dit : Les innovateurs seront les chiens des gens de l'Enfer.<sup>818</sup>"
+                    }
+                ]
             },
             {
-                "title": "221 - La signification de l'innovation",
-                "content": []
+                "title": "La signification de l'innovation",
+                "content": [
+                    {
+                        "number": "742",
+                        "text": "L'Imām 'Alī (as) a dit : Les innovateurs sont ceux qui s'opposent au commandement d'Allah, à Son Livre et à Son Messager, ainsi que ceux qui agissent en suivant leur propre avis et leurs penchants, même s'ils sont nombreux à se conduire ainsi.<sup>819</sup>"
+                    },
+                    {
+                        "number": "743",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui invite les gens à le suivre alors qu'il existe des gens plus savants que lui est un innovateur égaré.<sup>820</sup>"
+                    }
+                ]
             },
             {
-                "title": "222 - Le rejet de l'innovateur",
-                "content": []
+                "title": "Le rejet de l'innovateur",
+                "content": [
+                    {
+                        "number": "744",
+                        "text": "Le Messager d'Allah (s) a dit : Allah remplira de paix et de foi le cœur de celui qui rejette un innovateur par antipathie vis-à-vis de lui.<sup>821</sup>"
+                    },
+                    {
+                        "number": "745",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui sourit à un innovateur l'aura aidé à la destruction de sa propre religion.<sup>822</sup>"
+                    }
+                ]
             },
             {
-                "title": "223 - L'innovateur et l'adoration",
-                "content": []
+                "title": "L'innovateur et l'adoration",
+                "content": [
+                    {
+                        "number": "746",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui agit selon une innovation sera entraîné par Satan à l'adoration, il lui inspirera la dévotion et même les larmoiements [afin qu'il continue dans cette voie].<sup>823</sup>"
+                    }
+                ]
             },
             {
-                "title": "224 - La nullité de l'acte de l'innovateur",
-                "content": []
+                "title": "La nullité de l'acte de l'innovateur",
+                "content": [
+                    {
+                        "number": "747",
+                        "text": "Le Messager d'Allah (s) a dit : Peu d'actes basés sur une pratique (sunna) [prophétique] correcte valent mieux que beaucoup d'actes basés sur une innovation.<sup>824</sup>"
+                    },
+                    {
+                        "number": "748",
+                        "text": "Le Messager d'Allah (s) a dit : Allah n'accorde pas à l'innovateur le repentir.<sup>825</sup>"
+                    }
+                ]
             },
             {
-                "title": "225 - Les obligations du savant lors de l'apparition des innovations",
-                "content": []
+                "title": "Les obligations du savant lors de l'apparition des innovations",
+                "content": [
+                    {
+                        "number": "749",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque les innovations apparaissent dans ma communauté, le savant doit diffuser son savoir, et celui qui ne le fait pas méritera la malédiction d'Allah.<sup>826</sup><br><br><span class=\"reference-note\">(Voir également : 412. La dissimulation par prudence (taqīyya), section 1873)</span>"
+                    }
+                ]
             }
         ]
     },
@@ -3643,12 +3779,39 @@ const AUNE_SAGESSE = [
         "title": "38 - LE GASPILLAGE",
         "subparts": [
             {
-                "title": "226 - Le blâme du gaspillage",
-                "content": []
+                "title": "Le blâme du gaspillage",
+                "content": [
+                    {
+                        "number": "750",
+                        "text": "L'Imām 'Alī (as) a dit : Sois généreux sans être gaspilleur, sois économe sans être parcimonieux.<sup>828</sup>"
+                    },
+                    {
+                        "number": "751",
+                        "text": "L'Imām 'Alī (as) a dit : Le gaspillage est le prélude du dénuement.<sup>829</sup>"
+                    },
+                    {
+                        "number": "752",
+                        "text": "L'Imām 'Alī (as) a dit : Le gaspillage est le compagnon du ruiné.<sup>830</sup>"
+                    },
+                    {
+                        "number": "753",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'enorgueillit de son gaspillage sera humilié par la ruine.<sup>831</sup>"
+                    }
+                ],
+                "introduction": "«<i>Et donne au proche parent ce qui lui est dû, ainsi qu'au pauvre et au voyageur. Et ne gaspille pas indûment, car les gaspilleurs sont les frères des diables, et le Diable est très ingrat envers son Seigneur.</i>»<sup>827</sup>"
             },
             {
-                "title": "227 - La signification du gaspillage",
-                "content": []
+                "title": "La signification du gaspillage",
+                "content": [
+                    {
+                        "number": "754",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole du Très-Haut : «<i>Et ne gaspille pas indûment</i>»<sup>832</sup> : Celui qui dépense une chose en dehors de l'obéissance à Allah est un gaspilleur, et celui qui dépense dans le chemin de la bienfaisance est un économe.<sup>833</sup>"
+                    },
+                    {
+                        "number": "755",
+                        "text": "<em>Tafsīr al-'Ayyāshī</em> : Abū Baṣīr a dit : J'ai interrogé Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) sur la signification de la parole Divine «<i>Et ne gaspille pas indûment</i>»<sup>834</sup>. Il répondit : «C'est l'homme qui gaspille son argent et qui reste sans rien.» Abū Baṣīr dit : «Alors le gaspillage concerne aussi les dépenses licites ?» Il répondit : «Oui.»<sup>835</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -3656,16 +3819,44 @@ const AUNE_SAGESSE = [
         "title": "39 - LA VERTU",
         "subparts": [
             {
-                "title": "228 - Incitation à la vertu",
-                "content": []
+                "title": "Incitation à la vertu",
+                "content": [
+                    {
+                        "number": "756",
+                        "text": "Le Messager d'Allah (s) a dit : Ne rallonge la vie que la vertu.<sup>837</sup>"
+                    },
+                    {
+                        "number": "757",
+                        "text": "Le Messager d'Allah (s) a dit : Le bien le plus vite rétribué est la vertu, et le mal le plus vite puni est l'agressivité.<sup>838</sup>"
+                    },
+                    {
+                        "number": "758",
+                        "text": "Le Messager d'Allah (s) a dit : Trois choses font partie de la vertu : la générosité de l'âme, la bonne parole et la patience face au tourment.<sup>839</sup>"
+                    },
+                    {
+                        "number": "759",
+                        "text": "L'Imām al-Bāqir (as) a dit : Quatre choses font partie des trésors de la vertu : cacher son besoin, cacher son offrande, cacher sa douleur et cacher son malheur.<sup>840</sup>"
+                    }
+                ],
+                "introduction": "«<i>Entraidez-vous dans l'accomplissement de la vertu et de la piété, et ne vous entraidez pas dans le péché et la transgression. Et craignez Allah, car Allah est, certes, dur en punition.</i>»<sup>836</sup>"
             },
             {
-                "title": "229 - Le signe de la personne vertueuse",
-                "content": []
+                "title": "Le signe de la personne vertueuse",
+                "content": [
+                    {
+                        "number": "760",
+                        "text": "Le Messager d'Allah (s) a dit : Sachez que la personne vertueuse se distingue par dix signes : elle aime pour Allah, déteste pour Allah, se lie d'amitié pour Allah, se sépare pour Allah, se met en colère pour Allah, se satisfait pour Allah, œuvre pour Allah, implore Allah, se soumet à Allah par crainte révérencielle ; elle est craintive, pure, sincère, pudique, vigilante [concernant ses actes et sa personne], et elle fait le bien pour Allah.<sup>841</sup>"
+                    }
+                ]
             },
             {
-                "title": "230 - Le sommet de la vertu",
-                "content": []
+                "title": "Le sommet de la vertu",
+                "content": [
+                    {
+                        "number": "761",
+                        "text": "Le Messager d'Allah (s) a dit : Le sommet de la vertu est d'accomplir en secret ce que tu fais au grand jour.<sup>842</sup>"
+                    }
+                ]
             }
         ]
     },
