@@ -46,11 +46,23 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .part-card.active .part-header{border-bottom:1px solid rgba(201,168,76,0.1)}
 
 .subpart-list{padding:16px 24px}
-.subpart-item{padding:14px 16px;border-bottom:1px solid rgba(255,255,255,0.05);display:flex;flex-direction:column;gap:8px}
+.subpart-item{padding:0; border-bottom:1px solid rgba(255,255,255,0.05);display:flex;flex-direction:column;}
 .subpart-item:last-child{border-bottom:none}
+.subpart-header{padding:14px 16px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; transition:background 0.2s ease;}
+.subpart-header:hover{background:rgba(201,168,76,0.05)}
 .subpart-title{font-size:1.05rem;font-weight:500;color:#c9a84c;display:flex;align-items:center;gap:10px}
 .subpart-title::before{content:'';width:6px;height:6px;background:#c9a84c;border-radius:50%;opacity:0.7}
-.subpart-desc{font-size:0.95rem;color:#9aa3b8;padding-left:16px;line-height:1.5}
+.subpart-icon{color:#c9a84c;transition:transform 0.3s ease;display:flex;opacity:0.7;}
+.subpart-icon svg{width:16px;height:16px}
+.subpart-content{display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.3s ease;}
+.subpart-content-inner{overflow:hidden;}
+.subpart-accordion.active .subpart-content{grid-template-rows:1fr;}
+.subpart-accordion.active .subpart-icon{transform:rotate(180deg);}
+
+.hadith-card{margin: 0 16px 16px 16px; padding:16px; background:rgba(255,255,255,0.03); border-radius:8px; border-left:3px solid rgba(201,168,76,0.5);}
+.hadith-number{font-size:0.8em; color:rgba(201,168,76,0.8); margin-bottom:8px; font-weight:bold;}
+.hadith-text{font-size:1rem; color:var(--text-color); line-height:1.6; text-align:justify;}
+.hadith-source{font-size:0.85em; color:#9aa3b8; margin-top:10px; text-align:left; font-style:italic;}
 
 .empty-hadiths{font-size:0.85em;color:rgba(154,163,184,0.6);margin-top:5px;display:flex;align-items:center;gap:6px}
 .empty-hadiths svg{width:14px;height:14px}
@@ -100,18 +112,20 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 [data-theme="light"] .hero-subtitle, [data-theme="light"] .intro{color:var(--ltext2)!important}
 [data-theme="light"] .hero-label, [data-theme="light"] .hero-ar{color:var(--laccent)!important}
 [data-theme="light"] .intro{background:rgba(220,212,196,0.6)!important;border-color:rgba(122,92,36,0.15)!important}
-[data-theme="light"] .part-card{background:rgba(235,228,216,0.7)!important;border-color:rgba(122,92,36,0.2)!important}
-[data-theme="light"] .part-card:hover{border-color:rgba(122,92,36,0.4)!important}
-[data-theme="light"] .part-header{background:rgba(122,92,36,0.04)!important}
-[data-theme="light"] .part-header:hover{background:rgba(122,92,36,0.08)!important}
-[data-theme="light"] .part-title{color:var(--ltext)!important}
-[data-theme="light"] .part-num{color:var(--laccent)!important;background:rgba(122,92,36,0.1)!important;border-color:rgba(122,92,36,0.2)!important}
-[data-theme="light"] .part-icon{color:var(--laccent)!important}
+[data-theme="light"] .part-card{background:rgba(255,255,255,0.6);border:1px solid rgba(0,0,0,0.08);box-shadow:0 8px 32px rgba(0,0,0,0.05)}
+[data-theme="light"] .part-header:hover{background:rgba(0,0,0,0.02)}
 [data-theme="light"] .part-content{background:rgba(220,212,196,0.3)!important}
-[data-theme="light"] .subpart-title{color:var(--laccent)!important}
-[data-theme="light"] .subpart-title::before{background:var(--laccent)!important}
-[data-theme="light"] .subpart-desc{color:var(--ltext2)!important}
-[data-theme="light"] .empty-hadiths{background:rgba(122,92,36,0.06)!important;color:#8a7c66!important}
+[data-theme="light"] .subpart-item{border-bottom:1px solid rgba(0,0,0,0.05)}
+[data-theme="light"] .subpart-title{color:#a6832e}
+[data-theme="light"] .subpart-title::before{background:#a6832e}
+[data-theme="light"] .subpart-desc{color:#5a6480}
+[data-theme="light"] .empty-hadiths{color:rgba(90,100,128,0.8);background:transparent}
+[data-theme="light"] .part-title{color:#2b3a4a}
+[data-theme="light"] .part-icon{color:#a6832e}
+[data-theme="light"] .part-icon:hover{color:#8a6a22}
+[data-theme="light"] .subpart-header:hover{background:rgba(0,0,0,0.02)}
+[data-theme="light"] .hadith-card{background:rgba(0,0,0,0.03)}
+[data-theme="light"] .hadith-source{color:#5a6480}
 [data-theme="light"] .dev-note{background:rgba(70,120,170,0.08)!important;border-color:rgba(70,120,170,0.2)!important}
 [data-theme="light"] .dev-note-title{color:#2a5080!important}
 [data-theme="light"] .dev-note-text{color:#3a5c85!important}
@@ -130,6 +144,34 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
   <div class="intro">
     Cette section regroupera progressivement les hadiths compilés dans l'ouvrage <strong>"L'Aune de la Sagesse"</strong> de Mohammad Reyshahri. Voici la structure du sommaire thématique. Vous pourrez par la suite cliquer sur chaque partie et sous-partie pour accéder aux hadiths correspondants.
+      
+      <details class="edition-info" style="margin-top: 20px; font-size: 0.85em; text-align: left; color: var(--text-color); opacity: 0.8; border-top: 1px solid rgba(201,168,76,0.2); padding-top: 15px;">
+        <summary style="cursor: pointer; color: #c9a84c; font-weight: 500; user-select: none;">Informations sur l'édition source</summary>
+        <div style="margin-top: 15px; line-height: 1.6; background: rgba(0,0,0,0.1); padding: 15px; border-radius: 8px;">
+          <p style="margin-top: 0;"><strong>L'Aune de la Sagesse – Une anthologie de hadiths</strong> / Mohammad Mohammadi Rayshahri<br>
+          Traduit par Amélie Razavi-Far, Mohammad-Javad Mohammadi, Haja Fadlallah.</p>
+          
+          <p><strong>ISBN :</strong> 978-964-493-787-3<br>
+          <strong>Index :</strong> Fipa<br>
+          <strong>Classification de la Bibliothèque du Congrès :</strong> BP116/5/M3M804957 1393<br>
+          <strong>Classification décimale de Dewey :</strong> 297/21<br>
+          <strong>Code de la bibliothèque nationale :</strong> 3549468</p>
+          
+          <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed rgba(201,168,76,0.3);">
+              <strong>Publié par :</strong><br>
+              La Maison d'édition et de distribution Dar al-Hadith<br>
+              P.O. Box 37185/4468 – Qom – République Islamique d'Iran<br>
+              Tel : +98 (25) 37740523, 37740571
+          </div>
+          
+          <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed rgba(201,168,76,0.3);">
+              La Bibliothèque des Langues Étrangères et des Sources Islamiques<br>
+              Qom – République Islamique d'Iran<br>
+              Première édition : avril 2015<br>
+              Nombre d'exemplaires : 1000
+          </div>
+        </div>
+      </details>
   </div>
 
   <div class="accordion-container" id="sommaire">
@@ -195,12 +237,38 @@ function renderSommaire() {
       }
     } else if (part.subparts && part.subparts.length > 0) {
       part.subparts.forEach((sub, subIndex) => {
+        let hadithsHtml = '';
+        if (sub.hadiths && sub.hadiths.length > 0) {
+           sub.hadiths.forEach((h, hIndex) => {
+               hadithsHtml += `
+                 <div class="hadith-card">
+                    <div class="hadith-number">${hIndex + 1}</div>
+                    <div class="hadith-text">${h.text}</div>
+                    ${h.source ? `<div class="hadith-source">${h.source}</div>` : ''}
+                 </div>
+               `;
+           });
+        } else {
+           hadithsHtml = `
+             <div class="empty-hadiths" style="margin: 15px 0 15px 15px;">
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+               Hadiths à intégrer ultérieurement.
+             </div>
+           `;
+        }
+        
         subpartsHtml += `
-          <div class="subpart-item">
-            <div class="subpart-title">${sub.title}</div>
-            <div class="empty-hadiths">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-              Hadiths à intégrer ultérieurement.
+          <div class="subpart-item subpart-accordion">
+            <div class="subpart-header" onclick="toggleSubpart(this, event)">
+              <div class="subpart-title">${sub.title}</div>
+              <div class="subpart-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+            <div class="subpart-content">
+              <div class="subpart-content-inner">
+                ${hadithsHtml}
+              </div>
             </div>
           </div>
         `;
@@ -375,19 +443,34 @@ function changeSlide(partIndex, dir, total, event) {
 function togglePart(element) {
   const card = element.parentElement;
   
-  // Fermer les autres accordéons
+  // Fermer les autres accordéons principaux
   document.querySelectorAll('.part-card').forEach(c => {
     if(c !== card) c.classList.remove('active');
   });
   
   card.classList.toggle('active');
   
-  // Scroll softly to the part after opening
   if (card.classList.contains('active')) {
     setTimeout(() => {
       card.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 400);
   }
+}
+
+function toggleSubpart(element, event) {
+  if (event) event.stopPropagation();
+  const subpart = element.parentElement;
+  
+  // Fermer les autres sous-parties du même niveau si désiré
+  // (Optionnel: on peut laisser plusieurs sous-parties ouvertes en même temps)
+  /*
+  const siblings = subpart.parentElement.querySelectorAll('.subpart-accordion');
+  siblings.forEach(s => {
+    if (s !== subpart) s.classList.remove('active');
+  });
+  */
+  
+  subpart.classList.toggle('active');
 }
 
 function openPart(partNumber, event) {
