@@ -40,8 +40,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Par le sacrifice de soi, on gagne le cœur des hommes libres.<sup>8</sup>"
                     }
                 ],
-                "note": "(Voir également : 382. La dépense, sections 1760 et 1762)",
-                "content": []
+                "note": "(Voir également : 382. La dépense, sections 1760 et 1762)"
             },
             {
                 "title": "2 - La vertu de ceux qui se sacrifient pour les autres",
@@ -62,8 +61,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut <i>«et offrent la nourriture, malgré son amour, au pauvre, à l'orphelin et au prisonnier»</i><sup>13</sup> : Fāṭima disposait d'une poignée d'orge qu'elle accommoda sous forme de bouillie. Quand ce plat fut prêt et qu'elle le déposa devant elle [pour que sa famille le mange], un indigent vint et dit : «Qu'Allah vous fasse miséricorde ! Nourrissez-nous avec la subsistance qu'Allah vous a donnée.» 'Alī se leva et lui donna un tiers du repas. Peu après, un orphelin arriva et dit : «Qu'Allah vous fasse miséricorde ! Nourrissez-nous avec la subsistance qu'Allah vous a donnée.» 'Alī se leva et lui donna le second tiers du repas. Peu après, un prisonnier arriva et dit : «Qu'Allah vous fasse miséricorde ! Nourrissez-nous avec la subsistance qu'Allah vous a donnée.» 'Alī se leva et lui donna le dernier tiers du repas, qu'ils ne goûtèrent même pas. Allah révéla alors en leur honneur ces versets: <i>«et votre effort sera reconnu»</i><sup>14</sup>.<sup>15</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -77,8 +75,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī a dit en commentant cette parole divine : «<i>C'est Nous qui avons réparti entre eux leur subsistance</i>» : Le Très-Haut nous a informé que l'emploi et le fait de travailler est l'un des moyens de subsistance des créatures. Par Sa sagesse, Il a fait en sorte que les aspirations, les motivations et les états [des hommes] soient divers et variés, et a fait de cela la base de la subsistance des créatures ; et cela incite ainsi l'homme à avoir recours aux services de ses semblables. En effet, si chacun était obligé de construire pour lui-même, de faire ses travaux de menuiserie, et de tout produire lui-même... Les conditions de ce monde deviendraient insupportables ; les gens ne pourraient les supporter et seraient incapables d'y faire face. En revanche, Allah a parfait Son organisation en variant les aspirations afin que chacun réalise pour les autres ce qui est compatible avec ses propres capacités, et dans le but que certains soient servis par les autres et que leur conditions de vie soient viables.<sup>18</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "4 - Il est déconseillé de se mettre au service de quelqu'un",
@@ -87,8 +84,7 @@ const AUNE_SAGESSE = [
                         "source": "Al-Kāfī :",
                         "text": "'Ammār al-Sābāṭī a dit : J'ai dit à l'Imām al-Ṣādiq (as) : «Un homme peut faire du commerce [seul], cependant, s'il le fait au service de quelqu'un, on lui donne la même chose que ce qu'il gagne s'il le fait seul [quelle solution est préférable ?].» Il (as) répondit : «Il ne doit pas se mettre au service de quelqu'un [s'il peut faire le même travail seul], mais qu'il implore Allah le Tout-Puissant pour sa subsistance puis qu'il fasse du commerce, car s'il est au service de quelqu'un, il limite sa propre subsistance.»<sup>19</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "5 - L'intermédiaire dans l'emploi",
@@ -97,8 +93,7 @@ const AUNE_SAGESSE = [
                         "source": "Al-Kāfī :",
                         "text": "Muḥammad ibn Muslim a dit : L'Imām al-Bāqir (as) ou l'Imām al-Ṣādiq (as) fut interrogé au sujet d'un homme qui accepte un travail sans l'exécuter lui-même, mais le confie à une autre personne en prélevant néanmoins un bénéfice. L'Imām (as) répondit : «Non [il ne peut agir ainsi], sauf s'il a lui-même fait une partie de ce travail.»<sup>20</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "6 - L'injustice envers l'employé",
@@ -109,8 +104,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "Le Messager d'Allah (s) a dit : Rémunérer injustement l'employé fait partie des péchés majeurs.<sup>22</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "7 - Annoncer à l'employé sa rémunération et la bonne façon de la donner",
@@ -121,8 +115,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) a interdit d'employer une personne avant qu'elle ne soit informée de sa rémunération.<sup>24</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -144,8 +137,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Les respirations de l'être humain sont autant de pas vers l'échéance [de sa mort].<sup>28</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "9 - L'échéance [de la mort] est une citadelle fortifiée",
@@ -157,8 +149,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : L'échéance [de la mort] est une citadelle fortifiée.<sup>31</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "10 - Toute chose a une échéance",
@@ -169,14 +160,12 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Allah a attribué à toute chose une mesure et pour chaque mesure, Il a déterminé une échéance.<sup>33</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "11 - Chaque communauté a une échéance",
                 "introduction": "«<i>À chaque communauté humaine une échéance est fixée. Quand leur échéance échoit, ils ne peuvent la retarder d'une heure et ils ne peuvent la hâter non plus.</i>»<sup>34</sup><br><br>«<i>Nous n'avons anéanti aucune cité qui n'ait eu son échéance fixée en un Écrit connu. Et aucune communauté ne saurait avancer son échéance, ni la retarder.</i>»<sup>35</sup>",
-                "note": "(Voir également : Coran 16:61, 20:129, 29:5, 42:14, 23:43)",
-                "content": []
+                "note": "(Voir également : Coran 16:61, 20:129, 29:5, 42:14, 23:43)"
             },
             {
                 "title": "12 - L'échéance en suspens et l'échéance scellée",
@@ -185,8 +174,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit en commentant le verset précédent : L'échéance (<i>ajal</i>) non définie (<i>ghayr musammā</i>) est en suspens ; Il peut l'avancer selon Sa volonté ou la reculer selon Sa volonté. En revanche, l'échéance définie (<i>ajal musammā</i>) est décrétée selon Sa volonté durant la Nuit du Destin de l'année en cours jusqu'à celle de l'année d'après. C'est ce que signifie Sa parole : «<i>Quand leur échéance échoit, ils ne peuvent la retarder d'une heure et ils ne peuvent la hâter non plus.</i>»<sup>37</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "13 - Ce qui peut modifier l'échéance en suspens",
@@ -198,8 +186,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Les gens vivent, grâce à leurs bonnes actions, plus longtemps qu'ils ne le devraient selon leur durée de vie [qui leur était prédestinée], et ils meurent à cause de leurs péchés plus qu'ils ne meurent du fait de l'arrivée à échéance de leur vie.<sup>39</sup>"
                     }
                 ],
-                "note": "(Voir également : 289. L'âge, section 1371)",
-                "content": []
+                "note": "(Voir également : 289. L'âge, section 1371)"
             }
         ]
     },
@@ -219,8 +206,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : En vérité, le bas-monde s'éloigne de toi et l'Au-delà est proche de toi.<sup>43</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "15 - La grandeur des réalités de l'Au-delà",
@@ -229,8 +215,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Entendre parler de toute chose de ce bas-monde est plus impressionnant que de la voir, et voir toute chose de l'Au-delà est plus impressionnant que d'en entendre parler. Par conséquent, à défaut de pouvoir voir l'Au-delà et de contempler ce qui est caché à vos yeux, contentez-vous d'écouter les paroles et les nouvelles annoncées [par les Prophètes].<sup>45</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "16 - L'Au-delà est la demeure éternelle",
@@ -242,8 +227,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Ce bas-monde a un terme, alors que l'Au-delà est éternel.<sup>48</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "17 - La prééminence de l'Au-delà",
@@ -253,8 +237,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : L'Au-delà est sans égal, et la valeur de l'homme ne réside pas en ce monde.<sup>50</sup>"
                     }
                 ],
-                "note": "(Voir également : 141. Le monde d'ici-bas, section 717)",
-                "content": []
+                "note": "(Voir également : 141. Le monde d'ici-bas, section 717)"
             },
             {
                 "title": "18 - Le rappel de l'Au-delà",
@@ -265,8 +248,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Celui se rappelle souvent de l'Au-delà désobéira moins [à Allah].<sup>52</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "19 - Œuvrer en vue de l'Au-delà",
@@ -280,8 +262,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Œuvrer pour l'Au-delà est inefficace si cela s'accompagne du désir de ce bas-monde.<sup>55</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -308,8 +289,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant est le frère du croyant, ils sont comme un seul corps : quand un organe souffre, l'ensemble du corps ressent la douleur ; et leurs âmes sont une même âme.<sup>61</sup>"
                     }
                 ],
-                "note": "(Voir également : 30. La foi, section 189)",
-                "content": []
+                "note": "(Voir également : 30. La foi, section 189)"
             },
             {
                 "title": "21 - L'augmentation du nombre de frères",
@@ -321,8 +301,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Prenez des frères sincères et augmentez leur nombre, car ils sont une provision dans l'aisance et une protection dans le malheur.<sup>63</sup>"
                     }
                 ],
-                "note": "(Voir également : 231. L'ami, section 1102)",
-                "content": []
+                "note": "(Voir également : 231. L'ami, section 1102)"
             },
             {
                 "title": "22 - L'affection envers les frères",
@@ -336,8 +315,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : L'amour d'un homme pour son frère fait partie de son amour pour sa religion.<sup>66</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "23 - Ce qui conforte l'affection",
@@ -349,8 +327,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Les frères ont besoin de trois choses entre eux. Ils doivent y avoir recours, sinon ils divergeront et se détesteront. Elles sont : se traiter avec équité, faire preuve de miséricorde entre eux, et bannir la jalousie.<sup>68</sup>"
                     }
                 ],
-                "note": "(Voir également : 22. La gaieté ; 84. L'amour, section 418)",
-                "content": []
+                "note": "(Voir également : 22. La gaieté ; 84. L'amour, section 418)"
             },
             {
                 "title": "24 - La fraternité pour Allah",
@@ -371,8 +348,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Chercher à fraterniser pour Allah produit la fraternité.<sup>73</sup>"
                     }
                 ],
-                "note": "(Voir également : 84. L'amour, section 433)",
-                "content": []
+                "note": "(Voir également : 84. L'amour, section 433)"
             },
             {
                 "title": "25 - Fraterniser pour ce bas-monde",
@@ -386,8 +362,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Celui qui t'aime pour une chose te tournera le dos dès qu'il l'aura obtenue.<sup>76</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "26 - Dire son affection à son frère",
@@ -399,8 +374,7 @@ const AUNE_SAGESSE = [
                         "source": "Biḥār al-Anwār :",
                         "text": "Un homme passa par la mosquée alors qu'Abū Ja'far (as) [l'Imām Bāqir] était assis en compagnie d'Abū 'Abdillāh [l'Imām Ṣādiq] (as). L'une des personnes présentes dit : «Par Allah, j'aime cet homme !» Abū Ja'far lui dit : «Alors dis-le lui, car cela maintient l'affection et renforce l'amitié.»<sup>78</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "27 - Le fait d'aimer son frère est une preuve qu'il nous aime",
@@ -415,8 +389,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Hādī (as) a dit : N'aspire pas à l'amitié sincère de celui pour qui tu n'as pas de sentiment sincère, et n'attends pas le bon conseil de celui dont tu doutes de la bonne intention, car le cœur [les sentiments] des autres est pour toi ce que ton propre cœur est pour eux.<sup>81</sup>"
                     }
                 ],
-                "note": "(Voir également : 84. L'amour, section 428)",
-                "content": []
+                "note": "(Voir également : 84. L'amour, section 428)"
             },
             {
                 "title": "28 - La rupture avec les frères",
@@ -431,8 +404,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui place son affection au mauvais endroit est susceptible de vivre la rupture.<sup>84</sup>"
                     }
                 ],
-                "note": "(Voir également : 390. La rupture)",
-                "content": []
+                "note": "(Voir également : 390. La rupture)"
             },
             {
                 "title": "29 - Le maintien de la fraternité",
@@ -443,8 +415,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām Ḥusayn (as) a dit : La personne qui maintient le mieux les liens est celle qui maintient des relations avec celui qui a rompu avec elle.<sup>86</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "30 - Les différents types de frères",
@@ -458,8 +429,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Les frères sont de trois sortes : celui qui t'aide par sa personne, celui qui t'aide par son argent - ce sont les frères sincères -, et un autre qui prend de toi ce dont il a besoin et qui te veut pour un moment de plaisir ; n'aie pas confiance en ce dernier.<sup>89</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "31 - L'interdiction de certaines fraternités",
@@ -480,8 +450,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Evite de fraterniser avec celui qui se rapproche de toi par intérêt, par peur, par profit ou pour manger et boire. Cherche la fraternité des pieux même si tu dois pour cela aller dans les ténèbres de la terre, et même si tu consacres ta vie à leur recherche.<sup>94</sup>"
                     }
                 ],
-                "note": "(Voir également : 231. L'ami, section 1103 ; 84. L'amour, section 419)",
-                "content": []
+                "note": "(Voir également : 231. L'ami, section 1103 ; 84. L'amour, section 419)"
             },
             {
                 "title": "32 - Préserver les anciennes fraternités",
@@ -492,8 +461,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Choisissez le récent pour toute chose, cependant, s'agissant des frères, choisissez les plus anciens.<sup>96</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "33 - La fraternité authentique",
@@ -504,8 +472,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Ton frère est celui qui ne t'abandonne pas dans l'adversité, qui ne t'ignore pas quand tu es en peine, et qui ne te trompe pas lorsque tu le consultes.<sup>98</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "34 - Le choix d'un frère",
@@ -516,8 +483,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui ne fraternise qu'avec celui qui n'a pas de défauts aura peu d'amis.<sup>100</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "35 - Tolérer le faux pas du frère",
@@ -532,8 +498,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Celui qui ne tolère pas les faux pas de son ami mourra seul.<sup>103</sup>"
                     }
                 ],
-                "note": "(Voir également : 206. La gestion)",
-                "content": []
+                "note": "(Voir également : 206. La gestion)"
             },
             {
                 "title": "36 - Les meilleurs frères",
@@ -563,8 +528,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Le plus aimé de mes frères est celui qui me présente [et me dit] mes défauts.<sup>111</sup>"
                     }
                 ],
-                "note": "(Voir également : 231. L'ami, section 1106)",
-                "content": []
+                "note": "(Voir également : 231. L'ami, section 1106)"
             },
             {
                 "title": "37 - Les pires frères",
@@ -575,8 +539,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "Lorsque l'on demanda à l'Imām 'Alī (as) : «Quel est le pire compagnon ?», il (as) répondit : «Celui qui embellit pour toi le fait de désobéir à Allah.»<sup>113</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "38 - Tester les frères",
@@ -590,8 +553,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Testez vos frères en ce qui concerne deux qualités. S'ils les ont, gardez-les, sinon fuyez, fuyez, fuyez : l'assiduité dans l'accomplissement des prières aux heures indiquées, et la bienfaisance envers les frères dans l'aisance ainsi que dans le dénuement.<sup>116</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "39 - Conseiller les frères",
@@ -606,8 +568,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui voit son ami dans une situation détestable et n'intervient pas pour l'en éloigner alors qu'il peut le faire l'aura trahi.<sup>119</sup>"
                     }
                 ],
-                "note": "(Voir également : 391. La guidance ; 374. Le conseil)",
-                "content": []
+                "note": "(Voir également : 391. La guidance ; 374. Le conseil)"
             },
             {
                 "title": "40 - Honorer les frères et les louer",
@@ -619,8 +580,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui reçoit son frère croyant et l'honore aura honoré Allah le Tout-Puissant.<sup>121</sup>"
                     }
                 ],
-                "note": "(Voir également : 282. La vénération)",
-                "content": []
+                "note": "(Voir également : 282. La vénération)"
             },
             {
                 "title": "41 - Satisfaire les besoins des frères",
@@ -638,8 +598,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Pour que l'homme dépende de son frère, il suffit qu'il le charge [de satisfaire] son besoin.<sup>125</sup>"
                     }
                 ],
-                "note": "(Voir également : 117. Le besoin, section 589; 181. La demande, section 911 ; 187. La joie, sections 935 et 938)",
-                "content": []
+                "note": "(Voir également : 117. Le besoin, section 589; 181. La demande, section 911 ; 187. La joie, sections 935 et 938)"
             },
             {
                 "title": "42 - Le bon comportement entre frères",
@@ -655,8 +614,7 @@ const AUNE_SAGESSE = [
                         "text": "Anas a dit : Lorsqu'il ne voyait pas l'un de ses frères pendant trois jours, le Messager d'Allah (s) avait pour habitude de demander de ses nouvelles. Si ce dernier était absent, il implorait Allah pour lui. S'il était présent, il lui rendait visite et s'il était malade, il allait à son chevet.<sup>128</sup>"
                     }
                 ],
-                "note": "(Voir également : 231. L'ami, section 1107)",
-                "content": []
+                "note": "(Voir également : 231. L'ami, section 1107)"
             }
         ]
     },
@@ -702,8 +660,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Nul ornement n'est comparable à la politesse.<sup>140</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "44 - La politesse et la raison",
@@ -723,8 +680,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām Ḥasan (as) a dit : Celui qui n'a pas de raison est dénué de politesse.<sup>145</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "45 - L'éducation de l'âme",
@@ -735,8 +691,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Celui qui instruit et éduque sa propre personne est plus digne d'être célébré que celui qui instruit et éduque les autres.<sup>147</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "46 - Les principes de la politesse",
@@ -755,8 +710,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Lorsque le savoir de l'homme augmente, sa politesse augmente aussi et la crainte qu'il éprouve pour Allah décuple.<sup>151</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "47 - Les effets de la politesse",
@@ -771,8 +725,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : La politesse aiguise l'intelligence.<sup>154</sup>"
                     }
                 ],
-                "note": "(Voir également : 63. L'expérience, section 329)",
-                "content": []
+                "note": "(Voir également : 63. L'expérience, section 329)"
             },
             {
                 "title": "48 - La signification de la politesse",
@@ -786,8 +739,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Mon père (as) a parfait mon éducation en me disant trois choses. [...] Il m'a dit : «Ô mon fils, sache que celui qui a de mauvaises fréquentations ne sera pas épargné, que celui qui ne restreint pas ses paroles le regrettera, et que celui qui se rend dans les endroits de débauche sera l'objet d'accusation.»<sup>157</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "49 - La meilleure des bonnes manières",
@@ -801,8 +753,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : La maîtrise de soi face au désir et à la peur est la meilleure des bonnes manières.<sup>160</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "50 - L'incitation à bien éduquer la famille",
@@ -820,8 +771,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Riḍā (as) a dit : Eduquez l'enfant à donner l'aumône (<i>ṣadaqa</i>) de sa propre main, même si ce n'est qu'un morceau de pain, une poignée [de nourriture] ou toute autre [petite] chose, car toute chose donnée pour Allah, même petite, est énorme si l'intention est sincère.<sup>165</sup>"
                     }
                 ],
-                "note": "(Voir également : 414. Le parent et l'enfant, section 1892 ; 234. L'enfance)",
-                "content": []
+                "note": "(Voir également : 414. Le parent et l'enfant, section 1892 ; 234. L'enfance)"
             },
             {
                 "title": "51 - La manière d'éduquer",
@@ -836,8 +786,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : On éduque le garçon au jeûne entre quinze et seize ans.<sup>168</sup>"
                     }
                 ],
-                "note": "(Voir également : 414. Le parent et l'enfant, section 1893)",
-                "content": []
+                "note": "(Voir également : 414. Le parent et l'enfant, section 1893)"
             },
             {
                 "title": "52 - Ce qu'il faut respecter dans l'éducation",
@@ -861,8 +810,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Kāẓim (as) a dit lorsque l'un de ses compagnons s'est plaint de son enfant : Ne le frappe pas mais ignore-le. Cependant, que cela ne dure pas trop longtemps.<sup>174</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "53 - S'éduquer par l'éducation d'Allah",
@@ -873,8 +821,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Celui qui ne se rééduque et ne se corrige pas selon [les principes] de l'éducation d'Allah ne réussira pas à se corriger par l'autodiscipline.<sup>176</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "54 - L'éducation d'Allah",
@@ -886,8 +833,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Ô Allah ! Ne m'éduque pas par Ta correction.<sup>178</sup>"
                     }
                 ],
-                "note": "(Voir également : 51. L'épreuve, section 267)",
-                "content": []
+                "note": "(Voir également : 51. L'épreuve, section 267)"
             }
         ]
     },
@@ -906,8 +852,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "Le Messager d'Allah (s) a dit : En vérité, les habitants des cieux n'entendent rien des habitants de la terre hormis l'appel à la prière.<sup>181</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "56 - Le muezzin",
@@ -918,8 +863,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Que le plus éloquent parmi vous fasse l'adhān et que le plus savant d'entre vous dirige la prière.<sup>183</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "57 - Réciter l'appel à la prière dans l'oreille",
@@ -930,8 +874,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Récitez l'adhān dans l'oreille de celui dont le caractère est devenu mauvais.<sup>186</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -948,8 +891,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui se retient de tourmenter les gens empêche une main malveillante de les atteindre, tandis que grâce à cela plusieurs mains malveillantes ne l'atteindront pas.<sup>188</sup>"
                     }
                 ],
-                "note": "(Voir également : 83. Le voisin, section 413)",
-                "content": []
+                "note": "(Voir également : 83. Le voisin, section 413)"
             },
             {
                 "title": "59 - Eviter de tourmenter quiconque même les petites fourmis",
@@ -957,8 +899,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Par Allah, les bienfaisants ont triomphé. Sais-tu qui ils sont ? Ce sont ceux qui ne tourmentent même pas les petites fourmis.<sup>189</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "60 - Tourmenter un croyant",
@@ -976,8 +917,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "Le Messager d'Allah (s) a dit : Le péché de celui qui attriste un croyant ne sera pas effacé même si par la suite il lui offre le monde entier, et son geste restera sans rétribution.<sup>194</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -993,8 +933,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Messager d'Allah (s) envoya 'Alī (as) pour propager [la sourate du] désaveu [la 9e du Coran], il le fit accompagner d'autres personnes, et le Messager d'Allah (s) dit : «Celui qui se constitue prisonnier sans être gravement blessé ne fait pas partie de nous.»<sup>196</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "62 - La bienfaisance envers le prisonnier",
@@ -1012,8 +951,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, 'Alī (as) nourrissait ceux qui étaient emprisonnés à vie en prélevant dans la trésorerie des musulmans.<sup>202</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -1029,8 +967,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Manger peu est un signe de retenue, manger profusément est un signe d'excès.<sup>204</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "64 - Mise en garde contre l'excès dans la nourriture",
@@ -1051,8 +988,7 @@ const AUNE_SAGESSE = [
                         "source": "Miṣbāḥ al-Sharī'a :",
                         "text": "Parmi les paroles qui lui sont attribuées, l'Imām al-Ṣādiq (as) a dit : Aucune chose ne ravage autant le cœur du croyant que l'excès de nourriture. Cela génère deux choses : la dureté du cœur et l'excitation des passions.<sup>209</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "65 - Parmi les vices de la gloutonnerie",
@@ -1069,8 +1005,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām 'Alī (as) a dit : Quel bon compagnon pour les actes de désobéissance est la satiété !<sup>213</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "66 - La faim",
@@ -1090,8 +1025,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Hādī (as) a dit : La veillée rend le sommeil plus agréable et la faim rend la nourriture plus savoureuse.<sup>218</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "67 - La mesure de la nourriture",
@@ -1102,8 +1036,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Riḍā (as) a dit : Que celui qui veut avoir un corps sain et mince réduise le repas du soir.<sup>220</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "68 - Le bon comportement pendant le repas",
@@ -1142,8 +1075,7 @@ const AUNE_SAGESSE = [
                         "source": "Al-Ikhtiṣāṣ :",
                         "text": "Prolongez vos tablées, car ce sont des moments de votre vie qui ne sont pas comptés.<sup>231</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -1160,8 +1092,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la vitesse à laquelle les cœurs des bienveillants se lient lorsqu'ils se rencontrent, même s'ils n'expriment pas leur affinité par la parole, est similaire à la vitesse à laquelle l'eau de pluie se mélange à l'eau des rivières. Par contre, la distance entre les cœurs des fourbes lorsqu'ils se rencontrent, même s'ils expriment de l'affinité par leurs paroles, est comme la distance entre le bétail qui ne peut partager de l'affection, même si ces bêtes ont partagé pendant longtemps la même mangeoire.<sup>235</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "70 - Nul bien en celui qui n'établit pas de liens d'affection et avec qui on n'établit pas de liens d'affection",
@@ -1172,8 +1103,7 @@ const AUNE_SAGESSE = [
                     {
                         "text": "Le Messager d'Allah (s) a dit : Le meilleur des croyants est celui avec qui les croyants établissent des liens d'affection. En revanche, il n'y a pas de bien chez une personne qui n'établit pas de liens d'affection et avec qui on n'établit pas de liens d'affection.<sup>237</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -1199,8 +1129,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Riḍā (as) a dit : En vérité, dans le nom d'Allah le Tout-Puissant repose l'attestation de Sa seigneurie et de Son unicité.<sup>242</sup>"
                     }
                 ],
-                "note": "(Voir également : 132. Le Créateur ; 202. Les Noms d'Allah)",
-                "content": []
+                "note": "(Voir également : 132. Le Créateur ; 202. Les Noms d'Allah)"
             }
         ]
     },
@@ -1238,8 +1167,7 @@ const AUNE_SAGESSE = [
                         "id": "228",
                         "text": "<i>Kanz al-'Ummāl</i> : Abū al-Bakhtarī a dit : Un homme entra dans la mosquée et dit : «Nulle autorité si ce n'est celle d'Allah.» Et un autre répéta : «Nulle autorité si ce n'est celle d'Allah.» 'Alī (as) dit alors : «[Certes,] nulle autorité si ce n'est celle d'Allah ; <i>«La promesse d'Allah est vérité. Et que ceux qui ne croient pas fermement ne t'ébranlent point.»</i><sup>249</sup> Ne savez-vous pas ce que ces gens disent ? Ils disent : «Nul gouvernement.» Ô gens ! Seul un gouverneur peut vous réformer, qu'il soit pieux ou immoral.» Ils dirent : «Pour ce qui est du pieux nous comprenons, mais qu'en est-il de l'immoral ?» Il (as) répondit : «[Sous son gouvernement,] le croyant œuvre, l'immoral profite et Allah fait parvenir les échéances décrétées à leur terme ; et vos chemins sont sécurisés, vos marchés fonctionnent, vos impôts légaux sont prélevés, vos ennemis sont combattus et le droit du faible est défendu face à l'oppresseur parmi vous.»<sup>250</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "73 - Le gouvernement des malfaisants",
@@ -1248,8 +1176,7 @@ const AUNE_SAGESSE = [
                         "id": "229",
                         "text": "Le Messager d'Allah (s) a dit : Lorsque vos gouverneurs sont les meilleurs parmi vous, que vos personnes les plus fortunées sont les plus généreuses, et que vos décisions se prennent par consultation, dans ce cas, être sur terre [c'est-à-dire vivre] sera préférable pour vous qu'être sous terre [c'est-à-dire au fait d'être mort]. En revanche, quand vos gouvernants sont les plus malfaisants parmi vous, que vos personnes les fortunées sont les plus avares [...], dans ce cas, être sous terre sera préférable pour vous qu'être sur terre.<sup>251</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "74 - La valeur du gouvernement",
@@ -1267,8 +1194,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a écrit dans sa lettre à Ibn 'Abbās : Enfin, il ne faudrait pas que ce qui te revient [comme résultat] de ta gouvernance soit une fortune dont tu tires un profit [personnel], ou une colère à laquelle tu te seras laissé aller. Il faut plutôt [que ce soit] la mise à mort de l'injustice, et la revivification de l'équité et la Vérité.<sup>254</sup>"
                     }
                 ],
-                "note": "(Voir également : 196. Le souverain)",
-                "content": []
+                "note": "(Voir également : 196. Le souverain)"
             }
         ]
     },
@@ -1290,8 +1216,7 @@ const AUNE_SAGESSE = [
                         "id": "235",
                         "text": "<i>Tanbīh al-Khawāṭir</i> : Alors que Jésus fils de Marie (as) était assis, [il vit] un vieillard qui retournait la terre avec une pelle. Jésus (as) dit : «Ô Allah, enlève-lui l'espoir.» L'homme posa sa pelle et s'allongea. Une heure passa, et Jésus dit : «Ô Allah, rends-lui l'espoir.» L'homme se leva et se remit au travail.<sup>257</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "76 - L'espoir ne cesse jamais",
@@ -1308,8 +1233,7 @@ const AUNE_SAGESSE = [
                         "id": "238",
                         "text": "L'Imām 'Alī (as) a dit : L'espoir ne cesse jamais.<sup>260</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "77 - Mise en garde contre les faux espoirs",
@@ -1347,8 +1271,7 @@ const AUNE_SAGESSE = [
                         "id": "246",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Combien de grâces d'Allah sont répandues sur Son serviteur alors qu'il ne les espérait pas, et combien de personnes espèrent une chose alors que le choix [d'Allah] est autre.<sup>269</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "78 - L'espoir et l'échéance de la vie",
@@ -1381,8 +1304,7 @@ const AUNE_SAGESSE = [
                         "id": "253",
                         "text": "L'Imām al-Kāẓim (as) a dit : Si les dates les échéances [c'est-à-dire les durées des vies] étaient connues, les espoirs seraient discrédités.<sup>276</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "79 - Les résultats des grands espoirs",
@@ -1399,8 +1321,7 @@ const AUNE_SAGESSE = [
                         "id": "256",
                         "text": "L'Imām 'Alī (as) a dit : En ce qui concerne les grands espoirs, ils font oublier l'Au-delà.<sup>279</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "80 - Les espoirs réduits",
@@ -1417,8 +1338,7 @@ const AUNE_SAGESSE = [
                         "id": "259",
                         "text": "L'Imām al-Bāqir (as) a dit : Equipe-toi pour la vie de ce monde en réduisant tes espoirs.<sup>282</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "81 - L'interdiction de fonder ses espoirs sur un autre qu'Allah",
@@ -1432,8 +1352,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Celui qui fonde ses espoirs sur un être humain le craindra.<sup>284</sup>"
                     }
                 ],
-                "note": "(Voir également : 413. La confiance en Allah, section 1878)",
-                "content": []
+                "note": "(Voir également : 413. La confiance en Allah, section 1878)"
             }
         ]
     },
@@ -1460,8 +1379,7 @@ const AUNE_SAGESSE = [
                         "id": "265",
                         "text": "Le Messager d'Allah (s) a dit : Annonce à cette communauté la bonne nouvelle de l'honneur, la religion, l'éminence, la victoire et le pouvoir sur terre.<sup>289</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "83 - Les meilleurs de la communauté musulmane",
@@ -1478,8 +1396,7 @@ const AUNE_SAGESSE = [
                         "id": "268",
                         "text": "Le Messager d'Allah (s) a dit : Les meilleures personnes de ma communauté sont celles qui, lorsqu'elles subissent une impudence, supportent ; lorsqu'on leur fait du mal, pardonnent; et lorsqu'elles sont offensées, patientent.<sup>292</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "84 - La communauté du juste milieu",
@@ -1489,8 +1406,7 @@ const AUNE_SAGESSE = [
                         "id": "269",
                         "text": "L'Imām 'Alī (as) a dit : Nous sommes les témoins d'Allah face à Ses créatures, Sa preuve sur Sa terre ; nous sommes ceux à propos de qui Allah dit : <i>«C'est ainsi que Nous avons fait de vous une communauté du juste milieu.»</i>.<sup>294</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "85 - Ce qui suscite le bien de la communauté musulmane",
@@ -1503,8 +1419,7 @@ const AUNE_SAGESSE = [
                         "id": "271",
                         "text": "Le Messager d'Allah (s) a dit : Cette communauté demeurera sous la main et la protection d'Allah tant que les récitateurs ne courtiseront pas les souverains, que les savants ne disculperont pas les dépravés, et que les bons ne s'associeront pas aux méchants. En revanche, s'ils venaient à le faire, Allah lèvera d'eux Sa main et fera régner leurs oppresseurs sur eux.<sup>296</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "86 - Le statut de la communauté musulmane dans l'Au-delà",
@@ -1517,8 +1432,7 @@ const AUNE_SAGESSE = [
                         "id": "273",
                         "text": "Le Messager d'Allah (s) a dit : Au paradis, il y aura cent vingt rangs et ma communauté occupera quatre-vingts rangs.<sup>298</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "87 - Ce qui enlève la splendeur de la communauté musulmane",
@@ -1532,8 +1446,7 @@ const AUNE_SAGESSE = [
                         "text": "Le Messager d'Allah (s) a dit : Lorsque ma communauté magnifiera la vie de ce bas-monde, Allah ôtera d'elle la grandeur et l'éclat de l'islam.<sup>300</sup>"
                     }
                 ],
-                "note": "(Voir également : 69. Le groupe ; 130. La divergence)",
-                "content": []
+                "note": "(Voir également : 69. Le groupe ; 130. La divergence)"
             },
             {
                 "title": "88 - Ce que le Prophète (s) craint pour sa communauté",
@@ -1570,8 +1483,7 @@ const AUNE_SAGESSE = [
                         "id": "283",
                         "text": "Le Messager d'Allah (s) a dit : Ce que je crains de pire pour ma communauté est l'éclat de ce bas-monde et la profusion de ses biens.<sup>308</sup>"
                     }
-                ],
-                "content": []
+                ]
             }
         ]
     },
@@ -1607,8 +1519,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Riḍā (as) a dit : En vérité, l'Imāmat est les rênes de la religion, le système des musulmans, la réforme et la prospérité de la vie terrestre, et l'honneur des croyants.<sup>317</sup>"
                     }
                 ],
-                "note": "(Voir également : 233. Le chemin, section 1119)",
-                "content": []
+                "note": "(Voir également : 233. Le chemin, section 1119)"
             },
             {
                 "title": "90 - La supériorité de l'Imāmat vis-à-vis de la prophétie",
@@ -1618,8 +1529,7 @@ const AUNE_SAGESSE = [
                         "id": "290",
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Béni et le Très-Haut a fait d'Ibrāhīm un serviteur avant de faire de lui un prophète. Ensuite, Allah a fait de lui un prophète avant de faire de lui un messager ; puis Allah a fait de lui un messager avant de faire de lui un ami intime, et Allah a fait de lui un ami intime avant de faire de lui un Imām. Ainsi, lorsqu'Il eût réuni en lui tous ces rangs, Il dit : <i>«Je vais faire de toi un Imām pour les gens.»</i><sup>319</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "91 - La nécessité d'un Imām",
@@ -1632,8 +1542,7 @@ const AUNE_SAGESSE = [
                         "id": "292",
                         "text": "L'Imām al-Ṣādiq (as) a dit : La terre n'est jamais dépourvue d'Imām. Ainsi, il réfute les croyants s'ils venaient à rajouter quelque chose [à la religion], et il complète s'ils venaient à en oublier quelque chose.<sup>321</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "92 - La Preuve (al-ḥujjat) est un Imām connu",
@@ -1642,8 +1551,7 @@ const AUNE_SAGESSE = [
                         "id": "293",
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la preuve (<i>al-Ḥujjat</i>, l'autorité) d'Allah le Tout-Puissant auprès de Sa création n'est établie que par le biais d'un Imām afin qu'Il soit connu.<sup>322</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "93 - L'Imām peut être apeuré et caché",
@@ -1656,8 +1564,7 @@ const AUNE_SAGESSE = [
                         "id": "295",
                         "text": "L'Imām al-Bāqir (as) a dit : La terre ne pourrait demeurer [existante] sans la présence d'un Imām visible ou occulté.<sup>324</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "94 - Sans la présence de l'Imām, la terre serait engloutie",
@@ -1671,8 +1578,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la terre ne saurait être sans la présence d'une Preuve [autorité], car seule une Preuve peut réformer les gens et seule une Preuve peut réformer la terre.<sup>326</sup>"
                     }
                 ],
-                "note": "(Voir également : 88. L'argument)",
-                "content": []
+                "note": "(Voir également : 88. L'argument)"
             },
             {
                 "title": "95 - L'appel de chaque nation par son chef (Imām)",
@@ -1682,8 +1588,7 @@ const AUNE_SAGESSE = [
                         "id": "298",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Le Jour du Jugement, [...] un appel venant d'Allah le Tout-Puissant se fera entendre : «Que celui qui a suivi un Imām dans ce bas-monde le suive et aille là où va son Imām», et alors <i>«les meneurs désavoueront les suiveurs...»</i><sup>328</sup>.<sup>329</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "96 - L'importance de la connaissance de l'Imām",
@@ -1712,8 +1617,7 @@ const AUNE_SAGESSE = [
                         "id": "304",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui nous méconnaît mais ne nous rejette pas est égaré jusqu'à ce qu'il revienne à la guidance qu'Allah lui a prescrite, et qui consiste en notre obéissance obligatoire. Toutefois, Allah le jugera selon Sa bonne volonté s'il meurt en étant égaré.<sup>337</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "97 - Les conditions de l'Imāmat et les caractéristiques de l'Imām",
@@ -1755,8 +1659,7 @@ const AUNE_SAGESSE = [
                         "id": "313",
                         "text": "L'Imām al-Riḍā (as) a dit en décrivant l'Imām : Il doit être capable de diriger et être éclairé dans la politique.<sup>348</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "98 - Ce qui a été ordonné aux Imāms justes",
@@ -1769,8 +1672,7 @@ const AUNE_SAGESSE = [
                         "id": "315",
                         "text": "L'Imām 'Alī (as) a dit : L'Imām n'a d'autre obligation que [d'appliquer] ce dont le Seigneur l'a chargé : la transmission d'exhortation, l'effort pour prodiguer de [bons] conseils, raviver la <i>sunna</i>, appliquer les lois divines face à ceux qui le méritent, et faire parvenir à chacun la part [du trésor public] qui lui revient.<sup>350</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "99 - Les droits et devoirs réciproques entre l'Imām et la communauté",
@@ -1783,8 +1685,7 @@ const AUNE_SAGESSE = [
                         "id": "317",
                         "text": "L'Imām 'Alī (as) a dit : Ainsi, il est du devoir du gouverneur de ne pas changer son comportement vis-à-vis de ses sujets lorsqu'une grâce l'atteint ou lorsqu'il bénéficie d'une richesse. Il faut que les grâces dont Allah l'a comblé le rapprochent de ses serviteurs et le rendent compatissant envers ses frères. Parmi mes devoirs envers vous figure celui que je ne vous cache rien si ce n'est en temps de guerre, que je n'agisse pas sans vous consulter sauf en ce qui concerne les commandements [de la religion], que je vous donne ce qui vous revient sans retard et sans m'arrêter avant de l'avoir complètement accompli, et que je vous considère comme égaux en droits. Si je m'astreins à cela, les bienfaits d'Allah vous seront indubitablement accordés et vous me devrez obéissance.<sup>352</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "100 - Vos Imāms sont vos délégués",
@@ -1797,8 +1698,7 @@ const AUNE_SAGESSE = [
                         "id": "319",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, vos Imāms sont vos guides vers Allah ; dès lors, considérez [attentivement] qui vous suivez dans votre religion et vos prières.<sup>354</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "101 - Celui qui accepte la gouvernance d'un Imam illégitime",
@@ -1815,8 +1715,7 @@ const AUNE_SAGESSE = [
                         "id": "322",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Les bonnes actions des fidèles qui se sont alliés à un Imām illégitime non désigné par Allah le Très-Haut ne seront pas acceptées.<sup>357</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "102 - Les dirigeants de l'Enfer",
@@ -1826,8 +1725,7 @@ const AUNE_SAGESSE = [
                         "id": "323",
                         "text": "L'Imām 'Alī (as) a dit : En vérité, la pire personne auprès d'Allah est un dirigeant (<i>imām</i>) injuste qui est égaré et qui égare, car il abroge la tradition (<i>sunna</i>) appliquée et ravive l'hérésie abandonnée. J'ai entendu le Messager d'Allah (s) dire : «Le Jour de la Résurrection, l'Imām injuste sera amené seul, sans allié et sans excuse. Il sera jeté dans le feu de l'Enfer, y tournera tel un moulin, puis demeurera en son fond.»<sup>359</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "103 - Les faux prétendants à l'Imāmat",
@@ -1840,8 +1738,7 @@ const AUNE_SAGESSE = [
                         "id": "325",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui a prétendu à l'Imāmat sans en avoir la légitimité est un mécréant.<sup>362</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "104 - Nulle obéissance à celui qui n'obéit pas à Allah",
@@ -1859,8 +1756,7 @@ const AUNE_SAGESSE = [
                         "id": "328",
                         "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) a un jour levé une armée en mettant à sa tête un homme. Il ordonna aux soldats de l'écouter et de lui obéir. Ce dernier alluma un feu et demanda à ses subordonnés de se précipiter dedans. Une partie d'entre eux refusa et dit : «Nous voulions justement éviter le feu.» Un autre groupe accepta d'y aller. Quand ce récit parvint au Prophète (s), il dit [au sujet de ceux qui avaient refusé de se jeter dans le feu] : «S'ils y étaient allés, ils y seraient restés définitivement.» Il ajouta : «Il ne faut pas obéir [à celui qui appelle à] la désobéissance à Allah ; en vérité, l'obéissance doit être [lorsque l'on appelle] au bien.»<sup>366</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "105 - L'obligation de se révolter contre les dirigeants tyranniques",
@@ -1869,8 +1765,7 @@ const AUNE_SAGESSE = [
                         "id": "329",
                         "text": "<i>Al-Durr al-Manthūr</i> : Le Messager d'Allah (s) a dit : La meule de l'islam viendra bientôt à tourner ; là où ira le Coran suivez-le, car viendra une époque où le gouverneur et le Coran se combattront et se sépareront. Vous serez gouvernés par des rois qui vous dirigeront d'une certaine manière et appliqueront d'autres lois pour eux-mêmes. Si vous leur obéissez, ils vous égareront et si vous leur désobéissez, ils vous tueront. Quelqu'un demanda : «Ô Messager d'Allah ! Comment devrons-nous agir si nous assistons à cela ?» Il (s) répondit : «[Agissez] comme les apôtres de Jésus, qui furent découpés avec la scie et portés sur des croix. La mort en état d'obéissance [à Allah] est meilleure que la vie dans la désobéissance.»<sup>367</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
                 "title": "106 - Ce qui autorise à ne pas se révolter",
@@ -1883,40 +1778,31 @@ const AUNE_SAGESSE = [
                         "id": "331",
                         "text": "<i>Al-Kāfī</i> : L'Imām al-Ṣādiq (as) a dit à Sadīr : «Par Allah, ô Sadīr, si j'avais des partisans au nombre de ces chevreaux, j'aurais été incapable de rester assis [de ne pas me révolter].» [Sadīr rapporte :] Nous avons mis pied à terre et prié. Après notre prière, je me suis dirigé vers les chevreaux et je les ai comptés : il y en avait [seulement] dix-sept.<sup>369</sup>"
                     }
-                ],
-                "content": []
+                ]
             },
             {
-                "title": "107 - L'élection de l'Imām",
-                "content": []
+                "title": "107 - L'élection de l'Imām"
             },
             {
-                "title": "108 - Le ḥadīth des deux trésors (thaqalayn)",
-                "content": []
+                "title": "108 - Le ḥadīth des deux trésors (thaqalayn)"
             },
             {
-                "title": "109 - L'obligation de rester aux côtés des Gens de la demeure prophétique (as)",
-                "content": []
+                "title": "109 - L'obligation de rester aux côtés des Gens de la demeure prophétique (as)"
             },
             {
-                "title": "110 - La raison de l'oppression contre les Gens de la demeure prophétique (as)",
-                "content": []
+                "title": "110 - La raison de l'oppression contre les Gens de la demeure prophétique (as)"
             },
             {
-                "title": "111 - La philosophie du gouvernement selon les Gens de la demeure prophétique (as)",
-                "content": []
+                "title": "111 - La philosophie du gouvernement selon les Gens de la demeure prophétique (as)"
             },
             {
-                "title": "112 - Si ce n'était la crainte de la dissension",
-                "content": []
+                "title": "112 - Si ce n'était la crainte de la dissension"
             },
             {
-                "title": "113 - Les douze Imāms (as)",
-                "content": []
+                "title": "113 - Les douze Imāms (as)"
             },
             {
-                "title": "114 - Le savoir de l'Imām (as)",
-                "content": []
+                "title": "114 - Le savoir de l'Imām (as)"
             }
         ]
     },
@@ -1924,56 +1810,43 @@ const AUNE_SAGESSE = [
         "title": "17 - L'IMĀMAT (2) - L'IMĀMAT PARTICULIER : L'IMĀM 'ALĪ IBN ABĪ ṬĀLIB (AS)",
         "subparts": [
             {
-                "title": "115 - L'Amour pour l'Imām 'Alī (as) et sa haine",
-                "content": []
+                "title": "115 - L'Amour pour l'Imām 'Alī (as) et sa haine"
             },
             {
-                "title": "116 - 'Alī (as) est l'Imām des vertueux",
-                "content": []
+                "title": "116 - 'Alī (as) est l'Imām des vertueux"
             },
             {
-                "title": "117 - 'Alī (as) est le successeur du Prophète (s)",
-                "content": []
+                "title": "117 - 'Alī (as) est le successeur du Prophète (s)"
             },
             {
-                "title": "118 - 'Alī (as) est le maître de tout croyant",
-                "content": []
+                "title": "118 - 'Alī (as) est le maître de tout croyant"
             },
             {
-                "title": "119 - 'Alī (as) est avec la vérité et le Coran",
-                "content": []
+                "title": "119 - 'Alī (as) est avec la vérité et le Coran"
             },
             {
-                "title": "120 - 'Alī (as) est la porte du savoir du Prophète (s)",
-                "content": []
+                "title": "120 - 'Alī (as) est la porte du savoir du Prophète (s)"
             },
             {
-                "title": "121 - 'Alī (as) et le Prophète (s) sont issus d'un arbre unique",
-                "content": []
+                "title": "121 - 'Alī (as) et le Prophète (s) sont issus d'un arbre unique"
             },
             {
-                "title": "122 - Divers",
-                "content": []
+                "title": "122 - Divers"
             },
             {
-                "title": "123 - Le savoir de l'Imām 'Alī (as)",
-                "content": []
+                "title": "123 - Le savoir de l'Imām 'Alī (as)"
             },
             {
-                "title": "124 - L'injustice envers l'Imām 'Alī (as)",
-                "content": []
+                "title": "124 - L'injustice envers l'Imām 'Alī (as)"
             },
             {
-                "title": "125 - Ce qui commence par «En vérité, je suis»...",
-                "content": []
+                "title": "125 - Ce qui commence par «En vérité, je suis»..."
             },
             {
-                "title": "126 - Ce qui commence par «je»...",
-                "content": []
+                "title": "126 - Ce qui commence par «je»..."
             },
             {
-                "title": "127 - Divers",
-                "content": []
+                "title": "127 - Divers"
             }
         ]
     },
@@ -1981,24 +1854,19 @@ const AUNE_SAGESSE = [
         "title": "18 - FĀṬIMA (AS), LA MÈRE DES IMĀMS",
         "subparts": [
             {
-                "title": "128 - Les noms de Fāṭima (as)",
-                "content": []
+                "title": "128 - Les noms de Fāṭima (as)"
             },
             {
-                "title": "129 - Fāṭima (as) est une partie du Prophète (s)",
-                "content": []
+                "title": "129 - Fāṭima (as) est une partie du Prophète (s)"
             },
             {
-                "title": "130 - Fāṭima (as) est la maîtresse des femmes des deux mondes",
-                "content": []
+                "title": "130 - Fāṭima (as) est la maîtresse des femmes des deux mondes"
             },
             {
-                "title": "131 - La colère de d'Allah suscitée par la colère de Fāṭima (as)",
-                "content": []
+                "title": "131 - La colère de d'Allah suscitée par la colère de Fāṭima (as)"
             },
             {
-                "title": "132 - Le deuil de Fāṭima (as)",
-                "content": []
+                "title": "132 - Le deuil de Fāṭima (as)"
             }
         ]
     },
@@ -2006,12 +1874,11 @@ const AUNE_SAGESSE = [
         "title": "19 - L'IMĀM AL-ḤASAN IBN 'ALĪ (AS)",
         "subparts": [
             {
-                "title": "133 - Sa désignation en tant qu'Imām",
-                "content": []
+                "title": "133 - Sa désignation en tant qu'Imām"
             },
             {
                 "title": "134 - Ḥasan est de moi et je suis de lui",
-                "content": [
+                "hadiths": [
                     {
                         "number": "421",
                         "text": "Le Messager d'Allah (s) a dit : Ô Allah, je l'aime, alors Toi aussi aime-le et aime ceux qui l'aiment.<span class=\"footnote-ref\">466</span>"
@@ -2020,7 +1887,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "135 - Ses vertus",
-                "content": [
+                "hadiths": [
                     {
                         "number": "422",
                         "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, Ḥasan ibn 'Alī ibn Abī Ṭālib (as) était le plus dévots des gens de son époque, le plus renonçant [à la vie de ce monde], et le meilleur parmi eux. Lorsqu'il accomplissait son pèlerinage [à La Mecque] (<em>ḥajj</em>), il s'y rendait à pied, et parfois même pieds nus. Lorsque la mort était évoquée, il pleurait. Lorsque la tombe était évoquée, il pleurait. Lorsque la Résurrection et le Jour du Jugement dernier étaient évoqués, il pleurait. Lorsque le pont <em>ṣirāṭ</em> était évoqué, il pleurait. Lorsque le passage devant Allah le Très-Haut était évoqué, il hoquetait en étant secoué de sanglots jusqu'à en perdre connaissance. Quand il se levait pour prier, tous ses membres tremblaient en présence de son Seigneur - loué et exalté soit-Il. Lorsque le Paradis ou l'Enfer étaient évoqués, il était pris d'une forte agitation comme s'il avait été piqué par un serpent. Il demandait alors à Allah le Très-Haut de lui accorder le Paradis, et se réfugiait auprès de Lui de l'Enfer.<span class=\"footnote-ref\">467</span>"
@@ -2036,8 +1903,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Subpart 3",
-                "content": []
+                "title": "Subpart 3"
             }
         ]
     },
@@ -2046,7 +1912,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "136 - La naissance de Ḥusayn (as)",
-                "content": [
+                "hadiths": [
                     {
                         "number": "425",
                         "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Lorsque Ḥusayn (as) vint au monde, Allah révéla à l'Archange Gabriel (as) : «Un enfant vient de naître chez Muḥammad. Descends, félicite-le et dis-lui : «En vérité, 'Alī est vis-à-vis de toi dans la même position que le fut Hārūn pour Moïse, appelle-le donc par le nom du fils de Hārūn».» Gabriel (as) descendit, adressa ses félicitations de la part d'Allah le Très-Haut, et dit : «En vérité, Allah le Tout-Puissant t'ordonne de le nommer par le nom du fils de Hārūn.» Il (s) dit : «Quel était son nom ?» L'Archange répondit : «Shubayr.» Le Prophète (s) dit : «Mais ma langue est l'arabe.» L'Archange dit : «Appelle-le Ḥusayn<span class=\"footnote-ref\">470</span>.»<span class=\"footnote-ref\">471</span>"
@@ -2055,7 +1921,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "137 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "426",
                         "text": "Fāṭima (as) a dit : Lorsque le Messager d'Allah est venu me voir après la naissance de Ḥusayn (as), je lui ai mis l'enfant dans les bras enveloppé dans un tissu jaune. Il (s) l'enleva et prit un tissu blanc pour l'en envelopper. Il dit ensuite : «Prends-le, ô Fāṭima ; en vérité, il est Imām fils d'Imām. Il sera le père des neuf Imāms; de ses lombes seront issus des Imāms pieux, et le neuvième d'entre eux sera le Qā'im [le sauveur attendu de l'humanité].»<span class=\"footnote-ref\">472</span>"
@@ -2068,7 +1934,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "138 - Ḥusayn est de moi et je suis de lui",
-                "content": [
+                "hadiths": [
                     {
                         "number": "428",
                         "text": "Le Messager d'Allah (s) a dit : Concernant Ḥusayn, il est de moi, il est mon fils et ma descendance, la meilleure des créatures après son frère. Il est l'Imām des musulmans, le maître des croyants, le lieu-tenant (<em>khalīfa</em>) du Seigneur des mondes, l'aide de ceux qui demandent de l'aide, le refuge de ceux qui cherchent refuge, la preuve d'Allah sur l'ensemble de Sa création. Il est le maître des jeunes gens du Paradis et la porte du salut de la communauté des croyants. Son autorité est mon autorité, lui obéir est m'obéir. Celui qui le suit fait partie des miens, et celui qui lui désobéit ne fait pas partie des miens.<span class=\"footnote-ref\">475</span>"
@@ -2089,7 +1955,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "139 - Ses vertus",
-                "content": [
+                "hadiths": [
                     {
                         "number": "432",
                         "text": "Le Messager d'Allah (s) a dit : Que celui qui souhaite voir la plus aimée des personnes sur terre auprès des gens des cieux, regarde Ḥusayn.<span class=\"footnote-ref\">479</span>"
@@ -2131,7 +1997,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "140 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "440",
                         "text": "L'Imām al-Bāqir (as) a dit : En vérité, lorsque le moment de la mort de Ḥusayn ibn 'Alī (as) approcha, il fit appeler l'aînée de ses filles Fāṭima fille de Ḥusayn et lui confia un feuillet enroulé, testament clair et manifeste. Et 'Alī ibn Ḥusayn (as) était avec eux mais avait de fortes douleurs au ventre pour des raisons que l'on ignorait. Fāṭima remit le feuillet à 'Alī ibn Ḥusayn (as) et ensuite, par Allah, ce feuillet nous est parvenu... Par Allah, il contient tout ce dont l'humanité a besoin depuis qu'Allah a créé Adam jusqu'à la fin du monde.<span class=\"footnote-ref\">487</span>"
@@ -2140,7 +2006,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "141 - Le rang de l'Imām Zayn al-'Ābidīn (as)",
-                "content": [
+                "hadiths": [
                     {
                         "number": "441",
                         "text": "Le Messager d'Allah (s) a dit : Le jour du Jugement, un appel sera lancé : «Où est Zayn al-'Ābidīn [l'ornement des serviteurs de Dieu] ?» Et c'est comme si je voyais mon fils 'Alī fils de Ḥusayn fils de 'Alī ibn Abī Ṭālib surgir d'entre les rangs.<span class=\"footnote-ref\">488</span>"
@@ -2172,8 +2038,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Subpart 2",
-                "content": []
+                "title": "Subpart 2"
             }
         ]
     },
@@ -2182,7 +2047,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "142 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "448",
                         "text": "<em>Kifāyat al-Athār</em> : Mālik ibn A'yun al-Jahnī a dit : 'Alī ibn Ḥusayn (as) a dit dans son testament à son fils Muḥammad ibn 'Alī (que les salutations d'Allah soient sur eux) : «Ô mon fils, je fais de toi mon successeur (<em>khalīfatī</em>) après moi; personne ne revendiquera ce qu'il y a entre toi et moi [cette succession] sans qu'Allah ne lui mette un collier de feu le Jour du jugement.»<span class=\"footnote-ref\">498</span>"
@@ -2191,7 +2056,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "143 - Il est celui qui tranche le savoir de manière acérée",
-                "content": [
+                "hadiths": [
                     {
                         "number": "449",
                         "text": "Le Messager d'Allah (s) a dit en s'adressant à Jābir ibn 'Abdullāh al-Anṣārī : Tu verras bientôt un homme de ma famille ; son nom sera mon nom, ses traits de caractères seront semblables aux miens et il tranchera le savoir de manière acérée.<span class=\"footnote-ref\">499</span>"
@@ -2204,7 +2069,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "144 - Ses mérites",
-                "content": [
+                "hadiths": [
                     {
                         "number": "451",
                         "text": "Le Messager d'Allah (s) a dit à Jābir : Ô Jābir ! Il naîtra de mon fils Ḥusayn un enfant qui s'appellera 'Alī. Lorsqu'adviendra le Jour du Jugement, cet appel sera lancé : «Que le maître des serviteurs [de Dieu] se lève !» Et 'Alī ibn Ḥusayn se lèvera. Puis de 'Alī naîtra un enfant qui s'appellera Muḥammad. Ô Jābir, lorsque tu le verras, transmets-lui mes salutations, et sache que tu ne vivras pas longtemps après l'avoir vu.<span class=\"footnote-ref\">501</span>"
@@ -2230,7 +2095,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "145 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "455",
                         "text": "<em>Biḥār al-Anwār</em> : Hammām ibn Nāfi' a dit: Abū Ja'far (as) dit un jour en s'adressant à ses compagnons : «Si vous me perdez, suivez celui-ci; il est l'Imām et mon successeur.» Et il désigna Abū 'Abdullāh [al-Ṣādiq] (as).<span class=\"footnote-ref\">505</span>"
@@ -2243,7 +2108,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "146 - Son comportement et son caractère noble",
-                "content": [
+                "hadiths": [
                     {
                         "number": "457",
                         "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Ziyād al-Azdī a dit : J'ai entendu Mālik ibn Anas, le juriste médinois, dire : «J'avais l'habitude d'aller voir Ja'far ibn Muḥammad al-Ṣādiq (as). Il me proposait un coussin, faisait preuve de respect envers moi et disait : «Ô Mālik, j'ai de l'affection pour toi.» J'étais heureux en entendant cela et rendais grâce à Allah.» [Mālik continua] : «Il (as) était toujours dans l'un de ces trois états : en train de jeûner, de prier, ou de pratiquer le rappel d'Allah (<em>dhikr</em>). Il était l'un des plus éminents dévots et serviteurs [d'Allah], le plus grand des ascètes habités par la crainte révérencielle d'Allah le Tout-Puissant. Il narrait un grand nombre de traditions, était sociable et d'agréable compagnie, et il avait de nombreux bénéfices [pour nous].»<span class=\"footnote-ref\">507</span>"
@@ -2263,8 +2128,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Subpart 2",
-                "content": []
+                "title": "Subpart 2"
             }
         ]
     },
@@ -2273,7 +2137,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "147 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "461",
                         "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ṣafwān al-Jammāl a dit : J'ai interrogé Abū 'Abdillāh (as) au sujet du détenteur de cette position [l'Imāmat]. Il m'a répondu : «Le détenteur de cette position ne joue pas et n'est pas distrait.» Mūsā ibn Ja'far, alors encore enfant, arriva à ce moment-là avec un chevreau mecquois à qui il disait : «Prosterne-toi devant ton Seigneur !» Abū 'Abdillāh le prit, le serra dans ses bras et dit : «Par mon père et ma mère, il ne joue pas et n'est pas distrait [il ne fait aucun acte vain et suscitant l'oubli de l'Au-delà].»<span class=\"footnote-ref\">512</span>"
@@ -2282,7 +2146,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "148 - L'Imām en Prison",
-                "content": [
+                "hadiths": [
                     {
                         "number": "462",
                         "text": "Al-Thawbānī a dit : Pendant environ dix années, Abū al-Ḥasan Mūsā ibn Ja'far (as) effectuait [chaque jour] une prosternation qui durait du lever du soleil jusqu'à midi. [Il continua] : Hārūn montait parfois sur une terrasse qui surplombait la prison dans laquelle était emprisonné Abū al-Ḥasan (as). Il voyait alors Abū al-Ḥasan en état de prosternation. Il demanda à Rabī' : «Quel est donc ce vêtement que j'aperçois chaque jour à cet endroit ?» Rabī' dit : «Ô Emir des croyants ! Ce n'est pas un vêtement, mais Mūsā ibn Ja'far (as). Il effectue chaque jour une prosternation du lever du soleil jusqu'à midi.» Hārūn dit alors : «En effet, c'est bien l'homme religieux des fils de Hāshim.» Je lui dis : «Alors pourquoi l'as-tu confiné à la captivité ?» Il répondit : «Hélas ! Il doit en être ainsi.»<span class=\"footnote-ref\">513</span>"
@@ -2295,7 +2159,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "149 - Ses vertus",
-                "content": [
+                "hadiths": [
                     {
                         "number": "464",
                         "text": "<em>Al-Irshād</em> : Il a été rapporté qu'Al-Kāẓim invoquait beaucoup Allah et disait alors : «Ô Allah ! Je Te demande l'aisance lors de la mort et le pardon lors des comptes», et il répétait cette phrase plusieurs fois. Et parmi ses invocations [figurait également] : «Le péché de Ton serviteur est grand, que Ton pardon soit à sa mesure». Il pleurait abondamment par crainte d'Allah jusqu'à ce que sa barbe soit imbibée de larmes. Il était le plus assidu dans le maintien des relations avec sa famille et ses proches. La nuit, il partait à la recherche des pauvres de Médine. Il leur portait alors [un panier] rempli de dirhams, de dinars, de farine et de dattes et les leur faisait parvenir sans qu'ils sachent de qui cela provenait.<span class=\"footnote-ref\">515</span>"
@@ -2313,7 +2177,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "150 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "466",
                         "text": "'Abd al-Raḥmān ibn al-Ḥajjāj a dit : Abū al-Ḥasan Mūsā ibn Ja'far [al-Kāẓim] (as) a désigné son fils 'Alī (as) comme son exécuteur testamentaire, et il a écrit cela dans une lettre pour lui au sujet de laquelle ont témoigné soixante hommes renommés de Médine.<span class=\"footnote-ref\">517</span>"
@@ -2322,7 +2186,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "151 - La contrainte de l'Imām à la succession au califat",
-                "content": [
+                "hadiths": [
                     {
                         "number": "467",
                         "text": "Abū al-Ṣalt al-Harawī a dit : En vérité, Ma'mūn a dit à Al-Riḍā (as) : «Ô fils du Messager d'Allah... En vérité, je trouve qu'il vaut mieux que je renonce au califat, que je te le confie et que je te porte allégeance !» Al-Riḍā (as) lui répondit : «Si ce califat t'appartient et qu'Allah te l'a confié, alors il ne t'est pas permis de te dépouiller d'un vêtement dont Allah t'a revêtu et de le confier à un autre que toi. Et si le califat ne t'appartient pas, alors [dès le départ] il ne t'est pas permis de me confier ce qui ne t'appartient pas.» Ma'mūn lui dit alors : «Ô fils du Messager d'Allah, tu es obligé d'accepter ce statut !» L'Imām (as) dit : «Je ne ferai jamais cela de mon propre gré... Car par cela [en acceptant le califat], tu souhaites que les gens disent : «'Alī ibn Mūsā al-Riḍā n'a pas renoncé à cette vie terrestre [de par sa quête du pouvoir], mais c'est plutôt cette vie terrestre qui a renoncé à lui ! Ne voyez-vous pas comment il a accepté la succession de par sa convoitise du califat ?»» Ma'mūn se mit en colère et dit : «Je jure sur Allah que si tu n'acceptes pas la position de successeur au califat, je t'y obligerai. Tu ferais mieux de l'accepter, sinon je te trancherai la gorge.»<span class=\"footnote-ref\">518</span>"
@@ -2331,7 +2195,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "152 - Ses vertus",
-                "content": [
+                "hadiths": [
                     {
                         "number": "468",
                         "text": "Al-Harawī a dit : Je vins à la porte de la cellule où Al-Riḍā (as) était emprisonné et enchaîné à Sarkhas. Je demandai alors au gardien de prison la permission [de lui rendre visite], mais il dit : «Vous ne pourrez pas le voir.» Je lui demandai : «Pourquoi ?» Il répondit : «Parce qu'il prie parfois jusqu'à mille <em>raka'āt</em> en l'espace d'un jour et d'une nuit. Il ne s'arrête de prier durant un moment qu'au point du jour, avant midi, et avant le coucher du soleil. Durant ces moments, il s'assied à son lieu de prière et s'entretient de manière intime avec son Seigneur.» Je lui dis : «Dans ce cas, demande-lui la permission [que je lui rende visite] à ces moments-là.» Il demanda la permission pour moi. J'entrai alors qu'il était assis à son lieu de prière en état de méditation.»<span class=\"footnote-ref\">519</span>"
@@ -2349,7 +2213,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "153 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "470",
                         "text": "Lorsque 'Abdullāh Ibn Mas'ūd l'interrogea au sujet des Imāms descendant de Ḥusayn (as), le Messager d'Allah (s) dit : «... Et sortira des lombes de 'Alī [al-Riḍā] son enfant Muḥammad, le loué, la plus pure des personnes de par sa création et la meilleure d'entre elles de par son caractère.»<span class=\"footnote-ref\">521</span>"
@@ -2362,7 +2226,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "154 - Ses vertus",
-                "content": [
+                "hadiths": [
                     {
                         "number": "472",
                         "text": "Yaḥyā al-Ṣan'ānī a dit : J'ai rendu visite à Abū al-Ḥasan al-Riḍā (as) alors qu'il séjournait à La Mecque. Je l'ai vu occupé à éplucher une banane et à la donner à son fils Abū Ja'far. Je lui ai demandé : «Que je te sois sacrifié, s'agit-il du nouveau-né béni ?» Il dit : «Oui, ô Yaḥyā ! C'est lui le nouveau-né ; il ne naîtra pas en islam d'enfant plus béni que lui pour nos partisans (<em>shī'a</em>).»<span class=\"footnote-ref\">523</span>"
@@ -2388,7 +2252,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "155 - Sa désignation en tant qu'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "476",
                         "text": "L'Imām al-Jawād (as) a dit : En vérité, l'Imām après moi est mon fils 'Alī. Son ordre est mon ordre, sa parole est ma parole, son obéissance est mon obéissance et après lui, l'Imāmat reviendra à son fils Ḥasan.<span class=\"footnote-ref\">530</span>"
@@ -2397,7 +2261,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "156 - Ses vertus",
-                "content": [
+                "hadiths": [
                     {
                         "number": "477",
                         "text": "<em>Biḥār al-Anwār</em> : Ḥasan ibn Muḥammad Jumhūr al-'Amī rapporte dans le livre <em>Al-Wāḥida</em>: Mon frère Ḥusayn ibn Muḥammad m'a rapporté: J'avais un ami qui enseignait aux enfants de Baghā ou de Waṣīf<span class=\"footnote-ref\">531</span> - le doute est de moi. Il me dit : Alors qu'il retournait au palais du calife, le gouverneur me dit : «Aujourd'hui, le prince des croyants [le calife de l'époque] a emprisonné celui que l'on appelle Ibn al-Riḍā [fils de Ridā], et il l'a livré à 'Alī ibn Karkar. Je l'ai alors entendu dire: «Je suis plus cher auprès d'Allah que la chamelle de Ṣāliḥ, alors <em>«Jouissez [de vos biens] dans vos demeures pendant [encore] trois jours ! Voici une promesse qui ne sera pas démentie.»</em><span class=\"footnote-ref\">532</span> Je n'ai pas bien compris ce qu'il a voulu dire par ce verset.» Je dis au prince : «Qu'Allah vous honore, il vous a menacé. Regardez ce qui va se passer dans trois jours.» Le lendemain, le calife le libéra et lui présenta ses excuses. Le troisième jour, il fut attaqué par Yāghiz, Yaghlūn et Tāmish, ainsi qu'un groupe de gens. Ils l'assassinèrent et installèrent à sa place son fils al-Muntaṣir.<span class=\"footnote-ref\">533</span>"
@@ -2415,7 +2279,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "La signification du nom du Mahdī",
-                "content": [
+                "hadiths": [
                     {
                         "number": "479",
                         "text": "L'Imām al-Hādī (as) a dit : L'Imām après moi sera Ḥasan, et après Ḥasan, son fils al-Qā'im [littéralement : celui qui se dressera], qui remplira la terre d'équité et de justice tout comme elle fut remplie de tyrannie et d'injustice.<span class=\"footnote-ref\">535</span>"
@@ -2424,7 +2288,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La nécessité de l'Imām",
-                "content": [
+                "hadiths": [
                     {
                         "number": "480",
                         "text": "<em>Biḥār al-Anwār</em> : Les 'Abbāssides rendirent visite à Ṣāliḥ ibn Waṣīf, tandis que Ṣāliḥ ibn 'Alī ainsi qu'un groupe de dévoyés<span class=\"footnote-ref\">536</span> de ce lieu vinrent également lui rendre visite alors que Abū Muḥammad [l'Imām al-'Askarī] (as) était dans la prison. Il lui dit : «Enferme-le de la façon la plus stricte et ne lui donne aucun confort.» Ṣāliḥ leur dit : «Que puis-je faire de lui, alors que je l'ai livré à deux des plus méchants hommes que j'ai pu trouver, et qu'ils sont devenus les plus dévoués dans la piété et la prière [sous l'influence de l'Imām] ?!»<span class=\"footnote-ref\">537</span>"
@@ -2436,52 +2300,40 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La bonne nouvelle du Mahdī ('aj)",
-                "content": []
+                "title": "La bonne nouvelle du Mahdī ('aj)"
             },
             {
-                "title": "Les deux occultations de l'Imām al-Qā'im ('aj)",
-                "content": []
+                "title": "Les deux occultations de l'Imām al-Qā'im ('aj)"
             },
             {
-                "title": "La difficulté d'adhérer à la religion durant l'occultation",
-                "content": []
+                "title": "La difficulté d'adhérer à la religion durant l'occultation"
             },
             {
-                "title": "L'invocation durant l'occultation du Qā'im ('aj)",
-                "content": []
+                "title": "L'invocation durant l'occultation du Qā'im ('aj)"
             },
             {
-                "title": "L'attente active de la délivrance",
-                "content": []
+                "title": "L'attente active de la délivrance"
             },
             {
-                "title": "La réapparition du Qā'im ('aj) après le désespoir des gens",
-                "content": []
+                "title": "La réapparition du Qā'im ('aj) après le désespoir des gens"
             },
             {
-                "title": "Ceux qui prédisent le moment mentent",
-                "content": []
+                "title": "Ceux qui prédisent le moment mentent"
             },
             {
-                "title": "La raison de l'occultation",
-                "content": []
+                "title": "La raison de l'occultation"
             },
             {
-                "title": "Les personnes bénéficiant de l'Imām durant son occultation",
-                "content": []
+                "title": "Les personnes bénéficiant de l'Imām durant son occultation"
             },
             {
-                "title": "Les partisans du Qā'im",
-                "content": []
+                "title": "Les partisans du Qā'im"
             },
             {
-                "title": "Durant l'apparition",
-                "content": []
+                "title": "Durant l'apparition"
             },
             {
-                "title": "Le monde après la réapparition du Mahdī ('aj)",
-                "content": []
+                "title": "Le monde après la réapparition du Mahdī ('aj)"
             }
         ]
     },
@@ -2490,7 +2342,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "La foi et l'islam",
-                "content": [
+                "hadiths": [
                     {
                         "number": "482",
                         "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole du Très-Haut : <em>«Quiconque est tué injustement, alors Nous avons donné pouvoir à son proche [parent]. Que celui-ci ne commette pas d'excès dans le meurtre, car il est déjà aidé [manṣūr]»</em><span class=\"footnote-ref\">539</span> : Allah a nommé le Mahdī «Celui qui est aidé [par Allah]» [<em>al-Manṣūr</em>], tout comme Il a appelé [le Prophète (s)] «Aḥmad», «Muḥammad» et «Maḥmūd», et tout comme il a appelé Jésus «le Messie».<span class=\"footnote-ref\">540</span>"
@@ -2503,7 +2355,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La réalité de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "484",
                         "text": "Lorsqu'il fut interrogé au sujet de la Preuve [d'Allah] (<em>al-Ḥujjat</em>) et de l'Imām après lui, l'Imām al-'Askarī (as) répondit : Mon fils Muḥammad sera l'Imām et la Preuve après moi. Celui qui meurt sans l'avoir reconnu [comme Imām] mourra de la mort des ignorants. Sachez qu'il entrera dans une occultation au sujet de laquelle les ignorants seront déroutés et les négateurs perdus. Les personnes qui détermineront le moment [de sa réapparition] mentiront. Puis il sortira, et c'est comme si je voyais [à une époque future] des étendards blancs qui flottent au-dessus de sa tête à Najaf, [près de] Kūfa.<span class=\"footnote-ref\">542</span>"
@@ -2513,7 +2365,7 @@ const AUNE_SAGESSE = [
             {
                 "title": "La relation entre la foi et les actes",
                 "note": "(Voir également : 290. Les actes)",
-                "content": [
+                "hadiths": [
                     {
                         "number": "485",
                         "text": "Le Messager d'Allah (s) a dit : Réjouis-toi, ô Fāṭima, car en vérité, le Mahdī sera de toi [de ta descendance].<span class=\"footnote-ref\">543</span>"
@@ -2542,7 +2394,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La foi et les péchés",
-                "content": [
+                "hadiths": [
                     {
                         "number": "491",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im aura deux occultations, l'une sera longue et l'autre sera courte. Durant la première, un cercle restreint de ses partisans saura où il se trouve et lors de la seconde, personne ne saura où il se trouve sauf ses partisans élus le suivant dans sa religion.<span class=\"footnote-ref\">550</span><br><br><span class=\"reference-note\">(Voir également : 87. Le pèlerinage obligatoire (hajj), section 455)</span>"
@@ -2551,7 +2403,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Ce qui permet d'accomplir la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "492",
                         "text": "Le Messager d'Allah (s) a dit : Je jure par Celui qui m'a envoyé par la Vérité comme annonciateur de la bonne nouvelle, qu'en vérité, ceux qui croient avec constance en son Imāmat lors de son occultation seront plus chers que ne l'est le soufre rouge.<span class=\"footnote-ref\">551</span>"
@@ -2566,7 +2418,7 @@ const AUNE_SAGESSE = [
                 "title": "L'augmentation de la foi",
                 "introduction": "«<i>Et quand Ses versets leur sont récités, cela fait augmenter leur foi.</i>»<sup>612</sup>",
                 "note": "(Voir également : Coran 2:260, 18:13-14, 33:22, 48:4, 58:22)",
-                "content": [
+                "hadiths": [
                     {
                         "number": "494",
                         "text": "<em>Biḥār al-Anwār</em> : 'Abdullāh ibn Sinān a dit : Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) a dit : «Vous serez atteints par la confusion qui vous laissera sans signe indiquant [une solution] et sans dirigeant qui vous guide. Ne sera sauvé que celui qui récite l'invocation du noyé.» Je lui demandai alors : «Quelle est l'invocation du noyé ?» Il répondit : «Tu dis : «Ô Allah ! Ô Très Miséricordieux ! Ô Tout Miséricordieux ! Ô Celui qui retourne les cœurs ! Affermis mon cœur dans Ta religion».» Je dis : «Ô Celui qui retourne les cœurs et les regards ! Affermis mon cœur dans Ta religion.» Il me dit : «En vérité, Allah le Tout-Puissant est Celui qui retourne les cœurs et les regards, mais dis [exactement] ce que je dis : «Ô Celui qui retourne les cœurs, affermis mon cœur dans Ta religion».»<span class=\"footnote-ref\">553</span>"
@@ -2575,7 +2427,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "165 - L'attente [active] de la délivrance",
-                "content": [
+                "hadiths": [
                     {
                         "number": "495",
                         "text": "Le Messager d'Allah (s) a dit : Le meilleur des actes de ma communauté est l'attente [active] de la délivrance d'Allah le Tout-Puissant.<span class=\"footnote-ref\">554</span>"
@@ -2596,7 +2448,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "166 - La réapparition du Qā'im ('aj) après le désespoir des gens",
-                "content": [
+                "hadiths": [
                     {
                         "number": "499",
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, cet ordre [le gouvernement du Mahdī] ne surviendra qu'après votre désespoir ; non par Allah ! Afin que vous vous soyez distingués les uns des autres [les sincères des autres].<span class=\"footnote-ref\">558</span>"
@@ -2609,7 +2461,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "167 - Ceux qui prédisent le moment [de la réapparition du Qā'im] mentent",
-                "content": [
+                "hadiths": [
                     {
                         "number": "501",
                         "text": "L'Imām al-Bāqir (as), répondant à Fuḍayl qui lui avait demandé «Est-ce que le moment de cet évènement [la réapparition du Mahdī] est déterminé ?», dit : «Ceux qui prédisent le moment [de la réapparition du Qā'im] mentent, ceux qui prédisent le moment mentent, ceux qui prédisent le moment mentent.»<span class=\"footnote-ref\">560</span>"
@@ -2618,7 +2470,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "168 - La raison de l'occultation",
-                "content": [
+                "hadiths": [
                     {
                         "number": "502",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Le Messager d'Allah (s) a dit : «L'occultation sera nécessaire pour cet homme [le Mahdī].» On lui demanda alors : «Pour quelle raison, ô Messager d'Allah ?» Il répondit : «Par crainte d'être tué.»<span class=\"footnote-ref\">561</span>"
@@ -2643,7 +2495,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "169 - Les personnes bénéficiant de l'Imām durant son occultation",
-                "content": [
+                "hadiths": [
                     {
                         "number": "507",
                         "text": "L'Imām al-Mahdī ('aj) a dit : La façon de bénéficier de ma présence durant mon occultation est similaire au fait de bénéficier du soleil lorsqu'il est caché des regards par les nuages. Je suis une [source de] sécurité pour les gens de la terre.<span class=\"footnote-ref\">566</span>"
@@ -2652,7 +2504,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "170 - Les signes de la réapparition",
-                "content": [
+                "hadiths": [
                     {
                         "number": "508",
                         "text": "L'Imām 'Alī (as) a dit : Lorsque le prédicateur mourra et que le maître de l'époque déviera, lorsque les cœurs à la fois pleins et vides balanceront, lorsque ceux qui espèrent périront et que ceux qui sont destinés à disparaître disparaîtront, les croyants demeureront. Infime sera leur nombre, trois cents ou un peu plus. A leur côté combattra un groupe qui a combattu avec le Messager d'Allah (s) le jour de Badr, sans être tué ni mourir.<span class=\"footnote-ref\">567</span>"
@@ -2669,7 +2521,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "171 - Durant l'apparition",
-                "content": [
+                "hadiths": [
                     {
                         "number": "511",
                         "text": "L'Imām 'Alī (as) a dit : Lorsque qu'un appel du ciel sera lancé disant que «En vérité, la vérité est parmi la famille [la descendance] de Muḥammad», alors le Mahdī ('aj) apparaîtra sur la langue des gens, ils boiront son affection et ne parleront que de lui.<span class=\"footnote-ref\">571</span>"
@@ -2698,7 +2550,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "172 - Le monde après la réapparition du Mahdī ('aj)",
-                "content": [
+                "hadiths": [
                     {
                         "number": "517",
                         "text": "Le Messager d'Allah (s) a dit : Le Mahdī ('aj) réapparaîtra parmi les derniers de ma communauté. Allah l'abreuvera de pluie, de la terre sortiront des végétaux, la richesse sera donnée de façon abondante, le bétail augmentera et la communauté s'agrandira.<span class=\"footnote-ref\">577</span>"
@@ -2720,7 +2572,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "173 - La foi et l'islam",
-                "content": [
+                "hadiths": [
                     {
                         "number": "520",
                         "text": "L'Imām al-Bāqir (as) a dit : La foi est le fait d'attester<span class=\"footnote-ref\">581</span> et d'agir, alors que l'islam est le fait d'attester sans acte.<span class=\"footnote-ref\">582</span>"
@@ -2733,7 +2585,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "174 - La réalité de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "522",
                         "text": "Le Messager d'Allah (s) a dit : La foi n'est pas dans l'embellissement et les souhaits que l'on formule ; la foi est plutôt ce qui est pur [et sincère] dans le cœur, et est attesté par les actes.<sup>584</sup>"
@@ -2782,7 +2634,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "175 - La relation entre la foi et les actes",
-                "content": [
+                "hadiths": [
                     {
                         "number": "533",
                         "text": "Le Messager d'Allah (s) a dit : La foi et les actes sont deux frères associés par un seul lien. Allah n'agrée pas l'un sans l'autre.<sup>595</sup>"
@@ -2803,7 +2655,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "176 - La foi et les péchés",
-                "content": [
+                "hadiths": [
                     {
                         "number": "537",
                         "text": "Le Messager d'Allah (s) a dit : Aucun péché ne peut faire sortir le croyant de sa foi, tout comme aucun acte de bienfaisance ne peut faire sortir l'incroyant de sa mécréance.<sup>601</sup>"
@@ -2825,7 +2677,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "177 - Ce qui permet d'accomplir la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "541",
                         "text": "Le Messager d'Allah (s) a dit : Trois qualités, lorsqu'elles sont présentes dans un individu, permettent l'accomplissement de sa foi : un homme qui, pour Allah, ne craint pas le reproche d'une personne qui lui en adresse, celui qui ne tire pas vanité de ses actes, et celui qui, lorsqu'il a le choix entre deux choses dont l'une est pour ce monde et l'autre pour l'Au-delà, choisit celle pour l'Au-delà au détriment de ce monde.<sup>605</sup>"
@@ -2858,7 +2710,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "178 - L'augmentation de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "548",
                         "text": "L'Imām 'Alī (as) a dit : En vérité, la foi apparaît comme un point blanc dans le cœur. Au fur et à mesure que la foi augmente, le blanc s'étend et lorsque la foi est accomplie, tout le cœur devient blanc.<sup>613</sup>"
@@ -2866,12 +2718,11 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "179 - Les degrés de la foi",
-                "content": []
+                "title": "179 - Les degrés de la foi"
             },
             {
                 "title": "180 - Les piliers de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "555",
                         "text": "Le Messager d'Allah (s) a dit : La foi consiste en dix choses : la connaissance, l'obéissance [à Allah], le savoir, l'acte, la dévotion, l'assiduité, la patience, la certitude, le contentement et la soumission [à Allah]. S'il manque l'une d'entre elles à une personne, la structure de sa foi se désintégrera.<sup>620</sup>"
@@ -2888,7 +2739,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "181 - Les anses les plus solides de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "558",
                         "text": "Le Messager d'Allah (s) a dit : Les anses les plus solides de la foi sont d'accepter la tutelle de Allah, ainsi que d'aimer pour Allah et de haïr pour Allah.<sup>623</sup>"
@@ -2901,7 +2752,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "182 - La foi enracinée et passagère",
-                "content": [
+                "hadiths": [
                     {
                         "number": "560",
                         "text": "L'Imām 'Alī (as) a dit : Une partie de la foi s'enracine fermement dans le cœur tandis qu'une autre partie reste temporairement entre les cœurs et les poitrines jusqu'à un terme défini.<sup>625</sup>"
@@ -2910,7 +2761,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "183 - Ce qui consolide la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "561",
                         "text": "Lorsqu'il fut interrogé au sujet de ce qui pouvait consolider la foi du serviteur, l'Imām al-Ṣādiq (as) répondit: Ce qui la consolide en lui est la piété, et ce qui fait sortir [de la foi] est la cupidité.<sup>626</sup>"
@@ -2923,7 +2774,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "184 - Le goût de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "563",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui possède ces trois qualités savourera le goût de la foi : aimer Allah et Son Messager plus que toute chose, préférer être brûlé par le feu plutôt que de renoncer à sa religion, ainsi qu'aimer pour Allah et détester pour Allah.<sup>628</sup>"
@@ -2944,7 +2795,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "185 - L'incapacité de savourer la douceur de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "567",
                         "text": "Le Messager d'Allah (s) a dit : La douceur de la foi sera ôtée du cœur de celui dont le plus grand souci est d'assouvir ses penchants personnels.<sup>632</sup>"
@@ -2957,7 +2808,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "186 - Ce qui fait sortir la personne de la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "569",
                         "text": "Le Messager d'Allah (s) a dit : Le plus bas degré de la mécréance est lorsque l'homme entend une parole sur son frère et la mémorise pour le déshonorer ; ceux-là n'ont aucune valeur.<sup>634</sup>"
@@ -2970,7 +2821,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "187 - Ce qui est incompatible avec la foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "571",
                         "text": "Le Messager d'Allah (s) a dit : Deux caractéristiques ne se trouvent jamais chez un croyant : l'avarice et le pessimisme au sujet des moyens de subsistance.<sup>636</sup>"
@@ -2991,7 +2842,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "188 - Le haut statut du croyant",
-                "content": [
+                "hadiths": [
                     {
                         "number": "575",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Allah - glorifiée soit Sa louange - a dit : Par Ma force et Ma gloire, Je n'ai créé aucune créature plus aimée de Moi que Mon serviteur croyant.<sup>640</sup>"
@@ -3008,7 +2859,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "189 - Les croyants sont comme un seul corps",
-                "content": [
+                "hadiths": [
                     {
                         "number": "578",
                         "text": "Le Messager d'Allah (s) a dit : Dans leur amour mutuel, leur affection et leur compassion les uns envers les autres, les croyants sont comme un seul corps ; lorsqu'un organe de ce corps souffre, l'ensemble des organes est gagné par l'insomnie et la fièvre.<sup>643</sup>"
@@ -3021,7 +2872,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "190 - Qui est le croyant ?",
-                "content": [
+                "hadiths": [
                     {
                         "number": "580",
                         "text": "Le Messager d'Allah (s) a dit : Le croyant est gentil et simple, à tel point que sa simplicité pourrait faire croire qu'il est simple d'esprit.<sup>646</sup>"
@@ -3094,7 +2945,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "191 - La solidité du croyant",
-                "content": [
+                "hadiths": [
                     {
                         "number": "597",
                         "text": "L'Imām al-Bāqir (as) a dit : Le croyant est plus solide qu'une montagne, car la montagne peut s'effriter, alors que le croyant ne perd rien de sa religion.<span class=\"footnote-ref\">663</span>"
@@ -3107,7 +2958,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "192 - La lumière du croyant",
-                "content": [
+                "hadiths": [
                     {
                         "number": "599",
                         "text": "Le Messager d'Allah (s) a dit : Le Jour du Jugement, l'Enfer dira au croyant : «Traverse, ô croyant, car ta lumière a éteint mes flammes !»<span class=\"footnote-ref\">665</span>"
@@ -3120,7 +2971,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "193 - La rareté des [vrais] croyants",
-                "content": [
+                "hadiths": [
                     {
                         "number": "601",
                         "text": "L'Imām 'Alī (as) a dit : Allah ne laisse jamais Sa terre dépourvue d'une personne savante dont a besoin l'ensemble de la création, et qui connaît bien la voie du salut. Le nombre de ces [gens] est très faible, et Allah a exposé cela parmi les communautés des prophètes [précédents], et Il en a fait des exemples pour celles qui leur succèdent, comme lorsqu'Il a dit au sujet de la communauté de Noé : <em>«N'a cru en lui qu'un nombre infime»</em><span class=\"footnote-ref\">667</span>.<span class=\"footnote-ref\">668</span>"
@@ -3133,7 +2984,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "194 - Les signes distinctifs du croyant",
-                "content": [
+                "hadiths": [
                     {
                         "number": "603",
                         "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Les signes distinctifs du croyant sont au nombre de cinq : la piété [même] dans la solitude, la charité dans le besoin, la patience dans le malheur, l'indulgence dans la colère, et la véracité malgré la peur.<span class=\"footnote-ref\">670</span>"
@@ -3146,7 +2997,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "195 - Le meilleur des croyants",
-                "content": [
+                "hadiths": [
                     {
                         "number": "605",
                         "text": "L'Imām 'Alī (as) a dit : Le meilleur des croyants est celui qui donne le plus de sa personne, de sa famille et de ses biens [pour Allah].<span class=\"footnote-ref\">672</span>"
@@ -3159,7 +3010,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "196 - Le mérite de celui qui croit au Prophète (s) sans l'avoir vu",
-                "content": [
+                "hadiths": [
                     {
                         "number": "607",
                         "text": "Le Messager d'Allah (s) a dit : La foi de ceux qui m'ont vu n'est pas surprenante, mais ce qui est véritablement surprenant sont les gens qui ont vu des feuillets [écrits à l'encre] noire [c'est-à-dire le Coran] et qui ont cru en lui du début à la fin.<span class=\"footnote-ref\">674</span>"
@@ -3177,7 +3028,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "197 - La nécessité de respecter la confiance",
-                "content": [
+                "hadiths": [
                     {
                         "intro": "<em>«Et qui veillent à la sauvegarde des dépôts qui leur sont confiés, et honorent leurs engagements.»</em><span class=\"footnote-ref\">676</span>",
                         "number": "609",
@@ -3191,7 +3042,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "198 - Le caractère inconditionnel de l'obligation de respecter la confiance accordée",
-                "content": [
+                "hadiths": [
                     {
                         "number": "611",
                         "text": "L'Imām 'Alī (as) a dit : Ne trahis pas celui qui t'a fait confiance même s'il te trahit, et ne divulgue pas son secret même s'il divulgue le tien.<span class=\"footnote-ref\">679</span>"
@@ -3204,7 +3055,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "199 - Celui qui n'est pas digne de confiance est dénué de foi",
-                "content": [
+                "hadiths": [
                     {
                         "number": "613",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Restituez le dépôt [à son propriétaire], même s'il appartient à l'assassin de Ḥusayn ibn 'Alī (as).<span class=\"footnote-ref\">681</span>"
@@ -3221,7 +3072,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "200 - Les conséquences de la confiance dans la préservation des dépôts",
-                "content": [
+                "hadiths": [
                     {
                         "number": "616",
                         "text": "Luqmān (as) a dit : Ô mon fils ! Restitue le dépôt [à son propriétaire] et tu seras sauvé dans ce monde et dans l'Au-delà ; sois digne de confiance [dans la préservation des dépôts], et tu seras riche.<span class=\"footnote-ref\">684</span>"
@@ -3242,7 +3093,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "201 - Ceux à qui il est interdit de faire confiance",
-                "content": [
+                "hadiths": [
                     {
                         "number": "620",
                         "text": "Le Messager d'Allah (s) a dit : Allah ne sera pas le garant de celui qui fait confiance à une personne qui n'est pas digne de confiance, car Il a interdit de faire confiance à une telle personne.<span class=\"footnote-ref\">688</span>"
@@ -3264,7 +3115,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "202 - La nécessité de respecter la sûreté",
-                "content": [
+                "hadiths": [
                     {
                         "number": "623",
                         "text": "Le Messager d'Allah (s) a dit : Si un homme te fait confiance [concernant le fait que tu vas épargner] sa vie, ne le tue pas.<span class=\"footnote-ref\">691</span>"
@@ -3277,7 +3128,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "203 - La fidélité aux pactes de sûreté",
-                "content": [
+                "hadiths": [
                     {
                         "number": "625",
                         "text": "L'Imām 'Alī (as) a dit : Adhérez aux pactes de sûreté [auxquels vous vous êtes astreints] en toute fermeté.<span class=\"footnote-ref\">693</span>"
@@ -3290,7 +3141,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "204 - Le respect des pactes de sûreté",
-                "content": [
+                "hadiths": [
                     {
                         "number": "627",
                         "text": "Le Messager d'Allah (s) a dit : Ma communauté peut garantir la sûreté de ceux qui vivent sous elle [c'est-à-dire les non musulmans vivant en terre musulmane<span class=\"footnote-ref\">695</span>].<span class=\"footnote-ref\">696</span>"
@@ -3308,7 +3159,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "205 - Ce vis-à-vis de quoi il faut se familiariser",
-                "content": [
+                "hadiths": [
                     {
                         "number": "629",
                         "text": "L'Imām 'Alī (as) a dit : Ne laisse que la vérité être ton réconfort, et seul le faux devrait te délaisser.<span class=\"footnote-ref\">698</span>"
@@ -3329,7 +3180,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "206 - Ce vis-à-vis de quoi il faut éviter de se familiariser",
-                "content": [
+                "hadiths": [
                     {
                         "number": "633",
                         "text": "L'Imām 'Alī (as) a dit : L'ignorant craint ce qui est familier au sage.<span class=\"footnote-ref\">702</span>"
@@ -3342,7 +3193,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "207 - Ce qui suscite la familiarité d'Allah",
-                "content": [
+                "hadiths": [
                     {
                         "number": "635",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui sort de l'humiliation de la désobéissance pour aller vers la dignité de l'obéissance, Allah le Tout-Puissant lui accordera Sa familiarité sans besoin de proche ami, et Il l'élèvera sans besoin de richesse.<span class=\"footnote-ref\">704</span>"
@@ -3360,7 +3211,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "208 - La dignité et l'honneur des enfants d'Adam",
-                "content": [
+                "hadiths": [
                     {
                         "intro": "<em>«Certes, Nous avons honoré les fils d'Adam. Nous les avons transportés sur terre et sur mer, Nous leur avons procuré de bonnes choses comme nourriture, et Nous les avons nettement préférés à beaucoup de Nos créatures.»</em><span class=\"footnote-ref\">706</span>",
                         "number": "637",
@@ -3378,7 +3229,8 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La raison de la création de l'homme",
-                "content": [
+                "introduction": "«<i>Je n'ai créé les djinns et les hommes que pour qu'ils M'adorent.</i>»<sup>710</sup><br><br>«<i>Et si ton Seigneur l'avait voulu, Il aurait fait des gens une seule communauté. Or, ils ne cessent d'être en désaccord [entre eux], à l'exception de ceux auxquels ton Seigneur a accordé miséricorde. C'est pour cela qu'Il les a créés.</i>»<sup>711</sup>",
+                "hadiths": [
                     {
                         "number": "640",
                         "text": "L'Imām 'Alī (as) a dit : La crainte d'Allah vous a été ordonnée, et c'est pour la bienfaisance et l'obéissance [à Allah] que vous avez été créés.<sup>712</sup>"
@@ -3395,22 +3247,21 @@ const AUNE_SAGESSE = [
                         "number": "643",
                         "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole Divine : «<i>Or, ils ne cessent d'être en désaccord [entre eux], à l'exception de ceux auxquels ton Seigneur a accordé miséricorde, c'est pour cela qu'Il les a créés.</i>»<sup>715</sup> : Il les a créés pour qu'ils agissent de manière à mériter Sa miséricorde, afin qu'Il leur accorde Sa Miséricorde.<sup>716</sup>"
                     }
-                ],
-                "introduction": "«<i>Je n'ai créé les djinns et les hommes que pour qu'ils M'adorent.</i>»<sup>710</sup><br><br>«<i>Et si ton Seigneur l'avait voulu, Il aurait fait des gens une seule communauté. Or, ils ne cessent d'être en désaccord [entre eux], à l'exception de ceux auxquels ton Seigneur a accordé miséricorde. C'est pour cela qu'Il les a créés.</i>»<sup>711</sup>"
+                ]
             },
             {
                 "title": "La faiblesse de l'homme",
-                "content": [
+                "introduction": "«<i>L'homme a été créé faible.</i>»<sup>717</sup>",
+                "hadiths": [
                     {
                         "number": "644",
                         "text": "L'Imām 'Alī (as) a dit : Pauvre fils d'Adam ! Le terme [de sa vie] est caché, ses maladies sont invisibles, ses actes sont consignés. Un moustique le fait souffrir, il peut mourir d'une suffocation, et peut sentir mauvais à cause d'une sueur.<sup>718</sup>"
                     }
-                ],
-                "introduction": "«<i>L'homme a été créé faible.</i>»<sup>717</sup>"
+                ]
             },
             {
                 "title": "Mesurer la valeur de l'être humain",
-                "content": [
+                "hadiths": [
                     {
                         "number": "645",
                         "text": "L'Imām 'Alī (as) a dit : [La valeur de] l'homme est [mesurée à l'aune] de ses deux plus petits organes : son cœur et sa langue. Quand il combat, qu'il combatte avec un cœur ferme et lorsqu'il parle, qu'il parle avec éloquence.<sup>719</sup>"
@@ -3424,7 +3275,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "212 - Chaque chose comporte un fléau",
-                "content": [
+                "hadiths": [
                     {
                         "number": "646",
                         "text": "Le Messager d'Allah (s) a dit : Le fléau de l'humour est l'absence de honte ; le fléau du courage est l'agressivité ; le fléau de la générosité est de mentionner et de faire sentir ses largesses aux autres ; le fléau de la beauté est l'arrogance ; le fléau de l'adoration est de se trouver en suspens ; le fléau de la parole est le mensonge ; le fléau de la connaissance est l'oubli ; le fléau de la sagesse est la bêtise ; le fléau de la bonne lignée est la fierté ; et le fléau de la libéralité est le gaspillage.<sup>720</sup>"
@@ -3581,12 +3432,11 @@ const AUNE_SAGESSE = [
         "title": "36 - L'AVARICE",
         "subparts": [
             {
-                "title": "213 - Mise en garde contre l'avarice",
-                "content": []
+                "title": "213 - Mise en garde contre l'avarice"
             },
             {
                 "title": "214 - L'explication de l'avarice",
-                "content": [
+                "hadiths": [
                     {
                         "number": "719",
                         "text": "L'Imām al-Ṣādiq (as) a dit : L'avarice empreinte d'avidité est pire que l'avarice, car l'avare l'est concernant ses propres biens, tandis que l'avare avide convoite également ce que les autres possèdent en plus de ce qu'il a lui-même, de telle sorte qu'il ne peut voir quelque chose dans les mains des gens sans espérer se l'accaparer de façon licite ou illicite. Il n'est jamais rassasié et ne profite pas de ce qu'Allah lui a accordé.<sup>795</sup>"
@@ -3595,7 +3445,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "L'avare",
-                "content": [
+                "hadiths": [
                     {
                         "number": "720",
                         "text": "Le Messager d'Allah (s) a dit : Le moins serein parmi les gens est l'avare.<sup>796</sup>"
@@ -3628,7 +3478,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Le véritable avare",
-                "content": [
+                "hadiths": [
                     {
                         "number": "727",
                         "text": "Le Messager d'Allah (s) a dit : Le véritable avare est celui qui refuse de prélever l'aumône légale sur ses biens et refuse de dépenser pour les besoins de sa communauté, alors qu'en dehors de cela il est prodigue et dépense abondamment.<sup>803</sup>"
@@ -3641,7 +3491,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La plus avare des personnes",
-                "content": [
+                "hadiths": [
                     {
                         "number": "729",
                         "text": "Le Messager d'Allah (s) a dit : La plus avare des personnes est celle qui fait preuve d'avarice dans ce qu'Allah lui a ordonné de donner [l'aumône].<sup>805</sup>"
@@ -3666,7 +3516,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Le signe de l'avarice",
-                "content": [
+                "hadiths": [
                     {
                         "number": "734",
                         "text": "L'Imām 'Alī (as) a dit : Se justifier de façon abondante [pour ne pas donner] est un signe d'avarice.<sup>810</sup>"
@@ -3684,7 +3534,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "Mise en garde contre l'innovation",
-                "content": [
+                "hadiths": [
                     {
                         "number": "736",
                         "text": "Le Messager d'Allah (s) a dit : Les pires des choses sont les innovations [en matière de religion]. Certes, toute innovation [en matière de religion] est un égarement, et tout égarement mène à l'Enfer.<sup>813</sup>"
@@ -3705,7 +3555,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Les innovateurs",
-                "content": [
+                "hadiths": [
                     {
                         "number": "740",
                         "text": "Le Messager d'Allah (s) a dit : Les innovateurs sont la pire chose de la création et de la nature créée.<sup>817</sup>"
@@ -3718,7 +3568,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La signification de l'innovation",
-                "content": [
+                "hadiths": [
                     {
                         "number": "742",
                         "text": "L'Imām 'Alī (as) a dit : Les innovateurs sont ceux qui s'opposent au commandement d'Allah, à Son Livre et à Son Messager, ainsi que ceux qui agissent en suivant leur propre avis et leurs penchants, même s'ils sont nombreux à se conduire ainsi.<sup>819</sup>"
@@ -3731,7 +3581,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Le rejet de l'innovateur",
-                "content": [
+                "hadiths": [
                     {
                         "number": "744",
                         "text": "Le Messager d'Allah (s) a dit : Allah remplira de paix et de foi le cœur de celui qui rejette un innovateur par antipathie vis-à-vis de lui.<sup>821</sup>"
@@ -3744,7 +3594,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "L'innovateur et l'adoration",
-                "content": [
+                "hadiths": [
                     {
                         "number": "746",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui agit selon une innovation sera entraîné par Satan à l'adoration, il lui inspirera la dévotion et même les larmoiements [afin qu'il continue dans cette voie].<sup>823</sup>"
@@ -3753,7 +3603,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La nullité de l'acte de l'innovateur",
-                "content": [
+                "hadiths": [
                     {
                         "number": "747",
                         "text": "Le Messager d'Allah (s) a dit : Peu d'actes basés sur une pratique (sunna) [prophétique] correcte valent mieux que beaucoup d'actes basés sur une innovation.<sup>824</sup>"
@@ -3766,7 +3616,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Les obligations du savant lors de l'apparition des innovations",
-                "content": [
+                "hadiths": [
                     {
                         "number": "749",
                         "text": "Le Messager d'Allah (s) a dit : Lorsque les innovations apparaissent dans ma communauté, le savant doit diffuser son savoir, et celui qui ne le fait pas méritera la malédiction d'Allah.<sup>826</sup><br><br><span class=\"reference-note\">(Voir également : 412. La dissimulation par prudence (taqīyya), section 1873)</span>"
@@ -3780,7 +3630,8 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "Le blâme du gaspillage",
-                "content": [
+                "introduction": "«<i>Et donne au proche parent ce qui lui est dû, ainsi qu'au pauvre et au voyageur. Et ne gaspille pas indûment, car les gaspilleurs sont les frères des diables, et le Diable est très ingrat envers son Seigneur.</i>»<sup>827</sup>",
+                "hadiths": [
                     {
                         "number": "750",
                         "text": "L'Imām 'Alī (as) a dit : Sois généreux sans être gaspilleur, sois économe sans être parcimonieux.<sup>828</sup>"
@@ -3797,12 +3648,11 @@ const AUNE_SAGESSE = [
                         "number": "753",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui s'enorgueillit de son gaspillage sera humilié par la ruine.<sup>831</sup>"
                     }
-                ],
-                "introduction": "«<i>Et donne au proche parent ce qui lui est dû, ainsi qu'au pauvre et au voyageur. Et ne gaspille pas indûment, car les gaspilleurs sont les frères des diables, et le Diable est très ingrat envers son Seigneur.</i>»<sup>827</sup>"
+                ]
             },
             {
                 "title": "La signification du gaspillage",
-                "content": [
+                "hadiths": [
                     {
                         "number": "754",
                         "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole du Très-Haut : «<i>Et ne gaspille pas indûment</i>»<sup>832</sup> : Celui qui dépense une chose en dehors de l'obéissance à Allah est un gaspilleur, et celui qui dépense dans le chemin de la bienfaisance est un économe.<sup>833</sup>"
@@ -3820,7 +3670,8 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "Incitation à la vertu",
-                "content": [
+                "introduction": "«<i>Entraidez-vous dans l'accomplissement de la vertu et de la piété, et ne vous entraidez pas dans le péché et la transgression. Et craignez Allah, car Allah est, certes, dur en punition.</i>»<sup>836</sup>",
+                "hadiths": [
                     {
                         "number": "756",
                         "text": "Le Messager d'Allah (s) a dit : Ne rallonge la vie que la vertu.<sup>837</sup>"
@@ -3837,12 +3688,11 @@ const AUNE_SAGESSE = [
                         "number": "759",
                         "text": "L'Imām al-Bāqir (as) a dit : Quatre choses font partie des trésors de la vertu : cacher son besoin, cacher son offrande, cacher sa douleur et cacher son malheur.<sup>840</sup>"
                     }
-                ],
-                "introduction": "«<i>Entraidez-vous dans l'accomplissement de la vertu et de la piété, et ne vous entraidez pas dans le péché et la transgression. Et craignez Allah, car Allah est, certes, dur en punition.</i>»<sup>836</sup>"
+                ]
             },
             {
                 "title": "Le signe de la personne vertueuse",
-                "content": [
+                "hadiths": [
                     {
                         "number": "760",
                         "text": "Le Messager d'Allah (s) a dit : Sachez que la personne vertueuse se distingue par dix signes : elle aime pour Allah, déteste pour Allah, se lie d'amitié pour Allah, se sépare pour Allah, se met en colère pour Allah, se satisfait pour Allah, œuvre pour Allah, implore Allah, se soumet à Allah par crainte révérencielle ; elle est craintive, pure, sincère, pudique, vigilante [concernant ses actes et sa personne], et elle fait le bien pour Allah.<sup>841</sup>"
@@ -3851,7 +3701,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Le sommet de la vertu",
-                "content": [
+                "hadiths": [
                     {
                         "number": "761",
                         "text": "Le Messager d'Allah (s) a dit : Le sommet de la vertu est d'accomplir en secret ce que tu fais au grand jour.<sup>842</sup>"
@@ -3865,27 +3715,27 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "La signification du monde intermédiaire",
-                "content": [
+                "introduction": "«<i>Derrière eux, cependant, il y a une barrière (barzakh), jusqu'au jour où ils seront ressuscités.</i>»<sup>843</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:169-171, 23:99-100, 40:11)</span>",
+                "hadiths": [
                     {
                         "number": "762",
                         "text": "L'Imām al-Ṣādiq (as) a dit : «Par Allah, je crains pour vous le barzakh !» Je lui demandai : «Qu'est-ce que le barzakh ?» Il dit : «La tombe, de l'instant de la mort jusqu'au Jour de la Résurrection.»<sup>844</sup>"
                     }
-                ],
-                "introduction": "«<i>Derrière eux, cependant, il y a une barrière (barzakh), jusqu'au jour où ils seront ressuscités.</i>»<sup>843</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:169-171, 23:99-100, 40:11)</span>"
+                ]
             },
             {
                 "title": "L'âme des croyants dans le monde intermédiaire",
-                "content": [
+                "introduction": "«<i>Ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants, auprès de leur Seigneur, bien pourvus.</i>»<sup>845</sup>",
+                "hadiths": [
                     {
                         "number": "763",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Les âmes des croyants seront dans des chambres au Paradis, mangeront de sa nourriture, se désaltèreront de ses boissons, se rendront visite et diront : «Seigneur, établis pour nous l'Heure [la Résurrection] afin que Tu accomplisses ce que Tu nous as promis».<sup>846</sup>"
                     }
-                ],
-                "introduction": "«<i>Ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants, auprès de leur Seigneur, bien pourvus.</i>»<sup>845</sup>"
+                ]
             },
             {
                 "title": "L'âme des mécréants dans le monde intermédiaire",
-                "content": [
+                "hadiths": [
                     {
                         "number": "764",
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, les âmes des mécréants sont dans le feu de la Géhenne ; elles y sont exposées et disent : «Seigneur, n'établis pas l'Heure [la Résurrection], n'accomplis pas ce que Tu nous as promis !»<sup>847</sup>"
@@ -3899,17 +3749,18 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "La signification de la bénédiction",
-                "content": [
+                "introduction": "«<i>Où que je sois, Il m'a rendu béni ; et Il m'a recommandé la prière (ṣalāt) et la zakāt tant que je vivrai.</i>»<sup>848</sup>",
+                "hadiths": [
                     {
                         "number": "765",
                         "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole d'Allah le Très-Haut «<i>Où que je sois, Il m'a rendu béni</i>»<sup>849</sup> : [Béni signifie] très bénéfique [aux autres].<sup>850</sup>"
                     }
-                ],
-                "introduction": "«<i>Où que je sois, Il m'a rendu béni ; et Il m'a recommandé la prière (ṣalāt) et la zakāt tant que je vivrai.</i>»<sup>848</sup>"
+                ]
             },
             {
                 "title": "Ce qui suscite la bénédiction et ce qui l'éloigne",
-                "content": [
+                "introduction": "«<i>Et si les habitants des cités avaient cru et avaient été pieux, Nous leur aurions certainement accordé des bénédictions du ciel et de la terre. Mais ils ont démenti et Nous les avons donc saisis pour ce qu'ils avaient acquis.</i>»<sup>851</sup>",
+                "hadiths": [
                     {
                         "number": "766",
                         "text": "Le Messager d'Allah (s) a dit : Dosez votre nourriture, car la bénédiction est dans la nourriture bien dosée.<sup>852</sup>"
@@ -3930,8 +3781,7 @@ const AUNE_SAGESSE = [
                         "number": "770",
                         "text": "L'Imām 'Alī (as) a dit : Quand les crimes prédominent, les bénédictions disparaissent.<sup>856</sup>"
                     }
-                ],
-                "introduction": "«<i>Et si les habitants des cités avaient cru et avaient été pieux, Nous leur aurions certainement accordé des bénédictions du ciel et de la terre. Mais ils ont démenti et Nous les avons donc saisis pour ce qu'ils avaient acquis.</i>»<sup>851</sup>"
+                ]
             }
         ]
     },
@@ -3940,7 +3790,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "L'encouragement à la gaieté",
-                "content": [
+                "hadiths": [
                     {
                         "number": "771",
                         "text": "Le Messager d'Allah (s) a dit : La gaieté fait disparaître la rancœur.<sup>857</sup>"
@@ -3990,7 +3840,8 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "La clairvoyance",
-                "content": [
+                "introduction": "«<i>Nous avons destiné à l'Enfer un grand nombre de djinns et d'hommes. Ils ont des cœurs mais ne comprennent pas, ils ont des yeux mais ne voient pas, ils ont des oreilles mais n'entendent pas. Ceux-là sont comme les bestiaux, même plus égarés encore. Tels sont les insouciants.</i>»<sup>867</sup>",
+                "hadiths": [
                     {
                         "number": "781",
                         "text": "Le Messager d'Allah (s) a dit : L'aveugle n'est pas celui qui a perdu la vue ; l'aveugle est celui qui a perdu la clairvoyance.<sup>868</sup>"
@@ -4015,8 +3866,7 @@ const AUNE_SAGESSE = [
                         "number": "786",
                         "text": "L'Imām 'Alī (as) a dit : La plus clairvoyante des personnes est celle qui voit ses propres défauts et renonce en conséquence à ses péchés.<sup>873</sup>"
                     }
-                ],
-                "introduction": "«<i>Nous avons destiné à l'Enfer un grand nombre de djinns et d'hommes. Ils ont des cœurs mais ne comprennent pas, ils ont des yeux mais ne voient pas, ils ont des oreilles mais n'entendent pas. Ceux-là sont comme les bestiaux, même plus égarés encore. Tels sont les insouciants.</i>»<sup>867</sup>"
+                ]
             }
         ]
     },
@@ -4025,7 +3875,8 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "Mise en garde contre le fait de suivre le faux",
-                "content": [
+                "introduction": "«<i>Et dis : «La Vérité est venue et l'erreur a disparu.» Certes, l'erreur est vouée à disparaître.</i>»<sup>874</sup><br><br>«<i>Bien au contraire, Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît. Et malheur à vous pour ce que vous attribuez [injustement à Allah] !</i>»<sup>875</sup>",
+                "hadiths": [
                     {
                         "number": "787",
                         "text": "L'Imām 'Alī (as) a dit : Le faux est tentateur et trompeur.<sup>876</sup>"
@@ -4042,12 +3893,11 @@ const AUNE_SAGESSE = [
                         "number": "790",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui soutient le faux aura opprimé la vérité.<sup>879</sup>"
                     }
-                ],
-                "introduction": "«<i>Et dis : «La Vérité est venue et l'erreur a disparu.» Certes, l'erreur est vouée à disparaître.</i>»<sup>874</sup><br><br>«<i>Bien au contraire, Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît. Et malheur à vous pour ce que vous attribuez [injustement à Allah] !</i>»<sup>875</sup>"
+                ]
             },
             {
                 "title": "Discerner la vérité du faux",
-                "content": [
+                "hadiths": [
                     {
                         "number": "791",
                         "text": "L'Imām 'Alī (as) a dit : En vérité, quatre doigts séparent la vérité du faux... Le faux est de dire «j'ai entendu», et la vérité est de dire «j'ai vu».<sup>880</sup>"
@@ -4056,7 +3906,8 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Mêler la vérité au faux",
-                "content": [
+                "introduction": "«<i>Et ne mêlez pas le faux à la vérité. Ne cachez pas sciemment la vérité.</i>»<sup>881</sup>",
+                "hadiths": [
                     {
                         "number": "792",
                         "text": "L'Imām 'Alī (as) a dit : Si le faux était préservé de tout mélange avec la vérité, il ne resterait pas indéfinissable pour ceux qui y aspirent, et si la vérité était préservée de tout mélange avec le faux, les langues de ses opposants se tairaient. Cependant, un peu de ceci est souvent mélangé avec un peu de cela.<sup>882</sup>"
@@ -4065,12 +3916,11 @@ const AUNE_SAGESSE = [
                         "number": "793",
                         "text": "L'Imām 'Alī (as) a dit : Combien d'égarements ont été embellis par un verset du Livre d'Allah comme est embelli le dinar de bronze par une couche d'argent !<sup>883</sup>"
                     }
-                ],
-                "introduction": "«<i>Et ne mêlez pas le faux à la vérité. Ne cachez pas sciemment la vérité.</i>»<sup>881</sup>"
+                ]
             },
             {
                 "title": "Le faux ne peut être reconnu comme étant le vrai",
-                "content": [
+                "hadiths": [
                     {
                         "number": "794",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Allah a refusé de présenter le faux comme une vérité certaine, et Il a refusé de présenter la vérité dans le cœur du croyant comme une chose indéniablement fausse. Allah a également refusé que dans le cœur du mécréant obstiné, le faux soit présenté comme une vérité indéniable. S'Il n'avait pas procédé de la sorte, la vérité n'aurait pu être distinguée du faux.<sup>884</sup>"
@@ -4088,7 +3938,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "Ceux qu'Allah a en aversion",
-                "content": [
+                "hadiths": [
                     {
                         "number": "796",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Allah a en aversion la personne âgée commettant l'adultère, le riche oppresseur, le pauvre arrogant et le mendiant qui insiste. Il annule la rétribution du bienfaiteur qui se vante de son acte, et Il déteste le menteur éhonté et insolent.<sup>886</sup>"
@@ -4121,7 +3971,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Les personnes qu'Allah a le plus en aversion",
-                "content": [
+                "hadiths": [
                     {
                         "number": "803",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Allah a le plus en aversion trois sortes de personnes : un homme qui dort beaucoup durant la journée et ne fait aucune prière pendant la nuit ; un homme qui mange beaucoup, qui ne dit pas le Nom d'Allah devant la nourriture et qui ne rend pas grâce à Allah ; et enfin, un homme qui rit beaucoup et sans raison.<sup>893</sup>"
@@ -4174,7 +4024,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "Les actes qu'Allah a en aversion",
-                "content": [
+                "hadiths": [
                     {
                         "number": "815",
                         "text": "Le Messager d'Allah (s) a dit : Il n'y a pas de chose qu'Allah a autant en aversion qu'un ventre plein.<sup>905</sup>"
@@ -4203,7 +4053,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "La malveillance",
-                "content": [
+                "hadiths": [
                     {
                         "number": "821",
                         "text": "Le Messager d'Allah (s) a dit : Vous avez été atteints du même mal qui a touché les autres nations avant vous : la malveillance et la jalousie.<sup>911</sup>"
@@ -4216,20 +4066,16 @@ const AUNE_SAGESSE = [
         "title": "46 - L'AGRESSION",
         "subparts": [
             {
-                "title": "246 - Mise en garde contre l'agression",
-                "content": []
+                "title": "246 - Mise en garde contre l'agression"
             },
             {
-                "title": "247 - Les caractéristiques de l'agresseur",
-                "content": []
+                "title": "247 - Les caractéristiques de l'agresseur"
             },
             {
-                "title": "248 - Combattre les agresseurs parmi les musulmans",
-                "content": []
+                "title": "248 - Combattre les agresseurs parmi les musulmans"
             },
             {
-                "title": "249 - La bénédiction de l'Imām 'Alī (as) combattant les agresseurs",
-                "content": []
+                "title": "249 - La bénédiction de l'Imām 'Alī (as) combattant les agresseurs"
             }
         ]
     },
@@ -4237,12 +4083,10 @@ const AUNE_SAGESSE = [
         "title": "47 - LES PLEURS",
         "subparts": [
             {
-                "title": "250 - Pleurer par crainte d'Allah",
-                "content": []
+                "title": "250 - Pleurer par crainte d'Allah"
             },
             {
-                "title": "251 - La sécheresse de l'œil",
-                "content": []
+                "title": "251 - La sécheresse de l'œil"
             }
         ]
     },
@@ -4250,20 +4094,16 @@ const AUNE_SAGESSE = [
         "title": "48 - LA CONTRÉE",
         "subparts": [
             {
-                "title": "252 - La bonne contrée",
-                "content": []
+                "title": "252 - La bonne contrée"
             },
             {
-                "title": "253 - Choisissez les grandes villes",
-                "content": []
+                "title": "253 - Choisissez les grandes villes"
             },
             {
-                "title": "254 - La meilleure des contrées",
-                "content": []
+                "title": "254 - La meilleure des contrées"
             },
             {
-                "title": "255 - Ce dont ne peuvent se passer les habitants de toute contrée",
-                "content": []
+                "title": "255 - Ce dont ne peuvent se passer les habitants de toute contrée"
             }
         ]
     },
@@ -4271,16 +4111,13 @@ const AUNE_SAGESSE = [
         "title": "49 - L'ÉLOQUENCE",
         "subparts": [
             {
-                "title": "256 - La signification de l'éloquence",
-                "content": []
+                "title": "256 - La signification de l'éloquence"
             },
             {
-                "title": "257 - La plus éloquente des paroles",
-                "content": []
+                "title": "257 - La plus éloquente des paroles"
             },
             {
-                "title": "258 - La manipulation par la parole",
-                "content": []
+                "title": "258 - La manipulation par la parole"
             }
         ]
     },
@@ -4288,12 +4125,10 @@ const AUNE_SAGESSE = [
         "title": "50 - LA DIFFUSION [DE L'ISLAM]",
         "subparts": [
             {
-                "title": "259 - L'importance de la diffusion [de l'islam]",
-                "content": []
+                "title": "259 - L'importance de la diffusion [de l'islam]"
             },
             {
-                "title": "260 - Ce qui incombe au diffuseur [de l'islam]",
-                "content": []
+                "title": "260 - Ce qui incombe au diffuseur [de l'islam]"
             }
         ]
     },
@@ -4301,68 +4136,52 @@ const AUNE_SAGESSE = [
         "title": "51 - L'ÉPREUVE",
         "subparts": [
             {
-                "title": "261 - Être éprouvé par le mal et le bien",
-                "content": []
+                "title": "261 - Être éprouvé par le mal et le bien"
             },
             {
-                "title": "262 - La philosophie de l'épreuve",
-                "content": []
+                "title": "262 - La philosophie de l'épreuve"
             },
             {
-                "title": "263 - La dureté des épreuves du croyant",
-                "content": []
+                "title": "263 - La dureté des épreuves du croyant"
             },
             {
-                "title": "264 - Le rôle des mauvais actes dans l'apparition des épreuves",
-                "content": []
+                "title": "264 - Le rôle des mauvais actes dans l'apparition des épreuves"
             },
             {
-                "title": "265 - Celui qui n'est pas éprouvé est méprisé par Allah",
-                "content": []
+                "title": "265 - Celui qui n'est pas éprouvé est méprisé par Allah"
             },
             {
-                "title": "266 - La grâce de l'épreuve",
-                "content": []
+                "title": "266 - La grâce de l'épreuve"
             },
             {
-                "title": "267 - L'épreuve et le rappel",
-                "content": []
+                "title": "267 - L'épreuve et le rappel"
             },
             {
-                "title": "268 - Les péchés sont épurés par les épreuves",
-                "content": []
+                "title": "268 - Les péchés sont épurés par les épreuves"
             },
             {
-                "title": "269 - L'épreuve est un signe de l'amour d'Allah, loué soit-Il",
-                "content": []
+                "title": "269 - L'épreuve est un signe de l'amour d'Allah, loué soit-Il"
             },
             {
-                "title": "270 - L'épreuve est proportionnelle au degré de la foi",
-                "content": []
+                "title": "270 - L'épreuve est proportionnelle au degré de la foi"
             },
             {
-                "title": "271 - Les degrés auxquels accède le serviteur par les épreuves",
-                "content": []
+                "title": "271 - Les degrés auxquels accède le serviteur par les épreuves"
             },
             {
-                "title": "272 - L'épreuve du croyant est un bien pour lui",
-                "content": []
+                "title": "272 - L'épreuve du croyant est un bien pour lui"
             },
             {
-                "title": "273 - L'épreuve la plus difficile des serviteurs",
-                "content": []
+                "title": "273 - L'épreuve la plus difficile des serviteurs"
             },
             {
-                "title": "274 - La délivrance au sommet de l'épreuve",
-                "content": []
+                "title": "274 - La délivrance au sommet de l'épreuve"
             },
             {
-                "title": "275 - Le rappel d'Allah lors des épreuves",
-                "content": []
+                "title": "275 - Le rappel d'Allah lors des épreuves"
             },
             {
-                "title": "276 - L'invocation à la vue de personnes éprouvées",
-                "content": []
+                "title": "276 - L'invocation à la vue de personnes éprouvées"
             }
         ]
     },
@@ -4370,8 +4189,7 @@ const AUNE_SAGESSE = [
         "title": "52 - LA CALOMNIE",
         "subparts": [
             {
-                "title": "277 - Mise en garde contre la calomnie",
-                "content": []
+                "title": "277 - Mise en garde contre la calomnie"
             }
         ]
     },
@@ -4379,8 +4197,7 @@ const AUNE_SAGESSE = [
         "title": "53 - L'EXÉCRATION RÉCIPROQUE (AL-MUBĀHALA)",
         "subparts": [
             {
-                "title": "278 - L'exécration réciproque",
-                "content": []
+                "title": "278 - L'exécration réciproque"
             }
         ]
     },
@@ -4388,20 +4205,16 @@ const AUNE_SAGESSE = [
         "title": "54 - LE SERMENT D'ALLÉGEANCE (AL-BAY'A)",
         "subparts": [
             {
-                "title": "279 - Le serment d'allégeance au Prophète (s) est une allégeance à Allah",
-                "content": []
+                "title": "279 - Le serment d'allégeance au Prophète (s) est une allégeance à Allah"
             },
             {
-                "title": "280 - Le serment d'allégeance des femmes",
-                "content": []
+                "title": "280 - Le serment d'allégeance des femmes"
             },
             {
-                "title": "281 - Violer son serment d'allégeance",
-                "content": []
+                "title": "281 - Violer son serment d'allégeance"
             },
             {
-                "title": "282 - Le serment d'allégeance des musulmans à l'Imām 'Alī (as)",
-                "content": []
+                "title": "282 - Le serment d'allégeance des musulmans à l'Imām 'Alī (as)"
             }
         ]
     },
@@ -4409,64 +4222,49 @@ const AUNE_SAGESSE = [
         "title": "55 - LE COMMERCE",
         "subparts": [
             {
-                "title": "283 - La vertu du commerce",
-                "content": []
+                "title": "283 - La vertu du commerce"
             },
             {
-                "title": "284 - Délaisser le commerce",
-                "content": []
+                "title": "284 - Délaisser le commerce"
             },
             {
-                "title": "285 - Le bon comportement dans le commerce",
-                "content": []
+                "title": "285 - Le bon comportement dans le commerce"
             },
             {
-                "title": "286 - L'interdiction de la fraude",
-                "content": []
+                "title": "286 - L'interdiction de la fraude"
             },
             {
-                "title": "287 - L'incitation du commerçant à la charité",
-                "content": []
+                "title": "287 - L'incitation du commerçant à la charité"
             },
             {
-                "title": "288 - L'indulgence dans la vente et l'achat",
-                "content": []
+                "title": "288 - L'indulgence dans la vente et l'achat"
             },
             {
-                "title": "289 - Le marchandage",
-                "content": []
+                "title": "289 - Le marchandage"
             },
             {
-                "title": "290 - L'égalité entre la personne qui marchande et celle qui ne marchande pas",
-                "content": []
+                "title": "290 - L'égalité entre la personne qui marchande et celle qui ne marchande pas"
             },
             {
-                "title": "291 - Le profit du croyant vis-à-vis d'un autre croyant",
-                "content": []
+                "title": "291 - Le profit du croyant vis-à-vis d'un autre croyant"
             },
             {
-                "title": "292 - Les commerçants immoraux",
-                "content": []
+                "title": "292 - Les commerçants immoraux"
             },
             {
-                "title": "293 - Inciter les commerçants à être honnête",
-                "content": []
+                "title": "293 - Inciter les commerçants à être honnête"
             },
             {
-                "title": "294 - Mise en garde au sujet du recours au serment dans le commerce",
-                "content": []
+                "title": "294 - Mise en garde au sujet du recours au serment dans le commerce"
             },
             {
-                "title": "295 - Le commerce de l'Au-delà",
-                "content": []
+                "title": "295 - Le commerce de l'Au-delà"
             },
             {
-                "title": "296 - Le commerce ne distrait pas le croyant [du souvenir d'Allah]",
-                "content": []
+                "title": "296 - Le commerce ne distrait pas le croyant [du souvenir d'Allah]"
             },
             {
-                "title": "297 - Le commerce de la religion",
-                "content": []
+                "title": "297 - Le commerce de la religion"
             }
         ]
     },
@@ -4474,64 +4272,49 @@ const AUNE_SAGESSE = [
         "title": "56 - LE REPENTIR",
         "subparts": [
             {
-                "title": "298 - L'incitation au repentir",
-                "content": []
+                "title": "298 - L'incitation au repentir"
             },
             {
-                "title": "299 - Le statut du repentant",
-                "content": []
+                "title": "299 - Le statut du repentant"
             },
             {
-                "title": "300 - Le signe du repentant",
-                "content": []
+                "title": "300 - Le signe du repentant"
             },
             {
-                "title": "301 - L'acceptation du repentir",
-                "content": []
+                "title": "301 - L'acceptation du repentir"
             },
             {
-                "title": "302 - Quand le repentir est-il accepté ?",
-                "content": []
+                "title": "302 - Quand le repentir est-il accepté ?"
             },
             {
-                "title": "303 - Le regret est un repentir",
-                "content": []
+                "title": "303 - Le regret est un repentir"
             },
             {
-                "title": "304 - L'aveu sincère [des péchés]",
-                "content": []
+                "title": "304 - L'aveu sincère [des péchés]"
             },
             {
-                "title": "305 - Les fondements du repentir",
-                "content": []
+                "title": "305 - Les fondements du repentir"
             },
             {
-                "title": "306 - Les différentes sortes de repentir",
-                "content": []
+                "title": "306 - Les différentes sortes de repentir"
             },
             {
-                "title": "307 - Le repentir sincère",
-                "content": []
+                "title": "307 - Le repentir sincère"
             },
             {
-                "title": "308 - Retarder le repentir",
-                "content": []
+                "title": "308 - Retarder le repentir"
             },
             {
-                "title": "309 - Ce qui est plus aisé que le repentir",
-                "content": []
+                "title": "309 - Ce qui est plus aisé que le repentir"
             },
             {
-                "title": "310 - Allah dissimule les péchés du repentant",
-                "content": []
+                "title": "310 - Allah dissimule les péchés du repentant"
             },
             {
-                "title": "311 - Changer les péchés en bonnes actions",
-                "content": []
+                "title": "311 - Changer les péchés en bonnes actions"
             },
             {
-                "title": "312 - Chercher à prédire [les jugements] d'Allah",
-                "content": []
+                "title": "312 - Chercher à prédire [les jugements] d'Allah"
             }
         ]
     },
@@ -4539,16 +4322,13 @@ const AUNE_SAGESSE = [
         "title": "57 - LA RÉCOMPENSE",
         "subparts": [
             {
-                "title": "313 - La récompense des bonnes œuvres",
-                "content": []
+                "title": "313 - La récompense des bonnes œuvres"
             },
             {
-                "title": "314 - La plus grande récompense",
-                "content": []
+                "title": "314 - La plus grande récompense"
             },
             {
-                "title": "315 - Celui qui entend parler d'une récompense pour un acte particulier",
-                "content": []
+                "title": "315 - Celui qui entend parler d'une récompense pour un acte particulier"
             }
         ]
     },
@@ -4556,16 +4336,13 @@ const AUNE_SAGESSE = [
         "title": "58 - LA RÉVOLUTION",
         "subparts": [
             {
-                "title": "316 - La révolution islamique en Orient avant la venue du Douzième Imām (Al-Qā'im) ('aj)",
-                "content": []
+                "title": "316 - La révolution islamique en Orient avant la venue du Douzième Imām (Al-Qā'im) ('aj)"
             },
             {
-                "title": "317 - Le rôle des non-arabes dans la révolution",
-                "content": []
+                "title": "317 - Le rôle des non-arabes dans la révolution"
             },
             {
-                "title": "318 - La révolution provenant de la ville de Qom",
-                "content": []
+                "title": "318 - La révolution provenant de la ville de Qom"
             }
         ]
     },
@@ -4573,20 +4350,16 @@ const AUNE_SAGESSE = [
         "title": "59 - LE DÉTERMINISME",
         "subparts": [
             {
-                "title": "319 - La fausseté du déterminisme",
-                "content": []
+                "title": "319 - La fausseté du déterminisme"
             },
             {
-                "title": "320 - Ni déterminisme ni liberté totale",
-                "content": []
+                "title": "320 - Ni déterminisme ni liberté totale"
             },
             {
-                "title": "321 - A Allah revient en premier lieu le mérite des bonnes actions",
-                "content": []
+                "title": "321 - A Allah revient en premier lieu le mérite des bonnes actions"
             },
             {
-                "title": "322 - La façon dont il faut se comporter envers les partisans du déterminisme",
-                "content": []
+                "title": "322 - La façon dont il faut se comporter envers les partisans du déterminisme"
             }
         ]
     },
@@ -4594,12 +4367,10 @@ const AUNE_SAGESSE = [
         "title": "60 - LE TYRAN",
         "subparts": [
             {
-                "title": "323 - Le blâme de la tyrannie et du caractère tyrannique",
-                "content": []
+                "title": "323 - Le blâme de la tyrannie et du caractère tyrannique"
             },
             {
-                "title": "324 - La mauvaise fin des tyrans",
-                "content": []
+                "title": "324 - La mauvaise fin des tyrans"
             }
         ]
     },
@@ -4607,12 +4378,10 @@ const AUNE_SAGESSE = [
         "title": "61 - LA LÂCHETÉ",
         "subparts": [
             {
-                "title": "325 - Le blâme de la lâcheté",
-                "content": []
+                "title": "325 - Le blâme de la lâcheté"
             },
             {
-                "title": "326 - Le lâche et la guerre",
-                "content": []
+                "title": "326 - Le lâche et la guerre"
             }
         ]
     },
@@ -4620,12 +4389,10 @@ const AUNE_SAGESSE = [
         "title": "62 - LA DISCUSSION",
         "subparts": [
             {
-                "title": "327 - La discussion blâmée",
-                "content": []
+                "title": "327 - La discussion blâmée"
             },
             {
-                "title": "328 - La bonne discussion",
-                "content": []
+                "title": "328 - La bonne discussion"
             }
         ]
     },
@@ -4633,12 +4400,10 @@ const AUNE_SAGESSE = [
         "title": "63 - L'EXPÉRIENCE",
         "subparts": [
             {
-                "title": "329 - Les bénédictions de l'expérience",
-                "content": []
+                "title": "329 - Les bénédictions de l'expérience"
             },
             {
-                "title": "330 - Les dommages issus du manque d'expérience",
-                "content": []
+                "title": "330 - Les dommages issus du manque d'expérience"
             }
         ]
     },
@@ -4646,8 +4411,7 @@ const AUNE_SAGESSE = [
         "title": "64 - L'ANXIÉTÉ",
         "subparts": [
             {
-                "title": "331 - Mise en garde contre l'anxiété",
-                "content": []
+                "title": "331 - Mise en garde contre l'anxiété"
             }
         ]
     },
@@ -4655,16 +4419,13 @@ const AUNE_SAGESSE = [
         "title": "65 - LA RÉTRIBUTION",
         "subparts": [
             {
-                "title": "332 - La rétribution [des actes]",
-                "content": []
+                "title": "332 - La rétribution [des actes]"
             },
             {
-                "title": "333 - La rétribution des bienfaisants",
-                "content": []
+                "title": "333 - La rétribution des bienfaisants"
             },
             {
-                "title": "334 - La rétribution des malfaiteurs",
-                "content": []
+                "title": "334 - La rétribution des malfaiteurs"
             }
         ]
     },
@@ -4672,20 +4433,16 @@ const AUNE_SAGESSE = [
         "title": "66 - L'ESPIONNAGE",
         "subparts": [
             {
-                "title": "335 - L'interdiction de rechercher les défauts des gens",
-                "content": []
+                "title": "335 - L'interdiction de rechercher les défauts des gens"
             },
             {
-                "title": "336 - Les conséquences de l'espionnage des gens",
-                "content": []
+                "title": "336 - Les conséquences de l'espionnage des gens"
             },
             {
-                "title": "337 - La licéité de l'espionnage pendant les guerres",
-                "content": []
+                "title": "337 - La licéité de l'espionnage pendant les guerres"
             },
             {
-                "title": "338 - Les cas où il faut juger selon ce qui est apparent",
-                "content": []
+                "title": "338 - Les cas où il faut juger selon ce qui est apparent"
             }
         ]
     },
@@ -4693,32 +4450,25 @@ const AUNE_SAGESSE = [
         "title": "67 - L'ASSEMBLÉE",
         "subparts": [
             {
-                "title": "339 - La plus honorable des assemblées",
-                "content": []
+                "title": "339 - La plus honorable des assemblées"
             },
             {
-                "title": "340 - Ce qu'il faut respecter lors des assemblées",
-                "content": []
+                "title": "340 - Ce qu'il faut respecter lors des assemblées"
             },
             {
-                "title": "341 - Le centre de l'assemblée",
-                "content": []
+                "title": "341 - Le centre de l'assemblée"
             },
             {
-                "title": "342 - Les assemblées interdites",
-                "content": []
+                "title": "342 - Les assemblées interdites"
             },
             {
-                "title": "343 - Respecter la loyauté dans les assemblées",
-                "content": []
+                "title": "343 - Respecter la loyauté dans les assemblées"
             },
             {
-                "title": "344 - L'incitation à assister aux assemblées où l'on pratique le rappel d'Allah (dhikr)",
-                "content": []
+                "title": "344 - L'incitation à assister aux assemblées où l'on pratique le rappel d'Allah (dhikr)"
             },
             {
-                "title": "345 - L'incitation à évoquer Allah en quittant une assemblée",
-                "content": []
+                "title": "345 - L'incitation à évoquer Allah en quittant une assemblée"
             }
         ]
     },
@@ -4726,16 +4476,13 @@ const AUNE_SAGESSE = [
         "title": "68 - LA COMPAGNIE",
         "subparts": [
             {
-                "title": "346 - A qui tenir compagnie ?",
-                "content": []
+                "title": "346 - A qui tenir compagnie ?"
             },
             {
-                "title": "347 - Le droit du compagnon",
-                "content": []
+                "title": "347 - Le droit du compagnon"
             },
             {
-                "title": "348 - Celui à qui il ne faut pas tenir compagnie",
-                "content": []
+                "title": "348 - Celui à qui il ne faut pas tenir compagnie"
             }
         ]
     },
@@ -4743,12 +4490,10 @@ const AUNE_SAGESSE = [
         "title": "69 - LE GROUPE",
         "subparts": [
             {
-                "title": "349 - La main d'Allah est avec le groupe",
-                "content": []
+                "title": "349 - La main d'Allah est avec le groupe"
             },
             {
-                "title": "350 - La signification du groupe",
-                "content": []
+                "title": "350 - La signification du groupe"
             }
         ]
     },
@@ -4756,12 +4501,10 @@ const AUNE_SAGESSE = [
         "title": "70 - LE VENDREDI",
         "subparts": [
             {
-                "title": "351 - Le jour du vendredi",
-                "content": []
+                "title": "351 - Le jour du vendredi"
             },
             {
-                "title": "352 - Le bain rituel du vendredi (ghusl)",
-                "content": []
+                "title": "352 - Le bain rituel du vendredi (ghusl)"
             }
         ]
     },
@@ -4769,20 +4512,16 @@ const AUNE_SAGESSE = [
         "title": "71 - LA BEAUTÉ",
         "subparts": [
             {
-                "title": "353 - Allah est beau et Il aime la beauté",
-                "content": []
+                "title": "353 - Allah est beau et Il aime la beauté"
             },
             {
-                "title": "354 - La belle figure",
-                "content": []
+                "title": "354 - La belle figure"
             },
             {
-                "title": "355 - Prendre soin de ses cheveux",
-                "content": []
+                "title": "355 - Prendre soin de ses cheveux"
             },
             {
-                "title": "356 - La beauté intérieure",
-                "content": []
+                "title": "356 - La beauté intérieure"
             }
         ]
     },
@@ -4790,8 +4529,7 @@ const AUNE_SAGESSE = [
         "title": "72 - L'ÉTAT D'IMPURETÉ LÉGALE (JANĀBA)",
         "subparts": [
             {
-                "title": "357 - Le bain rituel pour mettre fin à l'état d'impureté légale (ghusl al-janāba)",
-                "content": []
+                "title": "357 - Le bain rituel pour mettre fin à l'état d'impureté légale (ghusl al-janāba)"
             }
         ]
     },
@@ -4799,12 +4537,10 @@ const AUNE_SAGESSE = [
         "title": "73 - L'ARMÉE",
         "subparts": [
             {
-                "title": "358 - L'armée",
-                "content": []
+                "title": "358 - L'armée"
             },
             {
-                "title": "359 - Les soldats d'Allah",
-                "content": []
+                "title": "359 - Les soldats d'Allah"
             }
         ]
     },
@@ -4812,52 +4548,40 @@ const AUNE_SAGESSE = [
         "title": "74 - LE PARADIS",
         "subparts": [
             {
-                "title": "360 - Encourager l'aspiration au Paradis",
-                "content": []
+                "title": "360 - Encourager l'aspiration au Paradis"
             },
             {
-                "title": "361 - Votre âme n'a de prix que le Paradis",
-                "content": []
+                "title": "361 - Votre âme n'a de prix que le Paradis"
             },
             {
-                "title": "362 - Le prix du Paradis",
-                "content": []
+                "title": "362 - Le prix du Paradis"
             },
             {
-                "title": "363 - Les exigences pour entrer au Paradis",
-                "content": []
+                "title": "363 - Les exigences pour entrer au Paradis"
             },
             {
-                "title": "364 - Le chemin du Paradis est semé d'épreuves",
-                "content": []
+                "title": "364 - Le chemin du Paradis est semé d'épreuves"
             },
             {
-                "title": "365 - Ceux à qui le Paradis est garanti",
-                "content": []
+                "title": "365 - Ceux à qui le Paradis est garanti"
             },
             {
-                "title": "366 - Celui à qui l'entrée au Paradis est interdite",
-                "content": []
+                "title": "366 - Celui à qui l'entrée au Paradis est interdite"
             },
             {
-                "title": "367 - Les portes du Paradis",
-                "content": []
+                "title": "367 - Les portes du Paradis"
             },
             {
-                "title": "368 - Les rangs au Paradis",
-                "content": []
+                "title": "368 - Les rangs au Paradis"
             },
             {
-                "title": "369 - Le premier à entrer au Paradis",
-                "content": []
+                "title": "369 - Le premier à entrer au Paradis"
             },
             {
-                "title": "370 - Les maîtres des gens du Paradis",
-                "content": []
+                "title": "370 - Les maîtres des gens du Paradis"
             },
             {
-                "title": "371 - Le caractère inclusif du Paradis",
-                "content": []
+                "title": "371 - Le caractère inclusif du Paradis"
             }
         ]
     },
@@ -4865,12 +4589,10 @@ const AUNE_SAGESSE = [
         "title": "75 - LA FOLIE",
         "subparts": [
             {
-                "title": "372 - Les différentes sortes de folie",
-                "content": []
+                "title": "372 - Les différentes sortes de folie"
             },
             {
-                "title": "373 - Le vrai fou",
-                "content": []
+                "title": "373 - Le vrai fou"
             }
         ]
     },
@@ -4878,36 +4600,28 @@ const AUNE_SAGESSE = [
         "title": "76 - LE JIHĀD (1) LE PETIT JIHĀD",
         "subparts": [
             {
-                "title": "374 - L'incitation au [petit] jihād",
-                "content": []
+                "title": "374 - L'incitation au [petit] jihād"
             },
             {
-                "title": "375 - Celui qui lutte",
-                "content": []
+                "title": "375 - Celui qui lutte"
             },
             {
-                "title": "376 - L'aide à ceux qui luttent et le blâme de ceux qui les importunent",
-                "content": []
+                "title": "376 - L'aide à ceux qui luttent et le blâme de ceux qui les importunent"
             },
             {
-                "title": "377 - L'ordre de faire le jihād avec les mains, la langue et le cœur",
-                "content": []
+                "title": "377 - L'ordre de faire le jihād avec les mains, la langue et le cœur"
             },
             {
-                "title": "378 - L'abandon du jihād",
-                "content": []
+                "title": "378 - L'abandon du jihād"
             },
             {
-                "title": "379 - Les branches du jihād",
-                "content": []
+                "title": "379 - Les branches du jihād"
             },
             {
-                "title": "380 - La surveillance des frontières",
-                "content": []
+                "title": "380 - La surveillance des frontières"
             },
             {
-                "title": "381 - La vertu de la garde",
-                "content": []
+                "title": "381 - La vertu de la garde"
             }
         ]
     },
@@ -4915,24 +4629,19 @@ const AUNE_SAGESSE = [
         "title": "77 - LE JIHĀD (2) LE GRAND JIHĀD",
         "subparts": [
             {
-                "title": "382 - Les différents jihād",
-                "content": []
+                "title": "382 - Les différents jihād"
             },
             {
-                "title": "383 - L'incitation à lutter contre sa propre personne",
-                "content": []
+                "title": "383 - L'incitation à lutter contre sa propre personne"
             },
             {
-                "title": "384 - Le plus grand jihād",
-                "content": []
+                "title": "384 - Le plus grand jihād"
             },
             {
-                "title": "385 - Ce qu'il faut faire pour lutter contre sa propre personne",
-                "content": []
+                "title": "385 - Ce qu'il faut faire pour lutter contre sa propre personne"
             },
             {
-                "title": "386 - Le fruit de la lutte",
-                "content": []
+                "title": "386 - Le fruit de la lutte"
             }
         ]
     },
@@ -4940,12 +4649,10 @@ const AUNE_SAGESSE = [
         "title": "78 - LE JIHĀD (3) L'EFFORT DANS L'OBÉISSANCE À ALLAH",
         "subparts": [
             {
-                "title": "387 - L'incitation à l'effort dans l'obéissance à Allah",
-                "content": []
+                "title": "387 - L'incitation à l'effort dans l'obéissance à Allah"
             },
             {
-                "title": "388 - La personne qui déploie le plus d'efforts",
-                "content": []
+                "title": "388 - La personne qui déploie le plus d'efforts"
             }
         ]
     },
@@ -4953,28 +4660,22 @@ const AUNE_SAGESSE = [
         "title": "79 - L'IGNORANCE",
         "subparts": [
             {
-                "title": "389 - Le blâme de l'ignorance",
-                "content": []
+                "title": "389 - Le blâme de l'ignorance"
             },
             {
-                "title": "390 - Les signes caractéristiques de l'ignorant",
-                "content": []
+                "title": "390 - Les signes caractéristiques de l'ignorant"
             },
             {
-                "title": "391 - La plus ignorante des personnes",
-                "content": []
+                "title": "391 - La plus ignorante des personnes"
             },
             {
-                "title": "392 - Ce qui suffit pour être considéré ignorant",
-                "content": []
+                "title": "392 - Ce qui suffit pour être considéré ignorant"
             },
             {
-                "title": "393 - L'explication de l'ignorance",
-                "content": []
+                "title": "393 - L'explication de l'ignorance"
             },
             {
-                "title": "394 - L'être humain est l'ennemi de ce qu'il ignore",
-                "content": []
+                "title": "394 - L'être humain est l'ennemi de ce qu'il ignore"
             }
         ]
     },
@@ -4982,56 +4683,43 @@ const AUNE_SAGESSE = [
         "title": "80 - L'ENFER",
         "subparts": [
             {
-                "title": "395 - Mise en garde contre l'Enfer",
-                "content": []
+                "title": "395 - Mise en garde contre l'Enfer"
             },
             {
-                "title": "396 - Le combustible de l'Enfer",
-                "content": []
+                "title": "396 - Le combustible de l'Enfer"
             },
             {
-                "title": "397 - Les chaînes de l'Enfer et ses carcans",
-                "content": []
+                "title": "397 - Les chaînes de l'Enfer et ses carcans"
             },
             {
-                "title": "398 - Le vêtement des gens de l'Enfer",
-                "content": []
+                "title": "398 - Le vêtement des gens de l'Enfer"
             },
             {
-                "title": "399 - La nourriture des gens en Enfer",
-                "content": []
+                "title": "399 - La nourriture des gens en Enfer"
             },
             {
-                "title": "400 - La boisson des gens de l'Enfer",
-                "content": []
+                "title": "400 - La boisson des gens de l'Enfer"
             },
             {
-                "title": "401 - Les premières personnes à entrer en Enfer",
-                "content": []
+                "title": "401 - Les premières personnes à entrer en Enfer"
             },
             {
-                "title": "402 - Les personnes les moins châtiées",
-                "content": []
+                "title": "402 - Les personnes les moins châtiées"
             },
             {
-                "title": "403 - Les personnes les plus châtiées",
-                "content": []
+                "title": "403 - Les personnes les plus châtiées"
             },
             {
-                "title": "404 - La vallée des arrogants",
-                "content": []
+                "title": "404 - La vallée des arrogants"
             },
             {
-                "title": "405 - Ceux qui persisteront éternellement en Enfer",
-                "content": []
+                "title": "405 - Ceux qui persisteront éternellement en Enfer"
             },
             {
-                "title": "406 - Ceux qui sortiront de l'Enfer",
-                "content": []
+                "title": "406 - Ceux qui sortiront de l'Enfer"
             },
             {
-                "title": "407 - La raison de l'éternité",
-                "content": []
+                "title": "407 - La raison de l'éternité"
             }
         ]
     },
@@ -5039,8 +4727,7 @@ const AUNE_SAGESSE = [
         "title": "81 - LA RÉPONSE",
         "subparts": [
             {
-                "title": "408 - La réponse",
-                "content": []
+                "title": "408 - La réponse"
             }
         ]
     },
@@ -5048,16 +4735,13 @@ const AUNE_SAGESSE = [
         "title": "82 - LA GÉNÉROSITÉ",
         "subparts": [
             {
-                "title": "409 - L'incitation à la générosité",
-                "content": []
+                "title": "409 - L'incitation à la générosité"
             },
             {
-                "title": "410 - La meilleure générosité",
-                "content": []
+                "title": "410 - La meilleure générosité"
             },
             {
-                "title": "411 - Les attributs de la personne généreuse",
-                "content": []
+                "title": "411 - Les attributs de la personne généreuse"
             }
         ]
     },
@@ -5065,24 +4749,19 @@ const AUNE_SAGESSE = [
         "title": "83 - LE VOISIN",
         "subparts": [
             {
-                "title": "412 - Le bon voisinage",
-                "content": []
+                "title": "412 - Le bon voisinage"
             },
             {
-                "title": "413 - Nuire à son voisin",
-                "content": []
+                "title": "413 - Nuire à son voisin"
             },
             {
-                "title": "414 - S'enquérir de son voisin",
-                "content": []
+                "title": "414 - S'enquérir de son voisin"
             },
             {
-                "title": "415 - Les droits du voisin",
-                "content": []
+                "title": "415 - Les droits du voisin"
             },
             {
-                "title": "416 - Les limites du voisinage",
-                "content": []
+                "title": "416 - Les limites du voisinage"
             }
         ]
     },
@@ -5090,88 +4769,67 @@ const AUNE_SAGESSE = [
         "title": "84 - L'AMOUR",
         "subparts": [
             {
-                "title": "417 - L'affection est une parenté",
-                "content": []
+                "title": "417 - L'affection est une parenté"
             },
             {
-                "title": "418 - Ce qui suscite l'amour",
-                "content": []
+                "title": "418 - Ce qui suscite l'amour"
             },
             {
-                "title": "419 - Celui envers qui il ne faut pas avoir d'affection",
-                "content": []
+                "title": "419 - Celui envers qui il ne faut pas avoir d'affection"
             },
             {
-                "title": "420 - L'amour [pour les choses de ce monde] empêche la connaissance [de la vérité]",
-                "content": []
+                "title": "420 - L'amour [pour les choses de ce monde] empêche la connaissance [de la vérité]"
             },
             {
-                "title": "421 - Le signe de l'amour",
-                "content": []
+                "title": "421 - Le signe de l'amour"
             },
             {
-                "title": "422 - L'amour ardent des croyants pour Allah",
-                "content": []
+                "title": "422 - L'amour ardent des croyants pour Allah"
             },
             {
-                "title": "423 - Ce qui suscite l'amour d'Allah",
-                "content": []
+                "title": "423 - Ce qui suscite l'amour d'Allah"
             },
             {
-                "title": "424 - Ceux qui sont aimés par Allah",
-                "content": []
+                "title": "424 - Ceux qui sont aimés par Allah"
             },
             {
-                "title": "425 - Les personnes détestées par Allah",
-                "content": []
+                "title": "425 - Les personnes détestées par Allah"
             },
             {
-                "title": "426 - Les personnes les plus aimées d'Allah",
-                "content": []
+                "title": "426 - Les personnes les plus aimées d'Allah"
             },
             {
-                "title": "427 - L'effet de l'amour d'Allah sur Ses créatures",
-                "content": []
+                "title": "427 - L'effet de l'amour d'Allah sur Ses créatures"
             },
             {
-                "title": "428 - Le critère de la considération auprès d'Allah",
-                "content": []
+                "title": "428 - Le critère de la considération auprès d'Allah"
             },
             {
-                "title": "429 - Le signe de l'amour de l'homme pour Allah",
-                "content": []
+                "title": "429 - Le signe de l'amour de l'homme pour Allah"
             },
             {
-                "title": "430 - La plus grande considération",
-                "content": []
+                "title": "430 - La plus grande considération"
             },
             {
-                "title": "431 - L'impossibilité de concilier l'amour d'Allah avec l'amour de ce monde",
-                "content": []
+                "title": "431 - L'impossibilité de concilier l'amour d'Allah avec l'amour de ce monde"
             },
             {
-                "title": "432 - L'incitation à l'amour d'Allah",
-                "content": []
+                "title": "432 - L'incitation à l'amour d'Allah"
             },
             {
-                "title": "433 - Aimer pour Allah",
-                "content": []
+                "title": "433 - Aimer pour Allah"
             },
             {
-                "title": "434 - L'amour pour le Prophète (s) et les Gens de sa demeure (as)",
-                "content": []
+                "title": "434 - L'amour pour le Prophète (s) et les Gens de sa demeure (as)"
             },
             {
-                "title": "435 - Les conditions de l'amour des Gens de la demeure prophétique (as)",
-                "content": []
+                "title": "435 - Les conditions de l'amour des Gens de la demeure prophétique (as)"
             },
             {
-                "title": "436 - La sincérité de l'amour",
-                "content": []
+                "title": "436 - La sincérité de l'amour"
             },
             {
-                "title": "437 - L'homme est avec ceux qu'il aime",
-                "content": []
+                "title": "437 - L'homme est avec ceux qu'il aime"
             }
         ]
     },
@@ -5179,28 +4837,22 @@ const AUNE_SAGESSE = [
         "title": "85 - L'EMPRISONNEMENT",
         "subparts": [
             {
-                "title": "438 - Les personnes qui peuvent être emprisonnées",
-                "content": []
+                "title": "438 - Les personnes qui peuvent être emprisonnées"
             },
             {
-                "title": "439 - L'emprisonnement du garant jusqu'à l'arrivée de celui dont il est le garant",
-                "content": []
+                "title": "439 - L'emprisonnement du garant jusqu'à l'arrivée de celui dont il est le garant"
             },
             {
-                "title": "440 - Celui qui est emprisonné à vie",
-                "content": []
+                "title": "440 - Celui qui est emprisonné à vie"
             },
             {
-                "title": "441 - L'emprisonnement après l'application de la sentence et la reconnaissance de la vérité",
-                "content": []
+                "title": "441 - L'emprisonnement après l'application de la sentence et la reconnaissance de la vérité"
             },
             {
-                "title": "442 - Les droits du prisonnier",
-                "content": []
+                "title": "442 - Les droits du prisonnier"
             },
             {
-                "title": "443 - L'avis du Prophète (s) concernant l'emprisonnement des suspects",
-                "content": []
+                "title": "443 - L'avis du Prophète (s) concernant l'emprisonnement des suspects"
             }
         ]
     },
@@ -5208,8 +4860,7 @@ const AUNE_SAGESSE = [
         "title": "86 - LE VOILE (ḤIJĀB)",
         "subparts": [
             {
-                "title": "444 - Le voile",
-                "content": []
+                "title": "444 - Le voile"
             }
         ]
     },
@@ -5217,48 +4868,37 @@ const AUNE_SAGESSE = [
         "title": "87 - LE PÈLERINAGE OBLIGATOIRE (ḤAJJ)",
         "subparts": [
             {
-                "title": "445 - Les règles du pèlerinage et sa vertu",
-                "content": []
+                "title": "445 - Les règles du pèlerinage et sa vertu"
             },
             {
-                "title": "446 - La philosophie du pèlerinage",
-                "content": []
+                "title": "446 - La philosophie du pèlerinage"
             },
             {
-                "title": "447 - Le pèlerinage repousse la pauvreté",
-                "content": []
+                "title": "447 - Le pèlerinage repousse la pauvreté"
             },
             {
-                "title": "448 - Ce par quoi s'achève le pèlerinage",
-                "content": []
+                "title": "448 - Ce par quoi s'achève le pèlerinage"
             },
             {
-                "title": "449 - Les conséquences de l'abandon du pèlerinage",
-                "content": []
+                "title": "449 - Les conséquences de l'abandon du pèlerinage"
             },
             {
-                "title": "450 - Déserter [le pèlerinage] à la Demeure",
-                "content": []
+                "title": "450 - Déserter [le pèlerinage] à la Demeure"
             },
             {
-                "title": "451 - Comme les criards sont nombreux et les [vrais] pèlerins rares",
-                "content": []
+                "title": "451 - Comme les criards sont nombreux et les [vrais] pèlerins rares"
             },
             {
-                "title": "452 - Le bon comportement du pèlerin",
-                "content": []
+                "title": "452 - Le bon comportement du pèlerin"
             },
             {
-                "title": "453 - Les règles liées à l'état de sacralité (iḥrām)",
-                "content": []
+                "title": "453 - Les règles liées à l'état de sacralité (iḥrām)"
             },
             {
-                "title": "454 - La rétribution de celui qui meurt sur le chemin du pèlerinage",
-                "content": []
+                "title": "454 - La rétribution de celui qui meurt sur le chemin du pèlerinage"
             },
             {
-                "title": "455 - La présence de l'Imām occulté durant la saison [du pèlerinage]",
-                "content": []
+                "title": "455 - La présence de l'Imām occulté durant la saison [du pèlerinage]"
             }
         ]
     },
@@ -5266,16 +4906,13 @@ const AUNE_SAGESSE = [
         "title": "88 - L'ARGUMENT",
         "subparts": [
             {
-                "title": "456 - Etablir l'argument",
-                "content": []
+                "title": "456 - Etablir l'argument"
             },
             {
-                "title": "457 - A Allah appartient l'argument décisif",
-                "content": []
+                "title": "457 - A Allah appartient l'argument décisif"
             },
             {
-                "title": "458 - Le plus certain et décisif des arguments",
-                "content": []
+                "title": "458 - Le plus certain et décisif des arguments"
             }
         ]
     },
@@ -5283,60 +4920,46 @@ const AUNE_SAGESSE = [
         "title": "89 - LE ḤADĪTH",
         "subparts": [
             {
-                "title": "459 - La valeur du fait de recueillir des ḥadīth",
-                "content": []
+                "title": "459 - La valeur du fait de recueillir des ḥadīth"
             },
             {
-                "title": "460 - Le mérite du narrateur de ḥadīth",
-                "content": []
+                "title": "460 - Le mérite du narrateur de ḥadīth"
             },
             {
-                "title": "461 - La récompense de celui qui a mémorisé quarante ḥadīth",
-                "content": []
+                "title": "461 - La récompense de celui qui a mémorisé quarante ḥadīth"
             },
             {
-                "title": "462 - La compréhension du ḥadīth",
-                "content": []
+                "title": "462 - La compréhension du ḥadīth"
             },
             {
-                "title": "463 - Mise en garde contre le mensonge vis-à-vis du Prophète (s)",
-                "content": []
+                "title": "463 - Mise en garde contre le mensonge vis-à-vis du Prophète (s)"
             },
             {
-                "title": "464 - L'interdiction de considérer comme un mensonge ce dont le caractère mensonger n'est pas avéré",
-                "content": []
+                "title": "464 - L'interdiction de considérer comme un mensonge ce dont le caractère mensonger n'est pas avéré"
             },
             {
-                "title": "465 - L'authenticité du ḥadīth et sa correspondance avec le Coran",
-                "content": []
+                "title": "465 - L'authenticité du ḥadīth et sa correspondance avec le Coran"
             },
             {
-                "title": "466 - L'authenticité du ḥadīth et sa correspondance avec la nature primordiale divine de l'homme",
-                "content": []
+                "title": "466 - L'authenticité du ḥadīth et sa correspondance avec la nature primordiale divine de l'homme"
             },
             {
-                "title": "467 - L'authenticité du ḥadīth et sa correspondance avec la vérité",
-                "content": []
+                "title": "467 - L'authenticité du ḥadīth et sa correspondance avec la vérité"
             },
             {
-                "title": "468 - La permission de transmettre un ḥadīth par sa signification",
-                "content": []
+                "title": "468 - La permission de transmettre un ḥadīth par sa signification"
             },
             {
-                "title": "469 - Ce qu'il faut respecter dans la transmission du ḥadīth",
-                "content": []
+                "title": "469 - Ce qu'il faut respecter dans la transmission du ḥadīth"
             },
             {
-                "title": "470 - Le ḥadīth des Gens de la demeure prophétique (Ahl al-Bayt) (as) est le ḥadīth du Messager d'Allah (s)",
-                "content": []
+                "title": "470 - Le ḥadīth des Gens de la demeure prophétique (Ahl al-Bayt) (as) est le ḥadīth du Messager d'Allah (s)"
             },
             {
-                "title": "471 - La globalité du Livre et de la sunna",
-                "content": []
+                "title": "471 - La globalité du Livre et de la sunna"
             },
             {
-                "title": "472 - Les ḥadīth équivoques",
-                "content": []
+                "title": "472 - Les ḥadīth équivoques"
             }
         ]
     },
@@ -5344,44 +4967,34 @@ const AUNE_SAGESSE = [
         "title": "90 - LES LIMITES ET LES PEINES LÉGALES (AL-ḤUDŪD)",
         "subparts": [
             {
-                "title": "473 - Toute chose a une limite",
-                "content": []
+                "title": "473 - Toute chose a une limite"
             },
             {
-                "title": "474 - Epargnez les peines légales",
-                "content": []
+                "title": "474 - Epargnez les peines légales"
             },
             {
-                "title": "475 - Le maintien des peines légales",
-                "content": []
+                "title": "475 - Le maintien des peines légales"
             },
             {
-                "title": "476 - Nulle intercession, nulle caution et nul serment dans les peines légales",
-                "content": []
+                "title": "476 - Nulle intercession, nulle caution et nul serment dans les peines légales"
             },
             {
-                "title": "477 - L'interdiction d'ajourner des peines légales",
-                "content": []
+                "title": "477 - L'interdiction d'ajourner des peines légales"
             },
             {
-                "title": "478 - L'interdiction de transgresser les limites établies par Allah",
-                "content": []
+                "title": "478 - L'interdiction de transgresser les limites établies par Allah"
             },
             {
-                "title": "479 - L'application de la peine légale sur une terre ennemie",
-                "content": []
+                "title": "479 - L'application de la peine légale sur une terre ennemie"
             },
             {
-                "title": "480 - Le rôle de l'application des peines légales dans l'expiation du péché",
-                "content": []
+                "title": "480 - Le rôle de l'application des peines légales dans l'expiation du péché"
             },
             {
-                "title": "481 - L'interdiction d'insulter la personne sujette à une peine légale",
-                "content": []
+                "title": "481 - L'interdiction d'insulter la personne sujette à une peine légale"
             },
             {
-                "title": "482 - Les personnes exemptées de peines légales",
-                "content": []
+                "title": "482 - Les personnes exemptées de peines légales"
             }
         ]
     },
@@ -5389,44 +5002,34 @@ const AUNE_SAGESSE = [
         "title": "91 - LA GUERRE",
         "subparts": [
             {
-                "title": "483 - Les motifs de la guerre",
-                "content": []
+                "title": "483 - Les motifs de la guerre"
             },
             {
-                "title": "484 - Surprendre l'ennemi",
-                "content": []
+                "title": "484 - Surprendre l'ennemi"
             },
             {
-                "title": "485 - Ce qu'il faut observer avant la guerre",
-                "content": []
+                "title": "485 - Ce qu'il faut observer avant la guerre"
             },
             {
-                "title": "486 - L'avant-garde de l'armée",
-                "content": []
+                "title": "486 - L'avant-garde de l'armée"
             },
             {
-                "title": "487 - Instructions militaires",
-                "content": []
+                "title": "487 - Instructions militaires"
             },
             {
-                "title": "488 - La guerre est une ruse",
-                "content": []
+                "title": "488 - La guerre est une ruse"
             },
             {
-                "title": "489 - L'interdiction de fuir lors du combat",
-                "content": []
+                "title": "489 - L'interdiction de fuir lors du combat"
             },
             {
-                "title": "490 - Mise en garde contre le fait de combattre un musulman",
-                "content": []
+                "title": "490 - Mise en garde contre le fait de combattre un musulman"
             },
             {
-                "title": "491 - L'invocation lors de la guerre",
-                "content": []
+                "title": "491 - L'invocation lors de la guerre"
             },
             {
-                "title": "492 - La participation des femmes à la guerre",
-                "content": []
+                "title": "492 - La participation des femmes à la guerre"
             }
         ]
     },
@@ -5434,8 +5037,7 @@ const AUNE_SAGESSE = [
         "title": "92 - LE BELLICISTE",
         "subparts": [
             {
-                "title": "493 - La punition du belliciste",
-                "content": []
+                "title": "493 - La punition du belliciste"
             }
         ]
     },
@@ -5443,16 +5045,13 @@ const AUNE_SAGESSE = [
         "title": "93 - LA LIBERTÉ",
         "subparts": [
             {
-                "title": "494 - L'importance de la liberté",
-                "content": []
+                "title": "494 - L'importance de la liberté"
             },
             {
-                "title": "495 - Tous les êtres humains sont libres",
-                "content": []
+                "title": "495 - Tous les êtres humains sont libres"
             },
             {
-                "title": "496 - Les traits caractéristiques de l'homme libre",
-                "content": []
+                "title": "496 - Les traits caractéristiques de l'homme libre"
             }
         ]
     },
@@ -5460,16 +5059,13 @@ const AUNE_SAGESSE = [
         "title": "94 - LA CONVOITISE",
         "subparts": [
             {
-                "title": "497 - Le blâme de la convoitise",
-                "content": []
+                "title": "497 - Le blâme de la convoitise"
             },
             {
-                "title": "498 - Le blâme de la personne qui convoite",
-                "content": []
+                "title": "498 - Le blâme de la personne qui convoite"
             },
             {
-                "title": "499 - La source de la convoitise",
-                "content": []
+                "title": "499 - La source de la convoitise"
             }
         ]
     },
@@ -5477,8 +5073,7 @@ const AUNE_SAGESSE = [
         "title": "95 - LA PROFESSION",
         "subparts": [
             {
-                "title": "500 - L'importance de la profession",
-                "content": []
+                "title": "500 - L'importance de la profession"
             }
         ]
     },
@@ -5486,16 +5081,13 @@ const AUNE_SAGESSE = [
         "title": "96 - L'ILLICITE (ḤARĀM)",
         "subparts": [
             {
-                "title": "501 - Eviter l'illicite",
-                "content": []
+                "title": "501 - Eviter l'illicite"
             },
             {
-                "title": "502 - Consommer l'illicite",
-                "content": []
+                "title": "502 - Consommer l'illicite"
             },
             {
-                "title": "503 - La rétribution de celui qui peut commettre l'illicite et qui s'en éloigne",
-                "content": []
+                "title": "503 - La rétribution de celui qui peut commettre l'illicite et qui s'en éloigne"
             }
         ]
     },
@@ -5503,12 +5095,10 @@ const AUNE_SAGESSE = [
         "title": "97 - LE PARTI",
         "subparts": [
             {
-                "title": "504 - Le parti d'Allah",
-                "content": []
+                "title": "504 - Le parti d'Allah"
             },
             {
-                "title": "505 - Le parti du Diable",
-                "content": []
+                "title": "505 - Le parti du Diable"
             }
         ]
     },
@@ -5516,28 +5106,22 @@ const AUNE_SAGESSE = [
         "title": "98 - LA PRUDENCE",
         "subparts": [
             {
-                "title": "506 - La valeur de la prudence",
-                "content": []
+                "title": "506 - La valeur de la prudence"
             },
             {
-                "title": "507 - Le danger de ne pas considérer les conséquences des choses",
-                "content": []
+                "title": "507 - Le danger de ne pas considérer les conséquences des choses"
             },
             {
-                "title": "508 - La prudence et la détermination",
-                "content": []
+                "title": "508 - La prudence et la détermination"
             },
             {
-                "title": "509 - La signification de la prudence",
-                "content": []
+                "title": "509 - La signification de la prudence"
             },
             {
-                "title": "510 - La personne prudente",
-                "content": []
+                "title": "510 - La personne prudente"
             },
             {
-                "title": "511 - La plus prudente des personnes",
-                "content": []
+                "title": "511 - La plus prudente des personnes"
             }
         ]
     },
@@ -5545,24 +5129,19 @@ const AUNE_SAGESSE = [
         "title": "99 - LE CHAGRIN",
         "subparts": [
             {
-                "title": "512 - Les préjudices du chagrin",
-                "content": []
+                "title": "512 - Les préjudices du chagrin"
             },
             {
-                "title": "513 - Ce qui suscite le chagrin",
-                "content": []
+                "title": "513 - Ce qui suscite le chagrin"
             },
             {
-                "title": "514 - Le traitement du chagrin",
-                "content": []
+                "title": "514 - Le traitement du chagrin"
             },
             {
-                "title": "515 - La cause du chagrin et de la joie sans raison connue",
-                "content": []
+                "title": "515 - La cause du chagrin et de la joie sans raison connue"
             },
             {
-                "title": "516 - Le chagrin louable",
-                "content": []
+                "title": "516 - Le chagrin louable"
             }
         ]
     },
@@ -5570,52 +5149,40 @@ const AUNE_SAGESSE = [
         "title": "100 - LES COMPTES",
         "subparts": [
             {
-                "title": "517 - Le Jour des comptes",
-                "content": []
+                "title": "517 - Le Jour des comptes"
             },
             {
-                "title": "518 - Incitation à procéder à l'examen de sa personne",
-                "content": []
+                "title": "518 - Incitation à procéder à l'examen de sa personne"
             },
             {
-                "title": "519 - Le fruit de l'examen de soi",
-                "content": []
+                "title": "519 - Le fruit de l'examen de soi"
             },
             {
-                "title": "520 - La première chose au sujet de laquelle l'être humain sera interrogé",
-                "content": []
+                "title": "520 - La première chose au sujet de laquelle l'être humain sera interrogé"
             },
             {
-                "title": "521 - Les choses qui ne seront pas l'objet de comptes",
-                "content": []
+                "title": "521 - Les choses qui ne seront pas l'objet de comptes"
             },
             {
-                "title": "522 - Les choses qui seront l'objet de comptes",
-                "content": []
+                "title": "522 - Les choses qui seront l'objet de comptes"
             },
             {
-                "title": "523 - Ce qui facilitera les comptes du Jour du Jugement",
-                "content": []
+                "title": "523 - Ce qui facilitera les comptes du Jour du Jugement"
             },
             {
-                "title": "524 - Les différentes catégories de gens durant les comptes",
-                "content": []
+                "title": "524 - Les différentes catégories de gens durant les comptes"
             },
             {
-                "title": "525 - Les comptes difficiles",
-                "content": []
+                "title": "525 - Les comptes difficiles"
             },
             {
-                "title": "526 - Celui dont on dressera facilement les comptes",
-                "content": []
+                "title": "526 - Celui dont on dressera facilement les comptes"
             },
             {
-                "title": "527 - Celui qui accèdera au Paradis sans que l'on ait dressé ses comptes",
-                "content": []
+                "title": "527 - Celui qui accèdera au Paradis sans que l'on ait dressé ses comptes"
             },
             {
-                "title": "528 - Celui qui ira en Enfer sans que l'on ait dressé ses comptes",
-                "content": []
+                "title": "528 - Celui qui ira en Enfer sans que l'on ait dressé ses comptes"
             }
         ]
     },
@@ -5623,20 +5190,16 @@ const AUNE_SAGESSE = [
         "title": "101 - LA JALOUSIE",
         "subparts": [
             {
-                "title": "529 - La nuisance de la jalousie",
-                "content": []
+                "title": "529 - La nuisance de la jalousie"
             },
             {
-                "title": "530 - Toute personne étant l'objet de grâces est jalousée",
-                "content": []
+                "title": "530 - Toute personne étant l'objet de grâces est jalousée"
             },
             {
-                "title": "531 - La jalousie et la foi",
-                "content": []
+                "title": "531 - La jalousie et la foi"
             },
             {
-                "title": "532 - Les signes caractéristiques du jaloux",
-                "content": []
+                "title": "532 - Les signes caractéristiques du jaloux"
             }
         ]
     },
@@ -5644,8 +5207,7 @@ const AUNE_SAGESSE = [
         "title": "102 - LE REGRET",
         "subparts": [
             {
-                "title": "533 - La personne qui a le plus grand regret",
-                "content": []
+                "title": "533 - La personne qui a le plus grand regret"
             }
         ]
     },
@@ -5653,12 +5215,10 @@ const AUNE_SAGESSE = [
         "title": "103 - LA BONNE ACTION",
         "subparts": [
             {
-                "title": "534 - Les bénédictions de la bonne action",
-                "content": []
+                "title": "534 - Les bénédictions de la bonne action"
             },
             {
-                "title": "535 - La multiplication de la récompense des bonnes actions",
-                "content": []
+                "title": "535 - La multiplication de la récompense des bonnes actions"
             }
         ]
     },
@@ -5666,24 +5226,19 @@ const AUNE_SAGESSE = [
         "title": "104 - LA BIENFAISANCE (IḤSĀN)",
         "subparts": [
             {
-                "title": "536 - La signification de la bienfaisance",
-                "content": []
+                "title": "536 - La signification de la bienfaisance"
             },
             {
-                "title": "537 - Celui qui est bienfaisant est bienfaisant vis-à-vis de sa propre âme",
-                "content": []
+                "title": "537 - Celui qui est bienfaisant est bienfaisant vis-à-vis de sa propre âme"
             },
             {
-                "title": "538 - La vertu de la bienfaisance",
-                "content": []
+                "title": "538 - La vertu de la bienfaisance"
             },
             {
-                "title": "539 - La bienfaisance vis-à-vis du malfaiteur",
-                "content": []
+                "title": "539 - La bienfaisance vis-à-vis du malfaiteur"
             },
             {
-                "title": "540 - Les conséquences de la bienfaisance des polythéistes",
-                "content": []
+                "title": "540 - Les conséquences de la bienfaisance des polythéistes"
             }
         ]
     },
@@ -5691,16 +5246,13 @@ const AUNE_SAGESSE = [
         "title": "105 - LA MÉMOIRE",
         "subparts": [
             {
-                "title": "541 - La grâce de la mémoire",
-                "content": []
+                "title": "541 - La grâce de la mémoire"
             },
             {
-                "title": "542 - La mémorisation durant l'enfance",
-                "content": []
+                "title": "542 - La mémorisation durant l'enfance"
             },
             {
-                "title": "543 - Ce qui renforce la mémoire",
-                "content": []
+                "title": "543 - Ce qui renforce la mémoire"
             }
         ]
     },
@@ -5708,12 +5260,10 @@ const AUNE_SAGESSE = [
         "title": "106 - LA RANCUNE",
         "subparts": [
             {
-                "title": "544 - Le blâme de la rancune",
-                "content": []
+                "title": "544 - Le blâme de la rancune"
             },
             {
-                "title": "545 - La disparition rapide de la rancune du croyant",
-                "content": []
+                "title": "545 - La disparition rapide de la rancune du croyant"
             }
         ]
     },
@@ -5721,12 +5271,10 @@ const AUNE_SAGESSE = [
         "title": "107 - LE DÉNIGREMENT",
         "subparts": [
             {
-                "title": "546 - L'interdiction de dénigrer les gens",
-                "content": []
+                "title": "546 - L'interdiction de dénigrer les gens"
             },
             {
-                "title": "547 - Mise en garde contre le fait de dénigrer un croyant",
-                "content": []
+                "title": "547 - Mise en garde contre le fait de dénigrer un croyant"
             }
         ]
     },
@@ -5734,32 +5282,25 @@ const AUNE_SAGESSE = [
         "title": "108 - LA VÉRITÉ",
         "subparts": [
             {
-                "title": "548 - La vérité",
-                "content": []
+                "title": "548 - La vérité"
             },
             {
-                "title": "549 - Le poids de la vérité",
-                "content": []
+                "title": "549 - Le poids de la vérité"
             },
             {
-                "title": "550 - L'obligation de dire la vérité même à son détriment",
-                "content": []
+                "title": "550 - L'obligation de dire la vérité même à son détriment"
             },
             {
-                "title": "551 - Dire la vérité en état de satisfaction ou de colère",
-                "content": []
+                "title": "551 - Dire la vérité en état de satisfaction ou de colère"
             },
             {
-                "title": "552 - L'acceptation de la vérité",
-                "content": []
+                "title": "552 - L'acceptation de la vérité"
             },
             {
-                "title": "553 - Le critère de la connaissance de la vérité",
-                "content": []
+                "title": "553 - Le critère de la connaissance de la vérité"
             },
             {
-                "title": "554 - Toute vérité peut être en faveur ou contre quelqu'un",
-                "content": []
+                "title": "554 - Toute vérité peut être en faveur ou contre quelqu'un"
             }
         ]
     },
@@ -5767,20 +5308,16 @@ const AUNE_SAGESSE = [
         "title": "109 - LES DROITS",
         "subparts": [
             {
-                "title": "555 - Les droits d'Allah le Très-Haut",
-                "content": []
+                "title": "555 - Les droits d'Allah le Très-Haut"
             },
             {
-                "title": "556 - Donner la priorité aux droits des gens",
-                "content": []
+                "title": "556 - Donner la priorité aux droits des gens"
             },
             {
-                "title": "557 - Le plus grand des droits",
-                "content": []
+                "title": "557 - Le plus grand des droits"
             },
             {
-                "title": "558 - Les droits des frères",
-                "content": []
+                "title": "558 - Les droits des frères"
             }
         ]
     },
@@ -5788,12 +5325,10 @@ const AUNE_SAGESSE = [
         "title": "110 - L'ACCAPAREMENT",
         "subparts": [
             {
-                "title": "559 - Le blâme de l'accaparement",
-                "content": []
+                "title": "559 - Le blâme de l'accaparement"
             },
             {
-                "title": "560 - Le blâme de l'accapareur",
-                "content": []
+                "title": "560 - Le blâme de l'accapareur"
             }
         ]
     },
@@ -5801,40 +5336,31 @@ const AUNE_SAGESSE = [
         "title": "111 - LA SAGESSE",
         "subparts": [
             {
-                "title": "561 - La vertu de la sagesse",
-                "content": []
+                "title": "561 - La vertu de la sagesse"
             },
             {
-                "title": "562 - La sagesse est le bien perdu du croyant",
-                "content": []
+                "title": "562 - La sagesse est le bien perdu du croyant"
             },
             {
-                "title": "563 - Ce que la personne sage ne doit pas faire",
-                "content": []
+                "title": "563 - Ce que la personne sage ne doit pas faire"
             },
             {
-                "title": "564 - L'interprétation de la sagesse",
-                "content": []
+                "title": "564 - L'interprétation de la sagesse"
             },
             {
-                "title": "565 - La source de la sagesse",
-                "content": []
+                "title": "565 - La source de la sagesse"
             },
             {
-                "title": "566 - Ce qui suscite la sagesse",
-                "content": []
+                "title": "566 - Ce qui suscite la sagesse"
             },
             {
-                "title": "567 - Ce qui fait obstacle à la sagesse",
-                "content": []
+                "title": "567 - Ce qui fait obstacle à la sagesse"
             },
             {
-                "title": "568 - Les effets de la sagesse",
-                "content": []
+                "title": "568 - Les effets de la sagesse"
             },
             {
-                "title": "569 - Préserver la sagesse",
-                "content": []
+                "title": "569 - Préserver la sagesse"
             }
         ]
     },
@@ -5842,16 +5368,13 @@ const AUNE_SAGESSE = [
         "title": "112 - LE SERMENT",
         "subparts": [
             {
-                "title": "570 - L'interdiction de prêter serment en utilisant le nom d'Allah - loué soit-Il",
-                "content": []
+                "title": "570 - L'interdiction de prêter serment en utilisant le nom d'Allah - loué soit-Il"
             },
             {
-                "title": "571 - Mise en garde contre le serment mensonger",
-                "content": []
+                "title": "571 - Mise en garde contre le serment mensonger"
             },
             {
-                "title": "572 - La façon de faire prêter serment à un oppresseur",
-                "content": []
+                "title": "572 - La façon de faire prêter serment à un oppresseur"
             }
         ]
     },
@@ -5859,16 +5382,13 @@ const AUNE_SAGESSE = [
         "title": "113 - LE LICITE (ḤALĀL)",
         "subparts": [
             {
-                "title": "573 - L'incitation à manger ce qui est licite",
-                "content": []
+                "title": "573 - L'incitation à manger ce qui est licite"
             },
             {
-                "title": "574 - La difficulté de la quête du licite",
-                "content": []
+                "title": "574 - La difficulté de la quête du licite"
             },
             {
-                "title": "575 - Il n'est pas licite d'utiliser ce qui appartient au croyant sauf avec son accord",
-                "content": []
+                "title": "575 - Il n'est pas licite d'utiliser ce qui appartient au croyant sauf avec son accord"
             }
         ]
     },
@@ -5876,24 +5396,19 @@ const AUNE_SAGESSE = [
         "title": "114 - LA CLÉMENCE",
         "subparts": [
             {
-                "title": "576 - La vertu de la clémence",
-                "content": []
+                "title": "576 - La vertu de la clémence"
             },
             {
-                "title": "577 - Ce qui suscite la clémence",
-                "content": []
+                "title": "577 - Ce qui suscite la clémence"
             },
             {
-                "title": "578 - Les fruits de la clémence",
-                "content": []
+                "title": "578 - Les fruits de la clémence"
             },
             {
-                "title": "579 - L'interprétation de la clémence",
-                "content": []
+                "title": "579 - L'interprétation de la clémence"
             },
             {
-                "title": "580 - La clémence lors de la colère",
-                "content": []
+                "title": "580 - La clémence lors de la colère"
             }
         ]
     },
@@ -5901,24 +5416,19 @@ const AUNE_SAGESSE = [
         "title": "115 - LA STUPIDITÉ",
         "subparts": [
             {
-                "title": "581 - Le blâme de la stupidité",
-                "content": []
+                "title": "581 - Le blâme de la stupidité"
             },
             {
-                "title": "582 - Les caractéristiques du sot",
-                "content": []
+                "title": "582 - Les caractéristiques du sot"
             },
             {
-                "title": "583 - Prendre le sot pour compagnon",
-                "content": []
+                "title": "583 - Prendre le sot pour compagnon"
             },
             {
-                "title": "584 - Le plus sot",
-                "content": []
+                "title": "584 - Le plus sot"
             },
             {
-                "title": "585 - La réponse au sot",
-                "content": []
+                "title": "585 - La réponse au sot"
             }
         ]
     },
@@ -5926,12 +5436,10 @@ const AUNE_SAGESSE = [
         "title": "116 - LE BAIN",
         "subparts": [
             {
-                "title": "586 - L'incitation à se laver",
-                "content": []
+                "title": "586 - L'incitation à se laver"
             },
             {
-                "title": "587 - Les conditions du bain",
-                "content": []
+                "title": "587 - Les conditions du bain"
             }
         ]
     },
@@ -5939,24 +5447,19 @@ const AUNE_SAGESSE = [
         "title": "117 - LE BESOIN",
         "subparts": [
             {
-                "title": "588 - Le blâme du fait de demander une chose dont on a besoin",
-                "content": []
+                "title": "588 - Le blâme du fait de demander une chose dont on a besoin"
             },
             {
-                "title": "589 - La satisfaction des besoins",
-                "content": []
+                "title": "589 - La satisfaction des besoins"
             },
             {
-                "title": "590 - Celui qui s'abstient de satisfaire le besoin de son frère",
-                "content": []
+                "title": "590 - Celui qui s'abstient de satisfaire le besoin de son frère"
             },
             {
-                "title": "591 - Entreprendre de satisfaire les besoins d'autrui",
-                "content": []
+                "title": "591 - Entreprendre de satisfaire les besoins d'autrui"
             },
             {
-                "title": "592 - La façon d'exprimer un besoin",
-                "content": []
+                "title": "592 - La façon d'exprimer un besoin"
             }
         ]
     },
@@ -5964,8 +5467,7 @@ const AUNE_SAGESSE = [
         "title": "118 - LA PRÉCAUTION",
         "subparts": [
             {
-                "title": "593 - Fais preuve de précaution vis-à-vis de ta religion",
-                "content": []
+                "title": "593 - Fais preuve de précaution vis-à-vis de ta religion"
             }
         ]
     },
@@ -5973,20 +5475,16 @@ const AUNE_SAGESSE = [
         "title": "119 - LA VIE",
         "subparts": [
             {
-                "title": "594 - La valeur de la vie",
-                "content": []
+                "title": "594 - La valeur de la vie"
             },
             {
-                "title": "595 - L'eau et la vie",
-                "content": []
+                "title": "595 - L'eau et la vie"
             },
             {
-                "title": "596 - Ce qui est meilleur que la vie",
-                "content": []
+                "title": "596 - Ce qui est meilleur que la vie"
             },
             {
-                "title": "597 - La vraie vie",
-                "content": []
+                "title": "597 - La vraie vie"
             }
         ]
     },
@@ -5994,8 +5492,7 @@ const AUNE_SAGESSE = [
         "title": "120 - LES ANIMAUX",
         "subparts": [
             {
-                "title": "598 - Les droits des animaux",
-                "content": []
+                "title": "598 - Les droits des animaux"
             }
         ]
     },
@@ -6003,28 +5500,22 @@ const AUNE_SAGESSE = [
         "title": "121 - LA PUDEUR",
         "subparts": [
             {
-                "title": "599 - La vertu de la pudeur",
-                "content": []
+                "title": "599 - La vertu de la pudeur"
             },
             {
-                "title": "600 - La pudeur et la foi",
-                "content": []
+                "title": "600 - La pudeur et la foi"
             },
             {
-                "title": "601 - La pudeur blâmable",
-                "content": []
+                "title": "601 - La pudeur blâmable"
             },
             {
-                "title": "602 - Les conséquences de l'absence de pudeur",
-                "content": []
+                "title": "602 - Les conséquences de l'absence de pudeur"
             },
             {
-                "title": "603 - Faire preuve de pudeur vis-à-vis d'Allah",
-                "content": []
+                "title": "603 - Faire preuve de pudeur vis-à-vis d'Allah"
             },
             {
-                "title": "604 - Le sommet de la pudeur",
-                "content": []
+                "title": "604 - Le sommet de la pudeur"
             }
         ]
     },
@@ -6032,12 +5523,10 @@ const AUNE_SAGESSE = [
         "title": "122 - L'ISSUE",
         "subparts": [
             {
-                "title": "605 - Le danger d'une issue funeste",
-                "content": []
+                "title": "605 - Le danger d'une issue funeste"
             },
             {
-                "title": "606 - Ce qui suscite une bonne issue",
-                "content": []
+                "title": "606 - Ce qui suscite une bonne issue"
             }
         ]
     },
@@ -6045,8 +5534,7 @@ const AUNE_SAGESSE = [
         "title": "123 - LE SERVICE",
         "subparts": [
             {
-                "title": "607 - La vertu de rendre service aux musulmans",
-                "content": []
+                "title": "607 - La vertu de rendre service aux musulmans"
             }
         ]
     },
@@ -6054,16 +5542,13 @@ const AUNE_SAGESSE = [
         "title": "124 - LES KHARIDJITES",
         "subparts": [
             {
-                "title": "608 - Les hérétiques",
-                "content": []
+                "title": "608 - Les hérétiques"
             },
             {
-                "title": "609 - L'Imām 'Alī (as) après l'élimination des Kharidjites",
-                "content": []
+                "title": "609 - L'Imām 'Alī (as) après l'élimination des Kharidjites"
             },
             {
-                "title": "610 - L'interdiction de l'Imām (as) de tuer les Kharidjites après lui",
-                "content": []
+                "title": "610 - L'interdiction de l'Imām (as) de tuer les Kharidjites après lui"
             }
         ]
     },
@@ -6071,16 +5556,13 @@ const AUNE_SAGESSE = [
         "title": "125 - LA PERTE",
         "subparts": [
             {
-                "title": "611 - L'attribut du perdant",
-                "content": []
+                "title": "611 - L'attribut du perdant"
             },
             {
-                "title": "612 - Perdre ce monde et l'Au-delà",
-                "content": []
+                "title": "612 - Perdre ce monde et l'Au-delà"
             },
             {
-                "title": "613 - Les plus grands perdants",
-                "content": []
+                "title": "613 - Les plus grands perdants"
             }
         ]
     },
@@ -6088,12 +5570,10 @@ const AUNE_SAGESSE = [
         "title": "126 - L'HUMILITÉ",
         "subparts": [
             {
-                "title": "614 - La vertu de l'humilité",
-                "content": []
+                "title": "614 - La vertu de l'humilité"
             },
             {
-                "title": "615 - Les attributs des humbles",
-                "content": []
+                "title": "615 - Les attributs des humbles"
             }
         ]
     },
@@ -6101,8 +5581,7 @@ const AUNE_SAGESSE = [
         "title": "127 - LE SERMON",
         "subparts": [
             {
-                "title": "616 - Le sermon",
-                "content": []
+                "title": "616 - Le sermon"
             }
         ]
     },
@@ -6110,8 +5589,7 @@ const AUNE_SAGESSE = [
         "title": "128 - L'ÉCRITURE",
         "subparts": [
             {
-                "title": "617 - L'écriture",
-                "content": []
+                "title": "617 - L'écriture"
             }
         ]
     },
@@ -6119,40 +5597,31 @@ const AUNE_SAGESSE = [
         "title": "129 - LA SINCÉRITÉ",
         "subparts": [
             {
-                "title": "618 - La vertu de la sincérité",
-                "content": []
+                "title": "618 - La vertu de la sincérité"
             },
             {
-                "title": "619 - La difficulté de la sincérité",
-                "content": []
+                "title": "619 - La difficulté de la sincérité"
             },
             {
-                "title": "620 - Peu d'actes suffisent à condition qu'ils soient sincères",
-                "content": []
+                "title": "620 - Peu d'actes suffisent à condition qu'ils soient sincères"
             },
             {
-                "title": "621 - Le comportement d'Allah vis-à-vis des sincères avec Son pur secret",
-                "content": []
+                "title": "621 - Le comportement d'Allah vis-à-vis des sincères avec Son pur secret"
             },
             {
-                "title": "622 - Le rôle de la sincérité dans l'acceptation des actes",
-                "content": []
+                "title": "622 - Le rôle de la sincérité dans l'acceptation des actes"
             },
             {
-                "title": "623 - La pure sincérité",
-                "content": []
+                "title": "623 - La pure sincérité"
             },
             {
-                "title": "624 - Les signes caractéristiques de la personne sincère",
-                "content": []
+                "title": "624 - Les signes caractéristiques de la personne sincère"
             },
             {
-                "title": "625 - Ce qui suscite la sincérité",
-                "content": []
+                "title": "625 - Ce qui suscite la sincérité"
             },
             {
-                "title": "626 - Les effets de la sincérité",
-                "content": []
+                "title": "626 - Les effets de la sincérité"
             }
         ]
     },
@@ -6160,24 +5629,19 @@ const AUNE_SAGESSE = [
         "title": "130 - LA DIVERGENCE",
         "subparts": [
             {
-                "title": "627 - Les hommes formaient à l'origine une seule communauté",
-                "content": []
+                "title": "627 - Les hommes formaient à l'origine une seule communauté"
             },
             {
-                "title": "628 - L'incitation au rejet des divergences",
-                "content": []
+                "title": "628 - L'incitation au rejet des divergences"
             },
             {
-                "title": "629 - L'interprétation du ḥadīth «La séparation de ma communauté est une miséricorde»",
-                "content": []
+                "title": "629 - L'interprétation du ḥadīth «La séparation de ma communauté est une miséricorde»"
             },
             {
-                "title": "630 - Le sens du groupe et de la division",
-                "content": []
+                "title": "630 - Le sens du groupe et de la division"
             },
             {
-                "title": "631 - La raison de la division",
-                "content": []
+                "title": "631 - La raison de la division"
             }
         ]
     },
@@ -6185,20 +5649,16 @@ const AUNE_SAGESSE = [
         "title": "131 - LA CRÉATION",
         "subparts": [
             {
-                "title": "632 - L'origine de la création",
-                "content": []
+                "title": "632 - L'origine de la création"
             },
             {
-                "title": "633 - La première chose qu'Allah le Tout-Puissant a créée",
-                "content": []
+                "title": "633 - La première chose qu'Allah le Tout-Puissant a créée"
             },
             {
-                "title": "634 - La création du monde",
-                "content": []
+                "title": "634 - La création du monde"
             },
             {
-                "title": "635 - La grandeur de ce qui nous est caché de la création",
-                "content": []
+                "title": "635 - La grandeur de ce qui nous est caché de la création"
             }
         ]
     },
@@ -6206,16 +5666,13 @@ const AUNE_SAGESSE = [
         "title": "132 - LE CRÉATEUR",
         "subparts": [
             {
-                "title": "636 - L'appel de la raison pour repousser le préjudice possible",
-                "content": []
+                "title": "636 - L'appel de la raison pour repousser le préjudice possible"
             },
             {
-                "title": "637 - Quelques preuves de l'existence du Créateur",
-                "content": []
+                "title": "637 - Quelques preuves de l'existence du Créateur"
             },
             {
-                "title": "638 - Attribuer la création à la nature",
-                "content": []
+                "title": "638 - Attribuer la création à la nature"
             }
         ]
     },
@@ -6223,52 +5680,40 @@ const AUNE_SAGESSE = [
         "title": "133 - LE CARACTÈRE",
         "subparts": [
             {
-                "title": "639 - L'importance du bon caractère",
-                "content": []
+                "title": "639 - L'importance du bon caractère"
             },
             {
-                "title": "640 - La bénédiction du bon caractère dans ce monde",
-                "content": []
+                "title": "640 - La bénédiction du bon caractère dans ce monde"
             },
             {
-                "title": "641 - Les bénédictions du bon caractère dans l'Au-delà",
-                "content": []
+                "title": "641 - Les bénédictions du bon caractère dans l'Au-delà"
             },
             {
-                "title": "642 - La signification du bon caractère",
-                "content": []
+                "title": "642 - La signification du bon caractère"
             },
             {
-                "title": "643 - Les hautes vertus morales",
-                "content": []
+                "title": "643 - Les hautes vertus morales"
             },
             {
-                "title": "644 - L'explication des nobles vertus morales",
-                "content": []
+                "title": "644 - L'explication des nobles vertus morales"
             },
             {
-                "title": "645 - Les meilleures des nobles vertus",
-                "content": []
+                "title": "645 - Les meilleures des nobles vertus"
             },
             {
-                "title": "646 - Les fruits du bon caractère",
-                "content": []
+                "title": "646 - Les fruits du bon caractère"
             },
             {
-                "title": "647 - Le blâme du mauvais caractère",
-                "content": []
+                "title": "647 - Le blâme du mauvais caractère"
             },
             {
-                "title": "648 - L'issue finale du mauvais caractère",
-                "content": []
+                "title": "648 - L'issue finale du mauvais caractère"
             },
             {
-                "title": "649 - Les meilleures vertus morales",
-                "content": []
+                "title": "649 - Les meilleures vertus morales"
             },
             {
-                "title": "650 - Les vertus sont liées les unes aux autres",
-                "content": []
+                "title": "650 - Les vertus sont liées les unes aux autres"
             }
         ]
     },
@@ -6276,32 +5721,25 @@ const AUNE_SAGESSE = [
         "title": "134 - L'ALCOOL",
         "subparts": [
             {
-                "title": "651 - Le blâme de la consommation d'alcool",
-                "content": []
+                "title": "651 - Le blâme de la consommation d'alcool"
             },
             {
-                "title": "652 - La raison de l'interdiction de l'alcool",
-                "content": []
+                "title": "652 - La raison de l'interdiction de l'alcool"
             },
             {
-                "title": "653 - Les conséquences de la consommation d'alcool",
-                "content": []
+                "title": "653 - Les conséquences de la consommation d'alcool"
             },
             {
-                "title": "654 - Le comportement envers le buveur d'alcool",
-                "content": []
+                "title": "654 - Le comportement envers le buveur d'alcool"
             },
             {
-                "title": "655 - Comment sera ressuscité le buveur d'alcool",
-                "content": []
+                "title": "655 - Comment sera ressuscité le buveur d'alcool"
             },
             {
-                "title": "656 - L'incitation à se sevrer même si c'est pour une autre raison qu'Allah",
-                "content": []
+                "title": "656 - L'incitation à se sevrer même si c'est pour une autre raison qu'Allah"
             },
             {
-                "title": "657 - L'interdiction de consommer ce qui produit le même effet que l'alcool",
-                "content": []
+                "title": "657 - L'interdiction de consommer ce qui produit le même effet que l'alcool"
             }
         ]
     },
@@ -6309,40 +5747,31 @@ const AUNE_SAGESSE = [
         "title": "135 - LA CRAINTE",
         "subparts": [
             {
-                "title": "658 - La vertu de la crainte d'Allah",
-                "content": []
+                "title": "658 - La vertu de la crainte d'Allah"
             },
             {
-                "title": "659 - Le croyant est entre deux craintes",
-                "content": []
+                "title": "659 - Le croyant est entre deux craintes"
             },
             {
-                "title": "660 - Le croyant est entre la crainte et l'espoir",
-                "content": []
+                "title": "660 - Le croyant est entre la crainte et l'espoir"
             },
             {
-                "title": "661 - Les signes caractéristiques de la personne qui craint",
-                "content": []
+                "title": "661 - Les signes caractéristiques de la personne qui craint"
             },
             {
-                "title": "662 - La signification de la crainte d'Allah",
-                "content": []
+                "title": "662 - La signification de la crainte d'Allah"
             },
             {
-                "title": "663 - Les fruits de la crainte d'Allah",
-                "content": []
+                "title": "663 - Les fruits de la crainte d'Allah"
             },
             {
-                "title": "664 - Mise en garde contre le fait de craindre un autre qu'Allah",
-                "content": []
+                "title": "664 - Mise en garde contre le fait de craindre un autre qu'Allah"
             },
             {
-                "title": "665 - La manière dont il faut agir en cas de peur de quelque chose d'effrayant",
-                "content": []
+                "title": "665 - La manière dont il faut agir en cas de peur de quelque chose d'effrayant"
             },
             {
-                "title": "666 - Divers",
-                "content": []
+                "title": "666 - Divers"
             }
         ]
     },
@@ -6350,16 +5779,13 @@ const AUNE_SAGESSE = [
         "title": "136 - LA TRAHISON",
         "subparts": [
             {
-                "title": "667 - Mise en garde contre la trahison",
-                "content": []
+                "title": "667 - Mise en garde contre la trahison"
             },
             {
-                "title": "668 - La signification de la trahison et du traître",
-                "content": []
+                "title": "668 - La signification de la trahison et du traître"
             },
             {
-                "title": "669 - Le comble de la trahison",
-                "content": []
+                "title": "669 - Le comble de la trahison"
             }
         ]
     },
@@ -6367,56 +5793,43 @@ const AUNE_SAGESSE = [
         "title": "137 - LE BIEN",
         "subparts": [
             {
-                "title": "670 - La vertu du bien",
-                "content": []
+                "title": "670 - La vertu du bien"
             },
             {
-                "title": "671 - Ce qui est rassemblé dans le bien",
-                "content": []
+                "title": "671 - Ce qui est rassemblé dans le bien"
             },
             {
-                "title": "672 - Comment s'obtient le bien de ce monde et de l'Au-delà",
-                "content": []
+                "title": "672 - Comment s'obtient le bien de ce monde et de l'Au-delà"
             },
             {
-                "title": "673 - L'explication du bien",
-                "content": []
+                "title": "673 - L'explication du bien"
             },
             {
-                "title": "674 - Lorsqu'Allah veut du bien à un serviteur",
-                "content": []
+                "title": "674 - Lorsqu'Allah veut du bien à un serviteur"
             },
             {
-                "title": "675 - Lorsqu'Allah veut du bien à un peuple",
-                "content": []
+                "title": "675 - Lorsqu'Allah veut du bien à un peuple"
             },
             {
-                "title": "676 - L'incitation à se hâter de faire le bien",
-                "content": []
+                "title": "676 - L'incitation à se hâter de faire le bien"
             },
             {
-                "title": "677 - Les meilleures choses",
-                "content": []
+                "title": "677 - Les meilleures choses"
             },
             {
-                "title": "678 - L'interdiction de mépriser le bien lorsqu'il est modeste",
-                "content": []
+                "title": "678 - L'interdiction de mépriser le bien lorsqu'il est modeste"
             },
             {
-                "title": "679 - Le critère du bien et du mal",
-                "content": []
+                "title": "679 - Le critère du bien et du mal"
             },
             {
-                "title": "680 - Les caractéristiques des gens de bien",
-                "content": []
+                "title": "680 - Les caractéristiques des gens de bien"
             },
             {
-                "title": "681 - Ce qui est meilleur que le bien",
-                "content": []
+                "title": "681 - Ce qui est meilleur que le bien"
             },
             {
-                "title": "682 - Le mérite de celui qui indique le bien",
-                "content": []
+                "title": "682 - Le mérite de celui qui indique le bien"
             }
         ]
     },
@@ -6424,8 +5837,7 @@ const AUNE_SAGESSE = [
         "title": "138 - LA DEMANDE DE BIEN [À ALLAH] PAR CONSULTATION (ISTIKHĀRA)",
         "subparts": [
             {
-                "title": "683 - La vertu de la demande de bien [à Allah] par consultation",
-                "content": []
+                "title": "683 - La vertu de la demande de bien [à Allah] par consultation"
             }
         ]
     },
@@ -6433,8 +5845,7 @@ const AUNE_SAGESSE = [
         "title": "139 - LE MÉNAGEMENT",
         "subparts": [
             {
-                "title": "684 - La vertu du ménagement",
-                "content": []
+                "title": "684 - La vertu du ménagement"
             }
         ]
     },
@@ -6442,72 +5853,55 @@ const AUNE_SAGESSE = [
         "title": "140 - L'INVOCATION",
         "subparts": [
             {
-                "title": "685 - La vertu de l'invocation",
-                "content": []
+                "title": "685 - La vertu de l'invocation"
             },
             {
-                "title": "686 - L'invocation repousse le destin déjà fixé",
-                "content": []
+                "title": "686 - L'invocation repousse le destin déjà fixé"
             },
             {
-                "title": "687 - L'invocation repousse les différents types de malheur",
-                "content": []
+                "title": "687 - L'invocation repousse les différents types de malheur"
             },
             {
-                "title": "688 - Prendre l'initiative de l'invocation",
-                "content": []
+                "title": "688 - Prendre l'initiative de l'invocation"
             },
             {
-                "title": "689 - L'incitation à faire des invocations pour tout besoin",
-                "content": []
+                "title": "689 - L'incitation à faire des invocations pour tout besoin"
             },
             {
-                "title": "690 - L'invocation est la clé de la réponse",
-                "content": []
+                "title": "690 - L'invocation est la clé de la réponse"
             },
             {
-                "title": "691 - Les conditions de l'exaucement de l'invocation",
-                "content": []
+                "title": "691 - Les conditions de l'exaucement de l'invocation"
             },
             {
-                "title": "692 - Ce qui empêche l'exaucement",
-                "content": []
+                "title": "692 - Ce qui empêche l'exaucement"
             },
             {
-                "title": "693 - Les convenances lors de l'invocation",
-                "content": []
+                "title": "693 - Les convenances lors de l'invocation"
             },
             {
-                "title": "694 - Ce que doit éviter celui qui invoque",
-                "content": []
+                "title": "694 - Ce que doit éviter celui qui invoque"
             },
             {
-                "title": "695 - Celui dont la requête est exaucée sans demande",
-                "content": []
+                "title": "695 - Celui dont la requête est exaucée sans demande"
             },
             {
-                "title": "696 - Le rôle de la satisfaction et du désespoir dans l'exaucement",
-                "content": []
+                "title": "696 - Le rôle de la satisfaction et du désespoir dans l'exaucement"
             },
             {
-                "title": "697 - Celui dont l'invocation est exaucée",
-                "content": []
+                "title": "697 - Celui dont l'invocation est exaucée"
             },
             {
-                "title": "698 - Les invocations non exaucées",
-                "content": []
+                "title": "698 - Les invocations non exaucées"
             },
             {
-                "title": "699 - Les raisons du délai dans l'exaucement",
-                "content": []
+                "title": "699 - Les raisons du délai dans l'exaucement"
             },
             {
-                "title": "700 - L'invocation n'est jamais dénuée d'effet",
-                "content": []
+                "title": "700 - L'invocation n'est jamais dénuée d'effet"
             },
             {
-                "title": "701 - Mise en garde contre l'invocation sans connaissance",
-                "content": []
+                "title": "701 - Mise en garde contre l'invocation sans connaissance"
             }
         ]
     },
@@ -6515,92 +5909,70 @@ const AUNE_SAGESSE = [
         "title": "141 - LE MONDE D'ICI-BAS (AL-DUNYĀ)",
         "subparts": [
             {
-                "title": "702 - L'origine du nom de ce bas monde (al-dunyā)",
-                "content": []
+                "title": "702 - L'origine du nom de ce bas monde (al-dunyā)"
             },
             {
-                "title": "703 - Le monde d'ici-bas est le champ de l'Au-delà",
-                "content": []
+                "title": "703 - Le monde d'ici-bas est le champ de l'Au-delà"
             },
             {
-                "title": "704 - La signification du monde d'ici-bas",
-                "content": []
+                "title": "704 - La signification du monde d'ici-bas"
             },
             {
-                "title": "705 - Ne prendre du monde d'ici-bas que le nécessaire",
-                "content": []
+                "title": "705 - Ne prendre du monde d'ici-bas que le nécessaire"
             },
             {
-                "title": "706 - Le monde d'ici-bas appartient à celui qui le délaisse",
-                "content": []
+                "title": "706 - Le monde d'ici-bas appartient à celui qui le délaisse"
             },
             {
-                "title": "707 - Le blâme du monde d'ici-bas par ignorance",
-                "content": []
+                "title": "707 - Le blâme du monde d'ici-bas par ignorance"
             },
             {
-                "title": "708 - Les caractéristiques de l'aspect blâmable du monde d'ici-bas",
-                "content": []
+                "title": "708 - Les caractéristiques de l'aspect blâmable du monde d'ici-bas"
             },
             {
-                "title": "709 - L'amour du monde d'ici-bas est la source de toute erreur",
-                "content": []
+                "title": "709 - L'amour du monde d'ici-bas est la source de toute erreur"
             },
             {
-                "title": "710 - Les conséquences de l'amour du monde d'ici-bas",
-                "content": []
+                "title": "710 - Les conséquences de l'amour du monde d'ici-bas"
             },
             {
-                "title": "711 - Le monde d'ici-bas selon l'Imām 'Alī (as)",
-                "content": []
+                "title": "711 - Le monde d'ici-bas selon l'Imām 'Alī (as)"
             },
             {
-                "title": "712 - Mise en garde contre les leurres du monde d'ici-bas",
-                "content": []
+                "title": "712 - Mise en garde contre les leurres du monde d'ici-bas"
             },
             {
-                "title": "713 - En vérité, le monde d'ici-bas trompe l'ignorant",
-                "content": []
+                "title": "713 - En vérité, le monde d'ici-bas trompe l'ignorant"
             },
             {
-                "title": "714 - Mise en garde contre le fait de se fier au monde d'ici-bas",
-                "content": []
+                "title": "714 - Mise en garde contre le fait de se fier au monde d'ici-bas"
             },
             {
-                "title": "715 - Le danger de préférer le monde d'ici-bas [à l'Au-delà]",
-                "content": []
+                "title": "715 - Le danger de préférer le monde d'ici-bas [à l'Au-delà]"
             },
             {
-                "title": "716 - Le monde d'ici-bas est la prison du croyant",
-                "content": []
+                "title": "716 - Le monde d'ici-bas est la prison du croyant"
             },
             {
-                "title": "717 - Le danger de faire du monde d'ici-bas son plus grand souci",
-                "content": []
+                "title": "717 - Le danger de faire du monde d'ici-bas son plus grand souci"
             },
             {
-                "title": "718 - La bassesse du monde d'ici-bas pour Allah",
-                "content": []
+                "title": "718 - La bassesse du monde d'ici-bas pour Allah"
             },
             {
-                "title": "719 - L'opposition du monde d'ici-bas et de l'Au-delà",
-                "content": []
+                "title": "719 - L'opposition du monde d'ici-bas et de l'Au-delà"
             },
             {
-                "title": "720 - La combinaison du monde d'ici-bas et de l'Au-delà",
-                "content": []
+                "title": "720 - La combinaison du monde d'ici-bas et de l'Au-delà"
             },
             {
-                "title": "721 - Paraboles à propos du monde d'ici-bas",
-                "content": []
+                "title": "721 - Paraboles à propos du monde d'ici-bas"
             },
             {
-                "title": "722 - Le monde d'ici-bas est une demeure de jouissance insignifiante",
-                "content": []
+                "title": "722 - Le monde d'ici-bas est une demeure de jouissance insignifiante"
             },
             {
-                "title": "723 - Le monde d'ici-bas est une demeure semée d'adversité",
-                "content": []
+                "title": "723 - Le monde d'ici-bas est une demeure semée d'adversité"
             }
         ]
     },
@@ -6608,12 +5980,10 @@ const AUNE_SAGESSE = [
         "title": "142 - L'ACCOMMODEMENT",
         "subparts": [
             {
-                "title": "724 - L'accommodement et la flatterie des transgresseurs",
-                "content": []
+                "title": "724 - L'accommodement et la flatterie des transgresseurs"
             },
             {
-                "title": "725 - L'interdiction de faire preuve d'accommodement et de compromission face à la vérité",
-                "content": []
+                "title": "725 - L'interdiction de faire preuve d'accommodement et de compromission face à la vérité"
             }
         ]
     },
@@ -6621,16 +5991,13 @@ const AUNE_SAGESSE = [
         "title": "143 - L'ETAT",
         "subparts": [
             {
-                "title": "726 - L'Etat [et le gouvernement] des personnes éminentes",
-                "content": []
+                "title": "726 - L'Etat [et le gouvernement] des personnes éminentes"
             },
             {
-                "title": "727 - Le signe de la décadence des Etats",
-                "content": []
+                "title": "727 - Le signe de la décadence des Etats"
             },
             {
-                "title": "728 - Les facteurs de la stabilité des Etats",
-                "content": []
+                "title": "728 - Les facteurs de la stabilité des Etats"
             }
         ]
     },
@@ -6638,28 +6005,22 @@ const AUNE_SAGESSE = [
         "title": "144 - LE REMÈDE",
         "subparts": [
             {
-                "title": "729 - La médication",
-                "content": []
+                "title": "729 - La médication"
             },
             {
-                "title": "730 - Chaque douleur a un remède",
-                "content": []
+                "title": "730 - Chaque douleur a un remède"
             },
             {
-                "title": "731 - Eviter la précipitation dans la consommation de médicaments",
-                "content": []
+                "title": "731 - Eviter la précipitation dans la consommation de médicaments"
             },
             {
-                "title": "732 - L'abstention [de nourriture] est la source des remèdes",
-                "content": []
+                "title": "732 - L'abstention [de nourriture] est la source des remèdes"
             },
             {
-                "title": "733 - Le plus grand remède",
-                "content": []
+                "title": "733 - Le plus grand remède"
             },
             {
-                "title": "734 - Divers",
-                "content": []
+                "title": "734 - Divers"
             }
         ]
     },
@@ -6667,48 +6028,37 @@ const AUNE_SAGESSE = [
         "title": "145 - LA RELIGION",
         "subparts": [
             {
-                "title": "735 - L'importance de la religion",
-                "content": []
+                "title": "735 - L'importance de la religion"
             },
             {
-                "title": "736 - Les fléaux de la religion",
-                "content": []
+                "title": "736 - Les fléaux de la religion"
             },
             {
-                "title": "737 - L'incitation à préserver la religion",
-                "content": []
+                "title": "737 - L'incitation à préserver la religion"
             },
             {
-                "title": "738 - Ceux qui n'ont pas de religion",
-                "content": []
+                "title": "738 - Ceux qui n'ont pas de religion"
             },
             {
-                "title": "739 - La facilité de la religion",
-                "content": []
+                "title": "739 - La facilité de la religion"
             },
             {
-                "title": "740 - La seule religion par laquelle les actes sont agréés",
-                "content": []
+                "title": "740 - La seule religion par laquelle les actes sont agréés"
             },
             {
-                "title": "741 - La voie à suivre pour connaître la religion",
-                "content": []
+                "title": "741 - La voie à suivre pour connaître la religion"
             },
             {
-                "title": "742 - Préserver la religion par la vie d'ici-bas",
-                "content": []
+                "title": "742 - Préserver la religion par la vie d'ici-bas"
             },
             {
-                "title": "743 - L'invocation pour affermir la religion dans le cœur",
-                "content": []
+                "title": "743 - L'invocation pour affermir la religion dans le cœur"
             },
             {
-                "title": "744 - Les caractéristiques des gardiens de la religion d'Allah",
-                "content": []
+                "title": "744 - Les caractéristiques des gardiens de la religion d'Allah"
             },
             {
-                "title": "745 - Renforcer la religion par des gens dénués de morale",
-                "content": []
+                "title": "745 - Renforcer la religion par des gens dénués de morale"
             }
         ]
     },
@@ -6716,20 +6066,16 @@ const AUNE_SAGESSE = [
         "title": "146 - LA DETTE",
         "subparts": [
             {
-                "title": "746 - Le blâme de l'endettement",
-                "content": []
+                "title": "746 - Le blâme de l'endettement"
             },
             {
-                "title": "747 - L'autorisation de contracter des dettes en cas de besoin",
-                "content": []
+                "title": "747 - L'autorisation de contracter des dettes en cas de besoin"
             },
             {
-                "title": "748 - L'incitation à consigner les dettes par écrit",
-                "content": []
+                "title": "748 - L'incitation à consigner les dettes par écrit"
             },
             {
-                "title": "749 - L'interdiction d'ajourner le remboursement des dettes",
-                "content": []
+                "title": "749 - L'interdiction d'ajourner le remboursement des dettes"
             }
         ]
     },
@@ -6737,56 +6083,43 @@ const AUNE_SAGESSE = [
         "title": "147 - LE RAPPEL (DHIKR)",
         "subparts": [
             {
-                "title": "750 - La vertu du rappel d'Allah",
-                "content": []
+                "title": "750 - La vertu du rappel d'Allah"
             },
             {
-                "title": "751 - L'incitation à multiplier le rappel [d'Allah]",
-                "content": []
+                "title": "751 - L'incitation à multiplier le rappel [d'Allah]"
             },
             {
-                "title": "752 - L'incitation à pratiquer continuellement le rappel [d'Allah]",
-                "content": []
+                "title": "752 - L'incitation à pratiquer continuellement le rappel [d'Allah]"
             },
             {
-                "title": "753 - Le rappel d'Allah est un bien dans tout les cas",
-                "content": []
+                "title": "753 - Le rappel d'Allah est un bien dans tout les cas"
             },
             {
-                "title": "754 - Ceux qui observent le rappel [d'Allah]",
-                "content": []
+                "title": "754 - Ceux qui observent le rappel [d'Allah]"
             },
             {
-                "title": "755 - Rappelez-vous d'Allah et Il se rappellera de vous",
-                "content": []
+                "title": "755 - Rappelez-vous d'Allah et Il se rappellera de vous"
             },
             {
-                "title": "756 - Les fruits du rappel [d'Allah]",
-                "content": []
+                "title": "756 - Les fruits du rappel [d'Allah]"
             },
             {
-                "title": "757 - L'incitation à pratiquer le rappel d'Allah dans certaines situations",
-                "content": []
+                "title": "757 - L'incitation à pratiquer le rappel d'Allah dans certaines situations"
             },
             {
-                "title": "758 - La vérité profonde du rappel [d'Allah]",
-                "content": []
+                "title": "758 - La vérité profonde du rappel [d'Allah]"
             },
             {
-                "title": "759 - Ce qui suscite la permanence du rappel [d'Allah]",
-                "content": []
+                "title": "759 - Ce qui suscite la permanence du rappel [d'Allah]"
             },
             {
-                "title": "760 - Ce qui empêche le rappel [d'Allah]",
-                "content": []
+                "title": "760 - Ce qui empêche le rappel [d'Allah]"
             },
             {
-                "title": "761 - Les conséquences du fait de se détourner du rappel [d'Allah]",
-                "content": []
+                "title": "761 - Les conséquences du fait de se détourner du rappel [d'Allah]"
             },
             {
-                "title": "762 - Le rappel silencieux [d'Allah]",
-                "content": []
+                "title": "762 - Le rappel silencieux [d'Allah]"
             }
         ]
     },
@@ -6794,16 +6127,13 @@ const AUNE_SAGESSE = [
         "title": "148 - LE DÉSHONNEUR",
         "subparts": [
             {
-                "title": "763 - Le déshonneur",
-                "content": []
+                "title": "763 - Le déshonneur"
             },
             {
-                "title": "764 - Le croyant ne doit pas se déshonorer",
-                "content": []
+                "title": "764 - Le croyant ne doit pas se déshonorer"
             },
             {
-                "title": "765 - Ce qui suscite le déshonneur",
-                "content": []
+                "title": "765 - Ce qui suscite le déshonneur"
             }
         ]
     },
@@ -6811,56 +6141,43 @@ const AUNE_SAGESSE = [
         "title": "149 - LE PÉCHÉ",
         "subparts": [
             {
-                "title": "766 - Mise en garde contre le péché",
-                "content": []
+                "title": "766 - Mise en garde contre le péché"
             },
             {
-                "title": "767 - Pécher ouvertement",
-                "content": []
+                "title": "767 - Pécher ouvertement"
             },
             {
-                "title": "768 - Le plus grand des péchés",
-                "content": []
+                "title": "768 - Le plus grand des péchés"
             },
             {
-                "title": "769 - Les péchés impardonnables",
-                "content": []
+                "title": "769 - Les péchés impardonnables"
             },
             {
-                "title": "770 - Mise en garde contre le fait de commettre un acte de désobéissance en secret",
-                "content": []
+                "title": "770 - Mise en garde contre le fait de commettre un acte de désobéissance en secret"
             },
             {
-                "title": "771 - Minimiser le péché et le considérer insignifiant",
-                "content": []
+                "title": "771 - Minimiser le péché et le considérer insignifiant"
             },
             {
-                "title": "772 - Les grands péchés",
-                "content": []
+                "title": "772 - Les grands péchés"
             },
             {
-                "title": "773 - Persister dans le péché",
-                "content": []
+                "title": "773 - Persister dans le péché"
             },
             {
-                "title": "774 - Tirer plaisir de son péché",
-                "content": []
+                "title": "774 - Tirer plaisir de son péché"
             },
             {
-                "title": "775 - Les effets des péchés",
-                "content": []
+                "title": "775 - Les effets des péchés"
             },
             {
-                "title": "776 - Les péchés dont la punition est hâtée [dans ce monde]",
-                "content": []
+                "title": "776 - Les péchés dont la punition est hâtée [dans ce monde]"
             },
             {
-                "title": "777 - Le remède des péchés",
-                "content": []
+                "title": "777 - Le remède des péchés"
             },
             {
-                "title": "778 - Ce qui absout les péchés",
-                "content": []
+                "title": "778 - Ce qui absout les péchés"
             }
         ]
     },
@@ -6868,12 +6185,10 @@ const AUNE_SAGESSE = [
         "title": "150 - LA DIRECTION",
         "subparts": [
             {
-                "title": "779 - Le blâme de [l'amour de] la direction",
-                "content": []
+                "title": "779 - Le blâme de [l'amour de] la direction"
             },
             {
-                "title": "780 - Les moyens [nécessaires] pour diriger",
-                "content": []
+                "title": "780 - Les moyens [nécessaires] pour diriger"
             }
         ]
     },
@@ -6881,16 +6196,13 @@ const AUNE_SAGESSE = [
         "title": "151 - LE RÊVE",
         "subparts": [
             {
-                "title": "781 - La bonne nouvelle du rêve",
-                "content": []
+                "title": "781 - La bonne nouvelle du rêve"
             },
             {
-                "title": "782 - Les divers types de rêves",
-                "content": []
+                "title": "782 - Les divers types de rêves"
             },
             {
-                "title": "783 - L'interprétation du rêve",
-                "content": []
+                "title": "783 - L'interprétation du rêve"
             }
         ]
     },
@@ -6898,24 +6210,19 @@ const AUNE_SAGESSE = [
         "title": "152 - L'OSTENTATION",
         "subparts": [
             {
-                "title": "784 - Le blâme de l'ostentation",
-                "content": []
+                "title": "784 - Le blâme de l'ostentation"
             },
             {
-                "title": "785 - L'ostentation et l'associationnisme",
-                "content": []
+                "title": "785 - L'ostentation et l'associationnisme"
             },
             {
-                "title": "786 - La fin funeste des personnes qui font preuve d'ostentation",
-                "content": []
+                "title": "786 - La fin funeste des personnes qui font preuve d'ostentation"
             },
             {
-                "title": "787 - Les traits caractéristiques des personnes qui font preuve d'ostentation",
-                "content": []
+                "title": "787 - Les traits caractéristiques des personnes qui font preuve d'ostentation"
             },
             {
-                "title": "788 - Divers",
-                "content": []
+                "title": "788 - Divers"
             }
         ]
     },
@@ -6923,28 +6230,22 @@ const AUNE_SAGESSE = [
         "title": "153 - L'OPINION",
         "subparts": [
             {
-                "title": "789 - Ce qui permet d'avoir une opinion juste",
-                "content": []
+                "title": "789 - Ce qui permet d'avoir une opinion juste"
             },
             {
-                "title": "790 - Les conséquences du fait de suivre obstinément sa propre opinion",
-                "content": []
+                "title": "790 - Les conséquences du fait de suivre obstinément sa propre opinion"
             },
             {
-                "title": "791 - Ce qui détruit l'opinion",
-                "content": []
+                "title": "791 - Ce qui détruit l'opinion"
             },
             {
-                "title": "792 - Le gouvernement et la justesse de l'opinion",
-                "content": []
+                "title": "792 - Le gouvernement et la justesse de l'opinion"
             },
             {
-                "title": "793 - Le recours à sa propre opinion dans les affaires religieuses",
-                "content": []
+                "title": "793 - Le recours à sa propre opinion dans les affaires religieuses"
             },
             {
-                "title": "794 - L'effort sincère requis pour formuler une opinion",
-                "content": []
+                "title": "794 - L'effort sincère requis pour formuler une opinion"
             }
         ]
     },
@@ -6952,20 +6253,16 @@ const AUNE_SAGESSE = [
         "title": "154 - L'USURE",
         "subparts": [
             {
-                "title": "795 - Mise en garde contre l'usure",
-                "content": []
+                "title": "795 - Mise en garde contre l'usure"
             },
             {
-                "title": "796 - La sagesse de l'interdiction de l'usure",
-                "content": []
+                "title": "796 - La sagesse de l'interdiction de l'usure"
             },
             {
-                "title": "797 - Ce qui conduit à être impliqué dans l'usure",
-                "content": []
+                "title": "797 - Ce qui conduit à être impliqué dans l'usure"
             },
             {
-                "title": "798 - L'usurier qui considère cela licite est en guerre contre Allah",
-                "content": []
+                "title": "798 - L'usurier qui considère cela licite est en guerre contre Allah"
             }
         ]
     },
@@ -6973,12 +6270,10 @@ const AUNE_SAGESSE = [
         "title": "155 - L'ESPOIR",
         "subparts": [
             {
-                "title": "799 - L'incitation au vrai espoir",
-                "content": []
+                "title": "799 - L'incitation au vrai espoir"
             },
             {
-                "title": "800 - Mise en garde contre le fait de placer ses espoirs en un autre qu'Allah",
-                "content": []
+                "title": "800 - Mise en garde contre le fait de placer ses espoirs en un autre qu'Allah"
             }
         ]
     },
@@ -6986,16 +6281,13 @@ const AUNE_SAGESSE = [
         "title": "156 - LE RETOUR",
         "subparts": [
             {
-                "title": "801 - Le Retour des morts",
-                "content": []
+                "title": "801 - Le Retour des morts"
             },
             {
-                "title": "802 - La mention des personnes qui seront l'objet du Retour",
-                "content": []
+                "title": "802 - La mention des personnes qui seront l'objet du Retour"
             },
             {
-                "title": "803 - Le Retour n'est pas général",
-                "content": []
+                "title": "803 - Le Retour n'est pas général"
             }
         ]
     },
@@ -7003,12 +6295,10 @@ const AUNE_SAGESSE = [
         "title": "157 - LA COMPASSION",
         "subparts": [
             {
-                "title": "804 - L'incitation à la compassion mutuelle",
-                "content": []
+                "title": "804 - L'incitation à la compassion mutuelle"
             },
             {
-                "title": "805 - Ceux qui méritent la compassion",
-                "content": []
+                "title": "805 - Ceux qui méritent la compassion"
             }
         ]
     },
@@ -7016,12 +6306,10 @@ const AUNE_SAGESSE = [
         "title": "158 - LA MISÉRICORDE",
         "subparts": [
             {
-                "title": "806 - La miséricorde d'Allah",
-                "content": []
+                "title": "806 - La miséricorde d'Allah"
             },
             {
-                "title": "807 - Ce qui suscite la miséricorde [d'Allah]",
-                "content": []
+                "title": "807 - Ce qui suscite la miséricorde [d'Allah]"
             }
         ]
     },
@@ -7029,24 +6317,19 @@ const AUNE_SAGESSE = [
         "title": "159 - LES LIENS FAMILIAUX",
         "subparts": [
             {
-                "title": "808 - La vertu du maintien des liens familiaux",
-                "content": []
+                "title": "808 - La vertu du maintien des liens familiaux"
             },
             {
-                "title": "809 - Les effets du maintien des liens familiaux",
-                "content": []
+                "title": "809 - Les effets du maintien des liens familiaux"
             },
             {
-                "title": "810 - Renouer des liens avec celui qui les a coupés",
-                "content": []
+                "title": "810 - Renouer des liens avec celui qui les a coupés"
             },
             {
-                "title": "811 - Mise en garde contre la rupture des liens familiaux",
-                "content": []
+                "title": "811 - Mise en garde contre la rupture des liens familiaux"
             },
             {
-                "title": "812 - Le moins que l'on puisse faire pour maintenir les liens familiaux",
-                "content": []
+                "title": "812 - Le moins que l'on puisse faire pour maintenir les liens familiaux"
             }
         ]
     },
@@ -7054,48 +6337,37 @@ const AUNE_SAGESSE = [
         "title": "160 - LA SUBSISTANCE",
         "subparts": [
             {
-                "title": "813 - Le Grand Pourvoyeur de subsistance",
-                "content": []
+                "title": "813 - Le Grand Pourvoyeur de subsistance"
             },
             {
-                "title": "814 - La garantie de la subsistance",
-                "content": []
+                "title": "814 - La garantie de la subsistance"
             },
             {
-                "title": "815 - L'avidité et l'accroissement de la subsistance",
-                "content": []
+                "title": "815 - L'avidité et l'accroissement de la subsistance"
             },
             {
-                "title": "816 - L'incitation à rechercher sa subsistance par des moyens honnêtes",
-                "content": []
+                "title": "816 - L'incitation à rechercher sa subsistance par des moyens honnêtes"
             },
             {
-                "title": "817 - La subsistance et celui qui la recherche",
-                "content": []
+                "title": "817 - La subsistance et celui qui la recherche"
             },
             {
-                "title": "818 - Le fait de se soucier de sa subsistance du lendemain",
-                "content": []
+                "title": "818 - Le fait de se soucier de sa subsistance du lendemain"
             },
             {
-                "title": "819 - L'impatience vis-à-vis de l'arrivée de la subsistance",
-                "content": []
+                "title": "819 - L'impatience vis-à-vis de l'arrivée de la subsistance"
             },
             {
-                "title": "820 - Ce qui fait venir la subsistance et qui l'augmente",
-                "content": []
+                "title": "820 - Ce qui fait venir la subsistance et qui l'augmente"
             },
             {
-                "title": "821 - Ce qui coupe la subsistance",
-                "content": []
+                "title": "821 - Ce qui coupe la subsistance"
             },
             {
-                "title": "822 - L'incitation à rechercher [la subsistance] par des moyens licites",
-                "content": []
+                "title": "822 - L'incitation à rechercher [la subsistance] par des moyens licites"
             },
             {
-                "title": "823 - La meilleure des subsistances est celle qui suffit",
-                "content": []
+                "title": "823 - La meilleure des subsistances est celle qui suffit"
             }
         ]
     },
@@ -7103,8 +6375,7 @@ const AUNE_SAGESSE = [
         "title": "161 - LES POTS-DE-VIN",
         "subparts": [
             {
-                "title": "824 - Mise en garde contre les pots-de-vin",
-                "content": []
+                "title": "824 - Mise en garde contre les pots-de-vin"
             }
         ]
     },
@@ -7112,12 +6383,10 @@ const AUNE_SAGESSE = [
         "title": "162 - L'ALLAITEMENT",
         "subparts": [
             {
-                "title": "825 - L'allaitement du nouveau-né",
-                "content": []
+                "title": "825 - L'allaitement du nouveau-né"
             },
             {
-                "title": "826 - Celle qui ne doit pas allaiter",
-                "content": []
+                "title": "826 - Celle qui ne doit pas allaiter"
             }
         ]
     },
@@ -7125,20 +6394,16 @@ const AUNE_SAGESSE = [
         "title": "163 - LA SATISFACTION (1)",
         "subparts": [
             {
-                "title": "827 - La vertu de la satisfaction",
-                "content": []
+                "title": "827 - La vertu de la satisfaction"
             },
             {
-                "title": "828 - Ce qui suscite la satisfaction [vis-à-vis du décret divin]",
-                "content": []
+                "title": "828 - Ce qui suscite la satisfaction [vis-à-vis du décret divin]"
             },
             {
-                "title": "829 - Les fruits de la satisfaction",
-                "content": []
+                "title": "829 - Les fruits de la satisfaction"
             },
             {
-                "title": "830 - Les conséquences de l'insatisfaction",
-                "content": []
+                "title": "830 - Les conséquences de l'insatisfaction"
             }
         ]
     },
@@ -7146,16 +6411,13 @@ const AUNE_SAGESSE = [
         "title": "164 - LA SATISFACTION (2)",
         "subparts": [
             {
-                "title": "831 - Ce qui suscite l'agrément d'Allah",
-                "content": []
+                "title": "831 - Ce qui suscite l'agrément d'Allah"
             },
             {
-                "title": "832 - Les signes de la satisfaction d'Allah",
-                "content": []
+                "title": "832 - Les signes de la satisfaction d'Allah"
             },
             {
-                "title": "833 - La satisfaction des créatures au prix de l'insatisfaction du Créateur",
-                "content": []
+                "title": "833 - La satisfaction des créatures au prix de l'insatisfaction du Créateur"
             }
         ]
     },
@@ -7163,16 +6425,13 @@ const AUNE_SAGESSE = [
         "title": "165 - LA DOUCEUR",
         "subparts": [
             {
-                "title": "834 - La vertu de la douceur",
-                "content": []
+                "title": "834 - La vertu de la douceur"
             },
             {
-                "title": "835 - La douceur dans l'adoration",
-                "content": []
+                "title": "835 - La douceur dans l'adoration"
             },
             {
-                "title": "836 - Les fruits de la douceur",
-                "content": []
+                "title": "836 - Les fruits de la douceur"
             }
         ]
     },
@@ -7180,16 +6439,13 @@ const AUNE_SAGESSE = [
         "title": "166 - L'OBSERVATION [DES ACTES DE L'HOMME]",
         "subparts": [
             {
-                "title": "837 - L'observation [des actes de l'homme] par Allah, les anges et les membres du corps",
-                "content": []
+                "title": "837 - L'observation [des actes de l'homme] par Allah, les anges et les membres du corps"
             },
             {
-                "title": "838 - Incitation à observer et surveiller sa propre personne",
-                "content": []
+                "title": "838 - Incitation à observer et surveiller sa propre personne"
             },
             {
-                "title": "839 - L'observation et le jugement de sa propre personne",
-                "content": []
+                "title": "839 - L'observation et le jugement de sa propre personne"
             }
         ]
     },
@@ -7197,12 +6453,10 @@ const AUNE_SAGESSE = [
         "title": "167 - LE RAMADAN",
         "subparts": [
             {
-                "title": "840 - Le mois de Ramadan",
-                "content": []
+                "title": "840 - Le mois de Ramadan"
             },
             {
-                "title": "841 - Le pardon d'Allah durant le mois de Ramadan",
-                "content": []
+                "title": "841 - Le pardon d'Allah durant le mois de Ramadan"
             }
         ]
     },
@@ -7210,20 +6464,16 @@ const AUNE_SAGESSE = [
         "title": "168 - L'ÂME",
         "subparts": [
             {
-                "title": "842 - La connaissance de l'âme",
-                "content": []
+                "title": "842 - La connaissance de l'âme"
             },
             {
-                "title": "843 - Les âmes sont des troupes mobilisées",
-                "content": []
+                "title": "843 - Les âmes sont des troupes mobilisées"
             },
             {
-                "title": "844 - Les états de l'âme",
-                "content": []
+                "title": "844 - Les états de l'âme"
             },
             {
-                "title": "845 - L'âme pendant le sommeil",
-                "content": []
+                "title": "845 - L'âme pendant le sommeil"
             }
         ]
     },
@@ -7231,12 +6481,10 @@ const AUNE_SAGESSE = [
         "title": "169 - LE REPOS",
         "subparts": [
             {
-                "title": "846 - Ce qui suscite le repos",
-                "content": []
+                "title": "846 - Ce qui suscite le repos"
             },
             {
-                "title": "847 - La recherche du repos dans ce monde",
-                "content": []
+                "title": "847 - La recherche du repos dans ce monde"
             }
         ]
     },
@@ -7244,8 +6492,7 @@ const AUNE_SAGESSE = [
         "title": "170 - L'AGRICULTURE",
         "subparts": [
             {
-                "title": "848 - La culture et la plantation sont recommandées [par Dieu]",
-                "content": []
+                "title": "848 - La culture et la plantation sont recommandées [par Dieu]"
             }
         ]
     },
@@ -7253,24 +6500,19 @@ const AUNE_SAGESSE = [
         "title": "171 - LA ZAKĀT (L'AUMÔNE LÉGALE)",
         "subparts": [
             {
-                "title": "849 - Le caractère obligatoire de la zakāt",
-                "content": []
+                "title": "849 - Le caractère obligatoire de la zakāt"
             },
             {
-                "title": "850 - Le rôle de la zakāt dans la croissance des biens",
-                "content": []
+                "title": "850 - Le rôle de la zakāt dans la croissance des biens"
             },
             {
-                "title": "851 - Celui qui refuse de s'acquitter de la zakāt",
-                "content": []
+                "title": "851 - Celui qui refuse de s'acquitter de la zakāt"
             },
             {
-                "title": "852 - Les destinataires de la zakāt",
-                "content": []
+                "title": "852 - Les destinataires de la zakāt"
             },
             {
-                "title": "853 - Toute chose a une zakāt",
-                "content": []
+                "title": "853 - Toute chose a une zakāt"
             }
         ]
     },
@@ -7278,20 +6520,16 @@ const AUNE_SAGESSE = [
         "title": "172 - LE TEMPS",
         "subparts": [
             {
-                "title": "855 - La connaissance du temps",
-                "content": []
+                "title": "855 - La connaissance du temps"
             },
             {
-                "title": "856 - Le blâme du fait de faire confiance au temps",
-                "content": []
+                "title": "856 - Le blâme du fait de faire confiance au temps"
             },
             {
-                "title": "857 - Le blâme de l'obstination contre le temps",
-                "content": []
+                "title": "857 - Le blâme de l'obstination contre le temps"
             },
             {
-                "title": "858 - L'incrimination du temps",
-                "content": []
+                "title": "858 - L'incrimination du temps"
             }
         ]
     },
@@ -7299,16 +6537,13 @@ const AUNE_SAGESSE = [
         "title": "173 - L'ADULTÈRE",
         "subparts": [
             {
-                "title": "859 - L'interdiction de l'adultère",
-                "content": []
+                "title": "859 - L'interdiction de l'adultère"
             },
             {
-                "title": "860 - Les conséquences de l'adultère",
-                "content": []
+                "title": "860 - Les conséquences de l'adultère"
             },
             {
-                "title": "861 - Chaque membre a une part d'adultère",
-                "content": []
+                "title": "861 - Chaque membre a une part d'adultère"
             }
         ]
     },
@@ -7316,28 +6551,22 @@ const AUNE_SAGESSE = [
         "title": "174 - LE RENONCEMENT",
         "subparts": [
             {
-                "title": "862 - La vertu du renoncement",
-                "content": []
+                "title": "862 - La vertu du renoncement"
             },
             {
-                "title": "863 - La signification réelle du renoncement",
-                "content": []
+                "title": "863 - La signification réelle du renoncement"
             },
             {
-                "title": "864 - Les caractéristiques de celui qui renonce",
-                "content": []
+                "title": "864 - Les caractéristiques de celui qui renonce"
             },
             {
-                "title": "865 - Ce qui suscite le renoncement",
-                "content": []
+                "title": "865 - Ce qui suscite le renoncement"
             },
             {
-                "title": "866 - Les fruits du renoncement",
-                "content": []
+                "title": "866 - Les fruits du renoncement"
             },
             {
-                "title": "867 - Celui qui fait preuve du plus grand renoncement",
-                "content": []
+                "title": "867 - Celui qui fait preuve du plus grand renoncement"
             }
         ]
     },
@@ -7345,80 +6574,61 @@ const AUNE_SAGESSE = [
         "title": "175 - LE MARIAGE",
         "subparts": [
             {
-                "title": "868 - L'incitation au mariage",
-                "content": []
+                "title": "868 - L'incitation au mariage"
             },
             {
-                "title": "869 - Le blâme des célibataires",
-                "content": []
+                "title": "869 - Le blâme des célibataires"
             },
             {
-                "title": "870 - La rétribution de ceux qui aident leurs frères [musulmans] à se marier",
-                "content": []
+                "title": "870 - La rétribution de ceux qui aident leurs frères [musulmans] à se marier"
             },
             {
-                "title": "871 - L'incitation à hâter le mariage des jeunes filles",
-                "content": []
+                "title": "871 - L'incitation à hâter le mariage des jeunes filles"
             },
             {
-                "title": "872 - L'importance accordée à la religion lors du choix d'un conjoint",
-                "content": []
+                "title": "872 - L'importance accordée à la religion lors du choix d'un conjoint"
             },
             {
-                "title": "873 - Le blâme des dots excessives",
-                "content": []
+                "title": "873 - Le blâme des dots excessives"
             },
             {
-                "title": "874 - L'importance d'accorder du soin au choix d'une femme",
-                "content": []
+                "title": "874 - L'importance d'accorder du soin au choix d'une femme"
             },
             {
-                "title": "875 - Les droits du mari",
-                "content": []
+                "title": "875 - Les droits du mari"
             },
             {
-                "title": "876 - Les droits de l'épouse",
-                "content": []
+                "title": "876 - Les droits de l'épouse"
             },
             {
-                "title": "877 - Servir son mari",
-                "content": []
+                "title": "877 - Servir son mari"
             },
             {
-                "title": "878 - Servir sa femme",
-                "content": []
+                "title": "878 - Servir sa femme"
             },
             {
-                "title": "879 - La maltraitance du mari",
-                "content": []
+                "title": "879 - La maltraitance du mari"
             },
             {
-                "title": "880 - La maltraitance de l'épouse",
-                "content": []
+                "title": "880 - La maltraitance de l'épouse"
             },
             {
-                "title": "881 - La patience face au mauvais caractère de l'un des époux",
-                "content": []
+                "title": "881 - La patience face au mauvais caractère de l'un des époux"
             },
             {
-                "title": "882 - L'épouse vertueuse",
-                "content": []
+                "title": "882 - L'épouse vertueuse"
             },
             {
-                "title": "883 - La mauvaise épouse",
-                "content": []
+                "title": "883 - La mauvaise épouse"
             },
             {
-                "title": "884 - Ce qu'il faut respecter concernant les dépenses familiales",
-                "content": []
+                "title": "884 - Ce qu'il faut respecter concernant les dépenses familiales"
             },
             {
-                "title": "885 - Le bon comportement dans l'acceptation de l'invitation à un mariage",
-                "content": []
+                "title": "885 - Le bon comportement dans l'acceptation de l'invitation à un mariage"
             },
             {
-                "title": "886 - L'incitation à annoncer le mariage",
-                "content": []
+                "title": "886 - L'incitation à annoncer le mariage"
             }
         ]
     },
@@ -7426,16 +6636,13 @@ const AUNE_SAGESSE = [
         "title": "176 - LA VISITE",
         "subparts": [
             {
-                "title": "887 - L'incitation à se rendre mutuellement visite pour Allah",
-                "content": []
+                "title": "887 - L'incitation à se rendre mutuellement visite pour Allah"
             },
             {
-                "title": "888 - Les fruits de la rencontre des frères",
-                "content": []
+                "title": "888 - Les fruits de la rencontre des frères"
             },
             {
-                "title": "889 - Les convenances lors des visites",
-                "content": []
+                "title": "889 - Les convenances lors des visites"
             }
         ]
     },
@@ -7443,32 +6650,25 @@ const AUNE_SAGESSE = [
         "title": "177 - LA VISITE DES TOMBES",
         "subparts": [
             {
-                "title": "890 - La visite [de la tombe] du Prophète (s)",
-                "content": []
+                "title": "890 - La visite [de la tombe] du Prophète (s)"
             },
             {
-                "title": "891 - La visite des Gens de la demeure prophétique (as)",
-                "content": []
+                "title": "891 - La visite des Gens de la demeure prophétique (as)"
             },
             {
-                "title": "892 - La visite de [la tombe de] Fāṭima, fille de l'Imām Mūsā al-Kāẓim (as)",
-                "content": []
+                "title": "892 - La visite de [la tombe de] Fāṭima, fille de l'Imām Mūsā al-Kāẓim (as)"
             },
             {
-                "title": "893 - La visite de [la tombe de] Sayyid 'Abd al-'Aẓīm al-Ḥasanī (as)",
-                "content": []
+                "title": "893 - La visite de [la tombe de] Sayyid 'Abd al-'Aẓīm al-Ḥasanī (as)"
             },
             {
-                "title": "894 - La visite de la tombe des gens de bien",
-                "content": []
+                "title": "894 - La visite de la tombe des gens de bien"
             },
             {
-                "title": "895 - La visite de la tombe des morts",
-                "content": []
+                "title": "895 - La visite de la tombe des morts"
             },
             {
-                "title": "896 - Saluer les défunts",
-                "content": []
+                "title": "896 - Saluer les défunts"
             }
         ]
     },
@@ -7476,12 +6676,10 @@ const AUNE_SAGESSE = [
         "title": "178 - LA PARURE",
         "subparts": [
             {
-                "title": "897 - L'incitation à se parer",
-                "content": []
+                "title": "897 - L'incitation à se parer"
             },
             {
-                "title": "898 - La meilleure parure",
-                "content": []
+                "title": "898 - La meilleure parure"
             }
         ]
     },
@@ -7489,16 +6687,13 @@ const AUNE_SAGESSE = [
         "title": "179 - LA RESPONSABILITÉ",
         "subparts": [
             {
-                "title": "899 - La responsabilité",
-                "content": []
+                "title": "899 - La responsabilité"
             },
             {
-                "title": "900 - Vous êtes tous responsables !",
-                "content": []
+                "title": "900 - Vous êtes tous responsables !"
             },
             {
-                "title": "901 - La responsabilité de l'ouïe, de la vue et du cœur",
-                "content": []
+                "title": "901 - La responsabilité de l'ouïe, de la vue et du cœur"
             }
         ]
     },
@@ -7506,20 +6701,16 @@ const AUNE_SAGESSE = [
         "title": "180 - LA DEMANDE (1)",
         "subparts": [
             {
-                "title": "902 - La clé du savoir",
-                "content": []
+                "title": "902 - La clé du savoir"
             },
             {
-                "title": "903 - La bonne question",
-                "content": []
+                "title": "903 - La bonne question"
             },
             {
-                "title": "904 - Les questions qu'il ne faut pas poser",
-                "content": []
+                "title": "904 - Les questions qu'il ne faut pas poser"
             },
             {
-                "title": "905 - Répondre aux questions dont on ignore la réponse",
-                "content": []
+                "title": "905 - Répondre aux questions dont on ignore la réponse"
             }
         ]
     },
@@ -7527,28 +6718,22 @@ const AUNE_SAGESSE = [
         "title": "181 - LA DEMANDE (2)",
         "subparts": [
             {
-                "title": "906 - L'interdiction de la mendicité",
-                "content": []
+                "title": "906 - L'interdiction de la mendicité"
             },
             {
-                "title": "907 - Mise en garde contre le fait de quémander alors que l'on est dans l'aisance",
-                "content": []
+                "title": "907 - Mise en garde contre le fait de quémander alors que l'on est dans l'aisance"
             },
             {
-                "title": "908 - L'incitation à être indépendant des gens",
-                "content": []
+                "title": "908 - L'incitation à être indépendant des gens"
             },
             {
-                "title": "909 - Solliciter la bienfaisance des bienfaiteurs",
-                "content": []
+                "title": "909 - Solliciter la bienfaisance des bienfaiteurs"
             },
             {
-                "title": "910 - Le bon comportement lors de la demande",
-                "content": []
+                "title": "910 - Le bon comportement lors de la demande"
             },
             {
-                "title": "911 - Mise en garde contre le fait de rejeter le mendiant",
-                "content": []
+                "title": "911 - Mise en garde contre le fait de rejeter le mendiant"
             }
         ]
     },
@@ -7556,24 +6741,19 @@ const AUNE_SAGESSE = [
         "title": "182 - L'INSULTE",
         "subparts": [
             {
-                "title": "912 - Le blâme de l'insulte au croyant",
-                "content": []
+                "title": "912 - Le blâme de l'insulte au croyant"
             },
             {
-                "title": "913 - L'interdiction d'insulter les idoles et Satan",
-                "content": []
+                "title": "913 - L'interdiction d'insulter les idoles et Satan"
             },
             {
-                "title": "914 - L'interdiction d'insulter les gens",
-                "content": []
+                "title": "914 - L'interdiction d'insulter les gens"
             },
             {
-                "title": "915 - L'interdiction d'insulter ses parents",
-                "content": []
+                "title": "915 - L'interdiction d'insulter ses parents"
             },
             {
-                "title": "916 - L'interdiction d'insulter les choses",
-                "content": []
+                "title": "916 - L'interdiction d'insulter les choses"
             }
         ]
     },
@@ -7581,20 +6761,16 @@ const AUNE_SAGESSE = [
         "title": "183 - LA PROSTERNATION",
         "subparts": [
             {
-                "title": "917 - Le rôle de la prosternation dans le rapprochement d'Allah",
-                "content": []
+                "title": "917 - Le rôle de la prosternation dans le rapprochement d'Allah"
             },
             {
-                "title": "918 - La prolongation de la prosternation",
-                "content": []
+                "title": "918 - La prolongation de la prosternation"
             },
             {
-                "title": "919 - Les effets de la prosternation",
-                "content": []
+                "title": "919 - Les effets de la prosternation"
             },
             {
-                "title": "920 - La prosternation sur la terre de [la tombe de] Ḥusayn (as)",
-                "content": []
+                "title": "920 - La prosternation sur la terre de [la tombe de] Ḥusayn (as)"
             }
         ]
     },
@@ -7602,28 +6778,22 @@ const AUNE_SAGESSE = [
         "title": "184 - LA MOSQUÉE",
         "subparts": [
             {
-                "title": "921 - La mosquée est la maison d'Allah",
-                "content": []
+                "title": "921 - La mosquée est la maison d'Allah"
             },
             {
-                "title": "922 - Peupler les mosquées",
-                "content": []
+                "title": "922 - Peupler les mosquées"
             },
             {
-                "title": "923 - La récompense pour le fait de se rendre à la mosquée",
-                "content": []
+                "title": "923 - La récompense pour le fait de se rendre à la mosquée"
             },
             {
-                "title": "924 - La récompense pour le fait de s'asseoir dans la mosquée",
-                "content": []
+                "title": "924 - La récompense pour le fait de s'asseoir dans la mosquée"
             },
             {
-                "title": "925 - La proximité de la mosquée et la prière en son sein",
-                "content": []
+                "title": "925 - La proximité de la mosquée et la prière en son sein"
             },
             {
-                "title": "926 - La bonne conduite à l'intérieur des mosquées",
-                "content": []
+                "title": "926 - La bonne conduite à l'intérieur des mosquées"
             }
         ]
     },
@@ -7631,16 +6801,13 @@ const AUNE_SAGESSE = [
         "title": "185 - LA GÉNÉROSITÉ",
         "subparts": [
             {
-                "title": "927 - La vertu de la générosité",
-                "content": []
+                "title": "927 - La vertu de la générosité"
             },
             {
-                "title": "928 - La vertu de la personne généreuse",
-                "content": []
+                "title": "928 - La vertu de la personne généreuse"
             },
             {
-                "title": "929 - L'étendue [recommandée] de la générosité",
-                "content": []
+                "title": "929 - L'étendue [recommandée] de la générosité"
             }
         ]
     },
@@ -7648,12 +6815,10 @@ const AUNE_SAGESSE = [
         "title": "186 - LE SECRET",
         "subparts": [
             {
-                "title": "930 - L'incitation à garder les secrets",
-                "content": []
+                "title": "930 - L'incitation à garder les secrets"
             },
             {
-                "title": "931 - Ceux à qui il ne faut pas confier de secret",
-                "content": []
+                "title": "931 - Ceux à qui il ne faut pas confier de secret"
             }
         ]
     },
@@ -7661,24 +6826,19 @@ const AUNE_SAGESSE = [
         "title": "187 - LA JOIE",
         "subparts": [
             {
-                "title": "932 - Ce qui doit susciter la joie",
-                "content": []
+                "title": "932 - Ce qui doit susciter la joie"
             },
             {
-                "title": "933 - Les facteurs de la joie",
-                "content": []
+                "title": "933 - Les facteurs de la joie"
             },
             {
-                "title": "934 - Celui qui remplit un cœur de joie",
-                "content": []
+                "title": "934 - Celui qui remplit un cœur de joie"
             },
             {
-                "title": "935 - Celui qui rend joyeux un croyant rend joyeux Allah",
-                "content": []
+                "title": "935 - Celui qui rend joyeux un croyant rend joyeux Allah"
             },
             {
-                "title": "936 - La récompense de celui qui soulage et console un croyant",
-                "content": []
+                "title": "936 - La récompense de celui qui soulage et console un croyant"
             }
         ]
     },
@@ -7686,20 +6846,16 @@ const AUNE_SAGESSE = [
         "title": "188 - LE GASPILLAGE",
         "subparts": [
             {
-                "title": "937 - Le blâme du gaspillage",
-                "content": []
+                "title": "937 - Le blâme du gaspillage"
             },
             {
-                "title": "938 - Les caractéristiques du gaspilleur",
-                "content": []
+                "title": "938 - Les caractéristiques du gaspilleur"
             },
             {
-                "title": "939 - La plus petite forme de gaspillage",
-                "content": []
+                "title": "939 - La plus petite forme de gaspillage"
             },
             {
-                "title": "940 - Ce qui n'est pas considéré comme du gaspillage",
-                "content": []
+                "title": "940 - Ce qui n'est pas considéré comme du gaspillage"
             }
         ]
     },
@@ -7707,12 +6863,10 @@ const AUNE_SAGESSE = [
         "title": "189 - LE VOL",
         "subparts": [
             {
-                "title": "941 - L'interdiction du vol et sa punition légale",
-                "content": []
+                "title": "941 - L'interdiction du vol et sa punition légale"
             },
             {
-                "title": "942 - Celui à qui ne s'applique pas la punition légale pour le vol",
-                "content": []
+                "title": "942 - Celui à qui ne s'applique pas la punition légale pour le vol"
             }
         ]
     },
@@ -7720,24 +6874,19 @@ const AUNE_SAGESSE = [
         "title": "190 - LE BONHEUR",
         "subparts": [
             {
-                "title": "943 - Les caractéristiques de la personne heureuse",
-                "content": []
+                "title": "943 - Les caractéristiques de la personne heureuse"
             },
             {
-                "title": "944 - Ce qui suscite le bonheur",
-                "content": []
+                "title": "944 - Ce qui suscite le bonheur"
             },
             {
-                "title": "945 - Ce qui est considéré comme étant du bonheur",
-                "content": []
+                "title": "945 - Ce qui est considéré comme étant du bonheur"
             },
             {
-                "title": "946 - Le vrai bonheur",
-                "content": []
+                "title": "946 - Le vrai bonheur"
             },
             {
-                "title": "947 - La plus heureuse des personnes",
-                "content": []
+                "title": "947 - La plus heureuse des personnes"
             }
         ]
     },
@@ -7745,20 +6894,16 @@ const AUNE_SAGESSE = [
         "title": "191 - LE VOYAGE",
         "subparts": [
             {
-                "title": "948 - L'incitation au voyage et à son écourtement",
-                "content": []
+                "title": "948 - L'incitation au voyage et à son écourtement"
             },
             {
-                "title": "949 - L'incitation à se promener",
-                "content": []
+                "title": "949 - L'incitation à se promener"
             },
             {
-                "title": "950 - Les règles du voyage",
-                "content": []
+                "title": "950 - Les règles du voyage"
             },
             {
-                "title": "951 - Les voyages interdits",
-                "content": []
+                "title": "951 - Les voyages interdits"
             }
         ]
     },
@@ -7766,12 +6911,10 @@ const AUNE_SAGESSE = [
         "title": "192 - ETANCHER LA SOIF",
         "subparts": [
             {
-                "title": "952 - La vertu du fait d'étancher la soif de quelqu'un",
-                "content": []
+                "title": "952 - La vertu du fait d'étancher la soif de quelqu'un"
             },
             {
-                "title": "953 - Ce que doit faire celui qui étanche la soif des autres",
-                "content": []
+                "title": "953 - Ce que doit faire celui qui étanche la soif des autres"
             }
         ]
     },
@@ -7779,12 +6922,10 @@ const AUNE_SAGESSE = [
         "title": "193 - L'IVRESSE",
         "subparts": [
             {
-                "title": "954 - Tout enivrant est interdit",
-                "content": []
+                "title": "954 - Tout enivrant est interdit"
             },
             {
-                "title": "955 - Les différents types d'enivrants",
-                "content": []
+                "title": "955 - Les différents types d'enivrants"
             }
         ]
     },
@@ -7792,16 +6933,13 @@ const AUNE_SAGESSE = [
         "title": "194 - LA MAISON",
         "subparts": [
             {
-                "title": "956 - La spaciosité et l'étroitesse de la maison",
-                "content": []
+                "title": "956 - La spaciosité et l'étroitesse de la maison"
             },
             {
-                "title": "957 - Mise en garde contre le fait de construire plus que ce dont on a besoin",
-                "content": []
+                "title": "957 - Mise en garde contre le fait de construire plus que ce dont on a besoin"
             },
             {
-                "title": "958 - Vendre une maison",
-                "content": []
+                "title": "958 - Vendre une maison"
             }
         ]
     },
@@ -7809,16 +6947,13 @@ const AUNE_SAGESSE = [
         "title": "195 - LES ARMES",
         "subparts": [
             {
-                "title": "959 - La récompense de la fabrication d'armes",
-                "content": []
+                "title": "959 - La récompense de la fabrication d'armes"
             },
             {
-                "title": "960 - Les armes et le bien",
-                "content": []
+                "title": "960 - Les armes et le bien"
             },
             {
-                "title": "961 - L'interdiction de vendre des armes aux ennemis de la religion",
-                "content": []
+                "title": "961 - L'interdiction de vendre des armes aux ennemis de la religion"
             }
         ]
     },
@@ -7826,16 +6961,13 @@ const AUNE_SAGESSE = [
         "title": "196 - LE SOUVERAIN",
         "subparts": [
             {
-                "title": "962 - Gare à la fréquentation du souverain tyrannique",
-                "content": []
+                "title": "962 - Gare à la fréquentation du souverain tyrannique"
             },
             {
-                "title": "963 - Le blâme de la soumission au souverain tyrannique",
-                "content": []
+                "title": "963 - Le blâme de la soumission au souverain tyrannique"
             },
             {
-                "title": "964 - La vertu du souverain juste",
-                "content": []
+                "title": "964 - La vertu du souverain juste"
             }
         ]
     },
@@ -7843,20 +6975,16 @@ const AUNE_SAGESSE = [
         "title": "197 - L'ISLAM",
         "subparts": [
             {
-                "title": "965 - L'islam, religion d'Allah",
-                "content": []
+                "title": "965 - L'islam, religion d'Allah"
             },
             {
-                "title": "966 - La signification de l'islam",
-                "content": []
+                "title": "966 - La signification de l'islam"
             },
             {
-                "title": "967 - Les caractéristiques du musulman",
-                "content": []
+                "title": "967 - Les caractéristiques du musulman"
             },
             {
-                "title": "968 - Les fondements de l'islam",
-                "content": []
+                "title": "968 - Les fondements de l'islam"
             }
         ]
     },
@@ -7864,24 +6992,19 @@ const AUNE_SAGESSE = [
         "title": "198 - LES SALUTATIONS DE PAIX",
         "subparts": [
             {
-                "title": "969 - Les salutations des musulmans",
-                "content": []
+                "title": "969 - Les salutations des musulmans"
             },
             {
-                "title": "970 - La vertu du fait de saluer en premier",
-                "content": []
+                "title": "970 - La vertu du fait de saluer en premier"
             },
             {
-                "title": "971 - L'incitation à saluer lors de l'entrée dans une demeure",
-                "content": []
+                "title": "971 - L'incitation à saluer lors de l'entrée dans une demeure"
             },
             {
-                "title": "972 - L'obligation de répondre aux salutations",
-                "content": []
+                "title": "972 - L'obligation de répondre aux salutations"
             },
             {
-                "title": "973 - La bonne façon de saluer",
-                "content": []
+                "title": "973 - La bonne façon de saluer"
             }
         ]
     },
@@ -7889,8 +7012,7 @@ const AUNE_SAGESSE = [
         "title": "199 - LA SOUMISSION",
         "subparts": [
             {
-                "title": "974 - La soumission à la volonté d'Allah",
-                "content": []
+                "title": "974 - La soumission à la volonté d'Allah"
             }
         ]
     },
@@ -7898,20 +7020,16 @@ const AUNE_SAGESSE = [
         "title": "200 - L'ÉCOUTE",
         "subparts": [
             {
-                "title": "975 - La vertu de l'écoute attentive",
-                "content": []
+                "title": "975 - La vertu de l'écoute attentive"
             },
             {
-                "title": "976 - Celui dont les oreilles sont scellées",
-                "content": []
+                "title": "976 - Celui dont les oreilles sont scellées"
             },
             {
-                "title": "977 - La bonne écoute",
-                "content": []
+                "title": "977 - La bonne écoute"
             },
             {
-                "title": "978 - Les obligations de l'ouïe",
-                "content": []
+                "title": "978 - Les obligations de l'ouïe"
             }
         ]
     },
@@ -7919,12 +7037,10 @@ const AUNE_SAGESSE = [
         "title": "201 - LE PRÉNOM",
         "subparts": [
             {
-                "title": "979 - Choisir de beaux prénoms",
-                "content": []
+                "title": "979 - Choisir de beaux prénoms"
             },
             {
-                "title": "980 - Changer les noms laids",
-                "content": []
+                "title": "980 - Changer les noms laids"
             }
         ]
     },
@@ -7932,12 +7048,10 @@ const AUNE_SAGESSE = [
         "title": "202 - LES NOMS D'ALLAH",
         "subparts": [
             {
-                "title": "981 - Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux",
-                "content": []
+                "title": "981 - Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux"
             },
             {
-                "title": "982 - Le Nom Suprême d'Allah",
-                "content": []
+                "title": "982 - Le Nom Suprême d'Allah"
             }
         ]
     },
@@ -7945,16 +7059,13 @@ const AUNE_SAGESSE = [
         "title": "203 - LA TRADITION (SUNNA)",
         "subparts": [
             {
-                "title": "983 - L'incitation à adhérer à la tradition prophétique (sunna)",
-                "content": []
+                "title": "983 - L'incitation à adhérer à la tradition prophétique (sunna)"
             },
             {
-                "title": "984 - La récompense de celui qui a établi une tradition",
-                "content": []
+                "title": "984 - La récompense de celui qui a établi une tradition"
             },
             {
-                "title": "985 - L'interdiction d'abandonner la bonne tradition",
-                "content": []
+                "title": "985 - L'interdiction d'abandonner la bonne tradition"
             }
         ]
     },
@@ -7962,12 +7073,10 @@ const AUNE_SAGESSE = [
         "title": "204 - LA VEILLÉE",
         "subparts": [
             {
-                "title": "986 - La veillée",
-                "content": []
+                "title": "986 - La veillée"
             },
             {
-                "title": "987 - Incitation à veiller durant des nuits spécifiques",
-                "content": []
+                "title": "987 - Incitation à veiller durant des nuits spécifiques"
             }
         ]
     },
@@ -7975,16 +7084,13 @@ const AUNE_SAGESSE = [
         "title": "205 - LE CHEF",
         "subparts": [
             {
-                "title": "988 - Les caractéristiques du chef",
-                "content": []
+                "title": "988 - Les caractéristiques du chef"
             },
             {
-                "title": "989 - Les conditions nécessaires pour être chef",
-                "content": []
+                "title": "989 - Les conditions nécessaires pour être chef"
             },
             {
-                "title": "990 - Ce qui fait obstacle au fait d'être chef",
-                "content": []
+                "title": "990 - Ce qui fait obstacle au fait d'être chef"
             }
         ]
     },
@@ -7992,12 +7098,10 @@ const AUNE_SAGESSE = [
         "title": "206 - LA GESTION",
         "subparts": [
             {
-                "title": "991 - La gestion de la société",
-                "content": []
+                "title": "991 - La gestion de la société"
             },
             {
-                "title": "992 - La gestion de sa propre personne",
-                "content": []
+                "title": "992 - La gestion de sa propre personne"
             }
         ]
     },
@@ -8005,8 +7109,7 @@ const AUNE_SAGESSE = [
         "title": "207 - LA PROCRASTINATION",
         "subparts": [
             {
-                "title": "993 - L'interdiction de la procrastination",
-                "content": []
+                "title": "993 - L'interdiction de la procrastination"
             }
         ]
     },
@@ -8014,12 +7117,10 @@ const AUNE_SAGESSE = [
         "title": "208 - LE MARCHÉ",
         "subparts": [
             {
-                "title": "994 - Le lieu de la négligence",
-                "content": []
+                "title": "994 - Le lieu de la négligence"
             },
             {
-                "title": "995 - L'exhortation de l'Imām 'Alī (as) aux marchands",
-                "content": []
+                "title": "995 - L'exhortation de l'Imām 'Alī (as) aux marchands"
             }
         ]
     },
@@ -8027,16 +7128,13 @@ const AUNE_SAGESSE = [
         "title": "209 - SE BROSSER LES DENTS",
         "subparts": [
             {
-                "title": "996 - L'incitation à se brosser les dents",
-                "content": []
+                "title": "996 - L'incitation à se brosser les dents"
             },
             {
-                "title": "997 - Les bienfaits liés au fait de se brosser les dents",
-                "content": []
+                "title": "997 - Les bienfaits liés au fait de se brosser les dents"
             },
             {
-                "title": "998 - La bonne façon de se brosser les dents",
-                "content": []
+                "title": "998 - La bonne façon de se brosser les dents"
             }
         ]
     },
@@ -8044,24 +7142,19 @@ const AUNE_SAGESSE = [
         "title": "210 - LA JEUNESSE",
         "subparts": [
             {
-                "title": "999 - La jeunesse",
-                "content": []
+                "title": "999 - La jeunesse"
             },
             {
-                "title": "1000 - L'éducation des jeunes",
-                "content": []
+                "title": "1000 - L'éducation des jeunes"
             },
             {
-                "title": "1001 - L'apprentissage lors de la jeunesse",
-                "content": []
+                "title": "1001 - L'apprentissage lors de la jeunesse"
             },
             {
-                "title": "1002 - La supériorité du jeune dévot",
-                "content": []
+                "title": "1002 - La supériorité du jeune dévot"
             },
             {
-                "title": "1003 - La signification du terme fatā",
-                "content": []
+                "title": "1003 - La signification du terme fatā"
             }
         ]
     },
@@ -8069,20 +7162,16 @@ const AUNE_SAGESSE = [
         "title": "211 - L'AMBIGUÏTÉ",
         "subparts": [
             {
-                "title": "1004 - La signification de l'ambigüité",
-                "content": []
+                "title": "1004 - La signification de l'ambigüité"
             },
             {
-                "title": "1005 - Le danger de l'ambigüité",
-                "content": []
+                "title": "1005 - Le danger de l'ambigüité"
             },
             {
-                "title": "1006 - L'obligation de s'arrêter face à l'ambigüité",
-                "content": []
+                "title": "1006 - L'obligation de s'arrêter face à l'ambigüité"
             },
             {
-                "title": "1007 - L'obligation de délaisser les ambigüités",
-                "content": []
+                "title": "1007 - L'obligation de délaisser les ambigüités"
             }
         ]
     },
@@ -8090,12 +7179,10 @@ const AUNE_SAGESSE = [
         "title": "212 - LES ARBRES",
         "subparts": [
             {
-                "title": "1008 - L'importance de planter des arbres",
-                "content": []
+                "title": "1008 - L'importance de planter des arbres"
             },
             {
-                "title": "1009 - L'interdiction d'abattre les arbres",
-                "content": []
+                "title": "1009 - L'interdiction d'abattre les arbres"
             }
         ]
     },
@@ -8103,20 +7190,16 @@ const AUNE_SAGESSE = [
         "title": "213 - LE COURAGE",
         "subparts": [
             {
-                "title": "1010 - La vertu du courage",
-                "content": []
+                "title": "1010 - La vertu du courage"
             },
             {
-                "title": "1011 - Ce qui suscite le courage",
-                "content": []
+                "title": "1011 - Ce qui suscite le courage"
             },
             {
-                "title": "1012 - La personne la plus courageuse",
-                "content": []
+                "title": "1012 - La personne la plus courageuse"
             },
             {
-                "title": "1013 - Le vice du courage",
-                "content": []
+                "title": "1013 - Le vice du courage"
             }
         ]
     },
@@ -8124,24 +7207,19 @@ const AUNE_SAGESSE = [
         "title": "214 - LE MAL",
         "subparts": [
             {
-                "title": "1014 - Le critère du bien et du mal",
-                "content": []
+                "title": "1014 - Le critère du bien et du mal"
             },
             {
-                "title": "1015 - Pire que le mal",
-                "content": []
+                "title": "1015 - Pire que le mal"
             },
             {
-                "title": "1016 - Les clés de tout mal",
-                "content": []
+                "title": "1016 - Les clés de tout mal"
             },
             {
-                "title": "1017 - Le rassemblement des maux",
-                "content": []
+                "title": "1017 - Le rassemblement des maux"
             },
             {
-                "title": "1018 - La tendance naturelle de l'homme pour le mal",
-                "content": []
+                "title": "1018 - La tendance naturelle de l'homme pour le mal"
             }
         ]
     },
@@ -8149,20 +7227,16 @@ const AUNE_SAGESSE = [
         "title": "215 - L'ASSOCIATIONNISME",
         "subparts": [
             {
-                "title": "1019 - Mise en garde contre l'associationnisme",
-                "content": []
+                "title": "1019 - Mise en garde contre l'associationnisme"
             },
             {
-                "title": "1020 - L'enseignement de l'associationnisme",
-                "content": []
+                "title": "1020 - L'enseignement de l'associationnisme"
             },
             {
-                "title": "1021 - Le plus bas degré de l'associationnisme",
-                "content": []
+                "title": "1021 - Le plus bas degré de l'associationnisme"
             },
             {
-                "title": "1022 - L'associationnisme caché",
-                "content": []
+                "title": "1022 - L'associationnisme caché"
             }
         ]
     },
@@ -8170,36 +7244,28 @@ const AUNE_SAGESSE = [
         "title": "216 - SATAN",
         "subparts": [
             {
-                "title": "1023 - Tirer leçon de ce qu'Allah a fait à Satan",
-                "content": []
+                "title": "1023 - Tirer leçon de ce qu'Allah a fait à Satan"
             },
             {
-                "title": "1024 - Demander la protection d'Allah contre Satan",
-                "content": []
+                "title": "1024 - Demander la protection d'Allah contre Satan"
             },
             {
-                "title": "1025 - L'animosité de Satan envers l'homme",
-                "content": []
+                "title": "1025 - L'animosité de Satan envers l'homme"
             },
             {
-                "title": "1026 - Mise en garde contre les tentations de Satan",
-                "content": []
+                "title": "1026 - Mise en garde contre les tentations de Satan"
             },
             {
-                "title": "1027 - Les adorateurs de Satan",
-                "content": []
+                "title": "1027 - Les adorateurs de Satan"
             },
             {
-                "title": "1028 - Les tromperies de Satan",
-                "content": []
+                "title": "1028 - Les tromperies de Satan"
             },
             {
-                "title": "1029 - Ce qui protège de Satan",
-                "content": []
+                "title": "1029 - Ce qui protège de Satan"
             },
             {
-                "title": "1030 - Ce qui fait dominer Satan",
-                "content": []
+                "title": "1030 - Ce qui fait dominer Satan"
             }
         ]
     },
@@ -8207,12 +7273,10 @@ const AUNE_SAGESSE = [
         "title": "217 - LA POÉSIE",
         "subparts": [
             {
-                "title": "1031 - L'interprétation de ce qui a été dit au sujet du blâme des poètes [dans le Coran]",
-                "content": []
+                "title": "1031 - L'interprétation de ce qui a été dit au sujet du blâme des poètes [dans le Coran]"
             },
             {
-                "title": "1032 - La poésie est un combat (jihād) mené avec la langue",
-                "content": []
+                "title": "1032 - La poésie est un combat (jihād) mené avec la langue"
             }
         ]
     },
@@ -8220,12 +7284,10 @@ const AUNE_SAGESSE = [
         "title": "218 - LE SLOGAN",
         "subparts": [
             {
-                "title": "1033 - Le slogan durant la bataille",
-                "content": []
+                "title": "1033 - Le slogan durant la bataille"
             },
             {
-                "title": "1034 - Le slogan des musulmans le Jour de la Résurrection",
-                "content": []
+                "title": "1034 - Le slogan des musulmans le Jour de la Résurrection"
             }
         ]
     },
@@ -8233,36 +7295,28 @@ const AUNE_SAGESSE = [
         "title": "219 - L'INTERCESSION",
         "subparts": [
             {
-                "title": "1035 - L'intercession dans ce bas-monde",
-                "content": []
+                "title": "1035 - L'intercession dans ce bas-monde"
             },
             {
-                "title": "1036 - L'intercession dans l'Au-delà",
-                "content": []
+                "title": "1036 - L'intercession dans l'Au-delà"
             },
             {
-                "title": "1037 - Ceux qui seront privés de l'intercession",
-                "content": []
+                "title": "1037 - Ceux qui seront privés de l'intercession"
             },
             {
-                "title": "1038 - Le besoin des premiers et des derniers de l'intercession",
-                "content": []
+                "title": "1038 - Le besoin des premiers et des derniers de l'intercession"
             },
             {
-                "title": "1039 - Les différents types d'intercesseurs",
-                "content": []
+                "title": "1039 - Les différents types d'intercesseurs"
             },
             {
-                "title": "1040 - Les personnes qui méritent le plus l'intercession",
-                "content": []
+                "title": "1040 - Les personnes qui méritent le plus l'intercession"
             },
             {
-                "title": "1041 - L'intercession du croyant dépend de l'étendue de ses actes",
-                "content": []
+                "title": "1041 - L'intercession du croyant dépend de l'étendue de ses actes"
             },
             {
-                "title": "1042 - La plus petite intercession possible au croyant",
-                "content": []
+                "title": "1042 - La plus petite intercession possible au croyant"
             }
         ]
     },
@@ -8270,24 +7324,19 @@ const AUNE_SAGESSE = [
         "title": "220 - LA MISÈRE",
         "subparts": [
             {
-                "title": "1043 - Les caractéristiques de la personne misérable",
-                "content": []
+                "title": "1043 - Les caractéristiques de la personne misérable"
             },
             {
-                "title": "1044 - Le misérable l'était dans le ventre de sa mère",
-                "content": []
+                "title": "1044 - Le misérable l'était dans le ventre de sa mère"
             },
             {
-                "title": "1045 - Ce qui suscite la misère",
-                "content": []
+                "title": "1045 - Ce qui suscite la misère"
             },
             {
-                "title": "1046 - La plus misérable des personnes",
-                "content": []
+                "title": "1046 - La plus misérable des personnes"
             },
             {
-                "title": "1047 - Les signes de la misère",
-                "content": []
+                "title": "1047 - Les signes de la misère"
             }
         ]
     },
@@ -8295,36 +7344,28 @@ const AUNE_SAGESSE = [
         "title": "221 - LA GRATITUDE",
         "subparts": [
             {
-                "title": "1048 - L'incitation à rendre grâce à Allah",
-                "content": []
+                "title": "1048 - L'incitation à rendre grâce à Allah"
             },
             {
-                "title": "1049 - La vertu de la personne reconnaissante",
-                "content": []
+                "title": "1049 - La vertu de la personne reconnaissante"
             },
             {
-                "title": "1050 - Le rôle de la gratitude dans l'augmentation [des grâces]",
-                "content": []
+                "title": "1050 - Le rôle de la gratitude dans l'augmentation [des grâces]"
             },
             {
-                "title": "1051 - La nécessité de remercier pour avoir remercié",
-                "content": []
+                "title": "1051 - La nécessité de remercier pour avoir remercié"
             },
             {
-                "title": "1052 - La vraie gratitude",
-                "content": []
+                "title": "1052 - La vraie gratitude"
             },
             {
-                "title": "1053 - La plus reconnaissante des personnes",
-                "content": []
+                "title": "1053 - La plus reconnaissante des personnes"
             },
             {
-                "title": "1054 - L'incitation à remercier les bienfaiteurs",
-                "content": []
+                "title": "1054 - L'incitation à remercier les bienfaiteurs"
             },
             {
-                "title": "1055 - Celui qui n'a pas remercié les créatures n'a pas remercié le Créateur",
-                "content": []
+                "title": "1055 - Celui qui n'a pas remercié les créatures n'a pas remercié le Créateur"
             }
         ]
     },
@@ -8332,24 +7373,19 @@ const AUNE_SAGESSE = [
         "title": "222 - LE DOUTE",
         "subparts": [
             {
-                "title": "1056 - Le doute concernant les principes de la croyance",
-                "content": []
+                "title": "1056 - Le doute concernant les principes de la croyance"
             },
             {
-                "title": "1057 - Les causes du doute",
-                "content": []
+                "title": "1057 - Les causes du doute"
             },
             {
-                "title": "1058 - Les effets du doute",
-                "content": []
+                "title": "1058 - Les effets du doute"
             },
             {
-                "title": "1059 - Ce qui dissipe le doute",
-                "content": []
+                "title": "1059 - Ce qui dissipe le doute"
             },
             {
-                "title": "1060 - Les [différents] aspects du doute",
-                "content": []
+                "title": "1060 - Les [différents] aspects du doute"
             }
         ]
     },
@@ -8357,24 +7393,19 @@ const AUNE_SAGESSE = [
         "title": "223 - LE TÉMOIGNAGE",
         "subparts": [
             {
-                "title": "1061 - Le témoignage équitable",
-                "content": []
+                "title": "1061 - Le témoignage équitable"
             },
             {
-                "title": "1062 - L'incitation à témoigner",
-                "content": []
+                "title": "1062 - L'incitation à témoigner"
             },
             {
-                "title": "1063 - Dissimuler un témoignage",
-                "content": []
+                "title": "1063 - Dissimuler un témoignage"
             },
             {
-                "title": "1064 - Ceux dont le témoignage est accepté",
-                "content": []
+                "title": "1064 - Ceux dont le témoignage est accepté"
             },
             {
-                "title": "1065 - La bonne conduite lors du témoignage",
-                "content": []
+                "title": "1065 - La bonne conduite lors du témoignage"
             }
         ]
     },
@@ -8382,20 +7413,16 @@ const AUNE_SAGESSE = [
         "title": "224 - LE MARTYRE",
         "subparts": [
             {
-                "title": "1066 - La vertu du martyre",
-                "content": []
+                "title": "1066 - La vertu du martyre"
             },
             {
-                "title": "1067 - La rétribution de celui qui aspire au martyre",
-                "content": []
+                "title": "1067 - La rétribution de celui qui aspire au martyre"
             },
             {
-                "title": "1068 - Ceux qui sont considérés comme des martyrs",
-                "content": []
+                "title": "1068 - Ceux qui sont considérés comme des martyrs"
             },
             {
-                "title": "1069 - La rétribution du blessé dans le sentier d'Allah",
-                "content": []
+                "title": "1069 - La rétribution du blessé dans le sentier d'Allah"
             }
         ]
     },
@@ -8403,16 +7430,13 @@ const AUNE_SAGESSE = [
         "title": "225 - LA RENOMMÉE",
         "subparts": [
             {
-                "title": "1070 - La renommée louable",
-                "content": []
+                "title": "1070 - La renommée louable"
             },
             {
-                "title": "1071 - La renommée blâmable",
-                "content": []
+                "title": "1071 - La renommée blâmable"
             },
             {
-                "title": "1072 - Le blâme du fait de porter des vêtements et de pratiquer des actes",
-                "content": []
+                "title": "1072 - Le blâme du fait de porter des vêtements et de pratiquer des actes"
             }
         ]
     },
@@ -8420,24 +7444,19 @@ const AUNE_SAGESSE = [
         "title": "226 - LA CONSULTATION",
         "subparts": [
             {
-                "title": "1073 - L'incitation à avoir recours à la consultation",
-                "content": []
+                "title": "1073 - L'incitation à avoir recours à la consultation"
             },
             {
-                "title": "1074 - Ceux à qui il ne faut pas demander conseil",
-                "content": []
+                "title": "1074 - Ceux à qui il ne faut pas demander conseil"
             },
             {
-                "title": "1075 - Les limites et conditions du conseil",
-                "content": []
+                "title": "1075 - Les limites et conditions du conseil"
             },
             {
-                "title": "1076 - L'incitation à guider celui qui demande conseil",
-                "content": []
+                "title": "1076 - L'incitation à guider celui qui demande conseil"
             },
             {
-                "title": "1077 - Demander conseil aux ennemis",
-                "content": []
+                "title": "1077 - Demander conseil aux ennemis"
             }
         ]
     },
@@ -8445,12 +7464,10 @@ const AUNE_SAGESSE = [
         "title": "227 - LA VIEILLESSE",
         "subparts": [
             {
-                "title": "1078 - La vieillesse",
-                "content": []
+                "title": "1078 - La vieillesse"
             },
             {
-                "title": "1079 - L'incitation à honorer les personnes âgées",
-                "content": []
+                "title": "1079 - L'incitation à honorer les personnes âgées"
             }
         ]
     },
@@ -8458,32 +7475,25 @@ const AUNE_SAGESSE = [
         "title": "228 - LES SHIITES (AL-SHĪ'A)",
         "subparts": [
             {
-                "title": "1080 - La vertu des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)",
-                "content": []
+                "title": "1080 - La vertu des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)"
             },
             {
-                "title": "1081 - Les signes caractéristiques des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)",
-                "content": []
+                "title": "1081 - Les signes caractéristiques des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)"
             },
             {
-                "title": "1082 - Celui qui ne fait pas partie des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)",
-                "content": []
+                "title": "1082 - Celui qui ne fait pas partie des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)"
             },
             {
-                "title": "1083 - Les différentes catégories de ceux qui sont appelés partisans (shī'a)",
-                "content": []
+                "title": "1083 - Les différentes catégories de ceux qui sont appelés partisans (shī'a)"
             },
             {
-                "title": "1084 - L'interdiction faite aux shiites d'avoir des croyances exagérées",
-                "content": []
+                "title": "1084 - L'interdiction faite aux shiites d'avoir des croyances exagérées"
             },
             {
-                "title": "1085 - Comment les shiites doivent se comporter vis-à-vis des gens",
-                "content": []
+                "title": "1085 - Comment les shiites doivent se comporter vis-à-vis des gens"
             },
             {
-                "title": "1086 - Le rang des shiites lors de la Résurrection",
-                "content": []
+                "title": "1086 - Le rang des shiites lors de la Résurrection"
             }
         ]
     },
@@ -8491,36 +7501,28 @@ const AUNE_SAGESSE = [
         "title": "229 - LA PATIENCE",
         "subparts": [
             {
-                "title": "1087 - La vertu de la patience",
-                "content": []
+                "title": "1087 - La vertu de la patience"
             },
             {
-                "title": "1088 - La patience et [l'accomplissement] de grandes choses",
-                "content": []
+                "title": "1088 - La patience et [l'accomplissement] de grandes choses"
             },
             {
-                "title": "1089 - La patience et la victoire",
-                "content": []
+                "title": "1089 - La patience et la victoire"
             },
             {
-                "title": "1090 - La rétribution de la personne patiente",
-                "content": []
+                "title": "1090 - La rétribution de la personne patiente"
             },
             {
-                "title": "1091 - La signification de la patience",
-                "content": []
+                "title": "1091 - La signification de la patience"
             },
             {
-                "title": "1092 - La patience des partisans (shī'a) des Ahl al-Bayt (as)",
-                "content": []
+                "title": "1092 - La patience des partisans (shī'a) des Ahl al-Bayt (as)"
             },
             {
-                "title": "1093 - Les effets de l'impatience",
-                "content": []
+                "title": "1093 - Les effets de l'impatience"
             },
             {
-                "title": "1094 - Ce qui suscite la patience",
-                "content": []
+                "title": "1094 - Ce qui suscite la patience"
             }
         ]
     },
@@ -8528,16 +7530,13 @@ const AUNE_SAGESSE = [
         "title": "230 - LA SINCÉRITÉ",
         "subparts": [
             {
-                "title": "1095 - La vertu de la sincérité et de la personne sincère",
-                "content": []
+                "title": "1095 - La vertu de la sincérité et de la personne sincère"
             },
             {
-                "title": "1096 - Tester les gens par la sincérité de leur parole",
-                "content": []
+                "title": "1096 - Tester les gens par la sincérité de leur parole"
             },
             {
-                "title": "1097 - La plus véridique des paroles",
-                "content": []
+                "title": "1097 - La plus véridique des paroles"
             }
         ]
     },
@@ -8545,36 +7544,28 @@ const AUNE_SAGESSE = [
         "title": "231 - L'AMI",
         "subparts": [
             {
-                "title": "1098 - L'importance de l'ami",
-                "content": []
+                "title": "1098 - L'importance de l'ami"
             },
             {
-                "title": "1099 - La ressemblance des âmes",
-                "content": []
+                "title": "1099 - La ressemblance des âmes"
             },
             {
-                "title": "1100 - Celui qu'il faut prendre pour ami",
-                "content": []
+                "title": "1100 - Celui qu'il faut prendre pour ami"
             },
             {
-                "title": "1101 - Celui qu'il ne faut pas prendre pour ami",
-                "content": []
+                "title": "1101 - Celui qu'il ne faut pas prendre pour ami"
             },
             {
-                "title": "1102 - Ce qui corrompt l'amitié",
-                "content": []
+                "title": "1102 - Ce qui corrompt l'amitié"
             },
             {
-                "title": "1103 - L'étendue de l'amitié",
-                "content": []
+                "title": "1103 - L'étendue de l'amitié"
             },
             {
-                "title": "1104 - Le meilleur des compagnons",
-                "content": []
+                "title": "1104 - Le meilleur des compagnons"
             },
             {
-                "title": "1105 - Les droits du compagnon",
-                "content": []
+                "title": "1105 - Les droits du compagnon"
             }
         ]
     },
@@ -8582,44 +7573,34 @@ const AUNE_SAGESSE = [
         "title": "232 - LA CHARITÉ (ṢADAQA)",
         "subparts": [
             {
-                "title": "1106 - La vertu de la charité",
-                "content": []
+                "title": "1106 - La vertu de la charité"
             },
             {
-                "title": "1107 - La réception de la charité par Allah",
-                "content": []
+                "title": "1107 - La réception de la charité par Allah"
             },
             {
-                "title": "1108 - La charité et l'éloignement des malheurs",
-                "content": []
+                "title": "1108 - La charité et l'éloignement des malheurs"
             },
             {
-                "title": "1109 - La charité est la clé de la subsistance",
-                "content": []
+                "title": "1109 - La charité est la clé de la subsistance"
             },
             {
-                "title": "1110 - Toute bonne action est considérée comme de la charité",
-                "content": []
+                "title": "1110 - Toute bonne action est considérée comme de la charité"
             },
             {
-                "title": "1111 - La meilleure forme de charité",
-                "content": []
+                "title": "1111 - La meilleure forme de charité"
             },
             {
-                "title": "1112 - La vertu de la charité faite en secret et ses effets",
-                "content": []
+                "title": "1112 - La vertu de la charité faite en secret et ses effets"
             },
             {
-                "title": "1113 - La limite de l'aumône (ṣadaqa)",
-                "content": []
+                "title": "1113 - La limite de l'aumône (ṣadaqa)"
             },
             {
-                "title": "1114 - Les destinataires de l'aumône (ṣadaqa)",
-                "content": []
+                "title": "1114 - Les destinataires de l'aumône (ṣadaqa)"
             },
             {
-                "title": "1115 - La bonne façon de faire l'aumône",
-                "content": []
+                "title": "1115 - La bonne façon de faire l'aumône"
             }
         ]
     },
@@ -8627,16 +7608,13 @@ const AUNE_SAGESSE = [
         "title": "233 - LE CHEMIN",
         "subparts": [
             {
-                "title": "1116 - Le droit chemin",
-                "content": []
+                "title": "1116 - Le droit chemin"
             },
             {
-                "title": "1117 - La signification du droit chemin",
-                "content": []
+                "title": "1117 - La signification du droit chemin"
             },
             {
-                "title": "1118 - Le chemin de l'Au-delà et son passage",
-                "content": []
+                "title": "1118 - Le chemin de l'Au-delà et son passage"
             }
         ]
     },
@@ -8644,8 +7622,7 @@ const AUNE_SAGESSE = [
         "title": "234 - L'ENFANCE",
         "subparts": [
             {
-                "title": "1119 - L'enfance",
-                "content": []
+                "title": "1119 - L'enfance"
             }
         ]
     },
@@ -8653,12 +7630,10 @@ const AUNE_SAGESSE = [
         "title": "235 - SERRER LA MAIN",
         "subparts": [
             {
-                "title": "1120 - L'encouragement à serrer la main",
-                "content": []
+                "title": "1120 - L'encouragement à serrer la main"
             },
             {
-                "title": "1121 - L'interdiction de serrer la main des femmes",
-                "content": []
+                "title": "1121 - L'interdiction de serrer la main des femmes"
             }
         ]
     },
@@ -8666,20 +7641,16 @@ const AUNE_SAGESSE = [
         "title": "236 - LA PAIX",
         "subparts": [
             {
-                "title": "1122 - La paix durant la guerre",
-                "content": []
+                "title": "1122 - La paix durant la guerre"
             },
             {
-                "title": "1123 - La paix de l'Imām Ḥasan (as)",
-                "content": []
+                "title": "1123 - La paix de l'Imām Ḥasan (as)"
             },
             {
-                "title": "1124 - L'importance du fait de réconcilier les gens",
-                "content": []
+                "title": "1124 - L'importance du fait de réconcilier les gens"
             },
             {
-                "title": "1125 - Le mensonge autorisé en vue d'une réconciliation",
-                "content": []
+                "title": "1125 - Le mensonge autorisé en vue d'une réconciliation"
             }
         ]
     },
@@ -8687,64 +7658,49 @@ const AUNE_SAGESSE = [
         "title": "237 - LA PRIÈRE (AL-ṢALĀT) (1)",
         "subparts": [
             {
-                "title": "1126 - La vertu de la prière",
-                "content": []
+                "title": "1126 - La vertu de la prière"
             },
             {
-                "title": "1127 - Les effets de la prière",
-                "content": []
+                "title": "1127 - Les effets de la prière"
             },
             {
-                "title": "1128 - Le mérite de celui qui prie",
-                "content": []
+                "title": "1128 - Le mérite de celui qui prie"
             },
             {
-                "title": "1129 - L'humilité dans la prière",
-                "content": []
+                "title": "1129 - L'humilité dans la prière"
             },
             {
-                "title": "1130 - Les conditions et les obstacles à l'acceptation de la prière",
-                "content": []
+                "title": "1130 - Les conditions et les obstacles à l'acceptation de la prière"
             },
             {
-                "title": "1131 - Celui dont la prière est acceptée",
-                "content": []
+                "title": "1131 - Celui dont la prière est acceptée"
             },
             {
-                "title": "1132 - Le rôle de la présence du cœur dans l'acceptation de la prière",
-                "content": []
+                "title": "1132 - Le rôle de la présence du cœur dans l'acceptation de la prière"
             },
             {
-                "title": "1133 - Celui dont la prière n'est pas comptée comme étant une prière",
-                "content": []
+                "title": "1133 - Celui dont la prière n'est pas comptée comme étant une prière"
             },
             {
-                "title": "1134 - L'interdiction de la paresse durant la prière",
-                "content": []
+                "title": "1134 - L'interdiction de la paresse durant la prière"
             },
             {
-                "title": "1135 - Respecter les horaires des prières",
-                "content": []
+                "title": "1135 - Respecter les horaires des prières"
             },
             {
-                "title": "1136 - L'incitation à prier dès l'heure de la prière",
-                "content": []
+                "title": "1136 - L'incitation à prier dès l'heure de la prière"
             },
             {
-                "title": "1137 - Celui qui abandonne la prière et la mécréance",
-                "content": []
+                "title": "1137 - Celui qui abandonne la prière et la mécréance"
             },
             {
-                "title": "1138 - Mise en garde contre le fait de prendre la prière à la légère",
-                "content": []
+                "title": "1138 - Mise en garde contre le fait de prendre la prière à la légère"
             },
             {
-                "title": "1139 - La prière en groupe",
-                "content": []
+                "title": "1139 - La prière en groupe"
             },
             {
-                "title": "1140 - Les devoirs que celui qui dirige la prière (imām) doit observer",
-                "content": []
+                "title": "1140 - Les devoirs que celui qui dirige la prière (imām) doit observer"
             }
         ]
     },
@@ -8752,16 +7708,13 @@ const AUNE_SAGESSE = [
         "title": "238 - LA PRIÈRE (2)",
         "subparts": [
             {
-                "title": "1141 - La vertu de la prière de la nuit",
-                "content": []
+                "title": "1141 - La vertu de la prière de la nuit"
             },
             {
-                "title": "1142 - Ce qui prive [de l'opportunité de faire] la prière de la nuit",
-                "content": []
+                "title": "1142 - Ce qui prive [de l'opportunité de faire] la prière de la nuit"
             },
             {
-                "title": "1143 - La rétribution de celui qui a l'intention d'accomplir la prière de la nuit mais qui reste endormi",
-                "content": []
+                "title": "1143 - La rétribution de celui qui a l'intention d'accomplir la prière de la nuit mais qui reste endormi"
             }
         ]
     },
@@ -8769,12 +7722,10 @@ const AUNE_SAGESSE = [
         "title": "239 - LA PRIÈRE (3)",
         "subparts": [
             {
-                "title": "1144 - L'importance de la prière du vendredi",
-                "content": []
+                "title": "1144 - L'importance de la prière du vendredi"
             },
             {
-                "title": "1145 - La bonne conduite lors de l'écoute du sermon",
-                "content": []
+                "title": "1145 - La bonne conduite lors de l'écoute du sermon"
             }
         ]
     },
@@ -8782,12 +7733,10 @@ const AUNE_SAGESSE = [
         "title": "240 - LA PRIÈRE (4)",
         "subparts": [
             {
-                "title": "1146 - La vertu de la prière sur le Prophète (s) et sur sa famille (as)",
-                "content": []
+                "title": "1146 - La vertu de la prière sur le Prophète (s) et sur sa famille (as)"
             },
             {
-                "title": "1147 - La manière de prier sur le Prophète (s) et sur sa famille (as)",
-                "content": []
+                "title": "1147 - La manière de prier sur le Prophète (s) et sur sa famille (as)"
             }
         ]
     },
@@ -8795,16 +7744,13 @@ const AUNE_SAGESSE = [
         "title": "241 - LE SILENCE",
         "subparts": [
             {
-                "title": "1148 - La vertu du silence",
-                "content": []
+                "title": "1148 - La vertu du silence"
             },
             {
-                "title": "1149 - Les fruits du silence",
-                "content": []
+                "title": "1149 - Les fruits du silence"
             },
             {
-                "title": "1150 - Le silence blâmé",
-                "content": []
+                "title": "1150 - Le silence blâmé"
             }
         ]
     },
@@ -8812,28 +7758,22 @@ const AUNE_SAGESSE = [
         "title": "242 - LE MALHEUR",
         "subparts": [
             {
-                "title": "1151 - La rétribution [pour avoir supporté] des malheurs",
-                "content": []
+                "title": "1151 - La rétribution [pour avoir supporté] des malheurs"
             },
             {
-                "title": "1152 - Le pire des malheurs",
-                "content": []
+                "title": "1152 - Le pire des malheurs"
             },
             {
-                "title": "1153 - Dire «Certes nous sommes à Allah et c'est à Lui que nous retournerons» lorsque l'on est affecté par un malheur",
-                "content": []
+                "title": "1153 - Dire «Certes nous sommes à Allah et c'est à Lui que nous retournerons» lorsque l'on est affecté par un malheur"
             },
             {
-                "title": "1154 - La bonne conduite lors d'un malheur",
-                "content": []
+                "title": "1154 - La bonne conduite lors d'un malheur"
             },
             {
-                "title": "1155 - Ce qui atténue les malheurs",
-                "content": []
+                "title": "1155 - Ce qui atténue les malheurs"
             },
             {
-                "title": "1156 - Le blâme du fait de se réjouir du malheur du croyant",
-                "content": []
+                "title": "1156 - Le blâme du fait de se réjouir du malheur du croyant"
             }
         ]
     },
@@ -8841,8 +7781,7 @@ const AUNE_SAGESSE = [
         "title": "243 - LA VOIX",
         "subparts": [
             {
-                "title": "1157 - L'éloge du fait de baisser la voix et le blâme de son haussement",
-                "content": []
+                "title": "1157 - L'éloge du fait de baisser la voix et le blâme de son haussement"
             }
         ]
     },
@@ -8850,16 +7789,13 @@ const AUNE_SAGESSE = [
         "title": "244 - LE JEÛNE",
         "subparts": [
             {
-                "title": "1158 - La vertu du jeûne",
-                "content": []
+                "title": "1158 - La vertu du jeûne"
             },
             {
-                "title": "1159 - L'incitation au jeûne volontaire",
-                "content": []
+                "title": "1159 - L'incitation au jeûne volontaire"
             },
             {
-                "title": "1161 - La vertu de jeûne en temps de chaleur et de froid",
-                "content": []
+                "title": "1161 - La vertu de jeûne en temps de chaleur et de froid"
             }
         ]
     },
@@ -8867,12 +7803,10 @@ const AUNE_SAGESSE = [
         "title": "245 - LE RIRE",
         "subparts": [
             {
-                "title": "1162 - L'éloge du sourire",
-                "content": []
+                "title": "1162 - L'éloge du sourire"
             },
             {
-                "title": "1163 - Mise en garde contre le fait de rire trop et aux éclats",
-                "content": []
+                "title": "1163 - Mise en garde contre le fait de rire trop et aux éclats"
             }
         ]
     },
@@ -8880,16 +7814,13 @@ const AUNE_SAGESSE = [
         "title": "246 - LE FAIBLE",
         "subparts": [
             {
-                "title": "1164 - Les faibles",
-                "content": []
+                "title": "1164 - Les faibles"
             },
             {
-                "title": "1165 - [Le retour au] pouvoir des faibles",
-                "content": []
+                "title": "1165 - [Le retour au] pouvoir des faibles"
             },
             {
-                "title": "1166 - L'impuissance spirituelle",
-                "content": []
+                "title": "1166 - L'impuissance spirituelle"
             }
         ]
     },
@@ -8897,16 +7828,13 @@ const AUNE_SAGESSE = [
         "title": "247 - L'ÉGAREMENT",
         "subparts": [
             {
-                "title": "1167 - Ce qui suscite l'égarement [du droit chemin]",
-                "content": []
+                "title": "1167 - Ce qui suscite l'égarement [du droit chemin]"
             },
             {
-                "title": "1168 - Ceux qui égarent les autres",
-                "content": []
+                "title": "1168 - Ceux qui égarent les autres"
             },
             {
-                "title": "1169 - Ce qui détruit les piliers de l'égarement",
-                "content": []
+                "title": "1169 - Ce qui détruit les piliers de l'égarement"
             }
         ]
     },
@@ -8914,16 +7842,13 @@ const AUNE_SAGESSE = [
         "title": "248 - LA RESPONSABILITÉ",
         "subparts": [
             {
-                "title": "1170 - L'assurance de la responsabilité comme conséquence de la dégradation ou de la perte [des biens des autres]",
-                "content": []
+                "title": "1170 - L'assurance de la responsabilité comme conséquence de la dégradation ou de la perte [des biens des autres]"
             },
             {
-                "title": "1171 - Le blâme du fait de s'exposer à une caution et à une responsabilité [que l'on ne pourra pas assurer]",
-                "content": []
+                "title": "1171 - Le blâme du fait de s'exposer à une caution et à une responsabilité [que l'on ne pourra pas assurer]"
             },
             {
-                "title": "1172 - Aucune responsabilité n'est engagée pour la chose empruntée",
-                "content": []
+                "title": "1172 - Aucune responsabilité n'est engagée pour la chose empruntée"
             }
         ]
     },
@@ -8931,24 +7856,19 @@ const AUNE_SAGESSE = [
         "title": "249 - L'HOSPITALITÉ",
         "subparts": [
             {
-                "title": "1173 - La vertu de l'hospitalité",
-                "content": []
+                "title": "1173 - La vertu de l'hospitalité"
             },
             {
-                "title": "1174 - Celui qu'il ne faut pas inviter",
-                "content": []
+                "title": "1174 - Celui qu'il ne faut pas inviter"
             },
             {
-                "title": "1175 - L'incitation à accepter l'invitation du croyant",
-                "content": []
+                "title": "1175 - L'incitation à accepter l'invitation du croyant"
             },
             {
-                "title": "1176 - Faire un effort spécial pour accueillir l'invité",
-                "content": []
+                "title": "1176 - Faire un effort spécial pour accueillir l'invité"
             },
             {
-                "title": "1177 - Les convenances de l'hospitalité",
-                "content": []
+                "title": "1177 - Les convenances de l'hospitalité"
             }
         ]
     },
@@ -8956,16 +7876,13 @@ const AUNE_SAGESSE = [
         "title": "250 - LA MÉDECINE",
         "subparts": [
             {
-                "title": "1178 - Le véritable médecin",
-                "content": []
+                "title": "1178 - Le véritable médecin"
             },
             {
-                "title": "1179 - Ce qui dispense de la médecine",
-                "content": []
+                "title": "1179 - Ce qui dispense de la médecine"
             },
             {
-                "title": "1180 - Eviter les médicaments autant que possible",
-                "content": []
+                "title": "1180 - Eviter les médicaments autant que possible"
             }
         ]
     },
@@ -8973,8 +7890,7 @@ const AUNE_SAGESSE = [
         "title": "251 - NOURRIR LES AUTRES",
         "subparts": [
             {
-                "title": "1181 - La vertu du fait de nourrir un affamé",
-                "content": []
+                "title": "1181 - La vertu du fait de nourrir un affamé"
             }
         ]
     },
@@ -8982,12 +7898,10 @@ const AUNE_SAGESSE = [
         "title": "252 - LE DIVORCE",
         "subparts": [
             {
-                "title": "1182 - Le blâme du divorce",
-                "content": []
+                "title": "1182 - Le blâme du divorce"
             },
             {
-                "title": "1183 - La signification profonde de la limitation du divorce [avec une même femme] à trois fois",
-                "content": []
+                "title": "1183 - La signification profonde de la limitation du divorce [avec une même femme] à trois fois"
             }
         ]
     },
@@ -8995,12 +7909,10 @@ const AUNE_SAGESSE = [
         "title": "253 - L'AMBITION",
         "subparts": [
             {
-                "title": "1184 - Le blâme de l'ambition",
-                "content": []
+                "title": "1184 - Le blâme de l'ambition"
             },
             {
-                "title": "1185 - L'ambition louée",
-                "content": []
+                "title": "1185 - L'ambition louée"
             }
         ]
     },
@@ -9008,16 +7920,13 @@ const AUNE_SAGESSE = [
         "title": "254 - LA PURETÉ",
         "subparts": [
             {
-                "title": "1186 - La purification",
-                "content": []
+                "title": "1186 - La purification"
             },
             {
-                "title": "1187 - Les purificateurs",
-                "content": []
+                "title": "1187 - Les purificateurs"
             },
             {
-                "title": "1188 - La pureté spirituelle",
-                "content": []
+                "title": "1188 - La pureté spirituelle"
             }
         ]
     },
@@ -9025,16 +7934,13 @@ const AUNE_SAGESSE = [
         "title": "255 - L'OBÉISSANCE",
         "subparts": [
             {
-                "title": "1189 - L'obéissance à Dieu et ses effets",
-                "content": []
+                "title": "1189 - L'obéissance à Dieu et ses effets"
             },
             {
-                "title": "1190 - Celui à qui il faut obéir",
-                "content": []
+                "title": "1190 - Celui à qui il faut obéir"
             },
             {
-                "title": "1191 - Celui à qui il ne faut pas obéir",
-                "content": []
+                "title": "1191 - Celui à qui il ne faut pas obéir"
             }
         ]
     },
@@ -9042,12 +7948,10 @@ const AUNE_SAGESSE = [
         "title": "256 - LE PARFUM",
         "subparts": [
             {
-                "title": "1192 - La vertu du parfum",
-                "content": []
+                "title": "1192 - La vertu du parfum"
             },
             {
-                "title": "1193 - Le parfum des femmes",
-                "content": []
+                "title": "1193 - Le parfum des femmes"
             }
         ]
     },
@@ -9055,8 +7959,7 @@ const AUNE_SAGESSE = [
         "title": "257 - LE MAUVAIS PRÉSAGE",
         "subparts": [
             {
-                "title": "1194 - Tirer un mauvais présage",
-                "content": []
+                "title": "1194 - Tirer un mauvais présage"
             }
         ]
     },
@@ -9064,12 +7967,10 @@ const AUNE_SAGESSE = [
         "title": "258 - LES ONGLES",
         "subparts": [
             {
-                "title": "1195 - L'incitation à se couper les ongles",
-                "content": []
+                "title": "1195 - L'incitation à se couper les ongles"
             },
             {
-                "title": "1196 - L'incitation à laisser ses ongles [longs] pour les femmes",
-                "content": []
+                "title": "1196 - L'incitation à laisser ses ongles [longs] pour les femmes"
             }
         ]
     },
@@ -9077,36 +7978,28 @@ const AUNE_SAGESSE = [
         "title": "259 - L'INJUSTICE",
         "subparts": [
             {
-                "title": "1197 - Mise en garde contre l'injustice",
-                "content": []
+                "title": "1197 - Mise en garde contre l'injustice"
             },
             {
-                "title": "1198 - Les types d'injustices",
-                "content": []
+                "title": "1198 - Les types d'injustices"
             },
             {
-                "title": "1199 - Les injustices les plus monstrueuses",
-                "content": []
+                "title": "1199 - Les injustices les plus monstrueuses"
             },
             {
-                "title": "1200 - Accorder un délai à l'injuste",
-                "content": []
+                "title": "1200 - Accorder un délai à l'injuste"
             },
             {
-                "title": "1201 - Le regret de l'injuste",
-                "content": []
+                "title": "1201 - Le regret de l'injuste"
             },
             {
-                "title": "1202 - Mise en garde contre le fait d'aider l'injuste",
-                "content": []
+                "title": "1202 - Mise en garde contre le fait d'aider l'injuste"
             },
             {
-                "title": "1203 - L'incitation à soutenir l'opprimé",
-                "content": []
+                "title": "1203 - L'incitation à soutenir l'opprimé"
             },
             {
-                "title": "1204 - Mise en garde à propos de la supplication de l'opprimé",
-                "content": []
+                "title": "1204 - Mise en garde à propos de la supplication de l'opprimé"
             }
         ]
     },
@@ -9114,28 +8007,22 @@ const AUNE_SAGESSE = [
         "title": "260 - LA CONJECTURE",
         "subparts": [
             {
-                "title": "1205 - La conjecture de l'intellectuel",
-                "content": []
+                "title": "1205 - La conjecture de l'intellectuel"
             },
             {
-                "title": "1206 - L'incitation à entretenir une bonne opinion au sujet de l'acte du croyant",
-                "content": []
+                "title": "1206 - L'incitation à entretenir une bonne opinion au sujet de l'acte du croyant"
             },
             {
-                "title": "1207 - La vertu de la bonne opinion",
-                "content": []
+                "title": "1207 - La vertu de la bonne opinion"
             },
             {
-                "title": "1208 - Mise en garde contre la mauvaise conjecture",
-                "content": []
+                "title": "1208 - Mise en garde contre la mauvaise conjecture"
             },
             {
-                "title": "1209 - La nécessité d'éviter ce qui suscite la mauvaise conjecture",
-                "content": []
+                "title": "1209 - La nécessité d'éviter ce qui suscite la mauvaise conjecture"
             },
             {
-                "title": "1210 - Les cas où la mauvaise conjoncture est permise",
-                "content": []
+                "title": "1210 - Les cas où la mauvaise conjoncture est permise"
             }
         ]
     },
@@ -9143,28 +8030,22 @@ const AUNE_SAGESSE = [
         "title": "261 - L'ADORATION",
         "subparts": [
             {
-                "title": "1211 - L'incitation à l'adoration",
-                "content": []
+                "title": "1211 - L'incitation à l'adoration"
             },
             {
-                "title": "1212 - Le rôle de la compréhension et de la certitude dans l'adoration",
-                "content": []
+                "title": "1212 - Le rôle de la compréhension et de la certitude dans l'adoration"
             },
             {
-                "title": "1213 - Les types d'adoration",
-                "content": []
+                "title": "1213 - Les types d'adoration"
             },
             {
-                "title": "1214 - Les types d'adorateurs",
-                "content": []
+                "title": "1214 - Les types d'adorateurs"
             },
             {
-                "title": "1215 - La meilleure forme d'adoration",
-                "content": []
+                "title": "1215 - La meilleure forme d'adoration"
             },
             {
-                "title": "1216 - L'ardeur dans l'adoration",
-                "content": []
+                "title": "1216 - L'ardeur dans l'adoration"
             }
         ]
     },
@@ -9172,16 +8053,13 @@ const AUNE_SAGESSE = [
         "title": "262 - LA LEÇON MORALE",
         "subparts": [
             {
-                "title": "1217 - L'incitation à tirer des leçons",
-                "content": []
+                "title": "1217 - L'incitation à tirer des leçons"
             },
             {
-                "title": "1218 - Ce que dont il faut tirer leçon",
-                "content": []
+                "title": "1218 - Ce que dont il faut tirer leçon"
             },
             {
-                "title": "1219 - Le fruit du fait de tirer des leçons",
-                "content": []
+                "title": "1219 - Le fruit du fait de tirer des leçons"
             }
         ]
     },
@@ -9189,16 +8067,13 @@ const AUNE_SAGESSE = [
         "title": "263 - LA VANITÉ",
         "subparts": [
             {
-                "title": "1220 - Le blâme de la vanité",
-                "content": []
+                "title": "1220 - Le blâme de la vanité"
             },
             {
-                "title": "1221 - L'incitation à sous-estimer le bien que l'on fait",
-                "content": []
+                "title": "1221 - L'incitation à sous-estimer le bien que l'on fait"
             },
             {
-                "title": "1222 - Le traitement de la vanité",
-                "content": []
+                "title": "1222 - Le traitement de la vanité"
             }
         ]
     },
@@ -9206,12 +8081,10 @@ const AUNE_SAGESSE = [
         "title": "264 - LE MIRACLE",
         "subparts": [
             {
-                "title": "1223 - Le miracle est un signe permettant de reconnaître les prophètes d'Allah et Ses preuves",
-                "content": []
+                "title": "1223 - Le miracle est un signe permettant de reconnaître les prophètes d'Allah et Ses preuves"
             },
             {
-                "title": "1224 - La signification profonde de la diversité des miracles des prophètes",
-                "content": []
+                "title": "1224 - La signification profonde de la diversité des miracles des prophètes"
             }
         ]
     },
@@ -9219,12 +8092,10 @@ const AUNE_SAGESSE = [
         "title": "265 - LA PRÉCIPITATION",
         "subparts": [
             {
-                "title": "1225 - Le blâme de la précipitation",
-                "content": []
+                "title": "1225 - Le blâme de la précipitation"
             },
             {
-                "title": "1226 - L'incitation à se hâter pour faire des bonnes actions",
-                "content": []
+                "title": "1226 - L'incitation à se hâter pour faire des bonnes actions"
             }
         ]
     },
@@ -9232,20 +8103,16 @@ const AUNE_SAGESSE = [
         "title": "266 - LA JUSTICE",
         "subparts": [
             {
-                "title": "1227 - La valeur de la justice",
-                "content": []
+                "title": "1227 - La valeur de la justice"
             },
             {
-                "title": "1228 - Les qualités de la personne juste",
-                "content": []
+                "title": "1228 - Les qualités de la personne juste"
             },
             {
-                "title": "1229 - Conseil pour se comporter de façon juste avec son ami et son ennemi",
-                "content": []
+                "title": "1229 - Conseil pour se comporter de façon juste avec son ami et son ennemi"
             },
             {
-                "title": "1230 - La plus juste des personnes",
-                "content": []
+                "title": "1230 - La plus juste des personnes"
             }
         ]
     },
@@ -9253,36 +8120,28 @@ const AUNE_SAGESSE = [
         "title": "267 - L'ANIMOSITÉ",
         "subparts": [
             {
-                "title": "1231 - L'interdiction de faire preuve d'animosité vis-à-vis des gens",
-                "content": []
+                "title": "1231 - L'interdiction de faire preuve d'animosité vis-à-vis des gens"
             },
             {
-                "title": "1232 - La graine de l'animosité",
-                "content": []
+                "title": "1232 - La graine de l'animosité"
             },
             {
-                "title": "1233 - Celui qui doit être considéré comme un ennemi",
-                "content": []
+                "title": "1233 - Celui qui doit être considéré comme un ennemi"
             },
             {
-                "title": "1234 - Ton pire ennemi",
-                "content": []
+                "title": "1234 - Ton pire ennemi"
             },
             {
-                "title": "1235 - Mise en garde contre le fait de faire confiance à son ennemi",
-                "content": []
+                "title": "1235 - Mise en garde contre le fait de faire confiance à son ennemi"
             },
             {
-                "title": "1236 - Se réconcilier avec ses ennemis",
-                "content": []
+                "title": "1236 - Se réconcilier avec ses ennemis"
             },
             {
-                "title": "1237 - La manière dont il faut s'armer face aux ennemis",
-                "content": []
+                "title": "1237 - La manière dont il faut s'armer face aux ennemis"
             },
             {
-                "title": "1238 - L'hostilité des gens vis-à-vis de ce qu'ils ignorent",
-                "content": []
+                "title": "1238 - L'hostilité des gens vis-à-vis de ce qu'ils ignorent"
             }
         ]
     },
@@ -9290,12 +8149,10 @@ const AUNE_SAGESSE = [
         "title": "268 - LES EXCUSES",
         "subparts": [
             {
-                "title": "1239 - Mise en garde contre le fait de faire ce qui implique par la suite de présenter des excuses",
-                "content": []
+                "title": "1239 - Mise en garde contre le fait de faire ce qui implique par la suite de présenter des excuses"
             },
             {
-                "title": "1240 - L'incitation à accepter les excuses de celui qui les présente",
-                "content": []
+                "title": "1240 - L'incitation à accepter les excuses de celui qui les présente"
             }
         ]
     },
@@ -9303,16 +8160,13 @@ const AUNE_SAGESSE = [
         "title": "269 - LA DIGNITÉ",
         "subparts": [
             {
-                "title": "1241 - L'incitation à préserver sa dignité",
-                "content": []
+                "title": "1241 - L'incitation à préserver sa dignité"
             },
             {
-                "title": "1242 - La rétribution pour s'abstenir de porter atteinte à la dignité des musulmans",
-                "content": []
+                "title": "1242 - La rétribution pour s'abstenir de porter atteinte à la dignité des musulmans"
             },
             {
-                "title": "1243 - La rétribution de celui qui défend la dignité du musulman",
-                "content": []
+                "title": "1243 - La rétribution de celui qui défend la dignité du musulman"
             }
         ]
     },
@@ -9320,16 +8174,13 @@ const AUNE_SAGESSE = [
         "title": "270 - LA CONNAISSANCE",
         "subparts": [
             {
-                "title": "1244 - La valeur de la connaissance",
-                "content": []
+                "title": "1244 - La valeur de la connaissance"
             },
             {
-                "title": "1245 - Les obstacles à la connaissance",
-                "content": []
+                "title": "1245 - Les obstacles à la connaissance"
             },
             {
-                "title": "1246 - La connaissance de soi",
-                "content": []
+                "title": "1246 - La connaissance de soi"
             }
         ]
     },
@@ -9337,120 +8188,91 @@ const AUNE_SAGESSE = [
         "title": "271 - LA CONNAISSANCE D'ALLAH",
         "subparts": [
             {
-                "title": "1247 - La vertu de la connaissance d'Allah",
-                "content": []
+                "title": "1247 - La vertu de la connaissance d'Allah"
             },
             {
-                "title": "1248 - Les effets de la connaissance d'Allah",
-                "content": []
+                "title": "1248 - Les effets de la connaissance d'Allah"
             },
             {
-                "title": "1249 - Les caractéristiques de celui qui connaît Allah [ou du gnostique]",
-                "content": []
+                "title": "1249 - Les caractéristiques de celui qui connaît Allah [ou du gnostique]"
             },
             {
-                "title": "1250 - Le plus petit degré de la connaissance d'Allah",
-                "content": []
+                "title": "1250 - Le plus petit degré de la connaissance d'Allah"
             },
             {
-                "title": "1251 - Connaître Allah par Allah",
-                "content": []
+                "title": "1251 - Connaître Allah par Allah"
             },
             {
-                "title": "1252 - L'interdiction de réfléchir au sujet de l'Essence d'Allah",
-                "content": []
+                "title": "1252 - L'interdiction de réfléchir au sujet de l'Essence d'Allah"
             },
             {
-                "title": "1253 - L'incapacité des intellects à connaître Son Essence",
-                "content": []
+                "title": "1253 - L'incapacité des intellects à connaître Son Essence"
             },
             {
-                "title": "1254 - Le cadre dans lequel on peut décrire Allah",
-                "content": []
+                "title": "1254 - Le cadre dans lequel on peut décrire Allah"
             },
             {
-                "title": "1255 - La valeur de [la croyance en] l'unicité d'Allah (tawḥīd) et son explication",
-                "content": []
+                "title": "1255 - La valeur de [la croyance en] l'unicité d'Allah (tawḥīd) et son explication"
             },
             {
-                "title": "1256 - La preuve de l'unicité divine",
-                "content": []
+                "title": "1256 - La preuve de l'unicité divine"
             },
             {
-                "title": "1257 - Les regards ne peuvent L'atteindre mais les cœurs Le contemplent",
-                "content": []
+                "title": "1257 - Les regards ne peuvent L'atteindre mais les cœurs Le contemplent"
             },
             {
-                "title": "1258 - L'Eternel et l'Infini",
-                "content": []
+                "title": "1258 - L'Eternel et l'Infini"
             },
             {
-                "title": "1259 - Le Vivant",
-                "content": []
+                "title": "1259 - Le Vivant"
             },
             {
-                "title": "1260 - L'Omniscient",
-                "content": []
+                "title": "1260 - L'Omniscient"
             },
             {
-                "title": "1261 - Le Juste",
-                "content": []
+                "title": "1261 - Le Juste"
             },
             {
-                "title": "1262 - Le Créateur",
-                "content": []
+                "title": "1262 - Le Créateur"
             },
             {
-                "title": "1263 - Le Tout-Puissant",
-                "content": []
+                "title": "1263 - Le Tout-Puissant"
             },
             {
-                "title": "1264 - L'Enonciateur",
-                "content": []
+                "title": "1264 - L'Enonciateur"
             },
             {
-                "title": "1265 - Le Détenteur de volonté",
-                "content": []
+                "title": "1265 - Le Détenteur de volonté"
             },
             {
-                "title": "1266 - Le Manifeste et le Caché",
-                "content": []
+                "title": "1266 - Le Manifeste et le Caché"
             },
             {
-                "title": "1267 - Le Souverain",
-                "content": []
+                "title": "1267 - Le Souverain"
             },
             {
-                "title": "1268 - Celui qui entend tout et qui voit tout",
-                "content": []
+                "title": "1268 - Celui qui entend tout et qui voit tout"
             },
             {
-                "title": "1269 - Le Subtil et le Parfaitement connaisseur",
-                "content": []
+                "title": "1269 - Le Subtil et le Parfaitement connaisseur"
             },
             {
-                "title": "1270 - Le Fort et le Puissant",
-                "content": []
+                "title": "1270 - Le Fort et le Puissant"
             },
             {
-                "title": "1271 - Le Sage",
-                "content": []
+                "title": "1271 - Le Sage"
             },
             {
-                "title": "1272 - L'Eternel qui n'a besoin de rien pour exister (Ṣamad)",
-                "content": []
+                "title": "1272 - L'Eternel qui n'a besoin de rien pour exister (Ṣamad)"
             },
             {
-                "title": "1273 - Il est en tout lieu",
-                "content": []
+                "title": "1273 - Il est en tout lieu"
             },
             {
-                "title": "1274 - Les attributs de l'Essence et les attributs de l'acte",
-                "content": []
+                "title": "1274 - Les attributs de l'Essence et les attributs de l'acte"
             },
             {
-                "title": "1275 - Les attributs exhaustifs d'Allah",
-                "content": []
+                "title": "1275 - Les attributs exhaustifs d'Allah"
             }
         ]
     },
@@ -9458,36 +8280,28 @@ const AUNE_SAGESSE = [
         "title": "272 - LA BIENSÉANCE (1)",
         "subparts": [
             {
-                "title": "1276 - La vertu de la bienséance",
-                "content": []
+                "title": "1276 - La vertu de la bienséance"
             },
             {
-                "title": "1277 - L'incitation à propager la bienfaisance et à agir selon la bienséance vis-à-vis des bonnes et des mauvaises personnes",
-                "content": []
+                "title": "1277 - L'incitation à propager la bienfaisance et à agir selon la bienséance vis-à-vis des bonnes et des mauvaises personnes"
             },
             {
-                "title": "1278 - La circulation des actes de bienséance de main en main",
-                "content": []
+                "title": "1278 - La circulation des actes de bienséance de main en main"
             },
             {
-                "title": "1279 - L'interdiction de faire sentir et d'attendre des remerciements pour un acte de bienséance",
-                "content": []
+                "title": "1279 - L'interdiction de faire sentir et d'attendre des remerciements pour un acte de bienséance"
             },
             {
-                "title": "1280 - L'achèvement de la bienséance",
-                "content": []
+                "title": "1280 - L'achèvement de la bienséance"
             },
             {
-                "title": "1281 - L'interdiction de mépriser et de sous-estimer la bienséance",
-                "content": []
+                "title": "1281 - L'interdiction de mépriser et de sous-estimer la bienséance"
             },
             {
-                "title": "1282 - Le signe de l'acceptation d'un acte de bienséance",
-                "content": []
+                "title": "1282 - Le signe de l'acceptation d'un acte de bienséance"
             },
             {
-                "title": "1283 - La rétribution de l'agissement selon la bienséance",
-                "content": []
+                "title": "1283 - La rétribution de l'agissement selon la bienséance"
             }
         ]
     },
@@ -9495,24 +8309,19 @@ const AUNE_SAGESSE = [
         "title": "273 - LA BIENSÉANCE (2)",
         "subparts": [
             {
-                "title": "1284 - L'importance d'ordonner le convenable et d'interdire le blâmable",
-                "content": []
+                "title": "1284 - L'importance d'ordonner le convenable et d'interdire le blâmable"
             },
             {
-                "title": "1285 - Le danger d'abandonner le fait d'ordonner le convenable et d'interdire le blâmable",
-                "content": []
+                "title": "1285 - Le danger d'abandonner le fait d'ordonner le convenable et d'interdire le blâmable"
             },
             {
-                "title": "1286 - Celui qui est satisfait des actes d'un groupe",
-                "content": []
+                "title": "1286 - Celui qui est satisfait des actes d'un groupe"
             },
             {
-                "title": "1287 - Les conditions pour ordonner le convenable et interdire le blâmable",
-                "content": []
+                "title": "1287 - Les conditions pour ordonner le convenable et interdire le blâmable"
             },
             {
-                "title": "1288 - Le plus faible degré de l'interdiction du blâmable",
-                "content": []
+                "title": "1288 - Le plus faible degré de l'interdiction du blâmable"
             }
         ]
     },
@@ -9520,16 +8329,13 @@ const AUNE_SAGESSE = [
         "title": "274 - LA GRANDEUR",
         "subparts": [
             {
-                "title": "1289 - L'explication de la grandeur",
-                "content": []
+                "title": "1289 - L'explication de la grandeur"
             },
             {
-                "title": "1290 - Ce qui suscite la grandeur",
-                "content": []
+                "title": "1290 - Ce qui suscite la grandeur"
             },
             {
-                "title": "1291 - Ce qui suscite la pérennité de la grandeur",
-                "content": []
+                "title": "1291 - Ce qui suscite la pérennité de la grandeur"
             }
         ]
     },
@@ -9537,16 +8343,13 @@ const AUNE_SAGESSE = [
         "title": "275 - LA SOLITUDE",
         "subparts": [
             {
-                "title": "1292 - La vertu de la solitude",
-                "content": []
+                "title": "1292 - La vertu de la solitude"
             },
             {
-                "title": "1293 - Ce qui conduit à la solitude",
-                "content": []
+                "title": "1293 - Ce qui conduit à la solitude"
             },
             {
-                "title": "1294 - Celui à qui il ne sied pas d'adopter la solitude",
-                "content": []
+                "title": "1294 - Celui à qui il ne sied pas d'adopter la solitude"
             }
         ]
     },
@@ -9554,16 +8357,13 @@ const AUNE_SAGESSE = [
         "title": "276 - LA CONSOLATION",
         "subparts": [
             {
-                "title": "1295 - Consoler une personne affectée par un malheur",
-                "content": []
+                "title": "1295 - Consoler une personne affectée par un malheur"
             },
             {
-                "title": "1296 - Ce qu'il faut dire pour consoler une personne affectée par un malheur",
-                "content": []
+                "title": "1296 - Ce qu'il faut dire pour consoler une personne affectée par un malheur"
             },
             {
-                "title": "1297 - Féliciter une personne affectée par un malheur est plus approprié que de lui présenter ses condoléances",
-                "content": []
+                "title": "1297 - Féliciter une personne affectée par un malheur est plus approprié que de lui présenter ses condoléances"
             }
         ]
     },
@@ -9571,16 +8371,13 @@ const AUNE_SAGESSE = [
         "title": "277 - LES FRÉQUENTATIONS",
         "subparts": [
             {
-                "title": "1298 - Les usages concernant la fréquentation des gens",
-                "content": []
+                "title": "1298 - Les usages concernant la fréquentation des gens"
             },
             {
-                "title": "1299 - Les usages concernant la fréquentation de la famille",
-                "content": []
+                "title": "1299 - Les usages concernant la fréquentation de la famille"
             },
             {
-                "title": "1300 - La façon dont il faut côtoyer les gens",
-                "content": []
+                "title": "1300 - La façon dont il faut côtoyer les gens"
             }
         ]
     },
@@ -9588,8 +8385,7 @@ const AUNE_SAGESSE = [
         "title": "278 - 'ASHŪRĀ",
         "subparts": [
             {
-                "title": "1301 - 'Ashūrā et le fait de pleurer pour Ḥusayn (as) et ses compagnons",
-                "content": []
+                "title": "1301 - 'Ashūrā et le fait de pleurer pour Ḥusayn (as) et ses compagnons"
             }
         ]
     },
@@ -9597,16 +8393,13 @@ const AUNE_SAGESSE = [
         "title": "279 - LA PASSION",
         "subparts": [
             {
-                "title": "1302 - Le blâme de la passion",
-                "content": []
+                "title": "1302 - Le blâme de la passion"
             },
             {
-                "title": "1303 - La rétribution de celui qui s'éprend passionnément de quelqu'un et reste chaste",
-                "content": []
+                "title": "1303 - La rétribution de celui qui s'éprend passionnément de quelqu'un et reste chaste"
             },
             {
-                "title": "1304 - L'amour passionné pour Allah",
-                "content": []
+                "title": "1304 - L'amour passionné pour Allah"
             }
         ]
     },
@@ -9614,12 +8407,10 @@ const AUNE_SAGESSE = [
         "title": "280 - LA FERVEUR AVEUGLE",
         "subparts": [
             {
-                "title": "1305 - Le blâme de la ferveur aveugle",
-                "content": []
+                "title": "1305 - Le blâme de la ferveur aveugle"
             },
             {
-                "title": "1306 - La ferveur louable",
-                "content": []
+                "title": "1306 - La ferveur louable"
             }
         ]
     },
@@ -9627,16 +8418,13 @@ const AUNE_SAGESSE = [
         "title": "281 - L'INFAILLIBILITÉ",
         "subparts": [
             {
-                "title": "1307 - La signification de l'infaillibilité",
-                "content": []
+                "title": "1307 - La signification de l'infaillibilité"
             },
             {
-                "title": "1308 - Les facteurs qui suscitent l'infaillibilité [la préservation vis-à-vis de tout péché]",
-                "content": []
+                "title": "1308 - Les facteurs qui suscitent l'infaillibilité [la préservation vis-à-vis de tout péché]"
             },
             {
-                "title": "1309 - L'infaillibilité de l'Imām",
-                "content": []
+                "title": "1309 - L'infaillibilité de l'Imām"
             }
         ]
     },
@@ -9644,12 +8432,10 @@ const AUNE_SAGESSE = [
         "title": "282 - LA VÉNÉRATION",
         "subparts": [
             {
-                "title": "1310 - La vénération des dirigeants",
-                "content": []
+                "title": "1310 - La vénération des dirigeants"
             },
             {
-                "title": "1311 - L'étendue recommandée de la vénération",
-                "content": []
+                "title": "1311 - L'étendue recommandée de la vénération"
             }
         ]
     },
@@ -9657,20 +8443,16 @@ const AUNE_SAGESSE = [
         "title": "283 - LA CHASTETÉ",
         "subparts": [
             {
-                "title": "1312 - L'incitation à la chasteté",
-                "content": []
+                "title": "1312 - L'incitation à la chasteté"
             },
             {
-                "title": "1313 - L'incitation à la retenue du ventre et du sexe",
-                "content": []
+                "title": "1313 - L'incitation à la retenue du ventre et du sexe"
             },
             {
-                "title": "1314 - L'origine de la chasteté",
-                "content": []
+                "title": "1314 - L'origine de la chasteté"
             },
             {
-                "title": "1315 - Le fruit de la chasteté",
-                "content": []
+                "title": "1315 - Le fruit de la chasteté"
             }
         ]
     },
@@ -9678,28 +8460,22 @@ const AUNE_SAGESSE = [
         "title": "284 - LE PARDON",
         "subparts": [
             {
-                "title": "1316 - La vertu du pardon",
-                "content": []
+                "title": "1316 - La vertu du pardon"
             },
             {
-                "title": "1317 - L'incitation au beau pardon",
-                "content": []
+                "title": "1317 - L'incitation au beau pardon"
             },
             {
-                "title": "1318 - L'incitation à pardonner malgré le fait que l'on a le pouvoir [de punir]",
-                "content": []
+                "title": "1318 - L'incitation à pardonner malgré le fait que l'on a le pouvoir [de punir]"
             },
             {
-                "title": "1319 - Le pardon et l'assainissement des cœurs",
-                "content": []
+                "title": "1319 - Le pardon et l'assainissement des cœurs"
             },
             {
-                "title": "1320 - Ce qui ne doit pas être pardonné",
-                "content": []
+                "title": "1320 - Ce qui ne doit pas être pardonné"
             },
             {
-                "title": "1321 - Le pardon d'Allah",
-                "content": []
+                "title": "1321 - Le pardon d'Allah"
             }
         ]
     },
@@ -9707,24 +8483,19 @@ const AUNE_SAGESSE = [
         "title": "285 - LA SANTÉ",
         "subparts": [
             {
-                "title": "1322 - La valeur de la santé",
-                "content": []
+                "title": "1322 - La valeur de la santé"
             },
             {
-                "title": "1323 - Ce qui génère la santé",
-                "content": []
+                "title": "1323 - Ce qui génère la santé"
             },
             {
-                "title": "1324 - L'incitation à rechercher la santé auprès d'Allah",
-                "content": []
+                "title": "1324 - L'incitation à rechercher la santé auprès d'Allah"
             },
             {
-                "title": "1325 - L'invocation pour demander la santé",
-                "content": []
+                "title": "1325 - L'invocation pour demander la santé"
             },
             {
-                "title": "1326 - Les proches serviteurs [d'Allah]",
-                "content": []
+                "title": "1326 - Les proches serviteurs [d'Allah]"
             }
         ]
     },
@@ -9732,48 +8503,37 @@ const AUNE_SAGESSE = [
         "title": "286 - L'INTELLECT",
         "subparts": [
             {
-                "title": "1327 - La valeur de l'intellect",
-                "content": []
+                "title": "1327 - La valeur de l'intellect"
             },
             {
-                "title": "1328 - Le rôle de l'intellect dans le châtiment et la rétribution",
-                "content": []
+                "title": "1328 - Le rôle de l'intellect dans le châtiment et la rétribution"
             },
             {
-                "title": "1329 - L'autorité de l'intellect",
-                "content": []
+                "title": "1329 - L'autorité de l'intellect"
             },
             {
-                "title": "1330 - L'explication de l'intellect",
-                "content": []
+                "title": "1330 - L'explication de l'intellect"
             },
             {
-                "title": "1331 - Les attributs de l'homme d'intellect",
-                "content": []
+                "title": "1331 - Les attributs de l'homme d'intellect"
             },
             {
-                "title": "1332 - Ce qui développe l'intellect",
-                "content": []
+                "title": "1332 - Ce qui développe l'intellect"
             },
             {
-                "title": "1333 - Ce qui permet d'évaluer l'intellect",
-                "content": []
+                "title": "1333 - Ce qui permet d'évaluer l'intellect"
             },
             {
-                "title": "1334 - Ce qui affaiblit l'intellect",
-                "content": []
+                "title": "1334 - Ce qui affaiblit l'intellect"
             },
             {
-                "title": "1335 - Ce qui indique la faiblesse de l'intellect",
-                "content": []
+                "title": "1335 - Ce qui indique la faiblesse de l'intellect"
             },
             {
-                "title": "1336 - Le fruit de l'intellect",
-                "content": []
+                "title": "1336 - Le fruit de l'intellect"
             },
             {
-                "title": "1337 - L'ennemi de l'intellect",
-                "content": []
+                "title": "1337 - L'ennemi de l'intellect"
             }
         ]
     },
@@ -9781,8 +8541,7 @@ const AUNE_SAGESSE = [
         "title": "287 - LA RETRAITE SPIRITUELLE À LA MOSQUÉE (I'TIKĀF)",
         "subparts": [
             {
-                "title": "1338 - La retraite spirituelle à la mosquée",
-                "content": []
+                "title": "1338 - La retraite spirituelle à la mosquée"
             }
         ]
     },
@@ -9790,112 +8549,85 @@ const AUNE_SAGESSE = [
         "title": "288 - LE SAVOIR",
         "subparts": [
             {
-                "title": "1339 - La vertu du savoir",
-                "content": []
+                "title": "1339 - La vertu du savoir"
             },
             {
-                "title": "1340 - La supériorité du savoir vis-à-vis des actes d'adoration",
-                "content": []
+                "title": "1340 - La supériorité du savoir vis-à-vis des actes d'adoration"
             },
             {
-                "title": "1341 - La mort du savant",
-                "content": []
+                "title": "1341 - La mort du savant"
             },
             {
-                "title": "1342 - Regarder le visage d'un savant est un acte d'adoration",
-                "content": []
+                "title": "1342 - Regarder le visage d'un savant est un acte d'adoration"
             },
             {
-                "title": "1343 - L'incitation à la quête du savoir",
-                "content": []
+                "title": "1343 - L'incitation à la quête du savoir"
             },
             {
-                "title": "1344 - La vertu de celui qui est en quête du savoir",
-                "content": []
+                "title": "1344 - La vertu de celui qui est en quête du savoir"
             },
             {
-                "title": "1345 - Les grâces de l'enseignement",
-                "content": []
+                "title": "1345 - Les grâces de l'enseignement"
             },
             {
-                "title": "1346 - La façon dont l'enseignant sera ressuscité",
-                "content": []
+                "title": "1346 - La façon dont l'enseignant sera ressuscité"
             },
             {
-                "title": "1347 - S'instruire pour Allah et pour un autre qu'Allah",
-                "content": []
+                "title": "1347 - S'instruire pour Allah et pour un autre qu'Allah"
             },
             {
-                "title": "1348 - Ce qui est nécessaire dans le choix d'un enseignant",
-                "content": []
+                "title": "1348 - Ce qui est nécessaire dans le choix d'un enseignant"
             },
             {
-                "title": "1349 - Les droits de l'élève devant être respectés par l'enseignant",
-                "content": []
+                "title": "1349 - Les droits de l'élève devant être respectés par l'enseignant"
             },
             {
-                "title": "1350 - Les droits de l'enseignant devant être respectés par l'élève",
-                "content": []
+                "title": "1350 - Les droits de l'enseignant devant être respectés par l'élève"
             },
             {
-                "title": "1351 - Honorer le savant",
-                "content": []
+                "title": "1351 - Honorer le savant"
             },
             {
-                "title": "1352 - Les devoirs qui incombent à l'élève",
-                "content": []
+                "title": "1352 - Les devoirs qui incombent à l'élève"
             },
             {
-                "title": "1353 - La vertu des savants",
-                "content": []
+                "title": "1353 - La vertu des savants"
             },
             {
-                "title": "1354 - Le fruit du savoir",
-                "content": []
+                "title": "1354 - Le fruit du savoir"
             },
             {
-                "title": "1355 - Les devoirs qui incombent au savant",
-                "content": []
+                "title": "1355 - Les devoirs qui incombent au savant"
             },
             {
-                "title": "1356 - Le blâme du fait d'agir sans savoir",
-                "content": []
+                "title": "1356 - Le blâme du fait d'agir sans savoir"
             },
             {
-                "title": "1357 - La nécessité d'agir en conformité avec son savoir",
-                "content": []
+                "title": "1357 - La nécessité d'agir en conformité avec son savoir"
             },
             {
-                "title": "1358 - La sévérité de la punition du savant qui délaisse son savoir",
-                "content": []
+                "title": "1358 - La sévérité de la punition du savant qui délaisse son savoir"
             },
             {
-                "title": "1359 - Le blâme des savants malveillant",
-                "content": []
+                "title": "1359 - Le blâme des savants malveillant"
             },
             {
-                "title": "1360 - La bonne conduite dans le domaine du savoir",
-                "content": []
+                "title": "1360 - La bonne conduite dans le domaine du savoir"
             },
             {
-                "title": "1361 - Le blâme du savoir inutile",
-                "content": []
+                "title": "1361 - Le blâme du savoir inutile"
             },
             {
-                "title": "1362 - Les différents types de savoir",
-                "content": []
+                "title": "1362 - Les différents types de savoir"
             },
             {
-                "title": "1363 - Le savoir inspiré",
-                "content": []
+                "title": "1363 - Le savoir inspiré"
             },
             {
-                "title": "1364 - Le plus savant des gens",
-                "content": []
+                "title": "1364 - Le plus savant des gens"
             },
             {
-                "title": "1365 - Le véritable savoir est exclusivement détenu par les Gens de la demeure prophétique (Ahl al-Bayt) (as)",
-                "content": []
+                "title": "1365 - Le véritable savoir est exclusivement détenu par les Gens de la demeure prophétique (Ahl al-Bayt) (as)"
             }
         ]
     },
@@ -9903,28 +8635,22 @@ const AUNE_SAGESSE = [
         "title": "289 - LA DURÉE DE VIE",
         "subparts": [
             {
-                "title": "1366 - La durée de vie",
-                "content": []
+                "title": "1366 - La durée de vie"
             },
             {
-                "title": "1367 - L'incitation à faire le meilleur usage de sa vie",
-                "content": []
+                "title": "1367 - L'incitation à faire le meilleur usage de sa vie"
             },
             {
-                "title": "1368 - Celui dont la vie sera une preuve contre lui",
-                "content": []
+                "title": "1368 - Celui dont la vie sera une preuve contre lui"
             },
             {
-                "title": "1369 - Ce qui augmente la durée de vie",
-                "content": []
+                "title": "1369 - Ce qui augmente la durée de vie"
             },
             {
-                "title": "1370 - Le croyant et la demande d'une longue vie",
-                "content": []
+                "title": "1370 - Le croyant et la demande d'une longue vie"
             },
             {
-                "title": "1371 - La sagesse du fait que l'homme ignore la durée de sa vie",
-                "content": []
+                "title": "1371 - La sagesse du fait que l'homme ignore la durée de sa vie"
             }
         ]
     },
@@ -9932,44 +8658,34 @@ const AUNE_SAGESSE = [
         "title": "290 - L'ACTION",
         "subparts": [
             {
-                "title": "1372 - L'incitation à réaliser des bonnes actions",
-                "content": []
+                "title": "1372 - L'incitation à réaliser des bonnes actions"
             },
             {
-                "title": "1373 - L'action et la rétribution",
-                "content": []
+                "title": "1373 - L'action et la rétribution"
             },
             {
-                "title": "1374 - La continuité de l'action",
-                "content": []
+                "title": "1374 - La continuité de l'action"
             },
             {
-                "title": "1375 - Les meilleurs actes",
-                "content": []
+                "title": "1375 - Les meilleurs actes"
             },
             {
-                "title": "1376 - Celui qui ne bénéficie pas de ses actes",
-                "content": []
+                "title": "1376 - Celui qui ne bénéficie pas de ses actes"
             },
             {
-                "title": "1377 - Les actes dont il faut se méfier",
-                "content": []
+                "title": "1377 - Les actes dont il faut se méfier"
             },
             {
-                "title": "1378 - La perfection de l'action",
-                "content": []
+                "title": "1378 - La perfection de l'action"
             },
             {
-                "title": "1379 - L'exposition des actes à Allah, au Prophète (s) et aux Imāms (as)",
-                "content": []
+                "title": "1379 - L'exposition des actes à Allah, au Prophète (s) et aux Imāms (as)"
             },
             {
-                "title": "1380 - Le recueil des actes",
-                "content": []
+                "title": "1380 - Le recueil des actes"
             },
             {
-                "title": "1381 - La matérialisation des actes",
-                "content": []
+                "title": "1381 - La matérialisation des actes"
             }
         ]
     },
@@ -9977,8 +8693,7 @@ const AUNE_SAGESSE = [
         "title": "291 - L'ENGAGEMENT",
         "subparts": [
             {
-                "title": "1382 - L'incitation à être fidèle à ses engagements",
-                "content": []
+                "title": "1382 - L'incitation à être fidèle à ses engagements"
             }
         ]
     },
@@ -9986,48 +8701,37 @@ const AUNE_SAGESSE = [
         "title": "292 - LA RÉSURRECTION",
         "subparts": [
             {
-                "title": "1383 - La Résurrection",
-                "content": []
+                "title": "1383 - La Résurrection"
             },
             {
-                "title": "1384 - Les preuves affirmant la Résurrection",
-                "content": []
+                "title": "1384 - Les preuves affirmant la Résurrection"
             },
             {
-                "title": "1385 - L'approche de l'Heure",
-                "content": []
+                "title": "1385 - L'approche de l'Heure"
             },
             {
-                "title": "1386 - La connaissance exclusive de l'Heure par Allah",
-                "content": []
+                "title": "1386 - La connaissance exclusive de l'Heure par Allah"
             },
             {
-                "title": "1387 - Les signes avant-coureurs de l'Heure",
-                "content": []
+                "title": "1387 - Les signes avant-coureurs de l'Heure"
             },
             {
-                "title": "1388 - Le Jour de la sortie [des tombes]",
-                "content": []
+                "title": "1388 - Le Jour de la sortie [des tombes]"
             },
             {
-                "title": "1389 - La description du [Jour du] Rassemblement",
-                "content": []
+                "title": "1389 - La description du [Jour du] Rassemblement"
             },
             {
-                "title": "1390 - Les pieux le Jour de la Résurrection",
-                "content": []
+                "title": "1390 - Les pieux le Jour de la Résurrection"
             },
             {
-                "title": "1391 - Les pécheurs le Jour de la Résurrection",
-                "content": []
+                "title": "1391 - Les pécheurs le Jour de la Résurrection"
             },
             {
-                "title": "1392 - Le recueil des actes",
-                "content": []
+                "title": "1392 - Le recueil des actes"
             },
             {
-                "title": "1393 - Les gens de la droite et les gens de la gauche",
-                "content": []
+                "title": "1393 - Les gens de la droite et les gens de la gauche"
             }
         ]
     },
@@ -10035,16 +8739,13 @@ const AUNE_SAGESSE = [
         "title": "293 - L'HABITUDE",
         "subparts": [
             {
-                "title": "1394 - Le rôle de l'habitude dans la vie",
-                "content": []
+                "title": "1394 - Le rôle de l'habitude dans la vie"
             },
             {
-                "title": "1395 - Vaincre l'habitude",
-                "content": []
+                "title": "1395 - Vaincre l'habitude"
             },
             {
-                "title": "1396 - La difficulté de changer ses habitudes",
-                "content": []
+                "title": "1396 - La difficulté de changer ses habitudes"
             }
         ]
     },
@@ -10052,16 +8753,13 @@ const AUNE_SAGESSE = [
         "title": "294 - LA FÊTE ('ĪD)",
         "subparts": [
             {
-                "title": "1397 - La vraie fête",
-                "content": []
+                "title": "1397 - La vraie fête"
             },
             {
-                "title": "1398 - La fête de Nowrūz",
-                "content": []
+                "title": "1398 - La fête de Nowrūz"
             },
             {
-                "title": "1399 - Les ornements des fêtes",
-                "content": []
+                "title": "1399 - Les ornements des fêtes"
             }
         ]
     },
@@ -10069,32 +8767,25 @@ const AUNE_SAGESSE = [
         "title": "295 - LES DÉFAUTS",
         "subparts": [
             {
-                "title": "1400 - L'éloge de celui à qui la préoccupation au sujet de ses propres défauts fait oublier les défauts des gens",
-                "content": []
+                "title": "1400 - L'éloge de celui à qui la préoccupation au sujet de ses propres défauts fait oublier les défauts des gens"
             },
             {
-                "title": "1401 - Mise en garde contre le fait de se préoccuper des défauts des gens et de flatter sa propre personne",
-                "content": []
+                "title": "1401 - Mise en garde contre le fait de se préoccuper des défauts des gens et de flatter sa propre personne"
             },
             {
-                "title": "1402 - La vertu de la dissimulation des défauts",
-                "content": []
+                "title": "1402 - La vertu de la dissimulation des défauts"
             },
             {
-                "title": "1403 - L'incitation à offrir les défauts [en disant avec tact leurs défauts aux autres en vue de leur amélioration]",
-                "content": []
+                "title": "1403 - L'incitation à offrir les défauts [en disant avec tact leurs défauts aux autres en vue de leur amélioration]"
             },
             {
-                "title": "1404 - Le blâme du fait de traquer les défauts des autres",
-                "content": []
+                "title": "1404 - Le blâme du fait de traquer les défauts des autres"
             },
             {
-                "title": "1405 - Ce qui voile les défauts",
-                "content": []
+                "title": "1405 - Ce qui voile les défauts"
             },
             {
-                "title": "1406 - Celui qui ignore une chose lui trouve des défauts",
-                "content": []
+                "title": "1406 - Celui qui ignore une chose lui trouve des défauts"
             }
         ]
     },
@@ -10102,8 +8793,7 @@ const AUNE_SAGESSE = [
         "title": "296 - LE REPROCHE",
         "subparts": [
             {
-                "title": "1407 - Le blâme du reproche",
-                "content": []
+                "title": "1407 - Le blâme du reproche"
             }
         ]
     },
@@ -10111,12 +8801,10 @@ const AUNE_SAGESSE = [
         "title": "297 - LE MODE DE VIE",
         "subparts": [
             {
-                "title": "1408 - Le mode de vie le plus sain et agréable",
-                "content": []
+                "title": "1408 - Le mode de vie le plus sain et agréable"
             },
             {
-                "title": "1409 - Ce qui assombrit la vie",
-                "content": []
+                "title": "1409 - Ce qui assombrit la vie"
             }
         ]
     },
@@ -10124,20 +8812,16 @@ const AUNE_SAGESSE = [
         "title": "298 - L'ILLUSION",
         "subparts": [
             {
-                "title": "1410 - Le danger de l'illusion et les caractéristiques de celui qui est victime d'illusions",
-                "content": []
+                "title": "1410 - Le danger de l'illusion et les caractéristiques de celui qui est victime d'illusions"
             },
             {
-                "title": "1411 - Se tromper au sujet d'Allah",
-                "content": []
+                "title": "1411 - Se tromper au sujet d'Allah"
             },
             {
-                "title": "1412 - Se laisser tromper par ce monde",
-                "content": []
+                "title": "1412 - Se laisser tromper par ce monde"
             },
             {
-                "title": "1413 - S'illusionner soi-même",
-                "content": []
+                "title": "1413 - S'illusionner soi-même"
             }
         ]
     },
@@ -10145,32 +8829,25 @@ const AUNE_SAGESSE = [
         "title": "299 - LES BATAILLES [AUXQUELLES LE PROPHÈTE (S) A PARTICIPÉ]",
         "subparts": [
             {
-                "title": "1414 - La bataille de Badr",
-                "content": []
+                "title": "1414 - La bataille de Badr"
             },
             {
-                "title": "1415 - La bataille d'Uḥud",
-                "content": []
+                "title": "1415 - La bataille d'Uḥud"
             },
             {
-                "title": "1416 - La bataille Zhāt al-Riqā'",
-                "content": []
+                "title": "1416 - La bataille Zhāt al-Riqā'"
             },
             {
-                "title": "1417 - La bataille des factions (aḥzāb) et des Banī Qurayẓa",
-                "content": []
+                "title": "1417 - La bataille des factions (aḥzāb) et des Banī Qurayẓa"
             },
             {
-                "title": "1418 - La bataille de Khaybar",
-                "content": []
+                "title": "1418 - La bataille de Khaybar"
             },
             {
-                "title": "1419 - La conquête de La Mecque",
-                "content": []
+                "title": "1419 - La conquête de La Mecque"
             },
             {
-                "title": "1420 - La Bataille de Ḥunayn",
-                "content": []
+                "title": "1420 - La Bataille de Ḥunayn"
             }
         ]
     },
@@ -10178,8 +8855,7 @@ const AUNE_SAGESSE = [
         "title": "300 - LA TROMPERIE",
         "subparts": [
             {
-                "title": "1421 - Le blâme de la tromperie",
-                "content": []
+                "title": "1421 - Le blâme de la tromperie"
             }
         ]
     },
@@ -10187,8 +8863,7 @@ const AUNE_SAGESSE = [
         "title": "301 - LA SPOLIATION",
         "subparts": [
             {
-                "title": "1422 - L'interdiction de la spoliation",
-                "content": []
+                "title": "1422 - L'interdiction de la spoliation"
             }
         ]
     },
@@ -10196,24 +8871,19 @@ const AUNE_SAGESSE = [
         "title": "302 - LA COLÈRE",
         "subparts": [
             {
-                "title": "1423 - La colère est la clé de tout mal",
-                "content": []
+                "title": "1423 - La colère est la clé de tout mal"
             },
             {
-                "title": "1424 - L'incitation à maîtriser sa colère",
-                "content": []
+                "title": "1424 - L'incitation à maîtriser sa colère"
             },
             {
-                "title": "1425 - L'incitation à réprimer la colère",
-                "content": []
+                "title": "1425 - L'incitation à réprimer la colère"
             },
             {
-                "title": "1426 - Le remède de la colère",
-                "content": []
+                "title": "1426 - Le remède de la colère"
             },
             {
-                "title": "1427 - L'éloge de la colère pour Allah",
-                "content": []
+                "title": "1427 - L'éloge de la colère pour Allah"
             }
         ]
     },
@@ -10221,20 +8891,16 @@ const AUNE_SAGESSE = [
         "title": "303 - LA DEMANDE DE PARDON",
         "subparts": [
             {
-                "title": "1428 - La vertu de la demande de pardon",
-                "content": []
+                "title": "1428 - La vertu de la demande de pardon"
             },
             {
-                "title": "1429 - La demande de pardon et l'augmentation de la subsistance",
-                "content": []
+                "title": "1429 - La demande de pardon et l'augmentation de la subsistance"
             },
             {
-                "title": "1430 - La demande de pardon des rapprochés [d'Allah]",
-                "content": []
+                "title": "1430 - La demande de pardon des rapprochés [d'Allah]"
             },
             {
-                "title": "1431 - Mise en garde contre la demande de pardon accompagnée de la persistance [des péchés]",
-                "content": []
+                "title": "1431 - Mise en garde contre la demande de pardon accompagnée de la persistance [des péchés]"
             }
         ]
     },
@@ -10242,24 +8908,19 @@ const AUNE_SAGESSE = [
         "title": "304 - LA NÉGLIGENCE",
         "subparts": [
             {
-                "title": "1432 - Mise en garde contre la négligence",
-                "content": []
+                "title": "1432 - Mise en garde contre la négligence"
             },
             {
-                "title": "1433 - Ce qui empêche la négligence",
-                "content": []
+                "title": "1433 - Ce qui empêche la négligence"
             },
             {
-                "title": "1434 - Les caractéristiques de la personne négligente",
-                "content": []
+                "title": "1434 - Les caractéristiques de la personne négligente"
             },
             {
-                "title": "1435 - Les effets de la négligence",
-                "content": []
+                "title": "1435 - Les effets de la négligence"
             },
             {
-                "title": "1436 - L'éloge de la négligence volontaire et de l'ignorance feinte",
-                "content": []
+                "title": "1436 - L'éloge de la négligence volontaire et de l'ignorance feinte"
             }
         ]
     },
@@ -10267,16 +8928,13 @@ const AUNE_SAGESSE = [
         "title": "305 - LA RANCŒUR",
         "subparts": [
             {
-                "title": "1437 - Mise en garde contre la rancœur",
-                "content": []
+                "title": "1437 - Mise en garde contre la rancœur"
             },
             {
-                "title": "1438 - Ce vis-à-vis de quoi le cœur du musulman ne doit pas avoir de rancune",
-                "content": []
+                "title": "1438 - Ce vis-à-vis de quoi le cœur du musulman ne doit pas avoir de rancune"
             },
             {
-                "title": "1439 - Mise en garde au sujet l'appropriation indue",
-                "content": []
+                "title": "1439 - Mise en garde au sujet l'appropriation indue"
             }
         ]
     },
@@ -10284,8 +8942,7 @@ const AUNE_SAGESSE = [
         "title": "306 - L'EXAGÉRATION ET L'EXCÈS [DANS LE DOMAINE RELIGIEUX]",
         "subparts": [
             {
-                "title": "1440 - Mise en garde contre l'exagération dans le domaine religieux",
-                "content": []
+                "title": "1440 - Mise en garde contre l'exagération dans le domaine religieux"
             }
         ]
     },
@@ -10293,32 +8950,25 @@ const AUNE_SAGESSE = [
         "title": "307 - LA RICHESSE",
         "subparts": [
             {
-                "title": "1441 - La richesse et la rébellion",
-                "content": []
+                "title": "1441 - La richesse et la rébellion"
             },
             {
-                "title": "1442 - La richesse et la crainte d'Allah",
-                "content": []
+                "title": "1442 - La richesse et la crainte d'Allah"
             },
             {
-                "title": "1443 - La signification réelle de la richesse",
-                "content": []
+                "title": "1443 - La signification réelle de la richesse"
             },
             {
-                "title": "1444 - La plus grande richesse",
-                "content": []
+                "title": "1444 - La plus grande richesse"
             },
             {
-                "title": "1445 - La clé de la richesse",
-                "content": []
+                "title": "1445 - La clé de la richesse"
             },
             {
-                "title": "1446 - Les riches dont la rétribution sera doublée",
-                "content": []
+                "title": "1446 - Les riches dont la rétribution sera doublée"
             },
             {
-                "title": "1447 - La responsabilité des riches vis-à-vis de la faim des pauvres",
-                "content": []
+                "title": "1447 - La responsabilité des riches vis-à-vis de la faim des pauvres"
             }
         ]
     },
@@ -10326,12 +8976,10 @@ const AUNE_SAGESSE = [
         "title": "308 - LA MUSIQUE PROHIBÉE",
         "subparts": [
             {
-                "title": "1448 - Le blâme de la musique prohibée",
-                "content": []
+                "title": "1448 - Le blâme de la musique prohibée"
             },
             {
-                "title": "1449 - Les effets engendrés par la musique",
-                "content": []
+                "title": "1449 - Les effets engendrés par la musique"
             }
         ]
     },
@@ -10339,12 +8987,10 @@ const AUNE_SAGESSE = [
         "title": "309 - L'INVISIBLE",
         "subparts": [
             {
-                "title": "1450 - Le Prophète (s) connaît l'invisible par enseignement d'Allah",
-                "content": []
+                "title": "1450 - Le Prophète (s) connaît l'invisible par enseignement d'Allah"
             },
             {
-                "title": "1451 - L'Imām (as) et la connaissance de l'invisible",
-                "content": []
+                "title": "1451 - L'Imām (as) et la connaissance de l'invisible"
             }
         ]
     },
@@ -10352,32 +8998,25 @@ const AUNE_SAGESSE = [
         "title": "310 - LA MÉDISANCE",
         "subparts": [
             {
-                "title": "1452 - L'interdiction de la médisance",
-                "content": []
+                "title": "1452 - L'interdiction de la médisance"
             },
             {
-                "title": "1453 - La médisance et la religion",
-                "content": []
+                "title": "1453 - La médisance et la religion"
             },
             {
-                "title": "1454 - La signification de la médisance",
-                "content": []
+                "title": "1454 - La signification de la médisance"
             },
             {
-                "title": "1455 - Les gens au sujet desquels il est autorisé de médire",
-                "content": []
+                "title": "1455 - Les gens au sujet desquels il est autorisé de médire"
             },
             {
-                "title": "1456 - Ecouter la médisance",
-                "content": []
+                "title": "1456 - Ecouter la médisance"
             },
             {
-                "title": "1457 - La récompense du fait de dissuader de médire",
-                "content": []
+                "title": "1457 - La récompense du fait de dissuader de médire"
             },
             {
-                "title": "1458 - L'expiation de la médisance",
-                "content": []
+                "title": "1458 - L'expiation de la médisance"
             }
         ]
     },
@@ -10385,12 +9024,10 @@ const AUNE_SAGESSE = [
         "title": "311 - LA POSSESSIVITÉ ET LE SENS DE L'HONNEUR",
         "subparts": [
             {
-                "title": "1459 - L'éloge de la possessivité",
-                "content": []
+                "title": "1459 - L'éloge de la possessivité"
             },
             {
-                "title": "1460 - Le blâme de la possessivité excessive là où elle n'a pas lieu d'être",
-                "content": []
+                "title": "1460 - Le blâme de la possessivité excessive là où elle n'a pas lieu d'être"
             }
         ]
     },
@@ -10398,20 +9035,16 @@ const AUNE_SAGESSE = [
         "title": "312 - LA MISE À L'ÉPREUVE",
         "subparts": [
             {
-                "title": "1461 - La mise en épreuve",
-                "content": []
+                "title": "1461 - La mise en épreuve"
             },
             {
-                "title": "1462 - Les différents types d'épreuve",
-                "content": []
+                "title": "1462 - Les différents types d'épreuve"
             },
             {
-                "title": "1463 - Ceux qui sortiront indemnes des épreuves",
-                "content": []
+                "title": "1463 - Ceux qui sortiront indemnes des épreuves"
             },
             {
-                "title": "1464 - Les anecdotes",
-                "content": []
+                "title": "1464 - Les anecdotes"
             }
         ]
     },
@@ -10419,12 +9052,10 @@ const AUNE_SAGESSE = [
         "title": "313 - L'AVIS JURIDIQUE (FATWĀ)",
         "subparts": [
             {
-                "title": "1465 - Celui qui donne un avis juridique aux gens sur la base de sa propre opinion",
-                "content": []
+                "title": "1465 - Celui qui donne un avis juridique aux gens sur la base de sa propre opinion"
             },
             {
-                "title": "1466 - L'autorisation de promulguer un avis juridique pour un savant",
-                "content": []
+                "title": "1466 - L'autorisation de promulguer un avis juridique pour un savant"
             }
         ]
     },
@@ -10432,8 +9063,7 @@ const AUNE_SAGESSE = [
         "title": "314 - LA LANGAGE OBSCÈNE",
         "subparts": [
             {
-                "title": "1467 - Mise en garde contre le recours au langage obscène",
-                "content": []
+                "title": "1467 - Mise en garde contre le recours au langage obscène"
             }
         ]
     },
@@ -10441,20 +9071,16 @@ const AUNE_SAGESSE = [
         "title": "315 - LA FIERTÉ",
         "subparts": [
             {
-                "title": "1468 - Le blâme du fait de rivaliser de fierté",
-                "content": []
+                "title": "1468 - Le blâme du fait de rivaliser de fierté"
             },
             {
-                "title": "1469 - Ce qui fait obstacle à la fierté",
-                "content": []
+                "title": "1469 - Ce qui fait obstacle à la fierté"
             },
             {
-                "title": "1470 - Le comportement du Prophète (s) lorsqu'il mentionnait l'une de ses vertus",
-                "content": []
+                "title": "1470 - Le comportement du Prophète (s) lorsqu'il mentionnait l'une de ses vertus"
             },
             {
-                "title": "1471 - Ce dont il faut être fier",
-                "content": []
+                "title": "1471 - Ce dont il faut être fier"
             }
         ]
     },
@@ -10462,8 +9088,7 @@ const AUNE_SAGESSE = [
         "title": "316 - LES PERSES",
         "subparts": [
             {
-                "title": "1472 - Les Perses et la foi",
-                "content": []
+                "title": "1472 - Les Perses et la foi"
             }
         ]
     },
@@ -10471,8 +9096,7 @@ const AUNE_SAGESSE = [
         "title": "317 - L'OPPORTUNITÉ",
         "subparts": [
             {
-                "title": "1473 - Profiter de l'opportunité",
-                "content": []
+                "title": "1473 - Profiter de l'opportunité"
             }
         ]
     },
@@ -10480,16 +9104,13 @@ const AUNE_SAGESSE = [
         "title": "318 - LES OBLIGATIONS [RELIGIEUSES]",
         "subparts": [
             {
-                "title": "1474 - L'incitation à s'acquitter des obligations religieuses",
-                "content": []
+                "title": "1474 - L'incitation à s'acquitter des obligations religieuses"
             },
             {
-                "title": "1475 - Ce qu'Allah - loué soit-Il - a rendu obligatoire aux gens",
-                "content": []
+                "title": "1475 - Ce qu'Allah - loué soit-Il - a rendu obligatoire aux gens"
             },
             {
-                "title": "1476 - L'ensemble des obligations religieuses",
-                "content": []
+                "title": "1476 - L'ensemble des obligations religieuses"
             }
         ]
     },
@@ -10497,8 +9118,7 @@ const AUNE_SAGESSE = [
         "title": "319 - L'OISIVETÉ",
         "subparts": [
             {
-                "title": "1477 - L'oisiveté",
-                "content": []
+                "title": "1477 - L'oisiveté"
             }
         ]
     },
@@ -10506,16 +9126,13 @@ const AUNE_SAGESSE = [
         "title": "320 - LA CORRUPTION",
         "subparts": [
             {
-                "title": "1478 - Ce qui corrompt le commun des gens",
-                "content": []
+                "title": "1478 - Ce qui corrompt le commun des gens"
             },
             {
-                "title": "1479 - Qu'est-ce que la corruption et qui sont les corrupteurs ?",
-                "content": []
+                "title": "1479 - Qu'est-ce que la corruption et qui sont les corrupteurs ?"
             },
             {
-                "title": "1480 - Ce qui repousse la corruption",
-                "content": []
+                "title": "1480 - Ce qui repousse la corruption"
             }
         ]
     },
@@ -10523,16 +9140,13 @@ const AUNE_SAGESSE = [
         "title": "321 - LE MÉRITE",
         "subparts": [
             {
-                "title": "1481 - Les mérites",
-                "content": []
+                "title": "1481 - Les mérites"
             },
             {
-                "title": "1482 - Le meilleur des mérites",
-                "content": []
+                "title": "1482 - Le meilleur des mérites"
             },
             {
-                "title": "1483 - La plus vertueuse des personnes",
-                "content": []
+                "title": "1483 - La plus vertueuse des personnes"
             }
         ]
     },
@@ -10540,48 +9154,37 @@ const AUNE_SAGESSE = [
         "title": "322 - LA PAUVRETÉ",
         "subparts": [
             {
-                "title": "1484 - Le blâme de la pauvreté",
-                "content": []
+                "title": "1484 - Le blâme de la pauvreté"
             },
             {
-                "title": "1485 - L'éloge de la pauvreté",
-                "content": []
+                "title": "1485 - L'éloge de la pauvreté"
             },
             {
-                "title": "1486 - Les traditions rapportées au sujet de la vertu de la pauvreté vis-à-vis de la richesse",
-                "content": []
+                "title": "1486 - Les traditions rapportées au sujet de la vertu de la pauvreté vis-à-vis de la richesse"
             },
             {
-                "title": "1487 - L'interprétation de la pauvreté",
-                "content": []
+                "title": "1487 - L'interprétation de la pauvreté"
             },
             {
-                "title": "1488 - La pauvreté louée et blâmée",
-                "content": []
+                "title": "1488 - La pauvreté louée et blâmée"
             },
             {
-                "title": "1489 - L'humiliation du pauvre",
-                "content": []
+                "title": "1489 - L'humiliation du pauvre"
             },
             {
-                "title": "1490 - Ce qui éloigne la pauvreté",
-                "content": []
+                "title": "1490 - Ce qui éloigne la pauvreté"
             },
             {
-                "title": "1491 - Ce qui suscite la pauvreté",
-                "content": []
+                "title": "1491 - Ce qui suscite la pauvreté"
             },
             {
-                "title": "1492 - L'excuse d'Allah - loué soit-Il - pour les pauvres",
-                "content": []
+                "title": "1492 - L'excuse d'Allah - loué soit-Il - pour les pauvres"
             },
             {
-                "title": "1493 - L'ornement de la pauvreté",
-                "content": []
+                "title": "1493 - L'ornement de la pauvreté"
             },
             {
-                "title": "1494 - Bienheureux soient les pauvres !",
-                "content": []
+                "title": "1494 - Bienheureux soient les pauvres !"
             }
         ]
     },
@@ -10589,20 +9192,16 @@ const AUNE_SAGESSE = [
         "title": "323 - LA JURISPRUDENCE ET LE SAVOIR AU SUJET DE LA RELIGION",
         "subparts": [
             {
-                "title": "1495 - L'incitation à s'instruire au sujet de la religion",
-                "content": []
+                "title": "1495 - L'incitation à s'instruire au sujet de la religion"
             },
             {
-                "title": "1496 - Les caractéristiques du savant en religion (faqīh)",
-                "content": []
+                "title": "1496 - Les caractéristiques du savant en religion (faqīh)"
             },
             {
-                "title": "1497 - La pénibilité de l'existence du savant en religion pour Iblīs",
-                "content": []
+                "title": "1497 - La pénibilité de l'existence du savant en religion pour Iblīs"
             },
             {
-                "title": "1498 - La mort du savant en religion",
-                "content": []
+                "title": "1498 - La mort du savant en religion"
             }
         ]
     },
@@ -10610,20 +9209,16 @@ const AUNE_SAGESSE = [
         "title": "324 - LA RÉFLEXION",
         "subparts": [
             {
-                "title": "1499 - L'incitation à la réflexion",
-                "content": []
+                "title": "1499 - L'incitation à la réflexion"
             },
             {
-                "title": "1500 - Aucune adoration n'est comparable à la réflexion",
-                "content": []
+                "title": "1500 - Aucune adoration n'est comparable à la réflexion"
             },
             {
-                "title": "1501 - Ce qui affine et clarifie la réflexion",
-                "content": []
+                "title": "1501 - Ce qui affine et clarifie la réflexion"
             },
             {
-                "title": "1502 - La réflexion interdite",
-                "content": []
+                "title": "1502 - La réflexion interdite"
             }
         ]
     },
@@ -10631,16 +9226,13 @@ const AUNE_SAGESSE = [
         "title": "325 - LA TOMBE",
         "subparts": [
             {
-                "title": "1503 - La tombe est la première étape de l'Au-delà",
-                "content": []
+                "title": "1503 - La tombe est la première étape de l'Au-delà"
             },
             {
-                "title": "1504 - L'interrogatoire de la tombe",
-                "content": []
+                "title": "1504 - L'interrogatoire de la tombe"
             },
             {
-                "title": "1505 - Le châtiment de la tombe",
-                "content": []
+                "title": "1505 - Le châtiment de la tombe"
             }
         ]
     },
@@ -10648,16 +9240,13 @@ const AUNE_SAGESSE = [
         "title": "326 - LE MEURTRE",
         "subparts": [
             {
-                "title": "1506 - L'interdiction de tuer un être humain",
-                "content": []
+                "title": "1506 - L'interdiction de tuer un être humain"
             },
             {
-                "title": "1507 - Tuer un croyant",
-                "content": []
+                "title": "1507 - Tuer un croyant"
             },
             {
-                "title": "1508 - L'interdiction à l'être humain de se suicider",
-                "content": []
+                "title": "1508 - L'interdiction à l'être humain de se suicider"
             }
         ]
     },
@@ -10665,48 +9254,37 @@ const AUNE_SAGESSE = [
         "title": "327 - LE CORAN",
         "subparts": [
             {
-                "title": "1509 - Adhérez au Coran",
-                "content": []
+                "title": "1509 - Adhérez au Coran"
             },
             {
-                "title": "1510 - Le Coran est nouveau à toute époque",
-                "content": []
+                "title": "1510 - Le Coran est nouveau à toute époque"
             },
             {
-                "title": "1511 - Etudier le Coran et l'enseigner aux autres",
-                "content": []
+                "title": "1511 - Etudier le Coran et l'enseigner aux autres"
             },
             {
-                "title": "1512 - La mémorisation du Coran et la façon dont doit se comporter celui qui le mémorise",
-                "content": []
+                "title": "1512 - La mémorisation du Coran et la façon dont doit se comporter celui qui le mémorise"
             },
             {
-                "title": "1513 - L'incitation à la récitation du Coran",
-                "content": []
+                "title": "1513 - L'incitation à la récitation du Coran"
             },
             {
-                "title": "1514 - Réciter le Coran avec une belle voix",
-                "content": []
+                "title": "1514 - Réciter le Coran avec une belle voix"
             },
             {
-                "title": "1515 - L'authentique récitation",
-                "content": []
+                "title": "1515 - L'authentique récitation"
             },
             {
-                "title": "1516 - La conduite à tenir lors de la récitation du Coran",
-                "content": []
+                "title": "1516 - La conduite à tenir lors de la récitation du Coran"
             },
             {
-                "title": "1517 - Celui que le Coran maudit",
-                "content": []
+                "title": "1517 - Celui que le Coran maudit"
             },
             {
-                "title": "1518 - L'écoute du Coran",
-                "content": []
+                "title": "1518 - L'écoute du Coran"
             },
             {
-                "title": "1519 - Mise en garde contre le fait d'interpréter le Coran selon son avis personnel",
-                "content": []
+                "title": "1519 - Mise en garde contre le fait d'interpréter le Coran selon son avis personnel"
             }
         ]
     },
@@ -10714,16 +9292,13 @@ const AUNE_SAGESSE = [
         "title": "328 - LES RAPPROCHÉS [D'ALLAH]",
         "subparts": [
             {
-                "title": "1520 - Le but ultime du rapprochement [d'Allah]",
-                "content": []
+                "title": "1520 - Le but ultime du rapprochement [d'Allah]"
             },
             {
-                "title": "1521 - Les gens les plus proches d'Allah",
-                "content": []
+                "title": "1521 - Les gens les plus proches d'Allah"
             },
             {
-                "title": "1522 - Ce qui rapproche d'Allah",
-                "content": []
+                "title": "1522 - Ce qui rapproche d'Allah"
             }
         ]
     },
@@ -10731,12 +9306,10 @@ const AUNE_SAGESSE = [
         "title": "329 - LE PRÊT",
         "subparts": [
             {
-                "title": "1523 - La vertu du prêt",
-                "content": []
+                "title": "1523 - La vertu du prêt"
             },
             {
-                "title": "1524 - L'incitation à accorder un sursis à un débiteur en difficulté",
-                "content": []
+                "title": "1524 - L'incitation à accorder un sursis à un débiteur en difficulté"
             }
         ]
     },
@@ -10744,12 +9317,10 @@ const AUNE_SAGESSE = [
         "title": "330 - L'ÉCONOMIE ET LA MESURE",
         "subparts": [
             {
-                "title": "1525 - L'incitation à vivre de façon économe et mesurée",
-                "content": []
+                "title": "1525 - L'incitation à vivre de façon économe et mesurée"
             },
             {
-                "title": "1526 - Le rôle de l'économie dans l'absence de besoin",
-                "content": []
+                "title": "1526 - Le rôle de l'économie dans l'absence de besoin"
             }
         ]
     },
@@ -10757,12 +9328,10 @@ const AUNE_SAGESSE = [
         "title": "331 - LA LOI DU TALION (QIṢĀṢ)",
         "subparts": [
             {
-                "title": "1527 - La loi du talion et son importance",
-                "content": []
+                "title": "1527 - La loi du talion et son importance"
             },
             {
-                "title": "1528 - Pardonner et renoncer au talion",
-                "content": []
+                "title": "1528 - Pardonner et renoncer au talion"
             }
         ]
     },
@@ -10770,24 +9339,19 @@ const AUNE_SAGESSE = [
         "title": "332 - LE DÉCRET ET LA DESTINÉE",
         "subparts": [
             {
-                "title": "1529 - Le décret et la destinée",
-                "content": []
+                "title": "1529 - Le décret et la destinée"
             },
             {
-                "title": "1530 - L'inscription du décret et de la destinée de l'homme dans l'utérus",
-                "content": []
+                "title": "1530 - L'inscription du décret et de la destinée de l'homme dans l'utérus"
             },
             {
-                "title": "1531 - Ce qu'Allah décrète pour le croyant est un bien",
-                "content": []
+                "title": "1531 - Ce qu'Allah décrète pour le croyant est un bien"
             },
             {
-                "title": "1532 - Celui qui n'est pas satisfait du décret divin",
-                "content": []
+                "title": "1532 - Celui qui n'est pas satisfait du décret divin"
             },
             {
-                "title": "1533 - Ce qui fait partie de la destinée",
-                "content": []
+                "title": "1533 - Ce qui fait partie de la destinée"
             }
         ]
     },
@@ -10795,44 +9359,34 @@ const AUNE_SAGESSE = [
         "title": "333 - LE JUGEMENT",
         "subparts": [
             {
-                "title": "1534 - L'importance du statut du jugement",
-                "content": []
+                "title": "1534 - L'importance du statut du jugement"
             },
             {
-                "title": "1535 - Recourir au jugement du Ṭāghūt",
-                "content": []
+                "title": "1535 - Recourir au jugement du Ṭāghūt"
             },
             {
-                "title": "1536 - La gravité de l'acte de juger",
-                "content": []
+                "title": "1536 - La gravité de l'acte de juger"
             },
             {
-                "title": "1537 - Le souhait de devenir juge",
-                "content": []
+                "title": "1537 - Le souhait de devenir juge"
             },
             {
-                "title": "1538 - La conduite à tenir lors du jugement",
-                "content": []
+                "title": "1538 - La conduite à tenir lors du jugement"
             },
             {
-                "title": "1539 - Les juges guidés et aidés par Allah",
-                "content": []
+                "title": "1539 - Les juges guidés et aidés par Allah"
             },
             {
-                "title": "1540 - Les types de juges",
-                "content": []
+                "title": "1540 - Les types de juges"
             },
             {
-                "title": "1541 - Les juges justes",
-                "content": []
+                "title": "1541 - Les juges justes"
             },
             {
-                "title": "1542 - Juger par la preuve claire",
-                "content": []
+                "title": "1542 - Juger par la preuve claire"
             },
             {
-                "title": "1543 - La parole de l'Imām ['Alī] (as): C'est comme un jugement !",
-                "content": []
+                "title": "1543 - La parole de l'Imām ['Alī] (as): C'est comme un jugement !"
             }
         ]
     },
@@ -10840,64 +9394,49 @@ const AUNE_SAGESSE = [
         "title": "334 - LE CŒUR",
         "subparts": [
             {
-                "title": "1544 - Le cœur",
-                "content": []
+                "title": "1544 - Le cœur"
             },
             {
-                "title": "1545 - L'intégrité du cœur",
-                "content": []
+                "title": "1545 - L'intégrité du cœur"
             },
             {
-                "title": "1546 - L'œil du cœur",
-                "content": []
+                "title": "1546 - L'œil du cœur"
             },
             {
-                "title": "1547 - L'oreille du cœur",
-                "content": []
+                "title": "1547 - L'oreille du cœur"
             },
             {
-                "title": "1548 - L'avancement du cœur et son recul",
-                "content": []
+                "title": "1548 - L'avancement du cœur et son recul"
             },
             {
-                "title": "1549 - La pureté du cœur",
-                "content": []
+                "title": "1549 - La pureté du cœur"
             },
             {
-                "title": "1550 - L'expansion du cœur",
-                "content": []
+                "title": "1550 - L'expansion du cœur"
             },
             {
-                "title": "1551 - Le voile du cœur",
-                "content": []
+                "title": "1551 - Le voile du cœur"
             },
             {
-                "title": "1552 - La dureté du cœur",
-                "content": []
+                "title": "1552 - La dureté du cœur"
             },
             {
-                "title": "1553 - La maladie du cœur",
-                "content": []
+                "title": "1553 - La maladie du cœur"
             },
             {
-                "title": "1554 - Ce qui guérit le cœur",
-                "content": []
+                "title": "1554 - Ce qui guérit le cœur"
             },
             {
-                "title": "1555 - Ce qui fait mourir le cœur",
-                "content": []
+                "title": "1555 - Ce qui fait mourir le cœur"
             },
             {
-                "title": "1556 - Ce qui ravive le cœur",
-                "content": []
+                "title": "1556 - Ce qui ravive le cœur"
             },
             {
-                "title": "1557 - Ce qui attendrit le cœur",
-                "content": []
+                "title": "1557 - Ce qui attendrit le cœur"
             },
             {
-                "title": "1558 - Ce qui polit et clarifie le cœur",
-                "content": []
+                "title": "1558 - Ce qui polit et clarifie le cœur"
             }
         ]
     },
@@ -10905,12 +9444,10 @@ const AUNE_SAGESSE = [
         "title": "335 - L'IMITATION (TAQLĪD)",
         "subparts": [
             {
-                "title": "1559 - L'imitation blâmée",
-                "content": []
+                "title": "1559 - L'imitation blâmée"
             },
             {
-                "title": "1560 - Celui qu'il est permis d'imiter",
-                "content": []
+                "title": "1560 - Celui qu'il est permis d'imiter"
             }
         ]
     },
@@ -10918,8 +9455,7 @@ const AUNE_SAGESSE = [
         "title": "336 - LE PARI ET LES JEUX DE HASARD",
         "subparts": [
             {
-                "title": "1561 - L'interdiction de parier et de s'adonner aux jeux de hasard",
-                "content": []
+                "title": "1561 - L'interdiction de parier et de s'adonner aux jeux de hasard"
             }
         ]
     },
@@ -10927,20 +9463,16 @@ const AUNE_SAGESSE = [
         "title": "337 - LE CONTENTEMENT",
         "subparts": [
             {
-                "title": "1562 - La vertu du contentement",
-                "content": []
+                "title": "1562 - La vertu du contentement"
             },
             {
-                "title": "1563 - Ce qui suscite le contentement",
-                "content": []
+                "title": "1563 - Ce qui suscite le contentement"
             },
             {
-                "title": "1564 - Le fruit du contentement",
-                "content": []
+                "title": "1564 - Le fruit du contentement"
             },
             {
-                "title": "1565 - Celui qui ne se satisfait pas de peu",
-                "content": []
+                "title": "1565 - Celui qui ne se satisfait pas de peu"
             }
         ]
     },
@@ -10948,28 +9480,22 @@ const AUNE_SAGESSE = [
         "title": "338 - L'ORGUEIL",
         "subparts": [
             {
-                "title": "1566 - Mise en garde contre l'orgueil",
-                "content": []
+                "title": "1566 - Mise en garde contre l'orgueil"
             },
             {
-                "title": "1567 - La signification de l'orgueil",
-                "content": []
+                "title": "1567 - La signification de l'orgueil"
             },
             {
-                "title": "1568 - Le blâme de l'orgueilleux",
-                "content": []
+                "title": "1568 - Le blâme de l'orgueilleux"
             },
             {
-                "title": "1569 - Le traitement de l'orgueil",
-                "content": []
+                "title": "1569 - Le traitement de l'orgueil"
             },
             {
-                "title": "1570 - Les conséquences de l'orgueil",
-                "content": []
+                "title": "1570 - Les conséquences de l'orgueil"
             },
             {
-                "title": "1571 - La destination des orgueilleux",
-                "content": []
+                "title": "1571 - La destination des orgueilleux"
             }
         ]
     },
@@ -10977,28 +9503,22 @@ const AUNE_SAGESSE = [
         "title": "339 - LE LIVRE",
         "subparts": [
             {
-                "title": "1572 - Le livre",
-                "content": []
+                "title": "1572 - Le livre"
             },
             {
-                "title": "1573 - L'écriture et la personnalité de l'écrivain",
-                "content": []
+                "title": "1573 - L'écriture et la personnalité de l'écrivain"
             },
             {
-                "title": "1574 - L'incitation à écrire le savoir",
-                "content": []
+                "title": "1574 - L'incitation à écrire le savoir"
             },
             {
-                "title": "1575 - La récompense de la rédaction d'ouvrages et de l'écriture",
-                "content": []
+                "title": "1575 - La récompense de la rédaction d'ouvrages et de l'écriture"
             },
             {
-                "title": "1576 - La conduite à tenir lors de l'écriture",
-                "content": []
+                "title": "1576 - La conduite à tenir lors de l'écriture"
             },
             {
-                "title": "1577 - La correspondance",
-                "content": []
+                "title": "1577 - La correspondance"
             }
         ]
     },
@@ -11006,12 +9526,10 @@ const AUNE_SAGESSE = [
         "title": "340 - GARDER LES SECRETS",
         "subparts": [
             {
-                "title": "1578 - L'importance de garder les secrets",
-                "content": []
+                "title": "1578 - L'importance de garder les secrets"
             },
             {
-                "title": "1579 - L'éloge du serviteur discret",
-                "content": []
+                "title": "1579 - L'éloge du serviteur discret"
             }
         ]
     },
@@ -11019,44 +9537,34 @@ const AUNE_SAGESSE = [
         "title": "341 - LE MENSONGE",
         "subparts": [
             {
-                "title": "1580 - Le blâme du mensonge",
-                "content": []
+                "title": "1580 - Le blâme du mensonge"
             },
             {
-                "title": "1581 - Le mensonge et la foi",
-                "content": []
+                "title": "1581 - Le mensonge et la foi"
             },
             {
-                "title": "1582 - Le mensonge est la clé de tout mal",
-                "content": []
+                "title": "1582 - Le mensonge est la clé de tout mal"
             },
             {
-                "title": "1583 - L'ordre d'abandonner le mensonge dit sérieusement ou par plaisanterie",
-                "content": []
+                "title": "1583 - L'ordre d'abandonner le mensonge dit sérieusement ou par plaisanterie"
             },
             {
-                "title": "1584 - Le petit mensonge",
-                "content": []
+                "title": "1584 - Le petit mensonge"
             },
             {
-                "title": "1585 - Les conséquences du mensonge",
-                "content": []
+                "title": "1585 - Les conséquences du mensonge"
             },
             {
-                "title": "1586 - Le pire des mensonges",
-                "content": []
+                "title": "1586 - Le pire des mensonges"
             },
             {
-                "title": "1587 - Les cas où le mensonge est permis",
-                "content": []
+                "title": "1587 - Les cas où le mensonge est permis"
             },
             {
-                "title": "1588 - La dissimulation",
-                "content": []
+                "title": "1588 - La dissimulation"
             },
             {
-                "title": "1589 - Ecouter le mensonge",
-                "content": []
+                "title": "1589 - Ecouter le mensonge"
             }
         ]
     },
@@ -11064,36 +9572,28 @@ const AUNE_SAGESSE = [
         "title": "342 - LA NOBLESSE",
         "subparts": [
             {
-                "title": "1590 - La vertu de la noblesse",
-                "content": []
+                "title": "1590 - La vertu de la noblesse"
             },
             {
-                "title": "1591 - La morale des personnes nobles",
-                "content": []
+                "title": "1591 - La morale des personnes nobles"
             },
             {
-                "title": "1592 - Ce qui ne fait pas partie de la morale des nobles",
-                "content": []
+                "title": "1592 - Ce qui ne fait pas partie de la morale des nobles"
             },
             {
-                "title": "1593 - L'incitation à honorer le noble",
-                "content": []
+                "title": "1593 - L'incitation à honorer le noble"
             },
             {
-                "title": "1594 - La vertu de traiter [les autres] avec honneur",
-                "content": []
+                "title": "1594 - La vertu de traiter [les autres] avec honneur"
             },
             {
-                "title": "1595 - Le blâme du fait de rejeter une marque d'honneur et de respect",
-                "content": []
+                "title": "1595 - Le blâme du fait de rejeter une marque d'honneur et de respect"
             },
             {
-                "title": "1596 - La plus honorable des personnes",
-                "content": []
+                "title": "1596 - La plus honorable des personnes"
             },
             {
-                "title": "1597 - Honorer les gens est honorer sa propre personne",
-                "content": []
+                "title": "1597 - Honorer les gens est honorer sa propre personne"
             }
         ]
     },
@@ -11101,16 +9601,13 @@ const AUNE_SAGESSE = [
         "title": "343 - LE GAIN",
         "subparts": [
             {
-                "title": "1598 - Le meilleur gain",
-                "content": []
+                "title": "1598 - Le meilleur gain"
             },
             {
-                "title": "1599 - L'incitation à acquérir ses revenus par le produit de son travail",
-                "content": []
+                "title": "1599 - L'incitation à acquérir ses revenus par le produit de son travail"
             },
             {
-                "title": "1600 - Les sources de revenus blâmables",
-                "content": []
+                "title": "1600 - Les sources de revenus blâmables"
             }
         ]
     },
@@ -11118,8 +9615,7 @@ const AUNE_SAGESSE = [
         "title": "344 - LA PARESSE",
         "subparts": [
             {
-                "title": "1601 - La paresse",
-                "content": []
+                "title": "1601 - La paresse"
             }
         ]
     },
@@ -11127,12 +9623,10 @@ const AUNE_SAGESSE = [
         "title": "345 - LA MÉCRÉANCE",
         "subparts": [
             {
-                "title": "1602 - Ce qui suscite la mécréance",
-                "content": []
+                "title": "1602 - Ce qui suscite la mécréance"
             },
             {
-                "title": "1603 - Le plus bas degré de mécréance",
-                "content": []
+                "title": "1603 - Le plus bas degré de mécréance"
             }
         ]
     },
@@ -11140,20 +9634,16 @@ const AUNE_SAGESSE = [
         "title": "346 - LA COMPENSATION",
         "subparts": [
             {
-                "title": "1604 - L'incitation à récompenser le bien par le bien",
-                "content": []
+                "title": "1604 - L'incitation à récompenser le bien par le bien"
             },
             {
-                "title": "1605 - Ce que l'on doit faire et que l'on ne doit pas faire au sujet de la compensation",
-                "content": []
+                "title": "1605 - Ce que l'on doit faire et que l'on ne doit pas faire au sujet de la compensation"
             },
             {
-                "title": "1606 - Le blâme de la vengeance",
-                "content": []
+                "title": "1606 - Le blâme de la vengeance"
             },
             {
-                "title": "1607 - Tu seras traité comme tu traites les autres",
-                "content": []
+                "title": "1607 - Tu seras traité comme tu traites les autres"
             }
         ]
     },
@@ -11161,12 +9651,10 @@ const AUNE_SAGESSE = [
         "title": "347 - LE DEVOIR",
         "subparts": [
             {
-                "title": "1608 - La caractéristique du devoir divin",
-                "content": []
+                "title": "1608 - La caractéristique du devoir divin"
             },
             {
-                "title": "1609 - Allah n'impose à aucune âme une charge supérieure à sa capacité",
-                "content": []
+                "title": "1609 - Allah n'impose à aucune âme une charge supérieure à sa capacité"
             }
         ]
     },
@@ -11174,28 +9662,22 @@ const AUNE_SAGESSE = [
         "title": "348 - LA PAROLE",
         "subparts": [
             {
-                "title": "1610 - L'importance de la parole",
-                "content": []
+                "title": "1610 - L'importance de la parole"
             },
             {
-                "title": "1611 - Mise en garde contre les paroles grossières",
-                "content": []
+                "title": "1611 - Mise en garde contre les paroles grossières"
             },
             {
-                "title": "1612 - L'incitation à s'abstenir des paroles inutiles",
-                "content": []
+                "title": "1612 - L'incitation à s'abstenir des paroles inutiles"
             },
             {
-                "title": "1613 - Le blâme du fait de trop parler",
-                "content": []
+                "title": "1613 - Le blâme du fait de trop parler"
             },
             {
-                "title": "1614 - L'interdiction de parler avec excès",
-                "content": []
+                "title": "1614 - L'interdiction de parler avec excès"
             },
             {
-                "title": "1615 - La vertu de la parole vis-à-vis du silence",
-                "content": []
+                "title": "1615 - La vertu de la parole vis-à-vis du silence"
             }
         ]
     },
@@ -11203,16 +9685,13 @@ const AUNE_SAGESSE = [
         "title": "349 - LE REPAS",
         "subparts": [
             {
-                "title": "1616 - La morale du repas",
-                "content": []
+                "title": "1616 - La morale du repas"
             },
             {
-                "title": "1617 - L'invitation à manger",
-                "content": []
+                "title": "1617 - L'invitation à manger"
             },
             {
-                "title": "1618 - Manger peu",
-                "content": []
+                "title": "1618 - Manger peu"
             }
         ]
     },
@@ -11220,16 +9699,13 @@ const AUNE_SAGESSE = [
         "title": "350 - LE VÊTEMENT ET LA PARURE",
         "subparts": [
             {
-                "title": "1619 - Le type de vêtement recommandé",
-                "content": []
+                "title": "1619 - Le type de vêtement recommandé"
             },
             {
-                "title": "1620 - Les beaux vêtements et la parure",
-                "content": []
+                "title": "1620 - Les beaux vêtements et la parure"
             },
             {
-                "title": "1621 - La propreté des vêtements",
-                "content": []
+                "title": "1621 - La propreté des vêtements"
             }
         ]
     },
@@ -11237,8 +9713,7 @@ const AUNE_SAGESSE = [
         "title": "351 - L'AMUSEMENT ET LE DIVERTISSEMENT",
         "subparts": [
             {
-                "title": "1622 - Le blâme de l'amusement et du divertissement",
-                "content": []
+                "title": "1622 - Le blâme de l'amusement et du divertissement"
             }
         ]
     },
@@ -11246,12 +9721,10 @@ const AUNE_SAGESSE = [
         "title": "352 - LE PRÉTEXTE ET L'EXCUSE",
         "subparts": [
             {
-                "title": "1623 - L'argumentation avec les serviteurs",
-                "content": []
+                "title": "1623 - L'argumentation avec les serviteurs"
             },
             {
-                "title": "1624 - Allah n'acceptera l'excuse d'aucun serviteur ayant ignoré Ses prescriptions",
-                "content": []
+                "title": "1624 - Allah n'acceptera l'excuse d'aucun serviteur ayant ignoré Ses prescriptions"
             }
         ]
     },
@@ -11259,8 +9732,7 @@ const AUNE_SAGESSE = [
         "title": "353 - LA NUIT",
         "subparts": [
             {
-                "title": "1625 - La prière de la nuit",
-                "content": []
+                "title": "1625 - La prière de la nuit"
             }
         ]
     },
@@ -11268,40 +9740,31 @@ const AUNE_SAGESSE = [
         "title": "354 - LA FOI ET LE CROYANT",
         "subparts": [
             {
-                "title": "1626 - La définition de la foi",
-                "content": []
+                "title": "1626 - La définition de la foi"
             },
             {
-                "title": "1627 - Les conditions de la foi",
-                "content": []
+                "title": "1627 - Les conditions de la foi"
             },
             {
-                "title": "1628 - L'origine de la foi",
-                "content": []
+                "title": "1628 - L'origine de la foi"
             },
             {
-                "title": "1629 - Les différents types de foi",
-                "content": []
+                "title": "1629 - Les différents types de foi"
             },
             {
-                "title": "1630 - Les facteurs qui renforcent la foi",
-                "content": []
+                "title": "1630 - Les facteurs qui renforcent la foi"
             },
             {
-                "title": "1631 - Les facteurs de disparition de la foi",
-                "content": []
+                "title": "1631 - Les facteurs de disparition de la foi"
             },
             {
-                "title": "1632 - La certitude",
-                "content": []
+                "title": "1632 - La certitude"
             },
             {
-                "title": "1633 - L'éloge du croyant",
-                "content": []
+                "title": "1633 - L'éloge du croyant"
             },
             {
-                "title": "1634 - Les caractéristiques du croyant",
-                "content": []
+                "title": "1634 - Les caractéristiques du croyant"
             }
         ]
     },
@@ -11309,12 +9772,10 @@ const AUNE_SAGESSE = [
         "title": "355 - LA CONFIANCE [EN ALLAH]",
         "subparts": [
             {
-                "title": "1635 - La réalité de la confiance [en Allah]",
-                "content": []
+                "title": "1635 - La réalité de la confiance [en Allah]"
             },
             {
-                "title": "1636 - Le résultat de la confiance [en Allah]",
-                "content": []
+                "title": "1636 - Le résultat de la confiance [en Allah]"
             }
         ]
     },
@@ -11322,20 +9783,16 @@ const AUNE_SAGESSE = [
         "title": "356 - LA REPENTANCE",
         "subparts": [
             {
-                "title": "1637 - Les conditions de l'acceptation de la repentance",
-                "content": []
+                "title": "1637 - Les conditions de l'acceptation de la repentance"
             },
             {
-                "title": "1638 - L'empressement de se repentir",
-                "content": []
+                "title": "1638 - L'empressement de se repentir"
             },
             {
-                "title": "1639 - L'incitation au repentir",
-                "content": []
+                "title": "1639 - L'incitation au repentir"
             },
             {
-                "title": "1640 - La repentance est la corde de l'absolution",
-                "content": []
+                "title": "1640 - La repentance est la corde de l'absolution"
             }
         ]
     },
@@ -11343,16 +9800,13 @@ const AUNE_SAGESSE = [
         "title": "357 - L'AIDE",
         "subparts": [
             {
-                "title": "1641 - Aider son frère dans la foi",
-                "content": []
+                "title": "1641 - Aider son frère dans la foi"
             },
             {
-                "title": "1642 - Le blâme de celui qui n'aide pas son frère",
-                "content": []
+                "title": "1642 - Le blâme de celui qui n'aide pas son frère"
             },
             {
-                "title": "1643 - Le blâme du fait de s'abstenir d'aider l'opprimé",
-                "content": []
+                "title": "1643 - Le blâme du fait de s'abstenir d'aider l'opprimé"
             }
         ]
     },
@@ -11360,8 +9814,7 @@ const AUNE_SAGESSE = [
         "title": "358 - LA PRUDENCE",
         "subparts": [
             {
-                "title": "1644 - L'incitation à la prudence",
-                "content": []
+                "title": "1644 - L'incitation à la prudence"
             }
         ]
     },
@@ -11369,12 +9822,10 @@ const AUNE_SAGESSE = [
         "title": "359 - L'UNITÉ",
         "subparts": [
             {
-                "title": "1645 - L'incitation à l'unité",
-                "content": []
+                "title": "1645 - L'incitation à l'unité"
             },
             {
-                "title": "1646 - Le blâme de la désunion",
-                "content": []
+                "title": "1646 - Le blâme de la désunion"
             }
         ]
     },
@@ -11386,8 +9837,7 @@ const AUNE_SAGESSE = [
         "title": "361 - LA MAGNANIMITÉ",
         "subparts": [
             {
-                "title": "1647 - L'interprétation de la magnanimité",
-                "content": []
+                "title": "1647 - L'interprétation de la magnanimité"
             }
         ]
     },
@@ -11395,24 +9845,19 @@ const AUNE_SAGESSE = [
         "title": "362 - LA MALADIE",
         "subparts": [
             {
-                "title": "1648 - Certaines raisons profondes de l'existence de la maladie",
-                "content": []
+                "title": "1648 - Certaines raisons profondes de l'existence de la maladie"
             },
             {
-                "title": "1649 - Cacher la maladie",
-                "content": []
+                "title": "1649 - Cacher la maladie"
             },
             {
-                "title": "1650 - Le blâme de ceux qui ne tombent pas malade",
-                "content": []
+                "title": "1650 - Le blâme de ceux qui ne tombent pas malade"
             },
             {
-                "title": "1651 - Rendre visite au malade",
-                "content": []
+                "title": "1651 - Rendre visite au malade"
             },
             {
-                "title": "1652 - La bonne conduite lors de la visite au malade",
-                "content": []
+                "title": "1652 - La bonne conduite lors de la visite au malade"
             }
         ]
     },
@@ -11420,8 +9865,7 @@ const AUNE_SAGESSE = [
         "title": "363 - LA DISPUTE",
         "subparts": [
             {
-                "title": "1653 - Le blâme de la dispute et ses effets",
-                "content": []
+                "title": "1653 - Le blâme de la dispute et ses effets"
             }
         ]
     },
@@ -11429,12 +9873,10 @@ const AUNE_SAGESSE = [
         "title": "364 - LA PLAISANTERIE",
         "subparts": [
             {
-                "title": "1654 - La plaisanterie louable",
-                "content": []
+                "title": "1654 - La plaisanterie louable"
             },
             {
-                "title": "1655 - La plaisanterie blâmable",
-                "content": []
+                "title": "1655 - La plaisanterie blâmable"
             }
         ]
     },
@@ -11442,20 +9884,16 @@ const AUNE_SAGESSE = [
         "title": "365 - L'AUTORITÉ",
         "subparts": [
             {
-                "title": "1656 - Le Maître de l'autorité",
-                "content": []
+                "title": "1656 - Le Maître de l'autorité"
             },
             {
-                "title": "1657 - La fréquentation des souverains",
-                "content": []
+                "title": "1657 - La fréquentation des souverains"
             },
             {
-                "title": "1658 - Le meilleur souverain",
-                "content": []
+                "title": "1658 - Le meilleur souverain"
             },
             {
-                "title": "1659 - Ce qui sied aux souverains",
-                "content": []
+                "title": "1659 - Ce qui sied aux souverains"
             }
         ]
     },
@@ -11463,20 +9901,16 @@ const AUNE_SAGESSE = [
         "title": "366 - LES ANGES",
         "subparts": [
             {
-                "title": "1660 - La création des anges",
-                "content": []
+                "title": "1660 - La création des anges"
             },
             {
-                "title": "1661 - La description des anges",
-                "content": []
+                "title": "1661 - La description des anges"
             },
             {
-                "title": "1662 - Les anges gardiens",
-                "content": []
+                "title": "1662 - Les anges gardiens"
             },
             {
-                "title": "1663 - Les maisons au sein desquelles n'entrent pas les anges",
-                "content": []
+                "title": "1663 - Les maisons au sein desquelles n'entrent pas les anges"
             }
         ]
     },
@@ -11484,64 +9918,49 @@ const AUNE_SAGESSE = [
         "title": "367 - LA MORT",
         "subparts": [
             {
-                "title": "1664 - La mort",
-                "content": []
+                "title": "1664 - La mort"
             },
             {
-                "title": "1665 - La certitude face à la mort",
-                "content": []
+                "title": "1665 - La certitude face à la mort"
             },
             {
-                "title": "1666 - L'approche du départ",
-                "content": []
+                "title": "1666 - L'approche du départ"
             },
             {
-                "title": "1667 - L'interprétation de la mort",
-                "content": []
+                "title": "1667 - L'interprétation de la mort"
             },
             {
-                "title": "1668 - La mort du croyant",
-                "content": []
+                "title": "1668 - La mort du croyant"
             },
             {
-                "title": "1669 - Le rappel de la mort",
-                "content": []
+                "title": "1669 - Le rappel de la mort"
             },
             {
-                "title": "1670 - Se préparer à la mort",
-                "content": []
+                "title": "1670 - Se préparer à la mort"
             },
             {
-                "title": "1671 - Souhaiter la mort",
-                "content": []
+                "title": "1671 - Souhaiter la mort"
             },
             {
-                "title": "1672 - L'agonie de la mort",
-                "content": []
+                "title": "1672 - L'agonie de la mort"
             },
             {
-                "title": "1673 - La raison de l'aversion pour la mort",
-                "content": []
+                "title": "1673 - La raison de l'aversion pour la mort"
             },
             {
-                "title": "1674 - L'apparition du Prophète (s) et des Imāms (as) à l'agonisant",
-                "content": []
+                "title": "1674 - L'apparition du Prophète (s) et des Imāms (as) à l'agonisant"
             },
             {
-                "title": "1675 - La mort subite",
-                "content": []
+                "title": "1675 - La mort subite"
             },
             {
-                "title": "1676 - L'accompagnement du convoi funèbre",
-                "content": []
+                "title": "1676 - L'accompagnement du convoi funèbre"
             },
             {
-                "title": "1677 - L'enterrement du défunt",
-                "content": []
+                "title": "1677 - L'enterrement du défunt"
             },
             {
-                "title": "1678 - Ce qui suit la personne après sa mort",
-                "content": []
+                "title": "1678 - Ce qui suit la personne après sa mort"
             }
         ]
     },
@@ -11549,28 +9968,22 @@ const AUNE_SAGESSE = [
         "title": "368 - LES BIENS",
         "subparts": [
             {
-                "title": "1679 - Les biens sont l'objet des désirs",
-                "content": []
+                "title": "1679 - Les biens sont l'objet des désirs"
             },
             {
-                "title": "1680 - Les effets de l'amour des biens",
-                "content": []
+                "title": "1680 - Les effets de l'amour des biens"
             },
             {
-                "title": "1681 - L'amour des biens licites",
-                "content": []
+                "title": "1681 - L'amour des biens licites"
             },
             {
-                "title": "1682 - Le blâme de l'excès de richesse",
-                "content": []
+                "title": "1682 - Le blâme de l'excès de richesse"
             },
             {
-                "title": "1683 - Celui qui acquiert des biens de manière illicite",
-                "content": []
+                "title": "1683 - Celui qui acquiert des biens de manière illicite"
             },
             {
-                "title": "1684 - Les biens sont ce qui bénéficie à l'homme",
-                "content": []
+                "title": "1684 - Les biens sont ce qui bénéficie à l'homme"
             }
         ]
     },
@@ -11578,24 +9991,19 @@ const AUNE_SAGESSE = [
         "title": "369 - LA PROPHÉTIE (1)",
         "subparts": [
             {
-                "title": "1685 - La philosophie de la prophétie",
-                "content": []
+                "title": "1685 - La philosophie de la prophétie"
             },
             {
-                "title": "1686 - Les différentes catégories de prophètes (as)",
-                "content": []
+                "title": "1686 - Les différentes catégories de prophètes (as)"
             },
             {
-                "title": "1687 - Le nombre des prophètes (as)",
-                "content": []
+                "title": "1687 - Le nombre des prophètes (as)"
             },
             {
-                "title": "1688 - Les prophètes dotés d'une grande résolution (ūlū al-'azm) (as)",
-                "content": []
+                "title": "1688 - Les prophètes dotés d'une grande résolution (ūlū al-'azm) (as)"
             },
             {
-                "title": "1689 - Les caractéristiques spécifiques des prophètes (as)",
-                "content": []
+                "title": "1689 - Les caractéristiques spécifiques des prophètes (as)"
             }
         ]
     },
@@ -11603,92 +10011,70 @@ const AUNE_SAGESSE = [
         "title": "370 - LA PROPHÉTIE (2)",
         "subparts": [
             {
-                "title": "1690 - Adam (as)",
-                "content": []
+                "title": "1690 - Adam (as)"
             },
             {
-                "title": "1691 - Enoch [Idrīs] (as)",
-                "content": []
+                "title": "1691 - Enoch [Idrīs] (as)"
             },
             {
-                "title": "1692 - Noé [Nūḥ] (as)",
-                "content": []
+                "title": "1692 - Noé [Nūḥ] (as)"
             },
             {
-                "title": "1693 - Hūd (as)",
-                "content": []
+                "title": "1693 - Hūd (as)"
             },
             {
-                "title": "1694 - Ṣāliḥ (as)",
-                "content": []
+                "title": "1694 - Ṣāliḥ (as)"
             },
             {
-                "title": "1695 - Abraham [Ibrāhīm] (as)",
-                "content": []
+                "title": "1695 - Abraham [Ibrāhīm] (as)"
             },
             {
-                "title": "1696 - Loth [Lūṭ] (as)",
-                "content": []
+                "title": "1696 - Loth [Lūṭ] (as)"
             },
             {
-                "title": "1697 - Jacob [Ya'qūb] et Joseph [Yūsuf] (as)",
-                "content": []
+                "title": "1697 - Jacob [Ya'qūb] et Joseph [Yūsuf] (as)"
             },
             {
-                "title": "1698 - Job [Ayyūb] (as)",
-                "content": []
+                "title": "1698 - Job [Ayyūb] (as)"
             },
             {
-                "title": "1699 - Shu'ayb (as)",
-                "content": []
+                "title": "1699 - Shu'ayb (as)"
             },
             {
-                "title": "1700 - Moïse [Mūsā] et Aaron [Hārūn] (as)",
-                "content": []
+                "title": "1700 - Moïse [Mūsā] et Aaron [Hārūn] (as)"
             },
             {
-                "title": "1701 - Moïse et Khiḍr (as)",
-                "content": []
+                "title": "1701 - Moïse et Khiḍr (as)"
             },
             {
-                "title": "1702 - Ismaël fils d'Ézéchiel [Ismā'īl ibn Ḥazqīl] (as)",
-                "content": []
+                "title": "1702 - Ismaël fils d'Ézéchiel [Ismā'īl ibn Ḥazqīl] (as)"
             },
             {
-                "title": "1703 - Elisée [al-Yasa'] (as)",
-                "content": []
+                "title": "1703 - Elisée [al-Yasa'] (as)"
             },
             {
-                "title": "1704 - Dhū-l-Kifl (as)",
-                "content": []
+                "title": "1704 - Dhū-l-Kifl (as)"
             },
             {
-                "title": "1705 - David [Dāwūd] (as)",
-                "content": []
+                "title": "1705 - David [Dāwūd] (as)"
             },
             {
-                "title": "1706 - Salomon [Sulaymān] (as)",
-                "content": []
+                "title": "1706 - Salomon [Sulaymān] (as)"
             },
             {
-                "title": "1707 - Zacharie [Zakariyyā] (as)",
-                "content": []
+                "title": "1707 - Zacharie [Zakariyyā] (as)"
             },
             {
-                "title": "1708 - Jean [Yaḥyā] (as)",
-                "content": []
+                "title": "1708 - Jean [Yaḥyā] (as)"
             },
             {
-                "title": "1709 - Jésus ['Isā] (as)",
-                "content": []
+                "title": "1709 - Jésus ['Isā] (as)"
             },
             {
-                "title": "1710 - Jérémie [Irmiyā] (as)",
-                "content": []
+                "title": "1710 - Jérémie [Irmiyā] (as)"
             },
             {
-                "title": "1711 - Jonas [Yunūs] (as)",
-                "content": []
+                "title": "1711 - Jonas [Yunūs] (as)"
             }
         ]
     },
@@ -11696,32 +10082,25 @@ const AUNE_SAGESSE = [
         "title": "371 - LA PROPHÉTIE (3)",
         "subparts": [
             {
-                "title": "1712 - Muḥammad, le Messager d'Allah (s)",
-                "content": []
+                "title": "1712 - Muḥammad, le Messager d'Allah (s)"
             },
             {
-                "title": "1713 - Le sceau des prophètes (s)",
-                "content": []
+                "title": "1713 - Le sceau des prophètes (s)"
             },
             {
-                "title": "1714 - Muḥammad (s) d'après les paroles de Muḥammad (s)",
-                "content": []
+                "title": "1714 - Muḥammad (s) d'après les paroles de Muḥammad (s)"
             },
             {
-                "title": "1715 - Muḥammad (s) d'après les paroles de 'Alī (as)",
-                "content": []
+                "title": "1715 - Muḥammad (s) d'après les paroles de 'Alī (as)"
             },
             {
-                "title": "1716 - L'universalité de la mission de Muḥammad (s)",
-                "content": []
+                "title": "1716 - L'universalité de la mission de Muḥammad (s)"
             },
             {
-                "title": "1717 - La meilleure des familles parmi les gens",
-                "content": []
+                "title": "1717 - La meilleure des familles parmi les gens"
             },
             {
-                "title": "1718 - Les caractéristiques du Prophète (s)",
-                "content": []
+                "title": "1718 - Les caractéristiques du Prophète (s)"
             }
         ]
     },
@@ -11729,8 +10108,7 @@ const AUNE_SAGESSE = [
         "title": "372 - LES ÉTOILES",
         "subparts": [
             {
-                "title": "1719 - La science des étoiles [l'astronomie]",
-                "content": []
+                "title": "1719 - La science des étoiles [l'astronomie]"
             }
         ]
     },
@@ -11738,12 +10116,10 @@ const AUNE_SAGESSE = [
         "title": "373 - LE VŒU",
         "subparts": [
             {
-                "title": "1720 - Le vœu",
-                "content": []
+                "title": "1720 - Le vœu"
             },
             {
-                "title": "1721 - Il est détestable de se rendre une chose obligatoire",
-                "content": []
+                "title": "1721 - Il est détestable de se rendre une chose obligatoire"
             }
         ]
     },
@@ -11751,16 +10127,13 @@ const AUNE_SAGESSE = [
         "title": "374 - LE CONSEIL",
         "subparts": [
             {
-                "title": "1722 - L'incitation à donner conseil",
-                "content": []
+                "title": "1722 - L'incitation à donner conseil"
             },
             {
-                "title": "1723 - Les caractéristiques de la personne qui conseille",
-                "content": []
+                "title": "1723 - Les caractéristiques de la personne qui conseille"
             },
             {
-                "title": "1724 - L'incitation à accepter le conseil",
-                "content": []
+                "title": "1724 - L'incitation à accepter le conseil"
             }
         ]
     },
@@ -11768,20 +10141,16 @@ const AUNE_SAGESSE = [
         "title": "375 - L'IMPARTIALITÉ",
         "subparts": [
             {
-                "title": "1725 - L'incitation à être impartial",
-                "content": []
+                "title": "1725 - L'incitation à être impartial"
             },
             {
-                "title": "1726 - L'incitation à être impartial vis-à-vis de celui qui ne l'est pas",
-                "content": []
+                "title": "1726 - L'incitation à être impartial vis-à-vis de celui qui ne l'est pas"
             },
             {
-                "title": "1727 - Faire preuve d'impartialité même à ses dépens",
-                "content": []
+                "title": "1727 - Faire preuve d'impartialité même à ses dépens"
             },
             {
-                "title": "1728 - Ceux qui passent outre leurs propres droits",
-                "content": []
+                "title": "1728 - Ceux qui passent outre leurs propres droits"
             }
         ]
     },
@@ -11789,28 +10158,22 @@ const AUNE_SAGESSE = [
         "title": "376 - LE REGARD",
         "subparts": [
             {
-                "title": "1729 - L'œil est le guide du cœur",
-                "content": []
+                "title": "1729 - L'œil est le guide du cœur"
             },
             {
-                "title": "1730 - Les yeux sont les pièges de Satan",
-                "content": []
+                "title": "1730 - Les yeux sont les pièges de Satan"
             },
             {
-                "title": "1731 - Celui dont le regard est considéré comme une adoration",
-                "content": []
+                "title": "1731 - Celui dont le regard est considéré comme une adoration"
             },
             {
-                "title": "1732 - L'incitation à baisser le regard",
-                "content": []
+                "title": "1732 - L'incitation à baisser le regard"
             },
             {
-                "title": "1733 - Le premier regard est une erreur [involontaire], le second est intentionnel",
-                "content": []
+                "title": "1733 - Le premier regard est une erreur [involontaire], le second est intentionnel"
             },
             {
-                "title": "1734 - Celui qui voit une femme qui lui plaît",
-                "content": []
+                "title": "1734 - Celui qui voit une femme qui lui plaît"
             }
         ]
     },
@@ -11818,12 +10181,10 @@ const AUNE_SAGESSE = [
         "title": "377 - LE DÉBAT",
         "subparts": [
             {
-                "title": "1735 - Le débat",
-                "content": []
+                "title": "1735 - Le débat"
             },
             {
-                "title": "1736 - La réponse de l'Imām (as) à celui qui l'a invité à un débat",
-                "content": []
+                "title": "1736 - La réponse de l'Imām (as) à celui qui l'a invité à un débat"
             }
         ]
     },
@@ -11831,12 +10192,10 @@ const AUNE_SAGESSE = [
         "title": "378 - LA PROPRETÉ",
         "subparts": [
             {
-                "title": "1737 - L'incitation à la propreté",
-                "content": []
+                "title": "1737 - L'incitation à la propreté"
             },
             {
-                "title": "1738 - Mise en garde contre le manque de propreté",
-                "content": []
+                "title": "1738 - Mise en garde contre le manque de propreté"
             }
         ]
     },
@@ -11844,32 +10203,25 @@ const AUNE_SAGESSE = [
         "title": "379 - LES GRÂCES",
         "subparts": [
             {
-                "title": "1739 - Les grâces d'Allah sont innombrables",
-                "content": []
+                "title": "1739 - Les grâces d'Allah sont innombrables"
             },
             {
-                "title": "1740 - La négligence des grâces",
-                "content": []
+                "title": "1740 - La négligence des grâces"
             },
             {
-                "title": "1741 - La bonne façon de se comporter vis-à-vis des grâces",
-                "content": []
+                "title": "1741 - La bonne façon de se comporter vis-à-vis des grâces"
             },
             {
-                "title": "1742 - Ce qui suscite la permanence des grâces",
-                "content": []
+                "title": "1742 - Ce qui suscite la permanence des grâces"
             },
             {
-                "title": "1743 - La succession continuelle des grâces et la descente graduelle [vers le châtiment du fait des péchés]",
-                "content": []
+                "title": "1743 - La succession continuelle des grâces et la descente graduelle [vers le châtiment du fait des péchés]"
             },
             {
-                "title": "1744 - Proclamer les bienfaits d'Allah",
-                "content": []
+                "title": "1744 - Proclamer les bienfaits d'Allah"
             },
             {
-                "title": "1745 - L'accomplissement des bienfaits",
-                "content": []
+                "title": "1745 - L'accomplissement des bienfaits"
             }
         ]
     },
@@ -11877,20 +10229,16 @@ const AUNE_SAGESSE = [
         "title": "380 - L'ÂME",
         "subparts": [
             {
-                "title": "1746 - L'âme [charnelle] qui incite au mal",
-                "content": []
+                "title": "1746 - L'âme [charnelle] qui incite au mal"
             },
             {
-                "title": "1747 - L'âme qui ne cesse de se blâmer",
-                "content": []
+                "title": "1747 - L'âme qui ne cesse de se blâmer"
             },
             {
-                "title": "1748 - L'éducation de l'âme, sa discipline et sa purification",
-                "content": []
+                "title": "1748 - L'éducation de l'âme, sa discipline et sa purification"
             },
             {
-                "title": "1749 - Les effets de la dignité de l'âme",
-                "content": []
+                "title": "1749 - Les effets de la dignité de l'âme"
             }
         ]
     },
@@ -11898,28 +10246,22 @@ const AUNE_SAGESSE = [
         "title": "381 - L'HYPOCRISIE",
         "subparts": [
             {
-                "title": "1750 - L'hypocrisie",
-                "content": []
+                "title": "1750 - L'hypocrisie"
             },
             {
-                "title": "1751 - Les attributs de l'hypocrite",
-                "content": []
+                "title": "1751 - Les attributs de l'hypocrite"
             },
             {
-                "title": "1752 - Les personnes les plus clairement hypocrites",
-                "content": []
+                "title": "1752 - Les personnes les plus clairement hypocrites"
             },
             {
-                "title": "1753 - Mise en garde contre l'hypocrite éloquent",
-                "content": []
+                "title": "1753 - Mise en garde contre l'hypocrite éloquent"
             },
             {
-                "title": "1754 - La description de la Résurrection des hypocrites et leur fin",
-                "content": []
+                "title": "1754 - La description de la Résurrection des hypocrites et leur fin"
             },
             {
-                "title": "1755 - Ce qui fait disparaître l'hypocrisie",
-                "content": []
+                "title": "1755 - Ce qui fait disparaître l'hypocrisie"
             }
         ]
     },
@@ -11927,28 +10269,22 @@ const AUNE_SAGESSE = [
         "title": "382 - LA DÉPENSE [EN CHARITÉ]",
         "subparts": [
             {
-                "title": "1756 - La vertu de la dépense",
-                "content": []
+                "title": "1756 - La vertu de la dépense"
             },
             {
-                "title": "1757 - La bénédiction de la dépense [dans la voie d'Allah]",
-                "content": []
+                "title": "1757 - La bénédiction de la dépense [dans la voie d'Allah]"
             },
             {
-                "title": "1758 - Dépenser ce que l'on aime",
-                "content": []
+                "title": "1758 - Dépenser ce que l'on aime"
             },
             {
-                "title": "1759 - Celui qui ne dépense pas dans la voie de l'obéissance à Allah dépense dans la voie de Sa désobéissance",
-                "content": []
+                "title": "1759 - Celui qui ne dépense pas dans la voie de l'obéissance à Allah dépense dans la voie de Sa désobéissance"
             },
             {
-                "title": "1760 - La vertu de la dépense de celui qui a lui-même des moyens limités",
-                "content": []
+                "title": "1760 - La vertu de la dépense de celui qui a lui-même des moyens limités"
             },
             {
-                "title": "1761 - Celui dont la dépense [en charité] n'est pas acceptée",
-                "content": []
+                "title": "1761 - Celui dont la dépense [en charité] n'est pas acceptée"
             }
         ]
     },
@@ -11956,12 +10292,10 @@ const AUNE_SAGESSE = [
         "title": "383 - LE COMMÉRAGE",
         "subparts": [
             {
-                "title": "1762 - Mise en garde contre le commérage",
-                "content": []
+                "title": "1762 - Mise en garde contre le commérage"
             },
             {
-                "title": "1763 - Le blâme de la calomnie",
-                "content": []
+                "title": "1763 - Le blâme de la calomnie"
             }
         ]
     },
@@ -11969,12 +10303,10 @@ const AUNE_SAGESSE = [
         "title": "384 - LA PRIÈRE SURÉROGATOIRE",
         "subparts": [
             {
-                "title": "1764 - La vertu de la prière surérogatoire",
-                "content": []
+                "title": "1764 - La vertu de la prière surérogatoire"
             },
             {
-                "title": "1765 - La priorité des prières obligatoires sur les prières urérogatoires",
-                "content": []
+                "title": "1765 - La priorité des prières obligatoires sur les prières urérogatoires"
             }
         ]
     },
@@ -11982,16 +10314,13 @@ const AUNE_SAGESSE = [
         "title": "385 - LA LUMIÈRE",
         "subparts": [
             {
-                "title": "1766 - La lumière de la clairvoyance",
-                "content": []
+                "title": "1766 - La lumière de la clairvoyance"
             },
             {
-                "title": "1767 - La lumière du cœur et la lumière du visage",
-                "content": []
+                "title": "1767 - La lumière du cœur et la lumière du visage"
             },
             {
-                "title": "1768 - Tout acte bon a une lumière",
-                "content": []
+                "title": "1768 - Tout acte bon a une lumière"
             }
         ]
     },
@@ -11999,20 +10328,16 @@ const AUNE_SAGESSE = [
         "title": "386 - LES GENS",
         "subparts": [
             {
-                "title": "1770 - Les gens",
-                "content": []
+                "title": "1770 - Les gens"
             },
             {
-                "title": "1771 - L'égalité des gens en droits",
-                "content": []
+                "title": "1771 - L'égalité des gens en droits"
             },
             {
-                "title": "1772 - Ceux qui ne se sont pas considérés comme des êtres humains",
-                "content": []
+                "title": "1772 - Ceux qui ne se sont pas considérés comme des êtres humains"
             },
             {
-                "title": "1773 - Explication du terme «opportuniste»",
-                "content": []
+                "title": "1773 - Explication du terme «opportuniste»"
             }
         ]
     },
@@ -12020,20 +10345,16 @@ const AUNE_SAGESSE = [
         "title": "387 - LE SOMMEIL",
         "subparts": [
             {
-                "title": "1774 - Le sommeil",
-                "content": []
+                "title": "1774 - Le sommeil"
             },
             {
-                "title": "1775 - Mise en garde contre l'excès de sommeil",
-                "content": []
+                "title": "1775 - Mise en garde contre l'excès de sommeil"
             },
             {
-                "title": "1776 - L'ascension de l'âme du croyant vers le ciel pendant le sommeil",
-                "content": []
+                "title": "1776 - L'ascension de l'âme du croyant vers le ciel pendant le sommeil"
             },
             {
-                "title": "1777 - La bonne conduite au sujet du sommeil",
-                "content": []
+                "title": "1777 - La bonne conduite au sujet du sommeil"
             }
         ]
     },
@@ -12041,32 +10362,25 @@ const AUNE_SAGESSE = [
         "title": "388 - L'INTENTION",
         "subparts": [
             {
-                "title": "1778 - Le rôle de intention dans l'acte",
-                "content": []
+                "title": "1778 - Le rôle de intention dans l'acte"
             },
             {
-                "title": "1779 - Le rôle de l'intention le Jour de la Résurrection",
-                "content": []
+                "title": "1779 - Le rôle de l'intention le Jour de la Résurrection"
             },
             {
-                "title": "1780 - La rétribution de la bonne intention",
-                "content": []
+                "title": "1780 - La rétribution de la bonne intention"
             },
             {
-                "title": "1781 - L'intention du croyant est meilleure que son acte",
-                "content": []
+                "title": "1781 - L'intention du croyant est meilleure que son acte"
             },
             {
-                "title": "1782 - L'incitation à avoir une bonne intention en toute chose",
-                "content": []
+                "title": "1782 - L'incitation à avoir une bonne intention en toute chose"
             },
             {
-                "title": "1783 - La bonne intention",
-                "content": []
+                "title": "1783 - La bonne intention"
             },
             {
-                "title": "1784 - La mauvaise intention",
-                "content": []
+                "title": "1784 - La mauvaise intention"
             }
         ]
     },
@@ -12074,20 +10388,16 @@ const AUNE_SAGESSE = [
         "title": "389 - L'ÉMIGRATION",
         "subparts": [
             {
-                "title": "1785 - Le caractère continue de l'émigration",
-                "content": []
+                "title": "1785 - Le caractère continue de l'émigration"
             },
             {
-                "title": "1786 - La meilleure émigration",
-                "content": []
+                "title": "1786 - La meilleure émigration"
             },
             {
-                "title": "1787 - La nécessité d'émigrer des endroits [peuplés de] de pécheurs",
-                "content": []
+                "title": "1787 - La nécessité d'émigrer des endroits [peuplés de] de pécheurs"
             },
             {
-                "title": "1788 - L'interdiction du retour à l'état d'ignorance d'avant la Révélation après la migration [vers la foi et l'islam]",
-                "content": []
+                "title": "1788 - L'interdiction du retour à l'état d'ignorance d'avant la Révélation après la migration [vers la foi et l'islam]"
             }
         ]
     },
@@ -12095,12 +10405,10 @@ const AUNE_SAGESSE = [
         "title": "390 - LA RUPTURE",
         "subparts": [
             {
-                "title": "1789 - Mise en garde contre la rupture",
-                "content": []
+                "title": "1789 - Mise en garde contre la rupture"
             },
             {
-                "title": "1790 - L'interdiction de rompre avec un frère plus de trois jours",
-                "content": []
+                "title": "1790 - L'interdiction de rompre avec un frère plus de trois jours"
             }
         ]
     },
@@ -12108,24 +10416,19 @@ const AUNE_SAGESSE = [
         "title": "391 - LA GUIDANCE",
         "subparts": [
             {
-                "title": "1791 - La guidance divine générale",
-                "content": []
+                "title": "1791 - La guidance divine générale"
             },
             {
-                "title": "1792 - Ramener à la vie par la guidance",
-                "content": []
+                "title": "1792 - Ramener à la vie par la guidance"
             },
             {
-                "title": "1793 - La rétribution de la guidance",
-                "content": []
+                "title": "1793 - La rétribution de la guidance"
             },
             {
-                "title": "1794 - La guidance appartient exclusivement à Allah",
-                "content": []
+                "title": "1794 - La guidance appartient exclusivement à Allah"
             },
             {
-                "title": "1795 - Ceux qu'Allah guide",
-                "content": []
+                "title": "1795 - Ceux qu'Allah guide"
             }
         ]
     },
@@ -12133,24 +10436,19 @@ const AUNE_SAGESSE = [
         "title": "392 - LE CADEAU",
         "subparts": [
             {
-                "title": "1796 - L'incitation à offrir des cadeaux",
-                "content": []
+                "title": "1796 - L'incitation à offrir des cadeaux"
             },
             {
-                "title": "1797 - L'interdiction de donner des cadeaux aux fonctionnaires de l'Etat",
-                "content": []
+                "title": "1797 - L'interdiction de donner des cadeaux aux fonctionnaires de l'Etat"
             },
             {
-                "title": "1798 - L'interdiction d'accepter le cadeau du polythéiste",
-                "content": []
+                "title": "1798 - L'interdiction d'accepter le cadeau du polythéiste"
             },
             {
-                "title": "1799 - L'incitation à accepter le cadeau",
-                "content": []
+                "title": "1799 - L'incitation à accepter le cadeau"
             },
             {
-                "title": "1800 - Reprendre son cadeau",
-                "content": []
+                "title": "1800 - Reprendre son cadeau"
             }
         ]
     },
@@ -12158,16 +10456,13 @@ const AUNE_SAGESSE = [
         "title": "393 - LA VIEILLESSE",
         "subparts": [
             {
-                "title": "1801 - La vieillesse",
-                "content": []
+                "title": "1801 - La vieillesse"
             },
             {
-                "title": "1802 - Ce qui se déclare chez l'homme lors de sa vieillesse",
-                "content": []
+                "title": "1802 - Ce qui se déclare chez l'homme lors de sa vieillesse"
             },
             {
-                "title": "1803 - Ce qui suscite la vieillesse avant l'âge",
-                "content": []
+                "title": "1803 - Ce qui suscite la vieillesse avant l'âge"
             }
         ]
     },
@@ -12175,8 +10470,7 @@ const AUNE_SAGESSE = [
         "title": "394 - L'ANÉANTISSEMENT",
         "subparts": [
             {
-                "title": "1804 - Ce qui suscite l'anéantissement",
-                "content": []
+                "title": "1804 - Ce qui suscite l'anéantissement"
             }
         ]
     },
@@ -12184,20 +10478,16 @@ const AUNE_SAGESSE = [
         "title": "395 - L'ASPIRATION ÉLEVÉE",
         "subparts": [
             {
-                "title": "1805 - La vertu de l'aspiration élevée",
-                "content": []
+                "title": "1805 - La vertu de l'aspiration élevée"
             },
             {
-                "title": "1806 - Les fruits de l'aspiration élevée",
-                "content": []
+                "title": "1806 - Les fruits de l'aspiration élevée"
             },
             {
-                "title": "1807 - La faible aspiration",
-                "content": []
+                "title": "1807 - La faible aspiration"
             },
             {
-                "title": "1808 - Celui dont l'aspiration se résume à son ventre",
-                "content": []
+                "title": "1808 - Celui dont l'aspiration se résume à son ventre"
             }
         ]
     },
@@ -12205,36 +10495,28 @@ const AUNE_SAGESSE = [
         "title": "396 - LA PASSION",
         "subparts": [
             {
-                "title": "1809 - La passion est un dieu adoré",
-                "content": []
+                "title": "1809 - La passion est un dieu adoré"
             },
             {
-                "title": "1810 - Mise en garde contre le fait de suivre les passions",
-                "content": []
+                "title": "1810 - Mise en garde contre le fait de suivre les passions"
             },
             {
-                "title": "1811 - Les effets issus du fait de suivre les passions",
-                "content": []
+                "title": "1811 - Les effets issus du fait de suivre les passions"
             },
             {
-                "title": "1812 - S'opposer à la passion",
-                "content": []
+                "title": "1812 - S'opposer à la passion"
             },
             {
-                "title": "1813 - La domination de la passion",
-                "content": []
+                "title": "1813 - La domination de la passion"
             },
             {
-                "title": "1814 - Le plus courageux des êtres est celui qui vainc sa passion",
-                "content": []
+                "title": "1814 - Le plus courageux des êtres est celui qui vainc sa passion"
             },
             {
-                "title": "1815 - Ce qui affaiblit les désirs charnels",
-                "content": []
+                "title": "1815 - Ce qui affaiblit les désirs charnels"
             },
             {
-                "title": "1816 - Celui qui a vaincu ses passions",
-                "content": []
+                "title": "1816 - Celui qui a vaincu ses passions"
             }
         ]
     },
@@ -12242,16 +10524,13 @@ const AUNE_SAGESSE = [
         "title": "397 - L'HÉRITAGE",
         "subparts": [
             {
-                "title": "1817 - L'héritage",
-                "content": []
+                "title": "1817 - L'héritage"
             },
             {
-                "title": "1818 - Ceux qui sont privés d'héritage",
-                "content": []
+                "title": "1818 - Ceux qui sont privés d'héritage"
             },
             {
-                "title": "1819 - L'héritage des prophètes",
-                "content": []
+                "title": "1819 - L'héritage des prophètes"
             }
         ]
     },
@@ -12259,24 +10538,19 @@ const AUNE_SAGESSE = [
         "title": "398 - LA PIÉTÉ",
         "subparts": [
             {
-                "title": "1820 - La vertu de la piété",
-                "content": []
+                "title": "1820 - La vertu de la piété"
             },
             {
-                "title": "1821 - Le fruit de la piété",
-                "content": []
+                "title": "1821 - Le fruit de la piété"
             },
             {
-                "title": "1822 - Le rôle de la piété dans l'adoration",
-                "content": []
+                "title": "1822 - Le rôle de la piété dans l'adoration"
             },
             {
-                "title": "1823 - L'interprétation de la piété",
-                "content": []
+                "title": "1823 - L'interprétation de la piété"
             },
             {
-                "title": "1824 - La plus pieuse des personnes",
-                "content": []
+                "title": "1824 - La plus pieuse des personnes"
             }
         ]
     },
@@ -12284,8 +10558,7 @@ const AUNE_SAGESSE = [
         "title": "399 - LA BALANCE",
         "subparts": [
             {
-                "title": "1825 - Les balances des actes",
-                "content": []
+                "title": "1825 - Les balances des actes"
             }
         ]
     },
@@ -12293,16 +10566,13 @@ const AUNE_SAGESSE = [
         "title": "400 - LA TENTATION ET LE DOUTE",
         "subparts": [
             {
-                "title": "1826 - La tentation et le doute dans le domaine des croyances",
-                "content": []
+                "title": "1826 - La tentation et le doute dans le domaine des croyances"
             },
             {
-                "title": "1827 - Mise en garde contre le doute au sujet des ablutions et de la prière",
-                "content": []
+                "title": "1827 - Mise en garde contre le doute au sujet des ablutions et de la prière"
             },
             {
-                "title": "1828 - Le traitement du doute",
-                "content": []
+                "title": "1828 - Le traitement du doute"
             }
         ]
     },
@@ -12310,8 +10580,7 @@ const AUNE_SAGESSE = [
         "title": "401 - LE RÉCONFORT",
         "subparts": [
             {
-                "title": "1829 - L'incitation au réconfort",
-                "content": []
+                "title": "1829 - L'incitation au réconfort"
             }
         ]
     },
@@ -12319,12 +10588,10 @@ const AUNE_SAGESSE = [
         "title": "402 - LE TESTAMENT",
         "subparts": [
             {
-                "title": "1830 - L'incitation à faire un testament",
-                "content": []
+                "title": "1830 - L'incitation à faire un testament"
             },
             {
-                "title": "1831 - L'interdiction de causer un préjudice et un tort dans un testament",
-                "content": []
+                "title": "1831 - L'interdiction de causer un préjudice et un tort dans un testament"
             }
         ]
     },
@@ -12332,24 +10599,19 @@ const AUNE_SAGESSE = [
         "title": "403 - LES ABLUTIONS",
         "subparts": [
             {
-                "title": "1832 - Les ablutions",
-                "content": []
+                "title": "1832 - Les ablutions"
             },
             {
-                "title": "1833 - La raison de l'existence des ablutions",
-                "content": []
+                "title": "1833 - La raison de l'existence des ablutions"
             },
             {
-                "title": "1834 - Les effets des ablutions",
-                "content": []
+                "title": "1834 - Les effets des ablutions"
             },
             {
-                "title": "1835 - La vertu des ablutions fréquentes",
-                "content": []
+                "title": "1835 - La vertu des ablutions fréquentes"
             },
             {
-                "title": "1836 - Renouveler ses ablutions",
-                "content": []
+                "title": "1836 - Renouveler ses ablutions"
             }
         ]
     },
@@ -12357,24 +10619,19 @@ const AUNE_SAGESSE = [
         "title": "404 - L'HUMILITÉ",
         "subparts": [
             {
-                "title": "1837 - Incitation à l'humilité",
-                "content": []
+                "title": "1837 - Incitation à l'humilité"
             },
             {
-                "title": "1838 - Certains signes de l'humilité",
-                "content": []
+                "title": "1838 - Certains signes de l'humilité"
             },
             {
-                "title": "1839 - Le fruit de l'humilité",
-                "content": []
+                "title": "1839 - Le fruit de l'humilité"
             },
             {
-                "title": "1840 - Ce qui aide à être humble",
-                "content": []
+                "title": "1840 - Ce qui aide à être humble"
             },
             {
-                "title": "1841 - La limite de l'humilité",
-                "content": []
+                "title": "1841 - La limite de l'humilité"
             }
         ]
     },
@@ -12382,16 +10639,13 @@ const AUNE_SAGESSE = [
         "title": "405 - LA PATRIE",
         "subparts": [
             {
-                "title": "1842 - L'amour de la patrie",
-                "content": []
+                "title": "1842 - L'amour de la patrie"
             },
             {
-                "title": "1843 - Défendre sa patrie",
-                "content": []
+                "title": "1843 - Défendre sa patrie"
             },
             {
-                "title": "1844 - L'exil et la patrie",
-                "content": []
+                "title": "1844 - L'exil et la patrie"
             }
         ]
     },
@@ -12399,24 +10653,19 @@ const AUNE_SAGESSE = [
         "title": "406 - LA PROMESSE",
         "subparts": [
             {
-                "title": "1845 - La promesse d'Allah est vérité",
-                "content": []
+                "title": "1845 - La promesse d'Allah est vérité"
             },
             {
-                "title": "1846 - La promesse est une dette",
-                "content": []
+                "title": "1846 - La promesse est une dette"
             },
             {
-                "title": "1847 - La promesse est l'une des deux servitudes",
-                "content": []
+                "title": "1847 - La promesse est l'une des deux servitudes"
             },
             {
-                "title": "1848 - Ce qui ne doit pas être promis",
-                "content": []
+                "title": "1848 - Ce qui ne doit pas être promis"
             },
             {
-                "title": "1849 - Le blâme du non respect de sa promesse",
-                "content": []
+                "title": "1849 - Le blâme du non respect de sa promesse"
             }
         ]
     },
@@ -12424,36 +10673,28 @@ const AUNE_SAGESSE = [
         "title": "407 - L'EXHORTATION",
         "subparts": [
             {
-                "title": "1850 - Le rôle de l'exhortation dans le ravivement des cœurs",
-                "content": []
+                "title": "1850 - Le rôle de l'exhortation dans le ravivement des cœurs"
             },
             {
-                "title": "1851 - Les différents types d'exhortation",
-                "content": []
+                "title": "1851 - Les différents types d'exhortation"
             },
             {
-                "title": "1852 - Il y a une exhortation en toute chose",
-                "content": []
+                "title": "1852 - Il y a une exhortation en toute chose"
             },
             {
-                "title": "1853 - La bonne conduite lors de l'exhortation",
-                "content": []
+                "title": "1853 - La bonne conduite lors de l'exhortation"
             },
             {
-                "title": "1854 - L'exhortation intérieure",
-                "content": []
+                "title": "1854 - L'exhortation intérieure"
             },
             {
-                "title": "1855 - Celui qui ne bénéficie pas de l'exhortation",
-                "content": []
+                "title": "1855 - Celui qui ne bénéficie pas de l'exhortation"
             },
             {
-                "title": "1856 - La personne qui exhorte sans être elle-même exhortée",
-                "content": []
+                "title": "1856 - La personne qui exhorte sans être elle-même exhortée"
             },
             {
-                "title": "1857 - L'exhortation silencieuse",
-                "content": []
+                "title": "1857 - L'exhortation silencieuse"
             }
         ]
     },
@@ -12461,12 +10702,10 @@ const AUNE_SAGESSE = [
         "title": "408 - LA RÉUSSITE",
         "subparts": [
             {
-                "title": "1858 - La réussite",
-                "content": []
+                "title": "1858 - La réussite"
             },
             {
-                "title": "1859 - La réussite et l'échec",
-                "content": []
+                "title": "1859 - La réussite et l'échec"
             }
         ]
     },
@@ -12474,8 +10713,7 @@ const AUNE_SAGESSE = [
         "title": "409 - LA FIDÉLITÉ",
         "subparts": [
             {
-                "title": "1860 - L'incitation à remplir ses engagements",
-                "content": []
+                "title": "1860 - L'incitation à remplir ses engagements"
             }
         ]
     },
@@ -12483,12 +10721,10 @@ const AUNE_SAGESSE = [
         "title": "410 - LA PRESTANCE",
         "subparts": [
             {
-                "title": "1861 - L'incitation à la prestance",
-                "content": []
+                "title": "1861 - L'incitation à la prestance"
             },
             {
-                "title": "1862 - Ce qui suscite la prestance",
-                "content": []
+                "title": "1862 - Ce qui suscite la prestance"
             }
         ]
     },
@@ -12496,32 +10732,25 @@ const AUNE_SAGESSE = [
         "title": "411 - LA PIÉTÉ ET LA CRAINTE RÉVÉRENCIELLE D'ALLAH",
         "subparts": [
             {
-                "title": "1863 - La vertu de la piété et de la crainte révérencielle d'Allah",
-                "content": []
+                "title": "1863 - La vertu de la piété et de la crainte révérencielle d'Allah"
             },
             {
-                "title": "1864 - La crainte révérencielle d'Allah et la piété sont la clé de la noblesse",
-                "content": []
+                "title": "1864 - La crainte révérencielle d'Allah et la piété sont la clé de la noblesse"
             },
             {
-                "title": "1865 - Les qualités de ceux qui sont pieux et craignent Allah",
-                "content": []
+                "title": "1865 - Les qualités de ceux qui sont pieux et craignent Allah"
             },
             {
-                "title": "1866 - Ce qui fait obstacle à la piété et à la crainte révérencielle d'Allah",
-                "content": []
+                "title": "1866 - Ce qui fait obstacle à la piété et à la crainte révérencielle d'Allah"
             },
             {
-                "title": "1867 - L'authentique piété et crainte révérencielle d'Allah",
-                "content": []
+                "title": "1867 - L'authentique piété et crainte révérencielle d'Allah"
             },
             {
-                "title": "1868 - La signification de la piété et de la crainte révérencielle d'Allah",
-                "content": []
+                "title": "1868 - La signification de la piété et de la crainte révérencielle d'Allah"
             },
             {
-                "title": "1869 - La plus pieuse des personnes",
-                "content": []
+                "title": "1869 - La plus pieuse des personnes"
             }
         ]
     },
@@ -12529,12 +10758,10 @@ const AUNE_SAGESSE = [
         "title": "412 - LA DISSIMULATION PAR PRUDENCE (TAQIYYA)",
         "subparts": [
             {
-                "title": "1870 - La législation de la dissimulation par prudence et les cas où elle doit être adoptée",
-                "content": []
+                "title": "1870 - La législation de la dissimulation par prudence et les cas où elle doit être adoptée"
             },
             {
-                "title": "1871 - L'interdiction de dépasser les situations [appelant à] la dissimulation",
-                "content": []
+                "title": "1871 - L'interdiction de dépasser les situations [appelant à] la dissimulation"
             }
         ]
     },
@@ -12542,24 +10769,19 @@ const AUNE_SAGESSE = [
         "title": "413 - LA CONFIANCE [EN ALLAH]",
         "subparts": [
             {
-                "title": "1872 - La vertu de la confiance [en Allah]",
-                "content": []
+                "title": "1872 - La vertu de la confiance [en Allah]"
             },
             {
-                "title": "1873 - L'explication de la confiance en Allah",
-                "content": []
+                "title": "1873 - L'explication de la confiance en Allah"
             },
             {
-                "title": "1874 - Le fruit de la confiance en Allah",
-                "content": []
+                "title": "1874 - Le fruit de la confiance en Allah"
             },
             {
-                "title": "1875 - La bonne façon de placer sa confiance en Allah",
-                "content": []
+                "title": "1875 - La bonne façon de placer sa confiance en Allah"
             },
             {
-                "title": "1876 - S'en remettre à un autre qu'Allah",
-                "content": []
+                "title": "1876 - S'en remettre à un autre qu'Allah"
             }
         ]
     },
@@ -12567,64 +10789,49 @@ const AUNE_SAGESSE = [
         "title": "414 - LE PARENT ET L'ENFANT",
         "subparts": [
             {
-                "title": "1877 - La vertu du fait d'avoir des enfants",
-                "content": []
+                "title": "1877 - La vertu du fait d'avoir des enfants"
             },
             {
-                "title": "1878 - La tentation par l'enfant",
-                "content": []
+                "title": "1878 - La tentation par l'enfant"
             },
             {
-                "title": "1879 - L'amour de l'enfant",
-                "content": []
+                "title": "1879 - L'amour de l'enfant"
             },
             {
-                "title": "1880 - S'adonner aux jeux enfantins avec un enfant",
-                "content": []
+                "title": "1880 - S'adonner aux jeux enfantins avec un enfant"
             },
             {
-                "title": "1881 - L'enfant vertueux",
-                "content": []
+                "title": "1881 - L'enfant vertueux"
             },
             {
-                "title": "1882 - L'interdiction de détester les filles",
-                "content": []
+                "title": "1882 - L'interdiction de détester les filles"
             },
             {
-                "title": "1883 - L'incitation à être juste envers les enfants",
-                "content": []
+                "title": "1883 - L'incitation à être juste envers les enfants"
             },
             {
-                "title": "1884 - L'incitation à faire preuve de bonté envers les parents",
-                "content": []
+                "title": "1884 - L'incitation à faire preuve de bonté envers les parents"
             },
             {
-                "title": "1885 - L'incitation à faire preuve de bonté envers les parents après leur décès",
-                "content": []
+                "title": "1885 - L'incitation à faire preuve de bonté envers les parents après leur décès"
             },
             {
-                "title": "1886 - Le Paradis est sous les pieds des mères",
-                "content": []
+                "title": "1886 - Le Paradis est sous les pieds des mères"
             },
             {
-                "title": "1887 - L'offense aux parents",
-                "content": []
+                "title": "1887 - L'offense aux parents"
             },
             {
-                "title": "1888 - L'insolence vis-à-vis de ses parents",
-                "content": []
+                "title": "1888 - L'insolence vis-à-vis de ses parents"
             },
             {
-                "title": "1889 - Le devoir de l'enfant vis-à-vis de son parent",
-                "content": []
+                "title": "1889 - Le devoir de l'enfant vis-à-vis de son parent"
             },
             {
-                "title": "1890 - Le devoir du parent vis-à-vis de son enfant",
-                "content": []
+                "title": "1890 - Le devoir du parent vis-à-vis de son enfant"
             },
             {
-                "title": "1891 - L'éducation de l'enfant",
-                "content": []
+                "title": "1891 - L'éducation de l'enfant"
             }
         ]
     },
@@ -12632,44 +10839,34 @@ const AUNE_SAGESSE = [
         "title": "415 - L'AUTORITÉ",
         "subparts": [
             {
-                "title": "1892 - La nécessité d'obéir à ceux qui ont été investis du commandement par Allah",
-                "content": []
+                "title": "1892 - La nécessité d'obéir à ceux qui ont été investis du commandement par Allah"
             },
             {
-                "title": "1893 - Ce qui génère la règne des dirigeants malfaisants",
-                "content": []
+                "title": "1893 - Ce qui génère la règne des dirigeants malfaisants"
             },
             {
-                "title": "1894 - Les dirigeants justes",
-                "content": []
+                "title": "1894 - Les dirigeants justes"
             },
             {
-                "title": "1895 - Les dirigeants tyranniques",
-                "content": []
+                "title": "1895 - Les dirigeants tyranniques"
             },
             {
-                "title": "1896 - Ce qui est obligatoire au dirigeant concernant sa propre personne",
-                "content": []
+                "title": "1896 - Ce qui est obligatoire au dirigeant concernant sa propre personne"
             },
             {
-                "title": "1897 - La chose la plus importante dont a besoin un dirigeant pour diriger",
-                "content": []
+                "title": "1897 - La chose la plus importante dont a besoin un dirigeant pour diriger"
             },
             {
-                "title": "1898 - Ce qui incombe au dirigeant concernant l'emploi de travailleurs",
-                "content": []
+                "title": "1898 - Ce qui incombe au dirigeant concernant l'emploi de travailleurs"
             },
             {
-                "title": "1899 - Ne pas s'isoler [des personnes que l'on gouverne]",
-                "content": []
+                "title": "1899 - Ne pas s'isoler [des personnes que l'on gouverne]"
             },
             {
-                "title": "1900 - L'obligation du dirigeant d'accorder de l'attention aux démunis",
-                "content": []
+                "title": "1900 - L'obligation du dirigeant d'accorder de l'attention aux démunis"
             },
             {
-                "title": "1901 - Les qualités des amis d'Allah",
-                "content": []
+                "title": "1901 - Les qualités des amis d'Allah"
             }
         ]
     },
@@ -12677,12 +10874,10 @@ const AUNE_SAGESSE = [
         "title": "416 - L'ACCUSATION",
         "subparts": [
             {
-                "title": "1902 - Mise en garde contre l'accusation",
-                "content": []
+                "title": "1902 - Mise en garde contre l'accusation"
             },
             {
-                "title": "1903 - L'interdiction de se mettre dans des circonstances suspectes",
-                "content": []
+                "title": "1903 - L'interdiction de se mettre dans des circonstances suspectes"
             }
         ]
     },
@@ -12690,12 +10885,10 @@ const AUNE_SAGESSE = [
         "title": "417 - LE DÉSESPOIR",
         "subparts": [
             {
-                "title": "1904 - La réprobation du désespoir",
-                "content": []
+                "title": "1904 - La réprobation du désespoir"
             },
             {
-                "title": "1905 - Les conséquences du fait de ne pas espérer obtenir ce que détiennent les gens",
-                "content": []
+                "title": "1905 - Les conséquences du fait de ne pas espérer obtenir ce que détiennent les gens"
             }
         ]
     },
@@ -12703,12 +10896,10 @@ const AUNE_SAGESSE = [
         "title": "418 - L'ORPHELIN",
         "subparts": [
             {
-                "title": "1906 - L'incitation à prendre soin de l'orphelin",
-                "content": []
+                "title": "1906 - L'incitation à prendre soin de l'orphelin"
             },
             {
-                "title": "1907 - La consommation des biens de l'orphelin",
-                "content": []
+                "title": "1907 - La consommation des biens de l'orphelin"
             }
         ]
     },
@@ -12716,36 +10907,28 @@ const AUNE_SAGESSE = [
         "title": "419 - LA CERTITUDE",
         "subparts": [
             {
-                "title": "1908 - La vertu de la certitude",
-                "content": []
+                "title": "1908 - La vertu de la certitude"
             },
             {
-                "title": "1909 - Le savoir certain",
-                "content": []
+                "title": "1909 - Le savoir certain"
             },
             {
-                "title": "1910 - La signification de la certitude",
-                "content": []
+                "title": "1910 - La signification de la certitude"
             },
             {
-                "title": "1911 - Les signes de celui qui a la certitude",
-                "content": []
+                "title": "1911 - Les signes de celui qui a la certitude"
             },
             {
-                "title": "1912 - Ce qui corrompt la certitude",
-                "content": []
+                "title": "1912 - Ce qui corrompt la certitude"
             },
             {
-                "title": "1913 - La faiblesse de la certitude",
-                "content": []
+                "title": "1913 - La faiblesse de la certitude"
             },
             {
-                "title": "1914 - Les fruits de la certitude",
-                "content": []
+                "title": "1914 - Les fruits de la certitude"
             },
             {
-                "title": "1915 - L'augmentation de la certitude",
-                "content": []
+                "title": "1915 - L'augmentation de la certitude"
             }
         ]
     },
