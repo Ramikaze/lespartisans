@@ -57,6 +57,9 @@ const AUNE_SAGESSE = [
           {
             "source": "Majma' al-Bayān :",
             "text": "Abū Ṭufayl a dit : 'Alī (as) acheta un vêtement qui lui plaisait. Il le prit et le donna comme offrande, puis il dit : «J'ai entendu le Messager d'Allah (s) dire : «Celui qui fait passer les autres avant lui-même, Allah le [fera entrer] au Paradis avant les autres le Jour de la Résurrection».»<sup>12</sup>"
+          },
+          {
+            "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut <i>«et offrent la nourriture, malgré son amour, au pauvre, à l'orphelin et au prisonnier»</i><sup>13</sup> : Fāṭima disposait d'une poignée d'orge qu'elle accommoda sous forme de bouillie. Quand ce plat fut prêt et qu'elle le déposa devant elle [pour que sa famille le mange], un indigent vint et dit : «Qu'Allah vous fasse miséricorde ! Nourrissez-nous avec la subsistance qu'Allah vous a donnée.» 'Alī se leva et lui donna un tiers du repas. Peu après, un orphelin arriva et dit : «Qu'Allah vous fasse miséricorde ! Nourrissez-nous avec la subsistance qu'Allah vous a donnée.» 'Alī se leva et lui donna le second tiers du repas. Peu après, un prisonnier arriva et dit : «Qu'Allah vous fasse miséricorde ! Nourrissez-nous avec la subsistance qu'Allah vous a donnée.» 'Alī se leva et lui donna le dernier tiers du repas, qu'ils ne goûtèrent même pas. Allah révéla alors en leur honneur ces versets: <i>«et votre effort sera reconnu»</i><sup>14</sup>.<sup>15</sup>"
           }
         ]
       }
@@ -66,19 +69,53 @@ const AUNE_SAGESSE = [
     "title": "2 - L'EMPLOI",
     "subparts": [
       {
-        "title": "3 - L'emploi et les moyens de subsistance"
+        "title": "3 - L'emploi et les moyens de subsistance",
+        "introduction": "«<i>Est-ce eux qui distribuent la miséricorde de ton Seigneur ? C'est Nous qui avons réparti entre eux leur subsistance dans la vie présente et qui les avons élevés en grades les uns sur les autres, afin que les uns prennent les autres à leur service. La miséricorde de ton Seigneur vaut mieux, cependant, que ce qu'ils amassent.</i>»<sup>16</sup><br><br>«<i>L'une d'elles dit : «Ô mon père, engage-le [à ton service] moyennant salaire, car le meilleur à engager est celui qui est fort et digne de confiance».</i>»<sup>17</sup>",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī a dit en commentant cette parole divine : «<i>C'est Nous qui avons réparti entre eux leur subsistance</i>» : Le Très-Haut nous a informé que l'emploi et le fait de travailler est l'un des moyens de subsistance des créatures. Par Sa sagesse, Il a fait en sorte que les aspirations, les motivations et les états [des hommes] soient divers et variés, et a fait de cela la base de la subsistance des créatures ; et cela incite ainsi l'homme à avoir recours aux services de ses semblables. En effet, si chacun était obligé de construire pour lui-même, de faire ses travaux de menuiserie, et de tout produire lui-même... Les conditions de ce monde deviendraient insupportables ; les gens ne pourraient les supporter et seraient incapables d'y faire face. En revanche, Allah a parfait Son organisation en variant les aspirations afin que chacun réalise pour les autres ce qui est compatible avec ses propres capacités, et dans le but que certains soient servis par les autres et que leur conditions de vie soient viables.<sup>18</sup>"
+          }
+        ]
       },
       {
-        "title": "4 - Il est déconseillé de se mettre au service de quelqu'un"
+        "title": "4 - Il est déconseillé de se mettre au service de quelqu'un",
+        "hadiths": [
+          {
+            "source": "Al-Kāfī :",
+            "text": "'Ammār al-Sābāṭī a dit : J'ai dit à l'Imām al-Ṣādiq (as) : «Un homme peut faire du commerce [seul], cependant, s'il le fait au service de quelqu'un, on lui donne la même chose que ce qu'il gagne s'il le fait seul [quelle solution est préférable ?].» Il (as) répondit : «Il ne doit pas se mettre au service de quelqu'un [s'il peut faire le même travail seul], mais qu'il implore Allah le Tout-Puissant pour sa subsistance puis qu'il fasse du commerce, car s'il est au service de quelqu'un, il limite sa propre subsistance.»<sup>19</sup>"
+          }
+        ]
       },
       {
-        "title": "5 - L'intermédiaire dans l'emploi"
+        "title": "5 - L'intermédiaire dans l'emploi",
+        "hadiths": [
+          {
+            "source": "Al-Kāfī :",
+            "text": "Muḥammad ibn Muslim a dit : L'Imām al-Bāqir (as) ou l'Imām al-Ṣādiq (as) fut interrogé au sujet d'un homme qui accepte un travail sans l'exécuter lui-même, mais le confie à une autre personne en prélevant néanmoins un bénéfice. L'Imām (as) répondit : «Non [il ne peut agir ainsi], sauf s'il a lui-même fait une partie de ce travail.»<sup>20</sup>"
+          }
+        ]
       },
       {
-        "title": "6 - L'injustice envers l'employé"
+        "title": "6 - L'injustice envers l'employé",
+        "hadiths": [
+          {
+            "text": "Le Messager d'Allah (s) a dit : Allah rendra vaines les actions de celui qui rémunère injustement son employé et Il lui interdira l'odeur du Paradis qui se sent à une distance de cinq cents années.<sup>21</sup>"
+          },
+          {
+            "text": "Le Messager d'Allah (s) a dit : Rémunérer injustement l'employé fait partie des péchés majeurs.<sup>22</sup>"
+          }
+        ]
       },
       {
-        "title": "7 - Annoncer à l'employé sa rémunération et la bonne façon de la donner"
+        "title": "7 - Annoncer à l'employé sa rémunération et la bonne façon de la donner",
+        "hadiths": [
+          {
+            "text": "Le Messager d'Allah (s) a dit : Donnez sa rémunération à l'employé avant que sa sueur ne sèche, et annoncez-lui sa rémunération alors qu'il est encore en train de travailler.<sup>23</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) a interdit d'employer une personne avant qu'elle ne soit informée de sa rémunération.<sup>24</sup>"
+          }
+        ]
       }
     ]
   },
@@ -86,22 +123,70 @@ const AUNE_SAGESSE = [
     "title": "3 - L'ÉCHÉANCE [DE LA MORT]",
     "subparts": [
       {
-        "title": "8 - L'échéance [de la mort]"
+        "title": "8 - L'échéance [de la mort]",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī (as) a dit : Il a créé la durée [des vies], Il les a fait longues ou courtes ; Il en avance certaines et retarde d'autres, et Il a lié leurs causes avec la mort [Allah a fait de certaines choses les causes de la mort].<sup>25</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : Il n'y a pas plus véridique que l'échéance [de la mort].<sup>26</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : Quel bon remède est l'échéance [de la mort] !<sup>27</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : Les respirations de l'être humain sont autant de pas vers l'échéance [de sa mort].<sup>28</sup>"
+          }
+        ]
       },
       {
-        "title": "9 - L'échéance [de la mort] est une citadelle fortifiée"
+        "title": "9 - L'échéance [de la mort] est une citadelle fortifiée",
+        "introduction": "«<i>Personne ne peut mourir que par la permission d'Allah, et au moment prédéterminé.</i>»<sup>29</sup>",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī (as) a dit : L'échéance [de la mort] suffit comme garde.<sup>30</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : L'échéance [de la mort] est une citadelle fortifiée.<sup>31</sup>"
+          }
+        ]
       },
       {
-        "title": "10 - Toute chose a une échéance"
+        "title": "10 - Toute chose a une échéance",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī (as) a dit : En vérité, toute chose a une durée et une échéance.<sup>32</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : Allah a attribué à toute chose une mesure et pour chaque mesure, Il a déterminé une échéance.<sup>33</sup>"
+          }
+        ]
       },
       {
-        "title": "11 - Chaque communauté a une échéance"
+        "title": "11 - Chaque communauté a une échéance",
+        "introduction": "«<i>À chaque communauté humaine une échéance est fixée. Quand leur échéance échoit, ils ne peuvent la retarder d'une heure et ils ne peuvent la hâter non plus.</i>»<sup>34</sup><br><br>«<i>Nous n'avons anéanti aucune cité qui n'ait eu son échéance fixée en un Écrit connu. Et aucune communauté ne saurait avancer son échéance, ni la retarder.</i>»<sup>35</sup>",
+        "note": "(Voir également : Coran 16:61, 20:129, 29:5, 42:14, 23:43)"
       },
       {
-        "title": "12 - L'échéance en suspens et l'échéance scellée"
+        "title": "12 - L'échéance en suspens et l'échéance scellée",
+        "introduction": "«<i>C'est Lui qui vous a créés d'argile ; puis Il vous a décrété une échéance, et il y a une échéance fixée auprès de Lui. Pourtant, vous doutez encore !</i>»<sup>36</sup>",
+        "hadiths": [
+          {
+            "text": "L'Imām al-Ṣādiq (as) a dit en commentant le verset précédent : L'échéance (<i>ajal</i>) non définie (<i>ghayr musammā</i>) est en suspens ; Il peut l'avancer selon Sa volonté ou la reculer selon Sa volonté. En revanche, l'échéance définie (<i>ajal musammā</i>) est décrétée selon Sa volonté durant la Nuit du Destin de l'année en cours jusqu'à celle de l'année d'après. C'est ce que signifie Sa parole : «<i>Quand leur échéance échoit, ils ne peuvent la retarder d'une heure et ils ne peuvent la hâter non plus.</i>»<sup>37</sup>"
+          }
+        ]
       },
       {
-        "title": "13 - Ce qui peut modifier l'échéance en suspens"
+        "title": "13 - Ce qui peut modifier l'échéance en suspens",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī (as) a dit : Par l'aumône, les échéances sont prolongées.<sup>38</sup>"
+          },
+          {
+            "text": "L'Imām al-Ṣādiq (as) a dit : Les gens vivent, grâce à leurs bonnes actions, plus longtemps qu'ils ne le devraient selon leur durée de vie [qui leur était prédestinée], et ils meurent à cause de leurs péchés plus qu'ils ne meurent du fait de l'arrivée à échéance de leur vie.<sup>39</sup>"
+          }
+        ],
+        "note": "(Voir également : 289. L'âge, section 1371)"
       }
     ]
   },
@@ -109,10 +194,28 @@ const AUNE_SAGESSE = [
     "title": "4 - L'AU-DELÀ",
     "subparts": [
       {
-        "title": "14 - L'Au-delà"
+        "title": "14 - L'Au-delà",
+        "introduction": "«<i>Quiconque désire labourer [le champ] de la vie future, Nous augmenterons pour lui son labour. Quiconque désire labourer [le champ] de la vie présente, Nous lui en accorderons de [ses jouissances] ; mais il n'aura aucune part dans l'Au-delà.</i>»<sup>40</sup>",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī (as) a dit : Ce bas-monde est l'aspiration des malheureux, l'Au-delà est la victoire des bienheureux.<sup>41</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : Aspire à l'Au-delà, et ce bas-monde se soumettra à toi avec humilité.<sup>42</sup>"
+          },
+          {
+            "text": "L'Imām 'Alī (as) a dit : En vérité, le bas-monde s'éloigne de toi et l'Au-delà est proche de toi.<sup>43</sup>"
+          }
+        ]
       },
       {
-        "title": "15 - La grandeur des réalités de l'Au-delà"
+        "title": "15 - La grandeur des réalités de l'Au-delà",
+        "introduction": "«<i>Regarde comment Nous favorisons certains sur d'autres. Et dans l'Au-delà, il y a des rangs plus élevés et plus privilégiés.</i>»<sup>44</sup>",
+        "hadiths": [
+          {
+            "text": "L'Imām 'Alī (as) a dit : Entendre parler de toute chose de ce bas-monde est plus impressionnant que de la voir, et voir toute chose de l'Au-delà est plus impressionnant que d'en entendre parler. Par conséquent, à défaut de pouvoir voir l'Au-delà et de contempler ce qui est caché à vos yeux, contentez-vous d'écouter les paroles et les nouvelles annoncées [par les Prophètes].<sup>45</sup>"
+          }
+        ]
       },
       {
         "title": "16 - L'Au-delà est la demeure éternelle"
