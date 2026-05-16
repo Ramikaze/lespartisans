@@ -663,7 +663,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
-  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16};
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16, 17:17};
   Object.keys(cardModules).forEach(function(cardId){
     var el = document.getElementById('card-' + cardId);
     if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId], ''); });
