@@ -52,10 +52,31 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .subpart-title::before{content:'';width:6px;height:6px;background:#c9a84c;border-radius:50%;opacity:0.7}
 .subpart-desc{font-size:0.95rem;color:#9aa3b8;padding-left:16px;line-height:1.5}
 
-.empty-hadiths{font-size:0.9rem;color:#5a6480;padding:12px 16px;background:rgba(0,0,0,0.2);border-radius:8px;margin-top:8px;margin-left:16px;font-style:italic;display:flex;align-items:center;gap:8px}
-.empty-hadiths svg{width:16px;height:16px;opacity:0.6}
+.empty-hadiths{font-size:0.85em;color:rgba(154,163,184,0.6);margin-top:5px;display:flex;align-items:center;gap:6px}
+.empty-hadiths svg{width:14px;height:14px}
 
-/* Note pour le developpement */
+.nav-btn {
+  background: rgba(201,168,76,0.1);
+  border: 1px solid rgba(201,168,76,0.3);
+  color: inherit;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: 500;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+}
+.nav-btn:hover {
+  background: rgba(201,168,76,0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.nav-btn:active {
+  transform: translateY(0);
+}
+
 .dev-note{background:rgba(106,180,232,0.1);border:1px solid rgba(106,180,232,0.3);border-radius:12px;padding:20px;margin-top:40px;text-align:center}
 .dev-note-title{font-size:1rem;color:#6ab4e8;font-weight:600;margin-bottom:8px;display:flex;align-items:center;justify-content:center;gap:8px}
 .dev-note-text{font-size:0.95rem;color:#a8c4e0;line-height:1.6}
@@ -165,8 +186,21 @@ function renderSommaire() {
        `;
     }
     
+    let navHtml = '<div style="display: flex; justify-content: space-between; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(201,168,76,0.2);">';
+    if (partIndex > 0) {
+      navHtml += `<button onclick="openPart(${partIndex}, event)" class="nav-btn prev-btn">&larr; Précédent</button>`;
+    } else {
+      navHtml += `<div></div>`;
+    }
+    if (partIndex < AUNE_SAGESSE.length - 1) {
+      navHtml += `<button onclick="openPart(${partIndex + 2}, event)" class="nav-btn next-btn">Suivant &rarr;</button>`;
+    } else {
+      navHtml += `<div></div>`;
+    }
+    navHtml += '</div>';
+
     html += `
-    <div class="part-card">
+    <div class="part-card" id="part-${partIndex + 1}">
       <div class="part-header" onclick="togglePart(this)">
         <div class="part-title-wrap">
           <div class="part-num">${partIndex + 1}</div>
@@ -179,6 +213,7 @@ function renderSommaire() {
       <div class="part-content">
         <div class="subpart-list">
           ${subpartsHtml}
+          ${navHtml}
         </div>
       </div>
     </div>
@@ -202,7 +237,21 @@ function togglePart(element) {
   if (card.classList.contains('active')) {
     setTimeout(() => {
       card.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 300);
+    }, 400);
+  }
+}
+
+function openPart(partNumber, event) {
+  if (event) event.stopPropagation();
+  const targetCard = document.getElementById('part-' + partNumber);
+  if (targetCard) {
+    document.querySelectorAll('.part-card').forEach(c => {
+      c.classList.remove('active');
+    });
+    targetCard.classList.add('active');
+    setTimeout(() => {
+      targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 400);
   }
 }
 
