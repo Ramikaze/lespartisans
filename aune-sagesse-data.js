@@ -1,5 +1,14 @@
 const AUNE_SAGESSE = [
   {
+    "title": "Préface de l'auteur",
+    "subparts": []
+  },
+  {
+    "title": "Introduction du traducteur",
+    "subparts": [],
+    "content": "\n<div class=\"introduction-content\" style=\"text-align: justify; line-height: 1.6;\">\n    <div style=\"margin-bottom: 20px; font-style: italic; margin-left: 20px;\">\n        <p>«Je laisse deux trésors (thaqalayn)<sup>1</sup> parmi vous ; si vous vous agrippez à eux, vous ne vous égarerez jamais après moi. L'un est plus grand et élevé que l'autre. [L'un est] le Livre d'Allah, qui est une corde tendue du ciel vers la terre ; [l'autre est] ma descendance, les gens de ma famille. Sachez qu'ils [le Coran et ma descendance] ne se sépareront que lorsqu'ils me rejoindront au bord des eaux du Paradis.»<sup>2</sup></p>\n        <p style=\"text-align: right;\">Le Messager d'Allah (s)</p>\n    </div>\n\n    <p>Après le Coran, le ḥadīth constitue la seconde source majeure permettant de connaître l'islam et d'approfondir le contenu de la révélation. Ces narrations constituent en effet l'héritage unique laissé par le prophète Muḥammad (s), sa fille Fāṭima (as), et les douze Imāms (as). En arabe, le terme <em>ḥadīth</em> exprime l'idée générale de conversation et d'entretien, mais il désigne spécifiquement ici la parole d'une personne immaculée (<em>ma'ṣum</em>) ou la narration de l'un de ses actes. Nous pouvons également distinguer deux types de ḥadīths : le ḥadīth dit <em>qudsī</em>, qui est une parole de Dieu rapportée telle quelle par le Prophète (s) mais ne faisant pas partie du Coran, et le ḥadīth <em>non-qudsī</em>, parole d'homme inspirée par Dieu mais formulée selon ses propres mots et expressions.</p>\n    <p>Bien que cette introduction n'ait pas vocation à retracer en détail l'histoire du ḥadīth qui constitue en lui-même un domaine complexe, l'histoire de la compilation des paroles du Prophète (s), de sa fille Fāṭima (as), et des Imāms (as) peut être divisée en trois périodes principales :</p>\n    <p>-Une première période, qui est celle du vivant des Imāms (as) jusqu'à la naissance de l'Imām al-Mahdī ('aj), et qui couvre environ trois siècles. Durant cette période, les Imāms (as) se sont employés à transmettre les paroles du Prophète (s) ainsi que leurs propres enseignements. Le premier recueil de ḥadīths aurait été compilé par l'Imām 'Alī (as) lui-même. En parallèle, les disciples et partisans des Imāms (as) se sont très tôt efforcés</p>\n\n    <div style=\"padding: 10px; background-color: #ffebee; border-left: 4px solid #f44336; margin: 20px 0;\">\n        <strong>[ATTENTION : LA PAGE lxiv EST MANQUANTE ICI]</strong>\n    </div>\n\n    <p>plus vaste public tout d'abord en procédant à une sélection de ḥadīths et en les présentant selon un classement thématique comprenant des sujets à la fois spirituels, juridiques, sociaux, moraux, politiques... Il donne ainsi au lecteur un vaste aperçu de l'enseignement des Imāms (as) au cours de l'histoire. Si cet ouvrage se base principalement sur des sources chiites, les recueils sunnites y ont également une place de choix. Il offre ainsi un regard exhaustif sur la question, le critère principal de sélection étant, outre le contenu, l'authenticité du ḥadīth et sa compatibilité avec le contenu du Coran lui-même - toute parole attribuée au Prophète (s) ou à un Imām (as) étant ouvertement en contradiction avec un verset coranique devant être rejetée et considérée comme inauthentique.</p>\n    <p>L'édition française de cet ouvrage est le fruit du travail de trois traducteurs, dont une personne spécialiste des textes islamiques et dont l'arabe est la langue maternelle, une autre, iranienne, docteur en littérature française et professeur de droit et de jurisprudence islamiques, et une troisième, française maîtrisant l'arabe et titulaire d'un doctorat de philosophie occidentale et islamique. Ce travail s'est déroulé en plusieurs étapes. En premier lieu, une première traduction à partir du texte arabe original a été réalisée, traduction qui a ensuite été entièrement retravaillée en vue d'en rendre l'expression plus claire, de corriger certaines erreurs ou imprécisions, ou encore d'expliciter le sens de certains termes spécifiques utilisés. Cette seconde relecture s'est accompagnée d'une consultation des éditions persanes et anglaise de cet ouvrage. Pour les versets du Coran, nous avons principalement utilisé la traduction française de la Présidence générale des directions des recherches scientifiques islamiques, de l'ifta, de la prédication et de l'orientation religieuse, tout en la retravaillant et en la modifiant lorsque cela nous semblait nécessaire. Nous avons également choisi de faire figurer la transcription de certains termes coraniques difficiles à traduire comme celui de <em>taqwā</em>, ou encore pouvant être traduits et compris de diverses manières en français, comme celui de <em>ṣadaqa</em> - qui exprime à la fois les idées de charité en général et d'aumône volontaire, et se distingue ainsi de la <em>zakāt</em> (aumône obligatoire) - ou encore celui de <em>ṣalāt</em>, qui désigne spécifiquement la prière rituelle et ne doit pas être confondu avec le terme de <em>du'ā</em>, exprimant l'idée générale d'invocation - qu'elle soit ou non réalisée dans le cadre de la prière rituelle.</p>\n    <p>Les paroles recensées et classées de façon thématique dans la présente anthologie constituent un enseignement unique dans de nombreux domaines, en se focalisant néanmoins sur la question des principes de la morale et de l'éthique. Il faut ici rappeler que les paroles du Prophète (s) et des Imāms (as) couvrent de nombreux domaines dont celui du droit, de la jurisprudence, de la morale, de l'exégèse coranique, de l'épistémologie, de la métaphysique... Ces ḥadīths sont très nombreux, et à titre d'exemple, le recueil <em>Biḥār al-Anwār</em>, qui rassemble majoritairement les paroles des Imāms (as), compte à lui seul près de 110 volumes. Cet exemple vient suggérer l'ampleur de ces enseignements, dont la présente anthologie ne rassemble qu'une partie infime.</p>\n    <p>Les ḥadīths peuvent être considérés comme un commentaire ou une explicitation de nombreux versets du Coran, et donc du message même de la religion. Pour cette raison, tout au long de l'histoire, les Imāms (as) ont incité les musulmans à apprendre et à réfléchir au sujet de leurs propres paroles et de celles de leurs prédécesseurs, et les ont vivement encouragé à les diffuser au sein du monde islamique. Si de nombreuses questions ont été évoquées de façon générale dans le Coran, les ḥadīths permettent d'en saisir certains détails, applications ou en éclairent la signification profonde. Ils permettent ainsi de saisir la pluralité de sens de certains versets, du niveau le plus exotérique au plus ésotérique, et de ne pas se limiter à une lecture littérale et superficielle du Livre sacré. Ainsi, un grand nombre de paroles d'Imāms (as) sont dotées d'un contenu philosophique profond et abordent des questions centrales concernant la création du monde, l'essence de Dieu et des choses, la liberté... qui serviront de base et seront par la suite traitées de façon exhaustive dans le cadre de traités par divers grands noms de la philosophie islamique. A titre d'exemple, les enseignements légués par les Imāms (as) au travers de leurs paroles regorgent d'explications subtiles au sujet d'une question aussi complexe que celle des modalités de l'Unicité divine : \"<em>Celui qui [entreprend de] Le décrire Le limite, et celui qui Le limite L'énumère<sup>3</sup>, celui qui L'énumère infirme Son éternité. Celui qui demande : «Comment est-Il ?» aura cherché à Le décrire, et celui qui demande : «Où est-Il ?» L'aura confiné à un lieu particulier.</em>\"<sup>4</sup> Par conséquent, la lecture de ces paroles permet de s'abreuver directement à l'une des sources majeures de la pensée philosophique et théologique qui s'est développée dans le monde musulman dès les premiers siècles de l'islam.</p>\n    <p>La portée de ces paroles ne peut cependant être véritablement saisie qu'en explicitant la question du statut du Prophète (s) en islam qui est non seulement préservé de l'erreur concernant la transmission du message divin, mais l'est également dans l'ensemble de ses actes quotidiens - et donc dans ses paroles qui ne relèvent pas en soi de la révélation. Loin d'être de simples «rapporteurs» d'enseignements révélés, le Prophète (s) et, après lui, les Imāms (as) doivent eux-mêmes être considérés comme étant des hommes parfaits dont les paroles, les actes, et l'ensemble des comportements constituent un modèle pour l'ensemble des croyants. Le Prophète (s) est donc lui-même une personnalité éminente qui a d'abord réalisé en lui l'ensemble des perfections auxquelles il invite avant d'accéder au rang de messager. Ce haut statut est souligné dans plusieurs versets du Coran le décrivant comme une personne dotée d'une «<em>moralité éminente</em>» (<em>khuluq 'aẓīm</em>, 68:4) et devant être prise pour modèle par l'ensemble des croyants : «<em>Vous avez dans le Messager d'Allah un excellent modèle (uswa ḥasana) [à suivre].</em>» (33:21). Sur cette base, le Prophète (s) a, de son vivant, assuré deux types de guidances : une guidance extérieure et législative (<em>hidāya ẓāhiriyya wa tashrī'iyya</em>) par laquelle il a transmis la révélation, mais aussi une guidance intérieure et existentielle (<em>hidāya bāṭiniyya wa takwīniyya</em>) par laquelle il a guidé les gens au travers de sa présence et de l'ensemble de ses actes et comportements. Dans ce sens, le verset suivant vient souligner l'importance de la <em>personne</em> du Prophète (s) - et non seulement du contenu du message - dans le processus de transmission de la révélation : «<em>C'est par quelque miséricorde de la part d'Allah que tu [Muḥammad] as été si doux envers eux ! Mais si tu étais rude, au cœur dur, ils se seraient enfuis de ton entourage</em>» (6:159). Néanmoins, le Prophète (s) n'est pas une créature immatérielle, mais est un homme de chair et d'os, comme les autres : «<em>Dis: «Je suis en fait un être humain comme vous».</em>» (18:110). Ceci est un point essentiel car dans l'islam, toute personne est invitée à devenir aussi parfaite que le Prophète (s) et les Imāms (as), et ce n'est qu'à la condition du partage de la même humanité avec ceux qu'ils prétendent guider que la notion de «modèle» pourra prendre tout son sens. Néanmoins, préservés de toute erreur et péché (<em>ma'ṣūm</em>) tant sur le plan théorique que pratique, le Prophète (s), sa fille Fāṭima (as) et les Douze Imāms (as) constituent un véritable pont entre ciel et terre invitant les croyants à réaliser en eux ces perfections spirituelles. Cette réalité est confirmée par de nombreux ḥadīths et versets coraniques, dont «<em>Dis : \"Si vous aimez vraiment Dieu, suivez-moi [le Prophète], Dieu vous aimera alors et vous pardonnera vos péchés\"</em>» (3:31) qui lie le fait de suivre le Prophète (s) et d'être l'objet de l'amour de Dieu.</p>\n    <p>Le haut rang des Imāms (as) en tant que guides spirituels et détenteurs du sens véritable de la révélation est aussi évoqué dans le Coran. Le Livre sacré des musulmans souligne clairement la dimension immaculée de l'existence des Gens de la demeure prophétique (as)<sup>5</sup> dans un verset d'une importance capitale : «<em>Dieu ne veut que vous débarrasser de toute souillure, ô Gens de la demeure [du Prophète] (ahl al-bayt), et vous purifier pleinement.</em>» (33:33). Ce verset laisse entendre que les «détenteurs du commandement» évoqués dans le verset suivant «<em>Obéissez à Dieu, et obéissez au Messager et à ceux d'entre vous qui détiennent le commandement</em>» (4:59) sont les Imāms (as) eux-mêmes, étant donné que seule l'obéissance à des personnes préservées de tout péché peut équivaloir à l'obéissance à Dieu et à Son prophète (s). Ces versets viennent souligner le poids et l'importance des paroles des Imāms (as) pour tout croyant, tout en explicitant la signification profonde du ḥadīth des «deux trésors» (<em>al-thaqalayn</em>) cité au début de cette introduction. En tant que manifestation la plus parfaite des différents Noms de Dieu, l'existence même de l'Imām (as) permet aux hommes de mieux connaître leur Créateur : «<em>Seul connaît Dieu Tout-Puissant et L'adore, celui qui connaît son Imām [venant] de nous, Ahl al-Bayt. Celui qui ne connaît pas Dieu Tout-Puissant ni ne connaît son Imām de nous, Ahl al-Bayt, alors il connaît et adore un autre que Dieu</em>.»<sup>6</sup> Cette réalité ne remet pas en cause la transcendance divine, les Imāms (as) insistant eux-mêmes dans de nombreux ḥadīths sur le fait qu'ils sont avant tout des serviteurs (<em>'ibād</em>) et pures créatures de Dieu tenant l'ensemble de leurs perfections de Dieu et se situant dans une relation de dépendance absolue par rapport à Lui.<sup>7</sup></p>\n\n    <div style=\"padding: 10px; background-color: #f1f8e9; border-left: 4px solid #8bc34a; margin: 20px 0;\">\n        <p><strong>Note :</strong> L'importance du ḥadīth doit ainsi être recherchée dans une conception particulière du Prophète (s) et des Gens de la demeure prophétique (as) et, au-delà de cela, du sens même de la religion et de son rôle dans la vie de l'homme. Selon cette conception, la religion ne se limite dès lors pas à suivre à la lettre les préceptes de la révélation en espérant une récompense dans l'Au-delà, mais constitue un cadre où se réalise la recherche constante de vérité et de perfection animant l'homme. Sur cette base, le contenu de la révélation, qui s'adresse à l'ensemble des dimensions existentielles de l'homme, ne peut se limiter à édicter des principes extérieurs concernant la nourriture, les relations sociales, le droit, mais doit dans son essence contribuer à l'épanouissement de ses capacités spirituelles et de sa vérité intérieure, dimension sans laquelle elle perdrait sa raison d'être. Sur la base de cette vision de l'homme, l'ensemble de la religion et de ses règles les plus extérieures, de la question de la licéité de la nourriture à l'aumône et à la réglementation du mariage prendront une autre dimension : loin de trouver leur finalité en soi ou d'être respectées aveuglément dans l'espoir unique d'obtenir une récompense, ces règles seront mises au service de la réalisation de cette dimension spirituelle qui constitue l'essence de l'être humain, et ne peut pleinement se manifester qu'au travers de l'atteinte d'un équilibre entre les différents appétits et désirs matériels de l'<em>homme extérieur</em>. Ces règles prendront alors tout leur sens pour le croyant : loin d'être «pour Dieu», elles seront avant tout considérées comme étant au service du perfectionnement de l'homme et de sa réalisation. La religion dans son ensemble prend alors une toute autre signification : l'ensemble de ses aspects, même les plus extérieurs, se voient conférer un sens spirituel profond, chacun participant à son niveau propre à la réalisation de cet <em>homme intérieur</em>. C'est cette dimension intégrale de la religion révélée dans le Coran que nous permettent d'approfondir les paroles du Prophète (s), de sa fille Fāṭima (as) et des Douze Imāms (as) paroles qui ont, au cours des siècles et jusqu'à l'occultation majeure de l'Imām du Temps ('aj), permis l'enracinement du message divin ainsi que la révélation de certaines de ses significations profondes. Les ḥadīths constituent par conséquent un guide venant approfondir, enrichir et dynamiser la relation du croyant à son Livre sacré et à son Créateur. Ces paroles constituent également autant d'<em>actes de présence</em> concrets destinés à être pris pour modèle par tout croyant et à fortifier en lui, par une meilleure connaissance de leur existence, un amour pour les Gens de la Demeure Prophétique (as).</p>\n    </div>\n\n    <p>Cet aspect repose lui-même sur une question spirituelle et psychologique profonde évoquée dans le fameux verset du Coran invitant à vouer de l'affection (<em>mawadda</em>) à la proche famille du Prophète (s)<sup>8</sup>, et qui repose sur la croyance selon laquelle l'homme ne peut réellement atteindre sa perfection qu'au travers d'un amour voué à un être parfait qui manifeste la «Face apparente» de Dieu et l'oriente vers Lui : «<em>Dis : \"Je ne vous en demande point de rétribution (ajr), si ce n'est l'affection pour [ma] proche parenté (mawadda fī al-qurbā)\".</em>» (42:23). Un second verset nous fait comprendre que le bénéfice de cette rétribution n'est en réalité destiné qu'aux personnes mêmes ayant fait preuve de cette affection : «<em>Dis : \"Ce que je vous ai demandé comme rétribution (ajr), c'est pour vous\".</em>» (34:47). Enfin, un troisième verset vient éclairer la signification profonde des deux premiers : «<em>Dis : \"Je ne vous en demande nulle rétribution (ajr) [c'est-à-dire, comme on l'a appris plus haut, l'affection envers la proche famille du Prophète (as)], sauf qui veut prendre un chemin vers son Maître\".</em>» (25:57). Nous comprenons ici que l'invitation à vouer de l'affection aux Gens de la demeure prophétique (as) permet de «<em>prendre chemin</em>» vers Dieu. Le Coran souligne donc avec clarté que, loin d'avoir pris fin avec le décès du Prophète (s), la guidance des hommes continue au travers de ce lien d'amour avec les Gens de la demeure prophétique (as) - qui n'est autre que l'amour pour les attributs divins réalisés en elle -, lien qui permet la réalisation spirituelle de l'homme. Confirmant l'existence d'un tel «<em>chemin</em>», un verset du Coran présentant une invocation des «serviteurs du Très-Miséricordieux» (<em>'ibād al-raḥmān</em>) exprime clairement que chaque homme est appelé lui-même à devenir Imām, c'est-à-dire un être parfait - l'atteinte de ce haut rang ne se imitant donc pas à des personnes particulières : «<em>Seigneur, donne-nous, en nos épouses et nos descendants, la joie des yeux, et fais de nous un Imām pour les pieux</em>» (25:74). Ce haut rang est également confirmé par plusieurs autres versets présentant l'homme comme étant le Lieu-tenant (<em>khalīfa</em>) de Dieu sur terre, c'est-à-dire un être pouvant Le manifester en actualisant, lors de sa vie terrestre, l'ensemble des Noms divins insufflés en lui lors de sa création et que son âme contient à l'état de puissance. Dans ce sens, de nombreuses traditions soulignent que les Imāms (as) constituent la voie permettant d'accéder à l'unicité divine. Loin de se limiter à de simples sagesses et maximes, leurs paroles prennent alors une importance toute particulière pour le croyant. En résumé, le ḥadīth est une source privilégiée permettant de mieux connaître les manifestations de la perfection, de la sagesse et de la plus haute spiritualité humaine que tout croyant est invité à actualiser en lui.</p>\n    <p>L'amour devient ici l'esprit même animant la religion, seul l'amour envers un être parfait permettant au croyant d'orienter tout son être dans la quête de la perfection et de sa réforme. C'est cette réalité même qui a amené l'Imām Ṣādiq (as) à déclarer : «<em>La religion est-elle autre chose que l'amour ?</em>»<sup>9</sup> Or, aimer implique de connaître, et découvrir les paroles des Imāms (as) au travers de divers aspects de la vie spirituelle, sociale, familiale ou politique aide à mieux saisir l'éminence de leur personnalité ainsi qu'à fortifier le lien unissant les croyants aux Imāms (as) - ce lien permettant ultimement de fortifier celui existant entre le croyant et son Créateur. Ainsi, un nombre conséquent de leurs paroles abordent la relation de l'homme à Dieu, et la façon de mieux le connaître et d'approfondir le lien qui unit le croyant à Lui : \"<em>Celui qui veut avoir une idée de sa considération auprès d'Allah, qu'il observe la considération qu'il donne à Allah en lui, car Allah donne à Son serviteur la même considération que le serviteur donne à Allah dans son âme.</em>\"<sup>10</sup>; «<em>Celui qui se connaît, connaît son Dieu.</em>»<sup>11</sup> Ces enseignements permettent de faire prendre conscience à l'homme de l'infinie bonté divine, tout en lui donnant une vision du monde basée sur l'unicité (<em>tawḥīd</em>) ainsi qu'un cadre de pensée sur la base duquel fonder sa réflexion et agir. Dans ce sens, l'invocation de l'Imām Ḥusayn (as) le jour de 'Arafat contient de hauts enseignements spirituels mis à la disposition de tous les croyants, et exprime avec une subtilité extrême l'intime proximité de Dieu vis-à-vis de l'homme et du monde : \"<em>Quand as-Tu disparu pour que Tu aies besoin d'un indice qui te signale ? Quand T'es-tu éloigné pour que ce soient les traces, elles, qui me conduisent à Toi ? Aveugle l'œil qui ne Te voit pas.</em>\"<sup>12</sup> Ces paroles viennent prolonger la vision de l'islam basée sur l'intense proximité de Dieu avec Ses créatures ; le Coran Le décrivant comme plus proche de l'homme que sa propre veine jugulaire (50:16) ou encore comme s'interposant entre ce dernier et son cœur (8:24).</p>\n    <p>D'un point de vue historique, l'importance des paroles des Imāms (as) dans la préservation du message coranique et l'explicitation de certaines de ses significations profondes se manifeste de façon plurielle et diverse tout au long des douze Imāmats. Les premiers Imāms (as), et plus particulièrement l'Imām 'Alī (as), ont notamment eu un rôle capital dans le rappel et l'enracinement du contenu de la révélation. Avec l'arrivée de nouvelles générations n'ayant pas connu le Prophète (s), le message divin avait, dès le premier siècle de l'Hégire, déjà connu de sérieuses déformations face aux nouveaux enjeux de pouvoir et à l'attrait de ce monde. L'un des rôles fondamentaux des Imāms (as) fut donc de garder cet appel originel vivant, de l'enraciner dans l'esprit des gens, et de le préserver des déviations auxquelles il était susceptible d'être exposé. Ainsi, et de façon encore plus saillante durant les décennies ayant suivies la mort du Prophète (s), la mission des premiers Imāms (as) ne fut pas seulement d'expliciter les principes fondamentaux de la religion tels que l'unicité de Dieu, l'existence d'un Au-delà, etc., mais d'abord de les <em>rappeler</em>. De nombreuses paroles de l'Imām Sajjād (as) consacrées au simple rappel des principes de base de la religion tels que la résurrection laissent entendre à quel point les croyances étaient affaiblies moins de soixante ans après la mort du Prophète (s). A l'époque de l'Imām Bāqir (as), les affaires religieuses demeuraient fortement négligées. Ibn 'Abbās rapporte à ce propos qu'à la tribune de Baṣra, lors du sermon de la fin du mois de Ramaḍān, on rappela aux gens de donner l'aumône de leur jeûne (<em>zakāt al-fiṭra</em>)<sup>13</sup>, la majorité ignorant ce principe essentiel scellant la fin de ce mois sacré. A la même époque, on rapporte que la majorité des croyants avait oublié les rites du pèlerinage à La Mecque<sup>14</sup>, tandis que certains habitants de Shām ignoraient le nombre de prières obligatoires. Nous pouvons ici mieux cerner le rôle des Imāms (as) comme «gens du rappel» et comprendre que sans eux et la transmission de leurs ḥadīths au sein des nouvelles générations de croyants, il ne serait sans doute pas resté grand-chose non seulement de l'esprit de l'islam, mais aussi des pratiques rituelles les plus élémentaires. Cette réalité a été confirmée par l'Imām Bāqir (as) qui, à propos du verset suivant : «<em>Nous n'avons envoyé avant toi que des hommes à qui Nous faisions des révélations. Interrogez les gens du Rappel, si vous ne savez pas</em>» (21:7), souligne : «<em>Nous sommes les gens du Rappel</em>»<sup>15</sup>, ou dit à propos de ce verset : «<em>La permanence d'Allah est meilleure pour vous si vous êtes croyants</em>» (11:86) : «<em>Je suis la permanence d'Allah.</em>»<sup>16</sup></p>\n    <p>Outre le rappel du Coran, les Imāms (as) ont également permis de revivifier différentes <em>traditions</em> du Prophète (s) ayant été oubliées ou sciemment effacées par certains califes. Les Imāms Bāqir et Ṣādiq (as) ont aussi formé de très nombreux savants dans le domaine des sciences islamiques, permettant un enracinement et une diffusion sans précédent de la lettre et de l'esprit de la révélation. Ils eurent également un rôle essentiel dans l'explicitation du droit (<em>fiqh</em>) et de ses principes, lançant un vaste mouvement de réflexion dans le domaine juridique et invitant leurs disciples à déduire par eux-mêmes des règlements à partir de principes généraux.</p>\n    <p>Dans leurs nombreuses paroles compilées dans le présent ouvrage, le rôle des différents Imāms (as) dans l'exégèse et l'explicitation des sens cachés du Coran ainsi que de l'esprit de la révélation apparaît de façon claire. Comme nous l'avons évoqué, ce rôle de première importance repose sur une conception particulière de la révélation comme véhicule d'un message qui, loin de se limiter à sa seule signification apparente, comporte de multiples niveaux d'interprétation eux-mêmes fondés sur l'existence de sens ésotériques (<em>buṭūn</em>) allant jusqu'à sept ou même davantage, selon certains ḥadīths. Le contenu du Coran demande donc à être interprété et son esprit profond dégagé par des êtres qui non seulement le connaissent parfaitement, mais dont l'existence est la manifestation même de ces significations. En tant que sources de cette interprétation, les Imāms (as) sont ainsi parfois qualifiés de «Coran parlant» (<em>qur'ān nāṭiq</em>).<sup>17</sup> Après la période de la Révélation (<em>tanzīl</em>), les Imāms (as) sont désormais ceux qui assurent le <em>ta'wīl</em><sup>18</sup>, c'est-à-dire la reconduction du sens apparent du Coran à ses significations originelles et ésotériques. Sur une période de plus de trois siècles, les Imāms (as) ont présenté une lecture à la fois juste et profonde du Coran, et de ne pas tomber dans le piège de certaines interprétations littérales pouvant aboutir à de l'anthropomorphisme (<em>tashbīh</em>). En tant qu'«herméneute du Livre», l'Imām (as) permet ainsi de concilier l'aspect littéral et apparent (<em>ẓāhir</em>) avec l'aspect profond et ésotérique (<em>bāṭin</em>) de la religion sans sacrifier aucune de ces dimensions<sup>19</sup> et en gardant un équilibre permanent entre les deux.<sup>20</sup> Dans le cadre de cette mission exégétique, les Imāms (as) ont notamment eu pour rôle d'expliquer le sens profond de certaines obligations religieuses et légales. A titre d'exemple, l'Imām 'Alī (as) vient élargir l'horizon des interprétations en expliquant que loin de se limiter à un don matériel, l'aumône légale (<em>zakāt</em>) embrasse en réalité l'ensemble des aspects de la vie humaine : la <em>zakāt</em> de la puissance est l'équité<sup>21</sup>, la <em>zakāt</em> de la beauté est la chasteté<sup>22</sup>, celle de la santé est l'effort dans l'obéissance à Dieu<sup>23</sup> tandis que la <em>zakāt</em> du corps est le jeûne<sup>24</sup>. L'Imām Ṣādiq (as) rappelle également que la <em>zakāt</em> du savoir est de l'enseigner à ceux qui le méritent.<sup>25</sup> Au travers de leurs paroles, les Imāms (as) expliquent aussi les effets invisibles de certains piliers de la foi, tels que la prière : «<em>Si à proximité de l'un de vous se trouvait un fleuve qui lui permettrait de s'y laver cinq fois par jour, resterait-il des souillures sur son corps ? En vérité, la prière est comme le fleuve qui purifie. Ainsi, à chaque fois que quelqu'un s'acquitte d'une prière, elle purifie des péchés, sauf le péché qui l'a éloigné de la foi et qu'il continue de perpétrer.</em>»<sup>26</sup> ; «<em>Si celui qui prie savait ce qui l'enveloppe de la majesté de Dieu, il ne souhaiterait pas relever sa tête de la prosternation</em>»<sup>27</sup>, ou le jeûne : «<em>Le sommeil de celui qui jeûne est une...</em></p>\n\n    <hr style=\"margin-top: 40px; border-top: 1px solid #ccc;\">\n    <div style=\"font-size: 0.85em; margin-top: 10px; color: #555;\">\n        <p>1- <em>Thaqalayn</em> signifie littéralement «deux poids» en arabe et véhicule ici la notion de chose précieuse, de trésor.</p>\n        <p>2- <em>Biḥār al-Anwār</em>, vol. 23, p. 106, no. 7</p>\n        <p>3- C'est-à-dire considère Dieu comme un être ayant plusieurs parties, ce qui contredit Son éternité et Sa toute-puissance car les parties préexistent au tout, et le tout à besoin des parties pour exister.</p>\n        <p>4- Ḥadīth de l'Imām 'Alī (as), <em>Nahj al-Balāgha</em>, sermon 152.</p>\n        <p>5- L'expression «Gens de la demeure prophétique» (<em>ahl al-bayt</em>) (as) n'inclut pas l'ensemble de la famille du Prophète (s) mais désigne, à son époque, quatre personnes précises : 'Alī (as), son gendre et cousin, Fāṭima (as), sa fille, et Ḥasan et Ḥusayn (as), ses deux petits-fils. Ce statut éminent ne trouve pas sa source unique dans le simple fait d'être lié au Prophète (s) par des liens familiaux - auquel cas d'autres personnes, dont ses oncles, ses cousins ou ses femmes auraient pu en faire partie -, mais a des raisons éminemment spirituelles. Pour prendre l'exemple de 'Alī (as), il s'est notamment très tôt distingué en étant le premier homme ayant eu la foi en la prophétie de Muḥammad (s), par sa défense constante du Prophète (s) parfois au péril de sa propre vie, et par le fait qu'il ait été élevé par ce dernier, bénéficiant pendant de longues années de sa présence et de ses enseignements. Par la suite, cette expression inclura également l'ensemble des Douze Imāms (as), jusqu'à l'Imām al-Mahdī ('aj).</p>\n        <p>6- Ḥadīth de l'Imām al-Bāqir (as), <em>Uṣūl al-Kāfī</em>, vol 1 ; <em>Kitāb al-Ḥujja</em>, p. 181, no. 4, op. cit. <em>L'Imām al-Bāqer (p)</em>, éditions BAA, p. 80.</p>\n        <p>7- De nombreux ḥadīths évoquent la colère des Imāms (as) lorsqu'on leur attribuait parfois les attributs de Seigneurie (<em>rubūbiyya</em>) et propres à Dieu de façon indépendante. Ils rappelaient sans cesse que le but de leur mission était d'amener les croyants à une soumission à Dieu, et que les aimer pour eux-mêmes n'avait aucun sens. A ce propos, nous pouvons citer cette parole de l'Imām Bāqir (as) : «<em>Ô Jābir ! Que l'imagination ne t'emmène pas ! Est-ce qu'il suffit qu'une personne dise «j'aime 'Alī» et que «je suis prêt à lui prêter allégeance» ou de dire que «j'aime le Messager de Dieu qui est meilleur que 'Alī» et ne pas faire ce qu'il fait, ni suivre sa sunna ? Quelle est la richesse [profit] de cet amour ? [...] Celui qui obéit à Dieu, celui-là est notre allié et notre ami et nous aime. Et celui qui désobéit à Dieu, celui-là est notre ennemi. On n'obtient notre allégeance que par la piété et les bonnes actions.</em>» Muntahā, vol. 2, p. 143, op. cit. <em>L'Imām al-Bāqer (p)</em>, éditions BAA, pp. 126-127.</p>\n        <p>8- Au sujet du contenu de cette expression, voir la note 5.</p>\n        <p>9- <em>Tafsīr al-'Ayyāshī</em>, vol. 1, p. 168, no. 28</p>\n        <p>10- Ḥadīth de l'Imām Ṣādiq (as), <em>Biḥār al-Anwār</em>, vol. 71, p. 156, no. 74 ; <em>Kanz al-'Ummāl</em>, no. 1882.</p>\n        <p>11- Ḥadīth de l'Imām 'Alī (as), <em>Ghurar al-Ḥikam</em>.</p>\n        <p>12- Invocation de l'Imām Ḥusayn (as) le jour de 'Arafat, traduction de Leila Sourani, voir <em>Le Ḥajj, le pèlerinage de l'islam</em>, éditions BAA, p. 261.</p>\n        <p>13- <em>L'Imām al-Bāqer (p)</em>, éditions BAA, pp. 71-72.</p>\n        <p>14- Les chroniqueurs soulignent qu'à l'époque des Imāms Bāqir et Ṣādiq (as), les gens avaient oublié les rites du pèlerinage à La Mecque. Ainsi, Ibn Bābūyeh rapporte de Abū Ḥanifa, al-Na'mān, fils de Thābit : \"<em>S'il n'y avait pas eu Ja'afar, fils de Muḥammad, les gens ne connaîtraient plus les rites du Ḥajj</em>\" (<em>Al-Faqīh</em>, vol. 2, p. 519, no. 3112.) op. cit <em>L'Imām as-Ṣādeq (p)</em>, éditions BAA, p. 132.</p>\n        <p>15- <em>Kashf al-Ghumma</em>, vol. 2, p. 337 ; op. cit. <em>L'Imām al-Bāqer (p)</em>, éditions BAA, p. 52.</p>\n        <p>16- Op. cit. <em>L'Imām al-Bāqer (p)</em>, éditions BAA, p. 109.</p>\n        <p>17- A ce sujet, nous pouvons citer ce ḥadīth de l'Imām Ṣādiq (as) : \"<em>La science de l'interprétation (exégèse) est une science qui est spécifique au Livre de Dieu. Le Coran est l'Imām «silencieux» qui contient ce qui est clair, tranché (muḥkam) et ce qui peut prêter à confusion (mutashābih), ce qui est global et ce qui est détaillé, ce qui est décrété et ce qui est abrogé, le général et le particulier, ce qui est absolu (muṭlaq) et ce qui est restreint (muqayyid) et encore d'autres choses dont la connaissance est cachée aux gens. Il nécessite - pour l'expliquer et faire apparaître ce qui est caché - un Imām parlant, qui donnerait le jugement tranchant pour répliquer aux confusions auxquelles s'accrochent certaines branches de l'islam.</em>» (<em>Al-Kāfī</em>, vol. 1, p. 52) op. cit. <em>L'Imām as-Ṣādeq (p)</em>, éditions BAA, p. 125.</p>\n        <p>18- <em>Ta'wīl</em> vient de la racine <em>awwala</em> signifiant le fait de reconduire une chose à son origine.</p>\n        <p>19- A ce sujet, Henry Corbin écrit : \"<em>Dans la mesure même où exotérique et ésotérique (ẓāhir et bāṭin) sont en codépendance réciproque, fonction prophétique et fonction initiatique de l'Imām (nobowwat et walāyat) sont également toutes deux interdépendantes, solidaires, inséparables (motalāzimatān).</em>» <em>En islam iranien</em>, vol. 1, p. 49.</p>\n        <p>20- Au cours de l'histoire de l'islam, la majorité des déviations a justement été due à la prise en compte exclusive et excessive de l'un de ces aspects : une lecture littéraliste à l'excès sacrifiant la dimension spirituelle de la religion, et à l'opposé, une lecture ne retenant que l'aspect ésotérique et intérieur, aux dépens du respect de certaines obligations religieuses et en sacrifiant l'aspect extérieur de la religion. Une lecture littéraliste sacrifiant le <em>bāṭin</em> permet ainsi aux pires personnes de prétendre à la guidance des croyants ; de même, une lecture uniquement mystique entraîne son propre lot de déviations, de l'abandon de certains aspects obligatoires de la <em>sharī'a</em> à l'élévation de personnes n'en étant pas dignes au rang de «pôle spirituel» (<em>quṭb</em>).</p>\n        <p>21- <em>Ghurar al-Ḥikam</em>, no. 5448.</p>\n        <p>22- Ibid., no. 5449.</p>\n        <p>23- Ibid., no. 5454.</p>\n        <p>24- <em>Biḥār al-Anwār</em>, vol. 78, p. 99, no. 1.</p>\n        <p>25- Ibid., p. 247, no. 77.</p>\n        <p>26- Ḥadīth de l'Imām Ṣādiq (as), <em>Biḥār al-Anwār</em>, vol. 82, p. 236, no. 66.</p>\n        <p>27- Ḥadīth de l'Imām 'Alī (as), <em>Al-Khiṣāl</em>, p. 632, no. 10.</p>\n    </div>\n</div>\n"
+  },
+  {
     "title": "Introduction et Préfaces",
     "subparts": [
       {
@@ -7022,6 +7031,834 @@ const AUNE_SAGESSE = [
   },
   {
     "title": "373 - LE VŒU",
+    "subparts": [
+      {
+        "title": "1720 - Le vœu"
+      },
+      {
+        "title": "1721 - Il est détestable de se rendre une chose obligatoire"
+      }
+    ]
+  },
+  {
+    "title": "374 - LE CONSEIL",
+    "subparts": [
+      {
+        "title": "1722 - L'incitation à donner conseil"
+      },
+      {
+        "title": "1723 - Les caractéristiques de la personne qui conseille"
+      },
+      {
+        "title": "1724 - L'incitation à accepter le conseil"
+      }
+    ]
+  },
+  {
+    "title": "375 - L'IMPARTIALITÉ",
+    "subparts": [
+      {
+        "title": "1725 - L'incitation à être impartial"
+      },
+      {
+        "title": "1726 - L'incitation à être impartial vis-à-vis de celui qui ne l'est pas"
+      },
+      {
+        "title": "1727 - Faire preuve d'impartialité même à ses dépens"
+      },
+      {
+        "title": "1728 - Ceux qui passent outre leurs propres droits"
+      }
+    ]
+  },
+  {
+    "title": "376 - LE REGARD",
+    "subparts": [
+      {
+        "title": "1729 - L'œil est le guide du cœur"
+      },
+      {
+        "title": "1730 - Les yeux sont les pièges de Satan"
+      },
+      {
+        "title": "1731 - Celui dont le regard est considéré comme une adoration"
+      },
+      {
+        "title": "1732 - L'incitation à baisser le regard"
+      },
+      {
+        "title": "1733 - Le premier regard est une erreur [involontaire], le second est intentionnel"
+      },
+      {
+        "title": "1734 - Celui qui voit une femme qui lui plaît"
+      }
+    ]
+  },
+  {
+    "title": "377 - LE DÉBAT",
+    "subparts": [
+      {
+        "title": "1735 - Le débat"
+      },
+      {
+        "title": "1736 - La réponse de l'Imām (as) à celui qui l'a invité à un débat"
+      }
+    ]
+  },
+  {
+    "title": "378 - LA PROPRETÉ",
+    "subparts": [
+      {
+        "title": "1737 - L'incitation à la propreté"
+      },
+      {
+        "title": "1738 - Mise en garde contre le manque de propreté"
+      }
+    ]
+  },
+  {
+    "title": "379 - LES GRÂCES",
+    "subparts": [
+      {
+        "title": "1739 - Les grâces d'Allah sont innombrables"
+      },
+      {
+        "title": "1740 - La négligence des grâces"
+      },
+      {
+        "title": "1741 - La bonne façon de se comporter vis-à-vis des grâces"
+      },
+      {
+        "title": "1742 - Ce qui suscite la permanence des grâces"
+      },
+      {
+        "title": "1743 - La succession continuelle des grâces et la descente graduelle [vers le châtiment du fait des péchés]"
+      },
+      {
+        "title": "1744 - Proclamer les bienfaits d'Allah"
+      },
+      {
+        "title": "1745 - L'accomplissement des bienfaits"
+      }
+    ]
+  },
+  {
+    "title": "380 - L'ÂME",
+    "subparts": [
+      {
+        "title": "1746 - L'âme [charnelle] qui incite au mal"
+      },
+      {
+        "title": "1747 - L'âme qui ne cesse de se blâmer"
+      },
+      {
+        "title": "1748 - L'éducation de l'âme, sa discipline et sa purification"
+      },
+      {
+        "title": "1749 - Les effets de la dignité de l'âme"
+      }
+    ]
+  },
+  {
+    "title": "381 - L'HYPOCRISIE",
+    "subparts": [
+      {
+        "title": "1750 - L'hypocrisie"
+      },
+      {
+        "title": "1751 - Les attributs de l'hypocrite"
+      },
+      {
+        "title": "1752 - Les personnes les plus clairement hypocrites"
+      },
+      {
+        "title": "1753 - Mise en garde contre l'hypocrite éloquent"
+      },
+      {
+        "title": "1754 - La description de la Résurrection des hypocrites et leur fin"
+      },
+      {
+        "title": "1755 - Ce qui fait disparaître l'hypocrisie"
+      }
+    ]
+  },
+  {
+    "title": "382 - LA DÉPENSE [EN CHARITÉ]",
+    "subparts": [
+      {
+        "title": "1756 - La vertu de la dépense"
+      },
+      {
+        "title": "1757 - La bénédiction de la dépense [dans la voie d'Allah]"
+      },
+      {
+        "title": "1758 - Dépenser ce que l'on aime"
+      },
+      {
+        "title": "1759 - Celui qui ne dépense pas dans la voie de l'obéissance à Allah dépense dans la voie de Sa désobéissance"
+      },
+      {
+        "title": "1760 - La vertu de la dépense de celui qui a lui-même des moyens limités"
+      },
+      {
+        "title": "1761 - Celui dont la dépense [en charité] n'est pas acceptée"
+      }
+    ]
+  },
+  {
+    "title": "383 - LE COMMÉRAGE",
+    "subparts": [
+      {
+        "title": "1762 - Mise en garde contre le commérage"
+      },
+      {
+        "title": "1763 - Le blâme de la calomnie"
+      }
+    ]
+  },
+  {
+    "title": "384 - LA PRIÈRE SURÉROGATOIRE",
+    "subparts": [
+      {
+        "title": "1764 - La vertu de la prière surérogatoire"
+      },
+      {
+        "title": "1765 - La priorité des prières obligatoires sur les prières urérogatoires"
+      }
+    ]
+  },
+  {
+    "title": "385 - LA LUMIÈRE",
+    "subparts": [
+      {
+        "title": "1766 - La lumière de la clairvoyance"
+      },
+      {
+        "title": "1767 - La lumière du cœur et la lumière du visage"
+      },
+      {
+        "title": "1768 - Tout acte bon a une lumière"
+      }
+    ]
+  },
+  {
+    "title": "386 - LES GENS",
+    "subparts": [
+      {
+        "title": "1770 - Les gens"
+      },
+      {
+        "title": "1771 - L'égalité des gens en droits"
+      },
+      {
+        "title": "1772 - Ceux qui ne se sont pas considérés comme des êtres humains"
+      },
+      {
+        "title": "1773 - Explication du terme «opportuniste»"
+      }
+    ]
+  },
+  {
+    "title": "387 - LE SOMMEIL",
+    "subparts": [
+      {
+        "title": "1774 - Le sommeil"
+      },
+      {
+        "title": "1775 - Mise en garde contre l'excès de sommeil"
+      },
+      {
+        "title": "1776 - L'ascension de l'âme du croyant vers le ciel pendant le sommeil"
+      },
+      {
+        "title": "1777 - La bonne conduite au sujet du sommeil"
+      }
+    ]
+  },
+  {
+    "title": "388 - L'INTENTION",
+    "subparts": [
+      {
+        "title": "1778 - Le rôle de intention dans l'acte"
+      },
+      {
+        "title": "1779 - Le rôle de l'intention le Jour de la Résurrection"
+      },
+      {
+        "title": "1780 - La rétribution de la bonne intention"
+      },
+      {
+        "title": "1781 - L'intention du croyant est meilleure que son acte"
+      },
+      {
+        "title": "1782 - L'incitation à avoir une bonne intention en toute chose"
+      },
+      {
+        "title": "1783 - La bonne intention"
+      },
+      {
+        "title": "1784 - La mauvaise intention"
+      }
+    ]
+  },
+  {
+    "title": "389 - L'ÉMIGRATION",
+    "subparts": [
+      {
+        "title": "1785 - Le caractère continue de l'émigration"
+      },
+      {
+        "title": "1786 - La meilleure émigration"
+      },
+      {
+        "title": "1787 - La nécessité d'émigrer des endroits [peuplés de] de pécheurs"
+      },
+      {
+        "title": "1788 - L'interdiction du retour à l'état d'ignorance d'avant la Révélation après la migration [vers la foi et l'islam]"
+      }
+    ]
+  },
+  {
+    "title": "390 - LA RUPTURE",
+    "subparts": [
+      {
+        "title": "1789 - Mise en garde contre la rupture"
+      },
+      {
+        "title": "1790 - L'interdiction de rompre avec un frère plus de trois jours"
+      }
+    ]
+  },
+  {
+    "title": "391 - LA GUIDANCE",
+    "subparts": [
+      {
+        "title": "1791 - La guidance divine générale"
+      },
+      {
+        "title": "1792 - Ramener à la vie par la guidance"
+      },
+      {
+        "title": "1793 - La rétribution de la guidance"
+      },
+      {
+        "title": "1794 - La guidance appartient exclusivement à Allah"
+      },
+      {
+        "title": "1795 - Ceux qu'Allah guide"
+      }
+    ]
+  },
+  {
+    "title": "392 - LE CADEAU",
+    "subparts": [
+      {
+        "title": "1796 - L'incitation à offrir des cadeaux"
+      },
+      {
+        "title": "1797 - L'interdiction de donner des cadeaux aux fonctionnaires de l'Etat"
+      },
+      {
+        "title": "1798 - L'interdiction d'accepter le cadeau du polythéiste"
+      },
+      {
+        "title": "1799 - L'incitation à accepter le cadeau"
+      },
+      {
+        "title": "1800 - Reprendre son cadeau"
+      }
+    ]
+  },
+  {
+    "title": "393 - LA VIEILLESSE",
+    "subparts": [
+      {
+        "title": "1801 - La vieillesse"
+      },
+      {
+        "title": "1802 - Ce qui se déclare chez l'homme lors de sa vieillesse"
+      },
+      {
+        "title": "1803 - Ce qui suscite la vieillesse avant l'âge"
+      }
+    ]
+  },
+  {
+    "title": "394 - L'ANÉANTISSEMENT",
+    "subparts": [
+      {
+        "title": "1804 - Ce qui suscite l'anéantissement"
+      }
+    ]
+  },
+  {
+    "title": "395 - L'ASPIRATION ÉLEVÉE",
+    "subparts": [
+      {
+        "title": "1805 - La vertu de l'aspiration élevée"
+      },
+      {
+        "title": "1806 - Les fruits de l'aspiration élevée"
+      },
+      {
+        "title": "1807 - La faible aspiration"
+      },
+      {
+        "title": "1808 - Celui dont l'aspiration se résume à son ventre"
+      }
+    ]
+  },
+  {
+    "title": "396 - LA PASSION",
+    "subparts": [
+      {
+        "title": "1809 - La passion est un dieu adoré"
+      },
+      {
+        "title": "1810 - Mise en garde contre le fait de suivre les passions"
+      },
+      {
+        "title": "1811 - Les effets issus du fait de suivre les passions"
+      },
+      {
+        "title": "1812 - S'opposer à la passion"
+      },
+      {
+        "title": "1813 - La domination de la passion"
+      },
+      {
+        "title": "1814 - Le plus courageux des êtres est celui qui vainc sa passion"
+      },
+      {
+        "title": "1815 - Ce qui affaiblit les désirs charnels"
+      },
+      {
+        "title": "1816 - Celui qui a vaincu ses passions"
+      }
+    ]
+  },
+  {
+    "title": "397 - L'HÉRITAGE",
+    "subparts": [
+      {
+        "title": "1817 - L'héritage"
+      },
+      {
+        "title": "1818 - Ceux qui sont privés d'héritage"
+      },
+      {
+        "title": "1819 - L'héritage des prophètes"
+      }
+    ]
+  },
+  {
+    "title": "398 - LA PIÉTÉ",
+    "subparts": [
+      {
+        "title": "1820 - La vertu de la piété"
+      },
+      {
+        "title": "1821 - Le fruit de la piété"
+      },
+      {
+        "title": "1822 - Le rôle de la piété dans l'adoration"
+      },
+      {
+        "title": "1823 - L'interprétation de la piété"
+      },
+      {
+        "title": "1824 - La plus pieuse des personnes"
+      }
+    ]
+  },
+  {
+    "title": "399 - LA BALANCE",
+    "subparts": [
+      {
+        "title": "1825 - Les balances des actes"
+      }
+    ]
+  },
+  {
+    "title": "400 - LA TENTATION ET LE DOUTE",
+    "subparts": [
+      {
+        "title": "1826 - La tentation et le doute dans le domaine des croyances"
+      },
+      {
+        "title": "1827 - Mise en garde contre le doute au sujet des ablutions et de la prière"
+      },
+      {
+        "title": "1828 - Le traitement du doute"
+      }
+    ]
+  },
+  {
+    "title": "401 - LE RÉCONFORT",
+    "subparts": [
+      {
+        "title": "1829 - L'incitation au réconfort"
+      }
+    ]
+  },
+  {
+    "title": "402 - LE TESTAMENT",
+    "subparts": [
+      {
+        "title": "1830 - L'incitation à faire un testament"
+      },
+      {
+        "title": "1831 - L'interdiction de causer un préjudice et un tort dans un testament"
+      }
+    ]
+  },
+  {
+    "title": "403 - LES ABLUTIONS",
+    "subparts": [
+      {
+        "title": "1832 - Les ablutions"
+      },
+      {
+        "title": "1833 - La raison de l'existence des ablutions"
+      },
+      {
+        "title": "1834 - Les effets des ablutions"
+      },
+      {
+        "title": "1835 - La vertu des ablutions fréquentes"
+      },
+      {
+        "title": "1836 - Renouveler ses ablutions"
+      }
+    ]
+  },
+  {
+    "title": "404 - L'HUMILITÉ",
+    "subparts": [
+      {
+        "title": "1837 - Incitation à l'humilité"
+      },
+      {
+        "title": "1838 - Certains signes de l'humilité"
+      },
+      {
+        "title": "1839 - Le fruit de l'humilité"
+      },
+      {
+        "title": "1840 - Ce qui aide à être humble"
+      },
+      {
+        "title": "1841 - La limite de l'humilité"
+      }
+    ]
+  },
+  {
+    "title": "405 - LA PATRIE",
+    "subparts": [
+      {
+        "title": "1842 - L'amour de la patrie"
+      },
+      {
+        "title": "1843 - Défendre sa patrie"
+      },
+      {
+        "title": "1844 - L'exil et la patrie"
+      }
+    ]
+  },
+  {
+    "title": "406 - LA PROMESSE",
+    "subparts": [
+      {
+        "title": "1845 - La promesse d'Allah est vérité"
+      },
+      {
+        "title": "1846 - La promesse est une dette"
+      },
+      {
+        "title": "1847 - La promesse est l'une des deux servitudes"
+      },
+      {
+        "title": "1848 - Ce qui ne doit pas être promis"
+      },
+      {
+        "title": "1849 - Le blâme du non respect de sa promesse"
+      }
+    ]
+  },
+  {
+    "title": "407 - L'EXHORTATION",
+    "subparts": [
+      {
+        "title": "1850 - Le rôle de l'exhortation dans le ravivement des cœurs"
+      },
+      {
+        "title": "1851 - Les différents types d'exhortation"
+      },
+      {
+        "title": "1852 - Il y a une exhortation en toute chose"
+      },
+      {
+        "title": "1853 - La bonne conduite lors de l'exhortation"
+      },
+      {
+        "title": "1854 - L'exhortation intérieure"
+      },
+      {
+        "title": "1855 - Celui qui ne bénéficie pas de l'exhortation"
+      },
+      {
+        "title": "1856 - La personne qui exhorte sans être elle-même exhortée"
+      },
+      {
+        "title": "1857 - L'exhortation silencieuse"
+      }
+    ]
+  },
+  {
+    "title": "408 - LA RÉUSSITE",
+    "subparts": [
+      {
+        "title": "1858 - La réussite"
+      },
+      {
+        "title": "1859 - La réussite et l'échec"
+      }
+    ]
+  },
+  {
+    "title": "409 - LA FIDÉLITÉ",
+    "subparts": [
+      {
+        "title": "1860 - L'incitation à remplir ses engagements"
+      }
+    ]
+  },
+  {
+    "title": "410 - LA PRESTANCE",
+    "subparts": [
+      {
+        "title": "1861 - L'incitation à la prestance"
+      },
+      {
+        "title": "1862 - Ce qui suscite la prestance"
+      }
+    ]
+  },
+  {
+    "title": "411 - LA PIÉTÉ ET LA CRAINTE RÉVÉRENCIELLE D'ALLAH",
+    "subparts": [
+      {
+        "title": "1863 - La vertu de la piété et de la crainte révérencielle d'Allah"
+      },
+      {
+        "title": "1864 - La crainte révérencielle d'Allah et la piété sont la clé de la noblesse"
+      },
+      {
+        "title": "1865 - Les qualités de ceux qui sont pieux et craignent Allah"
+      },
+      {
+        "title": "1866 - Ce qui fait obstacle à la piété et à la crainte révérencielle d'Allah"
+      },
+      {
+        "title": "1867 - L'authentique piété et crainte révérencielle d'Allah"
+      },
+      {
+        "title": "1868 - La signification de la piété et de la crainte révérencielle d'Allah"
+      },
+      {
+        "title": "1869 - La plus pieuse des personnes"
+      }
+    ]
+  },
+  {
+    "title": "412 - LA DISSIMULATION PAR PRUDENCE (TAQIYYA)",
+    "subparts": [
+      {
+        "title": "1870 - La législation de la dissimulation par prudence et les cas où elle doit être adoptée"
+      },
+      {
+        "title": "1871 - L'interdiction de dépasser les situations [appelant à] la dissimulation"
+      }
+    ]
+  },
+  {
+    "title": "413 - LA CONFIANCE [EN ALLAH]",
+    "subparts": [
+      {
+        "title": "1872 - La vertu de la confiance [en Allah]"
+      },
+      {
+        "title": "1873 - L'explication de la confiance en Allah"
+      },
+      {
+        "title": "1874 - Le fruit de la confiance en Allah"
+      },
+      {
+        "title": "1875 - La bonne façon de placer sa confiance en Allah"
+      },
+      {
+        "title": "1876 - S'en remettre à un autre qu'Allah"
+      }
+    ]
+  },
+  {
+    "title": "414 - LE PARENT ET L'ENFANT",
+    "subparts": [
+      {
+        "title": "1877 - La vertu du fait d'avoir des enfants"
+      },
+      {
+        "title": "1878 - La tentation par l'enfant"
+      },
+      {
+        "title": "1879 - L'amour de l'enfant"
+      },
+      {
+        "title": "1880 - S'adonner aux jeux enfantins avec un enfant"
+      },
+      {
+        "title": "1881 - L'enfant vertueux"
+      },
+      {
+        "title": "1882 - L'interdiction de détester les filles"
+      },
+      {
+        "title": "1883 - L'incitation à être juste envers les enfants"
+      },
+      {
+        "title": "1884 - L'incitation à faire preuve de bonté envers les parents"
+      },
+      {
+        "title": "1885 - L'incitation à faire preuve de bonté envers les parents après leur décès"
+      },
+      {
+        "title": "1886 - Le Paradis est sous les pieds des mères"
+      },
+      {
+        "title": "1887 - L'offense aux parents"
+      },
+      {
+        "title": "1888 - L'insolence vis-à-vis de ses parents"
+      },
+      {
+        "title": "1889 - Le devoir de l'enfant vis-à-vis de son parent"
+      },
+      {
+        "title": "1890 - Le devoir du parent vis-à-vis de son enfant"
+      },
+      {
+        "title": "1891 - L'éducation de l'enfant"
+      }
+    ]
+  },
+  {
+    "title": "415 - L'AUTORITÉ",
+    "subparts": [
+      {
+        "title": "1892 - La nécessité d'obéir à ceux qui ont été investis du commandement par Allah"
+      },
+      {
+        "title": "1893 - Ce qui génère la règne des dirigeants malfaisants"
+      },
+      {
+        "title": "1894 - Les dirigeants justes"
+      },
+      {
+        "title": "1895 - Les dirigeants tyranniques"
+      },
+      {
+        "title": "1896 - Ce qui est obligatoire au dirigeant concernant sa propre personne"
+      },
+      {
+        "title": "1897 - La chose la plus importante dont a besoin un dirigeant pour diriger"
+      },
+      {
+        "title": "1898 - Ce qui incombe au dirigeant concernant l'emploi de travailleurs"
+      },
+      {
+        "title": "1899 - Ne pas s'isoler [des personnes que l'on gouverne]"
+      },
+      {
+        "title": "1900 - L'obligation du dirigeant d'accorder de l'attention aux démunis"
+      },
+      {
+        "title": "1901 - Les qualités des amis d'Allah"
+      }
+    ]
+  },
+  {
+    "title": "416 - L'ACCUSATION",
+    "subparts": [
+      {
+        "title": "1902 - Mise en garde contre l'accusation"
+      },
+      {
+        "title": "1903 - L'interdiction de se mettre dans des circonstances suspectes"
+      }
+    ]
+  },
+  {
+    "title": "417 - LE DÉSESPOIR",
+    "subparts": [
+      {
+        "title": "1904 - La réprobation du désespoir"
+      },
+      {
+        "title": "1905 - Les conséquences du fait de ne pas espérer obtenir ce que détiennent les gens"
+      }
+    ]
+  },
+  {
+    "title": "418 - L'ORPHELIN",
+    "subparts": [
+      {
+        "title": "1906 - L'incitation à prendre soin de l'orphelin"
+      },
+      {
+        "title": "1907 - La consommation des biens de l'orphelin"
+      }
+    ]
+  },
+  {
+    "title": "419 - LA CERTITUDE",
+    "subparts": [
+      {
+        "title": "1908 - La vertu de la certitude"
+      },
+      {
+        "title": "1909 - Le savoir certain"
+      },
+      {
+        "title": "1910 - La signification de la certitude"
+      },
+      {
+        "title": "1911 - Les signes de celui qui a la certitude"
+      },
+      {
+        "title": "1912 - Ce qui corrompt la certitude"
+      },
+      {
+        "title": "1913 - La faiblesse de la certitude"
+      },
+      {
+        "title": "1914 - Les fruits de la certitude"
+      },
+      {
+        "title": "1915 - L'augmentation de la certitude"
+      }
+    ]
+  },
+  {
+    "title": "NOTES",
+    "subparts": []
+  },
+  {
+    "title": "BIBLIOGRAPHIE",
+    "subparts": []
+  },
+  {
+    "title": "NOTES (ARABE)",
     "subparts": []
   }
 ];
