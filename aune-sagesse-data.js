@@ -1410,6 +1410,712 @@ const AUNE_SAGESSE = [
     "subparts": [
       {
         "title": "351 - Le jour du vendredi"
+      },
+      {
+        "title": "352 - Le bain rituel du vendredi (ghusl)"
+      }
+    ]
+  },
+  {
+    "title": "71 - LA BEAUTÉ",
+    "subparts": [
+      {
+        "title": "353 - Allah est beau et Il aime la beauté"
+      },
+      {
+        "title": "354 - La belle figure"
+      },
+      {
+        "title": "355 - Prendre soin de ses cheveux"
+      },
+      {
+        "title": "356 - La beauté intérieure"
+      }
+    ]
+  },
+  {
+    "title": "72 - L'ÉTAT D'IMPURETÉ LÉGALE (JANĀBA)",
+    "subparts": [
+      {
+        "title": "357 - Le bain rituel pour mettre fin à l'état d'impureté légale (ghusl al-janāba)"
+      }
+    ]
+  },
+  {
+    "title": "73 - L'ARMÉE",
+    "subparts": [
+      {
+        "title": "358 - L'armée"
+      },
+      {
+        "title": "359 - Les soldats d'Allah"
+      }
+    ]
+  },
+  {
+    "title": "74 - LE PARADIS",
+    "subparts": [
+      {
+        "title": "360 - Encourager l'aspiration au Paradis"
+      },
+      {
+        "title": "361 - Votre âme n'a de prix que le Paradis"
+      },
+      {
+        "title": "362 - Le prix du Paradis"
+      },
+      {
+        "title": "363 - Les exigences pour entrer au Paradis"
+      },
+      {
+        "title": "364 - Le chemin du Paradis est semé d'épreuves"
+      },
+      {
+        "title": "365 - Ceux à qui le Paradis est garanti"
+      },
+      {
+        "title": "366 - Celui à qui l'entrée au Paradis est interdite"
+      },
+      {
+        "title": "367 - Les portes du Paradis"
+      },
+      {
+        "title": "368 - Les rangs au Paradis"
+      },
+      {
+        "title": "369 - Le premier à entrer au Paradis"
+      },
+      {
+        "title": "370 - Les maîtres des gens du Paradis"
+      },
+      {
+        "title": "371 - Le caractère inclusif du Paradis"
+      }
+    ]
+  },
+  {
+    "title": "75 - LA FOLIE",
+    "subparts": [
+      {
+        "title": "372 - Les différentes sortes de folie"
+      },
+      {
+        "title": "373 - Le vrai fou"
+      }
+    ]
+  },
+  {
+    "title": "76 - LE JIHĀD (1) LE PETIT JIHĀD",
+    "subparts": [
+      {
+        "title": "374 - L'incitation au [petit] jihād"
+      },
+      {
+        "title": "375 - Celui qui lutte"
+      },
+      {
+        "title": "376 - L'aide à ceux qui luttent et le blâme de ceux qui les importunent"
+      },
+      {
+        "title": "377 - L'ordre de faire le jihād avec les mains, la langue et le cœur"
+      },
+      {
+        "title": "378 - L'abandon du jihād"
+      },
+      {
+        "title": "379 - Les branches du jihād"
+      },
+      {
+        "title": "380 - La surveillance des frontières"
+      },
+      {
+        "title": "381 - La vertu de la garde"
+      }
+    ]
+  },
+  {
+    "title": "77 - LE JIHĀD (2) LE GRAND JIHĀD",
+    "subparts": [
+      {
+        "title": "382 - Les différents jihād"
+      },
+      {
+        "title": "383 - L'incitation à lutter contre sa propre personne"
+      },
+      {
+        "title": "384 - Le plus grand jihād"
+      },
+      {
+        "title": "385 - Ce qu'il faut faire pour lutter contre sa propre personne"
+      },
+      {
+        "title": "386 - Le fruit de la lutte"
+      }
+    ]
+  },
+  {
+    "title": "78 - LE JIHĀD (3) L'EFFORT DANS L'OBÉISSANCE À ALLAH",
+    "subparts": [
+      {
+        "title": "387 - L'incitation à l'effort dans l'obéissance à Allah"
+      },
+      {
+        "title": "388 - La personne qui déploie le plus d'efforts"
+      }
+    ]
+  },
+  {
+    "title": "79 - L'IGNORANCE",
+    "subparts": [
+      {
+        "title": "389 - Le blâme de l'ignorance"
+      },
+      {
+        "title": "390 - Les signes caractéristiques de l'ignorant"
+      },
+      {
+        "title": "391 - La plus ignorante des personnes"
+      },
+      {
+        "title": "392 - Ce qui suffit pour être considéré ignorant"
+      },
+      {
+        "title": "393 - L'explication de l'ignorance"
+      },
+      {
+        "title": "394 - L'être humain est l'ennemi de ce qu'il ignore"
+      }
+    ]
+  },
+  {
+    "title": "80 - L'ENFER",
+    "subparts": [
+      {
+        "title": "395 - Mise en garde contre l'Enfer"
+      },
+      {
+        "title": "396 - Le combustible de l'Enfer"
+      },
+      {
+        "title": "397 - Les chaînes de l'Enfer et ses carcans"
+      },
+      {
+        "title": "398 - Le vêtement des gens de l'Enfer"
+      },
+      {
+        "title": "399 - La nourriture des gens en Enfer"
+      },
+      {
+        "title": "400 - La boisson des gens de l'Enfer"
+      },
+      {
+        "title": "401 - Les premières personnes à entrer en Enfer"
+      },
+      {
+        "title": "402 - Les personnes les moins châtiées"
+      },
+      {
+        "title": "403 - Les personnes les plus châtiées"
+      },
+      {
+        "title": "404 - La vallée des arrogants"
+      },
+      {
+        "title": "405 - Ceux qui persisteront éternellement en Enfer"
+      },
+      {
+        "title": "406 - Ceux qui sortiront de l'Enfer"
+      },
+      {
+        "title": "407 - La raison de l'éternité"
+      }
+    ]
+  },
+  {
+    "title": "81 - LA RÉPONSE",
+    "subparts": [
+      {
+        "title": "408 - La réponse"
+      }
+    ]
+  },
+  {
+    "title": "82 - LA GÉNÉROSITÉ",
+    "subparts": [
+      {
+        "title": "409 - L'incitation à la générosité"
+      },
+      {
+        "title": "410 - La meilleure générosité"
+      },
+      {
+        "title": "411 - Les attributs de la personne généreuse"
+      }
+    ]
+  },
+  {
+    "title": "83 - LE VOISIN",
+    "subparts": [
+      {
+        "title": "412 - Le bon voisinage"
+      },
+      {
+        "title": "413 - Nuire à son voisin"
+      },
+      {
+        "title": "414 - S'enquérir de son voisin"
+      },
+      {
+        "title": "415 - Les droits du voisin"
+      },
+      {
+        "title": "416 - Les limites du voisinage"
+      }
+    ]
+  },
+  {
+    "title": "84 - L'AMOUR",
+    "subparts": [
+      {
+        "title": "417 - L'affection est une parenté"
+      },
+      {
+        "title": "418 - Ce qui suscite l'amour"
+      },
+      {
+        "title": "419 - Celui envers qui il ne faut pas avoir d'affection"
+      },
+      {
+        "title": "420 - L'amour [pour les choses de ce monde] empêche la connaissance [de la vérité]"
+      },
+      {
+        "title": "421 - Le signe de l'amour"
+      },
+      {
+        "title": "422 - L'amour ardent des croyants pour Allah"
+      },
+      {
+        "title": "423 - Ce qui suscite l'amour d'Allah"
+      },
+      {
+        "title": "424 - Ceux qui sont aimés par Allah"
+      },
+      {
+        "title": "425 - Les personnes détestées par Allah"
+      },
+      {
+        "title": "426 - Les personnes les plus aimées d'Allah"
+      },
+      {
+        "title": "427 - L'effet de l'amour d'Allah sur Ses créatures"
+      },
+      {
+        "title": "428 - Le critère de la considération auprès d'Allah"
+      },
+      {
+        "title": "429 - Le signe de l'amour de l'homme pour Allah"
+      },
+      {
+        "title": "430 - La plus grande considération"
+      },
+      {
+        "title": "431 - L'impossibilité de concilier l'amour d'Allah avec l'amour de ce monde"
+      },
+      {
+        "title": "432 - L'incitation à l'amour d'Allah"
+      },
+      {
+        "title": "433 - Aimer pour Allah"
+      },
+      {
+        "title": "434 - L'amour pour le Prophète (s) et les Gens de sa demeure (as)"
+      },
+      {
+        "title": "435 - Les conditions de l'amour des Gens de la demeure prophétique (as)"
+      },
+      {
+        "title": "436 - La sincérité de l'amour"
+      },
+      {
+        "title": "437 - L'homme est avec ceux qu'il aime"
+      }
+    ]
+  },
+  {
+    "title": "85 - L'EMPRISONNEMENT",
+    "subparts": [
+      {
+        "title": "438 - Les personnes qui peuvent être emprisonnées"
+      },
+      {
+        "title": "439 - L'emprisonnement du garant jusqu'à l'arrivée de celui dont il est le garant"
+      },
+      {
+        "title": "440 - Celui qui est emprisonné à vie"
+      },
+      {
+        "title": "441 - L'emprisonnement après l'application de la sentence et la reconnaissance de la vérité"
+      },
+      {
+        "title": "442 - Les droits du prisonnier"
+      },
+      {
+        "title": "443 - L'avis du Prophète (s) concernant l'emprisonnement des suspects"
+      }
+    ]
+  },
+  {
+    "title": "86 - LE VOILE (ḤIJĀB)",
+    "subparts": [
+      {
+        "title": "444 - Le voile"
+      }
+    ]
+  },
+  {
+    "title": "87 - LE PÈLERINAGE OBLIGATOIRE (ḤAJJ)",
+    "subparts": [
+      {
+        "title": "445 - Les règles du pèlerinage et sa vertu"
+      },
+      {
+        "title": "446 - La philosophie du pèlerinage"
+      },
+      {
+        "title": "447 - Le pèlerinage repousse la pauvreté"
+      },
+      {
+        "title": "448 - Ce par quoi s'achève le pèlerinage"
+      },
+      {
+        "title": "449 - Les conséquences de l'abandon du pèlerinage"
+      },
+      {
+        "title": "450 - Déserter [le pèlerinage] à la Demeure"
+      },
+      {
+        "title": "451 - Comme les criards sont nombreux et les [vrais] pèlerins rares"
+      },
+      {
+        "title": "452 - Le bon comportement du pèlerin"
+      },
+      {
+        "title": "453 - Les règles liées à l'état de sacralité (iḥrām)"
+      },
+      {
+        "title": "454 - La rétribution de celui qui meurt sur le chemin du pèlerinage"
+      },
+      {
+        "title": "455 - La présence de l'Imām occulté durant la saison [du pèlerinage]"
+      }
+    ]
+  },
+  {
+    "title": "88 - L'ARGUMENT",
+    "subparts": [
+      {
+        "title": "456 - Etablir l'argument"
+      },
+      {
+        "title": "457 - A Allah appartient l'argument décisif"
+      },
+      {
+        "title": "458 - Le plus certain et décisif des arguments"
+      }
+    ]
+  },
+  {
+    "title": "89 - LE ḤADĪTH",
+    "subparts": [
+      {
+        "title": "459 - La valeur du fait de recueillir des ḥadīth"
+      },
+      {
+        "title": "460 - Le mérite du narrateur de ḥadīth"
+      },
+      {
+        "title": "461 - La récompense de celui qui a mémorisé quarante ḥadīth"
+      },
+      {
+        "title": "462 - La compréhension du ḥadīth"
+      },
+      {
+        "title": "463 - Mise en garde contre le mensonge vis-à-vis du Prophète (s)"
+      },
+      {
+        "title": "464 - L'interdiction de considérer comme un mensonge ce dont le caractère mensonger n'est pas avéré"
+      },
+      {
+        "title": "465 - L'authenticité du ḥadīth et sa correspondance avec le Coran"
+      },
+      {
+        "title": "466 - L'authenticité du ḥadīth et sa correspondance avec la nature primordiale divine de l'homme"
+      },
+      {
+        "title": "467 - L'authenticité du ḥadīth et sa correspondance avec la vérité"
+      },
+      {
+        "title": "468 - La permission de transmettre un ḥadīth par sa signification"
+      },
+      {
+        "title": "469 - Ce qu'il faut respecter dans la transmission du ḥadīth"
+      },
+      {
+        "title": "470 - Le ḥadīth des Gens de la demeure prophétique (Ahl al-Bayt) (as) est le ḥadīth du Messager d'Allah (s)"
+      },
+      {
+        "title": "471 - La globalité du Livre et de la sunna"
+      },
+      {
+        "title": "472 - Les ḥadīth équivoques"
+      }
+    ]
+  },
+  {
+    "title": "90 - LES LIMITES ET LES PEINES LÉGALES (AL-ḤUDŪD)",
+    "subparts": [
+      {
+        "title": "473 - Toute chose a une limite"
+      },
+      {
+        "title": "474 - Epargnez les peines légales"
+      },
+      {
+        "title": "475 - Le maintien des peines légales"
+      },
+      {
+        "title": "476 - Nulle intercession, nulle caution et nul serment dans les peines légales"
+      },
+      {
+        "title": "477 - L'interdiction d'ajourner des peines légales"
+      },
+      {
+        "title": "478 - L'interdiction de transgresser les limites établies par Allah"
+      },
+      {
+        "title": "479 - L'application de la peine légale sur une terre ennemie"
+      },
+      {
+        "title": "480 - Le rôle de l'application des peines légales dans l'expiation du péché"
+      },
+      {
+        "title": "481 - L'interdiction d'insulter la personne sujette à une peine légale"
+      },
+      {
+        "title": "482 - Les personnes exemptées de peines légales"
+      }
+    ]
+  },
+  {
+    "title": "91 - LA GUERRE",
+    "subparts": [
+      {
+        "title": "483 - Les motifs de la guerre"
+      },
+      {
+        "title": "484 - Surprendre l'ennemi"
+      },
+      {
+        "title": "485 - Ce qu'il faut observer avant la guerre"
+      },
+      {
+        "title": "486 - L'avant-garde de l'armée"
+      },
+      {
+        "title": "487 - Instructions militaires"
+      },
+      {
+        "title": "488 - La guerre est une ruse"
+      },
+      {
+        "title": "489 - L'interdiction de fuir lors du combat"
+      },
+      {
+        "title": "490 - Mise en garde contre le fait de combattre un musulman"
+      },
+      {
+        "title": "491 - L'invocation lors de la guerre"
+      },
+      {
+        "title": "492 - La participation des femmes à la guerre"
+      }
+    ]
+  },
+  {
+    "title": "92 - LE BELLICISTE",
+    "subparts": [
+      {
+        "title": "493 - La punition du belliciste"
+      }
+    ]
+  },
+  {
+    "title": "93 - LA LIBERTÉ",
+    "subparts": [
+      {
+        "title": "494 - L'importance de la liberté"
+      },
+      {
+        "title": "495 - Tous les êtres humains sont libres"
+      },
+      {
+        "title": "496 - Les traits caractéristiques de l'homme libre"
+      }
+    ]
+  },
+  {
+    "title": "94 - LA CONVOITISE",
+    "subparts": [
+      {
+        "title": "497 - Le blâme de la convoitise"
+      },
+      {
+        "title": "498 - Le blâme de la personne qui convoite"
+      },
+      {
+        "title": "499 - La source de la convoitise"
+      }
+    ]
+  },
+  {
+    "title": "95 - LA PROFESSION",
+    "subparts": [
+      {
+        "title": "500 - L'importance de la profession"
+      }
+    ]
+  },
+  {
+    "title": "96 - L'ILLICITE (ḤARĀM)",
+    "subparts": [
+      {
+        "title": "501 - Eviter l'illicite"
+      },
+      {
+        "title": "502 - Consommer l'illicite"
+      },
+      {
+        "title": "503 - La rétribution de celui qui peut commettre l'illicite et qui s'en éloigne"
+      }
+    ]
+  },
+  {
+    "title": "97 - LE PARTI",
+    "subparts": [
+      {
+        "title": "504 - Le parti d'Allah"
+      },
+      {
+        "title": "505 - Le parti du Diable"
+      }
+    ]
+  },
+  {
+    "title": "98 - LA PRUDENCE",
+    "subparts": [
+      {
+        "title": "506 - La valeur de la prudence"
+      },
+      {
+        "title": "507 - Le danger de ne pas considérer les conséquences des choses"
+      },
+      {
+        "title": "508 - La prudence et la détermination"
+      },
+      {
+        "title": "509 - La signification de la prudence"
+      },
+      {
+        "title": "510 - La personne prudente"
+      },
+      {
+        "title": "511 - La plus prudente des personnes"
+      }
+    ]
+  },
+  {
+    "title": "99 - LE CHAGRIN",
+    "subparts": [
+      {
+        "title": "512 - Les préjudices du chagrin"
+      },
+      {
+        "title": "513 - Ce qui suscite le chagrin"
+      },
+      {
+        "title": "514 - Le traitement du chagrin"
+      },
+      {
+        "title": "515 - La cause du chagrin et de la joie sans raison connue"
+      },
+      {
+        "title": "516 - Le chagrin louable"
+      }
+    ]
+  },
+  {
+    "title": "100 - LES COMPTES",
+    "subparts": [
+      {
+        "title": "517 - Le Jour des comptes"
+      },
+      {
+        "title": "518 - Incitation à procéder à l'examen de sa personne"
+      },
+      {
+        "title": "519 - Le fruit de l'examen de soi"
+      },
+      {
+        "title": "520 - La première chose au sujet de laquelle l'être humain sera interrogé"
+      },
+      {
+        "title": "521 - Les choses qui ne seront pas l'objet de comptes"
+      },
+      {
+        "title": "522 - Les choses qui seront l'objet de comptes"
+      },
+      {
+        "title": "523 - Ce qui facilitera les comptes du Jour du Jugement"
+      },
+      {
+        "title": "524 - Les différentes catégories de gens durant les comptes"
+      },
+      {
+        "title": "525 - Les comptes difficiles"
+      },
+      {
+        "title": "526 - Celui dont on dressera facilement les comptes"
+      },
+      {
+        "title": "527 - Celui qui accèdera au Paradis sans que l'on ait dressé ses comptes"
+      },
+      {
+        "title": "528 - Celui qui ira en Enfer sans que l'on ait dressé ses comptes"
+      }
+    ]
+  },
+  {
+    "title": "101 - LA JALOUSIE",
+    "subparts": [
+      {
+        "title": "529 - La nuisance de la jalousie"
+      },
+      {
+        "title": "530 - Toute personne étant l'objet de grâces est jalousée"
+      },
+      {
+        "title": "531 - La jalousie et la foi"
+      },
+      {
+        "title": "532 - Les signes caractéristiques du jaloux"
+      }
+    ]
+  },
+  {
+    "title": "102 - LE REGRET",
+    "subparts": [
+      {
+        "title": "533 - La personne qui a le plus grand regret"
       }
     ]
   }
