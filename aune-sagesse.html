@@ -167,8 +167,10 @@ function renderSommaire() {
     let subpartsHtml = '';
     
     if (part.content) {
-      if (Array.isArray(part.content)) {
-        let pagesHtml = part.content.map((page, i) => `
+      const pages = paginateContent(part.content);
+      
+      if (pages.length > 1) {
+        let pagesHtml = pages.map((page, i) => `
           <div id="slide-${partIndex}-${i}" class="content-slide" style="display: ${i === 0 ? 'block' : 'none'}; animation: fadeIn 0.4s ease;">
              ${page}
           </div>
@@ -176,9 +178,9 @@ function renderSommaire() {
         
         let paginationNav = `
           <div class="slide-nav" style="display: flex; justify-content: space-between; align-items: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(201,168,76,0.2);">
-            <button onclick="changeSlide(${partIndex}, -1, ${part.content.length}, event)" class="nav-btn prev-btn" id="btn-prev-${partIndex}" style="visibility: hidden;">&larr; Précédent</button>
-            <span id="slide-counter-${partIndex}" style="color: var(--text-color); font-weight: 500; font-size: 0.9em;">Page 1 sur ${part.content.length}</span>
-            <button onclick="changeSlide(${partIndex}, 1, ${part.content.length}, event)" class="nav-btn next-btn" id="btn-next-${partIndex}">Suivant &rarr;</button>
+            <button onclick="changeSlide(${partIndex}, -1, ${pages.length}, event)" class="nav-btn prev-btn" id="btn-prev-${partIndex}" style="visibility: hidden;">&larr; Précédent</button>
+            <span id="slide-counter-${partIndex}" style="color: var(--text-color); font-weight: 500; font-size: 0.9em;">Page 1 sur ${pages.length}</span>
+            <button onclick="changeSlide(${partIndex}, 1, ${pages.length}, event)" class="nav-btn next-btn" id="btn-next-${partIndex}">Suivant &rarr;</button>
           </div>
         `;
         
@@ -189,7 +191,7 @@ function renderSommaire() {
           </div>
         `;
       } else {
-        subpartsHtml = `<div class="subpart-item" style="border: none; background: transparent; box-shadow: none; padding: 0;">${part.content}</div>`;
+        subpartsHtml = `<div class="subpart-item" style="border: none; background: transparent; box-shadow: none; padding: 0;">${pages[0] || part.content}</div>`;
       }
     } else if (part.subparts && part.subparts.length > 0) {
       part.subparts.forEach((sub, subIndex) => {
@@ -234,6 +236,117 @@ function renderSommaire() {
   container.innerHTML = html;
 }
 
+function paginateContent(htmlStr) {
+  if (Array.isArray(htmlStr)) {
+    htmlStr = htmlStr.join('\\n');
+  }
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = htmlStr;
+  
+  let workContainer = tempDiv;
+  let wrapperTag = '';
+  let wrapperStyle = '';
+  let wrapperClass = '';
+  
+  if (tempDiv.children.length === 1 && tempDiv.firstElementChild.tagName === 'DIV') {
+     workContainer = tempDiv.firstElementChild;
+     wrapperTag = 'div';
+     wrapperStyle = workContainer.getAttribute('style') || '';
+     wrapperClass = workContainer.getAttribute('class') || '';
+  }
+  
+  const footnotesMap = new Map();
+  const hrs = workContainer.querySelectorAll('hr');
+  let footnotesContainer = null;
+  if (hrs.length > 0) {
+     const lastHr = hrs[hrs.length - 1];
+     let nextSib = lastHr.nextElementSibling;
+     // Sometime the footnote container is next, or after a text node
+     while (nextSib && nextSib.tagName !== 'DIV') {
+       nextSib = nextSib.nextElementSibling;
+     }
+     if (nextSib && nextSib.tagName === 'DIV' && nextSib.innerHTML.includes('<p>1-')) {
+       footnotesContainer = nextSib;
+       lastHr.remove();
+     }
+  }
+  
+  if (footnotesContainer) {
+     const notes = footnotesContainer.querySelectorAll('p');
+     notes.forEach(note => {
+        const text = note.innerText || note.textContent;
+        const match = text.trim().match(/^(\d+)-/);
+        if (match) {
+           footnotesMap.set(match[1], note.outerHTML);
+        }
+     });
+     footnotesContainer.remove();
+  }
+  
+  const children = Array.from(workContainer.children);
+  const pages = [];
+  let currentPage = document.createElement('div');
+  let currentLength = 0;
+  let pageFootnotesNeeded = new Set();
+  const CHUNK_SIZE = 2500;
+  
+  children.forEach(child => {
+     if (!child.textContent.trim() && child.tagName !== 'BR' && child.tagName !== 'HR') return;
+     
+     currentPage.appendChild(child.cloneNode(true));
+     currentLength += child.outerHTML.length;
+     
+     const sups = child.querySelectorAll ? child.querySelectorAll('sup') : [];
+     sups.forEach(sup => {
+        const num = sup.textContent.trim();
+        if (footnotesMap.has(num)) {
+           pageFootnotesNeeded.add(num);
+        }
+     });
+     
+     if (currentLength > CHUNK_SIZE) {
+        if (pageFootnotesNeeded.size > 0) {
+           const fnDiv = document.createElement('div');
+           fnDiv.style.cssText = "font-size: 0.85em; margin-top: 30px; padding-top: 15px; border-top: 1px solid rgba(201,168,76,0.3); color: var(--text-color); opacity: 0.8;";
+           const sortedNotes = Array.from(pageFootnotesNeeded).sort((a,b)=>parseInt(a)-parseInt(b));
+           sortedNotes.forEach(num => {
+              fnDiv.innerHTML += footnotesMap.get(num);
+           });
+           currentPage.appendChild(fnDiv);
+        }
+        
+        let finalHtml = currentPage.innerHTML;
+        if (wrapperTag) {
+           finalHtml = \`<\${wrapperTag} class="\${wrapperClass}" style="\${wrapperStyle}">\${finalHtml}</\${wrapperTag}>\`;
+        }
+        pages.push(finalHtml);
+        
+        currentPage = document.createElement('div');
+        currentLength = 0;
+        pageFootnotesNeeded = new Set();
+     }
+  });
+  
+  if (currentPage.children.length > 0) {
+        if (pageFootnotesNeeded.size > 0) {
+           const fnDiv = document.createElement('div');
+           fnDiv.style.cssText = "font-size: 0.85em; margin-top: 30px; padding-top: 15px; border-top: 1px solid rgba(201,168,76,0.3); color: var(--text-color); opacity: 0.8;";
+           const sortedNotes = Array.from(pageFootnotesNeeded).sort((a,b)=>parseInt(a)-parseInt(b));
+           sortedNotes.forEach(num => {
+              fnDiv.innerHTML += footnotesMap.get(num);
+           });
+           currentPage.appendChild(fnDiv);
+        }
+        let finalHtml = currentPage.innerHTML;
+        if (wrapperTag) {
+           finalHtml = \`<\${wrapperTag} class="\${wrapperClass}" style="\${wrapperStyle}">\${finalHtml}</\${wrapperTag}>\`;
+        }
+        pages.push(finalHtml);
+  }
+  
+  return pages;
+}
+
 let currentSlideState = {};
 
 function changeSlide(partIndex, dir, total, event) {
@@ -252,7 +365,6 @@ function changeSlide(partIndex, dir, total, event) {
      document.getElementById(`btn-prev-${partIndex}`).style.visibility = next > 0 ? 'visible' : 'hidden';
      document.getElementById(`btn-next-${partIndex}`).style.visibility = next < total - 1 ? 'visible' : 'hidden';
      
-     // Scroll to top of the part
      const targetCard = document.getElementById('part-' + (partIndex + 1));
      if (targetCard) {
         targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
