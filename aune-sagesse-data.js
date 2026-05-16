@@ -1638,35 +1638,147 @@ const AUNE_SAGESSE = [
                     {
                         "id": "308",
                         "text": "L'Imām 'Alī (as) a dit : N'exécute l'ordre d'Allah - loué soit-Il - que celui qui ne fait pas preuve de complaisance [ne peut être soudoyé], qui ne fait aucune concession, et qui ne poursuit pas ses propres convoitises.<sup>343</sup>"
+                    },
+                    {
+                        "id": "309",
+                        "text": "L'Imām 'Alī (as) a dit : Parmi les caractéristiques les plus importantes de l'Imām à qui l'on doit obéissance et allégeance est qu'il soit connu en tant qu'exempt de toute faute, faux pas, péché intentionnel, ainsi que de tout péché, petit ou grand. Il ne se méprend pas, ne se trompe pas, n'est pas distrait par une chose nuisant à la religion ou par toute autre distraction. Il est le plus savant au sujet des prescriptions d'Allah concernant ce qui est licite et illicite, ainsi qu'au sujet de Ses obligations, de Ses traditions et de Ses lois. Il est indépendant des autres alors que les autres ont besoin de lui. Il est la plus généreuse des personnes et la plus courageuse.<sup>344</sup>"
+                    },
+                    {
+                        "id": "310",
+                        "text": "L'Imām 'Alī (as) a dit : Vous savez que celui qui est chargé du règlement des affaires concernant l'intimité, les vies, les gains, les commandements ainsi que la direction des musulmans ne doit pas être avare, car il sera attiré par leur fortune ; ni un ignorant, car il les égarera par son ignorance ; ni un impitoyable, car il les privera de leurs besoins [c'est-à-dire que de par la crainte qu'il inspire, les gens n'auront pas recours à lui pour répondre à leurs besoins] ; ni un injuste dans la répartition des biens publics, ni un corrupteur qui accepte d'être soudoyé pour un jugement et qui néglige le droit, ni celui qui n'applique pas la <i>sunna</i> (tradition) et causera la perte de l'<i>umma</i> (communauté des croyants).<sup>345</sup>"
+                    },
+                    {
+                        "id": "311",
+                        "text": "L'Imām Ḥusayn (as) a écrit dans sa lettre aux gens de Kūfa : Par ma vie, n'est vraiment Imām que celui qui gouverne par le Livre, qui maintient la justice, qui professe la religion véridique et qui se contrôle pour Allah.<sup>346</sup>"
+                    },
+                    {
+                        "id": "312",
+                        "text": "L'Imām al-Bāqir (as) a dit en exposant les traits de l'Imām : La pureté [légitimité] de la naissance, une éducation droite et juste, et le fait de rester à l'écart des distractions et divertissements.<sup>347</sup>"
+                    },
+                    {
+                        "id": "313",
+                        "text": "L'Imām al-Riḍā (as) a dit en décrivant l'Imām : Il doit être capable de diriger et être éclairé dans la politique.<sup>348</sup>"
                     }
                 ]
             },
             {
-                "title": "98 - Ce qui a été ordonné aux Imāms justes"
+                "title": "98 - Ce qui a été ordonné aux Imāms justes",
+                "hadiths": [
+                    {
+                        "id": "314",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, Allah a fait de moi un Imām pour Sa création. Il m'a astreint à faire que ma personne, ma nourriture, ma boisson et mes vêtements soient comme ceux des faibles [de la communauté] afin que les pauvres me suivent dans ma pauvreté et que la richesse des riches ne soit pas un moyen d'intimidation.<sup>349</sup>"
+                    },
+                    {
+                        "id": "315",
+                        "text": "L'Imām 'Alī (as) a dit : L'Imām n'a d'autre obligation que [d'appliquer] ce dont le Seigneur l'a chargé : la transmission d'exhortation, l'effort pour prodiguer de [bons] conseils, raviver la <i>sunna</i>, appliquer les lois divines face à ceux qui le méritent, et faire parvenir à chacun la part [du trésor public] qui lui revient.<sup>350</sup>"
+                    }
+                ]
             },
             {
-                "title": "99 - Les droits et devoirs réciproques entre l'Imām et la communauté"
+                "title": "99 - Les droits et devoirs réciproques entre l'Imām et la communauté",
+                "hadiths": [
+                    {
+                        "id": "316",
+                        "text": "L'Imām 'Alī (as) a dit : Le devoir de l'Imām est de gouverner selon ce qu'Allah a révélé et il doit restituer les dépôts. S'il agit ainsi, le devoir des gens est de l'écouter, de lui obéir et de lui répondre s'il fait appel à eux.<sup>351</sup>"
+                    },
+                    {
+                        "id": "317",
+                        "text": "L'Imām 'Alī (as) a dit : Ainsi, il est du devoir du gouverneur de ne pas changer son comportement vis-à-vis de ses sujets lorsqu'une grâce l'atteint ou lorsqu'il bénéficie d'une richesse. Il faut que les grâces dont Allah l'a comblé le rapprochent de ses serviteurs et le rendent compatissant envers ses frères. Parmi mes devoirs envers vous figure celui que je ne vous cache rien si ce n'est en temps de guerre, que je n'agisse pas sans vous consulter sauf en ce qui concerne les commandements [de la religion], que je vous donne ce qui vous revient sans retard et sans m'arrêter avant de l'avoir complètement accompli, et que je vous considère comme égaux en droits. Si je m'astreins à cela, les bienfaits d'Allah vous seront indubitablement accordés et vous me devrez obéissance.<sup>352</sup>"
+                    }
+                ]
             },
             {
-                "title": "100 - Vos Imāms sont vos délégués"
+                "title": "100 - Vos Imāms sont vos délégués",
+                "hadiths": [
+                    {
+                        "id": "318",
+                        "text": "Le Messager d'Allah (s) a dit : Vos Imāms sont vos délégués auprès d'Allah ; dès lors, considérez [attentivement] qui vous déléguez [et suivez] pour votre foi et votre prière.<sup>353</sup>"
+                    },
+                    {
+                        "id": "319",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, vos Imāms sont vos guides vers Allah ; dès lors, considérez [attentivement] qui vous suivez dans votre religion et vos prières.<sup>354</sup>"
+                    }
+                ]
             },
             {
-                "title": "101 - Celui qui accepte la gouvernance d'un Imam illégitime"
+                "title": "101 - Celui qui accepte la gouvernance d'un Imam illégitime",
+                "hadiths": [
+                    {
+                        "id": "320",
+                        "text": "L'Imām al-Bāqir (as) a dit : Allah le Béni et le Très-Haut a dit : Je châtierai tout groupe musulman qui accepte la gouvernance d'un Imām injuste qui n'est pas d'Allah.<sup>355</sup>"
+                    },
+                    {
+                        "id": "321",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui associe l'Imām dont l'Imāmat provient d'Allah à un autre Imām dont l'Imāmat ne provient pas d'Allah aura commis le péché de l'associationnisme.<sup>356</sup>"
+                    },
+                    {
+                        "id": "322",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les bonnes actions des fidèles qui se sont alliés à un Imām illégitime non désigné par Allah le Très-Haut ne seront pas acceptées.<sup>357</sup>"
+                    }
+                ]
             },
             {
-                "title": "102 - Les dirigeants de l'Enfer"
+                "title": "102 - Les dirigeants de l'Enfer",
+                "intro": "<i>«Nous fîmes d'eux des dirigeants [a'imma] qui appellent les gens au Feu.»</i><sup>358</sup>",
+                "hadiths": [
+                    {
+                        "id": "323",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la pire personne auprès d'Allah est un dirigeant (<i>imām</i>) injuste qui est égaré et qui égare, car il abroge la tradition (<i>sunna</i>) appliquée et ravive l'hérésie abandonnée. J'ai entendu le Messager d'Allah (s) dire : «Le Jour de la Résurrection, l'Imām injuste sera amené seul, sans allié et sans excuse. Il sera jeté dans le feu de l'Enfer, y tournera tel un moulin, puis demeurera en son fond.»<sup>359</sup>"
+                    }
+                ]
             },
             {
-                "title": "103 - Les faux prétendants à l'Imāmat"
+                "title": "103 - Les faux prétendants à l'Imāmat",
+                "hadiths": [
+                    {
+                        "id": "324",
+                        "text": "L'Imām al-Bāqir (as) a dit en commentant la parole d'Allah <i>«Au Jour de la Résurrection, tu verras les visages de ceux qui mentaient sur Allah, assombris»</i><sup>360</sup> : Ce sont ceux qui ont dit : «Je suis Imām» alors qu'ils n'étaient pas Imām.<sup>361</sup>"
+                    },
+                    {
+                        "id": "325",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui a prétendu à l'Imāmat sans en avoir la légitimité est un mécréant.<sup>362</sup>"
+                    }
+                ]
             },
             {
-                "title": "104 - Nulle obéissance à celui qui n'obéit pas à Allah"
+                "title": "104 - Nulle obéissance à celui qui n'obéit pas à Allah",
+                "intro": "<i>«Et ils dirent : «Seigneur ! Nous avons obéi à nos chefs et à nos grands. Ce sont eux qui nous ont égarés du Sentier».»</i><sup>363</sup>",
+                "hadiths": [
+                    {
+                        "id": "326",
+                        "text": "Le Messager d'Allah (s) a dit : Pas d'obéissance à celui qui n'obéit pas à Allah.<sup>364</sup>"
+                    },
+                    {
+                        "id": "327",
+                        "text": "Le Messager d'Allah (s) a dit : ô 'Alī ! Parmi les quatre choses qui brisent le dos figurent un Imām qui désobéit à Allah et dont les ordres sont obéis...<sup>365</sup>"
+                    },
+                    {
+                        "id": "328",
+                        "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) a un jour levé une armée en mettant à sa tête un homme. Il ordonna aux soldats de l'écouter et de lui obéir. Ce dernier alluma un feu et demanda à ses subordonnés de se précipiter dedans. Une partie d'entre eux refusa et dit : «Nous voulions justement éviter le feu.» Un autre groupe accepta d'y aller. Quand ce récit parvint au Prophète (s), il dit [au sujet de ceux qui avaient refusé de se jeter dans le feu] : «S'ils y étaient allés, ils y seraient restés définitivement.» Il ajouta : «Il ne faut pas obéir [à celui qui appelle à] la désobéissance à Allah ; en vérité, l'obéissance doit être [lorsque l'on appelle] au bien.»<sup>366</sup>"
+                    }
+                ]
             },
             {
-                "title": "105 - L'obligation de se révolter contre les dirigeants tyranniques"
+                "title": "105 - L'obligation de se révolter contre les dirigeants tyranniques",
+                "hadiths": [
+                    {
+                        "id": "329",
+                        "text": "<i>Al-Durr al-Manthūr</i> : Le Messager d'Allah (s) a dit : La meule de l'islam viendra bientôt à tourner ; là où ira le Coran suivez-le, car viendra une époque où le gouverneur et le Coran se combattront et se sépareront. Vous serez gouvernés par des rois qui vous dirigeront d'une certaine manière et appliqueront d'autres lois pour eux-mêmes. Si vous leur obéissez, ils vous égareront et si vous leur désobéissez, ils vous tueront. Quelqu'un demanda : «Ô Messager d'Allah ! Comment devrons-nous agir si nous assistons à cela ?» Il (s) répondit : «[Agissez] comme les apôtres de Jésus, qui furent découpés avec la scie et portés sur des croix. La mort en état d'obéissance [à Allah] est meilleure que la vie dans la désobéissance.»<sup>367</sup>"
+                    }
+                ]
             },
             {
-                "title": "106 - Ce qui autorise à ne pas se révolter"
+                "title": "106 - Ce qui autorise à ne pas se révolter",
+                "hadiths": [
+                    {
+                        "id": "330",
+                        "text": "L'Imām al-Bāqir (as) a dit : Si se rallie à l'Imām (as) un nombre équivalent au nombre des hommes présents lors de la bataille de Badr, soit trois-cent treize, il sera obligé de se soulever [contre le dirigeant illégitime] et de changer la situation.<sup>368</sup>"
+                    },
+                    {
+                        "id": "331",
+                        "text": "<i>Al-Kāfī</i> : L'Imām al-Ṣādiq (as) a dit à Sadīr : «Par Allah, ô Sadīr, si j'avais des partisans au nombre de ces chevreaux, j'aurais été incapable de rester assis [de ne pas me révolter].» [Sadīr rapporte :] Nous avons mis pied à terre et prié. Après notre prière, je me suis dirigé vers les chevreaux et je les ai comptés : il y en avait [seulement] dix-sept.<sup>369</sup>"
+                    }
+                ]
             },
             {
                 "title": "107 - L'élection de l'Imām"
@@ -1745,10 +1857,30 @@ const AUNE_SAGESSE = [
                 "title": "128 - Les noms de Fāṭima (as)"
             },
             {
-                "title": "129 - Fāṭima (as) est une partie du Prophète (s)"
+                "title": "129 - Fāṭima (as) est une partie du Prophète (s)",
+                "content": [
+                    {
+                        "number": "421",
+                        "text": "Le Messager d'Allah (s) a dit : Ô Allah, je l'aime, alors Toi aussi aime-le et aime ceux qui l'aiment.<span class=\"footnote-ref\">466</span>"
+                    }
+                ]
             },
             {
-                "title": "130 - Fāṭima (as) est la maîtresse des femmes des deux mondes"
+                "title": "130 - Fāṭima (as) est la maîtresse des femmes des deux mondes",
+                "content": [
+                    {
+                        "number": "422",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, Ḥasan ibn 'Alī ibn Abī Ṭālib (as) était le plus dévots des gens de son époque, le plus renonçant [à la vie de ce monde], et le meilleur parmi eux. Lorsqu'il accomplissait son pèlerinage [à La Mecque] (<em>ḥajj</em>), il s'y rendait à pied, et parfois même pieds nus. Lorsque la mort était évoquée, il pleurait. Lorsque la tombe était évoquée, il pleurait. Lorsque la Résurrection et le Jour du Jugement dernier étaient évoqués, il pleurait. Lorsque le pont <em>ṣirāṭ</em> était évoqué, il pleurait. Lorsque le passage devant Allah le Très-Haut était évoqué, il hoquetait en étant secoué de sanglots jusqu'à en perdre connaissance. Quand il se levait pour prier, tous ses membres tremblaient en présence de son Seigneur - loué et exalté soit-Il. Lorsque le Paradis ou l'Enfer étaient évoqués, il était pris d'une forte agitation comme s'il avait été piqué par un serpent. Il demandait alors à Allah le Très-Haut de lui accorder le Paradis, et se réfugiait auprès de Lui de l'Enfer.<span class=\"footnote-ref\">467</span>"
+                    },
+                    {
+                        "number": "423",
+                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ḥasan ibn 'Alī (as) passa un jour à proximité de pauvres assis par terre en train de manger des morceaux de pain placés devant eux. Ils lui dirent : «Ô fils de la fille du Messager d'Allah (s), venez partager avec nous notre repas !» L'Imām descendit de sa monture et dit : «En vérité, Allah n'aime pas les arrogants !» Et il se mit à manger avec eux jusqu'à ce que tous arrivent à satiété sans que la quantité de nourriture n'ait diminué, par sa bénédiction. Ensuite, il les invita chez lui, les nourrit et leur donna des vêtements.<span class=\"footnote-ref\">468</span>"
+                    },
+                    {
+                        "number": "424",
+                        "text": "<em>Mukhtaṣar Tārīkh Dimashq</em> : Un homme de Syrie rapporte : En arrivant à Médine, j'aperçus un homme dont la beauté m'étonna. Je demandai : «Qui est-il ?» On me répondit : «C'est Ḥasan ibn 'Alī.» [Le Syrien] dit : J'enviai 'Alī d'avoir un tel fils. Je me rapprochai de lui et lui demandai : «Es-tu le fils d'Abū Ṭālib ?» Il répondit : «Je suis son fils.» Je dis : «Soyez maudits, toi et ton père ! Soyez maudits, toi et ton père !» [Le Syrien] dit : L'Imām resta silencieux et ne répondit rien. Puis [après un moment] l'Imām (as) lui dit : «Je vois que tu es étranger, si tu as besoin d'une monture nous allons en mettre une à ta disposition, si tu as des besoins, nous les satisferons, si tu as besoin d'aide, nous t'aiderons.» L'homme rapporta : Lorsque je l'ai quitté, il était devenu la personne que j'aimais le plus au monde.<span class=\"footnote-ref\">469</span>"
+                    }
+                ]
             },
             {
                 "title": "131 - La colère de d'Allah suscitée par la colère de Fāṭima (as)"
@@ -1762,13 +1894,47 @@ const AUNE_SAGESSE = [
         "title": "19 - L'IMĀM AL-ḤASAN IBN 'ALĪ (AS)",
         "subparts": [
             {
-                "title": "133 - Sa désignation en tant qu'Imām"
+                "title": "133 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "425",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Lorsque Ḥusayn (as) vint au monde, Allah révéla à l'Archange Gabriel (as) : «Un enfant vient de naître chez Muḥammad. Descends, félicite-le et dis-lui : «En vérité, 'Alī est vis-à-vis de toi dans la même position que le fut Hārūn pour Moïse, appelle-le donc par le nom du fils de Hārūn».» Gabriel (as) descendit, adressa ses félicitations de la part d'Allah le Très-Haut, et dit : «En vérité, Allah le Tout-Puissant t'ordonne de le nommer par le nom du fils de Hārūn.» Il (s) dit : «Quel était son nom ?» L'Archange répondit : «Shubayr.» Le Prophète (s) dit : «Mais ma langue est l'arabe.» L'Archange dit : «Appelle-le Ḥusayn<span class=\"footnote-ref\">470</span>.»<span class=\"footnote-ref\">471</span>"
+                    }
+                ]
             },
             {
-                "title": "134 - Ḥasan est de moi et je suis de lui"
+                "title": "134 - Ḥasan est de moi et je suis de lui",
+                "content": [
+                    {
+                        "number": "426",
+                        "text": "Fāṭima (as) a dit : Lorsque le Messager d'Allah est venu me voir après la naissance de Ḥusayn (as), je lui ai mis l'enfant dans les bras enveloppé dans un tissu jaune. Il (s) l'enleva et prit un tissu blanc pour l'en envelopper. Il dit ensuite : «Prends-le, ô Fāṭima ; en vérité, il est Imām fils d'Imām. Il sera le père des neuf Imāms; de ses lombes seront issus des Imāms pieux, et le neuvième d'entre eux sera le Qā'im [le sauveur attendu de l'humanité].»<span class=\"footnote-ref\">472</span>"
+                    },
+                    {
+                        "number": "427",
+                        "text": "L'Imām Ḥasan (as) a dit : En vérité, après ma mort et lorsque mon âme aura quitté mon corps, Ḥusayn ibn 'Alī sera Imām après moi. Et auprès d'Allah - glorifié est Son Nom - dans le Livre est l'héritage du Prophète, qu'Allah le Tout-Puissant lui a ajouté<span class=\"footnote-ref\">473</span> en plus de l'héritage de son père et de sa mère. Vraiment, Allah savait que vous étiez les meilleurs gens parmi Sa création, Il a donc choisi parmi vous Muḥammad (s), Muḥammad a choisi 'Alī (as), 'Alī (as) m'a choisi pour l'Imāmat et j'ai choisi Ḥusayn (as).<span class=\"footnote-ref\">474</span>"
+                    }
+                ]
             },
             {
-                "title": "135 - Ses vertus"
+                "title": "135 - Ses vertus",
+                "content": [
+                    {
+                        "number": "428",
+                        "text": "Le Messager d'Allah (s) a dit : Concernant Ḥusayn, il est de moi, il est mon fils et ma descendance, la meilleure des créatures après son frère. Il est l'Imām des musulmans, le maître des croyants, le lieu-tenant (<em>khalīfa</em>) du Seigneur des mondes, l'aide de ceux qui demandent de l'aide, le refuge de ceux qui cherchent refuge, la preuve d'Allah sur l'ensemble de Sa création. Il est le maître des jeunes gens du Paradis et la porte du salut de la communauté des croyants. Son autorité est mon autorité, lui obéir est m'obéir. Celui qui le suit fait partie des miens, et celui qui lui désobéit ne fait pas partie des miens.<span class=\"footnote-ref\">475</span>"
+                    },
+                    {
+                        "number": "429",
+                        "text": "<em>Biḥār al-Anwār</em> : Al-Barā' ibn 'Āzib a dit : J'ai vu le Messager d'Allah (s) en train de porter Ḥusayn (as) alors qu'il disait : «Ô Allah, en vérité, je l'aime ; aime-le aussi !»<span class=\"footnote-ref\">476</span>"
+                    },
+                    {
+                        "number": "430",
+                        "text": "<em>Al-Mustadrak 'alā al-Ṣaḥīḥayn</em> : Ya'lā al-'Āmirī a dit qu'il a accompagné le Messager d'Allah (s) à un repas auquel il avait été convié. [Ya'lā al-'Āmirī raconte] : «Le Messager d'Allah (s) sortit pour accueillir les gens qu'il avait invité alors que Ḥusayn jouait avec d'autres enfants. Le Messager d'Allah (s) voulut l'attraper, mais l'enfant commença à courir ici et là. Le Messager d'Allah (s) commença alors à le faire rire jusqu'à ce qu'il l'attrape. Il plaça alors l'une de ses mains sur sa nuque et l'autre sous son menton, puis il plaça sa bouche sur celle de Ḥusayn et l'embrassa. Il dit alors : «Ḥusayn est de moi et je suis de Ḥusayn ; qu'Allah aime celui qui aime Ḥusayn. Ḥusayn est un petit-fils [ayant un rang] spécial parmi mes petits-fils».»<span class=\"footnote-ref\">477</span>"
+                    },
+                    {
+                        "number": "431",
+                        "text": "<em>Sunan al-Tirmidhī</em> : Alors que le Messager d'Allah (s) portait Ḥusayn ibn 'Alī sur ses épaules, un homme dit : «Quelle bonne monture est la tienne, ô jeune garçon !» Le Prophète (s) dit alors: «Et quel bon cavalier il est !»<span class=\"footnote-ref\">478</span>"
+                    }
+                ]
             }
         ]
     },
@@ -1776,10 +1942,46 @@ const AUNE_SAGESSE = [
         "title": "20 - L'IMĀM AL-ḤUSAYN IBN 'ALĪ (AS)",
         "subparts": [
             {
-                "title": "136 - La naissance de Ḥusayn (as)"
+                "title": "136 - La naissance de Ḥusayn (as)",
+                "content": [
+                    {
+                        "number": "440",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, lorsque le moment de la mort de Ḥusayn ibn 'Alī (as) approcha, il fit appeler l'aînée de ses filles Fāṭima fille de Ḥusayn et lui confia un feuillet enroulé, testament clair et manifeste. Et 'Alī ibn Ḥusayn (as) était avec eux mais avait de fortes douleurs au ventre pour des raisons que l'on ignorait. Fāṭima remit le feuillet à 'Alī ibn Ḥusayn (as) et ensuite, par Allah, ce feuillet nous est parvenu... Par Allah, il contient tout ce dont l'humanité a besoin depuis qu'Allah a créé Adam jusqu'à la fin du monde.<span class=\"footnote-ref\">487</span>"
+                    }
+                ]
             },
             {
-                "title": "137 - Sa désignation en tant qu'Imām"
+                "title": "137 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "441",
+                        "text": "Le Messager d'Allah (s) a dit : Le jour du Jugement, un appel sera lancé : «Où est Zayn al-'Ābidīn [l'ornement des serviteurs de Dieu] ?» Et c'est comme si je voyais mon fils 'Alī fils de Ḥusayn fils de 'Alī ibn Abī Ṭālib surgir d'entre les rangs.<span class=\"footnote-ref\">488</span>"
+                    },
+                    {
+                        "number": "442",
+                        "text": "L'Imām al-Bāqir (as) a dit : Il subvenait aux besoins de cent familles parmi les pauvres de Médine. Il aimait que les orphelins, les nécessiteux, les handicapés et les pauvres qui n'avaient aucunes ressources viennent s'asseoir à sa table. Il les servait de ses propres mains, et si l'un d'entre eux avait une famille [des enfants], il leur apportait de sa nourriture chez eux. Il ne commençait jamais un repas avant d'en avoir offert une portion à titre d'aumône (<em>Ṣadaqa</em>).<span class=\"footnote-ref\">489</span>"
+                    },
+                    {
+                        "number": "443",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, 'Alī ibn Ḥusayn (as) a partagé ses biens avec Allah le Tout-Puissant deux fois.<span class=\"footnote-ref\">490</span>"
+                    },
+                    {
+                        "number": "444",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, mon père disait : «Lorsqu'il se levait pour prier, 'Alī ibn Ḥusayn (as) devenait fixe comme un tronc d'arbre, rien ne bougeait sauf ce que le vent faisait frémir.»<span class=\"footnote-ref\">491</span>"
+                    },
+                    {
+                        "number": "445",
+                        "text": "Al-Ṭabarsī dans <em>I'lām al-Warā</em> : 'Alī ibn Ḥusayn (as) avait une servante qui [un jour] lui versait de l'eau. Le récipient lui glissa des mains et le blessa au visage. Il leva la tête vers elle et la servante dit [en citant des versets du Coran]: <em>«En vérité, Allah a dit : «Et ceux qui retiennent leur colère»</em><span class=\"footnote-ref\">492</span><em>»</em>. Il dit : «J'ai retenu ma colère.» Elle rajouta : <em>«et qui pardonnent à autrui.»</em><span class=\"footnote-ref\">493</span> Il dit : «Je t'ai pardonné.» Et elle dit : <em>«Allah aime les bienfaisants.»</em><span class=\"footnote-ref\">494</span> Il dit : «Va, tu es affranchie pour Allah.»<span class=\"footnote-ref\">495</span>"
+                    },
+                    {
+                        "number": "446",
+                        "text": "Muḥammad ibn Ṭalḥa Shāfi'ī dans <em>Maṭālib al-Sa'ūl</em> : Un feu se déclara dans la maison où il ['Alī ibn Ḥusayn (as)] se trouvait en état de prosternation lors de sa prière. Ils [les gens de la maison] lui dirent : «Ô fils du Messager d'Allah, ô fils du Messager d'Allah, au feu ! Au feu !» Mais il ne releva la tête de sa prosternation que lorsque le feu fût éteint. On lui demanda alors : «Qu'est-ce qui a [à ce point] détourné ton attention de lui [le feu] ?» Il répondit : «Le feu de l'Au-delà.»<span class=\"footnote-ref\">496</span>"
+                    },
+                    {
+                        "number": "447",
+                        "text": "Abū Na'īm dans <em>Ḥilyat al-Awliyā'</em> : 'Alī ibn Ḥusayn (as) entendit un cri venant de chez lui alors qu'il était assis avec un groupe de personnes. Il se leva, alla chez lui et revint quelques instants après auprès du groupe. On lui demanda: «Ce cri était-il dû à un accident [un décès] ?» Il répondit : «Oui.» Ils lui présentèrent leurs condoléances et étaient étonnés de sa patience. Il dit alors : «Nous, les Gens de la demeure prophétique, nous obéissons à Allah dans ce que nous aimons et nous Le louons dans ce que nous n'aimons pas.»<span class=\"footnote-ref\">497</span><br><br><span class=\"reference-note\">(Voir également : 183. La prosternation, sections 920 et 921)</span>"
+                    }
+                ]
             },
             {
                 "title": "138 - Ḥusayn est de moi et je suis de lui"
@@ -1793,10 +1995,26 @@ const AUNE_SAGESSE = [
         "title": "21 - L'IMĀM 'ALĪ IBN AL-ḤUSAYN ZAYN AL-'ĀBIDĪN (AS)",
         "subparts": [
             {
-                "title": "140 - Sa désignation en tant qu'Imām"
+                "title": "140 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "448",
+                        "text": "<em>Kifāyat al-Athār</em> : Mālik ibn A'yun al-Jahnī a dit : 'Alī ibn Ḥusayn (as) a dit dans son testament à son fils Muḥammad ibn 'Alī (que les salutations d'Allah soient sur eux) : «Ô mon fils, je fais de toi mon successeur (<em>khalīfatī</em>) après moi; personne ne revendiquera ce qu'il y a entre toi et moi [cette succession] sans qu'Allah ne lui mette un collier de feu le Jour du jugement.»<span class=\"footnote-ref\">498</span>"
+                    }
+                ]
             },
             {
-                "title": "141 - Le rang de l'Imām Zayn al-'Ābidīn (as)"
+                "title": "141 - Le rang de l'Imām Zayn al-'Ābidīn (as)",
+                "content": [
+                    {
+                        "number": "449",
+                        "text": "Le Messager d'Allah (s) a dit en s'adressant à Jābir ibn 'Abdullāh al-Anṣārī : Tu verras bientôt un homme de ma famille ; son nom sera mon nom, ses traits de caractères seront semblables aux miens et il tranchera le savoir de manière acérée.<span class=\"footnote-ref\">499</span>"
+                    },
+                    {
+                        "number": "450",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, la vérité m'a appelé alors que le faux s'était ancré en elle. J'ai donc tranché son flanc et ai fait sortir la vérité de derrière ses voiles jusqu'à ce qu'elle devienne manifeste et se répande après avoir été cachée et occultée.<span class=\"footnote-ref\">500</span>"
+                    }
+                ]
             }
         ]
     },
@@ -1804,10 +2022,38 @@ const AUNE_SAGESSE = [
         "title": "22 - L'IMĀM MUḤAMMAD IBN 'ALĪ AL-BĀQIR (AS)",
         "subparts": [
             {
-                "title": "142 - Sa désignation en tant qu'Imām"
+                "title": "142 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "455",
+                        "text": "<em>Biḥār al-Anwār</em> : Hammām ibn Nāfi' a dit: Abū Ja'far (as) dit un jour en s'adressant à ses compagnons : «Si vous me perdez, suivez celui-ci; il est l'Imām et mon successeur.» Et il désigna Abū 'Abdullāh [al-Ṣādiq] (as).<span class=\"footnote-ref\">505</span>"
+                    },
+                    {
+                        "number": "456",
+                        "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Muslim a dit : J'étais chez Abū Ja'far Muḥammad ibn 'Alī al-Bāqir (as) lorsque son fils Ja'far entra dans la pièce. Une mèche de cheveux sur la tête, il tenait une baguette dans sa main avec laquelle il jouait. Al-Bāqir (as) le prit dans ses bras, le serra fort contre lui puis dit : «Par mon père et ma mère, tu n'es pas de ceux qui sont distraits et qui jouent.» Puis il me dit : «Ô Muḥammad, voici ton Imām après moi, suis-le et bénéficie de son savoir. Par Allah, c'est lui le véridique (<em>al-Ṣādiq</em>) que le Messager d'Allah nous a décrit. En vérité, ses partisans seront vainqueurs dans ce bas-monde et dans l'Au-delà.»<span class=\"footnote-ref\">506</span>"
+                    }
+                ]
             },
             {
-                "title": "143 - Il est celui qui tranche le savoir de manière acérée"
+                "title": "143 - Il est celui qui tranche le savoir de manière acérée",
+                "content": [
+                    {
+                        "number": "457",
+                        "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Ziyād al-Azdī a dit : J'ai entendu Mālik ibn Anas, le juriste médinois, dire : «J'avais l'habitude d'aller voir Ja'far ibn Muḥammad al-Ṣādiq (as). Il me proposait un coussin, faisait preuve de respect envers moi et disait : «Ô Mālik, j'ai de l'affection pour toi.» J'étais heureux en entendant cela et rendais grâce à Allah.» [Mālik continua] : «Il (as) était toujours dans l'un de ces trois états : en train de jeûner, de prier, ou de pratiquer le rappel d'Allah (<em>dhikr</em>). Il était l'un des plus éminents dévots et serviteurs [d'Allah], le plus grand des ascètes habités par la crainte révérencielle d'Allah le Tout-Puissant. Il narrait un grand nombre de traditions, était sociable et d'agréable compagnie, et il avait de nombreux bénéfices [pour nous].»<span class=\"footnote-ref\">507</span>"
+                    },
+                    {
+                        "number": "458",
+                        "text": "Hishām ibn Sālim a dit : Alors qu'il faisait sombre et qu'une partie de la nuit s'était écoulée, Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) avait pour habitude de prendre un sac rempli de pain, de viande et d'argent. Il le portait sur son dos et l'apportait aux nécessiteux de Médine. Il répartissait son contenu entre eux sans que les gens le reconnaissent. Après le décès d'Abū 'Abdillāh (as), ils ne reçurent plus cela [ces offrandes], et réalisèrent alors que leur bienfaiteur n'était autre que Abū 'Abdillāh (as).<span class=\"footnote-ref\">508</span>"
+                    },
+                    {
+                        "number": "459",
+                        "text": "Mu'allā ibn Khunays a dit : Lors d'une nuit de bruine, Abū 'Abdillāh (as) sortit en direction de l'abri des Banī Sā'ida. Je le suivis et soudain, il fit tomber quelque chose. Il dit : «Grâce au nom d'Allah, Ô Allah, restitue-le nous.» [Mu'allā] continua : J'allai alors vers lui et le saluai. Il demanda : «Es-tu Mu'allā ?» Je lui répondis : «Oui, que je vous sois sacrifié.» Il dit : «Tâtonne avec tes mains et si tu trouves quelques chose, donne-le-moi.» Mu'allā dit : «Je trouvai des morceaux de pain et je lui tendis ce que j'avais trouvé. Je fus étonné de voir un sac rempli de pain sur son dos. Je lui dis : «Que je vous sois sacrifié, permettez-moi de le porter à votre place.» Il dit : «Non, je suis plus habilité à le porter que toi, en revanche, accompagne-moi.» Mu'allā rapporte : Nous arrivâmes à l'abri des Banī Sā'ida et nous trouvâmes un groupe de personnes endormies. Il glissa un pain ou deux sous le vêtement de chacune jusqu'à la dernière, puis nous nous retirâmes. Je dis alors : «Que je vous sois sacrifié, est-ce que ces personnes connaissent la vérité<span class=\"footnote-ref\">509</span> [c'est-à-dire l'Imāmat de l'Imām Ṣādiq (as)] ?» Il répondit : «Si elles la connaissaient, nous leur aurions également donné la farine».»<span class=\"footnote-ref\">510</span>"
+                    },
+                    {
+                        "number": "460",
+                        "text": "Abū 'Amrū al-Shaybānī a dit : J'ai vu Abū 'Abdillāh (as) une pelle à la main et portant des vêtements épais en train de travailler dans son terrain, alors que la sueur coulait de son dos. Je lui dis alors : «Que je te sois sacrifié ! Laisse-moi faire cela à ta place.» Il me dit : «En vérité, j'aime que l'homme soit affecté par la chaleur du soleil en quête de sa subsistance.»<span class=\"footnote-ref\">511</span>"
+                    }
+                ]
             },
             {
                 "title": "144 - Ses mérites"
@@ -1818,10 +2064,26 @@ const AUNE_SAGESSE = [
         "title": "23 - L'IMĀM JA'FAR IBN MUḤAMMAD AL-ṢĀDIQ (AS)",
         "subparts": [
             {
-                "title": "145 - Sa désignation en tant qu'Imām"
+                "title": "145 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "461",
+                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ṣafwān al-Jammāl a dit : J'ai interrogé Abū 'Abdillāh (as) au sujet du détenteur de cette position [l'Imāmat]. Il m'a répondu : «Le détenteur de cette position ne joue pas et n'est pas distrait.» Mūsā ibn Ja'far, alors encore enfant, arriva à ce moment-là avec un chevreau mecquois à qui il disait : «Prosterne-toi devant ton Seigneur !» Abū 'Abdillāh le prit, le serra dans ses bras et dit : «Par mon père et ma mère, il ne joue pas et n'est pas distrait [il ne fait aucun acte vain et suscitant l'oubli de l'Au-delà].»<span class=\"footnote-ref\">512</span>"
+                    }
+                ]
             },
             {
-                "title": "146 - Son comportement et son caractère noble"
+                "title": "146 - Son comportement et son caractère noble",
+                "content": [
+                    {
+                        "number": "462",
+                        "text": "Al-Thawbānī a dit : Pendant environ dix années, Abū al-Ḥasan Mūsā ibn Ja'far (as) effectuait [chaque jour] une prosternation qui durait du lever du soleil jusqu'à midi. [Il continua] : Hārūn montait parfois sur une terrasse qui surplombait la prison dans laquelle était emprisonné Abū al-Ḥasan (as). Il voyait alors Abū al-Ḥasan en état de prosternation. Il demanda à Rabī' : «Quel est donc ce vêtement que j'aperçois chaque jour à cet endroit ?» Rabī' dit : «Ô Emir des croyants ! Ce n'est pas un vêtement, mais Mūsā ibn Ja'far (as). Il effectue chaque jour une prosternation du lever du soleil jusqu'à midi.» Hārūn dit alors : «En effet, c'est bien l'homme religieux des fils de Hāshim.» Je lui dis : «Alors pourquoi l'as-tu confiné à la captivité ?» Il répondit : «Hélas ! Il doit en être ainsi.»<span class=\"footnote-ref\">513</span>"
+                    },
+                    {
+                        "number": "463",
+                        "text": "'Alī ibn Suwayd a dit : J'ai écrit une lettre à Abū al-Ḥasan Mūsā (as) alors qu'il était emprisonné, afin de m'enquérir de son état et de questions diverses. Il ne me répondit pas pendant des mois. Puis il me répondit par une lettre dont voici le contenu : «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux... Assurément, tu es un homme auquel Allah a conféré un rang spécial avec la famille de Muḥammad, et qui T'a gardé par affection parmi ceux qui veillent sur Sa religion.»<span class=\"footnote-ref\">514</span>"
+                    }
+                ]
             }
         ]
     },
@@ -1829,13 +2091,35 @@ const AUNE_SAGESSE = [
         "title": "24 - L'IMĀM MŪSĀ IBN JA'FAR AL-KĀẒIM (AS)",
         "subparts": [
             {
-                "title": "147 - Sa désignation en tant qu'Imām"
+                "title": "147 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "466",
+                        "text": "'Abd al-Raḥmān ibn al-Ḥajjāj a dit : Abū al-Ḥasan Mūsā ibn Ja'far [al-Kāẓim] (as) a désigné son fils 'Alī (as) comme son exécuteur testamentaire, et il a écrit cela dans une lettre pour lui au sujet de laquelle ont témoigné soixante hommes renommés de Médine.<span class=\"footnote-ref\">517</span>"
+                    }
+                ]
             },
             {
-                "title": "148 - L'Imām en Prison"
+                "title": "148 - L'Imām en Prison",
+                "content": [
+                    {
+                        "number": "467",
+                        "text": "Abū al-Ṣalt al-Harawī a dit : En vérité, Ma'mūn a dit à Al-Riḍā (as) : «Ô fils du Messager d'Allah... En vérité, je trouve qu'il vaut mieux que je renonce au califat, que je te le confie et que je te porte allégeance !» Al-Riḍā (as) lui répondit : «Si ce califat t'appartient et qu'Allah te l'a confié, alors il ne t'est pas permis de te dépouiller d'un vêtement dont Allah t'a revêtu et de le confier à un autre que toi. Et si le califat ne t'appartient pas, alors [dès le départ] il ne t'est pas permis de me confier ce qui ne t'appartient pas.» Ma'mūn lui dit alors : «Ô fils du Messager d'Allah, tu es obligé d'accepter ce statut !» L'Imām (as) dit : «Je ne ferai jamais cela de mon propre gré... Car par cela [en acceptant le califat], tu souhaites que les gens disent : «'Alī ibn Mūsā al-Riḍā n'a pas renoncé à cette vie terrestre [de par sa quête du pouvoir], mais c'est plutôt cette vie terrestre qui a renoncé à lui ! Ne voyez-vous pas comment il a accepté la succession de par sa convoitise du califat ?»» Ma'mūn se mit en colère et dit : «Je jure sur Allah que si tu n'acceptes pas la position de successeur au califat, je t'y obligerai. Tu ferais mieux de l'accepter, sinon je te trancherai la gorge.»<span class=\"footnote-ref\">518</span>"
+                    }
+                ]
             },
             {
-                "title": "149 - Ses vertus"
+                "title": "149 - Ses vertus",
+                "content": [
+                    {
+                        "number": "468",
+                        "text": "Al-Harawī a dit : Je vins à la porte de la cellule où Al-Riḍā (as) était emprisonné et enchaîné à Sarkhas. Je demandai alors au gardien de prison la permission [de lui rendre visite], mais il dit : «Vous ne pourrez pas le voir.» Je lui demandai : «Pourquoi ?» Il répondit : «Parce qu'il prie parfois jusqu'à mille <em>raka'āt</em> en l'espace d'un jour et d'une nuit. Il ne s'arrête de prier durant un moment qu'au point du jour, avant midi, et avant le coucher du soleil. Durant ces moments, il s'assied à son lieu de prière et s'entretient de manière intime avec son Seigneur.» Je lui dis : «Dans ce cas, demande-lui la permission [que je lui rende visite] à ces moments-là.» Il demanda la permission pour moi. J'entrai alors qu'il était assis à son lieu de prière en état de méditation.»<span class=\"footnote-ref\">519</span>"
+                    },
+                    {
+                        "number": "469",
+                        "text": "Ibrāhīm ibn al-'Abbās a dit : Je n'ai jamais vu Abū al-Ḥasan al-Riḍā (as) heurter quelqu'un par l'une de ses paroles, et je ne l'ai jamais vu interrompre quelqu'un avant qu'il ait fini de parler, ni refuser une faveur à quelqu'un s'il pouvait le faire, ni allonger ses jambes devant une personne assise avec lui, ni s'adosser [à quelque chose] devant une personne assise avec lui. Je ne l'ai jamais vu injurier l'un de ses serviteurs ni l'un de ses domestiques, et je ne l'ai jamais vu cracher ni rire aux éclats ; son rire était plutôt un sourire. Lorsqu'il était prêt à manger et que la table était dressée, il invitait à s'y asseoir avec lui ses domestiques, ses serviteurs, et même le portier et la personne qui s'occupait des écuries.<span class=\"footnote-ref\">520</span>"
+                    }
+                ]
             }
         ]
     },
@@ -1843,10 +2127,38 @@ const AUNE_SAGESSE = [
         "title": "25 - L'IMĀM 'ALĪ IBN MŪSĀ AL-RIḌĀ (AS)",
         "subparts": [
             {
-                "title": "150 - Sa désignation en tant qu'Imām"
+                "title": "150 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "470",
+                        "text": "Lorsque 'Abdullāh Ibn Mas'ūd l'interrogea au sujet des Imāms descendant de Ḥusayn (as), le Messager d'Allah (s) dit : «... Et sortira des lombes de 'Alī [al-Riḍā] son enfant Muḥammad, le loué, la plus pure des personnes de par sa création et la meilleure d'entre elles de par son caractère.»<span class=\"footnote-ref\">521</span>"
+                    },
+                    {
+                        "number": "471",
+                        "text": "'Abdullāh ibn Ja'far a dit : J'ai rendu visite à Al-Riḍā (as) en compagnie de Ṣafwān ibn Yaḥyā. Abū Ja'far [Imām al-Jawād] (as), qui avait alors trois ans, se tenait là. Nous lui dîmes alors [à l'Imām al-Riḍā] : «Que nous te soyons sacrifiés, s'il t'arrivait quelque chose - qu'Allah t'en préserve -, qui sera [l'Imām] après toi ?» Il dit : «Mon fils que voici», et il le désigna. Nous lui demandâmes : «Alors qu'il est encore si jeune ?» Il répondit : «Oui, alors qu'il est encore si jeune. En vérité, Allah le Béni et le Très-Haut a fait de Jésus Sa preuve divine alors qu'il n'avait que deux ans.»<span class=\"footnote-ref\">522</span>"
+                    }
+                ]
             },
             {
-                "title": "151 - La contrainte de l'Imām à la succession au califat"
+                "title": "151 - La contrainte de l'Imām à la succession au califat",
+                "content": [
+                    {
+                        "number": "472",
+                        "text": "Yaḥyā al-Ṣan'ānī a dit : J'ai rendu visite à Abū al-Ḥasan al-Riḍā (as) alors qu'il séjournait à La Mecque. Je l'ai vu occupé à éplucher une banane et à la donner à son fils Abū Ja'far. Je lui ai demandé : «Que je te sois sacrifié, s'agit-il du nouveau-né béni ?» Il dit : «Oui, ô Yaḥyā ! C'est lui le nouveau-né ; il ne naîtra pas en islam d'enfant plus béni que lui pour nos partisans (<em>shī'a</em>).»<span class=\"footnote-ref\">523</span>"
+                    },
+                    {
+                        "number": "473",
+                        "text": "'Abdullāh ibn Sa'īd a dit : Muḥammad ibn 'Alī ibn 'Umar al-Tannūkhī m'a dit : J'ai vu Muḥammad ibn 'Alī [al-Jawād] parler à un taureau et le taureau hochait la tête. Je lui ai dit : «Non, mais [tu ne peux pas] ordonner à ce taureau de te parler.» Il récita alors [ce verset] : <em>«On nous a appris le langage des oiseaux, et on nous a donné part de toutes choses.»</em><span class=\"footnote-ref\">524</span> Il dit ensuite [au taureau] : «Dis «Point de divinité à part Dieu, l'Unique qui n'a pas d'associé».» Puis il caressa sa tête avec la paume de sa main. Le taureau dit alors : «Point de divinité à part Dieu, l'Unique qui n'a pas d'associé».<span class=\"footnote-ref\">525</span>"
+                    },
+                    {
+                        "number": "474",
+                        "text": "'Alī ibn Ḥassān al-Wāsiṭī, connu sous le nom de al-'Amsh, a dit : J'ai apporté un objet d'Ispahan dont une partie était en argent afin d'en faire cadeau à mon maître Abū Ja'far [al-Jawād]. Lorsque les gens se dispersèrent après qu'il ait répondu à leurs questions, il se leva et partit. Je le suivis et rencontrai l'un de ses servants. Je lui dis: «Sollicite pour moi la permission de me rendre auprès de d'Abū Ja'far.» Ainsi, j'entrai et le saluai; il me rendit mon salut avec une expression d'aversion sur son visage et ne vint pas s'asseoir. Je me rapprochai alors de lui et sortit devant lui ce qui était dans ma manche. Il me regarda avec colère, puis regarda à droite et à gauche et dit: «Allah ne m'a pas créé pour cela, qu'ai-je à voir avec les jeux ?!» J'implorai alors son pardon et il me pardonna. Je repris alors l'objet et partis.<span class=\"footnote-ref\">526</span>"
+                    },
+                    {
+                        "number": "475",
+                        "text": "Al-Qāsim ibn 'Abd al-Raḥmān, qui était alors zaydite, a dit : Je partis à Bagdad et alors que j'étais encore là-bas, je vis soudain les gens se féliciter, échanger d'honorables salutations et se lever. Je leur demandai : «Que se passe-t-il ?» Ils me répondirent : «Le fils d'al-Riḍā [est là].» Je dis alors : «Par Allah, il faut que je le voie.» Il apparût sur un mulet. Je [me] dis : «Qu'Allah maudisse les partisans de l'Imāmat qui disent qu'Allah nous a rendu obligatoire d'obéir à celui-là.» À ce même moment, il se tourna vers moi et dit : «Ô Qāsim ibn 'Abd al-Raḥmān, <em>«Allons-nous suivre un seul homme d'entre nous-mêmes ? Nous serions alors dans l'égarement et la folie».»</em><span class=\"footnote-ref\">527</span> Je me dis : «Par Allah, c'est un sorcier !» Il revint vers moi et me dit : <em>«Est-ce que le message a été envoyé à lui à l'exception de nous tous ? C'est plutôt un grand menteur, plein de prétention et d'orgueil.»</em><span class=\"footnote-ref\">528</span> Je partis en reconnaissant son Imāmat ; et je professai qu'il était la Preuve d'Allah auprès de Ses créatures et crus en lui.<span class=\"footnote-ref\">529</span>"
+                    }
+                ]
             },
             {
                 "title": "152 - Ses vertus"
@@ -1857,10 +2169,26 @@ const AUNE_SAGESSE = [
         "title": "26 - L'IMĀM MUḤAMMAD IBN 'ALĪ AL-JAWĀD (AS)",
         "subparts": [
             {
-                "title": "153 - Sa désignation en tant qu'Imām"
+                "title": "153 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "476",
+                        "text": "L'Imām al-Jawād (as) a dit : En vérité, l'Imām après moi est mon fils 'Alī. Son ordre est mon ordre, sa parole est ma parole, son obéissance est mon obéissance et après lui, l'Imāmat reviendra à son fils Ḥasan.<span class=\"footnote-ref\">530</span>"
+                    }
+                ]
             },
             {
-                "title": "154 - Ses vertus"
+                "title": "154 - Ses vertus",
+                "content": [
+                    {
+                        "number": "477",
+                        "text": "<em>Biḥār al-Anwār</em> : Ḥasan ibn Muḥammad Jumhūr al-'Amī rapporte dans le livre <em>Al-Wāḥida</em>: Mon frère Ḥusayn ibn Muḥammad m'a rapporté: J'avais un ami qui enseignait aux enfants de Baghā ou de Waṣīf<span class=\"footnote-ref\">531</span> - le doute est de moi. Il me dit : Alors qu'il retournait au palais du calife, le gouverneur me dit : «Aujourd'hui, le prince des croyants [le calife de l'époque] a emprisonné celui que l'on appelle Ibn al-Riḍā [fils de Ridā], et il l'a livré à 'Alī ibn Karkar. Je l'ai alors entendu dire: «Je suis plus cher auprès d'Allah que la chamelle de Ṣāliḥ, alors <em>«Jouissez [de vos biens] dans vos demeures pendant [encore] trois jours ! Voici une promesse qui ne sera pas démentie.»</em><span class=\"footnote-ref\">532</span> Je n'ai pas bien compris ce qu'il a voulu dire par ce verset.» Je dis au prince : «Qu'Allah vous honore, il vous a menacé. Regardez ce qui va se passer dans trois jours.» Le lendemain, le calife le libéra et lui présenta ses excuses. Le troisième jour, il fut attaqué par Yāghiz, Yaghlūn et Tāmish, ainsi qu'un groupe de gens. Ils l'assassinèrent et installèrent à sa place son fils al-Muntaṣir.<span class=\"footnote-ref\">533</span>"
+                    },
+                    {
+                        "number": "478",
+                        "text": "<em>Kashf al-Ghumma</em> : Un groupe de gens de la ville d'Ispahan, dont Abū al-'Abbās Aḥmad ibn al-Naṣr et Abū Ja'far Muḥammad ibn 'Alawiyya, rapportent : Il y avait à Ispahan un homme nommé 'Abd al-Raḥmān qui était shiite. On lui demanda: «Pour quelle raison as-tu accepté l'Imāmat de 'Alī al-Naqī et non celui d'un autre que lui parmi les gens de son époque ?» Il répondit : «J'ai été témoin d'une chose qui m'a contraint à cela. J'étais alors un homme pauvre, mais aussi ne mâchant pas ses mots et téméraire. Pour cette raison, les habitants d'Ispahan m'exilèrent avec d'autre gens. Nous nous rendirent auprès [du calife] Mutawakkil pour demander justice. Alors que nous étions à sa porte, l'ordre fut donné de faire venir 'Alī ibn Muḥammad ibn Riḍā. Je demandai alors à certaines des personnes présentes: «Qui est cet homme que l'on a ordonné de faire venir ?» On me répondit : «C'est un 'Alawite que les Rāfiḍa croient être leur Imām.» On dit ensuite: «Nous supposons que Mutawakkil a donné l'ordre de le convoquer pour le tuer.» Je me dis: «Je ne bougerai pas de là avant d'avoir vu à quoi ressemble cet homme.» Il arriva à dos de cheval, alors que les gens se tenaient en rang à droite et à gauche de son chemin et le regardaient. Lorsque je le vis, je m'arrêtai et le regardai. L'amour que je ressentis pour lui remplit mon cœur. Je me mis alors à prier pour lui qu'Allah éloigne de lui le mal de Mutawakkil. Il passa à travers la foule alors que son regard était fixé sur les rênes de son cheval, sans qu'il ne regarde autour de lui. Je continuais à prier pour lui. Lorsqu'il parvint à moi, il tourna son visage dans ma direction et dit: «Qu'Allah agrée tes invocations, rallonge ta vie, et augmente ta richesse ainsi que ta descendance.» Après cela, nous retournâmes à Ispahan, et Allah m'ouvrit alors les portes de la richesse à tel point que j'enferme dans ma maison plus d'un million de dirhams, sans compter la fortune que je détiens à l'extérieur de ma maison. On m'a donné dix enfants et j'ai atteint plus de soixante-dix ans. [C'est la raison pour laquelle] je reconnais l'Imāmat de cet homme qui savait ce qu'il y avait dans mon cœur, et Allah a exaucé ses prières à mon égard.»<span class=\"footnote-ref\">534</span>"
+                    }
+                ]
             }
         ]
     },
@@ -1868,10 +2196,26 @@ const AUNE_SAGESSE = [
         "title": "27 - L'IMĀM 'ALĪ IBN MUḤAMMAD AL-HĀDĪ (AS)",
         "subparts": [
             {
-                "title": "155 - Sa désignation en tant qu'Imām"
+                "title": "155 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "479",
+                        "text": "L'Imām al-Hādī (as) a dit : L'Imām après moi sera Ḥasan, et après Ḥasan, son fils al-Qā'im [littéralement : celui qui se dressera], qui remplira la terre d'équité et de justice tout comme elle fut remplie de tyrannie et d'injustice.<span class=\"footnote-ref\">535</span>"
+                    }
+                ]
             },
             {
-                "title": "156 - Ses vertus"
+                "title": "156 - Ses vertus",
+                "content": [
+                    {
+                        "number": "480",
+                        "text": "<em>Biḥār al-Anwār</em> : Les 'Abbāssides rendirent visite à Ṣāliḥ ibn Waṣīf, tandis que Ṣāliḥ ibn 'Alī ainsi qu'un groupe de dévoyés<span class=\"footnote-ref\">536</span> de ce lieu vinrent également lui rendre visite alors que Abū Muḥammad [l'Imām al-'Askarī] (as) était dans la prison. Il lui dit : «Enferme-le de la façon la plus stricte et ne lui donne aucun confort.» Ṣāliḥ leur dit : «Que puis-je faire de lui, alors que je l'ai livré à deux des plus méchants hommes que j'ai pu trouver, et qu'ils sont devenus les plus dévoués dans la piété et la prière [sous l'influence de l'Imām] ?!»<span class=\"footnote-ref\">537</span>"
+                    },
+                    {
+                        "number": "481",
+                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Abū al-Qāsim al-Kūfī a dit : En vérité, Isḥāq al-Kindī, qui était le philosophe de son époque en Irak, entreprit d'écrire un livre sur les contradictions du Coran, et resta seul chez lui pour se consacrer à cette tâche. Un jour, l'un de ses élèves se rendit chez l'Imām Ḥasan al-'Askarī (as) et Abū Muḥammad [surnom de l'Imām] lui dit : «N'y a-t-il pas parmi vous un homme sage et bien guidé qui puisse dissuader votre maître al-Kindī de continuer le travail qu'il a entrepris sur le Coran ?» L'élève lui répondit : «Nous sommes ses élèves, comment pourrions-nous nous permettre de le contredire sur ce sujet ou sur un autre ?» Abū Muḥammad lui dit alors : «Pourrais-tu lui transmettre ce que je vais lui dire par toi ?» Il dit : «Oui.» Il (as) dit alors : «Rends-toi auprès de lui, et propose-lui avec courtoisie de l'aider dans sa tâche, comme si tu voulais te rendre familier avec ce qu'il fait. Lorsque cette familiarité se sera établie, dis-lui : «Je souhaiterais vous poser une question.» Il te laissera certainement la poser, alors dis-lui : «Si quelqu'un qui parlait uniquement en utilisant [les versets] du Coran venait à vous, pensez-vous qu'il soit possible que ce qu'il veule dire par ces paroles soit autre que ce que vous en avez compris?» Il te dira bien entendu que cela est possible, car c'est un homme sensé et raisonnable lorsqu'il entend [de telles paroles]. S'il te confirme cela, alors dis-lui: «Dans ce cas, cela signifie que ce que vous avez compris est peut-être différent de ce qu'il voulait dire ; vous aurez alors imposé une signification à un mot qui est différente de l'originale».» Ainsi, l'élève partit chez son maître al-Kindī et établit une familiarité jusqu'à ce qu'il puisse lui poser la question. Al-Kindī lui dit alors : «Répète ta question.» Et l'élève répéta sa question. Al-Kindī se mit à réfléchir et en déduisit que sur le plan linguistique, cela était possible, et que c'était même admissible d'un point de vue conceptuel. Il dit à son élève : «Je t'en adjure, dis-moi d'où t'est venu cela.» L'élève dit : «C'est une réflexion qui m'est venue à l'esprit et que j'ai voulu vous présenter.» Al-Kindī dit : «Certainement pas, une telle question ne peut venir à l'esprit de quelqu'un comme toi, et tu ne peux atteindre un tel rang [dans le savoir] ; dis-moi d'où cela t'est venu.» Alors l'élève lui dit : «C'est Abū Muḥammad qui m'a ordonné de vous [dire] cela.» Al-Kindī dit : «Maintenant tu dis vrai, ce genre de question ne peut provenir que de cette demeure.» Et ainsi, il demanda qu'on lui apporte du feu et brûla ce qu'il avait écrit.<span class=\"footnote-ref\">538</span>"
+                    }
+                ]
             }
         ]
     },
@@ -1879,10 +2223,26 @@ const AUNE_SAGESSE = [
         "title": "28 - L'IMĀM AL-ḤASAN IBN 'ALĪ AL-'ASKARĪ (AS)",
         "subparts": [
             {
-                "title": "157 - Sa désignation en tant qu'Imām"
+                "title": "157 - Sa désignation en tant qu'Imām",
+                "content": [
+                    {
+                        "number": "482",
+                        "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole du Très-Haut : <em>«Quiconque est tué injustement, alors Nous avons donné pouvoir à son proche [parent]. Que celui-ci ne commette pas d'excès dans le meurtre, car il est déjà aidé [manṣūr]»</em><span class=\"footnote-ref\">539</span> : Allah a nommé le Mahdī «Celui qui est aidé [par Allah]» [<em>al-Manṣūr</em>], tout comme Il a appelé [le Prophète (s)] «Aḥmad», «Muḥammad» et «Maḥmūd», et tout comme il a appelé Jésus «le Messie».<span class=\"footnote-ref\">540</span>"
+                    },
+                    {
+                        "number": "483",
+                        "text": "Lorsqu'il fut interrogé sur la raison pour laquelle le Qā'im [le Douzième Imām] est appelé «Mahdī» [le bien-guidé], l'Imām al-Ṣādiq (as) répondit : Car en vérité, il sera guidé vers toute chose cachée.<span class=\"footnote-ref\">541</span>"
+                    }
+                ]
             },
             {
-                "title": "158 - Ses vertus"
+                "title": "158 - Ses vertus",
+                "content": [
+                    {
+                        "number": "484",
+                        "text": "Lorsqu'il fut interrogé au sujet de la Preuve [d'Allah] (<em>al-Ḥujjat</em>) et de l'Imām après lui, l'Imām al-'Askarī (as) répondit : Mon fils Muḥammad sera l'Imām et la Preuve après moi. Celui qui meurt sans l'avoir reconnu [comme Imām] mourra de la mort des ignorants. Sachez qu'il entrera dans une occultation au sujet de laquelle les ignorants seront déroutés et les négateurs perdus. Les personnes qui détermineront le moment [de sa réapparition] mentiront. Puis il sortira, et c'est comme si je voyais [à une époque future] des étendards blancs qui flottent au-dessus de sa tête à Najaf, [près de] Kūfa.<span class=\"footnote-ref\">542</span>"
+                    }
+                ]
             }
         ]
     },
