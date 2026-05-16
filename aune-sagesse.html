@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L'Aune de la Sagesse (Mizan al-Hikmah)</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='none' stroke='%23c9a84c' stroke-width='8'><rect x='22' y='22' width='56' height='56' rx='8'/><rect x='22' y='22' width='56' height='56' rx='8' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='12' fill='%23c9a84c'/></g></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Scheherazade+New:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23c9a84c' stroke-width='0.3' opacity='0.055'%3E%3Crect x='22' y='22' width='56' height='56' rx='2'/%3E%3Crect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='28'/%3E%3C/g%3E%3C/svg%3E");background-size:100px;pointer-events:none;z-index:0}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#070c18}::-webkit-scrollbar-thumb{background:rgba(201,168,76,0.3);border-radius:4px}
+
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 100px;position:relative;z-index:1}
+.hero{text-align:center;margin-bottom:44px}
+.hero-ornament{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:24px}
+.orn-line{height:1px;width:80px;background:linear-gradient(to right,transparent,#c9a84c)}.orn-line.r{background:linear-gradient(to left,transparent,#c9a84c)}
+.orn-gem{width:7px;height:7px;background:#c9a84c;transform:rotate(45deg);box-shadow:0 0 8px rgba(201,168,76,0.6)}
+.hero-label{font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.22em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:16px}
+.hero-title{font-family:'Cinzel',serif;font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;color:#e8e2d0;line-height:1.25;margin-bottom:8px}
+.hero-title span{color:#c9a84c}
+.hero-ar{font-family:'Scheherazade New',serif;font-size:2rem;color:#c9a84c;opacity:0.8;margin-bottom:12px}
+.hero-subtitle{font-size:1.05rem;color:#9aa3b8;margin-bottom:28px;line-height:1.6;font-weight:300}
+.hero-divider{width:120px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:0 auto}
+
+.intro{font-size:1.05rem;color:#9aa3b8;line-height:1.7;margin-bottom:40px;text-align:center;max-width:700px;margin-left:auto;margin-right:auto;background:rgba(19,29,53,0.4);padding:24px;border-radius:12px;border:1px solid rgba(201,168,76,0.15)}
+
+/* Accordion Sommaire */
+.accordion-container{display:flex;flex-direction:column;gap:16px;margin-bottom:40px}
+
+.part-card{background:rgba(13,22,42,0.6);border:1px solid rgba(201,168,76,0.2);border-radius:12px;overflow:hidden;transition:all 0.3s;backdrop-filter:blur(10px)}
+.part-card:hover{border-color:rgba(201,168,76,0.4);box-shadow:0 8px 24px rgba(0,0,0,0.3)}
+
+.part-header{padding:20px 24px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none;background:rgba(201,168,76,0.03)}
+.part-header:hover{background:rgba(201,168,76,0.06)}
+.part-title-wrap{display:flex;align-items:center;gap:16px}
+.part-num{font-family:'Cinzel',serif;font-size:1.2rem;font-weight:700;color:#c9a84c;background:rgba(201,168,76,0.1);width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px solid rgba(201,168,76,0.2)}
+.part-title{font-size:1.15rem;font-weight:600;color:#e8e2d0}
+.part-icon{color:#c9a84c;transition:transform 0.3s ease;display:flex;align-items:center;justify-content:center}
+.part-icon svg{width:20px;height:20px}
+
+.part-content{max-height:0;overflow:hidden;transition:max-height 0.4s cubic-bezier(0,1,0,1);background:rgba(7,12,24,0.3)}
+.part-card.active .part-content{max-height:2000px;transition:max-height 0.6s ease-in-out}
+.part-card.active .part-icon{transform:rotate(180deg)}
+.part-card.active .part-header{border-bottom:1px solid rgba(201,168,76,0.1)}
+
+.subpart-list{padding:16px 24px}
+.subpart-item{padding:14px 16px;border-bottom:1px solid rgba(255,255,255,0.05);display:flex;flex-direction:column;gap:8px}
+.subpart-item:last-child{border-bottom:none}
+.subpart-title{font-size:1.05rem;font-weight:500;color:#c9a84c;display:flex;align-items:center;gap:10px}
+.subpart-title::before{content:'';width:6px;height:6px;background:#c9a84c;border-radius:50%;opacity:0.7}
+.subpart-desc{font-size:0.95rem;color:#9aa3b8;padding-left:16px;line-height:1.5}
+
+.empty-hadiths{font-size:0.9rem;color:#5a6480;padding:12px 16px;background:rgba(0,0,0,0.2);border-radius:8px;margin-top:8px;margin-left:16px;font-style:italic;display:flex;align-items:center;gap:8px}
+.empty-hadiths svg{width:16px;height:16px;opacity:0.6}
+
+/* Note pour le developpement */
+.dev-note{background:rgba(106,180,232,0.1);border:1px solid rgba(106,180,232,0.3);border-radius:12px;padding:20px;margin-top:40px;text-align:center}
+.dev-note-title{font-size:1rem;color:#6ab4e8;font-weight:600;margin-bottom:8px;display:flex;align-items:center;justify-content:center;gap:8px}
+.dev-note-text{font-size:0.95rem;color:#a8c4e0;line-height:1.6}
+
+@media(max-width:600px){
+  .wrap{padding:30px 16px 80px}
+  .part-header{padding:16px}
+  .subpart-list{padding:12px 16px}
+}
+
+/* Thème Clair */
+[data-theme="light"]{
+  --lbg:#e8e0d4;--ltext:#2c2114;--ltext2:#5a4e3c;--laccent:#7a5c24;
+}
+[data-theme="light"] body{background:var(--lbg)!important;color:var(--ltext)!important}
+[data-theme="light"] body::before{opacity:0.4!important}
+[data-theme="light"] .hero-title{color:var(--ltext)!important}
+[data-theme="light"] .hero-title span{color:var(--laccent)!important}
+[data-theme="light"] .hero-subtitle, [data-theme="light"] .intro{color:var(--ltext2)!important}
+[data-theme="light"] .hero-label, [data-theme="light"] .hero-ar{color:var(--laccent)!important}
+[data-theme="light"] .intro{background:rgba(220,212,196,0.6)!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .part-card{background:rgba(235,228,216,0.7)!important;border-color:rgba(122,92,36,0.2)!important}
+[data-theme="light"] .part-card:hover{border-color:rgba(122,92,36,0.4)!important}
+[data-theme="light"] .part-header{background:rgba(122,92,36,0.04)!important}
+[data-theme="light"] .part-header:hover{background:rgba(122,92,36,0.08)!important}
+[data-theme="light"] .part-title{color:var(--ltext)!important}
+[data-theme="light"] .part-num{color:var(--laccent)!important;background:rgba(122,92,36,0.1)!important;border-color:rgba(122,92,36,0.2)!important}
+[data-theme="light"] .part-icon{color:var(--laccent)!important}
+[data-theme="light"] .part-content{background:rgba(220,212,196,0.3)!important}
+[data-theme="light"] .subpart-title{color:var(--laccent)!important}
+[data-theme="light"] .subpart-title::before{background:var(--laccent)!important}
+[data-theme="light"] .subpart-desc{color:var(--ltext2)!important}
+[data-theme="light"] .empty-hadiths{background:rgba(122,92,36,0.06)!important;color:#8a7c66!important}
+[data-theme="light"] .dev-note{background:rgba(70,120,170,0.08)!important;border-color:rgba(70,120,170,0.2)!important}
+[data-theme="light"] .dev-note-title{color:#2a5080!important}
+[data-theme="light"] .dev-note-text{color:#3a5c85!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="hero-label">Encyclopédie Thématique</div>
+    <div class="hero-ornament"><div class="orn-line"></div><div class="orn-gem"></div><div class="orn-line r"></div></div>
+    <h1 class="hero-title">L'Aune de la <span>Sagesse</span></h1>
+    <div class="hero-ar">ميزان الحكمة</div>
+    <div class="hero-subtitle">Mizan al-Hikmah — Anthologie de Hadiths du Prophète (ص) et des Ahl al-Bayt (ع)</div>
+    <div class="hero-divider"></div>
+  </div>
+
+  <div class="intro">
+    Cette section regroupera progressivement les hadiths compilés dans l'ouvrage <strong>"L'Aune de la Sagesse"</strong> de Mohammad Reyshahri. Voici la structure du sommaire thématique. Vous pourrez par la suite cliquer sur chaque partie et sous-partie pour accéder aux hadiths correspondants.
+  </div>
+
+  <div class="accordion-container" id="sommaire">
+    <!-- Exemple Partie 1 -->
+    <div class="part-card">
+      <div class="part-header" onclick="togglePart(this)">
+        <div class="part-title-wrap">
+          <div class="part-num">1</div>
+          <div class="part-title">La Connaissance et la Science ('Ilm)</div>
+        </div>
+        <div class="part-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <div class="part-content">
+        <div class="subpart-list">
+          <div class="subpart-item">
+            <div class="subpart-title">1.1 L'importance de la Connaissance</div>
+            <div class="subpart-desc">Hadiths sur les mérites de l'apprentissage et de la recherche du savoir.</div>
+            <div class="empty-hadiths">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              Hadiths à intégrer ultérieurement.
+            </div>
+          </div>
+          <div class="subpart-item">
+            <div class="subpart-title">1.2 Les devoirs du Savant</div>
+            <div class="subpart-desc">Responsabilités de ceux qui détiennent la science.</div>
+            <div class="empty-hadiths">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              Hadiths à intégrer ultérieurement.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exemple Partie 2 -->
+    <div class="part-card">
+      <div class="part-header" onclick="togglePart(this)">
+        <div class="part-title-wrap">
+          <div class="part-num">2</div>
+          <div class="part-title">L'Intellect et l'Ignorance ('Aql wa Jahl)</div>
+        </div>
+        <div class="part-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <div class="part-content">
+        <div class="subpart-list">
+          <div class="subpart-item">
+            <div class="subpart-title">2.1 La valeur de l'Intellect</div>
+            <div class="subpart-desc">La Raison comme lumière divine et guide intérieur.</div>
+            <div class="empty-hadiths">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              Hadiths à intégrer ultérieurement.
+            </div>
+          </div>
+          <div class="subpart-item">
+            <div class="subpart-title">2.2 Les caractéristiques de l'Ignorant</div>
+            <div class="subpart-desc">Comportements et signes de l'ignorance.</div>
+            <div class="empty-hadiths">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              Hadiths à intégrer ultérieurement.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exemple Partie 3 -->
+    <div class="part-card">
+      <div class="part-header" onclick="togglePart(this)">
+        <div class="part-title-wrap">
+          <div class="part-num">3</div>
+          <div class="part-title">L'Éthique et la Morale (Akhlâq)</div>
+        </div>
+        <div class="part-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <div class="part-content">
+        <div class="subpart-list">
+          <div class="subpart-item">
+            <div class="subpart-title">3.1 La sincérité (Ikhlâs)</div>
+            <div class="subpart-desc">L'intention pure et l'action vouée à Dieu.</div>
+            <div class="empty-hadiths">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              Hadiths à intégrer ultérieurement.
+            </div>
+          </div>
+          <div class="subpart-item">
+            <div class="subpart-title">3.2 La patience (Sabr)</div>
+            <div class="subpart-desc">Endurance face aux épreuves et dans l'obéissance.</div>
+            <div class="empty-hadiths">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              Hadiths à intégrer ultérieurement.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dev-note">
+    <div class="dev-note-title">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      Note d'intégration
+    </div>
+    <div class="dev-note-text">
+      Le sommaire PDF étant un scan d'images de 75 pages, la structure présentée ci-dessus sert de modèle (template). Vous pourrez éditer directement le fichier <code>aune-sagesse.html</code> pour y ajouter l'ensemble des parties et sous-parties selon ce modèle, au fur et à mesure que vous intégrerez les hadiths.
+    </div>
+  </div>
+
+</div>
+
+<script>
+function togglePart(element) {
+  const card = element.parentElement;
+  
+  // Si on veut fermer les autres accordéons (optionnel)
+  // document.querySelectorAll('.part-card').forEach(c => {
+  //   if(c !== card) c.classList.remove('active');
+  // });
+  
+  card.classList.toggle('active');
+}
+
+// Theme Listener
+window.addEventListener('message', function(e) {
+  if (e.data && e.data.type === 'theme') {
+    var t = e.data.theme;
+    document.documentElement.setAttribute('data-theme', t);
+    document.body.setAttribute('data-theme', t === 'light' ? '' : 'dark');
+  }
+});
+
+// Initialisation du thème
+try {
+  if (localStorage.getItem('theme') === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.body.setAttribute('data-theme', '');
+  }
+} catch(e) {}
+</script>
+
+</body>
+</html>
