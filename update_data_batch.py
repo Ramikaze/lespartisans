@@ -472,12 +472,6 @@ def update_hadiths():
                 "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Qā'im ('aj) sortira [de son occultation], [un grand nombre de] ceux qui se considéraient comme étant à ses côtés sortiront de son commandement, et ceux qui ressemblent aux adorateurs du soleil et de la lune [qui sont mécréants] entreront [à son service].<span class=\"footnote-ref\">576</span>"
             }
         ],
-        (29, 13): [
-            {
-                "number": "517",
-                "text": "Le Messager d'Allah (s) a dit : Le Mahdī ('aj) réapparaîtra parmi les derniers de ma communauté. Allah l'abreuvera de pluie, de"
-            }
-        ]
     }
 
     for (part_idx, subpart_idx), hadiths in hadiths_to_add.items():

@@ -1935,6 +1935,43 @@ const AUNE_SAGESSE = [
                         "text": "<em>Sunan al-Tirmidhī</em> : Alors que le Messager d'Allah (s) portait Ḥusayn ibn 'Alī sur ses épaules, un homme dit : «Quelle bonne monture est la tienne, ô jeune garçon !» Le Prophète (s) dit alors: «Et quel bon cavalier il est !»<span class=\"footnote-ref\">478</span>"
                     }
                 ]
+            },
+            {
+                "title": "Subpart 3",
+                "content": [
+                    {
+                        "number": "432",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui souhaite voir la plus aimée des personnes sur terre auprès des gens des cieux, regarde Ḥusayn.<span class=\"footnote-ref\">479</span>"
+                    },
+                    {
+                        "number": "433",
+                        "text": "L'Imām Ḥusayn (as) a dit : Je suis entré chez le Messager d'Allah (s) alors que Ubayy ibn Ka'b était chez lui. Le Messager d'Allah m'a dit : «Bienvenue à toi, ô Abā 'Abdillāh, ô ornement des cieux et des terres !» Ubayy lui dit : «Comment se pourrait-il, ô Messager d'Allah (s), que quelqu'un d'autre que toi soit l'ornement des cieux et des terres ?» Il (s) dit : «Ô Ubayy, je jure sur Celui qui m'a envoyé avec vérité en tant que prophète, que [la valeur] de Ḥusayn ibn 'Alī est plus élevée dans les cieux qu'elle ne l'est sur la terre, et en vérité, il est écrit [à son sujet] à la droite du trône d'Allah le Tout-Puissant : luminaire de la guidance, arche du salut, Imām sans défaillance et [source] d'honneur et fierté, étendard et grand trésor.»<span class=\"footnote-ref\">480</span>"
+                    },
+                    {
+                        "number": "434",
+                        "text": "L'Imām Ḥusayn (as) a dit dans son discours le jour de 'Ashūrā : Prenez garde ! En réalité, l'imposteur fils d'imposteur ['Ubaydollah ibn Ziyād, fils de Ziyād ibn Abīh] m'a acculé à deux choses : le sabre [la guerre] ou le déshonneur. Loin de nous [la soumission à] tout déshonneur! En vérité, Allah, Son Messager, les croyants, les girons purifiés et immaculés [dans lesquels nous avons grandi] et qui abhorrent la disgrâce, ont tous refusé que l'obéissance à des hommes vils soit préférée à une mort dans l'honneur et la dignité.<span class=\"footnote-ref\">481</span>"
+                    },
+                    {
+                        "number": "435",
+                        "text": "L'Imām Ḥusayn (as) a dit dans son discours le jour de 'Ashūrā : Par Allah ! Je ne vous tendrai pas la main comme la tend l'humilié, et je ne me sauverai pas comme se sauve l'esclave.<span class=\"footnote-ref\">482</span>"
+                    },
+                    {
+                        "number": "436",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : J'ai entendu Ḥusayn (as) dire en désignant son oreille droite : «Si un homme m'insultait dans cette oreille et qu'il s'excusait dans l'autre, j'accepterais [ses excuses] car le Prince des croyants 'Alī ibn Abī Ṭālib (as) m'a rapporté avoir entendu mon grand-père le Messager d'Allah (s) dire : «Ne parviendra pas aux eaux paradisiaques celui n'accepte pas les excuses de quelqu'un qui les a présentées à raison ou à tort».»<span class=\"footnote-ref\">483</span>"
+                    },
+                    {
+                        "number": "437",
+                        "text": "Hudhayfa ibn al-Yamān a dit : J'ai vu le Prophète (s) qui tenait la main de Ḥusayn ibn 'Alī (as) et disait : «Ô gens ! Voici Ḥusayn ibn 'Alī (as), reconnaissez-le. Par Celui qui détient mon âme entre Ses mains, il sera au Paradis, ceux qui l'aiment seront au Paradis, et ceux qui aiment ceux qui l'aiment seront au Paradis.»<span class=\"footnote-ref\">484</span>"
+                    },
+                    {
+                        "number": "438",
+                        "text": "Shu'ayb ibn 'Abd al-Raḥmān al-Khuzā'ī a dit : On vit des stigmates sur le dos de Ḥusayn ibn 'Alī le jour de la bataille de Ṭaff ['Ashūrā]. Lorsqu'on interrogea Zayn al-'Ābidīn à ce sujet, il dit : «Ce sont les traces des sacs [de nourriture] qu'il portait sur son dos aux demeures des veuves, des orphelins et des pauvres.»<span class=\"footnote-ref\">485</span>"
+                    },
+                    {
+                        "number": "439",
+                        "text": "Al-Sayyid ibn al-Ṭāwūs rapporte dans <em>Al-Luhūf</em> d'un rapporteur de <em>ḥadīth</em>: Ensuite, Ḥusayn (as) appela l'ennemi au duel. Il tuait chaque homme qui se présentait pour le combattre jusqu'à ce qu'il tue un grand nombre d'entre eux, à la suite de quoi il dit :<br>«La mort est préférable au fait de s'abandonner à [une vie d'] indignité<br>Et l'indignité est préférable au fait d'entrer dans le Feu [de l'Enfer].»<br>L'un des transmetteurs du <em>ḥadīth</em> a ajouté : «Par Allah, je n'ai jamais vu un homme vaincu dont les enfants, les proches et les compagnons venaient d'être tués, aussi calme que lui. Les hommes le combattaient ardemment, et lui aussi les combattait avec ardeur avec son épée. Il attaqua une armée de trente mille [soldats] en les dispersant devant lui telles des sauterelles éparpillées. Ensuite, il revenait vers son point de base en disant : «Il n'y a de force et de puissance qu'en Allah le Très-Haut, le Très-Grand.»»<span class=\"footnote-ref\">486</span><br><br><span class=\"reference-note\">(Voir également : 278. 'Ashūrā)</span>"
+                    }
+                ]
             }
         ]
     },
@@ -2015,6 +2052,27 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Bāqir (as) a dit : En vérité, la vérité m'a appelé alors que le faux s'était ancré en elle. J'ai donc tranché son flanc et ai fait sortir la vérité de derrière ses voiles jusqu'à ce qu'elle devienne manifeste et se répande après avoir été cachée et occultée.<span class=\"footnote-ref\">500</span>"
                     }
                 ]
+            },
+            {
+                "title": "Subpart 2",
+                "content": [
+                    {
+                        "number": "451",
+                        "text": "Le Messager d'Allah (s) a dit à Jābir : Ô Jābir ! Il naîtra de mon fils Ḥusayn un enfant qui s'appellera 'Alī. Lorsqu'adviendra le Jour du Jugement, cet appel sera lancé : «Que le maître des serviteurs [de Dieu] se lève !» Et 'Alī ibn Ḥusayn se lèvera. Puis de 'Alī naîtra un enfant qui s'appellera Muḥammad. Ô Jābir, lorsque tu le verras, transmets-lui mes salutations, et sache que tu ne vivras pas longtemps après l'avoir vu.<span class=\"footnote-ref\">501</span>"
+                    },
+                    {
+                        "number": "452",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Mon père pratiquait énormément le rappel [d'Allah] (<em>dhikr</em>). Lorsque je marchais à ses côtés, il pratiquait le rappel d'Allah. Lorsque je partageais son repas, il pratiquait le rappel d'Allah. Il parlait aux gens sans que cela ne l'empêche de pratiquer le rappel d'Allah. Je voyais alors qu'il collait sa langue à son palais et disait : «Point de divinité à part Dieu». Il nous rassemblait et nous ordonnait de pratiquer le rappel d'Allah jusqu'à ce que le soleil se lève, et il ordonnait à ceux d'entre nous qui savaient lire de lire le Coran, et à ceux qui ne savaient pas lire de pratiquer le rappel d'Allah (<em>dhikr</em>).<span class=\"footnote-ref\">502</span>"
+                    },
+                    {
+                        "number": "453",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Abū Ja'far avait la plus belle des voix.<span class=\"footnote-ref\">503</span>"
+                    },
+                    {
+                        "number": "454",
+                        "text": "Sulaymān ibn Qurm a dit : Abū Ja'far Muḥammad ibn 'Alī (as) nous payait cinq cents, six cents, et jusqu'à mille dirhams. Il ne se lassait jamais de faire des présents à ses frères, à ceux qui lui rendaient visite, ainsi qu'à ceux qui espéraient son aide et qui entretenaient l'espoir qu'il les assiste.<span class=\"footnote-ref\">504</span>"
+                    }
+                ]
             }
         ]
     },
@@ -2082,6 +2140,19 @@ const AUNE_SAGESSE = [
                     {
                         "number": "463",
                         "text": "'Alī ibn Suwayd a dit : J'ai écrit une lettre à Abū al-Ḥasan Mūsā (as) alors qu'il était emprisonné, afin de m'enquérir de son état et de questions diverses. Il ne me répondit pas pendant des mois. Puis il me répondit par une lettre dont voici le contenu : «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux... Assurément, tu es un homme auquel Allah a conféré un rang spécial avec la famille de Muḥammad, et qui T'a gardé par affection parmi ceux qui veillent sur Sa religion.»<span class=\"footnote-ref\">514</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Subpart 2",
+                "content": [
+                    {
+                        "number": "464",
+                        "text": "<em>Al-Irshād</em> : Il a été rapporté qu'Al-Kāẓim invoquait beaucoup Allah et disait alors : «Ô Allah ! Je Te demande l'aisance lors de la mort et le pardon lors des comptes», et il répétait cette phrase plusieurs fois. Et parmi ses invocations [figurait également] : «Le péché de Ton serviteur est grand, que Ton pardon soit à sa mesure». Il pleurait abondamment par crainte d'Allah jusqu'à ce que sa barbe soit imbibée de larmes. Il était le plus assidu dans le maintien des relations avec sa famille et ses proches. La nuit, il partait à la recherche des pauvres de Médine. Il leur portait alors [un panier] rempli de dirhams, de dinars, de farine et de dattes et les leur faisait parvenir sans qu'ils sachent de qui cela provenait.<span class=\"footnote-ref\">515</span>"
+                    },
+                    {
+                        "number": "465",
+                        "text": "Ḥasan ibn Muḥammad ibn Yaḥyā al-'Alawī a dit : Mon grand-père m'a dit : Mūsā ibn Ja'far (as) était surnommé le serviteur bienfaisant en raison de ses actes d'adoration et de ses efforts [dans la voie d'Allah]. Nos compagnons ont rapporté qu'il entrait dans la mosquée du Messager d'Allah (s) et effectuait une prosternation au début de la nuit. On l'entendait dire ceci durant sa prosternation : «Mon péché est grand, que Ton pardon soit à sa mesure, Ô Détenteur de la piété et Détenteur du pardon». Il répétait cela jusqu'au matin. Il était généreux et noble, et lorsqu'on lui rapportait qu'une personne l'avait calomnié, il envoyait à cette personne une bourse qui contenait mille dinars.<span class=\"footnote-ref\">516</span>"
                     }
                 ]
             }
@@ -2223,7 +2294,7 @@ const AUNE_SAGESSE = [
         "title": "28 - L'IMĀM AL-ḤASAN IBN 'ALĪ AL-'ASKARĪ (AS)",
         "subparts": [
             {
-                "title": "157 - Sa désignation en tant qu'Imām",
+                "title": "La signification du nom du Mahdī",
                 "content": [
                     {
                         "number": "482",
@@ -2236,13 +2307,200 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "158 - Ses vertus",
+                "title": "La nécessité de l'Imām",
                 "content": [
                     {
                         "number": "484",
                         "text": "Lorsqu'il fut interrogé au sujet de la Preuve [d'Allah] (<em>al-Ḥujjat</em>) et de l'Imām après lui, l'Imām al-'Askarī (as) répondit : Mon fils Muḥammad sera l'Imām et la Preuve après moi. Celui qui meurt sans l'avoir reconnu [comme Imām] mourra de la mort des ignorants. Sachez qu'il entrera dans une occultation au sujet de laquelle les ignorants seront déroutés et les négateurs perdus. Les personnes qui détermineront le moment [de sa réapparition] mentiront. Puis il sortira, et c'est comme si je voyais [à une époque future] des étendards blancs qui flottent au-dessus de sa tête à Najaf, [près de] Kūfa.<span class=\"footnote-ref\">542</span>"
                     }
                 ]
+            },
+            {
+                "title": "La bonne nouvelle du Mahdī ('aj)",
+                "content": [
+                    {
+                        "number": "485",
+                        "text": "Le Messager d'Allah (s) a dit : Réjouis-toi, ô Fāṭima, car en vérité, le Mahdī sera de toi [de ta descendance].<span class=\"footnote-ref\">543</span>"
+                    },
+                    {
+                        "number": "486",
+                        "text": "Le Messager d'Allah (s) a dit : Le Mahdī sera un homme de ma descendance, et son visage ressemblera à un astre étincelant.<span class=\"footnote-ref\">544</span>"
+                    },
+                    {
+                        "number": "487",
+                        "text": "Le Messager d'Allah (s) a dit : L'Heure [finale] ne surviendra qu'après que la terre ait été remplie d'injustice et d'inimitié ; apparaîtra alors un homme de ma descendance et il la remplira d'équité et de justice, tout comme elle avait été auparavant remplie d'injustice et d'inimitié.<span class=\"footnote-ref\">545</span>"
+                    },
+                    {
+                        "number": "488",
+                        "text": "Le Messager d'Allah (s) a dit : Un homme de ma famille gouvernera, son nom sera le même que le mien. S'il ne reste qu'un jour avant la fin du monde, Allah rallongera ce jour afin qu'il gouverne.<span class=\"footnote-ref\">546</span>"
+                    },
+                    {
+                        "number": "489",
+                        "text": "L'Imām 'Alī (as) a dit : Le Mahdī sera un homme issu de nous, un descendant de Fāṭima.<span class=\"footnote-ref\">547</span>"
+                    },
+                    {
+                        "number": "490",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'il apparaîtra, il s'appuiera contre la Ka'ba et trois cent treize hommes se réuniront autour de lui. La première parole qu'il prononcera sera : <em>«Ce qui demeure auprès d'Allah est meilleur pour vous, si vous êtes croyant.»</em><span class=\"footnote-ref\">548</span> Et ensuite il dira: «Je suis celui qui demeure auprès d'Allah, Sa preuve et Son lieu-tenant (<em>khalīfa</em>) auprès de vous.» Ce jour-là, on ne le saluera que par «Que la paix soit sur toi, ô celui qui demeure auprès d'Allah (<em>baqiyyat Allah</em>) sur Sa terre.»<span class=\"footnote-ref\">549</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Les deux occultations de l'Imām al-Qā'im ('aj)",
+                "content": [
+                    {
+                        "number": "491",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im aura deux occultations, l'une sera longue et l'autre sera courte. Durant la première, un cercle restreint de ses partisans saura où il se trouve et lors de la seconde, personne ne saura où il se trouve sauf ses partisans élus le suivant dans sa religion.<span class=\"footnote-ref\">550</span><br><br><span class=\"reference-note\">(Voir également : 87. Le pèlerinage obligatoire (hajj), section 455)</span>"
+                    }
+                ]
+            },
+            {
+                "title": "La difficulté d'adhérer à la religion durant l'occultation",
+                "content": [
+                    {
+                        "number": "492",
+                        "text": "Le Messager d'Allah (s) a dit : Je jure par Celui qui m'a envoyé par la Vérité comme annonciateur de la bonne nouvelle, qu'en vérité, ceux qui croient avec constance en son Imāmat lors de son occultation seront plus chers que ne l'est le soufre rouge.<span class=\"footnote-ref\">551</span>"
+                    },
+                    {
+                        "number": "493",
+                        "text": "<em>Al-Ghayba li al-Nu'mānī</em> : L'Imām Ja'far al-Ṣādiq (as) a dit : «En vérité, le détenteur de cet ordre [l'Imām du temps (as)] connaîtra une occultation durant laquelle celui qui adhère à sa religion sera comme celui qui s'agrippe à un buisson d'épines avec ses mains.» Il observa un silence, puis dit : «Le détenteur de cet ordre connaîtra une occultation, alors que le serviteur craigne Allah et adhère à sa religion.»<span class=\"footnote-ref\">552</span><br><br><span class=\"reference-note\">(Voir également : 145. La religion, section 739)</span>"
+                    }
+                ]
+            },
+            {
+                "title": "L'invocation durant l'occultation du Qā'im ('aj)",
+                "content": [
+                    {
+                        "number": "494",
+                        "text": "<em>Biḥār al-Anwār</em> : 'Abdullāh ibn Sinān a dit : Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) a dit : «Vous serez atteints par la confusion qui vous laissera sans signe indiquant [une solution] et sans dirigeant qui vous guide. Ne sera sauvé que celui qui récite l'invocation du noyé.» Je lui demandai alors : «Quelle est l'invocation du noyé ?» Il répondit : «Tu dis : «Ô Allah ! Ô Très Miséricordieux ! Ô Tout Miséricordieux ! Ô Celui qui retourne les cœurs ! Affermis mon cœur dans Ta religion».» Je dis : «Ô Celui qui retourne les cœurs et les regards ! Affermis mon cœur dans Ta religion.» Il me dit : «En vérité, Allah le Tout-Puissant est Celui qui retourne les cœurs et les regards, mais dis [exactement] ce que je dis : «Ô Celui qui retourne les cœurs, affermis mon cœur dans Ta religion».»<span class=\"footnote-ref\">553</span>"
+                    }
+                ]
+            },
+            {
+                "title": "L'attente active de la délivrance",
+                "content": [
+                    {
+                        "number": "495",
+                        "text": "Le Messager d'Allah (s) a dit : Le meilleur des actes de ma communauté est l'attente [active] de la délivrance d'Allah le Tout-Puissant.<span class=\"footnote-ref\">554</span>"
+                    },
+                    {
+                        "number": "496",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : L'attente [active] de la délivrance est elle-même la plus grande délivrance.<span class=\"footnote-ref\">555</span>"
+                    },
+                    {
+                        "number": "497",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui meurt en état d'attente de cet ordre [le gouvernement du Mahdī] sera comme celui qui sera avec al-Qā'im dans sa tente ; plus que cela, il occupera le rang de celui qui a combattu par l'épée aux côtés du Messager d'Allah (s).<span class=\"footnote-ref\">556</span>"
+                    },
+                    {
+                        "number": "498",
+                        "text": "L'Imām al-Kāẓim (as) a dit : L'attente de la délivrance fait partie de la délivrance.<span class=\"footnote-ref\">557</span>"
+                    }
+                ]
+            },
+            {
+                "title": "La réapparition du Qā'im ('aj) après le désespoir des gens",
+                "content": [
+                    {
+                        "number": "499",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, cet ordre [le gouvernement du Mahdī] ne surviendra qu'après votre désespoir ; non par Allah ! Afin que vous vous soyez distingués les uns des autres [les sincères des autres].<span class=\"footnote-ref\">558</span>"
+                    },
+                    {
+                        "number": "500",
+                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, la délivrance viendra après le désespoir.<span class=\"footnote-ref\">559</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Ceux qui prédisent le moment mentent",
+                "content": [
+                    {
+                        "number": "501",
+                        "text": "L'Imām al-Bāqir (as), répondant à Fuḍayl qui lui avait demandé «Est-ce que le moment de cet évènement [la réapparition du Mahdī] est déterminé ?», dit : «Ceux qui prédisent le moment [de la réapparition du Qā'im] mentent, ceux qui prédisent le moment mentent, ceux qui prédisent le moment mentent.»<span class=\"footnote-ref\">560</span>"
+                    }
+                ]
+            },
+            {
+                "title": "La raison de l'occultation",
+                "content": [
+                    {
+                        "number": "502",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le Messager d'Allah (s) a dit : «L'occultation sera nécessaire pour cet homme [le Mahdī].» On lui demanda alors : «Pour quelle raison, ô Messager d'Allah ?» Il répondit : «Par crainte d'être tué.»<span class=\"footnote-ref\">561</span>"
+                    },
+                    {
+                        "number": "503",
+                        "text": "<em>Kamāl al-Dīn</em> : 'Abdullāh ibn al-Faḍl al-Hāshimī a dit : J'ai entendu Ja'far al-Ṣādiq (as) dire : «Le détenteur de cet ordre [l'Imāmat] doit inévitablement entrer en occultation, au sujet de laquelle ne doutent que les déviants.» Je dis alors: «Pour quelle raison, que je te sois sacrifié?» Il répondit : «Pour une raison que nous n'avons pas le droit de vous divulguer.» Je dis : «Alors quelle est la sagesse et le sens profond de son occultation ?» Il dit : «Le sens profond de son occultation est le même que celui de l'occultation des autres Preuves d'Allah qui l'ont précédé. Son sens profond ne sera divulgué qu'après sa réapparition... En vérité, cet ordre fait partie des ordres d'Allah le Très-Haut, c'est un secret parmi les secrets d'Allah, un mystère parmi les mystères d'Allah. A partir du moment où l'on sait qu'Il - le Tout-Puissant - est Sage, nous approuvons et reconnaissons que tous Ses actes sont basés sur une sagesse, même si leur signification profonde n'est pas dévoilée.»<span class=\"footnote-ref\">562</span>"
+                    },
+                    {
+                        "number": "504",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im ('aj) ne réapparaîtra que lorsque les dépôts d'Allah le Très-Haut [les croyants nés de lombes d'incroyants] se soulèveront. Et lorsqu'ils se soulèveront, il réapparaîtra face aux ennemis d'Allah puis les tuera.<span class=\"footnote-ref\">563</span>"
+                    },
+                    {
+                        "number": "505",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ce gouvernement ne se réalisera que lorsqu'il ne restera plus aucun groupe à n'avoir pas gouverné sur les gens afin que personne ne dise : «Si c'était nous qui avions gouverné, nous aurions été équitables.» Ensuite, al-Qā'im se dressera par la vérité et la justice.<span class=\"footnote-ref\">564</span>"
+                    },
+                    {
+                        "number": "506",
+                        "text": "L'Imām al-Kāẓim (as) a dit : S'il y avait parmi vous autant de personnes qu'à Badr, notre Qā'im se serait dressé.<span class=\"footnote-ref\">565</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Les personnes bénéficiant de l'Imām durant son occultation",
+                "content": [
+                    {
+                        "number": "507",
+                        "text": "L'Imām al-Mahdī ('aj) a dit : La façon de bénéficier de ma présence durant mon occultation est similaire au fait de bénéficier du soleil lorsqu'il est caché des regards par les nuages. Je suis une [source de] sécurité pour les gens de la terre.<span class=\"footnote-ref\">566</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Les partisans du Qā'im",
+                "content": [
+                    {
+                        "number": "508",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque le prédicateur mourra et que le maître de l'époque déviera, lorsque les cœurs à la fois pleins et vides balanceront, lorsque ceux qui espèrent périront et que ceux qui sont destinés à disparaître disparaîtront, les croyants demeureront. Infime sera leur nombre, trois cents ou un peu plus. A leur côté combattra un groupe qui a combattu avec le Messager d'Allah (s) le jour de Badr, sans être tué ni mourir.<span class=\"footnote-ref\">567</span>"
+                    },
+                    {
+                        "number": "509",
+                        "text": "<em>Kamāl al-Dīn</em> : Muḥammad ibn Muslim a dit: J'ai entendu Abū 'Abdillāh (as) dire: «En vérité, il y aura des signes précurseurs de l'apparition du Qā'im provenant d'Allah le Tout-Puissant et destinés aux croyants.» Je lui demandai : «Qu'Allah me sacrifie pour toi, quels sont-ils ?» Il répondit : «Ils sont évoqués dans la parole d'Allah le Tout-Puissant: <em>«Très certainement, Nous vous [c'est-à-dire les croyants avant l'apparition de l'Imām] éprouverons par un peu de peur, de faim et de diminution de biens, de personnes et de fruits. Et fais la bonne annonce aux endurants.»</em><span class=\"footnote-ref\">568</span>»<span class=\"footnote-ref\">569</span>"
+                    },
+                    {
+                        "number": "510",
+                        "text": "Interrogé par 'Alī ibn Mahzyār qui lui demanda : «Ô maître ! Quand aura lieu cet évènement ?», l'Imām al-Mahdī ('aj) répondit: «Lorsque la voie entre vous et la Ka'ba sera fermée.»<span class=\"footnote-ref\">570</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Durant l'apparition",
+                "content": [
+                    {
+                        "number": "511",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque qu'un appel du ciel sera lancé disant que «En vérité, la vérité est parmi la famille [la descendance] de Muḥammad», alors le Mahdī ('aj) apparaîtra sur la langue des gens, ils boiront son affection et ne parleront que de lui.<span class=\"footnote-ref\">571</span>"
+                    },
+                    {
+                        "number": "512",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque notre gouvernement se réalisera et que notre Mahdī apparaîtra, ce jour-là, nos partisans (<em>shī'a</em>) seront plus courageux qu'un lion et plus affutés que la pointe d'une lance. Ils écraseront nos ennemis sous leurs pieds et les frapperont de leurs mains. Cet événement aura lieu avec la descente de la miséricorde d'Allah et Sa délivrance pour les serviteurs.<span class=\"footnote-ref\">572</span>"
+                    },
+                    {
+                        "number": "513",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque al-Qā'im ('aj) se dressera, il gouvernera équitablement; la tyrannie disparaîtra durant son gouvernement, les voies [de communication] seront sécurisées, la terre donnera ses bénédictions et il sera donné à chacun les droits qui lui reviennent.<span class=\"footnote-ref\">573</span>"
+                    },
+                    {
+                        "number": "514",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, lorsque notre Qā'im se dressera, Allah le Tout-Puissant donnera à nos partisans (<em>shī'a</em>) une vue si perçante et une ouïe si fine qu'il n'y aura besoin d'aucun messager entre eux et al-Qā'im (as). Il leur parlera et ils l'entendront, et ils le verront de là où il est.<span class=\"footnote-ref\">574</span>"
+                    },
+                    {
+                        "number": "515",
+                        "text": "<em>Al-Ghayba lil-Nu'mānī</em> : L'Imām al-Ṣādiq (as) a dit : «Il y aura très peu d'Arabes avec al-Qā'im.» Quelqu'un dit : «Pourtant, un grand nombre d'entre eux se décrivent comme tels [comme ses partisans] !» Il (as) répondit : «Les gens doivent être purifiés, distingués et tamisés. Beaucoup de gens passeront à travers le tamis.»<span class=\"footnote-ref\">575</span>"
+                    },
+                    {
+                        "number": "516",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Qā'im ('aj) sortira [de son occultation], [un grand nombre de] ceux qui se considéraient comme étant à ses côtés sortiront de son commandement, et ceux qui ressemblent aux adorateurs du soleil et de la lune [qui sont mécréants] entreront [à son service].<span class=\"footnote-ref\">576</span>"
+                    }
+                ]
+            },
+            {
+                "title": "Le monde après la réapparition du Mahdī ('aj)",
+                "content": []
             }
         ]
     },
