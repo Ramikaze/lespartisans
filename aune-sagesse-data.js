@@ -9502,6 +9502,14 @@ const AUNE_SAGESSE = [
                     {
                         "number": "1562",
                         "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, Allah aime tout cœur triste.<sup>1783</sup>"
+                    },
+                    {
+                        "number": "1563",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : J'ai lu dans le livre de 'Alī (as) : «En vérité, le croyant s'endort triste, se réveille triste et cela ne peut que lui être bénéfique.»<sup>1784</sup>"
+                    },
+                    {
+                        "number": "1564",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La respiration de celui qui est attristé de notre sort et affecté par l'injustice [qui nous touche] est une glorification, et son chagrin pour nous est un acte d'adoration.<sup>1785</sup><br><br><span class=\"hadith-footnote\">(Voir également : 47. Pleurer ; 334. Le cœur, section 1554)</span>"
                     }
                 ]
             }
@@ -9511,37 +9519,154 @@ const AUNE_SAGESSE = [
         "title": "100 - LES COMPTES",
         "subparts": [
             {
-                "title": "517 - Le Jour des comptes"
+                "title": "517 - Le Jour des comptes",
+                "hadiths": [
+                    {
+                        "number": "1565",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, vous êtes actuellement dans une période d'actes sans comptes, et vous atteindrez bientôt le Jour des comptes où il n'y aura plus d'actes.<sup>1786</sup>"
+                    },
+                    {
+                        "number": "1566",
+                        "text": "L'Imām 'Alī (as) a dit : Les comptes auront lieu avant le châtiment, et la rétribution aura lieu après les comptes.<sup>1787</sup>"
+                    }
+                ]
             },
             {
-                "title": "518 - Incitation à procéder à l'examen de sa personne"
+                "title": "518 - Incitation à procéder à l'examen de sa personne",
+                "hadiths": [
+                    {
+                        "number": "1567",
+                        "text": "Le Messager d'Allah (s) a dit : Faites votre examen de conscience et demandez-vous des comptes à vous-mêmes avant que l'on vous demande des comptes, évaluez-vous avant que l'on vous évalue, et préparez-vous à la Grande Exposition [des actes].<sup>1789</sup>"
+                    },
+                    {
+                        "number": "1568",
+                        "text": "L'Imām 'Alī (as) a dit : Restreignez votre personne en lui demandant des comptes, et contrôlez-la en vous opposant à elle [à ses bas instincts].<sup>1790</sup>"
+                    },
+                    {
+                        "number": "1569",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Ô homme ! Tu demeureras dans le bien tant que tu te sermonnes toi-même et tant que l'examen de ta propre personne fait partie de tes soucis.<sup>1791</sup>"
+                    },
+                    {
+                        "number": "1570",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Ne fait pas partie de nous celui qui ne procède pas à l'examen de lui-même chaque jour. Et lorsqu'il agit bien, qu'il implore Allah pour pouvoir agir davantage et Le glorifie, et lorsqu'il agit mal, qu'il implore le pardon d'Allah et se repente.<sup>1792</sup>"
+                    }
+                ],
+                "introduction": "«Ô vous qui avez cru ! Craignez Allah. Que chaque âme voit bien ce qu'elle a avancé pour demain. Et craignez Allah, car Allah est Parfaitement Connaisseur de ce que vous faites.»<sup>1788</sup>"
             },
             {
-                "title": "519 - Le fruit de l'examen de soi"
+                "title": "519 - Le fruit de l'examen de soi",
+                "hadiths": [
+                    {
+                        "number": "1571",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui procède à l'examen de sa personne sera conscient de ses défauts et se rendra compte de ses péchés. Il abandonnera [ainsi] les péchés et corrigera ses défauts.<sup>1793</sup>"
+                    },
+                    {
+                        "number": "1572",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui procède à l'examen de sa personne en retirera un profit, celui qui néglige cela connaîtra une perte, et celui qui craint sera en sécurité.<sup>1794</sup>"
+                    },
+                    {
+                        "number": "1573",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui procède à l'examen de sa personne atteindra la félicité.<sup>1795</sup>"
+                    }
+                ]
             },
             {
-                "title": "520 - La première chose au sujet de laquelle l'être humain sera interrogé"
+                "title": "520 - La première chose au sujet de laquelle l'être humain sera interrogé",
+                "hadiths": [
+                    {
+                        "number": "1574",
+                        "text": "Le Messager d'Allah (s) a dit : La première des choses qui sera demandée aux serviteurs sera leur amour pour nous, les Gens de la demeure prophétique (<i>Ahl al-Bayt</i>).<sup>1796</sup>"
+                    },
+                    {
+                        "number": "1575",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la première chose au sujet de laquelle le serviteur sera interrogé quand il sera entre les mains d'Allah - glorifiée soit Sa Grandeur - seront ses prières obligatoires, ses <i>zakāts</i> obligatoires, son jeûne obligatoire, son pèlerinage obligatoire (<i>ḥajj</i>) et son allégeance et sa proche-amitié (<i>wilāya</i>) à nous, les Gens de la demeure prophétique. S'il meurt en reconnaissant notre autorité et notre proche-amitié, sa prière, son jeûne, sa <i>zakāt</i> et son pèlerinage seront agréés.<sup>1797</sup>"
+                    }
+                ]
             },
             {
-                "title": "521 - Les choses qui ne seront pas l'objet de comptes"
+                "title": "521 - Les choses qui ne seront pas l'objet de comptes",
+                "hadiths": [
+                    {
+                        "number": "1576",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, toute grâce sera objet d'interrogation, sauf ce qui a été [utilisé] dans la voie d'Allah le Très-Haut.<sup>1798</sup>"
+                    },
+                    {
+                        "number": "1577",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui prononce le Nom d'Allah face à de la nourriture ne sera jamais interrogé [pour rendre compte] de la grâce de cette nourriture.<sup>1799</sup>"
+                    },
+                    {
+                        "number": "1578",
+                        "text": "L'Imām al-Bāqir ou l'Imām al-Ṣādiq (as) a dit : Le serviteur ne sera pas interrogé au sujet de trois choses : un morceau de tissu grâce auquel il a couvert ses parties intimes, une ration de pain par laquelle il a assouvi sa faim, et une maison qui l'a protégé de la chaleur et du froid.<sup>1800</sup>"
+                    }
+                ]
             },
             {
-                "title": "522 - Les choses qui seront l'objet de comptes"
+                "title": "522 - Les choses qui seront l'objet de comptes",
+                "hadiths": [
+                    {
+                        "number": "1579",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, le pied d'un serviteur ne glissera pas tant qu'il ne sera pas interrogé au sujet de quatre choses : sa vie et en quoi il l'a épuisée ; sa jeunesse et dans quoi il l'a usée ; son argent, comment il l'a gagné et dans quoi il l'a dépensé ; et enfin au sujet de notre amour, nous les Gens de la demeure prophétique (<i>Ahl al-Bayt</i>).<sup>1801</sup>"
+                    },
+                    {
+                        "number": "1580",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole du Très-Haut <i>«Puis, assurément, vous serez interrogés, ce jour-là, sur les grâces»</i><sup>1802</sup> : Cette communauté sera interrogée sur les grâces qu'Allah lui a accordées, c'est-à-dire le Messager d'Allah (s) et les Gens de sa demeure (as).<sup>1803</sup><br><br><span class=\"hadith-footnote\">(Voir également : 325. La tombe, section 1506)</span>"
+                    }
+                ]
             },
             {
-                "title": "523 - Ce qui facilitera les comptes du Jour du Jugement"
+                "title": "523 - Ce qui facilitera les comptes du Jour du Jugement",
+                "hadiths": [
+                    {
+                        "number": "1581",
+                        "text": "Le Messager d'Allah (s) a dit : Sois satisfait de ce qui t'a été donné, et tes comptes seront plus légers.<sup>1804</sup>"
+                    },
+                    {
+                        "number": "1582",
+                        "text": "Le Messager d'Allah (s) a dit : Améliore ton caractère, et Allah allégera tes comptes.<sup>1805</sup>"
+                    },
+                    {
+                        "number": "1583",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : «En vérité, le maintien des liens familiaux allège les comptes le Jour de la Résurrection.» Puis il a récité [le verset suivant] : <i>«[Ceux] qui unissent ce qu'Allah a ordonné d'unir, redoutent leur Seigneur et craignent une mauvaise reddition de compte.»</i><sup>1806, 1807</sup>"
+                    }
+                ]
             },
             {
-                "title": "524 - Les différentes catégories de gens durant les comptes"
+                "title": "524 - Les différentes catégories de gens durant les comptes",
+                "hadiths": [
+                    {
+                        "number": "1584",
+                        "text": "L'Imām 'Alī (as) a dit : Ce jour-là, les gens auront différents rangs et stations. Les comptes de certains d'entre eux seront dressés de façon aisée et ils retourneront heureux auprès des leurs. Certains d'entre eux entreront au Paradis sans comptes car ils ne se seront pas mêlés [et attachés] aux choses de ce bas-monde. En vérité, on y dressera les comptes de ceux qui se sont mêlés [et attachés] à elles. Et certains se verront demander des comptes au sujet du creux du noyau de la datte ou sur la fine peau séparant le noyau de la datte [c'est-à-dire même sur leurs actes les plus insignifiants], et ils seront en proie au châtiment de la Fournaise.<sup>1808</sup>"
+                    }
+                ]
             },
             {
-                "title": "525 - Les comptes difficiles"
+                "title": "525 - Les comptes difficiles",
+                "hadiths": [
+                    {
+                        "number": "1585",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut <i>«et ils craignent une mauvaise reddition de compte»</i><sup>1809</sup> : Leurs mauvaises actions seront comptabilisées contre eux et leurs bonnes actions seront comptabilisées pour eux, et c'est cela le compte précis.<sup>1810</sup>"
+                    }
+                ]
             },
             {
-                "title": "526 - Celui dont on dressera facilement les comptes"
+                "title": "526 - Celui dont on dressera facilement les comptes",
+                "hadiths": [
+                    {
+                        "number": "1586",
+                        "text": "L'Imām al-Bāqir (as) : Le Messager d'Allah (s) a dit : «Toute personne dont on dressera les comptes subira un châtiment.» Un interlocuteur l'interpella : «Ô Messager d'Allah ! Qu'en est-il alors de la parole d'Allah le Tout-Puissant <i>«il sera soumis à un jugement facile»</i><sup>1812</sup> ?» Il répondit: «Cela concerne la présentation des pages [du registre de nos actes, et non la réalisation des comptes et le jugement en eux-mêmes].»<sup>1813</sup><br><br><span class=\"hadith-footnote\">(Voir également : 292. La Résurrection, section 1395)</span>"
+                    }
+                ],
+                "introduction": "«Celui qui recevra son livre en sa main droite sera soumis à un jugement facile.»<sup>1811</sup>"
             },
             {
-                "title": "527 - Celui qui accèdera au Paradis sans que l'on ait dressé ses comptes"
+                "title": "527 - Celui qui accèdera au Paradis sans que l'on ait dressé ses comptes",
+                "hadiths": [
+                    {
+                        "number": "1587",
+                        "text": "Le Messager d'Allah (s) a dit : Allah le Très-Haut dira : «Ô Mes serviteurs qui ont combattu dans Ma voie, qui ont été tués et qui ont été offensés dans Ma voie, et qui ont pratiqué le <i>jihād</i> dans Ma voie, entrez donc au Paradis!» Et ainsi, ils y entreront sans châtiment ni comptes.<sup>1815</sup>"
+                    }
+                ],
+                "introduction": "«Dis : «Ô Mes serviteurs qui avez cru ! Craignez votre Seigneur.» Ceux qui ici-bas font le bien auront une bonne [récompense]. La terre d'Allah est vaste et les endurants auront leur pleine récompense sans compter.»<sup>1814</sup>"
             },
             {
                 "title": "528 - Celui qui ira en Enfer sans que l'on ait dressé ses comptes"
