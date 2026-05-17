@@ -247,7 +247,7 @@ function renderSommaire() {
            sub.hadiths.forEach((h, hIndex) => {
                hadithsHtml += `
                  <div class="hadith-card">
-                    <div class="hadith-number">${hIndex + 1}</div>
+                    <div class="hadith-number">${h.number || hIndex + 1}</div>
                     ${h.source ? `<div class="hadith-source-title" style="font-weight: 600; color: #c9a84c; margin-bottom: 5px; font-size: 0.9em;">${h.source}</div>` : ''}
                     <div class="hadith-text">${h.text}</div>
                  </div>
