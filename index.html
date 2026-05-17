@@ -1017,7 +1017,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     if (!query || query.trim().length < 2) {
       hintEl.textContent = 'Tapez au moins 2 caractères';
       countEl.textContent = '';
-      results.innerHTML = '<div class="gs-empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>Tapez pour rechercher sur tout le site</div>';
+      results.innerHTML = '<div class="gs-empty"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:12px;opacity:0.3;display:block;margin-left:auto;margin-right:auto;"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>Tapez pour rechercher sur tout le site</div>';
       return;
     }
 
@@ -1026,7 +1026,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
 
     if (!hits.length) {
       countEl.textContent = 'Aucun résultat';
-      results.innerHTML = '<div class="gs-empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>Aucun résultat pour «\u00a0' + escHtml(query) + '\u00a0»</div>';
+      results.innerHTML = '<div class="gs-empty"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:12px;opacity:0.3;display:block;margin-left:auto;margin-right:auto;"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>Aucun résultat pour «\u00a0' + escHtml(query) + '\u00a0»</div>';
       return;
     }
 
