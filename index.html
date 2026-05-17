@@ -146,12 +146,12 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
 
 /* === SEARCH & FILTERS === */
 .search-section{width:100%;max-width:1400px;margin-bottom:24px}
-.search-bar{display:flex;align-items:center;gap:10px;background:var(--bg-search);border:1px solid var(--card-border);border-radius:12px;padding:10px 16px;transition:border-color .2s}
-.search-bar:focus-within{border-color:var(--accent-border-strong)}
-.search-icon{width:18px;height:18px;color:var(--text-faint);flex-shrink:0}
-.search-input{flex:1;background:none;border:none;color:var(--text);font-family:inherit;font-size:17px;outline:none}
+.search-bar{width:100%;max-width:680px;margin:0 auto 24px;background:var(--bg-card);border:1px solid var(--accent-border);border-radius:24px;padding:12px 20px;display:flex;align-items:center;gap:12px;transition:all .2s;cursor:pointer}
+.search-bar:hover{border-color:var(--accent-border-strong);box-shadow:0 6px 20px rgba(0,0,0,0.15)}
+.search-icon{width:20px;height:20px;color:var(--accent);opacity:0.8;flex-shrink:0}
+.search-input{flex:1;background:none;border:none;color:var(--text);font-family:inherit;font-size:17px;outline:none;cursor:pointer}
 .search-input::placeholder{color:var(--text-ghost)}
-.filter-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.filter-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:12px}
 .filter-tag{background:var(--bg-filter);border:1px solid var(--card-border);color:var(--text-dim);padding:7px 18px;border-radius:20px;font-family:inherit;font-size:15px;cursor:pointer;transition:all .2s;white-space:nowrap}
 .filter-tag:hover{border-color:var(--accent-border);color:var(--text-sub)}
 .filter-tag.active{background:var(--bg-filter-active);border-color:var(--accent-border-strong);color:var(--accent);font-weight:600}
@@ -273,7 +273,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   <div class="search-section" id="searchSection">
     <div class="search-bar">
       <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
-      <input class="search-input" id="searchInput" type="text" placeholder="Rechercher (ex: coran, imams, invocations...)">
+      <input class="search-input" id="searchInput" type="text" readonly="readonly" placeholder="Rechercher sur tout le site (ex: coran, imams, invocations...)">
     </div>
     <div class="filter-tags" id="filterTags">
       <button class="filter-tag active" data-filter="all">Tout</button>
@@ -713,58 +713,52 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   });
 
   function applyFilters() {
-    var raw = searchInput.value.trim();
-    var query = normalize(raw);
     var visible = 0;
+    fuseData.forEach(function(d) {
+      var matchTheme = activeFilter === 'all' || d.theme === activeFilter;
+      if (matchTheme) {
+        d.el.classList.remove('search-hidden');
+        visible++;
+      } else {
+        d.el.classList.add('search-hidden');
+      }
+    });
 
-    if (query.length >= 2) {
-      var results = fuse.search(query);
-      var matchedIdxs = new Set(results.map(function(r){ return r.item.idx; }));
-      fuseData.forEach(function(d) {
-        var matchTheme = activeFilter === 'all' || d.theme === activeFilter;
-        var matchSearch = matchedIdxs.has(d.idx);
-        if (matchTheme && matchSearch) {
-          d.el.classList.remove('search-hidden');
-          visible++;
-        } else {
-          d.el.classList.add('search-hidden');
-        }
-      });
-    } else {
-      fuseData.forEach(function(d) {
-        var matchTheme = activeFilter === 'all' || d.theme === activeFilter;
-        if (matchTheme) {
-          d.el.classList.remove('search-hidden');
-          visible++;
-        } else {
-          d.el.classList.add('search-hidden');
-        }
-      });
-    }
-
-    if (raw || activeFilter !== 'all') {
-      searchCount.textContent = visible + ' résultat' + (visible !== 1 ? 's' : '');
+    if (activeFilter !== 'all') {
+      searchCount.textContent = visible + ' élément' + (visible !== 1 ? 's' : '');
     } else {
       searchCount.textContent = '';
     }
+
     var noRes = document.getElementById('noResults');
-    if (visible === 0 && (raw || activeFilter !== 'all')) {
+    if (visible === 0 && activeFilter !== 'all') {
       if (!noRes) {
         noRes = document.createElement('div');
         noRes.id = 'noResults';
         noRes.className = 'no-results';
         document.getElementById('cardsGrid').appendChild(noRes);
       }
-      var msg = raw ? 'Aucun r\u00e9sultat pour \u00ab\u00a0' + raw + '\u00a0\u00bb' : 'Aucun r\u00e9sultat dans cette cat\u00e9gorie.';
-      if (raw && activeFilter !== 'all') msg += ' dans ce filtre. Essayez avec \u00ab\u00a0Tout\u00a0\u00bb.';
-      noRes.textContent = msg;
+      noRes.textContent = 'Aucun élément dans cette catégorie.';
       noRes.style.display = '';
     } else if (noRes) {
       noRes.style.display = 'none';
     }
   }
 
-  searchInput.addEventListener('input', applyFilters);
+  // The main search input now acts as a trigger for the Global Search Overlay
+  var sb = document.querySelector('.search-bar');
+  if (sb) {
+    sb.addEventListener('click', function() {
+      if (typeof openGS === 'function') openGS();
+    });
+  }
+  searchInput.addEventListener('focus', function() {
+    searchInput.blur();
+    if (typeof openGS === 'function') openGS();
+  });
+  searchInput.addEventListener('click', function() {
+    if (typeof openGS === 'function') openGS();
+  });
 
   filterTags.forEach(function(tag) {
     tag.addEventListener('click', function() {
