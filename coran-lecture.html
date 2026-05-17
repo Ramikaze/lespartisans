@@ -646,11 +646,15 @@ function toggleVerseAudio(id) {
       }
     });
     au.addEventListener('ended', function() {
-      btn.classList.remove('playing');
-      btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>';
+      var btn2 = wrap.querySelector('.va-btn');
+      btn2.classList.remove('playing');
+      btn2.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>';
       fill.style.width = '0%';
       timeEl.textContent = '0:00';
       _vaCurrentId = null;
+      if (typeof _spState !== 'undefined' && _spState.playing) {
+        _spPlayVerse(_spState.verseIdx + 1);
+      }
     });
     au.addEventListener('error', function() {
       /* Try fallback CDN */
