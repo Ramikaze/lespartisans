@@ -1178,7 +1178,81 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "196",
-                        "text": "Dans le <i>ḥadīth</i> de l'ascension (<i>mi'rāj</i>), le Messager d'Allah (s) a dit : «Ô Seigneur, quel"
+                        "text": "Dans le <i>ḥadīth</i> de l'ascension (<i>mi'rāj</i>), le Messager d'Allah (s) a dit : «Ô Seigneur, quel est le résultat de la faim ?» Il répondit : «La sagesse, la protection du cœur, le rapprochement de Moi, la mélancolie permanente [pour la rencontre avec Allah], une faible charge pour les gens, le fait de dire la vérité, et l'indifférence face au fait de vivre dans la facilité ou dans la difficulté.»<sup>215</sup>"
+                    },
+                    {
+                        "number": "197",
+                        "text": "L'Imām 'Alī (as) a dit : Quel bon assistant est la faim pour asservir l'âme et briser ses habitudes !<sup>216</sup>"
+                    },
+                    {
+                        "number": "198",
+                        "text": "L'Imām 'Alī (as) a dit : La faim et la maladie ne peuvent coexister.<sup>217</sup>"
+                    },
+                    {
+                        "number": "199",
+                        "text": "L'Imām al-Hādī (as) a dit : La veillée rend le sommeil plus agréable et la faim rend la nourriture plus savoureuse.<sup>218</sup>"
+                    }
+                ]
+            },
+            {
+                "title": "67 - La mesure de la nourriture",
+                "hadiths": [
+                    {
+                        "number": "200",
+                        "text": "Le Messager d'Allah (s) a dit : Mange en ayant faim et arrête-toi alors que tu as encore faim.<sup>219</sup>"
+                    },
+                    {
+                        "number": "201",
+                        "text": "L'Imām al-Riḍā (as) a dit : Que celui qui veut avoir un corps sain et mince réduise le repas du soir.<sup>220</sup>"
+                    }
+                ]
+            },
+            {
+                "title": "68 - Le bon comportement pendant le repas",
+                "hadiths": [
+                    {
+                        "number": "202",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui mange alors qu'un autre le regarde sans lui offrir quelque chose sera éprouvé par une douleur incurable.<sup>221</sup>"
+                    },
+                    {
+                        "number": "203",
+                        "text": "Le Messager d'Allah (s) a dit : Le croyant mange selon le désir de sa famille, tandis que l'hypocrite fait manger sa famille selon ses propres désirs.<sup>222</sup>"
+                    },
+                    {
+                        "number": "204",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui récite le Nom d'Allah avant de manger ou de boire et qui rend grâce à Allah après cela ne sera jamais interrogé sur la grâce qu'ont été pour lui ces aliments.<sup>223</sup>"
+                    },
+                    {
+                        "number": "205",
+                        "text": "L'Imām 'Alī (as) a dit : Commencez vos repas avec du sel. Si les gens savaient quels [bienfaits] contient le sel, ils l'auraient préféré au meilleur des antidotes.<sup>224</sup>"
+                    },
+                    {
+                        "number": "206",
+                        "text": "L'Imām 'Alī (as) a dit : Attendez que le repas chaud refroidisse, car lorsqu'on lui a présenté un plat chaud, le Messager d'Allah (s) a dit : «Éloignez-le jusqu'à ce qu'il refroidisse car Allah le Tout-Puissant ne nous nourrit pas avec le feu alors que la bénédiction réside dans ce qui est froid.»<sup>225</sup>"
+                    },
+                    {
+                        "number": "207",
+                        "text": "L'Imām Ḥasan (as) a dit : Il y a douze choses que tout musulman doit connaître au sujet du [bon comportement] à table. Quatre sont obligatoires, quatre sont une <i>sunna</i> [recommandée], et les quatre dernières sont de la politesse. Les quatre obligations sont la connaissance [de ce qu'est la nourriture que l'on s'apprête à manger], la satisfaction, l'énonciation [du Nom d'Allah avant de commencer à manger] et les remerciements [après avoir mangé]. Les <i>sunnas</i> [recommandées] sont de faire ses ablutions avant le repas, s'asseoir sur le flanc gauche, manger en utilisant trois doigts et lécher ses doigts. Pour ce qui est de la politesse, c'est de manger ce qui se trouve devant soi, manger par petites bouchées, bien mâcher et ne pas dévisager les autres.<sup>226</sup>"
+                    },
+                    {
+                        "number": "208",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui se lave les mains avant et après le repas sera béni du début et à sa fin. Il ne manquera de rien tant qu'il sera en vie et sera guéri de toute maladie corporelle.<sup>227</sup>"
+                    },
+                    {
+                        "number": "209",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en transmettant de ses pères un <i>ḥadīth</i> au sujet des prohibitions du Prophète (s) : Il (s) a interdit de souffler sur la nourriture ou la boisson.<sup>228</sup>"
+                    },
+                    {
+                        "number": "210",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne laissez pas vos récipients sans couvercle, car Satan y crache et s'y sert à volonté.<sup>229</sup>"
+                    },
+                    {
+                        "number": "211",
+                        "text": "Lorsqu'il fut interrogé au sujet des personnes viles, l'Imām al-Kāẓim (as) répondit : Ce sont celles qui mangent dans les marchés.<sup>230</sup>"
+                    },
+                    {
+                        "number": "212",
+                        "text": "Il est rapporté dans <i>Al-Ikhtiṣāṣ</i> : Prolongez vos tablées, car ce sont des moments de votre vie qui ne sont pas comptés.<sup>231</sup>"
                     }
                 ]
             }
@@ -1192,9 +1266,11 @@ const AUNE_SAGESSE = [
                 "introduction": "«<i>C'est Lui qui t'a soutenu par Son secours, ainsi que par [l'assistance] des croyants. Il a uni leurs cœurs [par la foi]. Si tu avais dépensé tout ce qui est sur terre, tu n'aurais jamais pu unir leurs cœurs ; mais c'est Allah qui les a unis, car Il est Puissant et Sage.</i>»<sup>232</sup><br><br>«<i>Rappelez-vous le bienfait d'Allah sur vous : lorsque vous étiez ennemis, c'est Lui qui a établi l'union entre vos cœurs puis, par Son bienfait, vous êtes devenus frères.</i>»<sup>233</sup>",
                 "hadiths": [
                     {
+                        "number": "213",
                         "text": "L'Imām 'Alī (as) a dit : Déplacer les montagnes est plus facile que d'accorder des cœurs qui se rejettent.<sup>234</sup>"
                     },
                     {
+                        "number": "214",
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la vitesse à laquelle les cœurs des bienveillants se lient lorsqu'ils se rencontrent, même s'ils n'expriment pas leur affinité par la parole, est similaire à la vitesse à laquelle l'eau de pluie se mélange à l'eau des rivières. Par contre, la distance entre les cœurs des fourbes lorsqu'ils se rencontrent, même s'ils expriment de l'affinité par leurs paroles, est comme la distance entre le bétail qui ne peut partager de l'affection, même si ces bêtes ont partagé pendant longtemps la même mangeoire.<sup>235</sup>"
                     }
                 ]
@@ -1203,9 +1279,11 @@ const AUNE_SAGESSE = [
                 "title": "70 - Nul bien en celui qui n'établit pas de liens d'affection et avec qui on n'établit pas de liens d'affection",
                 "hadiths": [
                     {
+                        "number": "215",
                         "text": "Le Messager d'Allah (s) a dit : Les meilleurs parmi vous sont ceux qui ont le meilleur caractère, ceux qui établissent des liens d'affection et avec qui on établit des liens d'affection.<sup>236</sup>"
                     },
                     {
+                        "number": "216",
                         "text": "Le Messager d'Allah (s) a dit : Le meilleur des croyants est celui avec qui les croyants établissent des liens d'affection. En revanche, il n'y a pas de bien chez une personne qui n'établit pas de liens d'affection et avec qui on n'établit pas de liens d'affection.<sup>237</sup>"
                     }
                 ]
@@ -1219,22 +1297,26 @@ const AUNE_SAGESSE = [
                 "title": "71 - La signification de «Allah»",
                 "hadiths": [
                     {
+                        "number": "217",
                         "text": "L'Imām 'Alī (as) a dit : Allah veut dire l'Adoré, Celui qui stupéfie les créatures et Celui à qui elles se soumettent. Allah est voilé à l'atteinte des regards ; Il est caché [et au-delà de] toute imagination et conception.<sup>238</sup>"
                     },
                     {
+                        "number": "218",
                         "text": "L'Imām 'Alī (as) a dit au sujet de l'interprétation du mot «Allah» : Il est Celui que toute créature invoque lorsqu'elle est dans une situation de besoin ou en difficulté, lorsqu'elle a perdu tout espoir en autre que Lui et ne dispose plus d'aucun moyen autre que Lui.<sup>239</sup>"
                     },
                     {
+                        "number": "219",
                         "text": "L'Imām al-Bāqir (as) a dit : Allah signifie Celui qui est adoré, Celui au sujet duquel les créatures sont dans une stupeur telle qu'elles ne peuvent comprendre Son essence ou embrasser Sa nature.<sup>240</sup>"
                     },
                     {
+                        "number": "220",
                         "text": "L'Imām al-Kāẓim (as) a dit au sujet de la signification de «Allah» : [Ce terme désigne] Celui qui s'est rendu maître de toute chose, petite au grande.<sup>241</sup>"
                     },
                     {
-                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, dans le nom d'Allah le Tout-Puissant repose l'attestation de Sa seigneurie et de Son unicité.<sup>242</sup>"
+                        "number": "221",
+                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, dans le nom d'Allah le Tout-Puissant repose l'attestation de Sa seigneurie et de Son unicité.<sup>242</sup><br><br><span class=\"reference-note\">(Voir également : 132. Le Créateur ; 202. Les Noms d'Allah)</span>"
                     }
-                ],
-                "note": "(Voir également : 132. Le Créateur ; 202. Les Noms d'Allah)"
+                ]
             }
         ]
     },
@@ -1245,32 +1327,32 @@ const AUNE_SAGESSE = [
                 "title": "72 - La nécessité d'un gouvernement",
                 "hadiths": [
                     {
-                        "id": "243",
-                        "text": "L'Imām 'Alī (as) a dit : O gens ! Le droit d'Allah vous impose d'être sincères en formulant des conseils à l'attention de Sa création ; et de coopérer les uns avec les autres pour établir le bien parmi vous. Nul n'est dispensé d'une telle coopération, quelle que soit son importance, car aucun d'entre vous ne pourrait atteindre le Vrai à lui tout seul."
+                        "number": "222",
+                        "text": "L'Imām 'Alī (as) a dit au sujet de l'arbitrage : Certains disent «Point besoin de gouvernement !» En vérité, il faut un gouverneur afin qu'au sein de son gouvernement, le croyant puisse œuvrer et l'immoral profiter.<sup>243</sup>"
                     },
                     {
-                        "id": "244",
-                        "text": "L'Imām 'Alī (as) a dit : L'Imām se doit de gouverner avec ce qu'Allah a révélé et de s'acquitter de ce qui lui a été confié. S'il fait cela, les gens se doivent alors de l'écouter, de lui obéir et de répondre à son appel."
+                        "number": "223",
+                        "text": "L'Imām 'Alī (as) a dit : Seul un gouverneur peut réformer les gens, qu'il soit juste ou immoral.<sup>244</sup>"
                     },
                     {
-                        "id": "245",
-                        "text": "L'Imām al-Bāqir (as) a dit : [...] et quant au devoir du gouverneur envers le gouverné, c'est d'être équitable avec lui et de le protéger."
+                        "number": "224",
+                        "text": "L'Imām 'Alī (as) a dit : «Certes, Mu'āwiya l'emportera bientôt sur vous.» Ils répliquèrent : «Alors pourquoi donc [le] combattons-nous ?» Il répondit : «Il faut un gouvernant pour les gens, qu'il soit pieux ou immoral.»<sup>245</sup>"
                     },
                     {
-                        "id": "246",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Les gens n'ont d'autre choix que d'avoir un chef parmi eux. Ce chef a besoin de s'entourer de collaborateurs pour que ses directives soient accomplies, sans quoi il ne saurait s'acquitter de sa tâche."
+                        "number": "225",
+                        "text": "L'Imām 'Alī (as) a dit en réponse aux Ḥarūriyya qui disaient «nulle autorité si ce n'est celle d'Allah» : Certes, l'autorité appartient à Allah, et il y a aussi sur terre des gouverneurs. Mais ils disent «pas de gouvernement», alors que le gouvernement est une nécessité pour les gens, afin que le croyant puisse œuvrer [dans ce cadre], l'immoral et le mécréant en profiter, et que l'échéance décrétée par Allah s'y réalise.<sup>246</sup>"
                     },
                     {
-                        "id": "226",
+                        "number": "226",
                         "text": "L'Imām 'Alī (as) a dit : Il faut un gouverneur pour les gens, qu'il soit pieux ou immoral, car c'est sous son gouvernement que le croyant œuvre et que le mécréant profite jusqu'à ce que l'échéance décrétée par Allah s'y réalise ; et [sous le pouvoir duquel] les impôts légaux sont prélevés, l'ennemi est combattu, les chemins sont sécurisés et le droit du faible est défendu face au fort, afin que les pieux vivent en paix et soient préservés des immoraux.<sup>247</sup>"
                     },
                     {
-                        "id": "227",
+                        "number": "227",
                         "text": "L'Imām 'Alī (as) a dit : Un lion féroce vaut mieux qu'un gouverneur injuste, mais un gouverneur injuste vaut mieux que des dissensions qui durent indéfiniment.<sup>248</sup>"
                     },
                     {
-                        "id": "228",
-                        "text": "<i>Kanz al-'Ummāl</i> : Abū al-Bakhtarī a dit : Un homme entra dans la mosquée et dit : «Nulle autorité si ce n'est celle d'Allah.» Et un autre répéta : «Nulle autorité si ce n'est celle d'Allah.» 'Alī (as) dit alors : «[Certes,] nulle autorité si ce n'est celle d'Allah ; <i>«La promesse d'Allah est vérité. Et que ceux qui ne croient pas fermement ne t'ébranlent point.»</i><sup>249</sup> Ne savez-vous pas ce que ces gens disent ? Ils disent : «Nul gouvernement.» Ô gens ! Seul un gouverneur peut vous réformer, qu'il soit pieux ou immoral.» Ils dirent : «Pour ce qui est du pieux nous comprenons, mais qu'en est-il de l'immoral ?» Il (as) répondit : «[Sous son gouvernement,] le croyant œuvre, l'immoral profite et Allah fait parvenir les échéances décrétées à leur terme ; et vos chemins sont sécurisés, vos marchés fonctionnent, vos impôts légaux sont prélevés, vos ennemis sont combattus et le droit du faible est défendu face à l'oppresseur parmi vous.»<sup>250</sup>"
+                        "number": "228",
+                        "text": "<i>Kanz al-'Ummāl</i> : Abū al-Bakhtarī a dit : Un homme entra dans la mosquée et dit : «Nulle autorité si ce n'est celle d'Allah.» Et un autre répéta : «Nulle autorité si ce n'est celle d'Allah.» 'Alī (as) dit alors : «[Certes,] nulle autorité si ce n'est celle d'Allah ; «<i>La promesse d'Allah est vérité. Et que ceux qui ne croient pas fermement ne t'ébranlent point.</i>»<sup>249</sup> Ne savez-vous pas ce que ces gens disent ? Ils disent : «Nul gouvernement.» Ô gens ! Seul un gouverneur peut vous réformer, qu'il soit pieux ou immoral.» Ils dirent : «Pour ce qui est du pieux nous comprenons, mais qu'en est-il de l'immoral ?» Il (as) répondit : «[Sous son gouvernement,] le croyant œuvre, l'immoral profite et Allah fait parvenir les échéances décrétées à leur terme ; et vos chemins sont sécurisés, vos marchés fonctionnent, vos impôts légaux sont prélevés, vos ennemis sont combattus et le droit du faible est défendu face à l'oppresseur parmi vous.»<sup>250</sup>"
                     }
                 ]
             },
@@ -1278,7 +1360,7 @@ const AUNE_SAGESSE = [
                 "title": "73 - Le gouvernement des malfaisants",
                 "hadiths": [
                     {
-                        "id": "229",
+                        "number": "229",
                         "text": "Le Messager d'Allah (s) a dit : Lorsque vos gouverneurs sont les meilleurs parmi vous, que vos personnes les plus fortunées sont les plus généreuses, et que vos décisions se prennent par consultation, dans ce cas, être sur terre [c'est-à-dire vivre] sera préférable pour vous qu'être sous terre [c'est-à-dire au fait d'être mort]. En revanche, quand vos gouvernants sont les plus malfaisants parmi vous, que vos personnes les fortunées sont les plus avares [...], dans ce cas, être sous terre sera préférable pour vous qu'être sur terre.<sup>251</sup>"
                     }
                 ]
@@ -1287,19 +1369,18 @@ const AUNE_SAGESSE = [
                 "title": "74 - La valeur du gouvernement",
                 "hadiths": [
                     {
-                        "id": "230",
-                        "text": "Alors que l'Imām 'Alī (as) était occupé à raccommoder ses sandales, Ibn 'Abbās pénétra chez lui et lui dit : «En vérité, les pèlerins se sont réunis pour t'écouter.» Il (as) lui répondit: «Je jure sur Allah que je les [les sandales] préfère au fait de vous gouverner, sauf si [cela me permet] de faire respecter une loi divine ou d'empêcher une chose fausse.»<sup>252</sup>"
+                        "number": "230",
+                        "text": "Alors que l'Imām 'Alī (as) était occupé à raccommoder ses sandales, Ibn 'Abbās pénétra chez lui et lui dit : «En vérité, les pèlerins se sont réunis pour t'écouter.» Il (as) lui répondit : «Je jure sur Allah que je les [les sandales] préfère au fait de vous gouverner, sauf si [cela me permet] de faire respecter une loi divine ou d'empêcher une chose fausse.»<sup>252</sup>"
                     },
                     {
-                        "id": "231",
+                        "number": "231",
                         "text": "<i>Nahj al-Balāgha</i> : Ibn 'Abbās a dit : Je suis entré chez l'Emir des Croyants (as) en étant habillé élégamment alors qu'il était en train de raccommoder ses sandales. Il me dit : «Quelle est la valeur de ces sandales ?» Je lui répondis : «Elles n'ont aucune valeur.» Il dit : «Je jure par Allah que je les préfère au fait de vous gouverner, sauf si [cela me permet] de faire respecter un droit et une vérité, ou d'empêcher une chose fausse.»<sup>253</sup>"
                     },
                     {
-                        "id": "232",
-                        "text": "L'Imām 'Alī (as) a écrit dans sa lettre à Ibn 'Abbās : Enfin, il ne faudrait pas que ce qui te revient [comme résultat] de ta gouvernance soit une fortune dont tu tires un profit [personnel], ou une colère à laquelle tu te seras laissé aller. Il faut plutôt [que ce soit] la mise à mort de l'injustice, et la revivification de l'équité et la Vérité.<sup>254</sup>"
+                        "number": "232",
+                        "text": "L'Imām 'Alī (as) a écrit dans sa lettre à Ibn 'Abbās : Enfin, il ne faudrait pas que ce qui te revient [comme résultat] de ta gouvernance soit une fortune dont tu tires un profit [personnel], ou une colère à laquelle tu te seras laissé aller. Il faut plutôt [que ce soit] la mise à mort de l'injustice, et la revivification de l'équité et la Vérité.<sup>254</sup><br><br><span class=\"reference-note\">(Voir également : 196. Le souverain)</span>"
                     }
-                ],
-                "note": "(Voir également : 196. Le souverain)"
+                ]
             }
         ]
     },
