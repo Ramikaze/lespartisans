@@ -60,7 +60,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .surah-arrow{color:#c9a84c;opacity:0.4;font-size:22px}
 
 /* SURAH VIEW (reading) */
-.surah-view{max-width:760px;margin:0 auto;padding:32px 24px 100px;position:relative;z-index:1;display:none}
+.surah-view{max-width:960px;margin:0 auto;padding:32px 24px 100px;position:relative;z-index:1;display:none}
 .surah-header{text-align:center;margin-bottom:36px;padding-bottom:24px;border-bottom:1px solid rgba(201,168,76,0.15)}
 .s-num{font-family:'Cinzel',serif;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:8px}
 .s-name{font-family:'Cinzel',serif;font-size:clamp(1.3rem,3.5vw,1.9rem);font-weight:700;color:#e8e2d0;margin-bottom:4px}
@@ -71,7 +71,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .verse:hover{background:rgba(201,168,76,0.04)}
 .verse:target,.verse.highlight{background:rgba(201,168,76,0.08);border-left:3px solid #c9a84c;padding-left:15px}
 .verse-num{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:34px;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.2);border-radius:50%;font-family:'Cinzel',serif;font-size:15px;font-weight:700;color:#c9a84c;margin-right:12px;flex-shrink:0;vertical-align:middle}
-.verse-text{font-size:var(--fr-size,1.3rem);color:#cec6b0}
+.verse-text{font-size:var(--fr-size,1.4rem);color:#cec6b0}
 .font-ctrl{display:flex;align-items:center;gap:4px}
 .font-ctrl .fc-grp{display:flex;align-items:center;gap:2px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.18);border-radius:8px;padding:2px 4px}
 .font-ctrl .fc-label{font-size:11px;color:#c9a84c;opacity:0.7;padding:0 4px;min-width:18px;text-align:center}
@@ -95,8 +95,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .nav-btn:disabled{opacity:0.3;cursor:default}
 
 /* ── ARABIC VERSE TEXT ── */
-.verse-ar{direction:rtl;text-align:right;font-family:'Scheherazade New',serif;font-size:var(--ar-size,1.55rem);color:#c9a84c;line-height:2.1;margin-bottom:10px;padding:6px 0 8px;border-bottom:1px solid rgba(201,168,76,0.08)}
-.bismillah-ar{font-family:'Scheherazade New',serif;font-size:var(--ar-size,1.45rem);display:block;margin-bottom:8px;direction:rtl}
+.verse-ar{direction:rtl;text-align:right;font-family:'Scheherazade New',serif;font-size:var(--ar-size,2.0rem);color:#c9a84c;line-height:2.1;margin-bottom:10px;padding:6px 0 8px;border-bottom:1px solid rgba(201,168,76,0.08)}
+.bismillah-ar{font-family:'Scheherazade New',serif;font-size:var(--ar-size,1.8rem);display:block;margin-bottom:8px;direction:rtl}
 
 /* ── INTERACTIVE WORDS ── */
 .verse-ar .w{display:inline;cursor:pointer;padding:2px 4px;border-radius:4px;transition:background .15s,color .15s;position:relative}
@@ -329,7 +329,7 @@ var gridEl = document.getElementById('surahGrid');
 var selWrap = document.getElementById('selWrap');
 
 // ── Font size controls ──
-var _arSize = 1.55, _frSize = 1.3;
+var _arSize = 2.0, _frSize = 1.4;
 var _arMin = 0.9, _arMax = 3.5, _frMin = 0.8, _frMax = 2.8, _step = 0.15;
 function cfs(type, dir) {
   if (type === 'ar') {
@@ -672,7 +672,7 @@ function toggleVerseAudio(id) {
     _vaPlayers[id] = au;
   }
 
-  var au = _vaPlayers[id];
+  au = _vaPlayers[id];
   if (au.paused) {
     au.play();
     btn.classList.add('playing');
@@ -823,7 +823,7 @@ function _spPlayVerse(idx) {
     _vaPlayers[audioId] = au;
   }
 
-  var au = _vaPlayers[audioId];
+  au = _vaPlayers[audioId];
   var btn = wrap.querySelector('.va-btn');
   au.currentTime = 0;
   au.play();
