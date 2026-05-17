@@ -10062,28 +10062,101 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "1648",
-                        "text": "L'Imām 'Alī (as) a dit : Sachez que la ..."
+                        "text": "L'Imām 'Alī (as) a dit : Sachez que la vérité est [comme] une monture domptée montée par ses propriétaires et dont ils tiennent ses rênes. Ainsi, elle les emmène sereinement jusqu'à atteindre un grand [lieu] ombragé.<sup>1887</sup>"
+                    },
+                    {
+                        "number": "1649",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui aspire à l'honneur sans la vérité sera humilié, et celui qui s'oppose à la vérité sera avili.<sup>1888</sup>"
+                    },
+                    {
+                        "number": "1650",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il n'y a pas de faux qui se dresse face à la vérité sans que la vérité ne triomphe sur le faux, c'est ce que signifie la parole <i>«Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît...»</i><sup>1889, 1890</sup>"
                     }
                 ],
                 "introduction": "«Bien au contraire, Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît. Et malheur à vous pour ce que vous attribuez [injustement à Allah] !»<sup>1885</sup>"
             },
             {
-                "title": "549 - Le poids de la vérité"
+                "title": "549 - Le poids de la vérité",
+                "hadiths": [
+                    {
+                        "number": "1651",
+                        "text": "L'Imām 'Alī (as) a dit : En fait, la vérité est lourde et difficile, mais douce alors que le faux est léger et facile, mais il tue.<sup>1892</sup>"
+                    },
+                    {
+                        "number": "1652",
+                        "text": "L'Imām al-Bāqir (as) a dit : Au moment de sa mort, mon père 'Alī ibn al-Ḥusayn (as) me serra contre sa poitrine et me dit : «Ô mon fils ! Je te conseille ce que mon père, à son décès, m'a conseillé – et il mentionna ce que son père lui avait conseillé : «Ô mon fils, patiente face à la vérité même si elle est amère.»<sup>1893</sup>"
+                    }
+                ],
+                "introduction": "«Certes, Nous vous avions apporté la Vérité ; mais la plupart d'entre vous détestaient la vérité.»<sup>1891</sup>"
             },
             {
-                "title": "550 - L'obligation de dire la vérité même à son détriment"
+                "title": "550 - L'obligation de dire la vérité même à son détriment",
+                "hadiths": [
+                    {
+                        "number": "1653",
+                        "text": "Le Messager d'Allah (s) a dit : La plus pieuse des personnes est celle qui dit la vérité, qu'elle soit dans son intérêt ou à son détriment.<sup>1894</sup>"
+                    },
+                    {
+                        "number": "1654",
+                        "text": "L'Imām 'Alī (as) a dit : Il est écrit sur la poignée d'une épée du Messager d'Allah (s) : «Dis la vérité, même si c'est à ton détriment».<sup>1895</sup>"
+                    },
+                    {
+                        "number": "1655",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la meilleure personne auprès d'Allah est celle pour qui le fait d'agir selon la vérité – même si cela lui apporte une perte et un malheur - est plus aimé que ce qui est faux, même si cela lui apporte un profit et un accroissement [de ses richesses].<sup>1896</sup>"
+                    },
+                    {
+                        "number": "1656",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Dis la vérité même si cela conduit à ta ruine, car en vérité, en cela réside ton salut … Et écarte-toi du faux même si cela peut te sauver, car en vérité, en cela réside ta ruine.<sup>1897</sup>"
+                    }
+                ]
             },
             {
-                "title": "551 - Dire la vérité en état de satisfaction ou de colère"
+                "title": "551 - Dire la vérité en état de satisfaction ou de colère",
+                "hadiths": [
+                    {
+                        "number": "1657",
+                        "text": "Le Messager d'Allah (s) a dit : Que la crainte qu'éprouve vis-à-vis des gens n'empêche pas la personne de dire la vérité lorsqu'elle la connaît. Le meilleur des combats (<i>jihād</i>) est une parole vraie dite face à un dirigeant oppresseur.<sup>1898</sup>"
+                    },
+                    {
+                        "number": "1658",
+                        "text": "Parmi les conseils qu'il donna à son fils Ḥusayn (as), l'Imām 'Alī (as) a dit : Ô mon fils ! Je te recommande de craindre Allah dans la prospérité et dans la pauvreté, et de dire la vérité dans la satisfaction et dans la colère.<sup>1899</sup>"
+                    }
+                ]
             },
             {
-                "title": "552 - L'acceptation de la vérité"
+                "title": "552 - L'acceptation de la vérité",
+                "hadiths": [
+                    {
+                        "number": "1659",
+                        "text": "Le Messager d'Allah (s) a dit : Accepte la vérité de toute personne qui vient à toi avec elle, que cette personne soit modeste ou noble, et même si elle t'est détestable. Et rejette le faux de toute personne qui vient à toi avec lui, qu'elle soit modeste ou noble, et même si tu l'aimes.<sup>1900</sup>"
+                    },
+                    {
+                        "number": "1660",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'honneur est de faire preuve d'humilité face à la vérité lorsqu'elle te fait face.<sup>1901</sup>"
+                    }
+                ]
             },
             {
-                "title": "553 - Le critère de la connaissance de la vérité"
+                "title": "553 - Le critère de la connaissance de la vérité",
+                "hadiths": [
+                    {
+                        "number": "1661",
+                        "text": "L'Imām 'Alī (as) a dit : La vérité ne peut pas être connue par les hommes ; connais la vérité [d'abord] et tu [re]connaîtras ses adeptes.<sup>1902</sup><br><br><span class=\"hadith-footnote\">(Voir également : 137. Le bien, section 679)</span>"
+                    }
+                ]
             },
             {
-                "title": "554 - Toute vérité peut être en faveur ou contre quelqu'un"
+                "title": "554 - Toute vérité peut être en faveur ou contre quelqu'un",
+                "hadiths": [
+                    {
+                        "number": "1662",
+                        "text": "L'Imām 'Alī (as) a dit : La vérité est la plus vaste des choses quand il s'agit de sa description, et la plus restreinte quand il s'agit de pratiquer la justice. Dès qu'elle est en faveur de quelqu'un, elle devient contre lui [à une autre occasion], et dès qu'elle est contre quelqu'un, elle est en sa faveur [à une autre occasion]. Et si quelqu'un était en sa faveur et jamais contre elle, ce pourrait uniquement être pour Allah loué soit-Il.<sup>1903</sup>"
+                    },
+                    {
+                        "number": "1663",
+                        "text": "L'Imām 'Alī (as) a dit : Que la défense du droit de quelqu'un ne vous empêche pas de défendre la vérité lorsqu'elle est contre lui.<sup>1904</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -10091,16 +10164,68 @@ const AUNE_SAGESSE = [
         "title": "109 - LES DROITS",
         "subparts": [
             {
-                "title": "555 - Les droits d'Allah le Très-Haut"
+                "title": "555 - Les droits d'Allah le Très-Haut",
+                "hadiths": [
+                    {
+                        "number": "1664",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, les droits d'Allah<sup>1905</sup> – glorifiée soit sa louange – sont trop vastes pour que les serveurs [d'Allah] puissent tous les réaliser, et en vérité, les grâces d'Allah sont trop nombreuses pour pouvoir être comptabilisées par les serviteurs. En revanche, [la moindre chose que vous pouvez faire est de] commencer vos journées et vos nuits en étant repentants.<sup>1906</sup>"
+                    },
+                    {
+                        "number": "1665",
+                        "text": "L'Imām 'Alī (as) a dit : [...] Pourtant, Il – loué soit-Il – a fait en sorte que Son droit vis-à-vis des serviteurs soit qu'ils Lui obéissent, et Il a fait de leur rétribution [pour leurs actes d'obéissance] une augmentation de leur récompense par pure bonté de Sa part.<sup>1907</sup>"
+                    }
+                ]
             },
             {
-                "title": "556 - Donner la priorité aux droits des gens"
+                "title": "556 - Donner la priorité aux droits des gens",
+                "hadiths": [
+                    {
+                        "number": "1666",
+                        "text": "L'Imām 'Alī (as) a dit : Allah - loué soit-Il - a donné la priorité aux droits de Ses serviteurs avant Ses propres droits. Par conséquent, celui qui satisfait les droits des serviteurs d'Allah est conduit à satisfaire les droits d'Allah.<sup>1908</sup>"
+                    }
+                ]
             },
             {
-                "title": "557 - Le plus grand des droits"
+                "title": "557 - Le plus grand des droits",
+                "hadiths": [
+                    {
+                        "number": "1667",
+                        "text": "L'Imām 'Alī (as) a dit : Le plus grand des droits qu'Allah - loué soit-Il - a rendu obligatoire est le droit du gouverneur sur les gouvernés, et le droit des gouvernés sur le gouverneur.<sup>1909</sup>"
+                    }
+                ]
             },
             {
-                "title": "558 - Les droits des frères"
+                "title": "558 - Les droits des frères",
+                "hadiths": [
+                    {
+                        "number": "1668",
+                        "text": "L'Imām al-Bāqir (as) a dit : Parmi les droits du croyant sur son frère croyant figure celui de rassasier sa faim, de couvrir sa nudité, de le délivrer de son malheur, de rembourser ses dettes et lorsqu'il meurt, de le remplacer [pour subvenir aux besoins] de sa famille et de ses enfants.<sup>1910</sup>"
+                    },
+                    {
+                        "number": "1669",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui honore la religion d'Allah honore les droits de ses frères, et celui qui prend sa religion à la légère prend à la légère [les droits de] ses frères.<sup>1911</sup>"
+                    },
+                    {
+                        "number": "1670",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah ne peut être mieux adoré que par la réalisation des droits du croyant.<sup>1912</sup>"
+                    },
+                    {
+                        "number": "1671",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant a sept droits sur le croyant qu'Allah le Tout-Puissant lui a rendu obligatoires, et il sera interrogé sur ce qu'il a fait d'eux : qui l'honore en sa présence, lui porte de l'affection dans son cœur, le soutienne par son argent, lui souhaite ce qu'il souhaite pour lui-même, interdise [aux autres] de médire à son sujet, lui rende visite lorsqu'il est malade, participe à son enterrement, et ne dise de lui que du bien après sa mort.<sup>1913</sup>"
+                    },
+                    {
+                        "number": "1672",
+                        "text": "Lorsqu'on l'interrogea au sujet des droits du croyant, l'Imām Ṣādiq (as) répondit : Il existe soixante-dix droits, mais je ne t'en informerai que de sept : [...] que tu ne manges pas jusqu'à satiété alors qu'il est à faim, que ne sois pas habillé alors qu'il est dénudé, et que tu sois son guide [...].<sup>1914</sup>"
+                    },
+                    {
+                        "number": "1673",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en exposant les droits du croyant vis-à-vis d'un autre croyant : Le moindre des droits est que tu souhaites pour lui ce que tu souhaites pour toi-même, et que tu détestes pour lui ce que tu détestes pour toi-même.<sup>1915</sup>"
+                    },
+                    {
+                        "number": "1674",
+                        "text": "L'Imām al-'Askarī (as) a dit : Celui qui connaît le mieux les droits de ses frères et qui s'efforce le plus de les réaliser est celui qui a le plus d'estime auprès d'Allah.<sup>1916</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -10108,10 +10233,86 @@ const AUNE_SAGESSE = [
         "title": "110 - L'ACCAPAREMENT",
         "subparts": [
             {
-                "title": "559 - Le blâme de l'accaparement"
+                "title": "559 - Le blâme de l'accaparement",
+                "hadiths": [
+                    {
+                        "number": "1675",
+                        "text": "Le Messager d'Allah (s) a dit : Seuls les traîtres accaparent.<sup>1917</sup>"
+                    },
+                    {
+                        "number": "1676",
+                        "text": "Le Messager d'Allah (s) a dit : Seuls les pécheurs accaparent.<sup>1918</sup>"
+                    },
+                    {
+                        "number": "1677",
+                        "text": "L'Imām 'Alī (as) a dit : L'accaparement entraîne le dénuement.<sup>1919</sup>"
+                    },
+                    {
+                        "number": "1678",
+                        "text": "L'Imām 'Alī (as) a dit : L'accaparement est l'habitude des dépravés.<sup>1920</sup>"
+                    },
+                    {
+                        "number": "1679",
+                        "text": "L'Imām 'Alī (as) a dit : L'accaparement est une ignominie.<sup>1921</sup>"
+                    },
+                    {
+                        "number": "1680",
+                        "text": "L'Imām 'Alī (as) a dit : L'accaparement est la monture de la difficulté.<sup>1922</sup>"
+                    },
+                    {
+                        "number": "1681",
+                        "text": "L'Imām 'Alī (as) a dit : User son âme dans l'accaparement fait partie des caractéristiques des sots.<sup>1923</sup>"
+                    },
+                    {
+                        "number": "1682",
+                        "text": "L'Imām 'Alī (as) a écrit dans une missive à al-Ashtar lorsqu'il l'a désigné gouverneur d'Égypte: [...] Sache - malgré cela - que la majorité d'entre eux [les commerçants et artisans] sont très étroits d'esprit, et d'une abominable avarice empreinte de cupidité. Ils recourent à l'accaparement et au monopole pour en tirer du profit, et fixent les prix des biens. Cela est nuisible aux gens et constitue une source de honte pour les gouverneurs. C'est pourquoi, empêche l'accaparement, car le Messager d'Allah (s) l'a interdit.<sup>1924</sup>"
+                    },
+                    {
+                        "number": "1683",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a aucun bien dans tout accaparement [de biens] qui nuit aux gens et qui entraîne la hausse des prix.<sup>1925</sup>"
+                    },
+                    {
+                        "number": "1684",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Tout-Puissant a exprimé Sa bonté à Ses serviteurs par la graine, et Il a fait de l'insecte son fléau. Sans cela, les rois auraient thésaurisé le grain comme ils thésaurisent l'or et l'argent.<sup>1926</sup>"
+                    }
+                ]
             },
             {
-                "title": "560 - Le blâme de l'accapareur"
+                "title": "560 - Le blâme de l'accapareur",
+                "hadiths": [
+                    {
+                        "number": "1685",
+                        "text": "Le Messager d'Allah (s) a dit : L'accapareur est maudit.<sup>1927</sup>"
+                    },
+                    {
+                        "number": "1686",
+                        "text": "Le Messager d'Allah (s) a dit : L'accapareur dans nos marchés est semblable à l'apostat du Livre d'Allah.<sup>1928</sup>"
+                    },
+                    {
+                        "number": "1687",
+                        "text": "Le Messager d'Allah (s) a dit : Quel misérable serviteur est l'accapareur ! Car si Allah le Très-Haut fait baisser les prix, cela l'attriste et s'Il les augmente, cela le réjouit.<sup>1929</sup>"
+                    },
+                    {
+                        "number": "1688",
+                        "text": "Le Messager d'Allah (s) a dit : Les accapareurs et les criminels seront ressuscités au même niveau de l'Enfer.<sup>1930</sup>"
+                    },
+                    {
+                        "number": "1689",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui stocke des denrées pendant quarante jours en attendant que leur prix augmente aura désavoué Allah, et Allah le désavouera.<sup>1931</sup>"
+                    },
+                    {
+                        "number": "1690",
+                        "text": "Le Messager d'Allah (s) a dit : Si un homme achète des denrées et les stocke pendant quarante matinées en espérant la hausse des prix chez les musulmans et qu'il les revend par la suite, le fait qu'il donne ensuite ses gains en aumône n'absoudra en rien son acte.<sup>1932</sup>"
+                    },
+                    {
+                        "number": "1691",
+                        "text": "L'Imām 'Alī (as) a dit : L'accapareur est privé de sa propre grâce.<sup>1933</sup>"
+                    },
+                    {
+                        "number": "1692",
+                        "text": "L'Imām 'Alī (as) a dit : L'accapareur avare amasse pour celui qui ne le remerciera pas, et se dirige vers Celui [Allah] qui ne l'excusera pas.<sup>1934</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -10119,10 +10320,47 @@ const AUNE_SAGESSE = [
         "title": "111 - LA SAGESSE",
         "subparts": [
             {
-                "title": "561 - La vertu de la sagesse"
+                "title": "561 - La vertu de la sagesse",
+                "hadiths": [
+                    {
+                        "number": "1693",
+                        "text": "Jésus (as) a dit : En vérité, la sagesse est la lumière de tout cœur.<sup>1936</sup>"
+                    },
+                    {
+                        "number": "1694",
+                        "text": "Luqmān (as) a dit dans l'une de ses recommandations à son fils : Ô mon fils ! Apprends la sagesse et tu seras ennobli, car en vérité, la sagesse conduit à la religion, elle honore le serviteur face à l'homme libre, elle élève le pauvre face au riche, et elle donne la précédence au petit vis-à-vis du grand.<sup>1937</sup>"
+                    },
+                    {
+                        "number": "1695",
+                        "text": "Le Messager d'Allah (s) a dit : Une parole sage entendue par le croyant est meilleure que l'adoration d'une année.<sup>1938</sup>"
+                    },
+                    {
+                        "number": "1696",
+                        "text": "Le Messager d'Allah (s) a dit : Le sage est presque un prophète.<sup>1939</sup>"
+                    },
+                    {
+                        "number": "1697",
+                        "text": "L'Imām 'Alī (as) a dit : La sagesse est l'oasis des intelligents et le divertissement des nobles.<sup>1940</sup>"
+                    },
+                    {
+                        "number": "1698",
+                        "text": "L'Imām 'Alī (as) a dit : La sagesse est un arbre qui grandit dans le cœur et qui produit des fruits dans la parole.<sup>1941</sup>"
+                    },
+                    {
+                        "number": "1699",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui est connu pour [sa] sagesse est regardé avec dignité et respect.<sup>1942</sup>"
+                    }
+                ],
+                "introduction": "«Il donne la sagesse à qui Il veut. Et celui à qui la sagesse est donnée, vraiment c'est un bien immense qui lui est donné. Mais seuls les doués d'intelligence s'en souviennent.»<sup>1935</sup>"
             },
             {
-                "title": "562 - La sagesse est le bien perdu du croyant"
+                "title": "562 - La sagesse est le bien perdu du croyant",
+                "hadiths": [
+                    {
+                        "number": "1700",
+                        "text": "L'Imām 'Alī (as) a dit : La sagesse est le bien perdu du croyant, dès lors, cherchez-la même chez le polythéiste, car vous la méritez davantage et en êtes plus digne [que lui].<sup>1943</sup>"
+                    }
+                ]
             },
             {
                 "title": "563 - Ce que la personne sage ne doit pas faire"
