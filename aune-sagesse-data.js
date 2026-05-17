@@ -758,6 +758,10 @@ const AUNE_SAGESSE = [
                     {
                         "number": "125",
                         "text": "L'Imām 'Alī (as) a dit : La politesse est votre ornement.<sup>139</sup>"
+                    },
+                    {
+                        "number": "126",
+                        "text": "L'Imām 'Alī (as) a dit : Nul ornement n'est comparable à la politesse.<sup>140</sup>"
                     }
                 ]
             },
@@ -765,18 +769,23 @@ const AUNE_SAGESSE = [
                 "title": "44 - La politesse et la raison",
                 "hadiths": [
                     {
+                        "number": "127",
                         "text": "Le Messager d'Allah (s) a dit : La bonne éducation et la politesse sont l'ornement de la raison.<sup>141</sup>"
                     },
                     {
+                        "number": "128",
                         "text": "L'Imām 'Alī (as) a dit : Toute chose a besoin de raison et la raison a besoin de politesse.<sup>142</sup>"
                     },
                     {
+                        "number": "129",
                         "text": "L'Imām 'Alī (as) a dit : La politesse chez l'homme est semblable à un arbre dont la racine est la raison.<sup>143</sup>"
                     },
                     {
+                        "number": "130",
                         "text": "L'Imām 'Alī (as) a dit : Celui dont la politesse surpasse la raison devient comme un berger au milieu de nombreuses brebis.<sup>144</sup>"
                     },
                     {
+                        "number": "131",
                         "text": "L'Imām Ḥasan (as) a dit : Celui qui n'a pas de raison est dénué de politesse.<sup>145</sup>"
                     }
                 ]
@@ -785,9 +794,11 @@ const AUNE_SAGESSE = [
                 "title": "45 - L'éducation de l'âme",
                 "hadiths": [
                     {
+                        "number": "132",
                         "text": "L'Imām 'Alī (as) a dit : Chargez-vous de l'éducation de vos âmes, soustrayez-les à leurs rudes habitudes.<sup>146</sup>"
                     },
                     {
+                        "number": "133",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui instruit et éduque sa propre personne est plus digne d'être célébré que celui qui instruit et éduque les autres.<sup>147</sup>"
                     }
                 ]
@@ -796,17 +807,19 @@ const AUNE_SAGESSE = [
                 "title": "46 - Les principes de la politesse",
                 "hadiths": [
                     {
-                        "source": "Tuḥaf al-'Uqūl :",
-                        "text": "Allah le Très-Haut a dit à Jésus (as) : Éduque ton cœur par la crainte révérencielle [vis-à-vis de Moi].<sup>148</sup>"
+                        "number": "134",
+                        "text": "<i>Tuḥaf al-'Uqūl</i> : Allah le Très-Haut a dit à Jésus (as) : Éduque ton cœur par la crainte révérencielle [vis-à-vis de Moi].<sup>148</sup>"
                     },
                     {
-                        "source": "Tanbīh al-Khawāṭir :",
-                        "text": "Lorsqu'on demanda à Jésus (as) : «Qui t'a éduqué ?» Il répondit : «Personne ne m'a éduqué, j'ai seulement perçu la laideur de l'ignorance et je l'ai évitée.»<sup>149</sup>"
+                        "number": "135",
+                        "text": "<i>Tanbīh al-Khawāṭir</i> : Lorsqu'on demanda à Jésus (as) : «Qui t'a éduqué ?» Il répondit : «Personne ne m'a éduqué, j'ai seulement perçu la laideur de l'ignorance et je l'ai évitée.»<sup>149</sup>"
                     },
                     {
+                        "number": "136",
                         "text": "L'Imām 'Alī (as) a dit : Accompagne les savants et ton savoir augmentera, ta politesse s'améliorera et ton âme se purifiera.<sup>150</sup>"
                     },
                     {
+                        "number": "137",
                         "text": "L'Imām 'Alī (as) a dit : Lorsque le savoir de l'homme augmente, sa politesse augmente aussi et la crainte qu'il éprouve pour Allah décuple.<sup>151</sup>"
                     }
                 ]
@@ -815,27 +828,32 @@ const AUNE_SAGESSE = [
                 "title": "47 - Les effets de la politesse",
                 "hadiths": [
                     {
+                        "number": "138",
                         "text": "L'Imām 'Alī (as) a dit : La politesse est le moyen de purifier ses vertus morales.<sup>152</sup>"
                     },
                     {
+                        "number": "139",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui s'efforce d'être poli a moins de défauts.<sup>153</sup>"
                     },
                     {
-                        "text": "L'Imām 'Alī (as) a dit : La politesse aiguise l'intelligence.<sup>154</sup>"
+                        "number": "140",
+                        "text": "L'Imām 'Alī (as) a dit : La politesse aiguise l'intelligence.<sup>154</sup><br><br><span class=\"reference-note\">(Voir également : 63. L'expérience, section 329)</span>"
                     }
-                ],
-                "note": "(Voir également : 63. L'expérience, section 329)"
+                ]
             },
             {
                 "title": "48 - La signification de la politesse",
                 "hadiths": [
                     {
+                        "number": "141",
                         "text": "L'Imām 'Alī (as) a dit : Pour éduquer ta personne, il te suffit d'éviter ce que tu détestes chez autrui.<sup>155</sup>"
                     },
                     {
+                        "number": "142",
                         "text": "L'Imām 'Alī (as) a dit : Il suffit au serviteur comme bonne éducation et politesse de ne pas associer à ses grâces et à ses désirs autre que son Seigneur.<sup>156</sup>"
                     },
                     {
+                        "number": "143",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Mon père (as) a parfait mon éducation en me disant trois choses. [...] Il m'a dit : «Ô mon fils, sache que celui qui a de mauvaises fréquentations ne sera pas épargné, que celui qui ne restreint pas ses paroles le regrettera, et que celui qui se rend dans les endroits de débauche sera l'objet d'accusation.»<sup>157</sup>"
                     }
                 ]
@@ -844,12 +862,15 @@ const AUNE_SAGESSE = [
                 "title": "49 - La meilleure des bonnes manières",
                 "hadiths": [
                     {
+                        "number": "144",
                         "text": "L'Imām 'Alī (as) a dit : La meilleure des bonnes manières est que la personne sache rester à sa place et ne dépasse pas les limites de son propre statut.<sup>158</sup>"
                     },
                     {
+                        "number": "145",
                         "text": "L'Imām 'Alī (as) a dit : La meilleure des bonnes manières est celle qui t'empêche de commettre les actes illicites.<sup>159</sup>"
                     },
                     {
+                        "number": "146",
                         "text": "L'Imām 'Alī (as) a dit : La maîtrise de soi face au désir et à la peur est la meilleure des bonnes manières.<sup>160</sup>"
                     }
                 ]
@@ -858,55 +879,65 @@ const AUNE_SAGESSE = [
                 "title": "50 - L'incitation à bien éduquer la famille",
                 "hadiths": [
                     {
+                        "number": "147",
                         "text": "Le Messager d'Allah (s) a dit : Traitez vos enfants avec égards, éduquez-les de la meilleure façon et vous serez pardonnés.<sup>161</sup>"
                     },
                     {
+                        "number": "148",
                         "text": "L'Imām 'Alī (as) a dit en s'adressant à son fils Ḥasan (as) : Le cœur du jeune est comme une terre encore vierge, tout ce qui y est planté pousse. C'est pourquoi je t'ai éduqué et appris la politesse avant que ton cœur durcisse et que ton esprit soit occupé.<sup>162</sup>"
                     },
                     {
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque ce verset <i>«Ô vous avez cru ! Préservez vos personnes et vos familles d'un Feu»</i><sup>163</sup> fut révélé, les gens demandèrent : «Ô Messager d'Allah ! Comment pouvons-nous protéger nos personnes et nos familles ?» Il (s) répondit : «Faites de bonnes actions, rappelez [d'agir ainsi] à votre famille, et éduquez-les à obéir à Allah.»<sup>164</sup>"
+                        "number": "149",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque ce verset «<i>Ô vous avez cru ! Préservez vos personnes et vos familles d'un Feu</i>»<sup>163</sup> fut révélé, les gens demandèrent : «Ô Messager d'Allah ! Comment pouvons-nous protéger nos personnes et nos familles ?» Il (s) répondit : «Faites de bonnes actions, rappelez [d'agir ainsi] à votre famille, et éduquez-les à obéir à Allah.»<sup>164</sup>"
                     },
                     {
-                        "text": "L'Imām al-Riḍā (as) a dit : Eduquez l'enfant à donner l'aumône (<i>ṣadaqa</i>) de sa propre main, même si ce n'est qu'un morceau de pain, une poignée [de nourriture] ou toute autre [petite] chose, car toute chose donnée pour Allah, même petite, est énorme si l'intention est sincère.<sup>165</sup>"
+                        "number": "150",
+                        "text": "L'Imām al-Riḍā (as) a dit : Eduquez l'enfant à donner l'aumône (<i>ṣadaqa</i>) de sa propre main, même si ce n'est qu'un morceau de pain, une poignée [de nourriture] ou toute autre [petite] chose, car toute chose donnée pour Allah, même petite, est énorme si l'intention est sincère.<sup>165</sup><br><br><span class=\"reference-note\">(Voir également : 414. Le parent et l'enfant, section 1892 ; 234. L'enfance)</span>"
                     }
-                ],
-                "note": "(Voir également : 414. Le parent et l'enfant, section 1892 ; 234. L'enfance)"
+                ]
             },
             {
                 "title": "51 - La manière d'éduquer",
                 "hadiths": [
                     {
+                        "number": "151",
                         "text": "Le Messager d'Allah (s) a dit : Apprenez à vos enfants la prière lorsqu'ils atteignent l'âge de sept ans, [...] et faites-les dormir dans des lits séparés.<sup>166</sup>"
                     },
                     {
+                        "number": "152",
                         "text": "Le Messager d'Allah (s) a dit : L'enfant est un maître durant sept ans, puis un serviteur durant sept ans, puis un ministre durant sept ans. Si son comportement est satisfaisant à vingt et un ans [c'est une bonne chose] ; dans le cas contraire, laisse-le car tu auras alors rempli tes obligations vis-à-vis d'Allah le Très-Haut.<sup>167</sup>"
                     },
                     {
-                        "text": "L'Imām al-Ṣādiq (as) a dit : On éduque le garçon au jeûne entre quinze et seize ans.<sup>168</sup>"
+                        "number": "153",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : On éduque le garçon au jeûne entre quinze et seize ans.<sup>168</sup><br><br><span class=\"reference-note\">(Voir également : 414. Le parent et l'enfant, section 1893)</span>"
                     }
-                ],
-                "note": "(Voir également : 414. Le parent et l'enfant, section 1893)"
+                ]
             },
             {
                 "title": "52 - Ce qu'il faut respecter dans l'éducation",
                 "hadiths": [
                     {
-                        "source": "Biḥār al-Anwār :",
-                        "text": "Le Messager d'Allah (s) a interdit de corriger [l'enfant] dans un moment de colère.<sup>169</sup>"
+                        "number": "154",
+                        "text": "<i>Biḥār al-Anwār</i> : Le Messager d'Allah (s) a interdit de corriger [l'enfant] dans un moment de colère.<sup>169</sup>"
                     },
                     {
+                        "number": "155",
                         "text": "L'Imām 'Alī (as) a dit : Réprimande l'offensant en récompensant le bienfaisant.<sup>170</sup>"
                     },
                     {
+                        "number": "156",
                         "text": "L'Imām 'Alī (as) a dit : Réformez les bons en les honorant, et les méchants en les disciplinant.<sup>171</sup>"
                     },
                     {
+                        "number": "157",
                         "text": "L'Imām 'Alī (as) a dit : Réprimande ton frère en étant bienfaisant envers lui, et réagis à sa méchanceté en étant généreux vis-à-vis de lui.<sup>172</sup>"
                     },
                     {
+                        "number": "158",
                         "text": "L'Imām 'Alī (as) a dit : Rééduque le méchant par tes bonnes actions [envers lui], et indique-lui le bien par la beauté de tes paroles.<sup>173</sup>"
                     },
                     {
+                        "number": "159",
                         "text": "L'Imām al-Kāẓim (as) a dit lorsque l'un de ses compagnons s'est plaint de son enfant : Ne le frappe pas mais ignore-le. Cependant, que cela ne dure pas trop longtemps.<sup>174</sup>"
                     }
                 ]
@@ -915,9 +946,11 @@ const AUNE_SAGESSE = [
                 "title": "53 - S'éduquer par l'éducation d'Allah",
                 "hadiths": [
                     {
+                        "number": "160",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui s'éduque en suivant [les principes] de l'éducation d'Allah le Tout-Puissant cheminera vers la prospérité éternelle.<sup>175</sup>"
                     },
                     {
+                        "number": "161",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui ne se rééduque et ne se corrige pas selon [les principes] de l'éducation d'Allah ne réussira pas à se corriger par l'autodiscipline.<sup>176</sup>"
                     }
                 ]
@@ -926,13 +959,14 @@ const AUNE_SAGESSE = [
                 "title": "54 - L'éducation d'Allah",
                 "hadiths": [
                     {
+                        "number": "162",
                         "text": "L'Imām 'Alī (as) a dit : L'adversité est un moyen d'éduquer l'oppresseur.<sup>177</sup>"
                     },
                     {
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Ô Allah ! Ne m'éduque pas par Ta correction.<sup>178</sup>"
+                        "number": "163",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Ô Allah ! Ne m'éduque pas par Ta correction.<sup>178</sup><br><br><span class=\"reference-note\">(Voir également : 51. L'épreuve, section 267)</span>"
                     }
-                ],
-                "note": "(Voir également : 51. L'épreuve, section 267)"
+                ]
             }
         ]
     },
@@ -943,12 +977,15 @@ const AUNE_SAGESSE = [
                 "title": "55 - La vertu de l'adhān",
                 "hadiths": [
                     {
+                        "number": "164",
                         "text": "Le Messager d'Allah (s) a dit : Lève-toi ô Bilāl, et apaise-nous par [l'appel à] la prière.<sup>179</sup>"
                     },
                     {
+                        "number": "165",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Satan fuit lorsqu'il entend l'appel à la prière.<sup>180</sup>"
                     },
                     {
+                        "number": "166",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, les habitants des cieux n'entendent rien des habitants de la terre hormis l'appel à la prière.<sup>181</sup>"
                     }
                 ]
@@ -957,10 +994,12 @@ const AUNE_SAGESSE = [
                 "title": "56 - Le muezzin",
                 "hadiths": [
                     {
+                        "number": "167",
                         "text": "Le Messager d'Allah (s) a dit : Le muezzin sera pardonné autant que sa voix est entendue et de façon aussi vaste que ce que sa vue embrasse. Tout ce qui est sec et humide atteste sa crédibilité, et il lui sera donné une grâce pour chaque personne qui aura prié à son appel.<sup>182</sup>"
                     },
                     {
-                        "text": "L'Imām 'Alī (as) a dit : Que le plus éloquent parmi vous fasse l'adhān et que le plus savant d'entre vous dirige la prière.<sup>183</sup>"
+                        "number": "168",
+                        "text": "L'Imām 'Alī (as) a dit : Que le plus éloquent parmi vous fasse l'<i>adhān</i> et que le plus savant d'entre vous dirige la prière.<sup>183</sup>"
                     }
                 ]
             },
@@ -968,10 +1007,12 @@ const AUNE_SAGESSE = [
                 "title": "57 - Réciter l'appel à la prière dans l'oreille",
                 "hadiths": [
                     {
-                        "text": "Le Messager d'Allah (s) a dit : Ô 'Alī ! S'il naît chez toi un garçon ou une fille, récite-lui l'appel à la prière dans l'oreille droite et l'iqāma<sup>184</sup> dans l'oreille gauche. Ainsi, Satan ne pourra pas lui faire de mal.<sup>185</sup>"
+                        "number": "169",
+                        "text": "Le Messager d'Allah (s) a dit : Ô 'Alī ! S'il naît chez toi un garçon ou une fille, récite-lui l'appel à la prière dans l'oreille droite et l'<i>iqāma</i><sup>184</sup> dans l'oreille gauche. Ainsi, Satan ne pourra pas lui faire de mal.<sup>185</sup>"
                     },
                     {
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Récitez l'adhān dans l'oreille de celui dont le caractère est devenu mauvais.<sup>186</sup>"
+                        "number": "170",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Récitez l'<i>adhān</i> dans l'oreille de celui dont le caractère est devenu mauvais.<sup>186</sup>"
                     }
                 ]
             }
@@ -984,18 +1025,20 @@ const AUNE_SAGESSE = [
                 "title": "58 - Eviter de tourmenter les gens",
                 "hadiths": [
                     {
-                        "text": "Le Messager d'Allah (s) a dit : Evite de tourmenter les gens, car c'est une aumône (ṣadaqa) que tu offres à ta personne.<sup>187</sup>"
+                        "number": "171",
+                        "text": "Le Messager d'Allah (s) a dit : Evite de tourmenter les gens, car c'est une aumône (<i>ṣadaqa</i>) que tu offres à ta personne.<sup>187</sup>"
                     },
                     {
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui se retient de tourmenter les gens empêche une main malveillante de les atteindre, tandis que grâce à cela plusieurs mains malveillantes ne l'atteindront pas.<sup>188</sup>"
+                        "number": "172",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui se retient de tourmenter les gens empêche une main malveillante de les atteindre, tandis que grâce à cela plusieurs mains malveillantes ne l'atteindront pas.<sup>188</sup><br><br><span class=\"reference-note\">(Voir également : 83. Le voisin, section 413)</span>"
                     }
-                ],
-                "note": "(Voir également : 83. Le voisin, section 413)"
+                ]
             },
             {
                 "title": "59 - Eviter de tourmenter quiconque même les petites fourmis",
                 "hadiths": [
                     {
+                        "number": "173",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Par Allah, les bienfaisants ont triomphé. Sais-tu qui ils sont ? Ce sont ceux qui ne tourmentent même pas les petites fourmis.<sup>189</sup>"
                     }
                 ]
@@ -1005,15 +1048,19 @@ const AUNE_SAGESSE = [
                 "introduction": "«<i>Et ceux qui offensent les croyants et les croyantes sans qu'ils l'aient mérité se chargent d'une calomnie et d'un péché évident.</i>»<sup>190</sup>",
                 "hadiths": [
                     {
+                        "number": "174",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Allah le Tout-Puissant a dit : «Que celui qui tourmente l'un de Mes serviteurs croyants s'attende de Ma part à une guerre.»<sup>191</sup>"
                     },
                     {
+                        "number": "175",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui offense un croyant M'aura offensé.<sup>192</sup>"
                     },
                     {
+                        "number": "176",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui regarde un croyant d'un regard qui l'effraie, Allah le Très-Haut l'effrayera le Jour où il n'y aura nulle ombre hormis la Sienne.<sup>193</sup>"
                     },
                     {
+                        "number": "177",
                         "text": "Le Messager d'Allah (s) a dit : Le péché de celui qui attriste un croyant ne sera pas effacé même si par la suite il lui offre le monde entier, et son geste restera sans rétribution.<sup>194</sup>"
                     }
                 ]
@@ -1027,9 +1074,11 @@ const AUNE_SAGESSE = [
                 "title": "61 - Il n'est pas autorisé de se constituer prisonnier",
                 "hadiths": [
                     {
+                        "number": "178",
                         "text": "L'Imām 'Alī (as) a dit : La rançon de la libération de celui qui se constitue prisonnier sans qu'il soit atteint d'une blessure grave ne sera pas prélevée sur le trésor public mais du propre argent du prisonnier, si sa famille l'accepte.<sup>195</sup>"
                     },
                     {
+                        "number": "179",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Messager d'Allah (s) envoya 'Alī (as) pour propager [la sourate du] désaveu [la 9e du Coran], il le fit accompagner d'autres personnes, et le Messager d'Allah (s) dit : «Celui qui se constitue prisonnier sans être gravement blessé ne fait pas partie de nous.»<sup>196</sup>"
                     }
                 ]
@@ -1039,15 +1088,19 @@ const AUNE_SAGESSE = [
                 "introduction": "«<i>Et offrent la nourriture, malgré son amour, à l'indigent, à l'orphelin et au prisonnier.</i>»<sup>197</sup><br><br>«<i>Ô Prophète ! Dis aux captifs qui sont entre vos mains : «Si Allah sait qu'il y a quelque bien dans vos cœurs, Il vous apportera mieux que ce qui vous a été pris et vous pardonnera. Allah est Pardonneur et Miséricordieux !».</i>»<sup>198</sup>",
                 "hadiths": [
                     {
+                        "number": "180",
                         "text": "L'Imām 'Alī (as) a dit : Nourrir un prisonnier et être bienfaisant envers lui est un devoir obligatoire, même s'il doit être exécuté le lendemain.<sup>199</sup>"
                     },
                     {
+                        "number": "181",
                         "text": "L'Imām 'Alī (as) a dit à ses fils après qu'Ibn Muljam lui ait donné le coup fatal : Enfermez ce prisonnier, nourrissez-le, donnez-lui à boire et soyez bienfaisants envers lui durant sa captivité.<sup>200</sup>"
                     },
                     {
+                        "number": "182",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Nourrir le prisonnier est un devoir obligatoire pour celui qui l'a capturé, même si on a l'intention de l'exécuter le lendemain. Il doit être nourri, abreuvé, abrité, et bien traité, qu'il soit mécréant ou pas.<sup>201</sup>"
                     },
                     {
+                        "number": "183",
                         "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, 'Alī (as) nourrissait ceux qui étaient emprisonnés à vie en prélevant dans la trésorerie des musulmans.<sup>202</sup>"
                     }
                 ]
@@ -1061,9 +1114,11 @@ const AUNE_SAGESSE = [
                 "title": "63 - L'incitation à manger peu",
                 "hadiths": [
                     {
+                        "number": "184",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui mange peu aura un estomac sain et un cœur purifié ; par contre, celui qui mange beaucoup souffrira de l'estomac et son cœur s'endurcira.<sup>203</sup>"
                     },
                     {
+                        "number": "185",
                         "text": "L'Imām 'Alī (as) a dit : Manger peu est un signe de retenue, manger profusément est un signe d'excès.<sup>204</sup>"
                     }
                 ]
@@ -1072,20 +1127,24 @@ const AUNE_SAGESSE = [
                 "title": "64 - Mise en garde contre l'excès dans la nourriture",
                 "hadiths": [
                     {
+                        "number": "186",
                         "text": "Le Messager d'Allah (s) a dit : Le pire récipient que l'homme puisse remplir est son ventre.<sup>205</sup>"
                     },
                     {
+                        "number": "187",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui a rempli son ventre n'entrera pas dans le Royaume des cieux et de la terre.<sup>206</sup>"
                     },
                     {
+                        "number": "188",
                         "text": "Le Messager d'Allah (s) a dit : Méfiez-vous de l'excès dans la nourriture car cela empoisonne le cœur par la dureté, ralentit les membres dans l'accomplissement des actes d'adoration, et empêche les âmes d'écouter les exhortations.<sup>207</sup>"
                     },
                     {
+                        "number": "189",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui mange de façon excessive verra sa santé décliner, et son fardeau deviendra plus lourd qu'il ne peut le supporter.<sup>208</sup>"
                     },
                     {
-                        "source": "Miṣbāḥ al-Sharī'a :",
-                        "text": "Parmi les paroles qui lui sont attribuées, l'Imām al-Ṣādiq (as) a dit : Aucune chose ne ravage autant le cœur du croyant que l'excès de nourriture. Cela génère deux choses : la dureté du cœur et l'excitation des passions.<sup>209</sup>"
+                        "number": "190",
+                        "text": "<i>Miṣbāḥ al-Sharī'a</i> : Parmi les paroles qui lui sont attribuées, l'Imām al-Ṣādiq (as) a dit : Aucune chose ne ravage autant le cœur du croyant que l'excès de nourriture. Cela génère deux choses: la dureté du cœur et l'excitation des passions.<sup>209</sup>"
                     }
                 ]
             },
@@ -1093,15 +1152,19 @@ const AUNE_SAGESSE = [
                 "title": "65 - Parmi les vices de la gloutonnerie",
                 "hadiths": [
                     {
+                        "number": "191",
                         "text": "L'Imām 'Alī (as) a dit : La gloutonnerie et la perspicacité ne peuvent coexister.<sup>210</sup>"
                     },
                     {
+                        "number": "192",
                         "text": "L'Imām 'Alī (as) a dit : Quand le ventre est rempli d'aliments [même] licites, le cœur devient aveugle [et incapable de distinguer] le bien.<sup>211</sup>"
                     },
                     {
+                        "number": "193",
                         "text": "L'Imām 'Alī (as) a dit : La satiété corrompt la piété.<sup>212</sup>"
                     },
                     {
+                        "number": "194",
                         "text": "L'Imām 'Alī (as) a dit : Quel bon compagnon pour les actes de désobéissance est la satiété !<sup>213</sup>"
                     }
                 ]
@@ -1110,69 +1173,12 @@ const AUNE_SAGESSE = [
                 "title": "66 - La faim",
                 "hadiths": [
                     {
+                        "number": "195",
                         "text": "Le Messager d'Allah (s) a dit : Heureux ceux qui s'abstiennent de nourriture, qui ont faim et qui patientent. Ceux-là seront rassasiés le Jour de la Résurrection.<sup>214</sup>"
                     },
                     {
-                        "text": "Dans le <i>ḥadīth</i> de l'ascension (<i>mi'rāj</i>), le Messager d'Allah (s) a dit : «Ô Seigneur, quel est le résultat de la faim ?» Il répondit : «La sagesse, la protection du cœur, le rapprochement de Moi, la mélancolie permanente [pour la rencontre avec Allah], une faible charge pour les gens, le fait de dire la vérité, et l'indifférence face au fait de vivre dans la facilité ou dans la difficulté.»<sup>215</sup>"
-                    },
-                    {
-                        "text": "L'Imām 'Alī (as) a dit : Quel bon assistant est la faim pour asservir l'âme et briser ses habitudes !<sup>216</sup>"
-                    },
-                    {
-                        "text": "L'Imām 'Alī (as) a dit : La faim et la maladie ne peuvent coexister.<sup>217</sup>"
-                    },
-                    {
-                        "text": "L'Imām al-Hādī (as) a dit : La veillée rend le sommeil plus agréable et la faim rend la nourriture plus savoureuse.<sup>218</sup>"
-                    }
-                ]
-            },
-            {
-                "title": "67 - La mesure de la nourriture",
-                "hadiths": [
-                    {
-                        "text": "Le Messager d'Allah (s) a dit : Mange en ayant faim et arrête-toi alors que tu as encore faim.<sup>219</sup>"
-                    },
-                    {
-                        "text": "L'Imām al-Riḍā (as) a dit : Que celui qui veut avoir un corps sain et mince réduise le repas du soir.<sup>220</sup>"
-                    }
-                ]
-            },
-            {
-                "title": "68 - Le bon comportement pendant le repas",
-                "hadiths": [
-                    {
-                        "text": "Le Messager d'Allah (s) a dit : Celui qui mange alors qu'un autre le regarde sans lui offrir quelque chose sera éprouvé par une douleur incurable.<sup>221</sup>"
-                    },
-                    {
-                        "text": "Le Messager d'Allah (s) a dit : Le croyant mange selon le désir de sa famille, tandis que l'hypocrite fait manger sa famille selon ses propres désirs.<sup>222</sup>"
-                    },
-                    {
-                        "text": "L'Imām 'Alī (as) a dit : Celui qui récite le Nom d'Allah avant de manger ou de boire et qui rend grâce à Allah après cela ne sera jamais interrogé sur la grâce qu'ont été pour lui ces aliments.<sup>223</sup>"
-                    },
-                    {
-                        "text": "L'Imām 'Alī (as) a dit : Commencez vos repas avec du sel. Si les gens savaient quels [bienfaits] contient le sel, ils l'auraient préféré au meilleur des antidotes.<sup>224</sup>"
-                    },
-                    {
-                        "text": "L'Imām 'Alī (as) a dit : Attendez que le repas chaud refroidisse, car lorsqu'on lui a présenté un plat chaud, le Messager d'Allah (s) a dit : «Éloignez-le jusqu'à ce qu'il refroidisse car Allah le Tout-Puissant ne nous nourrit pas avec le feu alors que la bénédiction réside dans ce qui est froid.»<sup>225</sup>"
-                    },
-                    {
-                        "text": "L'Imām Ḥasan (as) a dit : Il y a douze choses que tout musulman doit connaître au sujet du [bon comportement] à table. Quatre sont obligatoires, quatre sont une <i>sunna</i> [recommandée], et les quatre dernières sont de la politesse. Les quatre obligations sont la connaissance [de ce qu'est la nourriture que l'on s'apprête à manger], la satisfaction, l'énonciation [du Nom d'Allah avant de commencer à manger] et les remerciements [après avoir mangé]. Les <i>sunnas</i> [recommandées] sont de faire ses ablutions avant le repas, s'asseoir sur le flanc gauche, manger en utilisant trois doigts et lécher ses doigts. Pour ce qui est de la politesse, c'est de manger ce qui se trouve devant soi, manger par petites bouchées, bien mâcher et ne pas dévisager les autres.<sup>226</sup>"
-                    },
-                    {
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui se lave les mains avant et après le repas sera béni du début et à sa fin. Il ne manquera de rien tant qu'il sera en vie et sera guéri de toute maladie corporelle.<sup>227</sup>"
-                    },
-                    {
-                        "text": "L'Imām al-Ṣādiq (as) a dit en transmettant de ses pères un <i>ḥadīth</i> au sujet des prohibitions du Prophète (s) : Il (s) a interdit de souffler sur la nourriture ou la boisson.<sup>228</sup>"
-                    },
-                    {
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne laissez pas vos récipients sans couvercle, car Satan y crache et s'y sert à volonté.<sup>229</sup>"
-                    },
-                    {
-                        "text": "Lorsqu'il fut interrogé au sujet des personnes viles, l'Imām al-Kāẓim (as) répondit : Ce sont celles qui mangent dans les marchés.<sup>230</sup>"
-                    },
-                    {
-                        "source": "Al-Ikhtiṣāṣ :",
-                        "text": "Prolongez vos tablées, car ce sont des moments de votre vie qui ne sont pas comptés.<sup>231</sup>"
+                        "number": "196",
+                        "text": "Dans le <i>ḥadīth</i> de l'ascension (<i>mi'rāj</i>), le Messager d'Allah (s) a dit : «Ô Seigneur, quel"
                     }
                 ]
             }
