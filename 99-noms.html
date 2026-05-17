@@ -771,6 +771,21 @@ window.addEventListener('message', function(e) {
     if (t !== 'light') { document.documentElement.removeAttribute('data-theme'); document.body.removeAttribute('data-theme'); }
     try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
+  // Global Search deep-link: state = nom number (1-99)
+  if (e.data && e.data.type === 'gs-navigate' && e.data.state) {
+    var num = parseInt(e.data.state, 10);
+    if (!isNaN(num)) {
+      var cards = document.querySelectorAll('.nom-card');
+      var card = cards[num - 1];
+      if (card) { setTimeout(function(){ card.scrollIntoView({behavior:'smooth', block:'center'}); card.style.borderColor='rgba(201,168,76,0.7)'; setTimeout(function(){ card.style.borderColor=''; }, 2000); }, 100); }
+    }
+  }
+});
+document.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    e.preventDefault();
+    try { window.parent.postMessage({type:'gs-open'}, '*'); } catch(ex) {}
+  }
 });
 try { if (localStorage.getItem('theme') === 'light') { document.documentElement.setAttribute('data-theme', 'light'); document.body.setAttribute('data-theme', 'light'); } } catch(e) {}
 </script>

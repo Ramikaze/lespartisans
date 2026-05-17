@@ -210,6 +210,17 @@ window.addEventListener('message', function(e) {
     if (t !== 'light') { document.documentElement.removeAttribute('data-theme'); document.body.removeAttribute('data-theme'); }
     try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
+  // Global Search deep-link: state = 0-indexed imam number
+  if (e.data && e.data.type === 'gs-navigate') {
+    var n = parseInt(e.data.state, 10) + 1; // stored as 0-indexed
+    if (!isNaN(n) && n >= 1 && n <= 12) showDetail(n);
+  }
+});
+document.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    e.preventDefault();
+    try { window.parent.postMessage({type:'gs-open'}, '*'); } catch(ex) {}
+  }
 });
 try { if (localStorage.getItem('theme') === 'light') { document.documentElement.setAttribute('data-theme', 'light'); document.body.setAttribute('data-theme', 'light'); } } catch(e) {}
 </script>

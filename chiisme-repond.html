@@ -506,6 +506,18 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
       setTh(t);
       render();
     }
+    // ── Global Search deep-link navigation ──
+    if (e.data && e.data.type === 'gs-navigate') {
+      var idx = parseInt(e.data.state, 10);
+      if (!isNaN(idx) && idx >= 0 && idx < CH.length) goTo(idx);
+    }
+  });
+  // Relay Ctrl+K to parent for global search
+  document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      e.preventDefault();
+      try { window.parent.postMessage({type:'gs-open'}, '*'); } catch(ex) {}
+    }
   });
   // Check portal's localStorage on init
   try {

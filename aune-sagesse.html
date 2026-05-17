@@ -505,6 +505,28 @@ window.addEventListener('message', function(e) {
     document.documentElement.setAttribute('data-theme', t);
     document.body.setAttribute('data-theme', t === 'light' ? '' : 'dark');
   }
+  // Global Search deep-link: state = "pi,si" (part index, subpart index)
+  if (e.data && e.data.type === 'gs-navigate' && e.data.state) {
+    var parts = e.data.state.split(',');
+    var pi = parseInt(parts[0], 10);
+    if (!isNaN(pi)) {
+      // openPart uses 1-indexed in the HTML id
+      var target = document.getElementById('part-' + pi);
+      if (target) {
+        setTimeout(function(){
+          document.querySelectorAll('.part-card').forEach(function(c){ c.classList.remove('active'); });
+          target.classList.add('active');
+          target.scrollIntoView({behavior:'smooth', block:'start'});
+        }, 150);
+      }
+    }
+  }
+});
+document.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    e.preventDefault();
+    try { window.parent.postMessage({type:'gs-open'}, '*'); } catch(ex) {}
+  }
 });
 
 // Initialisation du thème

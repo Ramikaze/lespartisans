@@ -1108,7 +1108,16 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   function navigateTo(item) {
     closeGS();
     if (typeof openModule === 'function' && item.idx >= 0) {
-      openModule(item.idx, item.state || '');
+      var state = item.state || '';
+      // If module already loaded, try deep-link via postMessage first
+      var iframeEl = document.getElementById('iframe' + item.idx);
+      if (iframeEl && iframeEl.src && state) {
+        // Module loaded — send navigate message, then show frame
+        openModule(item.idx, state);
+        try { iframeEl.contentWindow.postMessage({type:'gs-navigate', state: state}, '*'); } catch(ex) {}
+      } else {
+        openModule(item.idx, state);
+      }
     } else if (item.idx < 0) {
       var homeScreen = document.getElementById('homeScreen');
       if (homeScreen) { homeScreen.style.display = ''; }

@@ -1445,5 +1445,21 @@ try {
 })();
 </script>
 
+<script>
+// ── Global Search relay ───────────────────────────────────────────────
+window.addEventListener('message', function(e) {
+  if (!e.data) return;
+  if (e.data.type === 'gs-navigate' && e.data.state) {
+    if (typeof showInvocation === 'function') showInvocation(e.data.state);
+  }
+});
+document.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    e.preventDefault();
+    try { window.parent.postMessage({type:'gs-open'}, '*'); } catch(ex) {}
+  }
+});
+</script>
+
 </body>
 </html>
