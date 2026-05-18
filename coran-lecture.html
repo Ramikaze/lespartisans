@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Le Coran — Traduction Abolqasemi Fakhri</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='none' stroke='%23c9a84c' stroke-width='8'><rect x='22' y='22' width='56' height='56' rx='8'/><rect x='22' y='22' width='56' height='56' rx='8' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='12' fill='%23c9a84c'/></g></svg>">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Scheherazade+New:wght@400;700&family=Amiri+Quran&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Amiri:wght@400;700&family=Amiri+Quran&family=Lateef&family=Noto+Naskh+Arabic:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <style>
+:root{--ar-font:'Amiri',serif}
 *{box-sizing:border-box;margin:0;padding:0}
 html{height:100%}
 body{min-height:100%;background:#070c18;color:#e2d9c4;font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.8}
@@ -55,7 +56,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .surah-num{font-family:'Cinzel',serif;font-size:16px;font-weight:700;color:#c9a84c;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.2);border-radius:8px;min-width:40px;height:40px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .surah-info{flex:1;min-width:0}
 .surah-name-fr{font-size:18px;font-weight:600;color:#e8e2d0;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.surah-name-ar{font-family:'Amiri Quran',serif;font-weight:400;font-size:17px;color:#c9a84c;opacity:0.6}
+.surah-name-ar{font-family:var(--ar-font),serif;font-weight:400;font-size:17px;color:#c9a84c;opacity:0.6}
 .surah-detail{font-size:14px;color:#5a6480;margin-top:2px}
 .surah-arrow{color:#c9a84c;opacity:0.4;font-size:22px}
 
@@ -64,7 +65,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .surah-header{text-align:center;margin-bottom:36px;padding-bottom:24px;border-bottom:1px solid rgba(201,168,76,0.15)}
 .s-num{font-family:'Cinzel',serif;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:#c9a84c;opacity:0.6;margin-bottom:8px}
 .s-name{font-family:'Cinzel',serif;font-size:clamp(1.3rem,3.5vw,1.9rem);font-weight:700;color:#e8e2d0;margin-bottom:4px}
-.s-name-ar{font-family:'Amiri Quran',serif;font-weight:400;font-size:1.6rem;color:#c9a84c;opacity:0.7;margin-bottom:8px}
+.s-name-ar{font-family:var(--ar-font),serif;font-weight:400;font-size:1.6rem;color:#c9a84c;opacity:0.7;margin-bottom:8px}
 .s-meta{font-size:17px;color:#5a6480}
 .bismillah{text-align:center;font-style:italic;color:#c9a84c;opacity:0.7;margin-bottom:28px;font-size:1.2rem;padding:12px;border:1px solid rgba(201,168,76,0.1);border-radius:10px;background:rgba(201,168,76,0.03)}
 .verse{margin-bottom:20px;padding:16px 20px;border-radius:10px;transition:background .2s;line-height:2.0;scroll-margin-top:80px}
@@ -75,10 +76,14 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .font-ctrl{display:flex;align-items:center;gap:4px}
 .font-ctrl .fc-grp{display:flex;align-items:center;gap:2px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.18);border-radius:8px;padding:2px 4px}
 .font-ctrl .fc-label{font-size:11px;color:#c9a84c;opacity:0.7;padding:0 4px;min-width:18px;text-align:center}
-.font-ctrl .fc-label.ar-label{font-family:'Amiri Quran',serif;font-weight:400;font-size:14px}
+.font-ctrl .fc-label.ar-label{font-family:var(--ar-font),serif;font-weight:400;font-size:14px}
 .font-ctrl .fc-btn{background:none;border:none;color:#c9a84c;font-size:16px;cursor:pointer;padding:4px 6px;border-radius:4px;line-height:1;transition:background .15s}
 .font-ctrl .fc-btn:hover{background:rgba(201,168,76,0.2)}
 .font-ctrl .fc-btn:active{background:rgba(201,168,76,0.35)}
+.font-ctrl .fc-select{background:none;border:none;color:#c9a84c;font-size:12px;font-family:inherit;outline:none;cursor:pointer;padding:2px 4px}
+.font-ctrl .fc-select option{background:#0a1628;color:#e2d9c4}
+[data-theme="light"] .font-ctrl .fc-select{color:#7a5c24!important}
+[data-theme="light"] .font-ctrl .fc-select option{background:#e8e0d4!important;color:#2c2114!important}
 .pdf-card{background:rgba(201,168,76,0.04);border:1px solid rgba(201,168,76,0.18);border-radius:14px;padding:28px 28px 24px;margin:24px 0 28px;max-width:700px;margin-left:auto;margin-right:auto}
 .pdf-card-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
 .pdf-card-icon{width:48px;height:48px;background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.25);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -95,8 +100,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .nav-btn:disabled{opacity:0.3;cursor:default}
 
 /* ── ARABIC VERSE TEXT ── */
-.verse-ar{direction:rtl;text-align:right;font-family:'Amiri Quran',serif;font-weight:400;font-size:var(--ar-size,2.0rem);color:#c9a84c;line-height:2.1;margin-bottom:10px;padding:6px 0 8px;border-bottom:1px solid rgba(201,168,76,0.08)}
-.bismillah-ar{font-family:'Amiri Quran',serif;font-weight:400;font-size:var(--ar-size,1.8rem);display:block;margin-bottom:8px;direction:rtl}
+.verse-ar{direction:rtl;text-align:right;font-family:var(--ar-font),serif;font-weight:400;font-size:var(--ar-size,2.0rem);color:#c9a84c;line-height:2.1;margin-bottom:10px;padding:6px 0 8px;border-bottom:1px solid rgba(201,168,76,0.08)}
+.bismillah-ar{font-family:var(--ar-font),serif;font-weight:400;font-size:var(--ar-size,1.8rem);display:block;margin-bottom:8px;direction:rtl}
 
 /* ── INTERACTIVE WORDS ── */
 .verse-ar .w{display:inline;cursor:pointer;padding:2px 4px;border-radius:4px;transition:background .15s,color .15s;position:relative}
@@ -107,7 +112,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 /* ── WORD TOOLTIP ── */
 #wtooltip{position:fixed;z-index:500;background:rgba(15,19,38,0.97);border:1px solid rgba(201,168,76,0.35);border-radius:12px;padding:12px 16px;max-width:280px;min-width:160px;pointer-events:none;opacity:0;transition:opacity .18s;box-shadow:0 8px 32px rgba(0,0,0,0.5)}
 #wtooltip.show{opacity:1;pointer-events:all}
-.wtt-arabic{font-family:'Amiri Quran',serif;font-weight:400;font-size:1.5rem;color:#e8c96a;direction:rtl;text-align:center;margin-bottom:6px}
+.wtt-arabic{font-family:var(--ar-font),serif;font-weight:400;font-size:1.5rem;color:#e8c96a;direction:rtl;text-align:center;margin-bottom:6px}
 .wtt-trans{font-size:.78rem;color:#c9a84c;letter-spacing:.06em;text-align:center;margin-bottom:4px;font-style:italic}
 .wtt-en{font-size:.88rem;color:#e2d5b8;text-align:center;margin-bottom:6px;line-height:1.4}
 .wtt-loading{text-align:center;color:rgba(201,168,76,0.5);font-size:.75rem;padding:4px 0}
@@ -262,6 +267,15 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     <button class="btn-go" id="goBtn">Aller</button>
     <select class="sel reciter-sel" id="reciterSel" title="Récitateur"></select>
     <div class="font-ctrl" id="fontCtrl">
+      <div class="fc-grp">
+        <select class="fc-select" id="arFontSel" onchange="setArFont(this.value)" title="Police Arabe">
+          <option value="'Amiri'">Amiri (Élégante)</option>
+          <option value="'Lateef'">Lateef (Fine)</option>
+          <option value="'Noto Naskh Arabic'">Noto Naskh</option>
+          <option value="'Amiri Quran'">Amiri Quran</option>
+          <option value="'Scheherazade New'">Scheherazade</option>
+        </select>
+      </div>
       <div class="fc-grp"><span class="fc-label ar-label">ع</span><button class="fc-btn" onclick="cfs('ar',-1)">−</button><button class="fc-btn" onclick="cfs('ar',1)">+</button></div>
       <div class="fc-grp"><span class="fc-label">Fr</span><button class="fc-btn" onclick="cfs('fr',-1)">−</button><button class="fc-btn" onclick="cfs('fr',1)">+</button></div>
     </div>
@@ -1029,6 +1043,20 @@ try {
     document.documentElement.setAttribute('data-theme', 'light');
     document.body.setAttribute('data-theme', '');
     try { if (typeof S !== 'undefined') { S.th = 'light'; document.body.setAttribute('data-theme', 'light'); } } catch(ex) {}
+  }
+} catch(e) {}
+function setArFont(fontVal) {
+  document.documentElement.style.setProperty('--ar-font', fontVal);
+  try { localStorage.setItem('quran_ar_font', fontVal); } catch(e) {}
+  var arFontSel = document.getElementById('arFontSel');
+  if (arFontSel) { arFontSel.value = fontVal; }
+}
+try {
+  var _savedArFont = localStorage.getItem('quran_ar_font');
+  if (_savedArFont) {
+    setArFont(_savedArFont);
+  } else {
+    setArFont("'Amiri'");
   }
 } catch(e) {}
 document.addEventListener('keydown', function(e) {
