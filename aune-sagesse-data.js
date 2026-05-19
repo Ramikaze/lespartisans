@@ -8193,17 +8193,17 @@ const AUNE_SAGESSE = [
                 "title": "438 - Les personnes qui peuvent être emprisonnées",
                 "hadiths": [
                     {
-                        "number": "1359",
-                        "source": "Al-Kāfī",
-                        "text": "En vérité, l'Emir des croyants (as) ne prévoyait l'emprisonnement que dans trois cas : un homme qui a consommé illicitement les biens d'un orphelin ou qui les a usurpé, ou encore un homme à qui quelque chose a été confié et qui est parti avec.<sup>1560</sup>"
-                    },
-                    {
                         "number": "1357",
                         "text": "L'Imām 'Alī (as) a dit : L'Imām est dans l'obligation d'emprisonner les savants immoraux, les médecins ignorants, et les locataires ruinés.<sup>1558</sup>"
                     },
                     {
                         "number": "1358",
                         "text": "L'Imām 'Alī (as) a dit : Si une femme abjure l'islam, elle ne sera pas tuée mais emprisonnée à perpétuité.<sup>1559</sup>"
+                    },
+                    {
+                        "number": "1359",
+                        "source": "Al-Kāfī",
+                        "text": "En vérité, l'Emir des croyants (as) ne prévoyait l'emprisonnement que dans trois cas : un homme qui a consommé illicitement les biens d'un orphelin ou qui les a usurpé, ou encore un homme à qui quelque chose a été confié et qui est parti avec.<sup>1560</sup>"
                     }
                 ]
             },
@@ -13427,20 +13427,123 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2228",
                         "text": "L'Imām 'Alī (as) a dit : L'amertume du monde d'ici-bas est la douceur de l'Au-delà, et la douceur du monde d'ici-bas est l'amertume de l'Au-delà.<sup>2514</sup>"
+                    },
+                    {
+                        "number": "2229",
+                        "text": "L'Imām 'Alī (as) a dit : Chercher à concilier ce bas monde avec l'Au-delà est une tromperie de l'âme.<sup>2515</sup>"
+                    },
+                    {
+                        "number": "2230",
+                        "text": "L'Imām 'Alī (as) a dit : Nul n'a pris plaisir à une chose dans ce bas-monde sans que, le Jour du Jugement, cela ne devienne un tourment pour lui.<sup>2516</sup>"
+                    },
+                    {
+                        "number": "2231",
+                        "text": "L'Imām 'Alī (as) a dit : La richesse du monde d'ici-bas est la pauvreté de l'Au-delà.<sup>2517</sup>"
+                    },
+                    {
+                        "number": "2232",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Par Allah, le monde d'ici-bas et l'Au-delà ne sont que les deux plateaux d'une même balance, ainsi, celui qui pèse davantage l'emporte sur l'autre.<sup>2518</sup>"
+                    },
+                    {
+                        "number": "2233",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le dernier prophète à entrer au Paradis sera Salomon fils de David (as), en raison de ce qui lui a été accordé dans le monde d'ici-bas.<sup>2519</sup><br><br><span class=\"reference-note\">(Voir également : 84. L'amour, section 431)</span>"
                     }
                 ]
             },
             {
-                "title": "720 - La combinaison du monde d'ici-bas et de l'Au-delà"
+                "title": "720 - La combinaison du monde d'ici-bas et de l'Au-delà",
+                "hadiths": [
+                    {
+                        "number": "2234",
+                        "text": "L'Imām 'Alī (as) a dit : Le champ et la culture sont de deux sortes : le champ de ce bas-monde, c'est l'argent et la descendance, et le champ de l'Au-delà, ce sont les bonnes œuvres. Il se peut qu'Allah le Tout-Puissant les combinent pour certains.<sup>2521</sup>"
+                    },
+                    {
+                        "number": "2235",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu subordonnes ta religion à ta vie terrestre, tu anéantiras ta religion ainsi que ta vie terrestre, et tu seras parmi les perdants dans l'Au-delà. En revanche, si tu subordonnes ta vie terrestre à ta religion, alors tu gagneras ta religion et ta vie terrestre, et tu seras parmi les victorieux dans l'Au-delà.<sup>2522</sup>"
+                    },
+                    {
+                        "number": "2236",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Offrez à vos personnes une portion du monde d'ici-bas en satisfaisant ses désirs licites, ce qui n'ébrèche pas les honorables vertus et qui n'est pas de l'extravagance. Aidez-vous pour cela des préceptes de la religion car il a été rapporté: «Celui qui abandonne sa vie terrestre pour sa religion ou qui abandonne sa religion pour sa vie terrestre n'est pas des nôtres.»<sup>2523</sup>"
+                    }
+                ],
+                "introduction": "«<em>Allah, donc, leur donna la récompense d'ici-bas, ainsi que la belle récompense de l'Au-delà. Et Allah aime les gens bienfaisants.</em>»<sup>2520</sup>"
             },
             {
-                "title": "721 - Paraboles à propos du monde d'ici-bas"
+                "title": "721 - Paraboles à propos du monde d'ici-bas",
+                "hadiths": [
+                    {
+                        "number": "2237",
+                        "text": "Le Messager d'Allah (s) a dit : En comparaison de l'Au-delà, le monde d'ici-bas est comme mettre son doigt dans l'eau de mer et voir ce qu'il en retient.<sup>2525</sup>"
+                    },
+                    {
+                        "number": "2238",
+                        "text": "L'Imām 'Alī (as) a dit : Le monde d'ici-bas est comme ton ombre : lorsque tu t'immobilises, il s'immobilise et lorsque tu essaies de l'attraper, il s'éloigne.<sup>2526</sup>"
+                    },
+                    {
+                        "number": "2239",
+                        "text": "L'Imām al-Bāqir (as) a dit : [Considère] ton séjour dans le monde d'ici-bas comme une maison où tu as habité et que tu as [rapidement] quitté, ou comme un objet de perfection que tu as vu en rêve avant de te réveiller alors que plus rien n'en restait auprès de toi. En vérité, je t'ai donné cette parabole car chez les gens de savoir et de connaissance en Allah, le monde d'ici-bas est comme l'ombre de l'ombre.<sup>2527</sup>"
+                    },
+                    {
+                        "number": "2240",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, pour les savants, le monde d'ici-bas est comme l'ombre.<sup>2528</sup>"
+                    },
+                    {
+                        "number": "2241",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Le monde d'ici-bas est comme un serpent, doux au toucher alors qu'à l'intérieur il contient un poison mortel. Les gens raisonnables s'en méfient tandis que les enfants tendent leurs mains vers lui.<sup>2529</sup>"
+                    },
+                    {
+                        "number": "2242",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Le monde d'ici-bas est comme l'eau de mer ; à mesure que l'assoiffé boit de cette eau, sa soif augmente jusqu'à ce que cela le tue.<sup>2530</sup>"
+                    },
+                    {
+                        "number": "2243",
+                        "text": "L'Imām al-Kāẓim (as) a dit : La vie terrestre s'est manifestée à Jésus sous la forme d'une femme aux yeux bleus. Il lui dit : «Combien de fois t'es-tu mariée ?» Elle lui répondit : «De nombreuses fois.» Il dit : «T'ont-ils tous répudiée ?» Elle dit : «Non, c'est plutôt moi qui les ai tous tués.» Alors Jésus s'exclama : «Malheur à tes maris qui restent ! Comment se fait-il qu'ils ne tirent pas leçon [de ce qui est arrivé aux maris] précédents ?!»<sup>2531</sup>"
+                    },
+                    {
+                        "number": "2244",
+                        "text": "L'Imām al-Kāẓim (as) a dit : En vérité, Luqmān a dit à son fils : «…En vérité, le monde d'ici-bas est une mer profonde dans laquelle un grand nombre se sont noyés. Ainsi, fais que ton arche y soit la piété et la crainte révérencielle [vis-à-vis d'Allah], que son contenu soit la foi, ses voiles la confiance en Allah, son gardien la raison, son guide le savoir et ses habitants la patience.»<sup>2532</sup>"
+                    }
+                ],
+                "introduction": "«<em>Propose-leur la parabole de la vie d'ici-bas. Elle est semblable à une eau que Nous faisons descendre du ciel ; la végétation de la terre se mélange à elle. Puis elle devient de l'herbe desséchée que les vents dispersent. Allah est certes Puissant en toutes choses !</em>»<sup>2524</sup>"
             },
             {
-                "title": "722 - Le monde d'ici-bas est une demeure de jouissance insignifiante"
+                "title": "722 - Le monde d'ici-bas est une demeure de jouissance insignifiante",
+                "hadiths": [
+                    {
+                        "number": "2245",
+                        "text": "<em>Tanbīh al-Khawāṭir</em> : Il a été rapporté que Gabriel (as) a dit en s'adressant à Noé (as) : «Ô prophète qui a vécu le plus longtemps, comment as-tu trouvé ce bas-monde ?» Il répondit : «Comme une maison qui possède deux portes, je suis entré par l'une et je suis ressorti par l'autre.»<sup>2534</sup>"
+                    },
+                    {
+                        "number": "2246",
+                        "text": "Jésus (as) a dit : En vérité, le monde d'ici-bas est une passerelle, passez-la et n'y construisez rien.<sup>2535</sup>"
+                    },
+                    {
+                        "number": "2247",
+                        "text": "Le Messager d'Allah (s) a dit : La vie d'ici-bas ne dure qu'une heure, faites en sorte de la passer dans l'obéissance [d'Allah].<sup>2536</sup>"
+                    },
+                    {
+                        "number": "2248",
+                        "text": "L'Imām 'Alī (as) a dit : Le monde d'ici-bas est transitoire et éphémère ; même s'il reste pour toi, tu ne resteras pas pour lui.<sup>2537</sup>"
+                    },
+                    {
+                        "number": "2249",
+                        "text": "L'Imām 'Alī (as) a dit : Ô gens ! En vérité, le monde d'ici-bas est une demeure de passage et l'Au-delà est la demeure perpétuelle. Prenez de votre passage [autant que vous le pouvez] pour votre demeure perpétuelle.<sup>2538</sup>"
+                    },
+                    {
+                        "number": "2250",
+                        "text": "L'Imām 'Alī (as) a dit : Le monde d'ici-bas est une demeure de passage, non une demeure de résidence, et les gens y sont de deux sortes : celui qui a vendu son âme et l'a ruinée, et celui qui a acheté son âme [en contrôlant ses passions] et l'a libérée.<sup>2539</sup>"
+                    }
+                ],
+                "introduction": "«<em>Allah étend largement Ses dons ou [les] restreint à qui Il veut. Ils se réjouissent de la vie d'ici-bas, mais la vie d'ici-bas ne paraîtra que comme une jouissance éphémère en comparaison de l'Au-delà.</em>» <sup>2533</sup>"
             },
             {
-                "title": "723 - Le monde d'ici-bas est une demeure semée d'adversité"
+                "title": "723 - Le monde d'ici-bas est une demeure semée d'adversité",
+                "hadiths": [
+                    {
+                        "number": "2251",
+                        "text": "L'Imām 'Alī (as) a dit : [Le monde d'ici-bas] est une demeure semée d'adversité, ses traîtrises sont connues, ses états ne durent pas, ses résidents ne sont pas en sécurité, ses états sont divers et ses voies changent. La vie en son sein est blâmable et la sécurité y est inexistante.<sup>2540</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -13448,10 +13551,35 @@ const AUNE_SAGESSE = [
         "title": "142 - L'ACCOMMODEMENT",
         "subparts": [
             {
-                "title": "724 - L'accommodement et la flatterie des transgresseurs"
+                "title": "724 - L'accommodement et la flatterie des transgresseurs",
+                "hadiths": [
+                    {
+                        "number": "2252",
+                        "text": "L'Imām al-Bāqir (as) a dit : Allah a révélé à son prophète Shu'ayb : «En vérité, Je châtierai cent mille personnes de ton peuple : quarante mille parmi les méchants, et soixante mille parmi les bons.» Il dit : «Seigneur ! Ceux-là sont méchants, mais pourquoi les bons ?» Et Allah le Tout-Puissant lui révéla : «En vérité, ils se sont accommodés avec les pécheurs et ils ne se sont pas mis en colère face à ce qui Me met en colère.»<sup>2542</sup>"
+                    },
+                    {
+                        "number": "2253",
+                        "text": "L'Imām 'Alī (as) a dit : Le pire de tes frères [en religion] est celui qui est accommodant avec ta personne [te flatte] et qui te dissimule tes défauts.<sup>2543</sup>"
+                    },
+                    {
+                        "number": "2254",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'accommode [et flatte] sa propre personne sera attiré vers les désobéissances interdites.<sup>2544</sup>"
+                    }
+                ],
+                "introduction": "«<em>Ils aimeraient bien que tu sois accommodant avec eux, afin qu'ils soient accommodants avec toi.</em>»<sup>2541</sup>"
             },
             {
-                "title": "725 - L'interdiction de faire preuve d'accommodement et de compromission face à la vérité"
+                "title": "725 - L'interdiction de faire preuve d'accommodement et de compromission face à la vérité",
+                "hadiths": [
+                    {
+                        "number": "2255",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque vous êtes en face de la vérité et que vous avez compris que c'était la vérité, ne faites pas preuve d'accommodement et de compromission face à elle, sinon vous subirez une lourde perte.<sup>2545</sup>"
+                    },
+                    {
+                        "number": "2256",
+                        "text": "L'Imām 'Alī (as) a dit : Par ma vie, je ne tolère aucune accommodation et compromission, ni fléchissement dans le combat contre celui qui s'oppose à la vérité et qui est tombé dans la transgression.<sup>2546</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -13459,13 +13587,43 @@ const AUNE_SAGESSE = [
         "title": "143 - L'ETAT",
         "subparts": [
             {
-                "title": "726 - L'Etat [et le gouvernement] des personnes éminentes"
+                "title": "726 - L'Etat [et le gouvernement] des personnes éminentes",
+                "hadiths": [
+                    {
+                        "number": "2257",
+                        "text": "L'Imām 'Alī (as) a dit : Un Etat constitué de personnes éminentes est le meilleur des acquis, alors que l'Etat des méchants est une source d'humiliation pour les personnes nobles.<sup>2547</sup>"
+                    }
+                ]
             },
             {
-                "title": "727 - Le signe de la décadence des Etats"
+                "title": "727 - Le signe de la décadence des Etats",
+                "hadiths": [
+                    {
+                        "number": "2258",
+                        "text": "L'Imām 'Alī (as) a dit : On peut déduire la décadence des Etats de quatre choses : une négligence des choses fondamentales, un ferme attachement à ce qui est secondaire, la mise en avant des vils et la relégation au second plan des meilleurs.<sup>2548</sup>"
+                    }
+                ]
             },
             {
-                "title": "728 - Les facteurs de la stabilité des Etats"
+                "title": "728 - Les facteurs de la stabilité des Etats",
+                "hadiths": [
+                    {
+                        "number": "2259",
+                        "text": "L'Imām 'Alī (as) a dit : Les droits les plus importants que le Glorifié [Allah] a rendus obligatoires est le droit du gouvernant vis-à-vis des gouvernés et le droit des gouvernés vis-à-vis du gouvernant... Ainsi, si les gouvernés se sont acquittés de leurs droits vis-à-vis de leur gouvernant et que le gouvernant s'est acquitté de ses droits vis-à-vis d'eux, la vérité sera honorée parmi eux, les voies de la religion seront établies, les principes de la justice équilibrés, et les traditions appliquées comme il se doit. Ainsi, les temps seront réformés, la permanence de l'Etat sera désirée, et l'ennemi perdra l'espoir de parvenir à ses ambitions.<sup>2549</sup>"
+                    },
+                    {
+                        "number": "2260",
+                        "text": "L'Imām 'Alī (as) a dit : Rien ne fortifie autant les Etats que la justice.<sup>2550</sup>"
+                    },
+                    {
+                        "number": "2261",
+                        "text": "L'Imām 'Alī (as) a dit : Fais de la religion la forteresse de ton Etat et de la gratitude la protection de tes grâces, car tout Etat protégé par la religion ne sera pas vaincu et toute grâce protégée par la gratitude ne sera jamais retirée.<sup>2551</sup>"
+                    },
+                    {
+                        "number": "2262",
+                        "text": "L'Imām 'Alī (as) a dit : La vigilance pour le maintien et la protection des choses est l'un des aspects [de la durée] d'un Etat.<sup>2552</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -13473,22 +13631,94 @@ const AUNE_SAGESSE = [
         "title": "144 - LE REMÈDE",
         "subparts": [
             {
-                "title": "729 - La médication"
+                "title": "729 - La médication",
+                "hadiths": [
+                    {
+                        "number": "2263",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Un prophète parmi les prophètes tomba malade et dit : «Je ne me soignerai pas jusqu'à ce que Celui qui m'a rendu malade me guérisse.» Et Allah le Tout-Puissant lui révéla : «Je ne te guérirai que lorsque tu te soigneras car en vérité, la guérison provient de Moi.»<sup>2553</sup>"
+                    }
+                ]
             },
             {
-                "title": "730 - Chaque douleur a un remède"
+                "title": "730 - Chaque douleur a un remède",
+                "hadiths": [
+                    {
+                        "number": "2264",
+                        "text": "Le Messager d'Allah (s) a dit : Soignez-vous car en vérité, Allah le Très-Haut n'a fait descendre aucune douleur sans qu'Il n'ait amené avec elle un remède, sauf la mort et la vieillesse.<sup>2554</sup>"
+                    },
+                    {
+                        "number": "2265",
+                        "text": "L'Imām 'Alī (as) a dit : Il existe un remède pour chaque douleur.<sup>2555</sup>"
+                    }
+                ]
             },
             {
-                "title": "731 - Eviter la précipitation dans la consommation de médicaments"
+                "title": "731 - Eviter la précipitation dans la consommation de médicaments",
+                "hadiths": [
+                    {
+                        "number": "2266",
+                        "text": "Le Messager d'Allah (s) a dit : Évite les médicaments tant que ton corps supporte la maladie mais s'il ne la supporte plus, alors aie recours au médicament.<sup>2556</sup>"
+                    },
+                    {
+                        "number": "2267",
+                        "text": "L'Imām 'Alī (as) a dit : Le musulman ne se soigne que lorsque sa maladie prend le dessus sur sa santé.<sup>2557</sup>"
+                    },
+                    {
+                        "number": "2268",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Il n'y a aucun médicament qui n'avive pas une [autre] douleur, et il n'y a pas plus bénéfique pour le corps que l'abstention, sauf de ce dont il a besoin.<sup>2558</sup>"
+                    }
+                ]
             },
             {
-                "title": "732 - L'abstention [de nourriture] est la source des remèdes"
+                "title": "732 - L'abstention [de nourriture] est la source des remèdes",
+                "hadiths": [
+                    {
+                        "number": "2269",
+                        "text": "L'Imām 'Alī (as) a dit : Subir la faim est le plus bénéfique des remèdes.<sup>2559</sup>"
+                    },
+                    {
+                        "number": "2270",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : S'abstenir de manger n'est pas nocif pour le malade.<sup>2560</sup>"
+                    },
+                    {
+                        "number": "2271",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'abstention [de nourriture] n'est plus utile pour le malade après sept jours [de maladie].<sup>2561</sup>"
+                    },
+                    {
+                        "number": "2272",
+                        "text": "L'Imām al-Kāẓim (as) a dit : L'abstention [de nourriture] est la source des remèdes et l'estomac est la demeure de toute maladie ; habitue donc ton corps [à peu manger] tant qu'il peut s'y habituer.<sup>2562</sup>"
+                    },
+                    {
+                        "number": "2273",
+                        "text": "L'Imām al-Kāẓim (as) a dit : L'abstention [de nourriture] n'est pas de s'abstenir totalement de manger une sorte de denrée, mais l'abstention est de manger une chose avec modération.<sup>2563</sup>"
+                    }
+                ]
             },
             {
-                "title": "733 - Le plus grand remède"
+                "title": "733 - Le plus grand remède",
+                "hadiths": [
+                    {
+                        "number": "2274",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La terre de la tombe de Ḥusayn (as) guérit toute douleur, c'est le plus grand remède.<sup>2564</sup>"
+                    }
+                ]
             },
             {
-                "title": "734 - Divers"
+                "title": "734 - Divers",
+                "hadiths": [
+                    {
+                        "number": "2275",
+                        "text": "L'Imām 'Alī (as) a dit : Il se peut que le remède soit la douleur et que la douleur soit le remède.<sup>2565</sup>"
+                    },
+                    {
+                        "number": "2276",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui ne supporte pas le goût amer du remède verra sa souffrance durer.<sup>2566</sup>"
+                    },
+                    {
+                        "number": "2277",
+                        "text": "L'Imām Ḥusayn (as) a dit : Il ne faut pas prescrire un traitement à un souverain car s'il lui est profitable, il ne fera pas preuve de gratitude et s'il lui nuit, il t'accusera.<sup>2567</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -13496,37 +13726,176 @@ const AUNE_SAGESSE = [
         "title": "145 - LA RELIGION",
         "subparts": [
             {
-                "title": "735 - L'importance de la religion"
+                "title": "735 - L'importance de la religion",
+                "hadiths": [
+                    {
+                        "number": "2278",
+                        "text": "L'Imām 'Alī (as) a dit : Le Jour du Jugement, celui qui a accordé une haute attention à la religion atteindra une station éminente.<sup>2568</sup>"
+                    },
+                    {
+                        "number": "2279",
+                        "text": "L'Imām 'Alī (as) a dit : La religion est lumière.<sup>2569</sup>"
+                    },
+                    {
+                        "number": "2280",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a de vie qu'avec la religion, et de mort qu'avec la négation de la certitude.<sup>2570</sup>"
+                    },
+                    {
+                        "number": "2281",
+                        "text": "L'Imām 'Alī (as) a dit : La religion préserve.<sup>2571</sup>"
+                    },
+                    {
+                        "number": "2282",
+                        "text": "L'Imām 'Alī (as) a dit : La religion est le plus puissant des appuis.<sup>2572</sup>"
+                    },
+                    {
+                        "number": "2283",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'Emir des croyants (as) disait fréquemment lors de ses sermons : «Ô gens ! [Préservez] votre religion, [préservez] votre religion ! Car la mauvaise action d'une personne religieuse vaut mieux que la bonne action d'une autre personne [en étant dénuée], parce que la mauvaise action [de la personne religieuse] peut être pardonnée, tandis que la bonne action de l'autre [qui en est dénuée] n'est pas acceptée.»<sup>2573</sup>"
+                    }
+                ]
             },
             {
-                "title": "736 - Les fléaux de la religion"
+                "title": "736 - Les fléaux de la religion",
+                "hadiths": [
+                    {
+                        "number": "2284",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau de la religion est la mauvaise conjecture.<sup>2574</sup>"
+                    },
+                    {
+                        "number": "2285",
+                        "text": "L'Imām 'Alī (as) a dit : La corruption de la religion réside [dans les vanités] de ce bas-monde.<sup>2575</sup>"
+                    },
+                    {
+                        "number": "2286",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les fléaux de la religion sont la jalousie, l'orgueil et la vanité.<sup>2576</sup>"
+                    }
+                ]
             },
             {
-                "title": "737 - L'incitation à préserver la religion"
+                "title": "737 - L'incitation à préserver la religion",
+                "hadiths": [
+                    {
+                        "number": "2287",
+                        "text": "L'Imām 'Alī (as) a dit : Si vous êtes face à l'adversité, faites en sorte que vos biens soient utilisés pour préserver vos personnes ; et si une calamité s'abat sur vous, faites que vos personnes soient utilisées pour préserver votre religion, et sachez que la personne ruinée est celle qui ruine sa religion, et que le corrompu est celui qui corrompt sa religion.<sup>2577</sup>"
+                    },
+                    {
+                        "number": "2288",
+                        "text": "L'Imām al-Ṣādiq (as) avait pour habitude de dire en cas de malheur : «Louanges à Allah qui a fait que mon malheur ne soit pas dans ma religion.»<sup>2578</sup>"
+                    }
+                ]
             },
             {
-                "title": "738 - Ceux qui n'ont pas de religion"
+                "title": "738 - Ceux qui n'ont pas de religion",
+                "hadiths": [
+                    {
+                        "number": "2289",
+                        "text": "L'Imām al-Bāqir (as) a dit : Celui qui obéit à celui qui désobéit à Allah n'a pas de religion ; celui qui professe des mensonges contre Allah n'a pas de religion ; celui qui nie certains des signes d'Allah n'a pas de religion.<sup>2579</sup>"
+                    },
+                    {
+                        "number": "2290",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui professe son allégeance à un dirigeant tyrannique éloigné d'Allah n'a pas de religion.<sup>2580</sup>"
+                    },
+                    {
+                        "number": "2291",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui ne tient pas ses engagements n'a pas de religion.<sup>2581</sup>"
+                    },
+                    {
+                        "number": "2292",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui n'aime pas pour la religion et qui ne déteste pas pour la religion n'a pas de religion.<sup>2582</sup>"
+                    },
+                    {
+                        "number": "2293",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Celui qui n'est pas noble de caractère n'a pas de religion.<sup>2583</sup>"
+                    },
+                    {
+                        "number": "2294",
+                        "text": "L'Imām al-Riḍā (as) a dit : Celui qui n'a pas de piété n'a pas de religion.<sup>2584</sup>"
+                    }
+                ]
             },
             {
-                "title": "739 - La facilité de la religion"
+                "title": "739 - La facilité de la religion",
+                "hadiths": [
+                    {
+                        "number": "2295",
+                        "text": "Le Messager d'Allah (s) a dit : Ô gens ! En vérité, la religion d'Allah est facile.<sup>2585</sup>"
+                    },
+                    {
+                        "number": "2296",
+                        "text": "Le Messager d'Allah (s) a dit : J'ai été envoyé pour une religion droite et facile, et celui qui s'oppose à ma tradition (sunna) ne fait pas partie de moi.<sup>2586</sup>"
+                    },
+                    {
+                        "number": "2297",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah ne m'a pas envoyé pour transmettre la vie monacale ; la meilleure des religions auprès d'Allah est la religion droite et facile.<sup>2587</sup>"
+                    }
+                ]
             },
             {
-                "title": "740 - La seule religion par laquelle les actes sont agréés"
+                "title": "740 - La seule religion par laquelle les actes sont agréés",
+                "hadiths": [
+                    {
+                        "number": "2298",
+                        "text": "<em>Al-Kāfī</em> : 'Alī ibn Abū Ḥamza rapporte que Abū Baṣīr a dit : Je l'ai entendu interroger Abū 'Abdullāh [l'Imām al-Ṣādiq] (as) en ces termes : «Que je vous sois sacrifié, parlez-moi de la religion qu'Allah le Tout-Puissant a ordonnée aux serviteurs, qu'ils ne peuvent ignorer et qui est la seule acceptée par Lui ; quelle est-elle ?» Il répondit : «Attester qu'il n'y a point de divinité en dehors d'Allah, que Muḥammad est le Messager d'Allah (s), accomplir la prière, s'acquitter de l'aumône légale, accomplir le pèlerinage (<em>ḥajj</em>) à la Demeure pour celui qui en a les moyens, et le jeûne du mois de Ramadan.» Il se tut un instant et dit : «Et l'allégeance [aux Imāms] (<em>al-wilāya</em>)». Puis il le répéta deux fois.<sup>2589</sup>"
+                    }
+                ],
+                "introduction": "«<em>Et quiconque désire une religion autre que l'islam ne sera point agréé, et il sera, dans l'Au-delà, parmi les perdants.</em>»<sup>2588</sup>"
             },
             {
-                "title": "741 - La voie à suivre pour connaître la religion"
+                "title": "741 - La voie à suivre pour connaître la religion",
+                "hadiths": [
+                    {
+                        "number": "2299",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui a connu sa religion au travers du Livre d'Allah le Tout-Puissant verra les montagnes décliner avant qu'il ne décline [dans sa religion] ; et celui qui a adopté une chose [la religion] par ignorance en sortira par ignorance.<sup>2590</sup>"
+                    },
+                    {
+                        "number": "2300",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui adopte cette religion au travers des hommes, ces mêmes hommes l'en feront sortir comme ils l'y ont fait entrer. En revanche, celui qui adopte la religion grâce au Livre et à la <em>sunna</em>, les montagnes déclineront avant qu'il ne décline [dans sa foi].<sup>2591</sup>"
+                    }
+                ]
             },
             {
-                "title": "742 - Préserver la religion par la vie d'ici-bas"
+                "title": "742 - Préserver la religion par la vie d'ici-bas",
+                "hadiths": [
+                    {
+                        "number": "2301",
+                        "text": "L'Imām 'Alī (as) a dit : Préserve ta religion par ta vie d'ici-bas, et tu gagneras les deux ; et ne préserve pas ta vie d'ici-bas par ta religion, car tu perdras les deux.<sup>2592</sup>"
+                    },
+                    {
+                        "number": "2302",
+                        "text": "L'Imām 'Alī (as) a dit : Les gens n'abandonnent pas un aspect de leur religion en vue d'améliorer leur vie d'ici-bas sans qu'Allah ne leur cause une perte plus importante [que ce qu'ils avaient espéré gagner].<sup>2593</sup>"
+                    }
+                ]
             },
             {
-                "title": "743 - L'invocation pour affermir la religion dans le cœur"
+                "title": "743 - L'invocation pour affermir la religion dans le cœur",
+                "hadiths": [
+                    {
+                        "number": "2303",
+                        "text": "<em>Kamāl al-Dīn</em> : 'Abdullāh ibn Sinān a dit : Abū 'Abdillāh [l'Imām Ṣādiq] (as) a dit: «Vous serez touchés par l'incertitude et vous resterez sans signe visible et sans Imām guide. Ne sera épargné d'elle que celui qui prie en récitant l'invocation du naufragé.» Je demandai : «Quelle est l'invocation du naufragé ?» Il dit : «Ô Allah ! Ô Très-Miséricordieux ! Ô Tout-Miséricordieux ! Ô Celui qui retourne les cœurs ! Affermis mon cœur dans Ta religion» (<em>yā Allāh, yā raḥmān, yā raḥīm, yā muqallib al-qulūb, thabbit qalbī 'alā dīnik</em>).<sup>2594</sup>"
+                    }
+                ]
             },
             {
-                "title": "744 - Les caractéristiques des gardiens de la religion d'Allah"
+                "title": "744 - Les caractéristiques des gardiens de la religion d'Allah",
+                "hadiths": [
+                    {
+                        "number": "2304",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, les gardiens de la religion d'Allah sont ceux qui ont établi la religion et qui l'ont assistée, qui l'ont gardée de tous côtés, qui l'ont préservée pour les serviteurs d'Allah et qui ont été vigilants à son égard.<sup>2595</sup>"
+                    }
+                ]
             },
             {
-                "title": "745 - Renforcer la religion par des gens dénués de morale"
+                "title": "745 - Renforcer la religion par des gens dénués de morale",
+                "hadiths": [
+                    {
+                        "number": "2305",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah renforce cette religion par un homme oppresseur.<sup>2596</sup>"
+                    },
+                    {
+                        "number": "2306",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Béni et le Très-Haut renforce cette religion par des gens dénués de morale.<sup>2597</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -13534,16 +13903,57 @@ const AUNE_SAGESSE = [
         "title": "146 - LA DETTE",
         "subparts": [
             {
-                "title": "746 - Le blâme de l'endettement"
+                "title": "746 - Le blâme de l'endettement",
+                "hadiths": [
+                    {
+                        "number": "2307",
+                        "text": "Le Messager d'Allah (s) a dit : Evitez de vous endetter, car c'est un souci la nuit et un déshonneur le jour.<sup>2598</sup>"
+                    },
+                    {
+                        "number": "2308",
+                        "text": "L'Imām 'Alī (as) a dit : Les nombreuses dettes rendent menteur l'homme sincère et non fiable l'homme fiable.<sup>2599</sup>"
+                    },
+                    {
+                        "number": "2309",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allégez vos dettes car en vérité, dans le peu de dettes réside le prolongement de la vie.<sup>2600</sup>"
+                    }
+                ]
             },
             {
-                "title": "747 - L'autorisation de contracter des dettes en cas de besoin"
+                "title": "747 - L'autorisation de contracter des dettes en cas de besoin",
+                "hadiths": [
+                    {
+                        "number": "2310",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Celui qui cherche à gagner des ressources licites afin d'en profiter et d'en faire profiter sa famille est comme un combattant sur le sentier d'Allah le Tout-Puissant. Cependant, s'il n'y réussit pas, il est autorisé à contracter une dette en s'en remettant à Allah et à son Prophète (s) afin de nourrir sa famille.<sup>2601</sup>"
+                    }
+                ]
             },
             {
-                "title": "748 - L'incitation à consigner les dettes par écrit"
+                "title": "748 - L'incitation à consigner les dettes par écrit",
+                "hadiths": [
+                    {
+                        "number": "2311",
+                        "text": "Le Messager d'Allah (s) a dit : Certaines catégories de personnes ne seront pas exaucées, parmi elles figure un homme qui prête de l'argent à un autre pour une certaine durée et qui ne consigne pas cette dette par écrit ni en présence de témoins.<sup>2603</sup>"
+                    }
+                ],
+                "introduction": "«<em>Ô les croyants ! Lorsque vous contractez une dette à échéance déterminée, mettez-la en écrit.</em>»<sup>2602</sup>"
             },
             {
-                "title": "749 - L'interdiction d'ajourner le remboursement des dettes"
+                "title": "749 - L'interdiction d'ajourner le remboursement des dettes",
+                "hadiths": [
+                    {
+                        "number": "2312",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui peut rendre son droit [rembourser sa dette] à son créditeur et l'ajourne se verra inscrire chaque jour le péché du racketteur.<sup>2604</sup>"
+                    },
+                    {
+                        "number": "2313",
+                        "text": "Le Messager d'Allah (s) a dit : L'ajournement du riche [dans le paiement de ses dettes] est une injustice.<sup>2605</sup>"
+                    },
+                    {
+                        "number": "2314",
+                        "text": "L'Imām 'Alī (as) a dit : La plus avare des personnes [dans ses biens] sera la plus généreuse [dans la dilapidation] de son honneur.<sup>2606</sup><br><br><span class=\"reference-note\">(Voir également : 232. La charité, section 1117)</span>"
+                    }
+                ]
             }
         ]
     },
@@ -13551,7 +13961,9 @@ const AUNE_SAGESSE = [
         "title": "147 - LE RAPPEL (DHIKR)",
         "subparts": [
             {
-                "title": "750 - La vertu du rappel d'Allah"
+                "title": "750 - La vertu du rappel d'Allah",
+                "hadiths": [],
+                "introduction": "«<em>Ô vous qui avez cru ! Que ni vos biens ni vos enfants ne vous distraient du rappel d'Allah. Et quiconque fait cela... alors ceux-là seront les perdants.</em>»<sup>2607</sup>"
             },
             {
                 "title": "751 - L'incitation à multiplier le rappel [d'Allah]"
