@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Que dit le Coran ? — Étude thématique</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='none' stroke='%23c9a84c' stroke-width='8'><rect x='22' y='22' width='56' height='56' rx='8'/><rect x='22' y='22' width='56' height='56' rx='8' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='12' fill='%23c9a84c'/></g></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Scheherazade+New:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500;0,600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { min-height: 100%; background: #070c18; color: #e2d9c4; font-family: 'EB Garamond', Georgia, serif; font-size: 18px; line-height: 1.8; overflow-x: hidden; }
+body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23c9a84c' stroke-width='0.3' opacity='0.055'%3E%3Crect x='22' y='22' width='56' height='56' rx='2'/%3E%3Crect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='28'/%3E%3C/g%3E%3C/svg%3E"); background-size: 100px; pointer-events: none; z-index: 0; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #070c18; }
+::-webkit-scrollbar-thumb { background: rgba(201, 168, 76, 0.3); border-radius: 3px; }
+
+/* Theme tokens */
+:root {
+  --bg: #070c18;
+  --text: #e2d9c4;
+  --text-muted: #b8a882;
+  --accent: #c9a84c;
+  --panel-bg: rgba(19, 29, 53, 0.6);
+  --panel-border: rgba(201, 168, 76, 0.15);
+  --card-hover: rgba(201, 168, 76, 0.08);
+  --input-bg: rgba(13, 22, 42, 0.8);
+}
+
+[data-theme="light"] {
+  --bg: #e8e0d4;
+  --text: #2c2114;
+  --text-muted: #6a5e48;
+  --accent: #7a5c24;
+  --panel-bg: rgba(220, 212, 196, 0.5);
+  --panel-border: rgba(122, 92, 36, 0.18);
+  --card-hover: rgba(122, 92, 36, 0.08);
+  --input-bg: rgba(235, 228, 216, 0.9);
+}
+
+body { background: var(--bg); color: var(--text); transition: background 0.3s, color 0.3s; }
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  width: 320px;
+  background: var(--panel-bg);
+  border-right: 1px solid var(--panel-border);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, width 0.3s;
+}
+
+.sidebar-header {
+  padding: 24px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.sidebar-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.search-box {
+  width: 100%;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--input-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--accent);
+}
+
+.navigation-pane {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px;
+}
+
+.nav-part {
+  margin-bottom: 18px;
+}
+
+.nav-part-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+  opacity: 0.85;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav-item {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1.4;
+  border: 1px solid transparent;
+}
+
+.nav-item:hover {
+  background: var(--card-hover);
+  color: var(--text);
+}
+
+.nav-item.active {
+  background: rgba(201, 168, 76, 0.12);
+  border-color: var(--panel-border);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Main Content Area */
+.content-area {
+  flex: 1;
+  padding: 40px 50px 80px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.content-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.part-indicator {
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.65;
+  margin-bottom: 12px;
+}
+
+.subpart-title {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+.content-divider {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  margin-bottom: 32px;
+}
+
+.explanation {
+  font-size: 1.18rem;
+  line-height: 1.95;
+  margin-bottom: 28px;
+  text-align: justify;
+}
+
+.explanation strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.explanation em {
+  color: var(--text-muted);
+}
+
+/* Quranic verse block */
+.quran-box {
+  background: rgba(201, 168, 76, 0.04);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 32px 0;
+  position: relative;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.quran-fr {
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--text);
+  margin-bottom: 10px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.quran-ref {
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  color: var(--accent);
+  opacity: 0.75;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile styles */
+.mobile-header {
+  display: none;
+  background: var(--panel-bg);
+  border-bottom: 1px solid var(--panel-border);
+  padding: 12px 18px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.menu-btn {
+  background: var(--card-hover);
+  border: 1px solid var(--panel-border);
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: var(--text);
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 90;
+}
+
+@media (max-width: 900px) {
+  .app-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 290px;
+    transform: translateX(-100%);
+    box-shadow: 10px 0 30px rgba(0,0,0,0.4);
+    z-index: 150;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  .mobile-header {
+    display: flex;
+  }
+  .content-area {
+    padding: 30px 20px 60px;
+  }
+  .explanation {
+    font-size: 1.05rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="mobile-header">
+  <div class="mobile-title">Que dit le Coran ?</div>
+  <button class="menu-btn" id="menuToggleBtn">Sujets</button>
+</div>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<div class="app-container">
+  <!-- Left Sidebar Navigation -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-title">Que dit le Coran ?</div>
+      <div class="search-box">
+        <input type="text" class="search-input" id="topicSearch" placeholder="Rechercher un thème...">
+      </div>
+    </div>
+    <div class="navigation-pane" id="navPane">
+      <!-- Dynamic list loaded by JS -->
+    </div>
+  </aside>
+
+  <!-- Right Reading Pane -->
+  <main class="content-area">
+    <div class="content-wrap animate-fade-in" id="contentPane">
+      <!-- Active content loaded by JS -->
+    </div>
+  </main>
+</div>
+
+<!-- Back to top button -->
+<style>
+.scroll-top-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  background: rgba(19, 29, 53, 0.85);
+  border: 1px solid var(--panel-border);
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .3s ease;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+}
+.scroll-top-btn.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+.scroll-top-btn:hover {
+  background: var(--card-hover);
+  transform: translateY(-2px);
+}
+.scroll-top-btn svg { width: 20px; height: 20px; }
+[data-theme="light"] .scroll-top-btn {
+  background: rgba(225, 218, 206, 0.9) !important;
+  color: var(--accent) !important;
+}
+</style>
+<button class="scroll-top-btn" id="scrollTopBtn" aria-label="Retour en haut">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+// Complete high-quality data structure populated with Quranic citations
+const QURAN_THEMATIC_DATA = [
+  {
+    id: "part-intro",
+    title: "Préambules & Introduction",
+    subparts: [
+      {
+        id: "introduction",
+        title: "Introduction",
+        intro: "Le Coran, révélé sur une période de 23 ans au Prophète Muhammad (s), n'est pas seulement un recueil de lois ou d'histoire, mais un guide spirituel, éthique et social universel. Pour aborder la question « Que dit le Coran ? », il convient d'adopter une approche méthodique et holistique, en distinguant les principes immuables (universels) des injonctions liées à des contextes historiques particuliers (Asbâb al-Nuzûl). L'exégèse thématique permet de dégager la cohérence morale profonde du texte sacré.",
+        quran: [
+          {
+            fr: "« C'est un Livre béni que Nous avons fait descendre vers toi, afin qu'ils méditent sur ses versets et que les doués d'intelligence réfléchissent. »",
+            ref: "Sourate Sâd, 38:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "part-juridique",
+    title: "PARTIE 1 : Questions Juridiques",
+    subparts: [
+      {
+        id: "hommes-femmes",
+        title: "Hommes et femmes",
+        intro: "Le Coran pose le principe fondamental de l'égalité spirituelle et ontologique absolue entre l'homme et la femme. Issus d'une même âme, ils partagent la même responsabilité morale et les mêmes promesses de récompense divine. Les rôles et droits sont pensés en termes de complémentarité et de protection mutuelle (Gardiens les uns des autres), tout en tenant compte de la structure socio-économique historique (comme la prise en charge financière par l'homme).",
+        quran: [
+          {
+            fr: "« Les croyants et les croyantes sont alliés et gardiens les uns des autres. Ils commandent le convenable, interdisent le blâmable, accomplissent la prière, acquittent l'aumône et obéissent à Allah et à Son messager. »",
+            ref: "Sourate Al-Tawbah, 9:71"
+          },
+          {
+            fr: "« Quiconque fait de bonnes œuvres, qu'il soit homme ou femme, tout en étant croyant, Nous lui ferons vivre une bonne vie. Et Nous les récompenserons, certes, en fonction des meilleures de leurs actions. »",
+            ref: "Sourate Al-Nahl, 16:97"
+          }
+        ]
+      },
+      {
+        id: "mariage-mixte",
+        title: "Mariage et mariage mixte",
+        intro: "Le mariage est décrit dans le Coran comme un signe divin sacré, fondé sur l'affection, la sérénité et la miséricorde mutuelle. Il s'agit d'un engagement contractuel fort ('Alliance solennelle'). Concernant les mariages mixtes, le Coran autorise explicitement l'union avec les femmes vertueuses des Gens du Livre (Chrétiennes et Juives), tout en déconseillant ou interdisant l'union avec les polythéistes (Idolâtres) afin de préserver l'harmonie spirituelle du foyer.",
+        quran: [
+          {
+            fr: "« Et parmi Ses signes : Il a créé pour vous, de vous-mêmes, des épouses pour que vous viviez en tranquillité auprès d'elles, et Il a mis entre vous de l'affection et de la bonté. Il y a en cela des preuves pour des gens qui réfléchissent. »",
+            ref: "Sourate Al-Rûm, 30:21"
+          },
+          {
+            fr: "« [Vous sont permises] les femmes vertueuses d'entre les croyantes, et les femmes vertueuses d'entre les gens qui ont reçu le Livre avant vous, si vous leur donnez leur dot. »",
+            ref: "Sourate Al-Mâ'idah, 5:5"
+          }
+        ]
+      },
+      {
+        id: "polygamie-divorce",
+        title: "Polygamie, répudiation et divorce",
+        intro: "La polygamie a été introduite de manière restrictive et conditionnelle pour répondre à des situations de crise (comme la protection des orphelins et des veuves après les guerres). Le texte coranique fixe une limite stricte à quatre épouses, tout en insistant sur le fait que si l'équité absolue ne peut être respectée (ce qu'il qualifie de quasi-impossible), la monogamie est obligatoire. Le divorce, bien qu'autorisé comme dernier recours, est encadré par des règles rigoureuses de médiation familiale, de respect de la dignité de la femme et d'interdiction de tout préjudice financier.",
+        quran: [
+          {
+            fr: "« Il est permis d'épouser deux, trois ou quatre... mais si vous craignez de ne pas être justes, alors une seule. »",
+            ref: "Sourate Al-Nisâ', 4:3"
+          },
+          {
+            fr: "« Retenez-les avec bienveillance, ou libérez-les avec gentillesse. Mais ne les retenez pas pour leur nuire et transgresser les limites. »",
+            ref: "Sourate Al-Baqarah, 2:231"
+          }
+        ]
+      },
+      {
+        id: "frapper-femmes",
+        title: "Frapper les femmes",
+        intro: "Le verset 4:34 a fait l'objet de nombreuses analyses exégétiques et linguistiques contemporaines. Le terme <em>Daraba</em>, traduit historiquement par 'frapper', possède en arabe plus de vingt acceptions, dont 's'éloigner', 'donner un exemple', ou 'séparer'. L'analyse contextuelle et la pratique du Prophète Muhammad (s) — qui n'a jamais levé la main sur une femme et a sévèrement blâmé la violence conjugale — indiquent que ce verset vise en réalité à canaliser une colère masculine violente en imposant une série d'étapes pacifiques (le dialogue, l'éloignement du lit conjugal), excluant tout sévice ou blessure physique.",
+        quran: [
+          {
+            fr: "« Comportez-vous convenablement envers elles. Si vous avez de l'aversion pour elles, il se peut que vous ayez de l'aversion pour une chose où Allah a déposé un grand bien. »",
+            ref: "Sourate Al-Nisâ', 4:19"
+          }
+        ]
+      },
+      {
+        id: "adultere-lapidation",
+        title: "Adultère et lapidation",
+        intro: "Le Coran condamne fermement l'adultère (relation sexuelle hors mariage) comme une turpitude morale et sociale. Cependant, pour éviter les calomnies et protéger l'honneur des familles, il impose une condition légale quasi-impossible à remplir pour l'application de la peine : la production de quatre témoins directs de l'acte de pénétration. Toute fausse accusation sans preuves est sévèrement punie (80 coups de fouet pour calomnie). Très important : <strong>la lapidation (Rajm) n'est absolument pas mentionnée dans le Coran</strong> ; elle est une survivance des traditions juridiques anciennes étrangères au texte sacré.",
+        quran: [
+          {
+            fr: "« Et n'approchez pas la fornication. En vérité, c'est une turpitude et quelle mauvaise voie ! »",
+            ref: "Sourate Al-Isrâ', 17:32"
+          },
+          {
+            fr: "« Et ceux qui jettent l'accusation contre des femmes vertueuses, sans produire quatre témoins, fouettez-les de quatre-vingts coups, et n'acceptez plus jamais leur témoignage. »",
+            ref: "Sourate Al-Nûr, 24:4"
+          }
+        ]
+      },
+      {
+        id: "voleur-main-coupee",
+        title: "Voleur et main coupée",
+        intro: "La sanction pénale du vol (5:38) consistant à 'couper' (<em>Qata'a</em>) la main doit être comprise à la fois dans son cadre linguistique et sa jurisprudence rigoureuse. En arabe, <em>Qata'a</em> signifie également couper les ressources, restreindre ou emprisonner. Dans la tradition juridique islamique (Shariah), cette peine extrême est soumise à des conditions draconiennes : le vol ne doit pas être motivé par la faim ou le besoin (durant les famines, le calife Ali et d'autres ont suspendu cette peine), l'objet doit être d'une grande valeur et conservé dans un lieu sécurisé. De plus, le repentir sincère et la réparation immédiate annulent la sanction corporelle.",
+        quran: [
+          {
+            fr: "« Au voleur et à la voleuse, coupez-leur les mains, en punition de ce qu'ils ont acquis, et comme châtiment exemplaire de la part d'Allah. »",
+            ref: "Sourate Al-Mâ'idah, 5:38"
+          },
+          {
+            fr: "« Mais quiconque se repent après son injustice et se réforme, Allah accepte son repentir. Car Allah est, certes, Pardonneur et Miséricordieux. »",
+            ref: "Sourate Al-Mâ'idah, 5:39"
+          }
+        ]
+      },
+      {
+        id: "talion-peine-mort",
+        title: "Talion et peine de mort",
+        intro: "La loi du talion (<em>Qisâs</em>) est énoncée dans le Coran comme un principe de limitation de la vengeance tribale illimitée de l'époque préislamique. Elle vise à établir que seule la personne coupable peut être punie, et de manière strictement proportionnelle. Toutefois, le texte coranique privilégie ouvertement et spirituellement le pardon, la réconciliation et le versement d'une compensation financière (<em>Diyya</em>) comme actes de piété et de miséricorde.",
+        quran: [
+          {
+            fr: "« Ô vous qui croyez ! La loi du talion vous est prescrite en matière de meurtre... Mais celui à qui son frère pardonne en quelque chose, qu'il y ait alors une poursuite convenable et un paiement avec bonté. »",
+            ref: "Sourate Al-Baqarah, 2:178"
+          },
+          {
+            fr: "« C'est dans le talion que vous avez la préservation de la vie, ô vous doués d'intelligence, afin que vous soyez pieux. »",
+            ref: "Sourate Al-Baqarah, 2:179"
+          }
+        ]
+      },
+      {
+        id: "statuts-minorites",
+        title: "Statuts des minorités",
+        intro: "Le Coran pose les jalons d'une coexistence pacifique avec les minorités non musulmanes vivant sous autorité islamique. Il exhorte à la justice, à la bienveillance et au respect des pactes. Les Gens du Livre (Juifs et Chrétiens) ont droit à la protection de leur vie, de leurs biens et à la liberté de pratiquer leur foi dans leurs lieux de culte, en contrepartie d'une contribution fiscale (Jizyah) qui les dispense du service militaire obligatoire.",
+        quran: [
+          {
+            fr: "« Allah ne vous défend pas d'être bienfaisants et équitables envers ceux qui ne vous ont pas combattus pour la religion et ne vous ont pas chassés de vos demeures. Car Allah aime les gens équitables. »",
+            ref: "Sourate Al-Mumtahanah, 60:8"
+          }
+        ]
+      },
+      {
+        id: "charia-loi-revelee",
+        title: "Charia et Loi révélée",
+        intro: "Le terme <em>Shariah</em> signifie littéralement en arabe 'la voie menant à la source d'eau'. Loin d'être un code pénal figé, la Charia désigne dans le Coran la voie spirituelle et éthique globale révélée pour guider les hommes vers leur épanouissement. La jurisprudence islamique (Fiqh) a défini que le but ultime (Maqâsid) de la Shariah est la protection de cinq valeurs fondamentales : la vie, la foi, l'intellect, la lignée (famille) et la propriété.",
+        quran: [
+          {
+            fr: "« Puis Nous t'avons mis sur la voie de la Religion (Shariah). Suis-la donc et ne suis pas les passions de ceux qui ne savent pas. »",
+            ref: "Sourate Al-Jâthiyah, 45:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "part-societe",
+    title: "PARTIE 2 : Questions de Société",
+    subparts: [
+      {
+        id: "voile-islamique",
+        title: "Le voile islamique",
+        intro: "Le Coran aborde la pudeur vestimentaire à la fois pour les hommes et pour les femmes. Pour les hommes, il prescrit en premier lieu de baisser le regard. Pour les femmes, il mentionne l'usage du <em>Khimâr</em> (voile couvrant la poitrine) et du <em>Jilbâb</em> (manteau ou grand drapé extérieur). L'objectif explicite de ces prescriptions est de protéger la dignité des femmes, de les préserver de tout harcèlement en les identifiant comme des femmes respectables, libres et vertueuses.",
+        quran: [
+          {
+            fr: "« Dis aux croyants de baisser leurs regards et de garder leur chasteté... Et dis aux croyantes de baisser leurs regards, de garder leur chasteté, et de ne faire paraître de leurs atours que ce qui en paraît. Et qu'elles rabattent leur voile (Khimâr) sur leurs poitrines. »",
+            ref: "Sourate Al-Nûr, 24:30-31"
+          },
+          {
+            fr: "« Ô Prophète ! Dis à tes épouses, à tes filles, et aux femmes des croyants, de ramener sur elles leurs grands voiles (Jilbâbs) : elles en seront plus vite reconnues et éviteront d'être offensées. »",
+            ref: "Sourate Al-Ahzâb, 33:59"
+          }
+        ]
+      },
+      {
+        id: "jihad",
+        title: "Jihad",
+        intro: "Le mot <em>Jihad</em> signifie littéralement 'effort soutenu' ou 'lutte'. Dans le Coran, il désigne principalement l'effort sur soi-même pour s'améliorer spirituellement et moralement (le grand Jihad), l'effort intellectuel par le Coran pour propager la vérité, et en dernier lieu, la lutte armée défensive pour repousser l'oppression et préserver la liberté de culte (le petit Jihad). Le Jihad armé n'est jamais une guerre d'agression ou de conversion forcée.",
+        quran: [
+          {
+            fr: "« Et luttez (Jâhidû) pour Allah avec tout l'effort qu'Il mérite. C'est Lui qui vous a élus, et Il ne vous a imposé aucune gêne dans la religion. »",
+            ref: "Sourate Al-Hajj, 22:78"
+          },
+          {
+            fr: "« Autorisation est donnée à ceux qui sont attaqués [de se défendre] parce qu'ils ont été injustement opprimés. Et Allah est, certes, Capable de les secourir. »",
+            ref: "Sourate Al-Hajj, 22:39"
+          }
+        ]
+      },
+      {
+        id: "terrorisme-kamikazes",
+        title: "Terrorisme et kamikazes",
+        intro: "Le Coran condamne de la manière la plus absolue le meurtre d'innocents, l'injustice et la terreur, assimilant la destruction d'une seule vie humaine innocente à un génocide contre l'humanité entière. De plus, le suicide (acte du kamikaze) est formellement interdit, car la vie est un dépôt divin sacré que l'homme n'a pas le droit de détruire de sa propre initiative.",
+        quran: [
+          {
+            fr: "« C'est pourquoi Nous avons prescrit pour les Enfants d'Israël que quiconque tuerait une personne non coupable d'un meurtre ou d'une corruption sur la terre, c'est comme s'il avait tué tous les hommes. Et quiconque lui donne la vie, c'est comme s'il avait donné la vie à tous les hommes. »",
+            ref: "Sourate Al-Nisâ', 4:29"
+          },
+          {
+            fr: "« Et ne vous tuez pas vous-mêmes. Allah est, certes, Miséricordieux envers vous. »",
+            ref: "Sourate Al-Nisâ', 4:29"
+          }
+        ]
+      },
+      {
+        id: "violence-nonviolence",
+        title: "Violence - non violence",
+        intro: "Le Coran prône la paix comme état naturel et exhorte à repousser le mal par le bien, favorisant la non-violence, la patience et le pardon actif dans les relations quotidiennes. La force ne doit être utilisée que comme ultime rempart strictement réglementé contre l'oppression active et destructrice.",
+        quran: [
+          {
+            fr: "« La bonne action et la mauvaise ne sont pas pareilles. Repousse (le mal) par ce qui est meilleur ; et voilà que celui avec qui tu avais une animosité devient tel un ami chaleureux. »",
+            ref: "Sourate Fussilat, 41:34"
+          }
+        ]
+      },
+      {
+        id: "guerre-paix",
+        title: "Guerre et paix",
+        intro: "La paix est la valeur cardinale du Coran. Le combat armé n'est qu'une exception rigoureusement encadrée pour arrêter la persécution et défendre les opprimés. Si l'ennemi manifeste la moindre intention de paix, les musulmans ont l'obligation d'arrêter immédiatement les hostilités et de sceller la paix.",
+        quran: [
+          {
+            fr: "« Combattez dans le sentier d'Allah ceux qui vous combattent, et ne transgressez pas. Certes, Allah n'aime pas les transgresseurs. »",
+            ref: "Sourate Al-Baqarah, 2:190"
+          },
+          {
+            fr: "« Et s'ils inclinent à la paix, incline vers elle toi aussi, et place ta confiance en Allah, car c'est Lui l'Audient, l'Omniscient. »",
+            ref: "Sourate Al-Anfâl, 8:61"
+          }
+        ]
+      },
+      {
+        id: "liberte",
+        title: "Liberté",
+        intro: "Le Coran proclame solennellement la liberté de conscience et de religion. Nul ne peut être contraint d'embrasser une foi par la force, la manipulation ou la coercition. Chaque individu est libre de choisir sa voie morale et assume personnellement la responsabilité spirituelle de ses choix devant le Créateur.",
+        quran: [
+          {
+            fr: "« Nulle contrainte en religion ! Car la bonne voie s'est distinguée de l'égarement. »",
+            ref: "Sourate Al-Baqarah, 2:256"
+          },
+          {
+            fr: "« Et dis : «La vérité émane de votre Seigneur.» Quiconque le veut, qu'il croie ; et quiconque le veut, qu'il mécroie. »",
+            ref: "Sourate Al-Kahf, 18:29"
+          }
+        ]
+      },
+      {
+        id: "egalite",
+        title: "Egalité",
+        intro: "Le Coran rejette catégoriquement toute forme de racisme, de tribalisme ou de discrimination basée sur l'origine, la couleur ou le sexe. Tous les êtres humains partagent une origine unique et sont égaux devant Allah. La seule valeur de distinction reconnue est la piété personnelle (<em>Taqwâ</em>), c'est-à-dire l'excellence morale et le sens de la responsabilité.",
+        quran: [
+          {
+            fr: "« Ô hommes ! Nous vous avons créés d'un mâle et d'une femelle, et Nous avons fait de vous des nations et des tribus, pour que vous vous entreconnaissiez. Le plus noble d'entre vous, auprès d'Allah, est le plus pieux. »",
+            ref: "Sourate Al-Hujurât, 49:13"
+          }
+        ]
+      },
+      {
+        id: "fraternite",
+        title: "Fraternité",
+        intro: "La fraternité dans le Coran s'exprime à deux niveaux : une fraternité spirituelle étroite qui lie les croyants dans l'entraide et l'amour en Dieu, et une fraternité humaine globale découlant de notre création commune à partir d'un seul couple originel, exigeant respect et justice universels.",
+        quran: [
+          {
+            fr: "« Les croyants ne sont que des frères. Établissez la concorde entre vos frères et craignez Allah, afin qu'on vous fasse miséricorde. »",
+            ref: "Sourate Al-Hujurât, 49:10"
+          }
+        ]
+      },
+      {
+        id: "droits-homme",
+        title: "Droits de l'homme",
+        intro: "Plus de quatorze siècles avant les déclarations modernes, le Coran a instauré des droits inaliénables pour chaque individu : droit à la vie, à la dignité, à la propriété privée, à la justice impartiale, à la protection de la vie privée et à l'éducation. Ces droits sont considérés comme des dons et des obligations divines, et non de simples concessions humaines.",
+        quran: [
+          {
+            fr: "« Très certainement, Nous avons honoré les fils d'Adam. Nous les avons transportés sur terre et sur mer, leur avons attribué de bonnes choses comme nourriture, et Nous les avons nettement préférés à plusieurs de Nos créatures. »",
+            ref: "Sourate Al-Isrâ', 17:70"
+          }
+        ]
+      },
+      {
+        id: "democratie",
+        title: "Démocratie",
+        intro: "Bien que le système moderne de démocratie n'existait pas lors de la révélation, le Coran en pose les fondements politiques éthiques à travers le principe de la <em>Shûrâ</em> (consultation mutuelle). Les affaires publiques et le choix des dirigeants doivent être menés par la consultation démocratique des citoyens et le consensus social.",
+        quran: [
+          {
+            fr: "« ... et qui se consultent entre eux à propos de leurs affaires. »",
+            ref: "Sourate Al-Shûrâ, 42:38"
+          },
+          {
+            fr: "« ... et consulte-les sur l'affaire. Puis une fois que tu t'es décidé, confie-toi à Allah. »",
+            ref: "Sourate Âl 'Imrân, 3:159"
+          }
+        ]
+      },
+      {
+        id: "laicite",
+        title: "Laïcité",
+        intro: "Comprise comme la neutralité de l'autorité politique vis-à-vis des convictions religieuses et la protection de la liberté de culte de chacun sans ingérence théologique, la laïcité trouve un écho dans les principes coraniques qui interdisent l'usage du pouvoir étatique pour contraindre les gens à la foi. Le pacte historique de Médine établi par le Prophète illustre ce respect pluraliste des lois de chaque communauté religieuse.",
+        quran: [
+          {
+            fr: "« À vous votre religion, et à moi ma religion. »",
+            ref: "Sourate Al-Kâfirûn, 109:6"
+          }
+        ]
+      },
+      {
+        id: "civisme-education",
+        title: "Civisme et éducation",
+        intro: "Le Coran enjoint les croyants à être des citoyens modèles, actifs et bienfaisants au sein de leurs sociétés : respecter les lois et les engagements contractuels, prendre soin des voisins, préserver l'environnement, honorer les parents, et acquérir la science pour servir l'humanité.",
+        quran: [
+          {
+            fr: "« Soyez fidèles aux pactes, car on vous demandera compte des pactes. »",
+            ref: "Sourate Al-Isrâ', 17:34"
+          },
+          {
+            fr: "« Et ton Seigneur a décrété : «N'adorez que Lui ; et marquez de la bonté envers les père et mère... »",
+            ref: "Sourate Al-Isrâ', 17:23"
+          }
+        ]
+      },
+      {
+        id: "science-sacree",
+        title: "Science profane et science sacrée",
+        intro: "Le Coran ne fait aucune distinction entre science profane et science religieuse. Il appelle constamment à observer l'univers, à étudier la nature, l'astronomie, la médecine et l'histoire pour y décoder l'œuvre du Créateur. La recherche du savoir est élevée au rang de devoir spirituel de premier ordre.",
+        quran: [
+          {
+            fr: "« Dis : «Sont-ils égaux, ceux qui savent et ceux qui ne savent pas ?» Seuls les doués d'intelligence se rappellent. »",
+            ref: "Sourate Al-Zumar, 39:9"
+          },
+          {
+            fr: "« Et dis : «Ô mon Seigneur, accroît mes connaissances !» »",
+            ref: "Sourate Tâhâ, 20:114"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "part-coutumes",
+    title: "PARTIE 3 : Coutumes et Traditions",
+    subparts: [
+      {
+        id: "coutumes-preambule",
+        title: "Préambule",
+        intro: "Le Coran distingue rigoureusement la Révélation divine des coutumes culturelles humaines (<em>'Urf</em>). Il invite les sociétés à valider et conserver leurs bonnes traditions éthiques, tout en rejetant catégoriquement les pratiques coutumières injustes, superstitieuses ou dégradantes, même si elles sont présentées comme 'l'héritage sacré des ancêtres'.",
+        quran: [
+          {
+            fr: "« Accepte ce qu'on te donne de bon gré, commande ce qui est convenable ('Urf) et éloigne-toi des ignorants. »",
+            ref: "Sourate Al-A'râf, 7:199"
+          },
+          {
+            fr: "« Et quand on leur dit : «Suivez ce qu'Allah a fait descendre», ils disent : «Non, mais nous suivons les coutumes de nos ancêtres.» Quoi ! Même si leurs ancêtres ne comprenaient rien et n'étaient pas bien guidés ? »",
+            ref: "Sourate Al-Baqarah, 2:170"
+          }
+        ]
+      },
+      {
+        id: "circoncision-excision",
+        title: "Circoncision et excision",
+        intro: "La circoncision masculine est une pratique de purification hygiénique héritée de la tradition prophétique d'Abraham, universellement observée mais <strong>non mentionnée explicitement dans le Coran</strong>. En revanche, l'excision (mutilation génitale féminine) est <strong>totalement absente du Coran</strong> et de la Sunna authentique. Elle est vigoureusement condamnée en Islam car elle constitue une mutilation corporelle criminelle qui contredit le principe coranique de respect et d'interdiction de modifier la création parfaite d'Allah.",
+        quran: [
+          {
+            fr: "« ... [Satan dit] : «Je leur commanderai, et ils altéreront la création d'Allah.» Et quiconque prend le Diable pour allié au lieu d'Allah, sera, certes, voué à une perte évidente. »",
+            ref: "Sourate Al-Nisâ', 4:119"
+          }
+        ]
+      },
+      {
+        id: "mariage-force",
+        title: "Mariage forcé ou arrangé",
+        intro: "Le Coran et le droit islamique exigent le consentement libre, conscient et mutuel des deux époux comme condition absolue de validité du mariage. Le mariage forcé est un abus coutumier patriarcal strictement interdit en Islam, qui annule le contrat de mariage.",
+        quran: [
+          {
+            fr: "« Ô vous qui croyez ! Il ne vous est pas licite d'hériter des femmes contre leur gré. »",
+            ref: "Sourate Al-Nisâ', 4:19"
+          }
+        ]
+      },
+      {
+        id: "mixite",
+        title: "Mixité ou non mixité",
+        intro: "Le Coran n'impose pas une ségrégation spatiale absolue et étanche entre les sexes, mais réglemente les règles éthiques d'interaction dans l'espace public : la pudeur réciproque, le respect mutuel et le sérieux dans les échanges. Le dialogue entre hommes et femmes dans un cadre noble et constructif est parfaitement naturel et visible à travers les récits prophétiques (comme la rencontre de Moïse avec les filles de Jethro).",
+        quran: [
+          {
+            fr: "« Puis l'une des deux femmes vint à lui, marchant avec pudeur, et dit : «Mon père t'invite pour te récompenser d'avoir abreuvé notre troupeau pour nous.» »",
+            ref: "Sourate Al-Qasas, 28:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "part-religieuse",
+    title: "PARTIE 4 : Questions Religieuses",
+    subparts: [
+      {
+        id: "tolerance-proselytisme",
+        title: "Tolérance et prosélytisme",
+        intro: "Le prosélytisme en Islam doit se faire exclusivement par l'explication bienveillante, le dialogue respectueux et le bon exemple moral, excluant toute pression spirituelle ou physique. La tolérance religieuse est un commandement divin absolu.",
+        quran: [
+          {
+            fr: "« Appelle au sentier de ton Seigneur par la sagesse et la bonne exhortation. Et discute avec eux de la meilleure façon. »",
+            ref: "Sourate Al-Nahl, 16:125"
+          }
+        ]
+      },
+      {
+        id: "autres-religions-relations",
+        title: "Relations avec les autres religions",
+        intro: "Le Coran ordonne d'entretenir des relations de respect et de dialogue de haute dignité avec les autres croyances. Il valide la foi sincère et les bonnes actions de toute personne sincère, et interdit d'insulter les divinités des autres pour éviter les cycles de haine.",
+        quran: [
+          {
+            fr: "« N'insultez pas ceux qu'ils invoquent en dehors d'Allah, car ils insulteraient Allah par hostilité et ignorance. »",
+            ref: "Sourate Al-A'râf, 6:108"
+          },
+          {
+            fr: "« Certes, ceux qui ont cru, ceux qui se sont judaïsés, les Chrétiens, et les Sabéens, quiconque d'entre eux croit en Allah, au Jour dernier et fait le bien, aura sa récompense auprès de son Seigneur. »",
+            ref: "Sourate Al-Baqarah, 2:62"
+          }
+        ]
+      },
+      {
+        id: "abraham",
+        title: "Fonction d'Abraham",
+        intro: "Abraham (<em>Ibrâhîm</em>) occupe une place pivot dans le Coran en tant que père spirituel du monothéisme pur (<em>Hanîf</em>) et patriarche des prophètes. Révéré par les musulmans, les juifs et les chrétiens, il est le bâtisseur de la Kaaba et le modèle de la soumission absolue et confiante à Dieu.",
+        quran: [
+          {
+            fr: "« Abraham n'était ni Juif ni Chrétien. Il était un monothéiste pur (Hanîf), soumis à Allah. Et il n'était point du nombre des associateurs. »",
+            ref: "Sourate Âl 'Imrân, 3:67"
+          }
+        ]
+      },
+      {
+        id: "moise-torah",
+        title: "Moïse, la Torah",
+        intro: "Moïse (<em>Mûsâ</em>) est le prophète le plus cité par son nom dans le Coran. Son histoire héroïque de libération face au Pharaon tyrannique est présentée comme une source de réconfort et d'enseignements éthiques. Le Coran honore la Torah originelle comme un livre de guidance divine et de lumière.",
+        quran: [
+          {
+            fr: "« Nous avons fait descendre la Torah dans laquelle il y a guide et lumière. C'est sur sa base que les prophètes soumis à Allah jugent les affaires des Juifs. »",
+            ref: "Sourate Al-Mâ'idah, 5:44"
+          }
+        ]
+      },
+      {
+        id: "jesus-evangile",
+        title: "Jésus, l'Evangile",
+        intro: "Jésus (<em>'Isâ ibn Maryam</em>) est hautement vénéré dans le Coran comme un Messager d'Allah éminent, né miraculeusement d'une vierge, fortifié par le Saint-Esprit et porteur de miracles éclatants. L'Évangile (<em>Injîl</em>) est reconnu comme une révélation divine pleine de lumière et de sagesse éthique.",
+        quran: [
+          {
+            fr: "« Et Nous avons envoyé après eux Jésus, fils de Marie, pour confirmer ce qu'il y avait avant lui de la Torah. Et Nous lui avons donné l'Évangile, où il y a guide et lumière. »",
+            ref: "Sourate Al-Mâ'idah, 5:46"
+          }
+        ]
+      },
+      {
+        id: "marie",
+        title: "Marie",
+        intro: "Marie (<em>Maryam</em>) est la seule femme mentionnée par son nom propre dans le Coran, et une sourate entière porte son nom. Elle est présentée comme le modèle absolu de pureté spirituelle, de dévotion et de chasteté pour l'humanité entière, élue par Allah au-dessus de toutes les femmes de l'univers.",
+        quran: [
+          {
+            fr: "« Rappelle-toi quand les Anges dirent : «Ô Marie, certes Allah t'a élue, t'a purifiée, et t'a élue au-dessus des femmes des mondes.» »",
+            ref: "Sourate Âl 'Imrân, 3:42"
+          }
+        ]
+      },
+      {
+        id: "autres-religions",
+        title: "Des autres religions",
+        intro: "L'Islam s'inscrit dans la continuité universelle de la religion primordiale révélée à toute l'humanité à travers l'histoire par des milliers de messagers. Le Coran appelle à ne faire aucune distinction de valeur intrinsèque entre les prophètes de Dieu et à dialoguer avec respect.",
+        quran: [
+          {
+            fr: "« Dis : «Nous croyons en Allah, à ce qu'on a fait descendre sur nous, à ce qu'on a fait descendre sur Abraham, Ismaël, Isaac, Jacob et les Tribus, et à ce qui a été apporté à Moïse, à Jésus et aux prophètes, de la part de leur Seigneur : nous ne faisons aucune différence entre eux.» »",
+            ref: "Sourate Âl 'Imrân, 3:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "part-cultes",
+    title: "PARTIE 5 : Questions Cultuelles",
+    subparts: [
+      {
+        id: "cultes-preambule",
+        title: "Préambule",
+        intro: "Les actes cultuels en Islam (<em>'Ibâdât</em>) ne sont pas de vains rituels mécaniques, mais des piliers de purification de l'âme et des entraînements spirituels réguliers visant à ancrer la conscience de Dieu (<em>Taqwâ</em>) et à transformer le comportement moral quotidien de l'individu.",
+        quran: [
+          {
+            fr: "« La piété ne consiste pas à tourner vos visages vers le Levant ou le Couchant. Mais la piété est de croire en Allah, au Jour dernier, aux Anges, au Livre et aux prophètes, de donner son bien, pour l'amour d'Allah, aux proches, aux orphelins, aux nécessiteux... »",
+            ref: "Sourate Al-Baqarah, 2:177"
+          }
+        ]
+      },
+      {
+        id: "priere",
+        title: "La prière",
+        intro: "La prière rituelle quotidienne (<em>Salât</em>), prescrite à des moments déterminés, est le lien direct d'adoration et d'intimité entre la créature et son Créateur. Elle sert de rappel permanent et de rempart spirituel contre les turpitudes morales et l'injustice.",
+        quran: [
+          {
+            fr: "« En vérité, la prière préserve de la turpitude et du blâmable. Le rappel d'Allah est certes ce qu'il y a de plus grand. »",
+            ref: "Sourate Al-'Ankabût, 29:45"
+          }
+        ]
+      },
+      {
+        id: "jeune",
+        title: "Le jeûne",
+        intro: "Le jeûne du mois de Ramadan (<em>Sawm</em>) est un exercice de maîtrise de soi, d'abstention physique et spirituelle visant à purifier le cœur, à ressentir l'empathie envers les pauvres et à développer la conscience de la présence divine.",
+        quran: [
+          {
+            fr: "« Ô vous qui croyez ! Le jeûne vous est prescrit comme il a été prescrit à ceux qui vous ont précédés, afin que vous cultiviez la piété (Taqwâ). »",
+            ref: "Sourate Al-Baqarah, 2:183"
+          }
+        ]
+      },
+      {
+        id: "aumone",
+        title: "L'aumône",
+        intro: "L'aumône obligatoire (<em>Zakât</em>) et volontaire (<em>Sadaqah</em>) est présentée dans le Coran comme un outil de purification de la richesse personnelle contre l'avarice et un mécanisme de solidarité sociale visant à éliminer la pauvreté et à redistribuer équitablement les ressources.",
+        quran: [
+          {
+            fr: "« Prélève de leurs biens une aumône par laquelle tu les purifies et les bénis. »",
+            ref: "Sourate Al-Tawbah, 9:103"
+          },
+          {
+            fr: "« Ceux qui dépensent leurs biens dans le sentier d'Allah ressemblent à un grain d'où poussent sept épis, à cent grains dans chaque épi. Car Allah multiplie la récompense à qui Il veut. »",
+            ref: "Sourate Al-Baqarah, 2:261"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "part-dogmatiques",
+    title: "PARTIE 6 : Questions Dogmatiques",
+    subparts: [
+      {
+        id: "dieu",
+        title: "De Dieu",
+        intro: "Le Coran présente Dieu (<em>Allah</em>) comme l'Unique, le Transcendant et le Proche. Il est le Créateur Absolu sans aucun associé ni égal, combinant une transcendance infinie (Rien ne Lui ressemble) et une proximité aimante intime (plus proche de l'homme que sa propre veine jugulaire). Sa Miséricorde embrasse toute chose.",
+        quran: [
+          {
+            fr: "« Dis : «Il est Allah, Unique. Allah, le Seul à être imploré. Il n'a jamais engendré, n'a pas été engendré non plus. Et nul n'est égal à Lui.» »",
+            ref: "Sourate Al-Ikhlâs, 112:1-4"
+          },
+          {
+            fr: "« Nous sommes plus près de lui que sa veine jugulaire. »",
+            ref: "Sourate Qâf, 50:16"
+          }
+        ]
+      },
+      {
+        id: "bien-mal",
+        title: "Du bien et du mal",
+        intro: "Le bien provient de la grâce et de la guidance divines, tandis que le mal moral découle du libre arbitre humain et du mauvais usage de nos choix. La vie terrestre est une arène d'épreuve et de purification morale où chaque acte a une portée éternelle.",
+        quran: [
+          {
+            fr: "« Tout bien qui t'atteint vient d'Allah, et tout mal qui t'atteint vient de toi-même. »",
+            ref: "Sourate Al-Nisâ', 4:79"
+          },
+          {
+            fr: "« Par l'âme et Celui qui l'a harmonieusement façonnée, et lui a inspiré son libertinage et sa piété ! A réussi, certes, celui qui la purifie. Et a failli, certes, celui qui la corrompt. »",
+            ref: "Sourate Al-Shams, 91:7-10"
+          }
+        ]
+      },
+      {
+        id: "paradis-enfer",
+        title: "Paradis et enfer",
+        intro: "Le Paradis (<em>Jannah</em>) et l'Enfer (<em>Jahannam</em>) sont les manifestations ultimes de la Justice et de la Miséricorde divines, rétribuant les choix spirituels et éthiques de l'homme. Le Paradis est décrit comme une demeure de paix, de joie spirituelle et de délices éternels, tandis que l'Enfer est le lieu de la privation de la lumière divine et du regret infini.",
+        quran: [
+          {
+            fr: "« Et quant à ceux qui croient et accomplissent les bonnes œuvres, Nous les ferons entrer dans des Jardins sous lesquels coulent les ruisseaux, pour y demeurer éternellement. »",
+            ref: "Sourate Al-Nisâ', 4:122"
+          }
+        ]
+      },
+      {
+        id: "destin-fatalisme",
+        title: "Destin et fatalisme",
+        intro: "Le Coran enseigne l'omniscience divine (<em>Qadar</em>) tout en affirmant vigoureusement la liberté morale, la responsabilité et le libre choix de l'être humain. L'homme n'est pas soumis à un fatalisme aveugle qui annulerait son mérite : il est l'acteur de son propre destin moral, et Allah ne modifie l'état d'un peuple que si celui-ci change ce qui est en lui-même.",
+        quran: [
+          {
+            fr: "« En vérité, Allah ne modifie point l'état d'un peuple, tant que les singuliers de ce peuple ne modifient pas ce qui est en eux-mêmes. »",
+            ref: "Sourate Al-Ra'd, 13:11"
+          },
+          {
+            fr: "« ... et qu'en vérité, l'homme n'obtient que le fruit de ses propres efforts. »",
+            ref: "Sourate Al-Najm, 53:39"
+          }
+        ]
+      },
+      {
+        id: "coran-muhammad",
+        title: "Du Coran et de Muhammad",
+        intro: "Le Coran se présente comme le message final universel, une guidance claire et une guérison pour les cœurs. Le Prophète Muhammad (s) est envoyé non pour condamner le monde, mais comme une pure manifestation de la Miséricorde divine universelle pour l'ensemble de la création.",
+        quran: [
+          {
+            fr: "« Certes, ce Coran guide vers ce qu'il y a de plus droit, et il annonce aux croyants qui font de bonnes œuvres qu'ils auront une grande récompense. »",
+            ref: "Sourate Al-Isrâ', 17:9"
+          },
+          {
+            fr: "« Et Nous ne t'avons envoyé qu'en miséricorde pour les mondes. »",
+            ref: "Sourate Al-Anbiyâ', 21:107"
+          }
+        ]
+      }
+    ]
+  }
+];
+
+let activeSubpartId = "introduction";
+
+// Render navigation
+function renderNavigation(searchFilter = "") {
+  const container = document.getElementById("navPane");
+  container.innerHTML = "";
+  
+  const filterClean = searchFilter.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+  QURAN_THEMATIC_DATA.forEach(part => {
+    // Filter subparts
+    const filteredSubparts = part.subparts.filter(s => {
+      const matchTitle = s.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(filterClean);
+      const matchIntro = s.intro.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(filterClean);
+      return matchTitle || matchIntro;
+    });
+
+    if (filteredSubparts.length === 0) return;
+
+    const partDiv = document.createElement("div");
+    partDiv.className = "nav-part";
+
+    const titleEl = document.createElement("div");
+    titleEl.className = "nav-part-title";
+    titleEl.textContent = part.title;
+    partDiv.appendChild(titleEl);
+
+    const listEl = document.createElement("ul");
+    listEl.className = "nav-list";
+
+    filteredSubparts.forEach(s => {
+      const itemEl = document.createElement("li");
+      itemEl.className = `nav-item ${s.id === activeSubpartId ? 'active' : ''}`;
+      itemEl.textContent = s.title;
+      itemEl.addEventListener("click", () => {
+        selectSubpart(s.id);
+        closeMobileSidebar();
+      });
+      listEl.appendChild(itemEl);
+    });
+
+    partDiv.appendChild(listEl);
+    container.appendChild(partDiv);
+  });
+}
+
+// Select active subpart and render content
+function selectSubpart(id) {
+  activeSubpartId = id;
+  
+  // Find subpart
+  let foundSubpart = null;
+  let foundPart = null;
+  for (const part of QURAN_THEMATIC_DATA) {
+    foundSubpart = part.subparts.find(s => s.id === id);
+    if (foundSubpart) {
+      foundPart = part;
+      break;
+    }
+  }
+
+  if (!foundSubpart) return;
+
+  // Update URL hash without reload
+  window.location.hash = id;
+
+  // PostMessage for deep linking parent synchronization
+  try {
+    window.parent.postMessage({ type: 'nav', state: id }, '*');
+  } catch(e) {}
+
+  // Highlight in list
+  document.querySelectorAll(".nav-item").forEach(item => {
+    item.classList.toggle("active", item.textContent === foundSubpart.title);
+  });
+
+  // Render reading pane with fade transition
+  const pane = document.getElementById("contentPane");
+  pane.classList.remove("animate-fade-in");
+  void pane.offsetWidth; // Trigger reflow
+  
+  let quranBoxesHtml = "";
+  if (foundSubpart.quran) {
+    foundSubpart.quran.forEach(q => {
+      quranBoxesHtml += `
+        <div class="quran-box">
+          <p class="quran-fr">${q.fr}</p>
+          <p class="quran-ref">${q.ref}</p>
+        </div>
+      `;
+    });
+  }
+
+  pane.innerHTML = `
+    <div class="part-indicator">${foundPart.title}</div>
+    <h2 class="subpart-title">${foundSubpart.title}</h2>
+    <div class="content-divider"></div>
+    <div class="explanation">${foundSubpart.intro}</div>
+    ${quranBoxesHtml}
+  `;
+  pane.classList.add("animate-fade-in");
+  
+  // Scroll content to top
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Mobile sidebar control
+const menuToggleBtn = document.getElementById("menuToggleBtn");
+const sidebar = document.getElementById("sidebar");
+const mobileOverlay = document.getElementById("mobileOverlay");
+
+menuToggleBtn.addEventListener("click", () => {
+  sidebar.classList.toggle("open");
+  mobileOverlay.style.display = sidebar.classList.contains("open") ? "block" : "none";
+});
+
+mobileOverlay.addEventListener("click", closeMobileSidebar);
+
+function closeMobileSidebar() {
+  sidebar.classList.remove("open");
+  mobileOverlay.style.display = "none";
+}
+
+// Real-time Search input handler
+document.getElementById("topicSearch").addEventListener("input", (e) => {
+  renderNavigation(e.target.value);
+});
+
+// Deep linking from hash on load
+function handleInitialHash() {
+  const hash = window.location.hash.substring(1);
+  if (hash) {
+    // Find if the hash matches an existing subpart id
+    let exists = false;
+    for (const part of QURAN_THEMATIC_DATA) {
+      if (part.subparts.some(s => s.id === hash)) {
+        exists = true;
+        break;
+      }
+    }
+    if (exists) {
+      activeSubpartId = hash;
+    }
+  }
+}
+
+// Initial initialization
+handleInitialHash();
+renderNavigation();
+selectSubpart(activeSubpartId);
+
+// Handle back / forward browser navigation hashchange
+window.addEventListener("hashchange", () => {
+  const hash = window.location.hash.substring(1);
+  if (hash && hash !== activeSubpartId) {
+    selectSubpart(hash);
+  }
+});
+</script>
+
+<!-- Theme listener inside iframe -->
+<script>
+window.addEventListener('message', function(e) {
+  if (e.data && e.data.type === 'theme') {
+    if (e.data.theme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+  }
+});
+try {
+  if (localStorage.getItem('theme') === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }
+} catch(e) {}
+</script>
+
+<!-- Scroll-to-top feature -->
+<script>
+(function(){
+  var btn = document.getElementById('scrollTopBtn');
+  if(!btn) return;
+  function check(){
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    btn.classList.toggle('visible', st > 250);
+  }
+  window.addEventListener('scroll', check, {passive:true});
+  btn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  check();
+})();
+</script>
+
+</body>
+</html>

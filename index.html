@@ -360,7 +360,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
       <div class="card-footer"><span class="card-meta">Le Chiisme R&#233;pond &middot; Doctrine</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
     </div>
     <!-- Coran -->
-    <div class="card" id="card-coran" data-theme="coran" data-keywords="coran quran verset trone sourate lecture traduction ayat" onclick="openSubMenu('coran')">
+    <div class="card" id="card-coran" data-theme="coran" data-keywords="coran quran verset trone sourate lecture traduction ayat que dit le coran justice societe traditions religion culte dogmatique" onclick="openSubMenu('coran')">
       <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8 C4 8 11 7 17 9 L17 29 C11 27 4 28 4 28 Z" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><path d="M32 8 C32 8 25 7 19 9 L19 29 C25 27 32 28 32 28 Z" fill="#c9a84c" fill-opacity="0.3" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><line x1="18" y1="8" x2="18" y2="29" stroke="#c9a84c" stroke-width="2"/><line x1="7" y1="14" x2="15" y2="13" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="7" y1="18" x2="15" y2="17" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="7" y1="22" x2="15" y2="21" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="21" y1="13" x2="29" y2="14" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="21" y1="17" x2="29" y2="18" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="21" y1="21" x2="29" y2="22" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/></svg></div>
       <div class="card-tag">&#201;tude coranique</div>
       <div class="card-title">Le Coran</div>
@@ -506,6 +506,13 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
         <div class="card-desc">Traduction fran&#231;aise int&#233;grale par le Dr Abolqasemi Fakhri &#8212; 114 sourates, navigation par verset.</div>
         <div class="card-footer"><span class="card-meta">114 sourates &middot; 6236 versets</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
       </div>
+      <div class="card" id="card-que-dit-le-coran">
+        <div class="card-icon">📖</div>
+        <div class="card-tag">Étude thématique</div>
+        <div class="card-title">Que dit le Coran ?</div>
+        <div class="card-desc">Une exploration thématique et méthodique du texte coranique : questions juridiques, de société, de croyances et traditions.</div>
+        <div class="card-footer"><span class="card-meta">6 parties &middot; Guide thématique</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
       <div class="card" id="card-radio">
         <div class="card-icon">📻</div>
         <div class="card-tag">Diffusion 24h/24</div>
@@ -583,6 +590,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
 <div class="iframe-wrap" id="frame16"><div class="loader" id="loader16"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe16"></iframe></div>
 <div class="iframe-wrap" id="frame17"><div class="loader" id="loader17"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe17"></iframe></div>
 <div class="iframe-wrap" id="frame18"><div class="loader" id="loader18"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe18"></iframe></div>
+<div class="iframe-wrap" id="frame19"><div class="loader" id="loader19"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe19"></iframe></div>
 
 <script>
 (function(){
@@ -605,7 +613,8 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
     "resister.html",
     "99-noms.html",
     "aune-sagesse.html",
-    "radio.html"
+    "radio.html",
+    "que-dit-le-coran.html"
   ];
   var N = MODULES.length;
   var loaded = new Array(N).fill(false);
@@ -749,7 +758,7 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
-  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16, 17:17, 'radio':18};
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16, 17:17, 'radio':18, 'que-dit-le-coran':19};
   Object.keys(cardModules).forEach(function(cardId){
     var el = document.getElementById('card-' + cardId);
     if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId], ''); });
