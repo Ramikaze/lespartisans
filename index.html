@@ -144,6 +144,8 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
 .home-verse-text{font-size:0.95rem;color:var(--accent);font-style:italic;line-height:1.75;opacity:0.8}
 .home-verse-ref{font-size:0.72rem;color:var(--text-faint);margin-top:5px;letter-spacing:.08em}
 
+.home.in-submenu #votd-container { display: none !important; }
+
 /* === SEARCH & FILTERS === */
 .search-section{width:100%;max-width:1400px;margin-bottom:24px}
 .search-bar{width:100%;max-width:680px;margin:0 auto 24px;background:var(--bg-card);border:1px solid var(--accent-border);border-radius:24px;padding:12px 20px;display:flex;align-items:center;gap:12px;transition:all .2s;cursor:pointer}
@@ -638,7 +640,9 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   function home() {
     hideAllFrames();
     closeAllSubMenus();
-    document.getElementById('homeScreen').style.display = '';
+    var hs = document.getElementById('homeScreen');
+    hs.style.display = '';
+    hs.classList.remove('in-submenu');
     var si = document.getElementById('searchInput');
     if (si) si.value = '';
     document.querySelectorAll('#cardsGrid .card').forEach(function(c){ c.classList.remove('search-hidden'); });
@@ -687,7 +691,9 @@ body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}
   /* ── Ouvrir un sous-menu thématique ── */
   window.openSubMenu = function(id) {
     hideAllFrames();
-    document.getElementById('homeScreen').style.display = '';
+    var hs = document.getElementById('homeScreen');
+    hs.style.display = '';
+    hs.classList.add('in-submenu');
     document.getElementById('cardsGrid').style.display = 'none';
     document.querySelectorAll('.submenu').forEach(function(s){ s.style.display = 'none'; });
     document.getElementById('submenu-' + id).style.display = 'block';
