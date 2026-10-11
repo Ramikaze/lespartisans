@@ -1,0 +1,7 @@
+# Fichiers de travail locaux : réglages des outils, captures de vérification,
+# maquettes et notes de conception. Ils ne font pas partie du site.
+.claude/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+.DS_Store
