@@ -8,7 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Scheherazade+New:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500;0,600&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { min-height: 100%; background: #070c18; color: #e2d9c4; font-family: 'EB Garamond', Georgia, serif; font-size: 18px; line-height: 1.8; overflow-x: hidden; }
+/* overflow-x:clip (repli : hidden) — body ne devient pas conteneur de défilement : la barre latérale reste collante */
+html, body { min-height: 100%; background: #070c18; color: #e2d9c4; font-family: 'EB Garamond', Georgia, serif; font-size: 18px; line-height: 1.8; overflow-x: hidden; overflow-x: clip; }
 body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23c9a84c' stroke-width='0.3' opacity='0.055'%3E%3Crect x='22' y='22' width='56' height='56' rx='2'/%3E%3Crect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='28'/%3E%3C/g%3E%3C/svg%3E"); background-size: 100px; pointer-events: none; z-index: 0; }
 
 ::-webkit-scrollbar { width: 5px; height: 5px; }
@@ -43,8 +44,7 @@ body { background: var(--bg); color: var(--text); transition: background 0.3s, c
 .app-container {
   display: flex;
   min-height: 100vh;
-  position: relative;
-  z-index: 1;
+  position: relative; /* au-dessus du motif de fond ; sans z-index : le tiroir mobile doit passer au-dessus du voile */
 }
 
 /* Sidebar navigation */
@@ -318,6 +318,114 @@ body { background: var(--bg); color: var(--text); transition: background 0.3s, c
 [data-theme="light"] .search-input{background:rgba(60,45,20,0.06)!important;border-color:transparent!important}
 .sidebar{backdrop-filter:saturate(180%) blur(20px)!important;-webkit-backdrop-filter:saturate(180%) blur(20px)!important}
 .nav-item,.nav-link,.nav-subitem{border-radius:10px!important}
+</style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — que-dit-le-coran (guide thématique) */
+/* Jetons de la page reportés sur ceux de la console ; le thème clair suit data-lp-theme
+   (html[data-design] l'emporte sur [data-theme="light"]) */
+html[data-design="console"]{
+  --bg:var(--lp-void)!important;--text:var(--lp-ink)!important;--text-muted:var(--lp-ink-2)!important;--accent:var(--lp-amber)!important;
+  --panel-bg:var(--lp-glass-solid)!important;--panel-border:var(--lp-edge)!important;--card-hover:var(--lp-fill)!important;--input-bg:var(--lp-fill)!important;
+}
+
+/* Fond : la nuit et sa brume, sans le motif géométrique */
+html[data-design="console"] body::before{display:none!important}
+html[data-design="console"] body{
+  background-image:var(--lp-fog)!important;background-repeat:no-repeat!important;
+  background-position:top center!important;background-size:auto!important;color:var(--lp-ink)!important;
+}
+
+/* Panneau latéral : verre posé dans la nuit */
+html[data-design="console"] .sidebar{
+  width:300px!important;height:calc(100vh - 24px)!important;top:12px!important;margin:12px 0 12px 12px!important;overflow:hidden;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)!important;
+  -webkit-backdrop-filter:none!important;backdrop-filter:none!important;
+}
+html[data-design="console"] .sidebar-header{padding:20px 16px 16px!important;border-bottom:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .sidebar-title{margin:0 2px 14px!important;text-align:left!important;font-family:var(--lp-font)!important;font-size:17px!important;font-weight:400!important;letter-spacing:-.005em!important;color:var(--lp-ink)!important}
+html[data-design="console"] .search-input{
+  height:42px;padding:0 12px 0 38px!important;border:1px solid var(--lp-edge)!important;border-radius:13px!important;
+  background:var(--lp-fill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f2b45a' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 4.5 4.5'/%3E%3C/svg%3E") 13px 50%/16px 16px no-repeat!important;
+  font-family:var(--lp-font)!important;font-size:14.5px!important;font-weight:300!important;color:var(--lp-ink)!important;caret-color:var(--lp-amber);
+  outline:none!important;transition:border-color .25s,box-shadow .25s!important;
+}
+html[data-design="console"][data-lp-theme="light"] .search-input{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238f5200' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 4.5 4.5'/%3E%3C/svg%3E")!important}
+html[data-design="console"] .search-input::placeholder{color:var(--lp-ink-3);opacity:1}
+html[data-design="console"] .search-input:focus{border-color:rgba(var(--lp-glow),.5)!important;box-shadow:0 0 0 3px rgba(var(--lp-glow),.12)}
+
+/* Liste des thèmes */
+html[data-design="console"] .navigation-pane{padding:12px 8px 18px!important}
+html[data-design="console"] .nav-part{margin-bottom:12px!important}
+html[data-design="console"] .nav-part-title{margin:0!important;padding:8px 12px 6px!important;font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:500!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .nav-list{gap:1px!important}
+html[data-design="console"] .nav-item{
+  padding:8px 12px!important;border:1px solid transparent!important;border-radius:12px!important;
+  font-family:var(--lp-font)!important;font-size:14px!important;font-weight:300!important;line-height:1.4!important;color:var(--lp-ink-2)!important;background:transparent!important;
+  transition:background-color .25s,color .25s,border-color .25s!important;
+}
+html[data-design="console"] .nav-item:hover{background:var(--lp-fill)!important;color:var(--lp-ink)!important}
+/* Thème choisi : la pastille éclairée d'ambre */
+html[data-design="console"] .nav-item.active{
+  color:var(--lp-amber)!important;font-weight:400!important;border-color:rgba(var(--lp-glow),.5)!important;
+  background:radial-gradient(120% 160% at 50% 120%,rgba(var(--lp-glow),.16),transparent 70%),rgba(var(--lp-glow),.08)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 0 22px -10px rgba(var(--lp-glow),.6)!important;
+}
+
+/* Colonne de lecture : titre fin, partie dessous, filet de lumière */
+html[data-design="console"] .content-area{padding:52px clamp(24px,5vw,72px) 110px!important}
+html[data-design="console"] .content-wrap{max-width:720px!important;display:flex;flex-direction:column}
+html[data-design="console"] .subpart-title{order:-3;margin:0!important;font-family:var(--lp-font)!important;font-size:clamp(1.9rem,3.6vw,2.6rem)!important;font-weight:250!important;line-height:1.12!important;letter-spacing:-.022em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .part-indicator{order:-2;margin:14px 0 0!important;font-family:var(--lp-font)!important;font-size:.9rem!important;font-weight:300!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .content-divider{order:-1;width:160px!important;margin:26px 0 30px!important;background:linear-gradient(90deg,rgba(var(--lp-glow),.7),transparent)!important}
+html[data-design="console"] .explanation{margin-bottom:30px!important;font-family:var(--lp-font)!important;font-size:1.075rem!important;font-weight:var(--lp-body-w)!important;line-height:1.8!important;color:var(--lp-read)!important;text-align:left!important;-webkit-hyphens:auto;hyphens:auto}
+html[data-design="console"] .explanation strong{color:var(--lp-ink)!important;font-weight:500!important}
+html[data-design="console"] .explanation em{color:inherit!important}
+
+/* Verset : la lampe, texte droit */
+html[data-design="console"] .quran-box{
+  margin:0 0 18px!important;padding:24px 28px 20px!important;
+  background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;
+  border:1px solid var(--lp-lamp-line)!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important;
+}
+html[data-design="console"] .quran-fr{margin-bottom:12px!important;font-family:var(--lp-font)!important;font-style:normal!important;font-size:1.08rem!important;font-weight:var(--lp-body-w)!important;line-height:1.72!important;color:var(--lp-ink)!important;text-wrap:pretty}
+html[data-design="console"] .quran-ref{font-family:var(--lp-font)!important;font-size:.84rem!important;font-weight:400!important;letter-spacing:0!important;color:var(--lp-amber)!important;opacity:1!important}
+
+/* Mobile : barre de verre, tiroir posé au-dessus de la lecture */
+html[data-design="console"] .mobile-header{
+  background:var(--lp-bar-bg)!important;-webkit-backdrop-filter:blur(18px) saturate(140%)!important;backdrop-filter:blur(18px) saturate(140%)!important;
+  border-bottom:1px solid var(--lp-hairline)!important;padding:10px 14px 10px 18px!important;
+}
+html[data-design="console"] .mobile-title{font-family:var(--lp-font)!important;font-size:16px!important;font-weight:400!important;letter-spacing:-.005em!important;color:var(--lp-ink)!important}
+html[data-design="console"] .menu-btn{
+  display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 15px 0 13px!important;border-radius:999px!important;
+  font-family:var(--lp-font)!important;font-size:14px!important;font-weight:400!important;letter-spacing:0!important;color:var(--lp-ink)!important;
+  background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;transition:background-color .25s,border-color .25s!important;
+}
+html[data-design="console"] .menu-btn::before{
+  content:'';width:16px;height:16px;background:var(--lp-amber);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round'%3E%3Cpath d='M9 6h11M9 12h11M9 18h11'/%3E%3Ccircle cx='4.5' cy='6' r='.9'/%3E%3Ccircle cx='4.5' cy='12' r='.9'/%3E%3Ccircle cx='4.5' cy='18' r='.9'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round'%3E%3Cpath d='M9 6h11M9 12h11M9 18h11'/%3E%3Ccircle cx='4.5' cy='6' r='.9'/%3E%3Ccircle cx='4.5' cy='12' r='.9'/%3E%3Ccircle cx='4.5' cy='18' r='.9'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+html[data-design="console"] .menu-btn:hover{background:var(--lp-fill-2)!important;border-color:var(--lp-lamp-line)!important}
+html[data-design="console"] .mobile-overlay{background:rgba(2,4,10,.55)!important;-webkit-backdrop-filter:blur(6px)!important;backdrop-filter:blur(6px)!important}
+html[data-design="console"][data-lp-theme="light"] .mobile-overlay{background:rgba(20,32,60,.22)!important}
+@media (max-width:900px){
+  html[data-design="console"] .sidebar{
+    top:8px!important;left:8px!important;bottom:8px!important;height:auto!important;margin:0!important;width:min(320px,calc(100vw - 56px))!important;
+    transform:translateX(calc(-100% - 96px))!important;transition:transform .5s var(--lp-ease)!important;
+    background:var(--lp-sheet-bg)!important;-webkit-backdrop-filter:blur(18px) saturate(140%)!important;backdrop-filter:blur(18px) saturate(140%)!important;
+    box-shadow:var(--lp-panel-shadow),0 40px 90px -30px rgba(0,0,0,.85)!important;
+  }
+  html[data-design="console"][data-lp-theme="light"] .sidebar{box-shadow:var(--lp-panel-shadow),0 30px 70px -30px rgba(20,32,60,.4)!important}
+  html[data-design="console"] .sidebar.open{transform:none!important}
+  html[data-design="console"] .content-area{padding:30px 18px 88px!important}
+  html[data-design="console"] .quran-box{padding:20px 20px 18px!important}
+}
 </style>
 </head>
 <body>

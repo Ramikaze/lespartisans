@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#070c18">
+<title>Les Partisans</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='none' stroke='%23c9a84c' stroke-width='8'><rect x='22' y='22' width='56' height='56' rx='8'/><rect x='22' y='22' width='56' height='56' rx='8' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='12' fill='%23c9a84c'/></g></svg>">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<script src="global-search-data.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+
+/* === THÈME : Variables CSS === */
+:root{
+  --bg:#070c18;
+  --bg-nav:rgba(10,15,28,0.72);
+  --bg-card:#141d33;
+  --bg-card-hover:#1a2440;
+  --bg-search:rgba(255,255,255,0.06);
+  --bg-filter:rgba(255,255,255,0.05);
+  --bg-filter-active:var(--accent);
+  --bg-tab-hover:rgba(255,255,255,0.06);
+  --bg-tab-active:rgba(211,173,85,0.16);
+  --bg-card-glow:rgba(211,173,85,0.07);
+  --bg-loader:#070c18;
+  --bg-iframe:#070c18;
+  --text:#f3f0e6;
+  --text-sub:#aeb6c8;
+  --text-dim:#8b93a8;
+  --text-faint:#6c7590;
+  --text-ghost:#565f78;
+  --accent:#d3ad55;
+  --accent-soft:rgba(211,173,85,0.16);
+  --accent-border:rgba(211,173,85,0.22);
+  --accent-border-strong:rgba(211,173,85,0.5);
+  --card-border:rgba(211,173,85,0.14);
+  --card-border-hover:rgba(211,173,85,0.42);
+  --card-footer-border:rgba(255,255,255,0.07);
+  --card-arrow-bg:rgba(211,173,85,0.12);
+  --card-arrow-border:rgba(211,173,85,0.22);
+  --soon-bg:rgba(120,130,158,0.14);
+  --soon-border:rgba(120,130,158,0.24);
+  --soon-text:#8b93a8;
+  --shadow-card:rgba(0,0,0,0.5);
+  --shadow-glow:rgba(211,173,85,0.07);
+  --pattern-opacity:0.045;
+  --scrollbar-thumb:rgba(211,173,85,0.3);
+  /* iOS materials & metrics */
+  --fill:rgba(255,255,255,0.06);
+  --fill-strong:rgba(255,255,255,0.1);
+  --separator:rgba(255,255,255,0.09);
+  --tint:#d3ad55;
+  --tint-ink:#1a1204;
+  --radius:20px;
+  --radius-md:16px;
+  --radius-sm:12px;
+  --ease-ios:cubic-bezier(.32,.72,0,1);
+  --ease-out-quint:cubic-bezier(.22,1,.36,1);
+}
+[data-theme="light"]{
+  --bg:#e9e2d5;
+  --bg-nav:rgba(240,235,225,0.72);
+  --bg-card:#f7f2ea;
+  --bg-card-hover:#fdfaf3;
+  --bg-search:rgba(60,45,20,0.06);
+  --bg-filter:rgba(60,45,20,0.05);
+  --bg-filter-active:var(--accent);
+  --bg-tab-hover:rgba(60,45,20,0.06);
+  --bg-tab-active:rgba(122,92,36,0.14);
+  --bg-card-glow:rgba(122,92,36,0.05);
+  --bg-loader:#e9e2d5;
+  --bg-iframe:#e9e2d5;
+  --text:#241c10;
+  --text-sub:#5c5140;
+  --text-dim:#7a6f5a;
+  --text-faint:#948872;
+  --text-ghost:#a89c86;
+  --accent:#7a5c24;
+  --accent-soft:rgba(122,92,36,0.12);
+  --accent-border:rgba(122,92,36,0.22);
+  --accent-border-strong:rgba(122,92,36,0.45);
+  --card-border:rgba(122,92,36,0.14);
+  --card-border-hover:rgba(122,92,36,0.4);
+  --card-footer-border:rgba(60,45,20,0.08);
+  --card-arrow-bg:rgba(122,92,36,0.1);
+  --card-arrow-border:rgba(122,92,36,0.2);
+  --soon-bg:rgba(100,90,72,0.1);
+  --soon-border:rgba(100,90,72,0.2);
+  --soon-text:#8a7c66;
+  --shadow-card:rgba(60,45,20,0.12);
+  --shadow-glow:rgba(122,92,36,0.06);
+  --pattern-opacity:0.03;
+  --scrollbar-thumb:rgba(122,92,36,0.3);
+  --fill:rgba(60,45,20,0.06);
+  --fill-strong:rgba(60,45,20,0.1);
+  --separator:rgba(60,45,20,0.1);
+  --tint:#7a5c24;
+  --tint-ink:#fdfaf3;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* === BODY — PAS de overflow:hidden, scroll naturel === */
+html{height:100%}
+body{
+  min-height:100%;margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','SF Pro Display','Segoe UI',system-ui,'Plus Jakarta Sans',sans-serif;
+  font-size:17px;line-height:1.47;
+  background:var(--bg);color:var(--text);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  -webkit-tap-highlight-color:transparent;
+}
+/* Quand un iframe est actif, on bloque le scroll du body */
+body.iframe-active{overflow:hidden;height:100%}
+
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><g fill='none' stroke='%23c9a84c' stroke-width='0.5' opacity='0.05'><rect x='22' y='22' width='56' height='56' rx='2'/><rect x='22' y='22' width='56' height='56' rx='2' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='28'/><line x1='50' y1='10' x2='50' y2='90'/><line x1='10' y1='50' x2='90' y2='50'/></g></svg>");background-repeat:repeat;background-size:100px;pointer-events:none;z-index:-1}
+
+/* === NAV — iOS translucent bar, materializes on scroll === */
+.top-nav{position:sticky;top:0;z-index:200;display:flex;align-items:center;flex-wrap:wrap;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left));padding-top:env(safe-area-inset-top);min-height:52px;background:transparent;border-bottom:1px solid transparent;transition:background .35s ease,border-color .35s ease}
+.top-nav.scrolled,body.iframe-active .top-nav{background:var(--bg-nav);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom-color:var(--separator)}
+.nav-logo{font-family:'Cinzel',serif;font-size:19px;font-weight:600;color:var(--accent);letter-spacing:.02em;cursor:pointer;transition:opacity .2s;user-select:none;white-space:nowrap;flex-shrink:0;padding:14px 0}
+.nav-logo:active{opacity:.5}
+.nav-spacer{flex:1}
+.nav-tabs{display:flex;align-items:center;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:8px 0}
+.nav-tabs::-webkit-scrollbar{display:none}
+.nav-tab{background:none;border:none;cursor:pointer;padding:8px 14px;border-radius:980px;font-family:inherit;font-size:15px;font-weight:500;color:var(--text-sub);transition:color .2s,background .2s;white-space:nowrap;flex-shrink:0}
+.nav-tab:hover{color:var(--text);background:var(--bg-tab-hover)}
+.nav-tab.active{color:var(--accent);background:var(--bg-tab-active);font-weight:600}
+
+
+/* === NAV SUGGEST === */
+.nav-suggest{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;border:1px solid var(--accent-border);color:var(--accent);background:var(--fill);margin-right:8px;transition:transform .3s var(--ease-ios),background .2s,border-color .2s;text-decoration:none;flex-shrink:0}
+.nav-suggest:hover{background:var(--accent-soft);border-color:var(--accent-border-strong)}
+.nav-suggest:active{transform:scale(.9)}
+.nav-suggest svg{width:16px;height:16px}
+[data-theme="light"] .nav-suggest{background:var(--fill)!important;border-color:var(--accent-border)!important;color:var(--accent)!important}
+[data-theme="light"] .nav-suggest:hover{background:var(--accent-soft)!important;border-color:var(--accent-border-strong)!important}
+
+/* === THEME TOGGLE — iOS segmented === */
+.theme-toggle{background:var(--fill);border:1px solid var(--separator);display:flex;align-items:center;border-radius:980px;cursor:pointer;transition:background .2s;flex-shrink:0;margin-right:8px;padding:2px;gap:0}
+.theme-toggle:hover{background:var(--fill-strong)}
+.theme-opt{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;transition:all .25s var(--ease-ios);opacity:.5;color:var(--text-sub)}
+.theme-opt:hover{opacity:.8}
+.theme-opt.active{opacity:1;background:var(--bg-card);color:var(--accent);box-shadow:0 1px 3px rgba(0,0,0,0.25)}
+.theme-opt svg{width:17px;height:17px}
+[data-theme="light"] .theme-opt{color:var(--text-sub)!important}
+[data-theme="light"] .theme-opt.active{background:#fff!important;color:var(--accent)!important}
+[data-theme="light"] body::before{opacity:.5}
+[data-theme="light"] .nav-back-btn{color:var(--accent)!important}
+[data-theme="light"] .card{backdrop-filter:none}
+@media(prefers-reduced-motion:no-preference){body,body *{transition:background-color 0.3s,color 0.3s,border-color 0.3s}}
+
+/* === HOME === */
+.home{display:flex;flex-direction:column;align-items:center;padding:clamp(28px,5vw,52px) max(16px,env(safe-area-inset-left)) calc(80px + env(safe-area-inset-bottom))}
+.home-header{text-align:center;margin-bottom:36px;width:100%;max-width:1000px}
+.home-ornament{width:1px;height:36px;background:linear-gradient(to bottom,transparent,var(--accent),transparent);margin:0 auto 20px;opacity:.9}
+.home-title{font-family:'Cinzel',serif;font-size:clamp(30px,6vw,44px);font-weight:700;color:var(--text);line-height:1.1;margin-bottom:10px;letter-spacing:-.01em;text-wrap:balance}
+.home-title span{color:var(--accent)}
+.home-subtitle{font-size:16px;color:var(--text-sub);letter-spacing:0;font-weight:400}
+.home-verse{text-align:center;max-width:1000px;margin:16px auto 0;padding:0 20px}
+.home-verse-text{font-size:0.95rem;color:var(--accent);font-style:italic;line-height:1.75;opacity:0.8}
+.home-verse-ref{font-size:0.72rem;color:var(--text-faint);margin-top:5px;letter-spacing:.08em}
+
+.home.in-submenu #votd-container { display: none !important; }
+
+/* === SEARCH & FILTERS === iOS search field + capsule chips */
+.search-section{width:100%;max-width:1400px;margin-bottom:24px}
+.search-bar{width:100%;max-width:680px;margin:0 auto 20px;background:var(--bg-search);border:1px solid transparent;border-radius:12px;padding:0 14px;height:44px;display:flex;align-items:center;gap:10px;transition:background .2s;cursor:pointer}
+.search-bar:hover{background:var(--fill-strong)}
+.search-icon{width:18px;height:18px;color:var(--text-dim);flex-shrink:0}
+.search-input{flex:1;background:none;border:none;color:var(--text);font-family:inherit;font-size:17px;outline:none;cursor:pointer}
+.search-input::placeholder{color:var(--text-dim)}
+.filter-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:12px}
+.filter-tag{background:var(--bg-filter);border:none;color:var(--text-sub);padding:8px 16px;border-radius:980px;font-family:inherit;font-size:15px;font-weight:500;cursor:pointer;transition:transform .25s var(--ease-ios),background .2s,color .2s;white-space:nowrap}
+.filter-tag:hover{background:var(--fill-strong);color:var(--text)}
+.filter-tag:active{transform:scale(.94)}
+.filter-tag.active{background:var(--bg-filter-active);color:var(--tint-ink);font-weight:600}
+.search-count{font-size:13px;color:var(--text-faint);margin-top:10px;text-align:center}
+.card.search-hidden{display:none}
+.no-results{text-align:center;padding:40px 20px;color:var(--text-faint);font-size:16px;grid-column:1/-1}
+
+/* === CARDS === iOS rounded tiles with press physics */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;width:100%;max-width:1400px}
+.card{background:var(--bg-card);border:1px solid var(--card-border);border-radius:var(--radius);padding:24px;cursor:pointer;transition:transform .4s var(--ease-out-quint),box-shadow .3s,border-color .3s;position:relative;overflow:hidden;box-shadow:0 1px 2px var(--shadow-card)}
+.card:hover{border-color:var(--card-border-hover);box-shadow:0 12px 32px var(--shadow-card)}
+.card:active{transform:scale(.97)}
+.card.soon{opacity:.55}
+.card.soon:active{transform:none}
+.card-icon{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:19px;background:var(--card-arrow-bg);border:1px solid var(--card-arrow-border)}
+.card-icon svg{width:30px;height:30px}
+.card-tag{font-size:12px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.card-title{font-family:inherit;font-size:19px;font-weight:600;color:var(--text);line-height:1.25;margin-bottom:6px;letter-spacing:-.01em}
+.card-desc{font-size:15px;color:var(--text-sub);line-height:1.5;margin-bottom:16px}
+.card-footer{display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--card-footer-border)}
+.card-meta{font-size:13px;color:var(--text-faint)}
+.card-arrow{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--text-dim);transition:color .2s,transform .3s var(--ease-ios);flex-shrink:0}
+.card:hover .card-arrow{color:var(--accent);transform:translateX(2px)}
+.card-arrow svg{width:14px;height:14px}
+.soon-badge{font-size:12px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:var(--soon-text);background:var(--soon-bg);border:1px solid var(--soon-border);padding:4px 10px;border-radius:980px}
+
+/* === IFRAMES — position:fixed, couvrent TOUT sous la nav === */
+.iframe-wrap{
+  display:none;
+  position:fixed;
+  top:calc(52px + env(safe-area-inset-top));left:0;right:0;bottom:0;
+  z-index:100;
+  background:var(--bg-iframe);
+}
+.iframe-wrap.active{display:block}
+.iframe-wrap iframe{width:100%;height:100%;border:none;display:block}
+.loader{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--bg-loader);z-index:11;gap:14px;transition:opacity .5s}
+.loader.done{opacity:0;pointer-events:none}
+.loader-dots{display:flex;gap:8px}
+.loader-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);animation:ldpulse 1.2s ease-in-out infinite}
+.loader-dots .loader-dot:nth-child(2){animation-delay:.2s}
+.loader-dots .loader-dot:nth-child(3){animation-delay:.4s}
+.loader-text{font-size:14px;color:var(--text-faint)}
+@keyframes ldpulse{0%,100%{opacity:.2;transform:scale(.8)}50%{opacity:1;transform:scale(1)}}
+
+/* === SUBMENUS === */
+.submenu{width:100%;max-width:1400px;animation:fadeUp .35s var(--ease-out-quint)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.submenu-header{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.submenu-back{display:inline-flex;align-items:center;gap:4px;background:var(--fill);border:none;color:var(--accent);padding:9px 16px;border-radius:980px;cursor:pointer;font-family:inherit;font-size:16px;font-weight:500;transition:transform .25s var(--ease-ios),background .2s}
+.submenu-back:hover{background:var(--fill-strong)}
+.submenu-back:active{transform:scale(.95)}
+.submenu-title{font-family:inherit;font-size:22px;font-weight:700;color:var(--text);letter-spacing:-.01em}
+.submenu-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+
+/* === MOBILE === */
+@media(max-width:640px){
+  .top-nav{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}
+  .nav-logo{font-size:16px;padding:12px 0}
+  .nav-spacer{display:none}
+  .nav-tabs{width:100%;border-top:1px solid var(--separator);padding:6px 0}
+  .nav-tab{padding:7px 12px;font-size:14px}
+  .home{padding-top:24px}
+  .home-header{margin-bottom:26px}
+  .cards,.submenu-cards{grid-template-columns:1fr 1fr;gap:12px}
+  .card{padding:16px;border-radius:var(--radius-md)}
+  .card-icon{width:44px;height:44px;font-size:16px;margin-bottom:10px}
+  .card-icon svg{width:26px;height:26px}
+  .card-title{font-size:16px}
+  .card-desc{font-size:14px}
+  .card-meta{font-size:12px}
+  .filter-tag{padding:7px 14px;font-size:14px}
+}
+@media(max-width:380px){.cards,.submenu-cards{grid-template-columns:1fr}}
+
+/* === REDUCED MOTION === */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
+
+/* ═══ GLOBAL SEARCH BUTTON ═══ */
+.gs-btn{background:var(--fill);border:1px solid var(--accent-border);color:var(--accent);display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;cursor:pointer;transition:transform .3s var(--ease-ios),background .2s,border-color .2s;flex-shrink:0;margin-right:6px}
+.gs-btn:hover{background:var(--accent-soft);border-color:var(--accent-border-strong)}
+.gs-btn:active{transform:scale(.9)}
+.gs-btn svg{width:17px;height:17px}
+[data-theme="light"] .gs-btn{background:var(--fill)!important;border-color:var(--accent-border)!important;color:var(--accent)!important}
+[data-theme="light"] .gs-btn:hover{background:var(--accent-soft)!important}
+
+
+
+</style>
+</head>
+<body>
+<nav class="top-nav">
+  <button class="nav-back-btn" id="navBackBtn" style="display:none; background:none; border:none; color:var(--accent); cursor:pointer; align-items:center; gap:6px; font-family:inherit; font-size:15px; font-weight:600; padding:10px 0; margin-right:12px; transition: opacity 0.2s;">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:block; flex-shrink:0;"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+    <span class="back-text">Retour</span>
+  </button>
+  <div class="nav-logo" id="logoBtn">&#xFDFD; Les Partisans</div>
+  <div class="nav-spacer"></div>
+  <!-- Global search trigger -->
+  <button class="gs-btn" id="gsOpenBtn" title="Recherche globale (Ctrl+K)" aria-label="Recherche globale">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+  </button>
+  <a class="nav-suggest" href="https://forms.gle/oDidSS3A6NTc2UrQA" target="_blank" rel="noopener" title="Suggestions &amp; retours">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </a>
+  <div class="theme-toggle" id="themeToggle" title="Changer de thème">
+    <div class="theme-opt active" id="themeDark" title="Mode sombre">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </div>
+    <div class="theme-opt" id="themeLight" title="Mode clair">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </div>
+  </div>
+</nav>
+
+<div class="home" id="homeScreen">
+  <div class="home-header">
+    <div class="home-ornament"></div>
+    <h1 class="home-title">Les <span>Partisans</span></h1>
+    <p class="home-subtitle">Ressources islamiques interactives</p>
+    <div class="home-verse" id="votd-container" style="display:none; text-align:center; max-width:1000px; width:100%; margin:24px auto 0; padding:24px; background:var(--bg-card); border:1px solid var(--accent-border); border-radius:16px; position:relative; overflow:hidden; box-shadow:0 8px 32px var(--shadow-card);">
+      <div style="position:absolute; top:-20px; left:-20px; opacity:0.04; font-family:'Scheherazade New', serif; font-size:120px; color:var(--accent); pointer-events:none;">&#xfdfd;</div>
+      <div style="font-size:11px; font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:var(--accent); margin-bottom:12px;">Verset du Jour</div>
+      <div id="votd-ar" style="font-family:'Scheherazade New', serif; font-size:2rem; color:var(--text); direction:rtl; margin-bottom:16px; line-height:1.5;"></div>
+      <div id="votd-fr" class="home-verse-text" style="font-size:1rem; color:var(--text-sub); line-height:1.6; margin-bottom:16px; font-style:italic;"></div>
+      <div style="display:flex; align-items:center; justify-content:center; gap:12px;">
+        <button id="votd-play" style="background:var(--accent-soft); border:1px solid var(--accent-border); color:var(--accent); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; transition:all 0.2s;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </button>
+        <div id="votd-ref" class="home-verse-ref" style="font-size:0.8rem; color:var(--text-faint); margin:0;"></div>
+      </div>
+      <audio id="votd-audio"></audio>
+    </div>
+  </div>
+
+  <script>
+    // Fetch Verse of the Day
+    (function(){
+      var cacheKey = 'quran_votd_date';
+      var dataKey = 'quran_votd_data';
+      var today = new Date().toISOString().split('T')[0];
+      
+      function renderVotd(data) {
+        var v = data.verse;
+        if(!v || !v.text_uthmani || !v.translations || !v.translations[0]) return;
+        document.getElementById('votd-ar').textContent = v.text_uthmani;
+        document.getElementById('votd-fr').textContent = '« ' + v.translations[0].text.replace(/<sup.*?<\/sup>/g, '') + ' »';
+        document.getElementById('votd-ref').textContent = 'Sourate ' + v.verse_key;
+        
+        var audioEl = document.getElementById('votd-audio');
+        var playBtn = document.getElementById('votd-play');
+        if(v.audio && v.audio.url) {
+          audioEl.src = 'https://verses.quran.com/' + v.audio.url;
+          playBtn.onclick = function() {
+            if(audioEl.paused) {
+              audioEl.play();
+              playBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
+            } else {
+              audioEl.pause();
+              playBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>';
+            }
+          };
+          audioEl.onended = function() {
+            playBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>';
+          };
+        } else {
+          playBtn.style.display = 'none';
+        }
+        document.getElementById('votd-container').style.display = 'block';
+      }
+
+      var cachedDate = localStorage.getItem(cacheKey);
+      if(cachedDate === today) {
+        try { renderVotd(JSON.parse(localStorage.getItem(dataKey))); } catch(e){}
+      } else {
+        fetch('https://api.quran.com/api/v4/verses/random?language=fr&translations=31&fields=text_uthmani&audio=7')
+          .then(res => res.json())
+          .then(data => {
+            localStorage.setItem(cacheKey, today);
+            localStorage.setItem(dataKey, JSON.stringify(data));
+            renderVotd(data);
+          })
+          .catch(err => console.error('VOTD fetch error:', err));
+      }
+    })();
+  </script>
+
+  <!-- RECHERCHE & FILTRES -->
+  <div class="search-section" id="searchSection">
+    <div class="search-bar">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+      <input class="search-input" id="searchInput" type="text" readonly="readonly" placeholder="Rechercher sur tout le site (ex: coran, imams, invocations...)">
+    </div>
+    <div class="filter-tags" id="filterTags">
+      <button class="filter-tag active" data-filter="all">Tout</button>
+      <button class="filter-tag" data-filter="chiisme">Le Chiisme</button>
+      <button class="filter-tag" data-filter="coran">Le Coran</button>
+      <button class="filter-tag" data-filter="histoire">Histoire</button>
+      <button class="filter-tag" data-filter="ahlulbayt">Ahl al-Bayt</button>
+      <button class="filter-tag" data-filter="invocations">Invocations</button>
+      <button class="filter-tag" data-filter="bibliotheque">Biblioth&#232;que</button>
+      <button class="filter-tag" data-filter="videos">Vid&#233;os</button>
+      <button class="filter-tag" data-filter="hadith">Hadiths</button>
+    </div>
+    <div class="search-count" id="searchCount"></div>
+  </div>
+
+  <div class="cards" id="cardsGrid">
+    <!-- Chiisme -->
+    <div class="card" id="card-chiisme" data-theme="chiisme" data-keywords="chiisme doctrine islam questions reponses histoire foi" onclick="openSubMenu('chiisme')">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="25" width="6" height="5" rx="2" fill="#c9a84c" fill-opacity="0.7"/><circle cx="18" cy="20" r="7" fill="#c9a84c" fill-opacity="0.25" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 18 Q10 12 18 11 Q26 12 26 18" fill="#c9a84c" fill-opacity="0.55" stroke="#c9a84c" stroke-width="1.2"/><path d="M10 18 Q11 15 18 14 Q25 15 26 18" stroke="#c9a84c" stroke-width="1" fill="none" opacity="0.8"/><path d="M11 16 Q12 13 18 12.5 Q24 13 25 16" stroke="#c9a84c" stroke-width="0.8" fill="none" opacity="0.6"/><path d="M13 13 Q18 8 23 13" stroke="#c9a84c" stroke-width="1.2" fill="#c9a84c" fill-opacity="0.4"/><path d="M25 16 Q28 18 27 22 Q26 24 24 24" stroke="#c9a84c" stroke-width="1.2" fill="none"/><path d="M8 31 Q10 26 15 25 L21 25 Q26 26 28 31" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.2"/></svg></div>
+      <div class="card-tag">D&#233;couverte &amp; Doctrine</div>
+      <div class="card-title">Qu'est-ce que le Chiisme ?</div>
+      <div class="card-desc">Histoire, doctrine, r&#233;ponses aux questions et fondements de l'islam chiite.</div>
+      <div class="card-footer"><span class="card-meta">Le Chiisme R&#233;pond &middot; Doctrine</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Coran -->
+    <div class="card" id="card-coran" data-theme="coran" data-keywords="coran quran verset trone sourate lecture traduction ayat que dit le coran justice societe traditions religion culte dogmatique" onclick="openSubMenu('coran')">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8 C4 8 11 7 17 9 L17 29 C11 27 4 28 4 28 Z" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><path d="M32 8 C32 8 25 7 19 9 L19 29 C25 27 32 28 32 28 Z" fill="#c9a84c" fill-opacity="0.3" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><line x1="18" y1="8" x2="18" y2="29" stroke="#c9a84c" stroke-width="2"/><line x1="7" y1="14" x2="15" y2="13" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="7" y1="18" x2="15" y2="17" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="7" y1="22" x2="15" y2="21" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="21" y1="13" x2="29" y2="14" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="21" y1="17" x2="29" y2="18" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/><line x1="21" y1="21" x2="29" y2="22" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/></svg></div>
+      <div class="card-tag">&#201;tude coranique</div>
+      <div class="card-title">Le Coran</div>
+      <div class="card-desc">&#201;tude du Coran, versets cl&#233;s, apprentissage du Verset du Tr&#244;ne et m&#233;ditation.</div>
+      <div class="card-footer"><span class="card-meta">Verset du Tr&#244;ne &middot; Audio &middot; &#201;tude</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Invocations -->
+    <div class="card" id="card-4" data-theme="invocations" data-keywords="invocations dua ziyara priere sahifa sajjadiyya ahl bayt">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="14" width="4" height="16" rx="1" fill="#c9a84c" fill-opacity="0.6" stroke="#c9a84c" stroke-width="0.8"/><path d="M4 14 Q6 10 8 14Z" fill="#c9a84c"/><rect x="28" y="14" width="4" height="16" rx="1" fill="#c9a84c" fill-opacity="0.6" stroke="#c9a84c" stroke-width="0.8"/><path d="M28 14 Q30 10 32 14Z" fill="#c9a84c"/><rect x="8" y="20" width="20" height="10" rx="1" fill="#c9a84c" fill-opacity="0.25" stroke="#c9a84c" stroke-width="1.2"/><path d="M10 20 Q18 8 26 20Z" fill="#c9a84c" fill-opacity="0.5" stroke="#c9a84c" stroke-width="1.2"/><path d="M15 30 L15 24 Q18 21 21 24 L21 30Z" fill="#c9a84c" fill-opacity="0.5" stroke="#c9a84c" stroke-width="0.8"/><line x1="3" y1="30" x2="33" y2="30" stroke="#c9a84c" stroke-width="1" opacity="0.4"/></svg></div>
+      <div class="card-tag">Invocations</div>
+      <div class="card-title">Du&#8217;&#x101; &amp; Ziy&#x101;ra</div>
+      <div class="card-desc">Invocations et visites pieuses de l'Ahl al-Bayt, tir&#233;es de la &#7778;a&#7717;&#299;fa as-Sajj&#257;diyya.</div>
+      <div class="card-footer"><span class="card-meta">As-&#7778;a&#7717;&#299;fa &middot; Ziy&#257;ra</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Hadiths -->
+    <div class="card" id="card-hadith" data-theme="hadith" data-keywords="hadith kisa couverture ahl bayt fatimah ali hasan husayn prophete" onclick="openSubMenu('hadith')">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 6 L28 6 C29 6 30 7 30 8 L30 28 C30 29 29 30 28 30 L8 30 C7 30 6 29 6 28 L6 8 C6 7 7 6 8 6Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 6 L10 30" stroke="#c9a84c" stroke-width="1.5"/><line x1="14" y1="12" x2="26" y2="12" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="16" x2="26" y2="16" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="20" x2="22" y2="20" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="24" x2="24" y2="24" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg></div>
+      <div class="card-tag">Hadiths</div>
+      <div class="card-title">Hadiths des Ahl al-Bayt</div>
+      <div class="card-desc">Hadiths majeurs de la tradition chiite : al-Kis&#226;', Thaqalayn et autres r&#233;cits fondateurs.</div>
+      <div class="card-footer"><span class="card-meta">Audio &middot; Arabe &middot; Fran&#231;ais</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Chronologie -->
+    <div class="card" id="card-1" data-theme="histoire" data-keywords="chronologie histoire frise reseau imams personnalites evenements">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="18" r="15" stroke="#c9a84c" stroke-width="1.5" fill="#c9a84c" fill-opacity="0.1"/><circle cx="18" cy="18" r="12" stroke="#c9a84c" stroke-width="0.6" fill="none" opacity="0.4"/><line x1="18" y1="5" x2="18" y2="8" stroke="#c9a84c" stroke-width="1.5"/><line x1="31" y1="18" x2="28" y2="18" stroke="#c9a84c" stroke-width="1.5"/><line x1="18" y1="31" x2="18" y2="28" stroke="#c9a84c" stroke-width="1.5"/><line x1="5" y1="18" x2="8" y2="18" stroke="#c9a84c" stroke-width="1.5"/><line x1="18" y1="18" x2="12" y2="12" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/><line x1="18" y1="18" x2="18" y2="8" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/><circle cx="18" cy="18" r="1.5" fill="#c9a84c"/></svg></div>
+      <div class="card-tag">Explorateur historique</div>
+      <div class="card-title">Chronologie &amp; R&#233;seau</div>
+      <div class="card-desc">Frise, r&#233;seau de personnalit&#233;s, Imams et th&#232;mes cl&#233;s.</div>
+      <div class="card-footer"><span class="card-meta">7 sections &middot; Zoom interactif</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Ahl al-Bayt -->
+    <div class="card" id="card-ahlulbayt" data-theme="ahlulbayt" data-keywords="14 infaillibles arbre genealogique imam ali fatima hassan hussein douze imams 12 biographie mahdi sajjad baqir sadiq kazim rida jawad hadi askari ahl bayt" onclick="openSubMenu('ahlulbayt')">
+      <div class="card-icon" style="font-family:Cinzel,serif;font-size:18px;font-weight:700;color:var(--accent);">&#1575;&#1607;&#1604;</div>
+      <div class="card-tag">Les Gens de la Maison</div>
+      <div class="card-title">Ahl al-Bayt</div>
+      <div class="card-desc">Les 14 Infaillibles, arbre g&#233;n&#233;alogique et biographies des 12 Imams.</div>
+      <div class="card-footer"><span class="card-meta">G&#233;n&#233;alogie &middot; Biographies &middot; Imams</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- 99 Noms d'Allah -->
+    <div class="card" id="card-16" data-theme="chiisme" data-keywords="noms allah 99 asma husna theologie dieu attributs">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="18" r="14" stroke="#c9a84c" stroke-width="1.2" fill="none"/><circle cx="18" cy="18" r="7" stroke="#c9a84c" stroke-width="0.8" fill="rgba(201,168,76,0.1)"/><circle cx="18" cy="18" r="2.5" fill="#c9a84c" fill-opacity="0.6"/></svg></div>
+      <div class="card-tag">Th&#233;ologie</div>
+      <div class="card-title">Les 99 Noms d'Allah</div>
+      <div class="card-desc">Les plus beaux Noms d'Allah (Asm&#226;' Allah al-Husn&#226;) selon la tradition, r&#233;v&#233;lant la grandeur et la mis&#233;ricorde du Cr&#233;ateur.</div>
+      <div class="card-footer"><span class="card-meta">99 Noms &middot; Asm&#226;' al-Husn&#226;</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Lucidité -->
+    <div class="card" id="card-resister" data-theme="chiisme" data-keywords="resister resistance dystopie surveillance islam orwell huxley bradbury ashura karbala hussein eveil conscience societe">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="16" r="10" stroke="#c9a84c" stroke-width="1.3" fill="none"/><circle cx="18" cy="16" r="5" stroke="#c9a84c" stroke-width="1" fill="rgba(201,168,76,0.15)"/><circle cx="18" cy="16" r="2" fill="#c9a84c" fill-opacity="0.7"/><path d="M10 28 Q18 24 26 28" stroke="#c9a84c" stroke-width="1.2" fill="none"/><line x1="18" y1="6" x2="18" y2="3" stroke="#c9a84c" stroke-width="1" opacity="0.5"/><line x1="26" y1="10" x2="28" y2="8" stroke="#c9a84c" stroke-width="1" opacity="0.5"/><line x1="10" y1="10" x2="8" y2="8" stroke="#c9a84c" stroke-width="1" opacity="0.5"/></svg></div>
+      <div class="card-tag">R&#233;flexion</div>
+      <div class="card-title">R&#233;sister</div>
+      <div class="card-desc">L'Islam face aux temps dystopiques. L'&#233;cole de Karbala comme fondement d'une r&#233;sistance lucide face au monde moderne.</div>
+      <div class="card-footer"><span class="card-meta">S&#233;rie d'articles &middot; &#703;&#256;sh&#363;r&#257;&#702;</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Bibliothèque -->
+    <div class="card soon" id="card-5" data-theme="bibliotheque" data-keywords="bibliotheque livres textes fiqh theologie spiritualite">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8 C4 8 11 7 17 9 L17 29 C11 27 4 28 4 28 Z" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><path d="M32 8 C32 8 25 7 19 9 L19 29 C25 27 32 28 32 28 Z" fill="#c9a84c" fill-opacity="0.3" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><line x1="18" y1="8" x2="18" y2="29" stroke="#c9a84c" stroke-width="2"/></svg></div>
+      <div class="card-tag">Biblioth&#232;que</div>
+      <div class="card-title">Biblioth&#232;que Islamique</div>
+      <div class="card-desc">Textes fondamentaux, fiqh, th&#233;ologie et spiritualit&#233; chiite.</div>
+      <div class="card-footer"><span class="card-meta">&#128197; Bient&#244;t</span><span class="soon-badge">&#192; venir</span></div>
+    </div>
+    <!-- Vidéos -->
+    <div class="card" id="card-6" data-theme="videos" data-keywords="videos conferences documentaires enseignements cours">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="7" width="22" height="22" rx="3" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3"/><path d="M24 14 L34 10 L34 26 L24 22 Z" fill="#c9a84c" fill-opacity="0.6" stroke="#c9a84c" stroke-width="1.2" stroke-linejoin="round"/></svg></div>
+      <div class="card-tag">Vid&#233;os</div>
+      <div class="card-title">Vid&#233;os</div>
+      <div class="card-desc">Conf&#233;rences, documentaires et enseignements islamiques.</div>
+      <div class="card-footer"><span class="card-meta">9 vid&#233;os &middot; YouTube</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+    <!-- Soutenir -->
+    <div class="card" id="card-soutenir" data-theme="all" data-keywords="don soutenir contribuer aide paypal revolut financement suggestions" onclick="document.getElementById('soutenir-overlay').classList.add('active')">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 30 C10 24 4 19 4 13 C4 9 7 6 11 6 C13.5 6 16 7.5 18 10 C20 7.5 22.5 6 25 6 C29 6 32 9 32 13 C32 19 26 24 18 30Z" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3"/></svg></div>
+      <div class="card-tag">Soutenir</div>
+      <div class="card-title">Soutenir le projet &#9749;</div>
+      <div class="card-desc">H&#233;bergement, IA, nuits blanches et caf&#233;ine. Chaque contribution compte.</div>
+      <div class="card-footer"><span class="card-meta">Revolut &middot; PayPal &middot; Suggestions</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+    </div>
+  </div>
+
+  <!-- SOUS-MENUS -->
+  <div class="submenu" id="submenu-chiisme" style="display:none">
+    <div class="submenu-header">
+      <button class="submenu-back" onclick="closeSubMenu()">&#8592; Retour</button>
+      <div class="submenu-title">Qu'est-ce que le Chiisme ?</div>
+    </div>
+    <div class="submenu-cards">
+      <div class="card" id="card-0">
+        <div class="card-icon"><svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 9C15 6.5 10 6 6 7v20c4-1 9-.5 12 2 3-2.5 8-3 12-2V7c-4-1-9-.5-12 2z" stroke="#c9a84c" stroke-width="1.4" stroke-linejoin="round" fill="#c9a84c" fill-opacity="0.12"/><path d="M18 9v20" stroke="#c9a84c" stroke-width="1.2"/><path d="M9 12h5M9 16h5M22 12h5M22 16h5" stroke="#c9a84c" stroke-width="0.9" opacity="0.6" stroke-linecap="round"/></svg></div>
+        <div class="card-tag">Livre interactif</div>
+        <div class="card-title">Le Chiisme R&#233;pond</div>
+        <div class="card-desc">36 questions et r&#233;ponses par Sayyid Rida Husayni Nasab.</div>
+        <div class="card-footer"><span class="card-meta">36 chapitres &middot; Mode sombre &amp; clair</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-7">
+        <div class="card-icon"><svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="9" width="14" height="19" rx="2" transform="rotate(-7 13 18)" stroke="#c9a84c" stroke-width="1.3" fill="#c9a84c" fill-opacity="0.1"/><rect x="15" y="8" width="15" height="20" rx="2" transform="rotate(6 22 18)" stroke="#c9a84c" stroke-width="1.3" fill="#c9a84c" fill-opacity="0.16"/><path d="M19 14l7-1.4M19.4 18l7-1.4" stroke="#c9a84c" stroke-width="0.9" opacity="0.6" stroke-linecap="round"/></svg></div>
+        <div class="card-tag">&#201;tude doctrinale</div>
+        <div class="card-title">Connaissance, Raison &amp; Foi</div>
+        <div class="card-desc">Les m&#233;rites de la connaissance et le r&#244;le central de la Raison dans la tradition chiite.</div>
+        <div class="card-footer"><span class="card-meta">&#703;Aql &middot; &#703;Ilm &middot; Jahl</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-9">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="18,3 21,14 33,14 23,21 27,32 18,25 9,32 13,21 3,14 15,14" fill="#c9a84c" fill-opacity="0.2" stroke="#c9a84c" stroke-width="1.3"/><circle cx="18" cy="18" r="5" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.6"/><circle cx="18" cy="18" r="2" fill="#c9a84c" fill-opacity="0.5"/></svg></div>
+        <div class="card-tag">Th&#233;ologie</div>
+        <div class="card-title">Us&#251;l al-D&#238;n &mdash; Fondements de la Foi</div>
+        <div class="card-desc">Les cinq piliers doctrinaux du chiisme : Tawh&#238;d, &#703;Adl, Nubuwwah, Im&#226;mah et Ma&#703;&#226;d.</div>
+        <div class="card-footer"><span class="card-meta">5 piliers &middot; Th&#233;ologie rationnelle</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-tawheed">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="18" r="14" stroke="#c9a84c" stroke-width="1.2" fill="none"/><circle cx="18" cy="18" r="7" stroke="#c9a84c" stroke-width="0.8" fill="rgba(201,168,76,0.1)"/><circle cx="18" cy="18" r="2.5" fill="#c9a84c" fill-opacity="0.6"/><line x1="18" y1="4" x2="18" y2="32" stroke="#c9a84c" stroke-width="0.5" opacity="0.3"/><line x1="4" y1="18" x2="32" y2="18" stroke="#c9a84c" stroke-width="0.5" opacity="0.3"/></svg></div>
+        <div class="card-tag">Th&#233;ologie</div>
+        <div class="card-title">Al-Tawḥīd — L'Unicit&#233; Divine</div>
+        <div class="card-desc">L'Essence de Dieu, Ses Attributs, Sa Justice, la pr&#233;destination et le libre arbitre dans la tradition de l'Ahl al-Bayt.</div>
+        <div class="card-footer"><span class="card-meta">Tawḥīd &middot; &#703;Adl &middot; Qaḍā&#703;</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-nubuwwa">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 4 L22 14 L18 12 L14 14 Z" fill="#c9a84c" fill-opacity="0.3" stroke="#c9a84c" stroke-width="1"/><line x1="18" y1="14" x2="18" y2="32" stroke="#c9a84c" stroke-width="1.2"/><circle cx="12" cy="26" r="3" stroke="#c9a84c" stroke-width="0.8" fill="rgba(201,168,76,0.08)"/><circle cx="24" cy="26" r="3" stroke="#c9a84c" stroke-width="0.8" fill="rgba(201,168,76,0.08)"/><circle cx="18" cy="20" r="3" stroke="#c9a84c" stroke-width="0.8" fill="rgba(201,168,76,0.15)"/></svg></div>
+        <div class="card-tag">Th&#233;ologie</div>
+        <div class="card-title">La Proph&#233;tie et l'Imamat (Al-Nubuwwa wa-l-Im&#257;mah)</div>
+        <div class="card-desc">La n&#233;cessit&#233; de la Proph&#233;tie, l'infaillibilit&#233;, le Sceau des Proph&#232;tes, l'Imamat, les Douze Imams et l'Imam al-Mahdī (a).</div>
+        <div class="card-footer"><span class="card-meta">Nubuwwa &middot; Imāmah &middot; Mahdī</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="submenu" id="submenu-coran" style="display:none">
+    <div class="submenu-header">
+      <button class="submenu-back" onclick="closeSubMenu()">&#8592; Retour</button>
+      <div class="submenu-title">Le Coran</div>
+    </div>
+    <div class="submenu-cards">
+      <div class="card" id="card-2">
+        <div class="card-icon"><svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 5l2.4 8.1 8.1 2.4-8.1 2.4L18 26l-2.4-8.1L7.5 15.5l8.1-2.4z" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round" fill="#c9a84c" fill-opacity="0.14"/><path d="M27 6l.9 2.6 2.6.9-2.6.9L27 13l-.9-2.6-2.6-.9 2.6-.9z" fill="#c9a84c" fill-opacity="0.5" stroke="#c9a84c" stroke-width="0.7" stroke-linejoin="round"/></svg></div>
+        <div class="card-tag">Lecture &amp; Apprentissage</div>
+        <div class="card-title">Verset du Tr&#244;ne</div>
+        <div class="card-desc">Ayat al-Kursi &#8212; lecture, &#233;coute audio, flashcards, quiz et reconstitution mot par mot.</div>
+        <div class="card-footer"><span class="card-meta">V.255&#8211;257 &middot; Audio &middot; Quiz</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-8">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 C4 6 11 5 18 8 L18 30 C11 27 4 28 4 28 Z" fill="#c9a84c" fill-opacity="0.25" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><path d="M32 6 C32 6 25 5 18 8 L18 30 C25 27 32 28 32 28 Z" fill="#c9a84c" fill-opacity="0.35" stroke="#c9a84c" stroke-width="1.3" stroke-linejoin="round"/><line x1="18" y1="8" x2="18" y2="30" stroke="#c9a84c" stroke-width="1.5"/><circle cx="18" cy="16" r="4" stroke="#c9a84c" stroke-width="1" fill="none" opacity="0.6"/><line x1="18" y1="12" x2="18" y2="20" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="16" x2="22" y2="16" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg></div>
+        <div class="card-tag">Lecture int&#233;grale</div>
+        <div class="card-title">Lire le Coran</div>
+        <div class="card-desc">Traduction fran&#231;aise int&#233;grale par le Dr Abolqasemi Fakhri &#8212; 114 sourates, navigation par verset.</div>
+        <div class="card-footer"><span class="card-meta">114 sourates &middot; 6236 versets</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-que-dit-le-coran">
+        <div class="card-icon"><svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 9C15 6.5 10 6 6 7v20c4-1 9-.5 12 2 3-2.5 8-3 12-2V7c-4-1-9-.5-12 2z" stroke="#c9a84c" stroke-width="1.4" stroke-linejoin="round" fill="#c9a84c" fill-opacity="0.12"/><path d="M18 9v20" stroke="#c9a84c" stroke-width="1.2"/><path d="M24.2 14.4c0-1.5 1.2-2.6 2.8-2.6s2.8 1 2.8 2.4c0 2.2-2.8 1.9-2.8 3.8" stroke="#c9a84c" stroke-width="1.1" stroke-linecap="round"/><circle cx="27" cy="21.4" r="0.8" fill="#c9a84c"/></svg></div>
+        <div class="card-tag">Étude thématique</div>
+        <div class="card-title">Que dit le Coran ?</div>
+        <div class="card-desc">Une exploration thématique et méthodique du texte coranique : questions juridiques, de société, de croyances et traditions.</div>
+        <div class="card-footer"><span class="card-meta">6 parties &middot; Guide thématique</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-radio">
+        <div class="card-icon"><svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="14" width="28" height="16" rx="3" stroke="#c9a84c" stroke-width="1.3" fill="#c9a84c" fill-opacity="0.1"/><circle cx="24" cy="22" r="4.2" stroke="#c9a84c" stroke-width="1.3" fill="#c9a84c" fill-opacity="0.12"/><circle cx="24" cy="22" r="1.4" fill="#c9a84c"/><path d="M9 14l14-7.5" stroke="#c9a84c" stroke-width="1.3" stroke-linecap="round"/><circle cx="10.5" cy="20" r="1.4" fill="#c9a84c"/><path d="M9 24h4" stroke="#c9a84c" stroke-width="1.1" stroke-linecap="round"/></svg></div>
+        <div class="card-tag">Diffusion 24h/24</div>
+        <div class="card-title">Radio Coranique</div>
+        <div class="card-desc">&#201;coutez des r&#233;citations coraniques en direct par des r&#233;citeurs du monde entier.</div>
+        <div class="card-footer"><span class="card-meta">Radio live &middot; Direct</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="submenu" id="submenu-hadith" style="display:none">
+    <div class="submenu-header">
+      <button class="submenu-back" onclick="closeSubMenu()">&#8592; Retour</button>
+      <div class="submenu-title">Hadiths des Ahl al-Bayt</div>
+    </div>
+    <div class="submenu-cards">
+      <div class="card" id="card-10">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 6 L28 6 C29 6 30 7 30 8 L30 28 C30 29 29 30 28 30 L8 30 C7 30 6 29 6 28 L6 8 C6 7 7 6 8 6Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 6 L10 30" stroke="#c9a84c" stroke-width="1.5"/><line x1="14" y1="12" x2="26" y2="12" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="16" x2="26" y2="16" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><line x1="14" y1="20" x2="22" y2="20" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg></div>
+        <div class="card-tag">Hadith sacr&#233;</div>
+        <div class="card-title">Hadith al-Kis&#226;'</div>
+        <div class="card-desc">Le Hadith de la Couverture — Arabe, translitt&#233;ration et traduction fran&#231;aise, avec audio.</div>
+        <div class="card-footer"><span class="card-meta">Audio &middot; Trilingue &middot; Coran 33:33</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-17">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 C6 8 8 6 10 6 L26 6 C28 6 30 8 30 10 L30 26 C30 28 28 30 26 30 L10 30 C8 30 6 28 6 26 Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 12 L26 12" stroke="#c9a84c" stroke-width="1.5"/><path d="M10 18 L26 18" stroke="#c9a84c" stroke-width="1.5"/><path d="M10 24 L20 24" stroke="#c9a84c" stroke-width="1.5"/></svg></div>
+        <div class="card-tag">Livre / Sommaire</div>
+        <div class="card-title">L'Aune de la Sagesse</div>
+        <div class="card-desc">Mizan al-Hikmah — Encyclop&#233;die th&#233;matique de hadiths du Proph&#232;te (s) et des Ahl al-Bayt (a).</div>
+        <div class="card-footer"><span class="card-meta">Anthologie th&#233;matique &middot; M. Reyshahri</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="submenu" id="submenu-ahlulbayt" style="display:none">
+    <div class="submenu-header">
+      <button class="submenu-back" onclick="closeSubMenu()">&#8592; Retour</button>
+      <div class="submenu-title">Ahl al-Bayt</div>
+    </div>
+    <div class="submenu-cards">
+      <div class="card" id="card-3">
+        <div class="card-icon" style="font-family:Cinzel,serif;font-size:22px;font-weight:700;color:var(--accent);">14</div>
+        <div class="card-tag">G&#233;n&#233;alogie</div>
+        <div class="card-title">Les 14 Infaillibles</div>
+        <div class="card-desc">Arbre g&#233;n&#233;alogique interactif des 14 Infaillibles et leurs compagnons.</div>
+        <div class="card-footer"><span class="card-meta">Pannable &middot; Zoomable &middot; D&#233;tails</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+      <div class="card" id="card-12">
+        <div class="card-icon" style="font-family:Cinzel,serif;font-size:22px;font-weight:700;color:var(--accent);">12</div>
+        <div class="card-tag">Biographies</div>
+        <div class="card-title">Les Douze Imams</div>
+        <div class="card-desc">Biographies d&#233;taill&#233;es des 12 Imams : naissance, martyre, lieu de s&#233;pulture et r&#244;le historique.</div>
+        <div class="card-footer"><span class="card-meta">12 biographies &middot; Fiches d&#233;taill&#233;es</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
+    </div>
+  </div>
+</div><!-- fin .home -->
+
+<!-- IFRAMES — position:fixed, hors du flux, hors de tout conteneur -->
+<div class="iframe-wrap" id="frame0"><div class="loader" id="loader0"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe0"></iframe></div>
+<div class="iframe-wrap" id="frame1"><div class="loader" id="loader1"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe1"></iframe></div>
+<div class="iframe-wrap" id="frame2"><div class="loader" id="loader2"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe2"></iframe></div>
+<div class="iframe-wrap" id="frame3"><div class="loader" id="loader3"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe3"></iframe></div>
+<div class="iframe-wrap" id="frame4"><div class="loader" id="loader4"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe4"></iframe></div>
+<div class="iframe-wrap" id="frame5"><div class="loader" id="loader5"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe5"></iframe></div>
+<div class="iframe-wrap" id="frame6"><div class="loader" id="loader6"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe6"></iframe></div>
+<div class="iframe-wrap" id="frame7"><div class="loader" id="loader7"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe7"></iframe></div>
+<div class="iframe-wrap" id="frame8"><div class="loader" id="loader8"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe8"></iframe></div>
+<div class="iframe-wrap" id="frame9"><div class="loader" id="loader9"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe9"></iframe></div>
+<div class="iframe-wrap" id="frame10"><div class="loader" id="loader10"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe10"></iframe></div>
+<div class="iframe-wrap" id="frame11"><div class="loader" id="loader11"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe11"></iframe></div>
+<div class="iframe-wrap" id="frame12"><div class="loader" id="loader12"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe12"></iframe></div>
+<div class="iframe-wrap" id="frame13"><div class="loader" id="loader13"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe13"></iframe></div>
+<div class="iframe-wrap" id="frame14"><div class="loader" id="loader14"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe14"></iframe></div>
+<div class="iframe-wrap" id="frame15"><div class="loader" id="loader15"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe15"></iframe></div>
+<div class="iframe-wrap" id="frame16"><div class="loader" id="loader16"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe16"></iframe></div>
+<div class="iframe-wrap" id="frame17"><div class="loader" id="loader17"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe17"></iframe></div>
+<div class="iframe-wrap" id="frame18"><div class="loader" id="loader18"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe18"></iframe></div>
+<div class="iframe-wrap" id="frame19"><div class="loader" id="loader19"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe19"></iframe></div>
+
+<script>
+(function(){
+  var MODULES = [
+    "chiisme-repond.html",
+    "chronologie.html",
+    "verset-trone.html",
+    "arbre-genealogique.html",
+    "invocations.html",
+    "bibliotheque.html",
+    "videos.html",
+    "article-connaissance.html",
+    "coran-lecture.html",
+    "usul-al-din.html",
+    "hadith-kisa.html",
+    "verset-apprentissage.html",
+    "douze-imams.html",
+    "tawheed.html",
+    "nubuwwa.html",
+    "resister.html",
+    "99-noms.html",
+    "aune-sagesse.html",
+    "radio.html",
+    "que-dit-le-coran.html"
+  ];
+  var N = MODULES.length;
+  var loaded = new Array(N).fill(false);
+
+  /* ── Fermer tous les iframes ── */
+  function hideAllFrames() {
+    for (var i = 0; i < N; i++) document.getElementById('frame' + i).classList.remove('active');
+    document.body.classList.remove('iframe-active');
+  }
+
+  /* ── Fermer les sous-menus et réafficher les cartes ── */
+  function closeAllSubMenus() {
+    document.querySelectorAll('.submenu').forEach(function(s){ s.style.display = 'none'; });
+    var g = document.getElementById('cardsGrid');
+    if (g) g.style.display = 'grid';
+  }
+
+  var _fromPop = false;
+
+  /* ── ACCUEIL ── */
+  function home() {
+    hideAllFrames();
+    closeAllSubMenus();
+    var hs = document.getElementById('homeScreen');
+    hs.style.display = '';
+    hs.classList.remove('in-submenu');
+    var nbb = document.getElementById('navBackBtn');
+    if (nbb) nbb.style.display = 'none';
+    var si = document.getElementById('searchInput');
+    if (si) si.value = '';
+    document.querySelectorAll('#cardsGrid .card').forEach(function(c){ c.classList.remove('search-hidden'); });
+    document.querySelectorAll('.filter-tag').forEach(function(t){ t.classList.remove('active'); });
+    var allTag = document.querySelector('.filter-tag[data-filter="all"]');
+    if (allTag) allTag.classList.add('active');
+    var sc = document.getElementById('searchCount');
+    if (sc) sc.textContent = '';
+    var nr = document.getElementById('noResults');
+    if (nr) nr.style.display = 'none';
+    window.scrollTo(0, 0);
+    if (!_fromPop) try{history.pushState({page:'home'}, '', '#')}catch(e){};
+  }
+
+  /* ── Ouvrir un module dans un iframe ── */
+  function openModule(idx, innerState) {
+    document.getElementById('homeScreen').style.display = 'none';
+    hideAllFrames();
+    document.getElementById('frame' + idx).classList.add('active');
+    document.body.classList.add('iframe-active');
+    var nbb = document.getElementById('navBackBtn');
+    if (nbb) nbb.style.display = 'flex';
+    
+    var src = MODULES[idx] + '?v=' + Date.now() + (innerState ? '#' + innerState : '');
+
+    if (!loaded[idx]) {
+      loaded[idx] = true;
+      var iframe = document.getElementById('iframe' + idx);
+      iframe.addEventListener('load', function() {
+        var l = document.getElementById('loader' + idx);
+        if (l) l.classList.add('done');
+        var t = document.documentElement.getAttribute('data-theme') || 'dark';
+        try { iframe.contentWindow.postMessage({type:'theme',theme:t}, '*'); } catch(e) {}
+      }, { once: true });
+      iframe.src = src;
+    } else {
+      var iframe = document.getElementById('iframe' + idx);
+      if (innerState && iframe.contentWindow) {
+         try { iframe.contentWindow.location.hash = innerState; } catch(e) {}
+      }
+    }
+    if (!_fromPop) {
+      try { history.pushState({page:'module', idx:idx, innerState:innerState||''}, '', '#m' + idx + (innerState ? ':' + innerState : '')); } catch(e){}
+    }
+  }
+  window.openModule = openModule;
+
+  /* ── Ouvrir un sous-menu thématique ── */
+  window.openSubMenu = function(id) {
+    hideAllFrames();
+    var hs = document.getElementById('homeScreen');
+    hs.style.display = '';
+    hs.classList.add('in-submenu');
+    document.getElementById('cardsGrid').style.display = 'none';
+    document.querySelectorAll('.submenu').forEach(function(s){ s.style.display = 'none'; });
+    document.getElementById('submenu-' + id).style.display = 'block';
+    window.scrollTo(0, 0);
+    if (!_fromPop) try{history.pushState({page:'submenu',id:id}, '', '#' + id)}catch(e){};
+  };
+
+  /* ── Fermer un sous-menu ── */
+  window.closeSubMenu = function() {
+    home();
+  };
+
+  /* ── Bouton retour du navigateur ── */
+  window.addEventListener('popstate', function(e) {
+    _fromPop = true;
+    var s = e.state;
+    if (s && s.page === 'module') {
+      openModule(s.idx, s.innerState);
+    } else if (s && s.page === 'submenu') {
+      openSubMenu(s.id);
+    } else {
+      home();
+    }
+    _fromPop = false;
+  });
+
+  function handleInitialLoad() {
+    var hash = window.location.hash;
+    if (hash.startsWith('#m')) {
+      var parts = hash.substring(2).split(':');
+      var idx = parseInt(parts[0], 10);
+      var innerState = parts.slice(1).join(':'); /* #m8:36:12 → « 36:12 » (verset), pas seulement « 36 » */
+      if (!isNaN(idx) && idx >= 0 && idx < MODULES.length) {
+        _fromPop = true;
+        openModule(idx, innerState);
+        _fromPop = false;
+        try{history.replaceState({page:'module',idx:idx, innerState:innerState}, '', hash)}catch(e){};
+        return;
+      }
+    } else if (hash.length > 1) {
+      var id = hash.substring(1);
+      if (document.getElementById('submenu-' + id)) {
+        _fromPop = true;
+        openSubMenu(id);
+        _fromPop = false;
+        try{history.replaceState({page:'submenu',id:id}, '', hash)}catch(e){};
+        return;
+      }
+    }
+    try{history.replaceState({page:'home'}, '', '#')}catch(e){};
+  }
+  handleInitialLoad();
+
+  /* ── Câblage : Logo ── */
+  document.getElementById('logoBtn').addEventListener('click', home);
+  document.getElementById('navBackBtn').addEventListener('click', home);
+  
+  /* ── Synchronisation de l'état interne (Deep Linking) ── */
+  window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'nav') {
+      var hash = window.location.hash;
+      if (hash.startsWith('#m')) {
+        var idx = parseInt(hash.substring(2).split(':')[0], 10);
+        if (!isNaN(idx)) {
+           try { history.replaceState({page:'module', idx:idx, innerState:e.data.state}, '', '#m' + idx + ':' + e.data.state); } catch(ex){}
+        }
+      }
+    }
+  });
+
+  /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16, 17:17, 'radio':18, 'que-dit-le-coran':19};
+  Object.keys(cardModules).forEach(function(cardId){
+    var el = document.getElementById('card-' + cardId);
+    if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId], ''); });
+  });
+  /* ── Recherche Fuse.js (fuzzy) & Filtres ── */
+  var searchInput = document.getElementById('searchInput');
+  var filterTags = document.querySelectorAll('.filter-tag');
+  var cards = document.querySelectorAll('#cardsGrid .card');
+  var searchCount = document.getElementById('searchCount');
+  var activeFilter = 'all';
+
+  function normalize(str) {
+    return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  /* Build Fuse index */
+  var fuseData = [];
+  cards.forEach(function(card, i) {
+    fuseData.push({
+      idx: i,
+      el: card,
+      theme: card.getAttribute('data-theme') || '',
+      text: normalize((card.getAttribute('data-keywords') || '') + ' ' + card.textContent)
+    });
+  });
+  var fuse = new Fuse(fuseData, {
+    keys: ['text'],
+    threshold: 0.35,
+    distance: 200,
+    minMatchCharLength: 2,
+    ignoreLocation: true
+  });
+
+  function applyFilters() {
+    var visible = 0;
+    fuseData.forEach(function(d) {
+      var matchTheme = activeFilter === 'all' || d.theme === activeFilter;
+      if (matchTheme) {
+        d.el.classList.remove('search-hidden');
+        visible++;
+      } else {
+        d.el.classList.add('search-hidden');
+      }
+    });
+
+    if (activeFilter !== 'all') {
+      searchCount.textContent = visible + ' élément' + (visible !== 1 ? 's' : '');
+    } else {
+      searchCount.textContent = '';
+    }
+
+    var noRes = document.getElementById('noResults');
+    if (visible === 0 && activeFilter !== 'all') {
+      if (!noRes) {
+        noRes = document.createElement('div');
+        noRes.id = 'noResults';
+        noRes.className = 'no-results';
+        document.getElementById('cardsGrid').appendChild(noRes);
+      }
+      noRes.textContent = 'Aucun élément dans cette catégorie.';
+      noRes.style.display = '';
+    } else if (noRes) {
+      noRes.style.display = 'none';
+    }
+  }
+
+  // The main search input now acts as a trigger for the Global Search Overlay
+  var sb = document.querySelector('.search-bar');
+  if (sb) {
+    sb.addEventListener('click', function() {
+      window.postMessage({type:'gs-open'}, '*');
+    });
+  }
+  searchInput.addEventListener('focus', function() {
+    searchInput.blur();
+    window.postMessage({type:'gs-open'}, '*');
+  });
+  searchInput.addEventListener('click', function() {
+    window.postMessage({type:'gs-open'}, '*');
+  });
+
+  filterTags.forEach(function(tag) {
+    tag.addEventListener('click', function() {
+      filterTags.forEach(function(t) { t.classList.remove('active'); });
+      tag.classList.add('active');
+      activeFilter = tag.getAttribute('data-filter');
+      applyFilters();
+    });
+  });
+
+  /* ── Thème clair/sombre ── */
+  var themeDarkBtn = document.getElementById('themeDark');
+  var themeLightBtn = document.getElementById('themeLight');
+  function setTheme(t) {
+    if (t === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+      themeLightBtn.classList.add('active');
+      themeDarkBtn.classList.remove('active');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      themeDarkBtn.classList.add('active');
+      themeLightBtn.classList.remove('active');
+    }
+    try { localStorage.setItem('theme', t); } catch(e) {}
+  }
+  // Restore saved theme
+  try {
+    var saved = localStorage.getItem('theme');
+    if (saved === 'light') setTheme('light');
+  } catch(e) {}
+  function sendThemeToIframes(t) {
+    for (var i = 0; i < N; i++) {
+      var ifr = document.getElementById('iframe' + i);
+      if (ifr && ifr.contentWindow) {
+        try { ifr.contentWindow.postMessage({type:'theme',theme:t}, '*'); } catch(e) {}
+      }
+    }
+  }
+  themeLightBtn.addEventListener('click', function() {
+    setTheme('light');
+    sendThemeToIframes('light');
+  });
+  themeDarkBtn.addEventListener('click', function() {
+    setTheme('dark');
+    sendThemeToIframes('dark');
+  });
+})();
+</script>
+
+<!-- ══ Nav bar materialize on scroll (iOS large-title behaviour) ══ -->
+<script>
+(function(){
+  var nav=document.querySelector('.top-nav');
+  if(!nav)return;
+  function update(){nav.classList.toggle('scrolled',window.scrollY>8);}
+  window.addEventListener('scroll',update,{passive:true});
+  window.addEventListener('resize',update,{passive:true});
+  update();
+})();
+</script>
+
+<!-- ══ Soutenir le projet — Overlay (iOS sheet) ══ -->
+<style>
+.soutenir-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .3s;backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%)}
+.soutenir-overlay.active{opacity:1;pointer-events:all}
+.soutenir-panel{background:var(--bg-card);border:1px solid var(--card-border);border-radius:24px;max-width:520px;width:100%;max-height:88vh;overflow-y:auto;padding:36px 32px;position:relative;transform:translateY(24px) scale(.98);transition:transform .45s var(--ease-out-quint);box-shadow:0 24px 64px rgba(0,0,0,0.5)}
+.soutenir-overlay.active .soutenir-panel{transform:translateY(0) scale(1)}
+.soutenir-close{position:absolute;top:16px;right:16px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;background:var(--fill);border:none;border-radius:50%;color:var(--text-sub);font-size:18px;line-height:1;cursor:pointer;transition:background .2s,transform .3s var(--ease-ios)}
+.soutenir-close:hover{background:var(--fill-strong)}
+.soutenir-close:active{transform:scale(.9)}
+.soutenir-title{font-family:'Cinzel',serif;font-size:1.35rem;font-weight:700;color:var(--text);text-align:center;margin-bottom:6px}
+.soutenir-subtitle{font-size:.95rem;color:var(--text-faint);text-align:center;font-style:italic;margin-bottom:24px}
+.soutenir-text{font-size:1rem;color:var(--text-sub);line-height:1.7;margin-bottom:16px;text-wrap:pretty}
+.soutenir-text strong{color:var(--accent);font-weight:600}
+.soutenir-text em{color:var(--text-dim)}
+.soutenir-divider{width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);margin:22px auto}
+.soutenir-section{font-size:.8rem;font-weight:600;letter-spacing:.02em;color:var(--accent);margin:24px 0 12px}
+.soutenir-btn{display:flex;align-items:center;gap:12px;width:100%;padding:14px 16px;background:var(--fill);border:1px solid var(--card-border);border-radius:14px;color:var(--text);font-family:inherit;font-size:1rem;cursor:pointer;transition:transform .3s var(--ease-ios),background .2s,border-color .2s;text-decoration:none;margin-bottom:10px}
+.soutenir-btn:hover{background:var(--fill-strong);border-color:var(--card-border-hover)}
+.soutenir-btn:active{transform:scale(.98)}
+.soutenir-btn-icon{font-size:1.4rem;flex-shrink:0}
+.soutenir-btn-label strong{color:var(--accent)}
+.soutenir-btn-label{display:flex;flex-direction:column}
+.soutenir-btn-sub{font-size:.82rem;color:var(--text-faint)}
+</style>
+
+<div class="soutenir-overlay" id="soutenir-overlay" onclick="if(event.target===this)this.classList.remove('active')">
+<div class="soutenir-panel">
+<button class="soutenir-close" onclick="document.getElementById('soutenir-overlay').classList.remove('active')">&times;</button>
+<div class="soutenir-title">Soutenir le projet &#9749;</div>
+<div class="soutenir-subtitle">Biblioth&#232;que Chiite</div>
+
+<div class="soutenir-text">Ce projet est n&#233; d'une conviction simple : <strong>le savoir islamique chiite m&#233;rite d'&#234;tre accessible, structur&#233; et beau</strong>. Chaque article, chaque invocation, chaque outil de ce portail est con&#231;u b&#233;n&#233;volement, entre les pri&#232;res et les nuits blanches.</div>
+
+<div class="soutenir-text">Mais un nom, m&#234;me cach&#233;, a des co&#251;ts bien r&#233;els : <strong>h&#233;bergement du site</strong>, <strong>abonnements aux outils d'intelligence artificielle</strong> qui aident &#224; la recherche et &#224; la r&#233;daction, <strong>ressources documentaires</strong>, et — soyons honn&#234;tes — une quantit&#233; franchement d&#233;raisonnable de <strong>caf&#233;ine</strong> pour tenir le rythme des sessions nocturnes. &#9749;</div>
+
+<div class="soutenir-text"><em>Pourquoi un nom est important ?</em> Parce qu'un projet sans identit&#233; est un projet sans continuit&#233;. Le nom « Biblioth&#232;que Chiite » n'est pas une marque — c'est un <strong>engagement</strong>. C'est la promesse que ce contenu restera en ligne, sera mis &#224; jour, s'enrichira. Un nom, c'est ce qui permet &#224; quelqu'un de revenir, de partager, de dire &#224; un proche : <em>&#171; va voir l&#224;-bas, c'est fiable &#187;</em>. Et c'est ce qui vous permet, &#224; vous, de savoir exactement &#224; qui vous confiez votre soutien.</div>
+
+<div class="soutenir-divider"></div>
+
+<div class="soutenir-section">&#128156; Faire un don</div>
+<a class="soutenir-btn" href="https://revolut.me/ramidkh" target="_blank" rel="noopener">
+<span class="soutenir-btn-icon">&#128154;</span>
+<span class="soutenir-btn-label"><strong>Revolut — 0 % de frais</strong><span class="soutenir-btn-sub">Transfert gratuit entre utilisateurs Revolut, Google Pay et Apple Pay accept&#233;s</span></span>
+</a>
+<a class="soutenir-btn" href="https://www.paypal.com/paypalme/ramidak" target="_blank" rel="noopener">
+<span class="soutenir-btn-icon">&#128179;</span>
+<span class="soutenir-btn-label"><strong>PayPal — Don libre</strong><span class="soutenir-btn-sub">Montant libre, via votre compte PayPal ou carte bancaire</span></span>
+</a>
+<div class="soutenir-text" style="font-size:0.92rem;background:rgba(201,168,76,0.04);border:1px solid rgba(201,168,76,0.1);border-radius:8px;padding:14px 16px;margin-top:6px"><strong>&#9432; Conseil :</strong> <strong>Revolut</strong> est l'option la plus avantageuse — <strong>0 % de frais</strong> entre utilisateurs. Pour <strong>PayPal</strong>, choisissez <strong>&#171; Envoyer de l'argent &#224; un proche &#187;</strong> (<em>Send to a friend</em>) afin d'&#233;viter la commission d'environ 3 %.</div>
+
+<div class="soutenir-section">&#128172; Avez-vous des suggestions ?</div>
+<a class="soutenir-btn" href="https://forms.gle/oDidSS3A6NTc2UrQA" target="_blank" rel="noopener">
+<span class="soutenir-btn-icon">&#128172;</span>
+<span class="soutenir-btn-label"><strong>Donnez votre avis</strong><span class="soutenir-btn-sub">Suggestions, id&#233;es, signalement de bugs — tout est bienvenu</span></span>
+</a>
+
+<div class="soutenir-text" style="margin-top:20px;font-size:0.92rem;text-align:center;color:#7a6a4a">Qu'Allah r&#233;compense chaque contribution, qu'elle soit financi&#232;re, intellectuelle ou spirituelle.<br><em>&#171; Quiconque guide vers un bien re&#231;oit la r&#233;compense de celui qui l'accomplit. &#187;</em></div>
+</div>
+</div>
+
+<!-- GLOBAL SEARCH OVERLAY -->
+<style>
+.gs-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:10000;display:flex;justify-content:center;padding:8vh 16px 16px;opacity:0;pointer-events:none;transition:opacity .22s;backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%)}
+.gs-overlay.open{opacity:1;pointer-events:all}
+.gs-box{width:min(640px,100%);align-self:flex-start;background:var(--bg-card);border:1px solid var(--card-border);border-radius:20px;display:flex;flex-direction:column;max-height:82vh;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,0.5)}
+.gs-input-wrap{display:flex;align-items:center;padding:14px 18px;border-bottom:1px solid var(--separator);gap:12px}
+.gs-input-wrap svg{width:20px;height:20px;color:var(--text-dim);flex-shrink:0}
+.gs-input{flex:1;background:none;border:none;color:var(--text);font-family:inherit;font-size:1.1rem;outline:none}
+.gs-input::placeholder{color:var(--text-dim)}
+.gs-esc{font-size:11px;color:var(--text-faint);background:var(--fill);border:1px solid var(--separator);padding:3px 8px;border-radius:6px;cursor:pointer;white-space:nowrap;transition:color .15s}
+.gs-esc:hover{color:var(--text-sub)}
+.gs-meta{padding:8px 18px;font-size:.8rem;color:var(--text-faint);display:flex;justify-content:space-between}
+.gs-results{overflow-y:auto;padding:6px;scrollbar-width:thin;scrollbar-color:var(--scrollbar-thumb) transparent}
+.gs-results::-webkit-scrollbar{width:5px}
+.gs-results::-webkit-scrollbar-thumb{background:var(--scrollbar-thumb);border-radius:4px}
+.gs-group-label{padding:12px 14px 4px;font-size:12px;font-weight:600;color:var(--text-faint);letter-spacing:0}
+.gs-item{display:flex;align-items:flex-start;padding:11px 14px;cursor:pointer;gap:14px;border-radius:12px;transition:background .15s}
+.gs-item:hover,.gs-item.active{background:var(--accent-soft)}
+.gs-item-icon{font-size:1.1rem;flex-shrink:0;margin-top:1px}
+.gs-item-body{flex:1;min-width:0}
+.gs-item-type{font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--accent);margin-bottom:2px}
+.gs-item-title{color:var(--text);font-size:15px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gs-item-excerpt{font-size:13px;color:var(--text-faint);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gs-hl{background:var(--accent-soft);color:var(--accent);border-radius:3px;padding:0 2px;font-weight:600}
+.gs-empty{padding:44px 20px;text-align:center;color:var(--text-faint);font-size:14px}
+</style>
+
+<div class="gs-overlay" id="gsOverlay" role="dialog" aria-modal="true" aria-label="Recherche globale">
+  <div class="gs-box">
+    <div class="gs-input-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+      <input class="gs-input" id="gsInput" type="text" placeholder="Rechercher sur tout le site..." autocomplete="off" spellcheck="false">
+      <span class="gs-esc" id="gsClose">Esc</span>
+    </div>
+    <div class="gs-meta">
+      <span id="gsCount"></span>
+      <span id="gsHint">Tapez au moins 2 caractères</span>
+    </div>
+    <div class="gs-results" id="gsResults" role="listbox"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var TYPE_ICONS = {
+    'Chiisme Répond': '❓',
+    'Aune de la Sagesse': '📜',
+    'Les 12 Imams': '✦',
+    'Invocations': '🤲',
+    '99 Noms': '☪',
+    'Connaissance & Raison': '🔬',
+    'Usul al-Din': '⭐',
+    'Al-Tawhid': '🌙',
+    'Al-Nubuwwa': '📿',
+    'Résister': '✊',
+    "Hadith al-Kisa'": '📖',
+    'Chronologie': '📅',
+    'Verset du Trône': '✨',
+    'Al-Nubuwwa & Imāmah': '📿',
+    'Coran (En ligne)': '🌐'
+  };
+  function typeIcon(t) { return TYPE_ICONS[t] || '🔍'; }
+
+  var gsData = window.GLOBAL_SEARCH_INDEX || [];
+  var gsFuse = new Fuse(gsData, {
+    keys: [
+      { name: 'title',   weight: 0.55 },
+      { name: 'content', weight: 0.35 },
+      { name: 'type',    weight: 0.10 },
+      { name: 'state',   weight: 0.80 }
+    ],
+    threshold: 0.38,
+    distance: 300,
+    minMatchCharLength: 2,
+    includeMatches: true,
+    ignoreLocation: true
+  });
+
+  var overlay   = document.getElementById('gsOverlay');
+  var input     = document.getElementById('gsInput');
+  var results   = document.getElementById('gsResults');
+  var countEl   = document.getElementById('gsCount');
+  var hintEl    = document.getElementById('gsHint');
+  var openBtn   = document.getElementById('gsOpenBtn');
+  var closeBtn  = document.getElementById('gsClose');
+
+  function openGS() {
+    overlay.classList.add('open');
+    setTimeout(function() { input.focus(); }, 60);
+    renderResults('');
+  }
+  function closeGS() {
+    overlay.classList.remove('open');
+    input.value = '';
+    results.innerHTML = '';
+    countEl.textContent = '';
+    hintEl.textContent = 'Tapez au moins 2 caractères';
+  }
+
+  if (openBtn) openBtn.addEventListener('click', openGS);
+  closeBtn.addEventListener('click', closeGS);
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) closeGS();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      e.preventDefault();
+      overlay.classList.contains('open') ? closeGS() : openGS();
+    }
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeGS();
+  });
+
+  window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'gs-open') openGS();
+    if (e.data && e.data.type === 'gs-close') closeGS();
+  });
+
+  function hl(str, query) {
+    if (!query || query.length < 2) return escHtml(str);
+    var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    return escHtml(str).replace(re, '<mark class="gs-hl">$1</mark>');
+  }
+  function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  var activeIdx = -1;
+  var flatItems = [];
+
+  function renderResults(query) {
+    results.innerHTML = '';
+    flatItems = [];
+    activeIdx = -1;
+
+    if (!query || query.trim().length < 2) {
+      hintEl.textContent = 'Tapez au moins 2 caractères';
+      countEl.textContent = '';
+      results.innerHTML = '<div class="gs-empty"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:12px;opacity:0.3;display:block;margin-left:auto;margin-right:auto;"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>Tapez pour rechercher sur tout le site</div>';
+      return;
+    }
+
+    var hits = gsFuse.search(query.trim(), { limit: 60 });
+    hintEl.textContent = 'Recherche en direct...';
+
+    // Fetch Quran.com API search
+    var apiUrl = 'https://api.quran.com/api/v4/search?q=' + encodeURIComponent(query.trim()) + '&size=6&language=fr';
+    fetch(apiUrl)
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+         var quranHits = [];
+         if(data && data.search && data.search.results) {
+           quranHits = data.search.results.map(function(r){
+             return {
+               item: {
+                 type: 'Coran (En ligne)',
+                 title: 'Sourate ' + r.verse_key,
+                 content: r.translations && r.translations[0] ? r.translations[0].text.replace(/<[^>]*>?/gm, '') : r.text,
+                 state: r.verse_key, // The router handles deep linking like #m8:2:255
+                 idx: 8 // Index of coran-lecture.html
+               }
+             };
+           });
+         }
+         displayHits(hits.concat(quranHits), query.trim());
+      })
+      .catch(function(e){
+         displayHits(hits, query.trim());
+      });
+  }
+
+  function displayHits(hits, query) {
+    results.innerHTML = '';
+    flatItems = [];
+    activeIdx = -1;
+    hintEl.textContent = '';
+
+    if (!hits.length) {
+      countEl.textContent = 'Aucun résultat';
+      results.innerHTML = '<div class="gs-empty"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:12px;opacity:0.3;display:block;margin-left:auto;margin-right:auto;"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>Aucun résultat pour «\u00a0' + escHtml(query) + '\u00a0»</div>';
+      return;
+    }
+
+    countEl.textContent = hits.length + ' résultat' + (hits.length > 1 ? 's' : '');
+
+    var groups = {};
+    hits.forEach(function(hit) {
+      var t = hit.item.type || 'Autre';
+      if (!groups[t]) groups[t] = [];
+      groups[t].push(hit);
+    });
+
+    Object.keys(groups).forEach(function(type) {
+      var grp = document.createElement('div');
+      grp.className = 'gs-group';
+      var lbl = document.createElement('div');
+      lbl.className = 'gs-group-label';
+      lbl.textContent = type;
+      grp.appendChild(lbl);
+
+      groups[type].forEach(function(hit) {
+        var item = hit.item;
+        var flatI = flatItems.length;
+        flatItems.push(item);
+
+        var el = document.createElement('div');
+        el.className = 'gs-item';
+        el.setAttribute('role','option');
+        el.setAttribute('data-flat-idx', flatI);
+
+        var excerpt = (item.content || '').slice(0, 100);
+
+        el.innerHTML =
+          '<div class="gs-item-icon">' + typeIcon(item.type) + '</div>' +
+          '<div class="gs-item-body">' +
+            '<div class="gs-item-type">' + escHtml(item.type) + '</div>' +
+            '<div class="gs-item-title">' + hl(item.title, query) + '</div>' +
+            (excerpt ? '<div class="gs-item-excerpt">' + hl(excerpt, query) + '</div>' : '') +
+          '</div>';
+
+        el.addEventListener('click', function() { navigateTo(item); });
+        el.addEventListener('mouseenter', function() {
+          setActive(parseInt(el.getAttribute('data-flat-idx')));
+        });
+        grp.appendChild(el);
+      });
+      results.appendChild(grp);
+    });
+  }
+
+  function setActive(i) {
+    var items = results.querySelectorAll('.gs-item');
+    items.forEach(function(el) { el.classList.remove('active'); });
+    if (i >= 0 && i < flatItems.length) {
+      activeIdx = i;
+      var el = results.querySelector('[data-flat-idx="' + i + '"]');
+      if (el) { el.classList.add('active'); el.scrollIntoView({block:'nearest'}); }
+    }
+  }
+
+  input.addEventListener('keydown', function(e) {
+    var items = results.querySelectorAll('.gs-item');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setActive(Math.min(activeIdx + 1, flatItems.length - 1));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setActive(Math.max(activeIdx - 1, 0));
+    } else if (e.key === 'Enter' && activeIdx >= 0 && flatItems[activeIdx]) {
+      navigateTo(flatItems[activeIdx]);
+    }
+  });
+
+  function navigateTo(item) {
+    closeGS();
+    if (typeof window.openModule === 'function' && item.idx >= 0) {
+      var state = item.state || '';
+      // If module already loaded, try deep-link via postMessage first
+      var iframeEl = document.getElementById('iframe' + item.idx);
+      if (iframeEl && iframeEl.src && state) {
+        // Module loaded — send navigate message, then show frame
+        window.openModule(item.idx, state);
+        try { iframeEl.contentWindow.postMessage({type:'gs-navigate', state: state}, '*'); } catch(ex) {}
+      } else {
+        window.openModule(item.idx, state);
+      }
+    } else if (item.idx < 0) {
+      var homeScreen = document.getElementById('homeScreen');
+      if (homeScreen) { homeScreen.style.display = ''; }
+    }
+  }
+
+  var debounceTimer;
+  input.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    var q = input.value;
+    debounceTimer = setTimeout(function() { renderResults(q); }, 400);
+  });
+
+  var homeSearchInput = document.getElementById('searchInput');
+  if (homeSearchInput) {
+    homeSearchInput.addEventListener('focus', function() {
+      var iframeActive = document.body.classList.contains('iframe-active');
+      if (iframeActive) {
+        openGS();
+        homeSearchInput.blur();
+      }
+    });
+  }
+  renderResults('');
+})();
+</script>
+
+</body>
+</html>

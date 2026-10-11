@@ -128,6 +128,175 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .back-btn{border-radius:980px!important;transition:transform .28s var(--ios-ease),background .2s,border-color .2s!important}
 .back-btn:active{transform:scale(.96)!important}
 </style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — Résister */
+/* Fond : la nuit et sa brume ; l'ancien motif disparaît */
+html[data-design="console"] body::before{ display:none!important; }
+html[data-design="console"] body{ background-image:var(--lp-motes),var(--lp-fog)!important; background-repeat:no-repeat!important; background-position:top center!important; background-size:1400px 460px,auto,auto!important; }
+html[data-design="console"] .wrap{ padding-top:clamp(48px,9vw,96px)!important; }
+html[data-design="console"] .wrap:has(> .article-view.active){ padding-top:clamp(28px,5vw,48px)!important; }
+
+/* En-tête : même ordre que le gabarit article (l'étiquette passe dessous) */
+html[data-design="console"] #homeView > .hero{ display:flex; flex-direction:column; align-items:center; text-align:center; margin-bottom:56px!important; }
+/* La dalle de la rubrique (console.css) : le verre floute ce qu'il couvre, aucune poussière de lumière près du mot */
+html[data-design="console"] #homeView > .hero .orn-gem{ -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
+
+/* Introduction : verre, l'épigraphe sous une lampe douce */
+html[data-design="console"] .intro-box{
+  background:radial-gradient(90% 46% at 50% 0%,var(--lp-lamp),transparent 72%),var(--lp-glass)!important;
+  border:1px solid var(--lp-edge)!important; border-radius:20px!important; box-shadow:var(--lp-panel-shadow)!important;
+  padding:34px 34px 28px!important; margin-bottom:64px!important;
+}
+html[data-design="console"] .intro-box p{ font-family:var(--lp-font)!important; font-size:1.075rem!important; font-weight:var(--lp-body-w)!important; line-height:1.78!important; color:var(--lp-read)!important; text-align:left!important; -webkit-hyphens:auto; hyphens:auto; }
+html[data-design="console"] .intro-box strong{ color:var(--lp-ink)!important; font-weight:500!important; }
+html[data-design="console"] .intro-box em{ color:inherit!important; }
+html[data-design="console"] .intro-box p.intro-epigraph{
+  font-style:normal!important; font-size:1.12rem!important; font-weight:300!important; line-height:1.72!important;
+  color:var(--lp-ink)!important; text-align:center!important; text-wrap:pretty; -webkit-hyphens:manual; hyphens:manual;
+  margin:0 0 26px!important; padding:0 8px 26px; border-bottom:1px solid var(--lp-hairline);
+}
+html[data-design="console"] .intro-toggle{
+  font-family:var(--lp-font)!important; font-size:.86rem!important; font-weight:400!important; letter-spacing:0!important; line-height:1.2!important;
+  color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important; border-radius:999px!important;
+  padding:9px 14px 9px 17px!important; margin-top:4px!important; gap:8px!important; opacity:1!important;
+  transition:color .3s var(--lp-ease),background-color .3s var(--lp-ease),border-color .3s var(--lp-ease),transform .28s var(--ios-ease)!important;
+}
+html[data-design="console"] .intro-toggle:hover{ opacity:1!important; color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; border-color:rgba(var(--lp-glow),.42)!important; }
+html[data-design="console"] .intro-toggle svg{ color:var(--lp-amber); stroke-width:2; transition:transform .45s var(--lp-ease)!important; }
+html[data-design="console"] .intro-more.open{ margin-top:22px; }
+
+/* Les articles : une ouverture de section, pas une étiquette en surplomb */
+html[data-design="console"] .cards-label{
+  display:flex; align-items:center; gap:16px; font-family:var(--lp-font)!important; font-size:1.25rem!important; font-weight:300!important;
+  line-height:1.3!important; letter-spacing:-.01em!important; text-transform:none!important; color:var(--lp-ink)!important; opacity:1!important; margin:0 0 20px!important;
+}
+html[data-design="console"] .cards-label::after{ content:''; flex:1 1 0; min-width:24px; height:1px; background:linear-gradient(to right,var(--lp-lamp-line),transparent); }
+
+/* Cartes : dalles de verre, numéro en tuile éclairée, lampe au survol */
+html[data-design="console"] .cards-grid{ counter-reset:lp-art; gap:12px!important; margin-bottom:24px!important; }
+html[data-design="console"] .a-card{
+  counter-increment:lp-art; isolation:isolate;
+  display:grid!important; grid-template-columns:44px minmax(0,1fr); column-gap:18px; row-gap:5px; align-items:start;
+  padding:18px 56px 19px 18px!important; border-radius:18px!important;
+  background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; box-shadow:var(--lp-panel-shadow)!important;
+  transition:border-color .45s var(--lp-ease),box-shadow .45s var(--lp-ease),transform .4s var(--ios-ease-out)!important;
+}
+html[data-design="console"] .a-card::before{ content:''; position:absolute; inset:0; z-index:-1; pointer-events:none; background:radial-gradient(120% 150% at 0% 100%,rgba(var(--lp-glow),.16),transparent 70%); opacity:0; transition:opacity .5s var(--lp-ease); }
+html[data-design="console"] .a-card:hover{ background:var(--lp-glass)!important; border-color:rgba(var(--lp-glow),.48)!important; box-shadow:var(--lp-panel-shadow),0 0 30px -10px rgba(var(--lp-glow),.55)!important; }
+html[data-design="console"] .a-card:hover::before{ opacity:1; }
+html[data-design="console"] .a-card-num{
+  grid-column:1; grid-row:1 / span 2; align-self:start; display:flex; align-items:center; justify-content:center; width:44px; height:44px; margin:0!important; line-height:1!important;
+  font-family:var(--lp-font)!important; font-size:0!important; letter-spacing:0!important; color:var(--lp-amber)!important; opacity:1!important;
+  border-radius:12px; background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill);
+  border:1px solid var(--lp-lamp-line); box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo);
+}
+/* « Article 01 » reste lu par les lecteurs d'écran ; la tuile montre « 01 » */
+html[data-design="console"] .a-card-num::before{ content:counter(lp-art,decimal-leading-zero); content:counter(lp-art,decimal-leading-zero) / ""; font-size:.88rem; font-weight:400; line-height:1; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .a-card-title{ grid-column:2; grid-row:1; margin:0!important; font-family:var(--lp-font)!important; font-size:1.12rem!important; font-weight:400!important; line-height:1.35!important; letter-spacing:-.005em!important; color:var(--lp-ink)!important; text-wrap:balance; padding-top:9px; }
+html[data-design="console"] .a-card-desc{ grid-column:2; grid-row:2; font-family:var(--lp-font)!important; font-size:.9rem!important; font-weight:300!important; line-height:1.55!important; color:var(--lp-ink-2)!important; text-wrap:pretty; }
+html[data-design="console"] .a-card-arrow{ right:20px!important; color:var(--lp-ink-3)!important; opacity:1!important; transition:color .35s var(--lp-ease),transform .45s var(--lp-ease); }
+html[data-design="console"] .a-card-arrow svg{ stroke-width:1.8; }
+html[data-design="console"] .a-card:hover .a-card-arrow{ color:var(--lp-amber)!important; opacity:1!important; transform:translate(3px,-50%); }
+
+/* Vue article : colonne de lecture calme */
+html[data-design="console"] .back-btn{
+  font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:400!important; letter-spacing:0!important; line-height:1.2!important;
+  color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important; border-radius:999px!important;
+  padding:10px 18px 10px 15px!important; margin-bottom:44px!important; box-shadow:none!important;
+  transition:color .3s var(--lp-ease),background-color .3s var(--lp-ease),border-color .3s var(--lp-ease),transform .28s var(--ios-ease)!important;
+}
+html[data-design="console"] .back-btn:hover{ color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; border-color:rgba(var(--lp-glow),.42)!important; }
+
+/* En-tête d'article : titre fin, ligne de lumière ; le numéro passe dessous.
+   Pas de dalle ici : une seule par vue, en tête de l'accueil (console.css, .hero .orn-gem). */
+html[data-design="console"] .article-header{ display:flex; flex-direction:column; align-items:center; text-align:center; margin-bottom:44px!important; }
+html[data-design="console"] .article-header > .article-title{ order:1; margin:0!important; font-family:var(--lp-font)!important; font-weight:250!important; font-size:clamp(1.45rem,3.6vw,2.25rem)!important; line-height:1.14!important; letter-spacing:-.02em!important; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .article-header::after{ order:2; width:160px!important; height:1px!important; margin:26px auto 0!important; background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)!important; }
+html[data-design="console"] .article-header > .article-num{ order:3; margin:16px 0 0!important; font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:300!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; opacity:1!important; }
+
+/* Sommaire de l'article */
+html[data-design="console"] .article-toc{ background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:18px!important; box-shadow:var(--lp-panel-shadow)!important; padding:22px 24px 16px!important; margin-bottom:44px!important; }
+html[data-design="console"] .article-toc-title{ font-family:var(--lp-font)!important; font-size:1rem!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink)!important; opacity:1!important; margin-bottom:8px!important; }
+html[data-design="console"] .article-toc-list{ gap:1px!important; }
+html[data-design="console"] .article-toc-item{
+  font-family:var(--lp-font)!important; font-size:.94rem!important; font-weight:300!important; line-height:1.45!important; color:var(--lp-ink-2)!important;
+  margin:0 -12px!important; padding:7px 12px 7px 32px!important; border-left:0!important; border-radius:10px;
+  transition:color .3s var(--lp-ease),background-color .3s var(--lp-ease)!important;
+}
+html[data-design="console"] .article-toc-item::before{ left:15px!important; color:var(--lp-ink-3)!important; opacity:1!important; transition:color .3s var(--lp-ease); }
+html[data-design="console"] .article-toc-item:hover{ color:var(--lp-ink)!important; background:rgba(var(--lp-glow),.08)!important; }
+html[data-design="console"] .article-toc-item:hover::before{ color:var(--lp-amber)!important; }
+
+/* Intertitres : un fil de lumière qui s'éteint, puis le titre fin à gauche */
+html[data-design="console"] .sub-heading{
+  margin:56px 0 18px!important; padding-top:28px; scroll-margin-top:16px;
+  background:linear-gradient(to right,var(--lp-lamp-line),transparent 72%) no-repeat left top / 100% 1px;
+  font-family:var(--lp-font)!important; font-size:clamp(1.3rem,2.6vw,1.55rem)!important; font-weight:300!important; line-height:1.28!important;
+  letter-spacing:-.01em!important; color:var(--lp-ink)!important; text-align:left!important; text-wrap:balance;
+}
+
+/* Liens dans le texte */
+html[data-design="console"] :is(.wrap,.article-view) a{ color:var(--lp-amber)!important; text-decoration:underline!important; text-decoration-color:rgba(var(--lp-glow),.45)!important; text-decoration-thickness:1px!important; text-underline-offset:3px; transition:text-decoration-color .3s; }
+html[data-design="console"] :is(.wrap,.article-view) a:hover{ text-decoration-color:currentColor!important; }
+
+/* Encadrés de preuve : verre calme, étiquette ambrée */
+html[data-design="console"] .evidence{ background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:18px!important; box-shadow:var(--lp-panel-shadow)!important; padding:20px 24px 18px!important; margin:28px 0!important; }
+html[data-design="console"] .evidence-label{ font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-amber)!important; opacity:1!important; margin-bottom:8px!important; }
+html[data-design="console"] .evidence-text{ font-family:var(--lp-font)!important; font-size:1.02rem!important; font-weight:var(--lp-body-w)!important; line-height:1.72!important; color:var(--lp-ink)!important; text-align:left!important; -webkit-hyphens:auto; hyphens:auto; margin-bottom:8px!important; }
+html[data-design="console"] .evidence-text strong{ font-weight:500!important; }
+html[data-design="console"] .evidence-source{ font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:300!important; font-style:normal!important; line-height:1.55!important; color:var(--lp-ink-3)!important; }
+/* Verset coranique : la lampe */
+html[data-design="console"] .evidence:has(> .evidence-text > .lp-ar:first-child){
+  background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;
+  border-color:var(--lp-lamp-line)!important; box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important; text-align:center; padding:22px 26px 20px!important;
+}
+html[data-design="console"] .evidence:has(> .evidence-text > .lp-ar:first-child) :is(.evidence-text,.evidence-source){ text-align:center!important; text-wrap:pretty; }
+
+/* Arabe : jamais en Readex — Scheherazade New, sacré et lisible */
+html[data-design="console"] .lp-ar{ font-family:var(--lp-ar)!important; font-size:1.24em; font-weight:400; font-style:normal; line-height:1; }
+html[data-design="console"] .evidence-text > .lp-ar:first-child{ display:block; direction:rtl; text-align:center; font-size:1.5em; line-height:1.9; color:var(--lp-ink); margin:2px 0 12px; text-wrap:balance; }
+html[data-design="console"] .evidence-text > .lp-ar:first-child + br{ display:none; }
+
+/* Encadrés d'action : verre éclairé par le haut */
+html[data-design="console"] .action-box{
+  background:radial-gradient(110% 70% at 50% 0%,var(--lp-lamp),transparent 70%),var(--lp-glass)!important;
+  border:1px solid var(--lp-edge)!important; border-radius:20px!important; box-shadow:var(--lp-panel-shadow)!important;
+  padding:24px 28px 14px!important; margin:28px 0!important;
+}
+html[data-design="console"] .action-title{ font-family:var(--lp-font)!important; font-size:1rem!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; line-height:1.35!important; color:var(--lp-amber)!important; margin-bottom:14px!important; }
+html[data-design="console"] .action-item{ font-family:var(--lp-font)!important; font-size:1.02rem!important; font-weight:var(--lp-body-w)!important; line-height:1.72!important; color:var(--lp-read)!important; text-align:left!important; -webkit-hyphens:auto; hyphens:auto; padding-left:22px!important; margin-bottom:12px!important; }
+html[data-design="console"] .action-item strong{ color:var(--lp-ink)!important; font-weight:500!important; }
+html[data-design="console"] .action-item em{ color:inherit!important; }
+html[data-design="console"] .action-bullet{ top:.72em!important; left:2px!important; width:6px!important; height:6px!important; border-radius:50%!important; transform:none!important; background:var(--lp-amber)!important; box-shadow:0 0 10px rgba(var(--lp-glow),.55)!important; }
+
+/* Césure : seulement les mots longs (pas de « Ā-shūrā »), le reste suit le gabarit */
+html[data-design="console"] :is(.wrap,.article-view) :is(.body-text,.intro-box p,.evidence-text,.action-item){ hyphenate-limit-chars:10 4 4; }
+
+/* Sources */
+html[data-design="console"] .sources-box{ background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:18px!important; box-shadow:var(--lp-panel-shadow)!important; padding:24px 26px 18px!important; margin-top:56px!important; }
+html[data-design="console"] :is(.wrap,.article-view) .source-item{ line-height:1.55!important; }
+
+/* Mobile */
+@media (max-width:600px){
+  html[data-design="console"] .intro-box{ padding:26px 20px 22px!important; margin-bottom:52px!important; }
+  html[data-design="console"] .intro-box p.intro-epigraph{ font-size:1.06rem!important; padding:0 0 22px; margin-bottom:22px!important; }
+  html[data-design="console"] .a-card{ grid-template-columns:38px minmax(0,1fr); column-gap:14px; padding:16px 42px 17px 14px!important; }
+  html[data-design="console"] .a-card-num{ width:38px; height:38px; border-radius:11px; }
+  html[data-design="console"] .a-card-title{ font-size:1.04rem!important; padding-top:7px; }
+  html[data-design="console"] .a-card-arrow{ right:14px!important; }
+  html[data-design="console"] .article-toc{ padding:18px 18px 12px!important; }
+  html[data-design="console"] .sub-heading{ margin-top:44px!important; padding-top:24px; }
+  html[data-design="console"] .evidence{ padding:18px 18px 16px!important; }
+  html[data-design="console"] .evidence:has(> .evidence-text > .lp-ar:first-child){ padding:20px 18px 18px!important; }
+  html[data-design="console"] .action-box{ padding:20px 18px 10px!important; }
+  html[data-design="console"] .sources-box{ padding:20px 18px 14px!important; }
+}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -313,15 +482,15 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="sub-heading" id="sec2-salat">L'impact sur la pratique islamique</div>
 
-<p class="body-text">Voici le point de convergence entre la neuroscience et la foi. L'Islam n'est pas une religion de spectacle. C'est une religion de <strong>concentration intérieure</strong>. Le Coran utilise le terme <strong>khushūʿ</strong> (خُشُوع) — l'humilité attentive, la présence totale du cœur devant Dieu. C'est la qualité sans laquelle la ṣalāt devient un ensemble de mouvements vides.</p>
+<p class="body-text">Voici le point de convergence entre la neuroscience et la foi. L'Islam n'est pas une religion de spectacle. C'est une religion de <strong>concentration intérieure</strong>. Le Coran utilise le terme <strong>khushūʿ</strong> (<span class="lp-ar">خُشُوع</span>) — l'humilité attentive, la présence totale du cœur devant Dieu. C'est la qualité sans laquelle la ṣalāt devient un ensemble de mouvements vides.</p>
 
-<div class="evidence"><div class="evidence-label">Coran</div><p class="evidence-text">قَدْ أَفْلَحَ الْمُؤْمِنُونَ ﴿١﴾ الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ ﴿٢﴾<br>« Bienheureux sont certes les croyants, ceux qui dans leur prière sont recueillis (khāshiʿūn). »</p><p class="evidence-source">Sourate Al-Mu'minūn, 23:1-2</p></div>
+<div class="evidence"><div class="evidence-label">Coran</div><p class="evidence-text"><span class="lp-ar">قَدْ أَفْلَحَ الْمُؤْمِنُونَ ﴿١﴾ الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ ﴿٢﴾</span><br>« Bienheureux sont certes les croyants, ceux qui dans leur prière sont recueillis (khāshiʿūn). »</p><p class="evidence-source">Sourate Al-Mu'minūn, 23:1-2</p></div>
 
 <p class="body-text">L'Imam ʿAlī ibn Abī Ṭālib (ع) a décrit la ṣalāt comme le moment où le croyant « se tient devant Allah comme un serviteur devant son maître, concentrant son cœur et ne laissant rien d'autre y entrer ». L'Imam Jaʿfar aṣ-Ṣādiq (ع) a dit : « Lorsque tu te tiens en prière, ton cœur doit être comme si tu voyais Celui à Qui tu t'adresses. Si tu ne Le vois pas, sache que Lui te voit. » Ce niveau de présence suppose une capacité de <strong>concentration soutenue</strong> que l'économie de l'attention détruit méthodiquement.</p>
 
-<p class="body-text">L'étude du Coran — pas la simple récitation, mais le <strong>tadabbur</strong> (التدبّر), la méditation profonde sur le sens des versets — exige un type d'attention que les neuroscientifiques appellent « attention profonde » ou « <em>deep work</em> », selon la terminologie de Cal Newport. C'est une attention soutenue, non interrompue, qui demande un minimum de 20 à 30 minutes pour s'installer pleinement. Or, le même cerveau qui est entraîné à changer de stimulus toutes les 47 secondes est <strong>structurellement incapable</strong> de maintenir cette attention. Ce n'est pas un manque de volonté. C'est un <strong>déficit neurologique acquis</strong>.</p>
+<p class="body-text">L'étude du Coran — pas la simple récitation, mais le <strong>tadabbur</strong> (<span class="lp-ar">التدبّر</span>), la méditation profonde sur le sens des versets — exige un type d'attention que les neuroscientifiques appellent « attention profonde » ou « <em>deep work</em> », selon la terminologie de Cal Newport. C'est une attention soutenue, non interrompue, qui demande un minimum de 20 à 30 minutes pour s'installer pleinement. Or, le même cerveau qui est entraîné à changer de stimulus toutes les 47 secondes est <strong>structurellement incapable</strong> de maintenir cette attention. Ce n'est pas un manque de volonté. C'est un <strong>déficit neurologique acquis</strong>.</p>
 
-<p class="body-text">Le <strong>tafakkur</strong> (التفكّر) — la réflexion contemplative que le Coran commande à plus de dix-sept reprises (« أفلا تتفكرون » — « Ne réfléchissez-vous donc pas ? ») — est l'exact opposé du <em>scroll</em> infini. Le <em>scroll</em> est passif, fragmenté, sans fin et sans but. Le tafakkur est actif, unifié, orienté vers un sens. L'un vide l'esprit. L'autre le remplit. Et les deux utilisent le même organe — un organe dont la plasticité signifie qu'il se configure au service de celui qui l'utilise le plus.</p>
+<p class="body-text">Le <strong>tafakkur</strong> (<span class="lp-ar">التفكّر</span>) — la réflexion contemplative que le Coran commande à plus de dix-sept reprises (« <span class="lp-ar">أفلا تتفكرون</span> » — « Ne réfléchissez-vous donc pas ? ») — est l'exact opposé du <em>scroll</em> infini. Le <em>scroll</em> est passif, fragmenté, sans fin et sans but. Le tafakkur est actif, unifié, orienté vers un sens. L'un vide l'esprit. L'autre le remplit. Et les deux utilisent le même organe — un organe dont la plasticité signifie qu'il se configure au service de celui qui l'utilise le plus.</p>
 
 <div class="evidence"><div class="evidence-label">Hadith</div><p class="evidence-text">« Une heure de tafakkur (réflexion) vaut mieux qu'une année d'adoration (sans réflexion). »</p><p class="evidence-source">Rapporté de l'Imam ʿAlī (ع) — Al-Majlisī, Biḥār al-Anwār</p></div>
 
@@ -329,7 +498,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="sub-heading" id="sec2-muraqaba">La murāqaba : l'antidote islamique</div>
 
-<p class="body-text">La tradition islamique a également développé une pratique qui constitue l'antidote direct à la ghafla : la <strong>murāqaba</strong> (المراقبة) — la conscience permanente d'être sous le regard d'Allah. Ce n'est pas une métaphore pieuse. C'est un entraînement cognitif précis : maintenir une attention soutenue, orientée, présente au moment actuel. Les neurosciences confirment que cet exercice renforce exactement les voies neuronales que l'économie de l'attention s'emploie à détruire. Un croyant qui pratique la murāqaba quotidiennement entraîne son cerveau à la même profondeur d'attention que celle qu'il est censé mobiliser dans la ṣalāt, le dhikr et le tadabbur.</p>
+<p class="body-text">La tradition islamique a également développé une pratique qui constitue l'antidote direct à la ghafla : la <strong>murāqaba</strong> (<span class="lp-ar">المراقبة</span>) — la conscience permanente d'être sous le regard d'Allah. Ce n'est pas une métaphore pieuse. C'est un entraînement cognitif précis : maintenir une attention soutenue, orientée, présente au moment actuel. Les neurosciences confirment que cet exercice renforce exactement les voies neuronales que l'économie de l'attention s'emploie à détruire. Un croyant qui pratique la murāqaba quotidiennement entraîne son cerveau à la même profondeur d'attention que celle qu'il est censé mobiliser dans la ṣalāt, le dhikr et le tadabbur.</p>
 
 <div class="sub-heading" id="sec2-jeunes">La génération sacrifiée</div>
 
@@ -411,13 +580,13 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="sub-heading" id="sec3-isnad">L'isnād : l'architecture du savoir islamique</div>
 
-<p class="body-text">Le savoir islamique n'a jamais été un produit de consommation. C'est un <strong>édifice vivant</strong>, transmis de personne à personne depuis quatorze siècles à travers un système sans équivalent dans l'histoire intellectuelle mondiale : l'<strong>isnād</strong> (إسناد) — la chaîne de transmission.</p>
+<p class="body-text">Le savoir islamique n'a jamais été un produit de consommation. C'est un <strong>édifice vivant</strong>, transmis de personne à personne depuis quatorze siècles à travers un système sans équivalent dans l'histoire intellectuelle mondiale : l'<strong>isnād</strong> (<span class="lp-ar">إسناد</span>) — la chaîne de transmission.</p>
 
 <p class="body-text">Lorsqu'un savant rapporte un hadith, il ne dit pas simplement « le Prophète a dit ». Il dit : « Mon maître untel m'a rapporté, d'après untel, d'après untel, d'après untel, que le Prophète ﷺ a dit… ». Chaque maillon de cette chaîne est un être humain identifiable, dont la biographie, la probité, la mémoire et la fiabilité ont été minutieusement évaluées par la science du <strong>rijāl</strong> (étude des transmetteurs). L'Imam Mālik ibn Anas disait : « Ce savoir est religion — examinez donc de qui vous prenez votre religion. »</p>
 
 <div class="evidence"><div class="evidence-label">Hadith</div><p class="evidence-text">« Celui qui emprunte un chemin pour acquérir un savoir, Allah lui facilite par cela un chemin vers le Paradis. »</p><p class="evidence-source">Rapporté par l'Imam Jaʿfar aṣ-Ṣādiq (ع) — Al-Kulaynī, Al-Kāfī, Kitāb Faḍl al-ʿIlm</p></div>
 
-<p class="body-text">Dans la tradition chiite, la <strong>ḥawza</strong> (الحوزة) — le séminaire religieux — incarne ce modèle à son plus haut niveau. À Najaf et à Qom, un étudiant en sciences religieuses suit un cursus qui dure <strong>entre 10 et 15 ans</strong> minimum. Les premières années (<em>muqaddamāt</em>) sont consacrées à la grammaire arabe, la logique, la rhétorique. Viennent ensuite les <em>suṭūḥ</em> — l'étude systématique du fiqh, de l'uṣūl, de la philosophie, du tafsīr. Le dernier niveau, le <em>baḥth al-khārij</em>, est un séminaire où le mujtahid argumente directement avec ses étudiants, sans manuel, à partir des sources primaires. Ce processus produit un savant capable de <strong>dériver un jugement juridique</strong> à partir des textes fondamentaux. Il ne produit pas un récitant de fatwas copiées sur Internet.</p>
+<p class="body-text">Dans la tradition chiite, la <strong>ḥawza</strong> (<span class="lp-ar">الحوزة</span>) — le séminaire religieux — incarne ce modèle à son plus haut niveau. À Najaf et à Qom, un étudiant en sciences religieuses suit un cursus qui dure <strong>entre 10 et 15 ans</strong> minimum. Les premières années (<em>muqaddamāt</em>) sont consacrées à la grammaire arabe, la logique, la rhétorique. Viennent ensuite les <em>suṭūḥ</em> — l'étude systématique du fiqh, de l'uṣūl, de la philosophie, du tafsīr. Le dernier niveau, le <em>baḥth al-khārij</em>, est un séminaire où le mujtahid argumente directement avec ses étudiants, sans manuel, à partir des sources primaires. Ce processus produit un savant capable de <strong>dériver un jugement juridique</strong> à partir des textes fondamentaux. Il ne produit pas un récitant de fatwas copiées sur Internet.</p>
 
 <p class="body-text">L'Imam ʿAlī (ع) a exprimé cette hiérarchie avec une clarté absolue dans le Nahj al-Balāgha : « Les gens sont de trois sortes : le savant divin (<em>ʿālim rabbānī</em>), l'étudiant sur le chemin du salut (<em>mutaʿallim ʿalā sabīl an-najāt</em>), et la masse vulgaire qui suit tout crieur et se plie à tout vent — ceux-là n'ont pas été illuminés par la lumière du savoir et n'ont pas trouvé refuge auprès d'un pilier solide. » Cette troisième catégorie — celle qui « suit tout crieur » — décrit avec une précision troublante le consommateur de contenu islamique sur les réseaux sociaux.</p>
 
@@ -427,7 +596,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="evidence"><div class="evidence-label">Source scientifique</div><p class="evidence-text">« Les résultats montrent que les processus de mémoire humaine s'adaptent à la disponibilité des moteurs de recherche. Nous ne faisons plus l'effort de nous rappeler des informations que nous pouvons facilement retrouver en ligne. Internet est devenu une forme de mémoire transactive externe. »</p><p class="evidence-source">Sparrow, Liu & Wegner, « Google Effects on Memory », <em>Science</em>, vol. 333, 2011 — <a href="https://www.science.org/doi/10.1126/science.1207745" style="color:#c9a84c;text-decoration:underline" target="_blank">science.org</a></p></div>
 
-<p class="body-text">Ce phénomène a des implications dévastatrices pour le savoir islamique. Un musulman qui « sait » qu'il peut chercher n'importe quel hadith sur Google ne fera jamais l'effort de le mémoriser. Or, dans la tradition islamique, le <strong>ḥifẓ</strong> (حفظ) — la mémorisation — n'est pas un exercice mécanique. C'est un acte d'<em>incorporation</em> : le texte entre dans le corps du croyant, il le porte en lui, il peut le rappeler pendant la prière, dans l'adversité, au moment de la mort. Un verset mémorisé et un verset googlé ne sont pas la même chose — pas plus qu'un repas cuisiné et une photo de repas ne nourrissent de la même façon.</p>
+<p class="body-text">Ce phénomène a des implications dévastatrices pour le savoir islamique. Un musulman qui « sait » qu'il peut chercher n'importe quel hadith sur Google ne fera jamais l'effort de le mémoriser. Or, dans la tradition islamique, le <strong>ḥifẓ</strong> (<span class="lp-ar">حفظ</span>) — la mémorisation — n'est pas un exercice mécanique. C'est un acte d'<em>incorporation</em> : le texte entre dans le corps du croyant, il le porte en lui, il peut le rappeler pendant la prière, dans l'adversité, au moment de la mort. Un verset mémorisé et un verset googlé ne sont pas la même chose — pas plus qu'un repas cuisiné et une photo de repas ne nourrissent de la même façon.</p>
 
 <p class="body-text">Une étude de <strong>Pew Research Center</strong> (2023) révèle que <strong>55 % des Américains</strong> admettent utiliser régulièrement YouTube comme source « éducative », et 36 % des 18-29 ans utilisent TikTok comme moteur de recherche. Le savoir est ainsi réduit à ce que l'algorithme décide de montrer — un savoir <strong>filtré par la popularité</strong>, non par la vérité.</p>
 
@@ -447,15 +616,15 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="evidence"><div class="evidence-label">Source scientifique</div><p class="evidence-text">« Nous ne lisons plus, nous scannons. Le cerveau, exposé de manière répétée à la lecture numérique rapide, perd progressivement sa capacité à s'engager dans la lecture profonde — celle qui permet la pensée critique, l'analyse et la contemplation. »</p><p class="evidence-source">Maryanne Wolf, <em>Reader, Come Home: The Reading Brain in a Digital World</em>, Harper, 2018</p></div>
 
-<p class="body-text">Le Coran est le livre le plus lu de l'histoire humaine. Mais <em>comment</em> il est lu détermine ce qu'il transmet. Le Coran exige le <strong>tartīl</strong> (ترتيل) — la récitation lente, mesurée, réfléchie. Allah dit : « وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا » — « Et récite le Coran lentement et distinctement » (73:4). Ce commandement divin est l'antithèse exacte du scanning numérique. Le tartīl suppose que chaque mot mérite qu'on s'y arrête. Le scanning suppose que la plupart des mots peuvent être ignorés. Ces deux modes de lecture produisent deux types d'êtres humains différents.</p>
+<p class="body-text">Le Coran est le livre le plus lu de l'histoire humaine. Mais <em>comment</em> il est lu détermine ce qu'il transmet. Le Coran exige le <strong>tartīl</strong> (<span class="lp-ar">ترتيل</span>) — la récitation lente, mesurée, réfléchie. Allah dit : « <span class="lp-ar">وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا</span> » — « Et récite le Coran lentement et distinctement » (73:4). Ce commandement divin est l'antithèse exacte du scanning numérique. Le tartīl suppose que chaque mot mérite qu'on s'y arrête. Le scanning suppose que la plupart des mots peuvent être ignorés. Ces deux modes de lecture produisent deux types d'êtres humains différents.</p>
 
 <p class="body-text">Le <strong>tafsīr</strong> (exégèse coranique) — l'une des sciences les plus nobles de l'Islam — repose entièrement sur la lecture profonde. Un exégète comme al-ʿAllāma aṭ-Ṭabāṭabā'ī a consacré <strong>vingt ans</strong> à la rédaction de son <em>Al-Mīzān fī Tafsīr al-Qur'ān</em> (20 volumes). Chaque page est le produit d'une méditation soutenue, de recoupements entre des dizaines de versets, de consultations de hadiths, de réflexions philosophiques. Ce type de travail intellectuel est impossible pour un cerveau entraîné à scanner du contenu en fragments de 47 secondes.</p>
 
 <div class="sub-heading" id="sec3-iqra">*Iqra'* — Quand le premier mot révélé devient un programme civilisationnel</div>
 
-<p class="body-text">Le Coran est le livre le plus lu de l'histoire humaine. Mais ce que l'on oublie souvent, c'est que le <em>premier mot</em> adressé à l'humanité par la révélation n'est pas « obéis », ni « crois », ni « soumets-toi ». C'est <strong>اقْرَأْ</strong> — <em>Iqra'</em> : <strong>Lis. Récite. Apprends.</strong> Les cinq premiers versets de la sourate Al-ʿAlaq (96) constituent un manifeste du rapport entre l'homme, la connaissance et le langage :</p>
+<p class="body-text">Le Coran est le livre le plus lu de l'histoire humaine. Mais ce que l'on oublie souvent, c'est que le <em>premier mot</em> adressé à l'humanité par la révélation n'est pas « obéis », ni « crois », ni « soumets-toi ». C'est <strong><span class="lp-ar">اقْرَأْ</span></strong> — <em>Iqra'</em> : <strong>Lis. Récite. Apprends.</strong> Les cinq premiers versets de la sourate Al-ʿAlaq (96) constituent un manifeste du rapport entre l'homme, la connaissance et le langage :</p>
 
-<div class="evidence"><div class="evidence-label">Coran 96 : 1-5</div><p class="evidence-text">اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ ﴿١﴾ خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ ﴿٢﴾ اقْرَأْ وَرَبُّكَ الْأَكْرَمُ ﴿٣﴾ الَّذِي عَلَّمَ بِالْقَلَمِ ﴿٤﴾ عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ ﴿٥﴾<br>« Lis, au nom de ton Seigneur qui a créé. Il a créé l'homme d'une adhérence. Lis ! Ton Seigneur est le Très Noble, qui a enseigné par la plume. Il a enseigné à l'homme ce qu'il ne savait pas. »</p><p class="evidence-source">Sourate Al-ʿAlaq, 96:1-5 — Premier verset révélé</p></div>
+<div class="evidence"><div class="evidence-label">Coran 96 : 1-5</div><p class="evidence-text"><span class="lp-ar">اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ ﴿١﴾ خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ ﴿٢﴾ اقْرَأْ وَرَبُّكَ الْأَكْرَمُ ﴿٣﴾ الَّذِي عَلَّمَ بِالْقَلَمِ ﴿٤﴾ عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ ﴿٥﴾</span><br>« Lis, au nom de ton Seigneur qui a créé. Il a créé l'homme d'une adhérence. Lis ! Ton Seigneur est le Très Noble, qui a enseigné par la plume. Il a enseigné à l'homme ce qu'il ne savait pas. »</p><p class="evidence-source">Sourate Al-ʿAlaq, 96:1-5 — Premier verset révélé</p></div>
 
 <p class="body-text">Trois réalités sont liées ici dans une chaîne inséparable : la <strong>lecture</strong>, la <strong>plume</strong> (<em>al-qalam</em>), et la <strong>connaissance</strong>. La révélation divine s'inaugure non par un commandement rituel, mais par une injonction <em>intellectuelle et linguistique</em>. Avant la prière, avant le jeûne, avant toute prescription — il y a la parole, le texte, l'acte de lire. Une sourate entière du Coran porte le nom d'Al-Qalam (sourate 68), où Dieu jure par la plume « et par ce qu'ils écrivent ». L'écriture est sacralisée à la source même de la révélation.</p>
 
@@ -550,7 +719,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="evidence"><div class="evidence-label">Hadith</div><p class="evidence-text">« La première chose que Dieu a créée est la Raison (al-ʿAql). Il lui a dit : "Avance", et elle a avancé. Puis Il lui a dit : "Recule", et elle a reculé. Alors Il a dit : "Par Ma Puissance et Ma Majesté, Je n'ai pas créé de créature plus noble que toi à Mes yeux." »</p><p class="evidence-source">Rapporté de l'Imam Jaʿfar aṣ-Ṣādiq (ع) — Al-Kulaynī, Al-Kāfī, Kitāb al-ʿAql wa-l-Jahl, hadith 1</p></div>
 
-<p class="body-text">Le Coran lui-même utilise le terme <strong>ʿaql</strong> et ses dérivés 49 fois, toujours sous forme d'injonction : « أفلا تعقلون » — « Ne raisonnez-vous donc pas ? ». Il ne dit jamais « croyez sans comprendre ». Il dit : <strong>comprenez, puis croyez</strong>. Cette approche est l'exact opposé du fidéisme que les Nouveaux Athées attaquent — et c'est précisément pourquoi ils évitent soigneusement de débattre avec des théologiens chiites formés dans la tradition du kalām.</p>
+<p class="body-text">Le Coran lui-même utilise le terme <strong>ʿaql</strong> et ses dérivés 49 fois, toujours sous forme d'injonction : « <span class="lp-ar">أفلا تعقلون</span> » — « Ne raisonnez-vous donc pas ? ». Il ne dit jamais « croyez sans comprendre ». Il dit : <strong>comprenez, puis croyez</strong>. Cette approche est l'exact opposé du fidéisme que les Nouveaux Athées attaquent — et c'est précisément pourquoi ils évitent soigneusement de débattre avec des théologiens chiites formés dans la tradition du kalām.</p>
 
 <p class="body-text">L'Imam ar-Riḍā (ع), huitième Imam des Ahl al-Bayt, a tenu des débats publics avec des représentants du christianisme, du judaïsme, du zoroastrisme et du matérialisme (<em>dahriyyūn</em> — les « athées » de son époque). Ces débats, rapportés dans <em>ʿUyūn Akhbār ar-Riḍā</em>, montrent un Imam qui ne fuit pas les questions difficiles mais les affronte avec une maîtrise intellectuelle qui laisse ses interlocuteurs sans réponse. La tradition chiite n'a jamais craint le débat rationnel — elle l'a <strong>institutionnalisé</strong>.</p>
 
@@ -611,11 +780,11 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="sub-heading" id="sec5-riba">Le ribā : pourquoi l'Islam l'interdit</div>
 
-<p class="body-text">Le Coran interdit le <strong>ribā</strong> (الربا) — l'intérêt usuraire — avec une sévérité sans équivalent pour aucun autre péché économique. La formulation est sans ambiguïté :</p>
+<p class="body-text">Le Coran interdit le <strong>ribā</strong> (<span class="lp-ar">الربا</span>) — l'intérêt usuraire — avec une sévérité sans équivalent pour aucun autre péché économique. La formulation est sans ambiguïté :</p>
 
-<div class="evidence"><div class="evidence-label">Coran</div><p class="evidence-text">الَّذِينَ يَأْكُلُونَ الرِّبَا لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ الَّذِي يَتَخَبَّطُهُ الشَّيْطَانُ مِنَ الْمَسِّ<br>« Ceux qui se nourrissent du ribā ne se lèveront [au Jour du Jugement] que comme se lève celui que le toucher du Shayṭān a frappé de folie. »</p><p class="evidence-source">Sourate Al-Baqara, 2:275</p></div>
+<div class="evidence"><div class="evidence-label">Coran</div><p class="evidence-text"><span class="lp-ar">الَّذِينَ يَأْكُلُونَ الرِّبَا لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ الَّذِي يَتَخَبَّطُهُ الشَّيْطَانُ مِنَ الْمَسِّ</span><br>« Ceux qui se nourrissent du ribā ne se lèveront [au Jour du Jugement] que comme se lève celui que le toucher du Shayṭān a frappé de folie. »</p><p class="evidence-source">Sourate Al-Baqara, 2:275</p></div>
 
-<p class="body-text">Et plus loin : « يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَذَرُوا مَا بَقِيَ مِنَ الرِّبَا إِن كُنتُم مُّؤْمِنِينَ ﴿٢٧٨﴾ فَإِن لَّمْ تَفْعَلُوا فَأْذَنُوا بِحَرْبٍ مِّنَ اللَّهِ وَرَسُولِهِ » — « Ô vous qui avez cru, craignez Dieu et renoncez à ce qui reste du ribā, si vous êtes croyants. Et si vous ne le faites pas, alors recevez l'annonce d'une <strong>guerre de la part de Dieu et de Son Messager</strong> » (2:278-279). C'est le seul péché contre lequel Dieu déclare une <em>guerre</em>.</p>
+<p class="body-text">Et plus loin : « <span class="lp-ar">يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَذَرُوا مَا بَقِيَ مِنَ الرِّبَا إِن كُنتُم مُّؤْمِنِينَ ﴿٢٧٨﴾ فَإِن لَّمْ تَفْعَلُوا فَأْذَنُوا بِحَرْبٍ مِّنَ اللَّهِ وَرَسُولِهِ</span> » — « Ô vous qui avez cru, craignez Dieu et renoncez à ce qui reste du ribā, si vous êtes croyants. Et si vous ne le faites pas, alors recevez l'annonce d'une <strong>guerre de la part de Dieu et de Son Messager</strong> » (2:278-279). C'est le seul péché contre lequel Dieu déclare une <em>guerre</em>.</p>
 
 <p class="body-text">L'Imam Jaʿfar aṣ-Ṣādiq (ع) a expliqué la sagesse de cette interdiction : « Dieu a interdit le ribā pour que les gens ne cessent pas de se faire mutuellement le bien. Car lorsque l'homme sait qu'il récupérera son argent avec un surplus sans effort, il cesse de prêter gratuitement, il cesse d'investir dans le commerce, et les liens de solidarité entre les gens se rompent. » Le ribā ne détruit pas seulement l'économie — il détruit la <strong>communauté</strong>.</p>
 
@@ -637,9 +806,9 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <p class="body-text">La finance islamique mondiale représente environ <strong>4 100 milliards de dollars</strong> d'actifs en 2024, selon l'ICD-REFINITIV. Mais sa croissance pose un problème : une partie significative de cette industrie se contente de <strong>reproduire les produits conventionnels</strong> avec une terminologie arabe — un prêt à intérêt rebaptisé <em>murābaḥa</em> où le taux d'intérêt est remplacé par une « marge bénéficiaire » mathématiquement identique.</p>
 
-<p class="body-text">Les véritables instruments islamiques existent et fonctionnent sur des principes radicalement différents. La <strong>mushāraka</strong> (مشاركة) est un partenariat où la banque et le client co-investissent dans un bien et partagent les profits <em>et les risques</em>. La <strong>mushāraka mutanāqiṣa</strong> (partenariat dégressif) permet d'acquérir un logement : la banque et le client achètent ensemble, le client rachète progressivement la part de la banque tout en payant un loyer sur la part qu'il n'a pas encore acquise. Aucun intérêt. Un vrai partage du risque.</p>
+<p class="body-text">Les véritables instruments islamiques existent et fonctionnent sur des principes radicalement différents. La <strong>mushāraka</strong> (<span class="lp-ar">مشاركة</span>) est un partenariat où la banque et le client co-investissent dans un bien et partagent les profits <em>et les risques</em>. La <strong>mushāraka mutanāqiṣa</strong> (partenariat dégressif) permet d'acquérir un logement : la banque et le client achètent ensemble, le client rachète progressivement la part de la banque tout en payant un loyer sur la part qu'il n'a pas encore acquise. Aucun intérêt. Un vrai partage du risque.</p>
 
-<p class="body-text">Le principe fondamental est celui de l'<strong>adl</strong> (العدل) — la justice. L'Imam ʿAlī (ع) a dit : « La justice place chaque chose à sa place, tandis que la générosité les sort de leur place. » Un système financier juste est un système où le profit est proportionnel au risque pris, où le prêteur ne peut pas s'enrichir sans rien risquer pendant que l'emprunteur porte tout le fardeau.</p>
+<p class="body-text">Le principe fondamental est celui de l'<strong>adl</strong> (<span class="lp-ar">العدل</span>) — la justice. L'Imam ʿAlī (ع) a dit : « La justice place chaque chose à sa place, tandis que la générosité les sort de leur place. » Un système financier juste est un système où le profit est proportionnel au risque pris, où le prêteur ne peut pas s'enrichir sans rien risquer pendant que l'emprunteur porte tout le fardeau.</p>
 
 <div class="sub-heading" id="sec5-action">Que faire ?</div>
 
@@ -697,7 +866,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <p class="body-text">Toute stratégie éducative qui ignore la question des écrans est vouée à l'échec. Les données sont claires (cf. Article 02) : le smartphone est le vecteur principal de l'érosion attentionnelle, de l'exposition à des contenus destructeurs et de l'addiction dopaminergique. Le programme doit commencer ici.</p>
 
-<p class="body-text">L'American Academy of Pediatrics, le Surgeon General des États-Unis et Jonathan Haidt convergent sur des recommandations similaires : <strong>pas d'écran personnel avant 3 ans</strong>, usage limité et supervisé entre 3 et 12 ans, <strong>pas de smartphone avant 14 ans</strong>, <strong>pas de réseaux sociaux avant 16 ans</strong>. Ces recommandations ne sont pas religieuses — elles sont neurologiques. Mais elles rejoignent parfaitement le principe islamique de la <strong>wilāya</strong> (ولاية) — la tutelle protectrice que le parent exerce sur l'enfant jusqu'à sa maturité.</p>
+<p class="body-text">L'American Academy of Pediatrics, le Surgeon General des États-Unis et Jonathan Haidt convergent sur des recommandations similaires : <strong>pas d'écran personnel avant 3 ans</strong>, usage limité et supervisé entre 3 et 12 ans, <strong>pas de smartphone avant 14 ans</strong>, <strong>pas de réseaux sociaux avant 16 ans</strong>. Ces recommandations ne sont pas religieuses — elles sont neurologiques. Mais elles rejoignent parfaitement le principe islamique de la <strong>wilāya</strong> (<span class="lp-ar">ولاية</span>) — la tutelle protectrice que le parent exerce sur l'enfant jusqu'à sa maturité.</p>
 
 <p class="body-text">Un parent musulman qui donne un smartphone avec accès illimité à Internet à un enfant de 10 ans lui confie un outil qui — selon les données documentées dans les articles précédents — détruit sa capacité de concentration (nécessaire au khushūʿ), remplace la transmission du savoir par l'illusion de connaissance, et l'expose à des contenus qui sapent sa foi. Ce n'est pas une opinion. Ce sont des faits mesurés par des institutions scientifiques majeures.</p>
 
@@ -770,7 +939,6 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 </div>
 </div>
 
-</div>
 <!-- ══════════ ARTICLE 7 ══════════ -->
 <div class="article-view" id="a7">
 <button class="back-btn" onclick="closeArticle()">← Retour aux articles</button>
@@ -829,7 +997,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 <div class="sub-heading" id="sec7-islam">La dimension islamique : une injonction trahie</div>
 
-<p class="body-text">Pour les communautés musulmanes, cet enjeu revêt une dimension supplémentaire que l'on ne peut pas ignorer. Le premier mot que Dieu a adressé à l'humanité n'est pas <em>« obéis »</em>, ni <em>« crois »</em>, ni <em>« soumets-toi »</em>. C'est <strong>اقْرَأْ</strong> — <em>Iqra'</em> : <strong>Lis. Récite. Apprends.</strong> Ce n'est pas un détail. C'est un programme civilisationnel.</p>
+<p class="body-text">Pour les communautés musulmanes, cet enjeu revêt une dimension supplémentaire que l'on ne peut pas ignorer. Le premier mot que Dieu a adressé à l'humanité n'est pas <em>« obéis »</em>, ni <em>« crois »</em>, ni <em>« soumets-toi »</em>. C'est <strong><span class="lp-ar">اقْرَأْ</span></strong> — <em>Iqra'</em> : <strong>Lis. Récite. Apprends.</strong> Ce n'est pas un détail. C'est un programme civilisationnel.</p>
 
 <p class="body-text">Le mot arabe <em>qara'a</em> contient la notion de <em>rassembler</em>, de <em>relier des éléments épars pour en faire un sens cohérent</em>. C'est exactement ce que la décadence du langage détruit : la capacité à relier, à construire, à articuler une pensée complexe à partir d'éléments multiples. Le verset évoque également <em>al-qalam</em> — la plume — comme instrument de la transmission divine. Dans ce cadre théologique, céder à un langage appauvri ou se contenter de vidéos de trente secondes pour comprendre sa religion n'est pas seulement un appauvrissement culturel — <strong>c'est une forme de trahison envers l'invitation inaugurale de la révélation.</strong></p>
 
@@ -905,6 +1073,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <div class="sub-heading">Ne Jamais Capituler Face à la Modernité</div>
 <p class="body-text">Surtout, ne rendez jamais complètement votre vie intérieure à la machine de l’existence moderne. Le monde exercera constamment sur vous une pression pour devenir productif mais superficiel, informé mais sans sagesse, connecté mais intérieurement solitaire. Résistez. Continuez à apprendre profondément même en vivant au milieu d’une vie ordinaire. Une personne qui protège son esprit, sa curiosité et sa relation au savoir reste spirituellement vivante à une époque qui tire constamment les gens vers l’engourdissement.</p>
 </div>
+
+</div><!-- fin .wrap -->
 
 <script>
 var _fromPop = false;

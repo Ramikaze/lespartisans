@@ -195,6 +195,7 @@
     .play-btn {
       width: 64px;
       height: 64px;
+      flex-shrink: 0; /* reste rond quand la rangée manque de place (mobile) */
       border-radius: 50%;
       background: var(--accent);
       border: none;
@@ -353,6 +354,116 @@
 .play-btn{transition:transform .3s var(--ios-ease),box-shadow .2s!important}
 .play-btn:hover{transform:none!important}
 .play-btn:active{transform:scale(.94)!important}
+</style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — radio */
+/* Jetons de la page remappés sur le monde Console */
+html[data-design="console"]{
+  --bg:var(--lp-void);
+  --bg-card:var(--lp-glass);
+  --bg-card-hover:var(--lp-fill-2);
+  --text:var(--lp-ink);
+  --text-sub:var(--lp-ink-2);
+  --text-faint:var(--lp-ink-3);
+  --accent:var(--lp-amber);
+  --accent-soft:rgba(var(--lp-glow),.10);
+  --accent-border:var(--lp-edge);
+  --accent-border-strong:rgba(var(--lp-glow),.5);
+  --card-border:var(--lp-hairline);
+  --shadow-card:rgba(0,0,0,.5);
+  --ra-lit:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.26),transparent 70%),rgba(var(--lp-glow),.06);
+  --ra-lit-on:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.4),transparent 72%),rgba(var(--lp-glow),.12);
+  --ra-lit-glow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55);
+  --ra-lit-glow-hi:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75);
+  --ra-err:#f0a198;
+  --ra-ic-play:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 5.6v12.8a.6.6 0 0 0 .9.5l10.2-6.4a.6.6 0 0 0 0-1L8.9 5.1a.6.6 0 0 0-.9.5z'/%3E%3C/svg%3E");
+}
+html[data-design="console"][data-lp-theme="light"]{
+  --shadow-card:rgba(20,32,60,.18);
+  --ra-lit-glow:inset 0 1px 0 rgba(255,255,255,.7),0 6px 18px -8px rgba(160,100,20,.45);
+  --ra-lit-glow-hi:inset 0 1px 0 rgba(255,255,255,.8),0 10px 26px -8px rgba(160,100,20,.55);
+  --ra-err:#a3352c;
+}
+
+/* Sol : nuit calme, brume en tête ; l'ancien motif s'efface */
+html[data-design="console"] body::before{display:none!important}
+html[data-design="console"] body{padding:clamp(36px,7vw,72px) 20px 48px!important;background-image:var(--lp-motes),var(--lp-fog)!important;background-repeat:no-repeat!important;background-position:top center!important;background-size:1400px 460px,auto,auto!important}
+
+/* En-tête : la dalle de la rubrique, le titre fin d'un seul ton, le contexte dessous */
+html[data-design="console"] header{margin-bottom:36px!important}
+/* La dalle : verre éclairé de l'intérieur, mot arabe allumé (--lp-mark, console.css) ;
+   le verre floute ce qu'il couvre : aucune poussière de lumière ne se pose près du mot */
+html[data-design="console"] header .ornament{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:grid!important;place-items:center;width:fit-content!important;height:auto!important;min-width:64px;padding:8px 16px 10px!important;margin:0 auto 26px!important;border-radius:16px!important;transform:none!important;background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass)!important;border:1px solid rgba(var(--lp-glow),.6)!important;box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62)!important}
+html[data-design="console"] header .ornament::before{content:var(--lp-mark);font-family:var(--lp-ar);font-size:22px;line-height:1.3;color:var(--lp-amber-hi)}
+html[data-design="console"] header h1{margin-bottom:12px!important;font-family:var(--lp-font)!important;font-size:clamp(2.2rem,6vw,3.2rem)!important;font-weight:250!important;line-height:1.06!important;letter-spacing:-.022em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] header h1 span{color:inherit!important;font-weight:inherit!important}
+html[data-design="console"] header .subtitle{font-size:1.02rem!important;font-weight:300!important;line-height:1.6;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-2)!important}
+
+/* Lecteur : dalle de verre ; en direct, elle s'éclaire de l'intérieur */
+html[data-design="console"] .player-card{padding:34px 32px 30px!important;margin-bottom:28px!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:24px!important;box-shadow:var(--lp-panel-shadow)!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;transition:border-color .6s var(--lp-ease),box-shadow .6s var(--lp-ease)}
+html[data-design="console"] .player-card:has(.radio-icon-container.playing){background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;border-color:var(--lp-lamp-line)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important}
+/* L'orbe : verre éteint, puis lampe fixe en direct (sans pulsation) */
+html[data-design="console"] .radio-icon-container{width:96px!important;height:96px!important;margin-bottom:22px!important;background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.07)!important;transition:border-color .6s var(--lp-ease),box-shadow .6s var(--lp-ease),background-color .6s!important}
+html[data-design="console"] .radio-icon-container svg{width:42px!important;height:42px!important;color:var(--lp-ink-2)!important;transition:color .6s var(--lp-ease)}
+html[data-design="console"] .radio-icon-container.playing{animation:none!important;transform:none!important;background:radial-gradient(100% 100% at 50% 100%,rgba(var(--lp-glow),.28),transparent 70%),rgba(var(--lp-glow),.06)!important;border-color:rgba(var(--lp-glow),.55)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 0 44px -8px rgba(var(--lp-glow),.6)!important}
+html[data-design="console"] .radio-icon-container.playing svg{color:var(--lp-amber)!important}
+html[data-design="console"] .station-title{margin-bottom:10px!important;font-family:var(--lp-font)!important;font-size:1.45rem!important;font-weight:300!important;line-height:1.25!important;letter-spacing:-.01em;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .station-status{gap:8px!important;margin-bottom:26px!important;font-size:.9rem!important;font-weight:300;color:var(--lp-ink-3)!important}
+html[data-design="console"] .station-status:has(.status-dot.active){color:var(--lp-ink-2)!important}
+html[data-design="console"] .status-dot{width:7px!important;height:7px!important;background:var(--lp-ink-3)!important;box-shadow:none!important;opacity:.7}
+/* En direct : un point de lumière fixe, sans clignotement */
+html[data-design="console"] .status-dot.active{animation:none!important;opacity:1;background:var(--lp-amber)!important;box-shadow:0 0 0 4px rgba(var(--lp-glow),.12),0 0 12px 2px rgba(var(--lp-glow),.6)!important}
+
+/* Commandes : volume en fil de lumière, lecture en disque éclairé */
+html[data-design="console"] .controls{gap:20px!important}
+html[data-design="console"] .volume-box{flex:0 1 150px;width:auto!important;min-width:0}
+html[data-design="console"] .volume-box svg{flex:none;color:var(--lp-ink-2)!important;transition:color .3s}
+html[data-design="console"] .volume-box svg:hover{color:var(--lp-amber)!important}
+html[data-design="console"] .volume-slider{min-width:0;height:3px!important;background:var(--lp-fill-2)!important;border-radius:3px!important}
+html[data-design="console"] .volume-slider::-webkit-slider-thumb{width:14px!important;height:14px!important;background:var(--lp-amber)!important;box-shadow:0 0 0 4px rgba(var(--lp-glow),.14),0 0 12px rgba(var(--lp-glow),.55)}
+html[data-design="console"] .volume-slider::-moz-range-thumb{width:14px;height:14px;border:0;border-radius:50%;background:var(--lp-amber);box-shadow:0 0 0 4px rgba(var(--lp-glow),.14),0 0 12px rgba(var(--lp-glow),.55)}
+html[data-design="console"] .play-btn{width:66px!important;height:66px!important;color:var(--lp-amber)!important;background:var(--ra-lit)!important;border:1px solid rgba(var(--lp-glow),.55)!important;box-shadow:var(--ra-lit-glow)!important;transition:box-shadow .4s var(--lp-ease),transform .3s var(--lp-ease),opacity .3s!important}
+html[data-design="console"] .play-btn:hover:not(:disabled){box-shadow:var(--ra-lit-glow-hi)!important}
+html[data-design="console"] .play-btn svg{width:26px!important;height:26px!important}
+html[data-design="console"] .play-btn:disabled{cursor:default;opacity:.5;color:var(--lp-ink-3)!important;background:var(--lp-fill)!important;border-color:var(--lp-edge)!important;box-shadow:none!important}
+html[data-design="console"] .player-card:has(.radio-icon-container.playing) .play-btn{background:var(--ra-lit-on)!important;box-shadow:var(--ra-lit-glow-hi)!important}
+
+/* Recherche : un champ de verre */
+html[data-design="console"] .search-box{height:52px;padding:0 18px!important;gap:12px!important;margin-bottom:16px!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:16px!important;box-shadow:var(--lp-panel-shadow);transition:border-color .35s,box-shadow .35s}
+html[data-design="console"] .search-box:hover{border-color:var(--lp-lamp-line)!important}
+html[data-design="console"] .search-box:focus-within{border-color:rgba(var(--lp-glow),.5)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)}
+html[data-design="console"] .search-box svg{flex:none;width:20px!important;height:20px!important;color:var(--lp-amber)!important}
+html[data-design="console"] .search-input{min-width:0;font-family:var(--lp-font)!important;font-size:16px!important;font-weight:300;color:var(--lp-ink)!important;caret-color:var(--lp-amber);text-overflow:ellipsis}
+html[data-design="console"] .search-input::placeholder{color:var(--lp-ink-3)!important;opacity:1}
+
+/* Stations : une liste dans le verre ; la station choisie, en lumière ambre */
+html[data-design="console"] .grid-container{max-height:min(440px,62vh)!important;padding:8px!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)}
+html[data-design="console"] .grid-container::-webkit-scrollbar-thumb{background:rgba(150,170,210,.28)!important}
+html[data-design="console"] .station-item{gap:12px;padding:12px 14px!important;border:1px solid transparent!important;border-radius:12px!important;transition:background-color .3s var(--lp-ease),border-color .3s var(--lp-ease)!important}
+html[data-design="console"] .station-item + .station-item{margin-top:2px}
+html[data-design="console"] .station-item:hover{background:rgba(var(--lp-glow),.08)!important}
+html[data-design="console"] .station-item.active{background:radial-gradient(120% 160% at 0% 50%,rgba(var(--lp-glow),.16),transparent 70%),rgba(var(--lp-glow),.06)!important;border:1px solid rgba(var(--lp-glow),.5)!important;box-shadow:0 0 26px -12px rgba(var(--lp-glow),.6)}
+html[data-design="console"] .item-name{font-family:var(--lp-font)!important;font-size:15px!important;font-weight:300!important;color:var(--lp-ink-2)!important;transition:color .3s}
+html[data-design="console"] .station-item:hover .item-name{color:var(--lp-ink)!important}
+html[data-design="console"] .station-item.active .item-name{font-weight:400!important;color:var(--lp-amber)!important}
+/* Le glyphe ▶ devient un pictogramme dessiné */
+html[data-design="console"] .item-icon{flex:none;width:15px;height:15px;font-size:0!important;line-height:0;color:var(--lp-ink-3)!important;background:currentColor;-webkit-mask:var(--ra-ic-play) center/contain no-repeat;mask:var(--ra-ic-play) center/contain no-repeat;transition:color .3s}
+html[data-design="console"] .station-item:hover .item-icon{color:var(--lp-ink)!important}
+html[data-design="console"] .station-item.active .item-icon{color:var(--lp-amber)!important}
+html[data-design="console"] .loading-stations{font-size:.95rem!important;font-weight:300;color:var(--lp-ink-2)!important}
+html[data-design="console"] .loading-stations[style]{color:var(--ra-err)!important}
+
+/* iPhone : marges serrées, le disque de lecture garde sa forme */
+@media (max-width:600px){
+  html[data-design="console"] body{padding:32px 16px 40px!important}
+  html[data-design="console"] .player-card{padding:28px 20px 24px!important}
+  html[data-design="console"] .controls{gap:14px!important}
+}
 </style>
 </head>
 <body>

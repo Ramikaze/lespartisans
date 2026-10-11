@@ -59,6 +59,63 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .nom-card{border-radius:18px!important}
 .nom-card:hover{transform:none!important}
 </style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — 99-noms */
+/* Sol : nuit calme, brume en tête ; l'ancien motif disparaît */
+html[data-design="console"] body::before{display:none!important}
+html[data-design="console"] body{background-image:var(--lp-motes),var(--lp-fog)!important;background-repeat:no-repeat!important;background-position:top center!important;background-size:1400px 460px,auto,auto!important}
+
+/* La grille garde sa largeur ; l'en-tête reste une colonne étroite */
+html[data-design="console"] .wrap:has(> .hero){max-width:1180px!important}
+html[data-design="console"] .wrap > .hero{max-width:720px;margin-left:auto!important;margin-right:auto!important}
+/* En-tête : la dalle de la rubrique (verre éclairé de l'intérieur, mot arabe allumé), le titre, la ligne de lumière */
+html[data-design="console"] .wrap > .hero::before{content:var(--lp-mark);order:0;display:inline-grid;place-items:center;width:auto;height:auto;min-width:64px;padding:8px 16px 10px;border-radius:16px;transform:none;margin-bottom:26px;background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass);border:1px solid rgba(var(--lp-glow),.6);box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62);font-family:var(--lp-ar);font-size:22px;font-weight:400;line-height:1.3;color:var(--lp-amber-hi)}
+html[data-design="console"] .hero > .hero-sub{order:2;max-width:600px!important;font-family:var(--lp-font)!important;font-size:17px!important;font-weight:300!important;line-height:1.6!important;color:var(--lp-ink-2)!important;margin:16px auto 0!important;text-wrap:pretty}
+html[data-design="console"] .hero > .hero-div{order:3;width:180px!important;height:1px!important;border-radius:0!important;margin:28px auto 0!important;background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)!important}
+
+/* Les Noms : tuiles de verre, le nom arabe au premier plan */
+html[data-design="console"] .grid{gap:16px!important}
+html[data-design="console"] .nom-card{isolation:isolate;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)!important;padding:30px 24px 24px!important;transition:border-color .5s var(--lp-ease),box-shadow .5s var(--lp-ease)!important}
+/* La lampe intérieure : douce au survol, pleine pour le Nom ouvert depuis la recherche */
+html[data-design="console"] .nom-card::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:radial-gradient(120% 85% at 50% 0%,rgba(var(--lp-glow),.15),transparent 66%);opacity:0;transition:opacity .6s var(--lp-ease);pointer-events:none}
+html[data-design="console"] .nom-card:hover{border-color:rgba(var(--lp-glow),.38)!important;box-shadow:var(--lp-panel-shadow),0 0 34px -12px rgba(var(--lp-glow),.45)!important;transform:none!important}
+html[data-design="console"] .nom-card:hover::before{opacity:1}
+html[data-design="console"] .nom-card[style*="border-color"]{border-color:rgba(var(--lp-glow),.6)!important;box-shadow:var(--lp-panel-shadow),0 0 46px -10px rgba(var(--lp-glow),.6)!important}
+html[data-design="console"] .nom-card[style*="border-color"]::before{opacity:1;background:radial-gradient(120% 90% at 50% 0%,rgba(var(--lp-glow),.24),transparent 70%)}
+html[data-design="console"] .nom-card[style*="border-color"] .nom-arabic{color:var(--lp-amber-hi)!important}
+html[data-design="console"] .nom-num{top:16px!important;left:18px!important;font-family:var(--lp-font)!important;font-size:13px!important;font-weight:400!important;line-height:1!important;letter-spacing:0!important;color:var(--lp-amber)!important;font-variant-numeric:tabular-nums}
+html[data-design="console"] .nom-arabic{font-family:'Amiri',var(--lp-ar)!important;font-size:50px!important;font-weight:400!important;line-height:1.6!important;color:var(--lp-ink)!important;margin:4px 0 8px!important;transition:color .5s var(--lp-ease)}
+html[data-design="console"] .nom-translit{font-family:var(--lp-font)!important;font-size:18px!important;font-weight:400!important;line-height:1.3!important;letter-spacing:-.005em!important;color:var(--lp-ink)!important;margin-bottom:10px!important}
+html[data-design="console"] .nom-desc{font-family:var(--lp-font)!important;font-size:14.5px!important;font-weight:300!important;line-height:1.6!important;color:var(--lp-ink-2)!important;text-wrap:pretty}
+/* Les Noms qui s'allument : au défilement, les Noms qui traversent le milieu de l'écran s'allument,
+   grains d'un chapelet passant dans la lumière (classe lp-lit, posée par le script en fin de page) */
+html[data-design="console"] .nom-card{transition:border-color .65s var(--lp-ease),box-shadow .65s var(--lp-ease),transform .65s var(--lp-ease)!important}
+/* Lumière intérieure qui monte du bas, comme les dalles allumées de l'accueil */
+html[data-design="console"] .nom-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.34),transparent 66%);opacity:0;transform:translateY(14%);transition:opacity .65s var(--lp-ease),transform .65s var(--lp-ease);pointer-events:none}
+html[data-design="console"] .nom-card .nom-arabic{transition:color .65s var(--lp-ease),text-shadow .65s var(--lp-ease)}
+html[data-design="console"] .nom-card.lp-lit{transform:translateY(-3px)!important}
+/* Le Nom ouvert depuis la recherche garde son propre éclat */
+html[data-design="console"] .nom-card.lp-lit:not([style*="border-color"]){border-color:rgba(var(--lp-glow),.5)!important;box-shadow:var(--lp-panel-shadow),0 0 42px -12px rgba(var(--lp-glow),.5),inset 0 -1px 0 rgba(var(--lp-glow),.3)!important}
+html[data-design="console"] .nom-card.lp-lit::after{opacity:1;transform:none}
+html[data-design="console"] .nom-card.lp-lit .nom-arabic{color:var(--lp-amber-hi)!important;text-shadow:0 0 22px rgba(var(--lp-glow),.5)}
+/* Aube : halo chaud, le nom reste sombre */
+html[data-design="console"][data-lp-theme="light"] .nom-card.lp-lit .nom-arabic{text-shadow:0 1px 0 rgba(255,255,255,.75),0 0 22px rgba(255,186,104,.6)}
+@media (prefers-reduced-motion:reduce){
+  html[data-design="console"] .nom-card,html[data-design="console"] .nom-card::after,html[data-design="console"] .nom-card .nom-arabic{transition:none!important}
+  html[data-design="console"] .nom-card.lp-lit{transform:none!important}
+}
+
+@media (max-width:600px){
+  html[data-design="console"] .nom-card{padding:26px 18px 20px!important}
+  html[data-design="console"] .nom-arabic{font-size:44px!important}
+  html[data-design="console"] .hero > .hero-sub{font-size:16px!important}
+}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -72,693 +129,693 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
     <div class="nom-card">
       <div class="nom-num">1</div>
-      <div class="nom-arabic">ﷲ</div>
+      <div class="nom-arabic">الله</div>
       <div class="nom-translit">Allah</div>
       <div class="nom-desc">Allah désigne l'unique Dieu, Créateur de l'univers, éternel et absolu, adoré</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">2</div>
-      <div class="nom-arabic">ٱﻟﺮﱠﺣْﻤَٰﻦُ</div>
+      <div class="nom-arabic">ٱلرَّحْمَٰنُ</div>
       <div class="nom-translit">Ar-Rahmān</div>
       <div class="nom-desc">Ar-Rahmān signifie "Le Tout-Miséricordieux", celui dont la miséricorde englobe toute chose sans distinction.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">3</div>
-      <div class="nom-arabic">ٱﻟﺮﱠﺣِﻴﻢُ</div>
+      <div class="nom-arabic">ٱلرَّحِيمُ</div>
       <div class="nom-translit">Ar-Rahīm</div>
       <div class="nom-desc">Ar-Rahīm signifie "Le Très-Miséricordieux", celui dont la miséricorde est spécifique et constante envers les croyants, particulièrement dans l'au-delà.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">4</div>
-      <div class="nom-arabic">ٱﻟْﻤَﻠِﻚُ</div>
+      <div class="nom-arabic">ٱلْمَلِكُ</div>
       <div class="nom-translit">Al-Malik</div>
       <div class="nom-desc">Al-Malik signifie "Le Souverain", celui qui détient la royauté absolue et l'autorité complète sur toute la création.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">5</div>
-      <div class="nom-arabic">ٱﻟْﻘُﺪﱡوسُ</div>
+      <div class="nom-arabic">ٱلْقُدُّوسُ</div>
       <div class="nom-translit">Al-Quddūs</div>
       <div class="nom-desc">Al-Quddūs signifie "Le Saint", celui qui est sacré, purifié de toute imperfection, et dont la sainteté transcende tout ce qui est terrestre.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">6</div>
-      <div class="nom-arabic">ٱﻟﺴﱠﻼَمُ</div>
+      <div class="nom-arabic">ٱلسَّلاَمُ</div>
       <div class="nom-translit">As-Salām</div>
       <div class="nom-desc">As-Salām signifie "La Paix", Celui qui accorde la paix et la sécurité à Ses créatures, étant exempt de tout défaut.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">7</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺆْﻣِﻦُ</div>
+      <div class="nom-arabic">ٱلْمُؤْمِنُ</div>
       <div class="nom-translit">Al-Mu'min</div>
       <div class="nom-desc">Al-Mu'min signifie "Le Rassurant", Celui qui accorde la sécurité et la tranquillité d’esprit, en offrant foi et protection aux croyants.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">8</div>
-      <div class="nom-arabic">اﻟﻤُﻬَﻴْﻤِﻦ</div>
+      <div class="nom-arabic">المُهَيْمِن</div>
       <div class="nom-translit">Al-Mouhaymin</div>
       <div class="nom-desc">Al-Mouhaymin signifie "Le Protecteur", Celui qui garde, surveille et protège toute la création, en assurant sa sécurité et son bien-être.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">9</div>
-      <div class="nom-arabic">ٱﻟْﻌَﺰِﻳﺰُ</div>
+      <div class="nom-arabic">ٱلْعَزِيزُ</div>
       <div class="nom-translit">Al-‘Aziz</div>
       <div class="nom-desc">Al-‘Aziz signifie "Le Tout-Puissant", Celui qui est invincible et qui ne peut être vaincu, dont la force et l’autorité sont incontestées.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">10</div>
-      <div class="nom-arabic">ٱﻟْﺠَﺒﱠﺎرُ</div>
+      <div class="nom-arabic">ٱلْجَبَّارُ</div>
       <div class="nom-translit">Al-Jabbār</div>
       <div class="nom-desc">Al-Jabbār signifie "Celui qui domine et contraint", Celui dont la puissance est inébranlable, capable de réparer et redresser ce qui est brisé et déformé.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">11</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺘَﻜَﺒﱢﺮُ</div>
+      <div class="nom-arabic">ٱلْمُتَكَبِّرُ</div>
       <div class="nom-translit">Al-Mutakabbir</div>
       <div class="nom-desc">Al-Mutakabbir signifie "Le Suprême", Celui qui est au-dessus de toute grandeur et d’orgueil, l'Unique digne de toute magnificence et de toute gloire</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">12</div>
-      <div class="nom-arabic">ٱﻟْﺨَٰﻠِﻖُ</div>
+      <div class="nom-arabic">ٱلْخَٰلِقُ</div>
       <div class="nom-translit">Al-Khāliq</div>
       <div class="nom-desc">Al-Khāliq signifie "Le Créateur", Celui qui crée toutes choses à partir de rien, qui façonne et donne forme à l'univers et à tout ce qu'il contient.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">13</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺎرِئُ</div>
+      <div class="nom-arabic">ٱلْبَارِئُ</div>
       <div class="nom-translit">Al-Bāri’</div>
       <div class="nom-desc">Al-Bāri’ signifie "Le Producteur" ou "Le Formateur", Celui qui crée les êtres vivants et donne à chacun sa forme unique, en parfaite harmonie avec leur nature et leur fonction.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">14</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺼَﻮﱢرُ</div>
+      <div class="nom-arabic">ٱلْمُصَوِّرُ</div>
       <div class="nom-translit">Al-Musawwir</div>
       <div class="nom-desc">Al-Musawwir signifie "Le Modeleur", Celui qui donne la forme à la création, qui façonne chaque créature avec précision et beauté, en lui attribuant une forme distincte et adaptée à son rôle dans l'univers.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">15</div>
-      <div class="nom-arabic">ٱﻟْﻐَﻔﱠﺎرُ</div>
+      <div class="nom-arabic">ٱلْغَفَّارُ</div>
       <div class="nom-translit">Al-Ghaffār</div>
       <div class="nom-desc">Al-Ghaffār signifie "Celui qui Absout beaucoup", Celui qui pardonne sans limite et accorde son pardon à ceux qui se repentent sincèrement, offrant ainsi une miséricorde infinie à ses créatures.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">16</div>
-      <div class="nom-arabic">ٱﻟْﻘَﻬﱠﺎرُ</div>
+      <div class="nom-arabic">ٱلْقَهَّارُ</div>
       <div class="nom-translit">Al-Qahhār</div>
       <div class="nom-desc">Al-Qahhār signifie "L'Irrésistible", Celui qui est capable de surmonter et de dominer toute chose, sans aucune résistance possible.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">17</div>
-      <div class="nom-arabic">ٱﻟْﻮَﻫﱠﺎبُ</div>
+      <div class="nom-arabic">ٱلْوَهَّابُ</div>
       <div class="nom-translit">Al-Wahhāb</div>
       <div class="nom-desc">Al-Wahhāb signifie "Le Donneur en Abondance", Celui qui accorde généreusement et continuellement des bénédictions et des bienfaits, sans limitation.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">18</div>
-      <div class="nom-arabic">ٱﻟْﺮﱠزﱠاقُ</div>
+      <div class="nom-arabic">ٱلْرَّزَّاقُ</div>
       <div class="nom-translit">Ar-Razzāq</div>
       <div class="nom-desc">Ar-Razzāq signifie "Le Pourvoyeur", Celui qui accorde de manière inépuisable et incessante les moyens de subsistance et tous les biens nécessaires à la vie.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">19</div>
-      <div class="nom-arabic">ٱﻟْﻔَﺘﱠﺎحُ</div>
+      <div class="nom-arabic">ٱلْفَتَّاحُ</div>
       <div class="nom-translit">Al-Fattāh</div>
       <div class="nom-desc">Al-Fattāh signifie "Le Très Ouvert", Celui qui ouvre toutes les voies de la victoire et des solutions, en particulier dans des situations complexes, en apportant des réponses et des résolutions aux problèmes.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">20</div>
-      <div class="nom-arabic">ٱﻟْﻌَﻠِﻴﻢُ</div>
+      <div class="nom-arabic">ٱلْعَلِيمُ</div>
       <div class="nom-translit">Al-‘Alīm</div>
       <div class="nom-desc">Al-‘Alīm signifie "L'Omniscient", Celui qui possède une connaissance absolue de tout, sans aucune limite, connaissant tout ce qui est caché ou apparent, dans l'univers et au-delà.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">21</div>
-      <div class="nom-arabic">ٱﻟْﻘَﺎﺑِﺾُ</div>
+      <div class="nom-arabic">ٱلْقَابِضُ</div>
       <div class="nom-translit">Al-Qabid</div>
       <div class="nom-desc">Al-Qabid signifie "Le Reteneur", Celui qui resserre et retient. Il désigne Celui qui a la capacité de retenir ou restreindre les choses, notamment les moyens de subsistance, la prospérité ou la vie, selon Sa volonté.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">22</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺎﺳِﻂُ</div>
+      <div class="nom-arabic">ٱلْبَاسِطُ</div>
       <div class="nom-translit">Al-Bāsit</div>
       <div class="nom-desc">Al-Bāsit signifie "Celui qui étend" ou "Celui qui donne largement". Il fait référence à la capacité divine de répandre, d'étendre ou de donner abondamment à Ses créatures. Cela inclut la richesse, la prospérité et les bienfaits de manière généreuse et sans limite.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">23</div>
-      <div class="nom-arabic">ٱﻟْﺨَٰﻔِﺾُ</div>
+      <div class="nom-arabic">ٱلْخَٰفِضُ</div>
       <div class="nom-translit">Al-Khāfid</div>
       <div class="nom-desc">Al-Khāfid signifie "Celui qui abaisse". Il fait référence à Celui qui abaisse ou réduit la position de certains individus ou choses, que ce soit en termes de statut, de pouvoir ou d'influence, selon la volonté divine.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">24</div>
-      <div class="nom-arabic">اﻟﺮاﻓﻊ</div>
+      <div class="nom-arabic">الرافع</div>
       <div class="nom-translit">Ar-Rāfi‘</div>
       <div class="nom-desc">Ar-Rāfi‘ signifie "Le Souverain qui élève", Celui qui élève les rangs des croyants et accorde la grandeur, élevant ceux qu'Il choisit dans ce monde et l’au-delà.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">25</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻌِﺰﱡ</div>
+      <div class="nom-arabic">ٱلْمُعِزُّ</div>
       <div class="nom-translit">Al-Mu‘izz</div>
       <div class="nom-desc">Al-Mu‘izz signifie "Le Donneur de Pouvoir", Celui qui honore et accorde la force, qui élève en dignité et donne l’autorité à ceux qu'Il choisit.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">26</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺬِلﱡ</div>
+      <div class="nom-arabic">ٱلْمُذِلُّ</div>
       <div class="nom-translit">Al-Moudhill</div>
       <div class="nom-desc">Al-Moudhill signifie "Celui qui Humilie", Celui qui abaisse et dégrade, retirant la dignité et l'honneur de ceux qui s'éloignent de Sa voie.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">27</div>
-      <div class="nom-arabic">ٱﻟﺴﱠﻤِﻴﻊُ</div>
+      <div class="nom-arabic">ٱلسَّمِيعُ</div>
       <div class="nom-translit">As-Samī‘</div>
       <div class="nom-desc">As-Samī‘ signifie "L'Omnient Entendant", Celui qui entend tout, sans exception, et qui est toujours à l'écoute de ce qui se passe dans le monde.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">28</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺼِﻴﺮُ</div>
+      <div class="nom-arabic">ٱلْبَصِيرُ</div>
       <div class="nom-translit">Al-Basīr</div>
       <div class="nom-desc">Al-Basīr signifie "Le Tout-Voyant", Celui qui voit tout, qu'il s'agisse de ce qui est apparent ou caché, et qui est pleinement conscient de chaque détail de la création.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">29</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻜَﻢُ</div>
+      <div class="nom-arabic">ٱلْحَكَمُ</div>
       <div class="nom-translit">Al-Hakam</div>
       <div class="nom-desc">Al-Hakam signifie "Le Juge Suprême", Celui qui rend la vérité évidente et prononce des jugements avec justice, en accord avec la sagesse divine.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">30</div>
-      <div class="nom-arabic">ٱﻟْﻌَﺪْلُ</div>
+      <div class="nom-arabic">ٱلْعَدْلُ</div>
       <div class="nom-translit">Al-‘Adl</div>
       <div class="nom-desc">Al-‘Adl signifie "Le Juste", Celui qui est parfaitement équitable et qui rend justice sans aucune partialité, en traitant chaque individu selon ses mérites.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">31</div>
-      <div class="nom-arabic">ٱﻟﻠﱠﻄِﻴﻒُ</div>
+      <div class="nom-arabic">ٱللَّطِيفُ</div>
       <div class="nom-translit">Al-Latīf</div>
       <div class="nom-desc">Al-Latīf signifie "Le Subtil", Celui qui est plein de douceur et de bienveillance, dont la générosité et la bienfaisance se manifestent de manière discrète et délicate, agissant avec une grande sagesse et une attention particulière aux détails.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">32</div>
-      <div class="nom-arabic">ٱﻟْﺨَﺒِﻴﺮُ</div>
+      <div class="nom-arabic">ٱلْخَبِيرُ</div>
       <div class="nom-translit">Al-Khabīr</div>
       <div class="nom-desc">Al-Khabīr signifie "Le Parfaitement Informé", Celui qui connaît toutes les choses en détail, avec une connaissance complète et précise, et qui est parfaitement au courant de ce qui se passe dans le monde et dans les cœurs des individus.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">33</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻠِﻴﻢُ</div>
+      <div class="nom-arabic">ٱلْحَلِيمُ</div>
       <div class="nom-translit">Al-Halīm</div>
       <div class="nom-desc">Al-Halīm signifie "Le Clément", Celui qui fait preuve de grande patience et de douceur envers Ses créatures, même lorsqu'elles commettent des erreurs, et qui ne les punit pas immédiatement malgré leur désobéissance.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">34</div>
-      <div class="nom-arabic">ٱﻟْﻌَﻈِﻴﻢُ</div>
+      <div class="nom-arabic">ٱلْعَظِيمُ</div>
       <div class="nom-translit">Al-Adhīm</div>
       <div class="nom-desc">Al-‘Azīm signifie "Le Très Grand", Celui dont la grandeur et la majesté sont incomparables, Celui dont la puissance et la gloire sont au-delà de toute mesure.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">35</div>
-      <div class="nom-arabic">ٱﻟْﻐَﻔُﻮرُ</div>
+      <div class="nom-arabic">ٱلْغَفُورُ</div>
       <div class="nom-translit">Al-Ḡafhūr</div>
       <div class="nom-desc">Al-Ghafūr signifie "Le Très Pardonneur", Celui qui accorde un pardon absolu et infini, qui efface les péchés des serviteurs avec une immense miséricorde.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">36</div>
-      <div class="nom-arabic">ٱﻟﺸﱠﻜُﻮرُ</div>
+      <div class="nom-arabic">ٱلشَّكُورُ</div>
       <div class="nom-translit">Ash-Shakūr</div>
       <div class="nom-desc">Ash-Shakūr signifie "Le Très Reconnaissant", Celui qui reconnaît et récompense généreusement les bonnes actions de Ses serviteurs, même les plus petites, avec une grande récompense.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">37</div>
-      <div class="nom-arabic">ٱﻟْﻌَﻠِﻲّ</div>
+      <div class="nom-arabic">ٱلْعَلِيّ</div>
       <div class="nom-translit">Al-'Aliyy</div>
       <div class="nom-desc">Al-‘Aliyy signifie "Le Très Haut", Celui qui est au-dessus de toute chose, exalté dans Sa grandeur et Sa majesté, et dont la position n'a d'égale nulle part dans l'univers.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">38</div>
-      <div class="nom-arabic">ٱﻟْﻜَﺒِﻴﺮُ</div>
+      <div class="nom-arabic">ٱلْكَبِيرُ</div>
       <div class="nom-translit">Al-Kabīr</div>
       <div class="nom-desc">Al-Kabīr signifie "Le Très Grand", Celui qui est immense en grandeur et en dignité, dont la majesté surpasse toute chose dans l'univers.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">39</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻔِﻴﻆُ</div>
+      <div class="nom-arabic">ٱلْحَفِيظُ</div>
       <div class="nom-translit">Al-Hafīdh</div>
       <div class="nom-desc">Al-Hafīdh signifie "Le Préservateur", Celui qui protège et garde soigneusement toute chose, veillant à ce qu'aucune ne soit perdue ou oubliée.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">40</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻘِﻴﺖُ</div>
+      <div class="nom-arabic">ٱلْمُقِيتُ</div>
       <div class="nom-translit">Al-Muqīt</div>
       <div class="nom-desc">Al-Muqīt signifie "Le Nourrisseur", Celui qui fournit à toute créature ce dont elle a besoin pour sa subsistance et sa préservation.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">41</div>
-      <div class="nom-arabic">ٱﻟْﺤَﺴِﻴﺐُ</div>
+      <div class="nom-arabic">ٱلْحَسِيبُ</div>
       <div class="nom-translit">Al-Hasīb</div>
       <div class="nom-desc">Al-Hasīb signifie "Celui qui règle les comptes", Celui qui prend en compte toutes les actions et les récompenses ou punitions qui en découlent, en tenant un compte précis de tout.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">42</div>
-      <div class="nom-arabic">ٱﻟْﺠَﻠِﻴﻞُ</div>
+      <div class="nom-arabic">ٱلْجَلِيلُ</div>
       <div class="nom-translit">Al-Jalīl</div>
       <div class="nom-desc">Al-Jalīl signifie "Le Majestueux", Celui qui possède une grandeur et une dignité infinies, au-dessus de tout ce qui existe, dont la majesté est incomparable.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">43</div>
-      <div class="nom-arabic">ٱﻟْﻜَﺮِﻳﻢُ</div>
+      <div class="nom-arabic">ٱلْكَرِيمُ</div>
       <div class="nom-translit">Al-Karīm</div>
       <div class="nom-desc">Al-Karīm signifie "Le Généreux", Celui qui fait preuve de générosité infinie et qui accorde des bénédictions, des grâces et des bienfaits sans compter.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">44</div>
-      <div class="nom-arabic">ٱﻟﺮﱠﻗِﻴﺐُ</div>
+      <div class="nom-arabic">ٱلرَّقِيبُ</div>
       <div class="nom-translit">Ar-Raqīb</div>
       <div class="nom-desc">Ar-Raqīb signifie "L'Observateur", Celui qui surveille toutes les créatures avec une attention parfaite, ne laissant échapper aucun détail, et connaît chaque action, pensée ou intention.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">45</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺠِﻴﺐُ</div>
+      <div class="nom-arabic">ٱلْمُجِيبُ</div>
       <div class="nom-translit">Al-Mujīb</div>
       <div class="nom-desc">Al-Mujīb signifie "Le Répondant", Celui qui répond à l'appel de ceux qui Lui demandent, Celui qui accorde ce qui est demandé de manière adéquate et juste, selon Sa volonté divine.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">46</div>
-      <div class="nom-arabic">ٱﻟْﻮَاﺳِﻊُ</div>
+      <div class="nom-arabic">ٱلْوَاسِعُ</div>
       <div class="nom-translit">Al-Wāsi‘</div>
       <div class="nom-desc">Al-Wāsi‘ signifie "Le Vaste", Celui dont l'étendue englobe toute chose, qu'il s'agisse de Sa connaissance, de Sa miséricorde ou de Sa grâce.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">47</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻜِﻴﻢُ</div>
+      <div class="nom-arabic">ٱلْحَكِيمُ</div>
       <div class="nom-translit">Al-Hakīm</div>
       <div class="nom-desc">Al-Hakīm signifie "Le Sage", Celui dont la sagesse est parfaite et dont les décisions et actions sont empreintes de justesse et de discernement.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">48</div>
-      <div class="nom-arabic">اﻟﻮدودُ</div>
+      <div class="nom-arabic">الودودُ</div>
       <div class="nom-translit">Al-Wadūd</div>
       <div class="nom-desc">Al-Hakīm signifie "Le Sage", Celui dont la sagesse est parfaite et dont les décisions et actions sont empreintes de justesse et de discernement.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">49</div>
-      <div class="nom-arabic">ٱﻟْﻤَﺠِﻴﺪُ</div>
+      <div class="nom-arabic">ٱلْمَجِيدُ</div>
       <div class="nom-translit">Al-Majīd</div>
       <div class="nom-desc">Al-Majīd signifie "Le Glorieux", Celui qui possède une majesté et une gloire infinies</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">50</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺎﻋِﺚُ</div>
+      <div class="nom-arabic">ٱلْبَاعِثُ</div>
       <div class="nom-translit">Al-Bā‘ith</div>
       <div class="nom-desc">Al-Bā‘ith signifie "Le Ressusciteur", Celui qui ramène les morts à la vie et éveille les consciences.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">51</div>
-      <div class="nom-arabic">ٱﻟﺸﱠﻬِﻴﺪُ</div>
+      <div class="nom-arabic">ٱلشَّهِيدُ</div>
       <div class="nom-translit">Ashahīd</div>
       <div class="nom-desc">Ash-Shahīd signifie "Le Témoin", Celui qui est omniprésent et témoin de toutes choses, visibles et invisibles.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">52</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻖﱡ</div>
+      <div class="nom-arabic">ٱلْحَقُّ</div>
       <div class="nom-translit">Al-Haqq</div>
       <div class="nom-desc">Al-Haqq signifie "La Vérité", Celui qui est la réalité ultime et dont l'existence est incontestable.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">53</div>
-      <div class="nom-arabic">ٱﻟْﻮَﻛِﻴﻞُ</div>
+      <div class="nom-arabic">ٱلْوَكِيلُ</div>
       <div class="nom-translit">Al-Wakīl</div>
       <div class="nom-desc">Al-Wakīl signifie "Le Garant", Celui qui gère les affaires et pourvoit aux besoins de Ses serviteurs.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">54</div>
-      <div class="nom-arabic">ٱﻟْﻘَﻮِيﱡ</div>
+      <div class="nom-arabic">ٱلْقَوِيُّ</div>
       <div class="nom-translit">Al-Qawi</div>
       <div class="nom-desc">Al-Qawi signifie "Le Très Fort", Celui qui détient une force absolue et inégalable.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">55</div>
-      <div class="nom-arabic">ٱﻟْﻤَﺘِﻴﻦُ</div>
+      <div class="nom-arabic">ٱلْمَتِينُ</div>
       <div class="nom-translit">Al-Matīn</div>
       <div class="nom-desc">Al-Matīn signifie "Le Très Solide", Celui qui est inébranlable, ferme et stable dans Sa puissance, une force qui ne faiblit jamais.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">56</div>
-      <div class="nom-arabic">ٱﻟْﻮَﻟِﻲﱡ</div>
+      <div class="nom-arabic">ٱلْوَلِيُّ</div>
       <div class="nom-translit">Al-Wa'li</div>
       <div class="nom-desc">Al-Walī signifie "Le Protecteur", Celui qui soutient, guide et protège ses créatures avec bienveillance et soin.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">57</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻤِﻴﺪُ</div>
+      <div class="nom-arabic">ٱلْحَمِيدُ</div>
       <div class="nom-translit">Al-Hamīd</div>
       <div class="nom-desc">Al-Hamīd signifie "Le Loué", Celui qui mérite toutes les louanges et les gratitudes, car Il est digne d'être adoré et exalté pour Ses qualités parfaites et Sa miséricorde infinie.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">58</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺤْﺼِﻲ</div>
+      <div class="nom-arabic">ٱلْمُحْصِي</div>
       <div class="nom-translit">Al-Muhsi</div>
       <div class="nom-desc">Al-Muhsi signifie "L'Omniscient", Celui qui connaît parfaitement le nombre exact de toutes choses, qu'elles soient visibles ou invisibles, et qui en garde le compte précis.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">59</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺒْﺪِئُ</div>
+      <div class="nom-arabic">ٱلْمُبْدِئُ</div>
       <div class="nom-translit">Al-Mubdi‘</div>
       <div class="nom-desc">Al-Mubdi‘ signifie "Le Commencant", Celui qui initie la création de toute chose à partir de rien, sans modèle ou précédent.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">60</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻌِﻴﺪُ</div>
+      <div class="nom-arabic">ٱلْمُعِيدُ</div>
       <div class="nom-translit">Al-Mu‘īd</div>
       <div class="nom-desc">Al-Mu‘īd signifie "Le Restaurateur", Celui qui redonne la vie, la création ou la situation après la destruction, en rétablissant les choses à leur état initial ou en leur offrant une nouvelle chance</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">61</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺤْﻴِﻲ</div>
+      <div class="nom-arabic">ٱلْمُحْيِي</div>
       <div class="nom-translit">Al-Muhyī</div>
       <div class="nom-desc">Al-Muhyī signifie "Le Vivificateur", Celui qui donne la vie à ce qui est mort, qu'il s'agisse d'êtres vivants, de situations ou de choses. Il incarne la capacité divine de renouveler et de raviver, en insufflant la vie et la vitalité dans l'univers.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">62</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻤِﻴﺖُ</div>
+      <div class="nom-arabic">ٱلْمُمِيتُ</div>
       <div class="nom-translit">Al-Mumīt</div>
       <div class="nom-desc">Al-Mumīt signifie "Le Donneur de la Mort", Celui qui donne la mort à toute créature et à toute chose. Ce nom met en évidence la souveraineté d'Allah sur la vie et la mort, soulignant qu'Il est le seul à déterminer le moment de la fin de toute existence.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">63</div>
-      <div class="nom-arabic">ٱﻟْﺤَﻲﱢ</div>
+      <div class="nom-arabic">ٱلْحَيِّ</div>
       <div class="nom-translit">Al-Hayy</div>
       <div class="nom-desc">Al-Hayy signifie "Le vivant", Celui qui possède la vie éternelle et qui est exempt de toute forme de mort. Ce nom souligne la perfection et l'éternité de la vie d'Allah, qui ne dépend d'aucune cause extérieure et qui est infinie et inaltérable.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">64</div>
-      <div class="nom-arabic">ٱﻟْﻘَﻴﱡﻮمُ</div>
+      <div class="nom-arabic">ٱلْقَيُّومُ</div>
       <div class="nom-translit">Al-Qayyūm</div>
       <div class="nom-desc">Al-Qayyūm signifie "Le Subsistant par Lui-même", Celui qui soutient et maintient l'existence de tout ce qui existe. Ce nom reflète la parfaite autosuffisance d'Allah, qui est la source de toute stabilité et qui gouverne l'univers sans dépendre de quoi que ce soit.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">65</div>
-      <div class="nom-arabic">ٱﻟْﻮَاﺟِﺪُ</div>
+      <div class="nom-arabic">ٱلْوَاجِدُ</div>
       <div class="nom-translit">Al-Wājid</div>
       <div class="nom-desc">Al-Wājid signifie "Le Trouveur", Celui qui trouve tout ce qu'Il veut, sans difficulté. Ce nom met en lumière la capacité divine d'Allah à atteindre tout ce qu'Il cherche, en toute simplicité, et à combler tous les besoins, tant spirituels que matériels.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">66</div>
-      <div class="nom-arabic">ٱﻟْﻤَﺎﺟِﺪُ</div>
+      <div class="nom-arabic">ٱلْمَاجِدُ</div>
       <div class="nom-translit">Al-Mājid</div>
       <div class="nom-desc">Al-Mājid signifie "L'Illustre", Celui qui est d'une gloire sublime, dont la dignité et la grandeur sont inégalées. Ce nom met en évidence la noblesse et l'honneur d'Allah, qui possède une splendeur et une magnificence exceptionnelles, dignes de toute admiration.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">67</div>
-      <div class="nom-arabic">ٱﻟْﻮَاﺣِﺪُ</div>
+      <div class="nom-arabic">ٱلْوَاحِدُ</div>
       <div class="nom-translit">Al-Wāhid</div>
       <div class="nom-desc">Al-Wāhid signifie "L'Unique", Celui qui est absolument seul et sans égal. Ce nom souligne l'unicité d'Allah, qui n'a ni partenaire ni semblable, et qui est le seul à mériter d'être adoré et invoqué.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">68</div>
-      <div class="nom-arabic">ٱﻟﺼﱠﻤَﺪُ</div>
+      <div class="nom-arabic">ٱلصَّمَدُ</div>
       <div class="nom-translit">As-Samad</div>
       <div class="nom-desc">As-Samad signifie "Le Soutien de Tout", Celui qui est absolu, éternel et auprès de qui toute créature se tourne pour obtenir son soutien. Ce nom reflète la nature d'Allah comme étant l'indépendant, celui qui ne dépend de personne, tandis que tout l'univers dépend de Lui pour subsister et trouver sa pleine réalisation.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">69</div>
-      <div class="nom-arabic">ٱﻟْﻘَﺎدِرُ</div>
+      <div class="nom-arabic">ٱلْقَادِرُ</div>
       <div class="nom-translit">Al-Qādir</div>
       <div class="nom-desc">Al-Qādir signifie "Le Tout-Puissant", Celui qui a le pouvoir absolu sur tout ce qui existe. Ce nom souligne la capacité d'Allah à accomplir toute chose, sans aucune limite, et à réaliser sa volonté dans l'univers selon sa sagesse infinie.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">70</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻘْﺘَﺪِرُ</div>
+      <div class="nom-arabic">ٱلْمُقْتَدِرُ</div>
       <div class="nom-translit">Al-Muqtadir</div>
       <div class="nom-desc">Al-Muqtadir signifie "Le Très Puissant", Celui dont la puissance est totale et sans égale. Ce nom met en évidence la force et l'autorité absolues d'Allah, capable de réaliser tout ce qu'Il veut, avec une maîtrise parfaite et sans limite.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">71</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻘَﺪﱢمُ</div>
+      <div class="nom-arabic">ٱلْمُقَدِّمُ</div>
       <div class="nom-translit">Al- Muqaddim</div>
       <div class="nom-desc">Al-Muqaddim signifie "L'Avanceur", Celui qui précède et met en avant ce qu'Il veut. Ce nom souligne la capacité d'Allah à avancer ou à élever les choses selon Sa volonté, en plaçant ce qu'Il veut dans sa position et son ordre parfait, avant tout le reste.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">72</div>
-      <div class="nom-arabic">ٱﻟْﻤُﺆَﺧﱢﺮُ</div>
+      <div class="nom-arabic">ٱلْمُؤَخِّرُ</div>
       <div class="nom-translit">Al-Mu’akhir</div>
       <div class="nom-desc">Al-Mu’akhir signifie "Celui qui retarde", Celui qui, selon Sa volonté, place les choses après tout le reste. Ce nom met en évidence le pouvoir d'Allah de retarder ou de repousser les événements à un moment ultérieur, selon Sa sagesse et Son plan divin.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">73</div>
-      <div class="nom-arabic">ٱﻷْوﱠلُ</div>
+      <div class="nom-arabic">ٱلْأوَّلُ</div>
       <div class="nom-translit">Al-Awwal</div>
       <div class="nom-desc">l-Awwal signifie "Le Premier", Celui qui est avant tout, sans commencement, et dont l'existence précède tout ce qui existe. Ce nom met en lumière l'éternité d'Allah, qui n'a ni origine ni début, et qui est la source de toute création.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">74</div>
-      <div class="nom-arabic">ٱﻵْﺧِﺮُ</div>
+      <div class="nom-arabic">ٱلْآخِرُ</div>
       <div class="nom-translit">Al-Ākhir</div>
       <div class="nom-desc">Al-Ākhir signifie "Le Dernier", Celui qui est après tout, et dont l'existence ne prend fin jamais. Ce nom met en évidence qu'Allah est le dernier à demeurer, le seul qui perdure éternellement, après la fin de toute chose, et que tout retour final revient à Lui.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">75</div>
-      <div class="nom-arabic">ٱﻟﻈﱠﺎﻫِﺮُ</div>
+      <div class="nom-arabic">ٱلظَّاهِرُ</div>
       <div class="nom-translit">Adh-Dhāhir</div>
       <div class="nom-desc">Adh-Dhāhir signifie "L'Apparent", Celui dont la présence et la réalité sont manifestes et évidentes, mais qui reste au-delà de toute compréhension humaine. Ce nom met en lumière la grandeur d'Allah, dont l'existence se révèle à travers la création, mais dont la nature ultime transcende toute perception.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">76</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺎﻃِﻦُ</div>
+      <div class="nom-arabic">ٱلْبَاطِنُ</div>
       <div class="nom-translit">Al-Bātin</div>
       <div class="nom-desc">Al-Bātin signifie "Le Caché", Celui dont la réalité est dissimulée, au-delà de la perception humaine, mais qui est présent et connaissable par Sa propre essence. Ce nom souligne la profondeur de la connaissance et de la sagesse d'Allah, qui est à la fois caché dans Sa nature et évident à travers Ses signes et Sa création.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">77</div>
-      <div class="nom-arabic">ٱﻟْﻮَﻟِﻲﱡ</div>
+      <div class="nom-arabic">ٱلْوَالِي</div>
       <div class="nom-translit">Al-Wāly</div>
       <div class="nom-desc">Al-Wāly signifie "Le Protecteur" ou "Le Maître", Celui qui prend soin de Ses créatures et qui les guide avec amour et bienveillance. Ce nom met en évidence la proximité d'Allah avec ceux qu'Il protège, dirige et soutient dans tous les aspects de leur vie.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">78</div>
-      <div class="nom-arabic">اﻟﻤﺘﻌﺎﻟﻲ</div>
+      <div class="nom-arabic">المتعالي</div>
       <div class="nom-translit">Al-Muta'āli</div>
       <div class="nom-desc">Al-Muta'āli signifie "L'Inaccessible", Celui qui est au-dessus de toute chose et qui transcende toute limite. Ce nom met en lumière la grandeur et l'élévation d'Allah, qui dépasse toute compréhension humaine et qui est exalté au-delà de toute comparaison ou restriction.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">79</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺮﱡ</div>
+      <div class="nom-arabic">ٱلْبَرُّ</div>
       <div class="nom-translit">Al-Barr</div>
       <div class="nom-desc">Al-Barr signifie "Le Bienfaiteur", Celui qui est d'une bonté parfaite et infinie. Ce nom souligne la pureté de la miséricorde et de la générosité d'Allah, qui agit toujours avec bienveillance et qui guide Ses créatures vers le bien, leur offrant amour, protection et bénédictions.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">80</div>
-      <div class="nom-arabic">ٱﻟﺘﱠﻮﱠابُ</div>
+      <div class="nom-arabic">ٱلتَّوَّابُ</div>
       <div class="nom-translit">At-Tawwab</div>
       <div class="nom-desc">At-Tawwab signifie "Le Grand Accueillant au repentir", Celui qui accepte les repentirs, pardonne et accepte ceux qui se tournent vers Lui avec sincérité. Ce nom souligne la miséricorde infinie d'Allah, qui permet à Ses serviteurs de se repentir et de revenir à Lui, offrant un pardon et une réconciliation pleine de bienfaits.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">81</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻨﺘَﻘِﻢُ</div>
+      <div class="nom-arabic">ٱلْمُنتَقِمُ</div>
       <div class="nom-translit">Al-Muntaqim</div>
       <div class="nom-desc">Al-Muntaqim signifie "Le Vengeur", Celui qui prend revanche contre les injustes et punit ceux qui ont commis des actes de malveillance. Ce nom met en évidence la justice divine d'Allah, qui exerce Sa vengeance d'une manière parfaite, en rétablissant l'équilibre et en rétribuant les actions selon Sa sagesse et Sa volonté.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">82</div>
-      <div class="nom-arabic">ٱﻟْﻌَﻔُﻮُ</div>
+      <div class="nom-arabic">ٱلْعَفُوُ</div>
       <div class="nom-translit">Al-Afuww</div>
       <div class="nom-desc">Al-Afuww signifie "L'Indulgent", Celui qui efface les fautes et pardonne généreusement, en montrant une grande clémence et bienveillance envers Ses créatures. Ce nom met en lumière la capacité d'Allah à pardonner avec douceur et à offrir une seconde chance à ceux qui se repentent sincèrement.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">83</div>
-      <div class="nom-arabic">ٱﻟﺮﱠؤُوفُ</div>
+      <div class="nom-arabic">ٱلرَّؤُوفُ</div>
       <div class="nom-translit">Al-Ra'uf</div>
       <div class="nom-desc">Al-Ra'uf signifie "Le Très Bienveillant", Celui qui fait preuve d'une grande compassion et de douceur envers Ses créatures. Ce nom souligne la miséricorde et la gentillesse infinies d'Allah, qui traite Ses serviteurs avec une bienveillance profonde, en les guidant et les soutenant avec une grande douceur.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">84</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻠْﻚِ  ﻣَﺎﻟِﻚُ</div>
+      <div class="nom-arabic">مَالِكُ ٱلْمُلْكِ</div>
       <div class="nom-translit">Mālik-ul-Mulk</div>
       <div class="nom-desc">Mālik-ul-Mulk signifie "Le Souverain du Royaume", Celui qui possède et gouverne l'ensemble de l'univers et toute la création. Ce nom met en évidence la souveraineté absolue d'Allah sur tous les royaumes, matériels et spirituels, et Sa capacité à disposer de toute chose selon Sa volonté.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">85</div>
-      <div class="nom-arabic">واﻹﻛﺮام  اﻟﺠﻼل  ذو</div>
+      <div class="nom-arabic">ذو الجلال والإكرام</div>
       <div class="nom-translit">Dhul-Jalāli-wal-Ikrām</div>
       <div class="nom-desc">Dhul-Jalāli wal-Ikrām signifie "Le Possesseur de Majesté et d'Honneur", Celui qui est d'une grande gloire, majesté et dignité, et qui accorde un honneur incomparable à Ses créatures. Ce nom met en lumière la grandeur et la magnificence d'Allah, qui est le détenteur ultime de la majesté et de l'honneur, et qui offre Sa générosité et Son respect à ceux qu'Il choisit.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">86</div>
-      <div class="nom-arabic">ٱﻟْﻤُﻘْﺴِﻂُ</div>
+      <div class="nom-arabic">ٱلْمُقْسِطُ</div>
       <div class="nom-translit">Al-Muqsit</div>
       <div class="nom-desc">Al-Muqsit signifie "L'Équitable", Celui qui distribue avec justice et équilibre, en accordant à chacun ce qui lui revient de manière parfaite et juste. Ce nom met en évidence l'équité absolue d'Allah, qui ajuste toutes choses de manière équilibrée et sans aucune injustice.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">87</div>
-      <div class="nom-arabic">ٱﻟْﺠَﺎﻣِﻊُ</div>
+      <div class="nom-arabic">ٱلْجَامِعُ</div>
       <div class="nom-translit">Al-Jāmi‘</div>
       <div class="nom-desc">Al-Jāmi‘ signifie "Le Rassembleur", Celui qui rassemble tout ce qui est éparpillé, que ce soit les créatures, les âmes, ou les événements. Ce nom souligne la capacité d'Allah à unir et à rassembler l'ensemble de la création selon Sa volonté divine, en rétablissant l'ordre et l'harmonie dans l'univers.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">88</div>
-      <div class="nom-arabic">ٱﻟْﻐَﻨِﻲﱡ</div>
+      <div class="nom-arabic">ٱلْغَنِيُّ</div>
       <div class="nom-translit">Al-Ḡhani</div>
       <div class="nom-desc">Al-Ḡhani signifie "Le Riche par excellence", Celui dont la richesse est infinie et qui est exempt de tout besoin. Ce nom souligne que toute richesse appartient à Allah, et qu'Il est le seul véritablement indépendant et autosuffisant, tandis que toute autre forme de richesse est limitée et dépendante de Lui.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">89</div>
-      <div class="nom-arabic">اﻟﻤﻐﻨﻲﱡ</div>
+      <div class="nom-arabic">المغنيُّ</div>
       <div class="nom-translit">Al-Mughni</div>
       <div class="nom-desc">Al-Ḡhani signifie "Le Riche par excellence", Celui dont la richesse est infinie et qui est exempt de tout besoin. Ce nom souligne que toute richesse appartient à Allah, et qu'Il est le seul véritablement indépendant et autosuffisant, tandis que toute autre forme de richesse est limitée et dépendante de Lui.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">90</div>
-      <div class="nom-arabic">ٱﻟْﻤَﺎﻧِﻊُ</div>
+      <div class="nom-arabic">ٱلْمَانِعُ</div>
       <div class="nom-translit">Al-Māni‘</div>
       <div class="nom-desc">Al-Māni‘ signifie "Celui qui Retient" ou "Le Protecteur", Celui qui empêche le mal ou la calamité d’atteindre Ses serviteurs, selon Sa sagesse. Ce nom met en lumière la capacité d'Allah à préserver et à protéger, en interdisant ou en bloquant tout ce qui pourrait être nuisible.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">91</div>
-      <div class="nom-arabic">ٱﻟﻀﱠﺎرﱡ</div>
+      <div class="nom-arabic">ٱلضَّارُّ</div>
       <div class="nom-translit">Ad-Dār</div>
       <div class="nom-desc">Ad-Dār signifie "Celui qui peut Nuire", Celui qui décrète, selon Sa sagesse infinie, les épreuves et les difficultés pour Ses créatures. Ce nom rappelle qu'Allah est le seul à avoir le pouvoir de causer un mal apparent, qui est toujours destiné à un bien ultime pour Ses serviteurs ou pour établir Sa justice parfaite.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">92</div>
-      <div class="nom-arabic">ٱﻟﻨﱠﺎﻓِﻊُ</div>
+      <div class="nom-arabic">ٱلنَّافِعُ</div>
       <div class="nom-translit">An-Nāfi‘</div>
       <div class="nom-desc">An-Nāfi‘ signifie "Celui qui Accorde le Bien", Celui qui apporte les avantages, les bienfaits et les bénédictions à qui Il veut. Ce nom met en évidence qu’Allah est la source ultime de tout bien, et qu’Il pourvoit à Ses créatures avec générosité et sagesse.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">93</div>
-      <div class="nom-arabic">ٱﻟﻨﱡﻮرُ</div>
+      <div class="nom-arabic">ٱلنُّورُ</div>
       <div class="nom-translit">An-Nūr</div>
       <div class="nom-desc">An-Nūr signifie "La Lumière", Celui qui éclaire les cœurs, les esprits et l'univers tout entier. Ce nom souligne qu'Allah est la source de toute lumière, qu'elle soit spirituelle ou matérielle, guidant Ses créatures vers la vérité et dissipant les ténèbres de l'ignorance et de l'égarement.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">94</div>
-      <div class="nom-arabic">ٱﻟْﻬَﺎدِي</div>
+      <div class="nom-arabic">ٱلْهَادِي</div>
       <div class="nom-translit">Al-Hādi</div>
       <div class="nom-desc">Al-Hādi signifie "Le Guide", Celui qui dirige et oriente Ses créatures vers la voie droite et la vérité. Ce nom met en lumière la miséricorde d'Allah, qui offre la guidance à ceux qui cherchent la lumière et les moyens de s'épanouir dans cette vie et dans l'au-delà.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">95</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺪِﻳﻊُ</div>
+      <div class="nom-arabic">ٱلْبَدِيعُ</div>
       <div class="nom-translit">Al-Badī‘</div>
       <div class="nom-desc">Al-Badī‘ signifie "L'Incomparable Créateur", Celui qui crée d'une manière unique, sans modèle préalable. Ce nom souligne la perfection et l'originalité de la création d'Allah, qui façonne tout dans l'univers avec une beauté et une sagesse inégalées.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">96</div>
-      <div class="nom-arabic">ٱﻟْﺒَﺎﻗِﻲ</div>
+      <div class="nom-arabic">ٱلْبَاقِي</div>
       <div class="nom-translit">Al-Baqi</div>
       <div class="nom-desc">Al-Bāqī signifie "Le Permanent", Celui qui reste éternellement, sans fin ni changement. Ce nom souligne que la réalité d'Allah est constante et inaltérable, tandis que tout dans l'univers est temporaire et transitoire.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">97</div>
-      <div class="nom-arabic">ٱﻟْﻮَارِثُ</div>
+      <div class="nom-arabic">ٱلْوَارِثُ</div>
       <div class="nom-translit">Al-Wārith</div>
       <div class="nom-desc">Al-Wārith signifie "L'Héritier", Celui qui hérite de tout et possède tout, car tout dans l'univers Lui appartient. Ce nom met en lumière qu'Allah est le seul véritable propriétaire de tout ce qui existe, et que tout ce qui est créé revient finalement à Lui, dans Son éternité.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">98</div>
-      <div class="nom-arabic">اﻟﺮﱠﺷِﻴﺪُ</div>
+      <div class="nom-arabic">الرَّشِيدُ</div>
       <div class="nom-translit">Ar-Rashīd</div>
       <div class="nom-desc">Ar-Rashīd signifie "Le Guide vers la Droiture", Celui qui guide parfaitement Ses créatures vers la vérité, la sagesse et la voie juste. Ce nom met en évidence la capacité d'Allah à diriger Ses serviteurs avec une sagesse parfaite, les orientant vers le bien et la bonne conduite, selon Sa volonté divine.</div>
     </div>
 
     <div class="nom-card">
       <div class="nom-num">99</div>
-      <div class="nom-arabic">اﻟﺼﺒﻮرُ</div>
+      <div class="nom-arabic">الصبورُ</div>
       <div class="nom-translit">As-Sabur</div>
       <div class="nom-desc">As-Sabūr signifie "Le Très Patient", Celui qui fait preuve d'une patience infinie envers Ses créatures. Ce nom souligne la capacité d'Allah à endurer avec calme et patience, même face aux actes d'injustice ou de mal, et à accorder à Ses serviteurs le temps nécessaire pour se repentir et s'améliorer.</div>
     </div>
@@ -823,6 +880,36 @@ try { if (localStorage.getItem('theme') === 'light') { document.documentElement.
   btn.addEventListener('click',function(){
     target.scrollTo({top:0,behavior:'smooth'});
   });
+  check();
+})();
+</script>
+<!-- Design « Console » : les Noms qui s'allument -->
+<script>
+/* Un seul observateur : les cartes qui croisent la bande du milieu (4 % de la hauteur) prennent lp-lit.
+   En bas de page, la lumière se pose sur la dernière rangée, que la bande n'atteint pas toujours. */
+(function(){
+  if (document.documentElement.getAttribute('data-design') !== 'console' || !('IntersectionObserver' in window)) return;
+  var cards = [].slice.call(document.querySelectorAll('#nomsGrid .nom-card'));
+  if (!cards.length) return;
+  var band = '-48% 0px -48% 0px', end = false, raf = 0, io;
+  function paint(){
+    var row = end && cards[cards.length - 1].offsetTop;
+    var on = cards.map(function(c){ return end ? c.offsetTop === row : !!c.__lpBand; });
+    cards.forEach(function(c, i){ c.classList.toggle('lp-lit', on[i]); });
+  }
+  function light(entries){ entries.forEach(function(en){ en.target.__lpBand = en.isIntersecting; }); paint(); }
+  function check(force){
+    raf = 0;
+    var se = document.scrollingElement || document.documentElement;
+    var e = se.scrollTop > 0 && se.scrollTop + innerHeight >= se.scrollHeight - 24;
+    if (force === true || e !== end) { end = e; paint(); }
+  }
+  /* root: document : dans l'iframe de l'accueil, le milieu est celui de la page, pas de la fenêtre */
+  try { io = new IntersectionObserver(light, { root: document, rootMargin: band }); }
+  catch (e) { io = new IntersectionObserver(light, { rootMargin: band }); }
+  cards.forEach(function(c){ io.observe(c); });
+  addEventListener('scroll', function(){ if (!raf) raf = requestAnimationFrame(check); }, { passive: true });
+  addEventListener('resize', function(){ requestAnimationFrame(function(){ check(true); }); });
   check();
 })();
 </script>

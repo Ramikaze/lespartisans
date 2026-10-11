@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T22:00:00Z",
+  "title": "Design System: Les Partisans — Console",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Ambre de lampe",
+        "canonical": "#f2b45a",
+        "tonalRamp": [
+          "oklch(15% 0.13 72)",
+          "oklch(25% 0.13 72)",
+          "oklch(35% 0.13 72)",
+          "oklch(47% 0.13 72)",
+          "oklch(59% 0.13 72)",
+          "oklch(71% 0.13 72)",
+          "oklch(83% 0.13 72)",
+          "oklch(95% 0.13 72)"
+        ]
+      },
+      "amber-hi": {
+        "role": "primary",
+        "displayName": "Ambre vif (arabe allumé)",
+        "canonical": "#ffd28a"
+      },
+      "lamp": {
+        "role": "primary",
+        "displayName": "Lampe",
+        "canonical": "rgba(242,180,90,.14)"
+      },
+      "lamp-line": {
+        "role": "primary",
+        "displayName": "Filet de lampe",
+        "canonical": "rgba(242,180,90,.34)"
+      },
+      "void": {
+        "role": "neutral",
+        "displayName": "Vide de nuit",
+        "canonical": "#04060c",
+        "tonalRamp": [
+          "oklch(15% 0.03 265)",
+          "oklch(25% 0.03 265)",
+          "oklch(35% 0.03 265)",
+          "oklch(47% 0.03 265)",
+          "oklch(59% 0.03 265)",
+          "oklch(71% 0.03 265)",
+          "oklch(83% 0.03 265)",
+          "oklch(95% 0.03 265)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Encre",
+        "canonical": "#eef2f8"
+      },
+      "read": {
+        "role": "neutral",
+        "displayName": "Encre de lecture",
+        "canonical": "#d3dae6"
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Encre 2",
+        "canonical": "#b3bfd1"
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Encre 3 (méta)",
+        "canonical": "#8f9bb1"
+      },
+      "light-amber": {
+        "role": "primary",
+        "displayName": "Ambre profond (aube)",
+        "canonical": "#7f4900"
+      },
+      "light-void": {
+        "role": "neutral",
+        "displayName": "Nacre d'aube",
+        "canonical": "#e2e7ee"
+      },
+      "light-ink": {
+        "role": "neutral",
+        "displayName": "Encre (aube)",
+        "canonical": "#0b1220"
+      },
+      "light-ink-3": {
+        "role": "neutral",
+        "displayName": "Encre 3 (aube)",
+        "canonical": "#4a5468"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Nom de la salle sur l'accueil ; titre du chargeur (200, clamp(28px,4.2vw,52px))."
+      },
+      "page-title": {
+        "displayName": "Titre de page",
+        "purpose": "En-tête des pages ; spans hérités, pas de mots en ambre."
+      },
+      "body-reading": {
+        "displayName": "Corps de lecture",
+        "purpose": "Texte long ; poids --lp-body-w 330 nuit / 360 aube ; couleur --lp-read."
+      },
+      "arabic-verse": {
+        "displayName": "Arabe sacré",
+        "purpose": "Verset du jour, récitation lumineuse mot à mot."
+      },
+      "arabic-mark": {
+        "displayName": "Mot de rubrique",
+        "purpose": "Mot arabe des dalles, de la dalle de rubrique (--lp-mark) et du chargeur."
+      }
+    },
+    "themes": {
+      "selector": "html[data-design=\"console\"][data-lp-theme=\"light\"|\"dark\"]",
+      "dark": "Nuit, défaut. color-scheme:dark.",
+      "light": "Aube : le même monde à la première lumière. Ciel horizon pêche, nacre, zénith ardoise ; verre dépoli à arête blanche ; chaleur qui monte du bas ; ombres bleutées décalées ; --lp-motes = poussière d'or (repli) ; --lp-body-w:360."
+    },
+    "materials": [
+      {
+        "name": "--lp-glass",
+        "value": "nuit linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03)) / aube linear-gradient(180deg,rgba(255,255,255,.74),rgba(255,255,255,.46)) dépoli",
+        "purpose": "Panneaux de verre des pages."
+      },
+      {
+        "name": "--tw-milk",
+        "value": "linear-gradient(180deg,rgba(225,235,255,.11),rgba(170,190,230,.035) 58%,rgba(170,190,230,.07))",
+        "purpose": "Verre laiteux des dalles et de la dalle du verset (hub)."
+      },
+      {
+        "name": "--tw-rim",
+        "value": "linear-gradient(180deg,rgba(236,243,255,.58),rgba(200,215,245,.12) 34%,rgba(200,215,245,.05) 68%,rgba(220,230,250,.24))",
+        "purpose": "Anneau 1px masqué (mask content-box exclude) des dalles."
+      },
+      {
+        "name": "--lp-fog",
+        "value": "radial-gradient(110% 440px at 50% -90px,rgba(58,88,160,.30),transparent 72%),radial-gradient(60% 300px at 50% -40px,rgba(242,180,90,.10),transparent 70%)",
+        "purpose": "Repli sans WebGL (bandeau de tête) ; en aube, éclosion chaude rgba(255,172,80,.26)."
+      },
+      {
+        "name": "--lp-motes",
+        "value": "SVG data-URI 1400x460 ; nuit poussières ambre et bleutées ; aube poussière d'or",
+        "purpose": "Repli sans WebGL."
+      },
+      {
+        "name": "backdrop-blur",
+        "value": "bar 18px saturate(140%) ; verset 16px saturate(130%) ; recherche 12px ; dalle de rubrique 10px",
+        "purpose": "Flou coupé sous 900px (verre plein)."
+      },
+      {
+        "name": "dawn-tile (index.html, light)",
+        "value": "--tw-milk linear-gradient(180deg,rgba(255,255,255,.72),rgba(249,250,253,.38) 56%,rgba(255,243,226,.5)) ; --tw-rim linear-gradient(180deg,#fff,rgba(255,255,255,.55) 28%,rgba(105,125,172,.24) 66%,rgba(226,168,98,.38)) ; --tw-inner inset 0 1px 0 #fff,inset 0 -30px 36px -28px rgba(255,182,104,.34) ; --tw-drop 0 1px 2px rgba(25,40,75,.07),0 22px 38px -22px rgba(34,56,112,.42) ; --tw-ar rgba(18,28,50,.86) + text-shadow 0 1px 0 rgba(255,255,255,.75),0 0 22px rgba(255,186,104,.6) ; --day-lamp rgba(255,190,118,.26)",
+        "purpose": "Verre des dalles et du verset en Aube."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "--lp-panel-shadow",
+        "value": "inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85)",
+        "purpose": "Tout panneau de verre (aube : inset 0 1px 0 #fff,0 1px 2px rgba(25,40,75,.06),0 24px 44px -28px rgba(34,56,112,.38))."
+      },
+      {
+        "name": "--lp-halo",
+        "value": "0 0 44px -14px rgba(242,180,90,.32)",
+        "purpose": "Lueur des objets éclairés (aube : 0 12px 30px -16px rgba(160,100,20,.30))."
+      },
+      {
+        "name": "tile-on",
+        "value": "0 0 64px -10px rgba(var(--lp-glow),.7),0 30px 44px -26px rgba(var(--lp-glow),.5)",
+        "purpose": "Dalle choisie."
+      },
+      {
+        "name": "--tw-drop",
+        "value": "0 24px 48px -28px rgba(0,0,0,.85)",
+        "purpose": "Ombre portée des dalles au repos."
+      },
+      {
+        "name": "modal",
+        "value": "0 50px 120px -40px rgba(0,0,0,.85)",
+        "purpose": "Recherche globale et Soutenir."
+      }
+    ],
+    "focus": {
+      "value": "outline:2px solid var(--lp-amber); outline-offset:3px",
+      "scope": ":focus-visible partout"
+    },
+    "motion": [
+      {
+        "name": "--lp-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Courbe par défaut de tout le système."
+      },
+      {
+        "name": "choose",
+        "value": "dalle .6s lumière / .7s montée ; salle 640ms + 38ms par élément ; fil .8s",
+        "purpose": "Choisir une source."
+      },
+      {
+        "name": "open",
+        "value": "#lens 640ms --lp-ease puis fondu 420ms ease-out ; pageLight .7s",
+        "purpose": "Ouvrir : la vitre remplit l'écran."
+      },
+      {
+        "name": "close",
+        "value": "foldInto 540ms cubic-bezier(.32,.72,0,1) puis fondu 280ms ; homeBack .75s",
+        "purpose": "Fermer : la vitre se replie sur la dalle (désactivé < 900px)."
+      },
+      {
+        "name": "theme",
+        "value": "View Transition : html.lp-to-night|lp-to-day ; ::view-transition-new(root) lpDusk opacité 0→1 1.8s cubic-bezier(.37,0,.63,1), composité, sans masque ni clip ; puis lp-lamps (nuit : lpLampOn 1.2s dès 1.1s + n·90ms, lpFlare jusqu'à .62, verset .7s, point de date .5s) ou lp-sunrise (jour : lpGlint translateX 135%→−135%, dalles 1.3s dès 1.15s + n·70ms, verset 1.6s à .85s) pendant 4.3s ; ciel LDUR 2800ms. Mesuré 60 i/s (p95 16.7ms).",
+        "purpose": "Tombée de la nuit / lever du jour, réaliste et fluide."
+      },
+      {
+        "name": "recitation",
+        "value": "color .22s ease-out, text-shadow .35s ease-out",
+        "purpose": "Mot récité allumé."
+      },
+      {
+        "name": "lamp",
+        "value": "opacity/filter .9s --lp-ease, une seule fois",
+        "purpose": "Lecture accompagnée."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durées .001ms sur le hub ; vitre, repli, révélation, fil coupés ; thème instantané sans classes de passage ; ciel figé",
+        "purpose": "prefers-reduced-motion: reduce."
+      },
+      {
+        "name": "sky",
+        "value": "accueil 32ms/image (~30/s), pages 40ms/image (~20/s) ; mouvement réduit = image fixe",
+        "purpose": "Ciel WebGL sur toutes les pages."
+      },
+      {
+        "name": "sky-scroll",
+        "value": "uScroll lissé .14/image ; parallaxe brume .35, poussières .6/.45/.3",
+        "purpose": "Le ciel suit la lecture."
+      },
+      {
+        "name": "glass-light",
+        "value": "rayon 170px ; anneau .lp-glass::after radial 190px rgba(glow,.9) → .28 à 42% → transparent 72% ; (hover:hover) and (pointer:fine)",
+        "purpose": "Le verre accroche la lumière du pointeur."
+      },
+      {
+        "name": "mist-pass",
+        "value": "@keyframes lpMist opacity 0, blur 4px, translateY 10px → none, .55s --lp-ease + lpSky.pulse()",
+        "purpose": "Changement de chapitre (invocations, aune-sagesse, que-dit-le-coran, chiisme-repond)."
+      },
+      {
+        "name": "lineage-light",
+        "value": "1000+0.2·L ms borné 1.0–1.4s, cubic-bezier(.42,.05,.25,1) ; cœur 44, traîne 110 ; extinction 300ms",
+        "purpose": "Arbre généalogique : la lumière court jusqu'à la personne choisie."
+      },
+      {
+        "name": "names-lit",
+        "value": ".65s --lp-ease ; bande IO rootMargin −48% ; −3px",
+        "purpose": "99 Noms : la rangée au centre de l'écran s'allume."
+      },
+      {
+        "name": "quran-recitation",
+        "value": "minutages quran.com mot à mot ; 10 récitateurs sur 26 ; déjà dit = color-mix(ink 74%, amber-hi)",
+        "purpose": "Récitation lumineuse dans coran-lecture et verset-trone."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "max-width:899px"
+      },
+      {
+        "name": "tablet-portrait",
+        "value": "600px–899px (5 dalles)"
+      },
+      {
+        "name": "laptop",
+        "value": "900px–1279px (5 dalles)"
+      },
+      {
+        "name": "short",
+        "value": "max-height:820px and min-width:900px"
+      }
+    ],
+    "designSwitch": {
+      "file": "lp-design.js",
+      "line": "var DESIGN = 'console';",
+      "restore": "remplacer par 'classique'",
+      "query": "?design=classique | ?design=console (sessionStorage)",
+      "classicHub": "index-classique.html",
+      "gitTag": "design-ios-classique -> 8b6116d",
+      "scope": "html[data-design=\"console\"] ; peaux <style id=\"lp-console-skin\">"
+    },
+    "sky": {
+      "source": "lp-design.js sky(isHub) ; window.lpSky {glowTo,setLight,wake,boot}",
+      "scope": "Toutes les pages en Console. Les pages reçoivent une toile créée (html.lp-sky-page, puis html.lp-sky-on : corps transparent). Sans WebGL : html.no-webgl et bandeau statique --lp-fog/--lp-motes.",
+      "restingGlow": {
+        "hub": "(0.72w, 0.42h, 0.5), suit le survol des dalles",
+        "page": "(0.5w, min(0.12h,120px), 0.62), lumière chaude au-dessus du titre"
+      },
+      "frameBudget": "accueil STEP 32ms (~30 images/s) ; pages STEP 40ms (~20 images/s mesurées, une image sur trois à 60 Hz). Pause : onglet caché, canvas.clientWidth === 0, module ouvert sur l'accueil ; ResizeObserver relance.",
+      "dawnShader": "horizon (.957,.898,.827) → nacre (.902,.918,.945) → zénith (.792,.839,.902) ; brume fog*.5 vers (.99,.988,.984), voiles froids ; soleil (1,.82,.58) suivant la lueur ; poussière d'or (.82,.56,.22) + éclats blancs ; vignette 7 %",
+      "nightShader": "vide bleu-noir, brume bleutée, poussières, lueur ambre (.95,.70,.36), vignette 35 %",
+      "theme": "MutationObserver sur data-lp-theme → setLight : interpolation LDUR 2800ms, courbe sinusoïdale, pleine cadence pendant S.lt0 ; mélange smoothstep(.18,.82,L) ; crépuscule maximal à L=.5 (horizon (1,.52,.24) → rose (.86,.42,.5) → violet (.42,.3,.56) → zénith indigo (.1,.1,.26)) ; soleil x=.64·ratio, y −.3→.5, visible seulement pendant le passage ; étoiles smoothstep(.62,.08,L), poussière d'or smoothstep(.45,.98,L), seuil propre à chaque grain",
+      "reducedMotion": "une seule image fixe",
+      "scroll": "uScroll (hauteurs d'écran, 0–200, lissage .14/image) : brume uv-(0,uScroll*.35), poussières ×.6/.45/.3 ; lpSky.read(px,k) : point de lumière +k·0.2·innerHeight, intensité −k·0.22 ; precision highp si disponible ; coupé en mouvement réduit",
+      "pulse": "lpSky.pulse() : +0.32 d'intensité, retour amorti (passage de chapitre)"
+    }
+  },
+  "components": [
+    {
+      "name": "Dalle de source",
+      "kind": "card",
+      "refersTo": "tile",
+      "description": "Dalle de verre laiteux plate ; s'allume en ambre quand elle est choisie.",
+      "html": "<div class=\"ds-row\"><button class=\"ds-tile\"><span class=\"ds-ar\" lang=\"ar\">الحديث</span><span class=\"ds-name\">Hadiths</span><span class=\"ds-meta\">Mīzān · al-Kisāʾ</span></button><button class=\"ds-tile is-on\"><span class=\"ds-ar\" lang=\"ar\">القرآن</span><span class=\"ds-name\">Le Coran</span><span class=\"ds-meta\">6236 versets</span></button></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-row{display:flex;gap:12px;padding:24px;background:var(--lp-void)} .ds-tile{--lit:0;position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:3px;width:120px;min-height:136px;padding:16px 10px 15px;border:0;border-radius:18px;font-family:var(--lp-font);color:var(--lp-ink);cursor:pointer;background:linear-gradient(180deg,rgba(225,235,255,.11),rgba(170,190,230,.035) 58%,rgba(170,190,230,.07));box-shadow:inset 0 0 28px rgba(190,210,255,.07),inset 0 1px 0 rgba(255,255,255,.12),0 24px 48px -28px rgba(0,0,0,.85);transition:box-shadow .6s var(--lp-ease),transform .7s var(--lp-ease)} .ds-tile::before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.5),transparent 66%);opacity:var(--lit);transition:opacity .6s var(--lp-ease)} .ds-tile::after{content:'';position:absolute;inset:0;border-radius:inherit;padding:1px;pointer-events:none;background:linear-gradient(180deg,rgba(236,243,255,.58),rgba(200,215,245,.12) 34%,rgba(200,215,245,.05) 68%,rgba(220,230,250,.24));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);} .ds-tile:hover{--lit:.45;transform:translateY(-3px)} .ds-tile:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px} .ds-tile.is-on{--lit:1;transform:translateY(-8px) scale(1.035);box-shadow:inset 0 0 28px rgba(190,210,255,.07),0 0 64px -10px rgba(var(--lp-glow),.7),0 30px 44px -26px rgba(var(--lp-glow),.5)} .ds-tile.is-on::after{background:linear-gradient(180deg,rgba(var(--lp-glow),.95),rgba(var(--lp-glow),.32) 60%,rgba(var(--lp-glow),.55))} .ds-ar{margin-bottom:auto;padding-bottom:10px;font-family:var(--lp-ar);font-size:22px;line-height:1.35;color:rgba(240,232,215,.62)} .ds-tile.is-on .ds-ar{color:var(--lp-amber-hi)} .ds-name{font-size:15px;font-weight:400} .ds-tile.is-on .ds-name{color:var(--lp-amber)} .ds-meta{font-size:13px;font-weight:300;color:var(--lp-ink-3)}"
+    },
+    {
+      "name": "Bouton éclairé",
+      "kind": "button",
+      "refersTo": "button-lit",
+      "description": "Action principale : pilule ambre éclairée par en dessous.",
+      "html": "<div class=\"ds-bg\"><button class=\"ds-btn-lit\">Écouter</button></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{padding:24px;background:var(--lp-void)} .ds-btn-lit{display:inline-flex;align-items:center;gap:9px;height:42px;padding:0 18px 0 14px;border-radius:999px;font-family:var(--lp-font);font-size:15px;font-weight:400;color:var(--lp-amber);background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.24),transparent 70%),rgba(var(--lp-glow),.06);border:1px solid rgba(var(--lp-glow),.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55);cursor:pointer;transition:box-shadow .4s var(--lp-ease),transform .35s var(--lp-ease)} .ds-btn-lit:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75)} .ds-btn-lit:active{transform:scale(.97)} .ds-btn-lit:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px}"
+    },
+    {
+      "name": "Bouton discret",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Action secondaire sans fond.",
+      "html": "<div class=\"ds-bg\"><button class=\"ds-btn-quiet\">Lire dans le Coran →</button></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{padding:24px;background:var(--lp-void)} .ds-btn-quiet{height:42px;padding:0 14px;border:0;border-radius:999px;background:none;font-family:var(--lp-font);font-size:15px;font-weight:400;color:var(--lp-ink-2);cursor:pointer;transition:color .3s,background-color .3s} .ds-btn-quiet:hover{color:var(--lp-ink);background:var(--lp-fill)} .ds-btn-quiet:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px}"
+    },
+    {
+      "name": "Champ de recherche",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Verre 56px, loupe ambre, raccourci clavier.",
+      "html": "<div class=\"ds-bg\"><button class=\"ds-find\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><span class=\"ds-ph\">Chercher un verset, un hadith, un Imam…</span><kbd class=\"ds-kbd\">⌘K</kbd></button></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{padding:24px;background:var(--lp-void)} .ds-find{display:flex;align-items:center;gap:12px;width:100%;height:56px;padding:0 12px 0 18px;border-radius:16px;background:var(--lp-glass);border:1px solid var(--lp-edge);box-shadow:var(--lp-panel-shadow);font-family:var(--lp-font);cursor:pointer;transition:border-color .35s,box-shadow .35s} .ds-find svg{color:var(--lp-amber);flex:none} .ds-find:hover{border-color:var(--lp-lamp-line);box-shadow:var(--lp-panel-shadow),var(--lp-halo)} .ds-find:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px} .ds-ph{flex:1;text-align:left;font-size:16px;font-weight:300;color:var(--lp-ink-2)} .ds-kbd{font-family:inherit;font-size:12.5px;color:var(--lp-ink-3);padding:7px 9px;border-radius:9px;border:1px solid var(--lp-edge)}"
+    },
+    {
+      "name": "Sous-rubrique de salle",
+      "kind": "nav",
+      "refersTo": "room-sat",
+      "description": "Étiquette flottante sans panneau ; le point s'allume au survol.",
+      "html": "<div class=\"ds-bg\"><a class=\"ds-sat\" href=\"#\"><span class=\"ds-t\">Lire le Coran</span><span class=\"ds-d\">Traduction française intégrale</span><span class=\"ds-m\">114 sourates · 6236 versets</span></a></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{padding:24px;background:var(--lp-void);font-family:var(--lp-font)} .ds-sat{position:relative;display:flex;flex-direction:column;gap:2px;max-width:300px;padding:10px 26px 10px 18px;border-radius:12px;color:var(--lp-ink);text-decoration:none;transition:background-color .35s} .ds-sat::before{content:'';position:absolute;left:2px;top:19px;width:5px;height:5px;border-radius:50%;background:var(--lp-ink-3);transition:background-color .35s,box-shadow .35s} .ds-sat:hover,.ds-sat:focus-visible{background:rgba(var(--lp-glow),.07);outline:none} .ds-sat:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px} .ds-sat:hover::before,.ds-sat:focus-visible::before{background:var(--lp-amber);box-shadow:0 0 12px rgba(var(--lp-glow),.8)} .ds-t{font-size:16.5px;font-weight:400;transition:color .35s} .ds-sat:hover .ds-t{color:var(--lp-amber)} .ds-d{font-size:14px;font-weight:300;color:var(--lp-ink-2)} .ds-m{margin-top:3px;font-size:13px;font-weight:300;color:var(--lp-ink-3)}"
+    },
+    {
+      "name": "Verset (lampe)",
+      "kind": "card",
+      "refersTo": "verse-lamp",
+      "description": "Encadré coranique des articles : verre éclairé de l'intérieur.",
+      "html": "<div class=\"ds-bg\"><figure class=\"ds-quran\"><p class=\"ds-fr\">« C'est un Livre béni que Nous avons fait descendre vers toi… »</p><p class=\"ds-ref\">Sourate Ṣād, 38:29</p></figure></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{padding:24px;background:var(--lp-void)} .ds-quran{margin:0;padding:22px 26px;border-radius:18px;border:1px solid var(--lp-lamp-line);background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass);box-shadow:var(--lp-panel-shadow),var(--lp-halo);font-family:var(--lp-font)} .ds-fr{margin:0;font-size:1.06rem;font-weight:330;line-height:1.7;color:var(--lp-ink)} .ds-ref{margin:10px 0 0;font-size:.84rem;font-weight:400;color:var(--lp-amber)}"
+    },
+    {
+      "name": "Dalle de rubrique",
+      "kind": "custom",
+      "refersTo": "tile-on",
+      "description": "Mot arabe de la rubrique allumé en tête de page (et dans le chargeur).",
+      "html": "<div class=\"ds-bg\"><span class=\"ds-mark\" lang=\"ar\">التشيّع</span></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{padding:32px;background:var(--lp-void);text-align:center} .ds-mark{display:inline-grid;place-items:center;min-width:64px;padding:8px 16px 10px;border-radius:16px;font-family:var(--lp-ar);font-size:22px;line-height:1.3;color:var(--lp-amber-hi);background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass);border:1px solid rgba(var(--lp-glow),.6);box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62)}"
+    },
+    {
+      "name": "Numéro de section",
+      "kind": "chip",
+      "refersTo": "section-num",
+      "description": "Petite tuile éclairée ambre devant le titre de section.",
+      "html": "<div class=\"ds-bg\"><span class=\"ds-num\">II</span><span class=\"ds-title\">L'Unicité de l'Essence</span></div>",
+      "css": ":host{--lp-void:#04060c;--lp-ink:#eef2f8;--lp-read:#d3dae6;--lp-ink-2:#b3bfd1;--lp-ink-3:#8f9bb1;--lp-amber:#f2b45a;--lp-amber-hi:#ffd28a;--lp-glow:242,180,90;--lp-lamp:rgba(242,180,90,.14);--lp-lamp-line:rgba(242,180,90,.34);--lp-halo:0 0 44px -14px rgba(242,180,90,.32);--lp-edge:rgba(205,220,250,.16);--lp-hairline:rgba(205,220,250,.12);--lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));--lp-glass-solid:#0d1426;--lp-fill:rgba(190,206,236,.06);--lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);--lp-font:'Readex Pro',system-ui,sans-serif;--lp-ar:'Scheherazade New','Amiri',serif;--lp-ease:cubic-bezier(.16,1,.3,1)} .ds-bg{display:flex;align-items:center;gap:14px;padding:24px;background:var(--lp-void);font-family:var(--lp-font)} .ds-num{font-size:.82rem;font-weight:400;line-height:1;color:var(--lp-amber);padding:8px 11px;min-width:36px;text-align:center;border-radius:10px;background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill);border:1px solid var(--lp-lamp-line);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo)} .ds-title{font-size:1.5rem;font-weight:300;letter-spacing:-.01em;color:var(--lp-ink)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Console atmosphérique",
+    "overview": "Une nuit bleu-noir traversée de brume et de poussières de lumière, où chaque source est un objet de verre laiteux éclairé de l'intérieur. La lumière est chaude : l'ambre désigne ce qu'on choisit et ce qu'on lit. L'arabe est présent comme matière vivante, jamais comme décor orientaliste. Le même ciel vit derrière toutes les pages ; la colonne de lecture n'y ajoute aucun décor. Le thème clair est l'Aube, le même monde à la première lumière. Les tours 3D prévues ont été remplacées par des dalles plates, à la demande de l'utilisateur.",
+    "keyCharacteristics": [
+      "Ciel WebGL (brume + poussières) sur toutes les pages ; repli --lp-fog/--lp-motes",
+      "Verre laiteux à arête fine, lumière ambre par en dessous",
+      "Readex Pro variable 160..700 + Scheherazade New",
+      "Deux thèmes : nuit et Aube (html[data-lp-theme])",
+      "Mouvement sur cubic-bezier(.16,1,.3,1), coupé par prefers-reduced-motion"
+    ],
+    "rules": [
+      {
+        "name": "La règle de la lumière qui désigne",
+        "body": "L'ambre marque ce qui est choisi, lu ou référencé, jamais une surface décorative au repos.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle des deux encres",
+        "body": "Texte long en --lp-read, titres et sacré traduit en --lp-ink.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle sans capitales",
+        "body": "Aucune étiquette en capitales espacées ; le contexte se place sous le titre.",
+        "section": "typography"
+      },
+      {
+        "name": "La règle du poids variable",
+        "body": "Charger Readex Pro 160..700 ; 250, 330, 360 sont voulus.",
+        "section": "typography"
+      },
+      {
+        "name": "La règle de la lumière par en dessous",
+        "body": "Les objets choisis s'éclairent par un radial ambre ancré sous leur bord bas ; le verset par le haut.",
+        "section": "elevation"
+      },
+      {
+        "name": "La règle du ciel continu",
+        "body": "Toute page en Console a le ciel derrière elle ; la colonne de lecture n'y ajoute aucun décor.",
+        "section": "elevation"
+      },
+      {
+        "name": "La règle de l'aube",
+        "body": "Le thème clair est le même monde à la première lumière, jamais un gris plat avec des cartes blanches.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle du passage réel",
+        "body": "Changer de thème est une vraie tombée de la nuit ou un vrai lever du jour, fluide à 60 i/s ; jamais un cercle qui découvre l'autre thème, jamais de masque ni de découpe sur la vue entière.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do préférer des dalles plates, de même hauteur, lisibles d'un coup d'œil, à toute métaphore spatiale.",
+      "Do limiter chaque règle à html[data-design=\"console\"] et chaque peau à <style id=\"lp-console-skin\">.",
+      "Do passer par les jetons --lp-*.",
+      "Do garder le texte long sur --lp-read, --lp-body-w, aligné à gauche.",
+      "Do donner à toute animation une sortie prefers-reduced-motion.",
+      "Do garder le ciel sur toute nouvelle page en Console.",
+      "Do valider en local avec l'utilisateur avant toute mise en ligne."
+    ],
+    "donts": [
+      "Don't revenir aux tours ou volumes 3D.",
+      "Don't faire de recherche-remplacement global sur les textes sacrés.",
+      "Don't introduire de folklore orientaliste (arabesques, dorures, lanternes, motifs, ﷽ en logo doré).",
+      "Don't mettre d'étiquettes en capitales espacées au-dessus des titres.",
+      "Don't colorer en ambre des mots isolés d'un titre ni une surface au repos.",
+      "Don't faire une page sans le ciel : l'atmosphère est la même partout.",
+      "Don't traiter le thème clair comme un gris plat avec des cartes blanches : c'est l'Aube.",
+      "Don't ajouter un décor sous la colonne de lecture."
+    ]
+  }
+}

@@ -882,6 +882,322 @@ html[data-theme="light"] ::-webkit-scrollbar-thumb { background: rgba(122,92,36,
 .tab,.nav-item,.pill,.chip{transition:transform .28s var(--ios-ease),background .2s,color .2s!important}
 .tab:active,.nav-item:active,.pill:active,.chip:active{transform:scale(.96)!important}
 </style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — chronologie
+   Frise, réseau, fiches : le cadre prend le verre et la lumière, le texte reste calme.
+   Tout est limité à html[data-design="console"] : le design classique ne bouge pas. */
+
+/* ── Jetons : les variables d'origine prennent la lumière ── */
+html[data-design="console"][data-lp-theme]{
+  --bg-deep:var(--lp-void); --bg-base:var(--lp-void-2); --bg-surface:var(--lp-glass-solid);
+  --bg-elevated:var(--lp-fill-2); --bg-card:var(--lp-glass-solid);
+  --gold:var(--lp-amber); --gold-bright:var(--lp-amber-hi); --gold-dim:var(--lp-ink-3);
+  --text-primary:var(--lp-ink); --text-secondary:var(--lp-ink-2); --text-dim:var(--lp-ink-3);
+  --border:var(--lp-edge); --border-bright:rgba(var(--lp-glow),.45);
+  --imam-bg:var(--lp-fill); --event-bg:var(--lp-fill); --place-bg:var(--lp-fill); --theme-bg:var(--lp-fill);
+  --shadow:0 24px 48px -28px rgba(0,0,0,.8); --shadow-gold:var(--lp-halo);
+  --trans:all .35s var(--lp-ease);
+  /* Catégories — lues aussi par le script (frise, réseau, légende) */
+  --prophet:var(--lp-amber-hi); --imam:var(--lp-amber); --lpc-ahl:#97c2f0; --person:#8c96a5;
+  --event:#eb827b; --place:#64c897; --theme:#b699eb; --dynasty:#9eaf63; --scholar:#5bc1d9; --work:#e488be;
+  /* Réseau (canvas) */
+  --lpg-edge:rgba(214,226,250,.13); --lpg-edge-dim:rgba(214,226,250,.04); --lpg-edge-hi:rgba(242,180,90,.78);
+  --lpg-label:rgba(211,218,230,.86); --lpg-label-hi:#eef2f8; --lpg-label-dim:rgba(211,218,230,.2);
+  --lpg-ring:#eef2f8; --lpg-halo:rgba(242,180,90,.62); --lpg-rim:rgba(255,255,255,.22);
+  --lpg-glow-0:rgba(242,180,90,.5); --lpg-glow-1:rgba(242,180,90,0);
+  /* Frise */
+  --lpx-axis:rgba(214,226,250,.4); --lpx-conn:rgba(214,226,250,.1); --lpx-panel:#0c111e;
+  --lpx-scrim:rgba(2,4,9,.55);
+  /* Icônes (traits, masques) */
+  --lpx-i-search:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='6.5'/%3E%3Cpath d='m20 20-4.2-4.2'/%3E%3C/svg%3E");
+  --lpx-i-cal:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.5' y='5' width='17' height='15.5' rx='3'/%3E%3Cpath d='M3.5 10h17M8 3v4M16 3v4'/%3E%3C/svg%3E");
+}
+html[data-design="console"][data-lp-theme="light"]{
+  --prophet:#b8740c; --lpc-ahl:#3a69ad; --person:#5f6a7b; --event:#b94642; --place:#218258; --theme:#7750b1; --dynasty:#6b7a2c; --scholar:#017e9a; --work:#a5417f;
+  --shadow:0 22px 44px -28px rgba(20,32,60,.3);
+  --lpg-edge:rgba(30,48,90,.16); --lpg-edge-dim:rgba(30,48,90,.05); --lpg-edge-hi:rgba(160,100,20,.75);
+  --lpg-label:rgba(28,38,56,.88); --lpg-label-hi:#0b1220; --lpg-label-dim:rgba(28,38,56,.2);
+  --lpg-ring:#ffffff; --lpg-halo:rgba(240,166,58,.7); --lpg-rim:rgba(255,255,255,.85);
+  --lpg-glow-0:rgba(240,166,58,.5); --lpg-glow-1:rgba(240,166,58,0);
+  --lpx-axis:rgba(30,48,90,.3); --lpx-conn:rgba(30,48,90,.11); --lpx-panel:#f4f6fa;
+  --lpx-scrim:rgba(206,213,226,.5);
+}
+
+/* ── Socle : fond de nuit, brume en tête, une seule famille de caractères ── */
+html[data-design="console"] body::before{ display:none!important; }
+html[data-design="console"] body{
+  background-image:var(--lp-motes),var(--lp-fog)!important; background-repeat:no-repeat!important;
+  background-position:top center!important; background-size:1400px 460px,auto,auto!important;
+}
+html[data-design="console"] body *{ font-family:var(--lp-font)!important; }
+html[data-design="console"] :is(.detail-arabic,.card [style*="direction:rtl"]){ font-family:var(--lp-ar)!important; }
+html[data-design="console"] :is(.section,.container,.grid,.hero,.section-header){ background:transparent!important; color:var(--lp-ink)!important; }
+html[data-design="console"] em{ color:inherit; }
+
+/* ── Barre de navigation : verre, onglet courant éclairé ── */
+html[data-design="console"] .nav-wrap{
+  background:var(--lp-bar-bg)!important; -webkit-backdrop-filter:blur(18px) saturate(140%); backdrop-filter:blur(18px) saturate(140%);
+  border-bottom:1px solid var(--lp-hairline)!important; box-shadow:none!important;
+}
+html[data-design="console"] .nav-inner{ gap:2px; padding:8px 20px; }
+html[data-design="console"] .nav-brand{ font-size:15px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink)!important; padding:6px 18px 6px 0!important; margin-right:10px!important; border-right:1px solid var(--lp-hairline)!important; }
+/* La marque sans croissant : sa doublure (lp-only, sans ☽) remplace l'originale en console */
+html:not([data-design="console"]) .lp-only{ display:none!important; }
+html[data-design="console"] .nav-brand:not(.lp-only){ display:none!important; }
+html[data-design="console"] .nav-brand.lp-only{ display:block; }
+html[data-design="console"] .nav-btn{
+  font-size:14px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important;
+  color:var(--lp-ink-2)!important; padding:8px 14px!important; border-radius:999px; border:1px solid transparent!important; background:transparent!important;
+  transition:color .3s var(--lp-ease),background-color .3s var(--lp-ease),border-color .3s var(--lp-ease),box-shadow .35s var(--lp-ease)!important;
+}
+html[data-design="console"] .nav-btn::after{ display:none!important; }
+html[data-design="console"] .nav-btn:hover{ color:var(--lp-ink)!important; background:var(--lp-fill)!important; }
+html[data-design="console"] .nav-btn.active{
+  color:var(--lp-amber)!important; border-color:rgba(var(--lp-glow),.5)!important;
+  background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.2),transparent 70%),rgba(var(--lp-glow),.08)!important;
+  box-shadow:0 0 22px -8px rgba(var(--lp-glow),.6);
+}
+
+/* ── Accueil : la dalle de la rubrique, le titre d'un seul ton, les chiffres en ligne de contexte ──
+   L'en-tête s'ouvre (display:contents) : la ligne de chiffres, placée après la recherche dans le
+   document, se range sous le sous-titre (ordre visuel seulement ; elle ne prend pas le focus). */
+html[data-design="console"] #home .container{ display:flex; flex-direction:column; padding-top:clamp(56px,9vw,104px); }
+html[data-design="console"] #home .hero{ display:contents; }
+html[data-design="console"] #home .hero > h1{ order:1; }
+html[data-design="console"] #home .hero > .hero-sub{ order:2; }
+html[data-design="console"] #home .grid-4{ order:3; }
+html[data-design="console"] #home .hero > .hero-divider{ order:4; }
+html[data-design="console"] #home .hero > .hero-btns{ order:5; margin-bottom:44px; }
+html[data-design="console"] #home .search-wrap{ order:6; width:100%; }
+/* La dalle : verre éclairé de l'intérieur, التاريخ allumé ; les ✦ ✦ ✦ s'effacent */
+html[data-design="console"] .hero > .hero-ornament{
+  order:0; align-self:center; display:inline-grid!important; place-items:center; width:auto; height:auto; min-width:64px; padding:8px 16px 10px; margin:0 auto 26px!important; border-radius:16px; transform:none;
+  font-size:0!important; letter-spacing:0!important; color:var(--lp-ink-2)!important; opacity:1!important;
+  background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass);
+  border:1px solid rgba(var(--lp-glow),.6); box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62);
+}
+html[data-design="console"] .hero > .hero-ornament::after{ content:var(--lp-mark); font-family:var(--lp-ar)!important; font-size:22px; font-weight:400; line-height:1.3; letter-spacing:0; color:var(--lp-amber-hi); }
+html[data-design="console"] .hero h1{ font-size:clamp(2.1rem,5.4vw,3.4rem)!important; font-weight:250!important; line-height:1.08!important; letter-spacing:-.022em!important; color:var(--lp-ink)!important; text-shadow:none!important; text-wrap:balance; margin-bottom:18px!important; }
+html[data-design="console"] .hero h1 span{ color:inherit!important; font-weight:inherit!important; }
+html[data-design="console"] .hero-sub{ max-width:600px!important; margin-bottom:0!important; font-size:1.08rem!important; font-style:normal!important; font-weight:300!important; line-height:1.6!important; color:var(--lp-ink-2)!important; text-wrap:pretty; }
+html[data-design="console"] .hero > .hero-divider{ width:180px!important; height:1px!important; margin:30px auto 34px!important; background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)!important; }
+html[data-design="console"] .hero-btns{ gap:10px; }
+html[data-design="console"] .btn{
+  display:inline-flex; align-items:center; height:44px; padding:0 20px!important; border-radius:999px!important;
+  font-size:15px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important;
+  transition:color .3s var(--lp-ease),background-color .3s var(--lp-ease),border-color .3s var(--lp-ease),box-shadow .4s var(--lp-ease),transform .35s var(--lp-ease)!important;
+}
+html[data-design="console"] .btn-primary{
+  color:var(--lp-amber)!important; border:1px solid rgba(var(--lp-glow),.55)!important;
+  background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.24),transparent 70%),rgba(var(--lp-glow),.06)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55)!important;
+}
+html[data-design="console"] .btn-primary:hover{ box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75)!important; }
+html[data-design="console"] .btn-outline{ color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important; }
+html[data-design="console"] .btn-outline:hover{ color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; border-color:var(--lp-edge)!important; }
+
+/* ── Recherche : la dalle de verre du portail ── */
+html[data-design="console"] #home .container{ z-index:3; }
+html[data-design="console"] .search-wrap{ background:transparent!important; border:0!important; }
+html[data-design="console"] .search-input{
+  height:56px; padding:0 18px 0 50px!important; border-radius:16px!important;
+  background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; box-shadow:var(--lp-panel-shadow)!important;
+  color:var(--lp-ink)!important; font-size:16px!important; font-weight:300!important; caret-color:var(--lp-amber);
+  -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px);
+  transition:border-color .35s var(--lp-ease),box-shadow .35s var(--lp-ease)!important;
+}
+html[data-design="console"] .search-input:focus-visible{ outline:none!important; }
+html[data-design="console"] .search-input::placeholder{ color:var(--lp-ink-3)!important; }
+html[data-design="console"] .search-input:hover{ border-color:var(--lp-lamp-line)!important; }
+html[data-design="console"] .search-input:focus{ border-color:rgba(var(--lp-glow),.5)!important; box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important; }
+html[data-design="console"] .search-icon{ left:44px!important; top:28px!important; width:20px; height:20px; font-size:0!important; z-index:1; color:var(--lp-amber)!important; background:currentColor; -webkit-mask:var(--lpx-i-search) center/contain no-repeat; mask:var(--lpx-i-search) center/contain no-repeat; }
+html[data-design="console"] .search-results{
+  padding:6px; background:var(--lp-sheet-bg)!important; border:1px solid var(--lp-edge)!important; border-radius:16px!important;
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.85)!important; -webkit-backdrop-filter:blur(16px); backdrop-filter:blur(16px);
+}
+html[data-design="console"][data-lp-theme="light"] .search-results{ box-shadow:0 30px 70px -30px rgba(20,32,60,.35)!important; }
+html[data-design="console"] .search-item{ gap:12px; padding:10px 12px!important; border-radius:10px; border-bottom:0!important; transition:background-color .25s var(--lp-ease)!important; }
+html[data-design="console"] .search-item:hover{ background:rgba(var(--lp-glow),.08)!important; }
+html[data-design="console"] .search-item-dot{ width:8px!important; height:8px!important; }
+html[data-design="console"] .search-item-name{ font-size:15px!important; font-weight:400!important; color:var(--lp-ink)!important; }
+html[data-design="console"] .search-item-meta{ font-size:13px!important; font-weight:300!important; color:var(--lp-ink-3)!important; font-variant-numeric:tabular-nums; }
+
+/* Chiffres d'accueil : une ligne de contexte discrète sous le sous-titre — ni dalles ni grands numéraux.
+   Chaque entrée reste cliquable (rubrique correspondante) ; le libellé suit le chiffre en minuscules. */
+html[data-design="console"] #home .grid-4{
+  display:block!important; max-width:780px; margin:14px auto 0!important; padding:0 8px; text-align:center;
+  font-size:14.5px; line-height:1.75; color:var(--lp-ink-3)!important;
+}
+html[data-design="console"] #home .grid-4 > .card{
+  display:inline; padding:0!important; white-space:nowrap;
+  background:none!important; border:0!important; border-radius:0!important; box-shadow:none!important; transform:none!important;
+}
+html[data-design="console"] #home .grid-4 > .card:hover{ background:none!important; border:0!important; box-shadow:none!important; }
+html[data-design="console"] #home .grid-4 > .card:not(:last-child)::after{ content:'·'; margin:0 .2em; color:var(--lp-ink-3); }
+html[data-design="console"] #home .grid-4 > .card > div{ display:inline-block; margin:0!important; font-family:var(--lp-font)!important; font-size:inherit!important; line-height:inherit!important; letter-spacing:0!important; transition:color .3s var(--lp-ease); }
+html[data-design="console"] #home .grid-4 > .card > div:first-child{ font-weight:360!important; color:var(--lp-ink-2)!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] #home .grid-4 > .card > div:last-child{ font-weight:300!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] #home .grid-4 > .card:not(:first-child) > div:last-child::first-letter{ text-transform:lowercase; }
+html[data-design="console"] #home .grid-4 > .card:hover > div{ color:var(--lp-ink)!important; }
+
+/* ── En-têtes de section : l'étiquette passe sous le titre ── */
+html[data-design="console"] .section{ padding:clamp(40px,6vw,64px) 0 64px; }
+html[data-design="console"] .section-header{ display:flex; flex-direction:column; align-items:center; margin-bottom:40px!important; }
+html[data-design="console"] .section-header h2{ order:1; font-size:clamp(1.8rem,3.8vw,2.5rem)!important; font-weight:250!important; line-height:1.12!important; letter-spacing:-.02em!important; color:var(--lp-ink)!important; text-wrap:balance; margin:0 0 12px!important; }
+html[data-design="console"] .section-header p{ order:2; font-size:1.02rem!important; font-weight:300!important; line-height:1.6!important; color:var(--lp-ink-2)!important; text-wrap:pretty; }
+html[data-design="console"] .section-divider{ order:3; width:160px!important; height:1px!important; margin:24px auto 0!important; background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)!important; }
+html[data-design="console"] .section-label{ order:4; font-size:.84rem!important; font-weight:300!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; margin:14px 0 0!important; }
+
+/* ── Onglets d'ère et filtres : puces de verre, la courante éclairée ── */
+html[data-design="console"] :is(.era-tabs,.filters){ gap:8px!important; }
+html[data-design="console"] :is(.era-tab,.filter-btn){
+  padding:8px 15px!important; border-radius:999px!important; font-size:13.5px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; font-variant-numeric:tabular-nums;
+  color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-hairline)!important; box-shadow:none!important;
+  transition:color .3s var(--lp-ease),background-color .3s var(--lp-ease),border-color .3s var(--lp-ease),box-shadow .35s var(--lp-ease)!important;
+}
+html[data-design="console"] :is(.era-tab,.filter-btn):hover{ color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; border-color:var(--lp-edge)!important; }
+html[data-design="console"] :is(.era-tab,.filter-btn).active{
+  color:var(--lp-amber)!important; font-weight:400!important; border-color:rgba(var(--lp-glow),.5)!important;
+  background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.2),transparent 70%),rgba(var(--lp-glow),.08)!important;
+  box-shadow:0 0 22px -8px rgba(var(--lp-glow),.6)!important;
+}
+
+/* ── Frise : le panneau de verre, l'axe en fil de lumière ── */
+html[data-design="console"] .timeline-zoom-bar{ background:transparent!important; margin-bottom:12px!important; }
+html[data-design="console"] .zoom-hint{ font-size:13px!important; font-style:normal!important; font-weight:300!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] .zoom-btn{ width:34px!important; height:34px!important; border-radius:10px!important; font-size:17px!important; font-weight:300; color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important; }
+html[data-design="console"] .zoom-btn:hover{ color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; border-color:rgba(var(--lp-glow),.42)!important; }
+html[data-design="console"] .zoom-track{ width:96px!important; height:3px!important; border:0!important; border-radius:3px!important; background:var(--lp-fill-2)!important; }
+html[data-design="console"] .zoom-fill{ background:var(--lp-amber)!important; box-shadow:0 0 10px rgba(var(--lp-glow),.6); }
+html[data-design="console"] .htimeline-outer{ background:var(--lp-glass),var(--lp-void)!important; border:1px solid var(--lp-edge)!important; border-radius:20px!important; box-shadow:var(--lp-panel-shadow); }
+/* Ères : bandes de verre alternées, l'ère prophétique effleurée d'ambre */
+html[data-design="console"] .era-band{ opacity:1!important; background:transparent!important; box-shadow:inset 1px 0 0 var(--lp-hairline); }
+html[data-design="console"] .era-band:is([data-start="632"],[data-start="750"]){ background:var(--lp-fill)!important; }
+html[data-design="console"] .era-band[data-start="570"]{ background:linear-gradient(180deg,rgba(var(--lp-glow),.07),transparent 58%)!important; }
+html[data-design="console"] .era-band-label{ bottom:14px!important; left:12px!important; font-size:12px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; opacity:1!important; }
+html[data-design="console"] .htimeline-axis{ height:1px!important; background:linear-gradient(90deg,transparent,var(--lpx-axis) 1.2%,var(--lpx-axis) 98.8%,transparent)!important; box-shadow:0 0 14px rgba(var(--lp-glow),.14); }
+html[data-design="console"] .ht-tick-line{ height:8px!important; background:var(--lpx-axis)!important; opacity:1!important; }
+html[data-design="console"] .ht-tick-label{ margin-top:4px!important; font-size:11px!important; font-weight:400!important; color:var(--lp-ink-3)!important; font-variant-numeric:tabular-nums; }
+/* Repères : petites dalles de verre ; survol et fiche ouverte → lumière d'ambre */
+html[data-design="console"] .ht-card{
+  padding:9px 11px!important; border-radius:12px!important; background:var(--lp-glass),var(--lpx-panel)!important; border:1px solid var(--lp-edge)!important;
+  box-shadow:0 12px 26px -18px rgba(0,0,0,.9);
+  transition:border-color .35s var(--lp-ease),box-shadow .35s var(--lp-ease),background .35s var(--lp-ease)!important;
+}
+html[data-design="console"][data-lp-theme="light"] .ht-card{ box-shadow:0 10px 22px -16px rgba(20,32,60,.35); }
+html[data-design="console"] .ht-card-date{ margin-bottom:3px!important; font-size:11.5px!important; font-weight:500!important; letter-spacing:.01em; color:var(--lp-ink-2)!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .ht-card-title{ font-size:13px!important; font-weight:400!important; line-height:1.3!important; color:var(--lp-ink)!important; }
+html[data-design="console"] .ht-card-type{ margin-top:2px; font-size:11.5px!important; font-weight:300!important; color:var(--lp-ink-3)!important; opacity:1!important; }
+html[data-design="console"] .ht-connector{ background:var(--lpx-conn)!important; transition:background-color .35s var(--lp-ease); }
+html[data-design="console"] .ht-dot{ border:2px solid var(--lpx-panel)!important; background-image:radial-gradient(circle at 35% 30%,rgba(255,255,255,.38),transparent 62%)!important; transition:transform .3s var(--lp-ease),background-color .3s var(--lp-ease),box-shadow .3s var(--lp-ease)!important; }
+html[data-design="console"] :is(.ht-item:hover,.ht-item.lp-sel) .ht-card{
+  border-color:rgba(var(--lp-glow),.5)!important;
+  background:radial-gradient(120% 140% at 50% 120%,rgba(var(--lp-glow),.16),transparent 70%),var(--lp-glass),var(--lpx-panel)!important;
+  box-shadow:0 0 28px -10px rgba(var(--lp-glow),.6),0 12px 26px -18px rgba(0,0,0,.9)!important;
+}
+html[data-design="console"] :is(.ht-item:hover,.ht-item.lp-sel) .ht-connector{ background:rgba(var(--lp-glow),.6)!important; }
+html[data-design="console"] :is(.ht-item:hover,.ht-item.lp-sel) .ht-dot{ background-color:var(--lp-amber)!important; box-shadow:0 0 0 3px rgba(var(--lp-glow),.18),0 0 14px rgba(var(--lp-glow),.75)!important; }
+
+/* ── Réseau : le canvas sur une dalle de verre ── */
+html[data-design="console"] .network-controls{ background:transparent!important; }
+html[data-design="console"] .network-hint{ text-indent:-.28em; font-size:13px!important; font-style:normal!important; font-weight:300!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] .network-hint::first-letter{ font-size:0; }
+html[data-design="console"] #network-canvas-wrap{ background:radial-gradient(70% 60% at 50% 45%,rgba(58,88,160,.12),transparent 72%),var(--lp-glass),var(--lp-void)!important; border:1px solid var(--lp-edge)!important; border-radius:20px!important; box-shadow:var(--lp-panel-shadow); }
+html[data-design="console"][data-lp-theme="light"] #network-canvas-wrap{ background:var(--lp-glass),var(--lp-void)!important; }
+html[data-design="console"] #network-canvas{ background:transparent!important; }
+html[data-design="console"] .graph-legend{ gap:8px 18px!important; margin-top:14px!important; background:transparent!important; }
+html[data-design="console"] .legend-item{ gap:8px!important; font-size:13px!important; font-weight:300!important; color:var(--lp-ink-2)!important; }
+html[data-design="console"] .legend-dot{ width:9px!important; height:9px!important; }
+
+/* ── Cartes : verre ; le survol s'éclaire depuis le coin ── */
+html[data-design="console"] .card{
+  background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:18px!important; box-shadow:var(--lp-panel-shadow)!important;
+  transition:border-color .35s var(--lp-ease),box-shadow .35s var(--lp-ease),background-color .35s var(--lp-ease)!important;
+}
+html[data-design="console"] .card::before{ display:none!important; }
+html[data-design="console"] .card:hover{
+  transform:none!important; border-color:rgba(var(--lp-glow),.48)!important;
+  background:radial-gradient(120% 150% at 0% 100%,rgba(var(--lp-glow),.14),transparent 70%),var(--lp-glass)!important;
+  box-shadow:var(--lp-panel-shadow),0 0 30px -10px rgba(var(--lp-glow),.55)!important;
+}
+html[data-design="console"] .card-badge{ padding:4px 10px!important; border-radius:999px!important; font-size:12px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important; opacity:1!important; }
+html[data-design="console"] .imam-number{
+  top:18px!important; right:18px!important; min-width:34px; padding:8px 10px; border-radius:10px; text-align:center;
+  font-size:.82rem!important; font-weight:400!important; line-height:1!important; color:var(--lp-amber)!important; font-variant-numeric:tabular-nums;
+  background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill); border:1px solid var(--lp-lamp-line); box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo);
+}
+html[data-design="console"] .card-date{ font-size:13px!important; font-style:normal!important; font-weight:300!important; color:var(--lp-ink-3)!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .card h3{ font-size:17px!important; font-weight:400!important; line-height:1.3!important; letter-spacing:-.005em; color:var(--lp-ink)!important; }
+html[data-design="console"] .card [style*="direction:rtl"]{ font-size:1.34rem!important; line-height:1.8!important; color:var(--lp-ink)!important; opacity:1!important; margin-bottom:6px!important; }
+html[data-design="console"] .card p{ font-size:14.5px!important; font-weight:var(--lp-body-w)!important; line-height:1.6!important; color:var(--lp-ink-2)!important; }
+html[data-design="console"] .card-footer{ border-color:var(--lp-hairline)!important; border-top:1px solid var(--lp-hairline)!important; }
+html[data-design="console"] .card .tag,
+html[data-design="console"] .detail-panel .tag{ padding:3px 10px!important; border-radius:999px!important; font-size:12px!important; font-weight:400!important; color:var(--lp-ink-3)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-hairline)!important; }
+/* Émojis-icônes décoratifs des lieux et thèmes : retirés */
+html[data-design="console"] :is(.place-card-icon,.theme-icon){ display:none!important; }
+
+/* ── Fiche détaillée : une feuille de verre qui glisse ── */
+html[data-design="console"] .detail-overlay{ background:var(--lpx-scrim)!important; -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); transition:opacity .4s var(--lp-ease)!important; }
+html[data-design="console"] .detail-panel{
+  top:12px!important; bottom:12px!important; right:-560px; width:calc(100% - 24px)!important; max-width:480px; border-radius:22px; overscroll-behavior:contain;
+  background:var(--lp-sheet-bg)!important; border:1px solid var(--lp-edge)!important;
+  box-shadow:0 50px 120px -40px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.07)!important;
+  -webkit-backdrop-filter:blur(18px) saturate(130%); backdrop-filter:blur(18px) saturate(130%);
+  visibility:hidden; transition:right .55s var(--lp-ease),visibility 0s linear .55s!important;
+}
+html[data-design="console"][data-lp-theme="light"] .detail-panel{ box-shadow:0 40px 100px -40px rgba(20,32,60,.4),inset 0 1px 0 rgba(255,255,255,.9)!important; }
+html[data-design="console"] .detail-panel.open{ right:12px!important; visibility:visible; transition:right .55s var(--lp-ease),visibility 0s!important; }
+html[data-design="console"] .detail-panel-inner{ padding:30px 28px 56px!important; }
+html[data-design="console"] .detail-close{ top:14px!important; right:14px!important; z-index:2; width:36px!important; height:36px!important; font-size:20px!important; font-weight:300; color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:0!important; transition:color .3s,background-color .3s!important; }
+html[data-design="console"] .detail-close:hover{ color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; }
+html[data-design="console"] .detail-name{ padding-right:36px; margin-bottom:8px!important; font-size:1.7rem!important; font-weight:300!important; line-height:1.2!important; letter-spacing:-.015em; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .detail-arabic{ margin-bottom:10px!important; font-size:1.6rem!important; line-height:1.9!important; color:var(--lp-ink)!important; opacity:1!important; }
+html[data-design="console"] .detail-date{ position:relative; padding-left:24px; font-size:14px!important; font-style:normal!important; font-weight:300!important; color:var(--lp-ink-3)!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .detail-date::first-letter{ font-size:0; }
+html[data-design="console"] .detail-date::after{ content:''; position:absolute; left:0; top:50%; width:16px; height:16px; margin-top:-8px; background:currentColor; -webkit-mask:var(--lpx-i-cal) center/contain no-repeat; mask:var(--lpx-i-cal) center/contain no-repeat; }
+html[data-design="console"] .detail-section-label{ margin:26px 0 10px!important; font-size:15px!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-amber)!important; }
+html[data-design="console"] .detail-desc{ font-size:15.5px!important; font-weight:var(--lp-body-w)!important; line-height:1.72!important; color:var(--lp-read)!important; text-align:left; -webkit-hyphens:auto; hyphens:auto; }
+html[data-design="console"] .detail-significance{
+  padding:14px 16px!important; border-radius:14px!important; border:1px solid var(--lp-edge)!important;
+  background:radial-gradient(90% 80% at 0% 0%,var(--lp-lamp),transparent 62%),var(--lp-fill)!important;
+  font-size:15px!important; font-weight:var(--lp-body-w)!important; line-height:1.65!important; color:var(--lp-ink)!important;
+}
+html[data-design="console"] .detail-relations{ gap:6px!important; }
+html[data-design="console"] .detail-rel-item{ padding:11px 14px!important; border-radius:12px!important; background:var(--lp-fill)!important; border:1px solid var(--lp-hairline)!important; transition:background-color .3s var(--lp-ease),border-color .3s var(--lp-ease)!important; }
+html[data-design="console"] .detail-rel-item:hover{ background:rgba(var(--lp-glow),.08)!important; border-color:rgba(var(--lp-glow),.4)!important; }
+html[data-design="console"] .detail-rel-name{ font-size:14.5px!important; font-weight:400!important; color:var(--lp-ink)!important; }
+html[data-design="console"] .detail-rel-type{ font-size:12.5px!important; font-weight:300!important; color:var(--lp-ink-3)!important; text-align:right; }
+/* Liens dans le texte : l'ambre, soulignement léger */
+html[data-design="console"] .kw-link{ color:var(--lp-amber)!important; opacity:1!important; border-bottom:0!important; text-decoration:underline; text-decoration-thickness:1px; text-decoration-color:rgba(var(--lp-glow),.45); text-underline-offset:3px; transition:color .25s var(--lp-ease),text-decoration-color .25s var(--lp-ease)!important; }
+html[data-design="console"] .kw-link:hover{ font-weight:inherit!important; color:var(--lp-amber-hi)!important; text-decoration-color:currentColor; }
+html[data-design="console"] .detail-panel .tag.kw-link{ color:var(--lp-amber)!important; text-decoration:none; border-color:rgba(var(--lp-glow),.34)!important; background:rgba(var(--lp-glow),.06)!important; }
+
+/* ── Pied de page ── */
+html[data-design="console"] footer{ margin-top:40px!important; border-top:1px solid var(--lp-hairline)!important; }
+/* Ni ✦ ✦ ✦ ni point de lumière : le filet du haut suffit */
+html[data-design="console"] .footer-ornament{ display:none!important; }
+html[data-design="console"] footer p{ font-size:14px!important; font-weight:300!important; line-height:1.7!important; color:var(--lp-ink-3)!important; }
+
+/* ── Mobile ── */
+@media (max-width:768px){
+  html[data-design="console"] #home .grid-4{ font-size:14px; }
+  html[data-design="console"] .nav-inner{ padding:8px 14px; }
+  html[data-design="console"] .search-wrap{ padding:0 0 16px!important; }
+  html[data-design="console"] .search-icon{ left:18px!important; }
+  html[data-design="console"] .search-results{ left:0!important; right:0!important; }
+  html[data-design="console"] .detail-panel{ top:0!important; bottom:0!important; right:-100%; width:100%!important; max-width:100%; border-radius:0; border-width:0!important; background:var(--lp-glass-solid)!important; }
+  html[data-design="console"] .era-tabs{ flex-wrap:nowrap!important; overflow-x:auto; scrollbar-width:none; margin:0 -24px 20px!important; padding:2px 24px; }
+  html[data-design="console"] .era-tabs::-webkit-scrollbar{ display:none; }
+  html[data-design="console"] .era-tab{ flex:none; }
+  html[data-design="console"] .detail-panel.open{ right:0!important; }
+  html[data-design="console"] .detail-panel-inner{ padding:26px 20px 48px!important; }
+}
+</style>
 </head>
 <body>
 
@@ -891,6 +1207,7 @@ html[data-theme="light"] ::-webkit-scrollbar-thumb { background: rgba(122,92,36,
 <nav class="nav-wrap">
   <div class="nav-inner">
     <span class="nav-brand">☽ Islam chiite</span>
+    <span class="nav-brand lp-only">Islam chiite</span>
     <button class="nav-btn active" data-section="home">Accueil</button>
     <button class="nav-btn" data-section="timeline">Frise</button>
     <button class="nav-btn" data-section="network">Réseau</button>
@@ -2341,8 +2658,16 @@ function initGraph() {
 
   const wrap = document.getElementById('network-canvas-wrap');
   const canvas = document.getElementById('network-canvas');
-  canvas.width = wrap.clientWidth;
-  canvas.height = wrap.clientHeight;
+  /* Écrans denses (Retina) : la surface du canvas suit devicePixelRatio ;
+     dessin, souris et pan restent en px CSS (taille affichée : CSS 100 %) */
+  let dpr = 1, cssW = 0, cssH = 0;
+  function sizeCanvas() {
+    dpr = window.devicePixelRatio || 1;
+    cssW = wrap.clientWidth; cssH = wrap.clientHeight;
+    canvas.width = Math.round(cssW * dpr);
+    canvas.height = Math.round(cssH * dpr);
+  }
+  sizeCanvas();
   const ctx = canvas.getContext('2d');
 
   /* Legend */
@@ -2369,7 +2694,7 @@ function initGraph() {
   let hoveredId = null;
   let isDragging = false;
   let dragNode = null;
-  let panX = canvas.width/2, panY = canvas.height/2;
+  let panX = cssW/2, panY = cssH/2;
   let scale = 1;
   let lastMX = 0, lastMY = 0;
   let isPanning = false;
@@ -2438,7 +2763,8 @@ function initGraph() {
   }
 
   function draw() {
-    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.clearRect(0,0,cssW,cssH);
     ctx.save();
     ctx.translate(panX,panY);
     ctx.scale(scale,scale);
@@ -2464,6 +2790,7 @@ function initGraph() {
       ctx.beginPath();
       ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y);
       ctx.strokeStyle = isHighlighted ? (isLightTheme()?'rgba(122,92,36,0.7)':'rgba(201,168,76,0.7)') : dimmed ? (isLightTheme()?'rgba(80,60,30,0.06)':'rgba(255,255,255,0.04)') : (isLightTheme()?'rgba(80,60,30,0.18)':'rgba(255,255,255,0.1)');
+      if (LP_CONSOLE) ctx.strokeStyle = isHighlighted ? LPC['edge-hi'] : dimmed ? LPC['edge-dim'] : LPC.edge;
       ctx.lineWidth = isHighlighted ? 1.5 : 0.8;
       ctx.stroke();
     }
@@ -2485,6 +2812,12 @@ function initGraph() {
         grad.addColorStop(0, c+'66');
         grad.addColorStop(1, 'transparent');
         ctx.fillStyle = grad;
+        if (LP_CONSOLE) {
+          const lpHalo = ctx.createRadialGradient(n.x,n.y,r,n.x,n.y,r+10);
+          lpHalo.addColorStop(0, isSelected ? LPC['glow-0'] : c+'55');
+          lpHalo.addColorStop(1, isSelected ? LPC['glow-1'] : c+'00');
+          ctx.fillStyle = lpHalo;
+        }
         ctx.fill();
       }
 
@@ -2492,8 +2825,17 @@ function initGraph() {
       ctx.arc(n.x,n.y,r,0,Math.PI*2);
       ctx.fillStyle = dimmed ? c+'33' : c;
       ctx.fill();
+      if (LP_CONSOLE) {
+        if (!dimmed) { ctx.strokeStyle = LPC.rim; ctx.lineWidth = 1; ctx.stroke(); }
+        if (isSelected || isHovered) {
+          ctx.beginPath(); ctx.arc(n.x, n.y, r + (isSelected ? 5 : 4), 0, Math.PI*2);
+          ctx.strokeStyle = LPC.halo; ctx.lineWidth = isSelected ? 2.5 : 1.5; ctx.stroke();
+          ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, Math.PI*2);
+        }
+      }
       if (isSelected) {
         ctx.strokeStyle = isLightTheme() ? '#2c2114' : '#fff';
+        if (LP_CONSOLE) ctx.strokeStyle = LPC.ring;
         ctx.lineWidth = 2;
         ctx.stroke();
       }
@@ -2503,6 +2845,10 @@ function initGraph() {
         const fontSize = isSelected ? 11 : isHovered ? 10 : 9;
         ctx.font = `${isSelected?'bold ':''} ${fontSize}px 'EB Garamond', serif`;
         ctx.fillStyle = dimmed ? (isLightTheme()?'rgba(80,60,30,0.15)':'rgba(200,200,200,0.2)') : isSelected ? (isLightTheme()?'#2c2114':'#fff') : (isLightTheme()?'rgba(44,33,20,0.85)':'rgba(230,226,208,0.85)');
+        if (LP_CONSOLE) {
+          ctx.font = (isSelected ? '500 ' : '400 ') + (fontSize + 2) + "px 'Readex Pro', system-ui, sans-serif";
+          ctx.fillStyle = dimmed ? LPC['label-dim'] : isSelected ? LPC['label-hi'] : LPC.label;
+        }
         const shortName = n.name.split(' ').slice(0,3).join(' ');
         ctx.fillText(shortName, n.x+r+3, n.y+4);
       }
@@ -2591,11 +2937,46 @@ function initGraph() {
   });
 
   window.addEventListener('resize', () => {
-    canvas.width = wrap.clientWidth;
-    canvas.height = wrap.clientHeight;
-    panX = canvas.width/2;
-    panY = canvas.height/2;
+    sizeCanvas();
+    panX = cssW/2;
+    panY = cssH/2;
   });
+}
+
+/* ============================================================
+   DESIGN « CONSOLE » — couleurs lues dans les jetons du skin
+   (style#lp-console-skin). Inactif en design classique.
+   ============================================================ */
+const LP_CONSOLE = document.documentElement.getAttribute('data-design') === 'console';
+const LPC = {};          /* couleurs du réseau (canvas), selon le thème */
+let lpSelId = null;      /* fiche ouverte : son repère reste éclairé sur la frise */
+if (LP_CONSOLE) {
+  const lpVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const LP_TYPE_VARS = { prophet:'--prophet', imam:'--imam', ahl_al_bayt:'--lpc-ahl', person:'--person',
+    event:'--event', place:'--place', theme:'--theme', dynasty:'--dynasty', scholar:'--scholar', work:'--work' };
+  const lpPalette = () => {
+    Object.keys(LP_TYPE_VARS).forEach(k => { const c = lpVar(LP_TYPE_VARS[k]); if (c) TYPE_META[k].color = c; });
+    ['edge','edge-dim','edge-hi','label','label-hi','label-dim','ring','halo','rim','glow-0','glow-1'].forEach(k => { LPC[k] = lpVar('--lpg-' + k); });
+  };
+  const lpMark = () => {
+    document.querySelectorAll('.ht-item.lp-sel').forEach(e => e.classList.remove('lp-sel'));
+    if (lpSelId) document.querySelectorAll(`.ht-item[onclick="openDetail('${lpSelId}')"]`).forEach(e => e.classList.add('lp-sel'));
+  };
+  lpPalette();
+  const lpOpenDetail = openDetail, lpRenderTimeline = renderTimeline;
+  openDetail = function (id) { lpOpenDetail(id); if (NODE_MAP[id]) { lpSelId = id; lpMark(); } };
+  renderTimeline = function (era, typeFilter) { lpRenderTimeline(era, typeFilter); lpMark(); };
+  /* Thème changé par le portail : palette relue, frise et légende recolorées */
+  new MutationObserver(() => {
+    lpPalette();
+    const era = document.querySelector('#era-tabs .era-tab.active')?.dataset.era || 'all';
+    const f = document.querySelector('#timeline-filters .filter-btn.active')?.dataset.filter || 'all';
+    renderTimeline(era, f === 'all' ? null : f);
+    const metas = Object.values(TYPE_META);
+    document.querySelectorAll('#graph-legend .legend-dot').forEach((d, i) => { if (metas[i]) d.style.background = metas[i].color; });
+    if (lpSelId && document.getElementById('detail-panel').classList.contains('open')) lpOpenDetail(lpSelId);
+    searchResults.classList.remove('show');
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-lp-theme'] });
 }
 
 /* ============================================================

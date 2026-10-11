@@ -1,0 +1,242 @@
+/* ======================================================================
+   console.css — design « Console » des Partisans : verre et lumière
+   ----------------------------------------------------------------------
+   Toutes les règles sont limitées à html[data-design="console"].
+   Avec lp-design.js réglé sur 'classique', ce fichier n'a aucun effet
+   et chaque page retrouve exactement son ancien style.
+   ====================================================================== */
+
+/* ── 1. Jetons ─────────────────────────────────────────────────────── */
+html[data-design="console"]{
+  --lp-void:#04060c;
+  --lp-void-2:#0a1122;
+  --lp-ink:#eef2f8;
+  --lp-read:#d3dae6;
+  --lp-ink-2:#b3bfd1;
+  --lp-ink-3:#8f9bb1;
+  --lp-amber:#f2b45a;
+  --lp-amber-hi:#ffd28a;
+  --lp-amber-ink:#1a1000;
+  --lp-glow:242,180,90;
+  --lp-lamp:rgba(242,180,90,.14);
+  --lp-lamp-line:rgba(242,180,90,.34);
+  --lp-halo:0 0 44px -14px rgba(242,180,90,.32);
+  --lp-edge:rgba(205,220,250,.16);
+  --lp-edge-hi:rgba(232,240,255,.38);
+  --lp-hairline:rgba(205,220,250,.12);
+  --lp-glass:linear-gradient(180deg,rgba(214,226,250,.075),rgba(190,206,236,.03));
+  --lp-glass-solid:#0d1426;
+  --lp-fill:rgba(190,206,236,.06);
+  --lp-fill-2:rgba(190,206,236,.1);
+  --lp-panel-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 56px -32px rgba(0,0,0,.85);
+  --lp-bar-bg:rgba(4,6,12,.82);
+  --lp-sheet-bg:rgba(12,17,31,.96);
+  --lp-font:'Readex Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --lp-ar:'Scheherazade New','Amiri',serif;
+  --lp-ease:cubic-bezier(.16,1,.3,1);
+  --lp-body-w:330;
+  --lp-fog:radial-gradient(110% 440px at 50% -90px,rgba(58,88,160,.30),transparent 72%),radial-gradient(60% 300px at 50% -40px,rgba(242,180,90,.10),transparent 70%);
+  --lp-motes:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='460' viewBox='0 0 1400 460'><circle cx='615' cy='34' r='1.0' fill='%23ffd79a' fill-opacity='0.19'/><circle cx='762' cy='285' r='0.6' fill='%23d6e4ff' fill-opacity='0.3'/><circle cx='47' cy='9' r='1.5' fill='%23ffd79a' fill-opacity='0.25'/><circle cx='424' cy='116' r='1.2' fill='%23ffd79a' fill-opacity='0.36'/><circle cx='1000' cy='400' r='1.0' fill='%23ffe7bf' fill-opacity='0.09'/><circle cx='362' cy='183' r='1.2' fill='%23d6e4ff' fill-opacity='0.42'/><circle cx='1001' cy='229' r='1.0' fill='%23ffd79a' fill-opacity='0.36'/><circle cx='1166' cy='6' r='1.5' fill='%23d6e4ff' fill-opacity='0.24'/><circle cx='542' cy='119' r='0.7' fill='%23ffe7bf' fill-opacity='0.58'/><circle cx='686' cy='140' r='0.9' fill='%23ffd79a' fill-opacity='0.28'/><circle cx='40' cy='7' r='0.6' fill='%23ffe7bf' fill-opacity='0.61'/><circle cx='1285' cy='283' r='0.8' fill='%23ffe7bf' fill-opacity='0.37'/><circle cx='1284' cy='31' r='1.2' fill='%23ffe7bf' fill-opacity='0.42'/><circle cx='737' cy='117' r='1.2' fill='%23ffe7bf' fill-opacity='0.43'/><circle cx='1117' cy='39' r='0.6' fill='%23ffe7bf' fill-opacity='0.37'/><circle cx='693' cy='85' r='0.6' fill='%23ffe7bf' fill-opacity='0.34'/><circle cx='208' cy='119' r='1.2' fill='%23ffe7bf' fill-opacity='0.37'/><circle cx='1273' cy='20' r='0.7' fill='%23ffe7bf' fill-opacity='0.63'/><circle cx='961' cy='133' r='0.9' fill='%23ffe7bf' fill-opacity='0.16'/><circle cx='105' cy='36' r='0.6' fill='%23d6e4ff' fill-opacity='0.67'/><circle cx='709' cy='69' r='0.6' fill='%23ffe7bf' fill-opacity='0.56'/><circle cx='1296' cy='17' r='0.8' fill='%23ffe7bf' fill-opacity='0.52'/><circle cx='1307' cy='390' r='1.2' fill='%23d6e4ff' fill-opacity='0.18'/><circle cx='1214' cy='61' r='1.0' fill='%23ffe7bf' fill-opacity='0.42'/><circle cx='788' cy='13' r='1.5' fill='%23d6e4ff' fill-opacity='0.35'/><circle cx='414' cy='197' r='0.8' fill='%23ffe7bf' fill-opacity='0.18'/><circle cx='1236' cy='46' r='0.9' fill='%23ffd79a' fill-opacity='0.46'/><circle cx='1086' cy='295' r='1.0' fill='%23d6e4ff' fill-opacity='0.1'/><circle cx='626' cy='256' r='0.7' fill='%23ffe7bf' fill-opacity='0.18'/><circle cx='732' cy='81' r='1.2' fill='%23ffe7bf' fill-opacity='0.31'/><circle cx='709' cy='268' r='0.8' fill='%23ffe7bf' fill-opacity='0.16'/><circle cx='1096' cy='121' r='0.7' fill='%23d6e4ff' fill-opacity='0.19'/><circle cx='566' cy='439' r='1.2' fill='%23d6e4ff' fill-opacity='0.13'/><circle cx='1040' cy='427' r='0.6' fill='%23ffe7bf' fill-opacity='0.08'/><circle cx='237' cy='417' r='0.7' fill='%23ffd79a' fill-opacity='0.2'/><circle cx='728' cy='58' r='1.0' fill='%23d6e4ff' fill-opacity='0.67'/><circle cx='717' cy='317' r='1.0' fill='%23ffd79a' fill-opacity='0.09'/><circle cx='818' cy='284' r='0.9' fill='%23ffd79a' fill-opacity='0.18'/><circle cx='323' cy='45' r='1.5' fill='%23ffd79a' fill-opacity='0.56'/><circle cx='47' cy='38' r='0.7' fill='%23ffe7bf' fill-opacity='0.65'/><circle cx='1077' cy='173' r='0.6' fill='%23ffd79a' fill-opacity='0.29'/><circle cx='1114' cy='225' r='0.7' fill='%23d6e4ff' fill-opacity='0.44'/><circle cx='1243' cy='160' r='0.9' fill='%23d6e4ff' fill-opacity='0.22'/><circle cx='717' cy='18' r='1.2' fill='%23ffe7bf' fill-opacity='0.22'/><circle cx='673' cy='360' r='1.5' fill='%23ffe7bf' fill-opacity='0.09'/><circle cx='234' cy='14' r='0.6' fill='%23d6e4ff' fill-opacity='0.72'/><circle cx='578' cy='8' r='1.0' fill='%23ffe7bf' fill-opacity='0.64'/><circle cx='708' cy='182' r='1.2' fill='%23ffe7bf' fill-opacity='0.24'/><circle cx='1299' cy='440' r='0.6' fill='%23ffe7bf' fill-opacity='0.15'/><circle cx='507' cy='16' r='1.2' fill='%23ffe7bf' fill-opacity='0.49'/><circle cx='858' cy='192' r='1.5' fill='%23ffd79a' fill-opacity='0.41'/><circle cx='550' cy='440' r='0.8' fill='%23d6e4ff' fill-opacity='0.05'/><circle cx='370' cy='253' r='1.0' fill='%23d6e4ff' fill-opacity='0.41'/><circle cx='1054' cy='284' r='0.9' fill='%23ffe7bf' fill-opacity='0.39'/><circle cx='610' cy='216' r='1.5' fill='%23ffd79a' fill-opacity='0.32'/><circle cx='401' cy='19' r='1.5' fill='%23ffd79a' fill-opacity='0.25'/><circle cx='236' cy='334' r='1.5' fill='%23ffe7bf' fill-opacity='0.22'/><circle cx='353' cy='248' r='1.5' fill='%23ffe7bf' fill-opacity='0.27'/><circle cx='887' cy='356' r='0.6' fill='%23ffe7bf' fill-opacity='0.31'/><circle cx='1115' cy='8' r='1.2' fill='%23d6e4ff' fill-opacity='0.73'/><circle cx='1111' cy='12' r='0.7' fill='%23d6e4ff' fill-opacity='0.25'/><circle cx='733' cy='182' r='1.0' fill='%23d6e4ff' fill-opacity='0.37'/><circle cx='206' cy='53' r='1.5' fill='%23d6e4ff' fill-opacity='0.51'/><circle cx='1096' cy='424' r='0.6' fill='%23ffe7bf' fill-opacity='0.06'/><circle cx='1104' cy='354' r='1.5' fill='%23ffd79a' fill-opacity='0.25'/><circle cx='259' cy='426' r='1.0' fill='%23d6e4ff' fill-opacity='0.16'/><circle cx='1022' cy='318' r='0.8' fill='%23ffd79a' fill-opacity='0.23'/><circle cx='566' cy='262' r='1.2' fill='%23ffe7bf' fill-opacity='0.14'/><circle cx='632' cy='357' r='0.7' fill='%23ffe7bf' fill-opacity='0.1'/><circle cx='1161' cy='84' r='0.9' fill='%23ffe7bf' fill-opacity='0.53'/><circle cx='515' cy='7' r='1.2' fill='%23ffe7bf' fill-opacity='0.51'/><circle cx='209' cy='183' r='0.6' fill='%23ffe7bf' fill-opacity='0.24'/><circle cx='610' cy='68' r='0.6' fill='%23d6e4ff' fill-opacity='0.34'/><circle cx='228' cy='62' r='1.0' fill='%23ffe7bf' fill-opacity='0.17'/><circle cx='491' cy='25' r='1.0' fill='%23ffd79a' fill-opacity='0.61'/><circle cx='964' cy='201' r='0.7' fill='%23ffd79a' fill-opacity='0.41'/><circle cx='644' cy='38' r='1.5' fill='%23d6e4ff' fill-opacity='0.69'/><circle cx='1158' cy='380' r='1.0' fill='%23ffe7bf' fill-opacity='0.18'/></svg>");
+  color-scheme:dark;
+}
+html[data-design="console"][data-lp-theme="light"]{
+  --lp-void:#e2e7ee;
+  --lp-void-2:#d5dce7;
+  --lp-ink:#0b1220;
+  --lp-read:#1c2638;
+  --lp-ink-2:#3c475c;
+  --lp-ink-3:#4a5468; /* lisible sur le zénith ardoise de l'aube (≥4.5:1) */
+  --lp-amber:#7f4900;
+  --lp-amber-hi:#6e3f00;
+  --lp-amber-ink:#fff8ec;
+  --lp-glow:240,166,58;
+  --lp-lamp:rgba(240,166,58,.16);
+  --lp-lamp-line:rgba(160,100,20,.32);
+  --lp-halo:0 12px 30px -16px rgba(160,100,20,.30);
+  --lp-edge:rgba(30,48,90,.13);
+  --lp-edge-hi:#fff;
+  --lp-hairline:rgba(30,48,90,.11);
+  /* Aube : verre dépoli (le ciel transparaît), arête blanche, ombre bleutée décalée */
+  --lp-glass:linear-gradient(180deg,rgba(255,255,255,.74),rgba(255,255,255,.46));
+  --lp-glass-solid:#f4f6fa;
+  --lp-fill:rgba(30,48,90,.05);
+  --lp-fill-2:rgba(30,48,90,.085);
+  --lp-panel-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(25,40,75,.06),0 24px 44px -28px rgba(34,56,112,.38);
+  --lp-bar-bg:rgba(226,232,240,.78);
+  --lp-sheet-bg:rgba(246,248,251,.97);
+  --lp-body-w:360;
+  --lp-fog:radial-gradient(110% 460px at 50% -100px,rgba(255,252,246,.95),transparent 72%),radial-gradient(60% 320px at 50% -50px,rgba(255,172,80,.26),transparent 72%);
+  --lp-motes:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='460' viewBox='0 0 1400 460'><circle cx='673' cy='418' r='0.9' fill='%23b8762a' fill-opacity='0.12'/><circle cx='1107' cy='15' r='1.0' fill='%23c98a32' fill-opacity='0.53'/><circle cx='449' cy='7' r='0.9' fill='%23d99a3c' fill-opacity='0.22'/><circle cx='195' cy='178' r='0.6' fill='%23b8762a' fill-opacity='0.2'/><circle cx='467' cy='220' r='1.0' fill='%23c98a32' fill-opacity='0.32'/><circle cx='822' cy='8' r='0.7' fill='%23c98a32' fill-opacity='0.41'/><circle cx='282' cy='66' r='0.7' fill='%23b8762a' fill-opacity='0.23'/><circle cx='641' cy='183' r='1.2' fill='%23c98a32' fill-opacity='0.19'/><circle cx='1179' cy='224' r='0.8' fill='%23c98a32' fill-opacity='0.31'/><circle cx='138' cy='185' r='1.0' fill='%23c98a32' fill-opacity='0.31'/><circle cx='1098' cy='120' r='0.8' fill='%23d99a3c' fill-opacity='0.37'/><circle cx='938' cy='93' r='0.7' fill='%23c98a32' fill-opacity='0.42'/><circle cx='509' cy='13' r='0.8' fill='%23b8762a' fill-opacity='0.38'/><circle cx='713' cy='276' r='0.8' fill='%23b8762a' fill-opacity='0.4'/><circle cx='251' cy='159' r='0.7' fill='%23d99a3c' fill-opacity='0.21'/><circle cx='1011' cy='118' r='1.2' fill='%23c98a32' fill-opacity='0.43'/><circle cx='1183' cy='313' r='0.8' fill='%23d99a3c' fill-opacity='0.31'/><circle cx='1227' cy='151' r='0.9' fill='%23c98a32' fill-opacity='0.43'/><circle cx='562' cy='141' r='1.2' fill='%23c98a32' fill-opacity='0.19'/><circle cx='644' cy='229' r='1.2' fill='%23d99a3c' fill-opacity='0.23'/><circle cx='800' cy='376' r='0.8' fill='%23c98a32' fill-opacity='0.34'/><circle cx='737' cy='30' r='0.6' fill='%23d99a3c' fill-opacity='0.22'/><circle cx='598' cy='22' r='0.7' fill='%23d99a3c' fill-opacity='0.34'/><circle cx='1026' cy='13' r='0.9' fill='%23d99a3c' fill-opacity='0.4'/><circle cx='290' cy='332' r='1.0' fill='%23d99a3c' fill-opacity='0.3'/><circle cx='744' cy='249' r='0.9' fill='%23c98a32' fill-opacity='0.19'/><circle cx='370' cy='26' r='1.2' fill='%23c98a32' fill-opacity='0.2'/><circle cx='1216' cy='34' r='0.8' fill='%23c98a32' fill-opacity='0.25'/><circle cx='1104' cy='96' r='1.0' fill='%23d99a3c' fill-opacity='0.5'/><circle cx='1065' cy='419' r='1.2' fill='%23b8762a' fill-opacity='0.27'/><circle cx='945' cy='384' r='1.2' fill='%23b8762a' fill-opacity='0.21'/><circle cx='827' cy='106' r='0.9' fill='%23b8762a' fill-opacity='0.31'/><circle cx='400' cy='11' r='0.7' fill='%23d99a3c' fill-opacity='0.26'/><circle cx='706' cy='204' r='0.6' fill='%23c98a32' fill-opacity='0.32'/><circle cx='1108' cy='16' r='0.8' fill='%23b8762a' fill-opacity='0.21'/><circle cx='435' cy='211' r='0.7' fill='%23b8762a' fill-opacity='0.23'/><circle cx='721' cy='204' r='0.9' fill='%23c98a32' fill-opacity='0.19'/><circle cx='1009' cy='450' r='0.9' fill='%23d99a3c' fill-opacity='0.2'/><circle cx='185' cy='25' r='1.2' fill='%23d99a3c' fill-opacity='0.47'/><circle cx='990' cy='338' r='0.7' fill='%23b8762a' fill-opacity='0.14'/><circle cx='1091' cy='93' r='1.2' fill='%23b8762a' fill-opacity='0.49'/><circle cx='1091' cy='69' r='1.2' fill='%23c98a32' fill-opacity='0.43'/><circle cx='544' cy='162' r='0.7' fill='%23d99a3c' fill-opacity='0.41'/><circle cx='1100' cy='173' r='1.0' fill='%23d99a3c' fill-opacity='0.36'/><circle cx='1265' cy='327' r='0.7' fill='%23c98a32' fill-opacity='0.33'/><circle cx='474' cy='39' r='0.9' fill='%23d99a3c' fill-opacity='0.45'/><circle cx='67' cy='313' r='0.9' fill='%23d99a3c' fill-opacity='0.18'/><circle cx='1249' cy='424' r='0.9' fill='%23b8762a' fill-opacity='0.32'/><circle cx='756' cy='12' r='0.6' fill='%23c98a32' fill-opacity='0.37'/><circle cx='701' cy='40' r='1.0' fill='%23b8762a' fill-opacity='0.49'/><circle cx='991' cy='391' r='0.8' fill='%23b8762a' fill-opacity='0.14'/><circle cx='1362' cy='20' r='0.9' fill='%23b8762a' fill-opacity='0.47'/><circle cx='989' cy='377' r='0.9' fill='%23b8762a' fill-opacity='0.2'/><circle cx='820' cy='136' r='1.2' fill='%23c98a32' fill-opacity='0.4'/><circle cx='358' cy='450' r='0.6' fill='%23c98a32' fill-opacity='0.22'/><circle cx='963' cy='323' r='0.7' fill='%23b8762a' fill-opacity='0.34'/><circle cx='981' cy='234' r='0.8' fill='%23c98a32' fill-opacity='0.31'/><circle cx='278' cy='5' r='1.2' fill='%23b8762a' fill-opacity='0.24'/><circle cx='295' cy='123' r='0.7' fill='%23c98a32' fill-opacity='0.18'/><circle cx='445' cy='68' r='0.7' fill='%23b8762a' fill-opacity='0.3'/><circle cx='1124' cy='116' r='0.7' fill='%23c98a32' fill-opacity='0.48'/><circle cx='734' cy='383' r='1.2' fill='%23b8762a' fill-opacity='0.3'/><circle cx='1068' cy='117' r='1.0' fill='%23c98a32' fill-opacity='0.35'/><circle cx='1082' cy='158' r='0.9' fill='%23c98a32' fill-opacity='0.36'/><circle cx='316' cy='32' r='0.9' fill='%23b8762a' fill-opacity='0.46'/><circle cx='1149' cy='10' r='1.2' fill='%23b8762a' fill-opacity='0.39'/><circle cx='998' cy='310' r='0.6' fill='%23b8762a' fill-opacity='0.15'/><circle cx='401' cy='62' r='0.6' fill='%23b8762a' fill-opacity='0.35'/><circle cx='67' cy='295' r='0.6' fill='%23d99a3c' fill-opacity='0.22'/><circle cx='1045' cy='206' r='0.7' fill='%23b8762a' fill-opacity='0.24'/></svg>");
+  color-scheme:light;
+}
+
+/* Mot arabe de la rubrique d'où l'on vient : la dalle allumée de l'accueil
+   réapparaît en tête de page, point d'arrivée du geste d'ouverture. */
+html[data-design="console"]{ --lp-mark:""; }
+html[data-design="console"]:is([data-lp-page="coran-lecture"],[data-lp-page="verset-trone"],[data-lp-page="que-dit-le-coran"],[data-lp-page="radio"]){ --lp-mark:"القرآن"; }
+html[data-design="console"]:is([data-lp-page="hadith-kisa"],[data-lp-page="aune-sagesse"]){ --lp-mark:"الحديث"; }
+html[data-design="console"][data-lp-page="invocations"]{ --lp-mark:"الدعاء"; }
+html[data-design="console"]:is([data-lp-page="chiisme-repond"],[data-lp-page="article-connaissance"],[data-lp-page="usul-al-din"],[data-lp-page="tawheed"],[data-lp-page="nubuwwa"]){ --lp-mark:"التشيّع"; }
+html[data-design="console"]:is([data-lp-page="arbre-genealogique"],[data-lp-page="douze-imams"]){ --lp-mark:"أهل البيت"; }
+html[data-design="console"][data-lp-page="chronologie"]{ --lp-mark:"التاريخ"; }
+html[data-design="console"][data-lp-page="99-noms"]{ --lp-mark:"الأسماء الحسنى"; }
+html[data-design="console"][data-lp-page="resister"]{ --lp-mark:"عاشوراء"; }
+html[data-design="console"][data-lp-page="videos"]{ --lp-mark:"مرئيات"; }
+html[data-design="console"][data-lp-page="bibliotheque"]{ --lp-mark:"المكتبة"; }
+
+/* ── 2. Socle commun à toutes les pages ────────────────────────────── */
+/* Lecture accompagnée : trait de progression et lampes (voir lp-design.js) */
+html[data-design="console"] .lp-progress{
+  position:fixed; top:0; left:0; right:0; height:2px; z-index:2147483000; pointer-events:none;
+  transform-origin:0 50%; transform:scaleX(0); opacity:0; transition:opacity .4s var(--lp-ease);
+  background:linear-gradient(90deg,rgba(var(--lp-glow),.25),var(--lp-amber)); box-shadow:0 0 10px rgba(var(--lp-glow),.55);
+}
+html[data-design="console"] .lp-progress.is-on{ opacity:1; }
+html[data-design="console"] .lp-lamp{ transition:opacity .9s var(--lp-ease),filter .9s var(--lp-ease)!important; }
+html[data-design="console"] .lp-lamp-wait{ opacity:.6!important; filter:saturate(.65) brightness(.84)!important; }
+
+html[data-design="console"]{ background-color:var(--lp-void)!important; }
+html[data-design="console"] body{
+  background-color:var(--lp-void)!important;
+  color:var(--lp-ink)!important;
+  font-family:var(--lp-font)!important;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+/* Le ciel derrière les pages (lp-design.js) : la toile WebGL tient tout l'écran,
+   le fond du corps s'efface pour la laisser voir. Sans WebGL, le bandeau de brume reste. */
+html[data-design="console"].lp-sky-page #lp-sky{ position:fixed; inset:0; width:100%; height:100%; z-index:-1; display:block; pointer-events:none; }
+html[data-design="console"].lp-sky-on body{ background-color:transparent!important; background-image:none!important; }
+/* Le verre accroche la lumière (lp-design.js règle --lx/--ly près du curseur) : l'arête s'allume */
+html[data-design="console"] .lp-glass-rel{ position:relative; }
+html[data-design="console"] .lp-glass::after{
+  content:""; position:absolute; inset:-1px; z-index:1; border-radius:inherit; padding:1px; pointer-events:none;
+  background:radial-gradient(190px circle at var(--lx,-999px) var(--ly,-999px),rgba(var(--lp-glow),.9),rgba(var(--lp-glow),.28) 42%,transparent 72%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0); -webkit-mask-composite:xor;
+  mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+}
+/* Passage par la brume : le chapitre suivant se condense hors d'un voile */
+@keyframes lpMist{ from{ opacity:0; filter:blur(4px); transform:translateY(10px); } to{ opacity:1; filter:none; transform:none; } }
+html[data-design="console"] .lp-mist{ animation:lpMist .55s var(--lp-ease) both; }
+html[data-design="console"] ::selection{ background:rgba(var(--lp-glow),.32); color:var(--lp-ink); }
+html[data-design="console"] :focus-visible{ outline:2px solid var(--lp-amber)!important; outline-offset:3px!important; }
+html[data-design="console"] *{ scrollbar-width:thin; scrollbar-color:rgba(150,170,210,.3) transparent; }
+html[data-design="console"]::-webkit-scrollbar,
+html[data-design="console"] ::-webkit-scrollbar{ width:8px; height:8px; background:transparent; }
+html[data-design="console"] ::-webkit-scrollbar-track{ background:transparent!important; }
+html[data-design="console"] ::-webkit-scrollbar-thumb{ background:rgba(150,170,210,.28)!important; border-radius:8px!important; border:2px solid transparent; background-clip:padding-box; }
+html[data-design="console"] ::-webkit-scrollbar-thumb:hover{ background:rgba(var(--lp-glow),.55)!important; background-clip:padding-box; }
+html[data-design="console"] [lang="ar"]{ font-feature-settings:normal; }
+
+/* Brume et poussières de lumière en tête de page : le cadre appartient au
+   monde, la colonne de lecture reste sur un fond calme et opaque. */
+html[data-design="console"] .lp-fog,
+html[data-design="console"]:is([data-lp-page="article-connaissance"],[data-lp-page="usul-al-din"],[data-lp-page="tawheed"],[data-lp-page="nubuwwa"]) body{
+  background-image:var(--lp-motes),var(--lp-fog)!important;
+  background-repeat:no-repeat!important;
+  background-position:top center!important;
+  background-size:1400px 460px,auto,auto!important;
+}
+
+/* ── 3. Gabarit « article » ────────────────────────────────────────────
+   Connaissance, Usūl al-Dīn, Tawḥīd, Nubuwwa. Le cadre (en-tête, ouvertures
+   de section, encadrés) prend le verre et la lumière ; le texte reste calme. */
+html[data-design="console"]:is([data-lp-page="article-connaissance"],[data-lp-page="usul-al-din"],[data-lp-page="tawheed"],[data-lp-page="nubuwwa"]) body::before{ display:none!important; }
+
+/* En-tête : un point de lumière, le titre fin, la ligne de lumière */
+html[data-design="console"]:is([data-lp-page="article-connaissance"],[data-lp-page="usul-al-din"],[data-lp-page="tawheed"],[data-lp-page="nubuwwa"]) .wrap:has(> .hero){ max-width:720px; padding-top:clamp(48px,9vw,96px); }
+html[data-design="console"] .wrap > .hero{ display:flex; flex-direction:column; align-items:center; text-align:center; margin-bottom:56px; }
+/* Tout autre enfant de l'en-tête passe après le titre (les règles ci-dessous fixent l'ordre connu). */
+html[data-design="console"] .wrap > .hero > *{ order:2; }
+html[data-design="console"] .hero > .hero-ornament{ order:0; margin-bottom:26px!important; }
+html[data-design="console"] .hero .orn-line{ display:none!important; }
+/* La dalle de la rubrique : verre éclairé de l'intérieur, mot arabe allumé */
+html[data-design="console"] .hero .orn-gem{
+  width:auto!important; height:auto!important; min-width:64px; padding:8px 16px 10px!important; border-radius:16px!important; transform:none!important;
+  display:inline-grid!important; place-items:center;
+  background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass)!important;
+  border:1px solid rgba(var(--lp-glow),.6)!important;
+  box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62)!important;
+}
+html[data-design="console"] .hero .orn-gem::before{ content:var(--lp-mark); font-family:var(--lp-ar); font-size:22px; line-height:1.3; color:var(--lp-amber-hi); }
+html[data-design="console"] .hero .orn-gem{ -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
+html[data-design="console"] .hero > .hero-title{ order:1; font-family:var(--lp-font)!important; font-weight:250!important; font-size:clamp(2rem,5.4vw,3.3rem)!important; line-height:1.08!important; letter-spacing:-.022em!important; color:var(--lp-ink)!important; text-wrap:balance; margin:0!important; }
+html[data-design="console"] .hero > .hero-title span{ color:inherit!important; font-weight:inherit!important; }
+html[data-design="console"] .hero > .hero-title small{ display:block; margin-top:.5em; font-size:.42em!important; font-weight:300!important; color:var(--lp-ink-2)!important; }
+html[data-design="console"] .hero > .hero-subtitle{ order:2; font-family:var(--lp-font)!important; font-style:normal!important; font-weight:300!important; font-size:1.06rem!important; line-height:1.6!important; color:var(--lp-ink-2)!important; margin:16px 0 0!important; }
+html[data-design="console"] .hero > .hero-divider{ order:3; width:180px!important; height:1px!important; margin:28px auto 0!important; background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)!important; }
+/* L'ancienne étiquette au-dessus du titre devient une ligne de contexte dessous. */
+html[data-design="console"] .hero > .hero-label{ order:4; font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:300!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; opacity:1!important; margin:18px 0 0!important; }
+
+/* Panneaux de verre : sommaire, sources, synthèses */
+html[data-design="console"] .wrap .toc,
+html[data-design="console"] .wrap .sources,
+html[data-design="console"] .wrap .synthesis-item{
+  background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:18px!important;
+  box-shadow:var(--lp-panel-shadow)!important; backdrop-filter:none!important;
+}
+html[data-design="console"] .wrap .toc{ padding:24px 26px!important; }
+html[data-design="console"] .wrap :is(.toc-title,.sources-title){ font-family:var(--lp-font)!important; font-size:1rem!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink)!important; opacity:1!important; margin-bottom:14px!important; }
+html[data-design="console"] .wrap .toc-part{ font-family:var(--lp-font)!important; font-size:.86rem!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-amber)!important; margin:18px 0 6px!important; }
+html[data-design="console"] .wrap .toc-num{ font-family:var(--lp-font)!important; font-size:.8rem!important; font-weight:400!important; color:var(--lp-amber)!important; opacity:1!important; min-width:2.6em!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .wrap .toc-link{ font-family:var(--lp-font)!important; font-size:.98rem!important; font-weight:300!important; color:var(--lp-ink-2)!important; }
+html[data-design="console"] .wrap .toc-item:hover{ background:rgba(var(--lp-glow),.08)!important; }
+html[data-design="console"] .wrap .toc-item:hover .toc-link{ color:var(--lp-ink)!important; }
+html[data-design="console"] .wrap .source-item{ font-family:var(--lp-font)!important; font-size:.9rem!important; font-weight:300!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] .wrap .source-item::before{ color:var(--lp-amber)!important; opacity:1!important; }
+html[data-design="console"] .wrap .synthesis-item{ color:var(--lp-ink-2)!important; }
+html[data-design="console"] .wrap .synthesis-item strong{ color:var(--lp-ink)!important; font-weight:500!important; }
+
+/* Ouvertures de partie et de section : une tuile de verre éclairée */
+html[data-design="console"] .wrap .part-header{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:center; gap:6px 14px; margin:72px 0 44px!important; }
+html[data-design="console"] .wrap .part-label{ font-family:var(--lp-font)!important; font-size:.95rem!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-amber)!important; opacity:1!important; margin:0!important; }
+html[data-design="console"] .wrap .part-title{ font-family:var(--lp-font)!important; font-size:clamp(1.5rem,3.4vw,2.1rem)!important; font-weight:250!important; letter-spacing:-.015em!important; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .wrap .section-header{ gap:14px!important; margin-bottom:22px!important; }
+html[data-design="console"] .wrap .section-num{
+  font-family:var(--lp-font)!important; font-size:.82rem!important; font-weight:400!important; line-height:1!important; letter-spacing:0!important;
+  color:var(--lp-amber)!important; padding:8px 11px!important; min-width:36px; text-align:center; border-radius:10px!important;
+  background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill)!important;
+  border:1px solid var(--lp-lamp-line)!important; box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo)!important;
+}
+html[data-design="console"] .wrap .section-title{ font-family:var(--lp-font)!important; font-size:clamp(1.3rem,2.6vw,1.62rem)!important; font-weight:300!important; line-height:1.25!important; letter-spacing:-.01em!important; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .wrap .section-line{ background:linear-gradient(to right,var(--lp-lamp-line),transparent)!important; }
+html[data-design="console"] .wrap .section-divider .sdiv-line{ background:linear-gradient(to right,transparent,var(--lp-hairline),transparent)!important; }
+html[data-design="console"] .wrap .section-divider .sdiv-gem{ width:4px!important; height:4px!important; border-radius:50%!important; transform:none!important; background:var(--lp-amber)!important; box-shadow:0 0 10px rgba(var(--lp-glow),.55)!important; }
+
+/* Colonne de lecture : calme, contrastée, alignée à gauche */
+html[data-design="console"] .wrap .body-text{ font-family:var(--lp-font)!important; font-size:1.075rem!important; font-weight:var(--lp-body-w)!important; line-height:1.78!important; color:var(--lp-read)!important; text-align:left!important; -webkit-hyphens:auto; hyphens:auto; }
+html[data-design="console"] .wrap .body-text strong{ color:var(--lp-ink)!important; font-weight:500!important; }
+html[data-design="console"] .wrap .body-text em{ color:inherit!important; }
+html[data-design="console"] .wrap :is(.synthesis-item,.concept-item,.pillar-text,.hadith-text,.quran-fr,.source-item) em{ color:inherit!important; }
+html[data-design="console"] .wrap .concept-item{ font-family:var(--lp-font)!important; font-size:1.02rem!important; font-weight:var(--lp-body-w)!important; color:var(--lp-read)!important; }
+html[data-design="console"] .wrap .concept-item strong{ color:var(--lp-ink)!important; font-weight:500!important; }
+html[data-design="console"] .wrap .concept-bullet{ width:6px!important; height:6px!important; border-radius:50%!important; transform:none!important; background:var(--lp-amber)!important; box-shadow:0 0 10px rgba(var(--lp-glow),.55)!important; margin-top:.66em!important; }
+
+/* Hadith : verre éclairé depuis le coin, texte droit et lisible */
+html[data-design="console"] .wrap :is(.hadith,.pillar-box){
+  background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:18px!important;
+  box-shadow:var(--lp-panel-shadow)!important; padding:20px 24px!important;
+}
+html[data-design="console"] .wrap :is(.hadith,.pillar-box)::before{ display:block!important; content:''!important; background:radial-gradient(80% 70% at 0% 0%,var(--lp-lamp),transparent 62%)!important; }
+html[data-design="console"] .wrap :is(.hadith-text,.pillar-text){ position:relative; font-family:var(--lp-font)!important; font-style:normal!important; font-size:1.05rem!important; font-weight:var(--lp-body-w)!important; line-height:1.75!important; color:var(--lp-ink)!important; text-align:left!important; }
+html[data-design="console"] .wrap :is(.hadith-source){ position:relative; font-family:var(--lp-font)!important; font-size:.86rem!important; font-weight:300!important; letter-spacing:0!important; color:var(--lp-ink-3)!important; opacity:1!important; margin-top:12px!important; }
+html[data-design="console"] .wrap .pillar-name{ position:relative; font-family:var(--lp-font)!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-amber)!important; }
+
+/* Verset : la lampe — verre éclairé de l'intérieur */
+html[data-design="console"] .wrap .quran{
+  background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;
+  border:1px solid var(--lp-lamp-line)!important; border-radius:18px!important; padding:22px 26px!important;
+  box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important;
+}
+html[data-design="console"] .wrap .quran-fr{ font-family:var(--lp-font)!important; font-style:normal!important; font-size:1.06rem!important; font-weight:var(--lp-body-w)!important; line-height:1.7!important; color:var(--lp-ink)!important; text-wrap:pretty; }
+html[data-design="console"] .wrap .quran-ref{ font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:400!important; letter-spacing:0!important; color:var(--lp-amber)!important; opacity:1!important; }
+
+/* Tableau des Imams */
+html[data-design="console"] .wrap .imam-table th{ font-family:var(--lp-font)!important; font-size:.8rem!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink)!important; border-bottom:1px solid var(--lp-lamp-line)!important; }
+html[data-design="console"] .wrap .imam-table td{ font-family:var(--lp-font)!important; font-weight:var(--lp-body-w)!important; color:var(--lp-read)!important; border-bottom:1px solid var(--lp-hairline)!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .wrap .imam-table tr:hover td{ background:rgba(var(--lp-glow),.06)!important; }
+html[data-design="console"] .wrap .imam-num{ font-family:var(--lp-font)!important; color:var(--lp-amber)!important; font-weight:400!important; }
+
+/* Bouton « haut de page » */
+html[data-design="console"] .scroll-top-btn{ background:var(--lp-glass-solid)!important; border:1px solid var(--lp-edge)!important; color:var(--lp-amber)!important; box-shadow:var(--lp-panel-shadow)!important; backdrop-filter:none!important; }
+html[data-design="console"] .scroll-top-btn:hover{ border-color:var(--lp-lamp-line)!important; box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important; transform:translateY(-2px); }

@@ -187,8 +187,11 @@ body:not(.show-ar):not(.show-fr) .bismillah { display: none !important; }
   .hdr{padding:10px 12px;gap:8px}
   .hdr-title{font-size:15px}
   .sel{font-size:13px;max-width:200px}
+  /* Réglages d'affichage : passent à la ligne au lieu d'élargir la page au-delà de l'écran */
+  .font-ctrl{flex-wrap:wrap;row-gap:6px}
+  .font-ctrl .fc-select{max-width:190px}
   .surah-list{padding:20px 14px 80px}
-  .surah-grid{grid-template-columns:1fr}
+  .surah-grid{grid-template-columns:minmax(0,1fr)} /* minmax : un nom long ne force plus la colonne au-delà de l'écran (il s'abrège) */
   .surah-view{padding:20px 14px 80px}
   .verse{padding:12px 14px}
   .surah-player-content{padding:8px 12px;gap:8px}
@@ -274,8 +277,247 @@ body:not(.show-ar):not(.show-fr) .bismillah { display: none !important; }
 .pdf-card{border-radius:18px!important}
 .pdf-card-icon{border-radius:14px!important}
 </style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — coran-lecture */
+/* Jetons de la page : bouton éclairé, tuile de numéro */
+html[data-design="console"]{
+  --cl-lit:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.24),transparent 70%),rgba(var(--lp-glow),.06);
+  --cl-lit-glow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55);
+  --cl-lit-glow-hi:inset 0 1px 0 rgba(255,255,255,.12),0 0 34px -4px rgba(var(--lp-glow),.72);
+  --cl-tile:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill);
+  --cl-tile-glow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo);
+}
+html[data-design="console"][data-lp-theme="light"]{
+  --cl-lit-glow:inset 0 1px 0 rgba(255,255,255,.7),0 6px 18px -8px rgba(160,100,20,.45);
+  --cl-lit-glow-hi:inset 0 1px 0 rgba(255,255,255,.8),0 10px 26px -8px rgba(160,100,20,.55);
+  --cl-tile-glow:inset 0 1px 0 rgba(255,255,255,.85),var(--lp-halo);
+}
+
+/* Sol : nuit calme, brume en tête ; l'ancien motif s'efface */
+html[data-design="console"] body::before{display:none!important}
+html[data-design="console"] body{background-image:var(--lp-motes),var(--lp-fog)!important;background-repeat:no-repeat!important;background-position:top center!important;background-size:1400px 460px,auto,auto!important}
+
+/* Barre : verre sombre, filet de lumière ; le titre « Le Coran » en texte simple */
+html[data-design="console"] .hdr{min-height:58px;gap:10px 16px!important;padding:calc(10px + env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) 10px max(20px,env(safe-area-inset-left))!important;background:var(--lp-bar-bg)!important;-webkit-backdrop-filter:blur(18px) saturate(140%)!important;backdrop-filter:blur(18px) saturate(140%)!important;border-bottom:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .hdr-title{padding:5px 10px;margin-left:-10px;border-radius:12px;font-family:var(--lp-font)!important;font-size:18px!important;font-weight:300!important;line-height:1.25!important;letter-spacing:-.005em;color:var(--lp-ink)!important;transition:background-color .3s var(--lp-ease),color .3s var(--lp-ease)}
+/* Le ﷽ calligraphié (lu comme un logo doré) se retire : lettrine flottante sans corps,
+   l'espace qui la suit tombe en début de ligne et disparaît ; le texte reste lu tel quel */
+html[data-design="console"] .hdr-title::first-letter{float:left;font-size:0;color:transparent}
+html[data-design="console"] .hdr-title:hover{opacity:1!important;background:var(--lp-fill)}
+html[data-design="console"] .sel-wrap{gap:8px!important}
+
+/* Commandes : champs de verre, texte net ; l'action principale éclairée */
+html[data-design="console"] .sel,
+html[data-design="console"] .list-reciter select{height:38px;padding:0 12px!important;background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;border-radius:12px!important;color:var(--lp-ink)!important;font-family:var(--lp-font)!important;font-size:14.5px!important;font-weight:400!important;line-height:1.2!important;caret-color:var(--lp-amber);transition:border-color .3s var(--lp-ease),background-color .3s var(--lp-ease)}
+html[data-design="console"] .sel:hover,
+html[data-design="console"] .list-reciter select:hover{border-color:var(--lp-lamp-line)!important}
+html[data-design="console"] .sel:focus,
+html[data-design="console"] .list-reciter select:focus{border-color:rgba(var(--lp-glow),.5)!important;background:var(--lp-fill-2)!important}
+html[data-design="console"] .sel option,
+html[data-design="console"] .list-reciter select option,
+html[data-design="console"] .font-ctrl .fc-select option{background:var(--lp-glass-solid)!important;color:var(--lp-ink)!important}
+html[data-design="console"] .verse-jump{width:88px!important;text-align:center}
+html[data-design="console"] .verse-jump::placeholder{color:var(--lp-ink-3);opacity:1}
+html[data-design="console"] .btn-go,
+html[data-design="console"] .pdf-card-dl{display:inline-flex;align-items:center;justify-content:center;gap:9px;height:38px;padding:0 18px!important;border-radius:999px!important;font-family:var(--lp-font)!important;font-size:14.5px!important;font-weight:400!important;letter-spacing:0!important;color:var(--lp-amber)!important;background:var(--cl-lit)!important;border:1px solid rgba(var(--lp-glow),.55)!important;box-shadow:var(--cl-lit-glow)!important;transition:box-shadow .4s var(--lp-ease),transform .35s var(--lp-ease)!important}
+html[data-design="console"] .btn-go:hover,
+html[data-design="console"] .pdf-card-dl:hover{background:var(--cl-lit)!important;border-color:rgba(var(--lp-glow),.7)!important;box-shadow:var(--cl-lit-glow-hi)!important;transform:none!important}
+
+/* Affichage : arabe / français, police, tailles — puces de verre */
+html[data-design="console"] .font-ctrl{gap:6px!important}
+html[data-design="console"] .font-ctrl .fc-toggles{font-family:var(--lp-font);font-size:13.5px!important;font-weight:300;color:var(--lp-ink-2)!important;opacity:1!important;gap:14px!important;padding:0 4px}
+html[data-design="console"] .font-ctrl .fc-toggles label{gap:6px!important}
+html[data-design="console"] .font-ctrl .fc-toggles input{width:15px;height:15px;margin:0;accent-color:var(--lp-amber)}
+html[data-design="console"] .font-ctrl .fc-grp{height:36px;padding:0 4px!important;gap:2px!important;background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important}
+html[data-design="console"] .font-ctrl .fc-label{display:grid;place-items:center;height:28px;padding:2px 4px 0!important;font-family:var(--lp-font);font-size:12px!important;font-weight:400;line-height:1!important;color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .font-ctrl .fc-label.ar-label{padding:0 4px 3px!important;font-family:var(--ar-font),serif!important;font-size:17px!important}
+html[data-design="console"] .font-ctrl .fc-btn{display:grid;place-items:center;width:28px;height:28px;padding:0!important;border-radius:50%!important;font-family:var(--lp-font)!important;font-size:17px!important;font-weight:300;color:var(--lp-ink-2)!important;transition:background-color .25s,color .25s,transform .28s var(--lp-ease)!important}
+html[data-design="console"] .font-ctrl .fc-btn:hover{background:var(--lp-fill-2)!important;color:var(--lp-ink)!important}
+html[data-design="console"] .font-ctrl .fc-btn:active{background:rgba(var(--lp-glow),.16)!important;color:var(--lp-amber)!important}
+html[data-design="console"] .font-ctrl .fc-select{max-width:220px;padding:0 6px!important;font-family:var(--lp-font)!important;font-size:13px!important;font-weight:400;color:var(--lp-ink-2)!important}
+
+/* Accueil : la dalle de la rubrique, le titre fin d'un seul ton, la recherche de verre */
+html[data-design="console"] .surah-list{padding-top:clamp(40px,7vw,80px)!important}
+html[data-design="console"] .list-header{margin-bottom:34px!important}
+/* La dalle : verre éclairé de l'intérieur, mot arabe allumé (--lp-mark, console.css) ;
+   le verre floute ce qu'il couvre : aucune poussière de lumière ne se pose près du mot */
+html[data-design="console"] .list-ornament{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:grid!important;place-items:center;width:fit-content!important;height:auto!important;min-width:64px;padding:8px 16px 10px!important;margin:0 auto 26px!important;border-radius:16px!important;transform:none!important;background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass)!important;border:1px solid rgba(var(--lp-glow),.6)!important;box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62)!important}
+html[data-design="console"] .list-ornament::before{content:var(--lp-mark);font-family:var(--lp-ar);font-size:22px;line-height:1.3;color:var(--lp-amber-hi)}
+html[data-design="console"] .list-title{margin-bottom:14px!important;font-family:var(--lp-font)!important;font-size:clamp(2.2rem,5.6vw,3.4rem)!important;font-weight:250!important;line-height:1.06!important;letter-spacing:-.022em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .list-title span{color:inherit!important;font-weight:inherit!important}
+html[data-design="console"] .list-sub{margin-bottom:28px!important;font-size:1.04rem!important;font-weight:300!important;line-height:1.6!important;color:var(--lp-ink-2)!important;text-wrap:balance}
+html[data-design="console"] .list-search{max-width:560px!important;height:54px;padding:0 18px!important;gap:12px!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:16px!important;box-shadow:var(--lp-panel-shadow);transition:border-color .35s,box-shadow .35s!important}
+html[data-design="console"] .list-search:hover{border-color:var(--lp-lamp-line)!important}
+html[data-design="console"] .list-search:focus-within{border-color:rgba(var(--lp-glow),.5)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)}
+html[data-design="console"] .list-search svg{width:20px!important;height:20px!important;color:var(--lp-amber)!important}
+html[data-design="console"] .list-search input{min-width:0;font-family:var(--lp-font)!important;font-size:16px!important;font-weight:300;color:var(--lp-ink)!important;caret-color:var(--lp-amber);text-overflow:ellipsis}
+html[data-design="console"] .list-search input::placeholder{color:var(--lp-ink-3)!important;opacity:1;text-overflow:ellipsis}
+html[data-design="console"] .list-reciter{gap:12px!important;margin-top:18px!important}
+html[data-design="console"] .list-reciter label{font-family:var(--lp-font)!important;font-size:.92rem!important;font-weight:300!important;letter-spacing:0!important;color:var(--lp-ink-3)!important}
+
+/* Le Coran en PDF : une dalle de verre, son icône éclairée */
+html[data-design="console"] .pdf-card{max-width:720px!important;margin:28px auto 40px!important;padding:26px 28px 24px!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)!important}
+html[data-design="console"] .pdf-card-head{gap:16px!important}
+html[data-design="console"] .pdf-card-icon{background:var(--cl-tile)!important;border:1px solid var(--lp-lamp-line)!important;box-shadow:var(--cl-tile-glow)!important}
+html[data-design="console"] .pdf-card-icon svg{width:24px!important;height:24px!important;color:var(--lp-amber)!important}
+html[data-design="console"] .pdf-card-title{font-family:var(--lp-font)!important;font-size:1.14rem!important;font-weight:400!important;line-height:1.3!important;letter-spacing:-.005em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .pdf-card-subtitle{margin-top:4px!important;font-size:.86rem!important;font-weight:300!important;color:var(--lp-ink-3)!important}
+html[data-design="console"] .pdf-card-text{margin-bottom:22px!important;font-size:1rem!important;font-weight:var(--lp-body-w)!important;line-height:1.72!important;color:var(--lp-read)!important;text-align:left!important;-webkit-hyphens:auto;hyphens:auto}
+html[data-design="console"] .pdf-card-dl{height:44px;padding:0 20px 0 16px!important}
+html[data-design="console"] .pdf-card-dl svg{width:17px!important;height:17px!important}
+
+/* Les 114 sourates : dalles de verre, numéro éclairé ; au survol, la lumière monte */
+html[data-design="console"] .surah-grid{gap:10px!important;margin-top:28px!important}
+html[data-design="console"] .surah-card{gap:14px!important;padding:14px 16px!important;background:var(--lp-fill)!important;border:1px solid var(--lp-hairline)!important;border-radius:16px!important;transition:background-color .35s var(--lp-ease),border-color .35s var(--lp-ease),box-shadow .35s var(--lp-ease),transform .4s var(--lp-ease)!important}
+html[data-design="console"] .surah-card:hover{background:radial-gradient(120% 150% at 0% 100%,rgba(var(--lp-glow),.16),transparent 70%),var(--lp-fill)!important;border-color:rgba(var(--lp-glow),.48)!important;box-shadow:0 0 30px -10px rgba(var(--lp-glow),.55)!important}
+/* Clair : verre givré blanc plutôt qu'un voile gris */
+html[data-design="console"][data-lp-theme="light"] .surah-card{background:var(--lp-glass)!important;border-color:var(--lp-edge)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 12px 26px -20px rgba(20,32,60,.35)!important}
+html[data-design="console"][data-lp-theme="light"] .surah-card:hover{background:radial-gradient(120% 150% at 0% 100%,rgba(var(--lp-glow),.16),transparent 70%),var(--lp-glass)!important;border-color:rgba(var(--lp-glow),.48)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 0 30px -10px rgba(var(--lp-glow),.55)!important}
+html[data-design="console"] .surah-num,
+html[data-design="console"] .verse-num{font-family:var(--lp-font)!important;font-weight:400!important;letter-spacing:0!important;font-variant-numeric:tabular-nums;color:var(--lp-amber)!important;background:var(--cl-tile)!important;border:1px solid var(--lp-lamp-line)!important;box-shadow:var(--cl-tile-glow)!important}
+html[data-design="console"][data-lp-theme="light"] :is(.surah-num,.verse-num){color:var(--lp-amber-hi)!important}
+html[data-design="console"] .surah-num{min-width:42px!important;height:42px!important;font-size:.92rem!important;border-radius:12px!important}
+html[data-design="console"] .surah-name-fr{font-family:var(--lp-font)!important;font-size:16px!important;font-weight:400!important;line-height:1.35!important;color:var(--lp-ink)!important}
+html[data-design="console"] .surah-name-ar{font-family:var(--lp-font)!important;font-size:14px!important;font-weight:300!important;line-height:1.45!important;color:var(--lp-ink-2)!important;opacity:1!important}
+html[data-design="console"] .surah-detail{margin-top:1px!important;font-size:13px!important;font-weight:300!important;line-height:1.45!important;color:var(--lp-ink-3)!important}
+html[data-design="console"] .surah-arrow{font-family:var(--lp-font);font-size:20px!important;font-weight:300;color:var(--lp-ink-3)!important;opacity:1!important;transition:color .3s,transform .45s var(--lp-ease)}
+html[data-design="console"] .surah-card:hover .surah-arrow{color:var(--lp-amber)!important;transform:translateX(2px)}
+
+/* Lecture : une colonne calme, à mesure réelle */
+html[data-design="console"] .surah-view{max-width:920px!important}
+/* En-tête de sourate : nom fin, translittération d'un seul ton, contexte dessous (pas de dalle : une seule, à l'accueil) */
+html[data-design="console"] .surah-header{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;column-gap:.34em;margin-bottom:34px!important;padding:clamp(20px,4.4vw,44px) 0 0!important;border-bottom:0!important}
+html[data-design="console"] .surah-header .s-name{order:1;flex:0 0 100%;margin-bottom:8px!important;font-family:var(--lp-font)!important;font-size:clamp(2rem,5.2vw,3rem)!important;font-weight:250!important;line-height:1.1!important;letter-spacing:-.022em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .surah-header .s-name-ar{order:2;flex:0 0 100%;margin-bottom:14px!important;font-family:var(--lp-font)!important;font-size:1.12rem!important;font-weight:300!important;line-height:1.4!important;color:var(--lp-ink-2)!important;opacity:1!important}
+html[data-design="console"] .surah-header .s-meta{order:3;font-size:.9rem!important;font-weight:300!important;color:var(--lp-ink-3)!important}
+html[data-design="console"] .surah-header .s-num{order:4;margin:0!important;font-family:var(--lp-font)!important;font-size:.9rem!important;font-weight:300!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .surah-header .s-num::before{content:'·';margin-right:.34em}
+html[data-design="console"] .surah-header::after{content:'';order:5;flex:0 0 180px;height:1px;margin:28px calc(50% - 90px) 0;background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)}
+
+/* Basmala : une dalle de verre calme */
+html[data-design="console"] .bismillah{margin-bottom:26px!important;padding:22px 24px 12px!important;font-family:var(--lp-font)!important;font-style:normal!important;font-size:1rem!important;color:var(--lp-ink-2)!important;opacity:1!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow)!important}
+html[data-design="console"] .bismillah-ar{margin-bottom:6px!important;line-height:2!important;color:var(--lp-ink)!important}
+html[data-design="console"] .bismillah-fr{font-size:calc(var(--fr-size,1.65rem) * .56)!important;font-weight:300;line-height:1.6;color:var(--lp-ink-2)!important;text-wrap:balance}
+
+/* Versets : l'arabe sacré large et aéré, le français calme, le numéro éclairé */
+html[data-design="console"] .verse{margin-bottom:10px!important;padding:18px 22px!important;border:1px solid transparent;border-radius:18px!important;color:var(--lp-read)!important;line-height:1.75!important;scroll-margin-top:120px;transition:background-color .35s var(--lp-ease),border-color .35s var(--lp-ease),box-shadow .35s var(--lp-ease)!important}
+html[data-design="console"] .verse:hover{background:var(--lp-fill)!important}
+html[data-design="console"] .verse-ar{margin-bottom:14px!important;padding:4px 0 12px!important;line-height:2.15!important;color:var(--lp-ink)!important;border-bottom:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .verse-ar > span[style]{color:var(--lp-amber)!important;opacity:.85!important}
+html[data-design="console"] .verse-num{min-width:32px!important;height:28px!important;padding:0 7px;margin-right:12px!important;border-radius:9px!important;font-size:.78rem!important;line-height:1!important}
+html[data-design="console"] .verse-text{font-family:var(--lp-font)!important;font-size:calc(var(--fr-size,1.65rem) * .64)!important;font-weight:var(--lp-body-w)!important;line-height:1.75!important;color:var(--lp-read)!important;-webkit-hyphens:auto;hyphens:auto}
+
+/* Le verset visé (lien profond, « Aller ») et le verset récité : la lampe */
+html[data-design="console"] .verse:target,
+html[data-design="console"] .verse.highlight,
+html[data-design="console"] .verse.sp-active{padding-left:22px!important;background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;border:1px solid var(--lp-lamp-line)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important}
+html[data-design="console"] :is(.verse:target,.verse.highlight,.verse.sp-active) .verse-ar{border-bottom-color:var(--lp-lamp-line)!important}
+html[data-design="console"] :is(.verse:target,.verse.highlight,.verse.sp-active) .verse-num{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 20px -4px rgba(var(--lp-glow),.6)!important}
+html[data-design="console"] :is(.verse:target,.verse.highlight,.verse.sp-active) .verse-text{color:var(--lp-ink)!important}
+
+/* Mots arabes : survol doux, mot choisi éclairé, mot récité en lumière */
+html[data-design="console"] .verse-ar .w{border-radius:6px}
+html[data-design="console"] .verse-ar .w:hover{background:rgba(var(--lp-glow),.08)!important}
+html[data-design="console"] .verse-ar .w.active{background:rgba(var(--lp-glow),.16)!important;color:var(--lp-amber)!important}
+html[data-design="console"] .verse-ar .w.playing{background:rgba(var(--lp-glow),.2)!important;color:var(--lp-amber-hi)!important;text-shadow:0 0 18px rgba(var(--lp-glow),.45)!important;box-shadow:0 0 0 1px rgba(var(--lp-glow),.5),0 0 18px -4px rgba(var(--lp-glow),.6)!important}
+html[data-design="console"][data-lp-theme="light"] .verse-ar .w.playing{text-shadow:none!important}
+/* Récitation lumineuse : pendant l'écoute, le mot dit s'allume ; les mots déjà dits gardent un peu de chaleur */
+html[data-design="console"] :is(.verse-ar,.bismillah-ar) .w:not(.playing){transition:background-color .15s,color .22s ease-out,text-shadow .35s ease-out}
+html[data-design="console"] :is(.verse-ar,.bismillah-ar) .w.was-said{color:color-mix(in srgb,var(--lp-ink) 74%,var(--lp-amber-hi))}
+html[data-design="console"] :is(.verse-ar,.bismillah-ar) .w.is-said{color:var(--lp-amber-hi);text-shadow:0 0 18px rgba(var(--lp-glow),.7)}
+html[data-design="console"][data-lp-theme="light"] :is(.verse-ar,.bismillah-ar) .w.is-said{text-shadow:0 0 14px rgba(var(--lp-glow),.45)}
+@media (prefers-reduced-motion:reduce){html[data-design="console"] :is(.verse-ar,.bismillah-ar) .w{transition:none!important}}
+
+/* Écoute d'un verset : boutons de verre, piste fine, temps discret */
+html[data-design="console"] .verse-audio{gap:8px!important;margin-top:12px!important;padding:10px 0 0!important;border-top:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .verse-audio .va-btn{width:30px!important;height:30px!important;color:var(--lp-ink-2)!important;background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)!important;transition:background-color .25s,border-color .25s,color .25s,box-shadow .3s!important}
+html[data-design="console"] .verse-audio .va-btn:hover{color:var(--lp-ink)!important;background:rgba(var(--lp-glow),.08)!important;border-color:rgba(var(--lp-glow),.32)!important;transform:none!important}
+/* En lecture, en boucle : allumé, sans pulsation */
+html[data-design="console"] .verse-audio .va-btn.playing,
+html[data-design="console"] .verse-audio .va-btn.va-repeat.active{animation:none!important;color:var(--lp-amber)!important;background:var(--cl-lit)!important;border-color:rgba(var(--lp-glow),.55)!important;box-shadow:var(--cl-lit-glow)!important}
+html[data-design="console"] .verse-audio .va-bar{height:3px!important;background:var(--lp-fill-2)!important;border-radius:3px!important}
+html[data-design="console"] .verse-audio .va-fill{background:var(--lp-amber)!important;border-radius:3px!important}
+html[data-design="console"] .verse-audio .va-time{font-family:var(--lp-font)!important;font-size:.74rem!important;font-weight:300!important;letter-spacing:0!important;color:var(--lp-ink-3)!important;font-variant-numeric:tabular-nums}
+
+/* Navigation entre sourates : boutons calmes */
+html[data-design="console"] .nav-btns{flex-wrap:wrap;gap:10px;margin-top:40px!important;padding:28px 0 8px!important;border-color:var(--lp-hairline)!important;border-top:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .nav-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:0 18px!important;border-radius:999px!important;font-family:var(--lp-font)!important;font-size:15px!important;font-weight:400!important;color:var(--lp-ink-2)!important;background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;transition:color .3s,background-color .3s,border-color .3s,transform .28s var(--lp-ease)!important}
+html[data-design="console"] .nav-btn:hover{color:var(--lp-ink)!important;background:rgba(var(--lp-glow),.08)!important;border-color:var(--lp-lamp-line)!important}
+html[data-design="console"] .nav-btn:disabled{opacity:.4!important}
+html[data-design="console"] .nav-btn:disabled:hover{color:var(--lp-ink-2)!important;background:var(--lp-fill)!important;border-color:var(--lp-edge)!important}
+
+/* Lecteur de sourate : barre de verre en bas, progression ambre */
+html[data-design="console"] .surah-player{padding-bottom:env(safe-area-inset-bottom)!important;background:var(--lp-bar-bg)!important;-webkit-backdrop-filter:blur(18px) saturate(140%)!important;backdrop-filter:blur(18px) saturate(140%)!important;border-top:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .surah-player-progress{height:3px!important;background:var(--lp-fill-2)!important}
+html[data-design="console"] .surah-player-progress-fill{background:var(--lp-amber)!important;box-shadow:0 0 10px rgba(var(--lp-glow),.55)}
+html[data-design="console"] .surah-player-content{gap:10px!important;padding:10px max(20px,env(safe-area-inset-right)) 10px max(20px,env(safe-area-inset-left))!important}
+html[data-design="console"] .sp-btn{color:var(--lp-ink-2)!important;background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)!important}
+html[data-design="console"] .sp-btn:hover{color:var(--lp-ink)!important;background:rgba(var(--lp-glow),.08)!important;border-color:rgba(var(--lp-glow),.32)!important;transform:none!important}
+html[data-design="console"] .sp-btn.sp-play{color:var(--lp-amber)!important;background:var(--cl-lit)!important;border-color:rgba(var(--lp-glow),.55)!important;box-shadow:var(--cl-lit-glow)!important}
+html[data-design="console"] .sp-btn.sp-play:hover{box-shadow:var(--cl-lit-glow-hi)!important}
+html[data-design="console"] .sp-title{font-family:var(--lp-font)!important;font-size:.92rem!important;font-weight:400!important;letter-spacing:0!important;color:var(--lp-ink)!important}
+html[data-design="console"] .sp-verse-label,
+html[data-design="console"] .sp-time{font-family:var(--lp-font)!important;font-size:.78rem!important;font-weight:300!important;letter-spacing:0!important;color:var(--lp-ink-3)!important;font-variant-numeric:tabular-nums}
+/* « Haut de page » se range dans la barre du lecteur, à droite */
+html[data-design="console"] .surah-player-content{padding-right:calc(max(20px,env(safe-area-inset-right)) + 54px)!important}
+html[data-design="console"] .surah-player.visible ~ .scroll-top-btn{right:max(20px,env(safe-area-inset-right))!important;bottom:calc(11px + env(safe-area-inset-bottom))!important;width:40px!important;height:40px!important}
+
+/* Bulle d'un mot : feuille de verre ; le mot, sa lecture, son sens */
+html[data-design="console"] #wtooltip{padding:14px 18px 12px!important;background:var(--lp-sheet-bg)!important;border:1px solid var(--lp-edge)!important;border-radius:16px!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 30px 70px -30px rgba(0,0,0,.85)!important;-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%)}
+html[data-design="console"][data-lp-theme="light"] #wtooltip{box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 26px 60px -28px rgba(20,32,60,.42)!important}
+html[data-design="console"] .wtt-arabic{font-size:1.7rem!important;line-height:1.7!important;color:var(--lp-ink)!important}
+html[data-design="console"] .wtt-trans{font-family:var(--lp-font)!important;font-style:normal!important;font-size:.84rem!important;font-weight:400!important;letter-spacing:0!important;color:var(--lp-amber)!important}
+html[data-design="console"] .wtt-en{font-family:var(--lp-font)!important;font-size:.95rem!important;font-weight:var(--lp-body-w)!important;line-height:1.5!important;color:var(--lp-ink)!important}
+html[data-design="console"] .wtt-loading{color:var(--lp-ink-3)!important}
+html[data-design="console"] .wtt-audio{color:var(--lp-amber)!important;background:var(--cl-lit)!important;border:1px solid rgba(var(--lp-glow),.55)!important;box-shadow:var(--cl-lit-glow)!important;transition:box-shadow .4s var(--lp-ease)!important}
+html[data-design="console"] .wtt-audio:hover,
+html[data-design="console"] .wtt-audio.playing{animation:none!important;box-shadow:var(--cl-lit-glow-hi)!important}
+
+/* iPhone : barre sur une ligne, commandes en bande défilante ;
+   pendant la lecture, le titre se fait plus petit */
+@media (max-width:600px){
+  html[data-design="console"] .hdr{flex-wrap:nowrap!important;gap:8px!important;min-height:54px;padding:calc(8px + env(safe-area-inset-top)) 12px 8px!important}
+  html[data-design="console"] .hdr-title{flex:none;font-size:17px!important}
+  html[data-design="console"] .hdr-title{padding:5px 8px!important;margin-left:-8px}
+  html[data-design="console"] .hdr:has(.sel-wrap.active) .hdr-title{padding:4px 8px!important;font-size:15px!important}
+  html[data-design="console"] .hdr-sep{display:none}
+  html[data-design="console"] .sel-wrap.active{flex:1 1 auto;min-width:0;flex-wrap:nowrap;gap:6px!important;margin-right:-12px;padding:2px 24px 2px 6px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8px,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,transparent,#000 8px,#000 calc(100% - 28px),transparent)}
+  html[data-design="console"] .sel-wrap.active::-webkit-scrollbar{display:none}
+  html[data-design="console"] .sel-wrap > *,
+  html[data-design="console"] .font-ctrl > *{flex:none}
+  html[data-design="console"] .font-ctrl{flex-wrap:nowrap}
+  /* 16 px : iOS ne zoome pas sur les champs */
+  html[data-design="console"] .sel,
+  html[data-design="console"] .list-reciter select,
+  html[data-design="console"] .font-ctrl .fc-select{font-size:16px!important}
+  html[data-design="console"] #surahSel{max-width:210px!important}
+  html[data-design="console"] .surah-list{padding:36px 14px 80px!important}
+  html[data-design="console"] .pdf-card{padding:22px 20px 20px!important}
+  html[data-design="console"] .surah-view{padding:16px 12px 96px!important}
+  html[data-design="console"] .verse,
+  html[data-design="console"] .verse:target,
+  html[data-design="console"] .verse.highlight,
+  html[data-design="console"] .verse.sp-active{padding:14px 14px!important}
+  html[data-design="console"] .bismillah{padding:18px 16px 10px!important}
+  html[data-design="console"] .nav-btns{flex-direction:column;align-items:stretch}
+  html[data-design="console"] .surah-player-content{gap:8px!important;padding:8px 58px 8px 12px!important}
+  html[data-design="console"] .sp-play{width:40px!important;height:40px!important}
+  html[data-design="console"] .sp-prev,
+  html[data-design="console"] .sp-next,
+  html[data-design="console"] .sp-stop{width:32px!important;height:32px!important}
+  html[data-design="console"] .sp-time{min-width:0!important}
+  html[data-design="console"] .surah-player.visible ~ .scroll-top-btn{right:12px!important;bottom:calc(10px + env(safe-area-inset-bottom))!important;width:36px!important;height:36px!important}
+}
+</style>
 </head>
 <body class="show-ar show-fr">
+<script>/* Lien profond (hub) : garder #2:153 avant que la page ne remette l'adresse à « # » */
+window.__lpDeep = location.hash;</script>
 <!-- Word tooltip -->
 <div id="wtooltip">
   <div class="wtt-arabic"></div>
@@ -496,6 +738,30 @@ function showList() {
   if (!_fromPop) try{history.pushState({page:'list'}, '', '#')}catch(e){};
 }
 
+/* Lien profond, « Aller » : le verset s'arrête sous l'en-tête collant (et au-dessus du lecteur),
+   centré s'il tient à l'écran, sinon par son haut. La position se calcule une fois les polices
+   chargées : avant, la mise en page bouge encore et le défilement manquait sa cible. */
+var _revealSeq = 0;
+function revealVerse(el) {
+  var seq = ++_revealSeq;
+  function go() {
+    if (seq !== _revealSeq || !el.isConnected) return; /* un autre verset a été demandé depuis */
+    var hdr = document.querySelector('.hdr'), sp = document.getElementById('surahPlayer');
+    var top = hdr ? hdr.getBoundingClientRect().bottom : 0;
+    var bottom = sp && sp.offsetHeight ? sp.getBoundingClientRect().top : window.innerHeight;
+    var r = el.getBoundingClientRect(), gap = 12, room = bottom - top - 2 * gap;
+    var y = window.pageYOffset + r.top - top - gap - (r.height < room ? (room - r.height) / 2 : 0);
+    window.scrollTo({ top: Math.max(0, Math.round(y)), behavior: 'smooth' });
+  }
+  el.getBoundingClientRect(); /* mise en page : les polices du verset commencent à se charger */
+  if (!document.fonts || !document.fonts.ready) { go(); return; }
+  var t = setTimeout(go, 1500); /* police lente : défiler quand même, puis recaler */
+  document.fonts.ready.then(function () { clearTimeout(t); go(); });
+  /* Police arrivée plus tard : la page bouge encore, recaler pendant quelques secondes */
+  document.fonts.addEventListener('loadingdone', go);
+  setTimeout(function () { document.fonts.removeEventListener('loadingdone', go); }, 4000);
+}
+
 function openSurah(num, scrollToVerse) {
   var s = Q.find(function(x){ return x.n === num; });
   if (!s) return;
@@ -580,12 +846,12 @@ function openSurah(num, scrollToVerse) {
   if (scrollToVerse) {
     var el = document.getElementById('v' + scrollToVerse);
     if (el) {
-      setTimeout(function(){ el.scrollIntoView({behavior:'smooth',block:'center'}); el.classList.add('highlight'); }, 100);
+      setTimeout(function(){ revealVerse(el); el.classList.add('highlight'); }, 100);
     } else {
       /* DOM pas encore prêt, réessayer après un délai plus long */
       setTimeout(function(){
         var el2 = document.getElementById('v' + scrollToVerse);
-        if (el2) { el2.scrollIntoView({behavior:'smooth',block:'center'}); el2.classList.add('highlight'); }
+        if (el2) { revealVerse(el2); el2.classList.add('highlight'); }
       }, 350);
     }
   } else {
@@ -618,7 +884,7 @@ document.getElementById('goBtn').addEventListener('click', function(){
   if (vn && view.style.display !== 'none' && parseInt(surahSel.value) === sn) {
     var el = document.getElementById('v' + vn);
     if (el) {
-      el.scrollIntoView({behavior:'smooth', block:'center'});
+      revealVerse(el);
       document.querySelectorAll('.verse.highlight').forEach(function(e){ e.classList.remove('highlight'); });
       el.classList.add('highlight');
       return;
@@ -759,6 +1025,7 @@ function toggleVerseAudio(id) {
       }
     });
     _vaPlayers[id] = au;
+    _rlBind(au, id); /* récitation lumineuse (console) */
   }
 
   au = _vaPlayers[id];
@@ -923,6 +1190,7 @@ function _spPlayVerse(idx) {
       }
     });
     _vaPlayers[audioId] = au;
+    _rlBind(au, audioId); /* récitation lumineuse (console) */
   }
 
   au = _vaPlayers[audioId];
@@ -1105,6 +1373,143 @@ document.getElementById('spPrev').addEventListener('click', _spPrev);
   }, {passive: false});
 })();
 
+/* ── RÉCITATION LUMINEUSE (design « Console ») ──
+   Pendant l'écoute d'un verset, ses mots s'allument au rythme du récitateur : le mot dit en ambre,
+   les mots déjà dits un peu plus chauds ; tout revient au repos à l'arrêt ou au verset suivant.
+   Minutage exact par mot de quran.com, seulement si le fichier everyayah joué est celui qu'il a
+   minuté : mêmes octets, ou (Husary 128k) même découpe que son 64k, à ~30 ms près. Autres
+   récitateurs, fichier de secours, découpage en mots différent : rien ne s'allume (pas d'estimation). */
+var _rlBind = (function () {
+  if (document.documentElement.getAttribute('data-design') !== 'console') return function () {};
+  /* Dossier everyayah → [récitation quran.com, dossier du fichier qu'elle minute] */
+  var REC = {
+    'Husary_128kbps': [6, 'Husary_64kbps/'],
+    'Husary_Muallim_128kbps': [12, 'Husary_Muallim_128kbps/'],
+    'Abdurrahmaan_As-Sudais_192kbps': [3, 'Sudais/mp3/'],
+    'Saood_ash-Shuraym_128kbps': [10, 'Shuraym/mp3/'],
+    'Abdul_Basit_Murattal_192kbps': [2, 'AbdulBaset/Murattal/mp3/'],
+    'Abdul_Basit_Mujawwad_128kbps': [1, 'AbdulBaset/Mujawwad/mp3/'],
+    'Hani_Rifai_192kbps': [5, 'Rifai/mp3/'],
+    'Minshawy_Murattal_128kbps': [9, 'Minshawi/Murattal/mp3/'],
+    'Minshawy_Mujawwad_192kbps': [8, 'Minshawi/Mujawwad/mp3/'],
+    'Abu_Bakr_Ash-Shaatree_128kbps': [4, 'Shatri/mp3/']
+  };
+  /* 'récitation:verset' → {n, segs} ; null : pas de minutage sûr ; false : échec réseau (réessai à la prochaine écoute) */
+  var times = {}, cur = null, raf = 0;
+
+  /* Segments quran.com : [premier mot − 1, dernier mot, début, fin] (ms ; mots comptés sans la marque de fin de verset) */
+  function parse(v, file) {
+    var a = v && v.audio, g = a && a.segments, n = 0, segs = [];
+    if (!g || !g.length || String(a.url || '').indexOf(file) < 0) return null; /* pas ce fichier-là */
+    (v.words || []).forEach(function (w) { if (w.char_type_name === 'word') n++; });
+    for (var i = 0; i < g.length; i++) {
+      if (!g[i] || g[i].length !== 4) return null;
+      var s = [+g[i][0] + 1, +g[i][1], +g[i][2], +g[i][3]];
+      if (!(s[0] >= 1 && s[1] >= s[0] && s[1] <= n)) return null; /* mots hors du verset : numérotation douteuse */
+      if (s[3] > s[2]) segs.push(s);                               /* durée nulle : ce mot ne s'allume pas */
+    }
+    segs.sort(function (x, y) { return x[2] - y[2]; });
+    return segs.length ? { n: n, segs: segs } : null;
+  }
+  /* Minutage d'un verset : chargé à sa première écoute, puis gardé */
+  function timing(c) {
+    var k = c.rec[0] + ':' + c.key;
+    if (!(k in times)) {
+      times[k] = undefined;
+      fetch('https://api.quran.com/api/v4/verses/by_key/' + c.key + '?words=true&audio=' + c.rec[0])
+        .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+        .then(function (d) { times[k] = parse(d && d.verse, c.rec[1] + c.file); })
+        .catch(function () { times[k] = false; });
+    }
+    return times[k];
+  }
+  /* Basmala d'en-tête : ses mots deviennent des <span class="w">, caractère pour caractère */
+  function wrap(el) {
+    var t = el.firstChild, f = document.createDocumentFragment();
+    if (!t || t !== el.lastChild || t.nodeType !== 3) return;
+    t.data.split(/(\s+)/).forEach(function (p) {
+      if (!p) return;
+      if (/^\s+$/.test(p)) { f.appendChild(document.createTextNode(p)); return; }
+      var w = document.createElement('span');
+      w.className = 'w'; w.textContent = p;
+      f.appendChild(w);
+    });
+    el.replaceChild(f, t);
+  }
+  /* Mots affichés du verset écouté */
+  function words(id) {
+    var el, m = /^audio-(\d+)-(\d+)$/.exec(id);
+    if (m) el = document.querySelector('.verse-ar[data-s="' + m[1] + '"][data-a="' + m[2] + '"]');
+    else if ((el = view.querySelector('.bismillah-ar')) && !el.querySelector('.w')) wrap(el);
+    return el ? el.querySelectorAll('.w') : [];
+  }
+  function paint(c, d) {
+    var sp = c.spans;
+    if (!sp || !sp.length || !sp[0].isConnected) sp = c.spans = words(c.id);
+    if (sp.length !== d.n) return; /* texte découpé autrement que chez quran.com : on n'allume pas */
+    var t = c.au.currentTime * 1000, from = 0, to = 0, said = 0;
+    for (var i = 0; i < d.segs.length; i++) {
+      var g = d.segs[i];
+      if (t < g[2]) break;
+      if (t < g[3]) { from = g[0]; to = g[1]; break; }
+      said = g[1];
+    }
+    if (from) said = from - 1;
+    var st = from + ':' + to + ':' + said;
+    if (st === c.st) return;
+    c.st = st;
+    for (var j = 0; j < sp.length; j++) {
+      var on = j + 1 >= from && j + 1 <= to;
+      sp[j].classList.toggle('is-said', on);
+      sp[j].classList.toggle('was-said', !on && j + 1 <= said);
+    }
+  }
+  function tick() {
+    raf = 0;
+    var c = cur;
+    if (!c || c.au.paused) return;
+    if (c.au.src !== c.src) { rest(); return; } /* fichier de secours pris en cours de route : plus minuté */
+    var d = timing(c);
+    if (d === null || d === false) return; /* pas de minutage : rien ne s'allume */
+    if (d) paint(c, d);
+    raf = requestAnimationFrame(tick);
+  }
+  function rest() {
+    cancelAnimationFrame(raf); raf = 0;
+    var c = cur; cur = null;
+    if (c && c.spans) for (var j = 0; j < c.spans.length; j++) c.spans[j].classList.remove('is-said', 'was-said');
+  }
+  function begin(au, id) {
+    rest();
+    var m = /everyayah\.com\/data\/([^\/]+)\/((\d{3})(\d{3})\.mp3)$/.exec(au.src), v = /^audio-(\d+)-(\d+)$/.exec(id);
+    var rec = m && REC[m[1]], key = m && +m[3] + ':' + +m[4];
+    if (!rec || key !== (v ? +v[1] + ':' + +v[2] : '1:1')) return; /* fichier non minuté, ou pas celui de ce verset */
+    if (times[rec[0] + ':' + key] === false) delete times[rec[0] + ':' + key];
+    cur = { au: au, id: id, src: au.src, rec: rec, file: m[2], key: key, spans: null, st: '' };
+    raf = requestAnimationFrame(tick);
+  }
+  return function (au, id) {
+    au.addEventListener('play', function () { begin(au, id); });
+    au.addEventListener('pause', function () { if (cur && cur.au === au) rest(); });
+    au.addEventListener('ended', function () { if (cur && cur.au === au) rest(); });
+  };
+})();
+
+</script>
+<script>
+/* Lien profond (hub) : #2:153 ou #2-153 ouvre la sourate et allume le verset */
+(function () {
+  function go(h) {
+    var m = /^#?(\d{1,3})[:\-](\d{1,3})$/.exec(h || '');
+    if (!m) return false;
+    var sn = +m[1], vn = +m[2];
+    if (sn < 1 || sn > 114) return false;
+    openSurah(sn, vn);
+    return true;
+  }
+  go(window.__lpDeep);
+  window.addEventListener('hashchange', function () { go(location.hash); });
+})();
 </script>
 <!-- Theme listener: receives theme from parent portal -->
 <script>
@@ -1120,7 +1525,7 @@ window.addEventListener('message', function(e) {
     try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
   if (e.data && e.data.type === 'gs-navigate' && e.data.state) {
-    var parts = e.data.state.split('-');
+    var parts = e.data.state.split(/[-:]/);
     var sn = parseInt(parts[0], 10);
     var vn = parts.length > 1 ? parseInt(parts[1], 10) : 1;
     if (typeof openSurah === 'function' && !isNaN(sn)) {

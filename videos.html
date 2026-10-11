@@ -72,6 +72,68 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .play-btn{transition:transform .2s var(--ios-ease),background .2s!important}
 .play-btn:hover{transform:translate(-50%,-50%)!important}
 .play-btn:active{transform:translate(-50%,-50%) scale(.92)!important}
+/* Clavier : la carte rogne l'anneau de la vignette (overflow:hidden) ; l'anneau passe sur la carte */
+.video-card:has(.video-thumb:focus-visible){outline:2px solid rgba(201,168,76,0.65);outline-offset:2px}
+.video-card:has(.video-thumb:focus-visible) .video-thumb{outline:none}
+/* role="button" : la vignette garde son allure (ios-theme.css donne police, transitions et enfoncement aux boutons) */
+.video-thumb[role="button"]{font-family:inherit;transition:none}
+.video-thumb[role="button"]:active{transform:none}
+</style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — videos */
+/* Fond : la nuit et sa brume ; l'ancien motif s'efface */
+html[data-design="console"] body::before{ display:none!important; }
+html[data-design="console"] body{ background-image:var(--lp-motes),var(--lp-fog)!important; background-repeat:no-repeat!important; background-position:top center!important; background-size:1400px 460px,auto,auto!important; }
+
+/* En-tête : dalle de la rubrique مرئيات et titre d'un seul ton (console.css), sous-titre dessous, contexte en bas */
+html[data-design="console"] .wrap:has(> .hero){ max-width:1120px!important; }
+html[data-design="console"] .hero > .hero-sub{ order:2; max-width:600px; margin:16px auto 0!important; font-family:var(--lp-font)!important; font-size:1.02rem!important; font-weight:300!important; line-height:1.6!important; color:var(--lp-ink-2)!important; text-wrap:balance; }
+
+/* Cartes : une dalle de verre qui sertit l'écran */
+html[data-design="console"] .grid{ gap:18px!important; }
+html[data-design="console"] .video-card{
+  padding:9px!important; background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:20px!important;
+  box-shadow:var(--lp-panel-shadow)!important; transition:border-color .5s var(--lp-ease),box-shadow .5s var(--lp-ease)!important;
+}
+html[data-design="console"] .video-card:hover{ border-color:rgba(var(--lp-glow),.42)!important; box-shadow:var(--lp-panel-shadow),0 0 36px -12px rgba(var(--lp-glow),.5)!important; }
+/* L'écran : vignette ou lecteur, bordé d'un fil de verre */
+html[data-design="console"] .video-thumb,
+html[data-design="console"] .video-embed{ border-radius:12px; overflow:hidden; isolation:isolate; }
+html[data-design="console"] .video-thumb{ background:var(--lp-void-2)!important; }
+html[data-design="console"] .video-thumb::after{ content:''; position:absolute; inset:0; z-index:1; border-radius:inherit; pointer-events:none; box-shadow:inset 0 0 0 1px var(--lp-edge),inset 0 1px 0 rgba(255,255,255,.08); }
+html[data-design="console"] .video-thumb img{ transition:transform .7s var(--lp-ease),opacity .4s var(--lp-ease)!important; }
+html[data-design="console"] .video-card:hover .video-thumb img{ opacity:.92!important; }
+/* Lecture : un disque de verre éclairé d'ambre */
+html[data-design="console"] .play-btn{
+  width:58px!important; height:58px!important; z-index:2!important;
+  background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.30),transparent 70%),rgba(5,8,16,.58)!important;
+  border:1px solid rgba(var(--lp-glow),.6);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 0 22px -6px rgba(var(--lp-glow),.55),0 12px 28px -12px rgba(0,0,0,.7)!important;
+  -webkit-backdrop-filter:blur(10px) saturate(140%); backdrop-filter:blur(10px) saturate(140%);
+  transition:box-shadow .4s var(--lp-ease),transform .2s var(--lp-ease)!important;
+}
+html[data-design="console"] .play-btn svg{ width:22px!important; height:22px!important; fill:var(--lp-amber); }
+/* Clavier : l'anneau d'ambre reste sur l'écran (la marge de verre le laisse voir), pas sur la carte */
+html[data-design="console"] .video-card:has(.video-thumb:focus-visible){ outline:none!important; }
+html[data-design="console"] .video-card:hover .play-btn{ box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 0 36px -4px rgba(var(--lp-glow),.75),0 12px 28px -12px rgba(0,0,0,.7)!important; }
+html[data-design="console"][data-lp-theme="light"] .play-btn{ background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.26),transparent 70%),rgba(255,255,255,.8)!important; border-color:rgba(160,100,20,.45); }
+
+/* Légende : le titre d'abord, puis « Vidéo n · Les Partisans » en ligne de contexte */
+html[data-design="console"] .video-info{ display:grid; grid-template-columns:auto minmax(0,1fr); grid-template-areas:"title title" "num chan"; align-items:baseline; padding:14px 10px 8px!important; }
+html[data-design="console"] .video-title{ grid-area:title; margin:0 0 6px!important; font-family:var(--lp-font)!important; font-size:1rem!important; font-weight:400!important; line-height:1.42!important; letter-spacing:-.005em; color:var(--lp-ink)!important; text-wrap:pretty; }
+html[data-design="console"] .video-num{ grid-area:num; margin:0!important; font-family:var(--lp-font)!important; font-size:.8rem!important; font-weight:300!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; opacity:1!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .video-channel{ grid-area:chan; font-size:.8rem!important; font-weight:300!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] .video-channel::before{ content:'·'; margin:0 .5em; }
+
+@media (max-width:600px){
+  html[data-design="console"] .video-card{ padding:8px!important; }
+  html[data-design="console"] .video-info{ padding:12px 8px 6px!important; }
+}
 </style>
 </head>
 <body>
@@ -105,7 +167,7 @@ VIDEOS.forEach(function(v, i) {
   var card = document.createElement('div');
   card.className = 'video-card';
   card.innerHTML =
-    '<div class="video-thumb" id="thumb-' + v.id + '">' +
+    '<div class="video-thumb" id="thumb-' + v.id + '" tabindex="0" role="button" aria-label="Lire la vid\u00e9o \u00ab ' + v.title + ' \u00bb">' +
       '<img src="https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg" alt="' + v.title + '" loading="lazy">' +
       '<div class="play-btn"><svg viewBox="0 0 24 24" fill="#070c18"><polygon points="8,5 19,12 8,19"/></svg></div>' +
     '</div>' +
@@ -123,6 +185,10 @@ VIDEOS.forEach(function(v, i) {
     embed.innerHTML = '<iframe src="https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
     this.parentNode.replaceChild(embed, this);
   });
+  // Clavier : Entrée ou Espace lancent la vidéo, comme un clic
+  card.querySelector('.video-thumb').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); this.click(); }
+  });
 });
 
 // Fetch real titles from YouTube oEmbed (best effort)
@@ -133,6 +199,8 @@ VIDEOS.forEach(function(v) {
       if (data && data.title) {
         var el = document.getElementById('title-' + v.id);
         if (el) el.textContent = data.title;
+        var th = document.getElementById('thumb-' + v.id);
+        if (th) th.setAttribute('aria-label', 'Lire la vid\u00e9o \u00ab ' + data.title + ' \u00bb');
       }
     })
     .catch(function() {});

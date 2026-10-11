@@ -27,6 +27,15 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 /* CANVAS */
 #tree-container{position:fixed;inset:52px 0 0;cursor:grab;overflow:hidden}
 #tree-container:active{cursor:grabbing}
+/* Téléphone (design classique) : le titre tenait sur 5 lignes et débordait de la barre de 52 px.
+   Titre sur une ligne (abrégé), légende dessous ; l'arbre commence sous la barre. */
+@media(max-width:600px){
+  html:not([data-design="console"]) .header{height:80px;display:grid;grid-template-columns:minmax(0,1fr);align-content:center;row-gap:8px;padding:0 14px}
+  html:not([data-design="console"]) .header-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
+  html:not([data-design="console"]) .legend{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:12px}
+  html:not([data-design="console"]) .legend::-webkit-scrollbar{display:none}
+  html:not([data-design="console"]) #tree-container{inset:80px 0 0}
+}
 #tree-svg{position:absolute;top:0;left:0;user-select:none}
 
 /* DETAIL PANEL */
@@ -67,6 +76,192 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .dp-rel{border-radius:12px!important;transition:transform .2s var(--ios-ease),background .2s,border-color .2s!important}
 .dp-rel:active{transform:scale(.98)!important}
 .dp-close:active{transform:scale(.9)!important}
+</style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — arbre-genealogique
+   Dalles de verre sur la nuit, lampe intérieure des 14 Infaillibles, liens en fils
+   de lumière, fiche en feuille de verre. Les couleurs du dessin SVG viennent d'ici
+   (les propriétés CSS l'emportent sur les attributs posés par le script).
+   Tout est limité à html[data-design="console"] : le classique ne bouge pas. */
+
+/* ── Jetons de la page ── */
+html[data-design="console"][data-lp-theme]{
+  --lpt-head:52px;
+  /* catégories (mêmes teintes que la chronologie) */
+  --lpt-fam:#97c2f0; --lpt-anc:#8c96a5; --lpt-mot:#b699eb; --lpt-com:#64c897;
+  --lpt-fam-line:rgba(151,194,240,.5); --lpt-anc-line:rgba(160,172,192,.36); --lpt-mot-line:rgba(182,153,235,.5); --lpt-com-line:rgba(100,200,151,.45);
+  /* dalles : verre opaque (les liens passent dessous), lampe pour les Infaillibles */
+  --lpt-glass-0:#151c2d; --lpt-glass-1:#0c1220; --lpt-lamp-0:#523e1f; --lpt-lamp-1:#0e1423;
+  /* liens */
+  --lpt-line:rgba(205,220,250,.24); --lpt-line-lamp:rgba(242,180,90,.32); --lpt-line-lit:rgba(242,180,90,.62); --lpt-line-com:rgba(100,200,151,.22);
+  --lpt-scrim:rgba(2,4,9,.4);
+  --lpt-i-fit:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 9V5.5A1.5 1.5 0 0 1 5.5 4H9M15 4h3.5A1.5 1.5 0 0 1 20 5.5V9M20 15v3.5a1.5 1.5 0 0 1-1.5 1.5H15M9 20H5.5A1.5 1.5 0 0 1 4 18.5V15'/%3E%3C/svg%3E");
+  --lpt-i-cal:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.5' y='5' width='17' height='15.5' rx='3'/%3E%3Cpath d='M3.5 10h17M8 3v4M16 3v4'/%3E%3C/svg%3E");
+}
+html[data-design="console"][data-lp-theme="light"]{
+  --lpt-fam:#3a69ad; --lpt-anc:#5f6a7b; --lpt-mot:#7750b1; --lpt-com:#218258;
+  --lpt-fam-line:rgba(58,105,173,.5); --lpt-anc-line:rgba(70,82,104,.34); --lpt-mot-line:rgba(119,80,177,.48); --lpt-com-line:rgba(33,130,88,.45);
+  --lpt-glass-0:#ffffff; --lpt-glass-1:#f1f4f8; --lpt-lamp-0:#fbe5c1; --lpt-lamp-1:#f8f5ef;
+  --lpt-line:rgba(30,48,90,.26); --lpt-line-lamp:rgba(160,100,20,.34); --lpt-line-lit:rgba(160,100,20,.6); --lpt-line-com:rgba(33,130,88,.3);
+  --lpt-scrim:rgba(206,213,226,.4);
+}
+/* Le thème clair d'origine teint toutes les bordures : on le neutralise */
+html[data-design="console"][data-theme="light"] *{ border-color:var(--lp-edge)!important; }
+
+/* ── Socle : la nuit, la brume en tête ── */
+html[data-design="console"] body::before{ display:none!important; }
+html[data-design="console"] body{
+  background-image:var(--lp-motes),var(--lp-fog)!important; background-repeat:no-repeat!important;
+  background-position:top center!important; background-size:1400px 460px,auto,auto!important;
+}
+html[data-design="console"] #tree-container{ inset:var(--lpt-head) 0 0!important; background:transparent!important; }
+html[data-design="console"] #tree-svg > rect{ fill:transparent; }
+
+/* ── Barre de titre : verre ; la dalle de la rubrique (أهل البيت) ouvre la barre, le ﷽ doré du titre s'efface ── */
+html[data-design="console"] .header{
+  height:var(--lpt-head)!important; background:var(--lp-bar-bg)!important; border-bottom:1px solid var(--lp-hairline)!important;
+  -webkit-backdrop-filter:blur(18px) saturate(140%)!important; backdrop-filter:blur(18px) saturate(140%)!important;
+}
+html[data-design="console"] .header-title{ min-width:0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; font-family:var(--lp-font)!important; font-size:15px!important; font-weight:400!important; line-height:1.7; letter-spacing:0!important; color:var(--lp-ink)!important; }
+html[data-design="console"] .header-title{ text-indent:-.26em; }
+html[data-design="console"] .header-title::first-letter{ font-size:0; color:transparent; }
+html[data-design="console"] .header::before{
+  content:var(--lp-mark); flex:none; display:inline-grid; place-items:center; min-width:52px; padding:2px 12px 4px; border-radius:11px;
+  font-family:var(--lp-ar); font-size:18px; font-weight:400; line-height:1.4; color:var(--lp-amber-hi);
+  background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass);
+  border:1px solid rgba(var(--lp-glow),.6); box-shadow:var(--lp-panel-shadow),0 0 30px -10px rgba(var(--lp-glow),.62);
+}
+html[data-design="console"] .legend{ gap:16px!important; }
+html[data-design="console"] .leg-item{ gap:7px!important; font-family:var(--lp-font)!important; font-size:12.5px!important; font-weight:300; color:var(--lp-ink-2)!important; }
+html[data-design="console"] .leg-dot{ width:9px!important; height:9px!important; }
+html[data-design="console"] .leg-item:nth-child(1) .leg-dot{ background:var(--lp-amber)!important; box-shadow:0 0 10px rgba(var(--lp-glow),.65); }
+html[data-design="console"] .leg-item:nth-child(2) .leg-dot{ background:var(--lpt-fam)!important; }
+html[data-design="console"] .leg-item:nth-child(3) .leg-dot{ background:var(--lpt-anc)!important; }
+html[data-design="console"] .leg-item:nth-child(4) .leg-dot{ background:var(--lpt-com)!important; }
+
+/* ── L'arbre (SVG) ── */
+html[data-design="console"] #tree-svg text{ font-family:var(--lp-font); }
+/* Liens : fils de lumière froide ; la lignée des Infaillibles en ambre */
+html[data-design="console"] #tree-svg path{ stroke:var(--lpt-line); stroke-opacity:1; stroke-width:1.1px; }
+html[data-design="console"] #tree-svg path[stroke="#c9a84c"]{ stroke:var(--lpt-line-lamp); }
+html[data-design="console"] #tree-svg path[stroke-width="2"]{ stroke:var(--lpt-line-lit); stroke-width:1.6px; }
+html[data-design="console"] #tree-svg line[stroke-dasharray="6,3"]{ stroke:var(--lpt-line-lit); stroke-width:1.3px; }
+html[data-design="console"] #tree-svg line[stroke-dasharray="4,4"]{ stroke:var(--lpt-line-com); stroke-width:1px; }
+/* Dalles de verre */
+html[data-design="console"] #tree-svg g[data-id] > rect[rx="8"]{
+  fill:url(#lp-glass) var(--lpt-glass-1); fill-opacity:1; stroke:var(--lpt-anc-line); stroke-width:1px;
+  transition:stroke .35s var(--lp-ease),stroke-width .35s var(--lp-ease);
+}
+html[data-design="console"] #tree-svg g[data-type="family"] > rect[rx="8"]{ stroke:var(--lpt-fam-line); }
+html[data-design="console"] #tree-svg g[data-type="mother"] > rect[rx="8"]{ stroke:var(--lpt-mot-line); }
+html[data-design="console"] #tree-svg g[data-type="companion"] > rect[rx="8"]{ stroke:var(--lpt-com-line); }
+html[data-design="console"] #tree-svg g[data-type="infaillible_related"] > rect[rx="8"]{ stroke:rgba(var(--lp-glow),.32); }
+/* Les 14 Infaillibles : lampe intérieure, liseré et halo d'ambre */
+html[data-design="console"] #tree-svg g[data-type="infaillible"] > rect[rx="8"]{ fill:url(#lp-lamp) var(--lpt-lamp-1); stroke:rgba(var(--lp-glow),.5); stroke-width:1.2px; }
+html[data-design="console"] #tree-svg g[data-id] > rect[filter]{ stroke:var(--lp-amber); stroke-opacity:.38; stroke-width:2px; }
+html[data-design="console"] #lp-glass stop[offset="0"]{ stop-color:var(--lpt-glass-0); }
+html[data-design="console"] #lp-glass stop[offset="1"]{ stop-color:var(--lpt-glass-1); }
+html[data-design="console"] #lp-lamp stop[offset="0"]{ stop-color:var(--lpt-lamp-0); }
+html[data-design="console"] #lp-lamp stop[offset=".6"]{ stop-color:var(--lpt-glass-0); }
+html[data-design="console"] #lp-lamp stop[offset="1"]{ stop-color:var(--lpt-glass-1); }
+/* Survol, puis nœud choisi : la lumière d'ambre */
+html[data-design="console"] #tree-svg g[data-id]:hover > rect[rx="8"]{ stroke:rgba(var(--lp-glow),.7); }
+html[data-design="console"] #tree-svg g.lp-sel > rect[rx="8"]{ fill:url(#lp-lamp) var(--lpt-lamp-1); stroke:var(--lp-amber); stroke-width:1.6px; filter:url(#lp-halo); }
+html[data-design="console"] #lp-halo feFlood{ flood-color:rgb(var(--lp-glow)); flood-opacity:.5; }
+/* La lumière de la lignée : du Prophète ﷺ (ou de l'aïeul dessiné le plus haut) au nœud choisi,
+   un éclat court sur les liens, puis le chemin reste allumé tant que la fiche est ouverte */
+html[data-design="console"][data-lp-theme]{ --lpt-lit:var(--lp-amber); --lpt-lit-halo:rgba(var(--lp-glow),.42); --lpt-spark:#fff3dc; --lpt-spark-halo:rgba(var(--lp-glow),.85); }
+html[data-design="console"] #tree-svg .lp-lignee{ pointer-events:none; transition:opacity .3s var(--lp-ease); }
+html[data-design="console"] #tree-svg .lp-lignee.is-off{ opacity:0; }
+html[data-design="console"] #tree-svg .lp-lignee path{ fill:none; stroke-opacity:1; stroke-linecap:round; stroke-linejoin:round; }
+html[data-design="console"] #tree-svg .lp-lignee .lpl-halo{ stroke:var(--lpt-lit-halo); stroke-width:6px; filter:url(#lpl-flou); }
+html[data-design="console"] #tree-svg .lp-lignee .lpl-trait{ stroke:var(--lpt-lit); stroke-width:2.2px; }
+html[data-design="console"] #tree-svg .lp-lignee .lpl-noces{ stroke:var(--lpt-lit); stroke-width:1.6px; stroke-dasharray:6 3; stroke-linecap:butt; }
+html[data-design="console"] #tree-svg .lp-lignee .lpl-traine{ stroke:var(--lpt-spark-halo); stroke-width:11px; filter:url(#lpl-flou); }
+html[data-design="console"] #tree-svg .lp-lignee .lpl-eclat{ stroke:var(--lpt-spark); stroke-width:3.2px; }
+/* Nœuds traversés : liseré d'ambre, allumé au passage de la lumière (--lpl-d) */
+html[data-design="console"] #tree-svg g.lpl-on:not(.lp-sel) > rect[rx="8"]{ stroke:var(--lpt-lit); stroke-width:1.5px; transition-delay:var(--lpl-d,0s); }
+/* Textes des dalles : le nom en encre, l'arabe en Scheherazade, la date discrète */
+html[data-design="console"] #tree-svg g[data-id] > text:not([text-anchor]):not([direction]):not([font-size="8.5"]){ fill:var(--lp-ink); font-size:11px; font-weight:400; }
+html[data-design="console"] #tree-svg g[data-type="infaillible"] > text:not([text-anchor]):not([direction]):not([font-size="8.5"]){ font-size:12px; font-weight:500; letter-spacing:-.012em; }
+html[data-design="console"] #tree-svg text[direction="rtl"]{ font-family:var(--lp-ar); font-size:14px; fill:var(--lp-ink-2); fill-opacity:1; }
+html[data-design="console"] #tree-svg text[font-size="8.5"]{ font-size:9.5px; fill:var(--lp-ink-3); fill-opacity:1; font-variant-numeric:tabular-nums; }
+/* Numéro d'Imam : petite tuile éclairée */
+html[data-design="console"] #tree-svg g[data-id] > rect[rx="4"]{ fill:rgba(var(--lp-glow),.14); fill-opacity:1; stroke:rgba(var(--lp-glow),.42); stroke-width:.8px; }
+html[data-design="console"] #tree-svg g[data-id] > text[text-anchor="middle"]{ fill:var(--lp-amber); font-size:9.5px; font-weight:500; }
+html[data-design="console"] #tree-svg :is(g[data-id="prophet"],g[data-id="fatima"]) > text[text-anchor="middle"]{ font-family:var(--lp-ar); font-size:13px; font-weight:700; }
+/* Étiquettes de zone */
+html[data-design="console"] #tree-svg text[letter-spacing="2"]{ fill:var(--lp-ink-3); fill-opacity:1; font-size:11px; font-weight:500; letter-spacing:.12em; }
+
+/* ── Zoom : boutons de verre ── */
+html[data-design="console"] .zoom-bar{ right:16px!important; bottom:18px!important; gap:8px!important; }
+html[data-design="console"] .z-btn{
+  width:40px!important; height:40px!important; border-radius:12px!important; font-family:var(--lp-font)!important; font-size:20px!important; font-weight:300!important;
+  color:var(--lp-ink-2)!important; background:var(--lp-sheet-bg)!important; border:1px solid var(--lp-edge)!important; box-shadow:var(--lp-panel-shadow);
+  -webkit-backdrop-filter:blur(14px)!important; backdrop-filter:blur(14px)!important;
+}
+html[data-design="console"] .z-btn:hover{ color:var(--lp-ink)!important; background:var(--lp-sheet-bg)!important; border-color:rgba(var(--lp-glow),.45)!important; }
+html[data-design="console"] #z-fit{ font-size:0!important; }
+html[data-design="console"] #z-fit::before{ content:''; width:18px; height:18px; background:currentColor; -webkit-mask:var(--lpt-i-fit) center/contain no-repeat; mask:var(--lpt-i-fit) center/contain no-repeat; }
+html[data-design="console"] .z-info{ padding:2px 0; border-radius:8px; font-family:var(--lp-font)!important; font-size:11px!important; font-weight:400; color:var(--lp-ink-2)!important; background:var(--lp-bar-bg); font-variant-numeric:tabular-nums; }
+
+/* ── Fiche : une feuille de verre ; l'arbre reste visible derrière ── */
+html[data-design="console"] .dp-overlay{ background:var(--lpt-scrim)!important; -webkit-backdrop-filter:none!important; backdrop-filter:none!important; transition:opacity .4s var(--lp-ease)!important; }
+html[data-design="console"] .dp{
+  top:calc(var(--lpt-head) + 12px); bottom:12px; right:-500px; width:440px; max-width:calc(100% - 24px); padding:28px 24px 32px!important; border-radius:22px; overscroll-behavior:contain;
+  background:var(--lp-sheet-bg)!important; border:1px solid var(--lp-edge)!important;
+  box-shadow:0 50px 120px -40px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.07)!important;
+  -webkit-backdrop-filter:blur(18px) saturate(130%); backdrop-filter:blur(18px) saturate(130%);
+  visibility:hidden; transition:right .55s var(--lp-ease),visibility 0s linear .55s!important;
+}
+html[data-design="console"][data-lp-theme="light"] .dp{ box-shadow:0 40px 100px -40px rgba(20,32,60,.4),inset 0 1px 0 rgba(255,255,255,.9)!important; }
+html[data-design="console"] .dp.open{ right:12px; visibility:visible; transition:right .55s var(--lp-ease),visibility 0s!important; }
+html[data-design="console"] .dp-close{ top:14px!important; right:14px!important; width:36px!important; height:36px!important; font-family:var(--lp-font)!important; font-size:19px!important; font-weight:300; color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:0!important; }
+html[data-design="console"] .dp-close:hover{ color:var(--lp-ink)!important; background:var(--lp-fill-2)!important; }
+html[data-design="console"] .dp-badge{ margin-bottom:14px!important; padding:4px 10px!important; font-size:12px!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important; }
+html[data-design="console"] .dp-badge[style*="#c9a84c"]{ color:var(--lp-amber)!important; background:rgba(var(--lp-glow),.08)!important; border-color:rgba(var(--lp-glow),.4)!important; }
+html[data-design="console"] .dp-name{ padding-right:40px; margin-bottom:6px!important; font-family:var(--lp-font)!important; font-size:1.6rem!important; font-weight:300!important; line-height:1.2!important; letter-spacing:-.015em; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .dp-arabic{ margin-bottom:8px!important; font-family:var(--lp-ar)!important; font-size:1.55rem!important; line-height:1.9!important; color:var(--lp-ink)!important; opacity:1!important; }
+html[data-design="console"] .dp-dates{ position:relative; padding-left:24px; margin-bottom:4px!important; font-size:14px!important; font-weight:300; color:var(--lp-ink-3)!important; opacity:1!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .dp-dates::first-letter{ font-size:0; }
+html[data-design="console"] .dp-dates::after{ content:''; position:absolute; left:0; top:50%; width:16px; height:16px; margin-top:-8px; background:currentColor; -webkit-mask:var(--lpt-i-cal) center/contain no-repeat; mask:var(--lpt-i-cal) center/contain no-repeat; }
+html[data-design="console"] .dp-label{ margin:24px 0 10px!important; font-family:var(--lp-font)!important; font-size:15px!important; font-weight:500!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-amber)!important; }
+html[data-design="console"] .dp-desc{ font-size:15.5px!important; font-weight:var(--lp-body-w)!important; line-height:1.72!important; color:var(--lp-read)!important; }
+html[data-design="console"] .dp-titles{ gap:6px!important; }
+html[data-design="console"] .dp-title-tag{ padding:4px 11px!important; border-radius:999px!important; font-size:13px!important; font-weight:300; color:var(--lp-ink-2)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-hairline)!important; }
+html[data-design="console"] .dp-rels{ gap:6px!important; }
+html[data-design="console"] .dp-rel{ padding:10px 14px!important; border-radius:12px!important; background:var(--lp-fill)!important; border:1px solid var(--lp-hairline)!important; transition:background-color .3s var(--lp-ease),border-color .3s var(--lp-ease),transform .2s var(--ios-ease)!important; }
+html[data-design="console"] .dp-rel:hover{ background:rgba(var(--lp-glow),.08)!important; border-color:rgba(var(--lp-glow),.4)!important; }
+html[data-design="console"] .dp-rel-dot{ width:8px!important; height:8px!important; }
+html[data-design="console"] .dp-rel-dot[style*="#c9a84c"]{ background:var(--lp-amber)!important; box-shadow:0 0 8px rgba(var(--lp-glow),.6); }
+html[data-design="console"] .dp-rel-dot[style*="#e8c066"]{ background:rgba(var(--lp-glow),.55)!important; }
+html[data-design="console"] .dp-rel-dot[style*="#7eb8fa"]{ background:var(--lpt-fam)!important; }
+html[data-design="console"] .dp-rel-dot[style*="#94a3b8"]{ background:var(--lpt-anc)!important; }
+html[data-design="console"] .dp-rel-dot[style*="#c084fc"]{ background:var(--lpt-mot)!important; }
+html[data-design="console"] .dp-rel-dot[style*="#4ade80"]{ background:var(--lpt-com)!important; }
+html[data-design="console"] .dp-rel-name{ font-family:var(--lp-font)!important; font-size:14.5px!important; font-weight:400; color:var(--lp-ink)!important; }
+html[data-design="console"] .dp-rel-type{ font-size:12.5px!important; font-weight:300; color:var(--lp-ink-3)!important; }
+
+/* ── Écrans étroits : titre puis légende sur deux lignes ; fiche en tiroir ── */
+@media (max-width:900px){
+  html[data-design="console"][data-lp-theme]{ --lpt-head:84px; }
+  html[data-design="console"] .header{ display:grid!important; grid-template-columns:auto minmax(0,1fr); align-content:center; align-items:center!important; gap:7px 8px!important; padding:0 14px!important; }
+  html[data-design="console"] .header::before{ grid-row:1; grid-column:1; min-width:0; font-size:15px; padding:1px 8px 3px; border-radius:10px; }
+  html[data-design="console"] .header-title{ grid-row:1; grid-column:2; flex:none!important; font-size:14px!important; }
+  /* la légende défile ; ses marges intérieures laissent respirer le halo du premier point */
+  html[data-design="console"] .legend{ grid-row:2; grid-column:1 / -1; flex-wrap:nowrap!important; overflow-x:auto; scrollbar-width:none; gap:14px!important; padding:8px 12px; margin:-8px -12px; }
+  html[data-design="console"] .legend::-webkit-scrollbar{ display:none; }
+}
+@media (max-width:600px){
+  html[data-design="console"] .dp{ top:auto; left:0; right:0; bottom:-100%; width:100%; max-width:100%; max-height:78vh; padding:22px 18px 34px!important; border-radius:24px 24px 0 0; border-width:1px 0 0!important; transition:bottom .55s var(--lp-ease),visibility 0s linear .55s!important; }
+  html[data-design="console"] .dp.open{ right:0; bottom:0; transition:bottom .55s var(--lp-ease),visibility 0s!important; }
+  html[data-design="console"] .zoom-bar{ right:12px!important; bottom:14px!important; }
+}
 </style>
 </head>
 <body>
@@ -602,8 +797,12 @@ addLabel('AHL AL-BAYT', 380, 50, '#c9a84c');
    PAN / ZOOM
 ═══════════════════════════════════════ */
 const container = document.getElementById('tree-container');
-const isMobile = window.innerWidth < 600;
-let scale = isMobile ? 0.28 : 0.45, panX = isMobile ? 10 : 20, panY = isMobile ? 0 : -20;
+/* Vue d'ouverture (les deux designs) : une échelle où les noms se lisent, centrée sur l'axe
+   Prophète – ʿAlī – Fāṭima ; 100 % au bureau, 85 % tablette, 70 % téléphone (bouton ⊡ : tout l'arbre) */
+const openW = container.clientWidth;
+const openFit = (openW - 48) / 1380;                    /* largeur utile de l'arbre : x 30 → 1410 */
+let scale = Math.min(1, Math.max(openW < 600 ? 0.7 : 0.85, openFit));
+let panX = openW / 2 - (openFit >= scale ? 720 : openW < 600 ? 760 : 770) * scale, panY = 16 - 36 * scale;
 let isDragging = false, lastX = 0, lastY = 0;
 let velX = 0, velY = 0, lastMX = 0, lastMY = 0, lastT = 0;
 let momentum = null;
@@ -759,6 +958,164 @@ document.getElementById('dp-overlay').addEventListener('click', closeDetail);
 function closeDetail() {
   document.getElementById('dp').classList.remove('open');
   document.getElementById('dp-overlay').classList.remove('open');
+}
+
+/* ═══════════════════════════════════════
+   DESIGN « CONSOLE » — dalles de verre, lampe des Infaillibles,
+   nœud choisi éclairé. Inactif en classique.
+═══════════════════════════════════════ */
+if (document.documentElement.getAttribute('data-design') === 'console') {
+  /* Le type de chaque nœud, pour le skin (style#lp-console-skin) */
+  nodeG.querySelectorAll('g[data-id]').forEach(g => { const n = NODE_MAP[g.dataset.id]; if (n) g.setAttribute('data-type', n.type); });
+  /* Dégradés de verre et de lampe : leurs couleurs viennent des jetons CSS */
+  const lpNS = 'http://www.w3.org/2000/svg';
+  [['linearGradient', 'lp-glass', { x1: 0, y1: 0, x2: 0, y2: 1 }, ['0', '1']],
+   ['radialGradient', 'lp-lamp', { cx: .5, cy: 0, r: .9, fx: .5, fy: 0 }, ['0', '.6', '1']]].forEach(([tag, id, at, offs]) => {
+    const gr = document.createElementNS(lpNS, tag);
+    gr.setAttribute('id', id);
+    Object.entries(at).forEach(([k, v]) => gr.setAttribute(k, v));
+    offs.forEach(o => { const st = document.createElementNS(lpNS, 'stop'); st.setAttribute('offset', o); gr.appendChild(st); });
+    defs.appendChild(gr);
+  });
+  /* Halo d'ambre du nœud choisi (couleur : jeton CSS) */
+  const lpHalo = document.createElementNS(lpNS, 'filter');
+  [['id', 'lp-halo'], ['x', '-25%'], ['y', '-60%'], ['width', '150%'], ['height', '220%']].forEach(([k, v]) => lpHalo.setAttribute(k, v));
+  lpHalo.innerHTML = '<feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d"/><feGaussianBlur in="d" stdDeviation="7" result="b"/>'
+    + '<feFlood result="c"/><feComposite in="c" in2="b" operator="in" result="h"/><feMerge><feMergeNode in="h"/><feMergeNode in="SourceGraphic"/></feMerge>';
+  defs.appendChild(lpHalo);
+  /* Le nœud dont la fiche est ouverte reste éclairé */
+  const lpOpenDetail = openDetail;
+  openDetail = function (id) {
+    lpOpenDetail(id);
+    nodeG.querySelectorAll('g.lp-sel').forEach(g => g.classList.remove('lp-sel'));
+    const g = nodeG.querySelector('g[data-id="' + id + '"]');
+    if (g) g.classList.add('lp-sel');
+  };
+
+  /* La lumière de la lignée : choisir quelqu'un fait courir un éclat du Prophète ﷺ jusqu'à lui
+     par les vrais liens parent → enfant (par Fāṭima : son union avec ʿAlī s'allume au passage) ;
+     sinon depuis son aïeul dessiné le plus haut ; sans chemin, le nœud seul (lp-sel).
+     Le chemin reste allumé tant que la fiche est ouverte ; la fermer ou choisir quelqu'un d'autre
+     l'éteint (300 ms) avant d'allumer le suivant. Mouvement réduit : le chemin s'allume d'emblée. */
+  const lplParents = {};
+  EDGES.forEach(e => { if (e.type === 'parent') (lplParents[e.t] = lplParents[e.t] || []).push(e.f); });
+  /* Toutes les remontées [aïeul, …, id] par les liens parent → enfant */
+  const lplRemontees = id => lplParents[id] ? lplParents[id].flatMap(p => lplRemontees(p).map(c => c.concat(id))) : [[id]];
+  const lplChemin = id => {
+    const cs = lplRemontees(id), p = id !== 'prophet' && cs.find(c => c.includes('prophet'));
+    if (p) return p.slice(p.indexOf('prophet'));
+    return cs.sort((a, b) => NODE_MAP[a[0]].y - NODE_MAP[b[0]].y || b.length - a.length)[0];
+  };
+  /* Allure du trajet (départ posé, arrivée douce : chaque branche se voit passer), et son inverse :
+     l'instant où la lumière a parcouru une fraction du trajet */
+  const [lx1, ly1, lx2, ly2] = [.42, .05, .25, 1];
+  const lplBez = (u, a, b) => 3 * u * (1 - u) * ((1 - u) * a + u * b) + u * u * u;
+  const lplInstant = p => {
+    let lo = 0, hi = 1;
+    for (let i = 0; i < 26; i++) { const m = (lo + hi) / 2; if (lplBez(m, ly1, ly2) < p) lo = m; else hi = m; }
+    return lplBez((lo + hi) / 2, lx1, lx2);
+  };
+  /* Calque sous les dalles (la lumière passe dessous) ; flou du halo */
+  const lplCouche = document.createElementNS(lpNS, 'g');
+  lplCouche.setAttribute('aria-hidden', 'true');
+  svg.insertBefore(lplCouche, nodeG);
+  const lplFlou = document.createElementNS(lpNS, 'filter');
+  lplFlou.setAttribute('id', 'lpl-flou');
+  lplFlou.setAttribute('filterUnits', 'userSpaceOnUse');
+  lplFlou.innerHTML = '<feGaussianBlur stdDeviation="2.6"/>';
+  defs.appendChild(lplFlou);
+
+  const lplCalme = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const LPL_TRAINE = 110, LPL_COEUR = 44;   /* longueurs de l'éclat (unités de l'arbre) */
+  let lplCour = null, lplNoeuds = [], lplFin = 0, lplAttente = 0;
+  const lplEteindre = () => {
+    clearTimeout(lplAttente);
+    lplNoeuds.forEach(g => { g.classList.remove('lpl-on'); g.style.removeProperty('--lpl-d'); });
+    lplNoeuds = [];
+    if (!lplCour) return;
+    const gr = lplCour;
+    lplCour = null;
+    gr.classList.add('is-off');
+    lplFin = performance.now() + (lplCalme.matches ? 0 : 300);   /* mouvement réduit : relève directe */
+    setTimeout(() => { gr.lplAnims.forEach(a => a.cancel()); gr.remove(); }, 340);
+  };
+  const lplAllumer = id => {
+    const ch = lplChemin(id).map(k => NODE_MAP[k]);
+    if (ch.length < 2) return;
+    const gr = document.createElementNS(lpNS, 'g'), anims = [];
+    gr.setAttribute('class', 'lp-lignee');
+    gr.lplAnims = anims;
+    const trace = cls => { const p = document.createElementNS(lpNS, 'path'); p.setAttribute('class', cls); gr.appendChild(p); return p; };
+    const halo = trace('lpl-halo'), trait = trace('lpl-trait');
+    lplCouche.appendChild(gr);
+    /* Le trajet : les liens parent → enfant bout à bout, reliés sous chaque dalle traversée ;
+       pos[i] = abscisse où la lumière entre dans le nœud i */
+    let d = '';
+    const pos = ch.map((b, i) => {
+      if (!i) { d = `M${b.x + b.w / 2},${b.y + NODE_H}`; return 0; }
+      const a = ch[i - 1], ax = a.x + a.w / 2, ay = a.y + NODE_H, bx = b.x + b.w / 2, my = (ay + b.y) / 2;
+      d += `${i > 1 ? ` L${ax},${ay}` : ''} C${ax},${my} ${bx},${my} ${bx},${b.y}`;
+      trait.setAttribute('d', d);
+      return trait.getTotalLength();
+    });
+    halo.setAttribute('d', d);
+    /* Le flou se limite au trajet (un seul chemin allumé à la fois) */
+    const bb = halo.getBBox();
+    [['x', bb.x - 24], ['y', bb.y - 24], ['width', bb.width + 48], ['height', bb.height + 48]].forEach(([k, v]) => lplFlou.setAttribute(k, v));
+    const L = pos[pos.length - 1], A = L + LPL_TRAINE, calme = lplCalme.matches;
+    const D = Math.min(1400, Math.max(1000, 1000 + L * .2));
+    const ez = `cubic-bezier(${lx1},${ly1},${lx2},${ly2})`;
+    const quand = s => calme ? 0 : Math.round(D * lplInstant(Math.min(1, s / A)));
+    const allume = (n, t) => {
+      const g = n.id !== id && nodeG.querySelector(`g[data-id="${n.id}"]`);
+      if (!g || lplNoeuds.includes(g)) return;
+      g.style.setProperty('--lpl-d', t + 'ms');
+      g.classList.add('lpl-on');
+      lplNoeuds.push(g);
+    };
+    ch.forEach((n, i) => allume(n, quand(pos[i])));
+    /* Par Fāṭima : son union avec ʿAlī s'allume quand la lumière la quitte */
+    ch.slice(1, -1).forEach((n, i) => EDGES.forEach(e => {
+      if (e.type !== 'spouse' || (e.f !== n.id && e.t !== n.id)) return;
+      const a = NODE_MAP[e.f], b = NODE_MAP[e.t], t = quand(pos[i + 1] + NODE_H);
+      const p = document.createElementNS(lpNS, 'path');
+      p.setAttribute('class', 'lpl-noces');
+      p.setAttribute('d', `M${a.x + a.w},${a.y + NODE_H / 2} L${b.x},${b.y + NODE_H / 2}`);
+      gr.insertBefore(p, trait);
+      if (!calme) anims.push(p.animate({ opacity: [0, 1] }, { duration: 500, delay: t, easing: ez, fill: 'backwards' }));
+      allume(NODE_MAP[e.f === n.id ? e.t : e.f], t);
+    }));
+    lplCour = gr;
+    if (calme) return;
+    /* L'éclat : une traîne et un cœur filent devant le trait, qui s'allume derrière eux */
+    const traine = trace('lpl-traine'), coeur = trace('lpl-eclat');
+    [[halo, 0], [trait, 0], [traine, LPL_TRAINE], [coeur, LPL_COEUR]].forEach(([p, len]) => {
+      p.setAttribute('d', d);
+      p.style.strokeDasharray = len ? `${len} ${A + len}` : `${A} ${A}`;
+      const de = len || A, a = len ? len - A : 0;
+      p.style.strokeDashoffset = a;
+      anims.push(p.animate({ strokeDashoffset: [de, a] }, { duration: D, easing: ez }));
+    });
+    anims[anims.length - 1].finished.then(() => { traine.remove(); coeur.remove(); }, () => {});
+  };
+  const lplChoisir = id => {
+    lplEteindre();
+    const reste = lplFin - performance.now();
+    if (reste > 0) lplAttente = setTimeout(() => lplAllumer(id), reste);
+    else lplAllumer(id);
+  };
+  const lplOuvrir = openDetail;
+  openDetail = function (id) { lplOuvrir(id); if (NODE_MAP[id]) lplChoisir(id); };
+  /* Le chemin reste allumé fiche fermée (sur téléphone, la fiche le couvre) ;
+     un toucher sur le fond de l'arbre, sans glisser, l'éteint */
+  const lplFond = document.getElementById('tree-container');
+  let lplX = 0, lplY = 0;
+  lplFond.addEventListener('pointerdown', e => { lplX = e.clientX; lplY = e.clientY; });
+  lplFond.addEventListener('pointerup', e => {
+    if (Math.hypot(e.clientX - lplX, e.clientY - lplY) > 6) return;
+    if (e.target.closest && e.target.closest('g[data-id]')) return;
+    lplEteindre();
+  });
 }
 </script>
 

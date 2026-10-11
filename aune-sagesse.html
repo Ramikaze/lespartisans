@@ -220,6 +220,24 @@ input.sb-search:focus{
 [data-theme="light"] .dev-note{background:rgba(70,120,170,0.08)!important;border-color:rgba(70,120,170,0.2)!important}
 [data-theme="light"] .dev-note-title{color:#2a5080!important}
 [data-theme="light"] .dev-note-text{color:#3a5c85!important}
+
+/* ══ MOBILE : le panneau devient un tiroir posé au-dessus d'un voile ══ */
+.sb-overlay{display:none}
+@media (max-width:768px){
+  .sidebar{position:fixed;top:0;left:0;z-index:100;box-shadow:10px 0 30px rgba(0,0,0,0.4)}
+  .sidebar.collapsed{box-shadow:none}
+  .sb-overlay{
+    display:block;position:fixed;inset:0;z-index:90;
+    background:rgba(0,0,0,0.5);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);
+    opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;
+  }
+  .sidebar:not(.collapsed)~.sb-overlay{opacity:1;visibility:visible}
+  /* Languette au-dessus du voile, plus facile à toucher ; le texte commence après elle */
+  .sb-toggle{z-index:110;width:24px;height:56px;font-size:13px}
+  .content{padding-left:36px}
+  [data-theme="light"] .sb-overlay{background:rgba(44,33,20,0.3)}
+  [data-theme="light"] .sidebar:not(.collapsed){box-shadow:10px 0 30px rgba(60,45,20,0.25)}
+}
 </style>
 <link rel="stylesheet" href="ios-theme.css">
 <style>
@@ -232,6 +250,196 @@ input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!importa
 .c-verse{border-radius:12px!important}
 .sb-toggle{border-radius:0 10px 10px 0!important}
 </style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — aune-sagesse (L'Aune de la Sagesse) */
+/* Éléments propres à la console */
+html:not([data-design="console"]) .lp-only{display:none!important}
+html[data-design="console"] .lp-only{display:block}
+html[data-design="console"] .sb-title:not(.lp-only){display:none!important}
+
+/* Gabarit : panneau latéral de verre posé dans la nuit ; brume seule, la lecture reste calme */
+html[data-design="console"]{--lp-sbw:272px;--lp-sbm:12px}
+html[data-design="console"] body{
+  background-image:var(--lp-fog)!important;background-repeat:no-repeat!important;
+  background-position:top center!important;background-size:auto!important;color:var(--lp-ink)!important;
+}
+html[data-design="console"] .sidebar{
+  width:var(--lp-sbw)!important;height:calc(100% - var(--lp-sbm) * 2)!important;margin:var(--lp-sbm) 0 var(--lp-sbm) var(--lp-sbm)!important;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;
+  box-shadow:var(--lp-panel-shadow)!important;
+  transition:width .45s var(--lp-ease),margin .45s var(--lp-ease),border-color .3s,box-shadow .3s!important;
+}
+html[data-design="console"] .sidebar.collapsed{width:0!important;margin-left:0!important;border-width:0!important;box-shadow:none!important}
+
+/* En-tête du panneau et recherche */
+html[data-design="console"] .sb-header{padding:18px 16px 15px!important;border-bottom:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .sb-title{padding:0 2px;font-family:var(--lp-font)!important;font-size:16px!important;font-weight:400!important;letter-spacing:-.005em!important;text-transform:none!important;color:var(--lp-ink)!important;white-space:nowrap}
+html[data-design="console"] .sb-sub{padding:0 2px;font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:300!important;color:var(--lp-ink-3)!important;margin-top:4px!important}
+html[data-design="console"] .sb-search-container{margin-top:14px!important;padding:0!important}
+html[data-design="console"] input#sb-search{
+  display:block;width:100%;height:40px;padding:0 12px 0 36px!important;border:1px solid var(--lp-edge)!important;border-radius:12px!important;
+  background:var(--lp-fill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f2b45a' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 4.5 4.5'/%3E%3C/svg%3E") 12px 50%/16px 16px no-repeat!important;
+  font-family:var(--lp-font)!important;font-size:14px!important;font-weight:300!important;color:var(--lp-ink)!important;caret-color:var(--lp-amber);
+  outline:none!important;transition:border-color .25s,box-shadow .25s;
+}
+html[data-design="console"][data-lp-theme="light"] input#sb-search{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238f5200' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 4.5 4.5'/%3E%3C/svg%3E")!important}
+html[data-design="console"] input#sb-search::placeholder{color:var(--lp-ink-3);opacity:1}
+html[data-design="console"] input#sb-search:focus{border-color:rgba(var(--lp-glow),.5)!important;box-shadow:0 0 0 3px rgba(var(--lp-glow),.12)}
+
+/* Liste : chapitres, sujets */
+html[data-design="console"] .sb-scroll{padding:10px 8px 16px!important}
+html[data-design="console"] .sb-group{margin-bottom:2px!important}
+html[data-design="console"] .sb-theme{
+  gap:10px!important;padding:9px 10px 9px 12px!important;border:1px solid transparent!important;border-radius:12px!important;
+  font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:400!important;letter-spacing:.01em!important;color:var(--lp-ink-2)!important;background:transparent!important;
+  transition:background-color .25s,color .25s,border-color .25s!important;
+}
+html[data-design="console"] .sb-theme:hover{background:var(--lp-fill)!important;color:var(--lp-ink)!important}
+html[data-design="console"] .sb-theme.open{color:var(--lp-ink)!important;background:transparent!important;border-color:transparent!important}
+html[data-design="console"] .sb-theme.open:hover{background:var(--lp-fill)!important}
+html[data-design="console"] .sb-theme-label{line-height:1.4!important}
+html[data-design="console"] .sb-theme-icon{display:none!important}
+html[data-design="console"] .sb-chevron{font-family:var(--lp-font)!important;font-size:15px!important;line-height:1!important;width:14px;text-align:center;color:var(--lp-ink-3)!important;opacity:1!important;transition:transform .35s var(--lp-ease),color .25s!important}
+html[data-design="console"] .sb-theme.open > .sb-chevron{color:var(--lp-amber)!important}
+html[data-design="console"] .sb-item{
+  margin:1px 0 1px 14px!important;padding:8px 12px!important;border:1px solid transparent!important;border-radius:12px!important;
+  font-family:var(--lp-font)!important;font-size:13.5px!important;font-weight:300!important;line-height:1.45!important;
+  color:var(--lp-ink-2)!important;background:transparent!important;transition:background-color .25s,color .25s,border-color .25s!important;
+}
+html[data-design="console"] .sb-item:hover{background:var(--lp-fill)!important;color:var(--lp-ink)!important}
+/* Entrée choisie : la pastille éclairée d'ambre */
+html[data-design="console"] :is(.sb-item.active,.sb-theme.active){
+  color:var(--lp-amber)!important;font-weight:400!important;border-color:rgba(var(--lp-glow),.5)!important;
+  background:radial-gradient(120% 160% at 50% 120%,rgba(var(--lp-glow),.16),transparent 70%),rgba(var(--lp-glow),.08)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 0 22px -10px rgba(var(--lp-glow),.6)!important;
+}
+
+/* Languette d'ouverture du panneau */
+html[data-design="console"] .sb-toggle{
+  left:calc(var(--lp-sbm) + var(--lp-sbw) + 6px)!important;width:22px!important;height:52px!important;
+  background:var(--lp-glass-solid)!important;border:1px solid var(--lp-edge)!important;border-radius:11px!important;
+  font-family:var(--lp-font)!important;font-size:15px!important;color:var(--lp-ink-2)!important;box-shadow:var(--lp-panel-shadow)!important;
+  transition:left .45s var(--lp-ease),color .25s,border-color .25s,box-shadow .25s!important;
+}
+html[data-design="console"] .sb-toggle:hover{color:var(--lp-amber)!important;border-color:var(--lp-lamp-line)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important}
+html[data-design="console"] .sidebar.collapsed ~ .sb-toggle{left:6px!important}
+
+/* Accueil (seulement si aucune entrée ne s'ouvre) : la dalle de la rubrique, un titre fin */
+html[data-design="console"] .welcome{gap:12px!important}
+html[data-design="console"] .welcome-icon{
+  font-size:0!important;line-height:0!important;opacity:1!important;margin-bottom:16px;
+  display:inline-grid!important;place-items:center;width:auto;height:auto;min-width:64px;padding:8px 16px 10px;border-radius:16px;transform:none;
+  background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass);
+  border:1px solid rgba(var(--lp-glow),.6);box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62);
+}
+html[data-design="console"] .welcome-icon::before{content:var(--lp-mark);font-family:var(--lp-ar);font-size:22px;line-height:1.3;color:var(--lp-amber-hi)}
+html[data-design="console"] .welcome-title{font-family:var(--lp-font)!important;font-size:clamp(2rem,3.6vw,2.8rem)!important;font-weight:250!important;line-height:1.1!important;letter-spacing:-.022em!important;color:var(--lp-ink)!important;opacity:1!important}
+html[data-design="console"] .welcome-hint{font-family:var(--lp-font)!important;font-size:15px!important;font-weight:300!important;line-height:1.6!important;color:var(--lp-ink-2)!important}
+
+/* Colonne de lecture : titre fin, contexte dessous, filet de lumière */
+html[data-design="console"] .content{padding:38px clamp(20px,4.6vw,64px) 96px!important}
+html[data-design="console"] .content-inner{max-width:760px!important;display:flex;flex-direction:column}
+html[data-design="console"] .c-title{order:-4;margin:0!important;text-align:left!important;font-family:var(--lp-font)!important;font-size:clamp(1.65rem,2.8vw,2.25rem)!important;font-weight:250!important;line-height:1.16!important;letter-spacing:-.02em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .c-subtitle{order:-3;margin:14px 0 0!important;text-align:left!important;font-family:var(--lp-font)!important;font-style:normal!important;font-size:.9rem!important;font-weight:400!important;letter-spacing:.01em!important;line-height:1.5!important;color:var(--lp-ink-2)!important}
+html[data-design="console"] .c-source{order:-2;margin:6px 0 0!important;text-align:left!important;font-family:var(--lp-font)!important;font-size:.84rem!important;font-weight:300!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .c-divider{order:-1;width:160px;height:1px!important;margin:24px 0 24px!important;background:linear-gradient(90deg,rgba(var(--lp-glow),.7),transparent)!important}
+
+/* Introduction du chapitre (versets du Coran) : la lampe */
+html[data-design="console"] .c-intro{
+  margin:0 0 26px!important;padding:22px 26px!important;text-align:left!important;
+  font-family:var(--lp-font)!important;font-style:normal!important;font-size:1.06rem!important;font-weight:var(--lp-body-w)!important;line-height:1.75!important;color:var(--lp-ink)!important;text-wrap:pretty;
+  background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;
+  border:1px solid var(--lp-lamp-line)!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important;
+}
+
+/* Hadiths : verre, numéro en tuile éclairée, texte droit et lisible */
+html[data-design="console"] .hadith-card{
+  position:relative;margin:0 0 14px!important;padding:18px 24px 22px!important;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-left-width:1px!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow)!important;
+}
+html[data-design="console"] .hadith-card:hover{background:var(--lp-glass)!important;border-color:var(--lp-edge)!important}
+html[data-design="console"] .hadith-number{
+  display:inline-block;align-self:flex-start;margin-bottom:12px!important;padding:7px 11px!important;border-radius:10px!important;
+  font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:400!important;line-height:1!important;letter-spacing:0!important;color:var(--lp-amber)!important;font-variant-numeric:tabular-nums;
+  background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill)!important;
+  border:1px solid var(--lp-lamp-line)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo)!important;
+}
+html[data-design="console"] .hadith-source-title{font-family:var(--lp-font)!important;font-size:.95rem!important;font-weight:500!important;color:var(--lp-ink)!important;margin-bottom:8px!important}
+html[data-design="console"] .hadith-text{font-family:var(--lp-font)!important;font-size:1.04rem!important;font-weight:var(--lp-body-w)!important;line-height:1.78!important;color:var(--lp-read)!important;text-align:left!important;-webkit-hyphens:auto;hyphens:auto}
+/* Titres d'ouvrages et citations du Coran : droits, plus clairs (jamais d'italique sur un passage sacré) */
+html[data-design="console"] :is(.hadith-text,.c-intro,.subpart-note) :is(i,em){font-style:normal!important;color:var(--lp-ink)!important}
+html[data-design="console"] :is(.hadith-text,.c-intro) sup{font-size:.68em;line-height:0;color:var(--lp-ink-3)}
+html[data-design="console"] .reference-note{font-size:.9rem;font-weight:300;color:var(--lp-ink-3)!important}
+html[data-design="console"] .empty-hadiths{font-family:var(--lp-font)!important;font-size:14px!important;color:var(--lp-ink-3)!important}
+html[data-design="console"] .subpart-note{font-family:var(--lp-font)!important;font-style:normal!important;font-size:.92rem!important;font-weight:300!important;color:var(--lp-ink-3)!important}
+
+/* Pages éditoriales (préface, introduction) : colonne calme */
+html[data-design="console"] .subpart-item{font-family:var(--lp-font)!important;font-size:1.06rem!important;font-weight:var(--lp-body-w)!important;line-height:1.78!important;color:var(--lp-read)!important}
+html[data-design="console"] .subpart-item [style*="text-align: justify"]{text-align:left!important;line-height:1.78!important;-webkit-hyphens:auto;hyphens:auto}
+html[data-design="console"] .subpart-item p + p{margin-top:1em}
+html[data-design="console"] .subpart-item :is(strong,b){color:var(--lp-ink)!important;font-weight:500!important}
+/* Termes, titres et citations : droits, plus clairs ; en note, ton de la note */
+html[data-design="console"] .subpart-item :is(em,i){font-style:normal!important;color:var(--lp-ink)!important}
+html[data-design="console"] .subpart-item div[style*="font-size: 0.85em"] :is(em,i){color:var(--lp-ink-2)!important}
+html[data-design="console"] .subpart-item sup{font-size:.68em;line-height:0;color:var(--lp-ink-3)}
+html[data-design="console"] .subpart-item [style*="font-style: italic"]{
+  font-style:normal!important;margin:22px 0!important;padding:20px 24px!important;color:var(--lp-ink)!important;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow)!important;
+}
+html[data-design="console"] .subpart-item [style*="font-style: italic"] p[style*="text-align: right"]{margin-top:10px;font-size:.9rem;color:var(--lp-ink-3)!important}
+html[data-design="console"] .subpart-item [style*="border-left: 4px solid"]{
+  margin:24px 0!important;padding:16px 20px!important;font-size:.98rem!important;color:var(--lp-ink-2)!important;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:16px!important;box-shadow:var(--lp-panel-shadow)!important;
+}
+html[data-design="console"] .subpart-item hr{border:0!important;border-top:1px solid var(--lp-hairline)!important;height:0}
+html[data-design="console"] .subpart-item [style*="color: #555"]{color:var(--lp-ink-3)!important}
+html[data-design="console"] #content-inner [style*="border-top"]{border-top-color:var(--lp-hairline)!important}
+html[data-design="console"] .subpart-item div[style*="font-size: 0.85em"]{color:var(--lp-ink-3)!important;opacity:1!important}
+
+/* Pagination : « Suivant » éclairé, « Précédent » discret */
+html[data-design="console"] .slide-nav{gap:12px}
+html[data-design="console"] .nav-btn{
+  display:inline-flex;align-items:center;height:40px;padding:0 16px!important;border-radius:999px!important;
+  font-family:var(--lp-font)!important;font-size:14px!important;font-weight:400!important;color:var(--lp-ink-2)!important;
+  background:var(--lp-fill)!important;border:1px solid var(--lp-edge)!important;transition:color .25s,background-color .25s,box-shadow .35s var(--lp-ease)!important;
+}
+html[data-design="console"] .nav-btn:hover{color:var(--lp-ink)!important;background:var(--lp-fill-2)!important;transform:none!important}
+html[data-design="console"] .nav-btn.next-btn{
+  color:var(--lp-amber)!important;border-color:rgba(var(--lp-glow),.55)!important;
+  background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.24),transparent 70%),rgba(var(--lp-glow),.06)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55)!important;
+}
+html[data-design="console"] .nav-btn.next-btn:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75)!important}
+html[data-design="console"] [id^="slide-counter-"]{font-family:var(--lp-font)!important;font-size:13px!important;font-weight:300!important;color:var(--lp-ink-3)!important;font-variant-numeric:tabular-nums}
+
+/* Mobile : le panneau devient un tiroir posé au-dessus de la lecture */
+@media (max-width:768px){
+  html[data-design="console"]{--lp-sbw:min(300px,calc(100vw - 72px));--lp-sbm:8px}
+  html[data-design="console"] .sidebar{
+    position:absolute!important;z-index:100;top:var(--lp-sbm)!important;left:var(--lp-sbm)!important;bottom:var(--lp-sbm)!important;height:auto!important;margin:0!important;
+    background:var(--lp-sheet-bg)!important;-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);
+    box-shadow:var(--lp-panel-shadow),0 40px 90px -30px rgba(0,0,0,.85)!important;
+  }
+  html[data-design="console"] .sidebar.collapsed{box-shadow:none!important}
+  html[data-design="console"] .main{width:100%}
+  html[data-design="console"] .sb-toggle{width:28px!important;height:56px!important;border-radius:14px!important}
+  /* Marge gauche : la languette du tiroir (6 + 28px) ne recouvre plus le début des lignes */
+  html[data-design="console"] .content{padding:26px 18px 88px 46px!important}
+  /* Pas de voile en console : le tiroir garde son ombre */
+  html[data-design="console"] .sb-overlay{display:none!important}
+  html[data-design="console"] .c-intro{padding:18px 18px!important}
+  html[data-design="console"] .hadith-card{padding:16px 18px 18px!important}
+}
+html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-shadow:var(--lp-panel-shadow)!important}
+@media (max-width:768px){
+  html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-shadow:var(--lp-panel-shadow),0 30px 70px -30px rgba(20,32,60,.4)!important}
+}
+</style>
 </head>
 <body>
 <div class="app">
@@ -240,6 +448,7 @@ input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!importa
   <div class="sidebar" id="sidebar">
     <div class="sb-header">
       <div class="sb-title">📚 L'Aune de la Sagesse</div>
+      <div class="sb-title lp-only">L'Aune de la Sagesse</div>
       <div class="sb-sub">Mizan al-Hikmah</div>
       <div class="sb-search-container">
         <input type="text" id="sb-search" placeholder="Rechercher un sujet..." oninput="filterSidebar()">
@@ -253,12 +462,15 @@ input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!importa
   <!-- TOGGLE -->
   <div class="sb-toggle" id="sb-toggle">‹</div>
 
+  <!-- VOILE DU TIROIR (mobile) -->
+  <div class="sb-overlay" id="sb-overlay"></div>
+
   <!-- MAIN -->
   <div class="main" id="main">
     <div class="welcome" id="welcome">
       <div class="welcome-icon">📚</div>
       <div class="welcome-title">L'Aune de la Sagesse</div>
-      <div class="welcome-hint">Sélectionne une partie ou un sujet<br>dans le menu à gauche</div>
+      <div class="welcome-hint">Sélectionnez une partie ou un sujet<br>dans le menu à gauche</div>
     </div>
     <div class="content hidden" id="content">
       <div class="content-inner" id="content-inner"></div>
@@ -765,6 +977,54 @@ try {
     document.body.setAttribute('data-theme', '');
   }
 } catch(e) {}
+</script>
+<script>
+/* Mobile (les deux designs) : le menu devient un tiroir ; il se referme dès qu'un sujet
+   s'affiche, d'un toucher sur le voile ou avec Échap, pour laisser la lecture visible. */
+(function () {
+  var inner = document.getElementById('content-inner'), bar = document.getElementById('sidebar'), tab = document.getElementById('sb-toggle'), veil = document.getElementById('sb-overlay');
+  if (!inner || !bar || !tab) return;
+  function shut() {
+    if (window.matchMedia('(max-width: 768px)').matches && !bar.classList.contains('collapsed')) tab.click();
+  }
+  if (window.MutationObserver) new MutationObserver(shut).observe(inner, { childList: true });
+  if (veil) veil.addEventListener('click', shut);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') shut(); });
+})();
+</script>
+<script>
+/* Design « Console » (console seulement) : à l'arrivée sans lien profond (#partie,sujet), pas
+   d'accueil vide : la première entrée du recueil s'ouvre par la fonction de la page. Sur mobile,
+   le tiroir se referme aussitôt (script ci-dessus), sans glissement visible à l'arrivée.
+   Les pages éditoriales (préface, introduction) n'ont pas de titre : la console reprend celui
+   du menu, avec la même tête que les sujets (titre, recueil, filet). */
+(function () {
+  if (document.documentElement.getAttribute('data-design') !== 'console') return;
+  var inner = document.getElementById('content-inner');
+  if (inner && window.MutationObserver) new MutationObserver(function () {
+    if (inner.querySelector('.lp-head') || !inner.querySelector(':scope > .subpart-item')) return;
+    var on = document.querySelector('#sb-scroll .sb-theme.active .sb-theme-label');
+    if (!on || !on.textContent.trim()) return;
+    var h = document.createElement('h2'), src = document.createElement('div'), line = document.createElement('div');
+    h.className = 'c-title lp-only lp-head'; h.textContent = on.textContent.trim();
+    src.className = 'c-source lp-only lp-head'; src.textContent = "L'Aune de la Sagesse";
+    line.className = 'c-divider lp-only lp-head';
+    inner.insertBefore(line, inner.firstChild); inner.insertBefore(src, line); inner.insertBefore(h, src);
+  }).observe(inner, { childList: true });
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof AUNE_SAGESSE === 'undefined' || !AUNE_SAGESSE.length || typeof showContent !== 'function') return;
+    if (!document.getElementById('sb-group-0')) return;
+    var p = parseInt(window.location.hash.substring(1).split(',')[0], 10);
+    if (!isNaN(p) && document.getElementById('sb-group-' + p)) return; // lien profond : la page s'en charge
+    var first = AUNE_SAGESSE[0], bar = document.getElementById('sidebar');
+    if (!first.content && !(first.subparts && first.subparts.length)) return;
+    if (bar && window.matchMedia('(max-width: 768px)').matches) {
+      bar.style.setProperty('transition', 'none', 'important');
+      requestAnimationFrame(function () { requestAnimationFrame(function () { bar.style.removeProperty('transition'); }); });
+    }
+    showContent(0, first.content ? null : 0);
+  });
+})();
 </script>
 </body>
 </html>

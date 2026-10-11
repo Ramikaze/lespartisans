@@ -129,6 +129,71 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .passage.divine{border-left:none!important;border-color:rgba(106,180,232,0.4)!important}
 .passage.angel{border-left:none!important;border-color:rgba(138,232,106,0.4)!important}
 </style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — hadith-kisa */
+/* Lumière froide, argentée, pour la parole de l'ange */
+html[data-design="console"]{ --hk-moon:170,195,255; --hk-moon-line:rgba(170,195,255,.34); }
+html[data-design="console"][data-lp-theme="light"]{ --hk-moon:60,92,170; --hk-moon-line:rgba(60,92,170,.36); }
+
+/* Sol : nuit calme, brume en tête ; l'ancien motif disparaît */
+html[data-design="console"] body::before{display:none!important}
+html[data-design="console"] body{background-image:var(--lp-motes),var(--lp-fog)!important;background-repeat:no-repeat!important;background-position:top center!important;background-size:1400px 460px,auto,auto!important}
+
+/* En-tête : le nom arabe sous le titre ; l'arabe en ligne garde sa graphie */
+html[data-design="console"] .hero > .hero-ar{order:1;font-family:'Scheherazade New',var(--lp-ar)!important;font-size:32px!important;line-height:1.6!important;color:var(--lp-ink-2)!important;opacity:1!important;margin:8px 0 0!important}
+html[data-design="console"] .lp-ar{font-family:'Scheherazade New',var(--lp-ar)!important;font-size:1.1em;font-style:normal;font-weight:400}
+
+/* Écoute : panneau de verre éclairé par en dessous ; plus vif pendant la lecture */
+html[data-design="console"] .wrap .audio-section{background:radial-gradient(130% 90% at 50% 125%,var(--lp-lamp),transparent 62%),var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)!important;padding:22px 24px 18px!important;transition:border-color .6s var(--lp-ease),box-shadow .6s var(--lp-ease)}
+html[data-design="console"] .wrap .audio-section:has(audio:playing){border-color:var(--lp-lamp-line)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important}
+html[data-design="console"] .audio-label{font-family:var(--lp-font)!important;font-size:16px!important;font-weight:500!important;line-height:1.4!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink)!important;opacity:1!important}
+html[data-design="console"] .audio-player audio{display:block;border-radius:999px}
+html[data-design="console"] .audio-note{font-family:var(--lp-font)!important;font-size:14px!important;font-weight:300!important;color:var(--lp-ink-3)!important}
+
+/* Présentation : colonne calme, alignée à gauche */
+html[data-design="console"] .wrap .intro{font-family:var(--lp-font)!important;font-size:17.5px!important;font-weight:var(--lp-body-w)!important;line-height:1.78!important;color:var(--lp-read)!important;text-align:left!important;-webkit-hyphens:auto;hyphens:auto;text-wrap:pretty}
+
+/* Ouvertures de section : filets et étiquette de verre allumée */
+html[data-design="console"] .sdiv{gap:14px!important;margin:54px 0 28px!important}
+html[data-design="console"] .sdiv-line{height:1px!important;background:linear-gradient(90deg,transparent,var(--lp-hairline))!important}
+html[data-design="console"] .sdiv-line:last-child{background:linear-gradient(90deg,var(--lp-hairline),transparent)!important}
+html[data-design="console"] .sdiv-label{font-family:var(--lp-font)!important;font-size:15px!important;font-weight:400!important;line-height:1.3!important;letter-spacing:0!important;text-transform:none!important;text-align:center;color:var(--lp-amber)!important;opacity:1!important;padding:7px 15px;border-radius:999px;background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill)!important;border:1px solid var(--lp-lamp-line)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo)!important}
+
+/* Passages : verre ; arabe ample, translittération et français en Readex */
+html[data-design="console"] .wrap .passage{background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)!important;padding:26px 28px 24px!important;margin-bottom:22px!important;transition:border-color .5s var(--lp-ease),box-shadow .5s var(--lp-ease)}
+html[data-design="console"] .wrap .passage:hover{border-color:rgba(var(--lp-glow),.26)!important}
+html[data-design="console"] .wrap .passage-ar{font-family:'Scheherazade New',var(--lp-ar)!important;font-size:30px!important;line-height:2.15!important;color:var(--lp-ink)!important;border-bottom:1px solid var(--lp-hairline)!important;padding-bottom:16px!important;margin-bottom:16px!important}
+html[data-design="console"] .wrap .passage-translit{font-family:var(--lp-font)!important;font-style:normal!important;font-size:15.5px!important;font-weight:300!important;line-height:1.7!important;color:var(--lp-ink-2)!important;border-bottom:1px solid var(--lp-hairline)!important;padding-bottom:14px!important;margin-bottom:14px!important;text-wrap:pretty}
+html[data-design="console"] .wrap .passage-fr{font-family:var(--lp-font)!important;font-size:17.5px!important;font-weight:var(--lp-body-w)!important;line-height:1.78!important;color:var(--lp-read)!important;text-align:left;-webkit-hyphens:auto;hyphens:auto;text-wrap:pretty}
+html[data-design="console"] .wrap .passage-fr strong{color:var(--lp-ink)!important;font-weight:450!important}
+
+/* Qui parle : la lumière du panneau, sans arc-en-ciel.
+   Invocation (le Prophète) = lampe ; Parole divine = lampe pleine, paroles en ambre ;
+   Gabriel = lumière d'argent. */
+html[data-design="console"] .wrap .passage.invocation{background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;border:1px solid var(--lp-lamp-line)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important}
+html[data-design="console"] .wrap .passage.divine{background:radial-gradient(130% 110% at 50% 0%,rgba(var(--lp-glow),.2),transparent 70%),var(--lp-glass)!important;border:1px solid rgba(var(--lp-glow),.55)!important;box-shadow:var(--lp-panel-shadow),0 0 70px -18px rgba(var(--lp-glow),.5)!important}
+html[data-design="console"] .wrap .passage.divine .passage-fr,html[data-design="console"] .wrap .passage.divine .passage-fr strong{color:var(--lp-amber-hi)!important}
+html[data-design="console"] .wrap .passage.angel{background:radial-gradient(120% 100% at 50% 0%,rgba(var(--hk-moon),.12),transparent 66%),var(--lp-glass)!important;border:1px solid var(--hk-moon-line)!important;box-shadow:var(--lp-panel-shadow),0 0 44px -14px rgba(var(--hk-moon),.32)!important}
+
+/* Sources : marge du gabarit article */
+html[data-design="console"] .wrap .sources{margin-top:56px!important}
+
+@media (max-width:600px){
+  html[data-design="console"] .wrap .passage{padding:20px 18px 18px!important;border-radius:18px!important}
+  html[data-design="console"] .wrap .passage-ar{font-size:25px!important;line-height:2!important}
+  html[data-design="console"] .wrap .passage-translit{font-size:14.5px!important}
+  html[data-design="console"] .wrap .passage-fr{font-size:16.5px!important}
+  html[data-design="console"] .wrap .intro{font-size:16.5px!important}
+  html[data-design="console"] .sdiv{margin:44px 0 24px!important}
+  html[data-design="console"] .sdiv-label{white-space:normal!important}
+  html[data-design="console"] .wrap .audio-section{padding:18px 16px 14px!important}
+}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -137,7 +202,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <div class="hero-ornament"><div class="orn-line"></div><div class="orn-gem"></div><div class="orn-line r"></div></div>
 <h1 class="hero-title">Hadith <span>al-Kisâ'</span></h1>
 <div class="hero-ar">حَديثُ الكِساء</div>
-<div class="hero-subtitle">Le Hadith de la Couverture — Rapporté par Fâtimah az-Zahrâ' (عليها السلام)<br>d'après Jâbir ibn 'Abdallah al-Ansârî</div>
+<div class="hero-subtitle">Le Hadith de la Couverture — Rapporté par Fâtimah az-Zahrâ' (<span class="lp-ar">عليها السلام</span>)<br>d'après Jâbir ibn 'Abdallah al-Ansârî</div>
 <div class="hero-divider"></div>
 </div>
 
@@ -147,7 +212,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <div class="audio-note">Récitation complète — Appuyez sur ▶ pour écouter</div>
 </div>
 
-<p class="intro">Le Hadith al-Kisâ' (حديث الكساء) est l'un des hadiths les plus vénérés de la tradition chiite. Il relate l'événement au cours duquel le Prophète Muhammad (ṣ) rassembla sous une couverture du Yémen les membres de sa famille — 'Alî, Fâtimah, al-Hasan et al-Husayn — et où Dieu révéla le verset de la purification (Coran 33:33).</p>
+<p class="intro">Le Hadith al-Kisâ' (<span class="lp-ar">حديث الكساء</span>) est l'un des hadiths les plus vénérés de la tradition chiite. Il relate l'événement au cours duquel le Prophète Muhammad (ṣ) rassembla sous une couverture du Yémen les membres de sa famille — 'Alî, Fâtimah, al-Hasan et al-Husayn — et où Dieu révéla le verset de la purification (Coran 33:33).</p>
 
 <div class="sdiv"><div class="sdiv-line"></div><div class="sdiv-label">Début du récit</div><div class="sdiv-line"></div></div>
 

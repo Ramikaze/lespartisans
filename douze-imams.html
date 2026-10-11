@@ -108,6 +108,116 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .detail-back,.detail-nav-btn{border-radius:980px!important;font-family:var(--ios-font)!important;transition:transform .28s var(--ios-ease),background .2s,border-color .2s!important}
 .detail-back:active,.detail-nav-btn:active{transform:scale(.96)!important}
 .info-box{border-radius:14px!important}
+/* Clavier : role="button" ne doit pas changer la police de la carte (ios-theme.css la donne aux boutons) */
+.imam-card[role="button"]{font-family:inherit}
+</style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — douze-imams */
+/* Fond : la nuit et sa brume ; l'ancien motif s'efface */
+html[data-design="console"] body::before{ display:none!important; }
+html[data-design="console"] body{ background-image:var(--lp-motes),var(--lp-fog)!important; background-repeat:no-repeat!important; background-position:top center!important; background-size:1400px 460px,auto,auto!important; }
+
+/* En-tête : la dalle de la rubrique (verre éclairé, mot arabe allumé), le titre fin, la ligne de lumière, le contexte dessous */
+html[data-design="console"] .wrap:has(> .hero){ max-width:1120px!important; }
+html[data-design="console"] .wrap > .hero::before{
+  content:var(--lp-mark); order:0; display:inline-grid; place-items:center; width:auto; height:auto; min-width:64px; padding:8px 16px 10px; margin-bottom:26px; border-radius:16px; transform:none;
+  background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.42),transparent 66%),var(--lp-glass);
+  border:1px solid rgba(var(--lp-glow),.6); box-shadow:var(--lp-panel-shadow),0 0 44px -12px rgba(var(--lp-glow),.62);
+  font-family:var(--lp-ar); font-size:22px; font-weight:400; line-height:1.3; color:var(--lp-amber-hi);
+}
+html[data-design="console"] .hero > .hero-sub{ order:2; max-width:600px!important; margin:16px auto 0!important; font-family:var(--lp-font)!important; font-size:1.02rem!important; font-weight:300!important; line-height:1.6!important; color:var(--lp-ink-2)!important; text-wrap:balance; }
+html[data-design="console"] .hero > .hero-div{ order:3; width:180px!important; height:1px!important; border-radius:0!important; margin:28px auto 0!important; background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.7),transparent)!important; }
+
+/* Grille : chaque Imam, une dalle de verre ; le nom d'abord, son rang en chiffre éclairé,
+   puis « rang · dates » en ligne de contexte sous le nom */
+html[data-design="console"] .grid{ gap:16px!important; }
+html[data-design="console"] .imam-card{
+  display:grid; grid-template-columns:auto auto minmax(0,1fr); grid-template-rows:auto auto 1fr auto;
+  grid-template-areas:"num name name" "num top dates" "desc desc desc" "tags tags tags";
+  column-gap:0; isolation:isolate; padding:20px 22px 22px!important;
+  background:var(--lp-glass)!important; border:1px solid var(--lp-edge)!important; border-radius:20px!important;
+  box-shadow:var(--lp-panel-shadow)!important;
+  transition:transform .4s var(--lp-ease),border-color .5s var(--lp-ease),box-shadow .5s var(--lp-ease)!important;
+}
+html[data-design="console"] .imam-card::before{ content:''; position:absolute; inset:0; z-index:-1; border-radius:inherit; pointer-events:none; background:radial-gradient(110% 90% at 0% 0%,rgba(var(--lp-glow),.15),transparent 62%); opacity:0; transition:opacity .5s var(--lp-ease); }
+html[data-design="console"] .imam-card:hover::before{ opacity:1; }
+html[data-design="console"] .imam-card:hover{ border-color:rgba(var(--lp-glow),.45)!important; box-shadow:var(--lp-panel-shadow),0 0 34px -12px rgba(var(--lp-glow),.55)!important; }
+html[data-design="console"] .imam-big-num{
+  grid-area:num; align-self:center; position:static!important; display:grid; place-items:center; width:46px; height:46px; margin-right:14px; border-radius:14px;
+  font-family:var(--lp-font)!important; font-size:1.1rem!important; font-weight:300!important; line-height:1!important; letter-spacing:-.01em; font-variant-numeric:tabular-nums;
+  color:var(--lp-amber)!important; background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill);
+  border:1px solid var(--lp-lamp-line); box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo);
+  transition:border-color .5s var(--lp-ease),box-shadow .5s var(--lp-ease);
+}
+html[data-design="console"] .imam-card:hover .imam-big-num{ border-color:rgba(var(--lp-glow),.6); box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 30px -6px rgba(var(--lp-glow),.6); }
+html[data-design="console"] .imam-name{ grid-area:name; align-self:end; margin:0 0 3px!important; font-family:var(--lp-font)!important; font-size:1.06rem!important; font-weight:400!important; line-height:1.3!important; letter-spacing:-.005em; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .imam-card-top{ grid-area:top; align-self:start; margin:0!important; }
+html[data-design="console"] .imam-badge{ padding:0!important; background:none!important; border-radius:0!important; font-family:var(--lp-font)!important; font-size:.8rem!important; font-weight:300!important; line-height:1.5!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; white-space:nowrap; }
+html[data-design="console"] .imam-dates{ grid-area:dates; align-self:start; margin:0!important; font-size:.8rem!important; font-weight:300!important; line-height:1.5!important; color:var(--lp-ink-3)!important; opacity:1!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .imam-dates::before{ content:'·'; margin:0 .45em; }
+html[data-design="console"] .imam-desc{ grid-area:desc; align-self:start; margin:16px 0 16px!important; font-size:.86rem!important; font-weight:var(--lp-body-w)!important; line-height:1.58!important; color:var(--lp-ink-2)!important; }
+html[data-design="console"] .imam-tags{ grid-area:tags; gap:6px!important; padding-right:32px; }
+/* Le rang est déjà dit deux fois (chiffre éclairé, ligne de contexte) : sa pastille parmi les étiquettes s'efface */
+html[data-design="console"] .imam-tags > .imam-tag:first-child{ display:none!important; }
+html[data-design="console"] .imam-tag{ padding:3px 10px!important; border-radius:999px!important; font-size:.72rem!important; font-weight:400!important; line-height:1.4; color:var(--lp-ink-3)!important; background:var(--lp-fill)!important; border:1px solid var(--lp-hairline)!important; }
+/* La flèche d'ouverture revient en bas à droite, sur la ligne des étiquettes : le nom garde toute la largeur */
+html[data-design="console"] .imam-arrow{ top:auto; right:18px; bottom:22px!important; width:24px!important; height:24px!important; background:none!important; border:0!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] .imam-card:hover .imam-arrow{ background:none!important; color:var(--lp-amber)!important; }
+
+/* Fiche d'un Imam : colonne calme, faits en liste de définitions */
+html[data-design="console"] .detail{ padding-top:clamp(28px,5vw,56px)!important; }
+html[data-design="console"] .detail-back{
+  height:40px; padding:0 16px 0 12px!important; margin-bottom:36px!important; border-radius:999px!important;
+  font-family:var(--lp-font)!important; font-size:.88rem!important; font-weight:400!important; color:var(--lp-ink-2)!important;
+  background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important;
+  transition:color .3s,border-color .3s,transform .28s var(--lp-ease)!important;
+}
+html[data-design="console"] .detail-back:hover{ color:var(--lp-amber)!important; border-color:var(--lp-lamp-line)!important; }
+html[data-design="console"] .detail-header{ display:flex; flex-direction:column; align-items:center; margin-bottom:40px!important; padding-bottom:0!important; border-bottom:0!important; }
+html[data-design="console"] .detail-num{
+  order:0; display:grid; place-items:center; width:64px; height:64px; margin:0 0 24px!important; border-radius:20px;
+  font-family:var(--lp-font)!important; font-size:1.6rem!important; font-weight:250!important; line-height:1!important; font-variant-numeric:tabular-nums;
+  color:var(--lp-amber)!important; background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill);
+  border:1px solid var(--lp-lamp-line); box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo),0 0 48px -14px rgba(var(--lp-glow),.5);
+}
+html[data-design="console"] .detail-name{ order:1; margin:0!important; font-family:var(--lp-font)!important; font-size:clamp(1.8rem,4.4vw,2.6rem)!important; font-weight:250!important; line-height:1.1!important; letter-spacing:-.022em!important; color:var(--lp-ink)!important; text-wrap:balance; }
+html[data-design="console"] .detail-surnom{ order:2; margin:14px 0 0!important; font-size:1.04rem!important; font-weight:400!important; color:var(--lp-ink-2)!important; opacity:1!important; }
+html[data-design="console"] .detail-titre{ order:3; margin:4px 0 0!important; font-size:.98rem!important; font-weight:300!important; font-style:normal!important; color:var(--lp-ink-2)!important; }
+/* L'ancienne pastille au-dessus du nom devient une ligne de contexte dessous */
+html[data-design="console"] .detail-badge{ order:4; margin:16px 0 0!important; padding:0!important; background:none!important; border-radius:0!important; font-family:var(--lp-font)!important; font-size:.84rem!important; font-weight:300!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; }
+html[data-design="console"] .info-grid{ display:block!important; margin-bottom:40px!important; padding:6px 24px!important; background:var(--lp-glass); border:1px solid var(--lp-edge); border-radius:20px; box-shadow:var(--lp-panel-shadow); }
+html[data-design="console"] .info-box{ display:grid; grid-template-columns:minmax(8.5em,30%) minmax(0,1fr); column-gap:20px; align-items:baseline; padding:15px 0!important; background:none!important; border:0!important; border-bottom:1px solid var(--lp-hairline)!important; border-radius:0!important; }
+html[data-design="console"] .info-box:last-child{ border-bottom:0!important; }
+html[data-design="console"] .info-label{ margin:0!important; font-size:.86rem!important; font-weight:400!important; letter-spacing:0!important; text-transform:none!important; color:var(--lp-ink-3)!important; opacity:1!important; }
+html[data-design="console"] .info-value{ font-size:1rem!important; font-weight:var(--lp-body-w)!important; line-height:1.55!important; color:var(--lp-ink)!important; font-variant-numeric:tabular-nums; }
+html[data-design="console"] .detail-bio{ margin-bottom:40px!important; font-family:var(--lp-font)!important; font-size:1.02rem!important; font-weight:var(--lp-body-w)!important; line-height:1.78!important; color:var(--lp-read)!important; text-align:left!important; -webkit-hyphens:auto; hyphens:auto; text-wrap:pretty; }
+html[data-design="console"] .detail-nav{ flex-wrap:wrap; gap:10px; padding-top:24px!important; border-color:var(--lp-hairline)!important; border-top:1px solid var(--lp-hairline)!important; }
+html[data-design="console"] .detail-nav-btn{
+  height:42px; padding:0 18px!important; border-radius:999px!important;
+  font-family:var(--lp-font)!important; font-size:.88rem!important; font-weight:400!important; color:var(--lp-ink-2)!important;
+  background:var(--lp-fill)!important; border:1px solid var(--lp-edge)!important;
+  transition:color .3s,border-color .3s,box-shadow .4s var(--lp-ease),transform .28s var(--lp-ease)!important;
+}
+html[data-design="console"] .detail-nav-btn:hover:not(:disabled){ color:var(--lp-ink)!important; border-color:var(--lp-lamp-line)!important; }
+/* « Imam suivant » : le chemin de lecture, allumé */
+html[data-design="console"] .detail-nav-btn:last-child:not(:disabled){ color:var(--lp-amber)!important; background:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.24),transparent 70%),rgba(var(--lp-glow),.06)!important; border-color:rgba(var(--lp-glow),.55)!important; box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55); }
+html[data-design="console"] .detail-nav-btn:last-child:not(:disabled):hover{ color:var(--lp-amber)!important; box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75); }
+html[data-design="console"] .detail-nav-btn:disabled{ opacity:.35!important; }
+
+@media (max-width:600px){
+  html[data-design="console"] .imam-card{ padding:18px 18px 20px!important; }
+  html[data-design="console"] .info-grid{ padding:4px 18px!important; }
+  html[data-design="console"] .info-box{ grid-template-columns:minmax(0,1fr); row-gap:3px; padding:13px 0!important; }
+  html[data-design="console"] .detail{ padding-left:0!important; padding-right:0!important; }
+  html[data-design="console"] .detail > div{ padding:0 20px!important; }
+  html[data-design="console"] .detail-nav-btn{ flex:1 1 0; padding:0 10px!important; font-size:.84rem!important; white-space:nowrap; }
+  html[data-design="console"] .detail-nav-btn:nth-child(2){ order:3; flex-basis:100%; }
+}
 </style>
 </head>
 <body>
@@ -152,6 +262,10 @@ var wrapEl = document.querySelector('.wrap');
 IMAMS.forEach(function(im) {
   var card = document.createElement('div');
   card.className = 'imam-card';
+  // Clavier : la carte se comporte comme un bouton (Tab, puis Entrée ou Espace)
+  card.tabIndex = 0;
+  card.setAttribute('role', 'button');
+  card.setAttribute('aria-label', im.name);
   card.innerHTML =
     '<div class="imam-card-top"><div class="imam-badge">' + im.n + (im.n===1?'er':'e') + ' Imam</div></div>' +
     '<div class="imam-big-num">' + im.n + '</div>' +
@@ -161,6 +275,9 @@ IMAMS.forEach(function(im) {
     '<div class="imam-tags">' + im.tags.map(function(t){return '<span class="imam-tag">'+t+'</span>';}).join('') + '</div>' +
     '<div class="imam-arrow"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></div>';
   card.addEventListener('click', function() { showDetail(im.n); });
+  card.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); showDetail(im.n); }
+  });
   gridEl.appendChild(card);
 });
 
