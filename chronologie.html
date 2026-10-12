@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Islam chiite — Chronologie & Réseau Historique</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='none' stroke='%23c9a84c' stroke-width='8'><rect x='22' y='22' width='56' height='56' rx='8'/><rect x='22' y='22' width='56' height='56' rx='8' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='12' fill='%23c9a84c'/></g></svg>">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
@@ -886,7 +888,7 @@ html[data-theme="light"] ::-webkit-scrollbar-thumb { background: rgba(122,92,36,
 <script src="lp-design.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="console.css">
 <style id="lp-console-skin">/* Design « Console » — chronologie
    Frise, réseau, fiches : le cadre prend le verre et la lumière, le texte reste calme.
@@ -2846,7 +2848,7 @@ function initGraph() {
         ctx.font = `${isSelected?'bold ':''} ${fontSize}px 'EB Garamond', serif`;
         ctx.fillStyle = dimmed ? (isLightTheme()?'rgba(80,60,30,0.15)':'rgba(200,200,200,0.2)') : isSelected ? (isLightTheme()?'#2c2114':'#fff') : (isLightTheme()?'rgba(44,33,20,0.85)':'rgba(230,226,208,0.85)');
         if (LP_CONSOLE) {
-          ctx.font = (isSelected ? '500 ' : '400 ') + (fontSize + 2) + "px 'Readex Pro', system-ui, sans-serif";
+          ctx.font = (isSelected ? '500 ' : '400 ') + (fontSize + 2) + "px 'Atkinson Hyperlegible Next', system-ui, sans-serif";
           ctx.fillStyle = dimmed ? LPC['label-dim'] : isSelected ? LPC['label-hi'] : LPC.label;
         }
         const shortName = n.name.split(' ').slice(0,3).join(' ');

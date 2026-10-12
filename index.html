@@ -6,12 +6,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#04060c">
 <title>Les Partisans</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2304060c'/><rect x='23' y='10' width='18' height='44' rx='2.5' fill='%23101a30' stroke='%23f2b45a' stroke-width='2.5'/><rect x='26.5' y='34' width='11' height='17' rx='1.5' fill='%23f2b45a'/></svg>">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="lp-design.js"></script>
 <script>if (window.LP_DESIGN === 'classique') { document.documentElement.style.display = 'none'; location.replace('index-classique.html' + location.hash); }</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="console.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
 <script src="global-search-data.js"></script>
@@ -61,7 +63,7 @@ html[data-lp-theme="light"]{
 *,*::before,*::after{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
-  min-height:100svh;font-family:var(--lp-font);font-weight:330;font-size:16px;line-height:1.5;
+  min-height:100svh;font-family:var(--lp-font);font-weight:350;font-size:16px;line-height:1.5;
   color:var(--lp-ink);background:var(--lp-void);overflow-x:hidden;-webkit-tap-highlight-color:transparent;
 }
 body.iframe-active{overflow:hidden;height:100%}
@@ -86,8 +88,14 @@ html.no-webgl #lp-sky{background:var(--lp-motes) top center/1400px 460px no-repe
 }
 .bar.is-solid,body.iframe-active .bar{background:var(--bar-bg);-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);border-bottom-color:var(--lp-hairline)}
 .mark{display:flex;align-items:center;gap:11px;padding:8px 4px;border-radius:10px;flex:none}
-.mark svg{width:13px;height:24px}
-.mark-name{font-size:19px;font-weight:300;letter-spacing:.005em;white-space:nowrap}
+.mark svg{width:20px;height:26px}
+/* Logo : un mihrab, la niche de prière, avec sa lampe allumée */
+.mark-arch{fill:none;stroke:currentColor;stroke-opacity:.6;stroke-width:1.3}
+.mark-halo{fill:rgba(var(--lp-glow),.18)}
+.mark-lamp{fill:var(--lp-amber-hi)}
+html[data-lp-theme="light"] .mark-halo{fill:none}
+html[data-lp-theme="light"] .mark-lamp{fill:var(--lp-amber)}
+.mark-name{font-size:19px;font-weight:500;letter-spacing:-.005em;white-space:nowrap}
 .bar-date{margin:0 auto;display:flex;align-items:center;gap:12px;font-size:14px;font-weight:300;color:var(--lp-ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
 .bar-dot{width:4px;height:4px;border-radius:50%;background:var(--lp-amber);box-shadow:0 0 8px rgba(var(--lp-glow),.8)}
 .bar-title{margin:0 auto;min-width:0;font-size:15px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -152,9 +160,8 @@ body.is-entering .home{opacity:0;transform:scale(.965);filter:blur(5px);pointer-
 .day-src{flex-basis:100%;text-align:center;font-size:13px;font-weight:300;color:var(--lp-ink-3);margin-top:4px}
 .day.is-loading .day-ar,.day.is-loading .day-fr{opacity:.35}
 /* Récitation lumineuse : le mot prononcé s'allume */
-.day-ar .w{transition:color .22s ease-out,text-shadow .35s ease-out}
-.day-ar .w.is-said{color:var(--lp-amber-hi);text-shadow:0 0 18px rgba(var(--lp-glow),.7)}
-html[data-lp-theme="light"] .day-ar .w.is-said{text-shadow:0 0 14px rgba(var(--lp-glow),.45)}
+.day-ar::highlight(lp-said){color:var(--lp-amber-hi);text-shadow:0 0 18px rgba(var(--lp-glow),.7)}
+html[data-lp-theme="light"] .day-ar::highlight(lp-said){text-shadow:0 0 14px rgba(var(--lp-glow),.45)}
 .day{transition:opacity .6s var(--lp-ease),filter .6s var(--lp-ease),transform .8s var(--lp-ease)}
 .home.has-room .day{opacity:.42;filter:blur(1.2px);transform:scale(.985)}
 
@@ -472,7 +479,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     <span>Accueil</span>
   </button>
   <a class="mark" id="logoBtn" href="#" aria-label="Les Partisans, accueil">
-    <svg viewBox="0 0 13 24" aria-hidden="true"><rect x="1" y="1" width="11" height="22" rx="1.6" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="1.2"/><rect x="3" y="12" width="7" height="9" rx="1" fill="#f2b45a"/></svg>
+    <svg viewBox="0 0 20 26" aria-hidden="true"><path class="mark-arch" d="M2.5 25V12.5C2.5 8 6 4.6 10 1.5c4 3.1 7.5 6.5 7.5 11V25"/><circle class="mark-halo" cx="10" cy="15" r="5"/><circle class="mark-lamp" cx="10" cy="15" r="2.2"/></svg>
     <span class="mark-name">Les Partisans</span>
   </a>
   <p class="bar-date" id="barDate"><span class="js-date-g"></span><span class="bar-dot" aria-hidden="true"></span><span class="js-date-h"></span></p>
@@ -789,27 +796,32 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     var playBtn = document.getElementById('votd-play'), audio = document.getElementById('votd-audio');
     var playLbl = playBtn.querySelector('.js-play-label');
     var key = '2:153';
-    var segs = [], wordEls = {}, saidEl = null, saidRaf = 0;
+    var segs = [], wordRanges = {}, saidPos = null, saidRaf = 0;
     var Q = 'language=fr&translations=31&fields=text_uthmani&audio=7&translation_fields=resource_name&words=true&word_fields=text_uthmani';
-    /* Récitation lumineuse : chaque mot arabe devient un <span> repérable par sa position */
+    /* Récitation lumineuse : le verset reste un seul texte, pour que le navigateur garde l'ordre arabe
+       de droite à gauche. Chaque mot est repéré par une plage de caractères, surlignée sans toucher au texte. */
+    var HL = !!(window.CSS && CSS.highlights && window.Highlight);
     function setArabic(v) {
-      wordEls = {}; saidEl = null;
-      var words = (v.words || []).filter(function (w) { return w.char_type_name === 'word' && w.text_uthmani; });
+      wordRanges = {}; said(null);
+      var words = (v.words || []).filter(function (w) { return w.char_type_name === 'word' && w.text_uthmani; })
+        .sort(function (a, b) { return a.position - b.position; });
       if (!words.length) { arEl.textContent = v.text_uthmani; return; }
-      arEl.textContent = '';
-      words.forEach(function (w, i) {
-        var sp = document.createElement('span');
-        sp.className = 'w'; sp.textContent = w.text_uthmani;
-        wordEls[w.position] = sp;
-        arEl.appendChild(sp);
-        if (i < words.length - 1) arEl.appendChild(document.createTextNode(' '));
+      arEl.textContent = words.map(function (w) { return w.text_uthmani; }).join(' ');
+      if (!HL) return;
+      var node = arEl.firstChild, at = 0;
+      words.forEach(function (w) {
+        var r = document.createRange();
+        r.setStart(node, at); r.setEnd(node, at + w.text_uthmani.length);
+        wordRanges[w.position] = r;
+        at += w.text_uthmani.length + 1;
       });
     }
-    function said(el) {
-      if (el === saidEl) return;
-      if (saidEl) saidEl.classList.remove('is-said');
-      if (el) el.classList.add('is-said');
-      saidEl = el;
+    function said(pos) {
+      if (pos === saidPos) return;
+      saidPos = pos;
+      if (!HL) return;
+      var r = pos != null ? wordRanges[pos] : null;
+      if (r) CSS.highlights.set('lp-said', new Highlight(r)); else CSS.highlights.delete('lp-said');
     }
     function tick() {
       var t = audio.currentTime * 1000, pos = null;
@@ -817,7 +829,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
         var g = segs[i], p = g.length > 3 ? g[1] : g[0], a = g.length > 3 ? g[2] : g[1], b = g.length > 3 ? g[3] : g[2];
         if (t >= a && t < b) { pos = p; break; }
       }
-      said(pos != null ? wordEls[pos] || null : null);
+      said(pos);
       if (!audio.paused && !audio.ended) saidRaf = requestAnimationFrame(tick);
     }
 
