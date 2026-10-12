@@ -26,15 +26,11 @@ html{
   --tw-fill:linear-gradient(180deg,rgba(225,235,255,.12),rgba(160,185,230,.03) 55%,rgba(160,185,230,.07));
   --tw-top:linear-gradient(180deg,rgba(235,242,255,.2),rgba(200,215,245,.08));
   --tw-ar:rgba(240,232,215,.62);
-  --tw-mote-a:rgba(255,236,200,.95);
-  --tw-mote-b:rgba(205,222,255,.8);
-  --tw-hollow:rgba(0,0,0,.28);
   --tw-milk:linear-gradient(180deg,rgba(225,235,255,.11),rgba(170,190,230,.035) 58%,rgba(170,190,230,.07));
   --tw-rim:linear-gradient(180deg,rgba(236,243,255,.58),rgba(200,215,245,.12) 34%,rgba(200,215,245,.05) 68%,rgba(220,230,250,.24));
   --tw-inner:inset 0 0 28px rgba(190,210,255,.07),inset 0 1px 0 rgba(255,255,255,.12);
   --tw-drop:0 24px 48px -28px rgba(0,0,0,.85);
-  --tw-dust-a:rgba(255,236,200,.5);
-  --tw-dust-b:rgba(205,222,255,.38);
+  --tw-sheen:255,242,220;--tw-sheen-on:.16;
   --day-lamp:rgba(242,180,90,.17);
   --gs-bg:rgba(12,17,31,.95);
   --scrim:rgba(2,4,9,.6);
@@ -46,15 +42,11 @@ html[data-lp-theme="light"]{
   --tw-fill:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.5) 60%,rgba(255,255,255,.66));
   --tw-top:linear-gradient(180deg,rgba(255,255,255,1),rgba(240,244,250,.9));
   --tw-ar:rgba(18,28,50,.86);
-  --tw-mote-a:rgba(206,140,52,.45);
-  --tw-mote-b:rgba(255,255,255,.95);
-  --tw-hollow:linear-gradient(180deg,rgba(30,48,90,.07),rgba(30,48,90,.025));
   --tw-milk:linear-gradient(180deg,rgba(255,255,255,.72),rgba(249,250,253,.38) 56%,rgba(255,243,226,.5));
   --tw-rim:linear-gradient(180deg,#fff,rgba(255,255,255,.55) 28%,rgba(105,125,172,.24) 66%,rgba(226,168,98,.38));
   --tw-inner:inset 0 1px 0 #fff,inset 0 -30px 36px -28px rgba(255,182,104,.34);
   --tw-drop:0 1px 2px rgba(25,40,75,.07),0 22px 38px -22px rgba(34,56,112,.42);
-  --tw-dust-a:rgba(200,134,48,.2);
-  --tw-dust-b:rgba(255,255,255,.95);
+  --tw-sheen:255,255,255;--tw-sheen-on:.75;
   --day-lamp:rgba(255,190,118,.26);
   --gs-bg:rgba(246,248,251,.97);
   --scrim:rgba(180,190,208,.55);
@@ -146,8 +138,6 @@ body.is-entering .home{opacity:0;transform:scale(.965);filter:blur(5px);pointer-
 }
 .day::after{
   content:"";position:absolute;inset:8px;z-index:-1;border-radius:18px;pointer-events:none;
-  background-image:radial-gradient(circle,var(--tw-mote-a) 0 .8px,transparent 1.3px),radial-gradient(circle,var(--tw-mote-b) 0 .7px,transparent 1.2px);
-  background-size:23px 19px,31px 27px;background-position:6px 9px,17px 4px;
   -webkit-mask-image:linear-gradient(to top,#000,transparent 30%);mask-image:linear-gradient(to top,#000,transparent 30%);opacity:.22;
 }
 .day-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
@@ -237,12 +227,10 @@ html[data-lp-theme="light"] .day-ar::highlight(lp-said){text-shadow:0 0 14px rgb
   display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:3px;
   width:100%;min-height:136px;padding:16px 10px 15px;border-radius:18px;text-align:center;
   border:0;
-  background:
-    radial-gradient(circle at 30% 40%,var(--tw-dust-a) 0 .8px,transparent 1.3px) 0 0/43px 37px,
-    radial-gradient(circle at 70% 60%,var(--tw-dust-b) 0 .7px,transparent 1.2px) 11px 7px/67px 53px,
-    var(--tw-milk);
+  /* Reflet : une tache de lumière douce suit le curseur sur la face de la tuile (position --lx/--ly, lp-design.js) */
+  background:radial-gradient(95px circle at var(--lx,-999px) var(--ly,-999px),rgba(var(--tw-sheen),var(--sheen)),transparent 72%);
   box-shadow:var(--tw-inner),var(--tw-drop);
-  transition:box-shadow .6s var(--lp-ease),transform .7s var(--lp-ease);
+  transition:box-shadow .6s var(--lp-ease),transform .7s var(--lp-ease),--sheen .35s ease-out;
 }
 .tower::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 95% at 50% 118%,rgba(var(--lp-glow),.5),transparent 66%);opacity:var(--lit);transition:opacity .6s var(--lp-ease)}
 .tower::after{
@@ -251,7 +239,8 @@ html[data-lp-theme="light"] .day-ar::highlight(lp-said){text-shadow:0 0 14px rgb
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;
   mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
 }
-.tower:hover{--lit:.45;transform:translateY(-3px)}
+@property --sheen{syntax:'<number>';inherits:true;initial-value:0}
+.tower:hover{--lit:.45;--sheen:var(--tw-sheen-on);transform:translateY(-3px)}
 .tower.is-on{
   --lit:1;transform:translateY(-8px) scale(1.035);
   box-shadow:var(--tw-inner),0 0 64px -10px rgba(var(--lp-glow),.7),0 30px 44px -26px rgba(var(--lp-glow),.5);
@@ -263,7 +252,7 @@ html[data-lp-theme="light"] .day-ar::highlight(lp-said){text-shadow:0 0 14px rgb
 .t-name{font-size:15px;font-weight:400;line-height:1.25;transition:color .5s}
 .t-meta{font-size:13px;font-weight:300;line-height:1.3;color:var(--lp-ink-3)}
 .tower.is-on .t-name{color:var(--lp-amber)}
-.tower.is-hollow{cursor:default;background:var(--tw-hollow);border:1px dashed var(--lp-edge);box-shadow:none}
+.tower.is-hollow{cursor:default;background:transparent;border:1px dashed var(--lp-edge);box-shadow:none}
 .tower.is-hollow::before,.tower.is-hollow::after{display:none}
 .tower.is-hollow:hover{transform:none}
 .tower.is-hollow .t-name{color:var(--lp-ink-2)}
