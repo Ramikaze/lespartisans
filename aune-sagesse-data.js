@@ -26210,7 +26210,26 @@ const AUNE_SAGESSE = [
         "title": "287 - LA RETRAITE SPIRITUELLE À LA MOSQUÉE (I'TIKĀF)",
         "subparts": [
             {
-                "title": "1338 - La retraite spirituelle à la mosquée"
+                "title": "1338 - La retraite spirituelle à la mosquée",
+                "hadiths": [
+                    {
+                        "number": "4436",
+                        "text": "<i>Kanz al-'Ummāl</i> : Le Prophète (s) avait l'habitude, lorsqu'il était établi dans un lieu fixe, d'accomplir une retraite spirituelle à la mosquée pendant les dix derniers jours du mois de Ramadan. Et s'il était en voyage, il accomplissait une retraite de vingt jours l'année d'après.<sup>5004</sup>"
+                    },
+                    {
+                        "number": "4437",
+                        "text": "<i>Kitāb man lā Yaḥḍuruhu al-Faqīh</i> : Maymūn ibn Mihrān : J'étais assis en présence de Ḥasan ibn 'Alī (as) lorsqu'un homme arriva auprès de lui et dit : «Ô fils du Messager d'Allah, en vérité, je dois de l'argent à untel et il veut m'emprisonner.» Il (as) dit : «Par Allah, je n'ai pas d'argent pour payer ta dette de ta part.» Il dit : «Alors parle-lui.» Il (as) enfila ses sandales, et je lui dis alors : «Ô fils du Messager d'Allah, as-tu oublié que tu es en retraite spirituelle ?» Il me dit : «Je n'ai pas oublié, mais j'ai entendu mon père (as) qui a rapporté cette parole de (mon grand-père) le Messager d'Allah (s) : «Celui qui s'active pour satisfaire le besoin de son frère musulman est comme celui qui a adoré Allah le Tout-Puissant pendant neuf mille ans en jeûnant la journée et en priant la nuit».»<sup>5005</sup>"
+                    },
+                    {
+                        "number": "4438",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lors des dix derniers jours (du Ramadan), le Messager d'Allah (s) avait l'habitude de se retirer dans la mosquée où une tente en poils était dressée pour lui. Il retroussait ses vêtements [pour prier] et mettait de côté sa literie.<sup>5006</sup>"
+                    },
+                    {
+                        "number": "4439",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La retraite ne peut se faire que dans une mosquée congrégationnelle dans laquelle la prière en assemblée a été effectuée sous la direction d'un <i>imām</i> juste.<sup>5007</sup>"
+                    }
+                ],
+                "introduction": "«[Et rappelle-toi], quand Nous fîmes de la Maison un lieu de visite et un asile pour les gens - Adoptez donc pour lieu de prière, ce lieu où Abraham se tint debout - Et Nous confiâmes à Abraham et à Ismaël ceci : «Purifiez Ma Maison pour ceux qui tournent autour, y font retraite pieuse, s'y inclinent et s'y prosternent».»<sup>5003</sup>"
             }
         ]
     },
@@ -26218,85 +26237,717 @@ const AUNE_SAGESSE = [
         "title": "288 - LE SAVOIR",
         "subparts": [
             {
-                "title": "1339 - La vertu du savoir"
+                "title": "1339 - La vertu du savoir",
+                "hadiths": [
+                    {
+                        "number": "4440",
+                        "text": "Le Messager d'Allah (s) a dit : [Lorsqu'ils commettent un péché,] le péché du savant est unique et le péché de l'ignorant est double [c'est-à-dire le péché lui-même et le péché de l'ignorance].<sup>5010</sup>"
+                    },
+                    {
+                        "number": "4441",
+                        "text": "Le Messager d'Allah (s) a dit : Le savoir est le sommet de tout bien et l'ignorance est le sommet de tout mal.<sup>5011</sup>"
+                    },
+                    {
+                        "number": "4442",
+                        "text": "Le Messager d'Allah (s) a dit : La quête du savoir est une obligation pour tout musulman… C'est par lui que le Seigneur est obéi et adoré, que les liens familiaux sont maintenus, et que le licite est distingué de l'illicite. Le savoir est le guide de l'action et l'action est son subordonné, les bienheureux sont inspirés par lui tandis que les malheureux en sont privés.<sup>5012</sup>"
+                    },
+                    {
+                        "number": "4443",
+                        "text": "Le Messager d'Allah (s) a dit : Les personnes qui ont le plus de valeur sont celles qui ont le plus de savoir, et les personnes qui ont le moins de valeur sont celles qui ont le moins de savoir.<sup>5013</sup>"
+                    },
+                    {
+                        "number": "4444",
+                        "text": "Le Messager d'Allah (s) a dit : Les personnes les plus proches du rang de la prophétie sont les combattants et les savants.<sup>5014</sup>"
+                    },
+                    {
+                        "number": "4445",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, l'encre des savants et le sang des martyrs seront pesés, et l'encre des savants prédominera sur le sang des martyrs.<sup>5015</sup>"
+                    },
+                    {
+                        "number": "4446",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est le sommet des vertus, et la fin ultime des vertus est le savoir.<sup>5016</sup>"
+                    },
+                    {
+                        "number": "4447",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir dirige, le travail conduit, et l'âme [charnelle] est la monture indomptable.<sup>5017</sup>"
+                    },
+                    {
+                        "number": "4448",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est la lampe de l'intellect.<sup>5018</sup>"
+                    },
+                    {
+                        "number": "4449",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est véritablement un bon guide.<sup>5019</sup>"
+                    },
+                    {
+                        "number": "4450",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est la plus noble source de réputation.<sup>5020</sup>"
+                    },
+                    {
+                        "number": "4451",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est la quête du croyant.<sup>5021</sup>"
+                    },
+                    {
+                        "number": "4452",
+                        "text": "L'Imām 'Alī (as) a dit : Il suffit [pour prouver] la dignité du savoir [de voir que] celui qui ne le maîtrise pas prétend [le détenir], et que toute personne à qui on l'attribue s'en réjouit. Et il suffit [pour prouver] le caractère blâmable de l'ignorance [de voir] que même celui qui est [ignorant] désavoue être dans une telle situation.<sup>5022</sup>"
+                    },
+                    {
+                        "number": "4453",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'existe pas de trésor plus bénéfique que le savoir.<sup>5023</sup>"
+                    },
+                    {
+                        "number": "4454",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'existe pas de source de dignité comme le savoir.<sup>5024</sup>"
+                    },
+                    {
+                        "number": "4455",
+                        "text": "L'Imām 'Alī (as) a dit : [La contenance de] tout récipient se réduit lorsqu'on y verse quelque chose, sauf le récipient du savoir car en vérité, il s'élargit par lui.<sup>5025</sup>"
+                    },
+                    {
+                        "number": "4456",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsqu'Allah veut avilir un serviteur, Il le prive de savoir.<sup>5026</sup>"
+                    },
+                    {
+                        "number": "4457",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est la vie.<sup>5027</sup>"
+                    },
+                    {
+                        "number": "4458",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, le savoir est la vie des cœurs, la lumière des cœurs face à la cécité, et la force des corps contre la faiblesse.<sup>5028</sup>"
+                    },
+                    {
+                        "number": "4459",
+                        "text": "L'Imām 'Alī (as) prit Kumayl par la main et l'emmena dans le désert. Lorsqu'ils atteignirent le désert, il poussa un long soupir et dit : Ô Kumayl, le savoir est meilleur que l'argent, car le savoir te garde alors que c'est toi qui dois garder l'argent ; l'argent est diminué par les dépenses alors que le savoir prospère lorsque tu le donnes ; et les biens produits par l'argent [c'est-à-dire le respect et la position sociale] disparaissent lorsqu'il disparaît.<sup>5029</sup>"
+                    },
+                    {
+                        "number": "4460",
+                        "text": "L'Imām 'Alī (as) a dit : Ceux qui thésaurisent l'argent périssent alors même qu'ils sont vivants, alors que les savants demeurent vivants tant que ce monde existe. Leurs corps disparaissent mais leurs âmes restent présentes dans les cœurs.<sup>5030</sup>"
+                    },
+                    {
+                        "number": "4461",
+                        "text": "L'Imām 'Alī (as) a dit : Le savant est vivant même lorsqu'il est mort, et l'ignorant est mort même lorsqu'il est vivant.<sup>5031</sup>"
+                    },
+                    {
+                        "number": "4462",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, un cœur qui ne contient aucun savoir est comme une maison en ruine qu'aucun habitant ne fait prospérer.<sup>5032</sup>"
+                    },
+                    {
+                        "number": "4463",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, les savants sont les héritiers des prophètes.<sup>5033</sup>"
+                    }
+                ],
+                "introduction": "«Dis : «Sont-ils égaux, ceux qui savent et ceux qui ne savent pas ?» Seuls les doués d'intelligence se rappellent.»<sup>5008</sup><br><br>«Allah élèvera en degrés ceux d'entre vous qui auront cru et qui auront reçu le savoir. Allah est parfaitement informé de ce que vous faites.»<sup>5009</sup>"
             },
             {
-                "title": "1340 - La supériorité du savoir vis-à-vis des actes d'adoration"
+                "title": "1340 - La supériorité du savoir vis-à-vis des actes d'adoration",
+                "hadiths": [
+                    {
+                        "number": "4464",
+                        "text": "Le Messager d'Allah (s) a dit : Un peu de savoir est meilleur que beaucoup d'actes d'adoration.<sup>5034</sup>"
+                    },
+                    {
+                        "number": "4465",
+                        "text": "Le Messager d'Allah (s) a dit : Le sommeil accompagné de savoir est préférable à une prière accompagnée d'ignorance.<sup>5035</sup>"
+                    },
+                    {
+                        "number": "4466",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la prééminence du savant sur le [simple] dévot est semblable à la prééminence du soleil sur les autres astres ; tandis que la prééminence du dévot sur le non dévot est semblable à la prééminence de la lune sur les autres astres.<sup>5036</sup>"
+                    },
+                    {
+                        "number": "4467",
+                        "text": "Le Messager d'Allah (s) a dit : Une heure passée par un savant allongé sur son lit à penser à ses actes est meilleure que l'adoration d'un dévot pendant soixante-dix ans.<sup>5037</sup>"
+                    },
+                    {
+                        "number": "4468",
+                        "text": "Le Messager d'Allah (s) a dit : Le savant est supérieur de soixante-dix degrés au [simple] dévot. La distance entre deux degrés équivaut à celle [parcourue par] un cheval courant au galop pendant soixante-dix ans, et cela parce que lorsque Satan introduit une innovation parmi les gens, le savant la détecte et interdit [de la suivre], alors que le dévot se consacre à sa dévotion sans y prêter attention ni la reconnaître.<sup>5038</sup>"
+                    },
+                    {
+                        "number": "4469",
+                        "text": "Le Messager d'Allah (s) a dit : Par Celui qui détient l'âme de Muḥammad entre Ses mains ! En vérité, un seul savant est plus difficile à supporter pour Satan que mille dévots car le dévot sert sa propre personne, tandis que le savant sert les autres.<sup>5039</sup>"
+                    },
+                    {
+                        "number": "4470",
+                        "text": "L'Imām al-Bāqir (as) a dit : L'apprentissage du savoir pendant une heure est meilleur que de se tenir éveillé [en état d'adoration] toute une nuit.<sup>5040</sup>"
+                    },
+                    {
+                        "number": "4471",
+                        "text": "L'Imām al-Bāqir (as) a dit : Un savant qui est bénéfique [aux autres] du fait de son savoir est meilleur que soixante-dix mille dévots.<sup>5041</sup>"
+                    }
+                ]
             },
             {
-                "title": "1341 - La mort du savant"
+                "title": "1341 - La mort du savant",
+                "hadiths": [
+                    {
+                        "number": "4472",
+                        "text": "Le Messager d'Allah (s) a dit : La mort du savant est un malheur irréparable et un vide que l'on ne peut combler, car c'est une étoile qui disparaît. La mort d'une tribu entière est plus facile à supporter que la mort d'un savant.<sup>5042</sup><br>(Voir également : 323. La jurisprudence et le savoir au sujet de la religion, section 1500)"
+                    }
+                ]
             },
             {
-                "title": "1342 - Regarder le visage d'un savant est un acte d'adoration"
+                "title": "1342 - Regarder le visage d'un savant est un acte d'adoration",
+                "hadiths": [
+                    {
+                        "number": "4473",
+                        "text": "Le Messager d'Allah (s) a dit : Regarder le visage d'un savant par amour pour lui est un acte d'adoration.<sup>5043</sup>"
+                    },
+                    {
+                        "number": "4474",
+                        "text": "Lorsqu'il fut interrogé au sujet de la parole du Prophète (s) «Regarder le visage des savants est un acte d'adoration», l'Imām al-Ṣādiq (as) a dit : «Cela concerne le savant qui, lorsque tu le regardes, te rappelle l'Au-delà ; et regarder celui qui n'est pas ainsi est une source d'égarement.»<sup>5044</sup><br>(Voir également : 376. Le regard, section 1733)"
+                    }
+                ]
             },
             {
-                "title": "1343 - L'incitation à la quête du savoir"
+                "title": "1343 - L'incitation à la quête du savoir",
+                "hadiths": [
+                    {
+                        "number": "4475",
+                        "text": "Le Messager d'Allah (s) a dit : Soyez en quête du savoir même en Chine car en vérité, la quête du savoir est une obligation pour tout musulman.<sup>5045</sup>"
+                    },
+                    {
+                        "number": "4476",
+                        "text": "Le Messager d'Allah (s) a dit : La quête du savoir est une obligation pour tout musulman. En vérité, Allah aime ceux qui cherchent le savoir.<sup>5046</sup>"
+                    },
+                    {
+                        "number": "4477",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui ne peut supporter l'humilité impliquée par l'apprentissage du savoir durant une heure demeurera perpétuellement dans l'humiliation de l'ignorance.<sup>5047</sup>"
+                    },
+                    {
+                        "number": "4478",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si les gens savaient [les bénéfices se trouvant] dans la quête du savoir, ils iraient à sa recherche même s'il fallait pour cela verser du sang et plonger dans les mers profondes.<sup>5048</sup>"
+                    }
+                ]
             },
             {
-                "title": "1344 - La vertu de celui qui est en quête du savoir"
+                "title": "1344 - La vertu de celui qui est en quête du savoir",
+                "hadiths": [
+                    {
+                        "number": "4479",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui est en quête du savoir parmi les ignorants est comme le vivant parmi les morts.<sup>5049</sup>"
+                    },
+                    {
+                        "number": "4480",
+                        "text": "Le Messager d'Allah (s) a dit : Deux types de personnes insatiables ne sont jamais rassasiées par leur quête : celle qui est en quête du savoir, et celle qui est en quête de la vie de ce monde.<sup>5050</sup>"
+                    },
+                    {
+                        "number": "4481",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque la mort atteint la personne en quête de savoir alors qu'elle est dans cet état, elle meurt en martyr.<sup>5051</sup>"
+                    },
+                    {
+                        "number": "4482",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui [sort de chez lui en] quête du savoir est assurément sur le chemin d'Allah jusqu'à ce qu'il retourne [chez lui].<sup>5052</sup>"
+                    },
+                    {
+                        "number": "4483",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui est en quête du savoir est comme celui qui passe sa journée à jeûner et sa nuit à prier. En vérité, tout chapitre de savoir que l'homme apprend est meilleur pour lui que de posséder l'équivalent [de la montagne d']Abū Qubays en or et qu'il le dépense dans le sentier d'Allah.<sup>5053</sup>"
+                    },
+                    {
+                        "number": "4484",
+                        "text": "Le Messager d'Allah (s) a dit : Allah garantit la subsistance de celui qui est en quête du savoir.<sup>5054</sup>"
+                    },
+                    {
+                        "number": "4485",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui est en quête du savoir est en quête de la miséricorde. Celui qui est en quête du savoir est le pilier de l'islam, et sa rémunération lui sera donnée avec celle des prophètes.<sup>5055</sup>"
+                    },
+                    {
+                        "number": "4486",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, les Anges déploient leurs ailes sur celui qui est en quête du savoir, et ils implorent le pardon pour lui.<sup>5056</sup>"
+                    },
+                    {
+                        "number": "4487",
+                        "text": "Le Messager d'Allah (s) a dit : Allah fait traverser le chemin du Paradis à celui qui traverse un chemin en vue d'acquérir le savoir.<sup>5057</sup>"
+                    },
+                    {
+                        "number": "4488",
+                        "text": "Le Messager d'Allah (s) a dit : Le Paradis recherche celui qui recherche le savoir.<sup>5058</sup>"
+                    },
+                    {
+                        "number": "4489",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, toute chose implore le pardon pour la personne en quête de savoir, même les poissons dans l'océan, les reptiles de la terre ferme, ainsi que les fauves et le bétail sur terre.<sup>5059</sup>"
+                    },
+                    {
+                        "number": "4490",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a qu'un degré de différence entre celui qui meurt en étant en quête du savoir et les prophètes.<sup>5060</sup>"
+                    }
+                ]
             },
             {
-                "title": "1345 - Les grâces de l'enseignement"
+                "title": "1345 - Les grâces de l'enseignement",
+                "hadiths": [
+                    {
+                        "number": "4491",
+                        "text": "<i>Tanbīh al-Khawāṭir</i> : Allah le Très-Haut a inspiré à Moïse (as) : Ô Moïse, apprends le bien et enseigne-le aux gens car en vérité, J'illumine les tombes de ceux qui enseignent le bien et qui l'apprennent. Ainsi, ils ne seront pas effrayés du lieu où ils demeurent.<sup>5061</sup>"
+                    },
+                    {
+                        "number": "4492",
+                        "text": "Jésus (as) a dit : Celui qui a un savoir, qui l'applique et qui l'enseigne sera considéré comme grand dans le plus grand royaume [des cieux].<sup>5062</sup>"
+                    },
+                    {
+                        "number": "4493",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure aumône volontaire (<i>ṣadaqa</i>) est que l'homme apprenne un savoir puis l'enseigne à son frère.<sup>5063</sup>"
+                    },
+                    {
+                        "number": "4494",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, tout homme à qui Allah a donné un savoir et qui l'a dissimulé alors qu'il le maîtrisait, rencontrera Allah le Tout-Puissant bridé par une bride de feu.<sup>5064</sup>"
+                    },
+                    {
+                        "number": "4495",
+                        "text": "L'Imām 'Alī (as) a dit : Allah n'a pas obligé l'ignorant à apprendre jusqu'à ce qu'Il oblige le savant à enseigner.<sup>5065</sup>"
+                    },
+                    {
+                        "number": "4496",
+                        "text": "L'Imām 'Alī (as) a dit : Toute chose diminue lorsqu'elle est donnée, sauf le savoir.<sup>5066</sup>"
+                    },
+                    {
+                        "number": "4497",
+                        "text": "L'Imām al-Bāqir (as) a dit : Celui qui enseigne un aspect de la guidance reçoit l'équivalent de la rétribution de celui qui l'applique, sans que la rétribution de ce dernier ne s'en trouve diminuée.<sup>5067</sup>"
+                    },
+                    {
+                        "number": "4498",
+                        "text": "L'Imām al-Bāqir (as) a dit : Les bêtes sur terre, les poissons des océans ainsi que toute petite ou grande créature dans la terre d'Allah ou dans Son ciel implorent le pardon pour celui qui enseigne le bien.<sup>5068</sup>"
+                    },
+                    {
+                        "number": "4499",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, toute chose a une aumône (<i>zakāt</i>), et l'aumône du savoir est de l'enseigner à ceux qui en sont dignes.<sup>5069</sup>"
+                    }
+                ]
             },
             {
-                "title": "1346 - La façon dont l'enseignant sera ressuscité"
+                "title": "1346 - La façon dont l'enseignant sera ressuscité",
+                "hadiths": [
+                    {
+                        "number": "4500",
+                        "text": "Le Messager d'Allah (s) a dit : Voulez-vous que je vous apprenne qui est le plus généreux des généreux ? Allah est le plus généreux des généreux, et je suis le plus généreux des fils d'Adam. Les plus généreux parmi vous après moi sont un homme qui a appris un savoir et qui l'a enseigné - le Jour de la Résurrection, il sera ressuscité en tant que communauté à lui seul -, et un homme qui a sacrifié sa vie pour Allah le Tout-Puissant jusqu'à tomber en martyr pour Lui.<sup>5070</sup>"
+                    }
+                ]
             },
             {
-                "title": "1347 - S'instruire pour Allah et pour un autre qu'Allah"
+                "title": "1347 - S'instruire pour Allah et pour un autre qu'Allah",
+                "hadiths": [
+                    {
+                        "number": "4501",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui est en quête du savoir pour Allah ne lira pas un chapitre sans que ne s'accroisse son humilité en lui, sa modestie envers les gens, sa crainte vis-à-vis d'Allah, et ses efforts dans sa religion. Voilà celui qui bénéficie du savoir, qu'il l'acquière donc. En revanche, celui qui est en quête du savoir pour ce bas-monde en vue d'accéder à un statut auprès des gens et à une position favorable auprès des dirigeants n'entamera pas un chapitre sans que cela n'accroisse en lui l'arrogance, son insolence vis-à-vis des gens, son aveuglement vis-à-vis d'Allah et son éloignement de la religion. Voilà celui qui ne bénéficie pas du savoir, dès lors, qu'il s'en abstienne et qu'il cesse de fournir une preuve contre lui-même [afin de ne pas ressentir] du regret et de la honte le Jour de la Résurrection.<sup>5071</sup>"
+                    },
+                    {
+                        "number": "4502",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui désire le savoir afin de tromper les gens ne sentira jamais le parfum du Paradis.<sup>5072</sup>"
+                    },
+                    {
+                        "number": "4503",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui a acquis un savoir pour un autre qu'Allah le Très-Haut prenne sa place dans le Feu.<sup>5073</sup>"
+                    },
+                    {
+                        "number": "4504",
+                        "text": "L'Imām 'Alī (as) a dit : Prenez du savoir ce qui se présente à vous, mais prenez garde à ne jamais l'acquérir pour ces quatre raisons : pour vous vanter devant les savants, pour polémiquer avec les faibles d'esprit, pour parader dans les assemblées, ou pour séduire les gens et les attirer vers vous afin de les diriger.<sup>5074</sup>"
+                    },
+                    {
+                        "number": "4505",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui acquiert un savoir pour Allah, agit en fonction de lui et l'enseigne aux autres pour Allah est appelé [et considéré comme] grand dans le royaume des cieux, et on dit [de lui] : «Il apprend pour Allah, agit pour Allah, et enseigne pour Allah !»<sup>5075</sup>"
+                    }
+                ]
             },
             {
-                "title": "1348 - Ce qui est nécessaire dans le choix d'un enseignant"
+                "title": "1348 - Ce qui est nécessaire dans le choix d'un enseignant",
+                "hadiths": [
+                    {
+                        "number": "4506",
+                        "text": "Jésus (as) a dit : Prenez la vérité, [même] des gens qui ne sont pas dans le droit chemin, et ne prenez pas les choses fausses, même des gens qui sont dans le droit chemin - ayez l'esprit critique vis-à-vis des discours.<sup>5076</sup>"
+                    },
+                    {
+                        "number": "4507",
+                        "text": "Le Messager d'Allah (s) a dit : Le savoir est une [partie de la] religion [et] la prière est une [partie de la] religion ; dès lors, considérez avec attention auprès de qui vous apprenez ce savoir.<sup>5077</sup>"
+                    },
+                    {
+                        "number": "4508",
+                        "text": "L'Imām 'Alī (as) a dit : Prends la sagesse de celui qui te l'apporte, considère avec attention ce qui est dit et ne considère pas qui le dit.<sup>5078</sup>"
+                    },
+                    {
+                        "number": "4509",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Le savoir ne peut être acquis que d'un savant divin, et la reconnaissance de ce savant se réalise par l'intellect.<sup>5079</sup><br>(Voir également : 111. La sagesse, section 562)"
+                    }
+                ]
             },
             {
-                "title": "1349 - Les droits de l'élève devant être respectés par l'enseignant"
+                "title": "1349 - Les droits de l'élève devant être respectés par l'enseignant",
+                "hadiths": [
+                    {
+                        "number": "4510",
+                        "text": "Le Messager d'Allah (s) a dit : Soyez doux vis-à-vis de ceux à qui vous enseignez ainsi que vis-à-vis de ceux de qui vous apprenez.<sup>5080</sup>"
+                    },
+                    {
+                        "number": "4511",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le droit de tes élèves du fait de ton savoir est que tu saches qu'Allah le Tout-Puissant a fait de toi un tuteur pour eux en raison de ce qu'Il t'a octroyé comme savoir et des réserves [de science] qu'Il a ouvertes pour toi. Ainsi, si tu enseignes aux gens de la meilleure façon sans les traiter durement ni te lasser d'eux, Allah augmentera Sa grâce pour toi. En revanche, si tu prives les gens de ton savoir ou que tu les traites durement lorsqu'ils recherchent le savoir auprès de toi, il sera alors du droit d'Allah le Tout-Puissant qu'Il te prive du savoir et de son éclat, et que tu sois déchu de la place que tu occupes dans les cœurs des gens.<sup>5081</sup>"
+                    },
+                    {
+                        "number": "4512",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le savant ne doit pas faire preuve de dureté lorsqu'il enseigne et il ne doit pas faire preuve de dédain lorsqu'on lui enseigne.<sup>5082</sup>"
+                    },
+                    {
+                        "number": "4513",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut «<i>Et ne détourne pas ton visage des gens</i>»<sup>5083</sup> : Tu dois considérer comme égaux les gens qui viennent auprès de toi pour [acquérir] le savoir.<sup>5084</sup>"
+                    }
+                ]
             },
             {
-                "title": "1350 - Les droits de l'enseignant devant être respectés par l'élève"
+                "title": "1350 - Les droits de l'enseignant devant être respectés par l'élève",
+                "hadiths": [
+                    {
+                        "number": "4514",
+                        "text": "Le Messager d'Allah (s) a dit : Il y a trois types de personnes dont le droit n'est pris à la légère que par l'hypocrite : la personne âgée musulmane, un dirigeant juste, et un enseignant de bien.<sup>5085</sup>"
+                    },
+                    {
+                        "number": "4515",
+                        "text": "L'Imām 'Alī (as) a dit : Le droit de ton enseignant est que tu salues le groupe en général et que tu le salues de façon spécifique, que tu t'asseyes face à lui, que tu ne le montres pas du doigt ni ne fasses de clins d'œil, que tu ne dises pas «untel a dit» pour le contredire, que tu ne calomnies pas quiconque en sa présence, que tu ne fasses pas de messes basses dans son assemblée, que tu ne le tires pas par le vêtement, que tu n'insistes pas [pour poser des questions] s'il est fatigué, et que tu ne te lasses pas du fait de la longueur de ses paroles, car en vérité, [ses paroles] sont comme un palmier duquel [tu dois] attendre [attentivement] qu'une chose en tombe pour toi.<sup>5086</sup>"
+                    },
+                    {
+                        "number": "4516",
+                        "text": "L'Imām 'Alī (as) a dit : La flatterie et la jalousie ne font pas partie des vertus morales du croyant, sauf dans la quête du savoir.<sup>5087</sup>"
+                    },
+                    {
+                        "number": "4517",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Les devoirs envers celui qui te forme au savoir sont de le respecter, d'honorer ses sessions [de cours], de l'écouter attentivement, et de lui accorder de l'attention. Tu ne dois pas élever la voix en sa présence, ni répondre à sa place à une question qu'une personne lui a adressée afin qu'il y réponde lui-même, ni t'adresser à quelqu'un d'autre dans son assemblée ou calomnier quiconque en sa présence. Tu dois le défendre si on parle de lui de manière malveillante en ta présence, dissimuler ses défauts, et rapporter ses qualités. Tu ne dois pas t'asseoir avec son ennemi ni être hostile vis-à-vis de son ami. Si tu agis ainsi, les anges d'Allah témoigneront que tu t'es dirigé vers lui et que tu as appris son savoir pour Allah - glorifié soit Son nom -, et non pour les gens.<sup>5088</sup>"
+                    }
+                ]
             },
             {
-                "title": "1351 - Honorer le savant"
+                "title": "1351 - Honorer le savant",
+                "hadiths": [
+                    {
+                        "number": "4518",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui fait bon accueil aux savants m'a fait bon accueil, celui qui rend visite aux savants m'a rendu visite, celui qui s'assied en compagnie des savants s'est assis en ma compagnie, et celui qui s'assied en ma compagnie est comme s'il s'était assis en compagnie de mon Seigneur.<sup>5089</sup>"
+                    },
+                    {
+                        "number": "4519",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque tu vois un savant, sois pour lui un serviteur.<sup>5090</sup>"
+                    },
+                    {
+                        "number": "4520",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui vénère un savant aura vénéré son Seigneur.<sup>5091</sup>"
+                    }
+                ]
             },
             {
-                "title": "1352 - Les devoirs qui incombent à l'élève"
+                "title": "1352 - Les devoirs qui incombent à l'élève",
+                "hadiths": [
+                    {
+                        "number": "4521",
+                        "text": "Al-Khiḍr (as) a dit à Moïse (as) : Ô Moïse, consacre-toi exclusivement au savoir si tu le désires car en vérité, le savoir appartient à celui qui s'y consacre exclusivement.<sup>5092</sup>"
+                    },
+                    {
+                        "number": "4522",
+                        "text": "Le Messager d'Allah (s) a dit : L'intellect de l'homme ne devient parfait que lorsque dix qualités se rassemblent en lui : [...] Qu'il ne se lasse jamais de la quête du savoir durant toute sa vie.<sup>5093</sup>"
+                    },
+                    {
+                        "number": "4523",
+                        "text": "L'Imām 'Alī (as) a dit : L'élève doit s'astreindre à une autodiscipline dans sa quête du savoir, et il ne doit pas se lasser de son apprentissage ni surestimer ce qu'il sait.<sup>5094</sup>"
+                    },
+                    {
+                        "number": "4524",
+                        "text": "L'Imām 'Alī (as) a dit : N'acquiert le savoir que celui qui consacre beaucoup de temps à l'étudier.<sup>5095</sup>"
+                    },
+                    {
+                        "number": "4525",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui réfléchit longuement sur ce qu'il apprend maîtrisera son savoir et comprendra ce qu'il ne comprenait pas.<sup>5096</sup>"
+                    }
+                ]
             },
             {
-                "title": "1353 - La vertu des savants"
+                "title": "1353 - La vertu des savants",
+                "hadiths": [
+                    {
+                        "number": "4526",
+                        "text": "Le Messager d'Allah (s) a dit : Les savants sont les dépositaires et représentants d'Allah parmi les gens.<sup>5097</sup>"
+                    },
+                    {
+                        "number": "4527",
+                        "text": "Le Messager d'Allah (s) a dit : La prééminence du savant sur les autres est semblable à la prééminence du prophète sur sa communauté.<sup>5098</sup>"
+                    },
+                    {
+                        "number": "4528",
+                        "text": "L'Imām 'Alī (as) a dit : Les savants sont les gouverneurs des gens.<sup>5099</sup>"
+                    },
+                    {
+                        "number": "4529",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les savants parmi nos shiites sont les gardiens de la frontière où se trouvent Iblīs et ses démons. Ils empêchent qu'ils sortent [pour s'attaquer] aux faibles parmi nos shiites et qu'Iblīs et ses disciples prennent pouvoir sur eux.<sup>5100</sup>"
+                    }
+                ]
             },
             {
-                "title": "1354 - Le fruit du savoir"
+                "title": "1354 - Le fruit du savoir",
+                "hadiths": [
+                    {
+                        "number": "4530",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit du savoir est d'agir en accord avec lui.<sup>5102</sup>"
+                    },
+                    {
+                        "number": "4531",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit du savoir est l'adoration.<sup>5103</sup>"
+                    },
+                    {
+                        "number": "4532",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit du savoir est la sincérité de l'acte.<sup>5104</sup>"
+                    },
+                    {
+                        "number": "4533",
+                        "text": "<i>Miṣbāḥ al-Sharī'a</i> : Selon [une parole] qui lui est attribuée, l'Imām al-Ṣādiq (as) a dit : La crainte [d'Allah] est l'héritage du savoir, et le savoir est le rayonnement de la connaissance ainsi que le cœur de la foi. Celui qui est dépourvu de crainte ne peut être savant, même s'il s'efforce d'apprendre des simulacres de savoir. En effet, Allah a dit : «<i>Parmi Ses serviteurs, seuls les savants craignent Allah</i>».<sup>5105</sup>"
+                    }
+                ],
+                "introduction": "«Il y a pareillement des couleurs différentes, parmi les hommes, les animaux et les bestiaux. Parmi Ses serviteurs, seuls les savants craignent Allah. Allah est, certes, Puissant et Pardonneur.»<sup>5101</sup>"
             },
             {
-                "title": "1355 - Les devoirs qui incombent au savant"
+                "title": "1355 - Les devoirs qui incombent au savant",
+                "hadiths": [
+                    {
+                        "number": "4534",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui dit «je suis savant» est assurément un ignorant.<sup>5106</sup>"
+                    },
+                    {
+                        "number": "4535",
+                        "text": "L'Imām 'Alī (as) a dit : Le savant est celui qui n'est jamais rassasié du savoir et considère qu'il ne s'en est jamais assez imprégné.<sup>5107</sup>"
+                    },
+                    {
+                        "number": "4536",
+                        "text": "L'Imām 'Alī (as) a dit : Le savant est celui qui ne se lasse jamais de l'apprentissage du savoir.<sup>5108</sup>"
+                    }
+                ]
             },
             {
-                "title": "1356 - Le blâme du fait d'agir sans savoir"
+                "title": "1356 - Le blâme du fait d'agir sans savoir",
+                "hadiths": [
+                    {
+                        "number": "4537",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui agit sans savoir dégradera plus qu'il ne réparera.<sup>5109</sup>"
+                    },
+                    {
+                        "number": "4538",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui pratique des actes d'adoration sans aucun savoir [au sujet de ces actes] est comme un âne dans un moulin.<sup>5110</sup>"
+                    },
+                    {
+                        "number": "4539",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui agit sans clairvoyance est comme celui qui avance hors du chemin ; le fait qu'il hâte le pas ne fait que l'éloigner davantage du chemin.<sup>5111</sup>"
+                    }
+                ]
             },
             {
-                "title": "1357 - La nécessité d'agir en conformité avec son savoir"
+                "title": "1357 - La nécessité d'agir en conformité avec son savoir",
+                "hadiths": [
+                    {
+                        "number": "4540",
+                        "text": "Le Messager d'Allah (s) a dit : Conseillez-vous mutuellement dans le savoir car en vérité, le fait de trahir l'un d'entre vous dans son savoir est pire que de le trahir dans son argent, et en vérité, Allah vous interrogera le Jour de la Résurrection.<sup>5112</sup>"
+                    },
+                    {
+                        "number": "4541",
+                        "text": "Le Messager d'Allah (s) a dit : La préoccupation des savants est de comprendre, alors que la préoccupation des ignorants est de raconter.<sup>5113</sup>"
+                    },
+                    {
+                        "number": "4542",
+                        "text": "Le Messager d'Allah (s) a dit : Un groupe de gens du Paradis entreverra un groupe de gens de l'Enfer et il leur dira : «Qu'est-ce qui vous a fait entrer en Enfer, alors que nous sommes entrés au Paradis grâce à votre enseignement ?!» Ils diront alors : «En vérité, nous ordonnions le bien sans le faire nous-mêmes.»<sup>5114</sup>"
+                    },
+                    {
+                        "number": "4543",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, les gens renoncent à la quête du savoir du fait des nombreux cas qu'ils voient du manque d'action des gens en accord avec ce qu'ils savent.<sup>5115</sup>"
+                    },
+                    {
+                        "number": "4544",
+                        "text": "L'Imām 'Alī (as) a dit : L'ensemble de ce monde n'est qu'ignorance sauf dans les lieux où se trouve le savoir, et tout le savoir peut être retenu contre son détenteur, sauf celui selon lequel on a agi.<sup>5116</sup>"
+                    },
+                    {
+                        "number": "4545",
+                        "text": "L'Imām 'Alī (as) a dit : Un savoir sans acte est une malédiction, et un acte sans savoir est un égarement.<sup>5117</sup>"
+                    },
+                    {
+                        "number": "4546",
+                        "text": "L'Imām 'Alī (as) a dit : [Voir] un savant impudent et une personne religieuse ignorante me brise le dos, car l'ignorant dupe les gens avec sa religiosité, et le savant les fait fuir à cause de son impudence.<sup>5118</sup>"
+                    },
+                    {
+                        "number": "4547",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsqu'une information vous parvient, pensez à la mettre en pratique et ne pensez pas simplement à la raconter car en vérité, ceux qui narrent le savoir sont nombreux mais ceux qui le mettent en pratique sont rares.<sup>5119</sup>"
+                    },
+                    {
+                        "number": "4548",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'est autoproclamé chef des autres doit commencer par s'enseigner à lui-même avant d'enseigner aux autres. Que leur éducation se fasse au travers de son propre comportement [comme modèle] plutôt que par sa langue. Celui qui apprend et éduque sa propre personne est plus digne d'estime que celui qui enseigne et éduque les autres.<sup>5120</sup>"
+                    },
+                    {
+                        "number": "4549",
+                        "text": "L'Imām 'Alī (as) a dit : Le savant est tenu d'agir en accord avec ce qu'il sait, puis de chercher à apprendre ce qu'il ignore.<sup>5121</sup>"
+                    },
+                    {
+                        "number": "4550",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir est lié à l'acte, dès lors, celui qui sait agit ; et le savoir appelle l'acte, s'il lui répond, [il reste], sinon, il le quitte.<sup>5122</sup>"
+                    }
+                ]
             },
             {
-                "title": "1358 - La sévérité de la punition du savant qui délaisse son savoir"
+                "title": "1358 - La sévérité de la punition du savant qui délaisse son savoir",
+                "hadiths": [
+                    {
+                        "number": "4551",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, les gens de l'Enfer souffriront de l'odeur nauséabonde du savant qui a délaissé son savoir.<sup>5123</sup>"
+                    },
+                    {
+                        "number": "4552",
+                        "text": "L'Imām 'Alī (as) a dit : Devant Allah, le châtiment de ceux qui savent et de ceux qui ne savent pas n'est pas égal. Qu'Allah nous fasse bénéficier ainsi que vous de notre savoir, et qu'Il fasse qu'il soit uniquement pour Lui. En vérité, Il est Celui qui entend tout et qui exauce.<sup>5124</sup>"
+                    },
+                    {
+                        "number": "4553",
+                        "text": "L'Imām 'Alī (as) a dit : Le faux pas du savant est semblable à la brèche dans un bateau : il coule et fait se noyer [les autres].<sup>5125</sup>"
+                    },
+                    {
+                        "number": "4554",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, il est pardonné à l'ignorant soixante-dix péchés avant que ne soit pardonné un seul au savant.<sup>5126</sup>"
+                    },
+                    {
+                        "number": "4555",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La personne la plus sévèrement punie sera un savant qui n'a pas bénéficié d'une once de son savoir.<sup>5127</sup>"
+                    },
+                    {
+                        "number": "4556",
+                        "text": "<i>Biḥār al-Anwār</i> : Allah le Béni et le Très-Haut a révélé à David (as) : En vérité, la moindre des choses que J'inflige à un savant qui n'agit pas en accord avec son savoir - et cela est pire que soixante-dix châtiments - est que Je fais disparaître de son cœur la douceur de Mon rappel.<sup>5128</sup><br>(Voir également : 30. La foi, section 185 ; 80. L'Enfer, section 403)"
+                    }
+                ]
             },
             {
-                "title": "1359 - Le blâme des savants malveillant"
+                "title": "1359 - Le blâme des savants malveillant",
+                "hadiths": [
+                    {
+                        "number": "4557",
+                        "text": "Jésus (as) a dit : Comment pourrait être considéré comme un homme de savoir celui qui privilégie sa vie d'ici-bas par rapport à celle de l'Au-delà, qui poursuit la vie de ce monde et qui aime davantage ce qui lui porte préjudice que ce qui lui est bénéfique ?!<sup>5129</sup>"
+                    },
+                    {
+                        "number": "4558",
+                        "text": "Jésus (as) a dit : L'argent est la maladie de la religion, et le savant est le médecin de la religion. Dès lors, lorsque vous voyez le médecin contracter lui-même cette maladie, soyez méfiants vis-à-vis de lui et sachez qu'il n'est pas de bon conseil pour autrui.<sup>5130</sup>"
+                    },
+                    {
+                        "number": "4559",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, le pire des maux sont les savants malfaisants et en vérité, le meilleur des biens sont les savants bienfaisants.<sup>5131</sup>"
+                    },
+                    {
+                        "number": "4560",
+                        "text": "Le Messager d'Allah (s) a dit : Celui dont le savoir augmente sans que sa guidance ne s'accroisse ne cessera de s'éloigner d'Allah.<sup>5132</sup>"
+                    },
+                    {
+                        "number": "4561",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Maudit, maudit est le savant qui fréquente un gouverneur injuste et qui l'aide dans son injustice.<sup>5133</sup>"
+                    },
+                    {
+                        "number": "4562",
+                        "text": "L'Imām al-'Askarī (as) a dit en décrivant les savants malveillants : Ils font plus de mal aux faibles parmi nos partisans (<i>shī'a</i>) que ne l'a fait l'armée de Yazīd à Ḥusayn ibn 'Alī (as) et ses compagnons, car ils leur ont pris leurs vies et leurs biens, alors que ces savants malveillants… répandent le doute et l'ambiguïté chez les faibles parmi nos partisans, et les égarent.<sup>5134</sup>"
+                    }
+                ]
             },
             {
-                "title": "1360 - La bonne conduite dans le domaine du savoir"
+                "title": "1360 - La bonne conduite dans le domaine du savoir",
+                "hadiths": [
+                    {
+                        "number": "4563",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Un homme se rendit auprès du Messager d'Allah (s) et lui demanda : «Ô Messager d'Allah, qu'est-ce que le savoir ?» Il répondit : «C'est de se taire.» Il dit : «Et ensuite ?» Il répondit : «C'est d'écouter.» L'homme dit : «Et ensuite ?» Il dit : «C'est de mémoriser.» Il dit encore : «Et ensuite ?» Il répondit : «C'est d'agir en accord avec lui.» Il dit : «Et ensuite, ô Messager d'Allah ?» Il dit alors : «C'est de le diffuser.»<sup>5135</sup>"
+                    }
+                ]
             },
             {
-                "title": "1361 - Le blâme du savoir inutile"
+                "title": "1361 - Le blâme du savoir inutile",
+                "hadiths": [
+                    {
+                        "number": "4564",
+                        "text": "Le Messager d'Allah (s) a dit : Ô Allah, je me réfugie auprès de Toi d'un savoir inutile, d'un cœur sans humilité, d'une âme insatiable, et d'une invocation qui n'est pas entendue.<sup>5136</sup>"
+                    },
+                    {
+                        "number": "4565",
+                        "text": "L'Imām 'Alī (as) a dit : Et sache qu'il n'y a aucun bien dans un savoir inutile, et que l'on ne peut tirer bénéfice d'un savoir qui ne vaut pas la peine d'être étudié.<sup>5137</sup>"
+                    },
+                    {
+                        "number": "4566",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Le Messager d'Allah (s) entra dans la mosquée et vit qu'un groupe de gens s'était rassemblé autour d'un homme. Il demanda : «Qui est-il ?» Ils répondirent : «C'est un grand érudit (<i>'allāma</i>).» Il (s) demanda : «Qu'est-ce qu'un grand érudit ?» Ils dirent : «[C'est celui] qui connaît le mieux la généalogie des Arabes et leurs histoires, ainsi que l'histoire de l'époque préislamique et les poèmes en langue arabe.» Le Prophète (s) dit alors : «Ce savoir-là, celui qui l'ignore ne subit aucun préjudice et il n'est d'aucune utilité à celui qui le connaît.»<sup>5138</sup>"
+                    }
+                ]
             },
             {
-                "title": "1362 - Les différents types de savoir"
+                "title": "1362 - Les différents types de savoir",
+                "hadiths": [
+                    {
+                        "number": "4567",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, le savoir [véritable] est de trois sortes : un verset non ambigu, une obligation juste, ou une tradition [recommandée] établie ; ce qui est en dehors de cela vient en plus.<sup>5139</sup>"
+                    },
+                    {
+                        "number": "4568",
+                        "text": "Le Messager d'Allah (s) a dit : Le savoir est de deux types : le savoir au sujet des religions [des choses spirituelles et de l'Au-delà], et le savoir au sujet des corps [des choses matérielles de ce monde].<sup>5140</sup>"
+                    },
+                    {
+                        "number": "4569",
+                        "text": "Le Messager d'Allah (s) a dit : Le savoir est trop vaste pour être embrassé, alors prends-en le meilleur de chaque sorte.<sup>5141</sup>"
+                    },
+                    {
+                        "number": "4570",
+                        "text": "Le Messager d'Allah (s) a dit : Le meilleur savoir est celui qui est bénéfique.<sup>5142</sup>"
+                    },
+                    {
+                        "number": "4571",
+                        "text": "L'Imām 'Alī (as) a dit : Il existe quatre types de savoir : la jurisprudence pour les religions, la médecine pour les corps, la grammaire pour la langue, et l'astronomie pour connaître le temps.<sup>5143</sup>"
+                    },
+                    {
+                        "number": "4572",
+                        "text": "L'Imām 'Alī (as) a dit : Le meilleur savoir est celui qui t'améliore.<sup>5144</sup>"
+                    },
+                    {
+                        "number": "4573",
+                        "text": "L'Imām al-Bāqir (as) a dit : Sache qu'il n'y a aucun savoir comme la quête de l'intégrité, et qu'il n'y a aucun salut comme celui de l'intégrité du cœur.<sup>5145</sup>"
+                    },
+                    {
+                        "number": "4574",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si seulement il y avait des fouets au-dessus des têtes de mes compagnons afin qu'ils comprennent la différence entre le licite et l'illicite !<sup>5146</sup>"
+                    },
+                    {
+                        "number": "4575",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le savoir ne s'acquiert pas par l'apprentissage, c'est plutôt une lumière par laquelle Allah le Béni et le Très-Haut éclaire le cœur de celui qu'Il veut guider. Si tu aspires au savoir, cherche d'abord en toi-même la servitude véritable [à Allah], et cherche le savoir selon son caractère applicable, et demande à Allah de te faire comprendre, et Il te fera comprendre.<sup>5147</sup>"
+                    }
+                ]
             },
             {
-                "title": "1363 - Le savoir inspiré"
+                "title": "1363 - Le savoir inspiré",
+                "hadiths": [
+                    {
+                        "number": "4576",
+                        "text": "Le Messager d'Allah (s) a dit : Le savoir de ce qui est caché est l'un des mystères d'Allah le Tout-Puissant et l'une des sagesses d'Allah qu'Il diffuse dans les cœurs de ceux qu'Il veut parmi Ses serviteurs.<sup>5148</sup>"
+                    },
+                    {
+                        "number": "4577",
+                        "text": "Le Messager d'Allah (s) a dit : Si vous craigniez Allah comme Il se doit d'être craint, un savoir à la suite duquel aucune ignorance [ne reste] vous serait enseigné.<sup>5149</sup>"
+                    },
+                    {
+                        "number": "4578",
+                        "text": "L'Imām al-Bāqir (as) a dit : Allah apprendra ce qu'il ne sait pas à celui qui a agi en accord avec ce qu'il sait.<sup>5150</sup><br>(Voir également : 16. L'Imāmat (1), section 114)"
+                    }
+                ]
             },
             {
-                "title": "1364 - Le plus savant des gens"
+                "title": "1364 - Le plus savant des gens",
+                "hadiths": [
+                    {
+                        "number": "4579",
+                        "text": "Le Messager d'Allah (s) a dit : Le plus savant des gens est celui qui a ajouté le savoir des autres à son propre savoir.<sup>5151</sup>"
+                    },
+                    {
+                        "number": "4580",
+                        "text": "Lorsqu'on lui dit : «J'aimerais être le plus savant des gens», le Messager d'Allah (s) a dit : «Crains Allah, et tu seras le plus savant des gens.»<sup>5152</sup>"
+                    },
+                    {
+                        "number": "4581",
+                        "text": "L'Imām 'Alī (as) a dit : Le plus savant des gens est celui qui est passionné du savoir.<sup>5153</sup>"
+                    }
+                ]
             },
             {
-                "title": "1365 - Le véritable savoir est exclusivement détenu par les Gens de la demeure prophétique (Ahl al-Bayt) (as)"
+                "title": "1365 - Le véritable savoir est exclusivement détenu par les Gens de la demeure prophétique (Ahl al-Bayt) (as)",
+                "hadiths": [
+                    {
+                        "number": "4582",
+                        "text": "L'Imām 'Alī (as) a dit : Si vous preniez le savoir à sa source, buviez l'eau à sa fraîcheur, récoltiez le bien à son origine, preniez le plus clair du chemin, et suiviez la voie de la vérité où elle est tracée, des chemins s'ouvriraient à vous et les signes [de la voie] vous deviendraient manifestes.<sup>5154</sup>"
+                    },
+                    {
+                        "number": "4583",
+                        "text": "L'Imām al-Bāqir (as) a dit à Salama ibn Kuhayl et al-Ḥakam ibn 'Utayba : Que vous alliez en Orient ou en Occident, vous ne trouverez pas de savoir juste sauf celui qui émane de nous, les Gens de la demeure prophétique (<i>Ahl al-Bayt</i>).<sup>5155</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -26304,22 +26955,132 @@ const AUNE_SAGESSE = [
         "title": "289 - LA DURÉE DE VIE",
         "subparts": [
             {
-                "title": "1366 - La durée de vie"
+                "title": "1366 - La durée de vie",
+                "hadiths": [
+                    {
+                        "number": "4584",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la durée de ta vie est le nombre total de tes respirations, et il y a un contrôleur qui les compte.<sup>5157</sup>"
+                    },
+                    {
+                        "number": "4585",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, aucun d'entre vous ne reçoit un jour de sa vie sans qu'un autre jour ne soit décompté de son échéance [de vie].<sup>5158</sup>"
+                    }
+                ],
+                "introduction": "«Et Allah vous a créés de terre, puis d'une goutte de sperme, Il vous a ensuite établis en couples. Nulle femelle ne porte ni ne met bas sans qu'Il le sache. Et aucune vie n'est prolongée ou abrégée sans que cela soit consigné dans un Livre. Cela est vraiment facile pour Allah.»<sup>5156</sup>"
             },
             {
-                "title": "1367 - L'incitation à faire le meilleur usage de sa vie"
+                "title": "1367 - L'incitation à faire le meilleur usage de sa vie",
+                "hadiths": [
+                    {
+                        "number": "4586",
+                        "text": "Le Messager d'Allah (s) a dit : Sois avare vis-à-vis de ta vie plus que tu ne l'es vis-à-vis de ton argent.<sup>5159</sup>"
+                    },
+                    {
+                        "number": "4587",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la durée de la vie est limitée et personne ne dépassera la limite qui lui a été déterminée, alors activez-vous [pour en faire le meilleur usage] avant que cela ne soit trop tard.<sup>5160</sup>"
+                    },
+                    {
+                        "number": "4588",
+                        "text": "L'Imām 'Alī (as) a dit : Hier est passé, ton lendemain est incertain, et le jour présent doit être une occasion à saisir.<sup>5161</sup>"
+                    },
+                    {
+                        "number": "4589",
+                        "text": "L'Imām 'Alī (as) a dit : Comme les heures de la journée passent vite, comme les jours du mois passent vite, comme les mois de l'année passent vite, et comme les années de la vie passent vite !<sup>5162</sup>"
+                    },
+                    {
+                        "number": "4590",
+                        "text": "L'Imām 'Alī (as) a dit : Ô gens ! [Comprenez la valeur du temps présent et profitez] de maintenant, maintenant, avant que vous soyez pris de regret, avant «<i>qu'une âme ne dise : «Malheur à moi pour mes manquements envers Allah !»</i>»<sup>5163</sup>.<sup>5164</sup>"
+                    },
+                    {
+                        "number": "4591",
+                        "text": "L'Imām 'Alī (as) a dit : Allah est miséricordieux envers un être qui sait que chacune de ses respirations sont autant de pas vers l'échéance [de sa vie], et qui se hâte en conséquence d'agir tout en réduisant ses espoirs.<sup>5165</sup>"
+                    },
+                    {
+                        "number": "4592",
+                        "text": "L'Imām 'Alī (as) a dit : Prenez garde à ne pas gâcher vos vies pour ce qui ne restera pas, car ce qui est passé ne revient jamais.<sup>5166</sup>"
+                    },
+                    {
+                        "number": "4593",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la durée de ta vie est la dot de ton bonheur si tu la passes dans l'obéissance à ton Seigneur.<sup>5167</sup>"
+                    }
+                ]
             },
             {
-                "title": "1368 - Celui dont la vie sera une preuve contre lui"
+                "title": "1368 - Celui dont la vie sera une preuve contre lui",
+                "hadiths": [
+                    {
+                        "number": "4594",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, un appel sera lancé : «Où sont les sexagénaires ?» C'est l'âge à propos duquel Allah le Très-Haut a dit : «<i>Ne vous avons-Nous pas donné une vie assez longue pour que celui qui réfléchit réfléchisse ?</i>»<sup>5169</sup>"
+                    },
+                    {
+                        "number": "4595",
+                        "text": "L'Imām 'Alī (as) a dit : L'âge jusqu'auquel Allah accepte les excuses des hommes pour certaines choses est de soixante ans.<sup>5170</sup>"
+                    },
+                    {
+                        "number": "4596",
+                        "text": "L'Imām 'Alī (as) a dit : Qu'elle sera grande la consternation de tout être négligent, car son âge sera un argument contre lui, et les jours [de sa vie d'ici-bas] seront la cause de son malheur !<sup>5171</sup>"
+                    },
+                    {
+                        "number": "4597",
+                        "text": "L'Imām al-Bāqir (as) a dit : Quand le serviteur atteint la quarantaine, il lui sera dit : «Sois sur tes gardes car tu n'as plus d'excuse. Le quadragénaire n'est plus à même d'être excusé comme un jeune de vingt ans.»<sup>5172</sup>"
+                    }
+                ],
+                "introduction": "«Et là, ils hurleront : «Seigneur, fais-nous sortir, nous ferons le bien, contrairement à ce que nous faisions.» «Ne vous avons-Nous pas donné une vie assez longue pour que celui qui réfléchit réfléchisse ? L'avertisseur, cependant, vous était venu. Eh bien, goûtez [votre punition]. Car pour les injustes, il n'y a pas de secoureur.»»<sup>5168</sup>"
             },
             {
-                "title": "1369 - Ce qui augmente la durée de vie"
+                "title": "1369 - Ce qui augmente la durée de vie",
+                "hadiths": [
+                    {
+                        "number": "4598",
+                        "text": "Le Messager d'Allah (s) a dit : Restez souvent en état de pureté afin qu'Allah augmente la durée de votre vie.<sup>5173</sup>"
+                    },
+                    {
+                        "number": "4599",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui aimerait que sa subsistance augmente et que l'échéance [de sa vie] soit reportée entretienne ses relations familiales.<sup>5174</sup>"
+                    },
+                    {
+                        "number": "4600",
+                        "text": "L'Imām 'Alī (as) a dit : Que celui qui aspire à rester en vie - bien que l'on ne reste pas en vie éternellement - prenne son petit-déjeuner tôt, chausse de bonnes chaussures, porte des vêtements légers et diminue ses relations intimes avec sa femme.<sup>5175</sup>"
+                    },
+                    {
+                        "number": "4601",
+                        "text": "L'Imām al-Bāqir (as) a dit : Ordonnez à nos partisans (<i>shī'a</i>) de visiter le tombeau de Ḥusayn ibn 'Alī (as) car en vérité, sa visite augmente la subsistance, rallonge la durée de vie, et repousse les maux.<sup>5176</sup>"
+                    },
+                    {
+                        "number": "4602",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La durée de vie de celui qui a de bonnes intentions est augmentée.<sup>5177</sup>"
+                    },
+                    {
+                        "number": "4603",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La durée de vie de celui qui a un bon comportement vis-à-vis de sa famille est augmentée.<sup>5178</sup>"
+                    },
+                    {
+                        "number": "4604",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si tu veux qu'Allah augmente la durée de ta vie, alors rends tes parents heureux.<sup>5179</sup><br>(Voir également : 159. Les liens familiaux, section 811)"
+                    }
+                ]
             },
             {
-                "title": "1370 - Le croyant et la demande d'une longue vie"
+                "title": "1370 - Le croyant et la demande d'une longue vie",
+                "hadiths": [
+                    {
+                        "number": "4605",
+                        "text": "Fāṭima al-Zahrā (as) a dit dans l'une de ses supplications : Ô Allah, par Ta connaissance de l'invisible et par Ta toute-puissance sur la création, garde-moi en vie tant que Tu sais que la vie est un bien pour moi, et fais-moi mourir lorsque la mort est meilleure pour moi.<sup>5180</sup>"
+                    },
+                    {
+                        "number": "4606",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans son invocation des nobles traits moraux : Et fais-moi vivre tant que ma vie est passée à T'obéir, mais lorsque ma vie devient un terrain fertile pour Satan, alors rappelle-moi à Toi.<sup>5181</sup>"
+                    }
+                ]
             },
             {
-                "title": "1371 - La sagesse du fait que l'homme ignore la durée de sa vie"
+                "title": "1371 - La sagesse du fait que l'homme ignore la durée de sa vie",
+                "hadiths": [
+                    {
+                        "number": "4607",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Médite maintenant, ô Mufaḍḍal, sur le fait que la durée de sa vie est cachée à la connaissance de l'homme car en vérité, s'il connaissait la durée de sa vie et qu'elle s'avérait être courte, il ne pourrait pas prendre plaisir à la vie et serait toujours dans l'attente de la venue de sa mort au moment dont il aurait connaissance. Il serait comme quelqu'un dont la fortune a disparu et qui est proche de l'anéantissement ; il ressentirait alors une impression de pauvreté et de crainte à la pensée de perdre sa fortune, ainsi qu'une peur de l'indigence. Or, ce que ressent l'homme qui sait qu'il va perdre sa vie est bien plus intense que ce que ressent celui qui sait qu'il va perdre ses biens, car celui qui voit sa fortune diminuer espère toujours qu'une partie pourra être remplacée et cela l'apaise, alors que celui qui a la certitude qu'il va perdre la vie est envahi par le désespoir. Et si [à l'inverse] sa vie était longue et qu'il le savait, il aurait la certitude qu'il resterait vivant. Il se plongerait alors dans les plaisirs et les péchés et agirait selon ce qui lui permet de satisfaire ses désirs charnels, puis se repentirait à la fin de sa vie…<br>Si tu objectes en disant que bien que la durée de sa vie soit cachée à l'homme et qu'il s'attende à la mort, il n'en commet pas moins des bas péchés et outrepasse les interdits à tout moment, nous répondrons : la raison profonde et la sagesse de cette mesure [que l'homme ignore la durée de sa vie] n'en reste pas moins ce qu'elle est, car si l'homme, malgré cela, ne cesse et n'évite pas de commettre de mauvais actes, cela est dû à sa joie insouciante ainsi qu'à la dureté de son cœur, et non à l'absence d'une erreur dans le plan [divin].<sup>5182</sup>"
+                    }
+                ]
             }
         ]
     },
