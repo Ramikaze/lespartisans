@@ -2496,9 +2496,6 @@ const AUNE_SAGESSE = [
                         "text": "<em>Mukhtaṣar Tārīkh Dimashq</em> : Un homme de Syrie rapporte : En arrivant à Médine, j'aperçus un homme dont la beauté m'étonna. Je demandai : «Qui est-il ?» On me répondit : «C'est Ḥasan ibn 'Alī.» [Le Syrien] dit : J'enviai 'Alī d'avoir un tel fils. Je me rapprochai de lui et lui demandai : «Es-tu le fils d'Abū Ṭālib ?» Il répondit : «Je suis son fils.» Je dis : «Soyez maudits, toi et ton père ! Soyez maudits, toi et ton père !» [Le Syrien] dit : L'Imām resta silencieux et ne répondit rien. Puis [après un moment] l'Imām (as) lui dit : «Je vois que tu es étranger, si tu as besoin d'une monture nous allons en mettre une à ta disposition, si tu as des besoins, nous les satisferons, si tu as besoin d'aide, nous t'aiderons.» L'homme rapporta : Lorsque je l'ai quitté, il était devenu la personne que j'aimais le plus au monde.<span class=\"footnote-ref\">469</span>"
                     }
                 ]
-            },
-            {
-                "title": "Subpart 3"
             }
         ]
     },
@@ -2631,9 +2628,6 @@ const AUNE_SAGESSE = [
                         "text": "Abū Na'īm dans <em>Ḥilyat al-Awliyā'</em> : 'Alī ibn Ḥusayn (as) entendit un cri venant de chez lui alors qu'il était assis avec un groupe de personnes. Il se leva, alla chez lui et revint quelques instants après auprès du groupe. On lui demanda: «Ce cri était-il dû à un accident [un décès] ?» Il répondit : «Oui.» Ils lui présentèrent leurs condoléances et étaient étonnés de sa patience. Il dit alors : «Nous, les Gens de la demeure prophétique, nous obéissons à Allah dans ce que nous aimons et nous Le louons dans ce que nous n'aimons pas.»<span class=\"footnote-ref\">497</span><br><br><span class=\"reference-note\">(Voir également : 183. La prosternation, sections 920 et 921)</span>"
                     }
                 ]
-            },
-            {
-                "title": "Subpart 2"
             }
         ]
     },
@@ -2721,9 +2715,6 @@ const AUNE_SAGESSE = [
                         "text": "Abū 'Amrū al-Shaybānī a dit : J'ai vu Abū 'Abdillāh (as) une pelle à la main et portant des vêtements épais en train de travailler dans son terrain, alors que la sueur coulait de son dos. Je lui dis alors : «Que je te sois sacrifié ! Laisse-moi faire cela à ta place.» Il me dit : «En vérité, j'aime que l'homme soit affecté par la chaleur du soleil en quête de sa subsistance.»<span class=\"footnote-ref\">511</span>"
                     }
                 ]
-            },
-            {
-                "title": "Subpart 2"
             }
         ]
     },
@@ -2873,7 +2864,7 @@ const AUNE_SAGESSE = [
         "title": "28 - L'IMĀM AL-ḤASAN IBN 'ALĪ AL-'ASKARĪ (AS)",
         "subparts": [
             {
-                "title": "La signification du nom du Mahdī",
+                "title": "157 - Sa désignation en tant qu'Imām",
                 "hadiths": [
                     {
                         "number": "479",
@@ -2882,7 +2873,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La nécessité de l'Imām",
+                "title": "158 - Ses vertus",
                 "hadiths": [
                     {
                         "number": "480",
@@ -2893,42 +2884,6 @@ const AUNE_SAGESSE = [
                         "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Abū al-Qāsim al-Kūfī a dit : En vérité, Isḥāq al-Kindī, qui était le philosophe de son époque en Irak, entreprit d'écrire un livre sur les contradictions du Coran, et resta seul chez lui pour se consacrer à cette tâche. Un jour, l'un de ses élèves se rendit chez l'Imām Ḥasan al-'Askarī (as) et Abū Muḥammad [surnom de l'Imām] lui dit : «N'y a-t-il pas parmi vous un homme sage et bien guidé qui puisse dissuader votre maître al-Kindī de continuer le travail qu'il a entrepris sur le Coran ?» L'élève lui répondit : «Nous sommes ses élèves, comment pourrions-nous nous permettre de le contredire sur ce sujet ou sur un autre ?» Abū Muḥammad lui dit alors : «Pourrais-tu lui transmettre ce que je vais lui dire par toi ?» Il dit : «Oui.» Il (as) dit alors : «Rends-toi auprès de lui, et propose-lui avec courtoisie de l'aider dans sa tâche, comme si tu voulais te rendre familier avec ce qu'il fait. Lorsque cette familiarité se sera établie, dis-lui : «Je souhaiterais vous poser une question.» Il te laissera certainement la poser, alors dis-lui : «Si quelqu'un qui parlait uniquement en utilisant [les versets] du Coran venait à vous, pensez-vous qu'il soit possible que ce qu'il veule dire par ces paroles soit autre que ce que vous en avez compris?» Il te dira bien entendu que cela est possible, car c'est un homme sensé et raisonnable lorsqu'il entend [de telles paroles]. S'il te confirme cela, alors dis-lui: «Dans ce cas, cela signifie que ce que vous avez compris est peut-être différent de ce qu'il voulait dire ; vous aurez alors imposé une signification à un mot qui est différente de l'originale».» Ainsi, l'élève partit chez son maître al-Kindī et établit une familiarité jusqu'à ce qu'il puisse lui poser la question. Al-Kindī lui dit alors : «Répète ta question.» Et l'élève répéta sa question. Al-Kindī se mit à réfléchir et en déduisit que sur le plan linguistique, cela était possible, et que c'était même admissible d'un point de vue conceptuel. Il dit à son élève : «Je t'en adjure, dis-moi d'où t'est venu cela.» L'élève dit : «C'est une réflexion qui m'est venue à l'esprit et que j'ai voulu vous présenter.» Al-Kindī dit : «Certainement pas, une telle question ne peut venir à l'esprit de quelqu'un comme toi, et tu ne peux atteindre un tel rang [dans le savoir] ; dis-moi d'où cela t'est venu.» Alors l'élève lui dit : «C'est Abū Muḥammad qui m'a ordonné de vous [dire] cela.» Al-Kindī dit : «Maintenant tu dis vrai, ce genre de question ne peut provenir que de cette demeure.» Et ainsi, il demanda qu'on lui apporte du feu et brûla ce qu'il avait écrit.<span class=\"footnote-ref\">538</span>"
                     }
                 ]
-            },
-            {
-                "title": "La bonne nouvelle du Mahdī ('aj)"
-            },
-            {
-                "title": "Les deux occultations de l'Imām al-Qā'im ('aj)"
-            },
-            {
-                "title": "La difficulté d'adhérer à la religion durant l'occultation"
-            },
-            {
-                "title": "L'invocation durant l'occultation du Qā'im ('aj)"
-            },
-            {
-                "title": "L'attente active de la délivrance"
-            },
-            {
-                "title": "La réapparition du Qā'im ('aj) après le désespoir des gens"
-            },
-            {
-                "title": "Ceux qui prédisent le moment mentent"
-            },
-            {
-                "title": "La raison de l'occultation"
-            },
-            {
-                "title": "Les personnes bénéficiant de l'Imām durant son occultation"
-            },
-            {
-                "title": "Les partisans du Qā'im"
-            },
-            {
-                "title": "Durant l'apparition"
-            },
-            {
-                "title": "Le monde après la réapparition du Mahdī ('aj)"
             }
         ]
     },
@@ -2936,7 +2891,7 @@ const AUNE_SAGESSE = [
         "title": "29 - L'IMĀM AL-QĀ'IM ('AJ)",
         "subparts": [
             {
-                "title": "La foi et l'islam",
+                "title": "159 - Les noms de l'Imām",
                 "hadiths": [
                     {
                         "number": "482",
@@ -2949,7 +2904,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La réalité de la foi",
+                "title": "160 - Sa désignation en tant qu'Imām",
                 "hadiths": [
                     {
                         "number": "484",
@@ -2958,7 +2913,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La relation entre la foi et les actes",
+                "title": "161 - La bonne nouvelle du Mahdī ('aj)",
                 "note": "(Voir également : 290. Les actes)",
                 "hadiths": [
                     {
@@ -2988,7 +2943,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La foi et les péchés",
+                "title": "162 - Les deux occultations de l'Imām al-Qā'im ('aj)",
                 "hadiths": [
                     {
                         "number": "491",
@@ -2997,7 +2952,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ce qui permet d'accomplir la foi",
+                "title": "163 - La difficulté d'adhérer à la religion durant l'occultation de l'Imām ('aj)",
                 "hadiths": [
                     {
                         "number": "492",
@@ -3010,8 +2965,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'augmentation de la foi",
-                "introduction": "«<i>Et quand Ses versets leur sont récités, cela fait augmenter leur foi.</i>»<sup>612</sup>",
+                "title": "164 - L'invocation durant l'occultation du Qā'im ('aj)",
                 "note": "(Voir également : Coran 2:260, 18:13-14, 33:22, 48:4, 58:22)",
                 "hadiths": [
                     {
@@ -3310,7 +3264,8 @@ const AUNE_SAGESSE = [
                         "number": "548",
                         "text": "L'Imām 'Alī (as) a dit : En vérité, la foi apparaît comme un point blanc dans le cœur. Au fur et à mesure que la foi augmente, le blanc s'étend et lorsque la foi est accomplie, tout le cœur devient blanc.<sup>613</sup>"
                     }
-                ]
+                ],
+                "introduction": "«<i>Et quand Ses versets leur sont récités, cela fait augmenter leur foi.</i>»<sup>612</sup>"
             },
             {
                 "title": "179 - Les degrés de la foi",
@@ -3671,16 +3626,16 @@ const AUNE_SAGESSE = [
                     {
                         "number": "612",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Craignez Allah et restituez son dépôt à celui qui vous l'a confié, car même si l'assassin de l'Emir des croyants (as) m'avait confié un dépôt, je le lui aurais restitué.<span class=\"footnote-ref\">680</span>"
+                    },
+                    {
+                        "number": "613",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Restituez le dépôt [à son propriétaire], même s'il appartient à l'assassin de Ḥusayn ibn 'Alī (as).<span class=\"footnote-ref\">681</span>"
                     }
                 ]
             },
             {
                 "title": "199 - Celui qui n'est pas digne de confiance est dénué de foi",
                 "hadiths": [
-                    {
-                        "number": "613",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Restituez le dépôt [à son propriétaire], même s'il appartient à l'assassin de Ḥusayn ibn 'Alī (as).<span class=\"footnote-ref\">681</span>"
-                    },
                     {
                         "number": "614",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui n'est pas digne de confiance est dénué de foi.<span class=\"footnote-ref\">682</span>"
@@ -3849,7 +3804,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La raison de la création de l'homme",
+                "title": "209 - La raison de la création de l'homme",
                 "introduction": "«<i>Je n'ai créé les djinns et les hommes que pour qu'ils M'adorent.</i>»<sup>710</sup><br><br>«<i>Et si ton Seigneur l'avait voulu, Il aurait fait des gens une seule communauté. Or, ils ne cessent d'être en désaccord [entre eux], à l'exception de ceux auxquels ton Seigneur a accordé miséricorde. C'est pour cela qu'Il les a créés.</i>»<sup>711</sup>",
                 "hadiths": [
                     {
@@ -3871,7 +3826,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La faiblesse de l'homme",
+                "title": "210 - La faiblesse de l'homme",
                 "introduction": "«<i>L'homme a été créé faible.</i>»<sup>717</sup>",
                 "hadiths": [
                     {
@@ -3881,7 +3836,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Mesurer la valeur de l'être humain",
+                "title": "211 - Mesurer la valeur de l'être humain",
                 "hadiths": [
                     {
                         "number": "645",
@@ -4211,7 +4166,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'avare",
+                "title": "215 - L'avare",
                 "hadiths": [
                     {
                         "number": "720",
@@ -4244,7 +4199,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le véritable avare",
+                "title": "216 - Le véritable avare",
                 "hadiths": [
                     {
                         "number": "727",
@@ -4257,7 +4212,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La plus avare des personnes",
+                "title": "217 - La plus avare des personnes",
                 "hadiths": [
                     {
                         "number": "729",
@@ -4282,7 +4237,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le signe de l'avarice",
+                "title": "218 - Le signe de l'avarice",
                 "hadiths": [
                     {
                         "number": "734",
@@ -4300,7 +4255,7 @@ const AUNE_SAGESSE = [
         "title": "37 - L'INNOVATION (AL-BID'A)",
         "subparts": [
             {
-                "title": "Mise en garde contre l'innovation",
+                "title": "219 - Mise en garde contre l'innovation",
                 "hadiths": [
                     {
                         "number": "736",
@@ -4321,7 +4276,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les innovateurs",
+                "title": "220 - Les innovateurs",
                 "hadiths": [
                     {
                         "number": "740",
@@ -4334,7 +4289,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La signification de l'innovation",
+                "title": "221 - La signification de l'innovation",
                 "hadiths": [
                     {
                         "number": "742",
@@ -4347,7 +4302,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le rejet de l'innovateur",
+                "title": "222 - Le rejet de l'innovateur",
                 "hadiths": [
                     {
                         "number": "744",
@@ -4360,7 +4315,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'innovateur et l'adoration",
+                "title": "223 - L'innovateur et l'adoration",
                 "hadiths": [
                     {
                         "number": "746",
@@ -4369,7 +4324,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La nullité de l'acte de l'innovateur",
+                "title": "224 - La nullité de l'acte de l'innovateur",
                 "hadiths": [
                     {
                         "number": "747",
@@ -4382,7 +4337,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les obligations du savant lors de l'apparition des innovations",
+                "title": "225 - Les obligations du savant lors de l'apparition des innovations",
                 "hadiths": [
                     {
                         "number": "749",
@@ -4396,7 +4351,7 @@ const AUNE_SAGESSE = [
         "title": "38 - LE GASPILLAGE",
         "subparts": [
             {
-                "title": "Le blâme du gaspillage",
+                "title": "226 - Le blâme du gaspillage",
                 "introduction": "«<i>Et donne au proche parent ce qui lui est dû, ainsi qu'au pauvre et au voyageur. Et ne gaspille pas indûment, car les gaspilleurs sont les frères des diables, et le Diable est très ingrat envers son Seigneur.</i>»<sup>827</sup>",
                 "hadiths": [
                     {
@@ -4418,7 +4373,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La signification du gaspillage",
+                "title": "227 - La signification du gaspillage",
                 "hadiths": [
                     {
                         "number": "754",
@@ -4436,7 +4391,7 @@ const AUNE_SAGESSE = [
         "title": "39 - LA VERTU",
         "subparts": [
             {
-                "title": "Incitation à la vertu",
+                "title": "228 - Incitation à la vertu",
                 "introduction": "«<i>Entraidez-vous dans l'accomplissement de la vertu et de la piété, et ne vous entraidez pas dans le péché et la transgression. Et craignez Allah, car Allah est, certes, dur en punition.</i>»<sup>836</sup>",
                 "hadiths": [
                     {
@@ -4458,7 +4413,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le signe de la personne vertueuse",
+                "title": "229 - Le signe de la personne vertueuse",
                 "hadiths": [
                     {
                         "number": "760",
@@ -4467,7 +4422,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le sommet de la vertu",
+                "title": "230 - Le sommet de la vertu",
                 "hadiths": [
                     {
                         "number": "761",
@@ -4481,7 +4436,7 @@ const AUNE_SAGESSE = [
         "title": "40 - LE MONDE INTERMÉDIAIRE (AL-BARZAKH)",
         "subparts": [
             {
-                "title": "La signification du monde intermédiaire",
+                "title": "231 - La signification du monde intermédiaire",
                 "introduction": "«<i>Derrière eux, cependant, il y a une barrière (barzakh), jusqu'au jour où ils seront ressuscités.</i>»<sup>843</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:169-171, 23:99-100, 40:11)</span>",
                 "hadiths": [
                     {
@@ -4491,7 +4446,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'âme des croyants dans le monde intermédiaire",
+                "title": "232 - L'âme des croyants dans le monde intermédiaire",
                 "introduction": "«<i>Ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants, auprès de leur Seigneur, bien pourvus.</i>»<sup>845</sup>",
                 "hadiths": [
                     {
@@ -4501,7 +4456,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'âme des mécréants dans le monde intermédiaire",
+                "title": "233 - L'âme des mécréants dans le monde intermédiaire",
                 "hadiths": [
                     {
                         "number": "764",
@@ -4515,7 +4470,7 @@ const AUNE_SAGESSE = [
         "title": "41 - LA BÉNÉDICTION",
         "subparts": [
             {
-                "title": "La signification de la bénédiction",
+                "title": "234 - La signification de la bénédiction",
                 "introduction": "«<i>Où que je sois, Il m'a rendu béni ; et Il m'a recommandé la prière (ṣalāt) et la zakāt tant que je vivrai.</i>»<sup>848</sup>",
                 "hadiths": [
                     {
@@ -4525,7 +4480,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ce qui suscite la bénédiction et ce qui l'éloigne",
+                "title": "235 - Ce qui suscite la bénédiction et ce qui l'éloigne",
                 "introduction": "«<i>Et si les habitants des cités avaient cru et avaient été pieux, Nous leur aurions certainement accordé des bénédictions du ciel et de la terre. Mais ils ont démenti et Nous les avons donc saisis pour ce qu'ils avaient acquis.</i>»<sup>851</sup>",
                 "hadiths": [
                     {
@@ -4556,7 +4511,7 @@ const AUNE_SAGESSE = [
         "title": "42 - LA GAIETÉ",
         "subparts": [
             {
-                "title": "L'encouragement à la gaieté",
+                "title": "236 - L'encouragement à la gaieté",
                 "hadiths": [
                     {
                         "number": "771",
@@ -4606,7 +4561,7 @@ const AUNE_SAGESSE = [
         "title": "43 - LA CLAIRVOYANCE",
         "subparts": [
             {
-                "title": "La clairvoyance",
+                "title": "237 - La clairvoyance",
                 "introduction": "«<i>Nous avons destiné à l'Enfer un grand nombre de djinns et d'hommes. Ils ont des cœurs mais ne comprennent pas, ils ont des yeux mais ne voient pas, ils ont des oreilles mais n'entendent pas. Ceux-là sont comme les bestiaux, même plus égarés encore. Tels sont les insouciants.</i>»<sup>867</sup>",
                 "hadiths": [
                     {
@@ -4641,7 +4596,7 @@ const AUNE_SAGESSE = [
         "title": "44 - LE FAUX",
         "subparts": [
             {
-                "title": "Mise en garde contre le fait de suivre le faux",
+                "title": "238 - Mise en garde contre le fait de suivre le faux",
                 "introduction": "«<i>Et dis : «La Vérité est venue et l'erreur a disparu.» Certes, l'erreur est vouée à disparaître.</i>»<sup>874</sup><br><br>«<i>Bien au contraire, Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît. Et malheur à vous pour ce que vous attribuez [injustement à Allah] !</i>»<sup>875</sup>",
                 "hadiths": [
                     {
@@ -4663,7 +4618,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Discerner la vérité du faux",
+                "title": "239 - Discerner la vérité du faux",
                 "hadiths": [
                     {
                         "number": "791",
@@ -4672,7 +4627,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Mêler la vérité au faux",
+                "title": "240 - Mêler la vérité au faux",
                 "introduction": "«<i>Et ne mêlez pas le faux à la vérité. Ne cachez pas sciemment la vérité.</i>»<sup>881</sup>",
                 "hadiths": [
                     {
@@ -4686,7 +4641,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le faux ne peut être reconnu comme étant le vrai",
+                "title": "241 - Le faux ne peut être reconnu comme étant le vrai",
                 "hadiths": [
                     {
                         "number": "794",
@@ -4704,7 +4659,7 @@ const AUNE_SAGESSE = [
         "title": "45 - L'AVERSION",
         "subparts": [
             {
-                "title": "Ceux qu'Allah a en aversion",
+                "title": "242 - Ceux qu'Allah a en aversion",
                 "hadiths": [
                     {
                         "number": "796",
@@ -4737,7 +4692,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les personnes qu'Allah a le plus en aversion",
+                "title": "243 - Les personnes qu'Allah a le plus en aversion",
                 "hadiths": [
                     {
                         "number": "803",
@@ -4790,7 +4745,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les actes qu'Allah a en aversion",
+                "title": "244 - Les actes qu'Allah a en aversion",
                 "hadiths": [
                     {
                         "number": "815",
@@ -4819,7 +4774,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La malveillance",
+                "title": "245 - La malveillance",
                 "hadiths": [
                     {
                         "number": "821",
@@ -4912,7 +4867,7 @@ const AUNE_SAGESSE = [
         "title": "47 - LES PLEURS",
         "subparts": [
             {
-                "title": "Pleurer par crainte d'Allah",
+                "title": "250 - Pleurer par crainte d'Allah",
                 "introduction": "«<i>Lorsque les versets du Tout Miséricordieux leur étaient récités, ils tombaient prosternés en pleurant.</i>»<sup>929</sup><br><br>«<i>Et ils tombent sur leur menton, pleurant, et cela augmente leur humilité.</i>»<sup>930</sup>",
                 "hadiths": [
                     {
@@ -4962,7 +4917,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La sécheresse de l'œil",
+                "title": "251 - La sécheresse de l'œil",
                 "hadiths": [
                     {
                         "number": "846",
@@ -4980,11 +4935,11 @@ const AUNE_SAGESSE = [
         "title": "48 - LA CONTRÉE",
         "subparts": [
             {
-                "title": "La bonne contrée",
+                "title": "252 - La bonne contrée",
                 "introduction": "«<i>Une bonne contrée et un Seigneur Pardonneur.</i>»<sup>944</sup><br><br>«<i>Et Nous avions placé entre eux et les cités que Nous avions bénies, d'autres cités proéminentes, et Nous avions évalué les étapes de voyage entre elle. «Voyagez entre elles, de nuit et de jour, en toute sécurité».</i>»<sup>945</sup><br><br><span class=\"reference-note\">(Voir également : Coran 21:71, 21:81, 23:50, 28:29-30, 79:16, 90:1-2, 95:1-3)</span>"
             },
             {
-                "title": "Choisissez les grandes villes",
+                "title": "253 - Choisissez les grandes villes",
                 "hadiths": [
                     {
                         "number": "848",
@@ -4993,7 +4948,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La meilleure des contrées",
+                "title": "254 - La meilleure des contrées",
                 "hadiths": [
                     {
                         "number": "849",
@@ -5002,7 +4957,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ce dont ne peuvent se passer les habitants de toute contrée",
+                "title": "255 - Ce dont ne peuvent se passer les habitants de toute contrée",
                 "hadiths": [
                     {
                         "number": "850",
@@ -5016,7 +4971,7 @@ const AUNE_SAGESSE = [
         "title": "49 - L'ÉLOQUENCE",
         "subparts": [
             {
-                "title": "La signification de l'éloquence",
+                "title": "256 - La signification de l'éloquence",
                 "hadiths": [
                     {
                         "number": "851",
@@ -5041,7 +4996,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La plus éloquente des paroles",
+                "title": "257 - La plus éloquente des paroles",
                 "hadiths": [
                     {
                         "number": "856",
@@ -5054,7 +5009,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La manipulation par la parole",
+                "title": "258 - La manipulation par la parole",
                 "hadiths": [
                     {
                         "number": "858",
@@ -5068,7 +5023,7 @@ const AUNE_SAGESSE = [
         "title": "50 - LA DIFFUSION [DE L'ISLAM]",
         "subparts": [
             {
-                "title": "L'importance de la diffusion [de l'islam]",
+                "title": "259 - L'importance de la diffusion [de l'islam]",
                 "introduction": "«<i>Les croyants n'ont pas à quitter tous leurs foyers. Pourquoi de chaque clan quelques hommes ne viendraient-ils pas s'instruire dans la religion pour pouvoir à leur retour avertir leur peuple afin qu'ils soient sur leur garde ?</i>»<sup>957</sup>",
                 "hadiths": [
                     {
@@ -5102,7 +5057,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ce qui incombe au diffuseur [de l'islam]",
+                "title": "260 - Ce qui incombe au diffuseur [de l'islam]",
                 "hadiths": [
                     {
                         "number": "866",
@@ -5168,7 +5123,7 @@ const AUNE_SAGESSE = [
         "title": "51 - L'ÉPREUVE",
         "subparts": [
             {
-                "title": "Être éprouvé par le mal et le bien",
+                "title": "261 - Être éprouvé par le mal et le bien",
                 "introduction": "«<i>Nous vous éprouvons par le mal et par le bien [à titre] de tentation.</i>»<sup>982</sup>",
                 "hadiths": [
                     {
@@ -5182,7 +5137,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La philosophie de l'épreuve",
+                "title": "262 - La philosophie de l'épreuve",
                 "introduction": "«<i>Ceci afin qu'Allah éprouve ce que vous avez dans vos poitrines, et qu'Il purifie ce que vous avez dans vos cœurs. Et Allah connaît ce qu'il y a dans les cœurs.</i>»<sup>985</sup><br><br>«<i>Certes Nous vous éprouverons afin de distinguer ceux d'entre vous qui luttent [pour la cause d'Allah] et qui endurent, afin d'éprouver [de faire apparaître] vos nouvelles.</i>»<sup>986</sup><br><br>«<i>Celui qui a créé la mort et la vie pour vous éprouver [et savoir] qui de vous est le meilleur en œuvre, et c'est Lui le Puissant, le Pardonneur.</i>»<sup>987</sup>",
                 "hadiths": [
                     {
@@ -5204,7 +5159,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La dureté des épreuves du croyant",
+                "title": "263 - La dureté des épreuves du croyant",
                 "introduction": "«<i>Pensez-vous entrer au Paradis alors que vous n'avez pas encore subi des épreuves semblables à celles que subirent ceux qui vécurent avant vous ? Misère et maladie les avaient touchés ; et ils furent secoués jusqu'à ce que le Messager, et avec lui ceux qui avaient crus, se fussent écriés : «A quand donc le secours d'Allah ?» Certes, le secours d'Allah est sûrement proche.</i>»<sup>992</sup>",
                 "hadiths": [
                     {
@@ -5222,7 +5177,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le rôle des mauvais actes dans l'apparition des épreuves",
+                "title": "264 - Le rôle des mauvais actes dans l'apparition des épreuves",
                 "introduction": "«<i>Tout malheur qui vous frappe est dû à ce que vos mains ont acquis. Et Il pardonne beaucoup.</i>»<sup>996</sup>",
                 "hadiths": [
                     {
@@ -5232,7 +5187,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Celui qui n'est pas éprouvé est méprisé par Allah",
+                "title": "265 - Celui qui n'est pas éprouvé est méprisé par Allah",
                 "hadiths": [
                     {
                         "number": "890",
@@ -5245,7 +5200,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La grâce de l'épreuve",
+                "title": "266 - La grâce de l'épreuve",
                 "hadiths": [
                     {
                         "number": "892",
@@ -5270,7 +5225,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'épreuve et le rappel",
+                "title": "267 - L'épreuve et le rappel",
                 "introduction": "«<i>Nous avons éprouvé les gens de Pharaon par des années de disette et par une diminution de fruits afin qu'ils se rappellent.</i>»<sup>1005</sup>",
                 "hadiths": [
                     {
@@ -5288,7 +5243,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les péchés sont épurés par les épreuves",
+                "title": "268 - Les péchés sont épurés par les épreuves",
                 "hadiths": [
                     {
                         "number": "900",
@@ -5305,7 +5260,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'épreuve est un signe de l'amour d'Allah - loué soit-Il",
+                "title": "269 - L'épreuve est un signe de l'amour d'Allah - loué soit-Il",
                 "hadiths": [
                     {
                         "number": "903",
@@ -5318,7 +5273,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'épreuve est proportionnelle au degré de la foi",
+                "title": "270 - L'épreuve est proportionnelle au degré de la foi",
                 "hadiths": [
                     {
                         "number": "905",
@@ -5339,7 +5294,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les degrés auxquels accède le serviteur par les épreuves",
+                "title": "271 - Les degrés auxquels accède le serviteur par les épreuves",
                 "hadiths": [
                     {
                         "number": "909",
@@ -5352,7 +5307,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'épreuve du croyant est un bien pour lui",
+                "title": "272 - L'épreuve du croyant est un bien pour lui",
                 "hadiths": [
                     {
                         "number": "911",
@@ -5361,7 +5316,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'épreuve la plus difficile des serviteurs",
+                "title": "273 - L'épreuve la plus difficile des serviteurs",
                 "hadiths": [
                     {
                         "number": "912",
@@ -5382,7 +5337,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La délivrance au sommet de l'épreuve",
+                "title": "274 - La délivrance au sommet de l'épreuve",
                 "hadiths": [
                     {
                         "number": "916",
@@ -5395,7 +5350,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le rappel d'Allah lors des épreuves",
+                "title": "275 - Le rappel d'Allah lors des épreuves",
                 "introduction": "«<i>Qui disent, lorsqu'un malheur les touche : «Certes nous sommes à Allah, et c'est à Lui que nous retournerons».</i>»<sup>1028</sup>",
                 "hadiths": [
                     {
@@ -5409,7 +5364,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'invocation à la vue de personnes éprouvées",
+                "title": "276 - L'invocation à la vue de personnes éprouvées",
                 "hadiths": [
                     {
                         "number": "920",
@@ -5427,7 +5382,7 @@ const AUNE_SAGESSE = [
         "title": "52 - LA CALOMNIE",
         "subparts": [
             {
-                "title": "Mise en garde contre la calomnie",
+                "title": "277 - Mise en garde contre la calomnie",
                 "introduction": "«<i>Et ceux qui offensent les croyants et les croyantes sans qu'ils l'aient mérité se chargent d'une calomnie et d'un péché évident.</i>»<sup>1033</sup><br><br><span class=\"reference-note\">(Voir également : Coran 17:36, 24:12-15, 49:12)</span>",
                 "hadiths": [
                     {
@@ -5458,7 +5413,7 @@ const AUNE_SAGESSE = [
         "title": "53 - L'EXÉCRATION RÉCIPROQUE (AL-MUBĀHALA)",
         "subparts": [
             {
-                "title": "L'exécration réciproque",
+                "title": "278 - L'exécration réciproque",
                 "introduction": "«<i>A ceux qui te contredisent à son propos [à propos de Jésus], maintenant que tu es bien informé, tu n'as qu'à dire : «Venez, appelons nos fils et les vôtres, nos femmes et les vôtres, nos propres personnes et les vôtres, puis proférons l'exécration réciproque en appelant la malédiction d'Allah sur les menteurs».</i>»<sup>1039</sup>",
                 "hadiths": [
                     {
@@ -5477,7 +5432,7 @@ const AUNE_SAGESSE = [
         "title": "54 - LE SERMENT D'ALLÉGEANCE (AL-BAY'A)",
         "subparts": [
             {
-                "title": "Le serment d'allégeance au Prophète (s) est une allégeance à Allah",
+                "title": "279 - Le serment d'allégeance au Prophète (s) est une allégeance à Allah",
                 "introduction": "«<i>Ceux qui te prêtent serment d'allégeance ne font que prêter serment à Allah : la main d'Allah est au-dessus de leurs mains. Quiconque viole le serment ne le viole qu'à son propre détriment ; et quiconque remplit son engagement auprès d'Allah, Il lui apportera bientôt une énorme récompense.</i>»<sup>1043</sup>",
                 "hadiths": [
                     {
@@ -5491,7 +5446,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le serment d'allégeance des femmes",
+                "title": "280 - Le serment d'allégeance des femmes",
                 "introduction": "«<i>Ô Prophète ! Quand les croyantes viennent à toi pour te prêter serment d'allégeance [et s'engagent] qu'elles n'associeront rien à Allah, qu'elles ne voleront pas, qu'elles ne se livreront pas à l'adultère, qu'elles ne tueront pas leurs propres enfants, qu'elles ne commettront aucune infamie ni avec leurs mains ni avec leurs pieds et qu'elles ne désobéiront pas en ce qui est convenable, alors reçois leur serment d'allégeance, et implore d'Allah le pardon pour elle. Allah est certes, Pardonneur et Très Miséricordieux.</i>»<sup>1048</sup>",
                 "hadiths": [
                     {
@@ -5501,7 +5456,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Violer son serment d'allégeance",
+                "title": "281 - Violer son serment d'allégeance",
                 "introduction": "«<i>Soyez fidèles au pacte d'Allah après l'avoir contracté et ne violez pas vos serments après les avoir solennellement prêtés et avoir pris Allah comme garant [de votre sincérité]. Vraiment Allah sait ce que vous faites !</i>»<sup>1050</sup>",
                 "hadiths": [
                     {
@@ -5523,7 +5478,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le serment d'allégeance des musulmans à l'Imām 'Alī (as)",
+                "title": "282 - Le serment d'allégeance des musulmans à l'Imām 'Alī (as)",
                 "hadiths": [
                     {
                         "number": "936",
@@ -5541,7 +5496,7 @@ const AUNE_SAGESSE = [
         "title": "55 - LE COMMERCE",
         "subparts": [
             {
-                "title": "La vertu du commerce",
+                "title": "283 - La vertu du commerce",
                 "introduction": "«<i>Ô vous qui croyez ! Que certains d'entre vous ne mangent pas les biens des autres illégalement. Mais qu'il y ait du commerce [légal] entre vous, par consentement mutuel. Et ne vous tuez pas vous-mêmes.</i><sup>1057</sup> <i>Allah, en vérité, est Miséricordieux envers vous.</i>»<sup>1058</sup>",
                 "hadiths": [
                     {
@@ -5555,7 +5510,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Délaisser le commerce",
+                "title": "284 - Délaisser le commerce",
                 "hadiths": [
                     {
                         "number": "940",
@@ -5568,7 +5523,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le bon comportement dans le commerce",
+                "title": "285 - Le bon comportement dans le commerce",
                 "hadiths": [
                     {
                         "number": "942",
@@ -5597,7 +5552,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'interdiction de la fraude",
+                "title": "286 - L'interdiction de la fraude",
                 "introduction": "«<i>Malheur aux fraudeurs qui, lorsqu'ils font mesurer pour eux-mêmes exigent la pleine mesure, et qui lorsqu'eux-mêmes mesurent ou pèsent pour les autres, [leur] causent perte.</i>»<sup>1070</sup><br><br><span class=\"reference-note\">(Voir également : Coran 6:152, 11:84-85, 26:181-183, 55:7-9)</span>",
                 "hadiths": [
                     {
@@ -5611,7 +5566,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'incitation du commerçant à la charité",
+                "title": "287 - L'incitation du commerçant à la charité",
                 "hadiths": [
                     {
                         "number": "950",
@@ -5620,7 +5575,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'indulgence dans la vente et l'achat",
+                "title": "288 - L'indulgence dans la vente et l'achat",
                 "hadiths": [
                     {
                         "number": "951",
@@ -5633,7 +5588,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le marchandage",
+                "title": "289 - Le marchandage",
                 "hadiths": [
                     {
                         "number": "953",
@@ -5646,7 +5601,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'égalité entre la personne qui marchande et celle qui ne marchande pas",
+                "title": "290 - L'égalité entre la personne qui marchande et celle qui ne marchande pas",
                 "hadiths": [
                     {
                         "number": "955",
@@ -5655,7 +5610,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le profit du croyant vis-à-vis d'un autre croyant",
+                "title": "291 - Le profit du croyant vis-à-vis d'un autre croyant",
                 "hadiths": [
                     {
                         "number": "956",
@@ -5668,7 +5623,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les commerçants immoraux",
+                "title": "292 - Les commerçants immoraux",
                 "hadiths": [
                     {
                         "number": "958",
@@ -5681,7 +5636,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Inciter les commerçants à être honnête",
+                "title": "293 - Inciter les commerçants à être honnête",
                 "hadiths": [
                     {
                         "number": "960",
@@ -5698,7 +5653,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Mise en garde au sujet du recours au serment dans le commerce",
+                "title": "294 - Mise en garde au sujet du recours au serment dans le commerce",
                 "hadiths": [
                     {
                         "number": "963",
@@ -5711,7 +5666,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le commerce de l'Au-delà",
+                "title": "295 - Le commerce de l'Au-delà",
                 "introduction": "«<i>Ô vous qui avez cru ! Vous indiquerai-je un commerce qui vous sauvera d'un châtiment douloureux ? Vous croyez en Allah et en Son Messager, et vous combattez avec vos biens et vos personnes dans le chemin d'Allah, et cela vous est bien meilleur, si vous saviez !</i>»<sup>1088</sup>",
                 "hadiths": [
                     {
@@ -5741,7 +5696,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le commerce ne distrait pas le croyant [du souvenir d'Allah]",
+                "title": "296 - Le commerce ne distrait pas le croyant [du souvenir d'Allah]",
                 "introduction": "«<i>Des hommes que ni le négoce, ni la vente ne distraient de l'invocation d'Allah, de l'accomplissement de la prière (ṣalāt) et de l'acquittement de l'aumône (zakāt), et qui redoutent un Jour où les cœurs seront bouleversés ainsi que les regards.</i>»<sup>1096</sup>",
                 "hadiths": [
                     {
@@ -5751,7 +5706,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le commerce de la religion",
+                "title": "297 - Le commerce de la religion",
                 "hadiths": [
                     {
                         "number": "972",
@@ -5769,7 +5724,7 @@ const AUNE_SAGESSE = [
         "title": "56 - LE REPENTIR",
         "subparts": [
             {
-                "title": "L'incitation au repentir",
+                "title": "298 - L'incitation au repentir",
                 "introduction": "«<i>C'est Lui qui agrée le repentir de Ses serviteurs, pardonne les méfaits et sait ce que vous faites.</i>»<sup>1100</sup>",
                 "hadiths": [
                     {
@@ -5787,7 +5742,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le statut du repentant",
+                "title": "299 - Le statut du repentant",
                 "introduction": "«<i>Allah aime ceux qui se repentent, et Il aime ceux qui se purifient.</i>»<sup>1104</sup>",
                 "hadiths": [
                     {
@@ -5805,7 +5760,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le signe du repentant",
+                "title": "300 - Le signe du repentant",
                 "hadiths": [
                     {
                         "number": "980",
@@ -5822,7 +5777,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'acceptation du repentir",
+                "title": "301 - L'acceptation du repentir",
                 "introduction": "«<i>C'est Lui qui agrée le repentir de Ses serviteurs, qui absout les mauvaises actions.</i>»<sup>1111</sup>",
                 "hadiths": [
                     {
@@ -5832,7 +5787,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Quand le repentir est-il accepté?",
+                "title": "302 - Quand le repentir est-il accepté?",
                 "introduction": "«<i>Mais l'absolution n'est pas destinée à ceux qui font de mauvaises actions jusqu'au moment où la mort se présente à l'un d'eux, et qui s'écrie : «Certes, je me repens maintenant !», ni pour ceux qui meurent mécréants.</i>»<sup>1113</sup>",
                 "hadiths": [
                     {
@@ -5850,7 +5805,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le regret est un repentir",
+                "title": "303 - Le regret est un repentir",
                 "hadiths": [
                     {
                         "number": "987",
@@ -5867,7 +5822,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "L'aveu sincère [des péchés]",
+                "title": "304 - L'aveu sincère [des péchés]",
                 "introduction": "«<i>D'autres ont reconnu leurs péchés, ils ont mêlé de bonnes actions à d'autres mauvaises. Il se peut qu'Allah accueille leur repentir.</i>»<sup>1120</sup>",
                 "hadiths": [
                     {
@@ -5885,7 +5840,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les fondements du repentir",
+                "title": "305 - Les fondements du repentir",
                 "introduction": "«<i>Mais quiconque se repent après son tort et se réforme, Allah accepte son repentir. Car Allah est, certes, Pardonneur et Miséricordieux.</i>»<sup>1124</sup><br><br>«<i>Et Je suis Grand Pardonneur pour celui qui se repent, croit, fait bonne œuvre puis se met sur le bon chemin.</i>»<sup>1125</sup>",
                 "hadiths": [
                     {
@@ -5899,7 +5854,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les différentes sortes de repentir",
+                "title": "306 - Les différentes sortes de repentir",
                 "hadiths": [
                     {
                         "number": "995",
@@ -5908,7 +5863,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le repentir sincère",
+                "title": "307 - Le repentir sincère",
                 "introduction": "«<i>Ô vous qui avez cru ! Repentez-vous à Allah d'un repentir sincère.</i>»<sup>1129</sup>",
                 "hadiths": [
                     {
@@ -5922,7 +5877,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Retarder le repentir",
+                "title": "308 - Retarder le repentir",
                 "hadiths": [
                     {
                         "number": "998",
@@ -5939,7 +5894,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ce qui est plus aisé que le repentir",
+                "title": "309 - Ce qui est plus aisé que le repentir",
                 "hadiths": [
                     {
                         "number": "1001",
@@ -5952,7 +5907,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Allah dissimule les péchés du repentant",
+                "title": "310 - Allah dissimule les péchés du repentant",
                 "hadiths": [
                     {
                         "number": "1003",
@@ -5961,7 +5916,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Changer les péchés en bonnes actions",
+                "title": "311 - Changer les péchés en bonnes actions",
                 "introduction": "«<i>Hormis celui qui se repent, croit et accomplit une bonne œuvre ; ceux-là, Allah changera leurs mauvaises actions en bonnes, et Allah est Pardonneur et Miséricordieux.</i>»<sup>1138</sup>",
                 "hadiths": [
                     {
@@ -5971,7 +5926,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Chercher à prédire [les jugements] d'Allah",
+                "title": "312 - Chercher à prédire [les jugements] d'Allah",
                 "hadiths": [
                     {
                         "number": "1005",
@@ -5989,7 +5944,7 @@ const AUNE_SAGESSE = [
         "title": "57 - LA RÉCOMPENSE",
         "subparts": [
             {
-                "title": "La récompense des bonnes œuvres",
+                "title": "313 - La récompense des bonnes œuvres",
                 "hadiths": [
                     {
                         "number": "1007",
@@ -6010,7 +5965,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La plus grande récompense",
+                "title": "314 - La plus grande récompense",
                 "hadiths": [
                     {
                         "number": "1011",
@@ -6027,7 +5982,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Celui qui entend parler d'une récompense pour un acte particulier",
+                "title": "315 - Celui qui entend parler d'une récompense pour un acte particulier",
                 "hadiths": [
                     {
                         "number": "1014",
@@ -6041,7 +5996,7 @@ const AUNE_SAGESSE = [
         "title": "58 - LA RÉVOLUTION",
         "subparts": [
             {
-                "title": "La révolution islamique en Orient avant la venue du Douzième Imām (Al-Qā'im) ('aj)",
+                "title": "316 - La révolution islamique en Orient avant la venue du Douzième Imām (Al-Qā'im) ('aj)",
                 "hadiths": [
                     {
                         "number": "1015",
@@ -6054,7 +6009,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le rôle des non-arabes dans la révolution",
+                "title": "317 - Le rôle des non-arabes dans la révolution",
                 "hadiths": [
                     {
                         "number": "1017",
@@ -6071,7 +6026,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La révolution provenant de la ville de Qom",
+                "title": "318 - La révolution provenant de la ville de Qom",
                 "hadiths": [
                     {
                         "number": "1020",
@@ -6097,7 +6052,7 @@ const AUNE_SAGESSE = [
         "title": "59 - LE DÉTERMINISME",
         "subparts": [
             {
-                "title": "La fausseté du déterminisme",
+                "title": "319 - La fausseté du déterminisme",
                 "hadiths": [
                     {
                         "number": "1024",
@@ -6114,7 +6069,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ni déterminisme ni liberté totale",
+                "title": "320 - Ni déterminisme ni liberté totale",
                 "hadiths": [
                     {
                         "number": "1027",
@@ -6127,7 +6082,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "A Allah revient en premier lieu le mérite des bonnes actions",
+                "title": "321 - A Allah revient en premier lieu le mérite des bonnes actions",
                 "hadiths": [
                     {
                         "number": "1029",
@@ -6136,7 +6091,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La façon dont il faut se comporter envers les partisans du déterminisme",
+                "title": "322 - La façon dont il faut se comporter envers les partisans du déterminisme",
                 "hadiths": [
                     {
                         "number": "1030",
@@ -6150,7 +6105,7 @@ const AUNE_SAGESSE = [
         "title": "60 - LE TYRAN",
         "subparts": [
             {
-                "title": "Le blâme de la tyrannie et du caractère tyrannique",
+                "title": "323 - Le blâme de la tyrannie et du caractère tyrannique",
                 "introduction": "«<i>Et ils demandèrent la victoire. Et tout tyran insolent fut déçu.</i>»<sup>1167</sup><br><br>«<i>Voilà les 'Ād. Ils avaient nié les signes de leur Seigneur, désobéi à Ses messagers et suivi le commandement de tout tyran entêté.</i>»<sup>1168</sup>",
                 "hadiths": [
                     {
@@ -6168,7 +6123,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La mauvaise fin des tyrans",
+                "title": "324 - La mauvaise fin des tyrans",
                 "hadiths": [
                     {
                         "number": "1034",
@@ -6198,7 +6153,7 @@ const AUNE_SAGESSE = [
         "title": "61 - LA LÂCHETÉ",
         "subparts": [
             {
-                "title": "Le blâme de la lâcheté",
+                "title": "325 - Le blâme de la lâcheté",
                 "hadiths": [
                     {
                         "number": "1039",
@@ -6223,7 +6178,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Le lâche et la guerre",
+                "title": "326 - Le lâche et la guerre",
                 "hadiths": [
                     {
                         "number": "1044",
@@ -6241,7 +6196,7 @@ const AUNE_SAGESSE = [
         "title": "62 - LA DISCUSSION",
         "subparts": [
             {
-                "title": "La discussion blâmée",
+                "title": "327 - La discussion blâmée",
                 "introduction": "«<i>Et il y a des gens qui discutent au sujet d'Allah sans aucune science, et qui suivent tout diable rebelle.</i>»<sup>1184</sup><br><br>«<i>Seuls ceux qui ont mécru discutent les versets d'Allah. Que leurs activités dans le pays de te trompent pas.</i>»<sup>1185</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:66, 7:71, 8:6, 18:54, 18:56, 19:97, 22:8-9, 22:68, 25:50, 42:35, 43:57)</span>",
                 "hadiths": [
                     {
@@ -6255,7 +6210,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La bonne discussion",
+                "title": "328 - La bonne discussion",
                 "introduction": "«<i>Appelle au sentier de ton Seigneur par la sagesse et la bonne exhortation. Et discute avec eux de la meilleure façon. Car c'est ton Seigneur qui connait le mieux celui qui s'écarte de Son sentier et c'est Lui qui connaît le mieux ceux qui sont bien guidés.</i>»<sup>1188</sup>",
                 "hadiths": [
                     {
@@ -6274,7 +6229,7 @@ const AUNE_SAGESSE = [
         "title": "63 - L'EXPÉRIENCE",
         "subparts": [
             {
-                "title": "Les bénédictions de l'expérience",
+                "title": "329 - Les bénédictions de l'expérience",
                 "hadiths": [
                     {
                         "number": "1050",
@@ -6303,7 +6258,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les dommages issus du manque d'expérience",
+                "title": "330 - Les dommages issus du manque d'expérience",
                 "hadiths": [
                     {
                         "number": "1056",
@@ -6325,7 +6280,7 @@ const AUNE_SAGESSE = [
         "title": "64 - L'ANXIÉTÉ",
         "subparts": [
             {
-                "title": "Mise en garde contre l'anxiété",
+                "title": "331 - Mise en garde contre l'anxiété",
                 "introduction": "«<i>Oui, l'homme a été créé instable ; quand un malheur le touche, il est anxieux ; et quand le bonheur le touche, il est grand refuseur.</i>»<sup>1200</sup>",
                 "hadiths": [
                     {
@@ -6360,7 +6315,7 @@ const AUNE_SAGESSE = [
         "title": "65 - LA RÉTRIBUTION",
         "subparts": [
             {
-                "title": "La rétribution [des actes]",
+                "title": "332 - La rétribution [des actes]",
                 "introduction": "«<i>À Allah appartient ce qui est dans les cieux et sur la terre, de sorte qu'Il rétribue ceux qui font le mal selon ce qu'ils œuvrent, et récompense ceux qui font le bien par la meilleure [récompense].</i>»<sup>1207</sup>",
                 "hadiths": [
                     {
@@ -6370,11 +6325,11 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La rétribution des bienfaisants",
+                "title": "333 - La rétribution des bienfaisants",
                 "introduction": "«<i>Et quand il eut atteint sa maturité, Nous lui accordâmes sagesse et savoir. C'est ainsi que Nous récompensons les bienfaisants.</i>»<sup>1209</sup><br><br>«<i>Voilà que Nous l'appelâmes : «Ô Abraham ! Tu as confirmé ta vision. C'est ainsi que Nous récompensons les bienfaisants.»</i>»<sup>1210</sup>"
             },
             {
-                "title": "La rétribution des malfaiteurs",
+                "title": "334 - La rétribution des malfaiteurs",
                 "introduction": "«<i>Et quiconque se détourne de Mon rappel mènera certes une vie pleine de gêne, et le Jour de la Résurrection, Nous l'amènerons aveugle au rassemblement. [...] C'est ainsi que Nous rétribuons l'outrancier qui n'a pas cru aux signes de son Seigneur. Et certes, le châtiment de l'Au-delà est plus sévère et plus durable.</i>»<sup>1211</sup><br><br>«<i>Ceux qui prenaient le veau [comme divinité], bientôt tombera sur eux une colère de la part de leur Seigneur, et un avilissement dans la vie de ce monde. C'est ainsi que Nous rétribuons les inventeurs [d'idoles].</i>»<sup>1212</sup><br><br>«<i>L'Enfer leur servira de lit et, comme couverture, ils auront des voiles de ténèbres. C'est ainsi que Nous rétribuons les injustes.</i>»<sup>1213</sup>"
             }
         ]
@@ -6383,7 +6338,7 @@ const AUNE_SAGESSE = [
         "title": "66 - L'ESPIONNAGE",
         "subparts": [
             {
-                "title": "L'interdiction de rechercher les défauts des gens",
+                "title": "335 - L'interdiction de rechercher les défauts des gens",
                 "introduction": "«<i>Ô vous qui avez cru ! Evitez de trop conjecturer [sur autrui] car une partie des conjectures est péché. Et n'espionnez pas ; et ne médisez pas les uns des autres. L'un de vous aimerait-il manger la chair de son frère mort ? [Non !] Vous en auriez horreur. Et craignez Allah. Car Allah est le Grand Accueillant au repentir, Très Miséricordieux.</i>»<sup>1214</sup>",
                 "hadiths": [
                     {
@@ -6401,7 +6356,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les conséquences de l'espionnage des gens",
+                "title": "336 - Les conséquences de l'espionnage des gens",
                 "hadiths": [
                     {
                         "number": "1069",
@@ -6422,7 +6377,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "La licéité de l'espionnage pendant les guerres",
+                "title": "337 - La licéité de l'espionnage pendant les guerres",
                 "hadiths": [
                     {
                         "number": "1073",
@@ -6431,7 +6386,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Les cas où il faut juger selon ce qui est apparent",
+                "title": "338 - Les cas où il faut juger selon ce qui est apparent",
                 "hadiths": [
                     {
                         "number": "1074",
@@ -6445,7 +6400,7 @@ const AUNE_SAGESSE = [
         "title": "67 - L'ASSEMBLÉE",
         "subparts": [
             {
-                "title": "La plus honorable des assemblées",
+                "title": "339 - La plus honorable des assemblées",
                 "hadiths": [
                     {
                         "number": "1075",
@@ -6458,7 +6413,7 @@ const AUNE_SAGESSE = [
                 ]
             },
             {
-                "title": "Ce qu'il faut respecter lors des assemblées",
+                "title": "340 - Ce qu'il faut respecter lors des assemblées",
                 "introduction": "«<i>Ô vous qui avez cru ! Lorsqu'on vous dit : «Faites place [aux autres] dans les assemblées !», alors faites place. Allah vous ménagera une place [au Paradis]. Et lorsqu'on vous dit de vous lever, levez-vous.</i>»<sup>1229</sup>",
                 "hadiths": [
                     {
@@ -9140,6 +9095,14 @@ const AUNE_SAGESSE = [
                     {
                         "number": "1501",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, l'homme convoite ce qu'on lui interdit.<sup>1718</sup>"
+                    },
+                    {
+                        "number": "1502",
+                        "text": "L'Imām 'Alī (as) a dit : La convoitise et l'avarice empreinte d'avidité sont fondées sur le doute et le manque de confiance en Allah.<sup>1719</sup>"
+                    },
+                    {
+                        "number": "1503",
+                        "text": "L'Imām 'Alī (as) a dit : L'intense convoitise est issue de l'ardeur de la voracité et de la faiblesse de la religion.<sup>1720</sup>"
                     }
                 ]
             }
@@ -9151,14 +9114,6 @@ const AUNE_SAGESSE = [
             {
                 "title": "500 - L'importance de la profession",
                 "hadiths": [
-                    {
-                        "number": "1502",
-                        "text": "L'Imām 'Alī (as) a dit : La convoitise et l'avarice empreinte d'avidité sont fondées sur le doute et le manque de confiance en Allah.<sup>1719</sup>"
-                    },
-                    {
-                        "number": "1503",
-                        "text": "L'Imām 'Alī (as) a dit : L'intense convoitise est issue de l'ardeur de la voracité et de la faiblesse de la religion.<sup>1720</sup>"
-                    },
                     {
                         "number": "1504",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Allah aime le serviteur croyant engagé dans une profession.<sup>1721</sup>"
@@ -9690,6 +9645,15 @@ const AUNE_SAGESSE = [
                     {
                         "number": "1592",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Tout-Puissant dressera les comptes de toutes les créatures sauf de celle qui a associé une créature à Allah. On ne dressera pas ses comptes le Jour de la Résurrection, et il sera ordonné de l'emmener [directement] en Enfer.<sup>1821</sup>"
+                    },
+                    {
+                        "number": "1593",
+                        "source": "Tanbīh al-Khawāṭir",
+                        "text": "Le Messager d'Allah (s) a dit : «Six [groupes de gens] iront en Enfer avant les comptes à cause de six [raisons].» Ils dirent : «Ô Messager d'Allah, que les prières d'Allah soient sur toi, qui sont-ils ?» Il répondit : «Les gouvernants pour leur tyrannie, les Arabes pour leur fanatisme envers leur tribu, les propriétaires terriens pour leur arrogance, les commerçants pour leurs tricheries, les villageois pour leur ignorance, et les savants pour leur jalousie.»<sup>1822</sup>"
+                    },
+                    {
+                        "number": "1594",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah fera entrer trois [groupes de] personnes en Enfer sans aucun compte : un chef oppresseur, un commerçant menteur, et un homme âgé ayant commis l'adultère.<sup>1823</sup>"
                     }
                 ]
             }
@@ -9701,15 +9665,6 @@ const AUNE_SAGESSE = [
             {
                 "title": "529 - La nuisance de la jalousie",
                 "hadiths": [
-                    {
-                        "number": "1593",
-                        "source": "Tanbīh al-Khawāṭir",
-                        "text": "Le Messager d'Allah (s) a dit : «Six [groupes de gens] iront en Enfer avant les comptes à cause de six [raisons].» Ils dirent : «Ô Messager d'Allah, que les prières d'Allah soient sur toi, qui sont-ils ?» Il répondit : «Les gouvernants pour leur tyrannie, les Arabes pour leur fanatisme envers leur tribu, les propriétaires terriens pour leur arrogance, les commerçants pour leurs tricheries, les villageois pour leur ignorance, et les savants pour leur jalousie.»<sup>1822</sup>"
-                    },
-                    {
-                        "number": "1594",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah fera entrer trois [groupes de] personnes en Enfer sans aucun compte : un chef oppresseur, un commerçant menteur, et un homme âgé ayant commis l'adultère.<sup>1823</sup>"
-                    },
                     {
                         "number": "1595",
                         "text": "Le Messager d'Allah (s) a dit : Allah le Tout-Puissant a dit en s'adressant à Moïse ibn 'Imrān (as) : «En vérité, le jaloux est exaspéré par Mes bienfaits, il rejette le partage que J'ai établi entre Mes serviteurs.»<sup>1825</sup>"
@@ -15167,12 +15122,7 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2523",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, le jour où Il a créé les cieux et la terre, Allah le Très-Haut a créé cent miséricordes. Chaque miséricorde correspond à tout ce qui est entre le ciel et la terre. Parmi elles, Il a fait descendre une miséricorde sur terre et c'est elle qui fait que les créatures sont compatissantes et miséricordieuses entre elles, c'est par elle que la mère a de la tendresse envers son enfant, par elle que les oiseaux et les fauves peuvent s'abreuver d'eau, et par elle que toutes les créatures vivent.<sup>2851</sup>"
-                    }
-                ]
-            },
-            {
-                "title": "807 - Ce qui suscite la miséricorde [d'Allah]",
-                "hadiths": [
+                    },
                     {
                         "number": "2524",
                         "text": "Kanz al-'Ummāl : Le Messager d'Allah (s) a dit : «Nulle personne n'entrera au Paradis sauf par la miséricorde d'Allah.» Ils dirent : «Même pas toi ?» Il (s) répondit : «Même pas moi, sauf si Allah m'enveloppe de Sa miséricorde.»<sup>2852</sup>"
@@ -15184,7 +15134,12 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2526",
                         "text": "L'Imām Zayn al-'Ābidīn (as) a dit : L'étonnement ne réside pas dans celui qui a été sauvé [le Jour du Jugement], mais dans celui qui a été damné : comment a-t-il été damné malgré l'immensité de la miséricorde d'Allah ?<sup>2854</sup>"
-                    },
+                    }
+                ]
+            },
+            {
+                "title": "807 - Ce qui suscite la miséricorde [d'Allah]",
+                "hadiths": [
                     {
                         "number": "2527",
                         "text": "Le Messager d'Allah (s) a dit : Bénéficiez de la miséricorde d'Allah en effectuant les actes d'obéissance qu'Il vous a ordonnés.<sup>2855</sup>"
@@ -16449,6 +16404,10 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2748",
                         "text": "Interrogé au sujet de celui qui renonce aux plaisirs de ce monde, l'Imām al-Ṣādiq (as) a dit : C'est celui qui délaisse les choses licites de ce monde par crainte des comptes [et du Jugement à leur sujet], et qui délaisse les choses illicites par crainte de subir un châtiment à cause d'elles.<sup>3101</sup>"
+                    },
+                    {
+                        "number": "2749",
+                        "text": "Interrogé au sujet des caractéristiques de celui qui renonce [aux plaisirs de ce monde], l'Imām al-Riḍā (as) a dit : C'est celui qui arrive à calmer sa faim sans rechercher de nourriture, qui s'est préparé pour le jour de sa mort, et qui est lassé de sa vie [du fait qu'il désire ardemment l'Au-delà et la rencontre avec Allah].<sup>3102</sup>"
                     }
                 ]
             },
@@ -16481,18 +16440,9 @@ const AUNE_SAGESSE = [
                 "title": "866 - Les fruits du renoncement",
                 "hadiths": [
                     {
-                        "number": "2749",
-                        "text": "Interrogé au sujet des caractéristiques de celui qui renonce [aux plaisirs de ce monde], l'Imām al-Riḍā (as) a dit : C'est celui qui arrive à calmer sa faim sans rechercher de nourriture, qui s'est préparé pour le jour de sa mort, et qui est lassé de sa vie [du fait qu'il désire ardemment l'Au-delà et la rencontre avec Allah].<sup>3102</sup>"
-                    },
-                    {
                         "number": "2755",
                         "text": "Le Messager d'Allah (s) a dit : Le renoncement aux plaisirs de ce monde repose le cœur et le corps, tandis que leur désir les épuise.<sup>3108</sup>"
-                    }
-                ]
-            },
-            {
-                "title": "867 - Celui qui fait preuve du plus grand renoncement",
-                "hadiths": [
+                    },
                     {
                         "number": "2756",
                         "text": "L'Imām 'Alī (as) a dit : Celui qui a renoncé aux plaisirs de ce monde sans se préoccuper de sa bassesse ni rivaliser pour sa gloire sera guidé par Allah sans besoin de la guidance d'une créature, Il lui accordera le savoir sans besoin d'étudier, Il ancrera la sagesse dans sa poitrine et Il la répandra sur sa langue.<sup>3109</sup>"
@@ -16512,7 +16462,12 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2760",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Il est interdit à vos cœurs de goûter la douceur de la foi tant qu'ils ne renoncent pas aux plaisirs de ce monde.<sup>3113</sup>"
-                    },
+                    }
+                ]
+            },
+            {
+                "title": "867 - Celui qui fait preuve du plus grand renoncement",
+                "hadiths": [
                     {
                         "number": "2761",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui fait preuve du plus grand renoncement est celui qui s'abstient des choses illicites.<sup>3114</sup>"
@@ -16524,6 +16479,18 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2763",
                         "text": "L'Imām 'Alī (as) a dit : Le meilleur renoncement est de cacher son renoncement.<sup>3116</sup>"
+                    },
+                    {
+                        "number": "2764",
+                        "text": "L'Imām 'Alī (as) a dit : Si celui qui a renoncé [aux plaisirs de ce monde] fuit les gens, recherche-le, et si celui qui y a renoncé recherche la compagnie des gens, fuis-le.<sup>3117</sup>"
+                    },
+                    {
+                        "number": "2765",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Allah a dit : Ô fils d'Adam, sois satisfait de ce que Je t'ai donné, tu seras celui qui fait le plus preuve de renoncement parmi les gens.<sup>3118</sup>"
+                    },
+                    {
+                        "number": "2766",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Celui qui parmi vous est le plus patient face aux malheurs est celui qui a le plus renoncé aux plaisirs de ce monde.<sup>3119</sup>"
                     }
                 ]
             }
@@ -16536,31 +16503,13 @@ const AUNE_SAGESSE = [
                 "title": "868 - L'incitation au mariage",
                 "hadiths": [
                     {
-                        "number": "2764",
-                        "text": "L'Imām 'Alī (as) a dit : Si celui qui a renoncé [aux plaisirs de ce monde] fuit les gens, recherche-le, et si celui qui y a renoncé recherche la compagnie des gens, fuis-le.<sup>3117</sup>"
-                    },
-                    {
-                        "number": "2765",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Allah a dit : Ô fils d'Adam, sois satisfait de ce que Je t'ai donné, tu seras celui qui fait le plus preuve de renoncement parmi les gens.<sup>3118</sup>"
-                    },
-                    {
-                        "number": "2766",
-                        "text": "L'Imām al-Kāẓim (as) a dit : Celui qui parmi vous est le plus patient face aux malheurs est celui qui a le plus renoncé aux plaisirs de ce monde.<sup>3119</sup>"
-                    },
-                    {
                         "number": "2767",
                         "text": "Le Messager d'Allah (s) a dit : Celui qui aspire à rencontrer Allah en étant pur et purifié doit Le rencontrer accompagné de sa femme.<sup>3122</sup>"
                     },
                     {
                         "number": "2768",
                         "text": "Le Messager d'Allah (s) a dit : Aucune institution en islam n'est plus aimée par Allah le Tout-Puissant et plus estimée que le mariage.<sup>3123</sup>"
-                    }
-                ],
-                "introduction": "«<i>Mariez les célibataires d'entre vous et les gens de bien parmi vos esclaves, hommes et femmes. S'ils sont pauvres, Allah les rendra riches par Sa grâce. Car [la grâce d'] Allah est immense et Il est Omniscient.</i>»<sup>3120</sup><br><br>«<i>Et parmi Ses signes Il a créé de vous, pour vous, des épouses afin que vous trouviez auprès d'elles votre quiétude, et a mis entre vous de l'affection et de la bonté. Il y a en cela des signes pour les gens qui réfléchissent.</i>»<sup>3121</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:39, 16:72, 30:32, 25:74)</span>"
-            },
-            {
-                "title": "869 - Le blâme des célibataires",
-                "hadiths": [
+                    },
                     {
                         "number": "2769",
                         "text": "Le Messager d'Allah (s) a dit : Le mariage est ma tradition ; dès lors, celui qui rejette ma tradition ne fait pas partie de moi.<sup>3124</sup>"
@@ -16588,7 +16537,13 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2775",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Deux raka'āt de prière accomplis par une personne mariée sont meilleurs que soixante-dix raka'āt accomplis par une personne non mariée.<sup>3130</sup>"
-                    },
+                    }
+                ],
+                "introduction": "«<i>Mariez les célibataires d'entre vous et les gens de bien parmi vos esclaves, hommes et femmes. S'ils sont pauvres, Allah les rendra riches par Sa grâce. Car [la grâce d'] Allah est immense et Il est Omniscient.</i>»<sup>3120</sup><br><br>«<i>Et parmi Ses signes Il a créé de vous, pour vous, des épouses afin que vous trouviez auprès d'elles votre quiétude, et a mis entre vous de l'affection et de la bonté. Il y a en cela des signes pour les gens qui réfléchissent.</i>»<sup>3121</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:39, 16:72, 30:32, 25:74)</span>"
+            },
+            {
+                "title": "869 - Le blâme des célibataires",
+                "hadiths": [
                     {
                         "number": "2776",
                         "text": "Le Messager d'Allah (s) a dit : Les pires parmi vos morts sont les célibataires.<sup>3131</sup>"
@@ -16891,16 +16846,16 @@ const AUNE_SAGESSE = [
                     {
                         "number": "2827",
                         "text": "L'Imām al-Ṣādiq (as) a dit : Rendez-vous mutuellement visite, car vos visites revivifient vos cœurs et rappellent nos traditions, et nos traditions suscitent à leur tour de l'affection mutuelle entre vous. Ainsi, si vous les adoptez, vous serez guidés et sauvés [alors que] si vous les délaissez, vous vous égarerez et vous périrez. Par conséquent, adoptez-les et je vous garantirai votre salut.<sup>3182</sup>"
+                    },
+                    {
+                        "number": "2828",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Rien n'offense autant Iblīs et ses soldats que la visite des frères les uns aux autres pour Allah.<sup>3183</sup>"
                     }
                 ]
             },
             {
                 "title": "888 - Les fruits de la rencontre des frères",
                 "hadiths": [
-                    {
-                        "number": "2828",
-                        "text": "L'Imām al-Kāẓim (as) a dit : Rien n'offense autant Iblīs et ses soldats que la visite des frères les uns aux autres pour Allah.<sup>3183</sup>"
-                    },
                     {
                         "number": "2829",
                         "text": "Le Messager d'Allah (s) a dit : La visite fait grandir l'affection.<sup>3184</sup>"
@@ -18668,10 +18623,34 @@ const AUNE_SAGESSE = [
         "title": "201 - LE PRÉNOM",
         "subparts": [
             {
-                "title": "979 - Choisir de beaux prénoms"
+                "title": "979 - Choisir de beaux prénoms",
+                "hadiths": [
+                    {
+                        "number": "3121",
+                        "text": "Le Messager d'Allah (s) a dit : Choisissez de beaux prénoms pour vous car en vérité, vous serez appelés par eux le Jour de la Résurrection : «Ô untel fils d'untel, lève-toi vers ta lumière» ou «Ô untel fils d'untel, lève-toi, tu n'as pas de lumière.»<sup>3504</sup>"
+                    },
+                    {
+                        "number": "3122",
+                        "text": "Le Messager d'Allah (s) a dit : Donnez à vos enfants des prénoms de prophètes.<sup>3505</sup>"
+                    },
+                    {
+                        "number": "3123",
+                        "text": "Lorsqu'on lui demanda si donner des prénoms d'Imāms [aux enfants] était bénéfique, l'Imām al-Ṣādiq (as) répondit : Bien sûr, par Allah, la religion est-elle autre chose que l'amour ?! Allah a dit : «<i>Dis : «Si vous aimez vraiment Allah, suivez-moi, Allah vous aimera alors et vous pardonnera vos péchés.».</i>»<sup>3506</sup>.<sup>3507</sup>"
+                    },
+                    {
+                        "number": "3124",
+                        "text": "L'Imām al-Kāẓim (as) a dit : La première bonne action que l'homme réalise pour son enfant est de lui donner un beau prénom ; donnez donc de beaux prénoms à vos enfants.<sup>3508</sup><br>(Voir également : 414. Le parent et l'enfant, section 1892)"
+                    }
+                ]
             },
             {
-                "title": "980 - Changer les noms laids"
+                "title": "980 - Changer les noms laids",
+                "hadiths": [
+                    {
+                        "number": "3125",
+                        "text": "L'Imām al-Bāqir (as) a dit : Le Messager d'Allah (s) avait l'habitude de changer les noms laids des hommes et des endroits [pour les remplacer par de beaux noms].<sup>3509</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18679,10 +18658,35 @@ const AUNE_SAGESSE = [
         "title": "202 - LES NOMS D'ALLAH",
         "subparts": [
             {
-                "title": "981 - Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux"
+                "title": "981 - Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux",
+                "hadiths": [
+                    {
+                        "number": "3126",
+                        "text": "Le Messager d'Allah (s) a dit : Tout écrit se doit de commencer par «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux».<sup>3511</sup>"
+                    },
+                    {
+                        "number": "3127",
+                        "text": "Le Messager d'Allah (s) a dit : Toute chose importante qui ne commence pas par «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux» reste sans résultat.<sup>3512</sup>"
+                    },
+                    {
+                        "number": "3128",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne délaisse pas la formule «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux», même si elle est suivie de poèmes.<sup>3513</sup>"
+                    },
+                    {
+                        "number": "3129",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il se peut que l'un de nos partisans (<i>shī'a</i>) omette parfois de dire «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux» avant de commencer une chose ; dans ce cas, Allah l'éprouvera par un incident afin qu'il se rappelle de remercier et de louer Allah, le Béni et le Très-Haut.<sup>3514</sup>"
+                    }
+                ],
+                "introduction": "«Elle vient de Salomon ; en voici la teneur : «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux».»<sup>3510</sup>"
             },
             {
-                "title": "982 - Le Nom Suprême d'Allah"
+                "title": "982 - Le Nom Suprême d'Allah",
+                "hadiths": [
+                    {
+                        "number": "3130",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, le Nom Suprême d'Allah est composé de soixante-treize lettres. Āṣaf [ibn Barkhiyya] en détenait une qu'il a dite, causant l'effondrement du sol entre lui-même et le trône de Bilqīs jusqu'à ce qu'il s'empare du trône avec sa main. Après cela, le sol redevint tel qu'il était auparavant en un clin d'œil. En revanche, soixante-douze lettres du Nom Suprême sont auprès de nous [les Gens de la demeure prophétique], et une lettre se trouve auprès d'Allah - le Béni et le Très-Haut - dont Il garde la possession exclusive dans Sa science de l'Invisible. Et il n'y a de puissance et de force qu'en Allah, le Très-Haut, le Très-Grand.<sup>3515</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18690,13 +18694,35 @@ const AUNE_SAGESSE = [
         "title": "203 - LA TRADITION (SUNNA)",
         "subparts": [
             {
-                "title": "983 - L'incitation à adhérer à la tradition prophétique (sunna)"
+                "title": "983 - L'incitation à adhérer à la tradition prophétique (sunna)",
+                "hadiths": [
+                    {
+                        "number": "3131",
+                        "text": "Le Messager d'Allah (s) a dit : Si celui qui suit une tradition [prophétique] fait une bonne action, cela est accepté et même s'il commet une erreur, il est pardonné.<sup>3516</sup>"
+                    },
+                    {
+                        "number": "3132",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, les meilleurs actes auprès d'Allah sont ceux qui sont faits selon la <i>sunna</i>, même s'ils sont peu importants.<sup>3517</sup>"
+                    }
+                ]
             },
             {
-                "title": "984 - La récompense de celui qui a établi une tradition"
+                "title": "984 - La récompense de celui qui a établi une tradition",
+                "hadiths": [
+                    {
+                        "number": "3133",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui établit une bonne tradition qui est observée après lui aura une récompense pour cela ainsi qu'une rétribution équivalente à celle de ceux qui l'auront appliquée, sans que cela n'amoindrisse pour autant la rétribution de ces derniers. En revanche, celui qui établit une mauvaise tradition qui est suivie après lui sera responsable du fardeau [de son péché] ainsi que de celui de ceux qui l'ont observée, sans que cela ne diminue en rien leurs propres fardeaux.<sup>3518</sup>"
+                    }
+                ]
             },
             {
-                "title": "985 - L'interdiction d'abandonner la bonne tradition"
+                "title": "985 - L'interdiction d'abandonner la bonne tradition",
+                "hadiths": [
+                    {
+                        "number": "3134",
+                        "text": "L'Imām 'Alī (as) a écrit dans l'une de ses missives à al-Ashtar lorsqu'il le désigna gouverneur d'Égypte : N'abandonne pas une bonne tradition suivie par les pionniers de cette communauté, qui est source de cohésion entre les gens et de prospérité pour les sujets. N'introduis pas une tradition qui portera préjudice à ces traditions primordiales car dans ce cas, ceux qui les ont mises en place continueront d'être rétribués, alors que tu porteras le fardeau de leur abandon.<sup>3519</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18704,10 +18730,46 @@ const AUNE_SAGESSE = [
         "title": "204 - LA VEILLÉE",
         "subparts": [
             {
-                "title": "986 - La veillée"
+                "title": "986 - La veillée",
+                "hadiths": [
+                    {
+                        "number": "3135",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'est pas nécessaire de rester éveillé la nuit sauf dans trois cas : la récitation du Coran, l'acquisition du savoir, ou pour la mariée lorsqu'elle est offerte à son mari.<sup>3520</sup>"
+                    },
+                    {
+                        "number": "3136",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'est pas nécessaire de rester éveillé après la prière du soir sauf pour deux personnes : celle qui prie et celle qui voyage.<sup>3521</sup>"
+                    },
+                    {
+                        "number": "3137",
+                        "text": "L'Imām 'Alī (as) a dit : La veillée est le jardin de ceux qui aspirent passionnément [à la rencontre d'Allah].<sup>3522</sup>"
+                    },
+                    {
+                        "number": "3138",
+                        "text": "L'Imām 'Alī (as) a dit : Rester éveillé la nuit pour réaliser des actes d'adoration et d'obéissance à Allah est le printemps des amis d'Allah et le jardin des bienheureux.<sup>3523</sup>"
+                    },
+                    {
+                        "number": "3139",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure adoration est l'éveil des yeux [la veillée] pour le rappel d'Allah - loué soit-Il.<sup>3524</sup>"
+                    },
+                    {
+                        "number": "3140",
+                        "text": "L'Imām 'Alī (as) a dit : Ô serviteurs d'Allah, craignez Allah de la crainte du sage dont le cœur est occupé par la méditation [au sujet de l'Au-delà], celui dont la crainte [d'Allah] a épuisé le corps, et dont les actes d'adoration nocturne lui ont pris le peu de sommeil qui lui restait.<sup>3525</sup>"
+                    }
+                ]
             },
             {
-                "title": "987 - Incitation à veiller durant des nuits spécifiques"
+                "title": "987 - Incitation à veiller durant des nuits spécifiques",
+                "hadiths": [
+                    {
+                        "number": "3141",
+                        "text": "Le Messager d'Allah (s) a dit : Le cœur de celui qui veille durant la nuit précédant l'<i>īd</i> [<i>al-Fiṭr</i> et du Sacrifice] et la nuit précédant le quinzième jour du mois de Sha'bān ne mourra pas le jour où les cœurs meurent.<sup>3526</sup>"
+                    },
+                    {
+                        "number": "3142",
+                        "text": "L'Imām al-Riḍā (as) a dit : L'Emir des croyants (as) ne dormait pas durant ces trois nuits : la nuit précédant le vingt-troisième jour du mois de Ramadan, la veille de l'<i>īd al-Fiṭr</i>, et la nuit précédant le quinzième jour du mois de Sha'bān. Ce sont les nuits durant lesquelles les subsistances sont allouées, ainsi que les échéances [de la vie] et l'ensemble des événements de l'année.<sup>3527</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18715,13 +18777,59 @@ const AUNE_SAGESSE = [
         "title": "205 - LE CHEF",
         "subparts": [
             {
-                "title": "988 - Les caractéristiques du chef"
+                "title": "988 - Les caractéristiques du chef",
+                "hadiths": [
+                    {
+                        "number": "3143",
+                        "text": "Le Messager d'Allah (s) a dit : Le chef d'un groupe doit le servir.<sup>3528</sup>"
+                    },
+                    {
+                        "number": "3144",
+                        "text": "Lorsque son père l'interrogea au sujet de ce qu'implique le fait d'être chef, l'Imām Ḥusayn (as) dit : Rendre prospères les siens et porter la responsabilité de leurs pertes.<sup>3529</sup>"
+                    }
+                ]
             },
             {
-                "title": "989 - Les conditions nécessaires pour être chef"
+                "title": "989 - Les conditions nécessaires pour être chef",
+                "hadiths": [
+                    {
+                        "number": "3145",
+                        "text": "L'Imām 'Alī (as) a dit : Supporter les difficultés permet de devenir chef.<sup>3530</sup>"
+                    },
+                    {
+                        "number": "3146",
+                        "text": "L'Imām 'Alī (as) a dit : La personne véritablement noble est celle qui a été ennoblie par son savoir, et le véritable chef est celui qui craint Allah, son Seigneur.<sup>3531</sup>"
+                    },
+                    {
+                        "number": "3147",
+                        "text": "L'Imām 'Alī (as) a dit : La vertu des chefs est la beauté de leur adoration.<sup>3532</sup>"
+                    },
+                    {
+                        "number": "3148",
+                        "text": "L'Imām 'Alī (as) a dit : Quatre qualités font de l'homme un chef : la chasteté, la courtoisie, la générosité et l'intelligence.<sup>3533</sup>"
+                    },
+                    {
+                        "number": "3149",
+                        "text": "L'Imām Ḥasan (as) a dit : Donner avant que l'on demande est la plus grande caractéristique d'un chef.<sup>3534</sup>"
+                    }
+                ]
             },
             {
-                "title": "990 - Ce qui fait obstacle au fait d'être chef"
+                "title": "990 - Ce qui fait obstacle au fait d'être chef",
+                "hadiths": [
+                    {
+                        "number": "3150",
+                        "text": "L'Imām 'Alī (as) a dit : S'engager dans des disputes avec des gens de bas étage est une source de disgrâce pour tout chef.<sup>3535</sup>"
+                    },
+                    {
+                        "number": "3151",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui punit pour un péché mineur ne doit pas aspirer à devenir chef, et celui qui a peu d'expérience et est imbu de sa personne ne doit pas aspirer à diriger.<sup>3536</sup>"
+                    },
+                    {
+                        "number": "3152",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Un sot ne peut être chef.<sup>3537</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18729,10 +18837,62 @@ const AUNE_SAGESSE = [
         "title": "206 - LA GESTION",
         "subparts": [
             {
-                "title": "991 - La gestion de la société"
+                "title": "991 - La gestion de la société",
+                "hadiths": [
+                    {
+                        "number": "3153",
+                        "text": "L'Imām 'Alī (as) a dit : La souveraineté est une gestion [efficace].<sup>3539</sup>"
+                    },
+                    {
+                        "number": "3154",
+                        "text": "L'Imām 'Alī (as) a dit : Le fléau des dirigeants [et la cause de leur chute] est leur mauvaise gestion.<sup>3540</sup>"
+                    },
+                    {
+                        "number": "3155",
+                        "text": "L'Imām 'Alī (as) a dit : Une bonne gestion prolonge la durée d'une présidence.<sup>3541</sup>"
+                    },
+                    {
+                        "number": "3156",
+                        "text": "L'Imām 'Alī (as) a dit : Une bonne gestion constitue un soutien au peuple.<sup>3542</sup>"
+                    },
+                    {
+                        "number": "3157",
+                        "text": "L'Imām 'Alī (as) a dit : Une bonne organisation et le fait d'éviter le gaspillage font partie de la bonne gestion.<sup>3543</sup>"
+                    },
+                    {
+                        "number": "3158",
+                        "text": "L'Imām 'Alī (as) a dit : La mauvaise organisation est l'une des raisons de la destruction.<sup>3544</sup>"
+                    },
+                    {
+                        "number": "3159",
+                        "text": "L'Imām 'Alī (as) a dit : Le critère de la [bonne] gestion est la justice.<sup>3545</sup>"
+                    },
+                    {
+                        "number": "3160",
+                        "text": "L'Imām 'Alī (as) a dit : Le recours à la clémence constitue le sommet de la [bonne] gestion.<sup>3546</sup>"
+                    },
+                    {
+                        "number": "3161",
+                        "text": "L'Imām 'Alī (as) a dit : La tolérance est l'ornement de la gestion.<sup>3547</sup>"
+                    }
+                ]
             },
             {
-                "title": "992 - La gestion de sa propre personne"
+                "title": "992 - La gestion de sa propre personne",
+                "hadiths": [
+                    {
+                        "number": "3162",
+                        "text": "L'Imām 'Alī (as) a dit : Seul celui qui est capable de gérer sa propre personne comprend réellement la gestion [et sera capable de gérer les autres].<sup>3548</sup>"
+                    },
+                    {
+                        "number": "3163",
+                        "text": "L'Imām 'Alī (as) a dit : Gérez vos personnes grâce à la piété, et soignez vos malades par l'aumône (<i>ṣadaqa</i>).<sup>3549</sup>"
+                    },
+                    {
+                        "number": "3164",
+                        "text": "L'Imām 'Alī (as) a dit : Il est du devoir du dirigeant d'être capable de gérer sa propre personne avant son armée.<sup>3550</sup><br>(Voir également : 293. L'habitude, section 1398)"
+                    }
+                ]
             }
         ]
     },
@@ -18740,7 +18900,37 @@ const AUNE_SAGESSE = [
         "title": "207 - LA PROCRASTINATION",
         "subparts": [
             {
-                "title": "993 - L'interdiction de la procrastination"
+                "title": "993 - L'interdiction de la procrastination",
+                "hadiths": [
+                    {
+                        "number": "3165",
+                        "text": "Le Messager d'Allah (s) a dit : Ô Abū Dhar ! Prends garde à ne pas procrastiner par espoir car en vérité, tu disposes du jour présent et non du lendemain. Et si tu atteins le lendemain, alors sois en ce lendemain comme tu es dans le jour présent. Ainsi, si tu n'as plus de lendemain, tu ne regretteras pas ce que tu as négligé de faire le jour même.<sup>3551</sup>"
+                    },
+                    {
+                        "number": "3166",
+                        "text": "L'Imām 'Alī (as) a écrit à l'un de ses compagnons : Prends ce qui reste de ta vie et ne [procrastine pas] en disant «demain, après demain» car en vérité, tes prédécesseurs ont été anéantis car ils se sont reposés sur leurs espérances et ont procrastiné, et ce jusqu'à ce que l'ordre d'Allah [la mort] leur parvienne subitement alors qu'ils étaient insouciants.<sup>3552</sup>"
+                    },
+                    {
+                        "number": "3167",
+                        "text": "L'Imām 'Alī (as) a dit : Celui à qui la mort arrive tôt demande un délai, et toute personne à qui un délai est accordé trouve des excuses et procrastine.<sup>3553</sup>"
+                    },
+                    {
+                        "number": "3168",
+                        "text": "L'Imām 'Alī (as) a dit : Ne sois pas comme celui qui aspire [au bonheur dans] l'Au-delà sans réaliser de bonnes actions et qui, animé par de grands espoirs [d'être pardonné], ajourne son repentir... [et qui,] lorsqu'il est face à un désir, commet facilement un péché et reporte le repentir.<sup>3554</sup>"
+                    },
+                    {
+                        "number": "3169",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans l'un de ses entretiens intimes [avec Allah] : Aide-moi à pleurer sur ma propre personne car j'ai gâché ma vie avec la procrastination et les espoirs, et je me suis abaissé au niveau de ceux qui n'ont plus espoir en leur bien.<sup>3555</sup>"
+                    },
+                    {
+                        "number": "3170",
+                        "text": "L'Imām al-Bāqir (as) a dit : Gare à la procrastination car en vérité, c'est une mer dans laquelle se noient les damnés.<sup>3556</sup>"
+                    },
+                    {
+                        "number": "3171",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Retarder le repentir est un aveuglement, et la longue procrastination entraîne la confusion.<sup>3557</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18748,10 +18938,30 @@ const AUNE_SAGESSE = [
         "title": "208 - LE MARCHÉ",
         "subparts": [
             {
-                "title": "994 - Le lieu de la négligence"
+                "title": "994 - Le lieu de la négligence",
+                "hadiths": [
+                    {
+                        "number": "3172",
+                        "text": "Le Messager d'Allah (s) a dit : Le marché est le lieu de la distraction et de la négligence ; dès lors, Allah inscrit [l'équivalent d']un million de bonnes actions à celui qui y récite des glorifications à Allah.<sup>3559</sup>"
+                    },
+                    {
+                        "number": "3173",
+                        "text": "Le Messager d'Allah (s) a dit : Si tu le peux, ne sois pas le premier à entrer dans le marché et le dernier à en sortir, car c'est le lieu du combat avec Satan et c'est là où il hisse son drapeau.<sup>3560</sup>"
+                    },
+                    {
+                        "number": "3174",
+                        "text": "L'Imām al-Bāqir (as) a dit : Les pires endroits sur terre sont les marchés, car ils sont l'arène du Diable. Il y plante son drapeau le matin et y installe son siège. Il laisse alors sa progéniture s'y propager entre celui qui lésine sur la mesure, celui qui est distrait dans la pesée, celui qui vole une coudée [de tissu], ou celui qui ment au sujet de sa marchandise, et il leur dit : «Allez [tromper] l'homme dont le père [Adam (as)] est décédé alors que le vôtre [le Diable] est vivant !» Et il continue ainsi avec le premier arrivé jusqu'au dernier à quitter les lieux.<sup>3561</sup>"
+                    }
+                ]
             },
             {
-                "title": "995 - L'exhortation de l'Imām 'Alī (as) aux marchands"
+                "title": "995 - L'exhortation de l'Imām 'Alī (as) aux marchands",
+                "hadiths": [
+                    {
+                        "number": "3175",
+                        "text": "<i>Biḥār al-Anwār</i> : Abū Sa'īd : 'Alī (as) avait l'habitude de se rendre au marché et de dire : «Ô marchands ! Craignez Allah et gare au [faux] serment, car s'il permet de bien vendre la marchandise, il chasse la bénédiction. En vérité, le commerçant est [par nature] corrompu, sauf celui qui prend ce qui lui est dû et qui donne ce qu'il doit, que le salut soit sur vous.» Puis après quelques jours, il revenait et leur disait les mêmes paroles.<sup>3562</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18759,13 +18969,75 @@ const AUNE_SAGESSE = [
         "title": "209 - SE BROSSER LES DENTS",
         "subparts": [
             {
-                "title": "996 - L'incitation à se brosser les dents"
+                "title": "996 - L'incitation à se brosser les dents",
+                "hadiths": [
+                    {
+                        "number": "3176",
+                        "text": "Le Messager d'Allah (s) a dit : Si cela n'avait pas incommodé [les membres de] ma communauté, je leur aurais ordonné de se brosser les dents avant chaque prière.<sup>3563</sup>"
+                    },
+                    {
+                        "number": "3177",
+                        "text": "Le Messager d'Allah (s) a dit dans l'un de ses conseils à 'Alī (as) : Tu dois te brosser les dents lors de chaque ablution.<sup>3564</sup>"
+                    },
+                    {
+                        "number": "3178",
+                        "text": "Le Messager d'Allah (s) a dit : Ô 'Alī ! Tu dois te brosser les dents aussi régulièrement que possible car en vérité, chaque prière que tu accomplis après t'être brossé les dents est meilleure que quarante jours de prières sans l'avoir fait.<sup>3565</sup>"
+                    },
+                    {
+                        "number": "3179",
+                        "text": "Le Messager d'Allah (s) a dit : Les ablutions sont une partie importante de la foi et se brosser les dents est une partie importante des ablutions.<sup>3566</sup>"
+                    },
+                    {
+                        "number": "3180",
+                        "text": "Le Messager d'Allah (s) a dit : Rafraîchissez vos bouches en vous brossant les dents car en vérité, vos bouches sont les chemins du Coran.<sup>3567</sup>"
+                    },
+                    {
+                        "number": "3181",
+                        "text": "Le Messager d'Allah (s) a dit : Gabriel n'a cessé de me conseiller de me brosser les dents, au point où j'ai cru qu'il allait l'ordonner comme obligation.<sup>3568</sup>"
+                    },
+                    {
+                        "number": "3182",
+                        "text": "Lorsqu'on lui demanda : «Considérez-vous que tous ces gens sont [réellement] des êtres humains ?», l'Imām al-Ṣādiq (as) répondit : «[Oui,] sauf ceux qui ne se brossent pas les dents.»<sup>3569</sup>"
+                    }
+                ]
             },
             {
-                "title": "997 - Les bienfaits liés au fait de se brosser les dents"
+                "title": "997 - Les bienfaits liés au fait de se brosser les dents",
+                "hadiths": [
+                    {
+                        "number": "3183",
+                        "text": "Le Messager d'Allah (s) a dit : Se brosser les dents renforce l'éloquence de l'homme.<sup>3570</sup>"
+                    },
+                    {
+                        "number": "3184",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Se brosser les dents comporte douze particularités : c'est une tradition [prophétique], cela purifie la bouche, clarifie la vue, satisfait le Très Miséricordieux, blanchit les dents, élimine les caries, renforce les gencives, ouvre l'appétit, diminue la lymphe, renforce la mémoire, augmente [la récompense] des bonnes actions, et réjouit les anges.<sup>3571</sup>"
+                    },
+                    {
+                        "number": "3185",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Brossez-vous les dents car cela éloigne les tentations du cœur.<sup>3572</sup>"
+                    },
+                    {
+                        "number": "3186",
+                        "text": "L'Imām al-Riḍā (as) a dit : Se brosser les dents clarifie la vue, fait pousser les cheveux, et fait disparaître la tendance à pleurer fréquemment.<sup>3573</sup>"
+                    }
+                ]
             },
             {
-                "title": "998 - La bonne façon de se brosser les dents"
+                "title": "998 - La bonne façon de se brosser les dents",
+                "hadiths": [
+                    {
+                        "number": "3187",
+                        "text": "Le Messager d'Allah (s) a dit : Brossez-vous les dents de manière horizontale et non pas verticale.<sup>3574</sup>"
+                    },
+                    {
+                        "number": "3188",
+                        "text": "<i>Biḥār al-Anwār</i> : Lorsqu'il se brossait les dents, le Prophète (s) le faisait de manière horizontale, et il les brossait trois fois par nuit : une fois avant de dormir, une deuxième fois lors de son réveil pour ses adorations [nocturnes], et une troisième fois avant qu'il ne sorte pour la prière de l'aube. Il se brossait les dents avec des petites branches provenant de l'Arāk<sup>3575</sup>, ainsi que le lui avait ordonné [l'archange] Gabriel.<sup>3576</sup>"
+                    },
+                    {
+                        "number": "3189",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, se brosser les dents à l'aube avant de faire ses ablutions fait partie de la tradition [prophétique].<sup>3577</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18773,19 +19045,81 @@ const AUNE_SAGESSE = [
         "title": "210 - LA JEUNESSE",
         "subparts": [
             {
-                "title": "999 - La jeunesse"
+                "title": "999 - La jeunesse",
+                "hadiths": [
+                    {
+                        "number": "3190",
+                        "text": "Le Messager d'Allah (s) a dit : La jeunesse est une branche de la folie.<sup>3578</sup>"
+                    },
+                    {
+                        "number": "3191",
+                        "text": "Le Messager d'Allah (s) a dit : Les meilleurs parmi vos jeunes sont ceux qui agissent comme vos personnes âgées, et les pires parmi vos personnes âgées sont celles qui agissent comme les jeunes.<sup>3579</sup>"
+                    },
+                    {
+                        "number": "3192",
+                        "text": "L'Imām 'Alī (as) a dit : Il y a deux choses dont la valeur n'est connue que par celui qui les a perdues : la jeunesse et la santé.<sup>3580</sup>"
+                    }
+                ]
             },
             {
-                "title": "1000 - L'éducation des jeunes"
+                "title": "1000 - L'éducation des jeunes",
+                "hadiths": [
+                    {
+                        "number": "3193",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, le cœur du jeune est comme une terre non cultivée, il accepte tout ce qui y est planté.<sup>3581</sup>"
+                    },
+                    {
+                        "number": "3194",
+                        "text": "<i>Al-Kāfī</i> : Ismā'īl ibn 'Abd al-Khāliq : J'ai entendu Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) demander à Abū Ja'far al-Aḥwāl : «As-tu été à Bassora ?» Il répondit : «Oui.» Puis il lui demanda (as) : «Comment as-tu trouvé l'intérêt des gens pour ce sujet [c'est-à-dire la <i>wilāya</i> et le rôle des Imāms shiites] et leur acceptation ?» Il répondit : «Par Allah, ils sont peu nombreux, et ce qu'ils ont fait [dans ce sens] est également peu.» Il (as) dit alors : «Tu dois le mettre en avant auprès des jeunes car en vérité, ils se hâtent vers tous les biens.»<sup>3582</sup>"
+                    }
+                ]
             },
             {
-                "title": "1001 - L'apprentissage lors de la jeunesse"
+                "title": "1001 - L'apprentissage lors de la jeunesse",
+                "hadiths": [
+                    {
+                        "number": "3195",
+                        "text": "Le Messager d'Allah (s) a dit : L'apprentissage lors de la jeunesse est semblable à la gravure sur de la pierre. En revanche, l'apprentissage lors de la vieillesse est semblable à l'écriture sur de l'eau.<sup>3583</sup>"
+                    },
+                    {
+                        "number": "3196",
+                        "text": "L'Imām al-Bāqir (as) a dit : Si on m'amenait un jeune homme de nos partisans qui n'apprenait pas [les affaires liées à la religion], je le punirais.<sup>3584</sup>"
+                    },
+                    {
+                        "number": "3197",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Je n'aimerais voir vos jeunes que dans deux états : soit en train d'apprendre, soit en train d'enseigner, car si le jeune n'est pas [dans l'un de ces deux états], il gâche son temps ; s'il gâche son temps, il sera perdant ; s'il est perdant, il commettra un péché et s'il commet un péché, il demeurera dans le Feu, par Celui qui a envoyé Muḥammad par la vérité.<sup>3585</sup>"
+                    }
+                ]
             },
             {
-                "title": "1002 - La supériorité du jeune dévot"
+                "title": "1002 - La supériorité du jeune dévot",
+                "hadiths": [
+                    {
+                        "number": "3198",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Très-Haut se vante devant les anges du jeune dévot en disant : «Regardez Mon serviteur ! Il a abandonné ses désirs pour Moi.»<sup>3586</sup>"
+                    },
+                    {
+                        "number": "3199",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Très-Haut aime la jeune personne qui se repent.<sup>3587</sup>"
+                    },
+                    {
+                        "number": "3200",
+                        "text": "Le Messager d'Allah (s) a dit : La supériorité du jeune dévot qui s'est astreint à l'adoration dès son jeune âge vis-à-vis de la personne qui s'est astreinte à l'adoration à un âge avancé, est semblable à la supériorité des prophètes envoyés vis-à-vis des gens ordinaires.<sup>3588</sup>"
+                    },
+                    {
+                        "number": "3201",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah aime la jeune personne qui consacre sa jeunesse à l'obéissance et à l'adoration d'Allah le Très-Haut.<sup>3589</sup>"
+                    }
+                ]
             },
             {
-                "title": "1003 - La signification du terme fatā"
+                "title": "1003 - La signification du terme fatā",
+                "hadiths": [
+                    {
+                        "number": "3202",
+                        "text": "<i>Al-Kāfī</i> : 'Alī ibn Ibrāhīm : Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) a dit à un homme : «Qui considérez-vous être un <i>fatā</i> ?» L'homme répondit : «Un jeune homme.» Il (as) dit : «Non, le <i>fatā</i> est un croyant, car en vérité, les Gens de la Caverne (<i>Ahl al-Kahf</i>) étaient âgés ; pourtant, Allah les a appelés <i>fitya</i> [pluriel de <i>fatā</i>] en raison de leur foi.»<sup>3590</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18793,16 +19127,48 @@ const AUNE_SAGESSE = [
         "title": "211 - L'AMBIGUÏTÉ",
         "subparts": [
             {
-                "title": "1004 - La signification de l'ambigüité"
+                "title": "1004 - La signification de l'ambigüité",
+                "hadiths": [
+                    {
+                        "number": "3203",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, l'ambigüité (<i>shubha</i>) est nommée ainsi car elle ressemble (<i>shabīh</i>) à la vérité [sans l'être]. Les alliés et amis d'Allah ont recours à la certitude comme lumière pour l'éclairer, et à la voie droite comme leur guide. En revanche, les ennemis d'Allah l'utilisent pour appeler [les autres] à l'égarement, et l'aveuglement y est leur guide.<sup>3591</sup>"
+                    }
+                ]
             },
             {
-                "title": "1005 - Le danger de l'ambigüité"
+                "title": "1005 - Le danger de l'ambigüité",
+                "hadiths": [
+                    {
+                        "number": "3204",
+                        "text": "L'Imām 'Alī (as) a dit : Prenez garde à l'ambigüité car en vérité, elle a été faite pour mettre les gens à l'épreuve [ou les égarer].<sup>3592</sup>"
+                    }
+                ]
             },
             {
-                "title": "1006 - L'obligation de s'arrêter face à l'ambigüité"
+                "title": "1006 - L'obligation de s'arrêter face à l'ambigüité",
+                "hadiths": [
+                    {
+                        "number": "3205",
+                        "text": "L'Imām al-Bāqir (as) a dit : S'arrêter [et s'abstenir] face à l'ambigüité vaut mieux que de s'enfoncer dans la perte, et laisser de côté une parole que tu n'as pas rapportée vaut mieux que de rapporter une parole dont tu n'es pas sûr.<sup>3593</sup>"
+                    },
+                    {
+                        "number": "3206",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le plus pieux des êtres est celui qui s'arrête face à l'ambigüité.<sup>3594</sup>"
+                    }
+                ]
             },
             {
-                "title": "1007 - L'obligation de délaisser les ambigüités"
+                "title": "1007 - L'obligation de délaisser les ambigüités",
+                "hadiths": [
+                    {
+                        "number": "3207",
+                        "text": "Le Messager d'Allah (s) a dit : Délaisse ce qui te fait douter au profit de ce qui ne te fait pas douter, car celui qui fait paître son bétail autour d'un domaine privé et interdit risque d'y pénétrer.<sup>3595</sup>"
+                    },
+                    {
+                        "number": "3208",
+                        "text": "Le Messager d'Allah (s) a dit : Ce qui est licite est clair, ce qui est illicite est clair, et les choses ambigües se trouvent entre les deux. Celui qui délaisse les ambigüités est sauvé des choses illicites, alors que celui qui s'immerge dans les ambigüités commettra ce qui est illicite et il périra sans s'en rendre compte.<sup>3596</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18810,10 +19176,38 @@ const AUNE_SAGESSE = [
         "title": "212 - LES ARBRES",
         "subparts": [
             {
-                "title": "1008 - L'importance de planter des arbres"
+                "title": "1008 - L'importance de planter des arbres",
+                "hadiths": [
+                    {
+                        "number": "3209",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque [la dernière] Heure viendra, si l'un de vous tient dans sa main une bouture, s'il le peut, qu'il ne se relève pas avant de l'avoir plantée.<sup>3597</sup>"
+                    },
+                    {
+                        "number": "3210",
+                        "text": "Le Messager d'Allah (s) a dit : Tout musulman qui cultive ou plante une chose dont les oiseaux, les êtres humains ou les bêtes mangent, cela sera considéré comme une aumône (<i>ṣadaqa</i>) pour eux de sa part.<sup>3598</sup>"
+                    },
+                    {
+                        "number": "3211",
+                        "text": "Le Messager d'Allah (s) a dit : Allah inscrit à tout homme qui a planté quelque chose une rétribution équivalente aux fruits provenant de cette plante [ou de cet arbre].<sup>3599</sup>"
+                    },
+                    {
+                        "number": "3212",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui plante un arbre, l'entretient avec patience et prend soin de lui jusqu'à ce qu'il donne des fruits aura une aumône (<i>ṣadaqa</i>) auprès d'Allah pour chaque fruit qui en sera consommé.<sup>3600</sup>"
+                    }
+                ]
             },
             {
-                "title": "1009 - L'interdiction d'abattre les arbres"
+                "title": "1009 - L'interdiction d'abattre les arbres",
+                "hadiths": [
+                    {
+                        "number": "3213",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne coupez pas les arbres fruitiers, sinon Allah fera s'abattre sur vous le châtiment.<sup>3601</sup>"
+                    },
+                    {
+                        "number": "3214",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Couper un dattier est déconseillé.<sup>3602</sup><br>(Voir également : 170. L'agriculture)"
+                    }
+                ]
             }
         ]
     },
@@ -18821,16 +19215,84 @@ const AUNE_SAGESSE = [
         "title": "213 - LE COURAGE",
         "subparts": [
             {
-                "title": "1010 - La vertu du courage"
+                "title": "1010 - La vertu du courage",
+                "hadiths": [
+                    {
+                        "number": "3215",
+                        "text": "L'Imām 'Alī (as) a dit : Le courage est une gloire immédiate.<sup>3603</sup>"
+                    },
+                    {
+                        "number": "3216",
+                        "text": "L'Imām 'Alī (as) a dit : Le courage est une victoire immédiate et une vertu manifeste.<sup>3604</sup>"
+                    },
+                    {
+                        "number": "3217",
+                        "text": "L'Imām 'Alī (as) a dit : Si les choses étaient classifiées, l'honnêteté irait avec le courage et la lâcheté irait avec le mensonge.<sup>3605</sup>"
+                    },
+                    {
+                        "number": "3218",
+                        "text": "Interrogé au sujet de la définition du courage, l'Imām Ḥasan (as) répondit : C'est de se dresser contre les adversaires et d'être patient face à la calomnie.<sup>3606</sup>"
+                    }
+                ]
             },
             {
-                "title": "1011 - Ce qui suscite le courage"
+                "title": "1011 - Ce qui suscite le courage",
+                "hadiths": [
+                    {
+                        "number": "3219",
+                        "text": "L'Imām 'Alī (as) a dit : Le courage est fondé sur trois caractéristiques naturelles, dont chacune a une vertu dont l'autre est dépourvue : le don de soi, le refus de l'humiliation, et la quête de la bonne réputation. Si elles atteignent toutes leur perfection dans la personne courageuse, elle devient un héros invincible, distingué pour son audace à son époque. En revanche, si certaines d'entre elles sont plus parfaites en elle que les autres, son courage sera plus important et plus fort dans ces caractéristiques.<sup>3607</sup>"
+                    },
+                    {
+                        "number": "3220",
+                        "text": "L'Imām 'Alī (as) a dit : La valeur de l'homme est proportionnelle à la noblesse de son ambition, sa sincérité est proportionnelle à sa galanterie, et son courage est proportionnel à son sens de l'honneur.<sup>3608</sup>"
+                    },
+                    {
+                        "number": "3221",
+                        "text": "L'Imām 'Alī (as) a dit : Le courage de l'homme est proportionnel à la noblesse de son ambition, et son sens de l'honneur est proportionnel à son ardeur [dans la résistance contre le déshonneur].<sup>3609</sup>"
+                    },
+                    {
+                        "number": "3222",
+                        "text": "L'Imām 'Alī (as) a dit : Le courage [d'un homme] est proportionnel à [s]on ardeur [dans la résistance contre le déshonneur].<sup>3610</sup>"
+                    }
+                ]
             },
             {
-                "title": "1012 - La personne la plus courageuse"
+                "title": "1012 - La personne la plus courageuse",
+                "hadiths": [
+                    {
+                        "number": "3223",
+                        "text": "Le Messager d'Allah (s) a dit : «Voulez-vous que je vous apprenne qui est le plus puissant et le plus fort parmi vous ?» Ils dirent : «Oui, ô Messager d'Allah.» Il dit : «Le plus fort et le plus puissant parmi vous est celui dont la joie, lorsqu'il est heureux, ne conduit pas à commettre un péché ou un méfait, et dont la colère, lorsqu'il est en colère, n'empêche pas de dire la vérité, et qui, lorsqu'il acquiert un pouvoir, ne s'accapare pas ce à quoi il n'a pas droit.»<sup>3611</sup>"
+                    },
+                    {
+                        "number": "3224",
+                        "text": "L'Imām 'Alī (as) a dit : La personne la plus courageuse est la plus généreuse.<sup>3612</sup>"
+                    },
+                    {
+                        "number": "3225",
+                        "text": "L'Imām 'Alī (as) a dit : La personne la plus courageuse est celle qui vainc l'ignorance par l'indulgence.<sup>3613</sup>"
+                    },
+                    {
+                        "number": "3226",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a pas plus courageuse que la personne compréhensive et intelligente.<sup>3614</sup>"
+                    },
+                    {
+                        "number": "3227",
+                        "text": "L'Imām 'Alī (as) a dit : La personne la plus puissante est celle qui a la plus grande maîtrise d'elle-même.<sup>3615</sup><br>(Voir également : 396. La passion, section 1816)"
+                    }
+                ]
             },
             {
-                "title": "1013 - Le vice du courage"
+                "title": "1013 - Le vice du courage",
+                "hadiths": [
+                    {
+                        "number": "3228",
+                        "text": "L'Imām 'Alī (as) a dit : Le vice du courage est la perte de perspicacité.<sup>3616</sup>"
+                    },
+                    {
+                        "number": "3229",
+                        "text": "L'Imām al-'Askarī (as) a dit : En vérité… le courage a un seuil et lorsqu'il est dépassé, cela devient de la témérité.<sup>3617</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18838,19 +19300,70 @@ const AUNE_SAGESSE = [
         "title": "214 - LE MAL",
         "subparts": [
             {
-                "title": "1014 - Le critère du bien et du mal"
+                "title": "1014 - Le critère du bien et du mal",
+                "hadiths": [
+                    {
+                        "number": "3230",
+                        "text": "L'Imām 'Alī (as) a dit : Le bien dont la conséquence est le Feu n'est pas un bien, et le mal dont la conséquence est le Paradis n'est pas un mal. Tout délice autre que le Paradis est insignifiant, et tout malheur autre que l'Enfer est un salut.<sup>3620</sup>"
+                    },
+                    {
+                        "number": "3231",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, Allah - loué soit-Il - a fait descendre un Livre qui guide et dans lequel le bien et le mal sont explicités ; par conséquent, prenez le chemin du bien et vous serez guidés, et détournez-vous de la voie du mal afin que vous restiez sur la voie droite.<sup>3621</sup><br>(Voir également : 140. L'invocation, section 701)"
+                    }
+                ],
+                "introduction": "«Le combat vous a été prescrit alors qu'il vous est désagréable. Or, il se peut que vous ayez de l'aversion pour une chose qui constitue pourtant un bien pour vous. Et il se peut que vous aimiez une chose alors qu'elle constitue un mal pour vous. C'est Allah qui sait, alors que vous ne savez pas.»<sup>3618</sup><br><br>«L'homme appelle le mal comme il appelle le bien, car l'homme est très hâtif.»<sup>3619</sup>"
             },
             {
-                "title": "1015 - Pire que le mal"
+                "title": "1015 - Pire que le mal",
+                "hadiths": [
+                    {
+                        "number": "3232",
+                        "text": "Le Messager d'Allah (s) a dit : Deux vertus ne sont dépassées par aucun autre bien : la foi en Allah, et le fait d'être bénéfique aux serviteurs d'Allah ; et deux iniquités ne sont dépassées par aucun autre mal : associer une chose à Allah, et faire du mal aux serviteurs d'Allah.<sup>3622</sup>"
+                    },
+                    {
+                        "number": "3233",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, il n'y a rien de pire que le mal excepté sa propre punition, et il n'y a rien de meilleur que le bien excepté sa propre récompense.<sup>3623</sup>"
+                    },
+                    {
+                        "number": "3234",
+                        "text": "L'Imām 'Alī (as) a dit : L'auteur du mal est pire que le mal en soi.<sup>3624</sup><br>(Voir également : 137. Le bien, section 681)"
+                    }
+                ]
             },
             {
-                "title": "1016 - Les clés de tout mal"
+                "title": "1016 - Les clés de tout mal",
+                "hadiths": [
+                    {
+                        "number": "3235",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Allah le Tout-Puissant a fait en sorte que les mauvaises choses aient une serrure, et Il a placé la clé de ces serrures dans l'alcool ; et le mensonge est pire que l'alcool.<sup>3625</sup>"
+                    },
+                    {
+                        "number": "3236",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La colère est la clé de tout mal.<sup>3626</sup><br>(Voir également : 341. Le mensonge, section 1584)"
+                    }
+                ]
             },
             {
-                "title": "1017 - Le rassemblement des maux"
+                "title": "1017 - Le rassemblement des maux",
+                "hadiths": [
+                    {
+                        "number": "3237",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Iblīs s'adresse à ses diables en disant : Utilisez la viande, les boissons enivrantes et les femmes car en vérité, je ne vois pas de mal rassemblé plus qu'en ces [trois] choses.<sup>3627</sup><br>(Voir également : 137. Le bien, section 671)"
+                    }
+                ]
             },
             {
-                "title": "1018 - La tendance naturelle de l'homme pour le mal"
+                "title": "1018 - La tendance naturelle de l'homme pour le mal",
+                "hadiths": [
+                    {
+                        "number": "3238",
+                        "text": "Le Messager d'Allah (s) a dit : Employez-vous à accomplir le bien et efforcez-vous dans cette voie car en vérité, le mal est une chose vers laquelle l'homme tend naturellement.<sup>3628</sup>"
+                    },
+                    {
+                        "number": "3239",
+                        "text": "L'Imām 'Alī (as) a dit : Contrains ta personne à pratiquer les vertus car en vérité, les vices sont des choses vers lesquelles tu tends naturellement.<sup>3629</sup><br>(Voir également : 149. Le péché, section 771)"
+                    }
+                ]
             }
         ]
     },
@@ -18858,16 +19371,62 @@ const AUNE_SAGESSE = [
         "title": "215 - L'ASSOCIATIONNISME",
         "subparts": [
             {
-                "title": "1019 - Mise en garde contre l'associationnisme"
+                "title": "1019 - Mise en garde contre l'associationnisme",
+                "hadiths": [
+                    {
+                        "number": "3240",
+                        "text": "Le Messager d'Allah (s) a dit en s'adressant à 'Abdullāh ibn Mas'ūd : Ô Ibn Mas'ūd ! Garde-toi d'associer la moindre chose à Allah ne serait-ce qu'un instant, même si tu dois être coupé avec une scie, amputé, crucifié ou bien brûlé par le feu.<sup>3632</sup>"
+                    }
+                ],
+                "introduction": "«Lorsque Luqmān dit à son fils tout en l'exhortant : «Ô mon fils, ne donne pas d'associé à Allah, car l'association [à Allah] est vraiment une injustice énorme».»<sup>3630</sup><br><br>«Certes, Allah ne pardonne pas qu'on Lui donne des associés. À part cela, Il pardonne à qui Il veut. Quiconque donne des associés à Allah s'égare, très loin dans l'égarement.»<sup>3631</sup>"
             },
             {
-                "title": "1020 - L'enseignement de l'associationnisme"
+                "title": "1020 - L'enseignement de l'associationnisme",
+                "hadiths": [
+                    {
+                        "number": "3241",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, les Omeyyades ont autorisé l'enseignement de la foi mais pas celui de l'associationnisme afin que lorsqu'ils y conduisent les gens, ces derniers ne puissent pas le reconnaître.<sup>3633</sup>"
+                    }
+                ]
             },
             {
-                "title": "1021 - Le plus bas degré de l'associationnisme"
+                "title": "1021 - Le plus bas degré de l'associationnisme",
+                "hadiths": [
+                    {
+                        "number": "3242",
+                        "text": "Interrogé au sujet du plus bas degré de l'associationnisme, l'Imām al-Bāqir (as) répondit : C'est celui qui dit d'un noyau que c'est un petit caillou et d'un petit caillou que c'est un noyau, et qui croit en cela.<sup>3634</sup>"
+                    },
+                    {
+                        "number": "3243",
+                        "text": "Interrogé au sujet du plus bas degré de l'associationnisme, l'Imām al-Ṣādiq (as) dit : C'est d'inventer un jugement, et d'aimer et de détester les gens en fonction de cela.<sup>3635</sup><br>(Voir également : 30. La foi, section 186 ; 345. La mécréance, section 1605)"
+                    }
+                ]
             },
             {
-                "title": "1022 - L'associationnisme caché"
+                "title": "1022 - L'associationnisme caché",
+                "hadiths": [
+                    {
+                        "number": "3244",
+                        "text": "Le Messager d'Allah (s) a dit : Prenez garde à ne pas commettre d'actes qui impliquent de devoir s'excuser et de se justifier car en vérité, l'associationnisme caché réside en cela.<sup>3637</sup>"
+                    },
+                    {
+                        "number": "3245",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut : «<i>Et la plupart d'entre eux ne croient en Allah qu'en Lui donnant des associés</i>»<sup>3638</sup> : «Cela concerne l'homme qui dit : «Sans untel, je serais mort», ou «sans untel, j'aurais été touché», ou encore «sans untel, ma famille aurait subi une perte.» Ne vois-tu pas qu'il a associé un autre à Allah dans Sa souveraineté, Lui qui pourvoit à sa subsistance et qui le protège ?» [Le narrateur] demanda : «Et s'il disait : «Si Allah n'avait pas mis untel sur mon chemin, je serais mort» ?» Il répondit : «Oui, il n'y a aucun mal à dire cela.»<sup>3639</sup>"
+                    },
+                    {
+                        "number": "3246",
+                        "text": "L'Imām al-Ṣādiq (as) a dit à propos de ce même verset coranique : Il s'agit de l'associationnisme qui concerne l'obéissance [à Allah], et non pas [seulement] de l'associationnisme dans les actes d'adoration.<sup>3640</sup>"
+                    },
+                    {
+                        "number": "3247",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : «L'associationnisme est plus discret que le mouvement de la fourmi.» Et il a dit : «Et cela inclut le fait de tourner sa bague afin de se rappeler d'une chose, et d'autres choses de ce genre.»<sup>3641</sup>"
+                    },
+                    {
+                        "number": "3248",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut : «<i>Et la plupart d'entre eux ne croient en Allah qu'en Lui donnant des associés.</i>»<sup>3642</sup> : [Cela concerne ceux qui] avaient pour habitude de dire : «Nous recevons la pluie de telle ou telle tempête.» Ils consultaient les devins et croyaient en leurs paroles.<sup>3643</sup><br>(Voir également : 152. L'ostentation, section 787)"
+                    }
+                ],
+                "introduction": "«Et la plupart d'entre eux ne croient en Allah qu'en Lui donnant des associés.»<sup>3636</sup>"
             }
         ]
     },
@@ -18875,28 +19434,119 @@ const AUNE_SAGESSE = [
         "title": "216 - SATAN",
         "subparts": [
             {
-                "title": "1023 - Tirer leçon de ce qu'Allah a fait à Satan"
+                "title": "1023 - Tirer leçon de ce qu'Allah a fait à Satan",
+                "hadiths": [
+                    {
+                        "number": "3249",
+                        "text": "L'Imām 'Alī (as) a dit : Tirez leçon de ce qu'Allah a fait à Satan, lorsqu'Il a anéanti ses actes de longue durée et ses grands [et beaux] efforts. Il avait adoré Allah pendant six mille ans, chaque heure étant si longue que l'on ne sait pas s'il s'agit des années de la vie d'ici-bas ou des années de l'Au-delà [et a tout gâché] pour l'orgueil d'un moment.<sup>3644</sup>"
+                    }
+                ]
             },
             {
-                "title": "1024 - Demander la protection d'Allah contre Satan"
+                "title": "1024 - Demander la protection d'Allah contre Satan",
+                "hadiths": [
+                    {
+                        "number": "3250",
+                        "text": "L'Imām 'Alī (as) a dit : Je loue Allah et je Lui demande Son aide pour ce qui peut refouler et chasser Satan, et pour être préservé de ses pièges et tromperies.<sup>3647</sup>"
+                    }
+                ],
+                "introduction": "«Dis : «Seigneur, je cherche Ta protection contre les incitations des diables, et je cherche Ta protection, Seigneur, contre leur présence auprès de moi».»<sup>3645</sup><br><br>«Quand tu lis le Coran, demande la protection d'Allah contre le Diable banni.»<sup>3646</sup>"
             },
             {
-                "title": "1025 - L'animosité de Satan envers l'homme"
+                "title": "1025 - L'animosité de Satan envers l'homme",
+                "hadiths": [
+                    {
+                        "number": "3251",
+                        "text": "L'Imām 'Alī (as) a dit : Méfiez-vous d'un ennemi qui pénètre furtivement dans les poitrines et qui murmure secrètement à l'oreille.<sup>3649</sup>"
+                    },
+                    {
+                        "number": "3252",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Satan a placé ses pièges dans la demeure de l'illusion, et il ne veut y piéger que nos alliés et amis [c'est-à-dire ceux des Gens de la demeure prophétique, <i>Ahl al-Bayt</i>].<sup>3650</sup>"
+                    },
+                    {
+                        "number": "3253",
+                        "text": "Interrogé au sujet de l'ennemi qu'il est le plus nécessaire de combattre, l'Imām al-Kāẓim (as) répondit : C'est le plus proche de toi et [pourtant] celui qui t'est le plus hostile… et qui provoque tes ennemis contre toi, c'est Iblīs [Satan].<sup>3651</sup>"
+                    }
+                ],
+                "introduction": "«Le Diable est pour vous un ennemi. Prenez-le donc pour ennemi. Il ne fait qu'appeler ses partisans pour qu'ils soient des gens de la Fournaise.»<sup>3648</sup>"
             },
             {
-                "title": "1026 - Mise en garde contre les tentations de Satan"
+                "title": "1026 - Mise en garde contre les tentations de Satan",
+                "hadiths": [
+                    {
+                        "number": "3254",
+                        "text": "L'Imām 'Alī (as) a dit : Il existe trois sortes de tentations : l'amour des femmes qui est l'épée de Satan, la consommation d'alcool qui est le piège de Satan, et l'amour de l'argent qui est la flèche de Satan.<sup>3653</sup><br>(Voir également : 312. La mise à l'épreuve)"
+                    }
+                ],
+                "introduction": "«Ô enfants d'Adam ! Que le Diable ne vous tente point, comme il a fait sortir du Paradis vos père et mère, leur arrachant leur vêtement pour leur rendre visibles leurs nudités. Il vous voit, lui et ses suppôts, d'où vous ne les voyez pas. Nous avons désigné les diables pour alliés à ceux qui ne croient point.»<sup>3652</sup>"
             },
             {
-                "title": "1027 - Les adorateurs de Satan"
+                "title": "1027 - Les adorateurs de Satan",
+                "hadiths": [
+                    {
+                        "number": "3255",
+                        "text": "L'Imām 'Alī (as) a dit en condamnant ceux qui suivent Satan : Ils ont pris Satan comme celui qui contrôle leurs affaires, et il les a pris [à son tour] comme associés. Il a pondu [des œufs] et [les] a [fait] éclore dans leur poitrine, il a pénétré et envahi leur for intérieur, jusqu'à ce qu'il voie avec leurs yeux et parle avec leur langue. Il les a ainsi conduits à commettre des erreurs et a embelli leurs actes futiles à leurs yeux, comme l'acte de celui dont Satan a fait son associé dans son domaine, mentant au travers de sa langue !<sup>3655</sup>"
+                    }
+                ],
+                "introduction": "«Ne vous ai-Je pas engagés, enfants d'Adam, à ne pas adorer le Diable ? Car il est vraiment pour vous un ennemi déclaré.»<sup>3654</sup>"
             },
             {
-                "title": "1028 - Les tromperies de Satan"
+                "title": "1028 - Les tromperies de Satan",
+                "hadiths": [
+                    {
+                        "number": "3256",
+                        "text": "L'Imām 'Alī (as) a dit en s'adressant à Kumayl ibn Ziyād : Ô Kumayl ! En vérité, Satan ne promet pas de sa part mais il promet plutôt de la part d'Allah afin de les inciter à Lui désobéir et de les empêtrer dans les difficultés.<sup>3659</sup>"
+                    },
+                    {
+                        "number": "3257",
+                        "text": "L'Imām 'Alī (as) a dit : Satan s'est chargé de lui [c'est-à-dire du serviteur]. Il lui embellit la désobéissance afin qu'il la commette, et il lui fait espérer la repentance afin qu'il la reporte.<sup>3660</sup>"
+                    },
+                    {
+                        "number": "3258",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans l'une de ses invocations : Si seulement Satan ne les trompait pas [en les détournant] de Ton obéissance, aucun désobéissant ne Te désobéirait, et s'il ne leur présentait pas le mensonge sous l'apparence de la vérité, nul égaré ne s'égarerait de Ton chemin.<sup>3661</sup>"
+                    },
+                    {
+                        "number": "3259",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Iblīs dit à ses subordonnés : «Semez entre eux la jalousie et la dissension car en vérité, cela équivaut à de l'associationnisme auprès d'Allah.»<sup>3662</sup>"
+                    }
+                ],
+                "introduction": "«Le Diable vous fait craindre l'indigence et vous commande des actions honteuses ; tandis qu'Allah vous promet pardon et faveur venant de Lui. La grâce d'Allah est immense et Il est Omniscient.»<sup>3656</sup><br><br>«Il [le Diable] leur fait des promesses et leur donne de faux espoirs. Et le Diable ne leur fait que des promesses trompeuses.»<sup>3657</sup><br><br>«Pourquoi donc, lorsque Notre rigueur leur vînt, n'ont-ils pas imploré [la miséricorde] ? Mais leurs cœurs s'étaient endurcis et le Diable embellissait à leurs yeux ce qu'ils faisaient.»<sup>3658</sup>"
             },
             {
-                "title": "1029 - Ce qui protège de Satan"
+                "title": "1029 - Ce qui protège de Satan",
+                "hadiths": [
+                    {
+                        "number": "3260",
+                        "text": "L'Imām 'Alī (as) a dit : Multiplie les invocations, et tu seras sauvé de la force de Satan.<sup>3665</sup>"
+                    },
+                    {
+                        "number": "3261",
+                        "text": "L'Imām al-Bāqir (as) a dit : Protégez-vous d'Iblīs par la vraie crainte révérencielle.<sup>3666</sup>"
+                    },
+                    {
+                        "number": "3262",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Iblīs a dit : Je n'ai aucune influence sur cinq catégories de personnes, tandis que les autres sont totalement sous mon emprise : celle qui s'est réfugiée auprès d'Allah avec une intention sincère et qui s'en remet à Lui pour l'ensemble de ses affaires ; celle qui glorifie abondamment [Allah] durant ses nuits et ses jours ; celle qui est satisfaite et accepte pour son frère ce qui la satisfait et ce qu'elle accepte pour elle-même ; celle qui n'est pas effrayée par le malheur qui l'atteint ; et celle qui est satisfaite de ce que Allah lui a attribué et ne s'inquiète pas de sa subsistance.<sup>3667</sup>"
+                    }
+                ],
+                "introduction": "«Il [Satan] n'a aucun pouvoir sur ceux qui croient et qui placent leur confiance dans leur Seigneur.»<sup>3663</sup><br><br>«Sur Mes serviteurs tu n'auras aucune autorité, excepté sur celui qui te suivra parmi les dévoyés.»<sup>3664</sup>"
             },
             {
-                "title": "1030 - Ce qui fait dominer Satan"
+                "title": "1030 - Ce qui fait dominer Satan",
+                "hadiths": [
+                    {
+                        "number": "3263",
+                        "text": "Le Messager d'Allah (s) a dit : Alors que Moïse (as) était assis, Iblīs s'approcha de lui... Moïse lui dit : «Informe-moi du péché qui, lorsque l'homme le commet, te permet d'avoir une entière emprise sur lui.» Il répondit : «C'est lorsqu'il se sent fier de lui-même et considère que ses actes sont importants tandis que ses péchés lui semblent insignifiants.»<sup>3669</sup>"
+                    },
+                    {
+                        "number": "3264",
+                        "text": "L'Imām 'Alī (as) a dit : La compagnie des gens absorbés par leurs bas désirs fait oublier la foi et est le siège même de la présence de Satan.<sup>3670</sup>"
+                    },
+                    {
+                        "number": "3265",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'armée la plus forte d'Iblīs est [mobilisée par] la femme et la colère.<sup>3671</sup>"
+                    }
+                ],
+                "introduction": "«Quiconque s'aveugle [et s'écarte] du rappel du Tout-Miséricordieux, Nous lui désignons un Diable qui devient son compagnon inséparable.»<sup>3668</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:155, 7:27, 19:83)</span>"
             }
         ]
     },
@@ -18904,10 +19554,39 @@ const AUNE_SAGESSE = [
         "title": "217 - LA POÉSIE",
         "subparts": [
             {
-                "title": "1031 - L'interprétation de ce qui a été dit au sujet du blâme des poètes [dans le Coran]"
+                "title": "1031 - L'interprétation de ce qui a été dit au sujet du blâme des poètes [dans le Coran]",
+                "hadiths": [
+                    {
+                        "number": "3266",
+                        "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole divine : «<i>Quant aux poètes, ce sont les égarés qui les suivent.</i>»<sup>3673</sup> : As-tu déjà vu un poète qui a des disciples ?! En vérité, ce sont des gens qui se sont consacrés à comprendre ce qui est autre que la religion. Par conséquent, ils se sont égarés et ont égaré les autres.<sup>3674</sup>"
+                    }
+                ],
+                "introduction": "«Quant aux poètes, ce sont les égarés qui les suivent. Ne vois-tu pas qu'ils divaguent dans chaque vallée, et qu'ils disent ce qu'ils ne font pas ? Excepté ceux qui croient et font de bonnes œuvres, qui invoquent souvent le Nom d'Allah et se défendent contre les torts qu'on leur fait. Les injustes verront bientôt le revirement qu'ils [éprouveront] !»<sup>3672</sup>"
             },
             {
-                "title": "1032 - La poésie est un combat (jihād) mené avec la langue"
+                "title": "1032 - La poésie est un combat (jihād) mené avec la langue",
+                "hadiths": [
+                    {
+                        "number": "3267",
+                        "text": "Interrogé au sujet des poètes, le Messager d'Allah (s) a dit : En vérité, le croyant peut combattre avec son épée et avec sa langue. Par Celui qui détient mon âme entre Ses mains, les déclamations [des poètes croyants] sont des lances [tirées vers l'ennemi].<sup>3675</sup>"
+                    },
+                    {
+                        "number": "3268",
+                        "text": "Le Messager d'Allah (s) a dit à Ḥassān ibn Thābit [qui écrivait des poèmes de louange au Prophète (s) et contre les incroyants] : Dénigre les associationnistes [par tes poèmes] car en vérité, Gabriel est avec toi.<sup>3676</sup>"
+                    },
+                    {
+                        "number": "3269",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, certains poèmes contiennent des mots de sagesse et en vérité, certains discours sont ensorcelants.<sup>3677</sup>"
+                    },
+                    {
+                        "number": "3270",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah le Très-Haut érigera une maison au Paradis à celui qui déclame un vers en notre honneur [les <i>Ahl al-Bayt</i>].<sup>3678</sup>"
+                    },
+                    {
+                        "number": "3271",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Nul ne déclame un vers de poésie en notre honneur sans qu'il ne soit renforcé par l'Esprit Saint.<sup>3679</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18915,10 +19594,42 @@ const AUNE_SAGESSE = [
         "title": "218 - LE SLOGAN",
         "subparts": [
             {
-                "title": "1033 - Le slogan durant la bataille"
+                "title": "1033 - Le slogan durant la bataille",
+                "hadiths": [
+                    {
+                        "number": "3272",
+                        "text": "Lorsqu'il ordonna [à ses troupes] de scander un slogan avant une bataille, le Messager d'Allah (s) dit : Que votre slogan comporte l'un des Noms d'Allah.<sup>3680</sup>"
+                    },
+                    {
+                        "number": "3273",
+                        "text": "L'Imām 'Alī (as) a dit : Le slogan des compagnons du Messager d'Allah (s) le jour de [la bataille de] Badr était : «Ô Victorieux, fais [-les] mourir».<sup>3681</sup>"
+                    },
+                    {
+                        "number": "3274",
+                        "text": "L'Imām 'Alī (as) a dit dans l'un de ses slogans lors de la bataille du chameau : «Ḥā-Mīm, ils ne vaincront pas ; ô Allah, accorde-nous la victoire face aux traîtres.»<sup>3682</sup>"
+                    },
+                    {
+                        "number": "3275",
+                        "text": "L'Imām Ja'far al-Ṣādiq (as) a dit : Notre slogan le jour de [la bataille de] Badr était : «Ô victoire d'Allah, viens à nous, viens à nous…» Le slogan de Ḥusayn (as) était «Ô Muḥammad», et notre slogan est [également] «Ô Muḥammad».<sup>3683</sup>"
+                    }
+                ]
             },
             {
-                "title": "1034 - Le slogan des musulmans le Jour de la Résurrection"
+                "title": "1034 - Le slogan des musulmans le Jour de la Résurrection",
+                "hadiths": [
+                    {
+                        "number": "3276",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, le slogan des musulmans lors de la traversée du pont <i>ṣirāṭ</i> sera : «Point de divinité à part Dieu, que ceux qui s'en remettent à Allah placent leur confiance en Allah.»<sup>3684</sup>"
+                    },
+                    {
+                        "number": "3277",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, le slogan des croyants lors de la traversée du pont <i>ṣirāṭ</i> sera : «Seigneur, protège-nous, protège-nous !»<sup>3685</sup>"
+                    },
+                    {
+                        "number": "3278",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, le slogan des croyants dans l'obscurité de la résurrection sera : «Point de divinité à part Toi».<sup>3686</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18926,28 +19637,149 @@ const AUNE_SAGESSE = [
         "title": "219 - L'INTERCESSION",
         "subparts": [
             {
-                "title": "1035 - L'intercession dans ce bas-monde"
+                "title": "1035 - L'intercession dans ce bas-monde",
+                "hadiths": [
+                    {
+                        "number": "3279",
+                        "text": "Le Messager d'Allah (s) a dit : Intercédez pour quelqu'un et vous serez rétribués.<sup>3687</sup>"
+                    },
+                    {
+                        "number": "3280",
+                        "text": "Le Messager d'Allah (s) a dit : Le jour où les pieds trébucheront, Allah affermira ceux de celui qui intervient en faveur de quelqu'un pour régler une dette financière ou lui permettre d'obtenir un profit qui lui est dû.<sup>3688</sup>"
+                    },
+                    {
+                        "number": "3281",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'intercession est l'aumône (<i>zakāt</i>) du haut rang.<sup>3689</sup>"
+                    }
+                ]
             },
             {
-                "title": "1036 - L'intercession dans l'Au-delà"
+                "title": "1036 - L'intercession dans l'Au-delà",
+                "hadiths": [
+                    {
+                        "number": "3282",
+                        "text": "Le Messager d'Allah (s) a dit : Mon intercession auprès de ma communauté sera destinée à ceux qui ont aimé les gens de ma famille.<sup>3694</sup>"
+                    },
+                    {
+                        "number": "3283",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, j'intercèderai certainement pour celui dont le cœur contient l'équivalent de l'aile d'un moustique de foi.<sup>3695</sup>"
+                    },
+                    {
+                        "number": "3284",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque j'atteindrai la Station Glorieuse, j'intercèderai pour les gens de ma communauté qui ont commis des péchés majeurs, et Allah agréera mon intercession pour eux. Par Allah, je n'intercèderai pas pour quiconque a fait du mal et a porté préjudice à mes descendants.<sup>3696</sup>"
+                    },
+                    {
+                        "number": "3285",
+                        "text": "Le Messager d'Allah (s) a dit : Il a été donné à chacun des prophètes de formuler une demande par laquelle ils ont pu solliciter une chose [auprès d'Allah], mais j'ai renoncé à cette demande afin de pouvoir [en retour] intercéder pour ma communauté le Jour de la Résurrection.<sup>3697</sup>"
+                    },
+                    {
+                        "number": "3286",
+                        "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole du Très-Haut : «<i>Ton Seigneur t'accordera certes [Ses faveurs], et alors tu seras satisfait</i>»<sup>3698</sup> : C'est l'intercession, par Allah, c'est l'intercession, par Allah, c'est l'intercession !<sup>3699</sup>"
+                    },
+                    {
+                        "number": "3287",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut : «<i>Ils ne disposeront d'aucune intercession, sauf celui qui aura pris un engagement avec le Tout-Miséricordieux.</i>»<sup>3700</sup> : Sauf ceux qui se sont ralliés à l'autorité de l'Emir des croyants et des Imāms après lui, car c'est cela l'engagement avec Allah dont il est question.<sup>3701</sup>"
+                    }
+                ],
+                "introduction": "«Dis : «L'intercession toute entière appartient à Allah. À Lui la royauté des cieux et de la terre. Puis c'est vers Lui que vous serez ramenés».»<sup>3690</sup><br><br>«Qui peut intercéder auprès de Lui sans Sa permission ?»<sup>3691</sup><br><br>«Ils ne disposeront d'aucune intercession, sauf celui qui aura pris un engagement avec le Tout-Miséricordieux.»<sup>3692</sup><br><br>«Ce jour-là, l'intercession ne profitera qu'à celui auquel le Tout-Miséricordieux aura donné Sa permission et dont Il aura agréé la parole.»<sup>3693</sup><br><br><span class=\"reference-note\">(Voir également : Coran 6:51, 32:40, 22:28)</span>"
             },
             {
-                "title": "1037 - Ceux qui seront privés de l'intercession"
+                "title": "1037 - Ceux qui seront privés de l'intercession",
+                "hadiths": [
+                    {
+                        "number": "3288",
+                        "text": "Le Messager d'Allah (s) a dit : Deux types de personnes ne seront pas atteintes par mon intercession : le détenteur de pouvoir tyrannique et inique, et l'hérétique qui fait preuve d'exagération dans sa religion.<sup>3702</sup>"
+                    },
+                    {
+                        "number": "3289",
+                        "text": "Le Messager d'Allah (s) a dit : Concernant mon intercession, elle sera destinée à ceux qui ont perpétré de graves péchés [parmi les musulmans], hormis ceux qui sont coupables d'associationnisme et d'injustice.<sup>3703</sup>"
+                    },
+                    {
+                        "number": "3290",
+                        "text": "Le Messager d'Allah (s) a dit : Par Allah, celui qui néglige ses prières quotidiennes ne sera pas atteint par mon intercession et il ne me rencontrera pas au bassin paradisiaque [du Kawthar].<sup>3704</sup>"
+                    },
+                    {
+                        "number": "3291",
+                        "text": "Le Messager d'Allah (s) a dit : Allah n'agréera pas mon intercession en faveur de celui qui ne croit pas en mon intercession.<sup>3705</sup>"
+                    },
+                    {
+                        "number": "3292",
+                        "text": "Lorsqu'il ordonna à ses proches de se réunir autour de lui avant son décès, l'Imām al-Ṣādiq (as) dit : En vérité, notre intercession n'atteindra pas celui qui néglige ses prières quotidiennes.<sup>3706</sup>"
+                    },
+                    {
+                        "number": "3293",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Même si les anges rapprochés et les prophètes envoyés intercédaient pour un <i>nāsibi</i><sup>3707</sup>, leur intercession ne serait pas acceptée.<sup>3708</sup>"
+                    }
+                ]
             },
             {
-                "title": "1038 - Le besoin des premiers et des derniers de l'intercession"
+                "title": "1038 - Le besoin des premiers et des derniers de l'intercession",
+                "hadiths": [
+                    {
+                        "number": "3294",
+                        "text": "<i>Biḥār al-Anwār</i> : Abū al-'Abbās al-Mukbir : Abū Ayman a dit à l'Imām al-Bāqir (as) : «Ô Abū Ja'far ! Vous trompez les gens en leur disant «l'intercession de Muḥammad [vous aidera], l'intercession de Muḥammad !»» L'Imām (as) se mit en colère tant et si bien que son visage s'assombrit, puis il dit : «Malheur à toi, Abū Ayman ! Si ton ventre et tes parties intimes sont chastes [et te préservent du péché], te trompent-ils ?! Si tu voyais les tourments du Jour de la Résurrection, tu aurais certainement besoin de l'intercession de Muḥammad (s). Malheur à toi ! Penses-tu qu'il intercèdera seulement pour ceux dont [le châtiment par] le Feu est obligatoire ?!» Puis il continua : «Il n'est personne, parmi les premiers et les derniers, qui n'aura pas besoin de l'intercession de Muḥammad (s) le Jour de la Résurrection.»<sup>3709</sup>"
+                    }
+                ]
             },
             {
-                "title": "1039 - Les différents types d'intercesseurs"
+                "title": "1039 - Les différents types d'intercesseurs",
+                "hadiths": [
+                    {
+                        "number": "3295",
+                        "text": "Le Messager d'Allah (s) a dit : Trois types de personnes auront le droit d'intercéder auprès d'Allah et leur intercession sera agréée : les prophètes, puis les savants, et enfin les martyrs.<sup>3710</sup>"
+                    },
+                    {
+                        "number": "3296",
+                        "text": "Le Messager d'Allah (s) a dit : [Le droit] d'intercéder appartient aux prophètes, aux légataires [des prophètes], aux croyants et aux anges.<sup>3711</sup>"
+                    },
+                    {
+                        "number": "3297",
+                        "text": "Le Messager d'Allah (s) a dit : Il y a cinq intercesseurs : le Coran, les liens de sang, l'honnêteté, votre Prophète, et la famille de votre Prophète.<sup>3712</sup>"
+                    },
+                    {
+                        "number": "3298",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas d'intercesseur plus effectif que le repentir.<sup>3713</sup>"
+                    },
+                    {
+                        "number": "3299",
+                        "text": "L'Imām 'Alī (as) a dit : L'intercesseur des créatures est l'acte basé sur la vérité et l'astreinte à la sincérité [la vérité].<sup>3714</sup>"
+                    }
+                ]
             },
             {
-                "title": "1040 - Les personnes qui méritent le plus l'intercession"
+                "title": "1040 - Les personnes qui méritent le plus l'intercession",
+                "hadiths": [
+                    {
+                        "number": "3300",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, les plus proches de moi parmi vous demain [dans l'Au-delà] et ceux qui mériteront le plus mon intercession sont ceux parmi vous dont la parole est la plus véridique, les plus dignes de confiance dans la restitution des dépôts, ceux qui ont le meilleur caractère et qui sont les plus proches des gens.<sup>3715</sup>"
+                    }
+                ]
             },
             {
-                "title": "1041 - L'intercession du croyant dépend de l'étendue de ses actes"
+                "title": "1041 - L'intercession du croyant dépend de l'étendue de ses actes",
+                "hadiths": [
+                    {
+                        "number": "3301",
+                        "text": "Le Messager d'Allah (s) a dit : Parmi les croyants, certaines personnes pourront intercéder [pour un groupe] aussi nombreux que [les tribus de] Rabī'a et Muḍar, et le croyant a le droit d'intercéder pour au moins trente personnes.<sup>3716</sup>"
+                    },
+                    {
+                        "number": "3302",
+                        "text": "L'Imām al-Bāqir (as) a dit : L'homme intercèdera pour son clan, pour sa famille, ou juste pour deux personnes selon l'étendue de ses actes, car c'est cela la Station Glorieuse.<sup>3717</sup>"
+                    }
+                ]
             },
             {
-                "title": "1042 - La plus petite intercession possible au croyant"
+                "title": "1042 - La plus petite intercession possible au croyant",
+                "hadiths": [
+                    {
+                        "number": "3303",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, j'intercèderai et mon intercession sera acceptée ; 'Alī intercèdera et son intercession sera acceptée ; et les Gens de ma Famille (<i>Ahl baytī</i>) intercèderont et leur intercession sera acceptée. En vérité, la plus petite intercession possible au croyant sera qu'il intercèdera pour quarante de ses frères dont chacun méritait le Feu.<sup>3718</sup>"
+                    },
+                    {
+                        "number": "3304",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, la plus petite intercession possible au croyant sera qu'il intercèdera pour trente personnes, et à ce moment-là, les gens de l'Enfer diront : «<i>Et nous n'avons pas d'intercesseurs, ni d'ami chaleureux.</i>»<sup>3719</sup>.<sup>3720</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18955,19 +19787,89 @@ const AUNE_SAGESSE = [
         "title": "220 - LA MISÈRE",
         "subparts": [
             {
-                "title": "1043 - Les caractéristiques de la personne misérable"
+                "title": "1043 - Les caractéristiques de la personne misérable",
+                "hadiths": [
+                    {
+                        "number": "3305",
+                        "text": "L'Imām 'Alī (as) a dit : Le misérable est celui qui s'est laissé tromper par ses caprices et ses illusions.<sup>3721</sup>"
+                    },
+                    {
+                        "number": "3306",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, le misérable est celui qui est privé du fait de pouvoir tirer bénéfice de la raison et d'expérience.<sup>3722</sup>"
+                    },
+                    {
+                        "number": "3307",
+                        "text": "L'Imām 'Alī (as) a dit : Prémunissez-vous contre les péchés et retenez-vous face à eux car en vérité, le misérable est celui qui a lâché la bride face à eux [et leur donne libre cours].<sup>3723</sup>"
+                    }
+                ]
             },
             {
-                "title": "1044 - Le misérable l'était dans le ventre de sa mère"
+                "title": "1044 - Le misérable l'était dans le ventre de sa mère",
+                "hadiths": [
+                    {
+                        "number": "3308",
+                        "text": "Le Messager d'Allah (s) a dit : Le bienheureux est celui qui était bienheureux dans le ventre de sa mère, et le misérable est celui qui était misérable dans le ventre de sa mère.<sup>3724</sup>"
+                    },
+                    {
+                        "number": "3309",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Tout-Puissant a créé le bonheur et la misère avant de créer la création. Dès lors, si Allah sait que quelqu'un sera bienheureux [dans l'Au-delà], Il ne le méprisera jamais et même s'il commet une mauvaise action, Allah méprisera son acte et non la personne. En revanche, s'Il sait que quelqu'un sera misérable [du fait de ses mauvaises actions], Il ne l'aimera jamais et même s'il fait une bonne action, Il aimera son acte mais méprisera la personne du fait de ce qu'elle va devenir.<sup>3725</sup>"
+                    },
+                    {
+                        "number": "3310",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Béni et le Très-Haut peut faire passer Son serviteur de la misère au bonheur, mais Il ne le fait jamais passer du bonheur à la misère.<sup>3726</sup>"
+                    },
+                    {
+                        "number": "3311",
+                        "text": "<i>Al-Tawḥīd</i> : Muḥammad ibn Abī 'Umayr : J'ai interrogé Abū al-Ḥasan Mūsā ibn Ja'far [l'Imām al-Kāẓim] (as) sur le sens de la parole du Messager d'Allah (s) : «Le bienheureux est celui qui était bienheureux dans le ventre de sa mère, et le misérable est celui qui était misérable dans le ventre de sa mère.» Il (as) a répondu : «Le misérable est celui à propos duquel Allah a su, alors qu'il était dans le ventre de sa mère, qu'il commettrait les actes des misérables ; et le bienheureux est celui à propos duquel Allah a su, alors qu'il était dans le ventre de sa mère, qu'il accomplirait les actes des bienheureux.»<sup>3727</sup>"
+                    }
+                ]
             },
             {
-                "title": "1045 - Ce qui suscite la misère"
+                "title": "1045 - Ce qui suscite la misère",
+                "hadiths": [
+                    {
+                        "number": "3312",
+                        "text": "L'Imām 'Alī (as) a dit : La cause de la misère est l'amour de ce bas-monde.<sup>3728</sup>"
+                    },
+                    {
+                        "number": "3313",
+                        "text": "L'Imām Ḥusayn (as) a dit dans son invocation du jour de 'Arafa : Ô Allah ! Fais en sorte que je Te craigne comme si je Te voyais, rends-moi heureux par ma crainte et ma dévotion vis-à-vis de Toi, et ne me rends pas misérable par ma désobéissance à Ton égard.<sup>3729</sup>"
+                    }
+                ]
             },
             {
-                "title": "1046 - La plus misérable des personnes"
+                "title": "1046 - La plus misérable des personnes",
+                "hadiths": [
+                    {
+                        "number": "3314",
+                        "text": "Jésus (as) a dit : La plus misérable des personnes est celle qui est connue des gens pour son savoir et méconnue pour ses actes.<sup>3730</sup>"
+                    },
+                    {
+                        "number": "3315",
+                        "text": "Le Messager d'Allah (s) a dit : Le plus misérable parmi les misérables est celui qui conjugue la pauvreté dans ce monde au châtiment dans l'Au-delà.<sup>3731</sup>"
+                    },
+                    {
+                        "number": "3316",
+                        "text": "Interrogé au sujet de la plus misérable des personnes, l'Imām 'Alī (as) répondit : C'est celle qui vend sa religion pour [l'intérêt] mondain de quelqu'un d'autre.<sup>3732</sup>"
+                    }
+                ]
             },
             {
-                "title": "1047 - Les signes de la misère"
+                "title": "1047 - Les signes de la misère",
+                "hadiths": [
+                    {
+                        "number": "3317",
+                        "text": "Le Messager d'Allah (s) a dit : Parmi les signes de la misère figurent l'apathie du regard, la dureté du cœur, l'intense avidité dans la quête des moyens de subsistance, et la persistance dans la perpétration de péchés.<sup>3733</sup>"
+                    },
+                    {
+                        "number": "3318",
+                        "text": "L'Imām 'Alī (as) a dit : Tromper un ami est l'un des signes de la misère.<sup>3734</sup>"
+                    },
+                    {
+                        "number": "3319",
+                        "text": "L'Imām 'Alī (as) a dit : Offenser et maltraiter les bons est l'un des signes de la misère.<sup>3735</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -18975,28 +19877,143 @@ const AUNE_SAGESSE = [
         "title": "221 - LA GRATITUDE",
         "subparts": [
             {
-                "title": "1048 - L'incitation à rendre grâce à Allah"
+                "title": "1048 - L'incitation à rendre grâce à Allah",
+                "hadiths": [
+                    {
+                        "number": "3320",
+                        "text": "L'Imām 'Alī (as) a dit : La gratitude est l'ornement de la richesse, alors que la patience est l'ornement de l'épreuve.<sup>3737</sup>"
+                    },
+                    {
+                        "number": "3321",
+                        "text": "L'Imām 'Alī (as) a dit : Votre premier devoir vis-à-vis d'Allah - loué soit-Il - est de Lui rendre grâce pour Ses dons, et de chercher à obtenir Sa satisfaction.<sup>3738</sup>"
+                    },
+                    {
+                        "number": "3322",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Tu es redevable d'un remerciement obligatoire à chacune de tes respirations, ou plutôt de mille, et plus encore.<sup>3739</sup>"
+                    }
+                ],
+                "introduction": "«Souvenez-vous de Moi donc, Je vous récompenserai. Remerciez-Moi et ne soyez pas ingrats envers Moi !»<sup>3736</sup>"
             },
             {
-                "title": "1049 - La vertu de la personne reconnaissante"
+                "title": "1049 - La vertu de la personne reconnaissante",
+                "hadiths": [
+                    {
+                        "number": "3323",
+                        "text": "<i>Miṣbāḥ al-Sharī'a</i> : L'Imām al-Ṣādiq (as) a dit : S'il existait auprès d'Allah un meilleur acte d'adoration pour les serviteurs sincères que celui de Lui être reconnaissant en toute situation, Il les aurait distingués par une mention parmi le reste de la création pour cela [cet acte d'adoration]. Mais comme il n'en existe pas de meilleur, Il l'a distinguée [la reconnaissance] de tous les autres actes d'adoration, et Il a distingué ceux qui le pratiquent en disant : «<i>Et peu de Mes serviteurs sont reconnaissants.</i>»<sup>3741</sup>.<sup>3742</sup>"
+                    },
+                    {
+                        "number": "3324",
+                        "text": "L'Imām al-Hādī (as) a dit : La personne reconnaissante accède à davantage de félicité par sa gratitude que par la grâce qui a suscité cette même gratitude, car les grâces sont des sources de jouissance dans ce monde alors que la reconnaissance suscite des bienfaits ainsi qu'une [bonne] fin [dans l'Au-delà].<sup>3743</sup>"
+                    },
+                    {
+                        "number": "3325",
+                        "text": "L'Imām al-'Askarī (as) a dit : Seule la personne reconnaissante connaît [la valeur réelle de] la grâce, et seule celle qui en connaît [la valeur] remercie pour une grâce.<sup>3744</sup>"
+                    }
+                ],
+                "introduction": "«Bien au contraire, adore Allah seul et sois au nombre des reconnaissants.»<sup>3740</sup>"
             },
             {
-                "title": "1050 - Le rôle de la gratitude dans l'augmentation [des grâces]"
+                "title": "1050 - Le rôle de la gratitude dans l'augmentation [des grâces]",
+                "hadiths": [
+                    {
+                        "number": "3326",
+                        "text": "Le Messager d'Allah (s) a dit : Allah n'ouvre pas la porte de la gratitude à Son serviteur pour lui fermer celle de l'augmentation [des grâces].<sup>3746</sup>"
+                    },
+                    {
+                        "number": "3327",
+                        "text": "L'Imām 'Alī (as) a dit : Dès qu'Allah comble Son serviteur d'une grâce et que ce dernier éprouve de la reconnaissance dans son cœur, il mérite une augmentation [des grâces] - et cela avant même qu'il n'exprime sa reconnaissance par la parole.<sup>3747</sup>"
+                    }
+                ],
+                "introduction": "«Et lorsque votre Seigneur proclama : «Si vous êtes reconnaissants, très certainement J'augmenterai [Mes bienfaits] pour vous. Mais si vous êtes ingrats, Mon châtiment sera terrible».»<sup>3745</sup>"
             },
             {
-                "title": "1051 - La nécessité de remercier pour avoir remercié"
+                "title": "1051 - La nécessité de remercier pour avoir remercié",
+                "hadiths": [
+                    {
+                        "number": "3328",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans l'un de ses entretiens intimes [avec Allah] : Comment pourrais-je parvenir à Te remercier, alors que le fait même de Te remercier implique que je Te remercie ? À chaque fois que je dis : «À Toi appartient la louange», je me dois à nouveau de dire pour cela [pour le fait même d'avoir récité cette louange] «À Toi appartient la louange».<sup>3748</sup>"
+                    },
+                    {
+                        "number": "3329",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah le Très-Haut a révélé à Moïse (as) : «Ô Moïse, sois reconnaissant et remercie-Moi comme il se doit.» Il (as) dit : «Ô Seigneur ! Comment pourrais-je Te remercier comme il se doit, alors que chacun de mes remerciements exprimés est lui-même une faveur dont Tu me combles ?» Il dit : «Ô Moïse ! Tu Me remercies comme il se doit lorsque tu reconnais que cela [le remerciement] vient de Moi.»<sup>3749</sup>"
+                    }
+                ]
             },
             {
-                "title": "1052 - La vraie gratitude"
+                "title": "1052 - La vraie gratitude",
+                "hadiths": [
+                    {
+                        "number": "3330",
+                        "text": "L'Imām 'Alī (as) a dit : La [vraie] gratitude envers tout bienfait est l'abstinence vis-à-vis de ce qu'Allah a interdit.<sup>3750</sup>"
+                    },
+                    {
+                        "number": "3331",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu as vaincu ton ennemi, fais en sorte que ton pardon à son égard soit une gratitude pour le pouvoir [qui t'a été donné] sur lui.<sup>3751</sup>"
+                    },
+                    {
+                        "number": "3332",
+                        "text": "L'Imām al-Bāqir (as) a dit : Considère [même] la subsistance modeste d'Allah comme étant trop pour toi, afin de faire preuve de gratitude.<sup>3752</sup>"
+                    },
+                    {
+                        "number": "3333",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La gratitude vis-à-vis d'un bienfait est exprimée par le fait de s'abstenir des choses interdites, et le sommet de la gratitude est lorsque l'homme dit : «La louange appartient à Allah, le Seigneur des mondes».<sup>3753</sup>"
+                    },
+                    {
+                        "number": "3334",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qu'Allah a comblé d'un bienfait et qui l'a reconnu [comme étant un bienfait d'Allah] dans son cœur a véritablement exprimé sa gratitude.<sup>3754</sup>"
+                    },
+                    {
+                        "number": "3335",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsqu'un évènement le rendait heureux, le Messager d'Allah (s) avait coutume de dire : «Qu'Allah soit loué pour cette grâce» et lorsqu'il était attristé par un évènement, il disait : «Qu'Allah soit loué en toute situation».<sup>3755</sup>"
+                    },
+                    {
+                        "number": "3336",
+                        "text": "<i>Miṣbāḥ al-Sharī'a</i> : On attribue à l'Imām al-Ṣādiq (as) la parole suivante : La moindre des gratitudes est de voir que la grâce provient d'Allah sans attacher son cœur à une autre cause qu'Allah, d'être satisfait de ce qu'Il a donné, de ne pas Lui désobéir au moyen de Ses grâces, et de ne s'opposer à Lui dans aucun de Ses commandements ou de Ses interdictions du fait de cette grâce.<sup>3756</sup>"
+                    }
+                ]
             },
             {
-                "title": "1053 - La plus reconnaissante des personnes"
+                "title": "1053 - La plus reconnaissante des personnes",
+                "hadiths": [
+                    {
+                        "number": "3337",
+                        "text": "L'Imām 'Alī (as) a dit : La plus reconnaissante des personnes est la plus satisfaite [de ce qu'elle a] ; en revanche, la plus ingrate par rapport aux grâces est la plus avide.<sup>3757</sup>"
+                    },
+                    {
+                        "number": "3338",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le plus reconnaissant envers Allah parmi vous est celui qui est le plus reconnaissant envers les gens.<sup>3758</sup>"
+                    }
+                ]
             },
             {
-                "title": "1054 - L'incitation à remercier les bienfaiteurs"
+                "title": "1054 - L'incitation à remercier les bienfaiteurs",
+                "hadiths": [
+                    {
+                        "number": "3339",
+                        "text": "L'Imām Ḥasan (as) a dit : Ne pas remercier pour un bienfait qui t'est accordé est blâmable.<sup>3759</sup>"
+                    },
+                    {
+                        "number": "3340",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le droit de celui qui réalise pour toi un acte de bienfaisance est que tu le remercies et mentionnes sa bienfaisance, que tu le récompenses par de belles paroles, et que tu fasses pour lui une invocation sincère concernant ce qui est entre toi et Allah le Tout-Puissant. Si tu fais cela, tu l'auras remercié à la fois secrètement et publiquement. Par la suite, si tu peux lui rendre la pareille un jour, fais-le.<sup>3760</sup>"
+                    }
+                ]
             },
             {
-                "title": "1055 - Celui qui n'a pas remercié les créatures n'a pas remercié le Créateur"
+                "title": "1055 - Celui qui n'a pas remercié les créatures n'a pas remercié le Créateur",
+                "hadiths": [
+                    {
+                        "number": "3341",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Allah le Béni et le Très-Haut demandera à l'un de Ses serviteurs le Jour de la Résurrection : «As-tu remercié untel ?» Il répondra : «Non, mais je T'ai remercié Toi, ô Seigneur.» Il dira : «Tu ne M'as pas remercié car tu ne l'as pas remercié.»<sup>3761</sup>"
+                    },
+                    {
+                        "number": "3342",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah maudit celui qui coupe les moyens de la bienfaisance. C'est celui qui, lorsqu'une personne réalise pour lui un acte de bienfaisance, fait preuve d'ingratitude. Il dissuade ainsi l'auteur de cet acte de faire la même chose pour une autre personne.<sup>3762</sup>"
+                    },
+                    {
+                        "number": "3343",
+                        "text": "L'Imām al-Riḍā (as) a dit : Celui qui ne remercie pas celui qui lui a fait une faveur parmi les créatures n'aura pas remercié Allah le Tout-Puissant.<sup>3763</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19004,19 +20021,85 @@ const AUNE_SAGESSE = [
         "title": "222 - LE DOUTE",
         "subparts": [
             {
-                "title": "1056 - Le doute concernant les principes de la croyance"
+                "title": "1056 - Le doute concernant les principes de la croyance",
+                "hadiths": [
+                    {
+                        "number": "3344",
+                        "text": "L'Imām 'Alī (as) a dit : Tu te dois d'adhérer à la certitude et d'éviter le doute, car il n'y a pas plus destructeur pour la religion de l'homme que la domination du doute sur sa certitude.<sup>3764</sup>"
+                    },
+                    {
+                        "number": "3345",
+                        "text": "L'Imām 'Alī (as) a dit : Je n'ai jamais douté de la vérité depuis qu'elle m'a été montrée.<sup>3765</sup>"
+                    },
+                    {
+                        "number": "3346",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, je suis certain de mon Seigneur et je n'ai aucun doute vis-à-vis de ma religion.<sup>3766</sup>"
+                    },
+                    {
+                        "number": "3347",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut : «<i>afin de vous débarrasser de toute souillure</i>»<sup>3767</sup> : La souillure est le doute et par Allah, nous ne doutons jamais de notre Seigneur.<sup>3768</sup><br>(Voir également : 419. La certitude, section 1910)"
+                    }
+                ]
             },
             {
-                "title": "1057 - Les causes du doute"
+                "title": "1057 - Les causes du doute",
+                "hadiths": [
+                    {
+                        "number": "3348",
+                        "text": "L'Imām 'Alī (as) a dit : Le doute est le résultat de l'ignorance.<sup>3769</sup>"
+                    },
+                    {
+                        "number": "3349",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui est insolent vis-à-vis des ordres d'Allah sera en proie au doute, et Allah vaincra celui qui doute, Il l'humiliera par Son autorité et le diminuera par Sa majesté, tout comme il a fait preuve de mépris vis-à-vis de Son ordre.<sup>3770</sup>"
+                    },
+                    {
+                        "number": "3350",
+                        "text": "L'Imām 'Alī (as) a dit : N'hésitez pas pour ne pas être en prise avec le doute, ne doutez pas pour ne pas tomber dans la mécréance, et ne vous autorisez pas à être négligents [vis-à-vis d'Allah] afin de ne pas tomber dans l'aveuglement.<sup>3771</sup>"
+                    }
+                ]
             },
             {
-                "title": "1058 - Les effets du doute"
+                "title": "1058 - Les effets du doute",
+                "hadiths": [
+                    {
+                        "number": "3351",
+                        "text": "L'Imām 'Alī (as) a dit : Le doute fait obstacle à la foi.<sup>3772</sup>"
+                    },
+                    {
+                        "number": "3352",
+                        "text": "L'Imām 'Alī (as) a dit : Le doute éteint la lumière du cœur.<sup>3773</sup>"
+                    },
+                    {
+                        "number": "3353",
+                        "text": "L'Imām 'Alī (as) a dit : Le résultat du doute est la confusion.<sup>3774</sup><br>(Voir également : 419. La certitude, section 1914)"
+                    }
+                ]
             },
             {
-                "title": "1059 - Ce qui dissipe le doute"
+                "title": "1059 - Ce qui dissipe le doute",
+                "hadiths": [
+                    {
+                        "number": "3354",
+                        "text": "L'Imām 'Alī (as) a dit : La réflexion constante fait disparaître le doute.<sup>3775</sup>"
+                    },
+                    {
+                        "number": "3355",
+                        "text": "L'Imām 'Alī (as) a dit : Je suis étonné de celui qui doute au sujet d'Allah alors qu'il voit la création d'Allah !<sup>3776</sup>"
+                    },
+                    {
+                        "number": "3356",
+                        "text": "L'Imām 'Alī (as) a dit : Nulle personne sincère n'hésite et nulle personne certaine [de sa foi] ne doute.<sup>3777</sup>"
+                    }
+                ]
             },
             {
-                "title": "1060 - Les [différents] aspects du doute"
+                "title": "1060 - Les [différents] aspects du doute",
+                "hadiths": [
+                    {
+                        "number": "3357",
+                        "text": "L'Imām 'Alī (as) a dit : Le doute comporte quatre aspects : la dispute [ou le débat destiné à tout mettre en doute], la peur, l'hésitation, et la soumission. Celui qui fait de la dispute son habitude ne verra pas la lumière après les ténèbres ; celui qui a peur de ce qui lui survient [et se met à douter en conséquence] reviendra sans cesse en arrière ; celui qui hésite dans le doute sera écrasé par les sabots de Satan ; et celui qui succombe aux perditions de la vie d'ici-bas et à celles de l'Au-delà sera anéanti dans les deux.<sup>3778</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19024,19 +20107,80 @@ const AUNE_SAGESSE = [
         "title": "223 - LE TÉMOIGNAGE",
         "subparts": [
             {
-                "title": "1061 - Le témoignage équitable"
+                "title": "1061 - Le témoignage équitable",
+                "hadiths": [
+                    {
+                        "number": "3358",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, je suis juste et je ne témoigne que sur la base de la justice.<sup>3780</sup>"
+                    },
+                    {
+                        "number": "3359",
+                        "text": "L'Imām 'Alī (as) a dit : L'équité est l'esprit du témoignage.<sup>3781</sup>"
+                    }
+                ],
+                "introduction": "«Ô vous qui croyez ! Soyez stricts [dans vos devoirs] envers Allah, et [soyez] des témoins équitables. Et que la haine pour un peuple ne vous incite pas à être injustes. Pratiquez l'équité : cela est plus proche de la piété. Et craignez Allah. Car Allah est certes Parfaitement Connaisseur de ce que vous faites.»<sup>3779</sup>"
             },
             {
-                "title": "1062 - L'incitation à témoigner"
+                "title": "1062 - L'incitation à témoigner",
+                "hadiths": [
+                    {
+                        "number": "3360",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui témoigne de façon juste afin de restaurer le droit d'un musulman viendra le Jour de la Résurrection avec un visage qui dégage une lumière à perte de vue, et il sera reconnu par les créatures par son nom et sa lignée.<sup>3784</sup>"
+                    },
+                    {
+                        "number": "3361",
+                        "text": "L'Imām al-Ṣādiq (as) a dit à propos de la parole du Très-Haut : «<i>Que les témoins ne refusent pas quand ils sont appelés</i>»<sup>3785</sup> : Lorsqu'une personne est appelée pour témoigner pour un fait dont elle a été témoin, elle ne doit pas dire «Je refuse de témoigner pour vous.»<sup>3786</sup>"
+                    },
+                    {
+                        "number": "3362",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si tu es appelé pour témoigner, réponds-y [favorablement].<sup>3787</sup>"
+                    }
+                ],
+                "introduction": "«Et acquittez-vous du témoignage envers Allah.»<sup>3782</sup><br><br>«Que les témoins ne refusent pas quand ils sont appelés.»<sup>3783</sup>"
             },
             {
-                "title": "1063 - Dissimuler un témoignage"
+                "title": "1063 - Dissimuler un témoignage",
+                "hadiths": [
+                    {
+                        "number": "3363",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui dissimule un témoignage lorsqu'il est appelé à le donner est comme celui qui donne un faux témoignage.<sup>3790</sup>"
+                    },
+                    {
+                        "number": "3364",
+                        "text": "Le Messager d'Allah (s) a dit : Allah fera avaler sa propre chair devant toutes les créatures à celui qui revient sur son témoignage et le dissimule, et il entrera en Enfer en mastiquant sa propre langue.<sup>3791</sup>"
+                    }
+                ],
+                "introduction": "«Y a-t-il quelqu'un de plus injuste que celui qui dissimule un témoignage qu'il détient d'Allah ?»<sup>3788</sup><br><br>«Ne dissimulez pas le témoignage : quiconque le dissimule a, certes, un cœur pécheur. Allah, de ce que vous faites, est Omniscient.»<sup>3789</sup>"
             },
             {
-                "title": "1064 - Ceux dont le témoignage est accepté"
+                "title": "1064 - Ceux dont le témoignage est accepté",
+                "hadiths": [
+                    {
+                        "number": "3365",
+                        "text": "L'Imām 'Alī (as) a dit en s'adressant à Shurayḥ : Sache que les musulmans sont justes les uns envers les autres [et peuvent être choisis comme témoins], sauf celui qui a été condamné au fouet pour un crime dont il ne s'est pas repenti [et qui est donc animé par le ressentiment], celui qui est connu pour donner des faux témoignages, ou celui qui est lui-même suspect [dans une affaire].<sup>3792</sup>"
+                    },
+                    {
+                        "number": "3366",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Je n'accepte pas le témoignage de la personne dépravée, à moins qu'il ne soit contre elle-même.<sup>3793</sup>"
+                    },
+                    {
+                        "number": "3367",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, l'Emir des croyants (as) n'acceptait pas le témoignage de la personne obscène, ni celui de celle ayant été source de honte pour sa religion de par ses actes.<sup>3794</sup>"
+                    }
+                ]
             },
             {
-                "title": "1065 - La bonne conduite lors du témoignage"
+                "title": "1065 - La bonne conduite lors du témoignage",
+                "hadiths": [
+                    {
+                        "number": "3368",
+                        "text": "Interrogé à propos du témoignage, le Messager d'Allah (s) a dit : Vois-tu le soleil ? Porte témoignage pour un fait aussi clair que celui-ci, sinon abstiens-toi.<sup>3795</sup>"
+                    },
+                    {
+                        "number": "3369",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne témoigne pour une chose que si tu la connais comme ta propre paume.<sup>3796</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19044,16 +20188,77 @@ const AUNE_SAGESSE = [
         "title": "224 - LE MARTYRE",
         "subparts": [
             {
-                "title": "1066 - La vertu du martyre"
+                "title": "1066 - La vertu du martyre",
+                "hadiths": [
+                    {
+                        "number": "3370",
+                        "text": "Le Messager d'Allah (s) a dit : Tout acte de piété a un acte de piété qui lui est supérieur, jusqu'à ce que l'homme soit tué dans le sentier d'Allah ; et lorsqu'il est tué dans le sentier d'Allah, aucun acte de piété ne lui est supérieur.<sup>3798</sup>"
+                    },
+                    {
+                        "number": "3371",
+                        "text": "Le Messager d'Allah (s) a dit : La plus noble des morts est la mort en martyr.<sup>3799</sup>"
+                    },
+                    {
+                        "number": "3372",
+                        "text": "Le Messager d'Allah (s) a dit : J'aimerais mener un combat dans le sentier d'Allah et être tué, puis mener un [autre] combat et être tué, puis mener un [autre] combat et être tué.<sup>3800</sup>"
+                    },
+                    {
+                        "number": "3373",
+                        "text": "Le Messager d'Allah (s) a dit : Il sera pardonné au martyr tous les péchés, sauf les dettes.<sup>3801</sup>"
+                    },
+                    {
+                        "number": "3374",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui fait face à l'ennemi, endure [et résiste] jusqu'à ce qu'il soit tué ou qu'il le vainque ne sera pas éprouvé dans sa tombe.<sup>3802</sup>"
+                    },
+                    {
+                        "number": "3375",
+                        "text": "Le Messager d'Allah (s) a dit : Aucune personne qui meurt et occupe une bonne [position] auprès d'Allah qui la réjouit ne désirerait revenir dans le bas-monde même si le monde entier et tout ce qu'il contient lui était donné, sauf le martyr. En effet, il souhaiterait y revenir afin d'être tué à nouveau pour les vertus du martyre qu'il a vues.<sup>3803</sup>"
+                    },
+                    {
+                        "number": "3376",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, si vous n'êtes pas tués, vous mourrez de toute façon. Par Celui qui détient l'âme de 'Alī entre Ses mains, recevoir mille coups d'épée sur la tête est plus aisé que de mourir dans son lit.<sup>3804</sup>"
+                    }
+                ],
+                "introduction": "«Ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants, auprès de leur Seigneur, bien pourvus.»<sup>3797</sup>"
             },
             {
-                "title": "1067 - La rétribution de celui qui aspire au martyre"
+                "title": "1067 - La rétribution de celui qui aspire au martyre",
+                "hadiths": [
+                    {
+                        "number": "3377",
+                        "text": "Le Messager d'Allah (s) a dit : Allah accordera le rang de martyr à celui qui demande sincèrement à Allah la mort en martyr, même s'il meurt dans son lit.<sup>3805</sup>"
+                    }
+                ]
             },
             {
-                "title": "1068 - Ceux qui sont considérés comme des martyrs"
+                "title": "1068 - Ceux qui sont considérés comme des martyrs",
+                "hadiths": [
+                    {
+                        "number": "3378",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui est tué injustement est un martyr.<sup>3806</sup>"
+                    },
+                    {
+                        "number": "3379",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui a aimé passionnément, qui a dissimulé [son amour] et qui est resté chaste puis meurt ainsi est un martyr.<sup>3807</sup>"
+                    },
+                    {
+                        "number": "3380",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui meurt en ayant de l'amour pour la famille de Muḥammad meurt en martyr.<sup>3808</sup>"
+                    },
+                    {
+                        "number": "3381",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Allah accordera la rétribution de mille martyrs comme ceux de Badr et d'Uḥud à celui qui meurt en étant sous notre allégeance durant la période d'occultation de notre réformateur [al-Mahdī].<sup>3809</sup>"
+                    }
+                ]
             },
             {
-                "title": "1069 - La rétribution du blessé dans le sentier d'Allah"
+                "title": "1069 - La rétribution du blessé dans le sentier d'Allah",
+                "hadiths": [
+                    {
+                        "number": "3382",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, celui qui a été blessé dans le sentier d'Allah viendra en dégageant une odeur semblable au musc, il aura une couleur semblable à celle du safran, et il portera le sceau des martyrs. Et Allah accorde la rétribution du martyr à celui qui souhaite sincèrement mourir en martyr, même s'il meurt dans son lit.<sup>3810</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19061,13 +20266,57 @@ const AUNE_SAGESSE = [
         "title": "225 - LA RENOMMÉE",
         "subparts": [
             {
-                "title": "1070 - La renommée louable"
+                "title": "1070 - La renommée louable",
+                "hadiths": [
+                    {
+                        "number": "3383",
+                        "text": "Lorsqu'il fut interrogé au sujet d'un homme qui a accompli une bonne action et qui est loué par les gens pour cela, le Messager d'Allah (s) répondit : [Cette louange] est l'avance de la bonne nouvelle pour le croyant.<sup>3813</sup>"
+                    },
+                    {
+                        "number": "3384",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsqu'Allah aime un serviteur de ma communauté, Il insuffle son amour dans les cœurs de Ses élus, les esprits de Ses anges ainsi que ceux du cortège de Son trône afin qu'ils l'aiment [aussi]. Ainsi, Il sera celui qui est véritablement aimé.<sup>3814</sup>"
+                    }
+                ],
+                "introduction": "«[N'avons-Nous pas] exalté pour toi ta renommée ?»<sup>3811</sup><br><br>«Fais que j'aie une mention honorable sur les langues de la postérité.»<sup>3812</sup><br><br><span class=\"reference-note\">(Voir également : Coran 19:50, 20:39, 29:27, 37:78)</span>"
             },
             {
-                "title": "1071 - La renommée blâmable"
+                "title": "1071 - La renommée blâmable",
+                "hadiths": [
+                    {
+                        "number": "3385",
+                        "text": "Le Messager d'Allah (s) a dit : Il suffit comme malheur à l'homme - sauf celui qu'Allah a préservé du mal - d'être montré du doigt pour sa religion ou pour sa vie dans ce bas-monde.<sup>3816</sup>"
+                    },
+                    {
+                        "number": "3386",
+                        "text": "L'Imām 'Alī (as) a dit : Tout serviteur qui aspire à élever son statut dans ce bas-monde et y parvient, Allah rabaissera son statut dans l'Au-delà de façon plus grande et longue.<sup>3817</sup>"
+                    },
+                    {
+                        "number": "3387",
+                        "text": "L'Imām al-Ṣādiq (as) a dit dans sa description du croyant : Il n'aspire pas à la gloire de ce bas-monde ni n'est peiné par son déshonneur. Les gens ont leurs propres soucis dont ils s'occupent [ce bas-monde], tandis que lui est occupé par ses propres préoccupations [l'Au-delà].<sup>3818</sup>"
+                    }
+                ],
+                "introduction": "«Cette Demeure dernière, Nous la réservons à ceux qui ne recherchent ni à s'élever sur terre, ni à y semer la corruption. Cependant, l'heureuse fin appartient aux pieux.»<sup>3815</sup>"
             },
             {
-                "title": "1072 - Le blâme du fait de porter des vêtements et de pratiquer des actes"
+                "title": "1072 - Le blâme du fait de porter des vêtements et de pratiquer des actes",
+                "hadiths": [
+                    {
+                        "number": "3388",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, porter un vêtement qui le distingue ou monter un animal pour attirer l'attention suffit à l'homme pour se déshonorer.<sup>3819</sup>"
+                    },
+                    {
+                        "number": "3389",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah déteste ces deux types de renommée : la renommée liée aux vêtements [portés pour attirer l'attention] et la renommée liée à la prière [faite pour attirer l'attention].<sup>3820</sup>"
+                    },
+                    {
+                        "number": "3390",
+                        "text": "L'Imām al-Riḍā (as) a dit : Si quelqu'un acquiert une renommée par ses actes d'adoration, doutez de sa religion, car Allah le Tout-Puissant abhorre la renommée acquise par les actes d'adoration et la renommée acquise au travers des vêtements.<sup>3821</sup>"
+                    },
+                    {
+                        "number": "3391",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La [recherche de la] renommée, qu'elle soit bonne ou mauvaise, aboutit au Feu.<sup>3822</sup><br>(Voir également : 351. Les vêtements, sections 1624 et 1627)"
+                    }
+                ]
             }
         ]
     },
@@ -19075,19 +20324,74 @@ const AUNE_SAGESSE = [
         "title": "226 - LA CONSULTATION",
         "subparts": [
             {
-                "title": "1073 - L'incitation à avoir recours à la consultation"
+                "title": "1073 - L'incitation à avoir recours à la consultation",
+                "hadiths": [
+                    {
+                        "number": "3392",
+                        "text": "L'Imām 'Alī (as) a dit : Chercher à consulter quelqu'un [au sujet de ses affaires] est la guidance même, et celui qui se suffit à lui-même en se contentant de sa propre opinion se met en danger.<sup>3824</sup>"
+                    },
+                    {
+                        "number": "3393",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a pas de [meilleur] appui que la consultation.<sup>3825</sup>"
+                    },
+                    {
+                        "number": "3394",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la consultation est recommandée car l'opinion de la personne qui conseille est pure, alors que l'opinion de celui qui cherche le conseil est imprégnée de ses caprices et désirs.<sup>3826</sup>"
+                    }
+                ],
+                "introduction": "«Qui répondent à l'appel de leur Seigneur, accomplissent la prière (ṣalāt), se consultent entre eux au sujet de leurs affaires, dépensent de ce que Nous leur attribuons.»<sup>3823</sup>"
             },
             {
-                "title": "1074 - Ceux à qui il ne faut pas demander conseil"
+                "title": "1074 - Ceux à qui il ne faut pas demander conseil",
+                "hadiths": [
+                    {
+                        "number": "3395",
+                        "text": "Le Messager d'Allah (s) a dit en s'adressant à l'Imām 'Alī (as) : Ô 'Alī ! Ne demande pas conseil à un lâche car en vérité, il te restreindra l'éventail des solutions ; ne demande pas conseil à un avare car en vérité, il t'empêchera d'atteindre ton objectif ; et ne demande pas conseil à un avide car en vérité, il t'embellira les méfaits de l'avarice.<sup>3827</sup>"
+                    },
+                    {
+                        "number": "3396",
+                        "text": "L'Imām 'Alī (as) a dit : Ne demande pas conseil à un menteur car en vérité, il est comme un mirage ; il te fait paraître proche ce qui est loin, et il te fait paraître loin ce qui est proche.<sup>3828</sup>"
+                    }
+                ]
             },
             {
-                "title": "1075 - Les limites et conditions du conseil"
+                "title": "1075 - Les limites et conditions du conseil",
+                "hadiths": [
+                    {
+                        "number": "3397",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, le conseil est soumis à quatre limites [et conditions] : la première est que celui à qui tu demandes conseil soit intelligent et raisonnable, la deuxième est qu'il soit une personne libre et religieuse, la troisième est qu'il soit un ami fraternel, et la quatrième est que lorsque tu divulgues ton secret et qu'il en a la même connaissance que toi, il le taise et le garde pour lui.<sup>3829</sup>"
+                    }
+                ]
             },
             {
-                "title": "1076 - L'incitation à guider celui qui demande conseil"
+                "title": "1076 - L'incitation à guider celui qui demande conseil",
+                "hadiths": [
+                    {
+                        "number": "3398",
+                        "text": "Le Messager d'Allah (s) a dit : Soyez généreux vis-à-vis de votre frère [en religion] en lui offrant un savoir qui le guide et une opinion qui lui montre le droit chemin.<sup>3830</sup>"
+                    },
+                    {
+                        "number": "3399",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Parmi les devoirs envers celui qui demande conseil figure celui de le guider dans la bonne direction si tu sais qu'il penche vers une certaine opinion, et si tu ignores [vers quelle voie le guider], de le diriger vers une personne qui le saura.<sup>3831</sup>"
+                    },
+                    {
+                        "number": "3400",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah privera d'avis [et de perspicacité] tout homme à qui son frère demande conseil et qui refuse de le lui donner ne serait-ce qu'un simple avis.<sup>3832</sup>"
+                    }
+                ]
             },
             {
-                "title": "1077 - Demander conseil aux ennemis"
+                "title": "1077 - Demander conseil aux ennemis",
+                "hadiths": [
+                    {
+                        "number": "3401",
+                        "text": "L'Imām 'Alī (as) a dit : Demande conseil à tes ennemis et tu sauras, d'après leur avis, le degré de leur hostilité, leurs buts et leurs intentions.<sup>3833</sup>"
+                    },
+                    {
+                        "number": "3402",
+                        "text": "L'Imām 'Alī (as) a dit : Demande conseil à ton ennemi raisonnable et méfie-toi du conseil de ton ami ignorant.<sup>3834</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19095,10 +20399,59 @@ const AUNE_SAGESSE = [
         "title": "227 - LA VIEILLESSE",
         "subparts": [
             {
-                "title": "1078 - La vieillesse"
+                "title": "1078 - La vieillesse",
+                "hadiths": [
+                    {
+                        "number": "3403",
+                        "text": "Le Messager d'Allah (s) a dit : La personne âgée est jeune quand il s'agit de l'amour d'un être proche, de la longue vie et de l'abondance de biens.<sup>3836</sup>"
+                    },
+                    {
+                        "number": "3404",
+                        "text": "L'Imām 'Alī (as) a dit : Les cheveux blancs sont le messager de la mort.<sup>3837</sup>"
+                    },
+                    {
+                        "number": "3405",
+                        "text": "L'Imām 'Alī (as) a dit : La vieillesse suffit comme avertissement.<sup>3838</sup>"
+                    },
+                    {
+                        "number": "3406",
+                        "text": "L'Imām 'Alī (as) a dit : J'aime davantage la dignité de la vieillesse que la vigueur de la jeunesse.<sup>3839</sup>"
+                    },
+                    {
+                        "number": "3407",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque la personne intelligente vieillit, sa raison reste jeune ; et lorsque l'ignorant vieillit, son ignorance reste jeune.<sup>3840</sup>"
+                    },
+                    {
+                        "number": "3408",
+                        "text": "L'Imām al-Bāqir (as) a dit : Un jour, Ibrāhīm (as) se réveilla et vit la vieillesse sous la forme d'un cheveu blanc dans sa barbe. Il dit alors : «Louange à Allah, le Seigneur des mondes, qui m'a fait atteindre cet âge sans avoir désobéi à Allah ne serait-ce qu'un instant.»<sup>3841</sup>"
+                    },
+                    {
+                        "number": "3409",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Je n'ai pas vu de chose qui rattrape aussi rapidement une autre que la vieillesse vis-à-vis du croyant car en vérité, c'est une source de dignité pour le croyant dans ce bas-monde et une lumière éblouissante le Jour de la Résurrection. Allah le Très-Haut a honoré par cela son ami Ibrāhīm (as) qui lui demanda : «Qu'est-ce que cela, ô Seigneur ?» Il répondit : «C'est de la dignité.» Ibrāhīm (as) dit alors : «Ô Seigneur ! Augmente ma dignité.»<sup>3842</sup>"
+                    }
+                ],
+                "introduction": "«Allah, c'est Lui qui vous a créés faibles ; puis après la faiblesse, Il vous donne la force ; puis après la force, Il vous réduit à la faiblesse et à la vieillesse : Il crée ce qu'Il veut et c'est Lui l'Omniscient, l'Omnipotent.»<sup>3835</sup>"
             },
             {
-                "title": "1079 - L'incitation à honorer les personnes âgées"
+                "title": "1079 - L'incitation à honorer les personnes âgées",
+                "hadiths": [
+                    {
+                        "number": "3410",
+                        "text": "Le Messager d'Allah (s) a dit : Honorer Allah implique d'honorer les personnes âgées parmi les musulmans.<sup>3843</sup>"
+                    },
+                    {
+                        "number": "3411",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, m'honorer implique d'honorer les hommes âgés de ma communauté.<sup>3844</sup>"
+                    },
+                    {
+                        "number": "3412",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Honorez vos personnes âgées et maintenez les liens avec vos proches.<sup>3845</sup>"
+                    },
+                    {
+                        "number": "3413",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui n'honore pas nos personnes âgées et qui n'est pas indulgent avec nos jeunes ne fait pas partie de nous.<sup>3846</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19106,25 +20459,119 @@ const AUNE_SAGESSE = [
         "title": "228 - LES SHIITES (AL-SHĪ'A)",
         "subparts": [
             {
-                "title": "1080 - La vertu des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)"
+                "title": "1080 - La vertu des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)",
+                "hadiths": [
+                    {
+                        "number": "3414",
+                        "text": "L'Imām 'Alī (as) a dit : Je me suis plaint au Messager d'Allah (s) de la jalousie des gens à mon égard, et il dit : Ô 'Alī ! En vérité, les quatre premières personnes qui entreront au Paradis seront moi-même, toi, Ḥasan et Ḥusayn. Nos descendants nous suivront, ceux qui nous ont aimés suivront nos descendants, et nos partisans (<i>shī'a</i>) seront à notre droite et à notre gauche.<sup>3847</sup>"
+                    },
+                    {
+                        "number": "3415",
+                        "text": "L'Imām al-Bāqir (as) a dit : Umm Salama, l'épouse du Prophète (s), fut un jour interrogée au sujet de 'Alī ibn Abī Ṭālib (as). Elle répondit : «J'ai entendu le Messager d'Allah (s) dire : «En vérité, 'Alī et ses partisans (<i>shī'a</i>) sont les victorieux».»<sup>3848</sup>"
+                    }
+                ]
             },
             {
-                "title": "1081 - Les signes caractéristiques des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)"
+                "title": "1081 - Les signes caractéristiques des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)",
+                "hadiths": [
+                    {
+                        "number": "3416",
+                        "text": "L'Imām 'Alī (as) a dit en s'adressant à Nawf al-Bakālī : «Ô Nawf, sais-tu qui sont mes partisans (<i>shī'a</i>) ?» Il répondit : «Non, par Allah.» Il (as) dit : «Mes partisans sont ceux qui ont les lèvres desséchées et les ventres vides, ceux dont la piété se voit sur leur visage ; ils sont dévots la nuit et tels des lions pendant la journée.»<sup>3849</sup>"
+                    },
+                    {
+                        "number": "3417",
+                        "text": "L'Imām Ḥasan (as) a répondu à un homme qui lui avait dit : «En vérité, je suis l'un de vos partisans (<i>shī'a</i>)» : Ô serviteur d'Allah, si tu nous obéis véritablement dans nos ordres et nos interdictions, dans ce cas tu dis vrai. En revanche, si tu ne le fais pas, dans ce cas, n'augmente pas tes péchés en prétendant à un rang honorable que tu ne mérites pas. Ne dis pas «Je suis l'un de vos partisans (<i>shī'a</i>)», mais dis plutôt «Je fais partie de ceux qui adhèrent à vous et qui vous aiment, et je suis l'ennemi de vos ennemis.» Ainsi, tu seras dans le bien et tu aspireras au bien.<sup>3850</sup>"
+                    },
+                    {
+                        "number": "3418",
+                        "text": "L'Imām al-Bāqir (as) a dit : N'est réellement notre partisan (<i>shī'a</i>) que celui qui craint Allah et qui Lui obéit ; [nos partisans] ne sont connus que par leur modestie, leur humilité, leur restitution de ce qui leur a été confié, et leur pratique abondante du rappel d'Allah.<sup>3851</sup>"
+                    },
+                    {
+                        "number": "3419",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, le partisan (<i>shī'a</i>) de 'Alī est celui qui maîtrise son estomac et ses désirs charnels, déploie des efforts intenses [dans l'adoration et la lutte contre les penchants de l'âme], œuvre pour son Créateur, aspire à Sa rétribution et craint Son châtiment. Ainsi, si tu vois de telles personnes, ce sont des partisans (<i>shī'a</i>) de Ja'far.<sup>3852</sup>"
+                    },
+                    {
+                        "number": "3420",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Testez nos partisans (<i>shī'a</i>) dans trois choses : au moment de la prière, dans la façon dont ils l'observent comme il se doit ; dans leurs secrets, dans la façon dont ils les préservent face à nos ennemis ; et enfin dans leurs biens, dans la façon dont ils s'en servent pour aider leurs frères.<sup>3853</sup>"
+                    },
+                    {
+                        "number": "3421",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, nos partisans (<i>shī'a</i>) sont dotés de quatre yeux : deux yeux dans la tête, ainsi que deux yeux dans le cœur. En réalité, tous les gens sont ainsi, sauf qu'Allah le Tout-Puissant a ouvert vos yeux [ceux des shiites] et Il a aveuglé les leurs [du fait de leur rejet de Sa guidance].<sup>3854</sup>"
+                    }
+                ]
             },
             {
-                "title": "1082 - Celui qui ne fait pas partie des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)"
+                "title": "1082 - Celui qui ne fait pas partie des partisans des Gens de la demeure prophétique (Ahl al-Bayt) (as)",
+                "hadiths": [
+                    {
+                        "number": "3422",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne fait pas partie de nos partisans celui qui l'affirme par la parole et qui agit contrairement à nos actes et comportements.<sup>3855</sup>"
+                    },
+                    {
+                        "number": "3423",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Un groupe de gens prétend que je suis leur Imām, mais par Allah, je ne suis en rien leur Imām. Qu'Allah les maudisse ! À chaque fois que je cache un secret, ils le dévoilent ; lorsque je dis [et explique] ceci et cela, ils disent : «Il voulait plutôt dire ceci et cela.» Je suis seulement l'Imām de celui qui m'obéit.<sup>3856</sup>"
+                    },
+                    {
+                        "number": "3424",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui nie quatre choses ne fait pas partie de nos partisans : l'ascension [céleste du Prophète (s)], l'interrogatoire dans la tombe, la création du Paradis et de l'Enfer, et l'intercession.<sup>3857</sup>"
+                    },
+                    {
+                        "number": "3425",
+                        "text": "<i>Al-Kāfī</i> : Muḥammad fils de 'Ajlān : J'étais chez l'Imām al-Ṣādiq (as) lorsqu'un homme entra chez lui, le salua, et l'Imām lui demanda : «Comment vont tes frères que tu as laissés derrière toi ?» Il se mit alors à faire leur louange en évoquant leur intégrité et en vantant leurs mérites. Il (as) lui demanda alors : «Les riches parmi eux rendent-ils visite aux pauvres qui sont malades ?» Il répondit : «Rarement.» Il (as) demanda encore : «Les riches fréquentent-ils beaucoup les pauvres ?» Il dit : «Rarement.» L'Imām demanda : «Les riches aident-ils [matériellement] les pauvres ?» Il répondit : «En vérité, tu parles de qualités qui sont peu présentes parmi nous.» Il (as) dit : «Dans ce cas, comment peuvent-ils prétendre être nos partisans (<i>shī'a</i>) ?!»<sup>3858</sup>"
+                    },
+                    {
+                        "number": "3426",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Celui dont le cœur ne craint pas [Allah] dans sa solitude ne fait pas partie de nos partisans (<i>shī'a</i>).<sup>3859</sup>"
+                    }
+                ]
             },
             {
-                "title": "1083 - Les différentes catégories de ceux qui sont appelés partisans (shī'a)"
+                "title": "1083 - Les différentes catégories de ceux qui sont appelés partisans (shī'a)",
+                "hadiths": [
+                    {
+                        "number": "3427",
+                        "text": "L'Imām al-Bāqir (as) a dit : Nos partisans (<i>shī'a</i>) se divisent en trois catégories : une catégorie qui dupe les gens en nous utilisant, une catégorie qui est comme le verre translucide [et ne peut garder ce qu'on lui a confié, comme les secrets], et une catégorie qui est comme l'or rouge : plus [celui qui en fait partie] est mis dans le feu, plus sa pureté augmente.<sup>3860</sup>"
+                    },
+                    {
+                        "number": "3428",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il y a trois sortes de shiites : celui qui nous aime et fait preuve d'affection envers nous, et une telle personne fait partie de nous ; celui pour qui nous sommes un ornement, et nous servirons d'ornement à celui pour qui nous le sommes ; et celui qui nous utilise pour s'enrichir auprès des gens, et celui qui agit ainsi sera appauvri.<sup>3861</sup>"
+                    }
+                ]
             },
             {
-                "title": "1084 - L'interdiction faite aux shiites d'avoir des croyances exagérées"
+                "title": "1084 - L'interdiction faite aux shiites d'avoir des croyances exagérées",
+                "hadiths": [
+                    {
+                        "number": "3429",
+                        "text": "<i>Al-Kāfī</i> : 'Amrū ibn Khālid rapporte de l'Imām al-Bāqir (as) : «Ô communauté de shiites - shiites de la famille de Muḥammad -, soyez le point d'appui équilibré du milieu, afin que l'extrémiste revienne vers vous et que celui qui est resté en arrière se joigne à vous.» Un homme parmi les <i>anṣār</i> nommé Sa'ad lui demanda alors : «Que je te sois sacrifié, qui est l'extrémiste ?» Il répondit : «Ce sont ceux qui disent de nous ce que nous ne disons pas nous-mêmes. Ceux-là ne font pas partie de nous et nous ne faisons pas partie d'eux.» L'homme demanda ensuite : «Qui est celui qui est resté en arrière ?» Il répondit : «C'est celui qui recherche le bien, le veut, parvient finalement à lui et est rétribué pour cela.»<sup>3862</sup>"
+                    }
+                ]
             },
             {
-                "title": "1085 - Comment les shiites doivent se comporter vis-à-vis des gens"
+                "title": "1085 - Comment les shiites doivent se comporter vis-à-vis des gens",
+                "hadiths": [
+                    {
+                        "number": "3430",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en s'adressant à 'Abd al-A'lā : Ô 'Abd al-A'lā... transmets-leur [aux shiites] mes salutations de paix et la miséricorde d'Allah, puis dis-leur : Il [l'Imām Ṣādiq (as)] vous a dit : «Allah fait preuve de miséricorde envers le serviteur qui, en exposant aux gens ce qu'ils peuvent comprendre et en s'abstenant de leur dire ce qu'ils ne peuvent saisir, a attiré l'affection des gens vers lui et vers nous.»<sup>3863</sup>"
+                    },
+                    {
+                        "number": "3431",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ô communauté de shiites ! Soyez un ornement pour nous [parmi les gens] et non un déshonneur. Adressez-vous d'une belle façon aux gens, retenez vos langues, et invitez-les à s'abstenir [de prononcer] toute parole futile et offensante.<sup>3864</sup>"
+                    }
+                ]
             },
             {
-                "title": "1086 - Le rang des shiites lors de la Résurrection"
+                "title": "1086 - Le rang des shiites lors de la Résurrection",
+                "hadiths": [
+                    {
+                        "number": "3432",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, des chaires seront érigées autour du Trône pour mes partisans (<i>shī'a</i>) et pour les partisans de ma famille qui ont été sincères dans leur allégeance et leur proche amitié envers nous. Puis Allah le Tout-Puissant dira : «Hâtez-vous vers Moi, Ô Mes serviteurs, afin que Je répande sur vous Mon honneur, car vous avez été offensés dans ce bas-monde.»<sup>3865</sup>"
+                    },
+                    {
+                        "number": "3433",
+                        "text": "<i>Al-Amālī li al-Ṭūsī</i> : Ibn 'Abbās interrogea le Messager d'Allah (s) au sujet de la parole d'Allah le Tout-Puissant : «<i>Les premiers [à suivre les ordres d'Allah sur la terre], ce sont eux qui seront les premiers [dans l'Au-delà]. Ce sont ceux-là les plus rapprochés [d'Allah]</i>»<sup>3866</sup>. Il répondit : Gabriel m'a dit : «Il s'agit de 'Alī et de ses partisans (<i>shī'a</i>). Ils seront les premiers à entrer au Paradis et ils seront les rapprochés d'Allah, de par Son honneur à leur égard.»<sup>3867</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19132,28 +20579,160 @@ const AUNE_SAGESSE = [
         "title": "229 - LA PATIENCE",
         "subparts": [
             {
-                "title": "1087 - La vertu de la patience"
+                "title": "1087 - La vertu de la patience",
+                "hadiths": [
+                    {
+                        "number": "3434",
+                        "text": "Jésus (as) a dit : En vérité, vous n'atteindrez ce que vous aimez qu'en patientant et en endurant ce que vous détestez.<sup>3871</sup>"
+                    },
+                    {
+                        "number": "3435",
+                        "text": "<i>Musakkin al-Fu'ād</i> : Lorsque l'on demanda au Messager d'Allah (s) : «Qu'est-ce que la foi ?» Il répondit : «La patience.»<sup>3872</sup>"
+                    },
+                    {
+                        "number": "3436",
+                        "text": "L'Imām 'Alī (as) a dit : La patience allège le malheur.<sup>3873</sup>"
+                    },
+                    {
+                        "number": "3437",
+                        "text": "L'Imām 'Alī (as) a dit : La patience dans l'affliction est meilleure que la bonne santé dans le confort.<sup>3874</sup>"
+                    },
+                    {
+                        "number": "3438",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant est naturellement enclin à patienter face aux difficultés.<sup>3875</sup>"
+                    },
+                    {
+                        "number": "3439",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La patience est le sommet de la foi.<sup>3876</sup>"
+                    },
+                    {
+                        "number": "3440",
+                        "text": "L'Imām al-Jawād (as) a dit : La patience dans le malheur est en soi un malheur pour celui qui se réjouit du malheur des autres.<sup>3877</sup>"
+                    }
+                ],
+                "introduction": "«Combien de prophètes ont combattu, en compagnie de beaucoup de disciples ; ceux-ci ne fléchirent pas à cause de ce qui les atteignit dans le sentier d'Allah. Ils ne faiblirent pas et ils ne cédèrent point. Et Allah aime ceux qui font preuve de patience.»<sup>3869</sup><br><br>«Et obéissez à Allah et à Son Messager ; et ne vous disputez pas, sinon vous fléchirez et perdrez votre force. Et soyez patients, car Allah est avec ceux qui font preuve de patience.»<sup>3870</sup>"
             },
             {
-                "title": "1088 - La patience et [l'accomplissement] de grandes choses"
+                "title": "1088 - La patience et [l'accomplissement] de grandes choses",
+                "hadiths": [
+                    {
+                        "number": "3441",
+                        "text": "L'Imām 'Alī (as) a dit : C'est par la patience que de grandes choses sont accomplies.<sup>3880</sup>"
+                    },
+                    {
+                        "number": "3442",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui patiente dans la voie d'Allah parviendra à Lui.<sup>3881</sup>"
+                    }
+                ],
+                "introduction": "«Et la belle promesse de ton Seigneur sur les enfants d'Israël s'accomplit pour prix de leur patience.»<sup>3878</sup><br><br>«Nous avons désigné parmi eux des chefs spirituels qui guidaient [les gens] par Notre ordre aussi longtemps qu'ils faisaient preuve de patience et croyaient fermement en Nos versets.»<sup>3879</sup>"
             },
             {
-                "title": "1089 - La patience et la victoire"
+                "title": "1089 - La patience et la victoire",
+                "hadiths": [
+                    {
+                        "number": "3443",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la victoire vient avec la patience et la délivrance avec l'affliction ; et en vérité, avec la difficulté vient la facilité<sup>3884</sup>.<sup>3885</sup>"
+                    },
+                    {
+                        "number": "3444",
+                        "text": "Le Messager d'Allah (s) a dit : C'est par la patience que la délivrance est espérée, et celui qui persévère à frapper à une porte verra cette dernière s'ouvrir.<sup>3886</sup>"
+                    }
+                ],
+                "introduction": "«Que de fois une troupe peu nombreuse a, par la grâce d'Allah, vaincu une troupe très nombreuse ! Et Allah est avec ceux qui font preuve de patience.»<sup>3882</sup><br><br>«Mais oui ! Si vous faites preuve de patience et de piété, et qu'ils [les ennemis] vous assaillent immédiatement, votre Seigneur vous enverra en renfort cinq mille Anges marqués distinctement.»<sup>3883</sup>"
             },
             {
-                "title": "1090 - La rétribution de la personne patiente"
+                "title": "1090 - La rétribution de la personne patiente",
+                "hadiths": [
+                    {
+                        "number": "3445",
+                        "text": "L'Imām 'Alī (as) a dit en décrivant les pieux et ceux qui craignent Allah : Ils ont patienté pendant quelques jours, et cela a été suivi par une période de long repos.<sup>3888</sup>"
+                    },
+                    {
+                        "number": "3446",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui, parmi nos partisans (<i>shī'a</i>), est éprouvé et patiente aura la rétribution de mille martyrs.<sup>3889</sup>"
+                    },
+                    {
+                        "number": "3447",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Tout homme qui souffre, patiente, et considère cela comme un moyen [de se rapprocher d'Allah] se verra inscrire par Allah la rétribution de mille martyrs.<sup>3890</sup>"
+                    }
+                ],
+                "introduction": "«Certes, Nous vous éprouverons par un peu de peur, de faim et de diminution de biens, de personnes et de fruits. Et fais la bonne annonce à ceux qui font preuve de patience, qui disent, lorsqu'un malheur les touche : «Certes, nous sommes à Allah, et c'est à Lui que nous retournerons». Ceux-là reçoivent des bénédictions de leur Seigneur, ainsi que la miséricorde ; et ceux-là sont les bien-guidés.»<sup>3887</sup>"
             },
             {
-                "title": "1091 - La signification de la patience"
+                "title": "1091 - La signification de la patience",
+                "hadiths": [
+                    {
+                        "number": "3448",
+                        "text": "Le Messager d'Allah (s) a dit : La patience est une satisfaction [vis-à-vis du décret d'Allah].<sup>3891</sup>"
+                    },
+                    {
+                        "number": "3449",
+                        "text": "L'Imām 'Alī (as) a dit : La patience est que l'homme supporte ce qui l'afflige et qu'il contienne sa colère.<sup>3892</sup>"
+                    },
+                    {
+                        "number": "3450",
+                        "text": "L'Imām 'Alī (as) a dit : La patience est de deux sortes : la patience face à ce que tu détestes, et la patience [et la restriction] face à ce que tu aimes.<sup>3893</sup>"
+                    },
+                    {
+                        "number": "3451",
+                        "text": "L'Imām 'Alī (as) a dit : La patience consiste soit en la patience face au malheur, soit en un acte d'obéissance, soit en l'abstention de la désobéissance. Cette troisième catégorie est supérieure aux deux autres.<sup>3894</sup>"
+                    },
+                    {
+                        "number": "3452",
+                        "text": "Interrogé au sujet de la belle patience, l'Imām al-Bāqir (as) répondit : C'est de patienter sans se plaindre aux gens.<sup>3895</sup>"
+                    }
+                ]
             },
             {
-                "title": "1092 - La patience des partisans (shī'a) des Ahl al-Bayt (as)"
+                "title": "1092 - La patience des partisans (shī'a) des Ahl al-Bayt (as)",
+                "hadiths": [
+                    {
+                        "number": "3453",
+                        "text": "<i>Al-Kāfī</i> : Al-Washshā' rapporte de certains compagnons de l'Imām al-Ṣādiq (as) qu'il (as) a dit : «En vérité, nous sommes très patients, et nos partisans (<i>shī'a</i>) sont encore plus patients que nous.» Quelqu'un lui demanda : «Que je te sois sacrifié, comment vos partisans peuvent-ils être plus patients que vous ?» Il (as) répondit : «Car nous patientons pour une chose que nous connaissons, tandis que nos partisans patientent pour ce qu'ils ne connaissent pas.»<sup>3896</sup>"
+                    }
+                ]
             },
             {
-                "title": "1093 - Les effets de l'impatience"
+                "title": "1093 - Les effets de l'impatience",
+                "hadiths": [
+                    {
+                        "number": "3454",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, si tu patientes, les décrets [du destin] t'arriveront et tu en seras rétribué. En revanche, si tu fais preuve d'impatience, les décrets [divins] t'arriveront tout de même alors que tu auras commis un péché.<sup>3897</sup>"
+                    },
+                    {
+                        "number": "3455",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu patientes de la patience des dignes [tant mieux] ; sinon, tu seras finalement soulagé comme les bêtes [sans avoir rien retiré de cette épreuve].<sup>3898</sup>"
+                    },
+                    {
+                        "number": "3456",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui ne patiente et ne supporte pas la peine [du travail] devra supporter la douleur du dénuement.<sup>3899</sup>"
+                    },
+                    {
+                        "number": "3457",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui n'est pas sauvé par la patience sera détruit par l'impatience.<sup>3900</sup>"
+                    }
+                ]
             },
             {
-                "title": "1094 - Ce qui suscite la patience"
+                "title": "1094 - Ce qui suscite la patience",
+                "hadiths": [
+                    {
+                        "number": "3458",
+                        "text": "Le Messager d'Allah (s) a dit : Allah rend patient celui qui s'efforce d'être patient, Allah rend chaste celui qui essaie d'être chaste, et Allah enrichit celui qui se contente de ce qu'il a. Il n'a pas été accordé à un serviteur de meilleur et de plus vaste don que la patience.<sup>3901</sup>"
+                    },
+                    {
+                        "number": "3459",
+                        "text": "L'Imām 'Alī (as) a dit : L'origine de la patience se trouve dans le fait d'avoir une forte certitude en Allah.<sup>3902</sup>"
+                    },
+                    {
+                        "number": "3460",
+                        "text": "L'Imām 'Alī (as) a dit : Habitue-toi à patienter face à l'adversité ; et quelle bonne qualité que celle de s'astreindre à patienter dans la voie de la vérité !<sup>3903</sup>"
+                    },
+                    {
+                        "number": "3461",
+                        "text": "L'Imām 'Alī (as) a dit : S'astreindre à la patience face à l'adversité préserve le cœur.<sup>3904</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19161,13 +20740,85 @@ const AUNE_SAGESSE = [
         "title": "230 - LA SINCÉRITÉ",
         "subparts": [
             {
-                "title": "1095 - La vertu de la sincérité et de la personne sincère"
+                "title": "1095 - La vertu de la sincérité et de la personne sincère",
+                "hadiths": [
+                    {
+                        "number": "3462",
+                        "text": "Le Messager d'Allah (s) a dit : Astreignez-vous à la sincérité car en vérité, elle est l'une des portes du Paradis.<sup>3906</sup>"
+                    },
+                    {
+                        "number": "3463",
+                        "text": "L'Imām 'Alī (as) a dit : La sincérité est la concordance du discours avec la position divine, alors que le mensonge éloigne le discours de la position divine.<sup>3907</sup>"
+                    },
+                    {
+                        "number": "3464",
+                        "text": "L'Imām 'Alī (as) a dit : La sincérité est la langue de la vérité.<sup>3908</sup>"
+                    },
+                    {
+                        "number": "3465",
+                        "text": "L'Imām 'Alī (as) a dit : La sincérité te sauvera même si elle te fait peur, et le mensonge t'anéantira même s'il t'inspire confiance.<sup>3909</sup>"
+                    },
+                    {
+                        "number": "3466",
+                        "text": "L'Imām 'Alī (as) a dit : La sincérité est le bien de toute chose, alors que le mensonge corrompt toute chose.<sup>3910</sup>"
+                    },
+                    {
+                        "number": "3467",
+                        "text": "L'Imām 'Alī (as) a dit : La sincérité est un dépôt confié, alors que le mensonge est une trahison.<sup>3911</sup>"
+                    },
+                    {
+                        "number": "3468",
+                        "text": "L'Imām 'Alī (as) a dit : La valeur de l'homme est proportionnelle à la noblesse de ses ambitions, et sa sincérité est proportionnelle à son intégrité.<sup>3912</sup>"
+                    },
+                    {
+                        "number": "3469",
+                        "text": "L'Imām 'Alī (as) a dit : La foi consiste à préférer dire la vérité, même si elle t'est préjudiciable, au détriment du mensonge, même s'il t'est bénéfique.<sup>3913</sup>"
+                    },
+                    {
+                        "number": "3470",
+                        "text": "L'Imām 'Alī (as) a dit : La personne sincère est proche de la délivrance et de la dignité, alors que le menteur est proche de la chute et de l'humiliation.<sup>3914</sup>"
+                    },
+                    {
+                        "number": "3471",
+                        "text": "L'Imām al-Bāqir (as) a dit : Apprenez à dire la vérité avant d'apprendre à parler.<sup>3915</sup>"
+                    },
+                    {
+                        "number": "3472",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La sincérité est un honneur.<sup>3916</sup>"
+                    },
+                    {
+                        "number": "3473",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les actes de celui dont la langue est sincère sont purs.<sup>3917</sup>"
+                    }
+                ],
+                "introduction": "«Ô vous qui croyez ! Craignez Allah et soyez avec les véridiques.»<sup>3905</sup><br><br><span class=\"reference-note\">(Voir également : Coran 5:119, 12:70, 21:63, 33:23, 38:24, 39:33, 59:8)</span>"
             },
             {
-                "title": "1096 - Tester les gens par la sincérité de leur parole"
+                "title": "1096 - Tester les gens par la sincérité de leur parole",
+                "hadiths": [
+                    {
+                        "number": "3474",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne soyez pas dupés par leurs [longues] prières et leurs [nombreux] jeûnes car en vérité, l'homme peut s'attacher à la prière et au jeûne de telle façon que s'il venait à ne plus les faire, il en serait très perturbé. En revanche, testez-les dans la sincérité de leurs paroles et dans leur respect des dépôts confiés.<sup>3918</sup>"
+                    },
+                    {
+                        "number": "3475",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La personne qui dit la vérité est meilleure que la sincérité elle-même, et celui qui fait le bien est meilleur que le bien lui-même.<sup>3919</sup>"
+                    }
+                ]
             },
             {
-                "title": "1097 - La plus véridique des paroles"
+                "title": "1097 - La plus véridique des paroles",
+                "hadiths": [
+                    {
+                        "number": "3476",
+                        "text": "Interrogé au sujet de la parole la plus véridique, l'Imām 'Alī (as) a dit : C'est de témoigner qu'il n'y a point de divinité en dehors d'Allah.<sup>3921</sup>"
+                    },
+                    {
+                        "number": "3477",
+                        "text": "L'Imām 'Alī (as) a dit : La parole la plus véridique et sincère est celle qui exprime le fond du cœur et de la pensée.<sup>3922</sup>"
+                    }
+                ],
+                "introduction": "«Allah ! Pas de divinité à part Lui ! Très certainement Il vous rassemblera au Jour de la Résurrection, point de doute là-dessus, et qui est plus véridique qu'Allah en parole ?»<sup>3920</sup>"
             }
         ]
     },
@@ -19175,28 +20826,177 @@ const AUNE_SAGESSE = [
         "title": "231 - L'AMI",
         "subparts": [
             {
-                "title": "1098 - L'importance de l'ami"
+                "title": "1098 - L'importance de l'ami",
+                "hadiths": [
+                    {
+                        "number": "3478",
+                        "text": "Le Messager d'Allah (s) a dit : L'être humain suit la religion de son ami ; dès lors, considérez avec attention qui vous prenez comme ami.<sup>3923</sup>"
+                    },
+                    {
+                        "number": "3479",
+                        "text": "L'Imām 'Alī (as) a dit : L'ami est le plus proche des proches.<sup>3924</sup>"
+                    },
+                    {
+                        "number": "3480",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui n'a pas d'ami est dénué de toute provision.<sup>3925</sup>"
+                    },
+                    {
+                        "number": "3481",
+                        "text": "L'Imām 'Alī (as) a dit : Les amis sont une même âme dans plusieurs corps.<sup>3926</sup>"
+                    }
+                ]
             },
             {
-                "title": "1099 - La ressemblance des âmes"
+                "title": "1099 - La ressemblance des âmes",
+                "hadiths": [
+                    {
+                        "number": "3482",
+                        "text": "L'Imām 'Alī (as) a dit : Les âmes sont diverses. Celles qui se ressemblent sont en harmonie, et les gens sont plus attirés vers celles qui leur ressemblent.<sup>3927</sup>"
+                    },
+                    {
+                        "number": "3483",
+                        "text": "L'Imām 'Alī (as) a dit : Toute personne est attirée par celle qui lui ressemble.<sup>3928</sup><br>(Voir également : 168. L'âme, section 845)"
+                    }
+                ]
             },
             {
-                "title": "1100 - Celui qu'il faut prendre pour ami"
+                "title": "1100 - Celui qu'il faut prendre pour ami",
+                "hadiths": [
+                    {
+                        "number": "3484",
+                        "text": "Le Messager d'Allah (s) a dit : La plus heureuse des personnes est celle qui fréquente les gens nobles et dignes.<sup>3929</sup>"
+                    },
+                    {
+                        "number": "3485",
+                        "text": "L'Imām 'Alī (as) a dit : La plus grande partie du bien et de la vertu se trouve dans la compagnie des gens doués d'intelligence et de raison.<sup>3930</sup>"
+                    },
+                    {
+                        "number": "3486",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui t'invite à la demeure éternelle et qui t'aide à œuvrer pour cela est véritablement un ami plein de sollicitude.<sup>3931</sup>"
+                    },
+                    {
+                        "number": "3487",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : N'appelle un homme «ami» en toute connaissance de cause que lorsque tu l'auras testé dans trois choses : provoque sa colère et regarde si elle le fait sortir de la vérité vers l'erreur ; le dinar et le dirham [les questions d'argent] ; et lors d'un voyage en sa compagnie.<sup>3932</sup>"
+                    },
+                    {
+                        "number": "3488",
+                        "text": "L'Imām 'Alī (as) a dit : Prends pour ami celui qui te donne une bonne image, et ne prends pas pour ami celui qui se sert de toi pour embellir sa propre image.<sup>3933</sup>"
+                    }
+                ]
             },
             {
-                "title": "1101 - Celui qu'il ne faut pas prendre pour ami"
+                "title": "1101 - Celui qu'il ne faut pas prendre pour ami",
+                "hadiths": [
+                    {
+                        "number": "3489",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'est pas bon pour toi de prendre pour ami celui qui ne souhaite pas pour toi ce qu'il souhaite pour lui-même.<sup>3935</sup>"
+                    },
+                    {
+                        "number": "3490",
+                        "text": "L'Imām 'Alī (as) a dit : Celui dont l'amitié ne t'aide pas contre [les bas penchants de] ton âme t'est nuisible, si tu savais !<sup>3936</sup>"
+                    },
+                    {
+                        "number": "3491",
+                        "text": "L'Imām 'Alī (as) a dit : Méfie-toi de l'amitié des gens corrompus, des dépravés et de ceux qui commettent ouvertement des actes de désobéissance vis-à-vis d'Allah.<sup>3937</sup>"
+                    },
+                    {
+                        "number": "3492",
+                        "text": "L'Imām 'Alī (as) a dit : L'ami de l'ignorant est épuisé et accablé.<sup>3938</sup>"
+                    },
+                    {
+                        "number": "3493",
+                        "text": "L'Imām 'Alī (as) a dit : Prends garde à la fréquentation du dépravé, car le mal accompagne le mal.<sup>3939</sup>"
+                    },
+                    {
+                        "number": "3494",
+                        "text": "L'Imām 'Alī (as) a dit dans une recommandation à son fils Ḥasan (as) : Ô mon fils, prends garde à l'amitié du sot car même s'il veut t'être bénéfique, il te portera préjudice.<sup>3940</sup>"
+                    },
+                    {
+                        "number": "3495",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans une recommandation à son fils al-Bāqir (as) : Prends garde à l'amitié de celui qui a rompu ses liens familiaux car en vérité, je l'ai trouvé maudit dans le Livre d'Allah le Tout-Puissant à trois occasions.<sup>3941</sup>"
+                    },
+                    {
+                        "number": "3496",
+                        "text": "L'Imām al-Riḍā (as) a dit : L'ami de l'ignorant est toujours fatigué.<sup>3942</sup>"
+                    }
+                ],
+                "introduction": "«Le jour où l'injuste se mordra les mains et dira : «Si seulement j'avais suivi chemin avec le Messager ! Malheur à moi ! Hélas ! Si seulement je n'avais pas pris untel pour ami ! Il m'a égaré loin du rappel [le Coran] après qu'il me soit parvenu.» Et le Diable délaisse l'homme [après l'avoir trompé].»<sup>3934</sup>"
             },
             {
-                "title": "1102 - Ce qui corrompt l'amitié"
+                "title": "1102 - Ce qui corrompt l'amitié",
+                "hadiths": [
+                    {
+                        "number": "3497",
+                        "text": "L'Imām 'Alī (as) a dit : Quand l'homme fait honte à son ami, il a rompu avec lui.<sup>3943</sup>"
+                    },
+                    {
+                        "number": "3498",
+                        "text": "L'Imām 'Alī (as) a dit : Jalouser un ami provient du dépérissement du lien d'affection.<sup>3944</sup>"
+                    },
+                    {
+                        "number": "3499",
+                        "text": "L'Imām 'Alī (as) a dit : Ne te laisse pas envahir par la suspicion car en vérité, elle ne laissera pas de place au pardon entre toi et ton ami.<sup>3945</sup>"
+                    },
+                    {
+                        "number": "3500",
+                        "text": "L'Imām 'Alī (as) a dit : L'affection de celui qui scrute avec minutie les affaires de son ami est parvenue à son terme.<sup>3946</sup>"
+                    },
+                    {
+                        "number": "3501",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui polémique avec ses frères a peu d'amis.<sup>3947</sup>"
+                    },
+                    {
+                        "number": "3502",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu veux que l'affection de ton ami soit pure, alors ne te moque pas de lui, ne te dispute pas avec lui, ne te vante pas devant lui et ne fais pas preuve de malveillance envers lui.<sup>3948</sup>"
+                    },
+                    {
+                        "number": "3503",
+                        "text": "L'Imām al-Hādī (as) a dit : La dispute corrompt la longue amitié et elle dissout les liens forts. Elle implique au moins que l'un essaie de dominer l'autre, et la recherche de domination est la cause principale des ruptures.<sup>3949</sup>"
+                    }
+                ]
             },
             {
-                "title": "1103 - L'étendue de l'amitié"
+                "title": "1103 - L'étendue de l'amitié",
+                "hadiths": [
+                    {
+                        "number": "3504",
+                        "text": "L'Imām 'Alī (as) a dit : L'ami sincère est celui qui te conseille [pour remédier à] tes défauts, qui te préserve en ton absence, et qui te préfère à lui-même.<sup>3950</sup>"
+                    },
+                    {
+                        "number": "3505",
+                        "text": "L'Imām 'Alī (as) a dit : Offre à ton ami toute ton affection, mais ne lui offre pas toute ta confiance.<sup>3951</sup>"
+                    },
+                    {
+                        "number": "3506",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'amitié ne peut [réussir] que lorsque ses conditions sont remplies, et celui qui remplit toutes ou certaines de ces conditions peut être pris pour ami, sinon, n'établissez aucune relation d'amitié avec lui. La première est que [ce qu'il pense dans] son for intérieur et son comportement extérieur envers toi soient identiques ; la deuxième est qu'il considère que ce qui est source d'honneur pour toi est source d'honneur pour lui, et que ce qui est source de déshonneur pour toi l'est aussi pour lui ; la troisième est que ni le pouvoir ni l'argent ne changent son comportement à ton égard ; la quatrième est qu'il ne doit pas te priver de ce que tu as la capacité d'atteindre ; et la cinquième - qui résume toutes les autres qualités - est qu'il ne doit pas t'abandonner dans le malheur.<sup>3952</sup>"
+                    }
+                ]
             },
             {
-                "title": "1104 - Le meilleur des compagnons"
+                "title": "1104 - Le meilleur des compagnons",
+                "hadiths": [
+                    {
+                        "number": "3507",
+                        "text": "Le Messager d'Allah (s) a dit : Le meilleur des compagnons est le moins querelleur et le plus conciliant.<sup>3953</sup>"
+                    },
+                    {
+                        "number": "3508",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui aide à l'obéissance [d'Allah] est le meilleur des compagnons.<sup>3954</sup>"
+                    }
+                ]
             },
             {
-                "title": "1105 - Les droits du compagnon"
+                "title": "1105 - Les droits du compagnon",
+                "hadiths": [
+                    {
+                        "number": "3509",
+                        "text": "L'Imām 'Alī (as) a dit : Ne romps pas avec un ami, même s'il est ingrat.<sup>3955</sup>"
+                    },
+                    {
+                        "number": "3510",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le droit du compagnon est que tu partages sa compagnie avec bonté et équité, que tu l'honores comme il t'honore, que tu ne le laisses pas te devancer dans la réalisation d'une action généreuse et que, s'il te devance, tu lui rendes la pareille, que tu l'aimes comme il t'aime, et que tu l'empêches de commettre un acte de désobéissance qu'il envisage de faire. Sois pour lui une miséricorde, et non un châtiment.<sup>3956</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19204,34 +21004,232 @@ const AUNE_SAGESSE = [
         "title": "232 - LA CHARITÉ (ṢADAQA)",
         "subparts": [
             {
-                "title": "1106 - La vertu de la charité"
+                "title": "1106 - La vertu de la charité",
+                "hadiths": [
+                    {
+                        "number": "3511",
+                        "text": "Le Messager d'Allah (s) a dit : Le [jour de la] Résurrection, le sol sera de feu, sauf pour l'ombre du croyant car en vérité, sa charité lui servira d'ombre.<sup>3959</sup>"
+                    },
+                    {
+                        "number": "3512",
+                        "text": "Le Messager d'Allah (s) a dit : Tout être sera sous l'ombre de sa charité jusqu'à ce qu'il soit jugé [par Allah].<sup>3960</sup>"
+                    },
+                    {
+                        "number": "3513",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la charité éteint la colère du Seigneur.<sup>3961</sup>"
+                    },
+                    {
+                        "number": "3514",
+                        "text": "L'Imām 'Alī (as) a dit : La charité est un bouclier contre le Feu.<sup>3962</sup>"
+                    }
+                ],
+                "introduction": "«Prélève sur leurs biens une ṣadaqa par laquelle tu les purifies et les bénis. Et prie pour eux, ta prière est une quiétude pour eux. Et Allah est Audient et Omniscient.»<sup>3958</sup>"
             },
             {
-                "title": "1107 - La réception de la charité par Allah"
+                "title": "1107 - La réception de la charité par Allah",
+                "hadiths": [
+                    {
+                        "number": "3515",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Béni et le Très-Haut a dit : J'ai délégué toute chose à celui qui la recueille, sauf la charité car en vérité, Je la recueille immédiatement de Ma main.<sup>3964</sup>"
+                    }
+                ],
+                "introduction": "«Ne savent-ils pas que c'est Allah qui accueille le repentir de Ses serviteurs, qui reçoit les actes de charité (ṣadaqāt), et qu'Allah est Celui qui accueille le repentir, le Miséricordieux ?»<sup>3963</sup>"
             },
             {
-                "title": "1108 - La charité et l'éloignement des malheurs"
+                "title": "1108 - La charité et l'éloignement des malheurs",
+                "hadiths": [
+                    {
+                        "number": "3516",
+                        "text": "Le Messager d'Allah (s) a dit : La charité empêche soixante-dix types de malheurs, le moins pire étant l'éléphantiasis et la lèpre.<sup>3965</sup>"
+                    },
+                    {
+                        "number": "3517",
+                        "text": "Le Messager d'Allah (s) a dit : La charité bloque soixante-dix portes de malheurs.<sup>3966</sup>"
+                    },
+                    {
+                        "number": "3518",
+                        "text": "Le Messager d'Allah (s) a dit : La charité repousse une mort indigne.<sup>3967</sup>"
+                    },
+                    {
+                        "number": "3519",
+                        "text": "Le Messager d'Allah (s) a dit : Faites la charité et guérissez vos malades par la charité car en vérité, la charité repousse les accidents et les maladies, et elle augmente vos vies et vos bonnes actions.<sup>3968</sup>"
+                    },
+                    {
+                        "number": "3520",
+                        "text": "L'Imām 'Alī (as) a dit : La charité est un remède efficace.<sup>3969</sup>"
+                    }
+                ]
             },
             {
-                "title": "1109 - La charité est la clé de la subsistance"
+                "title": "1109 - La charité est la clé de la subsistance",
+                "hadiths": [
+                    {
+                        "number": "3521",
+                        "text": "Le Messager d'Allah (s) a dit : Multipliez vos actes de charité, et votre subsistance vous sera donnée.<sup>3970</sup>"
+                    },
+                    {
+                        "number": "3522",
+                        "text": "L'Imām 'Alī (as) a dit : Faites descendre la subsistance par la charité.<sup>3971</sup>"
+                    },
+                    {
+                        "number": "3523",
+                        "text": "L'Imām 'Alī (as) a dit : Si vous êtes réduits à la pauvreté, négociez avec Allah par la charité.<sup>3972</sup>"
+                    },
+                    {
+                        "number": "3524",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, il m'arrive d'être réduit à la pauvreté, et je négocie alors avec Allah par la charité.<sup>3973</sup>"
+                    },
+                    {
+                        "number": "3525",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La charité aide à régler ses dettes et laisse derrière elle la bénédiction.<sup>3974</sup>"
+                    }
+                ]
             },
             {
-                "title": "1110 - Toute bonne action est considérée comme de la charité"
+                "title": "1110 - Toute bonne action est considérée comme de la charité",
+                "hadiths": [
+                    {
+                        "number": "3526",
+                        "text": "<i>Biḥār al-Anwār</i> : Le Messager d'Allah (s) a dit : «En vérité, tout musulman doit faire chaque jour un acte de charité.» On lui demanda : «Qui a la capacité de faire cela ?» Il répondit : «Enlever un obstacle d'un chemin est un acte de charité, guider une personne vers son chemin est un acte de charité, rendre visite au malade est un acte de charité, commander le convenable est un acte de charité, interdire le blâmable est un acte de charité, et répondre aux salutations de paix est un acte de charité.»<sup>3975</sup>"
+                    },
+                    {
+                        "number": "3527",
+                        "text": "Le Messager d'Allah (s) a dit : Toute bonne action est considérée comme de la charité.<sup>3976</sup>"
+                    },
+                    {
+                        "number": "3528",
+                        "text": "Le Messager d'Allah (s) a dit : Retiens ta langue car en vérité, c'est un acte de charité que tu fais pour toi-même.<sup>3977</sup>"
+                    },
+                    {
+                        "number": "3529",
+                        "text": "Le Messager d'Allah (s) a dit : S'abstenir du mal est un acte de charité.<sup>3978</sup>"
+                    },
+                    {
+                        "number": "3530",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'acte charitable qu'Allah aime est la réconciliation entre les personnes brouillées, et le fait de les rapprocher lorsqu'elles se sont éloignées.<sup>3979</sup>"
+                    },
+                    {
+                        "number": "3531",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Faire comprendre à un sourd sans être irrité est un acte de charité sain.<sup>3980</sup>"
+                    }
+                ]
             },
             {
-                "title": "1111 - La meilleure forme de charité"
+                "title": "1111 - La meilleure forme de charité",
+                "hadiths": [
+                    {
+                        "number": "3532",
+                        "text": "Lorsqu'on lui demanda quelle était la meilleure forme de charité, le Messager d'Allah (s) répondit : C'est que tu donnes lorsque tu es en bonne santé et plein de convoitise, alors que tu espères avoir une longue existence et que tu crains l'indigence, et que tu ne remets pas à plus tard lorsque [l'âme] remonte à la gorge [au moment de la mort] et que tu dis alors : «Ceci est pour untel et cela pour untel» car à ce moment-là, cela appartiendra finalement à une autre personne.<sup>3981</sup>"
+                    },
+                    {
+                        "number": "3533",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure des personnes est celle qui donne [en charité] ce qu'elle a gagné au prix de grands efforts.<sup>3982</sup>"
+                    },
+                    {
+                        "number": "3534",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure forme de charité est ce qui est donné secrètement à un pauvre par celui qui a lui-même peu à offrir [qui est démuni].<sup>3983</sup>"
+                    },
+                    {
+                        "number": "3535",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la meilleure forme de charité est celle de la langue par laquelle les vies sont préservées, l'adversité est éloignée, et les bénéfices sont attirés vers ton frère musulman.<sup>3984</sup>"
+                    },
+                    {
+                        "number": "3536",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure forme de charité est qu'un musulman acquière un savoir puis l'enseigne à son frère musulman.<sup>3985</sup>"
+                    },
+                    {
+                        "number": "3537",
+                        "text": "Interrogé au sujet de la meilleure forme de charité, le Messager d'Allah (s) a dit : [C'est l'acte de charité réalisé envers] un proche rancunier.<sup>3986</sup>"
+                    },
+                    {
+                        "number": "3538",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure forme de charité est d'offrir l'ombre d'une tente [à quelqu'un] pour Allah le Tout-Puissant.<sup>3987</sup>"
+                    },
+                    {
+                        "number": "3539",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure forme de charité est celle faite durant le mois de Ramadan.<sup>3988</sup>"
+                    },
+                    {
+                        "number": "3540",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La meilleure forme de charité est de rafraîchir la chaleur intérieure de quelqu'un [en étanchant sa soif].<sup>3989</sup>"
+                    },
+                    {
+                        "number": "3541",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Ton assistance au faible est l'une des meilleures formes de charité.<sup>3990</sup>"
+                    }
+                ]
             },
             {
-                "title": "1112 - La vertu de la charité faite en secret et ses effets"
+                "title": "1112 - La vertu de la charité faite en secret et ses effets",
+                "hadiths": [
+                    {
+                        "number": "3542",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, parmi les meilleurs moyens de ceux qui implorent Allah le Loué et le Très-Haut pour L'implorer figure le fait de croire en Lui et en Son Messager… Ainsi que de faire une aumône (<i>ṣadaqa</i>) en secret car en vérité, cela absout le péché, et l'aumône (<i>ṣadaqa</i>) faite en public empêche une mort indigne.<sup>3992</sup>"
+                    },
+                    {
+                        "number": "3543",
+                        "text": "L'Imām al-Bāqir (as) a dit au sujet de [son père] l'Imām Zayn al-'Ābidīn (as) : En vérité, il avait l'habitude de sortir dans l'obscurité de la nuit en portant un sac sur le dos et allait de porte en porte, frappant à chacune et donnant à celui qui lui ouvrait. Il avait également l'habitude de couvrir son visage lorsqu'il donnait aux pauvres afin qu'ils ne le reconnaissent pas.<sup>3993</sup>"
+                    },
+                    {
+                        "number": "3544",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne donne pas l'aumône (<i>ṣadaqa</i>) sous les yeux des gens afin qu'ils fassent ton éloge car en vérité, si tu agis ainsi, tu auras déjà eu ta récompense. En revanche, si tu donnes de ta main droite de telle façon que ta main gauche n'en sache rien, alors Celui pour qui tu as donné une aumône en secret te récompensera certainement un jour ouvertement.<sup>3994</sup>"
+                    },
+                    {
+                        "number": "3545",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Par Allah, l'aumône (<i>ṣadaqa</i>) donnée en secret est meilleure que l'aumône donnée ouvertement, de même que, par Allah, les actes d'adoration faits en secret sont meilleurs que ceux accomplis ouvertement.<sup>3995</sup>"
+                    },
+                    {
+                        "number": "3546",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, l'aumône (<i>ṣadaqa</i>) donnée la nuit [en secret] apaise la colère du Seigneur, efface les péchés graves et facilite le Jugement [le Jour de la Résurrection]. En revanche, l'aumône donnée le jour fait fructifier les biens et rallonge la vie.<sup>3996</sup>"
+                    }
+                ],
+                "introduction": "«Si vous faites vos actes de charité ouvertement c'est bien, mais c'est mieux encore si vous êtes discrets et que vous les offrez aux pauvres. Allah effacera une partie de vos méfaits. Allah sait parfaitement ce que vous faites.»<sup>3991</sup>"
             },
             {
-                "title": "1113 - La limite de l'aumône (ṣadaqa)"
+                "title": "1113 - La limite de l'aumône (ṣadaqa)",
+                "hadiths": [
+                    {
+                        "number": "3547",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui fait l'aumône de façon excessive est semblable à celui qui refuse de la donner.<sup>3998</sup>"
+                    },
+                    {
+                        "number": "3548",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Ne donne pas à tes frères une chose t'appartenant lorsque la perte que cela te cause est plus importante que le bénéfice que cela leur apporte.<sup>3999</sup>"
+                    }
+                ],
+                "introduction": "«Ne porte pas ta main enchaînée à ton cou [par avarice], et ne l'étends pas non plus trop largement, sinon tu te trouveras blâmé et chagriné.»<sup>3997</sup>"
             },
             {
-                "title": "1114 - Les destinataires de l'aumône (ṣadaqa)"
+                "title": "1114 - Les destinataires de l'aumône (ṣadaqa)",
+                "hadiths": [
+                    {
+                        "number": "3549",
+                        "text": "Le Messager d'Allah (s) a dit : Le pauvre n'est pas celui qui arpente les rues en mendiant, ni celui que l'on peut renvoyer avec une datte ou deux, ou une bouchée ou deux ; le pauvre est [plutôt] celui qui se retient de demander aux autres et qui n'attire pas l'attention sur lui – c'est à lui que l'aumône (<i>ṣadaqa</i>) doit être donnée.<sup>4001</sup>"
+                    },
+                    {
+                        "number": "3550",
+                        "text": "Interrogé au sujet de [s'il fallait donner] l'aumône (<i>ṣadaqa</i>) à ceux qui mendient en frappant aux portes, ou s'il fallait s'en abstenir pour la donner aux proches [nécessiteux], l'Imām al-Ṣādiq (as) répondit : Non, donnez-la plutôt à vos proches [nécessiteux], car la récompense pour cela est plus grande.<sup>4002</sup>"
+                    },
+                    {
+                        "number": "3551",
+                        "text": "Lorsqu'on l'interrogea sur la parole divine «<i>pour le mendiant et le déshérité</i>»<sup>4003</sup>, l'Imām al-Ṣādiq (as) répondit : Le déshérité est celui à qui, malgré ses efforts, le commerce ne rapporte rien.<sup>4004</sup><br>(Voir également : 171. La <i>zakāt</i> (l'aumône légale), section 854)"
+                    }
+                ],
+                "introduction": "«[Que vos aumônes aillent de préférence] aux indigents qui se sont confinés dans le sentier d'Allah et qui ne peuvent parcourir le monde, et que l'ignorant croit riches car ils ont honte de mendier – tu les reconnaîtras à leur aspect. Ils n'importunent personne en mendiant. Tout ce que vous dépensez de vos biens, Allah le sait parfaitement.»<sup>4000</sup>"
             },
             {
-                "title": "1115 - La bonne façon de faire l'aumône"
+                "title": "1115 - La bonne façon de faire l'aumône",
+                "hadiths": [
+                    {
+                        "number": "3552",
+                        "text": "Le Messager d'Allah (s) a dit : Donnez vos aumônes (<i>ṣadaqa</i>) sans vanité car en vérité, la vanité anéantit la récompense [liée à cette aumône].<sup>4006</sup>"
+                    },
+                    {
+                        "number": "3553",
+                        "text": "L'Imām 'Alī (as) a dit : Retarder [la promesse d'un don] ou le fait de faire sentir à quelqu'un qu'on lui a fait une faveur la rend déplaisante.<sup>4007</sup><br>(Voir également : 272. La bienséance (1), section 1281)"
+                    }
+                ],
+                "introduction": "«Ô les croyants ! N'annulez pas vos aumônes par un rappel ou un tort, à l'instar de celui qui dépense son bien par ostentation face aux gens, sans croire en Allah ni au Jour dernier. Il ressemble à un rocher que recouvre un peu de terre : qu'une averse l'atteigne et elle le laisse dénué.»<sup>4005</sup>"
             }
         ]
     },
@@ -19239,13 +21237,56 @@ const AUNE_SAGESSE = [
         "title": "233 - LE CHEMIN",
         "subparts": [
             {
-                "title": "1116 - Le droit chemin"
+                "title": "1116 - Le droit chemin",
+                "hadiths": [
+                    {
+                        "number": "3554",
+                        "text": "L'Imām 'Alī (as) a dit : Sachez que vous passerez sur le <i>ṣirāṭ</i>, sa voie glissante, les affres de ses trébuchements, et ses effrois répétés.<sup>4008</sup>"
+                    }
+                ]
             },
             {
-                "title": "1117 - La signification du droit chemin"
+                "title": "1117 - La signification du droit chemin",
+                "hadiths": [
+                    {
+                        "number": "3555",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la signification du Chemin : C'est la voie vers la connaissance de Dieu le Tout-Puissant, et il existe deux chemins : le chemin de ce bas-monde, et le chemin de l'Au-delà. Le chemin de la vie d'ici-bas est l'Imām, à qui l'obéissance est obligatoire. Ainsi, celui qui le [re]connaît dans cette vie et qui suit sa guidance passera [avec succès] le chemin de l'Au-delà, qui est un pont au-dessus de l'Enfer.<sup>4012</sup>"
+                    },
+                    {
+                        "number": "3556",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le droit chemin est l'Emir des croyants, 'Alī (as).<sup>4013</sup>"
+                    }
+                ],
+                "introduction": "«Guide-nous dans le droit chemin.»<sup>4009</sup><br><br>«Allah est mon Seigneur et votre Seigneur. Adorez-Le : voilà le chemin droit.»<sup>4010</sup><br><br>«Et comment pouvez-vous ne pas croire alors que les versets d'Allah vous sont récités, et que Son Messager se trouve parmi vous ? Celui qui s'attache fermement à Allah, il est certes guidé vers un droit chemin.»<sup>4011</sup>"
             },
             {
-                "title": "1118 - Le chemin de l'Au-delà et son passage"
+                "title": "1118 - Le chemin de l'Au-delà et son passage",
+                "hadiths": [
+                    {
+                        "number": "3557",
+                        "text": "Moïse (as) a dit dans un entretien intime [avec Dieu] : «Ô mon Dieu, quelle est la récompense de celui qui récite Ta sagesse [Ton livre sacré] doucement et à haute voix ?» Il répondit : «Ô Moïse, il passera sur le Chemin [vers l'Au-delà] comme un éclair.»<sup>4014</sup>"
+                    },
+                    {
+                        "number": "3558",
+                        "text": "Le Messager d'Allah (s) a dit : Ceux qui auront les pas les plus fermes sur le Chemin sont ceux parmi vous qui aiment le plus ma famille.<sup>4015</sup>"
+                    },
+                    {
+                        "number": "3559",
+                        "text": "Le Messager d'Allah (s) a dit : Accomplis les ablutions rituelles de la meilleure manière, et tu passeras sur le Chemin [de l'Au-delà] comme passent les nuages.<sup>4016</sup>"
+                    },
+                    {
+                        "number": "3560",
+                        "text": "Le Messager d'Allah (s) a dit : Le Chemin est plus fin qu'un cheveu et plus tranchant qu'une épée.<sup>4017</sup>"
+                    },
+                    {
+                        "number": "3561",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la Parole d'Allah le Tout-Puissant «<i>Car ton Seigneur demeure aux aguets</i>»<sup>4018</sup> : C'est une arche sur le Chemin qu'aucun serviteur ayant commis une injustice ne pourra franchir.<sup>4019</sup>"
+                    },
+                    {
+                        "number": "3562",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les gens passeront sur le chemin [de l'Au-delà] par classes : [...] Certains passeront comme un éclair, d'autres passeront comme un cheval au galop, d'autres en rampant, et d'autres encore en y étant suspendus, le feu brûlant une partie d'eux et en laissant une partie.<sup>4020</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19253,7 +21294,33 @@ const AUNE_SAGESSE = [
         "title": "234 - L'ENFANCE",
         "subparts": [
             {
-                "title": "1119 - L'enfance"
+                "title": "1119 - L'enfance",
+                "hadiths": [
+                    {
+                        "number": "3563",
+                        "text": "Le Messager d'Allah (s) a dit : Le fait qu'un enfant soit turbulent durant son enfance le rend plus raisonnable à l'âge adulte.<sup>4021</sup>"
+                    },
+                    {
+                        "number": "3564",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui n'a pas fait des efforts durant son enfance ne parviendra pas à la noblesse à l'âge adulte.<sup>4022</sup>"
+                    },
+                    {
+                        "number": "3565",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui pose des questions durant son enfance sera capable d'y répondre lui-même à l'âge adulte.<sup>4023</sup>"
+                    },
+                    {
+                        "number": "3566",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui n'apprend pas dans sa jeunesse ne progresse pas lorsqu'il est adulte.<sup>4024</sup>"
+                    },
+                    {
+                        "number": "3567",
+                        "text": "L'Imām 'Alī (as) a dit : L'ignorant est un enfant même s'il est vieux, et l'érudit est un adulte même s'il est jeune.<sup>4025</sup>"
+                    },
+                    {
+                        "number": "3568",
+                        "text": "L'Imām al-Kāẓim (as) a dit : La polissonnerie et le jeu sont bons pour l'enfant durant son enfance car cela permet qu'il soit indulgent à l'âge adulte.<sup>4026</sup><br>(Voir également : 414. Le parent et l'enfant, section 1893 ; 6. La politesse, section 50)"
+                    }
+                ]
             }
         ]
     },
@@ -19261,10 +21328,46 @@ const AUNE_SAGESSE = [
         "title": "235 - SERRER LA MAIN",
         "subparts": [
             {
-                "title": "1120 - L'encouragement à serrer la main"
+                "title": "1120 - L'encouragement à serrer la main",
+                "hadiths": [
+                    {
+                        "number": "3569",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque vous vous rencontrez, adressez-vous mutuellement des salutations de paix (<i>salām</i>) et serrez-vous la main, et lorsque vous vous séparez, séparez-vous en vous demandant pardon.<sup>4027</sup>"
+                    },
+                    {
+                        "number": "3570",
+                        "text": "Le Messager d'Allah (s) a dit : Serrez-vous la main car en vérité, la poignée de main fait disparaître la rancune.<sup>4028</sup>"
+                    },
+                    {
+                        "number": "3571",
+                        "text": "Le Messager d'Allah (s) a dit : Serrez-vous la main car en vérité, cela fait disparaître la rancœur.<sup>4029</sup>"
+                    },
+                    {
+                        "number": "3572",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'un homme serre la main de son ami, celui qui garde la main de son ami dans la sienne a une plus grande récompense que celui qui la desserre en premier. En vérité, leurs péchés tombent [suite à cela] jusqu'à ce qu'il n'en reste plus aucun.<sup>4030</sup>"
+                    },
+                    {
+                        "number": "3573",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque les [premiers] musulmans accompagnaient le Messager d'Allah (s) à des expéditions et qu'ils traversaient des forêts denses puis arrivaient de nouveau dans un espace ouvert, ils se regardaient et se serraient mutuellement la main.<sup>4031</sup>"
+                    },
+                    {
+                        "number": "3574",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Prophète (s) serrait la main, il ne la retirait jamais [en premier] jusqu'à ce que l'autre personne la desserre.<sup>4032</sup>"
+                    }
+                ]
             },
             {
-                "title": "1121 - L'interdiction de serrer la main des femmes"
+                "title": "1121 - L'interdiction de serrer la main des femmes",
+                "hadiths": [
+                    {
+                        "number": "3575",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, je ne serre pas la main des femmes.<sup>4033</sup>"
+                    },
+                    {
+                        "number": "3576",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'homme ne peut serrer la main de la femme qu'il peut épouser [et qui n'est pas <i>maḥram</i> avec lui] sauf à travers un tissu, ni serrer sa paume.<sup>4034</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19272,16 +21375,62 @@ const AUNE_SAGESSE = [
         "title": "236 - LA PAIX",
         "subparts": [
             {
-                "title": "1122 - La paix durant la guerre"
+                "title": "1122 - La paix durant la guerre",
+                "hadiths": [
+                    {
+                        "number": "3577",
+                        "text": "L'Imām 'Alī (as) a dit : J'ai trouvé que la conciliation, tant qu'elle n'affaiblit pas l'islam, est plus bénéfique que le combat.<sup>4036</sup>"
+                    },
+                    {
+                        "number": "3578",
+                        "text": "L'Imām 'Alī (as) a écrit dans sa lettre à al-Ashtar lorsqu'il l'a désigné gouverneur d'Égypte : Ne rejette pas la paix à laquelle ton ennemi peut t'appeler, et en cela réside la satisfaction d'Allah car en vérité, la paix procure la tranquillité à tes soldats, te soulage de tes soucis, et est source de sécurité pour ton pays. En revanche, fais preuve d'une grande méfiance envers ton ennemi après avoir conclu la paix, car il peut chercher à se rapprocher pour profiter ensuite de ton inattention. Par conséquent, agis avec prudence et sois sur tes gardes, tout en gardant une bonne opinion de lui.<sup>4037</sup>"
+                    }
+                ],
+                "introduction": "«S'ils penchent pour la paix, penche aussi vers elle et place ta confiance en Allah, car c'est Lui l'Audient, l'Omniscient.»<sup>4035</sup>"
             },
             {
-                "title": "1123 - La paix de l'Imām Ḥasan (as)"
+                "title": "1123 - La paix de l'Imām Ḥasan (as)",
+                "hadiths": [
+                    {
+                        "number": "3579",
+                        "text": "Après avoir été frappé par Ibn Muljam, l'Imām 'Alī (as) a dit dans son testament à son fils Ḥasan (as) : Sache que Mu'āwiya s'opposera à toi tout comme il s'est opposé à moi. Ainsi, si tu es conciliant et que tu fais la paix avec lui, tu suivras l'exemple de ton grand-père (s) lorsqu'il a fait preuve de conciliation avec les tribus Banī Ḍamra et Banī Ashja'… Et si tu veux combattre ton ennemi, [sache que] tes partisans ne seront jamais aussi loyaux que l'étaient ceux de ton père.<sup>4038</sup>"
+                    },
+                    {
+                        "number": "3580",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, lorsque Ḥasan ibn 'Alī (as) fut attaqué et que les gens s'opposèrent à lui pour avoir fait la paix avec Mu'āwiya, les partisans le saluaient en disant «Que la paix soit sur toi, ô celui qui abaisse les croyants.» Il (as) répondait alors : «Je ne suis pas celui qui abaisse les croyants, je suis plutôt celui qui élève les croyants. En vérité, quand j'ai vu que vous étiez impuissants face à [l'armée de Mu'āwiya], j'ai fait la paix afin que vous et moi restions en vie parmi eux, de la même façon que le savant [al-Khiḍr] a endommagé le bateau afin qu'il reste aux mains de ses propriétaires.<sup>4039</sup> J'ai agi de même pour vous et moi afin que nous restions en vie parmi eux.»<sup>4040</sup>"
+                    }
+                ]
             },
             {
-                "title": "1124 - L'importance du fait de réconcilier les gens"
+                "title": "1124 - L'importance du fait de réconcilier les gens",
+                "hadiths": [
+                    {
+                        "number": "3581",
+                        "text": "Le Messager d'Allah (s) a dit : Voulez-vous que je vous informe de ce qui a un plus haut statut que le jeûne, la prière, et la charité (<i>ṣadaqa</i>) ? C'est de réconcilier les gens, car en vérité, semer la discorde entre les gens est calamiteux.<sup>4043</sup>"
+                    },
+                    {
+                        "number": "3582",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'acte de charité (<i>ṣadaqa</i>) qu'Allah aime est de réconcilier des gens quand ils sont en mésentente, et de les rapprocher lorsqu'ils se sont éloignés.<sup>4044</sup>"
+                    },
+                    {
+                        "number": "3583",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en s'adressant à Mufaḍḍal : Si tu vois une divergence [d'ordre financier] entre deux de nos partisans (<i>shī'a</i>), règle-la en utilisant mon argent.<sup>4045</sup>"
+                    }
+                ],
+                "introduction": "«Les croyants ne sont que des frères. Réconciliez vos frères et craignez Allah, afin qu'on vous fasse miséricorde.»<sup>4041</sup><br><br>«Il n'y a rien de bon dans la plupart de leurs conversations secrètes, sauf si l'un d'entre eux ordonne une charité, une bonne action ou une réconciliation entre les gens. Celui qui le fait en cherchant l'agrément d'Allah, à celui-là Nous donnerons bientôt une récompense énorme.»<sup>4042</sup>"
             },
             {
-                "title": "1125 - Le mensonge autorisé en vue d'une réconciliation"
+                "title": "1125 - Le mensonge autorisé en vue d'une réconciliation",
+                "hadiths": [
+                    {
+                        "number": "3584",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le réconciliateur n'est pas un menteur.<sup>4046</sup>"
+                    },
+                    {
+                        "number": "3585",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La parole est de trois sortes : la vérité, le mensonge, et [la parole en vue de] la réconciliation des gens. [...] Il se peut que tu entendes un homme dire quelque chose à propos d'un autre qui, s'il l'entend, le conduira à être malveillant à son égard. [Dans une telle situation] tu peux dire [à ce dernier] lorsque tu le rencontres : «J'ai entendu untel dire du bien de toi à ce propos et à ce propos», et ce contrairement à ce que tu as entendu.<sup>4047</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19289,49 +21438,349 @@ const AUNE_SAGESSE = [
         "title": "237 - LA PRIÈRE (AL-ṢALĀT) (1)",
         "subparts": [
             {
-                "title": "1126 - La vertu de la prière"
+                "title": "1126 - La vertu de la prière",
+                "hadiths": [
+                    {
+                        "number": "3586",
+                        "text": "Le Messager d'Allah (s) a dit : Toute chose a un visage, et le visage de votre religion est la prière.<sup>4051</sup>"
+                    },
+                    {
+                        "number": "3587",
+                        "text": "Le Messager d'Allah (s) a dit : Allah - glorifiée soit Sa louange - a fait en sorte que ma joie soit dans la prière. Il m'a fait aimer la prière de la même façon qu'Il a fait aimer la nourriture à l'affamé et l'eau à l'assoiffé, [avec cette différence que] lorsque l'affamé mange il est rassasié, et lorsque l'assoiffé boit sa soif est étanchée, alors que je ne suis jamais rassasié de la prière.<sup>4052</sup>"
+                    },
+                    {
+                        "number": "3588",
+                        "text": "L'Imām 'Alī (as) a dit : La prière fait descendre la miséricorde.<sup>4053</sup>"
+                    },
+                    {
+                        "number": "3589",
+                        "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) ne faisait rien passer avant la prière, ni dîner ni aucune autre chose. Lorsque le moment de la prière arrivait, il semblait ne plus reconnaître personne, ni famille ni ami proche.<sup>4054</sup>"
+                    },
+                    {
+                        "number": "3590",
+                        "text": "L'Imām 'Alī (as) a dit : La prière permet à toute personne pieuse de se rapprocher [de Dieu].<sup>4055</sup>"
+                    },
+                    {
+                        "number": "3591",
+                        "text": "L'Imām al-Bāqir (as) a dit : La prière est le pilier de la religion. Elle ressemble au pilier de la tente : si le pilier est bien ancré, les piquets et les cordages tiennent ; par contre, si le pilier penche et casse, ni piquets ni cordages ne tiennent.<sup>4056</sup>"
+                    },
+                    {
+                        "number": "3592",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'acte le plus aimé par Allah le Tout-Puissant est la prière, et elle est le dernier commandement des prophètes.<sup>4057</sup>"
+                    },
+                    {
+                        "number": "3593",
+                        "text": "Lorsqu'il fut interrogé au sujet des meilleurs actes et de ceux qui sont les plus aimés par Allah, l'Imām al-Ṣādiq (as) répondit : Après la connaissance [de Dieu], je ne connais pas de meilleur acte que la prière. Ne vois-tu pas que le bon serviteur Jésus fils de Marie a dit : «<i>Il m'a recommandé la prière (ṣalāt) et l'aumône (zakāt) tant que je vivrai</i>»<sup>4058</sup>.<sup>4059</sup>"
+                    }
+                ],
+                "introduction": "«Soyez assidus aux prières, surtout à la prière (ṣalāt) médiane ; et tenez-vous debout devant Allah avec humilité.»<sup>4048</sup><br><br>«Quand vous avez accompli la prière, invoquez le nom d'Allah, debout, assis ou couchés sur vos côtés. Ensuite lorsque vous êtes en sécurité, accomplissez vos prières [normalement], car la prière demeure une prescription pour les croyants, à des temps déterminés.»<sup>4049</sup><br><br>«Ô mon Seigneur ! Fais que je sois assidu à la prière, ainsi qu'une partie de ma descendance ! Exauce ma prière, ô notre Seigneur !»<sup>4050</sup>"
             },
             {
-                "title": "1127 - Les effets de la prière"
+                "title": "1127 - Les effets de la prière",
+                "hadiths": [
+                    {
+                        "number": "3594",
+                        "text": "Le Messager d'Allah (s) a dit : Celui que la prière ne préserve pas des actes indécents et blâmables ne fera que s'éloigner davantage d'Allah.<sup>4061</sup>"
+                    },
+                    {
+                        "number": "3595",
+                        "text": "<i>Biḥār al-Anwār</i> : Le Messager d'Allah (s) a dit au sujet d'un homme qui faisait la prière en sa compagnie et qui commettait malgré tout des actes indécents : «En vérité, sa prière l'empêchera un jour [de faire de telles choses].» Et l'homme se repentit peu de temps après.<sup>4062</sup>"
+                    },
+                    {
+                        "number": "3596",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, le pilier de la religion est la prière, et c'est le premier des actes de l'homme qui sera examiné. Si elle est valide, les autres actes seront examinés, et si elle n'est pas valide, le reste de ses actes ne sera pas pris en considération.<sup>4063</sup>"
+                    },
+                    {
+                        "number": "3597",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'acquitte de la prière en connaissant le droit qui lui revient est pardonné.<sup>4064</sup>"
+                    },
+                    {
+                        "number": "3598",
+                        "text": "Fāṭima al-Zahrā (as) a dit : Allah a rendu la prière obligatoire pour purifier la personne de l'orgueil.<sup>4065</sup>"
+                    },
+                    {
+                        "number": "3599",
+                        "text": "L'Imām al-Bāqir (as) a dit : La première chose au sujet de laquelle le serviteur aura à rendre des comptes sera la prière. Si elle est acceptée, tout le reste sera accepté.<sup>4066</sup>"
+                    },
+                    {
+                        "number": "3600",
+                        "text": "L'Imām al-Bāqir (as) a dit : La prière renforce la sincérité et purifie de l'orgueil.<sup>4067</sup>"
+                    },
+                    {
+                        "number": "3601",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si devant la maison de l'un d'entre vous se trouvait une rivière dans laquelle il se lavait cinq fois par jour, resterait-il de la saleté sur son corps ? De même, la prière est comme le fleuve qui purifie [l'âme]. À chaque fois que quelqu'un s'acquitte d'une prière, elle agit comme une expiation de ses péchés, sauf le péché qui l'éloigne et le garde éloigné de la foi.<sup>4068</sup>"
+                    }
+                ],
+                "introduction": "«Récite ce qui t'est révélé du Livre et accomplis la prière (ṣalāt), car la prière préserve de la turpitude et du blâmable. Certes le rappel d'Allah est ce qu'il y a de plus grand. Et Allah sait ce que vous faites.»<sup>4060</sup>"
             },
             {
-                "title": "1128 - Le mérite de celui qui prie"
+                "title": "1128 - Le mérite de celui qui prie",
+                "hadiths": [
+                    {
+                        "number": "3602",
+                        "text": "Le Messager d'Allah (s) a dit : Tant que tu es en prière, en vérité, tu es en train de frapper à la porte du Souverain Tout-Puissant, et la porte du Souverain finit par s'ouvrir à celui qui y frappe avec persistance.<sup>4069</sup>"
+                    },
+                    {
+                        "number": "3603",
+                        "text": "L'Imām 'Alī (as) a dit : Si celui qui prie savait la majesté de Dieu qui l'enveloppe alors, il ne souhaiterait jamais relever sa tête de la prosternation.<sup>4070</sup>"
+                    },
+                    {
+                        "number": "3604",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsqu'un homme se lève pour aller prier, Iblīs s'approche et le regarde jalousement en raison de la miséricorde divine qu'il voit l'envelopper.<sup>4071</sup>"
+                    }
+                ]
             },
             {
-                "title": "1129 - L'humilité dans la prière"
+                "title": "1129 - L'humilité dans la prière",
+                "hadiths": [
+                    {
+                        "number": "3605",
+                        "text": "Le Messager d'Allah (s) a dit : La prière de celui qui ne la fait pas avec humilité n'est pas une prière.<sup>4073</sup>"
+                    },
+                    {
+                        "number": "3606",
+                        "text": "Interrogé au sujet de l'humilité, le Messager d'Allah (s) a dit : C'est de faire preuve d'humilité dans la prière, et que le serviteur se tourne de tout son cœur vers son Seigneur.<sup>4074</sup>"
+                    },
+                    {
+                        "number": "3607",
+                        "text": "<i>Falāḥ al-Sā'il</i> de Abū Muḥammad Ja'far ibn 'Alī al-Qummī dans le livre <i>Zuhd al-Nabī</i> (s) : Lorsqu'il se levait pour la prière, le visage du Prophète (s) pâlissait par crainte d'Allah le Très-Haut.<sup>4075</sup>"
+                    },
+                    {
+                        "number": "3608",
+                        "text": "L'Imām 'Alī (as) a dit : L'homme doit être humble dans sa prière car en vérité, celui dont le cœur est humble face à Allah le Tout-Puissant verra l'ensemble de ses membres devenir humbles, et il ne s'occupera plus de choses futiles.<sup>4076</sup>"
+                    },
+                    {
+                        "number": "3609",
+                        "text": "<i>Da'ā'im al-Islām</i> au sujet de l'Imām 'Alī (as) : Lorsqu'il (s) entrait en prière, il devenait tel un monument fixe ou un pilier vertical et ne bougeait plus. Lorsqu'il se prosternait ou s'inclinait, [il était si immobile que] des oiseaux venaient parfois se poser sur lui. Nul ne pouvait imiter la prière du Messager d'Allah (s), hormis 'Alī ibn Abī Ṭālib et 'Alī ibn Ḥusayn [l'Imām Zayn al-'Ābidīn] (as).<sup>4077</sup>"
+                    },
+                    {
+                        "number": "3610",
+                        "text": "<i>A'lām al-Dīn</i> : Lorsqu'il faisait ses ablutions, la [couleur du] visage de l'Emir des croyants ['Alī] (as) changeait par crainte d'Allah le Très-Haut.<sup>4078</sup>"
+                    },
+                    {
+                        "number": "3611",
+                        "text": "<i>'Uddat al-Dā'ī</i> : Lors de sa prière, Fāṭima (as) avait pour habitude d'être à bout de souffle par crainte d'Allah le Très-Haut.<sup>4079</sup>"
+                    },
+                    {
+                        "number": "3612",
+                        "text": "<i>Biḥār al-Anwār</i> : Lorsqu'il faisait ses ablutions, le visage de l'Imām Ḥasan (as) changeait de couleur et ses articulations tremblaient. À une personne qui l'avait interpellé à ce sujet, il dit : «Il est de droit à celui qui se tient face au Seigneur du Trône de pâlir et que ses articulations tremblent.»<sup>4080</sup>"
+                    },
+                    {
+                        "number": "3613",
+                        "text": "<i>Da'ā'im al-Islām</i> : Lorsqu'il faisait ses ablutions pour la prière et s'apprêtait à la commencer, le visage de 'Alī ibn Ḥusayn [Zayn al-'Ābidīn] (as) pâlissait et changeait de couleur. À une personne qui l'interpella à ce sujet, il dit : «En vérité, je m'apprête à me tenir face à un Grand Souverain.»<sup>4081</sup>"
+                    },
+                    {
+                        "number": "3614",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'il s'apprêtait à faire sa prière, 'Alī ibn Ḥusayn - que les prières d'Allah soient sur eux - devenait tel un tronc d'arbre, rien ne bougeait de lui sauf ce que le vent faisait frémir.<sup>4082</sup>"
+                    },
+                    {
+                        "number": "3615",
+                        "text": "<i>Falāḥ al-Sā'il</i> : Abū Ayyūb a dit : Lorsqu'ils se levaient pour la prière, la couleur du visage d'Abū Ja'far et d'Abū 'Abdillāh [l'Imām al-Bāqir et l'Imām al-Ṣādiq] (as) changeait, parfois rougissant, parfois pâlissant, comme s'ils s'entretenaient de façon intime avec quelqu'un qu'ils voyaient.<sup>4083</sup>"
+                    }
+                ],
+                "introduction": "«Bienheureux, en vérité, sont les croyants, ceux qui sont humbles dans leur prière.»<sup>4072</sup>"
             },
             {
-                "title": "1130 - Les conditions et les obstacles à l'acceptation de la prière"
+                "title": "1130 - Les conditions et les obstacles à l'acceptation de la prière",
+                "hadiths": [
+                    {
+                        "number": "3616",
+                        "text": "Le Messager d'Allah (s) a dit : Que vous priez jusqu'à devenir [aussi minces] que des cordes ou que vous jeûniez jusqu'à [être courbés] comme des arcs, Allah n'acceptera rien de vous à moins que cela ne soit accompagné de piété.<sup>4084</sup>"
+                    },
+                    {
+                        "number": "3617",
+                        "text": "Le Messager d'Allah (s) a dit : Allah m'a révélé : Ô frère des envoyés, ô frère des avertisseurs ! Avertis ton peuple de ne pénétrer dans aucune de Mes demeures en ayant commis une injustice [non réparée] envers l'un de Mes serviteurs car en vérité, Je le maudirai tant qu'il se tiendra en prière devant Moi, et ce jusqu'à ce qu'il répare son injustice.<sup>4085</sup>"
+                    },
+                    {
+                        "number": "3618",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui a calomnié un musulman ou une musulmane, Allah le Très-Haut n'agrée pas ses prières ni son jeûne pendant quarante jours et nuits, sauf si la victime lui a pardonné.<sup>4086</sup>"
+                    },
+                    {
+                        "number": "3619",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la prière de celui qui a bu de l'alcool ne sera pas acceptée pendant quarante jours.<sup>4087</sup>"
+                    },
+                    {
+                        "number": "3620",
+                        "text": "L'Imām 'Alī (as) a dit : Considère avec attention [les vêtements] avec lesquels tu pries ; si tu ne les as pas obtenus de manière licite, ta prière ne sera pas acceptée.<sup>4088</sup>"
+                    },
+                    {
+                        "number": "3621",
+                        "text": "Interrogé au sujet de la condition de l'acceptation de la prière, l'Imām Zayn al-'Ābidīn (as) répondit : Nous vouer allégeance et amitié, et désavouer nos ennemis.<sup>4089</sup>"
+                    },
+                    {
+                        "number": "3622",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah ne châtiera pas celui dont Il a accepté une seule prière et Il ne châtiera pas celui dont Il a agréé une bonne action.<sup>4090</sup>"
+                    },
+                    {
+                        "number": "3623",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah n'accepte pas la prière de celui qui jette un regard haineux à ses parents, même si ces derniers sont injustes à son égard.<sup>4091</sup>"
+                    }
+                ]
             },
             {
-                "title": "1131 - Celui dont la prière est acceptée"
+                "title": "1131 - Celui dont la prière est acceptée",
+                "hadiths": [
+                    {
+                        "number": "3624",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah le Béni et le Très-Haut a dit : En vérité, J'accepte la prière de celui qui s'humilie devant Ma majesté, qui se retient face à ses désirs charnels pour Moi, qui passe sa journée à pratiquer Mon rappel, qui n'est pas hautain vis-à-vis de Mes créatures, qui nourrit l'affamé, qui habille le dénudé, qui fait preuve de compassion vis-à-vis de l'affligé, et qui abrite l'étranger. La lumière d'une telle personne brillera comme le soleil, et Je lui accorderai une lumière dans les ténèbres et un savoir dans l'ignorance. Je le préserverai par Mon honneur et Je le protégerai par Mes Anges. Lorsqu'il M'implore Je l'exaucerai, et lorsqu'il Me demande Je lui donnerai. Cette personne est comme les jardins du Paradis dont les fruits ne se dessèchent jamais ni leur état ne change.<sup>4092</sup>"
+                    }
+                ]
             },
             {
-                "title": "1132 - Le rôle de la présence du cœur dans l'acceptation de la prière"
+                "title": "1132 - Le rôle de la présence du cœur dans l'acceptation de la prière",
+                "hadiths": [
+                    {
+                        "number": "3625",
+                        "text": "Le Messager d'Allah (s) a dit : Allah n'accepte pas la prière du serviteur dont le cœur n'est pas présent avec le corps.<sup>4093</sup>"
+                    },
+                    {
+                        "number": "3626",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, le serviteur peut faire une prière dont seul un sixième ou un dixième est accepté. En effet, n'est acceptée de sa prière que la partie où sa présence d'esprit est avérée.<sup>4094</sup>"
+                    },
+                    {
+                        "number": "3627",
+                        "text": "Le Messager d'Allah (s) a dit : Une simple prière de deux <i>raka'āt</i> accompagnée de méditation est meilleure qu'une nuit entière passée en prière.<sup>4095</sup>"
+                    },
+                    {
+                        "number": "3628",
+                        "text": "L'Imām al-Bāqir et l'Imām al-Ṣādiq (as) ont dit : Tu ne bénéficieras que des parties de la prière faites avec une présence d'esprit. Ainsi, si la personne est distraite ou fait preuve de négligence lors de la prière, cette dernière sera enroulée et jetée à son visage.<sup>4096</sup>"
+                    },
+                    {
+                        "number": "3629",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui accomplit une prière de deux <i>raka'āt</i> en sachant ce qu'il y dit achèvera sa prière alors qu'il n'y aura plus entre lui et Allah aucun péché [non pardonné].<sup>4097</sup>"
+                    }
+                ]
             },
             {
-                "title": "1133 - Celui dont la prière n'est pas comptée comme étant une prière"
+                "title": "1133 - Celui dont la prière n'est pas comptée comme étant une prière",
+                "hadiths": [
+                    {
+                        "number": "3630",
+                        "text": "Le Messager d'Allah (s) a dit : La prière de celui qui ne parfait pas son inclinaison et sa prosternation n'est pas comptée comme étant une prière.<sup>4098</sup>"
+                    },
+                    {
+                        "number": "3631",
+                        "text": "Le Messager d'Allah (s) a dit : La prière de celui qui sait sciemment qui se trouve à sa droite et à sa gauche n'est pas comptée comme étant une prière.<sup>4099</sup>"
+                    },
+                    {
+                        "number": "3632",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La prière de celui qui ne s'acquitte pas de l'aumône (<i>zakāt</i>) n'est pas comptée comme étant une prière.<sup>4100</sup>"
+                    },
+                    {
+                        "number": "3633",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La prière du <i>ḥāqin</i>, du <i>ḥāqib</i> et du <i>ḥāziq</i> n'est pas comptée comme étant une prière. Le <i>ḥāqin</i> est celui qui a très envie d'uriner et se retient, le <i>ḥāqib</i> est celui qui a très envie d'aller à la selle et se retient [également avant de commencer sa prière], et le <i>ḥāziq</i> est celui qui a les pieds comprimés du fait d'avoir porté des chaussures étroites.<sup>4101</sup>"
+                    }
+                ]
             },
             {
-                "title": "1134 - L'interdiction de la paresse durant la prière"
+                "title": "1134 - L'interdiction de la paresse durant la prière",
+                "hadiths": [
+                    {
+                        "number": "3634",
+                        "text": "<i>Biḥār al-Anwār</i> : [Il est rapporté dans] le <i>ḥadīth</i> de l'Ascension (<i>mi'rāj</i>) [qu'Allah s'est adressé au Prophète (s) en disant] : Ô Aḥmad ! Je suis étonné face à trois types de serviteurs : [...] un serviteur qui entre en prière en étant conscient de Celui vers qui il lève les mains et face à Qui il se tient et qui, malgré cela, est somnolent…<sup>4103</sup>"
+                    },
+                    {
+                        "number": "3635",
+                        "text": "L'Imām 'Alī (as) a dit : Si le sommeil t'envahit alors que tu es en prière, alors cesse ta prière et dors car en vérité, [dans cet état,] tu ne sais pas si tu pries pour toi-même ou contre toi-même !<sup>4104</sup>"
+                    },
+                    {
+                        "number": "3636",
+                        "text": "L'Imām al-Bāqir (as) a dit : Ne te lève pas pour la prière avec paresse, ni en étant somnolent et apathique, car cela fait partie des troubles issus de l'hypocrisie, et en vérité, Allah a interdit aux croyants de se lever pour la prière en étant ivres, c'est-à-dire [ivres] de sommeil.<sup>4105</sup><br>(Voir également : 344. La paresse)"
+                    }
+                ],
+                "introduction": "«Les hypocrites cherchent à tromper Allah, mais Allah retourne leur tromperie [contre eux-mêmes]. Et lorsqu'ils se lèvent pour la prière, ils se lèvent avec paresse et par ostentation envers les gens. Ils n'invoquent Allah que très peu.»<sup>4102</sup>"
             },
             {
-                "title": "1135 - Respecter les horaires des prières"
+                "title": "1135 - Respecter les horaires des prières",
+                "hadiths": [
+                    {
+                        "number": "3637",
+                        "text": "Le Messager d'Allah (s) a dit : La valeur que l'homme accorde à sa religion se voit dans sa stricte observance de la prière [à ses horaires spécifiques].<sup>4108</sup>"
+                    },
+                    {
+                        "number": "3638",
+                        "text": "L'Imām 'Alī (as) a dit dans sa lettre à Muḥammad ibn Abī Bakr : Surveille l'heure de la prière et accomplis-la à son heure ; ne te hâte pas de la faire avant l'heure pour t'en libérer, et ne la retarde pas du fait d'une [autre] occupation.<sup>4109</sup>"
+                    }
+                ],
+                "introduction": "«Malheur donc, à ceux qui prient tout en négligeant leur prière.»<sup>4106</sup><br><br>«Et qui observent strictement leur prière. Ce sont eux les héritiers, qui hériteront le Paradis pour y demeurer éternellement.»<sup>4107</sup>"
             },
             {
-                "title": "1136 - L'incitation à prier dès l'heure de la prière"
+                "title": "1136 - L'incitation à prier dès l'heure de la prière",
+                "hadiths": [
+                    {
+                        "number": "3639",
+                        "text": "L'Imām al-Bāqir (as) a dit : Sache que la prière effectuée dès l'heure de la prière est meilleure. Dès lors, hâte-toi de la faire [à ce moment-là] dès que tu le peux. L'acte d'adoration le plus aimé par Allah le Tout-Puissant est celui auquel s'adonne le serviteur avec assiduité, même si son nombre est peu important.<sup>4110</sup>"
+                    },
+                    {
+                        "number": "3640",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La vertu de la prière effectuée dès l'heure de la prière par rapport à celle effectuée au dernier moment est semblable à la vertu de la vie de l'Au-delà par rapport à celle d'ici-bas.<sup>4111</sup>"
+                    },
+                    {
+                        "number": "3641",
+                        "text": "<i>Biḥār al-Anwār</i> : Al-Qazzāz rapporte : L'Imām al-Riḍā (as) était sorti accueillir un groupe de personnes venu lui rendre visite lorsque vint l'heure de la prière. Il se dirigea alors vers un fort situé à proximité, s'arrêta sous un rocher et dit : «Récite l'appel à la prière.» Je lui demandai : «Pourquoi n'attendons-nous pas que nos compagnons nous rejoignent ?» Il répondit : «Qu'Allah te pardonne, ne reporte jamais la prière effectuée à son heure même au dernier moment sans [bonne] raison, tu dois toujours l'accomplir dès que son heure vient.» Ainsi, je récitai l'appel à la prière et nous priâmes.<sup>4112</sup>"
+                    }
+                ]
             },
             {
-                "title": "1137 - Celui qui abandonne la prière et la mécréance"
+                "title": "1137 - Celui qui abandonne la prière et la mécréance",
+                "hadiths": [
+                    {
+                        "number": "3642",
+                        "text": "Le Messager d'Allah (s) a dit : Il suffit au musulman d'abandonner délibérément sa prière obligatoire ou de ne pas la faire par négligence pour devenir mécréant (<i>kāfir</i>).<sup>4114</sup>"
+                    },
+                    {
+                        "number": "3643",
+                        "text": "Interrogé sur le fait de qualifier de mécréant celui qui abandonne la prière alors que le fornicateur n'est pas désigné ainsi, l'Imām al-Ṣādiq (as) répondit : C'est parce que le fornicateur et ce qui lui ressemble commet le péché du fait d'un désir qui s'empare de lui, alors que celui qui abandonne la prière le fait car il la prend à la légère et la considère insignifiante.<sup>4115</sup>"
+                    }
+                ],
+                "introduction": "«Dans des Jardins, ils s'interrogeront les uns les autres sur les criminels : «Qu'est-ce qui vous a conduit à Saqar [l'Enfer] ?» Ils diront : «Nous n'étions pas de ceux qui accomplissaient la prière».»<sup>4113</sup>"
             },
             {
-                "title": "1138 - Mise en garde contre le fait de prendre la prière à la légère"
+                "title": "1138 - Mise en garde contre le fait de prendre la prière à la légère",
+                "hadiths": [
+                    {
+                        "number": "3644",
+                        "text": "L'Imām al-Bāqir (as) a dit : Ne néglige pas ta prière, car le Prophète (s) a dit à sa mort : Celui qui prend sa prière à la légère ne fait pas partie de moi.<sup>4116</sup>"
+                    },
+                    {
+                        "number": "3645",
+                        "text": "<i>Mustadrak al-Wasā'il</i> : Abū Baṣīr rapporte : Je suis rentré chez Ḥumayda pour lui présenter mes condoléances à la mort de Abū 'Abdillāh [l'Imām al-Ṣādiq] (as). Elle se mit alors à pleurer et dit : «Ô Abū Muḥammad, si tu l'avais vu lorsque la mort vint à lui ! Il a placé sa main sur l'un de ses yeux et a dit : «Invite ma famille et mes amis à venir auprès de moi.» Lorsqu'ils furent tous rassemblés autour de lui, il a dit : «En vérité, notre intercession n'atteindra pas celui qui prend sa prière à la légère».»<sup>4117</sup>"
+                    }
+                ]
             },
             {
-                "title": "1139 - La prière en groupe"
+                "title": "1139 - La prière en groupe",
+                "hadiths": [
+                    {
+                        "number": "3646",
+                        "text": "Luqmān (as) a dit en exhortant son fils : Prie avec le groupe, même si tu dois te tenir sur le bout d'une lance pour cela [c'est-à-dire même dans des conditions très difficiles].<sup>4118</sup>"
+                    },
+                    {
+                        "number": "3647",
+                        "text": "Le Messager d'Allah (s) a dit au sujet des personnes qui tardaient à venir à la mosquée pour prier [en groupe] : Les gens qui négligent la prière à la mosquée méritent presque que du bois soit ramassé, placé devant leurs portes et enflammé afin que leurs maisons brûlent sur eux.<sup>4119</sup>"
+                    },
+                    {
+                        "number": "3648",
+                        "text": "Le Messager d'Allah (s) a dit : Ayez une bonne opinion de celui qui accomplit les cinq prières en groupe.<sup>4120</sup>"
+                    }
+                ]
             },
             {
-                "title": "1140 - Les devoirs que celui qui dirige la prière (imām) doit observer"
+                "title": "1140 - Les devoirs que celui qui dirige la prière (imām) doit observer",
+                "hadiths": [
+                    {
+                        "number": "3649",
+                        "text": "L'Imām 'Alī (as) a dit dans son conseil à Muḥammad ibn Abī Bakr lorsqu'il le nomma gouverneur d'Égypte : Fais bien attention à comment est ta prière car en vérité, en tant que guide de ta communauté, [tu te dois de] la parfaire et de ne pas la négliger. En effet, toute personne qui dirige la prière (<i>imām</i>) pour une communauté est responsable de tout défaut dans sa prière. Dès lors, accomplis-la parfaitement et observe-la scrupuleusement, et tu auras ainsi une rétribution équivalente à la leur sans que leur rétribution ne soit en rien diminuée.<sup>4121</sup>"
+                    },
+                    {
+                        "number": "3650",
+                        "text": "L'Imām 'Alī (as) a écrit dans l'une de ses lettres aux gouverneurs des cités : Dirigez leurs prières en priant comme [et en tenant compte] du plus faible d'entre eux, et ne les tourmentez pas [en faisant une prière trop longue].<sup>4122</sup>"
+                    },
+                    {
+                        "number": "3651",
+                        "text": "Interrogé au sujet de la personne la plus apte à diriger la prière en groupe, l'Imām al-Ṣādiq (as) a dit : En vérité, le Messager d'Allah (s) a dit : Celui qui récite et lit le mieux le Coran doit diriger [la prière de] la communauté, et si plusieurs le récitent de façon égale, alors celui qui a émigré le plus tôt [de La Mecque à Médine], et s'ils ont émigré au même moment, dans ce cas, le plus âgé parmi eux. Et s'ils ont le même âge, dans ce cas, celui qui connaît le mieux la tradition prophétique et le plus savant en religion [dirigera la prière]. Ne dirigez pas la prière d'un homme dans sa propre maison ; de même, [n'aspirez pas à diriger] un détenteur de pouvoir dans le domaine où il exerce son autorité.<sup>4123</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19339,13 +21788,72 @@ const AUNE_SAGESSE = [
         "title": "238 - LA PRIÈRE (2)",
         "subparts": [
             {
-                "title": "1141 - La vertu de la prière de la nuit"
+                "title": "1141 - La vertu de la prière de la nuit",
+                "hadiths": [
+                    {
+                        "number": "3652",
+                        "text": "Le Messager d'Allah (s) a dit : Gabriel (as) n'a cessé de me recommander de prier la nuit, à tel point que j'ai cru que les bons de ma communauté ne dormiraient que très peu la nuit.<sup>4126</sup>"
+                    },
+                    {
+                        "number": "3653",
+                        "text": "Le Messager d'Allah (s) a dit : Allah est miséricordieux envers un homme qui se lève une partie de la nuit pour prier, puis qui réveille sa femme pour qu'elle prie aussi et qui, si elle refuse de se lever, asperge un peu d'eau sur son visage. Allah est miséricordieux envers une femme qui se lève une partie de la nuit pour prier, puis qui réveille son mari et qui, s'il refuse de se lever, asperge un peu d'eau sur son visage.<sup>4127</sup>"
+                    },
+                    {
+                        "number": "3654",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, lorsqu'un serviteur s'isole au milieu de la nuit obscure avec son Maître pour s'entretenir intimement avec Lui, Allah établit fermement la lumière dans son cœur. Puis Il - glorifiée soit Sa splendeur - dira à Ses Anges : «Ô Mes anges, regardez Mon serviteur, comme il cherche la solitude pour être en Ma compagnie au milieu de la nuit obscure, alors que les adeptes du faux sont occupés à se distraire et que les négligents sont endormis ; soyez témoins que Je lui ai pardonné.»<sup>4128</sup>"
+                    },
+                    {
+                        "number": "3655",
+                        "text": "Le Messager d'Allah (s) a dit : Soyez attentif à vous tenir en prière la nuit car en vérité, c'était la coutume des gens de bien avant vous ; et en vérité, se tenir en prière la nuit permet de se rapprocher de Dieu et fait obstacle au péché.<sup>4129</sup>"
+                    },
+                    {
+                        "number": "3656",
+                        "text": "L'Imām 'Alī (as) a dit : Se tenir en prière la nuit suscite la santé du corps, la satisfaction du Seigneur le Tout-Puissant, l'exposition à la miséricorde [divine], et l'adhésion aux vertus morales des prophètes.<sup>4130</sup>"
+                    },
+                    {
+                        "number": "3657",
+                        "text": "<i>Biḥār al-Anwār</i> : L'Imām 'Alī (as) a dit : Je n'ai jamais abandonné la prière de la nuit depuis que j'ai entendu le Prophète (s) dire : «La prière de la nuit est une lumière.» Ibn al-Kawwā' demanda : «Même la nuit de <i>al-Harīr</i><sup>4131</sup> ?» Il répondit : «Même la nuit de <i>al-Harīr</i>.»<sup>4132</sup>"
+                    },
+                    {
+                        "number": "3658",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La dignité du croyant réside dans sa prière de la nuit, et son honneur réside dans le fait qu'il s'abstienne de calomnier les gens.<sup>4133</sup>"
+                    },
+                    {
+                        "number": "3659",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne délaisse pas le fait de rester en prière la nuit car en vérité, le lésé est celui qui a perdu [en abandonnant] la prière de la nuit.<sup>4134</sup>"
+                    },
+                    {
+                        "number": "3660",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Toute œuvre pieuse accomplie par le serviteur a une rétribution mentionnée dans le Coran, sauf la prière de la nuit. En vérité, Allah n'a pas exprimé sa rétribution du fait de sa grande importance auprès de Lui. Ainsi, Il a dit : «<i>Ils s'arrachent de leurs lits pour invoquer leur Seigneur, avec crainte et espoir, et ils font largesse de ce que Nous leur attribuons. Nul ne sait ce qu'on a réservé pour eux comme réjouissances pour les yeux, en récompense de ce qu'ils œuvraient !</i>»<sup>4135</sup>.<sup>4136</sup>"
+                    },
+                    {
+                        "number": "3661",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La prière de la nuit illumine le visage, la prière donne une bonne odeur, et la prière de la nuit attire la subsistance.<sup>4137</sup>"
+                    }
+                ],
+                "introduction": "«Et de la nuit consacre une partie à des prières surérogatoires, afin que ton Seigneur te ressuscite en une position de gloire.»<sup>4124</sup><br><br>«La prière de la nuit est plus efficace et plus propice à la récitation.»<sup>4125</sup>"
             },
             {
-                "title": "1142 - Ce qui prive [de l'opportunité de faire] la prière de la nuit"
+                "title": "1142 - Ce qui prive [de l'opportunité de faire] la prière de la nuit",
+                "hadiths": [
+                    {
+                        "number": "3662",
+                        "text": "Lorsqu'un homme lui dit : «Je suis privé de [l'opportunité de faire] la prière de la nuit», l'Imām 'Alī (as) répondit : «Tu es un homme dont les péchés t'ont enchaîné.»<sup>4138</sup>"
+                    },
+                    {
+                        "number": "3663",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, un homme dit un mensonge et est privé pour cela de la prière de la nuit.<sup>4139</sup>"
+                    }
+                ]
             },
             {
-                "title": "1143 - La rétribution de celui qui a l'intention d'accomplir la prière de la nuit mais qui reste endormi"
+                "title": "1143 - La rétribution de celui qui a l'intention d'accomplir la prière de la nuit mais qui reste endormi",
+                "hadiths": [
+                    {
+                        "number": "3664",
+                        "text": "Le Messager d'Allah (s) a dit : Le sommeil de tout serviteur qui s'est décidé à se lever à une heure de la nuit [pour prier] mais est resté endormi est considéré comme une aumône volontaire (<i>ṣadaqa</i>) qu'Allah accepte de sa part, et il lui sera accordé la rétribution de ce qu'il avait l'intention de faire.<sup>4140</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19353,10 +21861,35 @@ const AUNE_SAGESSE = [
         "title": "239 - LA PRIÈRE (3)",
         "subparts": [
             {
-                "title": "1144 - L'importance de la prière du vendredi"
+                "title": "1144 - L'importance de la prière du vendredi",
+                "hadiths": [
+                    {
+                        "number": "3665",
+                        "text": "Le Messager d'Allah (s) a dit : Allah scelle le cœur de celui qui délaisse par négligence la prière de trois vendredis successifs.<sup>4142</sup>"
+                    },
+                    {
+                        "number": "3666",
+                        "text": "Le Messager d'Allah (s) a dit : La prière du vendredi est le pèlerinage (<i>ḥajj</i>) des pauvres.<sup>4143</sup>"
+                    },
+                    {
+                        "number": "3667",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui se rend à la prière du vendredi par foi et par considération aura recommencé ses actes<sup>4144</sup>.<sup>4145</sup>"
+                    },
+                    {
+                        "number": "3668",
+                        "text": "L'Imām al-Bāqir (as) a dit : La prière du vendredi est une obligation, et se réunir pour elle est une obligation en présence de l'Imām. Si un homme abandonne la prière du vendredi sans raison trois fois de suite, il aura abandonné trois obligations, et ne délaisse trois obligations sans raison que l'hypocrite.<sup>4146</sup><br>(Voir également : 70. Le vendredi, section 351)"
+                    }
+                ],
+                "introduction": "«Ô vous qui avez cru ! Lorsqu'on appelle à la prière du vendredi, accourez à l'invocation d'Allah et laissez tout négoce. Cela est mieux pour vous, si vous saviez !»<sup>4141</sup><br><br><span class=\"reference-note\">(Voir également : Coran 63:9)</span>"
             },
             {
-                "title": "1145 - La bonne conduite lors de l'écoute du sermon"
+                "title": "1145 - La bonne conduite lors de l'écoute du sermon",
+                "hadiths": [
+                    {
+                        "number": "3669",
+                        "text": "L'Imām 'Alī (as) a dit : Il ne faut pas parler lorsque celui qui dirige la prière (<i>imām</i>) prononce son sermon, et il ne faut regarder autour de soi que dans la mesure autorisée dans la prière.<sup>4147</sup><br>(Voir également : 127. Le sermon)"
+                    }
+                ]
             }
         ]
     },
@@ -19364,10 +21897,43 @@ const AUNE_SAGESSE = [
         "title": "240 - LA PRIÈRE (4)",
         "subparts": [
             {
-                "title": "1146 - La vertu de la prière sur le Prophète (s) et sur sa famille (as)"
+                "title": "1146 - La vertu de la prière sur le Prophète (s) et sur sa famille (as)",
+                "hadiths": [
+                    {
+                        "number": "3670",
+                        "text": "Le Messager d'Allah (s) a dit : Où que vous soyez, priez sur moi car en vérité, votre prière me parvient.<sup>4150</sup>"
+                    },
+                    {
+                        "number": "3671",
+                        "text": "Le Messager d'Allah (s) a dit : La prière sur moi est une lumière sur le <i>ṣirāṭ</i>.<sup>4151</sup>"
+                    },
+                    {
+                        "number": "3672",
+                        "text": "Le Messager d'Allah (s) a dit : Les Anges ne cesseront pas d'invoquer le pardon pour celui qui a prié sur moi dans un écrit, et cela tant que mon nom demeure dans cet écrit.<sup>4152</sup>"
+                    },
+                    {
+                        "number": "3673",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la plus avare des personnes est celle qui entend que mon nom est mentionné et qui ne prie pas sur moi.<sup>4153</sup>"
+                    },
+                    {
+                        "number": "3674",
+                        "text": "L'Imām 'Alī (as) a dit : Toute invocation demeure voilée [et non exaucée] jusqu'à ce que la personne prie sur le Prophète (s).<sup>4154</sup>"
+                    },
+                    {
+                        "number": "3675",
+                        "text": "L'Imām al-Bāqir ou l'Imām al-Ṣādiq (as) a dit : Le Jour du Jugement, l'acte le plus lourd déposé dans la balance sera la prière sur Muḥammad (s) et sur sa Famille (as).<sup>4155</sup>"
+                    }
+                ],
+                "introduction": "«Certes, Allah et Ses Anges prient sur le Prophète. Ô vous qui croyez, priez sur lui et adressez [lui] vos salutations.»<sup>4149</sup>"
             },
             {
-                "title": "1147 - La manière de prier sur le Prophète (s) et sur sa famille (as)"
+                "title": "1147 - La manière de prier sur le Prophète (s) et sur sa famille (as)",
+                "hadiths": [
+                    {
+                        "number": "3676",
+                        "text": "Lorsqu'il fut interrogé sur la manière de prier sur lui, le Messager d'Allah (s) répondit : Dites : «Ô Allah, prie sur Muḥammad et la famille de Muḥammad comme Tu as prié sur Ibrāhīm et la famille d'Ibrāhīm, en vérité, Tu es Louable et Glorieux ; et bénis Muḥammad et la famille de Muḥammad comme Tu as béni Ibrāhīm et la famille d'Ibrāhīm, en vérité, Tu es Louable et Glorieux.»<sup>4156</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19375,13 +21941,63 @@ const AUNE_SAGESSE = [
         "title": "241 - LE SILENCE",
         "subparts": [
             {
-                "title": "1148 - La vertu du silence"
+                "title": "1148 - La vertu du silence",
+                "hadiths": [
+                    {
+                        "number": "3677",
+                        "text": "Le Messager d'Allah (s) a dit à Abū Dhar en l'exhortant : Quatre choses ne peuvent être accomplies que par un croyant : le silence, et il est le premier niveau d'adoration [...].<sup>4157</sup>"
+                    },
+                    {
+                        "number": "3678",
+                        "text": "L'Imām 'Alī (as) a dit : Le silence est un signe de noblesse et le fruit de la raison.<sup>4158</sup>"
+                    },
+                    {
+                        "number": "3679",
+                        "text": "L'Imām 'Alī (as) a dit en décrivant le croyant : Son silence est long et son temps est occupé.<sup>4159</sup>"
+                    }
+                ]
             },
             {
-                "title": "1149 - Les fruits du silence"
+                "title": "1149 - Les fruits du silence",
+                "hadiths": [
+                    {
+                        "number": "3680",
+                        "text": "Le Messager d'Allah (s) a dit : Reste silencieux de longs moments car en vérité, cela chasse Satan et t'aide dans les affaires liées à ta religion.<sup>4160</sup>"
+                    },
+                    {
+                        "number": "3681",
+                        "text": "L'Imām 'Alī (as) a dit : Adhère au silence, car le moindre de ses avantages est la santé.<sup>4161</sup>"
+                    },
+                    {
+                        "number": "3682",
+                        "text": "L'Imām 'Alī (as) a dit : Le silence est le jardin de la pensée.<sup>4162</sup>"
+                    },
+                    {
+                        "number": "3683",
+                        "text": "L'Imām Ḥasan (as) a dit : La révérence de la personne silencieuse s'accroît effectivement.<sup>4163</sup>"
+                    },
+                    {
+                        "number": "3684",
+                        "text": "L'Imām Ḥasan (as) a dit : Quel bon appui est le silence en diverses situations, quand bien même tu es éloquent.<sup>4164</sup>"
+                    },
+                    {
+                        "number": "3685",
+                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, le silence est l'une des portes de la sagesse ; en vérité, le silence suscite l'amour ; en vérité, il est le guide vers tout bien.<sup>4165</sup>"
+                    }
+                ]
             },
             {
-                "title": "1150 - Le silence blâmé"
+                "title": "1150 - Le silence blâmé",
+                "hadiths": [
+                    {
+                        "number": "3686",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a aucun bien à garder le silence lorsqu'il s'agit de [dire une] parole sage, tout comme il n'y a aucun bien dans le fait de parler de ce que l'on ignore.<sup>4166</sup>"
+                    },
+                    {
+                        "number": "3687",
+                        "text": "L'Imām 'Alī (as) a dit au sujet des caractéristiques du pieux : En vérité, son silence ne le rend pas malheureux et s'il rit, il ne le fait pas bruyamment.<sup>4167</sup><br>(Voir également : 348. La parole)"
+                    }
+                ]
             }
         ]
     },
@@ -19389,22 +22005,103 @@ const AUNE_SAGESSE = [
         "title": "242 - LE MALHEUR",
         "subparts": [
             {
-                "title": "1151 - La rétribution [pour avoir supporté] des malheurs"
+                "title": "1151 - La rétribution [pour avoir supporté] des malheurs",
+                "hadiths": [
+                    {
+                        "number": "3688",
+                        "text": "L'Imām Ḥasan (as) a dit : Les malheurs sont les clés de la rétribution.<sup>4168</sup>"
+                    }
+                ]
             },
             {
-                "title": "1152 - Le pire des malheurs"
+                "title": "1152 - Le pire des malheurs",
+                "hadiths": [
+                    {
+                        "number": "3689",
+                        "text": "Lorsqu'il fut interrogé au sujet du pire des malheurs, l'Imām 'Alī (as) répondit : C'est le malheur qui touche la foi.<sup>4169</sup>"
+                    },
+                    {
+                        "number": "3690",
+                        "text": "L'Imām 'Alī (as) a dit : Le pire des malheurs et des misères est la passion pour le monde d'ici-bas.<sup>4170</sup>"
+                    },
+                    {
+                        "number": "3691",
+                        "text": "L'Imām 'Alī (as) a dit : Le pire des malheurs est l'ignorance.<sup>4171</sup>"
+                    },
+                    {
+                        "number": "3692",
+                        "text": "L'Imām al-Ṣādiq (as) a dit à un homme affecté par un intense chagrin à la mort de son enfant : Tu es chagriné par le petit malheur et tu es insouciant vis-à-vis du grand malheur ! Si tu t'étais préparé au lieu où est allé ton fils, tu ne serais pas aussi chagriné. En effet, le malheur d'avoir négligé de te préparer à cela [l'Au-delà] est plus grand que le malheur [de la perte] de ton enfant.<sup>4172</sup>"
+                    }
+                ]
             },
             {
-                "title": "1153 - Dire «Certes nous sommes à Allah et c'est à Lui que nous retournerons» lorsque l'on est affecté par un malheur"
+                "title": "1153 - Dire «Certes nous sommes à Allah et c'est à Lui que nous retournerons» lorsque l'on est affecté par un malheur",
+                "hadiths": [
+                    {
+                        "number": "3693",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui est inspiré de dire «<i>Certes nous sommes à Allah et c'est à Lui que nous retournerons</i>» lors d'un malheur ira nécessairement au Paradis.<sup>4174</sup>"
+                    }
+                ],
+                "introduction": "«Certes, Nous vous éprouverons par un peu de peur, de faim et de diminution de biens, de personnes et de fruits. Et fais la bonne annonce aux endurants, qui disent, lorsqu'un malheur les touche : «Certes nous sommes à Allah et c'est à Lui que nous retournerons !».»<sup>4173</sup>"
             },
             {
-                "title": "1154 - La bonne conduite lors d'un malheur"
+                "title": "1154 - La bonne conduite lors d'un malheur",
+                "hadiths": [
+                    {
+                        "number": "3694",
+                        "text": "Le Messager d'Allah (s) a dit : Les jérémiades et les lamentations sont les actes de l'époque préislamique de l'ignorance (<i>al-jāhiliyya</i>).<sup>4175</sup>"
+                    },
+                    {
+                        "number": "3695",
+                        "text": "Le Messager d'Allah (s) a dit : Parmi les trésors du bien figure le fait de cacher ses malheurs, ses maladies, et ses aumônes volontaires (<i>ṣadaqa</i>).<sup>4176</sup>"
+                    },
+                    {
+                        "number": "3696",
+                        "text": "<i>Al-Amālī li al-Ṭūsī</i> : 'Ā'isha a dit : Lorsqu'Ibrāhīm [le fils du Prophète] mourut, le Prophète (s) pleura de telle façon que ses larmes coulèrent sur sa barbe. On lui dit : «Ô Messager d'Allah, tu as interdit les pleurs et voilà que tu pleures ?!» Il répondit : «Ce ne sont pas des pleurs, mais de la compassion, car celui qui n'a pas de compassion [envers les autres] ne sera pas traité avec compassion [par Allah].»<sup>4177</sup>"
+                    },
+                    {
+                        "number": "3697",
+                        "text": "<i>Sunan al-Nasā'ī</i> : Abū Hurayra : Une personne de la famille du Messager d'Allah (s) était décédée et les femmes s'étaient rassemblées pour la pleurer lorsque 'Umar se leva, les en empêcha et les chassa. Le Messager d'Allah (s) dit alors : «Laisse-les, ô 'Umar, car en vérité, les yeux sont larmoyants [à un tel moment], le cœur est attristé, et la douleur est récente.»<sup>4178</sup>"
+                    },
+                    {
+                        "number": "3698",
+                        "text": "L'Imām 'Alī (as) rapporte du Messager d'Allah (s) : Deux cris sont maudits et haïs par Allah : le cri des lamentations lorsque l'on est touché par un malheur, et le cri de joie lorsque l'on bénéficie d'une grâce ; c'est-à-dire les jérémiades et les chants.<sup>4179</sup><br>(Voir également : 64. L'anxiété)"
+                    }
+                ]
             },
             {
-                "title": "1155 - Ce qui atténue les malheurs"
+                "title": "1155 - Ce qui atténue les malheurs",
+                "hadiths": [
+                    {
+                        "number": "3699",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui renonce à ce monde vit les malheurs avec facilité.<sup>4180</sup>"
+                    },
+                    {
+                        "number": "3700",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui trouve que son malheur est trop grand repense au malheur issu de ma perte, ainsi, cela lui rendra son malheur plus facile à supporter.<sup>4181</sup>"
+                    },
+                    {
+                        "number": "3701",
+                        "text": "L'Imām 'Alī (as) a dit : Multipliez le rappel de la mort, le jour où vous sortirez de votre tombe et vous vous tiendrez entre les mains d'Allah le Tout-Puissant ; de la sorte, vos malheurs vous seront plus faciles à supporter.<sup>4182</sup>"
+                    },
+                    {
+                        "number": "3702",
+                        "text": "L'Imām al-Ṣādiq (as) avait coutume de dire lorsqu'il était touché par un malheur : Louange à Allah qui a fait en sorte que mon malheur ne soit pas dans ma foi ; louange à Allah qui, s'Il le voulait, aurait fait que mon malheur soit encore plus grand ; louange à Allah pour l'ordre qu'Il a voulu et qui est advenu.<sup>4183</sup>"
+                    },
+                    {
+                        "number": "3703",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, lorsqu'une personne meurt, Allah envoie un ange au plus attristé de la famille du défunt. Il passe la main sur son cœur et lui fait oublier la souffrance du chagrin. Sans cela, la terre ne prospérerait plus.<sup>4184</sup>"
+                    }
+                ]
             },
             {
-                "title": "1156 - Le blâme du fait de se réjouir du malheur du croyant"
+                "title": "1156 - Le blâme du fait de se réjouir du malheur du croyant",
+                "hadiths": [
+                    {
+                        "number": "3704",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui se réjouit du malheur qui touche son frère ne quittera pas ce monde sans être lui-même éprouvé.<sup>4185</sup><br>(Voir également : 276. La consolation)"
+                    }
+                ]
             }
         ]
     },
@@ -19412,7 +22109,26 @@ const AUNE_SAGESSE = [
         "title": "243 - LA VOIX",
         "subparts": [
             {
-                "title": "1157 - L'éloge du fait de baisser la voix et le blâme de son haussement"
+                "title": "1157 - L'éloge du fait de baisser la voix et le blâme de son haussement",
+                "hadiths": [
+                    {
+                        "number": "3705",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah aime la voix basse et Il abhorre la voix haute.<sup>4187</sup>"
+                    },
+                    {
+                        "number": "3706",
+                        "text": "Le Messager d'Allah (s) a dit dans son conseil à Abū Dhar : Ô Abū Dhar, baisse ta voix lors de funérailles, lors du combat, et lorsque le Coran est récité.<sup>4188</sup>"
+                    },
+                    {
+                        "number": "3707",
+                        "text": "L'Imām 'Alī (as) a dit : Trois choses sont considérées comme étant de la vaillance : baisser le regard, baisser la voix, et marcher de façon équilibrée et avec mesure.<sup>4189</sup>"
+                    },
+                    {
+                        "number": "3708",
+                        "text": "L'Imām 'Alī (as) a dit : Baisser la voix, baisser le regard, et marcher de façon équilibrée et avec mesure font partie des signes de la foi et de la bonne dévotion.<sup>4190</sup>"
+                    }
+                ],
+                "introduction": "«Sois modeste dans ta démarche, et baisse ta voix, car la plus détestée des voix est bien la voix des ânes.»<sup>4186</sup>"
             }
         ]
     },
@@ -19420,13 +22136,121 @@ const AUNE_SAGESSE = [
         "title": "244 - LE JEÛNE",
         "subparts": [
             {
-                "title": "1158 - La vertu du jeûne"
+                "title": "1158 - La vertu du jeûne",
+                "hadiths": [
+                    {
+                        "number": "3709",
+                        "text": "Le Messager d'Allah (s) a dit : Il vous incombe de jeûner car en vérité, cela coupe les racines [des désirs] et fait partir la griserie.<sup>4192</sup>"
+                    },
+                    {
+                        "number": "3710",
+                        "text": "Le Messager d'Allah (s) a dit : Toute chose a une aumône (<i>zakāt</i>), et l'aumône des corps est le jeûne.<sup>4193</sup>"
+                    },
+                    {
+                        "number": "3711",
+                        "text": "Le Messager d'Allah (s) a dit : Jeûnez et vous serez en bonne santé.<sup>4194</sup>"
+                    },
+                    {
+                        "number": "3712",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui jeûne est en adoration constante de Dieu même s'il dort dans son lit, et ce tant qu'il n'a pas calomnié un musulman.<sup>4195</sup>"
+                    },
+                    {
+                        "number": "3713",
+                        "text": "Le Messager d'Allah (s) a dit : Dès qu'une personne qui jeûne arrive auprès d'un groupe de gens en train de manger, ses membres glorifient [Allah], les anges prient pour lui, et leur prière est une demande de pardon [pour lui].<sup>4196</sup>"
+                    },
+                    {
+                        "number": "3714",
+                        "text": "Le Messager d'Allah (s) a dit : Le jeûne est un bouclier face au Feu.<sup>4197</sup>"
+                    },
+                    {
+                        "number": "3715",
+                        "text": "Fāṭima al-Zahrā (as) a dit : Allah a rendu le jeûne obligatoire pour renforcer la sincérité [de la dévotion à Son égard].<sup>4198</sup>"
+                    },
+                    {
+                        "number": "3716",
+                        "text": "L'Imām al-Bāqir (as) a dit : Le jeûne et le pèlerinage obligatoire (<i>ḥajj</i>) sont un apaisement pour le cœur.<sup>4199</sup>"
+                    },
+                    {
+                        "number": "3717",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Béni et le Très-Haut a dit : Le jeûne M'est destiné et c'est Moi qui le récompense.<sup>4200</sup>"
+                    },
+                    {
+                        "number": "3718",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le sommeil de celui qui jeûne est une adoration, son silence est une glorification, ses actes sont acceptés, et son invocation est exaucée.<sup>4201</sup>"
+                    },
+                    {
+                        "number": "3719",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui jeûne a deux joies : une joie lorsqu'il rompra son jeûne, et une joie lorsqu'il rencontrera son Seigneur.<sup>4202</sup>"
+                    },
+                    {
+                        "number": "3720",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui offre quelque chose à manger à une personne qui jeûne lors de la rupture du jeûne a une rétribution équivalente à celle de cette personne.<sup>4203</sup>"
+                    },
+                    {
+                        "number": "3721",
+                        "text": "Interrogé sur la raison du caractère obligatoire du jeûne, l'Imām al-'Askarī (as) répondit : C'est pour que le riche ressente la douleur de la faim et soit en conséquence généreux vis-à-vis du pauvre.<sup>4204</sup>"
+                    }
+                ],
+                "introduction": "«Ô croyants ! On vous a prescrit le jeûne (al-ṣiyām) comme il a été prescrit à ceux qui vous ont précédés, ainsi atteindrez-vous la piété.»<sup>4191</sup>"
             },
             {
-                "title": "1159 - L'incitation au jeûne volontaire"
+                "title": "1159 - L'incitation au jeûne volontaire",
+                "hadiths": [
+                    {
+                        "number": "3722",
+                        "text": "Le Messager d'Allah (s) a dit : Si on offre à celui qui jeûne volontairement une journée l'équivalent de la terre en or, sa récompense ne lui aura pas été totalement donnée et ne le sera qu'au Jour de la Résurrection.<sup>4205</sup>"
+                    },
+                    {
+                        "number": "3723",
+                        "text": "Le Messager d'Allah (s) a dit : Le pardon est obligatoirement accordé à celui qui jeûne volontairement une journée en aspirant à la rétribution de Dieu.<sup>4206</sup>"
+                    },
+                    {
+                        "number": "3724",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui jeûne [volontairement] trois jours de chaque mois est comme celui qui a jeûné durant toute sa vie, car en vérité, Allah le Tout-Puissant a dit : «<i>Quiconque viendra avec le bien aura dix fois autant</i>»<sup>4207</sup>.<sup>4208</sup>"
+                    },
+                    {
+                        "number": "3725",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah accorde le Paradis à l'homme qui a jeûné volontairement une journée en aspirant à ce qu'il y a auprès d'Allah le Tout-Puissant.<sup>4209</sup>"
+                    }
+                ]
             },
             {
-                "title": "1161 - La vertu de jeûne en temps de chaleur et de froid"
+                "title": "1160 - La manière de jeûner",
+                "hadiths": [
+                    {
+                        "number": "3726",
+                        "text": "Le Messager d'Allah (s) a dit : Allah le Tout-Puissant a dit : Celui dont les membres ne jeûnent pas [en s'abstenant] de Mes interdits, ce n'est pas la peine qu'il s'abstienne de nourriture et de boisson pour Moi.<sup>4210</sup>"
+                    },
+                    {
+                        "number": "3727",
+                        "text": "L'Imām 'Alī (as) a dit : Le jeûne consiste à éviter les interdits tout autant qu'à s'abstenir de nourriture et de boisson.<sup>4211</sup>"
+                    },
+                    {
+                        "number": "3728",
+                        "text": "Fāṭima al-Zahrā (as) a dit : Que fait le jeûneur de son jeûne s'il n'a pas préservé sa langue, son ouïe, sa vue et ses organes [des péchés] ?!<sup>4212</sup>"
+                    },
+                    {
+                        "number": "3729",
+                        "text": "<i>Al-Kāfī</i> : Muḥammad ibn Muslim rapporte de Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) : «Lorsque tu jeûnes, ton ouïe doit jeûner ainsi que tes cheveux, ta peau…» Il énuméra ainsi d'autres parties du corps puis dit : «Le jour où tu jeûnes ne doit pas être comme le jour où tu ne jeûnes pas.»<sup>4213</sup>"
+                    }
+                ]
+            },
+            {
+                "title": "1161 - La vertu de jeûne en temps de chaleur et de froid",
+                "hadiths": [
+                    {
+                        "number": "3730",
+                        "text": "Le Messager d'Allah (s) a dit : Le jeûne par un temps froid est une aubaine agréable.<sup>4214</sup>"
+                    },
+                    {
+                        "number": "3731",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le meilleur effort (<i>jihād</i>) est le jeûne durant la chaleur.<sup>4215</sup>"
+                    },
+                    {
+                        "number": "3732",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'hiver est le printemps du croyant : ses nuits sont longues, et il peut ainsi les utiliser pour rester en prière ; de même, ses journées sont courtes, et il peut ainsi les utiliser pour jeûner.<sup>4216</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19434,10 +22258,54 @@ const AUNE_SAGESSE = [
         "title": "245 - LE RIRE",
         "subparts": [
             {
-                "title": "1162 - L'éloge du sourire"
+                "title": "1162 - L'éloge du sourire",
+                "hadiths": [
+                    {
+                        "number": "3733",
+                        "text": "L'Imām 'Alī (as) a dit : Le rire du Prophète (s) était un sourire.<sup>4217</sup>"
+                    },
+                    {
+                        "number": "3734",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le rire du croyant est un sourire.<sup>4218</sup>"
+                    },
+                    {
+                        "number": "3735",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui sourit à son frère [a la récompense] d'une bonne action.<sup>4219</sup>"
+                    }
+                ]
             },
             {
-                "title": "1163 - Mise en garde contre le fait de rire trop et aux éclats"
+                "title": "1163 - Mise en garde contre le fait de rire trop et aux éclats",
+                "hadiths": [
+                    {
+                        "number": "3736",
+                        "text": "<i>Irshād al-Qulūb</i> : [Allah a dit] dans le <i>ḥadīth</i> de l'Ascension (<i>mi'rāj</i>) : Je suis étonné du serviteur qui rit sans savoir si Je suis satisfait de lui ou courroucé contre lui !<sup>4220</sup>"
+                    },
+                    {
+                        "number": "3737",
+                        "text": "Le Messager d'Allah (s) a dit : Prends garde au fait de trop rire car en vérité, cela fait mourir le cœur.<sup>4221</sup>"
+                    },
+                    {
+                        "number": "3738",
+                        "text": "Le Messager d'Allah (s) a dit : Si vous saviez ce que je sais, vous ririez peu et vous pleureriez beaucoup.<sup>4222</sup>"
+                    },
+                    {
+                        "number": "3739",
+                        "text": "L'Imām 'Alī (as) a dit : La révérence de celui qui rit beaucoup est diminuée.<sup>4223</sup>"
+                    },
+                    {
+                        "number": "3740",
+                        "text": "L'Imām al-Bāqir (as) a dit : Si tu as ri aux éclats, il faut dire à la suite : «Ô Allah, ne me hais pas.»<sup>4224</sup>"
+                    },
+                    {
+                        "number": "3741",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le rire aux éclats vient de Satan.<sup>4225</sup>"
+                    },
+                    {
+                        "number": "3742",
+                        "text": "L'Imām al-'Askarī (as) a dit : Rire sans raison fait partie de l'ignorance.<sup>4226</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19445,13 +22313,49 @@ const AUNE_SAGESSE = [
         "title": "246 - LE FAIBLE",
         "subparts": [
             {
-                "title": "1164 - Les faibles"
+                "title": "1164 - Les faibles",
+                "hadiths": [
+                    {
+                        "number": "3743",
+                        "text": "Le Messager d'Allah (s) a dit : Voulez-vous que je vous apprenne quel est le pire des serviteurs de Dieu ? C'est la personne brute et prétentieuse. Voulez-vous que je vous apprenne quel est le meilleur des serviteurs de Dieu ? C'est la personne faible et opprimée.<sup>4228</sup>"
+                    },
+                    {
+                        "number": "3744",
+                        "text": "Le Messager d'Allah (s) a dit : Aidez-moi à chercher les faibles, car en vérité, la subsistance et le secours vous sont donnés grâce aux faibles parmi vous.<sup>4229</sup>"
+                    },
+                    {
+                        "number": "3745",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah secourt cette communauté de par [la présence des] faibles parmi elle, leurs invocations, leurs prières, ainsi que leur sincérité.<sup>4230</sup>"
+                    }
+                ]
             },
             {
-                "title": "1165 - [Le retour au] pouvoir des faibles"
+                "title": "1165 - [Le retour au] pouvoir des faibles",
+                "hadiths": [
+                    {
+                        "number": "3746",
+                        "text": "L'Imām 'Alī (as) a dit au sujet de la parole du Très-Haut «<i>Nous voulions favoriser ceux qui avaient été faibles [ou opprimés] sur terre</i>» : Ce sont les descendants de Muḥammad. Allah enverra leur Sauveur bien-guidé (<i>Mahdī</i>) à la suite de leurs efforts. Ainsi, Il les élèvera et Il humiliera leurs ennemis.<sup>4232</sup>"
+                    }
+                ],
+                "introduction": "«Or, Nous voulions favoriser ceux qui avaient été faibles [ou opprimés] sur terre, et en faire des dirigeants et en faire des héritiers.»<sup>4231</sup>"
             },
             {
-                "title": "1166 - L'impuissance spirituelle"
+                "title": "1166 - L'impuissance spirituelle",
+                "hadiths": [
+                    {
+                        "number": "3747",
+                        "text": "L'Imām 'Alī (as) a dit : Le terme «impuissant» ne s'applique pas à celui à qui est parvenue la preuve [divine], dont les oreilles l'ont entendue, et dont le cœur l'a assimilée.<sup>4234</sup>"
+                    },
+                    {
+                        "number": "3748",
+                        "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole du Très-Haut «<i>À l'exception des impuissants…</i>» : Cela fait référence à celui qui n'est pas capable de mécréance pour être considéré comme mécréant, et qui n'a pas non plus été guidé sur le chemin de la foi pour avoir la foi. [Ce sont] les enfants ainsi que ceux parmi les hommes et femmes qui ont une intelligence équivalente à celle des enfants, et qui ne sont pas responsables de leurs actes.<sup>4235</sup>"
+                    },
+                    {
+                        "number": "3749",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Le faible [spirituellement] est celui à qui n'est pas parvenue la preuve [divine] et qui ne serait pas capable de la différencier [même si elle lui parvenait]. S'il est capable de connaître la différence [entre le bien et le mal], alors il n'est pas considéré comme faible.<sup>4236</sup>"
+                    }
+                ],
+                "introduction": "«À l'exception des impuissants : hommes, femmes et enfants, incapables de se débrouiller, et qui ne trouvent aucune voie : à ceux-là, il se peut qu'Allah accorde le pardon. Allah est Clément et Pardonneur.»<sup>4233</sup>"
             }
         ]
     },
@@ -19459,13 +22363,56 @@ const AUNE_SAGESSE = [
         "title": "247 - L'ÉGAREMENT",
         "subparts": [
             {
-                "title": "1167 - Ce qui suscite l'égarement [du droit chemin]"
+                "title": "1167 - Ce qui suscite l'égarement [du droit chemin]",
+                "hadiths": [
+                    {
+                        "number": "3750",
+                        "text": "L'Imām 'Alī (as) a dit : Tout égarement a une cause, et derrière tout acte déloyal se trouve un doute.<sup>4241</sup>"
+                    },
+                    {
+                        "number": "3751",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, les voies de la religion sont uniques et ses sentiers sont droits et directs. Celui qui les suit atteint [son but] et en tire bénéfice, tandis que celui qui s'en détourne s'égare et a des regrets.<sup>4242</sup>"
+                    },
+                    {
+                        "number": "3752",
+                        "text": "L'Imām 'Alī (as) a dit : Regardez les Gens de la demeure de votre Prophète (s) et suivez leur direction… Ne les devancez pas sinon vous vous égarerez, et ne restez pas en arrière sinon vous périrez.<sup>4243</sup>"
+                    },
+                    {
+                        "number": "3753",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui cherche la guidance auprès de la mauvaise source s'égare.<sup>4244</sup><br>(Voir également : 391. La guidance, section 1796)"
+                    }
+                ],
+                "introduction": "«Quiconque échange la foi contre la mécréance s'égare certes du droit chemin.»<sup>4237</sup><br><br>«Quiconque ne croit pas en Allah, Ses Anges, Ses Livres, Ses messagers et au Jour dernier s'écarte loin dans l'égarement.»<sup>4238</sup><br><br>«Et quiconque désobéit à Allah et à Son Messager s'est égaré d'un égarement évident.»<sup>4239</sup><br><br>«Vois-tu celui qui prend sa passion pour sa propre divinité, et qu'Allah égare malgré la science qu'il a reçue, et scelle son ouïe et son cœur et étend un voile sur sa vue ? Qui peut donc le guider après Allah ? Ne vous rappelez-vous donc pas ?»<sup>4240</sup>"
             },
             {
-                "title": "1168 - Ceux qui égarent les autres"
+                "title": "1168 - Ceux qui égarent les autres",
+                "hadiths": [
+                    {
+                        "number": "3754",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la pire des personnes auprès d'Allah est le dirigeant tyrannique qui est égaré et par qui les autres s'égarent. Il fait disparaître les traditions et pratiques établies, et il revivifie les hérésies abandonnées.<sup>4245</sup>"
+                    },
+                    {
+                        "number": "3755",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, les personnes les plus détestées par Allah sont de deux sortes : [l'une d'elles est] la personne qu'Allah a abandonnée à elle-même. Elle s'est en conséquence égarée de la voie droite, aime passionnément parler d'hérésies, et appelle à l'égarement. Elle induit en tentation ceux qui ont été séduits par elle. Elle a dévié de la guidance de ses prédécesseurs et elle égare ceux qui la suivent durant sa vie et après sa mort. Elle portera la charge des fautes d'autrui et sera l'otage de ses propres péchés.<sup>4246</sup>"
+                    },
+                    {
+                        "number": "3756",
+                        "text": "L'Imām 'Alī (as) a dit en décrivant les hypocrites : Je vous mets en garde contre les hypocrites car en vérité, ils sont eux-mêmes égarés et égarent les autres ; ils ont trébuché et font trébucher les autres.<sup>4247</sup><br>(Voir également : 391. La guidance, section 1797)"
+                    }
+                ]
             },
             {
-                "title": "1169 - Ce qui détruit les piliers de l'égarement"
+                "title": "1169 - Ce qui détruit les piliers de l'égarement",
+                "hadiths": [
+                    {
+                        "number": "3757",
+                        "text": "L'Imām 'Alī (as) a dit : Recherchez son aide [le Coran] dans vos malheurs car en vérité, il contient un remède pour les plus grands maux que sont la mécréance, l'hypocrisie, la rébellion et l'égarement.<sup>4248</sup>"
+                    },
+                    {
+                        "number": "3758",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, cet islam est la religion d'Allah qu'Il a choisie pour Lui… et Il a démoli les piliers de l'égarement avec son pilier.<sup>4249</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19473,13 +22420,47 @@ const AUNE_SAGESSE = [
         "title": "248 - LA RESPONSABILITÉ",
         "subparts": [
             {
-                "title": "1170 - L'assurance de la responsabilité comme conséquence de la dégradation ou de la perte [des biens des autres]"
+                "title": "1170 - L'assurance de la responsabilité comme conséquence de la dégradation ou de la perte [des biens des autres]",
+                "hadiths": [
+                    {
+                        "number": "3759",
+                        "text": "Le Messager d'Allah (s) a dit : La main est responsable de ce qu'elle a pris jusqu'à ce qu'elle le remette à sa place.<sup>4251</sup>"
+                    },
+                    {
+                        "number": "3760",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui soigne une personne ou un animal doit d'abord demander à son tuteur ou propriétaire [une assurance] le dédouanant [en cas d'incident], sinon, il en sera tenu pour responsable.<sup>4252</sup>"
+                    },
+                    {
+                        "number": "3761",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui endommage une chose de la voie publique des musulmans doit en répondre.<sup>4253</sup>"
+                    }
+                ]
             },
             {
-                "title": "1171 - Le blâme du fait de s'exposer à une caution et à une responsabilité [que l'on ne pourra pas assurer]"
+                "title": "1171 - Le blâme du fait de s'exposer à une caution et à une responsabilité [que l'on ne pourra pas assurer]",
+                "hadiths": [
+                    {
+                        "number": "3762",
+                        "text": "L'Imām 'Alī (as) a dit : Ne donne pas de garantie sur une chose que tu ne pourras pas assurer.<sup>4254</sup>"
+                    },
+                    {
+                        "number": "3763",
+                        "text": "L'Imām al-Bāqir ou l'Imām al-Ṣādiq (as) a dit : Ne t'impose aucun droit et sois patient face aux adversités.<sup>4255</sup>"
+                    },
+                    {
+                        "number": "3764",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La caution est une perte, une pénalité, et une source de regret.<sup>4256</sup>"
+                    }
+                ]
             },
             {
-                "title": "1172 - Aucune responsabilité n'est engagée pour la chose empruntée"
+                "title": "1172 - Aucune responsabilité n'est engagée pour la chose empruntée",
+                "hadiths": [
+                    {
+                        "number": "3765",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui emprunte une chose n'a pas à s'acquitter de pénalité si elle venait à être perdue ou détruite, si c'est une personne digne de confiance.<sup>4257</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19487,19 +22468,117 @@ const AUNE_SAGESSE = [
         "title": "249 - L'HOSPITALITÉ",
         "subparts": [
             {
-                "title": "1173 - La vertu de l'hospitalité"
+                "title": "1173 - La vertu de l'hospitalité",
+                "hadiths": [
+                    {
+                        "number": "3766",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui croit en Allah et au Jour Dernier doit honorer son invité.<sup>4258</sup>"
+                    },
+                    {
+                        "number": "3767",
+                        "text": "Le Messager d'Allah (s) a dit : L'invité arrive en apportant sa subsistance et repart avec les péchés de ses hôtes.<sup>4259</sup>"
+                    },
+                    {
+                        "number": "3768",
+                        "text": "Le Messager d'Allah (s) a dit : La subsistance arrive plus rapidement à celui qui nourrit les autres que le couteau ne pénètre la chair.<sup>4260</sup>"
+                    },
+                    {
+                        "number": "3769",
+                        "text": "Le Messager d'Allah (s) a dit : La maison qui n'est pas visitée par des invités n'est pas non plus visitée par les anges.<sup>4261</sup>"
+                    },
+                    {
+                        "number": "3770",
+                        "text": "L'Imām 'Alī (as) a dit : Celui à qui Allah a accordé de la richesse doit l'utiliser pour entretenir ses relations familiales et bien recevoir des invités.<sup>4262</sup>"
+                    },
+                    {
+                        "number": "3771",
+                        "text": "L'Imām 'Alī (as) fut vu attristé. Lorsqu'on lui en demanda la raison, [il répondit] : Cela fait sept jours que nous n'avons pas eu d'invité.<sup>4263</sup>"
+                    }
+                ]
             },
             {
-                "title": "1174 - Celui qu'il ne faut pas inviter"
+                "title": "1174 - Celui qu'il ne faut pas inviter",
+                "hadiths": [
+                    {
+                        "number": "3772",
+                        "text": "Le Messager d'Allah (s) a dit : Invite à partager ton repas celui que tu aimes dans la voie d'Allah.<sup>4264</sup>"
+                    },
+                    {
+                        "number": "3773",
+                        "text": "Le Messager d'Allah (s) a dit : Il est détestable d'accepter l'invitation de celui dont le banquet n'est fréquenté que par les riches et non par les pauvres.<sup>4265</sup>"
+                    }
+                ]
             },
             {
-                "title": "1175 - L'incitation à accepter l'invitation du croyant"
+                "title": "1175 - L'incitation à accepter l'invitation du croyant",
+                "hadiths": [
+                    {
+                        "number": "3774",
+                        "text": "Le Messager d'Allah (s) a dit : Je conseille aux personnes présentes et absentes de ma communauté d'accepter l'invitation d'un musulman même s'il est à une distance de cinq miles car en vérité, cela fait partie de la religion.<sup>4266</sup>"
+                    },
+                    {
+                        "number": "3775",
+                        "text": "Le Messager d'Allah (s) a dit : Il est impoli qu'un homme soit invité à un repas et n'accepte pas, ou accepte mais ne mange pas.<sup>4267</sup>"
+                    },
+                    {
+                        "number": "3776",
+                        "text": "Le Messager d'Allah (s) a dit à Abū Dhar en l'exhortant : Ne mange pas la nourriture des personnes corrompues.<sup>4268</sup>"
+                    }
+                ]
             },
             {
-                "title": "1176 - Faire un effort spécial pour accueillir l'invité"
+                "title": "1176 - Faire un effort spécial pour accueillir l'invité",
+                "hadiths": [
+                    {
+                        "number": "3777",
+                        "text": "Le Messager d'Allah (s) a dit : Le fait de dénigrer [le repas] qu'il présente à ses frères est considéré comme un péché [pour l'hôte], et le fait de dénigrer ce qui leur est présenté par leur frère est considéré comme un péché pour les gens [invités].<sup>4269</sup>"
+                    },
+                    {
+                        "number": "3778",
+                        "text": "Le Messager d'Allah (s) a dit : Personne ne doit faire des efforts qui sont au-delà de ses forces pour [accueillir] un invité.<sup>4270</sup>"
+                    },
+                    {
+                        "number": "3779",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si ton frère vient chez toi [sans être invité], offre-lui ce qu'il y a. En revanche, si tu l'invites, fais un effort particulier pour lui.<sup>4271</sup>"
+                    },
+                    {
+                        "number": "3780",
+                        "text": "L'Imām al-Riḍā (as) a dit : Un homme invita un jour l'Emir des croyants (as) et ce dernier lui dit : «J'accepte ton invitation à trois conditions.» L'homme lui demanda : «Quelles sont-elles, ô Emir des croyants ?» Il (as) répondit : «N'apporte rien [aucune nourriture particulière] pour moi de l'extérieur, ne garde pas spécialement pour moi une chose que tu as dans ta maison, et n'impose aucune difficulté à ta famille.» Et l'homme dit : «Il en sera ainsi pour toi, ô Emir des croyants.» Et 'Alī ibn Abī Ṭālib accepta son invitation.<sup>4272</sup>"
+                    }
+                ]
             },
             {
-                "title": "1177 - Les convenances de l'hospitalité"
+                "title": "1177 - Les convenances de l'hospitalité",
+                "hadiths": [
+                    {
+                        "number": "3781",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui veut être aimé par Allah et Son Envoyé mange avec son invité.<sup>4273</sup>"
+                    },
+                    {
+                        "number": "3782",
+                        "text": "Le Messager d'Allah (s) a dit : Si l'un de vous est invité à un repas, qu'il n'amène pas son fils avec lui car en vérité, faire cela est interdit et il entrera [dans la maison de son hôte] en état de désobéissance.<sup>4274</sup>"
+                    },
+                    {
+                        "number": "3783",
+                        "text": "Le Messager d'Allah (s) a dit : L'invité fait l'objet d'une attention particulière pendant deux nuits, puis à la troisième nuit, il est considéré comme un membre de la famille et doit manger ce qu'il obtient.<sup>4275</sup>"
+                    },
+                    {
+                        "number": "3784",
+                        "text": "Le Messager d'Allah (s) a dit : L'hospitalité [vis-à-vis d'un invité] est pour le premier jour, le second et le troisième. Après cela, tout ce que tu lui donnes est considéré comme une aumône volontaire (<i>ṣadaqa</i>) pour lui de ta part.<sup>4276</sup>"
+                    },
+                    {
+                        "number": "3785",
+                        "text": "Le Messager d'Allah (s) a dit : Donner un grand repas [à l'invité] le premier jour est un devoir, le faire le deuxième jour est un acte de courtoisie, et après deux jours, [continuer à faire cela] est de l'ostentation et une quête de renommée.<sup>4277</sup>"
+                    },
+                    {
+                        "number": "3786",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque l'un de vous entre chez son frère, qu'il s'asseye là où le maître de maison lui dit de s'asseoir. En effet, le maître de maison connaît mieux que celui qui y est entré les endroits privés de la maison.<sup>4278</sup>"
+                    },
+                    {
+                        "number": "3787",
+                        "text": "<i>Al-Kāfī</i> : Ibn Abī Ya'fūr : J'ai vu un jour un invité chez l'Imām al-Ṣādiq (as) qui se leva pour obtenir une chose dont il avait besoin. L'Imām le lui interdit et se leva lui-même pour satisfaire son besoin en disant : «Le Messager d'Allah (s) a interdit que l'invité fasse quelque chose.»<sup>4279</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19507,13 +22586,39 @@ const AUNE_SAGESSE = [
         "title": "250 - LA MÉDECINE",
         "subparts": [
             {
-                "title": "1178 - Le véritable médecin"
+                "title": "1178 - Le véritable médecin",
+                "hadiths": [
+                    {
+                        "number": "3788",
+                        "text": "Le Messager d'Allah (s) a dit à un médecin : En vérité, Allah le Tout-Puissant est le [véritable] médecin, mais tu es un homme de bon soutien.<sup>4280</sup>"
+                    }
+                ]
             },
             {
-                "title": "1179 - Ce qui dispense de la médecine"
+                "title": "1179 - Ce qui dispense de la médecine",
+                "hadiths": [
+                    {
+                        "number": "3789",
+                        "text": "<i>Al-Khiṣāl</i> : L'Emir des croyants 'Alī ibn Abī Ṭālib (as) a dit à son fils Ḥasan (as) : «Ô mon fils, puis-je t'apprendre quatre choses qui te dispenseront de recourir à la médecine ?» Il répondit : «Oui, ô Emir des croyants.» Il dit : «Ne t'assieds pour manger qu'en ayant faim, ne te lève de table qu'en ayant encore faim, mastique bien ta nourriture, et va aux toilettes avant de dormir. Si tu mets cela en pratique, tu n'auras pas besoin de la médecine.»<sup>4281</sup>"
+                    },
+                    {
+                        "number": "3790",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui mange de la nourriture en ayant faim, qui mastique bien la nourriture, qui arrête de manger lorsqu'il a encore faim, et qui ne se retient pas d'aller à la selle quand le besoin s'en fait ressentir ne sera atteint par aucune maladie sauf celle de la mort.<sup>4282</sup>"
+                    }
+                ]
             },
             {
-                "title": "1180 - Eviter les médicaments autant que possible"
+                "title": "1180 - Eviter les médicaments autant que possible",
+                "hadiths": [
+                    {
+                        "number": "3791",
+                        "text": "Le Messager d'Allah (s) a dit : Evite les médicaments tant que ton corps peut supporter la douleur ; par contre, lorsque ton corps ne la supporte plus, alors [la prise de] médicaments [s'impose].<sup>4283</sup>"
+                    },
+                    {
+                        "number": "3792",
+                        "text": "L'Imām 'Alī (as) a dit : Accommode-toi de ta douleur tant qu'elle s'accommode avec toi.<sup>4284</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19521,7 +22626,30 @@ const AUNE_SAGESSE = [
         "title": "251 - NOURRIR LES AUTRES",
         "subparts": [
             {
-                "title": "1181 - La vertu du fait de nourrir un affamé"
+                "title": "1181 - La vertu du fait de nourrir un affamé",
+                "hadiths": [
+                    {
+                        "number": "3793",
+                        "text": "L'Imām 'Alī (as) a dit : L'alimentation du corps est la nourriture alors que l'alimentation de l'âme est le fait de nourrir les autres.<sup>4287</sup>"
+                    },
+                    {
+                        "number": "3794",
+                        "text": "L'Imām 'Alī (as) a dit : Ce que tu manges disparaît, alors que ce que tu offres comme nourriture répand [des bénédictions].<sup>4288</sup>"
+                    },
+                    {
+                        "number": "3795",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Allah aime que l'on nourrisse les autres et que l'on répande le sang [d'animaux à titre de sacrifice].<sup>4289</sup>"
+                    },
+                    {
+                        "number": "3796",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : «Parmi les choses qui rendent obligatoire l'entrée au Paradis et le pardon figure le fait de nourrir un affamé.» Et il récita la parole d'Allah le Tout-Puissant : «<i>Ou nourrir, en un jour de famine.</i>»<sup>4290</sup>"
+                    },
+                    {
+                        "number": "3797",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, l'Emir des croyants (as) était celui dont l'alimentation ressemblait le plus à celle du Prophète (s). Ainsi, il mangeait du pain, du vinaigre et de l'huile, et il nourrissait les gens de pain et de viande.<sup>4291</sup><br>(Voir également : 249. L'hospitalité)"
+                    }
+                ],
+                "introduction": "«Et offrent la nourriture, malgré son amour, au pauvre, à l'orphelin et au captif, [en disant] : «Nous vous nourrissons uniquement pour le visage d'Allah : nous ne voulons de vous ni récompense ni remerciement.»»<sup>4285</sup><br><br>«Ou nourrir, en un jour de famine, un parent orphelin, ou un pauvre dans le dénuement.»<sup>4286</sup>"
             }
         ]
     },
@@ -19529,10 +22657,43 @@ const AUNE_SAGESSE = [
         "title": "252 - LE DIVORCE",
         "subparts": [
             {
-                "title": "1182 - Le blâme du divorce"
+                "title": "1182 - Le blâme du divorce",
+                "hadiths": [
+                    {
+                        "number": "3798",
+                        "text": "Le Messager d'Allah (s) a dit : Allah n'a pas autorisé une chose qu'Il a autant détestée que le divorce.<sup>4292</sup>"
+                    },
+                    {
+                        "number": "3799",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Tout-Puissant abhorre et maudit tout homme prompt à contracter de nouveaux mariages, ainsi que toute femme qui fait cela.<sup>4293</sup>"
+                    },
+                    {
+                        "number": "3800",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Allah le Tout-Puissant abhorre toute personne prompte à divorcer et à contracter de nouveaux mariages.<sup>4294</sup>"
+                    },
+                    {
+                        "number": "3801",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il n'y a pas de chose parmi ce qu'Allah le Tout-Puissant a autorisé et qu'Il déteste autant que le divorce. En vérité, Allah déteste celui qui est prompt à divorcer et à contracter de nouveaux mariages.<sup>4295</sup>"
+                    },
+                    {
+                        "number": "3802",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Tout-Puissant aime la maison où un mariage est célébré et Il abhorre la maison où un divorce est prononcé, et rien n'est plus détestable pour Allah le Tout-Puissant que le divorce.<sup>4296</sup>"
+                    }
+                ]
             },
             {
-                "title": "1183 - La signification profonde de la limitation du divorce [avec une même femme] à trois fois"
+                "title": "1183 - La signification profonde de la limitation du divorce [avec une même femme] à trois fois",
+                "hadiths": [
+                    {
+                        "number": "3803",
+                        "text": "Interrogé au sujet de la raison pour laquelle la femme divorcée ne peut contracter un mariage avec celui qui a divorcé d'elle plusieurs fois qu'après s'être mariée avec un autre, l'Imām al-Riḍā (as) répondit : En vérité, Allah le Béni et le Très-Haut n'a autorisé le divorce [avec une même personne] que deux fois de suite, Il a dit : «<i>Le divorce est permis pour seulement deux fois. Alors, c'est soit la reprise conformément à la bienséance, soit la libération avec gentillesse</i>»<sup>4298</sup>, c'est-à-dire un troisième divorce. Du fait qu'il contracte un divorce qu'Allah le Tout-Puissant déteste pour la troisième fois, Allah lui a interdit cette femme qui ne lui sera licite qu'après s'être mariée avec un autre [et avoir divorcé de lui]. Ainsi, les gens ne prendront plus le divorce à la légère et les femmes n'en souffriront pas.<sup>4299</sup>"
+                    },
+                    {
+                        "number": "3804",
+                        "text": "L'Imām al-Riḍā (as) a écrit dans une lettre à Muḥammad ibn Sinān au sujet de la cause de la limitation du divorce [avec une même femme] à trois fois : La cause de la limitation du divorce à trois fois est liée au délai et au répit [donné à chaque partie pour réfléchir] entre le premier et le troisième divorce ; durant ce délai, un désir peut survenir ou une colère peut être apaisée. [Il a aussi été limité à trois fois] pour faire peur et dissuader les femmes, et pour les empêcher de désobéir à leurs époux [de façon répétée] en leur faisant ainsi mériter la séparation ou l'éloignement pour avoir désobéi à leur mari. Et la cause du fait qu'une femme est [définitivement] interdite [à un homme] après neuf divorces, de telle sorte qu'elle ne lui sera plus jamais licite et qu'il est punissable pour cela, est que le divorce ne soit pas considéré comme une plaisanterie, que la femme ne soit pas opprimée, que l'homme considère sa situation avec attention et vigilance [avant de s'engager dans un nouveau mariage ou un divorce], et qu'il n'ait plus l'espoir de pouvoir vivre avec elle après neuf divorces.<sup>4300</sup>"
+                    }
+                ],
+                "introduction": "«S'il divorce avec elle [la troisième fois], alors elle ne lui sera plus licite tant qu'elle n'aura pas épousé un autre. Si [ce dernier] la répudie, alors les deux ne commettent aucun péché en reprenant une vie commune, pourvu qu'ils pensent pouvoir respecter les prescriptions divines. Telles sont les prescriptions d'Allah, qu'Il expose aux gens qui comprennent.»<sup>4297</sup>"
             }
         ]
     },
@@ -19540,10 +22701,79 @@ const AUNE_SAGESSE = [
         "title": "253 - L'AMBITION",
         "subparts": [
             {
-                "title": "1184 - Le blâme de l'ambition"
+                "title": "1184 - Le blâme de l'ambition",
+                "hadiths": [
+                    {
+                        "number": "3805",
+                        "text": "Le Messager d'Allah (s) a dit : L'ambition fait disparaître la sagesse du cœur des savants.<sup>4301</sup>"
+                    },
+                    {
+                        "number": "3806",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, l'ambition est un roc glissant sur lequel les pieds des savants ne sont jamais fermement stabilisés.<sup>4302</sup>"
+                    },
+                    {
+                        "number": "3807",
+                        "text": "Le Messager d'Allah (s) a dit : Prends garde à l'ambition, car c'est une pauvreté immédiate.<sup>4303</sup>"
+                    },
+                    {
+                        "number": "3808",
+                        "text": "L'Imām 'Alī (as) a dit : L'ambition est une servitude sans fin.<sup>4304</sup>"
+                    },
+                    {
+                        "number": "3809",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui veut vivre sa vie comme un homme libre ne doit pas laisser l'ambition habiter son cœur.<sup>4305</sup>"
+                    },
+                    {
+                        "number": "3810",
+                        "text": "L'Imām 'Alī (as) a dit : L'ambitieux est prisonnier du déshonneur.<sup>4306</sup>"
+                    },
+                    {
+                        "number": "3811",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui est le plus négligent vis-à-vis de sa propre personne est celui qui est rempli d'ambition.<sup>4307</sup>"
+                    },
+                    {
+                        "number": "3812",
+                        "text": "L'Imām 'Alī (as) a dit : Personne n'est plus déshonoré que l'ambitieux.<sup>4308</sup>"
+                    },
+                    {
+                        "number": "3813",
+                        "text": "L'Imām 'Alī (as) a dit : Les intelligences sont le plus souvent détruites à la suite de l'irruption de désirs chargés d'ambition.<sup>4309</sup>"
+                    },
+                    {
+                        "number": "3814",
+                        "text": "L'Imām 'Alī (as) a dit : La piété et l'ambition sont inconciliables.<sup>4310</sup>"
+                    },
+                    {
+                        "number": "3815",
+                        "text": "L'Imām al-Bāqir (as) a dit : Malheureux est le serviteur esclave de son ambition qui le contrôle.<sup>4311</sup>"
+                    },
+                    {
+                        "number": "3816",
+                        "text": "L'Imām al-Kāẓim (as) a dit à Hishām en l'exhortant : Prends garde à l'ambition et perds tout espoir d'acquérir ce qui est possédé par les gens. Mets un terme à ton ambition vis-à-vis des créatures car en vérité, l'ambition est la clé du déshonneur, subtilise la raison, se fabrique des qualités valeureuses, ternit la réputation, et fait disparaître le savoir.<sup>4312</sup>"
+                    },
+                    {
+                        "number": "3817",
+                        "text": "L'Imām al-Hādī (as) a dit : L'ambition est un mauvais trait de caractère.<sup>4313</sup>"
+                    },
+                    {
+                        "number": "3818",
+                        "text": "L'Imām al-'Askarī (as) a dit : Comme il est laid pour le croyant d'avoir un désir qui le déshonore.<sup>4314</sup><br>(Voir également : 94. La convoitise)"
+                    }
+                ]
             },
             {
-                "title": "1185 - L'ambition louée"
+                "title": "1185 - L'ambition louée",
+                "hadiths": [
+                    {
+                        "number": "3819",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans l'une de ses invocations : Lorsque je vois mes péchés, mon Maître, je suis horrifié, et lorsque je vois Ton pardon, je suis ambitieux [du fait de pouvoir en bénéficier].<sup>4317</sup>"
+                    },
+                    {
+                        "number": "3820",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans l'une de ses invocations : Je T'implore par mon espérance éternelle en Toi, et la grande convoitise que j'ai à Ton égard et vis-à-vis de la clémence et de la miséricorde auxquelles Tu T'es astreint.<sup>4318</sup>"
+                    }
+                ],
+                "introduction": "«Ils s'arrachent de leurs lits pour invoquer leur Seigneur, avec crainte et espoir ; et ils font largesse de ce que Nous leur accordons.»<sup>4315</sup><br><br>«Pourquoi ne croirions-nous pas en Allah et à ce qui nous est parvenu de la vérité. Pourquoi ne convoiterions-nous pas que notre Seigneur nous fasse entrer en la compagnie des gens vertueux ?»<sup>4316</sup>"
             }
         ]
     },
@@ -19551,13 +22781,61 @@ const AUNE_SAGESSE = [
         "title": "254 - LA PURETÉ",
         "subparts": [
             {
-                "title": "1186 - La purification"
+                "title": "1186 - La purification",
+                "hadiths": [
+                    {
+                        "number": "3821",
+                        "text": "Le Messager d'Allah (s) a dit : La purification est une partie de la foi.<sup>4320</sup>"
+                    },
+                    {
+                        "number": "3822",
+                        "text": "Le Messager d'Allah (s) a dit : La première chose au sujet de laquelle il sera demandé des comptes au serviteur est sa purification.<sup>4321</sup>"
+                    },
+                    {
+                        "number": "3823",
+                        "text": "Le Messager d'Allah (s) a dit : La prière sans purification [par des ablutions] n'est pas acceptée.<sup>4322</sup>"
+                    }
+                ]
             },
             {
-                "title": "1187 - Les purificateurs"
+                "title": "1187 - Les purificateurs",
+                "hadiths": [
+                    {
+                        "number": "3824",
+                        "text": "<strong>1 - L'eau</strong><br><br>L'Imām 'Alī (as) a dit : Allah a créé l'eau en tant que purifiant, et rien ne la rend impure sauf ce qui change sa couleur, son goût ou son odeur.<sup>4324</sup>"
+                    },
+                    {
+                        "number": "3825",
+                        "text": "<strong>2 - Le soleil</strong><br><br>L'Imām al-Bāqir (as) a dit : Toute chose sur laquelle le soleil rayonne est pure.<sup>4325</sup>"
+                    },
+                    {
+                        "number": "3826",
+                        "text": "<strong>3 - La terre</strong><br><br>L'Imām al-Ṣādiq (as) a dit : En vérité, Allah le Tout-Puissant a fait en sorte que la terre soit purificatrice tout comme Il a fait de l'eau un purifiant.<sup>4326</sup>"
+                    },
+                    {
+                        "number": "3827",
+                        "text": "<strong>4 - Le feu</strong><br><br>Interrogé au sujet du plâtre cuit avec des déjections séchées et des os de morts et ensuite utilisé pour plâtrer une mosquée, et de si l'on pouvait ou non se prosterner sur un tel sol, l'Imām al-Kāẓim (as) a dit : En vérité, l'eau et le feu [utilisés lors de la cuisson] l'ont purifié.<sup>4327</sup>"
+                    }
+                ],
+                "introduction": "«Et c'est Lui qui envoya les vents comme une annonce précédant Sa miséricorde. Nous fîmes descendre du ciel une eau pure et purifiante.»<sup>4323</sup><br><br><span class=\"reference-note\">(Voir également : Coran 5:6, 9:108)</span>"
             },
             {
-                "title": "1188 - La pureté spirituelle"
+                "title": "1188 - La pureté spirituelle",
+                "hadiths": [
+                    {
+                        "number": "3828",
+                        "text": "L'Imām 'Alī (as) a dit : Allah a rendu obligatoire la foi pour purifier de la mécréance.<sup>4330</sup>"
+                    },
+                    {
+                        "number": "3829",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la crainte de Dieu est un remède pour la maladie de vos cœurs… et un purificateur de la pollution de vos âmes.<sup>4331</sup>"
+                    },
+                    {
+                        "number": "3830",
+                        "text": "L'Imām 'Alī (as) a dit : Puisque vous n'avez pas d'autre choix que celui de vous purifier, purifiez-vous de la pollution des vices et des péchés.<sup>4332</sup><br>(Voir également : 334. Le cœur, section 1551)"
+                    }
+                ],
+                "introduction": "«Allah ne veut que vous débarrasser de toute souillure, ô Gens de la maison [du Prophète], et vous purifier pleinement.»<sup>4328</sup><br><br>«Prélève de leurs biens une aumône (ṣadaqa) par laquelle tu les purifies et les bénis, et prie pour eux. Ta prière est une quiétude pour eux. Et Allah est Audient et Omniscient.»<sup>4329</sup>"
             }
         ]
     },
@@ -19565,13 +22843,77 @@ const AUNE_SAGESSE = [
         "title": "255 - L'OBÉISSANCE",
         "subparts": [
             {
-                "title": "1189 - L'obéissance à Dieu et ses effets"
+                "title": "1189 - L'obéissance à Dieu et ses effets",
+                "hadiths": [
+                    {
+                        "number": "3831",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, on ne peut atteindre ce qu'il y a auprès d'Allah que par Son obéissance.<sup>4334</sup>"
+                    },
+                    {
+                        "number": "3832",
+                        "text": "L'Imām 'Alī (as) a dit : L'obéissance à Allah est la clé de tout règlement et arrangement, et répare toute corruption.<sup>4335</sup>"
+                    },
+                    {
+                        "number": "3833",
+                        "text": "L'Imām 'Alī (as) a dit : La personne qui mérite le plus la miséricorde d'Allah est celle qui est la plus assidue dans l'obéissance [à Allah].<sup>4336</sup>"
+                    },
+                    {
+                        "number": "3834",
+                        "text": "L'Imām 'Alī (as) a dit : Astreignez-vous à obéir à Celui que vous ne pouvez pas prétendre ignorer.<sup>4337</sup>"
+                    },
+                    {
+                        "number": "3835",
+                        "text": "L'Imām al-Hādī (as) a dit : Celui qui obéit au Créateur ne sera pas affecté par le mécontentement de la créature [des autres gens].<sup>4338</sup>"
+                    }
+                ],
+                "introduction": "«Ô croyants ! Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent le commandement.»<sup>4333</sup>"
             },
             {
-                "title": "1190 - Celui à qui il faut obéir"
+                "title": "1190 - Celui à qui il faut obéir",
+                "hadiths": [
+                    {
+                        "number": "3836",
+                        "text": "L'Imām 'Alī (as) a dit : Obéis au sage et tu seras gagnant ; désobéis à l'ignorant et tu seras en sécurité.<sup>4339</sup>"
+                    },
+                    {
+                        "number": "3837",
+                        "text": "L'Imām 'Alī (as) a dit : Obéis au savoir et désobéis à l'ignorance ; ainsi, tu réussiras [tu seras sauvé].<sup>4340</sup>"
+                    },
+                    {
+                        "number": "3838",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui professe l'obéissance à une créature et la désobéissance au Créateur n'a pas de religion.<sup>4341</sup>"
+                    },
+                    {
+                        "number": "3839",
+                        "text": "L'Imām 'Alī (as) a dit : Obéis à celui qui est au-dessus de toi, et celui qui est au-dessous de toi t'obéira.<sup>4342</sup>"
+                    },
+                    {
+                        "number": "3840",
+                        "text": "L'Imām 'Alī (as) a dit : Le corps de celui dont le cœur est humble face à Dieu ne se fatiguera jamais d'obéir à Allah.<sup>4343</sup>"
+                    },
+                    {
+                        "number": "3841",
+                        "text": "L'Imām al-Hādī (as) a dit : Offre ton obéissance à celui qui t'offre son affection et son bon conseil.<sup>4344</sup>"
+                    }
+                ]
             },
             {
-                "title": "1191 - Celui à qui il ne faut pas obéir"
+                "title": "1191 - Celui à qui il ne faut pas obéir",
+                "hadiths": [
+                    {
+                        "number": "3842",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui satisfait un gouvernant au moyen de ce qui suscite le courroux d'Allah sort de la religion d'Allah le Tout-Puissant.<sup>4346</sup>"
+                    },
+                    {
+                        "number": "3843",
+                        "text": "L'Imām 'Alī (as) a dit : Prenez garde, prenez garde à l'obéissance à vos chefs et à vos aînés qui tirent orgueil de leurs accomplissements et se vantent de leur lignée… Et n'obéissez pas à ceux qui prétendent [être musulmans sans l'être véritablement] et dont vous avez bu les impuretés avec votre eau pure, ceux dont la maladie s'est mélangée à votre santé et ceux dont vous avez introduit les mensonges dans votre vérité, alors qu'ils sont le fondement de la perversité.<sup>4347</sup>"
+                    },
+                    {
+                        "number": "3844",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui obéit à l'indolent paresseux perdra et gâchera ses droits, et celui qui obéit au délateur perdra ses amis.<sup>4348</sup>"
+                    }
+                ],
+                "introduction": "«Et ils dirent : «Notre Seigneur, nous avons obéi à nos chefs et à nos dignitaires. Ce sont eux qui nous ont égarés du Sentier. Notre Seigneur, inflige-leur deux fois le châtiment, et maudis-les d'une grande malédiction.»»<sup>4345</sup>"
             }
         ]
     },
@@ -19579,10 +22921,58 @@ const AUNE_SAGESSE = [
         "title": "256 - LE PARFUM",
         "subparts": [
             {
-                "title": "1192 - La vertu du parfum"
+                "title": "1192 - La vertu du parfum",
+                "hadiths": [
+                    {
+                        "number": "3845",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, l'odeur agréable renforce le cœur et elle augmente la puissance sexuelle.<sup>4349</sup>"
+                    },
+                    {
+                        "number": "3846",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui se parfume pour Allah viendra le Jour de la Résurrection en répandant un parfum meilleur que celui du musc, alors que celui qui se parfume pour un autre qu'Allah [dans un but illicite] viendra le Jour de la Résurrection en dégageant une odeur plus nauséabonde que celle d'un cadavre.<sup>4350</sup>"
+                    },
+                    {
+                        "number": "3847",
+                        "text": "<i>Sunan al-Nasā'ī</i> : Anas ibn Mālik rapporte : Le Prophète (s) ne refusait jamais le parfum lorsqu'il lui était offert.<sup>4351</sup>"
+                    },
+                    {
+                        "number": "3848",
+                        "text": "L'Imām 'Alī (as) a dit : Le parfum est un remède.<sup>4352</sup>"
+                    },
+                    {
+                        "number": "3849",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Mettre du parfum fait partie de la tradition des messagers.<sup>4353</sup>"
+                    },
+                    {
+                        "number": "3850",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le Messager d'Allah (s) dépensait plus pour le parfum qu'il ne dépensait pour la nourriture.<sup>4354</sup>"
+                    },
+                    {
+                        "number": "3851",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'intellect de celui qui s'est parfumé au début de la journée [fonctionnera bien] jusqu'au soir.<sup>4355</sup>"
+                    },
+                    {
+                        "number": "3852",
+                        "text": "L'Imām al-Kāẓim (as) a dit : L'homme ne doit pas mettre le parfum de côté ne serait-ce qu'un jour, et s'il ne le peut pas, dans ce cas, [qu'il se parfume] un jour sur deux, et s'il ne le peut pas, alors il ne doit pas négliger de le faire le vendredi.<sup>4356</sup>"
+                    },
+                    {
+                        "number": "3853",
+                        "text": "L'Imām al-Riḍā (as) a dit : Se parfumer fait partie des nobles caractéristiques des prophètes.<sup>4357</sup>"
+                    }
+                ]
             },
             {
-                "title": "1193 - Le parfum des femmes"
+                "title": "1193 - Le parfum des femmes",
+                "hadiths": [
+                    {
+                        "number": "3854",
+                        "text": "Le Messager d'Allah (s) a dit : Le parfum qui convient à la femme est celui dont la couleur est apparente et l'odeur dissimulée [subtile], et le parfum qui convient à l'homme est celui dont l'odeur est apparente [forte] et la couleur dissimulée [transparente].<sup>4358</sup>"
+                    },
+                    {
+                        "number": "3855",
+                        "text": "Le Messager d'Allah (s) a dit : Toute femme qui se parfume et passe parmi des gens afin qu'ils sentent son parfum est une femme adultère.<sup>4359</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19590,7 +22980,41 @@ const AUNE_SAGESSE = [
         "title": "257 - LE MAUVAIS PRÉSAGE",
         "subparts": [
             {
-                "title": "1194 - Tirer un mauvais présage"
+                "title": "1194 - Tirer un mauvais présage",
+                "hadiths": [
+                    {
+                        "number": "3856",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qu'un mauvais présage conduit à abandonner la satisfaction d'un besoin a donné un associé à Allah.<sup>4360</sup>"
+                    },
+                    {
+                        "number": "3857",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui sort de chez lui en ayant l'intention d'entreprendre un voyage et qui se désiste en raison d'un mauvais présage a mécru en ce qui a été révélé à Muḥammad.<sup>4361</sup>"
+                    },
+                    {
+                        "number": "3858",
+                        "text": "Le Messager d'Allah (s) a dit : Le plus véridique des présages est le bon augure.<sup>4362</sup>"
+                    },
+                    {
+                        "number": "3859",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui fait des mauvais présages ou croit aux mauvais présages faits par les autres ne fait pas partie de nous.<sup>4363</sup>"
+                    },
+                    {
+                        "number": "3860",
+                        "text": "Le Messager d'Allah (s) a dit : L'expiation du fait d'avoir fait un mauvais présage est de placer toute sa confiance en Allah.<sup>4364</sup>"
+                    },
+                    {
+                        "number": "3861",
+                        "text": "Le Messager d'Allah (s) a dit : Ni le mauvais présage, ni la malchance [ne sont vrais].<sup>4365</sup>"
+                    },
+                    {
+                        "number": "3862",
+                        "text": "<i>Makārim al-Akhlāq</i> : En vérité, le Prophète (s) aimait le bon augure et il détestait le mauvais présage. À celui qui apercevait une chose qu'il n'aimait pas et qu'il prenait pour un mauvais présage, il ordonnait de dire : «Ô Allah, nul ne donne le bien sauf Toi et nul n'éloigne le mal sauf Toi, et il n'y a de force et de puissance qu'en Toi.»<sup>4366</sup>"
+                    },
+                    {
+                        "number": "3863",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le mauvais présage dépend de ce que tu fais de lui. Si tu ne le prends pas au sérieux, il ne sera pas sérieux ; si tu lui accordes de l'importance, il aura de l'importance ; et si tu n'en fais rien, il ne sera rien.<sup>4367</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19598,10 +23022,30 @@ const AUNE_SAGESSE = [
         "title": "258 - LES ONGLES",
         "subparts": [
             {
-                "title": "1195 - L'incitation à se couper les ongles"
+                "title": "1195 - L'incitation à se couper les ongles",
+                "hadiths": [
+                    {
+                        "number": "3864",
+                        "text": "Le Messager d'Allah (s) a dit : Se couper les ongles protège de la grande douleur et apporte une subsistance abondante.<sup>4368</sup>"
+                    },
+                    {
+                        "number": "3865",
+                        "text": "L'Imām al-Bāqir (as) a dit : Il faut se couper les ongles car en vérité, ce sont les cachettes de Satan et de cela s'ensuit l'oubli.<sup>4369</sup>"
+                    },
+                    {
+                        "number": "3866",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, le lieu le plus dissimulé et le plus sournois où Satan s'établit pour prendre possession de l'homme est sous les ongles.<sup>4370</sup>"
+                    }
+                ]
             },
             {
-                "title": "1196 - L'incitation à laisser ses ongles [longs] pour les femmes"
+                "title": "1196 - L'incitation à laisser ses ongles [longs] pour les femmes",
+                "hadiths": [
+                    {
+                        "number": "3867",
+                        "text": "<i>Al-Kāfī</i> : Le Messager d'Allah (s) a dit aux hommes : «Coupez vos ongles», puis aux femmes : «Laissez vos ongles [longs] car en vérité, cela est plus gracieux pour vous.»<sup>4371</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19609,28 +23053,184 @@ const AUNE_SAGESSE = [
         "title": "259 - L'INJUSTICE",
         "subparts": [
             {
-                "title": "1197 - Mise en garde contre l'injustice"
+                "title": "1197 - Mise en garde contre l'injustice",
+                "hadiths": [
+                    {
+                        "number": "3868",
+                        "text": "Le Messager d'Allah (s) a dit : Prenez garde à l'injustice car en vérité, elle détruit vos cœurs.<sup>4374</sup>"
+                    },
+                    {
+                        "number": "3869",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, le Jour de la Résurrection, le serviteur arrivera en étant réjoui de ses bonnes actions. Un homme viendra alors et dira [à Allah] : «Ô Seigneur, cet homme a été injuste envers moi.» À la suite de cela, certaines de ses bonnes actions seront prises à l'homme injuste et placées parmi les bonnes actions du plaignant. Il en sera ainsi jusqu'à ce qu'il ne lui reste plus aucune bonne action. Ensuite, les mauvaises actions du plaignant seront placées parmi ses propres mauvaises actions, et il continuera de payer pour cela jusqu'à ce qu'il entre en Enfer.<sup>4375</sup>"
+                    },
+                    {
+                        "number": "3870",
+                        "text": "Le Messager d'Allah (s) a dit : Craignez et abstenez-vous de l'injustice car en vérité, c'est une source d'obscurité le Jour de la Résurrection.<sup>4376</sup>"
+                    },
+                    {
+                        "number": "3871",
+                        "text": "L'Imām 'Alī (as) a dit : L'injustice est le plus douloureux des vices.<sup>4377</sup>"
+                    },
+                    {
+                        "number": "3872",
+                        "text": "L'Imām 'Alī (as) a dit : L'injustice fait trébucher le pied, retire les bienfaits, et anéantit les nations.<sup>4378</sup>"
+                    },
+                    {
+                        "number": "3873",
+                        "text": "L'Imām 'Alī (as) a dit dans un discours où il désavoue l'injustice : Par Allah, j'aime mieux passer une nuit blanche sur les épines de l'arbre de Sa'dān [un arbre épineux] ou être tiré en tant que prisonnier enchaîné, que de rencontrer Allah et Son Messager le Jour de la Résurrection en ayant été injuste envers un serviteur ou en ayant spolié tout objet de ce monde éphémère. Comment pourrais-je être injuste pour une âme qui va rapidement vers la déliquescence, et qui va demeurer sous la terre pendant un long moment ?<sup>4379</sup>"
+                    },
+                    {
+                        "number": "3874",
+                        "text": "L'Imām 'Alī (as) a dit : Par Allah, si l'on me donnait les sept régions avec tout ce qui existe sous ses sphères célestes pour que je désobéisse à Allah en spoliant une fourmi de l'enveloppe d'un grain d'orge, je ne le ferais pas.<sup>4380</sup>"
+                    },
+                    {
+                        "number": "3875",
+                        "text": "L'Imām 'Alī (as) a dit : Prends garde à l'injustice, car les jours de celui qui est injuste deviennent détestables.<sup>4381</sup>"
+                    },
+                    {
+                        "number": "3876",
+                        "text": "L'Imām 'Alī (as) a dit : Rien ne provoque la disparition des bienfaits d'Allah et n'accélère Son courroux autant que le fait de commettre une injustice car en vérité, Allah entend l'appel des opprimés et Il se tient aux aguets face aux injustes.<sup>4382</sup>"
+                    },
+                    {
+                        "number": "3877",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui commet une injustice porte un coup fatal à sa vie.<sup>4383</sup>"
+                    },
+                    {
+                        "number": "3878",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui prend l'injustice pour monture est jeté à terre par elle.<sup>4384</sup>"
+                    },
+                    {
+                        "number": "3879",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui tyrannise périra à cause de sa propre tyrannie.<sup>4385</sup>"
+                    },
+                    {
+                        "number": "3880",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le Messager d'Allah (s) a interdit de manger ce que la fourmi porte dans sa bouche ou entre ses pattes.<sup>4386</sup>"
+                    }
+                ],
+                "introduction": "«Allah ne guide pas les gens injustes.»<sup>4372</sup><br><br>«Les injustes ne réussiront pas.»<sup>4373</sup>"
             },
             {
-                "title": "1198 - Les types d'injustices"
+                "title": "1198 - Les types d'injustices",
+                "hadiths": [
+                    {
+                        "number": "3881",
+                        "text": "L'Imām 'Alī (as) a dit : Sache que l'injustice est de trois sortes : une injustice impardonnable, une injustice qui ne sera pas laissée [à propos de laquelle on demandera des comptes], et une injustice pardonnable et à propos de laquelle on ne demandera pas de comptes. L'injustice qui n'est pas pardonnable est l'associationnisme vis-à-vis d'Allah, l'injustice qui est pardonnable est celle du serviteur envers lui-même lors de certains faux pas, et l'injustice qui ne sera pas laissée est l'injustice commise par les serviteurs les uns envers les autres.<sup>4387</sup><br>(Voir également : 149. Le péché, section 771)"
+                    }
+                ]
             },
             {
-                "title": "1199 - Les injustices les plus monstrueuses"
+                "title": "1199 - Les injustices les plus monstrueuses",
+                "hadiths": [
+                    {
+                        "number": "3882",
+                        "text": "Le Messager d'Allah (s) a dit : La colère d'Allah est sévère vis-à-vis de celui qui a fait preuve d'injustice envers un être qui n'a aucun secours hormis Allah.<sup>4388</sup>"
+                    },
+                    {
+                        "number": "3883",
+                        "text": "L'Imām 'Alī (as) a dit : Faire preuve d'injustice envers un faible est la plus monstrueuse des injustices.<sup>4389</sup>"
+                    },
+                    {
+                        "number": "3884",
+                        "text": "Lorsqu'on lui demanda : «Quel est le péché qui hâte le plus le châtiment de son auteur ?», l'Imām 'Alī (as) répondit : «[Le péché de] celui qui fait preuve d'injustice envers un être qui n'a aucun secours hormis Allah, qui utilise un bienfait avec négligence et laxisme, et qui se comporte de façon tyrannique avec le pauvre.»<sup>4390</sup>"
+                    },
+                    {
+                        "number": "3885",
+                        "text": "L'Imām 'Alī (as) a dit : Faire preuve d'injustice envers les personnes bienveillantes fait partie des injustices les plus monstrueuses.<sup>4391</sup>"
+                    },
+                    {
+                        "number": "3886",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque la mort de l'Imām 'Alī ibn al-Ḥusayn [Zayn al-'Ābidīn] (as) approcha, il me serra contre sa poitrine et me dit : «Ô mon fils, je te donne le même conseil que mon père m'a prodigué alors que sa mort approchait, et qu'il a lui-même reçu de son père.» Puis il dit : «Ô mon fils, garde-toi d'être injuste envers une personne qui n'a aucun secours hormis Allah.»<sup>4392</sup>"
+                    }
+                ]
             },
             {
-                "title": "1200 - Accorder un délai à l'injuste"
+                "title": "1200 - Accorder un délai à l'injuste",
+                "hadiths": [
+                    {
+                        "number": "3887",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah accorde un délai à l'injuste jusqu'à ce qu'il dise : «Il [Allah] m'a oublié.» Alors, Il le punira d'une manière effroyable. En vérité, Allah se rend grâce à Lui-même pour avoir anéanti les injustes, en disant [dans le Coran] : «<i>Ainsi fut anéanti le dernier reste de ces injustes. Et louange à Allah, le Seigneur de l'Univers !</i>»<sup>4393</sup>.<sup>4394</sup>"
+                    },
+                    {
+                        "number": "3888",
+                        "text": "<i>Tafsīr Nūr al-Thaqalayn</i> : L'Imām al-Bāqir (as) a dit : Allah le Tout-Puissant a, entre les deux mots [par lesquels il s'est adressé à lui], donné à Pharaon un délai de quarante ans. Puis Il l'a saisi avec la punition de ce monde et de l'Au-delà. Ainsi, entre le moment où Allah le Tout-Puissant a dit à Moïse et Hārūn «<i>Votre prière est exaucée</i>»<sup>4395</sup> et celui où Il a manifesté son exaucement à Moïse [par la mort de Pharaon], quarante années se sont écoulées.<sup>4396</sup>"
+                    }
+                ]
             },
             {
-                "title": "1201 - Le regret de l'injuste"
+                "title": "1201 - Le regret de l'injuste",
+                "hadiths": [
+                    {
+                        "number": "3889",
+                        "text": "Le Messager d'Allah (s) a dit : L'injustice conduit au regret.<sup>4398</sup>"
+                    },
+                    {
+                        "number": "3890",
+                        "text": "L'Imām 'Alī (as) a dit : Le jour où justice est faite vis-à-vis de l'injuste est plus sévère que le jour où l'injustice est commise vis-à-vis de l'opprimé.<sup>4399</sup>"
+                    },
+                    {
+                        "number": "3891",
+                        "text": "L'Imām al-Bāqir (as) a dit : Ce que prend l'opprimé de la religion de l'oppresseur est beaucoup plus important que ce que prend l'oppresseur de la vie terrestre de l'opprimé.<sup>4400</sup>"
+                    }
+                ],
+                "introduction": "«Le jour où l'injuste se mordra les deux mains et dira : «Si seulement j'avais suivi chemin avec le Messager !»»<sup>4397</sup>"
             },
             {
-                "title": "1202 - Mise en garde contre le fait d'aider l'injuste"
+                "title": "1202 - Mise en garde contre le fait d'aider l'injuste",
+                "hadiths": [
+                    {
+                        "number": "3892",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, un appel se fera entendre : «Où sont donc les injustes et ceux qui les ont assistés ? Que ceux qui ont préparé leur encrier, qui leur ont noué une bourse, ou qui leur ont fourni une plume [pour écrire] soient rassemblés avec eux.»<sup>4402</sup>"
+                    },
+                    {
+                        "number": "3893",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui commet l'injustice, celui qui l'aide, et celui qui l'approuve sont tous les trois associés.<sup>4403</sup>"
+                    },
+                    {
+                        "number": "3894",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si les Omeyyades n'avaient pas trouvé des personnes qui écrivaient pour eux, qui collectaient pour eux les impôts, qui se battaient pour eux et qui assistaient à leurs rassemblements, ils n'auraient pu nous spolier de nos droits.<sup>4404</sup>"
+                    },
+                    {
+                        "number": "3895",
+                        "text": "L'Imām al-Ṣādiq (as) a dit au sujet de la parole du Très-Haut «<i>Et ne vous penchez pas vers les injustes…</i>» : Cela concerne l'homme qui se rend auprès du dirigeant et qui espère qu'il reste en vie jusqu'à ce qu'il mette sa main dans sa bourse et lui donne quelque chose.<sup>4405</sup>"
+                    }
+                ],
+                "introduction": "«Et ne vous penchez pas vers les injustes, sinon le Feu vous atteindrait. Vous n'avez point d'alliés en dehors d'Allah, et vous ne serez pas secourus.»<sup>4401</sup>"
             },
             {
-                "title": "1203 - L'incitation à soutenir l'opprimé"
+                "title": "1203 - L'incitation à soutenir l'opprimé",
+                "hadiths": [
+                    {
+                        "number": "3896",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui a défendu l'opprimé face à l'oppresseur sera en ma compagnie au Paradis.<sup>4407</sup>"
+                    },
+                    {
+                        "number": "3897",
+                        "text": "L'Imām 'Alī (as) a dit à Ḥasan (as) et à Ḥusayn (as) : Dites la vérité, agissez [bien] en vue de la récompense, soyez l'adversaire de l'injuste et l'aide de l'opprimé.<sup>4408</sup>"
+                    },
+                    {
+                        "number": "3898",
+                        "text": "L'Imām al-Kāẓim (as) a dit en s'adressant à 'Alī ibn Yaqṭīn : En vérité, Allah le Tout-Puissant a des alliés à côté des alliés des injustes afin qu'Il défende Ses alliés grâce à eux, et tu es l'un d'eux, ô 'Alī.<sup>4409</sup>"
+                    }
+                ],
+                "introduction": "«Quiconque intercède d'une bonne intercession en aura une part ; et quiconque intercède d'une mauvaise intercession en portera une part de responsabilité. Et Allah est Puissant sur toute chose.»<sup>4406</sup>"
             },
             {
-                "title": "1204 - Mise en garde à propos de la supplication de l'opprimé"
+                "title": "1204 - Mise en garde à propos de la supplication de l'opprimé",
+                "hadiths": [
+                    {
+                        "number": "3899",
+                        "text": "Le Messager d'Allah (s) a dit : Prenez garde à la supplication de l'opprimé car en vérité, il demande à Allah de lui rendre justice et en vérité, Allah ne prive jamais un ayant-droit du droit qui lui revient.<sup>4410</sup>"
+                    },
+                    {
+                        "number": "3900",
+                        "text": "Le Messager d'Allah (s) a dit : Craignez la supplication de l'opprimé même s'il s'agit d'un mécréant car en vérité, rien ne la voile [et ne l'empêche d'être exaucée].<sup>4411</sup>"
+                    },
+                    {
+                        "number": "3901",
+                        "text": "L'Imām 'Alī (as) a dit : La flèche la plus perçante et qui atteint le plus sûrement sa cible est la supplication de l'opprimé.<sup>4412</sup><br>(Voir également : 140. L'invocation, section 699)"
+                    }
+                ]
             }
         ]
     },
@@ -19638,22 +23238,131 @@ const AUNE_SAGESSE = [
         "title": "260 - LA CONJECTURE",
         "subparts": [
             {
-                "title": "1205 - La conjecture de l'intellectuel"
+                "title": "1205 - La conjecture de l'intellectuel",
+                "hadiths": [
+                    {
+                        "number": "3902",
+                        "text": "L'Imām 'Alī (as) a dit : La conjecture de l'homme est proportionnelle à l'étendue de sa raison.<sup>4413</sup>"
+                    },
+                    {
+                        "number": "3903",
+                        "text": "L'Imām 'Alī (as) a dit : La conjecture de l'homme d'intellect est plus juste que la certitude de l'ignorant.<sup>4414</sup>"
+                    },
+                    {
+                        "number": "3904",
+                        "text": "L'Imām 'Alī (as) a dit : Craignez les conjectures des croyants car en vérité, Allah le Très-Haut a fait en sorte que la vérité émane de leurs langues.<sup>4415</sup>"
+                    }
+                ]
             },
             {
-                "title": "1206 - L'incitation à entretenir une bonne opinion au sujet de l'acte du croyant"
+                "title": "1206 - L'incitation à entretenir une bonne opinion au sujet de l'acte du croyant",
+                "hadiths": [
+                    {
+                        "number": "3905",
+                        "text": "Le Messager d'Allah (s) a dit : Trouve une excuse à ton frère [pour ses paroles et ses actes] et si tu ne lui trouves aucune excuse valable, cherche-lui en une.<sup>4416</sup>"
+                    },
+                    {
+                        "number": "3906",
+                        "text": "L'Imām 'Alī (as) a dit : Considère les agissements de ton frère de la meilleure façon jusqu'à preuve du contraire, et ne fais pas de mauvaises conjectures au sujet d'une parole qui a été dite par ton frère tant que tu as la possibilité d'y trouver du bien.<sup>4417</sup>"
+                    }
+                ]
             },
             {
-                "title": "1207 - La vertu de la bonne opinion"
+                "title": "1207 - La vertu de la bonne opinion",
+                "hadiths": [
+                    {
+                        "number": "3907",
+                        "text": "L'Imām 'Alī (as) a dit : La bonne opinion est une tranquillité pour le cœur et un salut pour la religion.<sup>4418</sup>"
+                    },
+                    {
+                        "number": "3908",
+                        "text": "L'Imām 'Alī (as) a dit : La bonne opinion réduit l'anxiété et sauve de l'emprise des péchés.<sup>4419</sup>"
+                    },
+                    {
+                        "number": "3909",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui pense le meilleur des autres gagne leur amour.<sup>4420</sup>"
+                    },
+                    {
+                        "number": "3910",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure piété est de penser le meilleur [des autres].<sup>4421</sup>"
+                    }
+                ]
             },
             {
-                "title": "1208 - Mise en garde contre la mauvaise conjecture"
+                "title": "1208 - Mise en garde contre la mauvaise conjecture",
+                "hadiths": [
+                    {
+                        "number": "3911",
+                        "text": "Le Messager d'Allah (s) a dit : Prenez garde à la conjecture car en vérité, c'est le pire des mensonges.<sup>4423</sup>"
+                    },
+                    {
+                        "number": "3912",
+                        "text": "Le Messager d'Allah (s) a dit : Si vous faites une conjecture et avez un soupçon [au sujet de quelqu'un ou de quelque chose], n'enquêtez pas à ce propos ; si vous êtes jaloux, ne convoitez pas ; et si vous tirez un mauvais présage de quelque chose, n'en tenez pas compte.<sup>4424</sup>"
+                    },
+                    {
+                        "number": "3913",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, l'avarice, la lâcheté et la cupidité sont des instincts divers qui ont tous pour racine la mauvaise conjecture à propos d'Allah.<sup>4425</sup>"
+                    },
+                    {
+                        "number": "3914",
+                        "text": "L'Imām 'Alī (as) a dit : La foi n'est pas compatible avec la mauvaise conjecture.<sup>4426</sup>"
+                    },
+                    {
+                        "number": "3915",
+                        "text": "L'Imām 'Alī (as) a dit : La mauvaise conjecture détériore les choses et suscite le mal.<sup>4427</sup>"
+                    },
+                    {
+                        "number": "3916",
+                        "text": "L'Imām 'Alī (as) a dit : Prends garde à la mauvaise conjecture car en vérité, la mauvaise conjecture corrompt l'adoration.<sup>4428</sup>"
+                    },
+                    {
+                        "number": "3917",
+                        "text": "L'Imām 'Alī (as) a dit : Le méchant n'a une bonne opinion de personne car il ne perçoit les autres que par le biais de son propre caractère.<sup>4429</sup>"
+                    }
+                ],
+                "introduction": "«Ô vous qui avez cru ! Évitez de trop conjecturer [sur autrui], car une partie des conjectures est péché.»<sup>4422</sup>"
             },
             {
-                "title": "1209 - La nécessité d'éviter ce qui suscite la mauvaise conjecture"
+                "title": "1209 - La nécessité d'éviter ce qui suscite la mauvaise conjecture",
+                "hadiths": [
+                    {
+                        "number": "3918",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui adopte une posture suspecte ne doit pas blâmer ceux qui ont fait de mauvaises conjectures sur lui.<sup>4430</sup>"
+                    },
+                    {
+                        "number": "3919",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se met dans une mauvaise posture sera accusé, et celui qui se met en position d'être accusé ne doit pas en vouloir à ceux qui ont fait de mauvaises conjectures à son propos.<sup>4431</sup>"
+                    },
+                    {
+                        "number": "3920",
+                        "text": "L'Imām 'Alī (as) a dit : S'asseoir en compagnie des méchants engendre des mauvaises conjectures vis-à-vis des bons.<sup>4432</sup>"
+                    },
+                    {
+                        "number": "3921",
+                        "text": "L'Imām 'Alī (as) a dit : La personne qui est dans le pire état est celle qui n'a confiance en personne à cause de ses mauvaises conjectures, et à qui personne ne fait confiance en raison de ses mauvaises actions.<sup>4433</sup>"
+                    },
+                    {
+                        "number": "3922",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui n'a pas une bonne opinion des autres sera misanthrope vis-à-vis de tous [et restera seul].<sup>4434</sup>"
+                    }
+                ]
             },
             {
-                "title": "1210 - Les cas où la mauvaise conjoncture est permise"
+                "title": "1210 - Les cas où la mauvaise conjoncture est permise",
+                "hadiths": [
+                    {
+                        "number": "3923",
+                        "text": "Le Messager d'Allah (s) a dit : Préservez-vous [du tort que peuvent vous causer] les gens par la mauvaise conjecture.<sup>4435</sup>"
+                    },
+                    {
+                        "number": "3924",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque le bien prévaut à une époque et entre les gens, si un homme fait de mauvaises conjectures à propos d'un autre qui n'a jamais été vu en train de commettre une infraction, il aura certainement commis une injustice. En revanche, lorsque la corruption règne à une époque et entre les gens, si un homme pense le meilleur d'un autre, il se sera trompé.<sup>4436</sup>"
+                    },
+                    {
+                        "number": "3925",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Lorsque l'injustice prévaut sur le bien et la justice, nul n'est autorisé à entretenir une bonne opinion au sujet d'une personne, à moins que l'on ne sache qu'elle est véritablement ainsi.<sup>4437</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19661,22 +23370,175 @@ const AUNE_SAGESSE = [
         "title": "261 - L'ADORATION",
         "subparts": [
             {
-                "title": "1211 - L'incitation à l'adoration"
+                "title": "1211 - L'incitation à l'adoration",
+                "hadiths": [
+                    {
+                        "number": "3926",
+                        "text": "Le Messager d'Allah (s) a dit : La meilleure des personnes est celle qui s'éprend de l'adoration, qui l'embrasse, qui l'aime de tout son cœur, qui s'y adonne avec son corps et qui se dévoue exclusivement à elle, de telle façon qu'elle ne se soucie pas dans quel état de la vie de ce monde elle se réveille le matin : dans la difficulté ou dans l'aisance.<sup>4439</sup>"
+                    },
+                    {
+                        "number": "3927",
+                        "text": "Le Messager d'Allah (s) a dit : L'adoration suffit comme occupation.<sup>4440</sup>"
+                    },
+                    {
+                        "number": "3928",
+                        "text": "Le Messager d'Allah (s) a dit : Votre Seigneur a dit : Ô fils d'Adam ! Consacre-toi entièrement à Mon adoration et Je remplirai ton cœur de richesses et tes mains de subsistance. Ô fils d'Adam ! Ne t'éloigne pas de Moi, sinon Je remplirai ton cœur de dénuement et tes mains de travail [qui te préoccupera].<sup>4441</sup>"
+                    },
+                    {
+                        "number": "3929",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsqu'Allah aime un serviteur, Il lui inspire une bonne forme d'adoration.<sup>4442</sup>"
+                    },
+                    {
+                        "number": "3930",
+                        "text": "L'Imām 'Alī (as) a dit : L'adoration [d'Allah] consiste en cinq choses : un ventre vide, la lecture du Coran, la prière de la nuit, la supplication du matin, et pleurer par crainte d'Allah.<sup>4443</sup>"
+                    }
+                ],
+                "introduction": "«Et Je n'ai créé les djinns et les hommes que pour qu'ils M'adorent.»<sup>4438</sup>"
             },
             {
-                "title": "1212 - Le rôle de la compréhension et de la certitude dans l'adoration"
+                "title": "1212 - Le rôle de la compréhension et de la certitude dans l'adoration",
+                "hadiths": [
+                    {
+                        "number": "3931",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas d'adoration [véritable] sans certitude.<sup>4444</sup>"
+                    },
+                    {
+                        "number": "3932",
+                        "text": "Le Messager d'Allah (s) a dit : Adore Dieu comme si tu Le voyais, car si tu ne Le vois pas, en vérité, Lui te voit.<sup>4445</sup>"
+                    },
+                    {
+                        "number": "3933",
+                        "text": "L'Imām 'Alī (as) a dit : Aucun bien n'est issu d'une adoration dénuée de compréhension.<sup>4446</sup>"
+                    },
+                    {
+                        "number": "3934",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Nulle adoration [n'est réelle ni profitable] sans compréhension.<sup>4447</sup><br>(Voir également : 419. La certitude ; 323. La jurisprudence et le savoir au sujet de la religion, section 1497)"
+                    }
+                ]
             },
             {
-                "title": "1213 - Les types d'adoration"
+                "title": "1213 - Les types d'adoration",
+                "hadiths": [
+                    {
+                        "number": "3935",
+                        "text": "Jésus (as) demanda à un homme : «Que fais-tu ?» L'homme répondit : «Je pratique des actes d'adoration.» Il dit : «Qui subvient à tes besoins ?» L'homme répondit : «Mon frère.» Et il (as) dit : «Alors ton frère est un meilleur adorateur que toi.»<sup>4448</sup>"
+                    },
+                    {
+                        "number": "3936",
+                        "text": "Le Messager d'Allah (s) a dit : L'adoration comporte dix parties, dont neuf se trouvent dans la quête d'[une subsistance] licite.<sup>4449</sup>"
+                    },
+                    {
+                        "number": "3937",
+                        "text": "Le Messager d'Allah (s) a dit : Le regard d'amour de l'enfant vers ses parents est une adoration [d'Allah].<sup>4450</sup>"
+                    },
+                    {
+                        "number": "3938",
+                        "text": "Le Messager d'Allah (s) a dit : Regarder le savant est une adoration ; regarder un dirigeant (<i>imām</i>) juste est une adoration ; regarder ses parents avec tendresse et miséricorde est une adoration, et regarder un frère que tu aimes pour Allah le Tout-Puissant est une adoration.<sup>4451</sup>"
+                    },
+                    {
+                        "number": "3939",
+                        "text": "Le Messager d'Allah (s) a dit : Entretenir une bonne opinion à propos d'Allah fait partie de l'adoration d'Allah le Très-Haut.<sup>4452</sup>"
+                    },
+                    {
+                        "number": "3940",
+                        "text": "L'Imām 'Alī (as) a dit : La réflexion au sujet de la création du royaume des cieux et de la terre est l'adoration des sincères.<sup>4453</sup>"
+                    },
+                    {
+                        "number": "3941",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la douceur des paroles et le fait de répandre les salutations de paix font partie de l'adoration.<sup>4454</sup>"
+                    },
+                    {
+                        "number": "3942",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, il y a un acte d'adoration [encore meilleur] au-dessus de tout acte d'adoration, et l'amour pour nous, les Gens de la demeure prophétique (<i>Ahl al-Bayt</i>), est le meilleur des actes d'adoration.<sup>4455</sup>"
+                    }
+                ]
             },
             {
-                "title": "1214 - Les types d'adorateurs"
+                "title": "1214 - Les types d'adorateurs",
+                "hadiths": [
+                    {
+                        "number": "3943",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il existe trois sortes d'adorateurs : ceux qui adorent Allah le Tout-Puissant par crainte, et c'est l'adoration des esclaves ; ceux qui adorent Allah le Béni et le Très-Haut en recherchant à être récompensés pour cela, et c'est l'adoration des employés [qui attendent un salaire pour ce qu'ils font] ; et ceux qui adorent Allah le Tout-Puissant par amour pour Lui, et c'est l'adoration des hommes libres ainsi que la meilleure des adorations.<sup>4456</sup>"
+                    },
+                    {
+                        "number": "3944",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui obéit à un homme en commettant un acte de désobéissance [à Allah] l'aura adoré.<sup>4457</sup>"
+                    },
+                    {
+                        "number": "3945",
+                        "text": "L'Imām al-Jawād (as) a dit : Celui qui écoute attentivement un orateur l'aura certainement adoré. Si cet orateur conduit à Allah le Tout-Puissant [par ses mots], [celui qui l'écoute] aura ainsi adoré Allah ; en revanche, si l'orateur conduit à Satan, il aura adoré Satan.<sup>4458</sup>"
+                    }
+                ]
             },
             {
-                "title": "1215 - La meilleure forme d'adoration"
+                "title": "1215 - La meilleure forme d'adoration",
+                "hadiths": [
+                    {
+                        "number": "3946",
+                        "text": "<i>Irshād al-Qulūb</i> : Dans le <i>ḥadīth</i> de l'Ascension (<i>mi'rāj</i>), [Allah a dit] : Ô Aḥmad, Je n'aime aucun acte d'adoration autant que le silence et le jeûne.<sup>4459</sup>"
+                    },
+                    {
+                        "number": "3947",
+                        "text": "Le Messager d'Allah (s) a dit : La compréhension [de la religion] est la meilleure forme d'adoration.<sup>4460</sup>"
+                    },
+                    {
+                        "number": "3948",
+                        "text": "Le Messager d'Allah (s) a dit : L'adoration qui mérite la plus grande récompense est celle qui est la plus discrète.<sup>4461</sup>"
+                    },
+                    {
+                        "number": "3949",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure forme d'adoration est la chasteté et la retenue.<sup>4462</sup>"
+                    },
+                    {
+                        "number": "3950",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure forme d'adoration est celle qui prend le dessus sur les habitudes.<sup>4463</sup>"
+                    },
+                    {
+                        "number": "3951",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure forme d'adoration est le détachement [vis-à-vis de ce monde].<sup>4464</sup>"
+                    },
+                    {
+                        "number": "3952",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La meilleure forme d'adoration est la connaissance de Dieu et l'humilité face à Lui.<sup>4465</sup>"
+                    },
+                    {
+                        "number": "3953",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La meilleure forme d'adoration est la réflexion permanente à propos de Dieu et de Sa puissance.<sup>4466</sup>"
+                    },
+                    {
+                        "number": "3954",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Par Allah, Allah ne peut être adoré de meilleure façon qu'en accomplissant le droit d'un croyant.<sup>4467</sup>"
+                    },
+                    {
+                        "number": "3955",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le meilleur adorateur parmi les gens est celui qui accomplit les obligations [de la religion].<sup>4468</sup>"
+                    },
+                    {
+                        "number": "3956",
+                        "text": "L'Imām al-Riḍā (as) a dit : L'adoration n'est pas seulement de beaucoup jeûner et prier, mais l'adoration est plutôt la réflexion abondante au sujet de ce qui est lié à Dieu.<sup>4469</sup>"
+                    },
+                    {
+                        "number": "3957",
+                        "text": "L'Imām al-Jawād (as) a dit : La meilleure forme d'adoration est la sincérité.<sup>4470</sup><br>(Voir également : 324. La réflexion, section 1502)"
+                    }
+                ]
             },
             {
-                "title": "1216 - L'ardeur dans l'adoration"
+                "title": "1216 - L'ardeur dans l'adoration",
+                "hadiths": [
+                    {
+                        "number": "3958",
+                        "text": "Jésus (as) a dit : Je vous le dis sincèrement, en vérité, tout comme un malade regarde des mets délicieux mais ne peut les savourer du fait de l'intensité de la douleur dont il souffre, de même, celui qui est absorbé par les affaires de ce monde ne peut savourer l'adoration ni goûter à sa douceur en raison de l'amour qu'il entretient pour l'argent.<sup>4471</sup>"
+                    },
+                    {
+                        "number": "3959",
+                        "text": "Le Messager d'Allah (s) a dit : Le fléau de l'adoration est la lassitude.<sup>4472</sup>"
+                    },
+                    {
+                        "number": "3960",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne vous rendez pas l'adoration détestable à vous-mêmes.<sup>4473</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19684,13 +23546,81 @@ const AUNE_SAGESSE = [
         "title": "262 - LA LEÇON MORALE",
         "subparts": [
             {
-                "title": "1217 - L'incitation à tirer des leçons"
+                "title": "1217 - L'incitation à tirer des leçons",
+                "hadiths": [
+                    {
+                        "number": "3961",
+                        "text": "Le Messager d'Allah (s) a dit : Tirez des leçons, car il y a des leçons à tirer auprès des gens du passé.<sup>4475</sup>"
+                    },
+                    {
+                        "number": "3962",
+                        "text": "L'Imām 'Alī (as) a dit : Le croyant regarde ce bas-monde avec l'œil de la méditation, et il ne consomme de lui que ce qui est nécessaire.<sup>4476</sup>"
+                    },
+                    {
+                        "number": "3963",
+                        "text": "L'Imām 'Alī (as) a dit : L'ignorant tire rarement des leçons.<sup>4477</sup>"
+                    },
+                    {
+                        "number": "3964",
+                        "text": "L'Imām 'Alī (as) a dit : La leçon morale est un avertisseur sincère. Celui qui réfléchit tire des leçons, celui qui tire des leçons s'abstient [de refaire la même erreur], et celui qui s'abstient est en sécurité.<sup>4478</sup>"
+                    },
+                    {
+                        "number": "3965",
+                        "text": "L'Imām 'Alī (as) a dit : Le fait de tirer des leçons [d'une expérience] mène à la droiture.<sup>4479</sup>"
+                    },
+                    {
+                        "number": "3966",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui tire une leçon [de quelque chose] devient clairvoyant, celui qui devient clairvoyant comprend, et celui qui comprend sait [avec certitude].<sup>4480</sup>"
+                    }
+                ],
+                "introduction": "«Tirez-en une leçon, ô vous qui êtes doués de clairvoyance.»<sup>4474</sup>"
             },
             {
-                "title": "1218 - Ce que dont il faut tirer leçon"
+                "title": "1218 - Ce que dont il faut tirer leçon",
+                "hadiths": [
+                    {
+                        "number": "3967",
+                        "text": "L'Imām 'Alī (as) a dit : Dans les vicissitudes de la vie se trouvent des leçons [à tirer].<sup>4483</sup>"
+                    },
+                    {
+                        "number": "3968",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu tirais des leçons de ce que tu as perdu durant ce qui est passé de ta vie, tu préserverais mieux ce qu'il en reste.<sup>4484</sup>"
+                    },
+                    {
+                        "number": "3969",
+                        "text": "L'Imām 'Alī (as) a dit : Tirez leçon de la façon dont Allah s'est comporté vis-à-vis d'Iblīs, lorsqu'Il a annihilé ses [bonnes] actions de longue durée et ses efforts intenses [du fait de sa défiance et de sa désobéissance à Allah].<sup>4485</sup>"
+                    },
+                    {
+                        "number": "3970",
+                        "text": "L'Imām 'Alī (as) a dit : Tirez leçon de la façon dont Allah a châtié les peuples arrogants qui vous ont précédés avec Sa force intense, Ses attaques, Ses coups, et Ses punitions exemplaires.<sup>4486</sup>"
+                    },
+                    {
+                        "number": "3971",
+                        "text": "L'Imām 'Alī (as) a dit : Comme sont nombreux les enseignements et peu nombreux ceux qui en tirent des leçons !<sup>4487</sup>"
+                    },
+                    {
+                        "number": "3972",
+                        "text": "<i>Biḥār al-Anwār</i> : L'Imām Zayn al-'Ābidīn (as) a dit : «Pauvre homme ! Il lui arrive trois malheurs chaque jour et il n'en tire aucune leçon même d'un seul. S'il en tirait leçon, les malheurs et la vie de ce monde cesseraient d'être importants pour lui. Le premier malheur est le jour qui est déduit de sa vie - s'il perdait de l'argent, cela le rendrait malheureux ; or, le dirham peut être remplacé alors que les jours de la vie ne peuvent lui être rendus.<br>Le deuxième malheur est qu'il reçoit l'ensemble de la subsistance [qui a été déterminée pour lui], mais s'il l'obtient de façon licite, il lui sera demandé des comptes, et s'il l'obtient de façon illicite, on le punira pour cela.<br>Le troisième malheur est le plus grand.» On lui demanda : «Quel est-il ?» Il répondit : «Pas un jour ne passe sans qu'il ne se rapproche de l'Au-delà, sans savoir néanmoins si c'est du Paradis ou de l'Enfer !»<sup>4488</sup>"
+                    }
+                ],
+                "introduction": "«Il y a certes dans les histoires [des prophètes] une leçon pour les gens doués d'intelligence.»<sup>4481</sup><br><br>«Allah fait alterner la nuit et le jour ; il y a là un sujet à méditer pour ceux qui ont des yeux.»<sup>4482</sup>"
             },
             {
-                "title": "1219 - Le fruit du fait de tirer des leçons"
+                "title": "1219 - Le fruit du fait de tirer des leçons",
+                "hadiths": [
+                    {
+                        "number": "3973",
+                        "text": "L'Imām 'Alī (as) a dit : Tirer des leçons [de ses fautes passées] a pour fruit l'immunité [face aux péchés futurs].<sup>4489</sup>"
+                    },
+                    {
+                        "number": "3974",
+                        "text": "L'Imām 'Alī (as) a dit : Tirer constamment des leçons mène à la clairvoyance et génère la retenue [face au péché].<sup>4490</sup>"
+                    },
+                    {
+                        "number": "3975",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui tire de nombreuses leçons trébuche rarement.<sup>4491</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19698,13 +23628,87 @@ const AUNE_SAGESSE = [
         "title": "263 - LA VANITÉ",
         "subparts": [
             {
-                "title": "1220 - Le blâme de la vanité"
+                "title": "1220 - Le blâme de la vanité",
+                "hadiths": [
+                    {
+                        "number": "3976",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a pas de solitude plus effrayante que la vanité.<sup>4492</sup>"
+                    },
+                    {
+                        "number": "3977",
+                        "text": "L'Imām 'Alī (as) a dit : La vanité révèle les manques [de la personnalité].<sup>4493</sup>"
+                    },
+                    {
+                        "number": "3978",
+                        "text": "L'Imām 'Alī (as) a dit : La vanité est une sottise.<sup>4494</sup>"
+                    },
+                    {
+                        "number": "3979",
+                        "text": "L'Imām 'Alī (as) a dit : Une faute qui te mécontente est meilleure auprès d'Allah qu'une bonne action qui te rend vaniteux.<sup>4495</sup>"
+                    },
+                    {
+                        "number": "3980",
+                        "text": "L'Imām 'Alī (as) a dit : Prends garde à la vanité, car elle augmente le nombre de ceux qui sont mécontents de toi.<sup>4496</sup>"
+                    },
+                    {
+                        "number": "3981",
+                        "text": "L'Imām 'Alī (as) a dit : La conséquence de la vanité est l'animosité [des autres à ton égard].<sup>4497</sup>"
+                    },
+                    {
+                        "number": "3982",
+                        "text": "L'Imām 'Alī (as) a dit : La vanité est l'ennemi de la pensée juste, et elle est le fléau des cœurs.<sup>4498</sup>"
+                    },
+                    {
+                        "number": "3983",
+                        "text": "L'Imām 'Alī (as) a dit : La vanité corrompt l'intellect.<sup>4499</sup>"
+                    },
+                    {
+                        "number": "3984",
+                        "text": "L'Imām 'Alī (as) a dit : La vanité empêche le développement.<sup>4500</sup>"
+                    },
+                    {
+                        "number": "3985",
+                        "text": "L'Imām al-Bāqir ou l'Imām al-Ṣādiq (as) ont dit : En vérité, Allah le Béni et le Très-Haut a dit : En vérité, l'un de Mes serviteurs Me demande de lui permettre de réaliser un acte d'adoration afin que Je l'aime. Cependant, Je lui refuse cela afin qu'il ne tire pas vanité de son acte.<sup>4501</sup>"
+                    },
+                    {
+                        "number": "3986",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui est envahi par la vanité périt.<sup>4502</sup>"
+                    }
+                ]
             },
             {
-                "title": "1221 - L'incitation à sous-estimer le bien que l'on fait"
+                "title": "1221 - L'incitation à sous-estimer le bien que l'on fait",
+                "hadiths": [
+                    {
+                        "number": "3987",
+                        "text": "Le Messager d'Allah (s) a dit en décrivant la personne intelligente : Elle considère le peu de bien fait par autrui comme beaucoup et considère le bien abondant qu'elle fait comme peu.<sup>4503</sup>"
+                    },
+                    {
+                        "number": "3988",
+                        "text": "L'Imām al-Bāqir (as) a dit : Sous-estime tes nombreux actes d'obéissance faits pour Allah afin d'humilier ton âme et de t'exposer au pardon.<sup>4504</sup>"
+                    },
+                    {
+                        "number": "3989",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Iblīs - qu'Allah le maudisse - a dit à ses troupes : Si je domine l'homme en trois choses, je ne m'inquiète plus des [bonnes] actions qu'il fera par la suite, car elles ne seront pas acceptées : lorsqu'il surestime ses actes, oublie ses péchés, et devient vaniteux.<sup>4505</sup>"
+                    }
+                ]
             },
             {
-                "title": "1222 - Le traitement de la vanité"
+                "title": "1222 - Le traitement de la vanité",
+                "hadiths": [
+                    {
+                        "number": "3990",
+                        "text": "L'Imām 'Alī (as) a dit : De quoi l'homme peut-il tirer vanité ?! Et ce alors qu'à l'origine, il est un spermatozoïde putride, à la fin, il devient un cadavre répugnant, et entre cela, il porte en lui des excréments ?!<sup>4506</sup>"
+                    },
+                    {
+                        "number": "3991",
+                        "text": "L'Imām al-Bāqir (as) a dit : Obstrue le chemin de la vanité par la connaissance de toi-même.<sup>4507</sup>"
+                    },
+                    {
+                        "number": "3992",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si le passage sur le <i>ṣirāṭ</i> [pont étendu au-dessus de l'Enfer] est une réalité, alors à quoi sert la vanité ?!<sup>4508</sup><br>(Voir également : 270. La connaissance, section 1248 ; 338. L'orgueil, section 1571)"
+                    }
+                ]
             }
         ]
     },
@@ -19712,10 +23716,22 @@ const AUNE_SAGESSE = [
         "title": "264 - LE MIRACLE",
         "subparts": [
             {
-                "title": "1223 - Le miracle est un signe permettant de reconnaître les prophètes d'Allah et Ses preuves"
+                "title": "1223 - Le miracle est un signe permettant de reconnaître les prophètes d'Allah et Ses preuves",
+                "hadiths": [
+                    {
+                        "number": "3993",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le miracle est un signe d'Allah qu'Il n'accorde qu'à Ses prophètes, Ses messagers et Ses preuves afin que la vérité du véridique soit distinguée du mensonge du menteur.<sup>4509</sup>"
+                    }
+                ]
             },
             {
-                "title": "1224 - La signification profonde de la diversité des miracles des prophètes"
+                "title": "1224 - La signification profonde de la diversité des miracles des prophètes",
+                "hadiths": [
+                    {
+                        "number": "3994",
+                        "text": "En réponse à la question d'Ibn al-Sikkīt au sujet de la raison pour laquelle Moïse a été envoyé avec un bâton [qui se transforma en serpent], sa main blanche [et lumineuse] et des instruments magiques, Jésus a été envoyé avec la ressource de la médecine, et Muḥammad - que les prières d'Allah soient sur lui et tous les prophètes - avec la parole et le discours, l'Imām al-Hādī (as) a dit : En vérité, lorsqu'Allah a envoyé Moïse (as), la tendance qui prévalait parmi les gens de cette époque était la magie. Il leur a donc apporté d'Allah ce qu'ils étaient incapables de faire. Par cela, il a rendu caduque leur magie et a affirmé la preuve d'Allah contre eux. Allah a envoyé Jésus (as) à une époque où les maladies paralytiques étaient répandues et les gens avaient besoin de médecine. Il leur a apporté d'Allah ce qu'ils n'avaient pas. Par cela, il a ressuscité les morts et guéri l'aveugle ainsi que le lépreux avec la permission d'Allah, et a ainsi affirmé la preuve d'Allah contre eux. Et en vérité, Allah a envoyé Muḥammad (s) à une époque où la tendance qui prévalait parmi les gens était le discours et l'éloquence - je pense qu'il a dit «les poèmes». Dès lors, il leur a apporté d'Allah des exhortations et des sagesses qui ont invalidé leurs paroles, et il a ainsi affirmé la preuve d'Allah contre eux.<sup>4510</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19723,10 +23739,47 @@ const AUNE_SAGESSE = [
         "title": "265 - LA PRÉCIPITATION",
         "subparts": [
             {
-                "title": "1225 - Le blâme de la précipitation"
+                "title": "1225 - Le blâme de la précipitation",
+                "hadiths": [
+                    {
+                        "number": "3995",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, la précipitation ruine les gens, et s'ils agissaient avec plus de tempérance, personne ne serait ruiné.<sup>4513</sup>"
+                    },
+                    {
+                        "number": "3996",
+                        "text": "Le Messager d'Allah (s) a dit : La patience vient d'Allah alors que la précipitation vient de Satan.<sup>4514</sup>"
+                    },
+                    {
+                        "number": "3997",
+                        "text": "L'Imām 'Alī (as) a dit : La précipitation engendre le faux-pas.<sup>4515</sup>"
+                    },
+                    {
+                        "number": "3998",
+                        "text": "L'Imām 'Alī (as) a dit : La précipitation provoque la multiplication des faux-pas.<sup>4516</sup>"
+                    },
+                    {
+                        "number": "3999",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La prudence génère le salut alors que la précipitation engendre le regret.<sup>4517</sup>"
+                    }
+                ],
+                "introduction": "«L'homme a été créé prompt dans sa nature. Je vous montrerai Mes signes [la réalisation de Mes menaces]. Ne Me hâtez donc pas.»<sup>4511</sup><br><br>«L'homme appelle le mal comme il appelle le bien, car l'homme est très hâtif.»<sup>4512</sup>"
             },
             {
-                "title": "1226 - L'incitation à se hâter pour faire des bonnes actions"
+                "title": "1226 - L'incitation à se hâter pour faire des bonnes actions",
+                "hadiths": [
+                    {
+                        "number": "4000",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah aime le bien qui est fait avec hâte.<sup>4518</sup>"
+                    },
+                    {
+                        "number": "4001",
+                        "text": "L'Imām 'Alī (as) a dit : La prudence et l'attente est louable dans toute chose, sauf dans les occasions de réaliser un bienfait.<sup>4519</sup>"
+                    },
+                    {
+                        "number": "4002",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque tu as l'intention de faire une bonne action, hâte-toi, car en vérité, tu ne sais pas ce qu'il peut advenir [et t'empêcher à l'avenir de la faire].<sup>4520</sup><br>(Voir également : 137. Le bien, section 676)"
+                    }
+                ]
             }
         ]
     },
@@ -19734,16 +23787,97 @@ const AUNE_SAGESSE = [
         "title": "266 - LA JUSTICE",
         "subparts": [
             {
-                "title": "1227 - La valeur de la justice"
+                "title": "1227 - La valeur de la justice",
+                "hadiths": [
+                    {
+                        "number": "4003",
+                        "text": "L'Imām 'Alī (as) a dit : La justice est le fondement qui tient le monde.<sup>4521</sup>"
+                    },
+                    {
+                        "number": "4004",
+                        "text": "L'Imām 'Alī (as) a dit : Allah - gloire à Lui - a fait en sorte que la justice soit le support des créatures, une purification des injustices et des péchés, et un moyen de faciliter et de rendre aisé l'islam.<sup>4522</sup>"
+                    },
+                    {
+                        "number": "4005",
+                        "text": "L'Imām 'Alī (as) a dit : La justice est le support des gouvernés et la beauté [l'ornement] des gouvernants.<sup>4523</sup>"
+                    },
+                    {
+                        "number": "4006",
+                        "text": "L'Imām 'Alī (as) a dit : La justice est le bouclier des gouvernements.<sup>4524</sup>"
+                    },
+                    {
+                        "number": "4007",
+                        "text": "L'Imām 'Alī (as) a dit : C'est par la justice que se corrigent les gens.<sup>4525</sup>"
+                    },
+                    {
+                        "number": "4008",
+                        "text": "L'Imām 'Alī (as) a dit : C'est par la justice que sont multipliées les bénédictions.<sup>4526</sup>"
+                    },
+                    {
+                        "number": "4009",
+                        "text": "L'Imām 'Alī (as) a dit : La justice assure l'ordre et la durée de l'autorité.<sup>4527</sup>"
+                    },
+                    {
+                        "number": "4010",
+                        "text": "L'Imām 'Alī (as) a dit : Rien n'a rendu des pays aussi prospères que la justice.<sup>4528</sup>"
+                    },
+                    {
+                        "number": "4011",
+                        "text": "Lorsqu'il fut interrogé au sujet de ce qui était meilleur entre la justice ou la générosité, l'Imām 'Alī (as) répondit : La justice met chaque chose à sa juste place, alors que la générosité les fait sortir de leur place. La justice est un état général, alors que la générosité est une caractéristique transitoire [sur laquelle une société ne peut être fondée]. Dès lors, la justice est la plus noble et la meilleure des deux.<sup>4529</sup>"
+                    },
+                    {
+                        "number": "4012",
+                        "text": "Fāṭima al-Zahrā (as) a dit : Allah a rendu obligatoire… la justice pour apaiser les cœurs.<sup>4530</sup>"
+                    },
+                    {
+                        "number": "4013",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La justice est plus douce que l'eau bue par un assoiffé.<sup>4531</sup>"
+                    },
+                    {
+                        "number": "4014",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La justice est plus douce que le miel, plus tendre que le beurre, et a un meilleur parfum que le musc.<sup>4532</sup>"
+                    }
+                ]
             },
             {
-                "title": "1228 - Les qualités de la personne juste"
+                "title": "1228 - Les qualités de la personne juste",
+                "hadiths": [
+                    {
+                        "number": "4015",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui a affaire aux gens sans jamais les opprimer, qui leur parle sans jamais leur mentir, et qui leur promet sans manquer à sa promesse, sa dignité est parfaite et sa justice est manifeste ; ainsi, il devient obligatoire de le considérer comme un frère et interdit de médire à son propos.<sup>4533</sup>"
+                    },
+                    {
+                        "number": "4016",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui entoure les gens de la même manière qu'il aimerait qu'on l'entoure est un juste.<sup>4534</sup>"
+                    }
+                ]
             },
             {
-                "title": "1229 - Conseil pour se comporter de façon juste avec son ami et son ennemi"
+                "title": "1229 - Conseil pour se comporter de façon juste avec son ami et son ennemi",
+                "hadiths": [
+                    {
+                        "number": "4017",
+                        "text": "L'Imām 'Alī (as) a dit dans son conseil à son fils Ḥusayn (as) : Je te conseille de craindre Allah dans la pauvreté et la prospérité… et d'être juste vis-à-vis de ton ami et de ton ennemi.<sup>4536</sup>"
+                    }
+                ],
+                "introduction": "«Ô vous qui croyez ! Soyez stricts [dans l'accomplissement de vos devoirs] envers Allah, et [soyez] des témoins équitables. Et que la haine pour un peuple ne vous incite pas à être injustes. Soyez équitables, cela est plus proche de la piété. Et craignez Allah, car Allah est Parfaitement Connaisseur de ce que vous faites.»<sup>4535</sup>"
             },
             {
-                "title": "1230 - La plus juste des personnes"
+                "title": "1230 - La plus juste des personnes",
+                "hadiths": [
+                    {
+                        "number": "4018",
+                        "text": "L'Imām 'Alī (as) a dit : La plus juste des personnes est celle qui utilise sa force de façon équitable.<sup>4537</sup>"
+                    },
+                    {
+                        "number": "4019",
+                        "text": "L'Imām 'Alī (as) a dit : La plus juste des créatures est celle qui juge le mieux selon la vérité.<sup>4538</sup>"
+                    },
+                    {
+                        "number": "4020",
+                        "text": "L'Imām 'Alī (as) a dit : Le sommet de la justice est que l'être humain soit juste vis-à-vis de lui-même.<sup>4539</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19751,28 +23885,117 @@ const AUNE_SAGESSE = [
         "title": "267 - L'ANIMOSITÉ",
         "subparts": [
             {
-                "title": "1231 - L'interdiction de faire preuve d'animosité vis-à-vis des gens"
+                "title": "1231 - L'interdiction de faire preuve d'animosité vis-à-vis des gens",
+                "hadiths": [
+                    {
+                        "number": "4021",
+                        "text": "Le Messager d'Allah (s) a dit : Gabriel ne m'a pas enjoint à une chose autant que de ne pas faire preuve d'animosité vis-à-vis des hommes.<sup>4540</sup>"
+                    },
+                    {
+                        "number": "4022",
+                        "text": "Le Messager d'Allah (s) a dit : Après l'adoration des idoles, aucune chose ne m'a été autant interdite que la querelle avec les hommes.<sup>4541</sup>"
+                    },
+                    {
+                        "number": "4023",
+                        "text": "Le Messager d'Allah (s) a dit : La noblesse de celui qui fait preuve d'animosité vis-à-vis des hommes décroît, et sa dignité disparaît.<sup>4542</sup>"
+                    },
+                    {
+                        "number": "4024",
+                        "text": "L'Imām 'Alī (as) a dit : Le sommet de l'ignorance est de faire preuve d'animosité vis-à-vis des gens.<sup>4543</sup>"
+                    },
+                    {
+                        "number": "4025",
+                        "text": "L'Imām al-Bāqir (as) a dit : Prenez garde à l'animosité car en vérité, elle corrompt le cœur et engendre l'hypocrisie.<sup>4544</sup>"
+                    }
+                ]
             },
             {
-                "title": "1232 - La graine de l'animosité"
+                "title": "1232 - La graine de l'animosité",
+                "hadiths": [
+                    {
+                        "number": "4026",
+                        "text": "L'Imām 'Alī (as) a dit : La cause de l'animosité est le manque d'attention [porté aux autres].<sup>4545</sup>"
+                    },
+                    {
+                        "number": "4027",
+                        "text": "L'Imām 'Alī (as) a dit : Toute chose a une graine, et la graine de l'animosité est la moquerie.<sup>4546</sup>"
+                    }
+                ]
             },
             {
-                "title": "1233 - Celui qui doit être considéré comme un ennemi"
+                "title": "1233 - Celui qui doit être considéré comme un ennemi",
+                "hadiths": [
+                    {
+                        "number": "4028",
+                        "text": "L'Imām 'Alī (as) a dit : Le ventre de la personne est son ennemi.<sup>4548</sup>"
+                    },
+                    {
+                        "number": "4029",
+                        "text": "L'Imām al-Jawād (as) a dit : Celui qui t'a dissimulé [le chemin de] la droiture en te laissant suivre tes passions est sans aucun doute ton ennemi.<sup>4549</sup><br>(Voir également : 216. Satan, section 1027)"
+                    }
+                ],
+                "introduction": "«Ô vous qui avez cru, vous avez de vos épouses et de vos enfants un ennemi [une tentation]. Prenez-y donc garde. Mais si vous [les] excusez, passez sur [leurs] fautes et [leur] pardonnez, sachez qu'Allah est Pardonneur, Très Miséricordieux.»<sup>4547</sup>"
             },
             {
-                "title": "1234 - Ton pire ennemi"
+                "title": "1234 - Ton pire ennemi",
+                "hadiths": [
+                    {
+                        "number": "4030",
+                        "text": "Le Messager d'Allah (s) a dit : Ton pire ennemi est [le bas aspect de] ton âme qui se trouve entre tes côtes.<sup>4550</sup>"
+                    },
+                    {
+                        "number": "4031",
+                        "text": "L'Imām 'Alī (as) a dit : Le pire ennemi de l'homme est sa colère et son bas désir ; celui qui les a maîtrisés verra son rang s'élever et il atteindra son objectif.<sup>4551</sup>"
+                    }
+                ]
             },
             {
-                "title": "1235 - Mise en garde contre le fait de faire confiance à son ennemi"
+                "title": "1235 - Mise en garde contre le fait de faire confiance à son ennemi",
+                "hadiths": [
+                    {
+                        "number": "4032",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui tombe dans un sommeil [d'insouciance] face à son ennemi sera réveillé par ses complots.<sup>4552</sup>"
+                    },
+                    {
+                        "number": "4033",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui oublie [son ennemi par insouciance] ne sera pas oublié [par lui].<sup>4553</sup>"
+                    },
+                    {
+                        "number": "4034",
+                        "text": "L'Imām 'Alī (as) a dit : Ne sous-estime jamais un ennemi, même s'il est faible.<sup>4554</sup>"
+                    }
+                ]
             },
             {
-                "title": "1236 - Se réconcilier avec ses ennemis"
+                "title": "1236 - Se réconcilier avec ses ennemis",
+                "hadiths": [
+                    {
+                        "number": "4035",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se réconcilie avec son ennemi accroît le nombre [de ceux qui sont de son côté].<sup>4555</sup>"
+                    },
+                    {
+                        "number": "4036",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se réconcilie avec ses antagonistes atteint son objectif.<sup>4556</sup>"
+                    }
+                ]
             },
             {
-                "title": "1237 - La manière dont il faut s'armer face aux ennemis"
+                "title": "1237 - La manière dont il faut s'armer face aux ennemis",
+                "hadiths": [
+                    {
+                        "number": "4037",
+                        "text": "Luqmān (as) a dit dans son conseil à son fils : Ô mon fils, fais en sorte que ce dont tu t'armes pour contrer ton ennemi et le vaincre soient les paroles douces et l'expression de la satisfaction à son égard. Et ne l'évite pas afin qu'il voie ce qui se passe en toi et qu'il ne puisse pas se préparer contre toi [pour t'attaquer].<sup>4557</sup>"
+                    }
+                ]
             },
             {
-                "title": "1238 - L'hostilité des gens vis-à-vis de ce qu'ils ignorent"
+                "title": "1238 - L'hostilité des gens vis-à-vis de ce qu'ils ignorent",
+                "hadiths": [
+                    {
+                        "number": "4038",
+                        "text": "L'Imām 'Alī (as) a dit : Les gens sont les ennemis de ce qu'ils ignorent.<sup>4558</sup><br>(Voir également : 79. L'ignorance, section 394)"
+                    }
+                ]
             }
         ]
     },
@@ -19780,10 +24003,42 @@ const AUNE_SAGESSE = [
         "title": "268 - LES EXCUSES",
         "subparts": [
             {
-                "title": "1239 - Mise en garde contre le fait de faire ce qui implique par la suite de présenter des excuses"
+                "title": "1239 - Mise en garde contre le fait de faire ce qui implique par la suite de présenter des excuses",
+                "hadiths": [
+                    {
+                        "number": "4039",
+                        "text": "Le Messager d'Allah (s) a dit : Prends garde à ne pas faire ce qui te conduit à présenter des excuses, car en vérité, en cela se cache l'associationnisme caché.<sup>4559</sup>"
+                    },
+                    {
+                        "number": "4040",
+                        "text": "L'Imām Ḥusayn (as) a dit : Prends garde à ne pas faire ce qui te conduit à présenter des excuses, car en vérité, le croyant n'offense pas ni ne s'excuse, alors que l'hypocrite offense et s'excuse chaque jour.<sup>4560</sup>"
+                    },
+                    {
+                        "number": "4041",
+                        "text": "<i>Mishkat al-Anwār</i> : Un compagnon de l'Imām al-Ṣādiq (as) a dit : L'Imām al-Ṣādiq (as) a dit : «Le croyant ne doit jamais humilier sa personne.» Je lui demandai : «Comment humilie-t-il sa personne ?» Il répondit : «En entreprenant une chose pour laquelle il doit ensuite demander des excuses.»<sup>4561</sup>"
+                    }
+                ]
             },
             {
-                "title": "1240 - L'incitation à accepter les excuses de celui qui les présente"
+                "title": "1240 - L'incitation à accepter les excuses de celui qui les présente",
+                "hadiths": [
+                    {
+                        "number": "4042",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui n'accepte pas les excuses d'une personne, qu'elle soit sincère ou menteuse, ne me rejoindra pas à proximité du Bassin paradisiaque [au Paradis].<sup>4562</sup>"
+                    },
+                    {
+                        "number": "4043",
+                        "text": "L'Imām 'Alī (as) a dit : Accepte l'excuse de ton frère et s'il n'en a pas, trouve-lui en une.<sup>4563</sup>"
+                    },
+                    {
+                        "number": "4044",
+                        "text": "L'Imām 'Alī (as) a dit : La plus sage et compréhensive des personnes est celle qui accepte le plus volontiers les excuses des autres.<sup>4564</sup>"
+                    },
+                    {
+                        "number": "4045",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Si un homme t'insulte à ta droite, puis vient à ta gauche et s'excuse, alors accepte ses excuses.<sup>4565</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19791,13 +24046,47 @@ const AUNE_SAGESSE = [
         "title": "269 - LA DIGNITÉ",
         "subparts": [
             {
-                "title": "1241 - L'incitation à préserver sa dignité"
+                "title": "1241 - L'incitation à préserver sa dignité",
+                "hadiths": [
+                    {
+                        "number": "4046",
+                        "text": "L'Imām 'Alī (as) a dit : La plus avare des personnes dans ses biens est la plus généreuse vis-à-vis de sa dignité [en ce qu'elle l'abandonne rapidement].<sup>4566</sup>"
+                    },
+                    {
+                        "number": "4047",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure forme de richesse est celle qui est utilisée pour préserver sa dignité.<sup>4567</sup>"
+                    },
+                    {
+                        "number": "4048",
+                        "text": "L'Imām 'Alī (as) a dit : Que celui qui craint pour sa dignité s'abstienne des controverses et disputes.<sup>4568</sup>"
+                    },
+                    {
+                        "number": "4049",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque la dignité est perdue, elle est très difficile à restaurer.<sup>4569</sup>"
+                    }
+                ]
             },
             {
-                "title": "1242 - La rétribution pour s'abstenir de porter atteinte à la dignité des musulmans"
+                "title": "1242 - La rétribution pour s'abstenir de porter atteinte à la dignité des musulmans",
+                "hadiths": [
+                    {
+                        "number": "4050",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le Jour de la Résurrection, Allah le Tout-Puissant épargnera tout faux pas à celui qui s'est abstenu de porter atteinte à la dignité des musulmans.<sup>4570</sup>"
+                    }
+                ]
             },
             {
-                "title": "1243 - La rétribution de celui qui défend la dignité du musulman"
+                "title": "1243 - La rétribution de celui qui défend la dignité du musulman",
+                "hadiths": [
+                    {
+                        "number": "4051",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui protège la dignité de son frère, son acte sera pour lui une protection contre le Feu [de l'Enfer].<sup>4571</sup>"
+                    },
+                    {
+                        "number": "4052",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui protège la dignité de son frère musulman méritera obligatoirement et assurément le Paradis.<sup>4572</sup><br>(Voir également : 310. La médisance, section 1459)"
+                    }
+                ]
             }
         ]
     },
@@ -19805,13 +24094,92 @@ const AUNE_SAGESSE = [
         "title": "270 - LA CONNAISSANCE",
         "subparts": [
             {
-                "title": "1244 - La valeur de la connaissance"
+                "title": "1244 - La valeur de la connaissance",
+                "hadiths": [
+                    {
+                        "number": "4053",
+                        "text": "Le Messager d'Allah (s) a dit : Celui parmi vous qui a la meilleure foi est celui qui a la meilleure connaissance [intérieure].<sup>4574</sup>"
+                    },
+                    {
+                        "number": "4054",
+                        "text": "L'Imām 'Alī (as) a dit : Le savoir (<i>'ilm</i>) est le premier guide, alors que la connaissance [intérieure d'Allah, <i>ma'rifa</i>] est le but ultime.<sup>4575</sup>"
+                    },
+                    {
+                        "number": "4055",
+                        "text": "L'Imām 'Alī (as) a dit : La connaissance [intérieure] est la lumière du cœur.<sup>4576</sup>"
+                    },
+                    {
+                        "number": "4056",
+                        "text": "L'Imām Ḥusayn (as) a dit : L'acquisition du savoir (<i>'ilm</i>) permet de rendre la connaissance [intérieure] féconde.<sup>4577</sup>"
+                    },
+                    {
+                        "number": "4057",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah n'accepte pas l'acte accompli sans connaissance, et la connaissance ne vient qu'avec les actes. Ainsi, celui qui acquiert une connaissance, cette connaissance le conduira à agir, et celui qui n'agit pas est dépourvu de connaissance.<sup>4578</sup>"
+                    }
+                ]
             },
             {
-                "title": "1245 - Les obstacles à la connaissance"
+                "title": "1245 - Les obstacles à la connaissance",
+                "hadiths": [
+                    {
+                        "number": "4058",
+                        "text": "Le Messager d'Allah (s) a dit : La lumière de la sagesse est apportée par la faim, tandis que l'éloignement d'Allah est causé par la satiété, et la proximité avec Allah est apportée par l'amour des pauvres et le fait de se rapprocher d'eux. Ainsi, ne mangez pas à satiété afin que la lumière de la connaissance [intérieure] ne s'éteigne pas dans vos cœurs.<sup>4580</sup>"
+                    }
+                ],
+                "introduction": "«Vois-tu celui qui prend sa passion pour sa propre divinité ? Et Allah l'égare par la science qu'il a reçue et scelle son ouïe et son cœur, et étend un voile sur sa vue. Qui peut donc le guider après Allah ? Ne vous rappelez-vous donc pas ?»<sup>4579</sup>"
             },
             {
-                "title": "1246 - La connaissance de soi"
+                "title": "1246 - La connaissance de soi",
+                "hadiths": [
+                    {
+                        "number": "4059",
+                        "text": "L'Imām 'Alī (as) a dit : La connaissance de soi est la plus bénéfique des connaissances.<sup>4581</sup>"
+                    },
+                    {
+                        "number": "4060",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui a réussi à se connaître a obtenu la plus grande victoire.<sup>4582</sup>"
+                    },
+                    {
+                        "number": "4061",
+                        "text": "L'Imām 'Alī (as) a dit : Comment celui qui ne se connaît pas lui-même peut-il connaître les autres ?!<sup>4583</sup>"
+                    },
+                    {
+                        "number": "4062",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui connaît son âme lutte contre elle, et celui qui en est ignorant la néglige.<sup>4584</sup>"
+                    },
+                    {
+                        "number": "4063",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui connaît Allah devient solitaire, celui qui se connaît lui-même se détache [de toute autre chose qu'Allah], celui qui connaît ce bas-monde y renonce, et celui qui connaît les hommes choisit la solitude.<sup>4585</sup>"
+                    },
+                    {
+                        "number": "4064",
+                        "text": "L'Imām 'Alī (as) a dit : La personne qui se connaît le mieux est celle qui craint le plus son Seigneur.<sup>4586</sup>"
+                    },
+                    {
+                        "number": "4065",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se connaît lui-même connaît son Seigneur.<sup>4587</sup>"
+                    },
+                    {
+                        "number": "4066",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui connaît la dignité de son âme se doit de la purifier des bassesses de la vie de ce monde.<sup>4588</sup>"
+                    },
+                    {
+                        "number": "4067",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se connaît lui-même se doit de s'astreindre à la frugalité et à la chasteté.<sup>4589</sup>"
+                    },
+                    {
+                        "number": "4068",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se connaît lui-même ne doit pas laisser la tristesse et la prudence le quitter.<sup>4590</sup>"
+                    },
+                    {
+                        "number": "4069",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans l'une de ses invocations : Fais en sorte que nous soyons de ceux qui se sont connus eux-mêmes et qui ont acquis la certitude de leur demeure [véritable], de telle façon qu'ils passent leur vie dans Ton obéissance.<sup>4591</sup>"
+                    },
+                    {
+                        "number": "4070",
+                        "text": "L'Imām al-Bāqir (as) a dit dans son conseil à Jābir al-Ju'fī : Aucune connaissance n'est similaire à la connaissance de toi-même.<sup>4592</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19819,91 +24187,546 @@ const AUNE_SAGESSE = [
         "title": "271 - LA CONNAISSANCE D'ALLAH",
         "subparts": [
             {
-                "title": "1247 - La vertu de la connaissance d'Allah"
+                "title": "1247 - La vertu de la connaissance d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4071",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui connaît Allah a atteint la perfection de sa connaissance.<sup>4593</sup>"
+                    },
+                    {
+                        "number": "4072",
+                        "text": "L'Imām 'Alī (as) a dit : La connaissance d'Allah - gloire à Lui - est la connaissance la plus élevée.<sup>4594</sup>"
+                    },
+                    {
+                        "number": "4073",
+                        "text": "L'Imām 'Alī (as) a dit : Je n'aurais pas aimé mourir enfant et entrer au Paradis, [car ainsi,] je n'aurais pas pu grandir et connaître mon Seigneur, le Tout-Puissant.<sup>4595</sup>"
+                    },
+                    {
+                        "number": "4074",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit du savoir est l'atteinte de la connaissance d'Allah.<sup>4596</sup>"
+                    },
+                    {
+                        "number": "4075",
+                        "text": "L'Imām 'Alī (as) a dit : Celui dont le cœur est habité par la connaissance d'Allah sera habité par l'absence de besoin de la création d'Allah.<sup>4597</sup>"
+                    },
+                    {
+                        "number": "4076",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si les hommes connaissaient la vertu de la connaissance d'Allah le Tout-Puissant, ils ne jetteraient pas leurs regards sur les splendeurs et bienfaits de ce monde qu'Allah a accordés à leurs ennemis. Les biens mondains de ces derniers leur paraîtraient alors plus insignifiants que la poussière sous leurs pieds, et ils prendraient plaisir [à acquérir cette connaissance] du même plaisir que celui qui n'a cessé d'être dans les jardins du Paradis avec les amis d'Allah. En vérité, la connaissance d'Allah le Tout-Puissant est le compagnon intime de toute tristesse, l'ami de toute solitude, la lumière de toute obscurité, la force de toute faiblesse, et le remède de toute maladie.<sup>4598</sup>"
+                    }
+                ]
             },
             {
-                "title": "1248 - Les effets de la connaissance d'Allah"
+                "title": "1248 - Les effets de la connaissance d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4077",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui connaît Allah et Le glorifie empêche sa bouche de proférer toute parole [vaine], se retient de consommer de la nourriture, et épuise sa personne par le jeûne et la prière.<sup>4599</sup>"
+                    },
+                    {
+                        "number": "4078",
+                        "text": "Le Messager d'Allah (s) a dit : Si vous connaissiez véritablement Allah comme Il se doit d'être connu, vous pourriez marcher sur l'eau et les montagnes tomberaient sur votre ordre.<sup>4600</sup>"
+                    },
+                    {
+                        "number": "4079",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui connaît le plus Allah Le craint le plus.<sup>4601</sup>"
+                    },
+                    {
+                        "number": "4080",
+                        "text": "L'Imām 'Alī (as) a dit : Un peu de connaissance [d'Allah] entraîne un renoncement [vis-à-vis des choses éphémères] de ce monde.<sup>4602</sup>"
+                    },
+                    {
+                        "number": "4081",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, il ne sied pas à celui qui a atteint la connaissance de la grandeur d'Allah de se comporter avec fierté car en vérité, l'éminence de ceux qui reconnaissent Sa grandeur vient du fait qu'ils s'humilient face à Lui.<sup>4603</sup>"
+                    },
+                    {
+                        "number": "4082",
+                        "text": "L'Imām 'Alī (as) a dit : Le but et le sommet de la connaissance d'Allah est la crainte [d'Allah].<sup>4604</sup>"
+                    },
+                    {
+                        "number": "4083",
+                        "text": "L'Imām 'Alī (as) a dit : Les personnes qui connaissent le mieux Allah sont celles qui Lui demandent le plus.<sup>4605</sup>"
+                    },
+                    {
+                        "number": "4084",
+                        "text": "L'Imām al-Bāqir (as) a dit : La créature d'Allah la plus apte à se soumettre au décret d'Allah le Tout-Puissant est celle qui connaît Allah le Tout-Puissant.<sup>4606</sup>"
+                    },
+                    {
+                        "number": "4085",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui connaît Allah Le craint, et celui qui craint Allah se détache du monde.<sup>4607</sup>"
+                    },
+                    {
+                        "number": "4086",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la personne qui connaît le mieux Allah est celle qui est la plus satisfaite du décret d'Allah le Tout-Puissant.<sup>4608</sup><br>(Voir également : 419. La certitude, section 1916 ; 288. Le savoir, section 1356)"
+                    }
+                ]
             },
             {
-                "title": "1249 - Les caractéristiques de celui qui connaît Allah [ou du gnostique]"
+                "title": "1249 - Les caractéristiques de celui qui connaît Allah [ou du gnostique]",
+                "hadiths": [
+                    {
+                        "number": "4087",
+                        "text": "L'Imām 'Alī (as) a dit : Le visage de celui qui connaît Allah est joyeux et souriant, alors que son cœur est craintif et triste.<sup>4609</sup>"
+                    },
+                    {
+                        "number": "4088",
+                        "text": "L'Imām 'Alī (as) a dit : Le désir [pour Allah] est le compagnon sincère de ceux qui connaissent Allah.<sup>4610</sup>"
+                    },
+                    {
+                        "number": "4089",
+                        "text": "L'Imām 'Alī (as) a dit : La crainte est le vêtement de ceux qui connaissent Allah.<sup>4611</sup>"
+                    },
+                    {
+                        "number": "4090",
+                        "text": "L'Imām 'Alī (as) a dit : Pleurer par crainte d'Allah d'être éloigné de Lui est l'adoration de ceux qui connaissent Allah.<sup>4612</sup>"
+                    },
+                    {
+                        "number": "4091",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Aie confiance en Allah et tu [Le] connaîtras.<sup>4613</sup>"
+                    }
+                ]
             },
             {
-                "title": "1250 - Le plus petit degré de la connaissance d'Allah"
+                "title": "1250 - Le plus petit degré de la connaissance d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4092",
+                        "text": "Lorsqu'il fut interrogé au sujet du plus petit degré de la connaissance [d'Allah], l'Imām al-Kāẓim (as) répondit : C'est d'attester qu'il n'y a de dieu que Lui, qu'Il n'a pas d'égal ni de semblable, qu'Il est Eternel, Immuable, Existant et Impérissable, et qu'aucune chose n'est comme Lui.<sup>4614</sup>"
+                    }
+                ]
             },
             {
-                "title": "1251 - Connaître Allah par Allah"
+                "title": "1251 - Connaître Allah par Allah",
+                "hadiths": [
+                    {
+                        "number": "4093",
+                        "text": "L'Imām 'Alī (as) a dit : Connaissez Allah par Allah et le Messager par le message [qu'il a apporté], ainsi que ceux investis de l'autorité par leur recommandation du bien, leur justice, et leur bienfaisance.<sup>4615</sup>"
+                    },
+                    {
+                        "number": "4094",
+                        "text": "L'Imām Ḥusayn (as) a dit dans une invocation : Ô mon Dieu ! L'attention que je porte aux signes [de la nature] implique l'éloignement du lieu de la Rencontre, alors concentre-moi sur Toi par un service qui me conduit à Toi. Comment Te déduire de ce qui est, en son existence, dépendant de Toi ?! Autre que Toi aurait-il une apparition que Tu n'aurais pas, de sorte qu'il soit, lui, celui qui Te fait apparaître ?! Quand étais-Tu absent pour que Tu aies besoin d'un indice qui T'indique ?!… Je Te déduis par Toi-même, ainsi, guide-moi par Ta lumière vers Toi.<sup>4616</sup>"
+                    },
+                    {
+                        "number": "4095",
+                        "text": "<i>Al-Iqbāl</i> : L'Imām Zayn al-'Ābidīn (as) a dit dans une invocation : Je T'ai connu par Toi et c'est Toi qui m'as indiqué à Toi et qui m'as appelé à Toi, et si ce n'était par Toi, je n'aurais pas su qui Tu es.<sup>4617</sup>"
+                    }
+                ]
             },
             {
-                "title": "1252 - L'interdiction de réfléchir au sujet de l'Essence d'Allah"
+                "title": "1252 - L'interdiction de réfléchir au sujet de l'Essence d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4096",
+                        "text": "Le Messager d'Allah (s) a dit : Réfléchissez au sujet de la création d'Allah mais ne réfléchissez pas au sujet de [l'essence d']Allah, car vous serez voués à la perte.<sup>4618</sup>"
+                    },
+                    {
+                        "number": "4097",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Prenez garde à la réflexion au sujet de [l'essence d']Allah car en vérité, réfléchir au sujet [de l'essence] d'Allah ne fait qu'accroître l'égarement. En vérité, Allah le Tout-Puissant n'est pas perceptible par les regards ni décrit par aucune mesure.<sup>4619</sup>"
+                    },
+                    {
+                        "number": "4098",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui s'interroge au sujet [de l'essence] d'Allah est voué à la perte.<sup>4620</sup><br>(Voir également : 324. La réflexion, section 1504)"
+                    }
+                ]
             },
             {
-                "title": "1253 - L'incapacité des intellects à connaître Son Essence"
+                "title": "1253 - L'incapacité des intellects à connaître Son Essence",
+                "hadiths": [
+                    {
+                        "number": "4099",
+                        "text": "L'Imām 'Alī (as) a dit : Nous ne connaissons pas l'essence de Ta grandeur, tout ce que nous savons est que Tu es vivant et que Tu subsistes par Toi-même, ni l'assoupissement, ni le sommeil n'ont de prise sur Toi, aucune pensée ne T'atteint et aucun regard ne Te perçoit.<sup>4621</sup>"
+                    },
+                    {
+                        "number": "4100",
+                        "text": "L'Imām 'Alī (as) a dit en décrivant les anges : En vérité, malgré les positions qu'ils détiennent de Toi, le rang qu'ils occupent auprès de Toi, tout leur amour concentré sur Toi, leur grande adoration et obéissance envers Toi, et leur rare négligence à Ton égard, s'ils venaient à contempler l'essence de ce qui leur est caché de Toi, ils considèreraient leurs actes comme étant insignifiants, ils se feraient des reproches à eux-mêmes et réaliseraient qu'ils ne T'ont pas adoré comme Tu mérites d'être adoré, et qu'ils ne T'ont pas obéi comme Tu mérites d'être obéi.<sup>4622</sup>"
+                    },
+                    {
+                        "number": "4101",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans une invocation : Les intellects sont incapables de saisir l'essence de Ta beauté, les regards sont réduits à regarder ce qui est autre que la splendeur de Ta face, et Tu n'as accordé à Tes créatures aucune voie permettant de Te connaître, si ce n'est l'incapacité de Te connaître.<sup>4623</sup>"
+                    },
+                    {
+                        "number": "4102",
+                        "text": "L'Imām al-Riḍā (as) a dit : Son essence est ce qui Le distingue de Ses créatures.<sup>4624</sup>"
+                    },
+                    {
+                        "number": "4103",
+                        "text": "L'Imām al-Riḍā (as) a dit en décrivant Allah - loué soit-Il - : Il est trop élevé pour que le regard puisse Le percevoir, que l'imagination puisse Le cerner, ou que l'intellect puisse Le saisir.<sup>4625</sup>"
+                    }
+                ]
             },
             {
-                "title": "1254 - Le cadre dans lequel on peut décrire Allah"
+                "title": "1254 - Le cadre dans lequel on peut décrire Allah",
+                "hadiths": [
+                    {
+                        "number": "4104",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui [entreprend de] Le décrire Le limite, et celui qui Le limite L'énumère [c'est-à-dire Le considère comme ayant plusieurs parties], et celui qui L'énumère infirme Son éternité. Celui qui demande : «Comment est-Il ?» aura cherché à Le décrire, et celui qui demande : «Où est-Il ?» L'aura confiné à un lieu particulier.<sup>4626</sup>"
+                    },
+                    {
+                        "number": "4105",
+                        "text": "L'Imām 'Alī (as) a dit : Béni soit Allah qui n'est pas atteint par les aspirations élevées ni par les intuitions des esprits intelligents.<sup>4627</sup>"
+                    },
+                    {
+                        "number": "4106",
+                        "text": "L'Imām 'Alī (as) a dit : [Il est] Un sans être nombre, Permanent sans extrémité, Subsistant sans aucun support.<sup>4628</sup>"
+                    },
+                    {
+                        "number": "4107",
+                        "text": "<i>Al-Kāfī</i> : L'Imām al-Ṣādiq (as) a dit à un homme ayant dit en sa présence : «Allah est le plus grand» : «Allah est plus grand par rapport à quoi ?» Il dit alors : «Par rapport à toute chose.» L'Imām (as) dit : «Tu L'as défini [et limité].» L'homme demanda alors : «Que dois-je donc dire ?» Il répondit (as) : «Dis : «Allah est trop grand pour pouvoir être décrit».»<sup>4629</sup>"
+                    },
+                    {
+                        "number": "4108",
+                        "text": "L'Imām al-Kāẓim (as) a dit : En vérité, Allah est trop élevé, trop sublime et trop grand pour être décrit dans Son essence, alors décrivez-Le comme Il s'est décrit Lui-même et abstenez-vous d'autre chose.<sup>4630</sup>"
+                    },
+                    {
+                        "number": "4109",
+                        "text": "L'Imām al-Hādī (as) a dit : En vérité, le Créateur ne peut être décrit que par ce dont Il s'est décrit Lui-même ; et comment décrire le Créateur alors que les sens sont incapables de Le percevoir, les imaginations incapables de L'atteindre, quand les pensées ne peuvent Le définir et Le limiter et que les regards ne peuvent Le cerner !? Il est trop glorieux pour être décrit par ceux qui entreprennent de Le décrire, et trop éminent pour se voir attribuer les attributs de ceux qui cherchent à Lui en attribuer.<sup>4631</sup>"
+                    }
+                ]
             },
             {
-                "title": "1255 - La valeur de [la croyance en] l'unicité d'Allah (tawḥīd) et son explication"
+                "title": "1255 - La valeur de [la croyance en] l'unicité d'Allah (tawḥīd) et son explication",
+                "hadiths": [
+                    {
+                        "number": "4110",
+                        "text": "Le Messager d'Allah (s) a dit : [La croyance en] l'unicité d'Allah est la moitié de la religion.<sup>4632</sup>"
+                    },
+                    {
+                        "number": "4111",
+                        "text": "L'Imām 'Alī (as) a dit : [La croyance en] l'unicité d'Allah est la vie de l'âme.<sup>4633</sup>"
+                    },
+                    {
+                        "number": "4112",
+                        "text": "L'Imām 'Alī (as) a dit : [La croyance en] l'unicité d'Allah est de ne pas Le soumettre [aux limitations de] ton imagination.<sup>4634</sup>"
+                    },
+                    {
+                        "number": "4113",
+                        "text": "L'Imām al-Ṣādiq (as) a dit à un homme : [La croyance en] l'unicité d'Allah est de ne pas appliquer à ton Seigneur ce qui s'applique à toi, et la justice est de ne pas imputer à ton Créateur les choses qu'Il te reproche.<sup>4635</sup>"
+                    },
+                    {
+                        "number": "4114",
+                        "text": "L'Imām al-Riḍā (as) a dit : La première étape de l'adoration d'Allah est Sa connaissance, la base de la connaissance d'Allah - glorifié soit Son nom - est la reconnaissance de Son unicité, et le fondement de [l'affirmation de] Son unicité est la négation de toute limite à Son sujet, car les intellects témoignent que toute chose limitée est créée.<sup>4636</sup>"
+                    }
+                ]
             },
             {
-                "title": "1256 - La preuve de l'unicité divine"
+                "title": "1256 - La preuve de l'unicité divine",
+                "hadiths": [
+                    {
+                        "number": "4115",
+                        "text": "L'Imām 'Alī (as) a dit dans sa recommandation à son fils Ḥasan (as) : Mon fils, sache que si ton Seigneur avait un associé, tu aurais certainement été contacté par ses Messagers, tu aurais vu les signes de sa souveraineté et de son pouvoir, et tu connaîtrais ses actes et attributs. Or, Il est un Dieu unique, comme Il s'est décrit Lui-même ; personne ne s'oppose à Lui dans Son royaume et Il ne cessera jamais d'être.<sup>4638</sup>"
+                    },
+                    {
+                        "number": "4116",
+                        "text": "L'Imām al-Ṣādiq (as) a dit lors d'un débat avec un incroyant : Si tu dis : «Ils sont deux [dieux]», dans ce cas, soit ils sont absolument semblables en tout point, soit ils sont absolument opposés en tout point. Or, lorsque nous regardons la création ordonnée, les orbites des corps célestes, l'alternance du jour et de la nuit, le soleil et la lune… le bon fonctionnement, l'organisation, et l'harmonie de tout cela indique que le Régisseur [de la création] est unique.<br>Si tu prétends toujours qu'ils sont deux, il faut nécessairement qu'il existe une sorte de différence entre eux pour qu'ils soient deux [et distincts l'un de l'autre]. Dès lors, cette différence devient elle-même un troisième [dieu] aussi éternel qu'eux, et tu deviens obligé de croire en un troisième dieu. Et si tu prétends qu'ils sont trois, tu dois admettre les mêmes conséquences que lorsqu'ils sont deux, c'est-à-dire qu'il existe deux différences entre eux [qui les singularisent], et il y a dès lors cinq [dieux] ; et ainsi la multiplication se poursuit à l'infini.<sup>4639</sup>"
+                    },
+                    {
+                        "number": "4117",
+                        "text": "Lorsqu'on lui demanda de donner la preuve que Dieu est Un, l'Imām al-Ṣādiq (as) dit : C'est la continuité et l'harmonie de la gestion [du monde] ainsi que la perfection de la création, comme l'a dit Allah le Tout-Puissant : «<i>S'il y avait [dans le ciel et la terre] des divinités autres qu'Allah, tous deux seraient certes dans le désordre</i>»<sup>4640</sup>.<sup>4641</sup>"
+                    },
+                    {
+                        "number": "4118",
+                        "text": "<i>Al-Tawḥīd</i> : Lorsqu'un homme croyant en l'existence de deux dieux lui demanda : «Je crois que le créateur de l'univers sont deux, quelle est la preuve qu'Il est unique ?», l'Imām al-Riḍā (as) répondit : «Le fait même que tu crois qu'ils sont deux est en soi une preuve qu'Il est unique, car en vérité, tu ne prétends que le second existe qu'après avoir affirmé l'existence de l'Un. Dès lors, l'existence de l'Un fait l'objet d'un consensus, c'est le fait [de croire en] plus d'un qui est l'objet de désaccord [et reste à être prouvé].»<sup>4642</sup>"
+                    },
+                    {
+                        "number": "4119",
+                        "text": "<i>Tafsīr al-Qummī</i> : Puis Allah le Très-Haut répondit aux partisans du dualisme qui croyaient à l'existence de deux dieux en disant : «<i>Allah ne S'est point attribué d'enfant et il n'existe point de divinité avec Lui…</i>»<sup>4643</sup> Et Il dit : «S'ils étaient deux dieux comme vous le prétendez, il existerait une rivalité entre eux. L'un créerait ceci et l'autre ne le créerait pas ; l'un voudrait cela et l'autre ne le voudrait pas, et chacun d'eux chercherait la supériorité. Et si l'un des deux voulait créer l'homme, l'autre voudrait alors créer un animal, et il y aurait donc un homme et un animal [sous la forme d'une même créature], alors que cela n'existe pas. Etant donné que cet argument est invalide, il est prouvé que l'organisation et la création sont uniques ; en outre, la gestion [de la création], son harmonie et les liens d'interdépendance [entre les créatures] indiquent que le Créateur est unique ; et c'est ce que signifie Sa parole : «<i>Allah ne S'est point attribué d'enfant</i>»<sup>4644</sup> et : «[s'il y avait d'autres divinités,] <i>certaines seraient supérieures aux autres</i>»<sup>4645</sup>».<sup>4646</sup>"
+                    }
+                ],
+                "introduction": "«Et quiconque invoque avec Allah une autre divinité, sans avoir la preuve évidente [de son existence], aura à en rendre compte à son Seigneur. En vérité, les mécréants ne réussiront pas.»<sup>4637</sup>"
             },
             {
-                "title": "1257 - Les regards ne peuvent L'atteindre mais les cœurs Le contemplent"
+                "title": "1257 - Les regards ne peuvent L'atteindre mais les cœurs Le contemplent",
+                "hadiths": [
+                    {
+                        "number": "4120",
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque je fus élevé au ciel lors de mon voyage nocturne, Gabriel me fit atteindre un lieu où il ne s'était lui-même jamais rendu. Les voiles furent levés face à moi et Allah le Tout-Puissant me dévoila ce qu'Il désirait de la lumière de Sa majesté.<sup>4648</sup>"
+                    },
+                    {
+                        "number": "4121",
+                        "text": "<i>Al-Amālī li al-Ṣadūq</i> : L'Imām 'Alī (as) a dit à Dha'lab qui lui avait demandé s'il avait vu son Seigneur : «Malheur à toi ô Dha'lab ! Je n'adore pas un Seigneur que je n'ai pas vu.» Il dit : «Mais comment L'as-tu vu ? Décris-Le-nous.» Il dit : «Malheur à toi ! Les yeux ne peuvent Le percevoir par la vision, mais ce sont les cœurs qui Le voient par les réalités de la foi.»<sup>4649</sup>"
+                    },
+                    {
+                        "number": "4122",
+                        "text": "L'Imām al-Riḍā (as) a dit au sujet de la parole du Très-Haut «<i>Les regards ne peuvent L'atteindre…</i>» : Les chimères des cœurs ne peuvent L'atteindre, alors comment les yeux pourraient-ils Le voir ?<sup>4650</sup>"
+                    },
+                    {
+                        "number": "4123",
+                        "text": "L'Imām al-'Askarī (as) a dit : En vérité, Allah le Béni et le Très-Haut a fait voir à Son Messager par son cœur ce qu'Il souhaitait de la lumière de Sa majesté.<sup>4651</sup>"
+                    }
+                ],
+                "introduction": "«Les regards ne peuvent L'atteindre, alors qu'Il saisit tous les regards. Il est le Doux, le Parfaitement Connaisseur.»<sup>4647</sup>"
             },
             {
-                "title": "1258 - L'Eternel et l'Infini"
+                "title": "1258 - L'Eternel et l'Infini",
+                "hadiths": [
+                    {
+                        "number": "4124",
+                        "text": "L'Imām 'Alī (as) a dit : Louange à Allah, le Premier avant tout premier et le Dernier après tout dernier ; Sa primordialité nécessite qu'Il n'ait pas de commencement, et le fait qu'Il soit le dernier nécessite qu'Il n'ait pas de fin.<sup>4652</sup>"
+                    },
+                    {
+                        "number": "4125",
+                        "text": "L'Imām 'Alī (as) a dit : Il ne cesse jamais d'exister et sera éternellement, Premier avant toute chose sans qu'Il n'ait de commencement, Dernier après toute chose sans qu'Il n'ait de fin.<sup>4653</sup>"
+                    },
+                    {
+                        "number": "4126",
+                        "text": "Interrogé par un homme juif qui lui demanda : «Quand notre Seigneur le Tout-Puissant est-Il venu à l'être ?», l'Imām 'Alī (as) répondit : «Ô homme juif ! Notre Seigneur n'a pas été d'abord inexistant pour ensuite être venu à l'existence ; ainsi, la question «quand est-il venu à l'être ?» se pose [uniquement] pour une chose qui n'était pas puis qui fut. Il [Dieu] est sans être venu à l'être [sans avoir été créé], Il fut toujours et rien n'est avant Lui ; Il est avant «l'avant» et avant la fin. Les buts et les fins aboutissent à Lui, car Il est la fin de toute fin.»<sup>4654</sup>"
+                    },
+                    {
+                        "number": "4127",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Allah le Béni et le Très-Haut était sans qu'il n'existe autre chose que Lui, Il est une Lumière dénuée d'obscurité, la Vérité dénuée de mensonge, l'Omniscient dénué d'ignorance, et le Vivant exempt de mort. Il est ainsi aujourd'hui et le demeurera pour l'éternité.<sup>4655</sup>"
+                    }
+                ]
             },
             {
-                "title": "1259 - Le Vivant"
+                "title": "1259 - Le Vivant",
+                "hadiths": [
+                    {
+                        "number": "4128",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah est un savoir exempt de toute ignorance, une vie que n'atteint aucune mort, et une lumière dénuée de toute obscurité.<sup>4657</sup>"
+                    },
+                    {
+                        "number": "4129",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Allah est vivant sans [avoir besoin d'] une source extérieure de vie… Mais Il est vivant par Lui-même.<sup>4658</sup>"
+                    }
+                ],
+                "introduction": "«Allah ! Point de divinité à part Lui, le Vivant, Celui qui subsiste par Lui-même.»<sup>4656</sup>"
             },
             {
-                "title": "1260 - L'Omniscient"
+                "title": "1260 - L'Omniscient",
+                "hadiths": [
+                    {
+                        "number": "4130",
+                        "text": "L'Imām 'Alī (as) a dit : Ne Lui échappent ni le nombre des gouttes d'eau, ni celui des étoiles dans le ciel ou des rafales de vent dans l'air, ni le mouvement des fourmis sur les rochers, ni le lieu de repos des petites fourmis dans la nuit obscure. Il connaît les lieux où les feuilles tombent et le mouvement subtil des pupilles.<sup>4660</sup>"
+                    },
+                    {
+                        "number": "4131",
+                        "text": "L'Imām 'Alī (as) a dit : Il connaît les rugissements des fauves dans les déserts, les péchés commis par les créatures en secret, les différents poissons dans les mers profondes, ainsi que les vagues formées par les vents violents.<sup>4661</sup>"
+                    },
+                    {
+                        "number": "4132",
+                        "text": "L'Imām 'Alī (as) a dit : Son savoir pénètre les profondeurs des mystères cachés et embrasse les croyances intimes des cœurs.<sup>4662</sup>"
+                    },
+                    {
+                        "number": "4133",
+                        "text": "L'Imām al-Bāqir (as) a dit : Allah connaît depuis toujours les choses qui sont destinées à être, de telle façon que Sa connaissance d'elles avant leur venue à l'existence est la même que Sa connaissance d'elles après leur venue à l'existence.<sup>4663</sup>"
+                    },
+                    {
+                        "number": "4134",
+                        "text": "Lorsqu'on lui demanda si Allah avait connu l'espace avant, en même temps, ou après sa création, l'Imām al-Ṣādiq (as) répondit : Allah est le Très-Haut ! Il connaît l'espace de toute éternité avant même sa création de la même façon qu'Il le connaît après l'avoir créé, et Sa connaissance de toute chose est comme Sa connaissance de l'espace.<sup>4664</sup>"
+                    },
+                    {
+                        "number": "4135",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le savoir est Son essence même et Il n'est pas l'objet de connaissance… Ainsi, lorsqu'Il créa les choses et que les objets de connaissance vinrent à l'existence, la connaissance fut projetée de Lui et rattachée aux objets de connaissance.<sup>4665</sup>"
+                    },
+                    {
+                        "number": "4136",
+                        "text": "L'Imām al-Kāẓim (as) a dit : La connaissance d'Allah ne peut être décrite par un «où» et la connaissance qui vient d'Allah ne peut être décrite par un «comment» ; la connaissance ne peut être séparée d'Allah et Allah ne peut être distingué d'elle, et il n'existe aucune séparation entre Allah et Sa connaissance.<sup>4666</sup>"
+                    }
+                ],
+                "introduction": "«C'est Lui qui détient les clefs de l'inconnaissable, nul autre que Lui ne les connaît. Et Il connaît ce qui est dans la terre ferme, comme dans la mer. Et nulle feuille ne tombe sans qu'Il ne le sache, et il n'est point de graine dans les ténèbres de la terre, ni rien de frais ou de sec qui ne soit consigné dans un Livre explicite.»<sup>4659</sup>"
             },
             {
-                "title": "1261 - Le Juste"
+                "title": "1261 - Le Juste",
+                "hadiths": [
+                    {
+                        "number": "4137",
+                        "text": "L'Imām 'Alī (as) a dit : Et je témoigne qu'Il est juste, agit justement, et qu'Il est un juge qui arbitre de façon équitable.<sup>4668</sup>"
+                    },
+                    {
+                        "number": "4138",
+                        "text": "Lorsqu'on lui demanda ce qu'était la justice, l'Imām 'Alī (as) répondit : La justice est de ne pas L'accuser [Allah] de quoi que ce soit.<sup>4669</sup>"
+                    },
+                    {
+                        "number": "4139",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit dans son invocation du jour de la fête du sacrifice (<i>'īd al-Aḍḥā</i>) et du vendredi : Et je sais avec certitude que Ton décret est exempt d'injustice et que Ton châtiment est dépourvu de précipitation. Seul celui qui a peur de perdre une occasion se précipite, et seul le faible a besoin de recourir à l'injustice alors que Toi, ô mon Dieu, Tu es bien au-dessus de tout cela.<sup>4670</sup>"
+                    },
+                    {
+                        "number": "4140",
+                        "text": "Interrogé au sujet du fondement de la religion, l'Imām al-Ṣādiq (as) répondit : [C'est la foi en] l'unicité divine et la justice. [La foi en] l'unicité divine est de ne pas considérer comme attribuable à ton Seigneur ce que tu t'attribues à toi-même, et [la foi en] la justice est de ne pas imputer à ton Créateur ce qu'Il te reproche.<sup>4671</sup>"
+                    }
+                ],
+                "introduction": "«En vérité, Allah ne lèse [personne], fût-ce du poids d'un atome. S'il est une bonne action, Il la double, et accorde une grosse récompense de Sa part.»<sup>4667</sup>"
             },
             {
-                "title": "1262 - Le Créateur"
+                "title": "1262 - Le Créateur",
+                "hadiths": [
+                    {
+                        "number": "4141",
+                        "text": "<i>Al-Tawḥīd</i> : Marwān ibn Muslim : Ibn Abī al-'Awjā' se rendit auprès d'Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) et dit : «Ne prétends-tu pas qu'Allah est le Créateur de toute chose ?» Abū 'Abdillāh (as) lui répondit : «Oui.» Il dit alors : «Moi aussi je crée !» Il (as) lui demanda : «Comment crées-tu ?!» Il dit : «Je fais mes besoins dans un coin, j'attends quelque temps, puis cela donne naissance à des petits vers, c'est donc moi qui les ai créés !» Il (as) dit alors : «Le créateur d'une chose n'est-il pas censé connaître ce qu'il a créé ?» L'homme répondit : «Oui.» Il dit alors : «Distingues-tu les mâles des femelles ? Sais-tu combien de temps ils vivent ?» Et il [Ibn Abī al-'Awjā'] resta silencieux.<sup>4673</sup>"
+                    },
+                    {
+                        "number": "4142",
+                        "text": "L'Imām al-Riḍā (as) a dit : Louange à Allah, Créateur des choses par conception et leur Inventeur dès leur commencement par Sa puissance et Sa sagesse, [Il ne crée] pas à partir d'une chose sinon [le concept même] d'invention serait invalidé, ni pour une cause sinon [le concept même] d'innovation serait inapplicable. Il crée ce qu'Il veut, comme Il le veut.<sup>4674</sup>"
+                    }
+                ],
+                "introduction": "«Allah est le Créateur de toute chose, et de toute chose Il est Garant.»<sup>4672</sup>"
             },
             {
-                "title": "1263 - Le Tout-Puissant"
+                "title": "1263 - Le Tout-Puissant",
+                "hadiths": [
+                    {
+                        "number": "4143",
+                        "text": "Lorsqu'on lui demanda : «Ton Seigneur pourrait-Il faire rentrer le monde dans un œuf ?», l'Imām 'Alī (as) répondit : «En vérité, on ne peut attribuer à Allah le Béni et le Très-Haut aucune impuissance, mais ce que vous demandez est tout juste impossible.»<sup>4676</sup>"
+                    },
+                    {
+                        "number": "4144",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Iblīs demanda à Jésus fils de Marie (as) : «Ton Seigneur peut-Il faire rentrer la [planète] terre dans un œuf, sans réduire la terre et sans agrandir l'œuf ?» Jésus (as) répondit : «Malheur à toi ! En vérité, Allah ne peut être qualifié par aucune impuissance, et qui est plus puissant que Celui qui peut rapetisser la terre et agrandir l'œuf [s'Il le voulait] ?!»<sup>4677</sup>"
+                    }
+                ],
+                "introduction": "«Non !… Je jure par le Seigneur des Levants et des Couchants que Nous sommes Capables.»<sup>4675</sup>"
             },
             {
-                "title": "1264 - L'Enonciateur"
+                "title": "1264 - L'Enonciateur",
+                "hadiths": [
+                    {
+                        "number": "4145",
+                        "text": "L'Imām 'Alī (as) a dit : Il [Allah] informe, mais non par une langue ni des cordes vocales. Il entend, mais non avec des tympans et des organes auditifs. Il parle, mais sans prononcer de mots, et Il se souvient, mais sans l'aide d'une mémoire. Lorsqu'Il veut créer une chose, Il dit «sois» et la chose est, mais non par une voix qui frappe les tympans ni par un appel qui s'entend. Sa parole - loué soit-Il - est plutôt un acte provenant de Lui qu'Il crée et constitue ; [cet acte] n'existait pas avant cela car s'il existait de toute éternité, il serait un second dieu.<sup>4679</sup>"
+                    }
+                ],
+                "introduction": "«Il y a des messagers dont Nous t'avons précédemment raconté l'histoire, et des messagers dont Nous ne t'avons pas raconté l'histoire. Et Allah a parlé à Moïse de vive voix.»<sup>4678</sup>"
             },
             {
-                "title": "1265 - Le Détenteur de volonté"
+                "title": "1265 - Le Détenteur de volonté",
+                "hadiths": [
+                    {
+                        "number": "4146",
+                        "text": "L'Imām al-Kāẓim (as) a dit : En vérité, les choses ne se réalisent que selon Sa volonté et Son souhait, sans qu'une parole ne soit prononcée, ni inspiration et expiration, ni énonciation par la langue.<sup>4681</sup>"
+                    }
+                ],
+                "introduction": "«Quand Il veut une chose, Son commandement est de dire : «Sois !», et c'est.»<sup>4680</sup>"
             },
             {
-                "title": "1266 - Le Manifeste et le Caché"
+                "title": "1266 - Le Manifeste et le Caché",
+                "hadiths": [
+                    {
+                        "number": "4147",
+                        "text": "L'Imām 'Alī (as) a dit : Il [Allah] est manifeste à ceux qui regardent de par les prodiges de l'organisation [de Sa création], et caché à l'imagination des penseurs de par la splendeur de Sa gloire.<sup>4683</sup>"
+                    },
+                    {
+                        "number": "4148",
+                        "text": "L'Imām al-Riḍā (as) a dit : Il est manifeste, mais non à travers la perception sensible ; Il est visible, mais non au travers de la vision des yeux ; Il est caché, mais non dans le sens d'un retrait [du monde].<sup>4684</sup>"
+                    }
+                ],
+                "introduction": "«C'est Lui le Premier et le Dernier, le Manifeste et le Caché, et Il est l'Omniscient.»<sup>4682</sup>"
             },
             {
-                "title": "1267 - Le Souverain"
+                "title": "1267 - Le Souverain",
+                "hadiths": [
+                    {
+                        "number": "4149",
+                        "text": "L'Imām 'Alī (as) a dit : Tout souverain autre que Lui est un sujet [dépendant].<sup>4686</sup>"
+                    },
+                    {
+                        "number": "4150",
+                        "text": "Dans son explication de la phrase «Il n'y a de force et de puissance qu'en Allah», l'Imām 'Alī (as) a dit : En vérité, nous ne possédons rien avec Allah, et nous ne possédons que ce qu'Il nous a fait posséder. Dès lors, lorsqu'Il nous fait posséder une chose qu'Il possède de façon supérieure, Il nous en donne la responsabilité, et lorsqu'Il nous la reprend, Il nous décharge de sa responsabilité.<sup>4687</sup>"
+                    }
+                ],
+                "introduction": "«À Allah appartient le royaume des cieux et de la terre, et Allah est Tout-Puissant.»<sup>4685</sup>"
             },
             {
-                "title": "1268 - Celui qui entend tout et qui voit tout"
+                "title": "1268 - Celui qui entend tout et qui voit tout",
+                "hadiths": [
+                    {
+                        "number": "4151",
+                        "text": "L'Imām 'Alī (as) a dit : Et Il est Celui qui entend tout sans besoin d'organe [auditif].<sup>4689</sup>"
+                    },
+                    {
+                        "number": "4152",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Il est Celui qui entend tout et qui voit tout. Il entend par ce par quoi Il voit, et Il voit par ce par quoi Il entend.<sup>4690</sup>"
+                    },
+                    {
+                        "number": "4153",
+                        "text": "L'Imām al-Riḍā (as) a dit : Étant donné que la trace de la fourmi noire sur le rocher noir dans la nuit obscure sous terre ou sur les mers ne Lui est pas cachée, nous disons : Il voit tout.<sup>4691</sup>"
+                    }
+                ],
+                "introduction": "«Et Allah juge en toute équité, alors que ceux qu'ils invoquent en dehors de Lui ne jugent rien. En vérité, Allah est l'Audient, le Clairvoyant.»<sup>4688</sup>"
             },
             {
-                "title": "1269 - Le Subtil et le Parfaitement connaisseur"
+                "title": "1269 - Le Subtil et le Parfaitement connaisseur",
+                "hadiths": [
+                    {
+                        "number": "4154",
+                        "text": "L'Imām al-Riḍā (as) a dit : Il est subtil non pas dans le sens d'un manque, d'une étroitesse ou d'une petitesse, mais dans le sens de Son pouvoir de pénétration des choses sans pouvoir être perçu. Il est parfaitement connaisseur dans le sens où rien ne Lui échappe ni ne se soustrait à Lui ; [Sa connaissance parfaite] ne vient pas de l'expérience ni d'une considération des choses, car l'expérience et la considération des choses sont deux types de savoirs sans lesquels Il ne saurait pas, et Il serait par conséquent ignorant.<sup>4693</sup>"
+                    }
+                ],
+                "introduction": "«Les regards ne peuvent L'atteindre, alors qu'Il saisit tous les regards. Il est le Doux, le Parfaitement Connaisseur.»<sup>4692</sup>"
             },
             {
-                "title": "1270 - Le Fort et le Puissant"
+                "title": "1270 - Le Fort et le Puissant",
+                "hadiths": [
+                    {
+                        "number": "4155",
+                        "text": "L'Imām 'Alī (as) a dit : Tout fort autre que Lui est faible.<sup>4696</sup>"
+                    },
+                    {
+                        "number": "4156",
+                        "text": "L'Imām 'Alī (as) a dit : Toute chose s'humilie face à Lui, et toute chose subsiste par Lui. Il est la richesse de tout démuni, l'honneur de tout humilié, et la force de tout faible.<sup>4697</sup>"
+                    },
+                    {
+                        "number": "4157",
+                        "text": "L'Imām 'Alī (as) a dit : Tout puissant autre que Lui est humilié.<sup>4698</sup>"
+                    },
+                    {
+                        "number": "4158",
+                        "text": "L'Imām 'Alī (as) a dit : Louange à Allah qui a revêtu la suprématie et la gloire, et qui se les est réservées à Lui-même et non à Ses créatures.<sup>4699</sup>"
+                    }
+                ],
+                "introduction": "«Puis lorsque Notre ordre vint, Nous sauvâmes Ṣāliḥ et ceux qui avaient cru avec lui, par une miséricorde venant de Nous, de l'ignominie de ce jour-là. En vérité, c'est ton Seigneur qui est le Fort et le Puissant.»<sup>4694</sup><br><br>«Celui qui veut la puissance [qu'il la cherche auprès d'Allah], car la puissance appartient tout entière à Allah.»<sup>4695</sup>"
             },
             {
-                "title": "1271 - Le Sage"
+                "title": "1271 - Le Sage",
+                "hadiths": [
+                    {
+                        "number": "4159",
+                        "text": "Lorsqu'on lui demanda : «Pourquoi ne peut-on pas L'interroger sur ce qu'Il fait ?», l'Imām al-Bāqir (as) répondit : «Car Il ne fait que ce qui est sage et bon.»<sup>4701</sup>"
+                    }
+                ],
+                "introduction": "«Voilà, certes, le récit véridique. Et il n'y a pas de divinité à part Allah. En vérité, c'est Allah qui est le Puissant, le Sage.»<sup>4700</sup>"
             },
             {
-                "title": "1272 - L'Eternel qui n'a besoin de rien pour exister (Ṣamad)"
+                "title": "1272 - L'Eternel qui n'a besoin de rien pour exister (Ṣamad)",
+                "hadiths": [
+                    {
+                        "number": "4160",
+                        "text": "L'Imām Ḥusayn (as) a dit : <i>Al-Ṣamad</i> signifie Celui qui n'a pas de manque ; <i>Al-Ṣamad</i> est Celui dont la suprématie est totale ; <i>Al-Ṣamad</i> est Celui qui ne mange pas ni ne boit ; <i>Al-Ṣamad</i> est Celui qui ne dort pas ; <i>Al-Ṣamad</i> est l'Eternel qui est de toute éternité et sera à jamais.<sup>4703</sup>"
+                    }
+                ],
+                "introduction": "«Allah, l'Eternel qui n'a besoin de rien pour exister.»<sup>4702</sup>"
             },
             {
-                "title": "1273 - Il est en tout lieu"
+                "title": "1273 - Il est en tout lieu",
+                "hadiths": [
+                    {
+                        "number": "4161",
+                        "text": "L'Imām 'Alī (as) a dit en décrivant Allah - loué soit-Il - : En vérité, Il est en tout lieu, à tout moment et instant, et avec tout humain et djinn.<sup>4705</sup>"
+                    },
+                    {
+                        "number": "4162",
+                        "text": "Lorsqu'Abū Ja'far interrogea l'Imām al-Ṣādiq (as) au sujet de la parole d'Allah le Tout-Puissant : «<i>Et Il est Allah dans les cieux et sur la terre</i>»<sup>4706</sup>, il (as) dit : «Oui, Il est partout.» Je demandai [Abū Ja'far] : «Dans Son essence ?» Il dit : «Malheur à toi ! En vérité, les lieux sont sujets à des limites. Dès lors, si tu dis qu'Il est dans un lieu dans Son essence, tu es obligé de dire qu'Il est contenu dans des objets limités et mesurables. Or, Il est distinct de Sa création, Il embrasse totalement ce qu'Il a créé par Son savoir, Sa puissance, Son immensité, Son pouvoir, et Sa souveraineté.»<sup>4707</sup>"
+                    }
+                ],
+                "introduction": "«Il est avec vous où que vous soyez, et Allah a une claire vision de tout ce que vous faites.»<sup>4704</sup>"
             },
             {
-                "title": "1274 - Les attributs de l'Essence et les attributs de l'acte"
+                "title": "1274 - Les attributs de l'Essence et les attributs de l'acte",
+                "hadiths": [
+                    {
+                        "number": "4163",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Notre Seigneur est lumière par essence, Il est Vivant par essence, Il est omniscient par essence, Il est l'Eternel n'ayant besoin de rien pour subsister par essence.<sup>4708</sup>"
+                    },
+                    {
+                        "number": "4164",
+                        "text": "L'Imām al-Riḍā (as) a dit : Le souhait et la volonté font partie des attributs des actes ; ainsi, celui qui prétend qu'Allah le Très-Haut est de toute éternité en train de vouloir et de souhaiter n'est pas un monothéiste.<sup>4709</sup>"
+                    }
+                ]
             },
             {
-                "title": "1275 - Les attributs exhaustifs d'Allah"
+                "title": "1275 - Les attributs exhaustifs d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4165",
+                        "text": "L'Imām 'Alī (as) a dit : La première étape de la religion est de Le connaître, la perfection de Sa connaissance est de croire et reconnaître Son existence, la perfection de la reconnaissance est de croire en Son unicité, la perfection de la croyance en Son unicité est de Le considérer comme absolument pur, et la perfection du fait de Le considérer comme absolument pur est d'infirmer Ses attributs, car chaque attribut témoigne qu'il est différent de Celui qu'il qualifie, et chaque qualifié témoigne qu'il est distinct de ses attributs. Ainsi, celui qui qualifie Allah - loué soit-Il - par un attribut L'associe avec autre chose, et celui qui L'associe avec autre chose Le considère comme deux, et celui qui Le considère comme deux distingue en Lui des parties, et celui qui distingue en Lui des parties ne Le connaît pas, (et celui qui ne Le connaît pas Le désigne [comme une chose que l'on peut montrer]), et celui qui Le désigne Le limite, et celui qui Le limite Le dénombre. Celui qui demande : «Dans quoi [est-Il] ?» pense qu'Il est contenu, et celui qui demande : «Sur quoi [est-Il] ?» L'exclut [en considérant qu'il existe des lieux vides de Sa présence]. Il est, mais pas par une création adventice ; Il existe, mais sans être issu du néant. Il est avec toute chose sans être proche physiquement d'elle, et Il est distinct de toute chose sans être séparé d'elle. Il agit, mais non au moyen de mouvements ni d'instruments. Il voit sans besoin d'un objet de vision parmi Ses créatures. Il est Unique et Un sans avoir besoin d'une source d'apaisement qui Lui tienne compagnie, ni d'aucune chose qui Lui manque si elle venait à être absente.<sup>4710</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19911,28 +24734,144 @@ const AUNE_SAGESSE = [
         "title": "272 - LA BIENSÉANCE (1)",
         "subparts": [
             {
-                "title": "1276 - La vertu de la bienséance"
+                "title": "1276 - La vertu de la bienséance",
+                "hadiths": [
+                    {
+                        "number": "4166",
+                        "text": "L'Imām 'Alī (as) a dit : Agir selon la bienséance, secourir l'affligé et honorer les invités est un instrument de noblesse.<sup>4712</sup>"
+                    },
+                    {
+                        "number": "4167",
+                        "text": "L'Imām 'Alī (as) a dit : La bienséance est un trésor pour l'éternité.<sup>4713</sup>"
+                    },
+                    {
+                        "number": "4168",
+                        "text": "L'Imām Ḥusayn (as) a dit : Sachez que la bienséance permet de gagner les éloges et aboutit à une rétribution. Si vous pouviez voir la bienséance sous la forme d'un homme, vous la verriez sous une belle allure, agréable à regarder et supérieure à ce qu'il y a dans les mondes. Et si vous pouviez voir la bassesse [personnifiée], vous l'apercevriez sous une apparence disgracieuse, laide et défigurée que les cœurs fuiraient et dont les regards se détourneraient.<sup>4714</sup>"
+                    },
+                    {
+                        "number": "4169",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les premiers à entrer au Paradis seront ceux qui ont agi selon la bienséance.<sup>4715</sup>"
+                    },
+                    {
+                        "number": "4170",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ceux qui agissent selon la bienséance durant la vie de ce monde seront ceux qui agiront selon la bienséance dans l'Au-delà car en vérité, dans l'Au-delà, leurs bonnes actions seront si conséquentes et prépondérantes qu'ils en donneront généreusement aux pécheurs.<sup>4716</sup>"
+                    },
+                    {
+                        "number": "4171",
+                        "text": "L'Imām al-Jawād (as) a dit : Ceux qui agissent selon la bienséance vis-à-vis des autres bénéficient davantage [d'une telle conduite] que ceux à qui elle s'adresse car en vérité, la rétribution, la fierté, et la mention [de ce qu'ils ont fait] leur reviennent. Quelle que soit l'importance des actes de bienséance faits par un homme, cela commence d'abord par [lui bénéficier à] lui-même. Ainsi, il ne cherche pas à être remercié de ce qu'il a fait pour lui-même en ayant aidé les autres.<sup>4717</sup>"
+                    }
+                ]
             },
             {
-                "title": "1277 - L'incitation à propager la bienfaisance et à agir selon la bienséance vis-à-vis des bonnes et des mauvaises personnes"
+                "title": "1277 - L'incitation à propager la bienfaisance et à agir selon la bienséance vis-à-vis des bonnes et des mauvaises personnes",
+                "hadiths": [
+                    {
+                        "number": "4172",
+                        "text": "Le Messager d'Allah (s) a dit : Le sommet de la raison après la religion est de traiter les gens avec tendresse ainsi que de faire le bien auprès de toute bonne ou mauvaise personne.<sup>4718</sup>"
+                    },
+                    {
+                        "number": "4173",
+                        "text": "Le Messager d'Allah (s) a dit : Fais le bien auprès de ceux qui en sont dignes ainsi qu'auprès de ceux qui n'en sont pas dignes, car même si cela n'a pas d'effet auprès de ceux qui en sont dignes, tu es toi digne de le faire.<sup>4719</sup><br>(Voir également : 181. La demande (2))"
+                    }
+                ]
             },
             {
-                "title": "1278 - La circulation des actes de bienséance de main en main"
+                "title": "1278 - La circulation des actes de bienséance de main en main",
+                "hadiths": [
+                    {
+                        "number": "4174",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui donne une aumône volontaire (<i>ṣadaqa</i>) à un homme pauvre reçoit d'Allah sa rétribution pour cela, et si cette aumône circule dans les mains de quarante mille personnes jusqu'à ce qu'elle parvienne au pauvre, elles en recevront toutes la rétribution complète.<sup>4720</sup>"
+                    },
+                    {
+                        "number": "4175",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si un acte de courtoisie [ou de charité] passe par quatre-vingts mains, elles seront toutes récompensées pour cela sans que la récompense de son initiateur ne soit diminuée.<sup>4721</sup>"
+                    }
+                ]
             },
             {
-                "title": "1279 - L'interdiction de faire sentir et d'attendre des remerciements pour un acte de bienséance"
+                "title": "1279 - L'interdiction de faire sentir et d'attendre des remerciements pour un acte de bienséance",
+                "hadiths": [
+                    {
+                        "number": "4176",
+                        "text": "L'Imām 'Alī (as) a dit : Fais vivre ton acte de bienséance en le tuant [c'est-à-dire en tuant l'attente de recevoir quelque chose en retour].<sup>4722</sup>"
+                    },
+                    {
+                        "number": "4177",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu as bénéficié d'un acte de bienséance, rappelle-t'en, et si tu réalises un acte de courtoisie vis-à-vis de quelqu'un, oublie-le.<sup>4723</sup>"
+                    },
+                    {
+                        "number": "4178",
+                        "text": "L'Imām 'Alī (as) a dit : Le critère de la bienséance est de ne pas la faire sentir et de ne pas attendre de remerciements en retour.<sup>4724</sup><br>(Voir également : 232. La charité, section 117)"
+                    }
+                ]
             },
             {
-                "title": "1280 - L'achèvement de la bienséance"
+                "title": "1280 - L'achèvement de la bienséance",
+                "hadiths": [
+                    {
+                        "number": "4179",
+                        "text": "Le Messager d'Allah (s) a dit : Achever un acte de bienséance est meilleur que de [simplement] le commencer.<sup>4725</sup>"
+                    },
+                    {
+                        "number": "4180",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui ne cultive pas son acte de bienséance le perd.<sup>4726</sup>"
+                    },
+                    {
+                        "number": "4181",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Un acte de bienfaisance envers un croyant n'est considéré complet qu'à trois conditions : le sous-estimer, le garder secret, et s'empresser de le réaliser. Celui qui sous-estime l'acte de bienfaisance qu'il a réalisé pour son frère croyant honore ce dernier tandis que celui qui surestime son acte le rabaisse ; et celui qui garde secret le bienfait qu'il a accompli rend son acte noble, tandis que celui qui s'empresse de faire ce qu'il a promis rend son don agréable.<sup>4727</sup>"
+                    }
+                ]
             },
             {
-                "title": "1281 - L'interdiction de mépriser et de sous-estimer la bienséance"
+                "title": "1281 - L'interdiction de mépriser et de sous-estimer la bienséance",
+                "hadiths": [
+                    {
+                        "number": "4182",
+                        "text": "Le Messager d'Allah (s) a dit : Ne sous-estime aucun acte de bienséance, ne serait-ce que de rencontrer ton frère avec un visage joyeux.<sup>4728</sup>"
+                    },
+                    {
+                        "number": "4183",
+                        "text": "L'Imām 'Alī (as) a dit : Ne sous-estime aucun acte de bienséance que tu as accompli en le comparant et en le préférant à un autre plus important car en vérité, un acte modeste qui répond à un besoin est plus utile à son bénéficiaire qu'un acte important dont on n'a pas besoin. Accomplis chaque jour un acte par lequel tu seras guidé sur la voie droite.<sup>4729</sup>"
+                    }
+                ]
             },
             {
-                "title": "1282 - Le signe de l'acceptation d'un acte de bienséance"
+                "title": "1282 - Le signe de l'acceptation d'un acte de bienséance",
+                "hadiths": [
+                    {
+                        "number": "4184",
+                        "text": "L'Imām 'Alī (as) a dit : La meilleure bienséance est celle qui profite aux bons.<sup>4730</sup>"
+                    },
+                    {
+                        "number": "4185",
+                        "text": "Lorsqu'il fut interrogé au sujet du signe de l'acceptation du serviteur par Allah, l'Imām al-Ṣādiq (as) répondit : Le signe de l'acceptation du serviteur par Allah est que ses actes de bienséance soient réalisés de façon opportune et appropriée. Si ce n'est pas le cas, cela n'a pas été accepté.<sup>4731</sup>"
+                    }
+                ]
             },
             {
-                "title": "1283 - La rétribution de l'agissement selon la bienséance"
+                "title": "1283 - La rétribution de l'agissement selon la bienséance",
+                "hadiths": [
+                    {
+                        "number": "4186",
+                        "text": "Le Messager d'Allah (s) a dit : Si celui qui aide un non-voyant à avancer de quarante pas sur un chemin plat était récompensé par la valeur du monde en or, cela ne suffirait pas à le récompenser d'une once. Et s'il y a un danger sur le chemin dont il l'avertit, il trouvera cet acte qui sera cent mille fois plus étendu que le monde dans la balance de ses bonnes actions le Jour de la Résurrection.<sup>4732</sup>"
+                    },
+                    {
+                        "number": "4187",
+                        "text": "Le Messager d'Allah (s) a dit : Un serviteur [d'Allah] est rentré au Paradis grâce à une branche d'épines qui était sur le chemin des musulmans et qu'il a enlevée.<sup>4733</sup>"
+                    },
+                    {
+                        "number": "4188",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, Allah ressuscitera celui qui a construit sur le chemin de quoi abriter les voyageurs, sur un chameau de race orné de perles, et son visage sera irradié de lumière pour tous les habitants du Paradis.<sup>4734</sup>"
+                    },
+                    {
+                        "number": "4189",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui empêche qu'un dégât des eaux ou de feu ne touche un groupe de musulmans mérite obligatoirement le Paradis.<sup>4735</sup>"
+                    },
+                    {
+                        "number": "4190",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : J'ai vu que la bienséance est comme son nom [le suggère], et rien n'est meilleur que la bienséance si ce n'est sa propre rétribution.<sup>4736</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19940,19 +24879,126 @@ const AUNE_SAGESSE = [
         "title": "273 - LA BIENSÉANCE (2)",
         "subparts": [
             {
-                "title": "1284 - L'importance d'ordonner le convenable et d'interdire le blâmable"
+                "title": "1284 - L'importance d'ordonner le convenable et d'interdire le blâmable",
+                "hadiths": [
+                    {
+                        "number": "4191",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui ordonne le convenable et interdit le blâmable est le lieu-tenant (<i>khalīfa</i>) d'Allah sur terre et le lieu-tenant de Son Messager.<sup>4740</sup>"
+                    },
+                    {
+                        "number": "4192",
+                        "text": "Le Messager d'Allah (s) a dit : «En vérité, Allah le Béni et le Très-Haut abhorre le croyant faible qui n'a pas de religion.» Et il ajouta : «C'est celui qui n'interdit pas le blâmable.»<sup>4741</sup>"
+                    },
+                    {
+                        "number": "4193",
+                        "text": "L'Imām 'Alī (as) a dit : La subsistance de la <i>sharī'a</i> est basée sur le fait d'ordonner le convenable, d'interdire le blâmable, et d'appliquer les lois divines.<sup>4742</sup>"
+                    },
+                    {
+                        "number": "4194",
+                        "text": "L'Imām 'Alī (as) a dit : L'ensemble des actes de bienfaisance et le fait de déployer des efforts sur le chemin d'Allah sont un peu de salive jetée dans une mer profonde en comparaison du fait d'ordonner le convenable et d'interdire le blâmable.<sup>4743</sup>"
+                    },
+                    {
+                        "number": "4195",
+                        "text": "L'Imām 'Alī (as) a dit : Ordonner le convenable est le meilleur acte de la création.<sup>4744</sup>"
+                    },
+                    {
+                        "number": "4196",
+                        "text": "L'Imām 'Alī (as) a dit : Sachez qu'ordonner le convenable et interdire le blâmable ne rapprochent pas l'échéance [d'une vie] ni ne coupent une subsistance.<sup>4745</sup>"
+                    },
+                    {
+                        "number": "4197",
+                        "text": "L'Imām Ḥusayn (as) avait l'habitude de dire : Il n'est pas licite qu'un œil croyant qui est témoin d'une désobéissance à Allah cligne avant de changer la situation.<sup>4746</sup>"
+                    },
+                    {
+                        "number": "4198",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, ordonner le convenable et interdire le blâmable est la voie des prophètes et la méthode des vertueux. C'est une grande obligation sur la base de laquelle les autres obligations sont fondées, les [bonnes] croyances sont sécurisées, les revenus sont rendus licites, les injustices sont réprimées, la terre prospère, la justice est rendue vis-à-vis des ennemis, et les affaires sont ordonnées.<sup>4747</sup><br>(Voir également : 76. Le <i>jihād</i> (1), section 379)"
+                    }
+                ],
+                "introduction": "«Que soit issue de vous une communauté qui appelle au bien, ordonne le convenable et interdit le blâmable. Car ce seront eux qui réussiront.»<sup>4737</sup><br><br>«Vous êtes la meilleure communauté qu'on ait fait surgir pour les hommes. Vous ordonnez le convenable, interdisez le blâmable et croyez à Allah. Si les gens du Livre croyaient, ce serait meilleur pour eux. Certains d'entre eux sont croyants, mais la plupart d'entre eux sont des pervers.»<sup>4738</sup><br><br>«Les croyants et les croyantes sont alliés les uns des autres. Ils commandent le convenable et interdisent le blâmable.»<sup>4739</sup>"
             },
             {
-                "title": "1285 - Le danger d'abandonner le fait d'ordonner le convenable et d'interdire le blâmable"
+                "title": "1285 - Le danger d'abandonner le fait d'ordonner le convenable et d'interdire le blâmable",
+                "hadiths": [
+                    {
+                        "number": "4199",
+                        "text": "Le Messager d'Allah (s) a dit : Vous devez ordonner le convenable et interdire le blâmable, sinon, vous serez pris par le châtiment d'Allah.<sup>4748</sup>"
+                    },
+                    {
+                        "number": "4200",
+                        "text": "L'Imām 'Alī (as) a dit dans son testament aux Ḥasanayn [l'Imām Ḥasan et l'Imām Ḥusayn] (as) après avoir été frappé par Ibn Muljam : N'abandonnez jamais l'ordonnance du convenable et l'interdiction du blâmable, sinon vous serez gouvernés par les hommes vils parmi vous, puis vous invoquerez [Allah] mais ne serez pas exaucés.<sup>4749</sup>"
+                    }
+                ]
             },
             {
-                "title": "1286 - Celui qui est satisfait des actes d'un groupe"
+                "title": "1286 - Celui qui est satisfait des actes d'un groupe",
+                "hadiths": [
+                    {
+                        "number": "4201",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui est satisfait des [mauvais] actes d'un groupe est comme celui qui s'y adonne avec eux, et celui qui s'adonne aux mauvais actes commet deux péchés : le péché d'avoir agi ainsi, et le péché d'en avoir été satisfait.<sup>4750</sup>"
+                    },
+                    {
+                        "number": "4202",
+                        "text": "L'Imām al-Jawād (as) a dit : Celui qui approuve une infamie participe à cet acte.<sup>4751</sup>"
+                    },
+                    {
+                        "number": "4203",
+                        "text": "L'Imām al-Jawād (as) a dit : Celui qui est témoin d'un [mauvais] acte et qu'il le déteste est comme celui qui en était absent, alors que celui qui est absent lors d'un [mauvais] acte et qui en est satisfait est semblable à celui qui en est témoin.<sup>4752</sup>"
+                    }
+                ]
             },
             {
-                "title": "1287 - Les conditions pour ordonner le convenable et interdire le blâmable"
+                "title": "1287 - Les conditions pour ordonner le convenable et interdire le blâmable",
+                "hadiths": [
+                    {
+                        "number": "4204",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui ordonne le convenable doit le faire de façon convenable et selon la bienséance.<sup>4753</sup>"
+                    },
+                    {
+                        "number": "4205",
+                        "text": "Lorsqu'on lui dit : «Nous n'ordonnons et nous n'interdisons que ce que nous mettons en pratique ou ce dont nous nous abstenons en intégralité», le Messager d'Allah (s) dit : «Non, ordonnez plutôt le convenable même si vous ne le mettez pas en pratique dans son ensemble, et interdisez le blâmable même si vous ne vous en abstenez pas intégralement.»<sup>4754</sup>"
+                    },
+                    {
+                        "number": "4206",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, il n'est pas digne pour moi d'interdire aux gens ce que je ne m'interdis pas à moi-même ou de leur ordonner ce que je n'ai pas fait moi-même avant eux.<sup>4755</sup>"
+                    },
+                    {
+                        "number": "4207",
+                        "text": "L'Imām 'Alī (as) a dit : Allah maudit ceux qui ordonnent le convenable et l'abandonnent, ainsi que ceux qui interdisent le blâmable et le font eux-mêmes.<sup>4756</sup>"
+                    },
+                    {
+                        "number": "4208",
+                        "text": "L'Imām 'Alī (as) a dit : Interdisez le blâmable et abstenez-vous en vous-mêmes car en vérité, il vous a été ordonné d'interdire après l'abstention.<sup>4757</sup>"
+                    },
+                    {
+                        "number": "4209",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, celui qui ordonne le convenable et interdit le blâmable doit posséder ces trois qualités : il applique ce qu'il ordonne et s'abstient de ce qu'il interdit ; il est juste dans ce qu'il ordonne et juste dans ce qu'il interdit ; il est doux dans ce qu'il ordonne et doux dans ce qu'il interdit.<sup>4758</sup><br>(Voir également : 50. La transmission [de l'islam], section 260 ; 288. Le savoir, section 1359 ; 407. L'exhortation, section 1858)"
+                    }
+                ]
             },
             {
-                "title": "1288 - Le plus faible degré de l'interdiction du blâmable"
+                "title": "1288 - Le plus faible degré de l'interdiction du blâmable",
+                "hadiths": [
+                    {
+                        "number": "4210",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui parmi vous qui voit une chose blâmable la change par sa main, et s'il n'y parvient pas, [qu'il la change] par sa langue [en s'y opposant], et s'il n'y parvient toujours pas, [qu'il la rejette] avec son cœur, et cela est le plus faible degré de la foi.<sup>4759</sup>"
+                    },
+                    {
+                        "number": "4211",
+                        "text": "Le Messager d'Allah (s) a dit : Que la peur des gens n'empêche pas l'un de vous de dire la vérité lorsqu'il la distingue et de rappeler la grandeur d'Allah, car [dire la vérité] ne rapproche pas l'échéance [d'une vie] ni n'éloigne une subsistance.<sup>4760</sup>"
+                    },
+                    {
+                        "number": "4212",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui abandonne l'interdiction du blâmable avec son cœur, sa main ou sa langue est un mort parmi les vivants.<sup>4761</sup>"
+                    },
+                    {
+                        "number": "4213",
+                        "text": "L'Imām 'Alī (as) a dit : Le Messager d'Allah (s) nous a ordonné de rencontrer les hommes qui désobéissent avec des visages renfrognés.<sup>4762</sup>"
+                    },
+                    {
+                        "number": "4214",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il suffit au croyant comme honneur que, lorsqu'il voit une chose blâmable, Allah le Tout-Puissant sache que son cœur l'a rejetée.<sup>4763</sup><br>(Voir également : 76. Le <i>jihād</i> (1), section 377 ; 273. Le convenable (2), section 1288)"
+                    }
+                ]
             }
         ]
     },
@@ -19960,13 +25006,92 @@ const AUNE_SAGESSE = [
         "title": "274 - LA GRANDEUR",
         "subparts": [
             {
-                "title": "1289 - L'explication de la grandeur"
+                "title": "1289 - L'explication de la grandeur",
+                "hadiths": [
+                    {
+                        "number": "4215",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui cherche sa grandeur en dehors d'Allah est humilié.<sup>4765</sup>"
+                    },
+                    {
+                        "number": "4216",
+                        "text": "L'Imām 'Alī (as) a dit : Sache que celui qui ne s'humilie pas devant Allah est dénué de grandeur, et que celui qui ne s'abaisse pas devant Allah est dénué de hauteur.<sup>4766</sup>"
+                    },
+                    {
+                        "number": "4217",
+                        "text": "L'Imām 'Alī (as) a dit : Aucune grandeur n'est comparable à l'indulgence.<sup>4767</sup>"
+                    },
+                    {
+                        "number": "4218",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : L'obéissance aux tenants de l'autorité [divine] est le sommet de la grandeur.<sup>4768</sup>"
+                    },
+                    {
+                        "number": "4219",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La grandeur est de se soumettre à la vérité lorsqu'elle s'impose à toi.<sup>4769</sup>"
+                    }
+                ],
+                "introduction": "«Ceux qui prennent pour alliés les mécréants au lieu des croyants, est-ce la grandeur qu'ils recherchent auprès d'eux ? [En vérité] la grandeur appartient entièrement à Allah.»<sup>4764</sup>"
             },
             {
-                "title": "1290 - Ce qui suscite la grandeur"
+                "title": "1290 - Ce qui suscite la grandeur",
+                "hadiths": [
+                    {
+                        "number": "4220",
+                        "text": "<i>Biḥār al-Anwār</i> : Allah le Très-Haut a révélé à David (as) : Ô David ! En vérité… J'ai placé la grandeur dans Mon obéissance, alors qu'ils la recherchent dans le service aux souverains et ne la trouvent donc pas.<sup>4770</sup>"
+                    },
+                    {
+                        "number": "4221",
+                        "text": "Luqmān (as) a dit en exhortant son fils : Si tu veux accéder à la grandeur dans ce monde, cesse de convoiter ce que les gens détiennent, car en vérité, les prophètes et les véridiques ont atteint le rang qui est le leur en s'abstenant de toute convoitise.<sup>4771</sup>"
+                    },
+                    {
+                        "number": "4222",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a pas de grandeur plus haute que la piété.<sup>4772</sup>"
+                    },
+                    {
+                        "number": "4223",
+                        "text": "L'Imām 'Alī (as) a dit dans une supplication : Ô mon Dieu, il me suffit comme grandeur que je sois Ton serviteur, et il me suffit comme fierté que Tu sois mon Seigneur.<sup>4773</sup>"
+                    },
+                    {
+                        "number": "4224",
+                        "text": "L'Imām 'Alī (as) a dit : Allah ne fait certainement qu'augmenter la grandeur de celui qui traite les gens avec justesse et sans parti pris malgré lui.<sup>4774</sup>"
+                    },
+                    {
+                        "number": "4225",
+                        "text": "L'Imām 'Alī (as) a dit : Sois satisfait de peu et tu seras grandi.<sup>4775</sup>"
+                    },
+                    {
+                        "number": "4226",
+                        "text": "L'Imām al-Bāqir (as) a dit : Abandonner tout espoir [de bénéficier] de ce que les gens possèdent est une source de grandeur pour le croyant dans sa religion.<sup>4776</sup>"
+                    },
+                    {
+                        "number": "4227",
+                        "text": "L'Imām al-Bāqir (as) a dit : Il y a trois choses par lesquelles Allah n'ajoute que grandeur au musulman : le pardon à celui qui l'a offensé, le don à celui qui l'a privé, et la réconciliation avec celui qui a rompu ses relations avec lui.<sup>4777</sup>"
+                    },
+                    {
+                        "number": "4228",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Que celui qui aspire à une grandeur sans lignée, à une richesse sans argent, et à une respectabilité sans souveraineté, abandonne l'humiliation de la désobéissance à Allah pour aller vers la grandeur de Son obéissance.<sup>4778</sup>"
+                    },
+                    {
+                        "number": "4229",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Aucun serviteur ne réfrène sa colère sans qu'Allah le Tout-Puissant n'augmente sa grandeur dans cette vie ainsi que dans l'Au-delà.<sup>4779</sup>"
+                    },
+                    {
+                        "number": "4230",
+                        "text": "L'Imām al-'Askarī (as) a dit : Nulle personne dotée de grandeur n'a délaissé la vérité sans être humiliée, et nulle personne humiliée ne l'a appliquée sans s'en trouver grandie.<sup>4780</sup><br>(Voir également : 411. La piété et la crainte révérencielle, section 1866)"
+                    }
+                ]
             },
             {
-                "title": "1291 - Ce qui suscite la pérennité de la grandeur"
+                "title": "1291 - Ce qui suscite la pérennité de la grandeur",
+                "hadiths": [
+                    {
+                        "number": "4231",
+                        "text": "L'Imām al-Bāqir (as) a dit : Cherche la pérennité de la grandeur par l'anéantissement de la convoitise.<sup>4781</sup>"
+                    },
+                    {
+                        "number": "4232",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La modestie de la réserve permet davantage de conserver sa grandeur que l'intimité de la rencontre [lorsque l'on fréquente les gens].<sup>4782</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19974,13 +25099,55 @@ const AUNE_SAGESSE = [
         "title": "275 - LA SOLITUDE",
         "subparts": [
             {
-                "title": "1292 - La vertu de la solitude"
+                "title": "1292 - La vertu de la solitude",
+                "hadiths": [
+                    {
+                        "number": "4233",
+                        "text": "<i>Al-Kāfī</i> : Dans un entretien avec Moïse (as), Allah le Très-Haut a dit : Que ton vêtement soit usé et ton cœur neuf ; sois inconnu parmi les gens de la terre et connu par les habitants des cieux.<sup>4783</sup>"
+                    },
+                    {
+                        "number": "4234",
+                        "text": "Le Messager d'Allah (s) a dit : La solitude est une adoration.<sup>4784</sup>"
+                    },
+                    {
+                        "number": "4235",
+                        "text": "L'Imām 'Alī (as) a dit : L'isolement est le repos des adorateurs dévoués.<sup>4785</sup>"
+                    },
+                    {
+                        "number": "4236",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'isole des gens se familiarise avec Allah - loué soit-Il.<sup>4786</sup>"
+                    },
+                    {
+                        "number": "4237",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'isole des gens est préservé de leur méchanceté.<sup>4787</sup>"
+                    }
+                ]
             },
             {
-                "title": "1293 - Ce qui conduit à la solitude"
+                "title": "1293 - Ce qui conduit à la solitude",
+                "hadiths": [
+                    {
+                        "number": "4238",
+                        "text": "Lorsqu'il fut interrogé au sujet de la raison de son isolement, l'Imām al-Ṣādiq (as) dit : L'époque est devenue corrompue et les frères ont changé ; de ce fait, j'ai trouvé que la solitude était le plus apaisant pour le cœur.<sup>4788</sup>"
+                    },
+                    {
+                        "number": "4239",
+                        "text": "L'Imām al-'Askarī (as) a dit : L'éloignement vis-à-vis des gens est proportionnel à la connaissance que l'on a d'eux.<sup>4789</sup>"
+                    }
+                ]
             },
             {
-                "title": "1294 - Celui à qui il ne sied pas d'adopter la solitude"
+                "title": "1294 - Celui à qui il ne sied pas d'adopter la solitude",
+                "hadiths": [
+                    {
+                        "number": "4240",
+                        "text": "Le Messager d'Allah (s) a dit : Le croyant qui se mêle aux gens et qui patiente face à leurs offenses est meilleur que celui qui ne se mêle pas aux gens et n'endure pas leurs offenses.<sup>4790</sup>"
+                    },
+                    {
+                        "number": "4241",
+                        "text": "Le Messager d'Allah (s) a dit à un homme qui souhaitait aller vivre sur une montagne pour y adorer [Allah] : Le fait que l'un d'entre vous supporte une heure ce qui lui est désagréable dans un endroit du territoire de l'islam est meilleur que son adoration de quarante années dans la solitude.<sup>4791</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -19988,13 +25155,39 @@ const AUNE_SAGESSE = [
         "title": "276 - LA CONSOLATION",
         "subparts": [
             {
-                "title": "1295 - Consoler une personne affectée par un malheur"
+                "title": "1295 - Consoler une personne affectée par un malheur",
+                "hadiths": [
+                    {
+                        "number": "4242",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui console une personne affectée par un malheur reçoit une rétribution équivalente à celle de cette personne.<sup>4793</sup>"
+                    },
+                    {
+                        "number": "4243",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui console une mère dont l'enfant est décédé sera ombragé par Allah par l'ombre de Son Trône le Jour où il n'y aura pas d'autre ombre.<sup>4794</sup>"
+                    },
+                    {
+                        "number": "4244",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La plus petite consolation qui t'est demandée est que la personne affectée par le malheur te voie présent [à ses côtés].<sup>4795</sup>"
+                    }
+                ]
             },
             {
-                "title": "1296 - Ce qu'il faut dire pour consoler une personne affectée par un malheur"
+                "title": "1296 - Ce qu'il faut dire pour consoler une personne affectée par un malheur",
+                "hadiths": [
+                    {
+                        "number": "4245",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque le Messager d'Allah (s) présentait ses condoléances, il disait : «Qu'Allah vous rétribue et qu'Il vous accorde Sa miséricorde.» Et lorsqu'il félicitait, il disait : «Qu'Allah vous bénisse et qu'Il répande Ses bénédictions sur vous.»<sup>4796</sup>"
+                    }
+                ]
             },
             {
-                "title": "1297 - Féliciter une personne affectée par un malheur est plus approprié que de lui présenter ses condoléances"
+                "title": "1297 - Féliciter une personne affectée par un malheur est plus approprié que de lui présenter ses condoléances",
+                "hadiths": [
+                    {
+                        "number": "4246",
+                        "text": "L'Imām al-Riḍā (as) a dit en présentant ses condoléances à Ḥasan ibn Sahl : Féliciter une personne pour la rétribution [qu'elle aura dans l'Au-delà] est plus approprié que de lui présenter ses condoléances pour un malheur passager.<sup>4797</sup><br>(Voir également : 242. Le malheur, section 1153)"
+                    }
+                ]
             }
         ]
     },
@@ -20002,13 +25195,72 @@ const AUNE_SAGESSE = [
         "title": "277 - LES FRÉQUENTATIONS",
         "subparts": [
             {
-                "title": "1298 - Les usages concernant la fréquentation des gens"
+                "title": "1298 - Les usages concernant la fréquentation des gens",
+                "hadiths": [
+                    {
+                        "number": "4247",
+                        "text": "L'Imām 'Alī (as) a dit : Fréquentez les gens de façon à ce qu'ils vous pleurent si vous mourez et à ce que vous leur manquiez si vous vivez (et que vous vous absentez).<sup>4798</sup>"
+                    },
+                    {
+                        "number": "4248",
+                        "text": "L'Imām 'Alī (as) avait l'habitude de dire : Que le besoin des gens et l'indépendance vis-à-vis d'eux soient réunis dans ton cœur. Que ton besoin d'eux soit pour leur adresser tes paroles douces et partager ta bonne humeur, et que ton indépendance vis-à-vis d'eux soit pour préserver ta dignité et maintenir ton honneur.<sup>4799</sup>"
+                    },
+                    {
+                        "number": "4249",
+                        "text": "L'Imām al-Bāqir (as) a dit : La bonne marche des affaires des gens réside dans la coexistence [et la coopération] selon une mesure particulière : deux tiers de perspicacité et un tiers d'ignorance feinte [vis-à-vis des fautes et défauts les uns des autres].<sup>4800</sup>"
+                    }
+                ]
             },
             {
-                "title": "1299 - Les usages concernant la fréquentation de la famille"
+                "title": "1299 - Les usages concernant la fréquentation de la famille",
+                "hadiths": [
+                    {
+                        "number": "4250",
+                        "text": "L'Imām 'Alī (as) a dit dans sa recommandation à son fils Ḥasan (as) : Que tes proches ne soient pas les plus malheureuses créatures à cause de toi [de ton comportement].<sup>4802</sup>"
+                    },
+                    {
+                        "number": "4251",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, dans la gestion de sa maison et de sa famille, l'homme doit avoir trois qualités même si elles ne font pas partie de sa nature : un comportement agréable avec les autres, une générosité mesurée, et un sens de l'honneur protecteur.<sup>4803</sup><br>(Voir également : 175. Le mariage)"
+                    }
+                ],
+                "introduction": "«Ô les croyants ! Il ne vous est pas licite d'hériter des femmes contre leur gré. Ne les empêchez pas de se remarier dans le but de leur ravir une partie de ce que vous leur avez donné, à moins qu'elles ne viennent à commettre un péché prouvé. Et comportez-vous convenablement envers elles. Si vous avez quelque aversion envers elles durant la vie commune, il se peut que vous ayez de l'aversion pour une chose où Allah a déposé un grand bien.»<sup>4801</sup>"
             },
             {
-                "title": "1300 - La façon dont il faut côtoyer les gens"
+                "title": "1300 - La façon dont il faut côtoyer les gens",
+                "hadiths": [
+                    {
+                        "number": "4252",
+                        "text": "Le Messager d'Allah (s) a dit : Accompagne de la meilleure façon celui qui t'accompagne, et tu seras considéré comme un musulman.<sup>4804</sup>"
+                    },
+                    {
+                        "number": "4253",
+                        "text": "L'Imām 'Alī (as) a dit : Côtoyez les gens [mauvais] avec vos langues et vos corps, et séparez-vous d'eux par vos cœurs et vos actes.<sup>4805</sup>"
+                    },
+                    {
+                        "number": "4254",
+                        "text": "L'Imām 'Alī (as) a dit : Offre à ton frère ton âme et ton argent, à ton ennemi ta justice et ton équité, et à l'ensemble des gens ta gaieté et ta bonté.<sup>4806</sup>"
+                    },
+                    {
+                        "number": "4255",
+                        "text": "L'Imām 'Alī (as) a dit : Astreins-toi à faire preuve d'affection, et patiente face aux désagréments causés par les gens.<sup>4807</sup>"
+                    },
+                    {
+                        "number": "4256",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'empresse [de critiquer] les gens selon ce qu'ils détestent les verra dire à son propos ce qu'ils ignorent.<sup>4808</sup>"
+                    },
+                    {
+                        "number": "4257",
+                        "text": "L'Imām Ḥasan (as) a dit : Lie-toi avec les autres de la même façon que tu souhaites qu'ils se lient avec toi.<sup>4809</sup>"
+                    },
+                    {
+                        "number": "4258",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Faire preuve de courtoisie vis-à-vis des gens est le tiers de la raison.<sup>4810</sup>"
+                    },
+                    {
+                        "number": "4259",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Faire preuve d'affection envers les gens est la moitié de la raison.<sup>4811</sup><br>(Voir également : 139. Le ménagement ; 84. L'amour, sections 417 et 421)"
+                    }
+                ]
             }
         ]
     },
@@ -20016,7 +25268,29 @@ const AUNE_SAGESSE = [
         "title": "278 - 'ASHŪRĀ",
         "subparts": [
             {
-                "title": "1301 - 'Ashūrā et le fait de pleurer pour Ḥusayn (as) et ses compagnons"
+                "title": "1301 - 'Ashūrā et le fait de pleurer pour Ḥusayn (as) et ses compagnons",
+                "hadiths": [
+                    {
+                        "number": "4260",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : À tout croyant qui a pleuré pour le martyre de Ḥusayn (as) de telle façon que ses larmes ont roulé sur ses joues, Allah le fera accéder pour cela à des chambres au Paradis où il demeurera pendant longtemps.<sup>4812</sup>"
+                    },
+                    {
+                        "number": "4261",
+                        "text": "L'Imām al-Bāqir (as) a dit dans son discours au sujet de la visite pieuse (<i>ziyāra</i>) à Ḥusayn (as) de près ou de loin le jour de 'Ashūrā : «Puis laisse-le se lamenter et pleurer pour Ḥusayn (as), et enjoindre ceux qui sont présents chez lui et qui ne sont pas dans un état de dissimulation (<i>taqiyya</i>), de pleurer pour lui… Et qu'ils se présentent mutuellement leurs condoléances pour leur deuil de Ḥusayn (as)…» Je [le narrateur du <i>ḥadīth</i>] demandai : «Comment doivent-ils se présenter mutuellement leurs condoléances ?» Il répondit : «Ils doivent dire : «Qu'Allah magnifie notre rétribution pour notre deuil de Ḥusayn, qu'Il nous place vous et nous parmi ceux qui vengeront son sang en compagnie de son successeur, l'Imām al-Mahdī ('aj) de la famille de Muḥammad (s)».»<sup>4813</sup>"
+                    },
+                    {
+                        "number": "4262",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui récite un vers de poésie à propos de Ḥusayn (as), pleure [à la suite de cela] et fait pleurer dix autres personnes, lui et elles méritent le Paradis.<sup>4814</sup>"
+                    },
+                    {
+                        "number": "4263",
+                        "text": "L'Imām al-Riḍā (as) a dit : Allah le Tout-Puissant fera en sorte que le Jour de la Résurrection soit un jour de joie et de bonheur pour celui qui considère 'Ashūrā comme un jour de malheur, de chagrin et de larmes.<sup>4815</sup>"
+                    },
+                    {
+                        "number": "4264",
+                        "text": "L'Imām al-Riḍā (as) a dit : C'est pour quelqu'un comme Ḥusayn que ceux qui pleurent doivent verser leurs larmes car en vérité, pleurer pour lui absout les grands péchés… Lorsque le mois de Muḥarram arrivait, on ne voyait jamais mon père (as) rire, et la tristesse l'envahissait jusqu'à ce que passent les dix premiers jours. Et lorsque le dixième jour arrivait, c'était pour lui un jour de malheur, de chagrin et de larmes. Il disait : «C'est le jour où Ḥusayn (as) est mort en martyre.»<sup>4816</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -20024,13 +25298,43 @@ const AUNE_SAGESSE = [
         "title": "279 - LA PASSION",
         "subparts": [
             {
-                "title": "1302 - Le blâme de la passion"
+                "title": "1302 - Le blâme de la passion",
+                "hadiths": [
+                    {
+                        "number": "4265",
+                        "text": "L'Imām 'Alī (as) a dit : La séparation [de l'aimé] est la punition de la passion.<sup>4817</sup>"
+                    },
+                    {
+                        "number": "4266",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui est passionné d'une chose devient aveugle et son cœur devient malade, de telle façon qu'il regarde avec un œil qui n'est pas sain et écoute avec une oreille sourde, alors que ses bas désirs ont altéré sa raison et [l'amour de] ce monde a anéanti son cœur.<sup>4818</sup>"
+                    },
+                    {
+                        "number": "4267",
+                        "text": "Lorsqu'il fut interrogé au sujet de la passion, l'Imām al-Ṣādiq (as) dit : Allah fait goûter aux cœurs vides du rappel d'Allah l'amour d'un autre que Lui.<sup>4819</sup>"
+                    }
+                ]
             },
             {
-                "title": "1303 - La rétribution de celui qui s'éprend passionnément de quelqu'un et reste chaste"
+                "title": "1303 - La rétribution de celui qui s'éprend passionnément de quelqu'un et reste chaste",
+                "hadiths": [
+                    {
+                        "number": "4268",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui s'éprend passionnément de quelqu'un puis tait sa passion, reste chaste et meurt dans cet état, est un martyr.<sup>4820</sup>"
+                    },
+                    {
+                        "number": "4269",
+                        "text": "L'Imām 'Alī (as) a dit : La rétribution du combattant mort en martyr sur le chemin d'Allah n'est pas supérieure à celle de celui qui a l'occasion [d'assouvir un désir] et reste chaste.<sup>4821</sup>"
+                    }
+                ]
             },
             {
-                "title": "1304 - L'amour passionné pour Allah"
+                "title": "1304 - L'amour passionné pour Allah",
+                "hadiths": [
+                    {
+                        "number": "4270",
+                        "text": "Le Messager d'Allah (s) a dit : Allah le Tout-Puissant a dit : Lorsqu'un serviteur passe la majorité de son temps à se vouer à Moi, Je place son désir et son plaisir dans Mon rappel, et lorsque Je place son désir et son plaisir dans Mon rappel, il M'aime et Je l'aime. Et lorsqu'il M'aime et que Je l'aime, Je retire le voile entre lui et Moi et Je fais en sorte que cet état soit pour lui prédominant, de façon à ce qu'il ne soit jamais distrait lorsque les gens le sont.<sup>4822</sup><br>(Voir également : 84. L'amour, section 422)"
+                    }
+                ]
             }
         ]
     },
@@ -20038,10 +25342,43 @@ const AUNE_SAGESSE = [
         "title": "280 - LA FERVEUR AVEUGLE",
         "subparts": [
             {
-                "title": "1305 - Le blâme de la ferveur aveugle"
+                "title": "1305 - Le blâme de la ferveur aveugle",
+                "hadiths": [
+                    {
+                        "number": "4271",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui a fait preuve de ferveur aveugle ou a incité les autres à faire preuve de ferveur aveugle à son égard s'est détaché de la foi.<sup>4824</sup>"
+                    },
+                    {
+                        "number": "4272",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la Résurrection, Allah ressuscitera celui dont le cœur contient l'équivalent d'un grain de moutarde de ferveur aveugle en compagnie des bédouins [païens] de l'Arabie antéislamique.<sup>4825</sup>"
+                    },
+                    {
+                        "number": "4273",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui appelle à la ferveur aveugle ne fait pas partie de nous ; celui qui combat par ferveur aveugle ne fait pas partie de nous ; et celui qui est mort dans un état de ferveur aveugle ne fait pas partie de nous.<sup>4826</sup>"
+                    },
+                    {
+                        "number": "4274",
+                        "text": "L'Imām 'Alī (as) a dit en blâmant Iblīs : Ainsi, il s'est enorgueilli face à Adam en raison de sa création [faite de feu], et il a fait preuve de ferveur aveugle contre lui en raison de son origine. Par conséquent, l'ennemi d'Allah est le chef de ceux qui font preuve de ferveur aveugle et l'ancêtre de ceux qui se considèrent supérieurs. [C'est lui] qui a posé le fondement de la ferveur aveugle et a essayé d'arracher à Allah le manteau de la puissance, et qui a revêtu l'habit de l'orgueil et a retiré le voile de l'humilité.<sup>4827</sup>"
+                    },
+                    {
+                        "number": "4275",
+                        "text": "Lorsqu'il fut interrogé au sujet de la ferveur aveugle, l'Imām Zayn al-'Ābidīn (as) dit : La ferveur aveugle qui conduit son auteur à commettre un péché est lorsqu'un homme considère que les mauvaises personnes de sa famille sont meilleures que les vertueux d'une autre famille. En revanche, le fait qu'un homme aime sa propre famille n'est pas considéré comme étant de la ferveur aveugle. Cependant, aider sa famille à commettre une injustice est de la ferveur aveugle.<sup>4828</sup>"
+                    }
+                ],
+                "introduction": "«Quand ceux qui ont mécru eurent mis dans leurs cœurs la fureur, [la] fureur de l'ignorance... Puis Allah fit descendre Sa quiétude sur Son Messager ainsi que sur les croyants, et les obligea à une parole de piété, dont ils étaient les plus dignes et les plus proches. Et Allah est Omniscient.»<sup>4823</sup><br><br><span class=\"reference-note\">(Voir également : Coran 19:73, 19:81, 23:33-34, 26:111, 43:52-53, 49:14)</span>"
             },
             {
-                "title": "1306 - La ferveur louable"
+                "title": "1306 - La ferveur louable",
+                "hadiths": [
+                    {
+                        "number": "4276",
+                        "text": "L'Imām 'Alī (as) a dit : Si tu ne peux pas éviter de faire preuve de ferveur, que ta ferveur soit pour les hautes qualités humaines, les actes louables, et les choses admirables par lesquels se sont distinguées les glorieuses et nobles familles arabes et les notables des tribus [c'est-à-dire] par les bonnes manières, de grandes ambitions, des positions éminentes et des œuvres louables. Par conséquent, faites preuve de ferveur pour les qualités louables telles que la protection du voisin, la fidélité aux engagements, l'obéissance aux personnes vertueuses, l'opposition à l'orgueilleux, l'adoption de la vertu, l'abstention vis-à-vis de la tyrannie, le fait de considérer le meurtre comme un acte grave, l'équité vis-à-vis des gens, le fait de refouler sa colère et d'éviter la corruption sur terre.<sup>4829</sup>"
+                    },
+                    {
+                        "number": "4277",
+                        "text": "L'Imām 'Alī (as) a dit : Si vous devez absolument faire preuve de ferveur, faites-le pour soutenir la vérité et secourir l'affligé.<sup>4830</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -20049,13 +25386,75 @@ const AUNE_SAGESSE = [
         "title": "281 - L'INFAILLIBILITÉ",
         "subparts": [
             {
-                "title": "1307 - La signification de l'infaillibilité"
+                "title": "1307 - La signification de l'infaillibilité",
+                "hadiths": [
+                    {
+                        "number": "4278",
+                        "text": "<i>Ma'ānī al-Akhbār</i> : L'Imām al-Kāẓim (as) rapporte de ses pères, qui rapportent à leur tour de l'Imām Zayn al-'Ābidīn (as) : «L'Imām parmi nous ne peut être qu'infaillible. L'infaillibilité n'est pas une caractéristique extérieure physique par laquelle il peut être reconnu. C'est pour cela que l'infaillible ne peut l'être que par nomination.» Il lui fut alors demandé : «Ô fils du Messager d'Allah, que signifie donc infaillible ?» Il répondit : «C'est celui qui s'attache fermement à la corde d'Allah, et la corde d'Allah est le Coran. Ils ne se sépareront pas jusqu'au Jour de la Résurrection. L'Imām guide vers le Coran et le Coran guide vers l'Imām, et c'est [ce que signifie] la parole d'Allah le Tout-Puissant : «<i>En vérité, ce Coran conduit vers la voie la plus droite</i>»<sup>4831</sup>.»<sup>4832</sup>"
+                    },
+                    {
+                        "number": "4279",
+                        "text": "Lorsque Hishām l'interrogea sur la signification d'«infaillible», l'Imām al-Ṣādiq (as) dit : L'infaillible est celui qui, avec l'aide d'Allah, s'abstient de commettre l'ensemble des actes interdits par Allah, et c'est le sens de la parole du Très-Haut : «<i>Certes, quiconque s'attache fermement à Allah est certes guidé vers un droit chemin</i>»<sup>4833</sup>.<sup>4834</sup>"
+                    }
+                ]
             },
             {
-                "title": "1308 - Les facteurs qui suscitent l'infaillibilité [la préservation vis-à-vis de tout péché]"
+                "title": "1308 - Les facteurs qui suscitent l'infaillibilité [la préservation vis-à-vis de tout péché]",
+                "hadiths": [
+                    {
+                        "number": "4280",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah - que Son rappel soit glorifié - procure une immunité [contre tout mal et désobéissance] à celui qui Lui obéit. En revanche, celui qui Lui désobéit ne sera pas protégé par Lui.<sup>4835</sup>"
+                    },
+                    {
+                        "number": "4281",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui se voit conférer l'infaillibilité sera préservé de tout faux pas.<sup>4836</sup>"
+                    },
+                    {
+                        "number": "4282",
+                        "text": "L'Imām 'Alī (as) a dit : Tirer les enseignements [des expériences passées] engendre l'infaillibilité.<sup>4837</sup>"
+                    },
+                    {
+                        "number": "4283",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la crainte révérencielle [vis-à-vis d'Allah] est pour toi une immunité [vis-à-vis de tout péché] durant ta vie, et te permet d'atteindre un rang de proximité [avec Allah] après ta mort.<sup>4838</sup>"
+                    },
+                    {
+                        "number": "4284",
+                        "text": "L'Imām 'Alī (as) a dit : L'infaillibilité va de pair avec la crainte révérencielle [vis-à-vis d'Allah].<sup>4839</sup>"
+                    },
+                    {
+                        "number": "4285",
+                        "text": "L'Imām 'Alī (as) a dit : La sagesse est une infaillibilité, et l'infaillibilité est une grâce.<sup>4840</sup>"
+                    },
+                    {
+                        "number": "4286",
+                        "text": "L'Imām 'Alī (as) a dit dans l'une de ses supplications : Mon Dieu, je ne peux me préserver du péché que par Ta protection, et je ne peux atteindre [et accomplir] de bonnes actions que par Ta volonté. Dès lors, comment pourrais-je bénéficier de ce en quoi Tu m'as précédé par Ta volonté ?! Et comment pourrais-je me protéger du péché si Tu ne m'entoures pas de Ta protection ?!<sup>4841</sup>"
+                    },
+                    {
+                        "number": "4287",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'Allah le Très-Haut connaît la bonne intention d'une personne, Il l'entoure de Sa protection.<sup>4842</sup><br>(Voir également : 216. Satan, section 1029)"
+                    }
+                ]
             },
             {
-                "title": "1309 - L'infaillibilité de l'Imām"
+                "title": "1309 - L'infaillibilité de l'Imām",
+                "hadiths": [
+                    {
+                        "number": "4288",
+                        "text": "L'Imām al-Ṣādiq (as) a dit en décrivant l'Imām : Il est immunisé de tout faux pas et protégé vis-à-vis de tout acte indécent.<sup>4844</sup>"
+                    },
+                    {
+                        "number": "4289",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Nous sommes les interprètes du commandement d'Allah et nous sommes des gens infaillibles.<sup>4845</sup>"
+                    },
+                    {
+                        "number": "4290",
+                        "text": "L'Imām al-Riḍā (as) a dit : L'Imām est celui qui est purifié de tout péché et exempt de tout vice.<sup>4846</sup>"
+                    },
+                    {
+                        "number": "4291",
+                        "text": "L'Imām al-Riḍā (as) a dit : … Il [l'Imām] est donc infaillible, appuyé, renforcé, victorieux et dirigé [par Allah]. Il est préservé de toute faute, trébuchement et faux pas. Allah lui a donné ces caractéristiques afin qu'il soit un argument vis-à-vis de Ses serviteurs et Son témoin face à Sa création.<sup>4847</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -20063,10 +25462,44 @@ const AUNE_SAGESSE = [
         "title": "282 - LA VÉNÉRATION",
         "subparts": [
             {
-                "title": "1310 - La vénération des dirigeants"
+                "title": "1310 - La vénération des dirigeants",
+                "hadiths": [
+                    {
+                        "number": "4292",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui fait l'éloge d'un dirigeant tyrannique, puis s'abaisse et s'humilie par cupidité envers lui sera son associé dans le Feu [de l'Enfer].<sup>4848</sup>"
+                    },
+                    {
+                        "number": "4293",
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui aime que tout le monde se lève pour lui prenne une place dans le Feu [de l'Enfer].<sup>4849</sup>"
+                    },
+                    {
+                        "number": "4294",
+                        "text": "<i>Biḥār al-Anwār</i> : Abū Dhar a dit : Je vis Salmān et Bilāl s'approcher du Prophète (s) lorsque soudain, Salmān s'agenouilla aux pieds du Messager d'Allah (s) pour les embrasser. Le Prophète (s) l'en empêcha et lui dit : «Ô Salmān ! N'agis pas avec moi comme le font les étrangers avec leurs rois. Je suis un serviteur parmi les serviteurs d'Allah, qui mange ce que mange un serviteur et s'assied comme s'assied un serviteur.»<sup>4850</sup>"
+                    },
+                    {
+                        "number": "4295",
+                        "text": "<i>Nahj al-Balāgha</i> : Lorsque l'Imām 'Alī (as) se dirigeait vers la Syrie, des paysans d'al-Anbār, en le voyant, descendirent de leurs montures et se mirent à courir vers lui. Il leur demanda : «Que faites-vous ?» Ils répondirent : «C'est une coutume par laquelle nous glorifions nos souverains.» Il dit alors : «Par Allah, ceci n'est d'aucune utilité à vos souverains ! Quant à vous, vous vous donnez de la peine dans cette vie et cela causera votre malheur dans votre vie future. Comme est gâchée la peine qui entraîne un châtiment, et comme est profitable le calme qui apporte la sécurité vis-à-vis du Feu !»<sup>4851</sup>"
+                    }
+                ]
             },
             {
-                "title": "1311 - L'étendue recommandée de la vénération"
+                "title": "1311 - L'étendue recommandée de la vénération",
+                "hadiths": [
+                    {
+                        "number": "4296",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, vénérer la grandeur d'Allah le Tout-Puissant implique d'honorer la personne âgée, celui qui connaît le Coran, et l'Imām juste.<sup>4854</sup>"
+                    },
+                    {
+                        "number": "4297",
+                        "text": "Lorsqu'il fut interrogé au sujet du fait de se lever devant un homme par vénération, l'Imām al-Ṣādiq (as) a dit : Cela est détestable, sauf pour un homme de religion.<sup>4855</sup>"
+                    },
+                    {
+                        "number": "4298",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Vénère le savant pour son savoir et abandonne toute polémique avec lui. Déprécie l'ignorant pour son ignorance mais ne le chasse pas ; au contraire, rapproche-le de toi et instruis-le.<sup>4856</sup>"
+                    }
+                ],
+                "introduction": "«Voilà [ce qui est prescrit]. Et quiconque exalte les injonctions sacrées d'Allah s'inspire en effet de la piété des cœurs.»<sup>4852</sup><br><br>«Voilà [ce qui doit être observé], et quiconque prend en haute considération les limites sacrées d'Allah, cela lui sera meilleur auprès de Son Seigneur. Le bétail, sauf ce qu'on vous a cité, vous a été rendu licite. Abstenez-vous de la souillure des idoles et abstenez-vous des propos mensongers.»<sup>4853</sup>",
+                "note": "Al-Shahīd [al-Awwal] (qu'Allah sanctifie son âme) a écrit dans son ouvrage <i>Al-Qawā'id</i> : La vénération d'un croyant est autorisée selon les usages courants de l'époque, bien que rien sur ce type de pratique n'ait été rapporté par nos prédécesseurs, et ce à cause des lois générales qui y font allusion. Le Très-Haut a dit : «<i>Voilà [ce qui est prescrit]. Et quiconque exalte les injonctions sacrées d'Allah s'inspire en effet de la piété des cœurs</i>», et le Très-Haut a dit : «<i>Voilà [ce qui doit être observé], et quiconque prend en haute considération les limites sacrées d'Allah, cela lui sera meilleur auprès de Son Seigneur</i>.» Le Prophète (s) a également dit : «Ne vous haïssez pas les uns les autres, ne soyez pas jaloux les uns des autres, ne vous tournez pas le dos, ne rompez pas vos relations ; ô serviteurs d'Allah, soyez plutôt des frères.» Sur cette base, se lever et se courber ou autre à titre de vénération est autorisé. Et cela peut même être obligatoire si le fait d'abandonner une telle pratique entraîne la haine mutuelle, la rupture des relations, ou l'insulte à un croyant. Il est avéré que le Prophète (s) s'est levé pour Fāṭima (as) ainsi que pour Ja'far (qu'Allah soit satisfait de lui) lorsque ce dernier est revenu d'Abyssinie, et il a dit aux Anṣārs : «Levez-vous pour votre maître.» Il a aussi été rapporté qu'il (s) s'est levé pour 'Ikrima ibn Abī Jahl lorsqu'il arriva du Yémen, par joie de son arrivée."
             }
         ]
     },
@@ -20074,16 +25507,105 @@ const AUNE_SAGESSE = [
         "title": "283 - LA CHASTETÉ",
         "subparts": [
             {
-                "title": "1312 - L'incitation à la chasteté"
+                "title": "1312 - L'incitation à la chasteté",
+                "hadiths": [
+                    {
+                        "number": "4299",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah aime la personne réservée et chaste, et Il déteste le quêteur grossier et insistant.<sup>4859</sup>"
+                    },
+                    {
+                        "number": "4300",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la rétribution du combattant mort en martyr sur le sentier d'Allah n'est pas plus grande que celle de celui qui a eu l'occasion [de commettre un péché] et qui est demeuré chaste. La personne chaste est près de devenir un ange parmi les Anges.<sup>4860</sup>"
+                    },
+                    {
+                        "number": "4301",
+                        "text": "L'Imām 'Alī (as) a dit : La chasteté est le sommet de tout bien.<sup>4861</sup>"
+                    },
+                    {
+                        "number": "4302",
+                        "text": "L'Imām 'Alī (as) a dit : La chasteté est la meilleure partie de l'esprit chevaleresque.<sup>4862</sup>"
+                    },
+                    {
+                        "number": "4303",
+                        "text": "L'Imām 'Alī (as) a dit : La chasteté préserve l'âme et la garde éloignée des bassesses.<sup>4863</sup>"
+                    },
+                    {
+                        "number": "4304",
+                        "text": "L'Imām 'Alī (as) a dit : L'aumône (<i>zakāt</i>) de la beauté est la chasteté.<sup>4864</sup>"
+                    },
+                    {
+                        "number": "4305",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Soyez chastes vis-à-vis des femmes des gens, et vos propres femmes resteront chastes.<sup>4865</sup>"
+                    }
+                ],
+                "introduction": "«Et que ceux qui n'ont pas de quoi se marier, cherchent à rester chastes jusqu'à ce qu'Allah les enrichisse par Sa grâce.»<sup>4857</sup><br><br>«[Les nécessiteux] que l'ignorant croit riches du fait de leur réserve.»<sup>4858</sup>"
             },
             {
-                "title": "1313 - L'incitation à la retenue du ventre et du sexe"
+                "title": "1313 - L'incitation à la retenue du ventre et du sexe",
+                "hadiths": [
+                    {
+                        "number": "4306",
+                        "text": "Le Messager d'Allah (s) a dit : La plupart des gens de ma communauté qui iront en Enfer y entreront à cause de deux cavités : le ventre et les parties intimes.<sup>4866</sup>"
+                    },
+                    {
+                        "number": "4307",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Moïse (que les prières et le salut d'Allah soient sur lui) s'est engagé [à travailler sans salaire] pendant huit ou dix ans afin de rendre chaste et de purifier ses parties intimes ainsi que la nourriture de son ventre.<sup>4867</sup>"
+                    },
+                    {
+                        "number": "4308",
+                        "text": "L'Imām al-Bāqir (as) a dit : Allah ne peut être adoré par un acte meilleur que le fait de retenir son ventre et ses parties intimes.<sup>4868</sup>"
+                    }
+                ]
             },
             {
-                "title": "1314 - L'origine de la chasteté"
+                "title": "1314 - L'origine de la chasteté",
+                "hadiths": [
+                    {
+                        "number": "4309",
+                        "text": "L'Imām 'Alī (as) a dit : L'origine de la chasteté est la satisfaction de peu, et son fruit est la réduction des tristesses.<sup>4869</sup>"
+                    },
+                    {
+                        "number": "4310",
+                        "text": "L'Imām 'Alī (as) a dit : Être satisfait de ce que l'on a mène à la chasteté.<sup>4870</sup>"
+                    },
+                    {
+                        "number": "4311",
+                        "text": "L'Imām 'Alī (as) a dit : La valeur de l'homme est proportionnelle à ses nobles ambitions… Et sa chasteté est proportionnelle à son sens de l'honneur.<sup>4871</sup>"
+                    },
+                    {
+                        "number": "4312",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui utilise son intellect est chaste.<sup>4872</sup>"
+                    }
+                ]
             },
             {
-                "title": "1315 - Le fruit de la chasteté"
+                "title": "1315 - Le fruit de la chasteté",
+                "hadiths": [
+                    {
+                        "number": "4313",
+                        "text": "Le Messager d'Allah (s) a dit : Concernant la chasteté, elle fait croître les branches de la satisfaction, l'humilité, la bonne fortune, le repos, l'amabilité, l'humilité, le rappel, la méditation, la magnanimité et la générosité. Ce sont les ramifications issues de la personne intelligente grâce à sa chasteté, celle qui est satisfaite d'Allah ainsi que de la part [de subsistance lui ayant été allouée].<sup>4873</sup>"
+                    },
+                    {
+                        "number": "4314",
+                        "text": "L'Imām 'Alī (as) a dit : La chasteté affaiblit le désir charnel.<sup>4874</sup>"
+                    },
+                    {
+                        "number": "4315",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit de la chasteté réside dans le fait d'être satisfait de peu.<sup>4875</sup>"
+                    },
+                    {
+                        "number": "4316",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit de la chasteté est la préservation [de soi-même].<sup>4876</sup>"
+                    },
+                    {
+                        "number": "4317",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'abstient et reste chaste voit le fardeau de ses péchés s'alléger et sa valeur auprès d'Allah s'accroître.<sup>4877</sup>"
+                    },
+                    {
+                        "number": "4318",
+                        "text": "L'Imām 'Alī (as) a dit : C'est par la chasteté que les actes sont purifiés.<sup>4878</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -20091,22 +25613,137 @@ const AUNE_SAGESSE = [
         "title": "284 - LE PARDON",
         "subparts": [
             {
-                "title": "1316 - La vertu du pardon"
+                "title": "1316 - La vertu du pardon",
+                "hadiths": [
+                    {
+                        "number": "4319",
+                        "text": "Le Messager d'Allah (s) a dit : Si vous êtes pris d'une colère, évitez-la par le pardon, car en vérité, le Jour de la Résurrection, un appel sera lancé : «Que celui qui attend une rétribution de la part d'Allah se lève !» Et ne se lèveront que ceux qui ont pardonné. N'avez-vous pas entendu la parole du Très-Haut : «<i>Mais quiconque pardonne et réforme, son salaire incombe à Allah</i>» ?!<sup>4881</sup>"
+                    },
+                    {
+                        "number": "4320",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah est pardonneur et Il aime le pardon.<sup>4882</sup>"
+                    },
+                    {
+                        "number": "4321",
+                        "text": "Le Messager d'Allah (s) a dit : Vous devez pardonner car en vérité, le pardon ne rajoute au serviteur que de l'honneur. Dès lors, pardonnez-vous les uns les autres, et vous serez honorés par Allah.<sup>4883</sup>"
+                    },
+                    {
+                        "number": "4322",
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui pardonne beaucoup aura sa vie rallongée.<sup>4884</sup>"
+                    },
+                    {
+                        "number": "4323",
+                        "text": "Le Messager d'Allah (s) a dit : Excusez les faux pas des fautifs, et Allah vous préservera de destins funestes.<sup>4885</sup>"
+                    },
+                    {
+                        "number": "4324",
+                        "text": "L'Imām al-Bāqir (as) a dit : Regretter son pardon est préférable et plus facile que de regretter une punition [que l'on a donnée].<sup>4886</sup>"
+                    },
+                    {
+                        "number": "4325",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Trois des nobles caractéristiques de ce monde et de l'Au-delà sont : de pardonner à celui qui t'a offensé, renouer avec celui qui a rompu avec toi, et être indulgent vis-à-vis de celui qui t'a manqué de respect.<sup>4887</sup>"
+                    }
+                ],
+                "introduction": "«La sanction d'une mauvaise action est une mauvaise action [une peine] identique. Mais quiconque pardonne et réforme, son salaire incombe à Allah. Il n'aime point les injustes.»<sup>4879</sup><br><br>«Ceux qui dépensent dans l'aisance ou dans l'adversité, qui répriment leur colère et pardonnent à autrui, car Allah aime les bienfaisants.»<sup>4880</sup>"
             },
             {
-                "title": "1317 - L'incitation au beau pardon"
+                "title": "1317 - L'incitation au beau pardon",
+                "hadiths": [
+                    {
+                        "number": "4326",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui a réprimandé [quelqu'un] pour sa faute ne l'a pas pardonnée.<sup>4889</sup>"
+                    },
+                    {
+                        "number": "4327",
+                        "text": "L'Imām al-Riḍā (as) a dit au sujet de la parole du Très-Haut : «<i>Pardonne-[leur] donc d'un beau pardon</i>» : C'est un pardon sans punition, ni réprimande et ni reproche.<sup>4890</sup>"
+                    }
+                ],
+                "introduction": "«Nous n'avons créé les cieux, la terre et tout ce qui est entre eux, que pour une juste raison. L'Heure [du Jugement] approche certainement. Pardonne-[leur] donc d'un beau pardon.»<sup>4888</sup>"
             },
             {
-                "title": "1318 - L'incitation à pardonner malgré le fait que l'on a le pouvoir [de punir]"
+                "title": "1318 - L'incitation à pardonner malgré le fait que l'on a le pouvoir [de punir]",
+                "hadiths": [
+                    {
+                        "number": "4328",
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour de la difficulté [le Jour de la Résurrection], Allah pardonnera celui qui a pardonné alors qu'il avait le pouvoir [de punir].<sup>4891</sup>"
+                    },
+                    {
+                        "number": "4329",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque tu as le pouvoir sur ton ennemi, fais en sorte que ton pardon envers lui soit un remerciement pour le fait d'avoir pris le dessus sur lui.<sup>4892</sup>"
+                    },
+                    {
+                        "number": "4330",
+                        "text": "L'Imām 'Alī (as) a dit : Le pardon est l'aumône (<i>zakāt</i>) de la victoire.<sup>4893</sup>"
+                    },
+                    {
+                        "number": "4331",
+                        "text": "L'Imām Ḥusayn (as) a dit : En vérité, le plus pardonneur des gens est celui qui pardonne alors qu'il a le pouvoir [de punir].<sup>4894</sup><br>(Voir également : 346. La compensation, section 1608)"
+                    }
+                ]
             },
             {
-                "title": "1319 - Le pardon et l'assainissement des cœurs"
+                "title": "1319 - Le pardon et l'assainissement des cœurs",
+                "hadiths": [
+                    {
+                        "number": "4332",
+                        "text": "Le Messager d'Allah (s) a dit à un homme qui s'était plaint auprès de lui de ses serviteurs : «Pardonne-leur, et tu assainiras leurs cœurs par cela.» L'homme dit : «Ô Messager d'Allah, en vérité, ils diffèrent dans leur mauvais comportement.» Il dit alors : «Pardonne-leur.» Et l'homme s'exécuta.<sup>4895</sup>"
+                    },
+                    {
+                        "number": "4333",
+                        "text": "L'Imām 'Alī (as) a dit dans une recommandation à son fils Ḥasan (as) : Si l'un d'eux mérite une punition pour un péché, alors adresse-lui un reproche de façon convenable car en vérité, pour une personne dotée d'intelligence, un reproche accompagné de pardon est plus sévère [et efficace] qu'une correction physique.<sup>4896</sup><br>(Voir également : 267. L'animosité, section 1238)"
+                    }
+                ]
             },
             {
-                "title": "1320 - Ce qui ne doit pas être pardonné"
+                "title": "1320 - Ce qui ne doit pas être pardonné",
+                "hadiths": [
+                    {
+                        "number": "4334",
+                        "text": "L'Imām 'Alī (as) a dit : Le pardon corrompt le pécheur tout autant qu'il permet de corriger une personne ayant un sens de l'honneur.<sup>4897</sup>"
+                    },
+                    {
+                        "number": "4335",
+                        "text": "L'Imām 'Alī (as) a dit : Récompense la bonne action et sois indulgent face à la mauvaise action tant que cela ne porte pas atteinte à la religion et n'affaiblit pas l'autorité de l'islam.<sup>4898</sup>"
+                    }
+                ]
             },
             {
-                "title": "1321 - Le pardon d'Allah"
+                "title": "1321 - Le pardon d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4336",
+                        "text": "Lorsque 'Ā'isha l'interrogea au sujet de l'invocation de la Nuit du Destin (<i>laylat al-qadr</i>), le Messager d'Allah (s) répondit : Tu dois dire : «Ô Allah, Tu es pardonneur et Tu aimes le pardon, alors pardonne-moi !»<sup>4900</sup>"
+                    },
+                    {
+                        "number": "4337",
+                        "text": "<i>Tanbīh al-Khawāṭir</i> : Un bédouin demanda : «Ô Messager d'Allah, qui dressera les comptes des créatures le Jour de la Résurrection ?» Il répondit : «Allah, le Tout-Puissant.» Il dit : «Par le Dieu de la Ka'ba, nous serons sauvés !» Le Messager d'Allah (s) demanda : «Comment cela, ô bédouin ?» Il dit : «Car lorsqu'il détient le pouvoir, le généreux pardonne.»<sup>4901</sup>"
+                    },
+                    {
+                        "number": "4338",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, Allah le Très-Haut vous interrogera, ô communauté de Ses serviteurs, au sujet de vos actes, qu'ils soient petits ou grands, faits en public et en secret. Ainsi, s'Il punit, vous méritez encore plus de punition [de par vos actes], et s'Il pardonne, Il est encore plus généreux que cela.<sup>4902</sup>"
+                    },
+                    {
+                        "number": "4339",
+                        "text": "L'Imām 'Alī (as) a dit dans son entretien intime [avec Allah] : Mon Dieu, je pense à Ton pardon et mes fautes me paraissent insignifiantes ; puis je me rappelle Ton grand châtiment, et mon malheur me paraît énorme.<sup>4903</sup>"
+                    },
+                    {
+                        "number": "4340",
+                        "text": "L'Imām 'Alī (as) a dit : Ô Allah, expose-moi à Ton pardon mais ne m'expose pas à Ta justice.<sup>4904</sup>"
+                    },
+                    {
+                        "number": "4341",
+                        "text": "L'Imām 'Alī (as) a dit : Le pardon d'Allah se hâtera vers celui qui s'abstient de commettre les interdits d'Allah.<sup>4905</sup>"
+                    },
+                    {
+                        "number": "4342",
+                        "text": "L'Imām 'Alī (as) a dit : Allah teste Ses serviteurs par diverses épreuves, Il les conduit à L'adorer par divers efforts, Il leur inflige différents malheurs afin de chasser l'orgueil de leurs cœurs et de consolider l'humilité dans leurs âmes, et Il fait en sorte que tout cela soit des portes menant à Sa grâce et des moyens pour faciliter Son pardon.<sup>4906</sup>"
+                    },
+                    {
+                        "number": "4343",
+                        "text": "L'Imām al-Ṣādiq (as) avait l'habitude de dire : Ô Allah, en vérité, Tu es plus digne, par ce que Tu es, du pardon que je ne le suis du châtiment.<sup>4907</sup><br>(Voir également : 158. La miséricorde)"
+                    }
+                ],
+                "introduction": "«Allah, en vérité, est Indulgent et Pardonneur.»<sup>4899</sup>"
             }
         ]
     },
@@ -20114,19 +25751,85 @@ const AUNE_SAGESSE = [
         "title": "285 - LA SANTÉ",
         "subparts": [
             {
-                "title": "1322 - La valeur de la santé"
+                "title": "1322 - La valeur de la santé",
+                "hadiths": [
+                    {
+                        "number": "4344",
+                        "text": "L'Imām 'Alī (as) a dit : La santé est le plus agréable des bienfaits.<sup>4908</sup>"
+                    },
+                    {
+                        "number": "4345",
+                        "text": "L'Imām 'Alī (as) a dit : Il n'y a pas de plus beau vêtement que la santé.<sup>4909</sup>"
+                    },
+                    {
+                        "number": "4346",
+                        "text": "L'Imām 'Alī (as) a dit : C'est par la santé que l'on accède au plaisir de vivre.<sup>4910</sup>"
+                    },
+                    {
+                        "number": "4347",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La santé est une grâce cachée ; on l'oublie lorsqu'elle est présente, et on s'en rappelle lorsqu'on la perd.<sup>4911</sup>"
+                    }
+                ]
             },
             {
-                "title": "1323 - Ce qui génère la santé"
+                "title": "1323 - Ce qui génère la santé",
+                "hadiths": [
+                    {
+                        "number": "4348",
+                        "text": "Le Messager d'Allah (s) a dit : Allah ouvre une porte de la santé à celui qui envoie des salutations de paix (<i>ṣalawāt</i>) pour moi une fois.<sup>4912</sup>"
+                    },
+                    {
+                        "number": "4349",
+                        "text": "L'Imām 'Alī (as) a dit : La santé est constituée de dix parties dont neuf se trouvent dans le silence sauf pour le rappel d'Allah, et une partie se trouve dans le fait d'abandonner la compagnie des sots.<sup>4913</sup>"
+                    },
+                    {
+                        "number": "4350",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Que celui qui souhaite avoir une santé durable ait de la piété et craigne Allah.<sup>4914</sup>"
+                    }
+                ]
             },
             {
-                "title": "1324 - L'incitation à rechercher la santé auprès d'Allah"
+                "title": "1324 - L'incitation à rechercher la santé auprès d'Allah",
+                "hadiths": [
+                    {
+                        "number": "4351",
+                        "text": "Le Messager d'Allah (s) a dit lorsqu'il entendit un homme demander à Allah la patience : Tu as demandé à Allah l'épreuve, demande-Lui aussi l'immunité.<sup>4915</sup>"
+                    },
+                    {
+                        "number": "4352",
+                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas une chose pour laquelle Allah aime autant être imploré que lorsqu'on Lui demande la santé.<sup>4916</sup>"
+                    },
+                    {
+                        "number": "4353",
+                        "text": "Le Messager d'Allah (s) a dit : Demandez à Allah de vous accorder la santé car en vérité, après la certitude, on n'a pas donné à quelqu'un de chose plus bénéfique que la santé.<sup>4917</sup>"
+                    },
+                    {
+                        "number": "4354",
+                        "text": "<i>Al-Da'awāt</i> : Il est rapporté que le Prophète (s) rendit visite à un homme malade et lui dit : «Comment vas-tu ?» Il dit : «Tu as dirigé notre prière du coucher du soleil (<i>maghrib</i>), et tu as récité la sourate <i>Al-Qāri'a</i> (Le Fracas). J'ai alors dit : «Ô Allah, si j'ai commis un péché pour lequel Tu veux me châtier dans l'Au-delà, hâte cela dans ce monde», et je suis devenu comme tu me vois !» Il (s) dit alors : «Quelle mauvaise chose tu as dite, pourquoi n'as-tu pas dit : «Notre Seigneur, offre-nous le bien dans ce monde et le bien dans l'Au-delà, et préserve-nous du châtiment du Feu» ?!» Puis il pria pour lui jusqu'à ce qu'il recouvre la santé.<sup>4918</sup>"
+                    },
+                    {
+                        "number": "4355",
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit lorsqu'il heurta l'épaule d'un homme occupé à accomplir ses circumambulations (<i>ṭawāf</i>) autour de la Ka'ba en disant «Ô Allah, en vérité, j'implore auprès de Toi la patience» : «Tu as demandé l'épreuve ! Dis plutôt : «Ô Allah, en vérité, j'implore auprès de Toi la santé et la gratitude [envers Toi] pour la santé».»<sup>4919</sup>"
+                    }
+                ]
             },
             {
-                "title": "1325 - L'invocation pour demander la santé"
+                "title": "1325 - L'invocation pour demander la santé",
+                "hadiths": [
+                    {
+                        "number": "4356",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Ô Allah, en vérité, j'implore auprès de Toi la santé, et j'implore auprès de Toi la belle santé, et j'implore auprès de Toi la gratitude [envers Toi] pour la santé, et j'implore auprès de Toi la capacité de Te remercier pour la gratitude [envers Toi] pour la santé.<sup>4920</sup>"
+                    }
+                ]
             },
             {
-                "title": "1326 - Les proches serviteurs [d'Allah]"
+                "title": "1326 - Les proches serviteurs [d'Allah]",
+                "hadiths": [
+                    {
+                        "number": "4357",
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, Allah le Tout-Puissant a des proches serviteurs à qui Il épargne les épreuves, de telle façon qu'Il les fait vivre en bonne santé, Il leur accorde la subsistance dans la bonne santé, Il les fait mourir en bonne santé, Il les ressuscite en bonne santé, et Il les établit au Paradis dans la bonne santé et la vitalité.<sup>4921</sup>"
+                    }
+                ]
             }
         ]
     },
@@ -20134,37 +25837,372 @@ const AUNE_SAGESSE = [
         "title": "286 - L'INTELLECT",
         "subparts": [
             {
-                "title": "1327 - La valeur de l'intellect"
+                "title": "1327 - La valeur de l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4358",
+                        "text": "Le Messager d'Allah (s) a dit : Le fondement de l'homme est son intellect, et celui qui n'a pas d'intellect n'a pas de religion.<sup>4925</sup>"
+                    },
+                    {
+                        "number": "4359",
+                        "text": "L'Imām 'Alī (as) a dit : Allah n'a confié un intellect à l'homme que pour qu'il soit un jour sauvé par lui.<sup>4926</sup>"
+                    },
+                    {
+                        "number": "4360",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est le plus solide fondement.<sup>4927</sup>"
+                    },
+                    {
+                        "number": "4361",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est exempt de toute chose blâmable et il ordonne le convenable.<sup>4928</sup>"
+                    },
+                    {
+                        "number": "4362",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect corrige et réforme toute chose.<sup>4929</sup>"
+                    },
+                    {
+                        "number": "4363",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est une échelle vers le <i>'Illiyūn</i> [le plus élevé des cieux].<sup>4930</sup>"
+                    },
+                    {
+                        "number": "4364",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est le messager de la vérité.<sup>4931</sup>"
+                    },
+                    {
+                        "number": "4365",
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, la plus suffisante des richesses est l'intellect.<sup>4932</sup>"
+                    },
+                    {
+                        "number": "4366",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est l'ami intime de l'homme.<sup>4933</sup>"
+                    },
+                    {
+                        "number": "4367",
+                        "text": "L'Imām al-Bāqir (as) a dit : Il n'y a pas pire affliction que l'absence d'intellect.<sup>4934</sup>"
+                    },
+                    {
+                        "number": "4368",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, Allah - glorifiée soit Sa louange - a créé l'intellect, et c'est la première créature parmi les êtres spirituels qu'Il a créée de la droite de Son Trône à partir de Sa lumière.<sup>4935</sup>"
+                    },
+                    {
+                        "number": "4369",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah le Très-Haut a créé l'intellect à partir de quatre choses : le savoir, la puissance, la lumière, et la volonté. Puis Il a fait en sorte que l'intellect subsiste par le savoir et soit éternel dans le royaume céleste.<sup>4936</sup>"
+                    },
+                    {
+                        "number": "4370",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il n'y a pas de richesse plus productive que l'intellect, et il n'y a pas d'indigence plus vile que la stupidité.<sup>4937</sup>"
+                    },
+                    {
+                        "number": "4371",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il n'y a pas de bien plus bénéfique que l'intellect.<sup>4938</sup>"
+                    },
+                    {
+                        "number": "4372",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'intellect est le guide du croyant.<sup>4939</sup>"
+                    },
+                    {
+                        "number": "4373",
+                        "text": "L'Imām al-Kāẓim (as) a dit dans sa recommandation à Hishām ibn al-Ḥakam : Ô Hishām, il n'a pas été donné aux serviteurs de meilleure chose que l'intellect. Le sommeil de l'homme doté d'intellect est meilleur que la veillée de l'ignorant. Allah n'a envoyé aucun prophète sans qu'il ne soit doté d'intellect, afin que son intellect soit supérieur à l'ensemble des efforts des laborieux. Et le serviteur n'est pas considéré comme ayant accompli une obligation parmi les actes rendus obligatoires par Allah tant qu'il ne l'a pas comprise et intelligée.<sup>4940</sup>"
+                    },
+                    {
+                        "number": "4374",
+                        "text": "L'Imām al-Riḍā (as) a dit : L'ami de tout homme est son intellect et son ennemi est son ignorance.<sup>4941</sup>"
+                    }
+                ],
+                "introduction": "«Il donne la sagesse à qui Il veut. Et celui à qui la sagesse est donnée, vraiment, c'est un bien immense qui lui est donné. Mais seuls les doués d'intelligence s'en souviennent.»<sup>4923</sup><br><br>«Et ils dirent : «Si nous avions écouté ou raisonné, nous ne serions pas parmi les gens de la Fournaise».»<sup>4924</sup>"
             },
             {
-                "title": "1328 - Le rôle de l'intellect dans le châtiment et la rétribution"
+                "title": "1328 - Le rôle de l'intellect dans le châtiment et la rétribution",
+                "hadiths": [
+                    {
+                        "number": "4375",
+                        "text": "Le Messager d'Allah (s) demanda à un groupe d'hommes qui faisaient l'éloge d'un homme : «Comment est l'intellect de cet homme ?» Ils dirent : «Ô Messager d'Allah, nous t'informons au sujet de son assiduité dans l'adoration et autres bonnes actions, et tu nous questionnes au sujet de son intellect ?!» Il dit alors : «En vérité, le sot commet par sa sottise des choses pires que le pécheur par ses actes immoraux. En effet, grâce à leur intellect, les serviteurs seront élevés demain [dans l'Au-delà] à de hauts rangs, et ils atteindront la proximité de leur Seigneur en proportion de leurs intellects.»<sup>4942</sup>"
+                    },
+                    {
+                        "number": "4376",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, l'ensemble du bien est obtenu par l'intellect, et celui qui n'a pas d'intellect n'a pas de religion.<sup>4943</sup>"
+                    },
+                    {
+                        "number": "4377",
+                        "text": "L'Imām Ḥasan (as) a dit : C'est par l'intellect que l'on obtient les deux demeures [ce monde et l'Au-delà], et celui qui est privé d'intellect est privé des deux.<sup>4944</sup>"
+                    },
+                    {
+                        "number": "4378",
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'Allah créa l'intellect, Il lui dit : «Approche !» Et il s'approcha, puis Il lui dit : «Recule !» et il recula. Il dit alors : «Par Ma gloire et Ma majesté, Je n'ai pas créé de créature meilleure que toi. C'est à toi que J'ordonne et à toi que J'interdis, et c'est toi que Je rétribue et toi que Je châtie.»<sup>4945</sup>"
+                    },
+                    {
+                        "number": "4379",
+                        "text": "L'Imām al-Bāqir (as) a dit : Parmi ce qui a été révélé à Moïse (as) [figure cela] : Je demande des comptes à Mes serviteurs en proportion du niveau d'intellect dont Je les ai dotés.<sup>4946</sup>"
+                    },
+                    {
+                        "number": "4380",
+                        "text": "L'Imām al-Bāqir (as) a dit : J'ai trouvé dans le livre (c'est-à-dire le livre attribué à 'Alī (as)) que la valeur de tout être et son mérite réside dans sa connaissance. En vérité, Allah le Béni et le Très-Haut demandera des comptes aux gens en proportion du niveau d'intellect dont Il les a dotés dans la vie de ce monde.<sup>4947</sup>"
+                    },
+                    {
+                        "number": "4381",
+                        "text": "L'Imām al-Kāẓim (as) a dit : Que celui qui aspire à la richesse sans argent, à l'apaisement du cœur par rapport à l'envie, ainsi qu'à l'intégrité de la religion, implore Allah le Tout-Puissant avec humilité afin que son intellect soit perfectionné.<sup>4948</sup>"
+                    }
+                ]
             },
             {
-                "title": "1329 - L'autorité de l'intellect"
+                "title": "1329 - L'autorité de l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4382",
+                        "text": "L'Imām al-Kāẓim (as) a dit : En vérité, Allah a deux arguments envers les gens : un argument manifeste et un argument caché. L'argument manifeste sont les messagers, les prophètes et les Imāms (as), et l'argument caché est l'intellect.<sup>4949</sup>"
+                    },
+                    {
+                        "number": "4383",
+                        "text": "L'Imām al-Kāẓim (as) a dit dans son conseil à Hishām ibn al-Ḥakam : Allah n'a envoyé Ses prophètes et Ses messagers à Ses serviteurs que pour qu'ils accèdent à une compréhension et réfléchissent au sujet d'Allah. Ainsi, ceux parmi eux qui répondent le mieux à leur appel sont ceux qui ont la meilleure connaissance, et ceux parmi eux qui connaissent le mieux l'ordre d'Allah sont ceux qui ont les meilleurs intellects, et ceux qui ont les intellects les plus parfaits seront ceux qui occuperont les plus hauts rangs dans ce monde et dans l'Au-delà.<sup>4950</sup>"
+                    }
+                ]
             },
             {
-                "title": "1330 - L'explication de l'intellect"
+                "title": "1330 - L'explication de l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4384",
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, l'intellect est une entrave à l'ignorance, et l'âme [concupiscente] est comme la plus vile des bêtes : si elle n'est pas entravée, elle s'égare.<sup>4951</sup>"
+                    },
+                    {
+                        "number": "4385",
+                        "text": "Le Messager d'Allah (s) a dit : L'intellect est une lumière qu'Allah a créée pour l'homme, et Il a fait en sorte qu'il éclaire le cœur afin que par cela, il puisse connaître la différence entre les choses manifestes et les choses invisibles.<sup>4952</sup>"
+                    },
+                    {
+                        "number": "4386",
+                        "text": "L'Imām 'Alī (as) a dit : [Être un homme d']intellect implique que tu ne dises que ce que tu sais et que tu agisses selon ce que tu dis.<sup>4953</sup>"
+                    },
+                    {
+                        "number": "4387",
+                        "text": "L'Imām 'Alī (as) a dit : [Être un homme d']intellect implique de conserver ses expériences, et la meilleure chose que tu as expérimentée est celle dont tu as tiré une leçon.<sup>4954</sup>"
+                    },
+                    {
+                        "number": "4388",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est de deux sortes : l'intellect naturel et l'intellect expérimental ; les deux sont bénéfiques.<sup>4955</sup>"
+                    },
+                    {
+                        "number": "4389",
+                        "text": "Interrogé au sujet de l'intellect, l'Imām Ḥasan (as) a dit : C'est de ravaler son chagrin jusqu'à ce que l'occasion [de la délivrance] arrive.<sup>4956</sup>"
+                    },
+                    {
+                        "number": "4390",
+                        "text": "Lorsque son père l'interrogea au sujet de l'intellect, l'Imām Ḥasan (as) répondit : C'est que ton cœur préserve ce que tu y as déposé.<sup>4957</sup>"
+                    }
+                ]
             },
             {
-                "title": "1331 - Les attributs de l'homme d'intellect"
+                "title": "1331 - Les attributs de l'homme d'intellect",
+                "hadiths": [
+                    {
+                        "number": "4391",
+                        "text": "Le Messager d'Allah (s) a dit : L'attribut de l'homme d'intellect est d'être indulgent face à celui qui l'a offensé, de fermer les yeux sur la faute de celui qui a été injuste envers lui, d'être humble vis-à-vis de celui qui lui est inférieur, et de rivaliser avec celui qui est au-dessus de lui dans la quête du bien. Lorsqu'il s'apprête à parler, il réfléchit : ainsi, s'il s'agit d'une bonne parole, il la dit et en bénéficie, et s'il s'agit d'une mauvaise parole, il se tait et est préservé. Lorsqu'il se trouve confronté à une tentation, il cherche refuge auprès d'Allah et retient sa main ainsi que sa langue. Lorsqu'il voit une vertu, il la saisit. La pudeur ne le quitte jamais et il ne manifeste aucune avarice. Ce sont les dix qualités par lesquelles est connu l'homme d'intellect.<sup>4958</sup>"
+                    },
+                    {
+                        "number": "4392",
+                        "text": "Le Messager d'Allah (s) a dit : La plus intelligente des personnes est celle qui s'accommode le mieux avec les gens.<sup>4959</sup>"
+                    },
+                    {
+                        "number": "4393",
+                        "text": "L'Imām 'Alī (as) a dit : La poitrine de l'homme d'intellect est le coffre-fort de son secret.<sup>4960</sup>"
+                    },
+                    {
+                        "number": "4394",
+                        "text": "<i>Nahj al-Balāgha</i> : L'Imām 'Alī (as) a dit lorsqu'on l'interrogea au sujet de l'homme d'intellect : «C'est celui qui met chaque chose à sa place.» On dit alors : «Alors décris-nous l'ignorant.» Il répondit : «Je viens de le faire.»<sup>4961</sup>"
+                    },
+                    {
+                        "number": "4395",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'homme d'intellect ne se fait pas mordre deux fois du même trou.<sup>4962</sup>"
+                    },
+                    {
+                        "number": "4396",
+                        "text": "L'Imām al-Ṣādiq (as) a dit lorsqu'on l'interrogea au sujet de l'intellect : «C'est ce par quoi le Miséricordieux est adoré et ce qui permet d'accéder au Paradis.» On demanda : «Alors qu'en est-il de ce dont était doté Mu'āwiya ?» Il répondit : «C'est une chose vicieuse, c'est une chose diabolique. Cela ressemble à de l'intellect, mais ce n'est pas de l'intellect.»<sup>4963</sup>"
+                    },
+                    {
+                        "number": "4397",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : L'homme d'intellect doit bien connaître son époque, s'occuper de ce qui le concerne, et tenir sa langue.<sup>4964</sup>"
+                    },
+                    {
+                        "number": "4398",
+                        "text": "L'Imām al-Kāẓim (as) a dit : En vérité, l'homme d'intellect ne s'entretient pas avec celui dont il craint qu'il le traitera de menteur, il ne demande pas à celui dont il craint qu'il n'agréera pas sa demande, il ne promet pas ce qu'il ne peut réaliser, il n'espère pas ce qui va ruiner ses espoirs, et il n'entreprend pas une chose dont il craint qu'il sera incapable de réaliser.<sup>4965</sup>"
+                    },
+                    {
+                        "number": "4399",
+                        "text": "L'Imām al-Kāẓim (as) a dit : En vérité, l'homme d'intellect se contente de peu de choses de ce monde lorsqu'il a aussi de la sagesse, et il ne se contente pas de moins de sagesse accompagnée de plus de choses de ce monde. C'est pour cela que leur commerce [de l'éphémère pour ce qui est éternel] leur est profitable.<sup>4966</sup>"
+                    }
+                ]
             },
             {
-                "title": "1332 - Ce qui développe l'intellect"
+                "title": "1332 - Ce qui développe l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4400",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est un instinct qui se développe par le savoir et l'expérience.<sup>4967</sup>"
+                    },
+                    {
+                        "number": "4401",
+                        "text": "L'Imām 'Alī (as) a dit : C'est en délaissant ce qui ne te concerne pas que ton intellect se perfectionnera.<sup>4968</sup>"
+                    },
+                    {
+                        "number": "4402",
+                        "text": "L'Imām Ḥusayn (as) a dit lorsque l'intellect fut évoqué auprès de Mu'āwiya : «L'intellect ne se parfait qu'en suivant la vérité.» Mu'āwiya dit alors : «Il n'y a qu'une seule chose dans vos poitrines [vous attribuez tout à la vérité].»<sup>4969</sup>"
+                    },
+                    {
+                        "number": "4403",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : De nombreuses réflexions sur des sujets de connaissance font s'épanouir l'intellect.<sup>4970</sup>"
+                    },
+                    {
+                        "number": "4404",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : De nombreuses réflexions sur la sagesse rendent l'intellect fécond.<sup>4971</sup>"
+                    },
+                    {
+                        "number": "4405",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La perfection de l'intellect se trouve dans trois choses : l'humilité face à Allah, une bonne certitude, et le silence sauf pour dire du bien.<sup>4972</sup>"
+                    }
+                ]
             },
             {
-                "title": "1333 - Ce qui permet d'évaluer l'intellect"
+                "title": "1333 - Ce qui permet d'évaluer l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4406",
+                        "text": "Le Messager d'Allah (s) a dit : Se détourner de la Demeure de l'illusion [la vie de ce monde], se tourner vers la Demeure éternelle, faire des provisions en vue du séjour dans la tombe et se préparer pour le Jour de la Résurrection font partie des signes de l'intellect.<sup>4973</sup>"
+                    },
+                    {
+                        "number": "4407",
+                        "text": "L'Imām 'Alī (as) a dit : On peut évaluer l'intellect de tout homme à l'aune du flux de mots qu'il prononce.<sup>4974</sup>"
+                    },
+                    {
+                        "number": "4408",
+                        "text": "L'Imām 'Alī (as) a dit : Ton messager est l'interprète de ton intellect, et ta lettre est plus éloquente pour exprimer ta personnalité.<sup>4975</sup>"
+                    },
+                    {
+                        "number": "4409",
+                        "text": "L'Imām 'Alī (as) a dit : Six choses permettent d'évaluer l'intellect des gens : la clémence lors de la colère, la patience lors de la peur, la modération lors du désir, la crainte d'Allah en toute situation, l'agréable indulgence, et le fait d'être peu enclin à la polémique.<sup>4976</sup>"
+                    },
+                    {
+                        "number": "4410",
+                        "text": "L'Imām 'Alī (as) a dit : Six choses permettent de tester l'intellect des hommes : leur compagnie, leur manière de négocier, leur pouvoir, leur dissociation du pouvoir, leur richesse, et leur pauvreté.<sup>4977</sup>"
+                    },
+                    {
+                        "number": "4411",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect des gens peut être testé lorsqu'ils parlent de façon spontanée ou impulsive.<sup>4978</sup>"
+                    },
+                    {
+                        "number": "4412",
+                        "text": "L'Imām 'Alī (as) a dit : L'avis d'un homme est la mesure de son intellect.<sup>4979</sup>"
+                    },
+                    {
+                        "number": "4413",
+                        "text": "L'Imām 'Alī (as) a dit : La multiplicité des actes justes indique la profondeur de l'intellect.<sup>4980</sup>"
+                    },
+                    {
+                        "number": "4414",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque l'intellect est accompli, les paroles diminuent.<sup>4981</sup>"
+                    },
+                    {
+                        "number": "4415",
+                        "text": "L'Imām 'Alī (as) a dit : Celui dont l'intellect est parfait dédaigne les désirs charnels.<sup>4982</sup>"
+                    }
+                ]
             },
             {
-                "title": "1334 - Ce qui affaiblit l'intellect"
+                "title": "1334 - Ce qui affaiblit l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4416",
+                        "text": "L'Imām 'Alī (as) a dit : La passion et les désirs charnels font disparaître l'intellect.<sup>4983</sup>"
+                    },
+                    {
+                        "number": "4417",
+                        "text": "L'Imām 'Alī (as) a dit : Les intellects se perdent dans la quête du superflu.<sup>4984</sup>"
+                    },
+                    {
+                        "number": "4418",
+                        "text": "L'Imām 'Alī (as) a dit : La haute opinion qu'un homme a de lui-même indique la faiblesse de son intellect.<sup>4985</sup>"
+                    },
+                    {
+                        "number": "4419",
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui fréquente un ignorant affaiblit son intellect.<sup>4986</sup>"
+                    },
+                    {
+                        "number": "4420",
+                        "text": "L'Imām 'Alī (as) a dit : Une personne ne fait pas de plaisanterie sans que son intellect ne s'en trouve amoindri.<sup>4987</sup>"
+                    },
+                    {
+                        "number": "4421",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect de celui qui délaisse l'écoute des gens d'intellect meurt.<sup>4988</sup>"
+                    },
+                    {
+                        "number": "4422",
+                        "text": "L'Imām al-Bāqir (as) a dit : Dès qu'une once d'orgueil pénètre dans le cœur de l'homme, son intellect s'en trouve amoindri.<sup>4989</sup>"
+                    }
+                ]
             },
             {
-                "title": "1335 - Ce qui indique la faiblesse de l'intellect"
+                "title": "1335 - Ce qui indique la faiblesse de l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4423",
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque les intellects s'amoindrissent, les futilités augmentent.<sup>4990</sup>"
+                    },
+                    {
+                        "number": "4424",
+                        "text": "L'Imām 'Alī (as) a dit : Celui dont l'intellect est faible s'exprime mal.<sup>4991</sup>"
+                    },
+                    {
+                        "number": "4425",
+                        "text": "L'Imām 'Alī (as) a dit : Fréquenter les ignorants indique une absence d'intellect.<sup>4992</sup>"
+                    },
+                    {
+                        "number": "4426",
+                        "text": "L'Imām 'Alī (as) a dit : Le fait d'avoir de nombreux espoirs est issu d'une altération de l'intellect.<sup>4993</sup>"
+                    }
+                ]
             },
             {
-                "title": "1336 - Le fruit de l'intellect"
+                "title": "1336 - Le fruit de l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4427",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit de l'intellect est la persévérance [dans la voie d'Allah].<sup>4994</sup>"
+                    },
+                    {
+                        "number": "4428",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit de l'intellect est l'adhésion à la Vérité.<sup>4995</sup>"
+                    },
+                    {
+                        "number": "4429",
+                        "text": "L'Imām 'Alī (as) a dit : Le fruit de l'intellect est le dégoût de ce monde et de réprimer ses passions.<sup>4996</sup>"
+                    },
+                    {
+                        "number": "4430",
+                        "text": "L'Imām 'Alī (as) a dit : L'intellect est un arbre dont les fruits sont la générosité et la pudeur.<sup>4997</sup>"
+                    }
+                ]
             },
             {
-                "title": "1337 - L'ennemi de l'intellect"
+                "title": "1337 - L'ennemi de l'intellect",
+                "hadiths": [
+                    {
+                        "number": "4431",
+                        "text": "L'Imām 'Alī (as) a dit : La passion est l'ennemi de l'intellect.<sup>4998</sup>"
+                    },
+                    {
+                        "number": "4432",
+                        "text": "L'Imām 'Alī (as) a dit : Comme sont nombreux les intellects prisonniers de l'emprise de la passion !<sup>4999</sup>"
+                    },
+                    {
+                        "number": "4433",
+                        "text": "L'Imām 'Alī (as) a dit : Allah a rendu obligatoire… d'abandonner la consommation de vin afin de préserver son intellect.<sup>5000</sup>"
+                    },
+                    {
+                        "number": "4434",
+                        "text": "L'Imām 'Alī (as) a dit : Sachez que l'espoir distrait l'intellect et fait oublier le rappel [d'Allah].<sup>5001</sup>"
+                    },
+                    {
+                        "number": "4435",
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La passion est en éveil lorsque l'intellect est endormi.<sup>5002</sup><br>(Voir également : 396. La passion)"
+                    }
+                ]
             }
         ]
     },
@@ -21309,160 +27347,192 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "1615 - La vertu de la parole vis-à-vis du silence"
+            },
+            {
+                "title": "1616 - La supériorité du silence par rapport à la parole",
+                "hadiths": []
+            },
+            {
+                "title": "1617 - La meilleure parole",
+                "hadiths": []
+            },
+            {
+                "title": "1618 - La vertu de la bonne parole",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "349 - LE REPAS",
+        "title": "349 - LA PERFECTION",
         "subparts": [
             {
-                "title": "1616 - La morale du repas"
-            },
-            {
-                "title": "1617 - L'invitation à manger"
-            },
-            {
-                "title": "1618 - Manger peu"
+                "title": "1619 - La perfection de l'homme",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "350 - LE VÊTEMENT ET LA PARURE",
+        "title": "350 - LA PERSPICACITÉ",
         "subparts": [
             {
-                "title": "1619 - Le type de vêtement recommandé"
-            },
-            {
-                "title": "1620 - Les beaux vêtements et la parure"
-            },
-            {
-                "title": "1621 - La propreté des vêtements"
+                "title": "1620 - Le signe de la perspicacité",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "351 - L'AMUSEMENT ET LE DIVERTISSEMENT",
+        "title": "351 - LES VÊTEMENTS",
         "subparts": [
             {
-                "title": "1622 - Le blâme de l'amusement et du divertissement"
+                "title": "1621 - Les vêtements recommandés",
+                "hadiths": []
+            },
+            {
+                "title": "1622 - La modestie dans le vêtement",
+                "hadiths": []
+            },
+            {
+                "title": "1623 - Les meilleurs vêtements de chaque époque sont les vêtements des gens de cette époque",
+                "hadiths": []
+            },
+            {
+                "title": "1624 - Le turban",
+                "hadiths": []
+            },
+            {
+                "title": "1625 - Les vêtements interdits",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "352 - LE PRÉTEXTE ET L'EXCUSE",
+        "title": "352 - L'ENTÊTEMENT",
         "subparts": [
             {
-                "title": "1623 - L'argumentation avec les serviteurs"
-            },
-            {
-                "title": "1624 - Allah n'acceptera l'excuse d'aucun serviteur ayant ignoré Ses prescriptions"
+                "title": "1626 - Le blâme de l'entêtement",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "353 - LA NUIT",
+        "title": "353 - LA LANGUE",
         "subparts": [
             {
-                "title": "1625 - La prière de la nuit"
+                "title": "1627 - La valeur de la langue",
+                "hadiths": []
+            },
+            {
+                "title": "1628 - Le salut de l'homme réside dans le fait de garder sa langue",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "354 - LA FOI ET LE CROYANT",
+        "title": "354 - LES FUTILITÉS",
         "subparts": [
             {
-                "title": "1626 - La définition de la foi"
-            },
-            {
-                "title": "1627 - Les conditions de la foi"
-            },
-            {
-                "title": "1628 - L'origine de la foi"
-            },
-            {
-                "title": "1629 - Les différents types de foi"
-            },
-            {
-                "title": "1630 - Les facteurs qui renforcent la foi"
-            },
-            {
-                "title": "1631 - Les facteurs de disparition de la foi"
-            },
-            {
-                "title": "1632 - La certitude"
-            },
-            {
-                "title": "1633 - L'éloge du croyant"
-            },
-            {
-                "title": "1634 - Les caractéristiques du croyant"
+                "title": "1629 - Les futilités",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "355 - LA CONFIANCE [EN ALLAH]",
+        "title": "355 - LA RENCONTRE D'ALLAH",
         "subparts": [
             {
-                "title": "1635 - La réalité de la confiance [en Allah]"
-            },
-            {
-                "title": "1636 - Le résultat de la confiance [en Allah]"
+                "title": "1630 - Le désir ardent de rencontrer Allah",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "356 - LA REPENTANCE",
+        "title": "356 - LE DIVERTISSEMENT",
         "subparts": [
             {
-                "title": "1637 - Les conditions de l'acceptation de la repentance"
+                "title": "1631 - Le divertissement",
+                "hadiths": []
             },
             {
-                "title": "1638 - L'empressement de se repentir"
+                "title": "1632 - Les conséquences du divertissement",
+                "hadiths": []
             },
             {
-                "title": "1639 - L'incitation au repentir"
+                "title": "1633 - La foi et le divertissement",
+                "hadiths": []
             },
             {
-                "title": "1640 - La repentance est la corde de l'absolution"
+                "title": "1634 - Le divertissement du croyant",
+                "hadiths": []
+            },
+            {
+                "title": "1635 - La compagnie des personnes qui s'occupent par le divertissement",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "357 - L'AIDE",
+        "title": "357 - LA SODOMIE",
         "subparts": [
             {
-                "title": "1641 - Aider son frère dans la foi"
-            },
-            {
-                "title": "1642 - Le blâme de celui qui n'aide pas son frère"
-            },
-            {
-                "title": "1643 - Le blâme du fait de s'abstenir d'aider l'opprimé"
+                "title": "1636 - Mise en garde contre la sodomie",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "358 - LA PRUDENCE",
+        "title": "358 - L'ÉPREUVE",
         "subparts": [
             {
-                "title": "1644 - L'incitation à la prudence"
+                "title": "1637 - L'épreuve",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "359 - L'UNITÉ",
+        "title": "359 - L'ÉLOGE",
         "subparts": [
             {
-                "title": "1645 - L'incitation à l'unité"
+                "title": "1638 - Le blâme de l'éloge",
+                "hadiths": []
             },
             {
-                "title": "1646 - Le blâme de la désunion"
+                "title": "1639 - L'éloge de quelqu'un pour des qualités qu'il n'a pas",
+                "hadiths": []
+            },
+            {
+                "title": "1640 - Mise en garde contre l'éloge du débauché",
+                "hadiths": []
+            },
+            {
+                "title": "1641 - L'interdiction de faire l'éloge de soi-même",
+                "hadiths": []
             }
         ]
     },
     {
-        "title": "360 - LA FAMILLE",
-        "subparts": []
+        "title": "360 - LA FEMME",
+        "subparts": [
+            {
+                "title": "1642 - Les paroles de la déléguée des femmes auprès du Prophète (s)",
+                "hadiths": []
+            },
+            {
+                "title": "1643 - Les meilleures caractéristiques des femmes",
+                "hadiths": []
+            },
+            {
+                "title": "1644 - La femme pieuse",
+                "hadiths": []
+            },
+            {
+                "title": "1645 - L'éloge de l'amour des femmes",
+                "hadiths": []
+            },
+            {
+                "title": "1646 - Le blâme de l'amour des femmes",
+                "hadiths": []
+            }
+        ]
     },
     {
         "title": "361 - LA MAGNANIMITÉ",
@@ -21952,6 +28022,10 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "1768 - Tout acte bon a une lumière"
+            },
+            {
+                "title": "1769 - La lumière des croyants le Jour de la Résurrection",
+                "hadiths": []
             }
         ]
     },
