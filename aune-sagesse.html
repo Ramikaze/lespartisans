@@ -155,6 +155,29 @@ input.sb-search:focus{
   margin-top:20px;font-size:12px;color:#9aa3b8;font-style:italic;text-align:center;
 }
 
+/* Notes du livre : sous chaque passage, petites et calmes ; appels cliquables */
+sup.fn a{color:#c9a84c;text-decoration:none;padding:0 2px}
+sup.fn a:hover{text-decoration:underline}
+.c-title sup,.c-subtitle sup{font-size:.55em;line-height:0}
+.c-notes{
+  list-style:none;margin:12px 0 0;padding:10px 0 0;border-top:1px solid rgba(201,168,76,0.12);
+  font-size:12px;font-style:normal;line-height:1.6;color:#8a93a8;text-align:left;
+}
+.c-notes li{display:flex;gap:8px;margin:0 -4px;padding:1px 4px;border-radius:6px;transition:background-color .8s}
+.c-notes .fn-num{flex-shrink:0;min-width:2.4em;color:#c9a84c;opacity:.75;font-variant-numeric:tabular-nums}
+.c-notes .fn-text{flex:1;min-width:0;overflow-wrap:anywhere}
+.c-notes li.fn-flash{background:rgba(201,168,76,0.16);transition:none}
+.c-notes-head{margin:0 0 18px;padding:0;border-top:0}
+/* Partie « Notes » : la liste complète, chaque note menant à son passage */
+.notes-index{margin:0;padding:0;border-top:0;font-size:13px;line-height:1.65;color:#cec6b0}
+.notes-index li{padding:7px 4px;border-bottom:1px solid rgba(255,255,255,0.04)}
+.notes-index .fn-where{display:block;margin-top:2px;font-size:11.5px;color:#c9a84c;opacity:.85;text-decoration:none}
+.notes-index .fn-where:hover{opacity:1;text-decoration:underline}
+/* Partie « Bibliographie » */
+.biblio-list{list-style:none;margin:0;padding:0}
+.biblio-list li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:13.5px;line-height:1.7;color:#cec6b0}
+.biblio-title{color:#e8e2d0}
+
 /* Pagination navigation inside editorial pages */
 .nav-btn {
   background: rgba(201,168,76,0.1);
@@ -222,6 +245,15 @@ input.sb-search:focus{
 [data-theme="light"] .dev-note{background:rgba(70,120,170,0.08)!important;border-color:rgba(70,120,170,0.2)!important}
 [data-theme="light"] .dev-note-title{color:#2a5080!important}
 [data-theme="light"] .dev-note-text{color:#3a5c85!important}
+[data-theme="light"] sup.fn a{color:#7a5c24!important}
+[data-theme="light"] .c-notes{color:#6b5e48!important;border-top-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .c-notes .fn-num{color:#7a5c24!important}
+[data-theme="light"] .c-notes li.fn-flash{background:rgba(122,92,36,0.12)!important}
+[data-theme="light"] .notes-index{color:#3d3425!important}
+[data-theme="light"] .notes-index li,[data-theme="light"] .biblio-list li{border-bottom-color:rgba(0,0,0,0.06)!important}
+[data-theme="light"] .notes-index .fn-where{color:#7a5c24!important}
+[data-theme="light"] .biblio-list li{color:#3d3425!important}
+[data-theme="light"] .biblio-title{color:#2c2114!important}
 
 /* ══ MOBILE : le panneau devient un tiroir posé au-dessus d'un voile ══ */
 .sb-overlay{display:none}
@@ -380,6 +412,24 @@ html[data-design="console"] .reference-note{font-size:.9rem;font-weight:300;colo
 html[data-design="console"] .empty-hadiths{font-family:var(--lp-font)!important;font-size:14px!important;color:var(--lp-ink-3)!important}
 html[data-design="console"] .subpart-note{font-family:var(--lp-font)!important;font-style:normal!important;font-size:.92rem!important;font-weight:300!important;color:var(--lp-ink-3)!important}
 
+/* Notes du livre : sous chaque passage, au ton de la note ; appels discrets, cliquables */
+html[data-design="console"] sup.fn a{color:var(--lp-ink-3)!important;text-decoration:none}
+html[data-design="console"] sup.fn a:hover{color:var(--lp-amber)!important}
+html[data-design="console"] :is(.c-title,.c-subtitle) sup{font-size:.5em;line-height:0;vertical-align:super}
+html[data-design="console"] .c-notes{
+  margin-top:16px!important;padding-top:12px!important;border-top:1px solid var(--lp-hairline)!important;
+  font-family:var(--lp-font)!important;font-size:.86rem!important;font-weight:300!important;line-height:1.6!important;color:var(--lp-ink-3)!important;
+}
+html[data-design="console"] .c-notes .fn-num{color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .c-notes :is(i,em){font-style:normal!important;color:var(--lp-ink-2)!important}
+html[data-design="console"] .c-notes li.fn-flash{background:rgba(var(--lp-glow),.14)!important}
+html[data-design="console"] .c-notes-head{margin:0 0 22px!important;padding:0!important;border-top:0!important}
+html[data-design="console"] .notes-index{margin:0!important;padding:0!important;border-top:0!important;font-size:.98rem!important;color:var(--lp-read)!important}
+html[data-design="console"] .notes-index li{padding:10px 4px!important;border-bottom:1px solid var(--lp-hairline)}
+html[data-design="console"] .notes-index .fn-where{font-size:.84rem;color:var(--lp-amber)!important}
+html[data-design="console"] .biblio-list li{font-family:var(--lp-font);font-size:1rem;font-weight:var(--lp-body-w);line-height:1.7;color:var(--lp-read)!important;border-bottom-color:var(--lp-hairline)!important}
+html[data-design="console"] .biblio-title{font-style:normal!important;font-weight:500;color:var(--lp-ink)!important}
+
 /* Pages éditoriales (préface, introduction) : colonne calme */
 html[data-design="console"] .subpart-item{font-family:var(--lp-font)!important;font-size:1.06rem!important;font-weight:var(--lp-body-w)!important;line-height:1.78!important;color:var(--lp-read)!important}
 html[data-design="console"] .subpart-item [style*="text-align: justify"]{text-align:left!important;line-height:1.78!important;-webkit-hyphens:auto;hyphens:auto}
@@ -482,8 +532,141 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
 </div>
 
 <script src="aune-sagesse-data.js"></script>
+<script src="aune-sagesse-notes.js"></script>
 <script>
 let currentSlideState = {};
+
+// ══ NOTES DU LIVRE ET BIBLIOGRAPHIE (aune-sagesse-notes.js) ══
+// Un appel de note est un <sup>N</sup> du texte ; AUNE_NOTES[N] en donne le texte.
+const NOTE_CALL = /<sup>(\d+)<\/sup>/g;
+const HAS_NOTES = typeof AUNE_NOTES !== 'undefined';
+
+// Parties « Notes » et « Bibliographie » du livre : remplies au chargement (« Notes (arabe) » reste masquée)
+if (HAS_NOTES && typeof AUNE_SAGESSE !== 'undefined') {
+  const lastNote = Math.max(...Object.keys(AUNE_NOTES).map(Number));
+  AUNE_SAGESSE.forEach(part => {
+    if (part.title === 'NOTES' && !(part.subparts && part.subparts.length)) {
+      part.subparts = [];
+      for (let a = 1; a <= lastNote; a += 500) {
+        const b = Math.min(a + 499, lastNote);
+        part.subparts.push({ title: `Notes ${a} à ${b}`, notesRange: [a, b] });
+      }
+    }
+    if (part.title === 'BIBLIOGRAPHIE' && typeof AUNE_BIBLIO !== 'undefined') part.biblio = true;
+  });
+}
+
+// Appels de note : le numéro devient un lien vers le texte de la note
+function linkNoteCalls(str) {
+  if (!HAS_NOTES) return str;
+  return str.replace(NOTE_CALL, (m, n) => AUNE_NOTES[n] ? `<sup class="fn"><a href="#fn-${n}" data-fn="${n}" aria-label="Note ${n}">${n}</a></sup>` : m);
+}
+
+// Texte des notes appelées dans un passage, dans l'ordre des appels
+function noteList(str, cls) {
+  if (!HAS_NOTES || !str) return '';
+  let items = '';
+  for (const m of str.matchAll(NOTE_CALL)) {
+    const n = m[1];
+    if (AUNE_NOTES[n]) items += `<li id="fn-${n}"><span class="fn-num">${n}</span><span class="fn-text">${AUNE_NOTES[n]}</span></li>`;
+  }
+  return items ? `<ol class="c-notes${cls ? ' ' + cls : ''}">${items}</ol>` : '';
+}
+
+// Où chaque note est appelée : sujet (partie, section) et passage
+let noteWhere = null;
+function noteLocations() {
+  if (noteWhere) return noteWhere;
+  noteWhere = {};
+  AUNE_SAGESSE.forEach((part, p) => {
+    if (part.titleNote) noteWhere[part.titleNote] = { p, s: 0, label: `Titre : ${part.title}` };
+    (part.subparts || []).forEach((sub, s) => {
+      const mark = (str, label) => { for (const m of (str || '').matchAll(NOTE_CALL)) noteWhere[m[1]] = { p, s, label }; };
+      if (sub.titleNote) noteWhere[sub.titleNote] = { p, s, label: `Titre : ${sub.title}` };
+      mark(sub.introduction, `Introduction : ${sub.title}`);
+      (sub.hadiths || []).forEach((h, i) => mark(h.text, `Hadith n°${h.number || i + 1}`));
+      mark(sub.note, sub.title);
+    });
+  });
+  return noteWhere;
+}
+
+// Partie « Notes » : les notes a à b, chacune avec le lien vers son appel
+function renderNotesRange([a, b]) {
+  if (!HAS_NOTES) return '';
+  const where = noteLocations();
+  let items = '';
+  for (let n = a; n <= b; n++) {
+    if (!AUNE_NOTES[n]) continue;
+    const loc = where[n];
+    items += `<li id="fn-${n}"><span class="fn-num">${n}</span><span class="fn-text">${AUNE_NOTES[n]}${loc ? `<a class="fn-where" href="#${loc.p},${loc.s}" data-note="${n}">${loc.label}</a>` : ''}</span></li>`;
+  }
+  return `<ol class="c-notes notes-index">${items}</ol>`;
+}
+
+// Partie « Bibliographie » : les ouvrages cités, dans l'ordre du livre. Le titre en italique, puis
+// la suite après une virgule ; un renvoi (« = autre titre ») est tout en italique, et la suite qui
+// commence par une parenthèse ou par « avec » vient sans virgule, comme dans le livre.
+function renderBibliographie() {
+  let items = '';
+  AUNE_BIBLIO.forEach(b => {
+    items += b.text.startsWith('=')
+      ? `<li><i class="biblio-title">${b.title} ${b.text}</i></li>`
+      : `<li><i class="biblio-title">${b.title}</i>${/^(\(|avec )/.test(b.text) ? ' ' : ', '}${b.text}</li>`;
+  });
+  return `<div class="c-source">L'Aune de la Sagesse</div><h2 class="c-title">Bibliographie</h2><div class="c-divider"></div><ul class="biblio-list">${items}</ul>`;
+}
+
+// Met une note en évidence un instant (après un clic sur son appel ou sur son lien)
+function flashNote(el, block) {
+  if (!el) return;
+  el.scrollIntoView({ behavior: 'smooth', block: block || 'center' });
+  el.classList.remove('fn-flash');
+  void el.offsetWidth;
+  el.classList.add('fn-flash');
+  setTimeout(() => el.classList.remove('fn-flash'), 1600);
+}
+
+// Ouvre un sujet comme depuis le menu : dossier déplié, entrée active visible
+function openSubject(partIdx, subpartIdx) {
+  const group = document.getElementById(`sb-group-${partIdx}`);
+  if (!group) return;
+  const itemsDiv = group.querySelector('.sb-items');
+  const themeBtn = group.querySelector('.sb-theme');
+  if (itemsDiv && !itemsDiv.classList.contains('open')) {
+    document.querySelectorAll('.sb-items').forEach(d => {
+      d.classList.remove('open');
+      d.style.maxHeight = '0px';
+      d.previousElementSibling.classList.remove('open');
+    });
+    itemsDiv.classList.add('open');
+    themeBtn.classList.add('open');
+    itemsDiv.style.maxHeight = '10000px';
+  }
+  showContent(partIdx, subpartIdx);
+  // Seule la liste du menu défile (un scrollIntoView décalerait aussi le panneau replié)
+  const activeItem = subpartIdx === null ? themeBtn : document.getElementById(`sb-item-${partIdx}-${subpartIdx}`);
+  const list = document.getElementById('sb-scroll');
+  if (activeItem && list) list.scrollTop += activeItem.getBoundingClientRect().top - list.getBoundingClientRect().top - list.clientHeight / 3;
+}
+
+// Clic sur un appel : la note du passage s'éclaire ; clic sur un lien de la partie « Notes » : le passage s'ouvre
+document.getElementById('content-inner').addEventListener('click', function (e) {
+  const call = e.target.closest('sup.fn a');
+  if (call) {
+    e.preventDefault();
+    flashNote(document.getElementById('fn-' + call.dataset.fn), 'nearest');
+    return;
+  }
+  const where = e.target.closest('a.fn-where');
+  if (where) {
+    e.preventDefault();
+    const n = where.dataset.note, loc = noteLocations()[n];
+    if (!loc) return;
+    openSubject(loc.p, loc.s);
+    requestAnimationFrame(() => flashNote(document.getElementById('fn-' + n)));
+  }
+});
 
 // ══ SOMMAIRE SIDEBAR RENDERING ══
 function renderSommaire() {
@@ -502,7 +685,7 @@ function renderSommaire() {
     group.className = 'sb-group';
     group.id = `sb-group-${partIndex}`;
     
-    if (part.content) {
+    if (part.content || part.biblio) {
       // Direct editorial page
       const themeBtn = document.createElement('div');
       themeBtn.className = 'sb-theme';
@@ -572,7 +755,7 @@ function filterSidebar() {
     const themeBtn = group.querySelector('.sb-theme');
     const itemsDiv = group.querySelector('.sb-items');
     
-    if (part.content) {
+    if (part.content || part.biblio) {
       // Editorial page search
       const matches = part.title.toLowerCase().includes(query);
       group.style.display = matches ? 'block' : 'none';
@@ -651,7 +834,10 @@ function showContent(partIndex, subpartIndex, event) {
   // 4. Render the specific content
   let html = '';
   
-  if (subpartIndex === null) {
+  if (subpartIndex === null && part.biblio) {
+    // Bibliographie du livre : une seule page
+    html = renderBibliographie();
+  } else if (subpartIndex === null) {
     // Editorial Content (Preface, Intro, etc.)
     const pages = paginateContent(part.content);
     
@@ -682,44 +868,56 @@ function showContent(partIndex, subpartIndex, event) {
   } else {
     // Hadiths Subject Content
     const sub = part.subparts[subpartIndex];
-    
-    // Header metadata block
+
+    // Header metadata block (une note peut être posée sur le titre du chapitre ou de la section)
     html += `<div class="c-source">L'Aune de la Sagesse</div>`;
-    html += `<h2 class="c-title">${sub.title}</h2>`;
-    html += `<div class="c-subtitle">${part.title}</div>`;
+    html += `<h2 class="c-title">${sub.title}${sub.titleNote ? `<sup>${sub.titleNote}</sup>` : ''}</h2>`;
+    html += `<div class="c-subtitle">${part.title}${part.titleNote && subpartIndex === 0 ? `<sup>${part.titleNote}</sup>` : ''}</div>`;
     html += `<div class="c-divider"></div>`;
-    
-    // Chapter introduction verse
-    if (sub.introduction) {
-      html += `<div class="c-intro">${sub.introduction}</div>`;
-    }
-    
-    // Hadith cards
-    if (sub.hadiths && sub.hadiths.length > 0) {
-      sub.hadiths.forEach((h, hIndex) => {
+
+    if (sub.notesRange) {
+      // Partie « Notes » : les notes du livre, chacune avec un lien vers son appel dans le texte
+      html += renderNotesRange(sub.notesRange);
+    } else {
+      // Notes posées sur les titres (chapitre, section) : sous l'en-tête
+      html += noteList(`${part.titleNote && subpartIndex === 0 ? `<sup>${part.titleNote}</sup>` : ''}${sub.titleNote ? `<sup>${sub.titleNote}</sup>` : ''}`, 'c-notes-head');
+
+      // Chapter introduction verse
+      if (sub.introduction) {
+        html += `<div class="c-intro">${sub.introduction}${noteList(sub.introduction)}</div>`;
+      }
+
+      // Hadith cards (chaque hadith porte ses notes, comme le livre les donne)
+      if (sub.hadiths && sub.hadiths.length > 0) {
+        sub.hadiths.forEach((h, hIndex) => {
+          html += `
+            <div class="hadith-card">
+               <div class="hadith-number">Hadith n°${h.number || hIndex + 1}</div>
+               ${h.source ? `<div class="hadith-source-title">${h.source}</div>` : ''}
+               <div class="hadith-text">${h.text}</div>
+               ${noteList(h.text)}
+            </div>
+          `;
+        });
+      } else {
         html += `
-          <div class="hadith-card">
-             <div class="hadith-number">Hadith n°${h.number || hIndex + 1}</div>
-             ${h.source ? `<div class="hadith-source-title">${h.source}</div>` : ''}
-             <div class="hadith-text">${h.text}</div>
+          <div class="empty-hadiths">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Hadiths à intégrer ultérieurement.
           </div>
         `;
-      });
-    } else {
-      html += `
-        <div class="empty-hadiths">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-          Hadiths à intégrer ultérieurement.
-        </div>
-      `;
+      }
+
+      // Subpart note
+      if (sub.note) {
+        html += `<div class="subpart-note">${sub.note}</div>${noteList(sub.note)}`;
+      }
     }
-    
-    // Subpart note
-    if (sub.note) {
-      html += `<div class="subpart-note">${sub.note}</div>`;
-    }
+
+    // Appels de note cliquables (titres, introduction, hadiths)
+    html = linkNoteCalls(html);
   }
-  
+
   contentInner.innerHTML = html;
   content.scrollTop = 0;
   

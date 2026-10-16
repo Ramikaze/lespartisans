@@ -2062,7 +2062,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "347",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Par Allah, je connais le Livre d'Allah du début jusqu'à la fin comme s'il était dans ma main. Il contient le récit [les informations] des cieux, le récit de la terre, le récit de ce qui fût et le récit de ce qui sera. Allah le Tout-Puissant a dit : <i>«Il y a en lui [le Coran] un exposé explicite de toute chose.»</i><sup>387, 388</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Par Allah, je connais le Livre d'Allah du début jusqu'à la fin comme s'il était dans ma main. Il contient le récit [les informations] des cieux, le récit de la terre, le récit de ce qui fût et le récit de ce qui sera. Allah le Tout-Puissant a dit : <i>«Il y a en lui [le Coran] un exposé explicite de toute chose.»</i><sup>387</sup> <sup>388</sup>"
                     },
                     {
                         "number": "348",
@@ -2149,7 +2149,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "361",
-                        "text": "Le Messager d'Allah (s) a dit : 'Alī est avec la vérité et la vérité est avec 'Alī, elle se tourne là où il se tourne.<sup>403, 404</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : 'Alī est avec la vérité et la vérité est avec 'Alī, elle se tourne là où il se tourne.<sup>403</sup> <sup>404</sup>"
                     },
                     {
                         "number": "362",
@@ -2476,7 +2476,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "421",
-                        "text": "Le Messager d'Allah (s) a dit : Ô Allah, je l'aime, alors Toi aussi aime-le et aime ceux qui l'aiment.<span class=\"footnote-ref\">466</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Ô Allah, je l'aime, alors Toi aussi aime-le et aime ceux qui l'aiment.<sup>466</sup>"
                     }
                 ]
             },
@@ -2485,15 +2485,15 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "422",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, Ḥasan ibn 'Alī ibn Abī Ṭālib (as) était le plus dévots des gens de son époque, le plus renonçant [à la vie de ce monde], et le meilleur parmi eux. Lorsqu'il accomplissait son pèlerinage [à La Mecque] (<em>ḥajj</em>), il s'y rendait à pied, et parfois même pieds nus. Lorsque la mort était évoquée, il pleurait. Lorsque la tombe était évoquée, il pleurait. Lorsque la Résurrection et le Jour du Jugement dernier étaient évoqués, il pleurait. Lorsque le pont <em>ṣirāṭ</em> était évoqué, il pleurait. Lorsque le passage devant Allah le Très-Haut était évoqué, il hoquetait en étant secoué de sanglots jusqu'à en perdre connaissance. Quand il se levait pour prier, tous ses membres tremblaient en présence de son Seigneur - loué et exalté soit-Il. Lorsque le Paradis ou l'Enfer étaient évoqués, il était pris d'une forte agitation comme s'il avait été piqué par un serpent. Il demandait alors à Allah le Très-Haut de lui accorder le Paradis, et se réfugiait auprès de Lui de l'Enfer.<span class=\"footnote-ref\">467</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, Ḥasan ibn 'Alī ibn Abī Ṭālib (as) était le plus dévots des gens de son époque, le plus renonçant [à la vie de ce monde], et le meilleur parmi eux. Lorsqu'il accomplissait son pèlerinage [à La Mecque] (<em>ḥajj</em>), il s'y rendait à pied, et parfois même pieds nus. Lorsque la mort était évoquée, il pleurait. Lorsque la tombe était évoquée, il pleurait. Lorsque la Résurrection et le Jour du Jugement dernier étaient évoqués, il pleurait. Lorsque le pont <em>ṣirāṭ</em> était évoqué, il pleurait. Lorsque le passage devant Allah le Très-Haut était évoqué, il hoquetait en étant secoué de sanglots jusqu'à en perdre connaissance. Quand il se levait pour prier, tous ses membres tremblaient en présence de son Seigneur - loué et exalté soit-Il. Lorsque le Paradis ou l'Enfer étaient évoqués, il était pris d'une forte agitation comme s'il avait été piqué par un serpent. Il demandait alors à Allah le Très-Haut de lui accorder le Paradis, et se réfugiait auprès de Lui de l'Enfer.<sup>467</sup>"
                     },
                     {
                         "number": "423",
-                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ḥasan ibn 'Alī (as) passa un jour à proximité de pauvres assis par terre en train de manger des morceaux de pain placés devant eux. Ils lui dirent : «Ô fils de la fille du Messager d'Allah (s), venez partager avec nous notre repas !» L'Imām descendit de sa monture et dit : «En vérité, Allah n'aime pas les arrogants !» Et il se mit à manger avec eux jusqu'à ce que tous arrivent à satiété sans que la quantité de nourriture n'ait diminué, par sa bénédiction. Ensuite, il les invita chez lui, les nourrit et leur donna des vêtements.<span class=\"footnote-ref\">468</span>"
+                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ḥasan ibn 'Alī (as) passa un jour à proximité de pauvres assis par terre en train de manger des morceaux de pain placés devant eux. Ils lui dirent : «Ô fils de la fille du Messager d'Allah (s), venez partager avec nous notre repas !» L'Imām descendit de sa monture et dit : «En vérité, Allah n'aime pas les arrogants !» Et il se mit à manger avec eux jusqu'à ce que tous arrivent à satiété sans que la quantité de nourriture n'ait diminué, par sa bénédiction. Ensuite, il les invita chez lui, les nourrit et leur donna des vêtements.<sup>468</sup>"
                     },
                     {
                         "number": "424",
-                        "text": "<em>Mukhtaṣar Tārīkh Dimashq</em> : Un homme de Syrie rapporte : En arrivant à Médine, j'aperçus un homme dont la beauté m'étonna. Je demandai : «Qui est-il ?» On me répondit : «C'est Ḥasan ibn 'Alī.» [Le Syrien] dit : J'enviai 'Alī d'avoir un tel fils. Je me rapprochai de lui et lui demandai : «Es-tu le fils d'Abū Ṭālib ?» Il répondit : «Je suis son fils.» Je dis : «Soyez maudits, toi et ton père ! Soyez maudits, toi et ton père !» [Le Syrien] dit : L'Imām resta silencieux et ne répondit rien. Puis [après un moment] l'Imām (as) lui dit : «Je vois que tu es étranger, si tu as besoin d'une monture nous allons en mettre une à ta disposition, si tu as des besoins, nous les satisferons, si tu as besoin d'aide, nous t'aiderons.» L'homme rapporta : Lorsque je l'ai quitté, il était devenu la personne que j'aimais le plus au monde.<span class=\"footnote-ref\">469</span>"
+                        "text": "<em>Mukhtaṣar Tārīkh Dimashq</em> : Un homme de Syrie rapporte : En arrivant à Médine, j'aperçus un homme dont la beauté m'étonna. Je demandai : «Qui est-il ?» On me répondit : «C'est Ḥasan ibn 'Alī.» [Le Syrien] dit : J'enviai 'Alī d'avoir un tel fils. Je me rapprochai de lui et lui demandai : «Es-tu le fils d'Abū Ṭālib ?» Il répondit : «Je suis son fils.» Je dis : «Soyez maudits, toi et ton père ! Soyez maudits, toi et ton père !» [Le Syrien] dit : L'Imām resta silencieux et ne répondit rien. Puis [après un moment] l'Imām (as) lui dit : «Je vois que tu es étranger, si tu as besoin d'une monture nous allons en mettre une à ta disposition, si tu as des besoins, nous les satisferons, si tu as besoin d'aide, nous t'aiderons.» L'homme rapporta : Lorsque je l'ai quitté, il était devenu la personne que j'aimais le plus au monde.<sup>469</sup>"
                     }
                 ]
             }
@@ -2507,7 +2507,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "425",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Lorsque Ḥusayn (as) vint au monde, Allah révéla à l'Archange Gabriel (as) : «Un enfant vient de naître chez Muḥammad. Descends, félicite-le et dis-lui : «En vérité, 'Alī est vis-à-vis de toi dans la même position que le fut Hārūn pour Moïse, appelle-le donc par le nom du fils de Hārūn».» Gabriel (as) descendit, adressa ses félicitations de la part d'Allah le Très-Haut, et dit : «En vérité, Allah le Tout-Puissant t'ordonne de le nommer par le nom du fils de Hārūn.» Il (s) dit : «Quel était son nom ?» L'Archange répondit : «Shubayr.» Le Prophète (s) dit : «Mais ma langue est l'arabe.» L'Archange dit : «Appelle-le Ḥusayn<span class=\"footnote-ref\">470</span>.»<span class=\"footnote-ref\">471</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Lorsque Ḥusayn (as) vint au monde, Allah révéla à l'Archange Gabriel (as) : «Un enfant vient de naître chez Muḥammad. Descends, félicite-le et dis-lui : «En vérité, 'Alī est vis-à-vis de toi dans la même position que le fut Hārūn pour Moïse, appelle-le donc par le nom du fils de Hārūn».» Gabriel (as) descendit, adressa ses félicitations de la part d'Allah le Très-Haut, et dit : «En vérité, Allah le Tout-Puissant t'ordonne de le nommer par le nom du fils de Hārūn.» Il (s) dit : «Quel était son nom ?» L'Archange répondit : «Shubayr.» Le Prophète (s) dit : «Mais ma langue est l'arabe.» L'Archange dit : «Appelle-le Ḥusayn<sup>470</sup>.»<sup>471</sup>"
                     }
                 ]
             },
@@ -2516,11 +2516,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "426",
-                        "text": "Fāṭima (as) a dit : Lorsque le Messager d'Allah est venu me voir après la naissance de Ḥusayn (as), je lui ai mis l'enfant dans les bras enveloppé dans un tissu jaune. Il (s) l'enleva et prit un tissu blanc pour l'en envelopper. Il dit ensuite : «Prends-le, ô Fāṭima ; en vérité, il est Imām fils d'Imām. Il sera le père des neuf Imāms; de ses lombes seront issus des Imāms pieux, et le neuvième d'entre eux sera le Qā'im [le sauveur attendu de l'humanité].»<span class=\"footnote-ref\">472</span>"
+                        "text": "Fāṭima (as) a dit : Lorsque le Messager d'Allah est venu me voir après la naissance de Ḥusayn (as), je lui ai mis l'enfant dans les bras enveloppé dans un tissu jaune. Il (s) l'enleva et prit un tissu blanc pour l'en envelopper. Il dit ensuite : «Prends-le, ô Fāṭima ; en vérité, il est Imām fils d'Imām. Il sera le père des neuf Imāms; de ses lombes seront issus des Imāms pieux, et le neuvième d'entre eux sera le Qā'im [le sauveur attendu de l'humanité].»<sup>472</sup>"
                     },
                     {
                         "number": "427",
-                        "text": "L'Imām Ḥasan (as) a dit : En vérité, après ma mort et lorsque mon âme aura quitté mon corps, Ḥusayn ibn 'Alī sera Imām après moi. Et auprès d'Allah - glorifié est Son Nom - dans le Livre est l'héritage du Prophète, qu'Allah le Tout-Puissant lui a ajouté<span class=\"footnote-ref\">473</span> en plus de l'héritage de son père et de sa mère. Vraiment, Allah savait que vous étiez les meilleurs gens parmi Sa création, Il a donc choisi parmi vous Muḥammad (s), Muḥammad a choisi 'Alī (as), 'Alī (as) m'a choisi pour l'Imāmat et j'ai choisi Ḥusayn (as).<span class=\"footnote-ref\">474</span>"
+                        "text": "L'Imām Ḥasan (as) a dit : En vérité, après ma mort et lorsque mon âme aura quitté mon corps, Ḥusayn ibn 'Alī sera Imām après moi. Et auprès d'Allah - glorifié est Son Nom - dans le Livre est l'héritage du Prophète, qu'Allah le Tout-Puissant lui a ajouté<sup>473</sup> en plus de l'héritage de son père et de sa mère. Vraiment, Allah savait que vous étiez les meilleurs gens parmi Sa création, Il a donc choisi parmi vous Muḥammad (s), Muḥammad a choisi 'Alī (as), 'Alī (as) m'a choisi pour l'Imāmat et j'ai choisi Ḥusayn (as).<sup>474</sup>"
                     }
                 ]
             },
@@ -2529,19 +2529,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "428",
-                        "text": "Le Messager d'Allah (s) a dit : Concernant Ḥusayn, il est de moi, il est mon fils et ma descendance, la meilleure des créatures après son frère. Il est l'Imām des musulmans, le maître des croyants, le lieu-tenant (<em>khalīfa</em>) du Seigneur des mondes, l'aide de ceux qui demandent de l'aide, le refuge de ceux qui cherchent refuge, la preuve d'Allah sur l'ensemble de Sa création. Il est le maître des jeunes gens du Paradis et la porte du salut de la communauté des croyants. Son autorité est mon autorité, lui obéir est m'obéir. Celui qui le suit fait partie des miens, et celui qui lui désobéit ne fait pas partie des miens.<span class=\"footnote-ref\">475</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Concernant Ḥusayn, il est de moi, il est mon fils et ma descendance, la meilleure des créatures après son frère. Il est l'Imām des musulmans, le maître des croyants, le lieu-tenant (<em>khalīfa</em>) du Seigneur des mondes, l'aide de ceux qui demandent de l'aide, le refuge de ceux qui cherchent refuge, la preuve d'Allah sur l'ensemble de Sa création. Il est le maître des jeunes gens du Paradis et la porte du salut de la communauté des croyants. Son autorité est mon autorité, lui obéir est m'obéir. Celui qui le suit fait partie des miens, et celui qui lui désobéit ne fait pas partie des miens.<sup>475</sup>"
                     },
                     {
                         "number": "429",
-                        "text": "<em>Biḥār al-Anwār</em> : Al-Barā' ibn 'Āzib a dit : J'ai vu le Messager d'Allah (s) en train de porter Ḥusayn (as) alors qu'il disait : «Ô Allah, en vérité, je l'aime ; aime-le aussi !»<span class=\"footnote-ref\">476</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : Al-Barā' ibn 'Āzib a dit : J'ai vu le Messager d'Allah (s) en train de porter Ḥusayn (as) alors qu'il disait : «Ô Allah, en vérité, je l'aime ; aime-le aussi !»<sup>476</sup>"
                     },
                     {
                         "number": "430",
-                        "text": "<em>Al-Mustadrak 'alā al-Ṣaḥīḥayn</em> : Ya'lā al-'Āmirī a dit qu'il a accompagné le Messager d'Allah (s) à un repas auquel il avait été convié. [Ya'lā al-'Āmirī raconte] : «Le Messager d'Allah (s) sortit pour accueillir les gens qu'il avait invité alors que Ḥusayn jouait avec d'autres enfants. Le Messager d'Allah (s) voulut l'attraper, mais l'enfant commença à courir ici et là. Le Messager d'Allah (s) commença alors à le faire rire jusqu'à ce qu'il l'attrape. Il plaça alors l'une de ses mains sur sa nuque et l'autre sous son menton, puis il plaça sa bouche sur celle de Ḥusayn et l'embrassa. Il dit alors : «Ḥusayn est de moi et je suis de Ḥusayn ; qu'Allah aime celui qui aime Ḥusayn. Ḥusayn est un petit-fils [ayant un rang] spécial parmi mes petits-fils».»<span class=\"footnote-ref\">477</span>"
+                        "text": "<em>Al-Mustadrak 'alā al-Ṣaḥīḥayn</em> : Ya'lā al-'Āmirī a dit qu'il a accompagné le Messager d'Allah (s) à un repas auquel il avait été convié. [Ya'lā al-'Āmirī raconte] : «Le Messager d'Allah (s) sortit pour accueillir les gens qu'il avait invité alors que Ḥusayn jouait avec d'autres enfants. Le Messager d'Allah (s) voulut l'attraper, mais l'enfant commença à courir ici et là. Le Messager d'Allah (s) commença alors à le faire rire jusqu'à ce qu'il l'attrape. Il plaça alors l'une de ses mains sur sa nuque et l'autre sous son menton, puis il plaça sa bouche sur celle de Ḥusayn et l'embrassa. Il dit alors : «Ḥusayn est de moi et je suis de Ḥusayn ; qu'Allah aime celui qui aime Ḥusayn. Ḥusayn est un petit-fils [ayant un rang] spécial parmi mes petits-fils».»<sup>477</sup>"
                     },
                     {
                         "number": "431",
-                        "text": "<em>Sunan al-Tirmidhī</em> : Alors que le Messager d'Allah (s) portait Ḥusayn ibn 'Alī sur ses épaules, un homme dit : «Quelle bonne monture est la tienne, ô jeune garçon !» Le Prophète (s) dit alors: «Et quel bon cavalier il est !»<span class=\"footnote-ref\">478</span>"
+                        "text": "<em>Sunan al-Tirmidhī</em> : Alors que le Messager d'Allah (s) portait Ḥusayn ibn 'Alī sur ses épaules, un homme dit : «Quelle bonne monture est la tienne, ô jeune garçon !» Le Prophète (s) dit alors: «Et quel bon cavalier il est !»<sup>478</sup>"
                     }
                 ]
             },
@@ -2550,35 +2550,35 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "432",
-                        "text": "Le Messager d'Allah (s) a dit : Que celui qui souhaite voir la plus aimée des personnes sur terre auprès des gens des cieux, regarde Ḥusayn.<span class=\"footnote-ref\">479</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Que celui qui souhaite voir la plus aimée des personnes sur terre auprès des gens des cieux, regarde Ḥusayn.<sup>479</sup>"
                     },
                     {
                         "number": "433",
-                        "text": "L'Imām Ḥusayn (as) a dit : Je suis entré chez le Messager d'Allah (s) alors que Ubayy ibn Ka'b était chez lui. Le Messager d'Allah m'a dit : «Bienvenue à toi, ô Abā 'Abdillāh, ô ornement des cieux et des terres !» Ubayy lui dit : «Comment se pourrait-il, ô Messager d'Allah (s), que quelqu'un d'autre que toi soit l'ornement des cieux et des terres ?» Il (s) dit : «Ô Ubayy, je jure sur Celui qui m'a envoyé avec vérité en tant que prophète, que [la valeur] de Ḥusayn ibn 'Alī est plus élevée dans les cieux qu'elle ne l'est sur la terre, et en vérité, il est écrit [à son sujet] à la droite du trône d'Allah le Tout-Puissant : luminaire de la guidance, arche du salut, Imām sans défaillance et [source] d'honneur et fierté, étendard et grand trésor.»<span class=\"footnote-ref\">480</span>"
+                        "text": "L'Imām Ḥusayn (as) a dit : Je suis entré chez le Messager d'Allah (s) alors que Ubayy ibn Ka'b était chez lui. Le Messager d'Allah m'a dit : «Bienvenue à toi, ô Abā 'Abdillāh, ô ornement des cieux et des terres !» Ubayy lui dit : «Comment se pourrait-il, ô Messager d'Allah (s), que quelqu'un d'autre que toi soit l'ornement des cieux et des terres ?» Il (s) dit : «Ô Ubayy, je jure sur Celui qui m'a envoyé avec vérité en tant que prophète, que [la valeur] de Ḥusayn ibn 'Alī est plus élevée dans les cieux qu'elle ne l'est sur la terre, et en vérité, il est écrit [à son sujet] à la droite du trône d'Allah le Tout-Puissant : luminaire de la guidance, arche du salut, Imām sans défaillance et [source] d'honneur et fierté, étendard et grand trésor.»<sup>480</sup>"
                     },
                     {
                         "number": "434",
-                        "text": "L'Imām Ḥusayn (as) a dit dans son discours le jour de 'Ashūrā : Prenez garde ! En réalité, l'imposteur fils d'imposteur ['Ubaydollah ibn Ziyād, fils de Ziyād ibn Abīh] m'a acculé à deux choses : le sabre [la guerre] ou le déshonneur. Loin de nous [la soumission à] tout déshonneur! En vérité, Allah, Son Messager, les croyants, les girons purifiés et immaculés [dans lesquels nous avons grandi] et qui abhorrent la disgrâce, ont tous refusé que l'obéissance à des hommes vils soit préférée à une mort dans l'honneur et la dignité.<span class=\"footnote-ref\">481</span>"
+                        "text": "L'Imām Ḥusayn (as) a dit dans son discours le jour de 'Ashūrā : Prenez garde ! En réalité, l'imposteur fils d'imposteur ['Ubaydollah ibn Ziyād, fils de Ziyād ibn Abīh] m'a acculé à deux choses : le sabre [la guerre] ou le déshonneur. Loin de nous [la soumission à] tout déshonneur! En vérité, Allah, Son Messager, les croyants, les girons purifiés et immaculés [dans lesquels nous avons grandi] et qui abhorrent la disgrâce, ont tous refusé que l'obéissance à des hommes vils soit préférée à une mort dans l'honneur et la dignité.<sup>481</sup>"
                     },
                     {
                         "number": "435",
-                        "text": "L'Imām Ḥusayn (as) a dit dans son discours le jour de 'Ashūrā : Par Allah ! Je ne vous tendrai pas la main comme la tend l'humilié, et je ne me sauverai pas comme se sauve l'esclave.<span class=\"footnote-ref\">482</span>"
+                        "text": "L'Imām Ḥusayn (as) a dit dans son discours le jour de 'Ashūrā : Par Allah ! Je ne vous tendrai pas la main comme la tend l'humilié, et je ne me sauverai pas comme se sauve l'esclave.<sup>482</sup>"
                     },
                     {
                         "number": "436",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : J'ai entendu Ḥusayn (as) dire en désignant son oreille droite : «Si un homme m'insultait dans cette oreille et qu'il s'excusait dans l'autre, j'accepterais [ses excuses] car le Prince des croyants 'Alī ibn Abī Ṭālib (as) m'a rapporté avoir entendu mon grand-père le Messager d'Allah (s) dire : «Ne parviendra pas aux eaux paradisiaques celui n'accepte pas les excuses de quelqu'un qui les a présentées à raison ou à tort».»<span class=\"footnote-ref\">483</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : J'ai entendu Ḥusayn (as) dire en désignant son oreille droite : «Si un homme m'insultait dans cette oreille et qu'il s'excusait dans l'autre, j'accepterais [ses excuses] car le Prince des croyants 'Alī ibn Abī Ṭālib (as) m'a rapporté avoir entendu mon grand-père le Messager d'Allah (s) dire : «Ne parviendra pas aux eaux paradisiaques celui n'accepte pas les excuses de quelqu'un qui les a présentées à raison ou à tort».»<sup>483</sup>"
                     },
                     {
                         "number": "437",
-                        "text": "Hudhayfa ibn al-Yamān a dit : J'ai vu le Prophète (s) qui tenait la main de Ḥusayn ibn 'Alī (as) et disait : «Ô gens ! Voici Ḥusayn ibn 'Alī (as), reconnaissez-le. Par Celui qui détient mon âme entre Ses mains, il sera au Paradis, ceux qui l'aiment seront au Paradis, et ceux qui aiment ceux qui l'aiment seront au Paradis.»<span class=\"footnote-ref\">484</span>"
+                        "text": "Hudhayfa ibn al-Yamān a dit : J'ai vu le Prophète (s) qui tenait la main de Ḥusayn ibn 'Alī (as) et disait : «Ô gens ! Voici Ḥusayn ibn 'Alī (as), reconnaissez-le. Par Celui qui détient mon âme entre Ses mains, il sera au Paradis, ceux qui l'aiment seront au Paradis, et ceux qui aiment ceux qui l'aiment seront au Paradis.»<sup>484</sup>"
                     },
                     {
                         "number": "438",
-                        "text": "Shu'ayb ibn 'Abd al-Raḥmān al-Khuzā'ī a dit : On vit des stigmates sur le dos de Ḥusayn ibn 'Alī le jour de la bataille de Ṭaff ['Ashūrā]. Lorsqu'on interrogea Zayn al-'Ābidīn à ce sujet, il dit : «Ce sont les traces des sacs [de nourriture] qu'il portait sur son dos aux demeures des veuves, des orphelins et des pauvres.»<span class=\"footnote-ref\">485</span>"
+                        "text": "Shu'ayb ibn 'Abd al-Raḥmān al-Khuzā'ī a dit : On vit des stigmates sur le dos de Ḥusayn ibn 'Alī le jour de la bataille de Ṭaff ['Ashūrā]. Lorsqu'on interrogea Zayn al-'Ābidīn à ce sujet, il dit : «Ce sont les traces des sacs [de nourriture] qu'il portait sur son dos aux demeures des veuves, des orphelins et des pauvres.»<sup>485</sup>"
                     },
                     {
                         "number": "439",
-                        "text": "Al-Sayyid ibn al-Ṭāwūs rapporte dans <em>Al-Luhūf</em> d'un rapporteur de <em>ḥadīth</em>: Ensuite, Ḥusayn (as) appela l'ennemi au duel. Il tuait chaque homme qui se présentait pour le combattre jusqu'à ce qu'il tue un grand nombre d'entre eux, à la suite de quoi il dit :<br>«La mort est préférable au fait de s'abandonner à [une vie d'] indignité<br>Et l'indignité est préférable au fait d'entrer dans le Feu [de l'Enfer].»<br>L'un des transmetteurs du <em>ḥadīth</em> a ajouté : «Par Allah, je n'ai jamais vu un homme vaincu dont les enfants, les proches et les compagnons venaient d'être tués, aussi calme que lui. Les hommes le combattaient ardemment, et lui aussi les combattait avec ardeur avec son épée. Il attaqua une armée de trente mille [soldats] en les dispersant devant lui telles des sauterelles éparpillées. Ensuite, il revenait vers son point de base en disant : «Il n'y a de force et de puissance qu'en Allah le Très-Haut, le Très-Grand.»»<span class=\"footnote-ref\">486</span><br><br><span class=\"reference-note\">(Voir également : 278. 'Ashūrā)</span>"
+                        "text": "Al-Sayyid ibn al-Ṭāwūs rapporte dans <em>Al-Luhūf</em> d'un rapporteur de <em>ḥadīth</em>: Ensuite, Ḥusayn (as) appela l'ennemi au duel. Il tuait chaque homme qui se présentait pour le combattre jusqu'à ce qu'il tue un grand nombre d'entre eux, à la suite de quoi il dit :<br>«La mort est préférable au fait de s'abandonner à [une vie d'] indignité<br>Et l'indignité est préférable au fait d'entrer dans le Feu [de l'Enfer].»<br>L'un des transmetteurs du <em>ḥadīth</em> a ajouté : «Par Allah, je n'ai jamais vu un homme vaincu dont les enfants, les proches et les compagnons venaient d'être tués, aussi calme que lui. Les hommes le combattaient ardemment, et lui aussi les combattait avec ardeur avec son épée. Il attaqua une armée de trente mille [soldats] en les dispersant devant lui telles des sauterelles éparpillées. Ensuite, il revenait vers son point de base en disant : «Il n'y a de force et de puissance qu'en Allah le Très-Haut, le Très-Grand.»»<sup>486</sup><br><br><span class=\"reference-note\">(Voir également : 278. 'Ashūrā)</span>"
                     }
                 ]
             }
@@ -2592,7 +2592,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "440",
-                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, lorsque le moment de la mort de Ḥusayn ibn 'Alī (as) approcha, il fit appeler l'aînée de ses filles Fāṭima fille de Ḥusayn et lui confia un feuillet enroulé, testament clair et manifeste. Et 'Alī ibn Ḥusayn (as) était avec eux mais avait de fortes douleurs au ventre pour des raisons que l'on ignorait. Fāṭima remit le feuillet à 'Alī ibn Ḥusayn (as) et ensuite, par Allah, ce feuillet nous est parvenu... Par Allah, il contient tout ce dont l'humanité a besoin depuis qu'Allah a créé Adam jusqu'à la fin du monde.<span class=\"footnote-ref\">487</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, lorsque le moment de la mort de Ḥusayn ibn 'Alī (as) approcha, il fit appeler l'aînée de ses filles Fāṭima fille de Ḥusayn et lui confia un feuillet enroulé, testament clair et manifeste. Et 'Alī ibn Ḥusayn (as) était avec eux mais avait de fortes douleurs au ventre pour des raisons que l'on ignorait. Fāṭima remit le feuillet à 'Alī ibn Ḥusayn (as) et ensuite, par Allah, ce feuillet nous est parvenu... Par Allah, il contient tout ce dont l'humanité a besoin depuis qu'Allah a créé Adam jusqu'à la fin du monde.<sup>487</sup>"
                     }
                 ]
             },
@@ -2601,31 +2601,31 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "441",
-                        "text": "Le Messager d'Allah (s) a dit : Le jour du Jugement, un appel sera lancé : «Où est Zayn al-'Ābidīn [l'ornement des serviteurs de Dieu] ?» Et c'est comme si je voyais mon fils 'Alī fils de Ḥusayn fils de 'Alī ibn Abī Ṭālib surgir d'entre les rangs.<span class=\"footnote-ref\">488</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Le jour du Jugement, un appel sera lancé : «Où est Zayn al-'Ābidīn [l'ornement des serviteurs de Dieu] ?» Et c'est comme si je voyais mon fils 'Alī fils de Ḥusayn fils de 'Alī ibn Abī Ṭālib surgir d'entre les rangs.<sup>488</sup>"
                     },
                     {
                         "number": "442",
-                        "text": "L'Imām al-Bāqir (as) a dit : Il subvenait aux besoins de cent familles parmi les pauvres de Médine. Il aimait que les orphelins, les nécessiteux, les handicapés et les pauvres qui n'avaient aucunes ressources viennent s'asseoir à sa table. Il les servait de ses propres mains, et si l'un d'entre eux avait une famille [des enfants], il leur apportait de sa nourriture chez eux. Il ne commençait jamais un repas avant d'en avoir offert une portion à titre d'aumône (<em>Ṣadaqa</em>).<span class=\"footnote-ref\">489</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Il subvenait aux besoins de cent familles parmi les pauvres de Médine. Il aimait que les orphelins, les nécessiteux, les handicapés et les pauvres qui n'avaient aucunes ressources viennent s'asseoir à sa table. Il les servait de ses propres mains, et si l'un d'entre eux avait une famille [des enfants], il leur apportait de sa nourriture chez eux. Il ne commençait jamais un repas avant d'en avoir offert une portion à titre d'aumône (<em>Ṣadaqa</em>).<sup>489</sup>"
                     },
                     {
                         "number": "443",
-                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, 'Alī ibn Ḥusayn (as) a partagé ses biens avec Allah le Tout-Puissant deux fois.<span class=\"footnote-ref\">490</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, 'Alī ibn Ḥusayn (as) a partagé ses biens avec Allah le Tout-Puissant deux fois.<sup>490</sup>"
                     },
                     {
                         "number": "444",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, mon père disait : «Lorsqu'il se levait pour prier, 'Alī ibn Ḥusayn (as) devenait fixe comme un tronc d'arbre, rien ne bougeait sauf ce que le vent faisait frémir.»<span class=\"footnote-ref\">491</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, mon père disait : «Lorsqu'il se levait pour prier, 'Alī ibn Ḥusayn (as) devenait fixe comme un tronc d'arbre, rien ne bougeait sauf ce que le vent faisait frémir.»<sup>491</sup>"
                     },
                     {
                         "number": "445",
-                        "text": "Al-Ṭabarsī dans <em>I'lām al-Warā</em> : 'Alī ibn Ḥusayn (as) avait une servante qui [un jour] lui versait de l'eau. Le récipient lui glissa des mains et le blessa au visage. Il leva la tête vers elle et la servante dit [en citant des versets du Coran]: <em>«En vérité, Allah a dit : «Et ceux qui retiennent leur colère»</em><span class=\"footnote-ref\">492</span><em>»</em>. Il dit : «J'ai retenu ma colère.» Elle rajouta : <em>«et qui pardonnent à autrui.»</em><span class=\"footnote-ref\">493</span> Il dit : «Je t'ai pardonné.» Et elle dit : <em>«Allah aime les bienfaisants.»</em><span class=\"footnote-ref\">494</span> Il dit : «Va, tu es affranchie pour Allah.»<span class=\"footnote-ref\">495</span>"
+                        "text": "Al-Ṭabarsī dans <em>I'lām al-Warā</em> : 'Alī ibn Ḥusayn (as) avait une servante qui [un jour] lui versait de l'eau. Le récipient lui glissa des mains et le blessa au visage. Il leva la tête vers elle et la servante dit [en citant des versets du Coran]: <em>«En vérité, Allah a dit : «Et ceux qui retiennent leur colère»</em><sup>492</sup><em>»</em>. Il dit : «J'ai retenu ma colère.» Elle rajouta : <em>«et qui pardonnent à autrui.»</em><sup>493</sup> Il dit : «Je t'ai pardonné.» Et elle dit : <em>«Allah aime les bienfaisants.»</em><sup>494</sup> Il dit : «Va, tu es affranchie pour Allah.»<sup>495</sup>"
                     },
                     {
                         "number": "446",
-                        "text": "Muḥammad ibn Ṭalḥa Shāfi'ī dans <em>Maṭālib al-Sa'ūl</em> : Un feu se déclara dans la maison où il ['Alī ibn Ḥusayn (as)] se trouvait en état de prosternation lors de sa prière. Ils [les gens de la maison] lui dirent : «Ô fils du Messager d'Allah, ô fils du Messager d'Allah, au feu ! Au feu !» Mais il ne releva la tête de sa prosternation que lorsque le feu fût éteint. On lui demanda alors : «Qu'est-ce qui a [à ce point] détourné ton attention de lui [le feu] ?» Il répondit : «Le feu de l'Au-delà.»<span class=\"footnote-ref\">496</span>"
+                        "text": "Muḥammad ibn Ṭalḥa Shāfi'ī dans <em>Maṭālib al-Sa'ūl</em> : Un feu se déclara dans la maison où il ['Alī ibn Ḥusayn (as)] se trouvait en état de prosternation lors de sa prière. Ils [les gens de la maison] lui dirent : «Ô fils du Messager d'Allah, ô fils du Messager d'Allah, au feu ! Au feu !» Mais il ne releva la tête de sa prosternation que lorsque le feu fût éteint. On lui demanda alors : «Qu'est-ce qui a [à ce point] détourné ton attention de lui [le feu] ?» Il répondit : «Le feu de l'Au-delà.»<sup>496</sup>"
                     },
                     {
                         "number": "447",
-                        "text": "Abū Na'īm dans <em>Ḥilyat al-Awliyā'</em> : 'Alī ibn Ḥusayn (as) entendit un cri venant de chez lui alors qu'il était assis avec un groupe de personnes. Il se leva, alla chez lui et revint quelques instants après auprès du groupe. On lui demanda: «Ce cri était-il dû à un accident [un décès] ?» Il répondit : «Oui.» Ils lui présentèrent leurs condoléances et étaient étonnés de sa patience. Il dit alors : «Nous, les Gens de la demeure prophétique, nous obéissons à Allah dans ce que nous aimons et nous Le louons dans ce que nous n'aimons pas.»<span class=\"footnote-ref\">497</span><br><br><span class=\"reference-note\">(Voir également : 183. La prosternation, sections 920 et 921)</span>"
+                        "text": "Abū Na'īm dans <em>Ḥilyat al-Awliyā'</em> : 'Alī ibn Ḥusayn (as) entendit un cri venant de chez lui alors qu'il était assis avec un groupe de personnes. Il se leva, alla chez lui et revint quelques instants après auprès du groupe. On lui demanda: «Ce cri était-il dû à un accident [un décès] ?» Il répondit : «Oui.» Ils lui présentèrent leurs condoléances et étaient étonnés de sa patience. Il dit alors : «Nous, les Gens de la demeure prophétique, nous obéissons à Allah dans ce que nous aimons et nous Le louons dans ce que nous n'aimons pas.»<sup>497</sup><br><br><span class=\"reference-note\">(Voir également : 183. La prosternation, sections 920 et 921)</span>"
                     }
                 ]
             }
@@ -2639,7 +2639,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "448",
-                        "text": "<em>Kifāyat al-Athār</em> : Mālik ibn A'yun al-Jahnī a dit : 'Alī ibn Ḥusayn (as) a dit dans son testament à son fils Muḥammad ibn 'Alī (que les salutations d'Allah soient sur eux) : «Ô mon fils, je fais de toi mon successeur (<em>khalīfatī</em>) après moi; personne ne revendiquera ce qu'il y a entre toi et moi [cette succession] sans qu'Allah ne lui mette un collier de feu le Jour du jugement.»<span class=\"footnote-ref\">498</span>"
+                        "text": "<em>Kifāyat al-Athār</em> : Mālik ibn A'yun al-Jahnī a dit : 'Alī ibn Ḥusayn (as) a dit dans son testament à son fils Muḥammad ibn 'Alī (que les salutations d'Allah soient sur eux) : «Ô mon fils, je fais de toi mon successeur (<em>khalīfatī</em>) après moi; personne ne revendiquera ce qu'il y a entre toi et moi [cette succession] sans qu'Allah ne lui mette un collier de feu le Jour du jugement.»<sup>498</sup>"
                     }
                 ]
             },
@@ -2648,11 +2648,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "449",
-                        "text": "Le Messager d'Allah (s) a dit en s'adressant à Jābir ibn 'Abdullāh al-Anṣārī : Tu verras bientôt un homme de ma famille ; son nom sera mon nom, ses traits de caractères seront semblables aux miens et il tranchera le savoir de manière acérée.<span class=\"footnote-ref\">499</span>"
+                        "text": "Le Messager d'Allah (s) a dit en s'adressant à Jābir ibn 'Abdullāh al-Anṣārī : Tu verras bientôt un homme de ma famille ; son nom sera mon nom, ses traits de caractères seront semblables aux miens et il tranchera le savoir de manière acérée.<sup>499</sup>"
                     },
                     {
                         "number": "450",
-                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, la vérité m'a appelé alors que le faux s'était ancré en elle. J'ai donc tranché son flanc et ai fait sortir la vérité de derrière ses voiles jusqu'à ce qu'elle devienne manifeste et se répande après avoir été cachée et occultée.<span class=\"footnote-ref\">500</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : En vérité, la vérité m'a appelé alors que le faux s'était ancré en elle. J'ai donc tranché son flanc et ai fait sortir la vérité de derrière ses voiles jusqu'à ce qu'elle devienne manifeste et se répande après avoir été cachée et occultée.<sup>500</sup>"
                     }
                 ]
             },
@@ -2661,19 +2661,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "451",
-                        "text": "Le Messager d'Allah (s) a dit à Jābir : Ô Jābir ! Il naîtra de mon fils Ḥusayn un enfant qui s'appellera 'Alī. Lorsqu'adviendra le Jour du Jugement, cet appel sera lancé : «Que le maître des serviteurs [de Dieu] se lève !» Et 'Alī ibn Ḥusayn se lèvera. Puis de 'Alī naîtra un enfant qui s'appellera Muḥammad. Ô Jābir, lorsque tu le verras, transmets-lui mes salutations, et sache que tu ne vivras pas longtemps après l'avoir vu.<span class=\"footnote-ref\">501</span>"
+                        "text": "Le Messager d'Allah (s) a dit à Jābir : Ô Jābir ! Il naîtra de mon fils Ḥusayn un enfant qui s'appellera 'Alī. Lorsqu'adviendra le Jour du Jugement, cet appel sera lancé : «Que le maître des serviteurs [de Dieu] se lève !» Et 'Alī ibn Ḥusayn se lèvera. Puis de 'Alī naîtra un enfant qui s'appellera Muḥammad. Ô Jābir, lorsque tu le verras, transmets-lui mes salutations, et sache que tu ne vivras pas longtemps après l'avoir vu.<sup>501</sup>"
                     },
                     {
                         "number": "452",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Mon père pratiquait énormément le rappel [d'Allah] (<em>dhikr</em>). Lorsque je marchais à ses côtés, il pratiquait le rappel d'Allah. Lorsque je partageais son repas, il pratiquait le rappel d'Allah. Il parlait aux gens sans que cela ne l'empêche de pratiquer le rappel d'Allah. Je voyais alors qu'il collait sa langue à son palais et disait : «Point de divinité à part Dieu». Il nous rassemblait et nous ordonnait de pratiquer le rappel d'Allah jusqu'à ce que le soleil se lève, et il ordonnait à ceux d'entre nous qui savaient lire de lire le Coran, et à ceux qui ne savaient pas lire de pratiquer le rappel d'Allah (<em>dhikr</em>).<span class=\"footnote-ref\">502</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Mon père pratiquait énormément le rappel [d'Allah] (<em>dhikr</em>). Lorsque je marchais à ses côtés, il pratiquait le rappel d'Allah. Lorsque je partageais son repas, il pratiquait le rappel d'Allah. Il parlait aux gens sans que cela ne l'empêche de pratiquer le rappel d'Allah. Je voyais alors qu'il collait sa langue à son palais et disait : «Point de divinité à part Dieu». Il nous rassemblait et nous ordonnait de pratiquer le rappel d'Allah jusqu'à ce que le soleil se lève, et il ordonnait à ceux d'entre nous qui savaient lire de lire le Coran, et à ceux qui ne savaient pas lire de pratiquer le rappel d'Allah (<em>dhikr</em>).<sup>502</sup>"
                     },
                     {
                         "number": "453",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Abū Ja'far avait la plus belle des voix.<span class=\"footnote-ref\">503</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Abū Ja'far avait la plus belle des voix.<sup>503</sup>"
                     },
                     {
                         "number": "454",
-                        "text": "Sulaymān ibn Qurm a dit : Abū Ja'far Muḥammad ibn 'Alī (as) nous payait cinq cents, six cents, et jusqu'à mille dirhams. Il ne se lassait jamais de faire des présents à ses frères, à ceux qui lui rendaient visite, ainsi qu'à ceux qui espéraient son aide et qui entretenaient l'espoir qu'il les assiste.<span class=\"footnote-ref\">504</span>"
+                        "text": "Sulaymān ibn Qurm a dit : Abū Ja'far Muḥammad ibn 'Alī (as) nous payait cinq cents, six cents, et jusqu'à mille dirhams. Il ne se lassait jamais de faire des présents à ses frères, à ceux qui lui rendaient visite, ainsi qu'à ceux qui espéraient son aide et qui entretenaient l'espoir qu'il les assiste.<sup>504</sup>"
                     }
                 ]
             }
@@ -2687,11 +2687,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "455",
-                        "text": "<em>Biḥār al-Anwār</em> : Hammām ibn Nāfi' a dit: Abū Ja'far (as) dit un jour en s'adressant à ses compagnons : «Si vous me perdez, suivez celui-ci; il est l'Imām et mon successeur.» Et il désigna Abū 'Abdullāh [al-Ṣādiq] (as).<span class=\"footnote-ref\">505</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : Hammām ibn Nāfi' a dit: Abū Ja'far (as) dit un jour en s'adressant à ses compagnons : «Si vous me perdez, suivez celui-ci; il est l'Imām et mon successeur.» Et il désigna Abū 'Abdullāh [al-Ṣādiq] (as).<sup>505</sup>"
                     },
                     {
                         "number": "456",
-                        "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Muslim a dit : J'étais chez Abū Ja'far Muḥammad ibn 'Alī al-Bāqir (as) lorsque son fils Ja'far entra dans la pièce. Une mèche de cheveux sur la tête, il tenait une baguette dans sa main avec laquelle il jouait. Al-Bāqir (as) le prit dans ses bras, le serra fort contre lui puis dit : «Par mon père et ma mère, tu n'es pas de ceux qui sont distraits et qui jouent.» Puis il me dit : «Ô Muḥammad, voici ton Imām après moi, suis-le et bénéficie de son savoir. Par Allah, c'est lui le véridique (<em>al-Ṣādiq</em>) que le Messager d'Allah nous a décrit. En vérité, ses partisans seront vainqueurs dans ce bas-monde et dans l'Au-delà.»<span class=\"footnote-ref\">506</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Muslim a dit : J'étais chez Abū Ja'far Muḥammad ibn 'Alī al-Bāqir (as) lorsque son fils Ja'far entra dans la pièce. Une mèche de cheveux sur la tête, il tenait une baguette dans sa main avec laquelle il jouait. Al-Bāqir (as) le prit dans ses bras, le serra fort contre lui puis dit : «Par mon père et ma mère, tu n'es pas de ceux qui sont distraits et qui jouent.» Puis il me dit : «Ô Muḥammad, voici ton Imām après moi, suis-le et bénéficie de son savoir. Par Allah, c'est lui le véridique (<em>al-Ṣādiq</em>) que le Messager d'Allah nous a décrit. En vérité, ses partisans seront vainqueurs dans ce bas-monde et dans l'Au-delà.»<sup>506</sup>"
                     }
                 ]
             },
@@ -2700,19 +2700,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "457",
-                        "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Ziyād al-Azdī a dit : J'ai entendu Mālik ibn Anas, le juriste médinois, dire : «J'avais l'habitude d'aller voir Ja'far ibn Muḥammad al-Ṣādiq (as). Il me proposait un coussin, faisait preuve de respect envers moi et disait : «Ô Mālik, j'ai de l'affection pour toi.» J'étais heureux en entendant cela et rendais grâce à Allah.» [Mālik continua] : «Il (as) était toujours dans l'un de ces trois états : en train de jeûner, de prier, ou de pratiquer le rappel d'Allah (<em>dhikr</em>). Il était l'un des plus éminents dévots et serviteurs [d'Allah], le plus grand des ascètes habités par la crainte révérencielle d'Allah le Tout-Puissant. Il narrait un grand nombre de traditions, était sociable et d'agréable compagnie, et il avait de nombreux bénéfices [pour nous].»<span class=\"footnote-ref\">507</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : Muḥammad ibn Ziyād al-Azdī a dit : J'ai entendu Mālik ibn Anas, le juriste médinois, dire : «J'avais l'habitude d'aller voir Ja'far ibn Muḥammad al-Ṣādiq (as). Il me proposait un coussin, faisait preuve de respect envers moi et disait : «Ô Mālik, j'ai de l'affection pour toi.» J'étais heureux en entendant cela et rendais grâce à Allah.» [Mālik continua] : «Il (as) était toujours dans l'un de ces trois états : en train de jeûner, de prier, ou de pratiquer le rappel d'Allah (<em>dhikr</em>). Il était l'un des plus éminents dévots et serviteurs [d'Allah], le plus grand des ascètes habités par la crainte révérencielle d'Allah le Tout-Puissant. Il narrait un grand nombre de traditions, était sociable et d'agréable compagnie, et il avait de nombreux bénéfices [pour nous].»<sup>507</sup>"
                     },
                     {
                         "number": "458",
-                        "text": "Hishām ibn Sālim a dit : Alors qu'il faisait sombre et qu'une partie de la nuit s'était écoulée, Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) avait pour habitude de prendre un sac rempli de pain, de viande et d'argent. Il le portait sur son dos et l'apportait aux nécessiteux de Médine. Il répartissait son contenu entre eux sans que les gens le reconnaissent. Après le décès d'Abū 'Abdillāh (as), ils ne reçurent plus cela [ces offrandes], et réalisèrent alors que leur bienfaiteur n'était autre que Abū 'Abdillāh (as).<span class=\"footnote-ref\">508</span>"
+                        "text": "Hishām ibn Sālim a dit : Alors qu'il faisait sombre et qu'une partie de la nuit s'était écoulée, Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) avait pour habitude de prendre un sac rempli de pain, de viande et d'argent. Il le portait sur son dos et l'apportait aux nécessiteux de Médine. Il répartissait son contenu entre eux sans que les gens le reconnaissent. Après le décès d'Abū 'Abdillāh (as), ils ne reçurent plus cela [ces offrandes], et réalisèrent alors que leur bienfaiteur n'était autre que Abū 'Abdillāh (as).<sup>508</sup>"
                     },
                     {
                         "number": "459",
-                        "text": "Mu'allā ibn Khunays a dit : Lors d'une nuit de bruine, Abū 'Abdillāh (as) sortit en direction de l'abri des Banī Sā'ida. Je le suivis et soudain, il fit tomber quelque chose. Il dit : «Grâce au nom d'Allah, Ô Allah, restitue-le nous.» [Mu'allā] continua : J'allai alors vers lui et le saluai. Il demanda : «Es-tu Mu'allā ?» Je lui répondis : «Oui, que je vous sois sacrifié.» Il dit : «Tâtonne avec tes mains et si tu trouves quelques chose, donne-le-moi.» Mu'allā dit : «Je trouvai des morceaux de pain et je lui tendis ce que j'avais trouvé. Je fus étonné de voir un sac rempli de pain sur son dos. Je lui dis : «Que je vous sois sacrifié, permettez-moi de le porter à votre place.» Il dit : «Non, je suis plus habilité à le porter que toi, en revanche, accompagne-moi.» Mu'allā rapporte : Nous arrivâmes à l'abri des Banī Sā'ida et nous trouvâmes un groupe de personnes endormies. Il glissa un pain ou deux sous le vêtement de chacune jusqu'à la dernière, puis nous nous retirâmes. Je dis alors : «Que je vous sois sacrifié, est-ce que ces personnes connaissent la vérité<span class=\"footnote-ref\">509</span> [c'est-à-dire l'Imāmat de l'Imām Ṣādiq (as)] ?» Il répondit : «Si elles la connaissaient, nous leur aurions également donné la farine».»<span class=\"footnote-ref\">510</span>"
+                        "text": "Mu'allā ibn Khunays a dit : Lors d'une nuit de bruine, Abū 'Abdillāh (as) sortit en direction de l'abri des Banī Sā'ida. Je le suivis et soudain, il fit tomber quelque chose. Il dit : «Grâce au nom d'Allah, Ô Allah, restitue-le nous.» [Mu'allā] continua : J'allai alors vers lui et le saluai. Il demanda : «Es-tu Mu'allā ?» Je lui répondis : «Oui, que je vous sois sacrifié.» Il dit : «Tâtonne avec tes mains et si tu trouves quelques chose, donne-le-moi.» Mu'allā dit : «Je trouvai des morceaux de pain et je lui tendis ce que j'avais trouvé. Je fus étonné de voir un sac rempli de pain sur son dos. Je lui dis : «Que je vous sois sacrifié, permettez-moi de le porter à votre place.» Il dit : «Non, je suis plus habilité à le porter que toi, en revanche, accompagne-moi.» Mu'allā rapporte : Nous arrivâmes à l'abri des Banī Sā'ida et nous trouvâmes un groupe de personnes endormies. Il glissa un pain ou deux sous le vêtement de chacune jusqu'à la dernière, puis nous nous retirâmes. Je dis alors : «Que je vous sois sacrifié, est-ce que ces personnes connaissent la vérité<sup>509</sup> [c'est-à-dire l'Imāmat de l'Imām Ṣādiq (as)] ?» Il répondit : «Si elles la connaissaient, nous leur aurions également donné la farine».»<sup>510</sup>"
                     },
                     {
                         "number": "460",
-                        "text": "Abū 'Amrū al-Shaybānī a dit : J'ai vu Abū 'Abdillāh (as) une pelle à la main et portant des vêtements épais en train de travailler dans son terrain, alors que la sueur coulait de son dos. Je lui dis alors : «Que je te sois sacrifié ! Laisse-moi faire cela à ta place.» Il me dit : «En vérité, j'aime que l'homme soit affecté par la chaleur du soleil en quête de sa subsistance.»<span class=\"footnote-ref\">511</span>"
+                        "text": "Abū 'Amrū al-Shaybānī a dit : J'ai vu Abū 'Abdillāh (as) une pelle à la main et portant des vêtements épais en train de travailler dans son terrain, alors que la sueur coulait de son dos. Je lui dis alors : «Que je te sois sacrifié ! Laisse-moi faire cela à ta place.» Il me dit : «En vérité, j'aime que l'homme soit affecté par la chaleur du soleil en quête de sa subsistance.»<sup>511</sup>"
                     }
                 ]
             }
@@ -2726,7 +2726,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "461",
-                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ṣafwān al-Jammāl a dit : J'ai interrogé Abū 'Abdillāh (as) au sujet du détenteur de cette position [l'Imāmat]. Il m'a répondu : «Le détenteur de cette position ne joue pas et n'est pas distrait.» Mūsā ibn Ja'far, alors encore enfant, arriva à ce moment-là avec un chevreau mecquois à qui il disait : «Prosterne-toi devant ton Seigneur !» Abū 'Abdillāh le prit, le serra dans ses bras et dit : «Par mon père et ma mère, il ne joue pas et n'est pas distrait [il ne fait aucun acte vain et suscitant l'oubli de l'Au-delà].»<span class=\"footnote-ref\">512</span>"
+                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Ṣafwān al-Jammāl a dit : J'ai interrogé Abū 'Abdillāh (as) au sujet du détenteur de cette position [l'Imāmat]. Il m'a répondu : «Le détenteur de cette position ne joue pas et n'est pas distrait.» Mūsā ibn Ja'far, alors encore enfant, arriva à ce moment-là avec un chevreau mecquois à qui il disait : «Prosterne-toi devant ton Seigneur !» Abū 'Abdillāh le prit, le serra dans ses bras et dit : «Par mon père et ma mère, il ne joue pas et n'est pas distrait [il ne fait aucun acte vain et suscitant l'oubli de l'Au-delà].»<sup>512</sup>"
                     }
                 ]
             },
@@ -2735,11 +2735,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "462",
-                        "text": "Al-Thawbānī a dit : Pendant environ dix années, Abū al-Ḥasan Mūsā ibn Ja'far (as) effectuait [chaque jour] une prosternation qui durait du lever du soleil jusqu'à midi. [Il continua] : Hārūn montait parfois sur une terrasse qui surplombait la prison dans laquelle était emprisonné Abū al-Ḥasan (as). Il voyait alors Abū al-Ḥasan en état de prosternation. Il demanda à Rabī' : «Quel est donc ce vêtement que j'aperçois chaque jour à cet endroit ?» Rabī' dit : «Ô Emir des croyants ! Ce n'est pas un vêtement, mais Mūsā ibn Ja'far (as). Il effectue chaque jour une prosternation du lever du soleil jusqu'à midi.» Hārūn dit alors : «En effet, c'est bien l'homme religieux des fils de Hāshim.» Je lui dis : «Alors pourquoi l'as-tu confiné à la captivité ?» Il répondit : «Hélas ! Il doit en être ainsi.»<span class=\"footnote-ref\">513</span>"
+                        "text": "Al-Thawbānī a dit : Pendant environ dix années, Abū al-Ḥasan Mūsā ibn Ja'far (as) effectuait [chaque jour] une prosternation qui durait du lever du soleil jusqu'à midi. [Il continua] : Hārūn montait parfois sur une terrasse qui surplombait la prison dans laquelle était emprisonné Abū al-Ḥasan (as). Il voyait alors Abū al-Ḥasan en état de prosternation. Il demanda à Rabī' : «Quel est donc ce vêtement que j'aperçois chaque jour à cet endroit ?» Rabī' dit : «Ô Emir des croyants ! Ce n'est pas un vêtement, mais Mūsā ibn Ja'far (as). Il effectue chaque jour une prosternation du lever du soleil jusqu'à midi.» Hārūn dit alors : «En effet, c'est bien l'homme religieux des fils de Hāshim.» Je lui dis : «Alors pourquoi l'as-tu confiné à la captivité ?» Il répondit : «Hélas ! Il doit en être ainsi.»<sup>513</sup>"
                     },
                     {
                         "number": "463",
-                        "text": "'Alī ibn Suwayd a dit : J'ai écrit une lettre à Abū al-Ḥasan Mūsā (as) alors qu'il était emprisonné, afin de m'enquérir de son état et de questions diverses. Il ne me répondit pas pendant des mois. Puis il me répondit par une lettre dont voici le contenu : «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux... Assurément, tu es un homme auquel Allah a conféré un rang spécial avec la famille de Muḥammad, et qui T'a gardé par affection parmi ceux qui veillent sur Sa religion.»<span class=\"footnote-ref\">514</span>"
+                        "text": "'Alī ibn Suwayd a dit : J'ai écrit une lettre à Abū al-Ḥasan Mūsā (as) alors qu'il était emprisonné, afin de m'enquérir de son état et de questions diverses. Il ne me répondit pas pendant des mois. Puis il me répondit par une lettre dont voici le contenu : «Grâce au Nom d'Allah, le Très Miséricordieux, le Tout Miséricordieux... Assurément, tu es un homme auquel Allah a conféré un rang spécial avec la famille de Muḥammad, et qui T'a gardé par affection parmi ceux qui veillent sur Sa religion.»<sup>514</sup>"
                     }
                 ]
             },
@@ -2748,11 +2748,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "464",
-                        "text": "<em>Al-Irshād</em> : Il a été rapporté qu'Al-Kāẓim invoquait beaucoup Allah et disait alors : «Ô Allah ! Je Te demande l'aisance lors de la mort et le pardon lors des comptes», et il répétait cette phrase plusieurs fois. Et parmi ses invocations [figurait également] : «Le péché de Ton serviteur est grand, que Ton pardon soit à sa mesure». Il pleurait abondamment par crainte d'Allah jusqu'à ce que sa barbe soit imbibée de larmes. Il était le plus assidu dans le maintien des relations avec sa famille et ses proches. La nuit, il partait à la recherche des pauvres de Médine. Il leur portait alors [un panier] rempli de dirhams, de dinars, de farine et de dattes et les leur faisait parvenir sans qu'ils sachent de qui cela provenait.<span class=\"footnote-ref\">515</span>"
+                        "text": "<em>Al-Irshād</em> : Il a été rapporté qu'Al-Kāẓim invoquait beaucoup Allah et disait alors : «Ô Allah ! Je Te demande l'aisance lors de la mort et le pardon lors des comptes», et il répétait cette phrase plusieurs fois. Et parmi ses invocations [figurait également] : «Le péché de Ton serviteur est grand, que Ton pardon soit à sa mesure». Il pleurait abondamment par crainte d'Allah jusqu'à ce que sa barbe soit imbibée de larmes. Il était le plus assidu dans le maintien des relations avec sa famille et ses proches. La nuit, il partait à la recherche des pauvres de Médine. Il leur portait alors [un panier] rempli de dirhams, de dinars, de farine et de dattes et les leur faisait parvenir sans qu'ils sachent de qui cela provenait.<sup>515</sup>"
                     },
                     {
                         "number": "465",
-                        "text": "Ḥasan ibn Muḥammad ibn Yaḥyā al-'Alawī a dit : Mon grand-père m'a dit : Mūsā ibn Ja'far (as) était surnommé le serviteur bienfaisant en raison de ses actes d'adoration et de ses efforts [dans la voie d'Allah]. Nos compagnons ont rapporté qu'il entrait dans la mosquée du Messager d'Allah (s) et effectuait une prosternation au début de la nuit. On l'entendait dire ceci durant sa prosternation : «Mon péché est grand, que Ton pardon soit à sa mesure, Ô Détenteur de la piété et Détenteur du pardon». Il répétait cela jusqu'au matin. Il était généreux et noble, et lorsqu'on lui rapportait qu'une personne l'avait calomnié, il envoyait à cette personne une bourse qui contenait mille dinars.<span class=\"footnote-ref\">516</span>"
+                        "text": "Ḥasan ibn Muḥammad ibn Yaḥyā al-'Alawī a dit : Mon grand-père m'a dit : Mūsā ibn Ja'far (as) était surnommé le serviteur bienfaisant en raison de ses actes d'adoration et de ses efforts [dans la voie d'Allah]. Nos compagnons ont rapporté qu'il entrait dans la mosquée du Messager d'Allah (s) et effectuait une prosternation au début de la nuit. On l'entendait dire ceci durant sa prosternation : «Mon péché est grand, que Ton pardon soit à sa mesure, Ô Détenteur de la piété et Détenteur du pardon». Il répétait cela jusqu'au matin. Il était généreux et noble, et lorsqu'on lui rapportait qu'une personne l'avait calomnié, il envoyait à cette personne une bourse qui contenait mille dinars.<sup>516</sup>"
                     }
                 ]
             }
@@ -2766,7 +2766,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "466",
-                        "text": "'Abd al-Raḥmān ibn al-Ḥajjāj a dit : Abū al-Ḥasan Mūsā ibn Ja'far [al-Kāẓim] (as) a désigné son fils 'Alī (as) comme son exécuteur testamentaire, et il a écrit cela dans une lettre pour lui au sujet de laquelle ont témoigné soixante hommes renommés de Médine.<span class=\"footnote-ref\">517</span>"
+                        "text": "'Abd al-Raḥmān ibn al-Ḥajjāj a dit : Abū al-Ḥasan Mūsā ibn Ja'far [al-Kāẓim] (as) a désigné son fils 'Alī (as) comme son exécuteur testamentaire, et il a écrit cela dans une lettre pour lui au sujet de laquelle ont témoigné soixante hommes renommés de Médine.<sup>517</sup>"
                     }
                 ]
             },
@@ -2775,7 +2775,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "467",
-                        "text": "Abū al-Ṣalt al-Harawī a dit : En vérité, Ma'mūn a dit à Al-Riḍā (as) : «Ô fils du Messager d'Allah... En vérité, je trouve qu'il vaut mieux que je renonce au califat, que je te le confie et que je te porte allégeance !» Al-Riḍā (as) lui répondit : «Si ce califat t'appartient et qu'Allah te l'a confié, alors il ne t'est pas permis de te dépouiller d'un vêtement dont Allah t'a revêtu et de le confier à un autre que toi. Et si le califat ne t'appartient pas, alors [dès le départ] il ne t'est pas permis de me confier ce qui ne t'appartient pas.» Ma'mūn lui dit alors : «Ô fils du Messager d'Allah, tu es obligé d'accepter ce statut !» L'Imām (as) dit : «Je ne ferai jamais cela de mon propre gré... Car par cela [en acceptant le califat], tu souhaites que les gens disent : «'Alī ibn Mūsā al-Riḍā n'a pas renoncé à cette vie terrestre [de par sa quête du pouvoir], mais c'est plutôt cette vie terrestre qui a renoncé à lui ! Ne voyez-vous pas comment il a accepté la succession de par sa convoitise du califat ?»» Ma'mūn se mit en colère et dit : «Je jure sur Allah que si tu n'acceptes pas la position de successeur au califat, je t'y obligerai. Tu ferais mieux de l'accepter, sinon je te trancherai la gorge.»<span class=\"footnote-ref\">518</span>"
+                        "text": "Abū al-Ṣalt al-Harawī a dit : En vérité, Ma'mūn a dit à Al-Riḍā (as) : «Ô fils du Messager d'Allah... En vérité, je trouve qu'il vaut mieux que je renonce au califat, que je te le confie et que je te porte allégeance !» Al-Riḍā (as) lui répondit : «Si ce califat t'appartient et qu'Allah te l'a confié, alors il ne t'est pas permis de te dépouiller d'un vêtement dont Allah t'a revêtu et de le confier à un autre que toi. Et si le califat ne t'appartient pas, alors [dès le départ] il ne t'est pas permis de me confier ce qui ne t'appartient pas.» Ma'mūn lui dit alors : «Ô fils du Messager d'Allah, tu es obligé d'accepter ce statut !» L'Imām (as) dit : «Je ne ferai jamais cela de mon propre gré... Car par cela [en acceptant le califat], tu souhaites que les gens disent : «'Alī ibn Mūsā al-Riḍā n'a pas renoncé à cette vie terrestre [de par sa quête du pouvoir], mais c'est plutôt cette vie terrestre qui a renoncé à lui ! Ne voyez-vous pas comment il a accepté la succession de par sa convoitise du califat ?»» Ma'mūn se mit en colère et dit : «Je jure sur Allah que si tu n'acceptes pas la position de successeur au califat, je t'y obligerai. Tu ferais mieux de l'accepter, sinon je te trancherai la gorge.»<sup>518</sup>"
                     }
                 ]
             },
@@ -2784,11 +2784,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "468",
-                        "text": "Al-Harawī a dit : Je vins à la porte de la cellule où Al-Riḍā (as) était emprisonné et enchaîné à Sarkhas. Je demandai alors au gardien de prison la permission [de lui rendre visite], mais il dit : «Vous ne pourrez pas le voir.» Je lui demandai : «Pourquoi ?» Il répondit : «Parce qu'il prie parfois jusqu'à mille <em>raka'āt</em> en l'espace d'un jour et d'une nuit. Il ne s'arrête de prier durant un moment qu'au point du jour, avant midi, et avant le coucher du soleil. Durant ces moments, il s'assied à son lieu de prière et s'entretient de manière intime avec son Seigneur.» Je lui dis : «Dans ce cas, demande-lui la permission [que je lui rende visite] à ces moments-là.» Il demanda la permission pour moi. J'entrai alors qu'il était assis à son lieu de prière en état de méditation.»<span class=\"footnote-ref\">519</span>"
+                        "text": "Al-Harawī a dit : Je vins à la porte de la cellule où Al-Riḍā (as) était emprisonné et enchaîné à Sarkhas. Je demandai alors au gardien de prison la permission [de lui rendre visite], mais il dit : «Vous ne pourrez pas le voir.» Je lui demandai : «Pourquoi ?» Il répondit : «Parce qu'il prie parfois jusqu'à mille <em>raka'āt</em> en l'espace d'un jour et d'une nuit. Il ne s'arrête de prier durant un moment qu'au point du jour, avant midi, et avant le coucher du soleil. Durant ces moments, il s'assied à son lieu de prière et s'entretient de manière intime avec son Seigneur.» Je lui dis : «Dans ce cas, demande-lui la permission [que je lui rende visite] à ces moments-là.» Il demanda la permission pour moi. J'entrai alors qu'il était assis à son lieu de prière en état de méditation.»<sup>519</sup>"
                     },
                     {
                         "number": "469",
-                        "text": "Ibrāhīm ibn al-'Abbās a dit : Je n'ai jamais vu Abū al-Ḥasan al-Riḍā (as) heurter quelqu'un par l'une de ses paroles, et je ne l'ai jamais vu interrompre quelqu'un avant qu'il ait fini de parler, ni refuser une faveur à quelqu'un s'il pouvait le faire, ni allonger ses jambes devant une personne assise avec lui, ni s'adosser [à quelque chose] devant une personne assise avec lui. Je ne l'ai jamais vu injurier l'un de ses serviteurs ni l'un de ses domestiques, et je ne l'ai jamais vu cracher ni rire aux éclats ; son rire était plutôt un sourire. Lorsqu'il était prêt à manger et que la table était dressée, il invitait à s'y asseoir avec lui ses domestiques, ses serviteurs, et même le portier et la personne qui s'occupait des écuries.<span class=\"footnote-ref\">520</span>"
+                        "text": "Ibrāhīm ibn al-'Abbās a dit : Je n'ai jamais vu Abū al-Ḥasan al-Riḍā (as) heurter quelqu'un par l'une de ses paroles, et je ne l'ai jamais vu interrompre quelqu'un avant qu'il ait fini de parler, ni refuser une faveur à quelqu'un s'il pouvait le faire, ni allonger ses jambes devant une personne assise avec lui, ni s'adosser [à quelque chose] devant une personne assise avec lui. Je ne l'ai jamais vu injurier l'un de ses serviteurs ni l'un de ses domestiques, et je ne l'ai jamais vu cracher ni rire aux éclats ; son rire était plutôt un sourire. Lorsqu'il était prêt à manger et que la table était dressée, il invitait à s'y asseoir avec lui ses domestiques, ses serviteurs, et même le portier et la personne qui s'occupait des écuries.<sup>520</sup>"
                     }
                 ]
             }
@@ -2802,11 +2802,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "470",
-                        "text": "Lorsque 'Abdullāh Ibn Mas'ūd l'interrogea au sujet des Imāms descendant de Ḥusayn (as), le Messager d'Allah (s) dit : «... Et sortira des lombes de 'Alī [al-Riḍā] son enfant Muḥammad, le loué, la plus pure des personnes de par sa création et la meilleure d'entre elles de par son caractère.»<span class=\"footnote-ref\">521</span>"
+                        "text": "Lorsque 'Abdullāh Ibn Mas'ūd l'interrogea au sujet des Imāms descendant de Ḥusayn (as), le Messager d'Allah (s) dit : «... Et sortira des lombes de 'Alī [al-Riḍā] son enfant Muḥammad, le loué, la plus pure des personnes de par sa création et la meilleure d'entre elles de par son caractère.»<sup>521</sup>"
                     },
                     {
                         "number": "471",
-                        "text": "'Abdullāh ibn Ja'far a dit : J'ai rendu visite à Al-Riḍā (as) en compagnie de Ṣafwān ibn Yaḥyā. Abū Ja'far [Imām al-Jawād] (as), qui avait alors trois ans, se tenait là. Nous lui dîmes alors [à l'Imām al-Riḍā] : «Que nous te soyons sacrifiés, s'il t'arrivait quelque chose - qu'Allah t'en préserve -, qui sera [l'Imām] après toi ?» Il dit : «Mon fils que voici», et il le désigna. Nous lui demandâmes : «Alors qu'il est encore si jeune ?» Il répondit : «Oui, alors qu'il est encore si jeune. En vérité, Allah le Béni et le Très-Haut a fait de Jésus Sa preuve divine alors qu'il n'avait que deux ans.»<span class=\"footnote-ref\">522</span>"
+                        "text": "'Abdullāh ibn Ja'far a dit : J'ai rendu visite à Al-Riḍā (as) en compagnie de Ṣafwān ibn Yaḥyā. Abū Ja'far [Imām al-Jawād] (as), qui avait alors trois ans, se tenait là. Nous lui dîmes alors [à l'Imām al-Riḍā] : «Que nous te soyons sacrifiés, s'il t'arrivait quelque chose - qu'Allah t'en préserve -, qui sera [l'Imām] après toi ?» Il dit : «Mon fils que voici», et il le désigna. Nous lui demandâmes : «Alors qu'il est encore si jeune ?» Il répondit : «Oui, alors qu'il est encore si jeune. En vérité, Allah le Béni et le Très-Haut a fait de Jésus Sa preuve divine alors qu'il n'avait que deux ans.»<sup>522</sup>"
                     }
                 ]
             },
@@ -2815,19 +2815,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "472",
-                        "text": "Yaḥyā al-Ṣan'ānī a dit : J'ai rendu visite à Abū al-Ḥasan al-Riḍā (as) alors qu'il séjournait à La Mecque. Je l'ai vu occupé à éplucher une banane et à la donner à son fils Abū Ja'far. Je lui ai demandé : «Que je te sois sacrifié, s'agit-il du nouveau-né béni ?» Il dit : «Oui, ô Yaḥyā ! C'est lui le nouveau-né ; il ne naîtra pas en islam d'enfant plus béni que lui pour nos partisans (<em>shī'a</em>).»<span class=\"footnote-ref\">523</span>"
+                        "text": "Yaḥyā al-Ṣan'ānī a dit : J'ai rendu visite à Abū al-Ḥasan al-Riḍā (as) alors qu'il séjournait à La Mecque. Je l'ai vu occupé à éplucher une banane et à la donner à son fils Abū Ja'far. Je lui ai demandé : «Que je te sois sacrifié, s'agit-il du nouveau-né béni ?» Il dit : «Oui, ô Yaḥyā ! C'est lui le nouveau-né ; il ne naîtra pas en islam d'enfant plus béni que lui pour nos partisans (<em>shī'a</em>).»<sup>523</sup>"
                     },
                     {
                         "number": "473",
-                        "text": "'Abdullāh ibn Sa'īd a dit : Muḥammad ibn 'Alī ibn 'Umar al-Tannūkhī m'a dit : J'ai vu Muḥammad ibn 'Alī [al-Jawād] parler à un taureau et le taureau hochait la tête. Je lui ai dit : «Non, mais [tu ne peux pas] ordonner à ce taureau de te parler.» Il récita alors [ce verset] : <em>«On nous a appris le langage des oiseaux, et on nous a donné part de toutes choses.»</em><span class=\"footnote-ref\">524</span> Il dit ensuite [au taureau] : «Dis «Point de divinité à part Dieu, l'Unique qui n'a pas d'associé».» Puis il caressa sa tête avec la paume de sa main. Le taureau dit alors : «Point de divinité à part Dieu, l'Unique qui n'a pas d'associé».<span class=\"footnote-ref\">525</span>"
+                        "text": "'Abdullāh ibn Sa'īd a dit : Muḥammad ibn 'Alī ibn 'Umar al-Tannūkhī m'a dit : J'ai vu Muḥammad ibn 'Alī [al-Jawād] parler à un taureau et le taureau hochait la tête. Je lui ai dit : «Non, mais [tu ne peux pas] ordonner à ce taureau de te parler.» Il récita alors [ce verset] : <em>«On nous a appris le langage des oiseaux, et on nous a donné part de toutes choses.»</em><sup>524</sup> Il dit ensuite [au taureau] : «Dis «Point de divinité à part Dieu, l'Unique qui n'a pas d'associé».» Puis il caressa sa tête avec la paume de sa main. Le taureau dit alors : «Point de divinité à part Dieu, l'Unique qui n'a pas d'associé».<sup>525</sup>"
                     },
                     {
                         "number": "474",
-                        "text": "'Alī ibn Ḥassān al-Wāsiṭī, connu sous le nom de al-'Amsh, a dit : J'ai apporté un objet d'Ispahan dont une partie était en argent afin d'en faire cadeau à mon maître Abū Ja'far [al-Jawād]. Lorsque les gens se dispersèrent après qu'il ait répondu à leurs questions, il se leva et partit. Je le suivis et rencontrai l'un de ses servants. Je lui dis: «Sollicite pour moi la permission de me rendre auprès de d'Abū Ja'far.» Ainsi, j'entrai et le saluai; il me rendit mon salut avec une expression d'aversion sur son visage et ne vint pas s'asseoir. Je me rapprochai alors de lui et sortit devant lui ce qui était dans ma manche. Il me regarda avec colère, puis regarda à droite et à gauche et dit: «Allah ne m'a pas créé pour cela, qu'ai-je à voir avec les jeux ?!» J'implorai alors son pardon et il me pardonna. Je repris alors l'objet et partis.<span class=\"footnote-ref\">526</span>"
+                        "text": "'Alī ibn Ḥassān al-Wāsiṭī, connu sous le nom de al-'Amsh, a dit : J'ai apporté un objet d'Ispahan dont une partie était en argent afin d'en faire cadeau à mon maître Abū Ja'far [al-Jawād]. Lorsque les gens se dispersèrent après qu'il ait répondu à leurs questions, il se leva et partit. Je le suivis et rencontrai l'un de ses servants. Je lui dis: «Sollicite pour moi la permission de me rendre auprès de d'Abū Ja'far.» Ainsi, j'entrai et le saluai; il me rendit mon salut avec une expression d'aversion sur son visage et ne vint pas s'asseoir. Je me rapprochai alors de lui et sortit devant lui ce qui était dans ma manche. Il me regarda avec colère, puis regarda à droite et à gauche et dit: «Allah ne m'a pas créé pour cela, qu'ai-je à voir avec les jeux ?!» J'implorai alors son pardon et il me pardonna. Je repris alors l'objet et partis.<sup>526</sup>"
                     },
                     {
                         "number": "475",
-                        "text": "Al-Qāsim ibn 'Abd al-Raḥmān, qui était alors zaydite, a dit : Je partis à Bagdad et alors que j'étais encore là-bas, je vis soudain les gens se féliciter, échanger d'honorables salutations et se lever. Je leur demandai : «Que se passe-t-il ?» Ils me répondirent : «Le fils d'al-Riḍā [est là].» Je dis alors : «Par Allah, il faut que je le voie.» Il apparût sur un mulet. Je [me] dis : «Qu'Allah maudisse les partisans de l'Imāmat qui disent qu'Allah nous a rendu obligatoire d'obéir à celui-là.» À ce même moment, il se tourna vers moi et dit : «Ô Qāsim ibn 'Abd al-Raḥmān, <em>«Allons-nous suivre un seul homme d'entre nous-mêmes ? Nous serions alors dans l'égarement et la folie».»</em><span class=\"footnote-ref\">527</span> Je me dis : «Par Allah, c'est un sorcier !» Il revint vers moi et me dit : <em>«Est-ce que le message a été envoyé à lui à l'exception de nous tous ? C'est plutôt un grand menteur, plein de prétention et d'orgueil.»</em><span class=\"footnote-ref\">528</span> Je partis en reconnaissant son Imāmat ; et je professai qu'il était la Preuve d'Allah auprès de Ses créatures et crus en lui.<span class=\"footnote-ref\">529</span>"
+                        "text": "Al-Qāsim ibn 'Abd al-Raḥmān, qui était alors zaydite, a dit : Je partis à Bagdad et alors que j'étais encore là-bas, je vis soudain les gens se féliciter, échanger d'honorables salutations et se lever. Je leur demandai : «Que se passe-t-il ?» Ils me répondirent : «Le fils d'al-Riḍā [est là].» Je dis alors : «Par Allah, il faut que je le voie.» Il apparût sur un mulet. Je [me] dis : «Qu'Allah maudisse les partisans de l'Imāmat qui disent qu'Allah nous a rendu obligatoire d'obéir à celui-là.» À ce même moment, il se tourna vers moi et dit : «Ô Qāsim ibn 'Abd al-Raḥmān, <em>«Allons-nous suivre un seul homme d'entre nous-mêmes ? Nous serions alors dans l'égarement et la folie».»</em><sup>527</sup> Je me dis : «Par Allah, c'est un sorcier !» Il revint vers moi et me dit : <em>«Est-ce que le message a été envoyé à lui à l'exception de nous tous ? C'est plutôt un grand menteur, plein de prétention et d'orgueil.»</em><sup>528</sup> Je partis en reconnaissant son Imāmat ; et je professai qu'il était la Preuve d'Allah auprès de Ses créatures et crus en lui.<sup>529</sup>"
                     }
                 ]
             }
@@ -2841,7 +2841,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "476",
-                        "text": "L'Imām al-Jawād (as) a dit : En vérité, l'Imām après moi est mon fils 'Alī. Son ordre est mon ordre, sa parole est ma parole, son obéissance est mon obéissance et après lui, l'Imāmat reviendra à son fils Ḥasan.<span class=\"footnote-ref\">530</span>"
+                        "text": "L'Imām al-Jawād (as) a dit : En vérité, l'Imām après moi est mon fils 'Alī. Son ordre est mon ordre, sa parole est ma parole, son obéissance est mon obéissance et après lui, l'Imāmat reviendra à son fils Ḥasan.<sup>530</sup>"
                     }
                 ]
             },
@@ -2850,11 +2850,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "477",
-                        "text": "<em>Biḥār al-Anwār</em> : Ḥasan ibn Muḥammad Jumhūr al-'Amī rapporte dans le livre <em>Al-Wāḥida</em>: Mon frère Ḥusayn ibn Muḥammad m'a rapporté: J'avais un ami qui enseignait aux enfants de Baghā ou de Waṣīf<span class=\"footnote-ref\">531</span> - le doute est de moi. Il me dit : Alors qu'il retournait au palais du calife, le gouverneur me dit : «Aujourd'hui, le prince des croyants [le calife de l'époque] a emprisonné celui que l'on appelle Ibn al-Riḍā [fils de Ridā], et il l'a livré à 'Alī ibn Karkar. Je l'ai alors entendu dire: «Je suis plus cher auprès d'Allah que la chamelle de Ṣāliḥ, alors <em>«Jouissez [de vos biens] dans vos demeures pendant [encore] trois jours ! Voici une promesse qui ne sera pas démentie.»</em><span class=\"footnote-ref\">532</span> Je n'ai pas bien compris ce qu'il a voulu dire par ce verset.» Je dis au prince : «Qu'Allah vous honore, il vous a menacé. Regardez ce qui va se passer dans trois jours.» Le lendemain, le calife le libéra et lui présenta ses excuses. Le troisième jour, il fut attaqué par Yāghiz, Yaghlūn et Tāmish, ainsi qu'un groupe de gens. Ils l'assassinèrent et installèrent à sa place son fils al-Muntaṣir.<span class=\"footnote-ref\">533</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : Ḥasan ibn Muḥammad Jumhūr al-'Amī rapporte dans le livre <em>Al-Wāḥida</em>: Mon frère Ḥusayn ibn Muḥammad m'a rapporté: J'avais un ami qui enseignait aux enfants de Baghā ou de Waṣīf<sup>531</sup> - le doute est de moi. Il me dit : Alors qu'il retournait au palais du calife, le gouverneur me dit : «Aujourd'hui, le prince des croyants [le calife de l'époque] a emprisonné celui que l'on appelle Ibn al-Riḍā [fils de Ridā], et il l'a livré à 'Alī ibn Karkar. Je l'ai alors entendu dire: «Je suis plus cher auprès d'Allah que la chamelle de Ṣāliḥ, alors <em>«Jouissez [de vos biens] dans vos demeures pendant [encore] trois jours ! Voici une promesse qui ne sera pas démentie.»</em><sup>532</sup> Je n'ai pas bien compris ce qu'il a voulu dire par ce verset.» Je dis au prince : «Qu'Allah vous honore, il vous a menacé. Regardez ce qui va se passer dans trois jours.» Le lendemain, le calife le libéra et lui présenta ses excuses. Le troisième jour, il fut attaqué par Yāghiz, Yaghlūn et Tāmish, ainsi qu'un groupe de gens. Ils l'assassinèrent et installèrent à sa place son fils al-Muntaṣir.<sup>533</sup>"
                     },
                     {
                         "number": "478",
-                        "text": "<em>Kashf al-Ghumma</em> : Un groupe de gens de la ville d'Ispahan, dont Abū al-'Abbās Aḥmad ibn al-Naṣr et Abū Ja'far Muḥammad ibn 'Alawiyya, rapportent : Il y avait à Ispahan un homme nommé 'Abd al-Raḥmān qui était shiite. On lui demanda: «Pour quelle raison as-tu accepté l'Imāmat de 'Alī al-Naqī et non celui d'un autre que lui parmi les gens de son époque ?» Il répondit : «J'ai été témoin d'une chose qui m'a contraint à cela. J'étais alors un homme pauvre, mais aussi ne mâchant pas ses mots et téméraire. Pour cette raison, les habitants d'Ispahan m'exilèrent avec d'autre gens. Nous nous rendirent auprès [du calife] Mutawakkil pour demander justice. Alors que nous étions à sa porte, l'ordre fut donné de faire venir 'Alī ibn Muḥammad ibn Riḍā. Je demandai alors à certaines des personnes présentes: «Qui est cet homme que l'on a ordonné de faire venir ?» On me répondit : «C'est un 'Alawite que les Rāfiḍa croient être leur Imām.» On dit ensuite: «Nous supposons que Mutawakkil a donné l'ordre de le convoquer pour le tuer.» Je me dis: «Je ne bougerai pas de là avant d'avoir vu à quoi ressemble cet homme.» Il arriva à dos de cheval, alors que les gens se tenaient en rang à droite et à gauche de son chemin et le regardaient. Lorsque je le vis, je m'arrêtai et le regardai. L'amour que je ressentis pour lui remplit mon cœur. Je me mis alors à prier pour lui qu'Allah éloigne de lui le mal de Mutawakkil. Il passa à travers la foule alors que son regard était fixé sur les rênes de son cheval, sans qu'il ne regarde autour de lui. Je continuais à prier pour lui. Lorsqu'il parvint à moi, il tourna son visage dans ma direction et dit: «Qu'Allah agrée tes invocations, rallonge ta vie, et augmente ta richesse ainsi que ta descendance.» Après cela, nous retournâmes à Ispahan, et Allah m'ouvrit alors les portes de la richesse à tel point que j'enferme dans ma maison plus d'un million de dirhams, sans compter la fortune que je détiens à l'extérieur de ma maison. On m'a donné dix enfants et j'ai atteint plus de soixante-dix ans. [C'est la raison pour laquelle] je reconnais l'Imāmat de cet homme qui savait ce qu'il y avait dans mon cœur, et Allah a exaucé ses prières à mon égard.»<span class=\"footnote-ref\">534</span>"
+                        "text": "<em>Kashf al-Ghumma</em> : Un groupe de gens de la ville d'Ispahan, dont Abū al-'Abbās Aḥmad ibn al-Naṣr et Abū Ja'far Muḥammad ibn 'Alawiyya, rapportent : Il y avait à Ispahan un homme nommé 'Abd al-Raḥmān qui était shiite. On lui demanda: «Pour quelle raison as-tu accepté l'Imāmat de 'Alī al-Naqī et non celui d'un autre que lui parmi les gens de son époque ?» Il répondit : «J'ai été témoin d'une chose qui m'a contraint à cela. J'étais alors un homme pauvre, mais aussi ne mâchant pas ses mots et téméraire. Pour cette raison, les habitants d'Ispahan m'exilèrent avec d'autre gens. Nous nous rendirent auprès [du calife] Mutawakkil pour demander justice. Alors que nous étions à sa porte, l'ordre fut donné de faire venir 'Alī ibn Muḥammad ibn Riḍā. Je demandai alors à certaines des personnes présentes: «Qui est cet homme que l'on a ordonné de faire venir ?» On me répondit : «C'est un 'Alawite que les Rāfiḍa croient être leur Imām.» On dit ensuite: «Nous supposons que Mutawakkil a donné l'ordre de le convoquer pour le tuer.» Je me dis: «Je ne bougerai pas de là avant d'avoir vu à quoi ressemble cet homme.» Il arriva à dos de cheval, alors que les gens se tenaient en rang à droite et à gauche de son chemin et le regardaient. Lorsque je le vis, je m'arrêtai et le regardai. L'amour que je ressentis pour lui remplit mon cœur. Je me mis alors à prier pour lui qu'Allah éloigne de lui le mal de Mutawakkil. Il passa à travers la foule alors que son regard était fixé sur les rênes de son cheval, sans qu'il ne regarde autour de lui. Je continuais à prier pour lui. Lorsqu'il parvint à moi, il tourna son visage dans ma direction et dit: «Qu'Allah agrée tes invocations, rallonge ta vie, et augmente ta richesse ainsi que ta descendance.» Après cela, nous retournâmes à Ispahan, et Allah m'ouvrit alors les portes de la richesse à tel point que j'enferme dans ma maison plus d'un million de dirhams, sans compter la fortune que je détiens à l'extérieur de ma maison. On m'a donné dix enfants et j'ai atteint plus de soixante-dix ans. [C'est la raison pour laquelle] je reconnais l'Imāmat de cet homme qui savait ce qu'il y avait dans mon cœur, et Allah a exaucé ses prières à mon égard.»<sup>534</sup>"
                     }
                 ]
             }
@@ -2868,7 +2868,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "479",
-                        "text": "L'Imām al-Hādī (as) a dit : L'Imām après moi sera Ḥasan, et après Ḥasan, son fils al-Qā'im [littéralement : celui qui se dressera], qui remplira la terre d'équité et de justice tout comme elle fut remplie de tyrannie et d'injustice.<span class=\"footnote-ref\">535</span>"
+                        "text": "L'Imām al-Hādī (as) a dit : L'Imām après moi sera Ḥasan, et après Ḥasan, son fils al-Qā'im [littéralement : celui qui se dressera], qui remplira la terre d'équité et de justice tout comme elle fut remplie de tyrannie et d'injustice.<sup>535</sup>"
                     }
                 ]
             },
@@ -2877,11 +2877,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "480",
-                        "text": "<em>Biḥār al-Anwār</em> : Les 'Abbāssides rendirent visite à Ṣāliḥ ibn Waṣīf, tandis que Ṣāliḥ ibn 'Alī ainsi qu'un groupe de dévoyés<span class=\"footnote-ref\">536</span> de ce lieu vinrent également lui rendre visite alors que Abū Muḥammad [l'Imām al-'Askarī] (as) était dans la prison. Il lui dit : «Enferme-le de la façon la plus stricte et ne lui donne aucun confort.» Ṣāliḥ leur dit : «Que puis-je faire de lui, alors que je l'ai livré à deux des plus méchants hommes que j'ai pu trouver, et qu'ils sont devenus les plus dévoués dans la piété et la prière [sous l'influence de l'Imām] ?!»<span class=\"footnote-ref\">537</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : Les 'Abbāssides rendirent visite à Ṣāliḥ ibn Waṣīf, tandis que Ṣāliḥ ibn 'Alī ainsi qu'un groupe de dévoyés<sup>536</sup> de ce lieu vinrent également lui rendre visite alors que Abū Muḥammad [l'Imām al-'Askarī] (as) était dans la prison. Il lui dit : «Enferme-le de la façon la plus stricte et ne lui donne aucun confort.» Ṣāliḥ leur dit : «Que puis-je faire de lui, alors que je l'ai livré à deux des plus méchants hommes que j'ai pu trouver, et qu'ils sont devenus les plus dévoués dans la piété et la prière [sous l'influence de l'Imām] ?!»<sup>537</sup>"
                     },
                     {
                         "number": "481",
-                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Abū al-Qāsim al-Kūfī a dit : En vérité, Isḥāq al-Kindī, qui était le philosophe de son époque en Irak, entreprit d'écrire un livre sur les contradictions du Coran, et resta seul chez lui pour se consacrer à cette tâche. Un jour, l'un de ses élèves se rendit chez l'Imām Ḥasan al-'Askarī (as) et Abū Muḥammad [surnom de l'Imām] lui dit : «N'y a-t-il pas parmi vous un homme sage et bien guidé qui puisse dissuader votre maître al-Kindī de continuer le travail qu'il a entrepris sur le Coran ?» L'élève lui répondit : «Nous sommes ses élèves, comment pourrions-nous nous permettre de le contredire sur ce sujet ou sur un autre ?» Abū Muḥammad lui dit alors : «Pourrais-tu lui transmettre ce que je vais lui dire par toi ?» Il dit : «Oui.» Il (as) dit alors : «Rends-toi auprès de lui, et propose-lui avec courtoisie de l'aider dans sa tâche, comme si tu voulais te rendre familier avec ce qu'il fait. Lorsque cette familiarité se sera établie, dis-lui : «Je souhaiterais vous poser une question.» Il te laissera certainement la poser, alors dis-lui : «Si quelqu'un qui parlait uniquement en utilisant [les versets] du Coran venait à vous, pensez-vous qu'il soit possible que ce qu'il veule dire par ces paroles soit autre que ce que vous en avez compris?» Il te dira bien entendu que cela est possible, car c'est un homme sensé et raisonnable lorsqu'il entend [de telles paroles]. S'il te confirme cela, alors dis-lui: «Dans ce cas, cela signifie que ce que vous avez compris est peut-être différent de ce qu'il voulait dire ; vous aurez alors imposé une signification à un mot qui est différente de l'originale».» Ainsi, l'élève partit chez son maître al-Kindī et établit une familiarité jusqu'à ce qu'il puisse lui poser la question. Al-Kindī lui dit alors : «Répète ta question.» Et l'élève répéta sa question. Al-Kindī se mit à réfléchir et en déduisit que sur le plan linguistique, cela était possible, et que c'était même admissible d'un point de vue conceptuel. Il dit à son élève : «Je t'en adjure, dis-moi d'où t'est venu cela.» L'élève dit : «C'est une réflexion qui m'est venue à l'esprit et que j'ai voulu vous présenter.» Al-Kindī dit : «Certainement pas, une telle question ne peut venir à l'esprit de quelqu'un comme toi, et tu ne peux atteindre un tel rang [dans le savoir] ; dis-moi d'où cela t'est venu.» Alors l'élève lui dit : «C'est Abū Muḥammad qui m'a ordonné de vous [dire] cela.» Al-Kindī dit : «Maintenant tu dis vrai, ce genre de question ne peut provenir que de cette demeure.» Et ainsi, il demanda qu'on lui apporte du feu et brûla ce qu'il avait écrit.<span class=\"footnote-ref\">538</span>"
+                        "text": "<em>Al-Manāqib li Ibn Shahr Āshūb</em> : Abū al-Qāsim al-Kūfī a dit : En vérité, Isḥāq al-Kindī, qui était le philosophe de son époque en Irak, entreprit d'écrire un livre sur les contradictions du Coran, et resta seul chez lui pour se consacrer à cette tâche. Un jour, l'un de ses élèves se rendit chez l'Imām Ḥasan al-'Askarī (as) et Abū Muḥammad [surnom de l'Imām] lui dit : «N'y a-t-il pas parmi vous un homme sage et bien guidé qui puisse dissuader votre maître al-Kindī de continuer le travail qu'il a entrepris sur le Coran ?» L'élève lui répondit : «Nous sommes ses élèves, comment pourrions-nous nous permettre de le contredire sur ce sujet ou sur un autre ?» Abū Muḥammad lui dit alors : «Pourrais-tu lui transmettre ce que je vais lui dire par toi ?» Il dit : «Oui.» Il (as) dit alors : «Rends-toi auprès de lui, et propose-lui avec courtoisie de l'aider dans sa tâche, comme si tu voulais te rendre familier avec ce qu'il fait. Lorsque cette familiarité se sera établie, dis-lui : «Je souhaiterais vous poser une question.» Il te laissera certainement la poser, alors dis-lui : «Si quelqu'un qui parlait uniquement en utilisant [les versets] du Coran venait à vous, pensez-vous qu'il soit possible que ce qu'il veule dire par ces paroles soit autre que ce que vous en avez compris?» Il te dira bien entendu que cela est possible, car c'est un homme sensé et raisonnable lorsqu'il entend [de telles paroles]. S'il te confirme cela, alors dis-lui: «Dans ce cas, cela signifie que ce que vous avez compris est peut-être différent de ce qu'il voulait dire ; vous aurez alors imposé une signification à un mot qui est différente de l'originale».» Ainsi, l'élève partit chez son maître al-Kindī et établit une familiarité jusqu'à ce qu'il puisse lui poser la question. Al-Kindī lui dit alors : «Répète ta question.» Et l'élève répéta sa question. Al-Kindī se mit à réfléchir et en déduisit que sur le plan linguistique, cela était possible, et que c'était même admissible d'un point de vue conceptuel. Il dit à son élève : «Je t'en adjure, dis-moi d'où t'est venu cela.» L'élève dit : «C'est une réflexion qui m'est venue à l'esprit et que j'ai voulu vous présenter.» Al-Kindī dit : «Certainement pas, une telle question ne peut venir à l'esprit de quelqu'un comme toi, et tu ne peux atteindre un tel rang [dans le savoir] ; dis-moi d'où cela t'est venu.» Alors l'élève lui dit : «C'est Abū Muḥammad qui m'a ordonné de vous [dire] cela.» Al-Kindī dit : «Maintenant tu dis vrai, ce genre de question ne peut provenir que de cette demeure.» Et ainsi, il demanda qu'on lui apporte du feu et brûla ce qu'il avait écrit.<sup>538</sup>"
                     }
                 ]
             }
@@ -2895,11 +2895,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "482",
-                        "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole du Très-Haut : <em>«Quiconque est tué injustement, alors Nous avons donné pouvoir à son proche [parent]. Que celui-ci ne commette pas d'excès dans le meurtre, car il est déjà aidé [manṣūr]»</em><span class=\"footnote-ref\">539</span> : Allah a nommé le Mahdī «Celui qui est aidé [par Allah]» [<em>al-Manṣūr</em>], tout comme Il a appelé [le Prophète (s)] «Aḥmad», «Muḥammad» et «Maḥmūd», et tout comme il a appelé Jésus «le Messie».<span class=\"footnote-ref\">540</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit au sujet de la parole du Très-Haut : <em>«Quiconque est tué injustement, alors Nous avons donné pouvoir à son proche [parent]. Que celui-ci ne commette pas d'excès dans le meurtre, car il est déjà aidé [manṣūr]»</em><sup>539</sup> : Allah a nommé le Mahdī «Celui qui est aidé [par Allah]» [<em>al-Manṣūr</em>], tout comme Il a appelé [le Prophète (s)] «Aḥmad», «Muḥammad» et «Maḥmūd», et tout comme il a appelé Jésus «le Messie».<sup>540</sup>"
                     },
                     {
                         "number": "483",
-                        "text": "Lorsqu'il fut interrogé sur la raison pour laquelle le Qā'im [le Douzième Imām] est appelé «Mahdī» [le bien-guidé], l'Imām al-Ṣādiq (as) répondit : Car en vérité, il sera guidé vers toute chose cachée.<span class=\"footnote-ref\">541</span>"
+                        "text": "Lorsqu'il fut interrogé sur la raison pour laquelle le Qā'im [le Douzième Imām] est appelé «Mahdī» [le bien-guidé], l'Imām al-Ṣādiq (as) répondit : Car en vérité, il sera guidé vers toute chose cachée.<sup>541</sup>"
                     }
                 ]
             },
@@ -2908,7 +2908,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "484",
-                        "text": "Lorsqu'il fut interrogé au sujet de la Preuve [d'Allah] (<em>al-Ḥujjat</em>) et de l'Imām après lui, l'Imām al-'Askarī (as) répondit : Mon fils Muḥammad sera l'Imām et la Preuve après moi. Celui qui meurt sans l'avoir reconnu [comme Imām] mourra de la mort des ignorants. Sachez qu'il entrera dans une occultation au sujet de laquelle les ignorants seront déroutés et les négateurs perdus. Les personnes qui détermineront le moment [de sa réapparition] mentiront. Puis il sortira, et c'est comme si je voyais [à une époque future] des étendards blancs qui flottent au-dessus de sa tête à Najaf, [près de] Kūfa.<span class=\"footnote-ref\">542</span>"
+                        "text": "Lorsqu'il fut interrogé au sujet de la Preuve [d'Allah] (<em>al-Ḥujjat</em>) et de l'Imām après lui, l'Imām al-'Askarī (as) répondit : Mon fils Muḥammad sera l'Imām et la Preuve après moi. Celui qui meurt sans l'avoir reconnu [comme Imām] mourra de la mort des ignorants. Sachez qu'il entrera dans une occultation au sujet de laquelle les ignorants seront déroutés et les négateurs perdus. Les personnes qui détermineront le moment [de sa réapparition] mentiront. Puis il sortira, et c'est comme si je voyais [à une époque future] des étendards blancs qui flottent au-dessus de sa tête à Najaf, [près de] Kūfa.<sup>542</sup>"
                     }
                 ]
             },
@@ -2918,27 +2918,27 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "485",
-                        "text": "Le Messager d'Allah (s) a dit : Réjouis-toi, ô Fāṭima, car en vérité, le Mahdī sera de toi [de ta descendance].<span class=\"footnote-ref\">543</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Réjouis-toi, ô Fāṭima, car en vérité, le Mahdī sera de toi [de ta descendance].<sup>543</sup>"
                     },
                     {
                         "number": "486",
-                        "text": "Le Messager d'Allah (s) a dit : Le Mahdī sera un homme de ma descendance, et son visage ressemblera à un astre étincelant.<span class=\"footnote-ref\">544</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Le Mahdī sera un homme de ma descendance, et son visage ressemblera à un astre étincelant.<sup>544</sup>"
                     },
                     {
                         "number": "487",
-                        "text": "Le Messager d'Allah (s) a dit : L'Heure [finale] ne surviendra qu'après que la terre ait été remplie d'injustice et d'inimitié ; apparaîtra alors un homme de ma descendance et il la remplira d'équité et de justice, tout comme elle avait été auparavant remplie d'injustice et d'inimitié.<span class=\"footnote-ref\">545</span>"
+                        "text": "Le Messager d'Allah (s) a dit : L'Heure [finale] ne surviendra qu'après que la terre ait été remplie d'injustice et d'inimitié ; apparaîtra alors un homme de ma descendance et il la remplira d'équité et de justice, tout comme elle avait été auparavant remplie d'injustice et d'inimitié.<sup>545</sup>"
                     },
                     {
                         "number": "488",
-                        "text": "Le Messager d'Allah (s) a dit : Un homme de ma famille gouvernera, son nom sera le même que le mien. S'il ne reste qu'un jour avant la fin du monde, Allah rallongera ce jour afin qu'il gouverne.<span class=\"footnote-ref\">546</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Un homme de ma famille gouvernera, son nom sera le même que le mien. S'il ne reste qu'un jour avant la fin du monde, Allah rallongera ce jour afin qu'il gouverne.<sup>546</sup>"
                     },
                     {
                         "number": "489",
-                        "text": "L'Imām 'Alī (as) a dit : Le Mahdī sera un homme issu de nous, un descendant de Fāṭima.<span class=\"footnote-ref\">547</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le Mahdī sera un homme issu de nous, un descendant de Fāṭima.<sup>547</sup>"
                     },
                     {
                         "number": "490",
-                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'il apparaîtra, il s'appuiera contre la Ka'ba et trois cent treize hommes se réuniront autour de lui. La première parole qu'il prononcera sera : <em>«Ce qui demeure auprès d'Allah est meilleur pour vous, si vous êtes croyant.»</em><span class=\"footnote-ref\">548</span> Et ensuite il dira: «Je suis celui qui demeure auprès d'Allah, Sa preuve et Son lieu-tenant (<em>khalīfa</em>) auprès de vous.» Ce jour-là, on ne le saluera que par «Que la paix soit sur toi, ô celui qui demeure auprès d'Allah (<em>baqiyyat Allah</em>) sur Sa terre.»<span class=\"footnote-ref\">549</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsqu'il apparaîtra, il s'appuiera contre la Ka'ba et trois cent treize hommes se réuniront autour de lui. La première parole qu'il prononcera sera : <em>«Ce qui demeure auprès d'Allah est meilleur pour vous, si vous êtes croyant.»</em><sup>548</sup> Et ensuite il dira: «Je suis celui qui demeure auprès d'Allah, Sa preuve et Son lieu-tenant (<em>khalīfa</em>) auprès de vous.» Ce jour-là, on ne le saluera que par «Que la paix soit sur toi, ô celui qui demeure auprès d'Allah (<em>baqiyyat Allah</em>) sur Sa terre.»<sup>549</sup>"
                     }
                 ]
             },
@@ -2947,7 +2947,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "491",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im aura deux occultations, l'une sera longue et l'autre sera courte. Durant la première, un cercle restreint de ses partisans saura où il se trouve et lors de la seconde, personne ne saura où il se trouve sauf ses partisans élus le suivant dans sa religion.<span class=\"footnote-ref\">550</span><br><br><span class=\"reference-note\">(Voir également : 87. Le pèlerinage obligatoire (hajj), section 455)</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im aura deux occultations, l'une sera longue et l'autre sera courte. Durant la première, un cercle restreint de ses partisans saura où il se trouve et lors de la seconde, personne ne saura où il se trouve sauf ses partisans élus le suivant dans sa religion.<sup>550</sup><br><br><span class=\"reference-note\">(Voir également : 87. Le pèlerinage obligatoire (hajj), section 455)</span>"
                     }
                 ]
             },
@@ -2956,11 +2956,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "492",
-                        "text": "Le Messager d'Allah (s) a dit : Je jure par Celui qui m'a envoyé par la Vérité comme annonciateur de la bonne nouvelle, qu'en vérité, ceux qui croient avec constance en son Imāmat lors de son occultation seront plus chers que ne l'est le soufre rouge.<span class=\"footnote-ref\">551</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Je jure par Celui qui m'a envoyé par la Vérité comme annonciateur de la bonne nouvelle, qu'en vérité, ceux qui croient avec constance en son Imāmat lors de son occultation seront plus chers que ne l'est le soufre rouge.<sup>551</sup>"
                     },
                     {
                         "number": "493",
-                        "text": "<em>Al-Ghayba li al-Nu'mānī</em> : L'Imām Ja'far al-Ṣādiq (as) a dit : «En vérité, le détenteur de cet ordre [l'Imām du temps (as)] connaîtra une occultation durant laquelle celui qui adhère à sa religion sera comme celui qui s'agrippe à un buisson d'épines avec ses mains.» Il observa un silence, puis dit : «Le détenteur de cet ordre connaîtra une occultation, alors que le serviteur craigne Allah et adhère à sa religion.»<span class=\"footnote-ref\">552</span><br><br><span class=\"reference-note\">(Voir également : 145. La religion, section 739)</span>"
+                        "text": "<em>Al-Ghayba li al-Nu'mānī</em> : L'Imām Ja'far al-Ṣādiq (as) a dit : «En vérité, le détenteur de cet ordre [l'Imām du temps (as)] connaîtra une occultation durant laquelle celui qui adhère à sa religion sera comme celui qui s'agrippe à un buisson d'épines avec ses mains.» Il observa un silence, puis dit : «Le détenteur de cet ordre connaîtra une occultation, alors que le serviteur craigne Allah et adhère à sa religion.»<sup>552</sup><br><br><span class=\"reference-note\">(Voir également : 145. La religion, section 739)</span>"
                     }
                 ]
             },
@@ -2970,7 +2970,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "494",
-                        "text": "<em>Biḥār al-Anwār</em> : 'Abdullāh ibn Sinān a dit : Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) a dit : «Vous serez atteints par la confusion qui vous laissera sans signe indiquant [une solution] et sans dirigeant qui vous guide. Ne sera sauvé que celui qui récite l'invocation du noyé.» Je lui demandai alors : «Quelle est l'invocation du noyé ?» Il répondit : «Tu dis : «Ô Allah ! Ô Très Miséricordieux ! Ô Tout Miséricordieux ! Ô Celui qui retourne les cœurs ! Affermis mon cœur dans Ta religion».» Je dis : «Ô Celui qui retourne les cœurs et les regards ! Affermis mon cœur dans Ta religion.» Il me dit : «En vérité, Allah le Tout-Puissant est Celui qui retourne les cœurs et les regards, mais dis [exactement] ce que je dis : «Ô Celui qui retourne les cœurs, affermis mon cœur dans Ta religion».»<span class=\"footnote-ref\">553</span>"
+                        "text": "<em>Biḥār al-Anwār</em> : 'Abdullāh ibn Sinān a dit : Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) a dit : «Vous serez atteints par la confusion qui vous laissera sans signe indiquant [une solution] et sans dirigeant qui vous guide. Ne sera sauvé que celui qui récite l'invocation du noyé.» Je lui demandai alors : «Quelle est l'invocation du noyé ?» Il répondit : «Tu dis : «Ô Allah ! Ô Très Miséricordieux ! Ô Tout Miséricordieux ! Ô Celui qui retourne les cœurs ! Affermis mon cœur dans Ta religion».» Je dis : «Ô Celui qui retourne les cœurs et les regards ! Affermis mon cœur dans Ta religion.» Il me dit : «En vérité, Allah le Tout-Puissant est Celui qui retourne les cœurs et les regards, mais dis [exactement] ce que je dis : «Ô Celui qui retourne les cœurs, affermis mon cœur dans Ta religion».»<sup>553</sup>"
                     }
                 ]
             },
@@ -2979,19 +2979,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "495",
-                        "text": "Le Messager d'Allah (s) a dit : Le meilleur des actes de ma communauté est l'attente [active] de la délivrance d'Allah le Tout-Puissant.<span class=\"footnote-ref\">554</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Le meilleur des actes de ma communauté est l'attente [active] de la délivrance d'Allah le Tout-Puissant.<sup>554</sup>"
                     },
                     {
                         "number": "496",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : L'attente [active] de la délivrance est elle-même la plus grande délivrance.<span class=\"footnote-ref\">555</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : L'attente [active] de la délivrance est elle-même la plus grande délivrance.<sup>555</sup>"
                     },
                     {
                         "number": "497",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui meurt en état d'attente de cet ordre [le gouvernement du Mahdī] sera comme celui qui sera avec al-Qā'im dans sa tente ; plus que cela, il occupera le rang de celui qui a combattu par l'épée aux côtés du Messager d'Allah (s).<span class=\"footnote-ref\">556</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui meurt en état d'attente de cet ordre [le gouvernement du Mahdī] sera comme celui qui sera avec al-Qā'im dans sa tente ; plus que cela, il occupera le rang de celui qui a combattu par l'épée aux côtés du Messager d'Allah (s).<sup>556</sup>"
                     },
                     {
                         "number": "498",
-                        "text": "L'Imām al-Kāẓim (as) a dit : L'attente de la délivrance fait partie de la délivrance.<span class=\"footnote-ref\">557</span>"
+                        "text": "L'Imām al-Kāẓim (as) a dit : L'attente de la délivrance fait partie de la délivrance.<sup>557</sup>"
                     }
                 ]
             },
@@ -3000,11 +3000,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "499",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, cet ordre [le gouvernement du Mahdī] ne surviendra qu'après votre désespoir ; non par Allah ! Afin que vous vous soyez distingués les uns des autres [les sincères des autres].<span class=\"footnote-ref\">558</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, cet ordre [le gouvernement du Mahdī] ne surviendra qu'après votre désespoir ; non par Allah ! Afin que vous vous soyez distingués les uns des autres [les sincères des autres].<sup>558</sup>"
                     },
                     {
                         "number": "500",
-                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, la délivrance viendra après le désespoir.<span class=\"footnote-ref\">559</span>"
+                        "text": "L'Imām al-Riḍā (as) a dit : En vérité, la délivrance viendra après le désespoir.<sup>559</sup>"
                     }
                 ]
             },
@@ -3013,7 +3013,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "501",
-                        "text": "L'Imām al-Bāqir (as), répondant à Fuḍayl qui lui avait demandé «Est-ce que le moment de cet évènement [la réapparition du Mahdī] est déterminé ?», dit : «Ceux qui prédisent le moment [de la réapparition du Qā'im] mentent, ceux qui prédisent le moment mentent, ceux qui prédisent le moment mentent.»<span class=\"footnote-ref\">560</span>"
+                        "text": "L'Imām al-Bāqir (as), répondant à Fuḍayl qui lui avait demandé «Est-ce que le moment de cet évènement [la réapparition du Mahdī] est déterminé ?», dit : «Ceux qui prédisent le moment [de la réapparition du Qā'im] mentent, ceux qui prédisent le moment mentent, ceux qui prédisent le moment mentent.»<sup>560</sup>"
                     }
                 ]
             },
@@ -3022,23 +3022,23 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "502",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Le Messager d'Allah (s) a dit : «L'occultation sera nécessaire pour cet homme [le Mahdī].» On lui demanda alors : «Pour quelle raison, ô Messager d'Allah ?» Il répondit : «Par crainte d'être tué.»<span class=\"footnote-ref\">561</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le Messager d'Allah (s) a dit : «L'occultation sera nécessaire pour cet homme [le Mahdī].» On lui demanda alors : «Pour quelle raison, ô Messager d'Allah ?» Il répondit : «Par crainte d'être tué.»<sup>561</sup>"
                     },
                     {
                         "number": "503",
-                        "text": "<em>Kamāl al-Dīn</em> : 'Abdullāh ibn al-Faḍl al-Hāshimī a dit : J'ai entendu Ja'far al-Ṣādiq (as) dire : «Le détenteur de cet ordre [l'Imāmat] doit inévitablement entrer en occultation, au sujet de laquelle ne doutent que les déviants.» Je dis alors: «Pour quelle raison, que je te sois sacrifié?» Il répondit : «Pour une raison que nous n'avons pas le droit de vous divulguer.» Je dis : «Alors quelle est la sagesse et le sens profond de son occultation ?» Il dit : «Le sens profond de son occultation est le même que celui de l'occultation des autres Preuves d'Allah qui l'ont précédé. Son sens profond ne sera divulgué qu'après sa réapparition... En vérité, cet ordre fait partie des ordres d'Allah le Très-Haut, c'est un secret parmi les secrets d'Allah, un mystère parmi les mystères d'Allah. A partir du moment où l'on sait qu'Il - le Tout-Puissant - est Sage, nous approuvons et reconnaissons que tous Ses actes sont basés sur une sagesse, même si leur signification profonde n'est pas dévoilée.»<span class=\"footnote-ref\">562</span>"
+                        "text": "<em>Kamāl al-Dīn</em> : 'Abdullāh ibn al-Faḍl al-Hāshimī a dit : J'ai entendu Ja'far al-Ṣādiq (as) dire : «Le détenteur de cet ordre [l'Imāmat] doit inévitablement entrer en occultation, au sujet de laquelle ne doutent que les déviants.» Je dis alors: «Pour quelle raison, que je te sois sacrifié?» Il répondit : «Pour une raison que nous n'avons pas le droit de vous divulguer.» Je dis : «Alors quelle est la sagesse et le sens profond de son occultation ?» Il dit : «Le sens profond de son occultation est le même que celui de l'occultation des autres Preuves d'Allah qui l'ont précédé. Son sens profond ne sera divulgué qu'après sa réapparition... En vérité, cet ordre fait partie des ordres d'Allah le Très-Haut, c'est un secret parmi les secrets d'Allah, un mystère parmi les mystères d'Allah. A partir du moment où l'on sait qu'Il - le Tout-Puissant - est Sage, nous approuvons et reconnaissons que tous Ses actes sont basés sur une sagesse, même si leur signification profonde n'est pas dévoilée.»<sup>562</sup>"
                     },
                     {
                         "number": "504",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im ('aj) ne réapparaîtra que lorsque les dépôts d'Allah le Très-Haut [les croyants nés de lombes d'incroyants] se soulèveront. Et lorsqu'ils se soulèveront, il réapparaîtra face aux ennemis d'Allah puis les tuera.<span class=\"footnote-ref\">563</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Al-Qā'im ('aj) ne réapparaîtra que lorsque les dépôts d'Allah le Très-Haut [les croyants nés de lombes d'incroyants] se soulèveront. Et lorsqu'ils se soulèveront, il réapparaîtra face aux ennemis d'Allah puis les tuera.<sup>563</sup>"
                     },
                     {
                         "number": "505",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Ce gouvernement ne se réalisera que lorsqu'il ne restera plus aucun groupe à n'avoir pas gouverné sur les gens afin que personne ne dise : «Si c'était nous qui avions gouverné, nous aurions été équitables.» Ensuite, al-Qā'im se dressera par la vérité et la justice.<span class=\"footnote-ref\">564</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ce gouvernement ne se réalisera que lorsqu'il ne restera plus aucun groupe à n'avoir pas gouverné sur les gens afin que personne ne dise : «Si c'était nous qui avions gouverné, nous aurions été équitables.» Ensuite, al-Qā'im se dressera par la vérité et la justice.<sup>564</sup>"
                     },
                     {
                         "number": "506",
-                        "text": "L'Imām al-Kāẓim (as) a dit : S'il y avait parmi vous autant de personnes qu'à Badr, notre Qā'im se serait dressé.<span class=\"footnote-ref\">565</span>"
+                        "text": "L'Imām al-Kāẓim (as) a dit : S'il y avait parmi vous autant de personnes qu'à Badr, notre Qā'im se serait dressé.<sup>565</sup>"
                     }
                 ]
             },
@@ -3047,7 +3047,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "507",
-                        "text": "L'Imām al-Mahdī ('aj) a dit : La façon de bénéficier de ma présence durant mon occultation est similaire au fait de bénéficier du soleil lorsqu'il est caché des regards par les nuages. Je suis une [source de] sécurité pour les gens de la terre.<span class=\"footnote-ref\">566</span>"
+                        "text": "L'Imām al-Mahdī ('aj) a dit : La façon de bénéficier de ma présence durant mon occultation est similaire au fait de bénéficier du soleil lorsqu'il est caché des regards par les nuages. Je suis une [source de] sécurité pour les gens de la terre.<sup>566</sup>"
                     }
                 ]
             },
@@ -3056,15 +3056,15 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "508",
-                        "text": "L'Imām 'Alī (as) a dit : Lorsque le prédicateur mourra et que le maître de l'époque déviera, lorsque les cœurs à la fois pleins et vides balanceront, lorsque ceux qui espèrent périront et que ceux qui sont destinés à disparaître disparaîtront, les croyants demeureront. Infime sera leur nombre, trois cents ou un peu plus. A leur côté combattra un groupe qui a combattu avec le Messager d'Allah (s) le jour de Badr, sans être tué ni mourir.<span class=\"footnote-ref\">567</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque le prédicateur mourra et que le maître de l'époque déviera, lorsque les cœurs à la fois pleins et vides balanceront, lorsque ceux qui espèrent périront et que ceux qui sont destinés à disparaître disparaîtront, les croyants demeureront. Infime sera leur nombre, trois cents ou un peu plus. A leur côté combattra un groupe qui a combattu avec le Messager d'Allah (s) le jour de Badr, sans être tué ni mourir.<sup>567</sup>"
                     },
                     {
                         "number": "509",
-                        "text": "<em>Kamāl al-Dīn</em> : Muḥammad ibn Muslim a dit: J'ai entendu Abū 'Abdillāh (as) dire: «En vérité, il y aura des signes précurseurs de l'apparition du Qā'im provenant d'Allah le Tout-Puissant et destinés aux croyants.» Je lui demandai : «Qu'Allah me sacrifie pour toi, quels sont-ils ?» Il répondit : «Ils sont évoqués dans la parole d'Allah le Tout-Puissant: <em>«Très certainement, Nous vous [c'est-à-dire les croyants avant l'apparition de l'Imām] éprouverons par un peu de peur, de faim et de diminution de biens, de personnes et de fruits. Et fais la bonne annonce aux endurants.»</em><span class=\"footnote-ref\">568</span>»<span class=\"footnote-ref\">569</span>"
+                        "text": "<em>Kamāl al-Dīn</em> : Muḥammad ibn Muslim a dit: J'ai entendu Abū 'Abdillāh (as) dire: «En vérité, il y aura des signes précurseurs de l'apparition du Qā'im provenant d'Allah le Tout-Puissant et destinés aux croyants.» Je lui demandai : «Qu'Allah me sacrifie pour toi, quels sont-ils ?» Il répondit : «Ils sont évoqués dans la parole d'Allah le Tout-Puissant: <em>«Très certainement, Nous vous [c'est-à-dire les croyants avant l'apparition de l'Imām] éprouverons par un peu de peur, de faim et de diminution de biens, de personnes et de fruits. Et fais la bonne annonce aux endurants.»</em><sup>568</sup>»<sup>569</sup>"
                     },
                     {
                         "number": "510",
-                        "text": "Interrogé par 'Alī ibn Mahzyār qui lui demanda : «Ô maître ! Quand aura lieu cet évènement ?», l'Imām al-Mahdī ('aj) répondit: «Lorsque la voie entre vous et la Ka'ba sera fermée.»<span class=\"footnote-ref\">570</span>"
+                        "text": "Interrogé par 'Alī ibn Mahzyār qui lui demanda : «Ô maître ! Quand aura lieu cet évènement ?», l'Imām al-Mahdī ('aj) répondit: «Lorsque la voie entre vous et la Ka'ba sera fermée.»<sup>570</sup>"
                     }
                 ]
             },
@@ -3073,27 +3073,27 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "511",
-                        "text": "L'Imām 'Alī (as) a dit : Lorsque qu'un appel du ciel sera lancé disant que «En vérité, la vérité est parmi la famille [la descendance] de Muḥammad», alors le Mahdī ('aj) apparaîtra sur la langue des gens, ils boiront son affection et ne parleront que de lui.<span class=\"footnote-ref\">571</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque qu'un appel du ciel sera lancé disant que «En vérité, la vérité est parmi la famille [la descendance] de Muḥammad», alors le Mahdī ('aj) apparaîtra sur la langue des gens, ils boiront son affection et ne parleront que de lui.<sup>571</sup>"
                     },
                     {
                         "number": "512",
-                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque notre gouvernement se réalisera et que notre Mahdī apparaîtra, ce jour-là, nos partisans (<em>shī'a</em>) seront plus courageux qu'un lion et plus affutés que la pointe d'une lance. Ils écraseront nos ennemis sous leurs pieds et les frapperont de leurs mains. Cet événement aura lieu avec la descente de la miséricorde d'Allah et Sa délivrance pour les serviteurs.<span class=\"footnote-ref\">572</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque notre gouvernement se réalisera et que notre Mahdī apparaîtra, ce jour-là, nos partisans (<em>shī'a</em>) seront plus courageux qu'un lion et plus affutés que la pointe d'une lance. Ils écraseront nos ennemis sous leurs pieds et les frapperont de leurs mains. Cet événement aura lieu avec la descente de la miséricorde d'Allah et Sa délivrance pour les serviteurs.<sup>572</sup>"
                     },
                     {
                         "number": "513",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque al-Qā'im ('aj) se dressera, il gouvernera équitablement; la tyrannie disparaîtra durant son gouvernement, les voies [de communication] seront sécurisées, la terre donnera ses bénédictions et il sera donné à chacun les droits qui lui reviennent.<span class=\"footnote-ref\">573</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque al-Qā'im ('aj) se dressera, il gouvernera équitablement; la tyrannie disparaîtra durant son gouvernement, les voies [de communication] seront sécurisées, la terre donnera ses bénédictions et il sera donné à chacun les droits qui lui reviennent.<sup>573</sup>"
                     },
                     {
                         "number": "514",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, lorsque notre Qā'im se dressera, Allah le Tout-Puissant donnera à nos partisans (<em>shī'a</em>) une vue si perçante et une ouïe si fine qu'il n'y aura besoin d'aucun messager entre eux et al-Qā'im (as). Il leur parlera et ils l'entendront, et ils le verront de là où il est.<span class=\"footnote-ref\">574</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, lorsque notre Qā'im se dressera, Allah le Tout-Puissant donnera à nos partisans (<em>shī'a</em>) une vue si perçante et une ouïe si fine qu'il n'y aura besoin d'aucun messager entre eux et al-Qā'im (as). Il leur parlera et ils l'entendront, et ils le verront de là où il est.<sup>574</sup>"
                     },
                     {
                         "number": "515",
-                        "text": "<em>Al-Ghayba lil-Nu'mānī</em> : L'Imām al-Ṣādiq (as) a dit : «Il y aura très peu d'Arabes avec al-Qā'im.» Quelqu'un dit : «Pourtant, un grand nombre d'entre eux se décrivent comme tels [comme ses partisans] !» Il (as) répondit : «Les gens doivent être purifiés, distingués et tamisés. Beaucoup de gens passeront à travers le tamis.»<span class=\"footnote-ref\">575</span>"
+                        "text": "<em>Al-Ghayba lil-Nu'mānī</em> : L'Imām al-Ṣādiq (as) a dit : «Il y aura très peu d'Arabes avec al-Qā'im.» Quelqu'un dit : «Pourtant, un grand nombre d'entre eux se décrivent comme tels [comme ses partisans] !» Il (as) répondit : «Les gens doivent être purifiés, distingués et tamisés. Beaucoup de gens passeront à travers le tamis.»<sup>575</sup>"
                     },
                     {
                         "number": "516",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Qā'im ('aj) sortira [de son occultation], [un grand nombre de] ceux qui se considéraient comme étant à ses côtés sortiront de son commandement, et ceux qui ressemblent aux adorateurs du soleil et de la lune [qui sont mécréants] entreront [à son service].<span class=\"footnote-ref\">576</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le Qā'im ('aj) sortira [de son occultation], [un grand nombre de] ceux qui se considéraient comme étant à ses côtés sortiront de son commandement, et ceux qui ressemblent aux adorateurs du soleil et de la lune [qui sont mécréants] entreront [à son service].<sup>576</sup>"
                     }
                 ]
             },
@@ -3102,15 +3102,15 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "517",
-                        "text": "Le Messager d'Allah (s) a dit : Le Mahdī ('aj) réapparaîtra parmi les derniers de ma communauté. Allah l'abreuvera de pluie, de la terre sortiront des végétaux, la richesse sera donnée de façon abondante, le bétail augmentera et la communauté s'agrandira.<span class=\"footnote-ref\">577</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Le Mahdī ('aj) réapparaîtra parmi les derniers de ma communauté. Allah l'abreuvera de pluie, de la terre sortiront des végétaux, la richesse sera donnée de façon abondante, le bétail augmentera et la communauté s'agrandira.<sup>577</sup>"
                     },
                     {
                         "number": "518",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Lorsque notre Qā'im se dressera, Allah fera disparaître tout défaut de nos partisans (shī'a). Il rendra leurs cœurs aussi solides que le fer et fera en sorte que la force d'un homme équivaille à celle de quarante. Ils seront les dirigeants de la terre et ses chefs.<span class=\"footnote-ref\">578</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Lorsque notre Qā'im se dressera, Allah fera disparaître tout défaut de nos partisans (shī'a). Il rendra leurs cœurs aussi solides que le fer et fera en sorte que la force d'un homme équivaille à celle de quarante. Ils seront les dirigeants de la terre et ses chefs.<sup>578</sup>"
                     },
                     {
                         "number": "519",
-                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque al-Qā'im se dressera, il proposera la foi à chaque personne vouant de l'inimitié aux Gens de la Demeure prophétique. Si elle y adhère réellement [cela sera pour son bien], sinon, il l'éliminera à moins qu'elle ne paie la capitation comme le font les Gens du livre [vivant en terre d'islam] actuellement. Il attachera à la taille de ces personnes une ceinture [zonnār, ceinture portée par les chrétiens de l'époque] et les fera sortir des villes [pour les exiler] dans ses environs.<span class=\"footnote-ref\">579</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Lorsque al-Qā'im se dressera, il proposera la foi à chaque personne vouant de l'inimitié aux Gens de la Demeure prophétique. Si elle y adhère réellement [cela sera pour son bien], sinon, il l'éliminera à moins qu'elle ne paie la capitation comme le font les Gens du livre [vivant en terre d'islam] actuellement. Il attachera à la taille de ces personnes une ceinture [zonnār, ceinture portée par les chrétiens de l'époque] et les fera sortir des villes [pour les exiler] dans ses environs.<sup>579</sup>"
                     }
                 ]
             }
@@ -3121,14 +3121,15 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "173 - La foi et l'islam",
+                "introduction": "«Les bédouins ont dit : «Nous avons la foi.» Dis : «Vous n'avez pas encore la foi. Dites plutôt : «Nous nous sommes seulement soumis», car la foi n'a pas encore pénétré dans vos cœurs.»»<sup>580</sup>",
                 "hadiths": [
                     {
                         "number": "520",
-                        "text": "L'Imām al-Bāqir (as) a dit : La foi est le fait d'attester<span class=\"footnote-ref\">581</span> et d'agir, alors que l'islam est le fait d'attester sans acte.<span class=\"footnote-ref\">582</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : La foi est le fait d'attester<sup>581</sup> et d'agir, alors que l'islam est le fait d'attester sans acte.<sup>582</sup>"
                     },
                     {
                         "number": "521",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la foi est ce qui s'enracine dans les cœurs, tandis que l'islam est le moyen par lequel se réalisent les mariages, les héritages et [la préservation] de la vie des gens.<sup>583</sup>"
                     }
                 ]
             },
@@ -3448,6 +3449,7 @@ const AUNE_SAGESSE = [
             },
             {
                 "title": "190 - Qui est le croyant ?",
+                "introduction": "«Les vrais croyants sont ceux dont les cœurs frémissent quand on mentionne Allah. Et quand Ses versets leur sont récités, cela fait augmenter leur foi. Et ils placent leur confiance en leur Seigneur. Ceux qui accomplissent la ṣalāt et qui dépensent [dans le sentier d'Allah] de ce que Nous leur avons accordé. Ceux-là sont, en toute vérité, les croyants : à eux des degrés [élevés] auprès de leur Seigneur, ainsi qu'un pardon et une dotation généreuse.»<sup>645</sup><br><br><span class=\"reference-note\">(Voir également : Coran 9:71, 12:106, 23:1-11, 28:52-55, 32:15-19, 42:36-39, 48:29, 98:5 ; 98:7-8)</span>",
                 "hadiths": [
                     {
                         "number": "580",
@@ -3475,47 +3477,47 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "586",
-                        "text": "Le Messager d'Allah (s) a dit en décrivant le croyant : Le croyant est doux dans ses gestes, beau à regarder... Il recherche les choses les plus élevées, et est doté de la morale la plus éminente... Il ne cause pas de tort à celui à qui il voue de l'animosité, et ne commet pas de péché à cause de quelqu'un qu'il aime... Il est une faible charge et aide beaucoup... Il parfait ses actes comme si quelqu'un l'observait, baisse le regard, est généreux dans ses dons, et ne refoule jamais un nécessiteux... Il mesure ses paroles et retient sa langue... Il n'accepte jamais le faux d'un ami, ni ne rejette la vérité d'un ennemi... Il n'apprend que dans le but de savoir, et il n'acquiert le savoir que pour agir... Lorsqu'il chemine avec les gens de ce monde, il est le plus alerte, et lorsqu'il chemine avec les gens [préoccupés par] l'Au-delà, il est le plus pieux.<span class=\"footnote-ref\">652</span>"
+                        "text": "Le Messager d'Allah (s) a dit en décrivant le croyant : Le croyant est doux dans ses gestes, beau à regarder... Il recherche les choses les plus élevées, et est doté de la morale la plus éminente... Il ne cause pas de tort à celui à qui il voue de l'animosité, et ne commet pas de péché à cause de quelqu'un qu'il aime... Il est une faible charge et aide beaucoup... Il parfait ses actes comme si quelqu'un l'observait, baisse le regard, est généreux dans ses dons, et ne refoule jamais un nécessiteux... Il mesure ses paroles et retient sa langue... Il n'accepte jamais le faux d'un ami, ni ne rejette la vérité d'un ennemi... Il n'apprend que dans le but de savoir, et il n'acquiert le savoir que pour agir... Lorsqu'il chemine avec les gens de ce monde, il est le plus alerte, et lorsqu'il chemine avec les gens [préoccupés par] l'Au-delà, il est le plus pieux.<sup>652</sup>"
                     },
                     {
                         "number": "587",
-                        "text": "L'Imām 'Alī (as) a dit : Le croyant est tel que sa joie apparaît sur son visage alors que sa tristesse est dans son cœur. Sa poitrine est la plus vaste [son cœur est le plus grand], son âme est la plus humble. Il déteste les hauts rangs [de ce monde] et fuit la renommée. Sa tristesse est durable et son aspiration, élevée. Son silence est grand et son temps occupé. Il est reconnaissant, d'une grande patience, immergé dans ses pensées, parcimonieux dans ses besoins. Il est facile de caractère et de tempérament doux. Son âme est plus solide que l'acier alors qu'il est plus humble qu'un esclave.<span class=\"footnote-ref\">653</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le croyant est tel que sa joie apparaît sur son visage alors que sa tristesse est dans son cœur. Sa poitrine est la plus vaste [son cœur est le plus grand], son âme est la plus humble. Il déteste les hauts rangs [de ce monde] et fuit la renommée. Sa tristesse est durable et son aspiration, élevée. Son silence est grand et son temps occupé. Il est reconnaissant, d'une grande patience, immergé dans ses pensées, parcimonieux dans ses besoins. Il est facile de caractère et de tempérament doux. Son âme est plus solide que l'acier alors qu'il est plus humble qu'un esclave.<sup>653</sup>"
                     },
                     {
                         "number": "588",
-                        "text": "L'Imām 'Alī (as) a dit : Le croyant est reconnaissant dans la prospérité, patient dans le malheur, et craintif dans l'opulence.<span class=\"footnote-ref\">654</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le croyant est reconnaissant dans la prospérité, patient dans le malheur, et craintif dans l'opulence.<sup>654</sup>"
                     },
                     {
                         "number": "589",
-                        "text": "L'Imām 'Alī (as) a dit : Le croyant est simple et généreux. Il est à l'abri son [bas] égo ; il est prudent et attristé.<span class=\"footnote-ref\">655</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le croyant est simple et généreux. Il est à l'abri son [bas] égo ; il est prudent et attristé.<sup>655</sup>"
                     },
                     {
                         "number": "590",
-                        "text": "L'Imām 'Alī (as) a dit : Le croyant est celui qui a purifié son cœur de ce qui est bas.<span class=\"footnote-ref\">656</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le croyant est celui qui a purifié son cœur de ce qui est bas.<sup>656</sup>"
                     },
                     {
                         "number": "591",
-                        "text": "L'Imām 'Alī (as) a dit : Le croyant est celui qui a préservé sa religion en mettant en jeu sa vie d'ici-bas, alors que le dépravé est celui qui a préservé sa vie d'ici-bas en mettant en jeu sa religion.<span class=\"footnote-ref\">657</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le croyant est celui qui a préservé sa religion en mettant en jeu sa vie d'ici-bas, alors que le dépravé est celui qui a préservé sa vie d'ici-bas en mettant en jeu sa religion.<sup>657</sup>"
                     },
                     {
                         "number": "592",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le croyant reste silencieux pour se préserver, et il parle [seulement] pour en bénéficier.<span class=\"footnote-ref\">658</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le croyant reste silencieux pour se préserver, et il parle [seulement] pour en bénéficier.<sup>658</sup>"
                     },
                     {
                         "number": "593",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant est une bonne aide et une faible charge. Il organise bien [et avec économie] sa vie, et n'est jamais mordu deux fois d'un même trou [d'animal] [il apprend de ses erreurs].<span class=\"footnote-ref\">659</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant est une bonne aide et une faible charge. Il organise bien [et avec économie] sa vie, et n'est jamais mordu deux fois d'un même trou [d'animal] [il apprend de ses erreurs].<sup>659</sup>"
                     },
                     {
                         "number": "594",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant possède de la force dans sa religion, de la prudence dans son indulgence ; sa foi est basée sur la certitude, il est avide de connaître la religion, il est actif dans [les choses liées à] la voie de la guidance... et demeure en prière malgré les occupations [de ce monde].<span class=\"footnote-ref\">660</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant possède de la force dans sa religion, de la prudence dans son indulgence ; sa foi est basée sur la certitude, il est avide de connaître la religion, il est actif dans [les choses liées à] la voie de la guidance... et demeure en prière malgré les occupations [de ce monde].<sup>660</sup>"
                     },
                     {
                         "number": "595",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant est celui dont les revenus sont purs et licites, qui a un bon caractère, dont le for intérieur est droit et sain, qui offre le surplus de ses biens et garde le surplus de ses paroles.<span class=\"footnote-ref\">661</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Le croyant est celui dont les revenus sont purs et licites, qui a un bon caractère, dont le for intérieur est droit et sain, qui offre le surplus de ses biens et garde le surplus de ses paroles.<sup>661</sup>"
                     },
                     {
                         "number": "596",
-                        "text": "L'Imām al-Riḍā (as) a dit : Le croyant ne devient vraiment croyant que lorsqu'il acquiert ces trois qualités : une pratique [ou caractéristique] de son Seigneur, une pratique de son Prophète (s) et une pratique de son walī (as). Concernant la pratique qui provient de Son Seigneur, c'est de garder les secrets. La pratique qui lui vient de son Prophète (s) est de ménager les gens autour de lui, et celle provenant de son walī est de patienter dans la joie et le malheur.<span class=\"footnote-ref\">662</span><br><br><span class=\"reference-note\">(Voir également : 197. L'islam, section 968)</span>"
+                        "text": "L'Imām al-Riḍā (as) a dit : Le croyant ne devient vraiment croyant que lorsqu'il acquiert ces trois qualités : une pratique [ou caractéristique] de son Seigneur, une pratique de son Prophète (s) et une pratique de son walī (as). Concernant la pratique qui provient de Son Seigneur, c'est de garder les secrets. La pratique qui lui vient de son Prophète (s) est de ménager les gens autour de lui, et celle provenant de son walī est de patienter dans la joie et le malheur.<sup>662</sup><br><br><span class=\"reference-note\">(Voir également : 197. L'islam, section 968)</span>"
                     }
                 ]
             },
@@ -3524,11 +3526,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "597",
-                        "text": "L'Imām al-Bāqir (as) a dit : Le croyant est plus solide qu'une montagne, car la montagne peut s'effriter, alors que le croyant ne perd rien de sa religion.<span class=\"footnote-ref\">663</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Le croyant est plus solide qu'une montagne, car la montagne peut s'effriter, alors que le croyant ne perd rien de sa religion.<sup>663</sup>"
                     },
                     {
                         "number": "598",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, le croyant est plus solide qu'un morceau de fer, car lorsque le morceau de fer pénètre dans le feu, il se transforme, alors que le cœur du croyant ne changera jamais même s'il est tué, ressuscité et tué de nouveau.<span class=\"footnote-ref\">664</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, le croyant est plus solide qu'un morceau de fer, car lorsque le morceau de fer pénètre dans le feu, il se transforme, alors que le cœur du croyant ne changera jamais même s'il est tué, ressuscité et tué de nouveau.<sup>664</sup>"
                     }
                 ]
             },
@@ -3537,11 +3539,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "599",
-                        "text": "Le Messager d'Allah (s) a dit : Le Jour du Jugement, l'Enfer dira au croyant : «Traverse, ô croyant, car ta lumière a éteint mes flammes !»<span class=\"footnote-ref\">665</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Le Jour du Jugement, l'Enfer dira au croyant : «Traverse, ô croyant, car ta lumière a éteint mes flammes !»<sup>665</sup>"
                     },
                     {
                         "number": "600",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la lumière du croyant irradie les habitants des cieux, de la même façon que la lumière des cieux irradie les habitants de la terre.<span class=\"footnote-ref\">666</span><br><br><span class=\"reference-note\">(Voir également : 135. La crainte, section 663)</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, la lumière du croyant irradie les habitants des cieux, de la même façon que la lumière des cieux irradie les habitants de la terre.<sup>666</sup><br><br><span class=\"reference-note\">(Voir également : 135. La crainte, section 663)</span>"
                     }
                 ]
             },
@@ -3550,11 +3552,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "601",
-                        "text": "L'Imām 'Alī (as) a dit : Allah ne laisse jamais Sa terre dépourvue d'une personne savante dont a besoin l'ensemble de la création, et qui connaît bien la voie du salut. Le nombre de ces [gens] est très faible, et Allah a exposé cela parmi les communautés des prophètes [précédents], et Il en a fait des exemples pour celles qui leur succèdent, comme lorsqu'Il a dit au sujet de la communauté de Noé : <em>«N'a cru en lui qu'un nombre infime»</em><span class=\"footnote-ref\">667</span>.<span class=\"footnote-ref\">668</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Allah ne laisse jamais Sa terre dépourvue d'une personne savante dont a besoin l'ensemble de la création, et qui connaît bien la voie du salut. Le nombre de ces [gens] est très faible, et Allah a exposé cela parmi les communautés des prophètes [précédents], et Il en a fait des exemples pour celles qui leur succèdent, comme lorsqu'Il a dit au sujet de la communauté de Noé : <em>«N'a cru en lui qu'un nombre infime»</em><sup>667</sup>.<sup>668</sup>"
                     },
                     {
                         "number": "602",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : La croyante est plus rare que le croyant, et le croyant est plus rare que le soufre rouge ; et qui parmi vous a déjà vu du soufre rouge ?!<span class=\"footnote-ref\">669</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La croyante est plus rare que le croyant, et le croyant est plus rare que le soufre rouge ; et qui parmi vous a déjà vu du soufre rouge ?!<sup>669</sup>"
                     }
                 ]
             },
@@ -3563,11 +3565,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "603",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Les signes distinctifs du croyant sont au nombre de cinq : la piété [même] dans la solitude, la charité dans le besoin, la patience dans le malheur, l'indulgence dans la colère, et la véracité malgré la peur.<span class=\"footnote-ref\">670</span>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Les signes distinctifs du croyant sont au nombre de cinq : la piété [même] dans la solitude, la charité dans le besoin, la patience dans le malheur, l'indulgence dans la colère, et la véracité malgré la peur.<sup>670</sup>"
                     },
                     {
                         "number": "604",
-                        "text": "Lorsqu'on demanda à l'Imām al-Ṣādiq (as) : «Comment le croyant peut-il savoir s'il est vraiment croyant ?», il répondit : «Par sa soumission à Allah, et par sa satisfaction face à ce qui lui arrive comme joie ou peine.»<span class=\"footnote-ref\">671</span><br><br><span class=\"reference-note\">(Voir également : 228. Les shiites, section 1083)</span>"
+                        "text": "Lorsqu'on demanda à l'Imām al-Ṣādiq (as) : «Comment le croyant peut-il savoir s'il est vraiment croyant ?», il répondit : «Par sa soumission à Allah, et par sa satisfaction face à ce qui lui arrive comme joie ou peine.»<sup>671</sup><br><br><span class=\"reference-note\">(Voir également : 228. Les shiites, section 1083)</span>"
                     }
                 ]
             },
@@ -3576,11 +3578,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "605",
-                        "text": "L'Imām 'Alī (as) a dit : Le meilleur des croyants est celui qui donne le plus de sa personne, de sa famille et de ses biens [pour Allah].<span class=\"footnote-ref\">672</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le meilleur des croyants est celui qui donne le plus de sa personne, de sa famille et de ses biens [pour Allah].<sup>672</sup>"
                     },
                     {
                         "number": "606",
-                        "text": "L'Imām 'Alī (as) a dit : Le meilleur des croyants en termes de foi est celui qui prend et donne pour Allah, et celui dont la colère et la satisfaction sont pour Allah.<span class=\"footnote-ref\">673</span><br><br><span class=\"reference-note\">(Voir également : 321. Le mérite, section 1485 ; 412. La dissimulation par prudence (taqīyya), section 1871)</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le meilleur des croyants en termes de foi est celui qui prend et donne pour Allah, et celui dont la colère et la satisfaction sont pour Allah.<sup>673</sup><br><br><span class=\"reference-note\">(Voir également : 321. Le mérite, section 1485 ; 412. La dissimulation par prudence (taqīyya), section 1871)</span>"
                     }
                 ]
             },
@@ -3589,11 +3591,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "607",
-                        "text": "Le Messager d'Allah (s) a dit : La foi de ceux qui m'ont vu n'est pas surprenante, mais ce qui est véritablement surprenant sont les gens qui ont vu des feuillets [écrits à l'encre] noire [c'est-à-dire le Coran] et qui ont cru en lui du début à la fin.<span class=\"footnote-ref\">674</span>"
+                        "text": "Le Messager d'Allah (s) a dit : La foi de ceux qui m'ont vu n'est pas surprenante, mais ce qui est véritablement surprenant sont les gens qui ont vu des feuillets [écrits à l'encre] noire [c'est-à-dire le Coran] et qui ont cru en lui du début à la fin.<sup>674</sup>"
                     },
                     {
                         "number": "608",
-                        "text": "<em>Kanz al-'Ummāl</em> : Le Messager d'Allah (s) a dit : «Quand rencontrerai-je mes frères ?!» Ils lui dirent : «Ne sommes-nous pas tes frères ?» Il dit : «Vous êtes plutôt mes compagnons. Mes frères sont ceux qui croient en moi sans m'avoir vu, je suis enthousiaste à l'idée de les voir.»<span class=\"footnote-ref\">675</span>"
+                        "text": "<em>Kanz al-'Ummāl</em> : Le Messager d'Allah (s) a dit : «Quand rencontrerai-je mes frères ?!» Ils lui dirent : «Ne sommes-nous pas tes frères ?» Il dit : «Vous êtes plutôt mes compagnons. Mes frères sont ceux qui croient en moi sans m'avoir vu, je suis enthousiaste à l'idée de les voir.»<sup>675</sup>"
                     }
                 ]
             }
@@ -3604,15 +3606,16 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "197 - La nécessité de respecter la confiance",
+                "introduction": "«Et qui veillent à la sauvegarde des dépôts qui leur sont confiés, et honorent leurs engagements.»<sup>676</sup>",
                 "hadiths": [
                     {
                         "intro": "<em>«Et qui veillent à la sauvegarde des dépôts qui leur sont confiés, et honorent leurs engagements.»</em><span class=\"footnote-ref\">676</span>",
                         "number": "609",
-                        "text": "L'Imām 'Alī (as) a dit : Le meilleur de la foi est [d'être digne de] confiance, et le pire des défauts est la trahison.<span class=\"footnote-ref\">677</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Le meilleur de la foi est [d'être digne de] confiance, et le pire des défauts est la trahison.<sup>677</sup>"
                     },
                     {
                         "number": "610",
-                        "text": "L'Imām al-Bāqir (as) a dit : Allah le Tout-Puissant n'a laissé aucune flexibilité au sujet de trois choses : restituer le dépôt à son propriétaire, qu'il soit bon ou dépravé ; être fidèle à ses engagements vis-à-vis du bon et du dépravé ; et être bon envers ses parents, qu'ils soient bons ou dépravés.<span class=\"footnote-ref\">678</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Allah le Tout-Puissant n'a laissé aucune flexibilité au sujet de trois choses : restituer le dépôt à son propriétaire, qu'il soit bon ou dépravé ; être fidèle à ses engagements vis-à-vis du bon et du dépravé ; et être bon envers ses parents, qu'ils soient bons ou dépravés.<sup>678</sup>"
                     }
                 ]
             },
@@ -3621,15 +3624,15 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "611",
-                        "text": "L'Imām 'Alī (as) a dit : Ne trahis pas celui qui t'a fait confiance même s'il te trahit, et ne divulgue pas son secret même s'il divulgue le tien.<span class=\"footnote-ref\">679</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Ne trahis pas celui qui t'a fait confiance même s'il te trahit, et ne divulgue pas son secret même s'il divulgue le tien.<sup>679</sup>"
                     },
                     {
                         "number": "612",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Craignez Allah et restituez son dépôt à celui qui vous l'a confié, car même si l'assassin de l'Emir des croyants (as) m'avait confié un dépôt, je le lui aurais restitué.<span class=\"footnote-ref\">680</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Craignez Allah et restituez son dépôt à celui qui vous l'a confié, car même si l'assassin de l'Emir des croyants (as) m'avait confié un dépôt, je le lui aurais restitué.<sup>680</sup>"
                     },
                     {
                         "number": "613",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Restituez le dépôt [à son propriétaire], même s'il appartient à l'assassin de Ḥusayn ibn 'Alī (as).<span class=\"footnote-ref\">681</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Restituez le dépôt [à son propriétaire], même s'il appartient à l'assassin de Ḥusayn ibn 'Alī (as).<sup>681</sup>"
                     }
                 ]
             },
@@ -3638,11 +3641,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "614",
-                        "text": "Le Messager d'Allah (s) a dit : Celui qui n'est pas digne de confiance est dénué de foi.<span class=\"footnote-ref\">682</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui n'est pas digne de confiance est dénué de foi.<sup>682</sup>"
                     },
                     {
                         "number": "615",
-                        "text": "Le Messager d'Allah (s) a dit : Ne fait pas partie de nous celui qui dénigre et fait peu de cas [de l'importance du fait de rendre] les dépôts et qui à cause de cela, les altère lorsqu'on les lui confie.<span class=\"footnote-ref\">683</span><br><br><span class=\"reference-note\">(Voir également : 136. La trahison)</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Ne fait pas partie de nous celui qui dénigre et fait peu de cas [de l'importance du fait de rendre] les dépôts et qui à cause de cela, les altère lorsqu'on les lui confie.<sup>683</sup><br><br><span class=\"reference-note\">(Voir également : 136. La trahison)</span>"
                     }
                 ]
             },
@@ -3651,19 +3654,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "616",
-                        "text": "Luqmān (as) a dit : Ô mon fils ! Restitue le dépôt [à son propriétaire] et tu seras sauvé dans ce monde et dans l'Au-delà ; sois digne de confiance [dans la préservation des dépôts], et tu seras riche.<span class=\"footnote-ref\">684</span>"
+                        "text": "Luqmān (as) a dit : Ô mon fils ! Restitue le dépôt [à son propriétaire] et tu seras sauvé dans ce monde et dans l'Au-delà ; sois digne de confiance [dans la préservation des dépôts], et tu seras riche.<sup>684</sup>"
                     },
                     {
                         "number": "617",
-                        "text": "Le Messager d'Allah (s) a dit : La confiance [dans la préservation des dépôts] génère la richesse, et la trahison [dans les dépôts confiés] génère la pauvreté.<span class=\"footnote-ref\">685</span>"
+                        "text": "Le Messager d'Allah (s) a dit : La confiance [dans la préservation des dépôts] génère la richesse, et la trahison [dans les dépôts confiés] génère la pauvreté.<sup>685</sup>"
                     },
                     {
                         "number": "618",
-                        "text": "L'Imām 'Alī (as) a dit : Lorsque la confiance [dans la préservation des dépôts] se répand, la véracité s'accroît.<span class=\"footnote-ref\">686</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Lorsque la confiance [dans la préservation des dépôts] se répand, la véracité s'accroît.<sup>686</sup>"
                     },
                     {
                         "number": "619",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : La confiance [dans la préservation des dépôts] est une richesse.<span class=\"footnote-ref\">687</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La confiance [dans la préservation des dépôts] est une richesse.<sup>687</sup>"
                     }
                 ]
             },
@@ -3672,15 +3675,15 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "620",
-                        "text": "Le Messager d'Allah (s) a dit : Allah ne sera pas le garant de celui qui fait confiance à une personne qui n'est pas digne de confiance, car Il a interdit de faire confiance à une telle personne.<span class=\"footnote-ref\">688</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Allah ne sera pas le garant de celui qui fait confiance à une personne qui n'est pas digne de confiance, car Il a interdit de faire confiance à une telle personne.<sup>688</sup>"
                     },
                     {
                         "number": "621",
-                        "text": "L'Imām al-Bāqir (as) a dit : Ce n'est pas une personne digne de confiance qui t'a trahi, c'est toi qui as fait confiance à un traître.<span class=\"footnote-ref\">689</span>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Ce n'est pas une personne digne de confiance qui t'a trahi, c'est toi qui as fait confiance à un traître.<sup>689</sup>"
                     },
                     {
                         "number": "622",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Cela ne fait aucune différence pour moi de faire confiance à un traître ou à quelqu'un qui n'est pas consciencieux.<span class=\"footnote-ref\">690</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Cela ne fait aucune différence pour moi de faire confiance à un traître ou à quelqu'un qui n'est pas consciencieux.<sup>690</sup>"
                     }
                 ]
             }
@@ -3694,11 +3697,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "623",
-                        "text": "Le Messager d'Allah (s) a dit : Si un homme te fait confiance [concernant le fait que tu vas épargner] sa vie, ne le tue pas.<span class=\"footnote-ref\">691</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Si un homme te fait confiance [concernant le fait que tu vas épargner] sa vie, ne le tue pas.<sup>691</sup>"
                     },
                     {
                         "number": "624",
-                        "text": "Le Messager d'Allah (s) a dit : Je désavoue celui qui assure à un homme qu'il l'épargnera et qui le tue ensuite, même si la personne assassinée est mécréante.<span class=\"footnote-ref\">692</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Je désavoue celui qui assure à un homme qu'il l'épargnera et qui le tue ensuite, même si la personne assassinée est mécréante.<sup>692</sup>"
                     }
                 ]
             },
@@ -3707,11 +3710,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "625",
-                        "text": "L'Imām 'Alī (as) a dit : Adhérez aux pactes de sûreté [auxquels vous vous êtes astreints] en toute fermeté.<span class=\"footnote-ref\">693</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Adhérez aux pactes de sûreté [auxquels vous vous êtes astreints] en toute fermeté.<sup>693</sup>"
                     },
                     {
                         "number": "626",
-                        "text": "L'Imām 'Alī (as) a écrit dans sa missive à al-Ashtar : Si tu conclus un pacte avec ton ennemi ou que tu lui accordes ta sureté [concernant la vie et la propriété], sois fidèle à ton engagement avec loyauté, et respecte le pacte avec confiance. Fais de toi-même le bouclier de ce que tu lui as accordé, car de tous les commandements divins, il n'y a pas de chose sur laquelle les gens soient plus unanimes, malgré la diversité de leurs désirs et la variabilité de leur avis, que de considérer comme très importante la fidélité aux engagements.<span class=\"footnote-ref\">694</span>"
+                        "text": "L'Imām 'Alī (as) a écrit dans sa missive à al-Ashtar : Si tu conclus un pacte avec ton ennemi ou que tu lui accordes ta sureté [concernant la vie et la propriété], sois fidèle à ton engagement avec loyauté, et respecte le pacte avec confiance. Fais de toi-même le bouclier de ce que tu lui as accordé, car de tous les commandements divins, il n'y a pas de chose sur laquelle les gens soient plus unanimes, malgré la diversité de leurs désirs et la variabilité de leur avis, que de considérer comme très importante la fidélité aux engagements.<sup>694</sup>"
                     }
                 ]
             },
@@ -3720,11 +3723,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "627",
-                        "text": "Le Messager d'Allah (s) a dit : Ma communauté peut garantir la sûreté de ceux qui vivent sous elle [c'est-à-dire les non musulmans vivant en terre musulmane<span class=\"footnote-ref\">695</span>].<span class=\"footnote-ref\">696</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Ma communauté peut garantir la sûreté de ceux qui vivent sous elle [c'est-à-dire les non musulmans vivant en terre musulmane<sup>695</sup>].<sup>696</sup>"
                     },
                     {
                         "number": "628",
-                        "text": "Le Messager d'Allah (s) a dit : Les musulmans sont des frères, ils sont égaux dans leur sang, le plus faible parmi eux peut garantir la sûreté de quelqu'un, et ils sont telle une main, [unis] face aux autres [leurs ennemis].<span class=\"footnote-ref\">697</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Les musulmans sont des frères, ils sont égaux dans leur sang, le plus faible parmi eux peut garantir la sûreté de quelqu'un, et ils sont telle une main, [unis] face aux autres [leurs ennemis].<sup>697</sup>"
                     }
                 ]
             }
@@ -3738,19 +3741,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "629",
-                        "text": "L'Imām 'Alī (as) a dit : Ne laisse que la vérité être ton réconfort, et seul le faux devrait te délaisser.<span class=\"footnote-ref\">698</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Ne laisse que la vérité être ton réconfort, et seul le faux devrait te délaisser.<sup>698</sup>"
                     },
                     {
                         "number": "630",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : La familiarité se trouve dans trois [êtres] : une épouse avec qui on est compatible, un enfant bon et un ami fidèle.<span class=\"footnote-ref\">699</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La familiarité se trouve dans trois [êtres] : une épouse avec qui on est compatible, un enfant bon et un ami fidèle.<sup>699</sup>"
                     },
                     {
                         "number": "631",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah a fait en sorte que la foi de chaque croyant soit son [compagnon] familier sur lequel il se repose ; même s'il se trouve au sommet d'une montagne, il ne se sentira pas seul.<span class=\"footnote-ref\">700</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Allah a fait en sorte que la foi de chaque croyant soit son [compagnon] familier sur lequel il se repose ; même s'il se trouve au sommet d'une montagne, il ne se sentira pas seul.<sup>700</sup>"
                     },
                     {
                         "number": "632",
-                        "text": "L'Imām al-'Askarī (as) a dit : Celui qui devient le familier et l'intime d'Allah se sentira seul parmi les gens.<span class=\"footnote-ref\">701</span>"
+                        "text": "L'Imām al-'Askarī (as) a dit : Celui qui devient le familier et l'intime d'Allah se sentira seul parmi les gens.<sup>701</sup>"
                     }
                 ]
             },
@@ -3759,11 +3762,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "633",
-                        "text": "L'Imām 'Alī (as) a dit : L'ignorant craint ce qui est familier au sage.<span class=\"footnote-ref\">702</span>"
+                        "text": "L'Imām 'Alī (as) a dit : L'ignorant craint ce qui est familier au sage.<sup>702</sup>"
                     },
                     {
                         "number": "634",
-                        "text": "L'Imām al-Riḍā (as) a dit : Devenir trop intime et familier [avec les gens] fait disparaître la dignité.<span class=\"footnote-ref\">703</span>"
+                        "text": "L'Imām al-Riḍā (as) a dit : Devenir trop intime et familier [avec les gens] fait disparaître la dignité.<sup>703</sup>"
                     }
                 ]
             },
@@ -3772,11 +3775,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "635",
-                        "text": "Le Messager d'Allah (s) a dit : Celui qui sort de l'humiliation de la désobéissance pour aller vers la dignité de l'obéissance, Allah le Tout-Puissant lui accordera Sa familiarité sans besoin de proche ami, et Il l'élèvera sans besoin de richesse.<span class=\"footnote-ref\">704</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Celui qui sort de l'humiliation de la désobéissance pour aller vers la dignité de l'obéissance, Allah le Tout-Puissant lui accordera Sa familiarité sans besoin de proche ami, et Il l'élèvera sans besoin de richesse.<sup>704</sup>"
                     },
                     {
                         "number": "636",
-                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'est éloigné des gens trouvera la familiarité avec Allah, loué soit-Il.<span class=\"footnote-ref\">705</span>"
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui s'est éloigné des gens trouvera la familiarité avec Allah, loué soit-Il.<sup>705</sup>"
                     }
                 ]
             }
@@ -3787,19 +3790,20 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "208 - La dignité et l'honneur des enfants d'Adam",
+                "introduction": "«Certes, Nous avons honoré les fils d'Adam. Nous les avons transportés sur terre et sur mer, Nous leur avons procuré de bonnes choses comme nourriture, et Nous les avons nettement préférés à beaucoup de Nos créatures.»<sup>706</sup>",
                 "hadiths": [
                     {
                         "intro": "<em>«Certes, Nous avons honoré les fils d'Adam. Nous les avons transportés sur terre et sur mer, Nous leur avons procuré de bonnes choses comme nourriture, et Nous les avons nettement préférés à beaucoup de Nos créatures.»</em><span class=\"footnote-ref\">706</span>",
                         "number": "637",
-                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas plus digne et honorable auprès d'Allah que le fils d'Adam. On lui demanda : «Ô Messager d'Allah, [est-il même plus honorable] que les anges d'Allah !?» Il (s) répondit : «Tout comme le soleil et la lune, les anges sont dépourvus de liberté.»<span class=\"footnote-ref\">707</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Il n'y a pas plus digne et honorable auprès d'Allah que le fils d'Adam. On lui demanda : «Ô Messager d'Allah, [est-il même plus honorable] que les anges d'Allah !?» Il (s) répondit : «Tout comme le soleil et la lune, les anges sont dépourvus de liberté.»<sup>707</sup>"
                     },
                     {
                         "number": "638",
-                        "text": "Le Messager d'Allah (s) a dit : Aucune chose n'est meilleure que mille de ses semblables, sauf l'être humain.<span class=\"footnote-ref\">708</span>"
+                        "text": "Le Messager d'Allah (s) a dit : Aucune chose n'est meilleure que mille de ses semblables, sauf l'être humain.<sup>708</sup>"
                     },
                     {
                         "number": "639",
-                        "text": "L'Imām al-Ṣādiq (as) a dit en répondant à 'Abdullāh ibn Sinān qui lui avait demandé : «Les anges sont-ils supérieurs ou les descendants d'Adam ?» : «L'Emir des croyants, 'Alī ibn Abī Ṭālib (as) a dit : «En vérité, Allah le Tout-Puissant a doté les anges d'intelligence sans désir, et Il a doté les animaux de désir sans intelligence. En revanche, Il a doté les fils d'Adam des deux. Ainsi, celui chez qui l'intelligence domine le désir est meilleur que les anges, et celui dont le désir domine l'intelligence est pire que les animaux».»<span class=\"footnote-ref\">709</span>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit en répondant à 'Abdullāh ibn Sinān qui lui avait demandé : «Les anges sont-ils supérieurs ou les descendants d'Adam ?» : «L'Emir des croyants, 'Alī ibn Abī Ṭālib (as) a dit : «En vérité, Allah le Tout-Puissant a doté les anges d'intelligence sans désir, et Il a doté les animaux de désir sans intelligence. En revanche, Il a doté les fils d'Adam des deux. Ainsi, celui chez qui l'intelligence domine le désir est meilleur que les anges, et celui dont le désir domine l'intelligence est pire que les animaux».»<sup>709</sup>"
                     }
                 ]
             },
@@ -4113,6 +4117,7 @@ const AUNE_SAGESSE = [
         "subparts": [
             {
                 "title": "213 - Mise en garde contre l'avarice",
+                "introduction": "«Ceux qui sont avares et ordonnent l'avarice aux autres, et dissimulent ce qu'Allah leur a donné de par Sa grâce. Nous avons préparé un châtiment avilissant pour les mécréants.»<sup>783</sup><br><br>«Vous voici appelés à effectuer des dépenses dans le chemin d'Allah. Certains parmi vous se montrent avares, mais celui qui est avare l'est à son propre détriment. Allah est le Suffisant à Lui-même alors que vous êtes les indigents. Et si vous vous détournez, Il vous remplacera par un peuple autre que vous, et ils ne seront pas comme vous.»<sup>784</sup><br><br><span class=\"reference-note\">(Voir également : Coran 4:53, 17:100, 57:24, 68:12)</span>",
                 "hadiths": [
                     {
                         "number": "709",
@@ -4273,7 +4278,8 @@ const AUNE_SAGESSE = [
                         "number": "739",
                         "text": "L'Imām 'Alī (as) a dit : Rien ne détruit autant la religion que les innovations.<sup>816</sup>"
                     }
-                ]
+                ],
+                "titleNote": 812
             },
             {
                 "title": "220 - Les innovateurs",
@@ -5671,7 +5677,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "965",
-                        "text": "Le Messager d'Allah (s) a dit : Tout ce que tu perçois avec ton œil et que ton cœur trouve agréable, consacre-le à Allah, car cela est le commerce de l'Au-delà. En effet, Allah a dit : «<i>Tout ce que vous possédez s'épuisera, tandis que ce qui est auprès d'Allah durera.</i>» <sup>1089 1090</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Tout ce que tu perçois avec ton œil et que ton cœur trouve agréable, consacre-le à Allah, car cela est le commerce de l'Au-delà. En effet, Allah a dit : «<i>Tout ce que vous possédez s'épuisera, tandis que ce qui est auprès d'Allah durera.</i>» <sup>1089</sup> <sup>1090</sup>"
                     },
                     {
                         "number": "966",
@@ -6418,7 +6424,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "1077",
-                        "text": "Le Messager d'Allah (s) a dit : Ne sois pas obscène dans les assemblées afin de ne pas être évité pour ton mauvais caractère, et lorsqu'une"
+                        "text": "Le Messager d'Allah (s) a dit : Ne sois pas obscène dans les assemblées afin de ne pas être évité pour ton mauvais caractère, et lorsqu'une personne est assise à côté de toi, ne tiens pas de conciliabule avec une autre.<sup>1230</sup>"
                     },
                     {
                         "number": "1078",
@@ -8272,7 +8278,8 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Le pèlerin qui effectue un pèlerinage obligatoire (<i>ḥajj</i>) et un pèlerinage recommandé (<i>'umra</i>) est l'invité d'Allah, et Il lui offrira le pardon.<sup>1581</sup>"
                     }
                 ],
-                "introduction": "«C'est [le pèlerinage obligatoire (<i>ḥajj</i>)] un devoir envers Allah pour les gens qui en ont les moyens.»<sup>1575</sup><br><br>«Et fais aux gens une annonce pour le pèlerinage obligatoire (<i>ḥajj</i>). Ils viendront vers toi, à pied, et aussi sur toute monture, venant de tout chemin éloigné.»<sup>1576</sup><br><br>«Et accomplissez pour Allah le pèlerinage obligatoire (<i>ḥajj</i>) et le pèlerinage recommandé (<i>'umra</i>).»<sup>1577</sup>"
+                "introduction": "«C'est [le pèlerinage obligatoire (<i>ḥajj</i>)] un devoir envers Allah pour les gens qui en ont les moyens.»<sup>1575</sup><br><br>«Et fais aux gens une annonce pour le pèlerinage obligatoire (<i>ḥajj</i>). Ils viendront vers toi, à pied, et aussi sur toute monture, venant de tout chemin éloigné.»<sup>1576</sup><br><br>«Et accomplissez pour Allah le pèlerinage obligatoire (<i>ḥajj</i>) et le pèlerinage recommandé (<i>'umra</i>).»<sup>1577</sup>",
+                "titleNote": 1574
             },
             {
                 "title": "446 - La philosophie du pèlerinage",
@@ -8835,7 +8842,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "1458",
-                        "text": "Le Messager d'Allah (s) a dit : Liez-vous d'amitié avec les gens, donnez-leur un sursis et ne les attaquez pas avant de les avoir appelé [à la vérité] ; car j'aime davantage que les hommes de cette terre, citadins ou nomades, me soient ramenés en étant musulmans, plutôt que vous me rameniez leurs femmes et leurs enfants [en tant que prisonniers] alors que vous avez tué les hommes."
+                        "text": "Le Messager d'Allah (s) a dit : Liez-vous d'amitié avec les gens, donnez-leur un sursis et ne les attaquez pas avant de les avoir appelé [à la vérité] ; car j'aime davantage que les hommes de cette terre, citadins ou nomades, me soient ramenés en étant musulmans, plutôt que vous me rameniez leurs femmes et leurs enfants [en tant que prisonniers] alors que vous avez tué les hommes.<sup>1673</sup>"
                     },
                     {
                         "number": "1459",
@@ -9581,7 +9588,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "1583",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : «En vérité, le maintien des liens familiaux allège les comptes le Jour de la Résurrection.» Puis il a récité [le verset suivant] : <i>«[Ceux] qui unissent ce qu'Allah a ordonné d'unir, redoutent leur Seigneur et craignent une mauvaise reddition de compte.»</i><sup>1806, 1807</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : «En vérité, le maintien des liens familiaux allège les comptes le Jour de la Résurrection.» Puis il a récité [le verset suivant] : <i>«[Ceux] qui unissent ce qu'Allah a ordonné d'unir, redoutent leur Seigneur et craignent une mauvaise reddition de compte.»</i><sup>1806</sup> <sup>1807</sup>"
                     }
                 ]
             },
@@ -9634,7 +9641,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "1591",
-                        "text": "L'Imām al-Ṣādiq (as) rapporte du Messager d'Allah (s) : «Lorsque les recueils consignant les actes seront déployés et les balances installées, aucune balance ne sera installée pour les personnes qui ont souffert, ni leur recueil déployé.» Puis il récita ce verset : <i>«Les endurants auront leur pleine récompense sans compter.»</i><sup>1819, 1820</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) rapporte du Messager d'Allah (s) : «Lorsque les recueils consignant les actes seront déployés et les balances installées, aucune balance ne sera installée pour les personnes qui ont souffert, ni leur recueil déployé.» Puis il récita ce verset : <i>«Les endurants auront leur pleine récompense sans compter.»</i><sup>1819</sup> <sup>1820</sup>"
                     }
                 ],
                 "introduction": "«Dis : «Ô Mes serviteurs qui avez cru ! Craignez votre Seigneur.» Ceux qui ici-bas font le bien auront une bonne [récompense]. La terre d'Allah est vaste et les endurants auront leur pleine récompense sans compter.»<sup>1814</sup>"
@@ -9790,7 +9797,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "1615",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le croyant excelle dans son action, Allah multipliera chaque bonne action par sept cents, et c'est ce que signifie la parole d'Allah le Béni et le Très-Haut : <i>«Allah multiplie la récompense à qui Il veut.»</i><sup>1849, 1850</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsque le croyant excelle dans son action, Allah multipliera chaque bonne action par sept cents, et c'est ce que signifie la parole d'Allah le Béni et le Très-Haut : <i>«Allah multiplie la récompense à qui Il veut.»</i><sup>1849</sup> <sup>1850</sup>"
                     }
                 ],
                 "introduction": "«Quiconque viendra avec le bien aura dix fois autant ; et quiconque viendra avec le mal ne sera rétribué que par son équivalent. Et on ne leur fera aucune injustice.»<sup>1847</sup>"
@@ -10025,7 +10032,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "1650",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Il n'y a pas de faux qui se dresse face à la vérité sans que la vérité ne triomphe sur le faux, c'est ce que signifie la parole <i>«Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît...»</i><sup>1889, 1890</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Il n'y a pas de faux qui se dresse face à la vérité sans que la vérité ne triomphe sur le faux, c'est ce que signifie la parole <i>«Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît...»</i><sup>1889</sup> <sup>1890</sup>"
                     }
                 ],
                 "introduction": "«Bien au contraire, Nous lançons la Vérité contre le faux qui le subjugue, et le voilà qui disparaît. Et malheur à vous pour ce que vous attribuez [injustement à Allah] !»<sup>1885</sup>"
@@ -10458,7 +10465,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "1725",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne prêtez pas serment en utilisant le Nom d'Allah, que vos paroles soient véridiques ou mensongères, car Allah le Tout-Puissant a dit : <i>«Et n'usez pas du nom d'Allah dans vos serments»</i><sup>1970, 1971</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Ne prêtez pas serment en utilisant le Nom d'Allah, que vos paroles soient véridiques ou mensongères, car Allah le Tout-Puissant a dit : <i>«Et n'usez pas du nom d'Allah dans vos serments»</i><sup>1970</sup> <sup>1971</sup>"
                     }
                 ],
                 "introduction": "«Et n'usez pas du nom d'Allah dans vos serments, pour vous dispenser de faire le bien, d'être pieux ou de réconcilier les gens. Et Allah est Audient et Omniscient.»<sup>1969</sup>"
@@ -11015,7 +11022,8 @@ const AUNE_SAGESSE = [
                         "number": "1815",
                         "text": "L'Imām 'Alī (as) a dit : La pudeur est la cause de la chasteté.<sup>2065</sup>"
                     }
-                ]
+                ],
+                "titleNote": 2060
             },
             {
                 "title": "600 - La pudeur et la foi",
@@ -11198,7 +11206,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "1843",
-                        "text": "L'Imām 'Alī (as) a dit : Ne combattez (tuez) pas les Kharidjites après moi, car celui qui aspire à la vérité et qui se trompe en la prenant pour autre chose n'est pas comme celui qui aspire au faux et qui l'a atteint.<sup>2095, 2096</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : Ne combattez (tuez) pas les Kharidjites après moi, car celui qui aspire à la vérité et qui se trompe en la prenant pour autre chose n'est pas comme celui qui aspire au faux et qui l'a atteint.<sup>2095</sup>"
                     }
                 ]
             }
@@ -11238,7 +11246,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : En vérité, le plus grand perdant et celui dont les efforts sont les plus vains est l'homme qui a usé son corps dans la quête de sa fortune, bien que le destin ne l'ait pas aidé dans son dessein. Il a ainsi quitté ce monde avec regret et fait face à l'Au-delà avec ses [funestes] conséquences.<sup>2101</sup>"
                     }
                 ],
-                "introduction": "«Dis : «Voulez-vous que Nous vous apprenions lesquels sont les plus grands perdants en œuvres? Ceux dont l'effort, dans la vie présente, s'est égaré, alors qu'ils s'imaginent faire le bien.»»<sup>2087</sup>"
+                "introduction": "«Dis : «Voulez-vous que Nous vous apprenions lesquels sont les plus grands perdants en œuvres? Ceux dont l'effort, dans la vie présente, s'est égaré, alors qu'ils s'imaginent faire le bien.»»<sup>2100</sup>"
             }
         ]
     },
@@ -11419,7 +11427,7 @@ const AUNE_SAGESSE = [
                     {
                         "number": "1875",
                         "source": "'Uddat al-Dā'ī",
-                        "text": "rapporte d'al-Mufaḍḍal ibn Ṣāliḥ : L'Imām al-Ṣādiq (as) a dit : «En vérité, Allah a des serviteurs qui ont agi vis-à-vis de Lui avec sincérité en secret, et Allah a agi vis-à-vis d'eux avec une pure bonté, car ce sont eux qui, le Jour de la Résurrection, feront partie des ceux à qui Allah accordera Son secours.»"
+                        "text": "<i>'Uddat al-Dā'ī</i> rapporte d'al-Mufaḍḍal ibn Ṣāliḥ : L'Imām al-Ṣādiq (as) a dit : «En vérité, Allah a des serviteurs qui ont agi vis-à-vis de Lui avec sincérité en secret, et Allah a agi vis-à-vis d'eux avec une pure bonté, car ce sont eux qui, le Jour de la Résurrection, verront le recueil de leurs actes vides, et lorsqu'ils seront entre les mains d'Allah, Il remplira leurs recueils des secrets qu'ils avaient avec Lui.» Je dis : «Ô maître, pourquoi [leurs recueils seront-ils vides] ?» Il dit : «Il les a tellement honorés qu'Il ne veut même pas que les anges gardiens sachent ce qu'il y a entre eux et Lui.»<sup>2134</sup>"
                     }
                 ]
             },
@@ -11554,7 +11562,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "1897",
-                        "text": "Ma'ānī al-Akhbār : 'Abd al-Mū'min al-Anṣārī a dit : J'ai dit à l'Imām al-Ṣādiq (as) : «En vérité, des gens ont rapporté que le Messager d'Allah (s) a dit : «La séparation de ma communauté est une miséricorde.»» L'Imām (as) dit : «Ils disent vrai.» Je lui dis alors : «Si leur séparation est une miséricorde, alors dans ce cas leur union est-elle un châtiment ?» Il répondit : «[Le sens de cette parole] n'est pas ce que tu en as compris ni ce qu'ils en ont compris. En vérité, il voulait parler de cette parole d'Allah : «Pourquoi de chaque clan quelques hommes ne viendraient-ils pas s'instruire dans la religion, pour pouvoir à leur retour avertir leur peuple afin qu'ils soient sur leur garde.» Ainsi, Il leur a ordonné de se rendre auprès du Messager d'Allah (s), de le fréquenter et de s'instruire auprès de lui, puis de retourner chez les leurs pour leur enseigner [ce qu'ils ont appris]. [Le Prophète] a voulu ainsi désigner la séparation [physique] de leurs contrées, et non la séparation et la divergence au sujet de la religion d'Allah, car la religion est unique.»<sup>2158</sup><sup>2159</sup>"
+                        "text": "Ma'ānī al-Akhbār : 'Abd al-Mū'min al-Anṣārī a dit : J'ai dit à l'Imām al-Ṣādiq (as) : «En vérité, des gens ont rapporté que le Messager d'Allah (s) a dit : «La séparation de ma communauté est une miséricorde.»» L'Imām (as) dit : «Ils disent vrai.» Je lui dis alors : «Si leur séparation est une miséricorde, alors dans ce cas leur union est-elle un châtiment ?» Il répondit : «[Le sens de cette parole] n'est pas ce que tu en as compris ni ce qu'ils en ont compris. En vérité, il voulait parler de cette parole d'Allah : «Pourquoi de chaque clan quelques hommes ne viendraient-ils pas s'instruire dans la religion, pour pouvoir à leur retour avertir leur peuple afin qu'ils soient sur leur garde.» Ainsi, Il leur a ordonné de se rendre auprès du Messager d'Allah (s), de le fréquenter et de s'instruire auprès de lui, puis de retourner chez les leurs pour leur enseigner [ce qu'ils ont appris]. [Le Prophète] a voulu ainsi désigner la séparation [physique] de leurs contrées, et non la séparation et la divergence au sujet de la religion d'Allah, car la religion est unique.»<sup>2158</sup> <sup>2159</sup>"
                     }
                 ]
             },
@@ -11677,11 +11685,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "1915",
-                        "text": "Le Messager d'Allah (s) a dit : Tout nouveau-né vient au monde avec la nature divine primordiale (<em>fiṭra</em>), c'est-à-dire la connaissance [intérieure] qu'Allah le Tout-Puissant est son Créateur. C'est cela que signifie Sa parole : «Si tu leur demandes : \"Qui a créé les cieux et la terre ?\", ils diront, certes : \"Allah !\"»<sup>2179</sup><sup>2180</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Tout nouveau-né vient au monde avec la nature divine primordiale (<em>fiṭra</em>), c'est-à-dire la connaissance [intérieure] qu'Allah le Tout-Puissant est son Créateur. C'est cela que signifie Sa parole : «Si tu leur demandes : \"Qui a créé les cieux et la terre ?\", ils diront, certes : \"Allah !\"»<sup>2179</sup> <sup>2180</sup>"
                     },
                     {
                         "number": "1916",
-                        "text": "L'Imām al-'Askarī (as) a dit en expliquant la <em>basmallah</em> : Allah est Celui que déifie et vénère toute créature lorsqu'elle est dans le besoin ou en difficulté, lorsque l'espoir envers toute chose autre que Lui est rompu, et lorsque plus aucun moyen ne reste en dehors de Lui.<sup>2182</sup>"
+                        "text": "L'Imām al-'Askarī (as) a dit en expliquant la <em>basmallah</em><sup>2181</sup> : Allah est Celui que déifie et vénère toute créature lorsqu'elle est dans le besoin ou en difficulté, lorsque l'espoir envers toute chose autre que Lui est rompu, et lorsque plus aucun moyen ne reste en dehors de Lui.<sup>2182</sup>"
                     },
                     {
                         "number": "1917",
@@ -11701,7 +11709,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "1921",
-                        "text": "L'Imām al-Bāqir (as) a dit en commentant la parole du Très-Haut : «<em>Et quiconque aura été aveugle ici-bas sera aveugle dans l'Au-delà</em>»<sup>2188</sup> : «Celui qui n'a pas été guidé par la création des cieux et de la terre, l'alternance de la nuit et du jour, la rotation des planètes autour du soleil, la lune, et les signes extraordinaires qui montrent que derrière tout cela se cache une réalité plus grande encore <em>«sera aveugle dans l'Au-delà»</em>.» Il ajouta : «Il sera aveugle vis-à-vis de ce qu'il n'a pas vu, et encore plus égaré du [droit] chemin.»<sup>2189</sup><sup>2190</sup>"
+                        "text": "L'Imām al-Bāqir (as) a dit en commentant la parole du Très-Haut : «<em>Et quiconque aura été aveugle ici-bas sera aveugle dans l'Au-delà</em>»<sup>2188</sup> : «Celui qui n'a pas été guidé par la création des cieux et de la terre, l'alternance de la nuit et du jour, la rotation des planètes autour du soleil, la lune, et les signes extraordinaires qui montrent que derrière tout cela se cache une réalité plus grande encore <em>«sera aveugle dans l'Au-delà»</em>.» Il ajouta : «Il sera aveugle vis-à-vis de ce qu'il n'a pas vu, et encore plus égaré du [droit] chemin.»<sup>2189</sup> <sup>2190</sup>"
                     },
                     {
                         "number": "1922",
@@ -13931,7 +13939,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2315",
-                        "text": "Le Messager d'Allah (s) a dit : Ne préférez rien au rappel d'Allah car en vérité, Il a dit : «Le rappel d'Allah est certes ce qu'il y a de plus grand.»<sup>2608,2609</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Ne préférez rien au rappel d'Allah car en vérité, Il a dit : «Le rappel d'Allah est certes ce qu'il y a de plus grand.»<sup>2608</sup> <sup>2609</sup>"
                     },
                     {
                         "number": "2316",
@@ -13970,7 +13978,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "2323",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Les glorifications de Fāṭima al-Zahrā (as) font partie du rappel abondant à propos duquel Allah le Tout-Puissant a dit : «Évoquez Allah d'une façon abondante.»<sup>2618,2619</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Les glorifications de Fāṭima al-Zahrā (as) font partie du rappel abondant à propos duquel Allah le Tout-Puissant a dit : «Évoquez Allah d'une façon abondante.»<sup>2618</sup> <sup>2619</sup>"
                     }
                 ],
                 "introduction": "«Ô vous qui croyez ! Évoquez Allah d'une façon abondante, et glorifiez-Le à la pointe et au déclin du jour.»<sup>2614</sup>"
@@ -14031,7 +14039,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "2334",
-                        "text": "L'Imām al-Bāqir (as) a dit : Le croyant est en prière tant qu'il observe le rappel d'Allah, qu'il soit debout, assis ou couché. En vérité, Allah le Très-Haut a dit : «Qui, debout, assis, couchés sur leurs côtés, invoquent Allah.»<sup>2631,2632</sup>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Le croyant est en prière tant qu'il observe le rappel d'Allah, qu'il soit debout, assis ou couché. En vérité, Allah le Très-Haut a dit : «Qui, debout, assis, couchés sur leurs côtés, invoquent Allah.»<sup>2631</sup> <sup>2632</sup>"
                     },
                     {
                         "number": "2335",
@@ -14153,7 +14161,7 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "2359",
-                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole du Très-Haut «Et le rappel d'Allah est certes ce qu'il y a de plus grand» : [Cela signifie] se rappeler d'Allah concernant ce qu'Il a rendu licite et illicite.<sup>2661</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit en commentant la parole du Très-Haut «Et le rappel d'Allah est certes ce qu'il y a de plus grand»<sup>2660</sup> : [Cela signifie] se rappeler d'Allah concernant ce qu'Il a rendu licite et illicite.<sup>2661</sup>"
                     },
                     {
                         "number": "2360",
@@ -15067,7 +15075,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 2836
     },
     {
         "title": "157 - LA COMPASSION",
@@ -15092,7 +15101,8 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām 'Alī (as) a dit : Je suis étonné de celui qui espère la compassion de Celui qui est au-dessus de lui et qui ne fait pas lui-même preuve de compassion vis-à-vis de celui qui est en dessous de lui.<sup>2847</sup>"
                     }
                 ],
-                "introduction": "«<i>Muhammad est le Messager d'Allah. Et ceux qui sont avec lui sont durs envers les mécréants, miséricordieux entre eux.</i>»<sup>2842</sup><br>«<i>Et c'est être, en outre, de ceux qui croient et s'enjoignent mutuellement la patience et s'enjoignent mutuellement la miséricorde. Ceux-là sont les gens de la droite.</i>»<sup>2843</sup>"
+                "introduction": "«<i>Muhammad est le Messager d'Allah. Et ceux qui sont avec lui sont durs envers les mécréants, miséricordieux entre eux.</i>»<sup>2842</sup><br>«<i>Et c'est être, en outre, de ceux qui croient et s'enjoignent mutuellement la patience et s'enjoignent mutuellement la miséricorde. Ceux-là sont les gens de la droite.</i>»<sup>2843</sup>",
+                "titleNote": 2841
             },
             {
                 "title": "805 - Ceux qui méritent la compassion",
@@ -15607,11 +15617,11 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "2611",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsqu'il parlait d'un fait passé, le Messager d'Allah (s) ne disait jamais : «Si seulement cela s'était passé autrement !»<sup>2957</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Lorsqu'il parlait d'un fait passé, le Messager d'Allah (s) ne disait jamais : «Si seulement cela s'était passé autrement !»<sup>2947</sup>"
                     },
                     {
                         "number": "2612",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : La base de l'obéissance à Allah est d'être satisfait vis-à-vis de tout ce qu'Allah a fait, que ce soit concernant ce que le serviteur aime ou concernant ce qu'il déteste.<sup>2958</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La base de l'obéissance à Allah est d'être satisfait vis-à-vis de tout ce qu'Allah a fait, que ce soit concernant ce que le serviteur aime ou concernant ce qu'il déteste.<sup>2948</sup>"
                     }
                 ]
             },
@@ -15620,11 +15630,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2613",
-                        "text": "L'Imām 'Alī (as) a dit : L'origine de la satisfaction est la confiance en Allah.<sup>2959</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : L'origine de la satisfaction est la confiance en Allah.<sup>2949</sup>"
                     },
                     {
                         "number": "2614",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, ceux qui connaissent le mieux Allah sont ceux qui sont les plus satisfaits vis-à-vis du décret d'Allah.<sup>2960</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : En vérité, ceux qui connaissent le mieux Allah sont ceux qui sont les plus satisfaits vis-à-vis du décret d'Allah.<sup>2950</sup>"
                     }
                 ]
             },
@@ -15633,27 +15643,27 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2615",
-                        "text": "Le Messager d'Allah (s) a dit : Lorsqu'Allah aime un serviteur, Il l'éprouve ; s'il patiente, Il le choisit [pour Sa proximité] et s'il est satisfait, Il l'élit et le distingue [par un statut plus élevé].<sup>2961</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Lorsqu'Allah aime un serviteur, Il l'éprouve ; s'il patiente, Il le choisit [pour Sa proximité] et s'il est satisfait, Il l'élit et le distingue [par un statut plus élevé].<sup>2951</sup>"
                     },
                     {
                         "number": "2616",
-                        "text": "Le Messager d'Allah (s) a dit : Sois satisfait de ce qu'Allah t'a destiné et tu seras la plus riche des personnes.<sup>2962</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Sois satisfait de ce qu'Allah t'a destiné et tu seras la plus riche des personnes.<sup>2952</sup>"
                     },
                     {
                         "number": "2617",
-                        "text": "L'Imām 'Alī (as) a dit : La satisfaction éloigne la tristesse.<sup>2963</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : La satisfaction éloigne la tristesse.<sup>2953</sup>"
                     },
                     {
                         "number": "2618",
-                        "text": "L'Imām 'Alī (as) a dit : En vérité, les gens qui ont la vie la plus agréable sont ceux qui sont satisfaits de ce qu'Allah leur a destiné.<sup>2964</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : En vérité, les gens qui ont la vie la plus agréable sont ceux qui sont satisfaits de ce qu'Allah leur a destiné.<sup>2954</sup>"
                     },
                     {
                         "number": "2619",
-                        "text": "L'Imām Ḥasan (as) a dit : Je garantis à celui qui ne laisse de place à rien hormis la satisfaction [vis-à-vis d'Allah] dans son cœur que s'il invoque Allah, Il lui répondra.<sup>2965</sup>"
+                        "text": "L'Imām Ḥasan (as) a dit : Je garantis à celui qui ne laisse de place à rien hormis la satisfaction [vis-à-vis d'Allah] dans son cœur que s'il invoque Allah, Il lui répondra.<sup>2955</sup>"
                     },
                     {
                         "number": "2620",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : La quiétude et le confort se trouvent dans la satisfaction et la certitude, alors que le souci et la tristesse se trouvent dans le doute et le mécontentement.<sup>2966</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : La quiétude et le confort se trouvent dans la satisfaction et la certitude, alors que le souci et la tristesse se trouvent dans le doute et le mécontentement.<sup>2956</sup>"
                     }
                 ]
             },
@@ -15662,11 +15672,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2621",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui n'est pas satisfait de ce qu'Allah le Tout-Puissant lui a destiné remet en cause et accuse Allah dans Son décret.<sup>2967</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui n'est pas satisfait de ce qu'Allah le Tout-Puissant lui a destiné remet en cause et accuse Allah dans Son décret.<sup>2957</sup>"
                     },
                     {
                         "number": "2622",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui est satisfait du décret divin vivra selon ce décret et il sera rétribué [pour sa satisfaction]. En revanche, celui qui n'est pas satisfait du décret divin vivra tout de même selon ce décret, et Allah anéantira sa récompense.<sup>2628</sup><br>(Voir également : 392. Le destin, section 159)"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui est satisfait du décret divin vivra selon ce décret et il sera rétribué [pour sa satisfaction]. En revanche, celui qui n'est pas satisfait du décret divin vivra tout de même selon ce décret, et Allah anéantira sa récompense.<sup>2958</sup><br>(Voir également : 392. Le destin, section 159)"
                     }
                 ]
             }
@@ -15680,30 +15690,30 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2623",
-                        "text": "Biḥār al-Anwār : Il a été rapporté que Moïse (as) a dit : «Ô Seigneur, guide-moi vers un acte dont la réalisation me permettra d'atteindre Ta satisfaction.» Allah lui révéla : «Ô fils de 'Imrān, Ma satisfaction réside dans ce que tu détestes et ce que tu ne pourras supporter.» Moïse tomba alors prosterné en pleurant et dit : «Ô Seigneur ! Tu m'as choisi pour me parler alors que Tu n'avais jamais parlé à un humain avant moi, et Tu ne veux pas me guider vers un acte par lequel j'atteindrai Ta satisfaction ?» Et Allah lui révéla : «En vérité, Ma satisfaction réside dans ta satisfaction vis-à-vis de Mon décret.»<sup>2970</sup>"
+                        "text": "Biḥār al-Anwār : Il a été rapporté que Moïse (as) a dit : «Ô Seigneur, guide-moi vers un acte dont la réalisation me permettra d'atteindre Ta satisfaction.» Allah lui révéla : «Ô fils de 'Imrān, Ma satisfaction réside dans ce que tu détestes et ce que tu ne pourras supporter.» Moïse tomba alors prosterné en pleurant et dit : «Ô Seigneur ! Tu m'as choisi pour me parler alors que Tu n'avais jamais parlé à un humain avant moi, et Tu ne veux pas me guider vers un acte par lequel j'atteindrai Ta satisfaction ?» Et Allah lui révéla : «En vérité, Ma satisfaction réside dans ta satisfaction vis-à-vis de Mon décret.»<sup>2960</sup>"
                     },
                     {
                         "number": "2624",
-                        "text": "L'Imām 'Alī (as) a dit : Trois choses permettent au serviteur d'atteindre l'agrément d'Allah : multiplier la demande de pardon, l'affabilité vis-à-vis des gens, et multiplier les actes de charité (ṣadaqa).<sup>2971</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : Trois choses permettent au serviteur d'atteindre l'agrément d'Allah : multiplier la demande de pardon, l'affabilité vis-à-vis des gens, et multiplier les actes de charité (ṣadaqa).<sup>2961</sup>"
                     },
                     {
                         "number": "2625",
-                        "text": "L'Imām 'Alī (as) a dit : Celui qui a mécontenté son corps aura satisfait son Seigneur, et celui qui n'est pas disposé à le faire aura désobéi à son Seigneur.<sup>2972</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : Celui qui a mécontenté son corps aura satisfait son Seigneur, et celui qui n'est pas disposé à le faire aura désobéi à son Seigneur.<sup>2962</sup>"
                     },
                     {
                         "number": "2626",
-                        "text": "L'Imām 'Alī (as) a dit : Il [Allah] vous a conseillé la piété et la crainte révérencielle, et Il a fait en sorte que ce soit le sommet de Sa satisfaction ainsi que Sa demande envers Ses créatures.<sup>2973</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : Il [Allah] vous a conseillé la piété et la crainte révérencielle, et Il a fait en sorte que ce soit le sommet de Sa satisfaction ainsi que Sa demande envers Ses créatures.<sup>2963</sup>"
                     },
                     {
                         "number": "2627",
-                        "text": "L'Imām 'Alī (as) a dit : La satisfaction d'Allah - loué soit-Il - va de pair avec Son obéissance.<sup>2974</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : La satisfaction d'Allah - loué soit-Il - va de pair avec Son obéissance.<sup>2964</sup>"
                     },
                     {
                         "number": "2628",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, celui parmi vous vis-à-vis duquel Allah est le plus satisfait est celui qui comble le plus sa famille.<sup>2975</sup>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : En vérité, celui parmi vous vis-à-vis duquel Allah est le plus satisfait est celui qui comble le plus sa famille.<sup>2965</sup>"
                     }
                 ],
-                "introduction": "«<i>Est-ce que celui qui se conforme à l'agrément d'Allah ressemble à celui qui encourt le courroux d'Allah ? Son refuge sera l'Enfer ; et quelle mauvaise destination !</i>»<sup>2969</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:15, 9:21, 9:109, 9:72, 9:100, 5:119, 9:82, 9:16, 48:29, 58:22, 47:28)</span>"
+                "introduction": "«<i>Est-ce que celui qui se conforme à l'agrément d'Allah ressemble à celui qui encourt le courroux d'Allah ? Son refuge sera l'Enfer ; et quelle mauvaise destination !</i>»<sup>2959</sup><br><br><span class=\"reference-note\">(Voir également : Coran 3:15, 9:21, 9:109, 9:72, 9:100, 5:119, 9:82, 9:16, 48:29, 58:22, 47:28)</span>"
             },
             {
                 "title": "832 - Les signes de la satisfaction d'Allah",
@@ -15745,31 +15755,31 @@ const AUNE_SAGESSE = [
                     },
                     {
                         "number": "2634",
-                        "text": "Le Messager d'Allah (s) a dit : Quand deux personnes se lient d'amitié, la plus rétribuée et la plus aimée d'Allah le Tout-Puissant est celle qui est la plus douce envers son ami.<sup>2976</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Quand deux personnes se lient d'amitié, la plus rétribuée et la plus aimée d'Allah le Tout-Puissant est celle qui est la plus douce envers son ami.<sup>2971</sup>"
                     },
                     {
                         "number": "2635",
-                        "text": "Le Messager d'Allah (s) a dit : Lorsqu'Allah veut du bien aux membres d'une famille, Il introduit parmi eux la douceur.<sup>2977</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Lorsqu'Allah veut du bien aux membres d'une famille, Il introduit parmi eux la douceur.<sup>2972</sup>"
                     },
                     {
                         "number": "2636",
-                        "text": "Le Messager d'Allah (s) a dit : La plus intelligente des personnes est celle qui ménage le plus les autres.<sup>2978</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : La plus intelligente des personnes est celle qui ménage le plus les autres.<sup>2973</sup>"
                     },
                     {
                         "number": "2637",
-                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Tout-Puissant est doux, et Il aime la douceur en toute chose.<sup>2979</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, Allah le Tout-Puissant est doux, et Il aime la douceur en toute chose.<sup>2974</sup>"
                     },
                     {
                         "number": "2638",
-                        "text": "L'Imām 'Alī (as) a dit : La douceur est la clé de la réussite.<sup>2980</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : La douceur est la clé de la réussite.<sup>2975</sup>"
                     },
                     {
                         "number": "2639",
-                        "text": "L'Imām al-Bāqir (as) a dit : Chaque chose a une serrure et la serrure de la foi is la douceur.<sup>2981</sup>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Chaque chose a une serrure et la serrure de la foi is la douceur.<sup>2976</sup>"
                     },
                     {
                         "number": "2640",
-                        "text": "L'Imām al-Kāẓim (as) a dit : La douceur est la moitié de la vie.<sup>2982</sup>"
+                        "text": "L'Imām al-Kāẓim (as) a dit : La douceur est la moitié de la vie.<sup>2977</sup>"
                     }
                 ]
             },
@@ -15778,11 +15788,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2641",
-                        "text": "Le Messager d'Allah (s) a dit : En vérité, cette religion est solide, alors entrez-y doucement. Ne suscite pas l'aversion des serviteurs d'Allah vis-à-vis de l'adoration d'Allah, sinon vous deviendrez comme des cavaliers dispersés qui n'ont pas voyagé et n'ont pas de monture pour continuer.<sup>2983</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, cette religion est solide, alors entrez-y doucement. Ne suscite pas l'aversion des serviteurs d'Allah vis-à-vis de l'adoration d'Allah, sinon vous deviendrez comme des cavaliers dispersés qui n'ont pas voyagé et n'ont pas de monture pour continuer.<sup>2978</sup>"
                     },
                     {
                         "number": "2642",
-                        "text": "L'Imām 'Alī (as) a dit : Ruse avec ton âme pour [l'inciter à] l'adoration, sois doux vis-à-vis d'elle et ne la contrains pas. Tiens compte de sa fatigue et de son énergie, sauf quand il s'agit des obligations ordonnées car on doit les réaliser et s'en acquitter aux moments prescrits.<sup>2984</sup><br>(Voir également : 261. L'adoration, section 1218)"
+                        "text": "L'Imām 'Alī (as) a dit : Ruse avec ton âme pour [l'inciter à] l'adoration, sois doux vis-à-vis d'elle et ne la contrains pas. Tiens compte de sa fatigue et de son énergie, sauf quand il s'agit des obligations ordonnées car on doit les réaliser et s'en acquitter aux moments prescrits.<sup>2979</sup><br>(Voir également : 261. L'adoration, section 1218)"
                     }
                 ]
             },
@@ -15791,27 +15801,27 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2643",
-                        "text": "Le Messager d'Allah (s) a dit : En vérité, dans la douceur se trouve l'abondance et la bénédiction. Dès lors, celui qui est privé de la douceur est privé du bien.<sup>2985</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, dans la douceur se trouve l'abondance et la bénédiction. Dès lors, celui qui est privé de la douceur est privé du bien.<sup>2980</sup>"
                     },
                     {
                         "number": "2644",
-                        "text": "L'Imām 'Alī (as) a dit : La douceur rend aisés les obstacles et facilite les situations difficiles.<sup>2986</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : La douceur rend aisés les obstacles et facilite les situations difficiles.<sup>2981</sup>"
                     },
                     {
                         "number": "2645",
-                        "text": "L'Imām Husayn (as) a dit : Pour celui qui ne parvient pas à prendre une décision et qui n'a pas de solution, la douceur est la clé [de la résolution du problème].<sup>2987</sup>"
+                        "text": "L'Imām Husayn (as) a dit : Pour celui qui ne parvient pas à prendre une décision et qui n'a pas de solution, la douceur est la clé [de la résolution du problème].<sup>2982</sup>"
                     },
                     {
                         "number": "2646",
-                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le dernier conseil que al-Khiḍr donna à Moïse fils de 'Imrān (as) fut : «Nul ne fait preuve de douceur envers autrui dans ce monde sans qu'Allah le Tout-Puissant ne fasse preuve de douceur à son égard le Jour de la Résurrection.»<sup>2988</sup>"
+                        "text": "L'Imām Zayn al-'Ābidīn (as) a dit : Le dernier conseil que al-Khiḍr donna à Moïse fils de 'Imrān (as) fut : «Nul ne fait preuve de douceur envers autrui dans ce monde sans qu'Allah le Tout-Puissant ne fasse preuve de douceur à son égard le Jour de la Résurrection.»<sup>2983</sup>"
                     },
                     {
                         "number": "2647",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Si tu veux être honoré, sois doux et si tu veux être humilié, sois dur.<sup>2989</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Si tu veux être honoré, sois doux et si tu veux être humilié, sois dur.<sup>2984</sup>"
                     },
                     {
                         "number": "2648",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui est doux dans ses affaires obtiendra ce qu'il veut des gens.<sup>2990</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui est doux dans ses affaires obtiendra ce qu'il veut des gens.<sup>2985</sup>"
                     }
                 ]
             }
@@ -15825,41 +15835,41 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2649",
-                        "text": "L'Imām 'Alī (as) a dit : Sachez, ô serviteurs d'Allah, que vous êtes observés par vos propres personnes, et que les membres de votre corps ont un œil sur vous. Et les gardiens probes [les anges] enregistrent vos actes et le nombre de vos respirations. L'obscurité de la nuit noire ne peut vous cacher d'eux, et vous ne pouvez pas non plus vous cacher derrière une porte verrouillée.<sup>2993</sup><br>(Voir également : 366. Les anges, section 1664)"
+                        "text": "L'Imām 'Alī (as) a dit : Sachez, ô serviteurs d'Allah, que vous êtes observés par vos propres personnes, et que les membres de votre corps ont un œil sur vous. Et les gardiens probes [les anges] enregistrent vos actes et le nombre de vos respirations. L'obscurité de la nuit noire ne peut vous cacher d'eux, et vous ne pouvez pas non plus vous cacher derrière une porte verrouillée.<sup>2988</sup><br>(Voir également : 366. Les anges, section 1664)"
                     }
                 ],
-                "introduction": "«<i>Certes Allah vous observe parfaitement.</i>»<sup>2991</sup><br><br>«<i>Il ne prononce aucune parole sans avoir auprès de lui un observateur prêt à l'inscrire.</i>»<sup>2992</sup>"
+                "introduction": "«<i>Certes Allah vous observe parfaitement.</i>»<sup>2986</sup><br><br>«<i>Il ne prononce aucune parole sans avoir auprès de lui un observateur prêt à l'inscrire.</i>»<sup>2987</sup>"
             },
             {
                 "title": "838 - Incitation à observer et surveiller sa propre personne",
                 "hadiths": [
                     {
                         "number": "2650",
-                        "text": "Le Messager d'Allah (s) a dit : Il était inscrit sur eux [c'est-à-dire les feuillets d'Abraham (as)] : Tant qu'elle est saine d'esprit, la personne raisonnable doit réserver plusieurs heures [dans la journée] : une heure pour s'entretenir avec son Seigneur, une heure durant laquelle elle juge et demande des comptes à sa propre personne, une heure où elle médite au sujet de ce qu'Allah le Tout-Puissant a fait pour elle, et une heure de plaisir licite. Cette heure l'aidera à bien effectuer les autres heures, et sera un moment pour récupérer et reposer son cœur.<sup>2994</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Il était inscrit sur eux [c'est-à-dire les feuillets d'Abraham (as)] : Tant qu'elle est saine d'esprit, la personne raisonnable doit réserver plusieurs heures [dans la journée] : une heure pour s'entretenir avec son Seigneur, une heure durant laquelle elle juge et demande des comptes à sa propre personne, une heure où elle médite au sujet de ce qu'Allah le Tout-Puissant a fait pour elle, et une heure de plaisir licite. Cette heure l'aidera à bien effectuer les autres heures, et sera un moment pour récupérer et reposer son cœur.<sup>2989</sup>"
                     },
                     {
                         "number": "2651",
-                        "text": "L'Imām 'Alī (as) a dit : Fais de ta personne un observateur de ta propre personne, et utilise ta vie présente pour obtenir ta part dans l'Au-delà.<sup>2995</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : Fais de ta personne un observateur de ta propre personne, et utilise ta vie présente pour obtenir ta part dans l'Au-delà.<sup>2990</sup>"
                     },
                     {
                         "number": "2652",
-                        "text": "L'Imām 'Alī (as) a dit : L'homme doit dominer et contrôler sa personne, observer son cœur et garder sa langue.<sup>2996</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : L'homme doit dominer et contrôler sa personne, observer son cœur et garder sa langue.<sup>2991</sup>"
                     },
                     {
                         "number": "2653",
-                        "text": "L'Imām 'Alī (as) a dit : Allah est miséricordieux envers le serviteur qui a accueilli un précepte ou a pris ses précautions, qui a été invité à la droiture et s'en est rapproché, qui a été saisi par un guide et a été sauvé, et qui traite son Seigneur avec égards par crainte de ses fautes.<sup>2997</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : Allah est miséricordieux envers le serviteur qui a accueilli un précepte ou a pris ses précautions, qui a été invité à la droiture et s'en est rapproché, qui a été saisi par un guide et a été sauvé, et qui traite son Seigneur avec égards par crainte de ses fautes.<sup>2992</sup>"
                     },
                     {
                         "number": "2654",
-                        "text": "L'Imām 'Alī (as) a dit : La personne raisonnable doit comptabiliser les méfaits de son âme commis dans le domaine de la religion, de l'opinion, des vertus éthiques et de la bonne conduite. Elle doit rassembler cela en elle-même ou dans un livre, et travailler à les faire disparaître.<sup>2998</sup>"
+                        "text": "L'Imām 'Alī (as) a dit : La personne raisonnable doit comptabiliser les méfaits de son âme commis dans le domaine de la religion, de l'opinion, des vertus éthiques et de la bonne conduite. Elle doit rassembler cela en elle-même ou dans un livre, et travailler à les faire disparaître.<sup>2993</sup>"
                     },
                     {
                         "number": "2655",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Parmi les exhortations d'Allah - le Béni et le Très-Haut - à Jésus fils de Marie (as) figure : «Ô Jésus, où que tu sois, observe ta propre personne pour Moi.»<sup>2999</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Parmi les exhortations d'Allah - le Béni et le Très-Haut - à Jésus fils de Marie (as) figure : «Ô Jésus, où que tu sois, observe ta propre personne pour Moi.»<sup>2994</sup>"
                     },
                     {
                         "number": "2656",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui dont les jours se ressemblent [sans aucun changement dans son comportement et ses actes] est perdant ; celui dont le lendemain est pire que le jour présent est maudit ; celui qui n'observe pas ses propres manques et défauts [pour s'améliorer] verra ses manques persister ; et pour celui dont les manques et défauts persistent, la mort est préférable.<br>(Voir également : 304. La négligence, section 1434)"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui dont les jours se ressemblent [sans aucun changement dans son comportement et ses actes] est perdant ; celui dont le lendemain est pire que le jour présent est maudit ; celui qui n'observe pas ses propres manques et défauts [pour s'améliorer] verra ses manques persister ; et pour celui dont les manques et défauts persistent, la mort est préférable.<sup>2995</sup><br>(Voir également : 304. La négligence, section 1434)"
                     }
                 ]
             },
@@ -15868,7 +15878,7 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2657",
-                        "text": "L'Imām al-Kāẓim (as) a dit : Celui qui ne juge et ne demande pas de comptes à sa propre personne chaque jour ne fait pas partie des nôtres : lorsqu'il accomplit une bonne action, il doit demander à Allah de lui permettre d'en réaliser davantage, et lorsqu'il accomplit une mauvaise action, il doit demander pardon à Allah et se repentir.<sup>3001</sup>"
+                        "text": "L'Imām al-Kāẓim (as) a dit : Celui qui ne juge et ne demande pas de comptes à sa propre personne chaque jour ne fait pas partie des nôtres : lorsqu'il accomplit une bonne action, il doit demander à Allah de lui permettre d'en réaliser davantage, et lorsqu'il accomplit une mauvaise action, il doit demander pardon à Allah et se repentir.<sup>2996</sup>"
                     }
                 ]
             }
@@ -15882,19 +15892,19 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2658",
-                        "text": "Le Messager d'Allah (s) a dit : En vérité, le mois de Ramadan est appelé ainsi car il brûle les péchés.<sup>3002a</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, le mois de Ramadan est appelé ainsi<sup>2998</sup> car il brûle les péchés.<sup>2999</sup>"
                     },
                     {
                         "number": "2659",
-                        "text": "Le Messager d'Allah (s) a dit : En vérité, les portes du ciel s'ouvrent la première nuit du mois de Ramadan et elles ne se referment que la dernière nuit.<sup>3002b</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : En vérité, les portes du ciel s'ouvrent la première nuit du mois de Ramadan et elles ne se referment que la dernière nuit.<sup>3000</sup>"
                     },
                     {
                         "number": "2660",
-                        "text": "Le Messager d'Allah (s) a dit : Si le serviteur savait la valeur du [mois de] Ramadan, il souhaiterait que le Ramadan dure toute l'année.<sup>3002c</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Si le serviteur savait la valeur du [mois de] Ramadan, il souhaiterait que le Ramadan dure toute l'année.<sup>3001</sup>"
                     },
                     {
                         "number": "2661",
-                        "text": "Le Messager d'Allah (s) a dit : Lorsque la lune du [mois de] Ramadan apparaît, les portes de l'Enfer sont fermées, les portes du Paradis sont ouvertes, et les démons sont enchaînés.<sup>3002d</sup>"
+                        "text": "Le Messager d'Allah (s) a dit : Lorsque la lune du [mois de] Ramadan apparaît, les portes de l'Enfer sont fermées, les portes du Paradis sont ouvertes, et les démons sont enchaînés.<sup>3002</sup>"
                     },
                     {
                         "number": "2662",
@@ -15909,7 +15919,7 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit dans l'un de ses conseils à ses enfants lors de l'avènement du mois de Ramadan : Déployez tous vos efforts [pour y faire le bien] car en vérité, durant ce mois, les subsistances sont assignées, les échéances [de vie] sont déterminées, les noms des proches serviteurs d'Allah qui souhaitent s'efforcer vers Lui sont enregistrés, et il y a dans ce mois une nuit durant laquelle les actes qui y sont réalisés sont meilleurs que les actes de mille mois.<sup>3005</sup>"
                     }
                 ],
-                "introduction": "«<i>[Ces jours sont] le mois de Ramadan au cours duquel le Coran a été descendu comme guide pour les gens, et preuves claires de la bonne direction et du discernement. Ainsi, quiconque d'entre vous est présent en ce mois, qu'il jeûne ! Et quiconque est malade ou en voyage, alors qu'il jeûne un nombre égal d'autres jours. - Allah veut pour vous la facilité, Il ne veut pas la difficulté pour vous, afin que vous en complétiez le nombre et que vous proclamiez la grandeur d'Allah pour vous avoir guidés, et afin que vous soyez reconnaissants !</i>»<sup>3002</sup>"
+                "introduction": "«<i>[Ces jours sont] le mois de Ramadan au cours duquel le Coran a été descendu comme guide pour les gens, et preuves claires de la bonne direction et du discernement. Ainsi, quiconque d'entre vous est présent en ce mois, qu'il jeûne ! Et quiconque est malade ou en voyage, alors qu'il jeûne un nombre égal d'autres jours. - Allah veut pour vous la facilité, Il ne veut pas la difficulté pour vous, afin que vous en complétiez le nombre et que vous proclamiez la grandeur d'Allah pour vous avoir guidés, et afin que vous soyez reconnaissants !</i>»<sup>2997</sup>"
             },
             {
                 "title": "841 - Le pardon d'Allah durant le mois de Ramadan",
@@ -16124,11 +16134,11 @@ const AUNE_SAGESSE = [
                 "hadiths": [
                     {
                         "number": "2699",
-                        "text": "L'Imām al-Bāqir (as) a dit : Le Jour du Jugement, Allah transformera les biens de celui qui refusait de s'acquitter de la zakāt en un cobra de feu pourvu de deux glandes venimeuses qui s'enroulera autour de lui, et il lui sera dit : «Accroche-toi à lui comme il s'est accroché à toi dans la vie terrestre.» C'est ce que signifie la parole d'Allah : «Le Jour de la Résurrection, on leur attachera autour du cou ce qu'ils ont gardé avec avarice».<sup>3044, 3045</sup>"
+                        "text": "L'Imām al-Bāqir (as) a dit : Le Jour du Jugement, Allah transformera les biens de celui qui refusait de s'acquitter de la zakāt en un cobra de feu pourvu de deux glandes venimeuses qui s'enroulera autour de lui, et il lui sera dit : «Accroche-toi à lui comme il s'est accroché à toi dans la vie terrestre.» C'est ce que signifie la parole d'Allah : «Le Jour de la Résurrection, on leur attachera autour du cou ce qu'ils ont gardé avec avarice».<sup>3044</sup> <sup>3045</sup>"
                     },
                     {
                         "number": "2700",
-                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui a refusé de s'acquitter de la zakāt demandera à retourner [sur terre] à l'instant de sa mort, selon la parole d'Allah le Tout-Puissant : «Puis, quand la mort vient à l'un d'eux, il dit : «Mon Seigneur ! Fais-moi revenir [sur terre], afin que je fasse du bien dans ce que je délaissais.»<sup>3046, 3047</sup>"
+                        "text": "L'Imām al-Ṣādiq (as) a dit : Celui qui a refusé de s'acquitter de la zakāt demandera à retourner [sur terre] à l'instant de sa mort, selon la parole d'Allah le Tout-Puissant : «Puis, quand la mort vient à l'un d'eux, il dit : «Mon Seigneur ! Fais-moi revenir [sur terre], afin que je fasse du bien dans ce que je délaissais.»<sup>3046</sup> <sup>3047</sup>"
                     },
                     {
                         "number": "2701",
@@ -16494,7 +16504,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 3087
     },
     {
         "title": "175 - LE MARIAGE",
@@ -18894,7 +18905,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 3538
     },
     {
         "title": "207 - LA PROCRASTINATION",
@@ -18963,7 +18975,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 3558
     },
     {
         "title": "209 - SE BROSSER LES DENTS",
@@ -20734,7 +20747,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 3868
     },
     {
         "title": "230 - LA SINCÉRITÉ",
@@ -21231,7 +21245,8 @@ const AUNE_SAGESSE = [
                 ],
                 "introduction": "«Ô les croyants ! N'annulez pas vos aumônes par un rappel ou un tort, à l'instar de celui qui dépense son bien par ostentation face aux gens, sans croire en Allah ni au Jour dernier. Il ressemble à un rocher que recouvre un peu de terre : qu'une averse l'atteigne et elle le laisse dénué.»<sup>4005</sup>"
             }
-        ]
+        ],
+        "titleNote": 3957
     },
     {
         "title": "233 - LE CHEMIN",
@@ -21924,7 +21939,8 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Bāqir ou l'Imām al-Ṣādiq (as) a dit : Le Jour du Jugement, l'acte le plus lourd déposé dans la balance sera la prière sur Muḥammad (s) et sur sa Famille (as).<sup>4155</sup>"
                     }
                 ],
-                "introduction": "«Certes, Allah et Ses Anges prient sur le Prophète. Ô vous qui croyez, priez sur lui et adressez [lui] vos salutations.»<sup>4149</sup>"
+                "introduction": "«Certes, Allah et Ses Anges prient sur le Prophète. Ô vous qui croyez, priez sur lui et adressez [lui] vos salutations.»<sup>4149</sup>",
+                "titleNote": 4148
             },
             {
                 "title": "1147 - La manière de prier sur le Prophète (s) et sur sa famille (as)",
@@ -22327,7 +22343,8 @@ const AUNE_SAGESSE = [
                         "number": "3745",
                         "text": "Le Messager d'Allah (s) a dit : En vérité, Allah secourt cette communauté de par [la présence des] faibles parmi elle, leurs invocations, leurs prières, ainsi que leur sincérité.<sup>4230</sup>"
                     }
-                ]
+                ],
+                "titleNote": 4227
             },
             {
                 "title": "1165 - [Le retour au] pouvoir des faibles",
@@ -22462,7 +22479,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 4250
     },
     {
         "title": "249 - L'HOSPITALITÉ",
@@ -22795,7 +22813,8 @@ const AUNE_SAGESSE = [
                         "number": "3823",
                         "text": "Le Messager d'Allah (s) a dit : La prière sans purification [par des ablutions] n'est pas acceptée.<sup>4322</sup>"
                     }
-                ]
+                ],
+                "titleNote": 4319
             },
             {
                 "title": "1187 - Les purificateurs",
@@ -24181,7 +24200,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 4573
     },
     {
         "title": "271 - LA CONNAISSANCE D'ALLAH",
@@ -24873,7 +24893,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 4711
     },
     {
         "title": "273 - LA BIENSÉANCE (2)",
@@ -25169,7 +25190,8 @@ const AUNE_SAGESSE = [
                         "number": "4244",
                         "text": "L'Imām al-Ṣādiq (as) a dit : La plus petite consolation qui t'est demandée est que la personne affectée par le malheur te voie présent [à ses côtés].<sup>4795</sup>"
                     }
-                ]
+                ],
+                "titleNote": 4792
             },
             {
                 "title": "1296 - Ce qu'il faut dire pour consoler une personne affectée par un malheur",
@@ -25454,7 +25476,8 @@ const AUNE_SAGESSE = [
                         "number": "4291",
                         "text": "L'Imām al-Riḍā (as) a dit : … Il [l'Imām] est donc infaillible, appuyé, renforcé, victorieux et dirigé [par Allah]. Il est préservé de toute faute, trébuchement et faux pas. Allah lui a donné ces caractéristiques afin qu'il soit un argument vis-à-vis de Ses serviteurs et Son témoin face à Sa création.<sup>4847</sup>"
                     }
-                ]
+                ],
+                "titleNote": 4843
             }
         ]
     },
@@ -26204,7 +26227,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 4922
     },
     {
         "title": "287 - LA RETRAITE SPIRITUELLE À LA MOSQUÉE (I'TIKĀF)",
@@ -27341,7 +27365,8 @@ const AUNE_SAGESSE = [
                 ],
                 "introduction": "«Et ceux qui remplissent leurs engagements lorsqu'ils se sont engagés.»<sup>5225</sup><br><br><span class=\"reference-note\">(Voir également : Coran 23:8, 19:54, 61:2-3, 70:32, 16:91)</span>"
             }
-        ]
+        ],
+        "titleNote": 5224
     },
     {
         "title": "292 - LA RÉSURRECTION",
@@ -27627,7 +27652,8 @@ const AUNE_SAGESSE = [
                         "number": "4701",
                         "text": "<i>Biḥār al-Anwār</i> : Il a été rapporté que al-Manṣūr demanda à Mūsā ibn Ja'far (as) de s'asseoir [avec lui] le jour de Nowrūz afin de recevoir des vœux et les cadeaux présentés à lui. Il (as) dit alors : «En vérité, j'ai examiné les traditions de mon grand-père le Messager d'Allah (s), et je n'en ai trouvé aucune à propos de cette fête. En vérité, c'est une tradition persane que l'islam a abrogée, et Allah interdit de raviver ce que l'islam a abrogé.» Manṣūr dit alors : «Nous agissons dans le cadre d'une politique vis-à-vis des soldats.<sup>5315</sup> Je t'implore par Allah le Très-Grand de t'asseoir.» Dès lors, il s'assit…<sup>5316</sup>"
                     }
-                ]
+                ],
+                "titleNote": 5310
             },
             {
                 "title": "1399 - Les ornements des fêtes",
@@ -28549,7 +28575,8 @@ const AUNE_SAGESSE = [
                 ],
                 "introduction": "«Ô gens du Livre [chrétiens], n'exagérez pas dans votre religion, et ne dites d'Allah que la vérité. Le Messie Jésus, fils de Marie, n'est qu'un messager d'Allah, et Sa parole.»<sup>5487</sup>"
             }
-        ]
+        ],
+        "titleNote": 5486
     },
     {
         "title": "307 - LA RICHESSE",
@@ -28732,7 +28759,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 5529
     },
     {
         "title": "309 - L'INVISIBLE",
@@ -28959,7 +28987,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 5567
     },
     {
         "title": "312 - LA MISE À L'ÉPREUVE",
@@ -29902,7 +29931,8 @@ const AUNE_SAGESSE = [
                         "number": "5105",
                         "text": "L'Imām al-Riḍā (as) a dit : L'indulgence, le savoir et le silence font partie des signes du savant en religion.<sup>5778</sup>"
                     }
-                ]
+                ],
+                "titleNote": 5773
             },
             {
                 "title": "1497 - La pénibilité de l'existence du savant en religion pour Iblīs",
@@ -30833,7 +30863,8 @@ const AUNE_SAGESSE = [
                         "text": "L'Imām al-Ṣādiq (as) a dit : Prenez garde au fait de recourir au jugement des oppresseurs. Regardez plutôt qui parmi vous a une connaissance de nos préceptes légaux et faites de lui votre juge, car j'ai fait d'une telle personne un juge. Par conséquent, ayez recours à son jugement.<sup>5979</sup>"
                     }
                 ],
-                "introduction": "«N'as-tu pas vu ceux qui prétendent croire à ce qu'on a fait descendre vers toi [ô prophète] et à ce qu'on a fait descendre avant toi ? Ils veulent prendre pour juge le <i>Ṭāghūt</i>, alors que c'est en lui qu'on leur a commandé de ne pas croire.»<sup>5977</sup>"
+                "introduction": "«N'as-tu pas vu ceux qui prétendent croire à ce qu'on a fait descendre vers toi [ô prophète] et à ce qu'on a fait descendre avant toi ? Ils veulent prendre pour juge le <i>Ṭāghūt</i>, alors que c'est en lui qu'on leur a commandé de ne pas croire.»<sup>5977</sup>",
+                "titleNote": 5976
             },
             {
                 "title": "1536 - La gravité de l'acte de juger",
@@ -31436,7 +31467,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 6080
     },
     {
         "title": "338 - L'ORGUEIL",
@@ -31976,7 +32008,8 @@ const AUNE_SAGESSE = [
                         "text": "Lorsqu'il fut interrogé par 'Abdullāh ibn Bukayr au sujet d'un homme qui demandait à le voir et qui dit à sa servante de dire : «Il n'est pas là [à cet endroit même]<sup>6212</sup>, [dire une telle chose est-elle autorisée ?]», l'Imām al-Ṣādiq (as) répondit : «Il n'y a pas de mal, ce n'est pas un mensonge.»<sup>6213</sup>"
                     }
                 ],
-                "introduction": "«Il dit : «C'est la plus grande d'entre elles que voici qui l'a fait. Interrogez-les donc, si elles peuvent parler !»»<sup>6210</sup>"
+                "introduction": "«Il dit : «C'est la plus grande d'entre elles que voici qui l'a fait. Interrogez-les donc, si elles peuvent parler !»»<sup>6210</sup>",
+                "titleNote": 6209
             },
             {
                 "title": "1589 - Ecouter le mensonge",
@@ -32190,7 +32223,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 6217
     },
     {
         "title": "343 - LE GAIN",
@@ -33466,7 +33500,8 @@ const AUNE_SAGESSE = [
                         "number": "5753",
                         "text": "L'Imām 'Alī (as) a dit : Prends garde au fait d'avoir une passion excessive pour les femmes et d'être séduit par les plaisirs de ce monde, car la passion pour les femmes est une épreuve et la séduction par les plaisirs est une humiliation.<sup>6506</sup>"
                     }
-                ]
+                ],
+                "titleNote": 6503
             }
         ]
     },
@@ -33506,7 +33541,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 6507
     },
     {
         "title": "362 - LA MALADIE",
@@ -34372,7 +34408,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 6657
     },
     {
         "title": "369 - LA PROPHÉTIE (1)",
@@ -34693,7 +34730,8 @@ const AUNE_SAGESSE = [
                     }
                 ],
                 "introduction": "«Et aux habitants de Madyan [fut envoyé] leur frère Shu'ayb. «Ô mon peuple, dit-il, adorez Allah, pas d'autre divinité que Lui. Une preuve vous est venue de notre Seigneur. Donnez donc la juste mesure et le bon poids, et ne donnez pas aux gens moins que ce qui leur est dû. Et ne semez pas la corruption sur terre après sa réforme. Cela sera mieux pour vous, si vous êtes croyants.» [...]. Ceux qui traitaient Shu'ayb de menteur [disparurent] comme s'ils n'y avaient jamais vécu. Ceux qui traitaient Shu'ayb de menteur furent eux les perdants.»<sup>6778</sup><br><br><span class=\"reference-note\">(Voir également : Coran 11:84-95, 15:78-79, 26:176-190, 28:45, 29:36-37, 50:14)</span>",
-                "note": "<strong>Aperçu de l'histoire de Shu'ayb (as) et de son peuple dans le Saint Coran</strong><br><br>Il (as) était originaire de Madyan, une ville située entre la Syrie et la péninsule arabique. Il était contemporain de Moïse (as), qu'il a marié à l'une de ses filles à condition que Moïse travaille huit ans pour lui, et s'il voulait que cette durée se prolonge jusqu'à dix ans, il était libre d'en décider ainsi (28:27). Ainsi, Moïse le servit pendant dix années, puis il le quitta pour se rendre avec sa famille en Égypte.<br>Son peuple, qui était de Madyan, adorait les idoles et jouissait de la sécurité, de la prospérité, de terres fertiles et de prix modérés. Mais la corruption se propagea en son sein, et ils lésinaient en fraudant sur la mesure et la pesée (11:84, ainsi que d'autres versets). Par conséquent, Allah leur envoya Shu'ayb et Il lui ordonna de leur interdire l'adoration des idoles, de semer la corruption sur terre, ainsi que de frauder dans la pesée et la balance. Il les invita à ce qui lui avait été ordonné, il les exhorta par la menace [du châtiment] et par la bonne nouvelle [du Paradis], et il leur rappela quel fut le sort du peuple de Noé, de Hūd, de Ṣāliḥ, et de Loth.<br>Il (as) débattit longuement avec eux et les exhorta, mais cela ne fit qu'augmenter leur rébellion, leur mécréance et leur corruption (sourates al-a'rāf, Hūd, et autres). Seul un faible nombre d'entre eux crurent en lui, et les gens se mirent à agresser, à se moquer, et à menacer ceux qui avaient suivi Shu'ayb (as). Ils se plaçaient sur tout chemin, menaçant, empêchant du sentier d'Allah celui qui avait cru en Lui et cherchant à rendre ce sentier tortueux. (7:86).<br>Ils se mirent à l'accuser d'être ensorcelé et d'être un menteur (26:185-186), ils l'effrayèrent par la lapidation et le menacèrent ainsi que ceux qui avaient cru de les chasser de leur cité, à moins qu'ils ne reviennent à leur culte (7:88). Ils persistèrent ainsi jusqu'à ce qu'il perde espoir qu'ils croient, et il les abandonna à leur sort (11:93). Shu'ayb pria Allah pour accéder à la victoire et dit : «<i>Ô Notre Seigneur, tranche par la vérité entre nous et notre peuple, car Tu es le meilleur des juges.</i>» (7:89)<br>Ainsi, Allah leur envoya le châtiment du jour de l'Ombre (26:189) alors qu'ils se moquaient de lui en disant : «<i>Fais donc tomber sur nous des morceaux de ciel, si tu es du nombre des véridiques</i>» (26:187). Le Cri les saisit (11:94) ainsi qu'un violent tremblement (7:91, 29:37), «<i>et ils gisèrent dans leurs demeures</i>» (11:94). Il [Allah] sauva Shu'ayb et les croyants qui étaient avec lui (7:94). «<i>Il se détourna d'eux [son peuple] et dit : «Ô mon peuple ! Je vous ai bien transmis les messages de mon Seigneur et je vous ai prodigué des conseils. Comment donc m'attristerais-je sur le sort d'un peuple mécréant ?»</i>» (7:93).<sup>6780</sup>"
+                "note": "<strong>Aperçu de l'histoire de Shu'ayb (as) et de son peuple dans le Saint Coran</strong><br><br>Il (as) était originaire de Madyan, une ville située entre la Syrie et la péninsule arabique. Il était contemporain de Moïse (as), qu'il a marié à l'une de ses filles à condition que Moïse travaille huit ans pour lui, et s'il voulait que cette durée se prolonge jusqu'à dix ans, il était libre d'en décider ainsi (28:27). Ainsi, Moïse le servit pendant dix années, puis il le quitta pour se rendre avec sa famille en Égypte.<br>Son peuple, qui était de Madyan, adorait les idoles et jouissait de la sécurité, de la prospérité, de terres fertiles et de prix modérés. Mais la corruption se propagea en son sein, et ils lésinaient en fraudant sur la mesure et la pesée (11:84, ainsi que d'autres versets). Par conséquent, Allah leur envoya Shu'ayb et Il lui ordonna de leur interdire l'adoration des idoles, de semer la corruption sur terre, ainsi que de frauder dans la pesée et la balance. Il les invita à ce qui lui avait été ordonné, il les exhorta par la menace [du châtiment] et par la bonne nouvelle [du Paradis], et il leur rappela quel fut le sort du peuple de Noé, de Hūd, de Ṣāliḥ, et de Loth.<br>Il (as) débattit longuement avec eux et les exhorta, mais cela ne fit qu'augmenter leur rébellion, leur mécréance et leur corruption (sourates al-a'rāf, Hūd, et autres). Seul un faible nombre d'entre eux crurent en lui, et les gens se mirent à agresser, à se moquer, et à menacer ceux qui avaient suivi Shu'ayb (as). Ils se plaçaient sur tout chemin, menaçant, empêchant du sentier d'Allah celui qui avait cru en Lui et cherchant à rendre ce sentier tortueux. (7:86).<br>Ils se mirent à l'accuser d'être ensorcelé et d'être un menteur (26:185-186), ils l'effrayèrent par la lapidation et le menacèrent ainsi que ceux qui avaient cru de les chasser de leur cité, à moins qu'ils ne reviennent à leur culte (7:88). Ils persistèrent ainsi jusqu'à ce qu'il perde espoir qu'ils croient, et il les abandonna à leur sort (11:93). Shu'ayb pria Allah pour accéder à la victoire et dit : «<i>Ô Notre Seigneur, tranche par la vérité entre nous et notre peuple, car Tu es le meilleur des juges.</i>» (7:89)<br>Ainsi, Allah leur envoya le châtiment du jour de l'Ombre (26:189) alors qu'ils se moquaient de lui en disant : «<i>Fais donc tomber sur nous des morceaux de ciel, si tu es du nombre des véridiques</i>» (26:187). Le Cri les saisit (11:94) ainsi qu'un violent tremblement (7:91, 29:37), «<i>et ils gisèrent dans leurs demeures</i>» (11:94). Il [Allah] sauva Shu'ayb et les croyants qui étaient avec lui (7:94). «<i>Il se détourna d'eux [son peuple] et dit : «Ô mon peuple ! Je vous ai bien transmis les messages de mon Seigneur et je vous ai prodigué des conseils. Comment donc m'attristerais-je sur le sort d'un peuple mécréant ?»</i>» (7:93).<sup>6780</sup>",
+                "titleNote": 6777
             },
             {
                 "title": "1700 - Moïse [Mūsā] et Aaron [Hārūn] (as)",
@@ -35251,7 +35289,8 @@ const AUNE_SAGESSE = [
                         "number": "6081",
                         "text": "'Abd al-Malik ibn A'yan a dit : J'ai dit à Abū 'Abdillāh [l'Imām al-Ṣādiq] (as) : «J'ai été mis à l'épreuve par cette science [l'astrologie], de telle manière que dès que je veux une chose, je consulte les étoiles. Si je regarde l'étoile et y vois un mal, alors je m'assieds et je m'abstiens de la poursuivre. En revanche, si j'y vois un bien, je la poursuis.» Il me dit : «Tu suis donc [ces prévisions] ?» Je répondis : «Oui.» Il me dit : «Alors brûle tes livres.»<sup>6926</sup>"
                     }
-                ]
+                ],
+                "titleNote": 6921
             }
         ]
     },
@@ -37688,7 +37727,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 7408
     },
     {
         "title": "402 - LE TESTAMENT",
@@ -38011,7 +38051,8 @@ const AUNE_SAGESSE = [
                         "number": "6564",
                         "text": "L'Imām 'Alī (as) a dit : La raison en exil est une compagnie, alors que la sottise dans sa patrie est une solitude.<sup>7475</sup>"
                     }
-                ]
+                ],
+                "titleNote": 7472
             }
         ]
     },
@@ -38671,7 +38712,8 @@ const AUNE_SAGESSE = [
                     }
                 ]
             }
-        ]
+        ],
+        "titleNote": 7569
     },
     {
         "title": "412 - LA DISSIMULATION PAR PRUDENCE (TAQIYYA)",
@@ -39617,7 +39659,8 @@ const AUNE_SAGESSE = [
                 ],
                 "note": "Ô Allah, prie sur Muḥammad et sa famille, fais en sorte que ma foi soit la plus parfaite des fois, et que ma certitude soit la meilleure des certitudes.<br>Et accepte cela de moi, ô Celui qui change les péchés en bonnes actions, ô le plus Miséricordieux des miséricordieux.<br>Par la grâce d'Allah et Son soutien, cet ouvrage <i>Muntakhab Mīzān al-Ḥikma</i> a été achevé le jour de l'anniversaire de la naissance de son excellence Fāṭima al-Zahrā (as), le vingt Jumādī al-Thānī 1429 (24 juin 2008). Louanges à Allah en premier lieu et en dernier, que les bénédictions d'Allah soient sur notre maître Muḥammad et sa famille. <i>Wassalām</i>."
             }
-        ]
+        ],
+        "titleNote": 7776
     },
     {
         "title": "NOTES",
