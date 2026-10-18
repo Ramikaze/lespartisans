@@ -105,6 +105,29 @@ html[data-lp-theme="light"] #themeToggle .i-sun{display:none}
 .bar-back svg{width:18px;height:18px}
 body.iframe-active .bar-date,body.iframe-active .bar-text{display:none}
 
+/* ── Ciel au choix (nuit seulement : en Aube, le ciel est le même pour tous) ── */
+html[data-lp-theme="light"] #skyBtn,html[data-lp-theme="light"] .sky-menu{display:none}
+#skyBtn[aria-expanded="true"]{color:var(--lp-amber);background:var(--lp-fill)}
+.sky-menu{position:fixed;z-index:400;width:min(304px,calc(100vw - 24px));padding:8px;border-radius:18px;background:var(--gs-bg);border:1px solid var(--lp-edge);box-shadow:0 34px 80px -34px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.07);-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);transform-origin:top right;opacity:0;transform:translateY(-6px) scale(.98);transition:opacity .25s var(--lp-ease),transform .4s var(--lp-ease)}
+.sky-menu.is-open{opacity:1;transform:none}
+.sky-menu-t{margin:6px 10px 6px;font-size:13px;font-weight:400;color:var(--lp-ink-3)}
+.sky-menu-n{margin:6px 10px 4px;padding-top:8px;border-top:1px solid var(--lp-hairline);font-size:12.5px;font-weight:300;line-height:1.4;color:var(--lp-ink-3)}
+.sky-opt{display:flex;align-items:center;gap:12px;width:100%;padding:8px 10px;border-radius:12px;transition:background-color .2s}
+.sky-opt:hover,.sky-opt:focus-visible{background:rgba(var(--lp-glow),.08)}
+.sky-sw{flex:none;width:46px;height:30px;border-radius:10px;border:1px solid var(--lp-edge);box-shadow:inset 0 1px 0 rgba(255,255,255,.08);transition:border-color .25s,box-shadow .25s}
+.sky-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.sky-name{font-size:15px;font-weight:400;color:var(--lp-ink);transition:color .25s}
+.sky-desc{font-size:13px;font-weight:300;color:var(--lp-ink-3)}
+.sky-ok{flex:none;width:18px;height:18px;color:var(--lp-amber);opacity:0;transition:opacity .25s}
+.sky-opt[aria-checked="true"] .sky-ok{opacity:1}
+.sky-opt[aria-checked="true"] .sky-name{color:var(--lp-amber)}
+.sky-opt[aria-checked="true"] .sky-sw{border-color:var(--lp-lamp-line);box-shadow:0 0 0 1px rgba(var(--lp-glow),.3),0 0 16px -3px rgba(var(--lp-glow),.5)}
+/* aperçus : chaque ciel en miniature */
+.sw-brume{background:radial-gradient(circle at 22% 30%,#fff 0 .5px,transparent 1.2px),radial-gradient(circle at 70% 64%,#fff 0 .5px,transparent 1.2px),radial-gradient(circle at 86% 22%,#dfe8ff 0 .4px,transparent 1px),radial-gradient(60% 90% at 72% 45%,rgba(128,106,214,.5),transparent 70%),radial-gradient(80% 100% at 18% 90%,rgba(70,108,200,.42),transparent 72%),#070b19}
+.sw-lactee{background:radial-gradient(circle at 30% 62%,#fff 0 .5px,transparent 1.2px),radial-gradient(circle at 62% 36%,#ffe9c8 0 .5px,transparent 1.2px),radial-gradient(circle at 82% 72%,#fff 0 .4px,transparent 1px),linear-gradient(150deg,transparent 47%,rgba(4,5,10,.7) 51%,transparent 55%),linear-gradient(150deg,transparent 28%,rgba(170,184,222,.3) 42%,rgba(255,214,160,.42) 50%,rgba(170,184,222,.28) 58%,transparent 72%),#05070f}
+.sw-nebuleuse{background:radial-gradient(circle at 60% 46%,#fff 0 .5px,transparent 1.2px),radial-gradient(circle at 24% 24%,#dfe8ff 0 .4px,transparent 1px),radial-gradient(38% 52% at 64% 48%,rgba(255,196,140,.5),transparent 70%),radial-gradient(70% 95% at 62% 50%,rgba(122,74,196,.6),transparent 76%),radial-gradient(60% 80% at 14% 88%,rgba(44,86,170,.5),transparent 72%),#060817}
+.sw-desert{background:radial-gradient(circle at 20% 22%,#fff 0 .5px,transparent 1.2px),radial-gradient(circle at 52% 14%,#fff 0 .4px,transparent 1px),radial-gradient(circle at 78% 34%,#ffe9c8 0 .5px,transparent 1.2px),radial-gradient(circle at 38% 46%,#dfe8ff 0 .4px,transparent 1px),linear-gradient(180deg,#03050c 0%,#0a1328 52%,#1c2a4a 80%,#4b3527 100%)}
+
 /* ── Accueil ────────────────────────────────────────────────────────── */
 .home{
   position:relative;z-index:1;min-height:100svh;
@@ -481,12 +504,24 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     <button class="bar-icon" id="gsOpenBtn" type="button" aria-label="Rechercher sur tout le site" title="Rechercher">
       <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>
     </button>
+    <button class="bar-icon" id="skyBtn" type="button" aria-label="Choisir le ciel de nuit" title="Ciel de nuit" aria-haspopup="menu" aria-expanded="false" aria-controls="skyMenu" hidden>
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3.5l1.4 3.9 3.9 1.4-3.9 1.4L10 14.1l-1.4-3.9-3.9-1.4 3.9-1.4z"/><path d="M17.5 13.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>
+    </button>
     <button class="bar-icon" id="themeToggle" type="button" aria-label="Passer en mode clair" title="Mode clair">
       <svg class="ic i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
       <svg class="ic i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5a6.8 6.8 0 0 0 10.7 10.7z"/></svg>
     </button>
   </div>
 </header>
+
+<div class="sky-menu" id="skyMenu" role="menu" aria-label="Ciel de nuit" hidden>
+  <p class="sky-menu-t" aria-hidden="true">Ciel de nuit</p>
+  <button class="sky-opt" type="button" role="menuitemradio" aria-checked="false" data-ciel="brume"><span class="sky-sw sw-brume" aria-hidden="true"></span><span class="sky-txt"><span class="sky-name">Brume</span><span class="sky-desc">Voiles de brume bleue</span></span><svg class="ic sky-ok" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg></button>
+  <button class="sky-opt" type="button" role="menuitemradio" aria-checked="false" data-ciel="lactee"><span class="sky-sw sw-lactee" aria-hidden="true"></span><span class="sky-txt"><span class="sky-name">Voie lactée</span><span class="sky-desc">Une bande d'étoiles</span></span><svg class="ic sky-ok" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg></button>
+  <button class="sky-opt" type="button" role="menuitemradio" aria-checked="false" data-ciel="nebuleuse"><span class="sky-sw sw-nebuleuse" aria-hidden="true"></span><span class="sky-txt"><span class="sky-name">Nébuleuse</span><span class="sky-desc">Nuages colorés</span></span><svg class="ic sky-ok" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg></button>
+  <button class="sky-opt" type="button" role="menuitemradio" aria-checked="false" data-ciel="desert"><span class="sky-sw sw-desert" aria-hidden="true"></span><span class="sky-txt"><span class="sky-name">Désert</span><span class="sky-desc">Ciel pur, horizon chaud</span></span><svg class="ic sky-ok" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg></button>
+  <p class="sky-menu-n" aria-hidden="true">Votre choix est gardé pour vos prochaines visites.</p>
+</div>
 
 <main class="home" id="homeScreen">
   <h1 class="sr-only">Les Partisans — ressources islamiques chiites en français</h1>
@@ -1268,6 +1303,58 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (e.origin !== location.origin || !e.data || e.data.type !== 'lp-theme') return;
     if (e.data.theme === 'light' || e.data.theme === 'dark') switchTheme(e.data.theme);
   });
+
+  /* ── Ciel au choix : le visiteur choisit son ciel de nuit (lp-design.js, CIEL_AU_CHOIX) ── */
+  (function () {
+    var btn = document.getElementById('skyBtn'), menu = document.getElementById('skyMenu');
+    if (!btn || !menu || !lpSky.auChoix || !html.classList.contains('lp-sky-on')) return;
+    btn.hidden = false;
+    var opts = [].slice.call(menu.querySelectorAll('.sky-opt')), shut = 0;
+    function mark() {
+      var c = lpSky.current();
+      opts.forEach(function (o) { o.setAttribute('aria-checked', o.dataset.ciel === c ? 'true' : 'false'); });
+    }
+    function place() {
+      var b = btn.getBoundingClientRect(), w = menu.offsetWidth;
+      menu.style.top = Math.round(b.bottom + 8) + 'px';
+      menu.style.left = Math.round(Math.max(12, Math.min(window.innerWidth - w - 12, b.right - w))) + 'px';
+    }
+    function open() {
+      clearTimeout(shut);
+      mark();
+      menu.hidden = false;
+      place();
+      btn.setAttribute('aria-expanded', 'true');
+      requestAnimationFrame(function () { menu.classList.add('is-open'); });
+      (opts.filter(function (o) { return o.getAttribute('aria-checked') === 'true'; })[0] || opts[0]).focus();
+    }
+    function close(back) {
+      if (menu.hidden) return;
+      menu.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+      clearTimeout(shut);
+      shut = setTimeout(function () { menu.hidden = true; }, reduce.matches ? 0 : 260);
+      if (back) btn.focus();
+    }
+    btn.addEventListener('click', function () { if (btn.getAttribute('aria-expanded') === 'true') close(false); else open(); });
+    opts.forEach(function (o, i) {
+      o.addEventListener('click', function () { lpSky.ciel(o.dataset.ciel); mark(); close(true); });
+      o.addEventListener('keydown', function (e) {
+        var n = opts.length, j = -1;
+        if (e.key === 'ArrowDown') j = (i + 1) % n;
+        else if (e.key === 'ArrowUp') j = (i - 1 + n) % n;
+        else if (e.key === 'Home') j = 0;
+        else if (e.key === 'End') j = n - 1;
+        if (j >= 0) { e.preventDefault(); opts[j].focus(); }
+      });
+    });
+    menu.addEventListener('keydown', function (e) { if (e.key === 'Escape') { e.stopPropagation(); close(true); } else if (e.key === 'Tab') close(false); });
+    document.addEventListener('pointerdown', function (e) { if (!menu.hidden && !menu.contains(e.target) && !btn.contains(e.target)) close(false); }, true);
+    window.addEventListener('resize', function () { if (!menu.hidden) place(); });
+    /* en Aube le bouton disparaît : le menu se referme avec lui */
+    new MutationObserver(function () { if (currentTheme() === 'light') close(false); })
+      .observe(html, { attributes: true, attributeFilter: ['data-lp-theme'] });
+  })();
 
   /* ── Barre : matière au défilement ── */
   function onScroll() { bar.classList.toggle('is-solid', window.scrollY > 8); }
