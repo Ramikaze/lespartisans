@@ -291,12 +291,17 @@ html[data-design="console"] .sb-item.active{
   box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 0 22px -10px rgba(var(--lp-glow),.6)!important;
 }
 html[data-design="console"] .sb-item.disabled{color:var(--lp-ink-3)!important;opacity:.6!important}
+/* Un groupe d'un livre : l'intertitre se lit au-dessus de ses textes (plus gras, plus clair),
+   et ses textes sont en retrait le long d'un filet, comme les branches d'un arbre */
 html[data-design="console"] .sb-item.subheader{
-  margin-top:8px!important;padding:8px 10px 6px 10px!important;
-  font-size:12.5px!important;font-weight:500!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-3)!important;opacity:1!important;
+  margin-top:10px!important;padding:8px 10px 6px 10px!important;
+  font-size:13.5px!important;font-weight:600!important;letter-spacing:.005em!important;text-transform:none!important;color:var(--lp-ink-2)!important;opacity:1!important;
 }
-html[data-design="console"] .sb-item.subheader:hover{color:var(--lp-ink)!important}
-html[data-design="console"] .sb-item.subheader.open{color:var(--lp-ink-2)!important}
+html[data-design="console"] .sb-item.subheader:hover,
+html[data-design="console"] .sb-item.subheader.open{color:var(--lp-ink)!important}
+html[data-design="console"] .sb-sub-items{margin-left:40px!important}
+html[data-design="console"] .sb-sub-items.open{margin-bottom:8px!important;border-left:1px solid var(--lp-edge)!important}
+html[data-design="console"] .sb-sub-items .sb-item{margin-left:8px!important;font-size:13px!important}
 
 /* Languette d'ouverture du panneau */
 html[data-design="console"] .sb-toggle{
