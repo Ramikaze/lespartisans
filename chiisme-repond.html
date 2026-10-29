@@ -478,7 +478,7 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  localStorage.setItem('lc_th',t);
  document.querySelector('meta[name="theme-color"]').content = t==='dark'?'#0a1628':'#faf6f0';
  /* Design « Console » : la barre système suit le thème du site (data-lp-theme), pas celui de la page */
- if(document.documentElement.getAttribute('data-design')==='console')document.querySelector('meta[name="theme-color"]').content=document.documentElement.getAttribute('data-lp-theme')==='light'?'#e6eaf1':'#04060c';
+ if(document.documentElement.getAttribute('data-design')==='console')document.querySelector('meta[name="theme-color"]').content=document.documentElement.getAttribute('data-lp-theme')==='light'?'#d9dfea':'#04060c';
  }
 
  function goTo(i) { S.ch=i; S.sb=false; S.so=false; render(); document.querySelector('.content-area')?.scrollTo(0,0); }

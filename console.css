@@ -40,14 +40,14 @@ html[data-design="console"]{
   color-scheme:dark;
 }
 html[data-design="console"][data-lp-theme="light"]{
-  --lp-void:#e2e7ee;
-  --lp-void-2:#d5dce7;
+  --lp-void:#cfd4df;
+  --lp-void-2:#c3cad7;
   --lp-ink:#0b1220;
   --lp-read:#1c2638;
-  --lp-ink-2:#3c475c;
-  --lp-ink-3:#4a5468; /* lisible sur le zénith ardoise de l'aube (≥4.5:1) */
-  --lp-amber:#7f4900;
-  --lp-amber-hi:#6e3f00;
+  --lp-ink-2:#353f53;
+  --lp-ink-3:#3e475a; /* lisible sur le zénith ardoise de l'aube (≥4.5:1) */
+  --lp-amber:#6a3c00;
+  --lp-amber-hi:#5a3200;
   --lp-amber-ink:#fff8ec;
   --lp-glow:240,166,58;
   --lp-lamp:rgba(240,166,58,.16);

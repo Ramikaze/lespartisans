@@ -135,7 +135,7 @@
       ' vec2 o=(vec2(hash(id+sd+1.7),hash(id+sd+3.1))-.5)*.6;',
       ' float d=length(f-o);float tw=.55+.45*sin(uTime*(.6+h*1.4)+h*40.);',
       ' float on=hash(id+sd+5.3)*.85;',
-      ' return smoothstep(.075,0.,d)*tw*smoothstep(on,on+.12,vis);}',
+      ' return smoothstep(.095,.015,d)*tw*smoothstep(on,on+.12,vis);}',
       /* La lumière dans la nuit : cœur clair et chaud, halo qui décroît comme une vraie source, frange rosée ; la brume la révèle */
       'vec3 lamp(vec2 fr,float m){',
       ' vec2 gd=(fr-uGlow.xy)/uRes.y;float g2=dot(gd,gd);',
@@ -241,15 +241,17 @@
         ' vec3 nt;float T=1.;'
       ].join('\n') + '\n' + night.join('\n') + '\n' + [
         /* Aube : ardoise au zénith, nacre, horizon pêche ; bancs de brume, soleil bas, poussière d'or */
-        ' vec3 dw=mix(vec3(.957,.898,.827),vec3(.902,.918,.945),smoothstep(.0,.5,y));',
-        ' dw=mix(dw,vec3(.792,.839,.902),smoothstep(.5,1.,y)*.9);',
-        ' dw=mix(dw,vec3(.99,.988,.984),fog*.5);',
-        ' dw=mix(dw,vec3(.72,.776,.86),(1.-fog)*(.12+.12*n)*smoothstep(.25,1.,y));',
+        /* un ciel de demi-teinte et non blanc : les poussières d'or et les éclats clairs s'y voient (le texte garde ≥ 4.5:1) */
+        ' vec3 dw=mix(vec3(.88,.80,.715),vec3(.80,.82,.87),smoothstep(.0,.5,y));',
+        ' dw=mix(dw,vec3(.70,.745,.83),smoothstep(.5,1.,y)*.9);',
+        ' dw=mix(dw,vec3(.93,.92,.91),fog*.3);',
+        ' dw=mix(dw,vec3(.63,.69,.795),(1.-fog)*(.14+.12*n)*smoothstep(.25,1.,y));',
         ' dw=mix(dw,vec3(1.,.82,.58),clamp(glow*(.62+.5*fog),0.,1.)*.85);',
         ' float dv0=smoothstep(.45,.98,L);',
         ' float md=motes(uv-vec2(0.,uScroll*.5),14.,.12,2.,dv0)+.6*motes(uv+5.-vec2(0.,uScroll*.4),24.,.16,11.,dv0);',
-        ' dw=mix(dw,vec3(.82,.56,.22),clamp(md*(.12+.85*glow),0.,1.)*.42);',
-        ' dw=mix(dw,vec3(1.),clamp(mm*dv0*(.25+glow)*.9,0.,1.));',
+        /* poussières d'or dans tout le ciel (pas seulement près du soleil), et fines étincelles claires qui scintillent */
+        ' dw=mix(dw,vec3(.70,.46,.14),clamp(md*(.75+.4*glow),0.,1.)*.85);',
+        ' dw=mix(dw,vec3(1.,.95,.84),clamp(mm*dv0*(.9+glow),0.,1.));',
         ' dw*=1.-vig*.07;',
         /* Passage : la nuit ou le jour l'emporte vite au centre de la transition */
         ' vec3 col=mix(nt,dw,smoothstep(.18,.82,L));',

@@ -1592,7 +1592,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   function applyTheme(t, broadcast) {
     window.lpSetTheme(t);
     try { localStorage.setItem('theme', t); } catch (e) {}
-    meta.setAttribute('content', t === 'light' ? '#e6eaf1' : '#04060c');
+    meta.setAttribute('content', t === 'light' ? '#d9dfea' : '#04060c');
     themeBtn.setAttribute('aria-label', t === 'light' ? 'Passer en mode sombre' : 'Passer en mode clair');
     themeBtn.title = t === 'light' ? 'Mode sombre' : 'Mode clair';
     lpSky.setLight(t === 'light');
