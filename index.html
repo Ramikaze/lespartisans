@@ -1203,6 +1203,19 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     camDone();
   }
   function camDone() { if (!homeEl._cam && !salle._cam) html.classList.remove('lp-cam'); }
+  /* La caméra s'arrête là où elle est : la scène garde sa position, d'où elle peut repartir sans saut */
+  function holdCam(scene) {
+    var cs = getComputedStyle(scene), k = { opacity: cs.opacity, transform: cs.transform }, o = scene.style.transformOrigin;
+    stopCam(scene);
+    scene.style.transformOrigin = o;
+    return k;
+  }
+  /* Cacher une scène : si la caméra la traverse (elle avance), elle part à la fin du travelling ;
+     si la caméra en ressortait (retour), le recul s'arrête et la scène part tout de suite */
+  function whenCamGone(scene, hide) {
+    if (scene._cam && scene._cam.into) scene._after = hide;
+    else { stopCam(scene); hide(); }
+  }
   /* Avancer : « arrive » ouvre la destination à mi-course, par-dessus la scène qui file encore */
   function camIn(scene, el, arrive) {
     var r = el && el.getBoundingClientRect();
@@ -1214,6 +1227,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     closeSheet();
     html.classList.add('lp-cam');
     var a = scene.animate(camFrames(scene, el, .5), { duration: 640, easing: CAM_MOVE, fill: 'forwards' });
+    /* « into » : la caméra avance encore vers « el » (dont « r » est la place au repos) ; un retour la fait demi-tourner */
+    a.into = true; a.el = el; a.r = r;
     scene._cam = a;
     el.classList.add('is-on');
     var arrived = false, ended = false;
@@ -1223,7 +1238,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       ended = true;
       land();
       body.classList.remove('is-entering');
-      if (scene._cam !== a) return;
+      if (scene._cam !== a || !a.into) return;
       var after = scene._after;
       scene._cam = null;
       scene._after = null;
@@ -1242,14 +1257,24 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   /* Reculer : la scène part de l'intérieur de l'objet et revient à sa place, le même chemin à l'envers */
   function camOut(scene, el) {
     if (reduce.matches || !el || !scene.animate) return false;
-    stopCam(scene);
-    var r = el.getBoundingClientRect();
-    if (!r.width || r.bottom <= 0 || r.top >= window.innerHeight) return false;
-    var f = camFrames(scene, el, .6).reverse();
-    f.forEach(function (k, i) { k.offset = i / (f.length - 1); });
+    var a = scene._cam, r;
+    if (a && a.into && a.el === el && a.playState !== 'finished') {
+      /* la caméra avançait encore vers cet objet : elle fait demi-tour là où elle est, sans saut ni éclair */
+      a.into = false;
+      a.onfinish = null;
+      scene._after = null;
+      r = a.r;
+      a.reverse();
+    } else {
+      stopCam(scene);
+      r = el.getBoundingClientRect();
+      if (!r.width || r.bottom <= 0 || r.top >= window.innerHeight) return false;
+      var f = camFrames(scene, el, .6).reverse();
+      f.forEach(function (k, i) { k.offset = i / (f.length - 1); });
+      a = scene.animate(f, { duration: 640, easing: CAM_MOVE });
+      scene._cam = a;
+    }
     html.classList.add('lp-cam');
-    var a = scene.animate(f, { duration: 640, easing: CAM_MOVE });
-    scene._cam = a;
     el.classList.add('is-on');
     lpSky.glowTo(window.innerWidth / 2, window.innerHeight * 0.55, 1.6);
     setTimeout(function () { lpSky.glowTo(r.left + r.width / 2, r.top + r.height * 0.7, 1.2); }, 260);
@@ -1269,8 +1294,9 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   }
   /* La scène quittée se cache tout de suite, ou à la fin du travelling qui l'emporte */
   function hideHome() {
-    if (homeEl._cam) homeEl._after = function () { homeEl.style.display = 'none'; };
-    else homeEl.style.display = 'none';
+    /* l'accueil retient où il en était : au retour, la caméra ressort de la même tuile, au même endroit */
+    if (homeEl.style.display !== 'none') homeEl._y = window.scrollY;
+    whenCamGone(homeEl, function () { homeEl.style.display = 'none'; });
   }
   /* Au retour, la page ouverte recule et s'efface au lieu de disparaître d'un coup */
   function recedeFrame() {
@@ -1313,6 +1339,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   document.addEventListener('pointerdown', function () { viaKeys = false; }, true);
   function fillSalle(id) {
     var room = document.getElementById('submenu-' + id);
+    salle._id = id;
     salle.querySelector('.salle-ar').textContent = towerFor(id).querySelector('.ar').textContent;
     salle.querySelector('.salle-t').textContent = room.querySelector('h2').textContent;
     salle.querySelector('.salle-d').textContent = room.querySelector('.room-head p').textContent;
@@ -1330,9 +1357,10 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   }
   /* « back » : la page d'où l'on revient ; la salle revient alors sans cascade, la carte prête à recevoir la vitre */
   function showSalle(id, back) {
-    if (salle._leave) { salle._leave.cancel(); salle._leave = null; }
-    stopCam(salle);
-    fillSalle(id);
+    if (salle._leave) { salle._leave.cancel(); salle._leave = null; salle.style.transformOrigin = ''; }
+    /* la caméra entrait encore dans une carte de cette salle : la salle reste telle quelle, la caméra va en ressortir */
+    var turning = !salle.hidden && salle._id === id && salle._cam && salle._cam.into;
+    if (!turning) { stopCam(salle); fillSalle(id); }
     salleId = id;
     hideAllFrames();
     closeSheet();
@@ -1340,7 +1368,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     clearRoom();
     hideHome();
     salle.hidden = false;
-    salle.scrollTop = 0;
+    if (!turning) salle.scrollTop = 0;
     bar.classList.remove('is-solid');
     setModuleBar(-1, 'Accueil');
     salle.classList.remove('is-arriving', 'is-landing');
@@ -1355,14 +1383,15 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (!salleId) return;
     salleId = null;
     function off() { salle.hidden = true; salle.classList.remove('is-arriving', 'is-landing'); }
-    if (salle._cam) salle._after = off;
-    else if (recede && !reduce.matches && salle.animate) {
-      var a = salle.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(.9)' }], { duration: 320, easing: EASE, fill: 'forwards' });
+    if (recede && !reduce.matches && salle.animate) {
+      /* la salle recule depuis là où elle est, même si une caméra la traversait encore */
+      var k = holdCam(salle);
+      var a = salle.animate([k, { opacity: 0, transform: (k.transform === 'none' ? '' : k.transform + ' ') + 'scale(.9)' }], { duration: 320, easing: EASE, fill: 'forwards' });
       salle._leave = a;
-      var gone = function () { if (salle._leave === a) { salle._leave = null; off(); a.cancel(); } };
+      var gone = function () { if (salle._leave === a) { salle._leave = null; off(); a.cancel(); salle.style.transformOrigin = ''; } };
       a.onfinish = gone;
       setTimeout(gone, 600);  /* filet : animation figée (onglet en arrière-plan) */
-    } else off();
+    } else whenCamGone(salle, off);
     bar.classList.toggle('is-solid', window.scrollY > 8);
   }
   salle.addEventListener('scroll', function () { bar.classList.toggle('is-solid', salle.scrollTop > 8); }, { passive: true });
@@ -1381,20 +1410,24 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   function home() {
     var wasModule = body.classList.contains('iframe-active');
     var wasSalle = salleId;
+    /* la caméra avançait encore vers un objet de l'accueil : c'est de lui qu'elle ressort, sans bouger la page */
+    var run = homeEl._cam && homeEl._cam.into ? homeEl._cam.el : null;
     if (wasModule) recedeFrame();
     hideAllFrames();
     hideSalle(true);
-    stopCam(homeEl);
     homeEl.style.display = '';
     setModuleBar(-1);
     closeSheet();
     pinned = null;
     clearRoom();
-    window.scrollTo(0, 0);
-    var tile = wasModule ? tileForModule(currentModule) : wasSalle ? towerFor(wasSalle) : null;
+    if (!run) window.scrollTo(0, (wasModule || wasSalle) ? (homeEl._y || 0) : 0);
+    var tile = run || (wasModule ? tileForModule(currentModule) : wasSalle ? towerFor(wasSalle) : null);
     /* la caméra ressort de la dalle ; sans dalle visible, l'accueil revient en fondu */
-    if ((wasModule || wasSalle) && !camOut(homeEl, tile) && !reduce.matches) {
-      homeEl.classList.remove('is-returning'); void homeEl.offsetWidth; homeEl.classList.add('is-returning');
+    if (!tile || !camOut(homeEl, tile)) {
+      stopCam(homeEl);
+      if ((wasModule || wasSalle) && !reduce.matches) {
+        homeEl.classList.remove('is-returning'); void homeEl.offsetWidth; homeEl.classList.add('is-returning');
+      }
     }
     /* au clavier, on revient sur la dalle d'où l'on était parti */
     if (wasSalle && viaKeys && tile) tile.focus({ preventScroll: true });

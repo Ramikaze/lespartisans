@@ -1308,18 +1308,28 @@ document.getElementById('spPrev').addEventListener('click', _spPrev);
     ttAudioBtn.classList.remove('playing');
   }
 
-  function positionTooltip(el) {
+  /* « below » : côté choisi à l'ouverture (au-dessus, ou dessous faute de place) ; il ne change plus quand la bulle suit son mot */
+  var below = false;
+  function positionTooltip(el, follow) {
     var rect = el.getBoundingClientRect();
     var tw = tt.offsetWidth;
     var th = tt.offsetHeight;
     var x = rect.left + rect.width / 2 - tw / 2;
-    var y = rect.top - th - 10;
     if (x < 8) x = 8;
     if (x + tw > window.innerWidth - 8) x = window.innerWidth - tw - 8;
-    if (y < 8) { y = rect.bottom + 10; }
+    if (!follow) below = rect.top - th - 10 < 8;
     tt.style.left = x + 'px';
-    tt.style.top = y + 'px';
+    tt.style.top = (below ? rect.bottom + 10 : rect.top - th - 10) + 'px';
   }
+
+  /* La bulle suit son mot quand la page défile ou change de taille, au lieu de rester plantée à l'écran */
+  function follow() {
+    if (!currentWordEl || !tt.classList.contains('show')) return;
+    if (!currentWordEl.isConnected) { hideTooltip(); return; }
+    positionTooltip(currentWordEl, true);
+  }
+  window.addEventListener('scroll', follow, { capture: true, passive: true });
+  window.addEventListener('resize', follow);
 
   /* Clic sur un mot : verrouille / déverrouille / change */
   document.addEventListener('click', function(e) {
