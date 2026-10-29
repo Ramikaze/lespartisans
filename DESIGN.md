@@ -21,20 +21,20 @@ colors:
   hairline: "rgba(205,220,250,.12)"
   fill: "rgba(190,206,236,.06)"
   fill-2: "rgba(190,206,236,.1)"
-  light-amber: "#7f4900"
-  light-amber-hi: "#6e3f00"
+  light-amber: "#6a3c00"
+  light-amber-hi: "#5a3200"
   light-amber-ink: "#fff8ec"
   light-lamp: "rgba(240,166,58,.16)"
   light-lamp-line: "rgba(160,100,20,.32)"
-  light-void: "#e2e7ee"
-  light-void-2: "#d5dce7"
+  light-void: "#cfd4df"
+  light-void-2: "#c3cad7"
   light-glass-solid: "#f4f6fa"
   light-sheet-bg: "rgba(246,248,251,.97)"
   light-bar-bg: "rgba(226,232,240,.78)"
   light-ink: "#0b1220"
   light-read: "#1c2638"
-  light-ink-2: "#3c475c"
-  light-ink-3: "#4a5468"
+  light-ink-2: "#353f53"
+  light-ink-3: "#3e475a"
   light-edge: "rgba(30,48,90,.13)"
   light-hairline: "rgba(30,48,90,.11)"
   light-fill: "rgba(30,48,90,.05)"
@@ -191,7 +191,7 @@ Tout le système vit sous `html[data-design="console"]` (`console.css` + un `<st
 - Ciel WebGL (brume + poussières de lumière) sur toutes les pages ; sans WebGL, bandeau fixe `--lp-fog` + `--lp-motes` sur `--lp-void`.
 - Verre laiteux à arête fine, lumière intérieure ambre qui monte par le bas.
 - Une seule famille latine variable (Readex Pro 160..700), arabe en Scheherazade New.
-- Deux thèmes réglés par `html[data-lp-theme]` : nuit (défaut) et Aube (horizon pêche, nacre, zénith ardoise, soleil bas).
+- Deux thèmes réglés par `html[data-lp-theme]` : nuit (défaut) et Aube (horizon sable, gris bleuté, zénith ardoise, soleil bas, étincelles).
 - Mouvements lents et amortis sur `--lp-ease` (`cubic-bezier(.16,1,.3,1)`), tous coupés par `prefers-reduced-motion`.
 
 ## Colors
@@ -205,7 +205,7 @@ Une nuit froide en fond, une seule lumière chaude pour désigner. Chaque jeton 
 - **Lampe** (`--lp-lamp`) et **filet de lampe** (`--lp-lamp-line`) : fond et bordure des objets éclairés (verset, tuile de numéro, dalle de section, filets de tableau).
 
 ### Neutral
-- **Vide** (`--lp-void`, `--lp-void-2`) : couleur de fond sous le ciel et repli sans WebGL ; en Aube, nacre bleutée.
+- **Vide** (`--lp-void`, `--lp-void-2`) : couleur de fond sous le ciel et repli sans WebGL ; en Aube, gris bleuté (le milieu du ciel).
 - **Encre** (`--lp-ink`) : titres, texte sacré traduit, `strong`.
 - **Lecture** (`--lp-read`) : corps de texte long, un cran sous l'encre pour la nuit.
 - **Encre 2 / 3** (`--lp-ink-2`, `--lp-ink-3`) : sous-titres et commandes calmes ; méta, sources, dates.
@@ -278,10 +278,10 @@ Coins doux et réguliers : 18px pour dalles et panneaux, 24px pour la dalle du v
 - Un seul shader plein écran pour l'accueil et les pages. `window.lpSky` expose `glowTo`, `setLight`, `wake` et `boot`. Les pages reçoivent une toile créée par le script (classes `lp-sky-page`, puis `lp-sky-on` sur `html` une fois WebGL prêt). Sans WebGL, la classe `no-webgl` est posée et le bandeau statique `--lp-fog` / `--lp-motes` reste.
 - **Nuit :** vide bleu-noir, lueur ambre autour du point de lumière, vignette 35 %. Quatre ciels au choix du visiteur : **Brume** (voiles de brume bleue, défaut), **Voie lactée** (une bande d'étoiles), **Nébuleuse** (nuages colorés), **Désert** (ciel pur, horizon chaud). Trois passes : passe 1 en basse résolution dans une texture (l'alpha dit combien la brume voile les étoiles), passe 2 en pleine résolution (agrandie, tramée, fondu de 1400ms entre deux ciels), passe 3 des étoiles nettes en `GL_POINTS` (tirées d'une graine, magnitudes, couleurs, scintillement). Les étoiles dérivent vers le haut à gauche sur trois profondeurs (~11, 6 et 3 px/s, `DRIFT`) ; celles de la Voie lactée et de l'amas tournent avec le ciel (2° par minute). Lisibilité : les étoiles s'effacent près des bords haut et bas, derrière la salle ouverte de l'accueil, à 55 % derrière `#towers` et derrière la colonne de lecture (720px) des pages ; encre 3 ≥ 4.5:1 sur chacun des quatre ciels.
 - **Choix du ciel :** en tête de `lp-design.js`, `CIEL_DEFAUT` (`'brume'`) et `CIEL_AU_CHOIX` (`true`). Bouton étoiles `#skyBtn` dans la barre de l'accueil, menu `#skyMenu` (`menuitemradio`, flèches, Échap) ; nuit seulement, caché en Aube. Le choix est gardé dans `localStorage` (`lp-ciel`) et transmis aux pages ouvertes par `postMessage` (`{type:'lp-ciel'}`). `?ciel=brume|lactee|nebuleuse|desert` dans l'adresse impose un ciel et le garde. `CIEL_AU_CHOIX = false` : `CIEL_DEFAUT` pour tous, sans bouton.
-- **Aube :** dégradé vertical de l'horizon pêche (`.957,.898,.827`) à la nacre (`.902,.918,.945`) puis au zénith ardoise (`.792,.839,.902`). Bancs de brume vers le quasi-blanc, voiles froids entre eux, soleil bas chaud (`1,.82,.58`) qui suit le point de lumière, poussière d'or et éclats blancs près de la lueur, vignette 7 %.
+- **Aube :** ciel de demi-teinte, pas blanc : dégradé vertical de l'horizon sable (`.88,.80,.715`) au gris bleuté (`.80,.82,.87`) puis au zénith ardoise (`.70,.745,.83`). Bancs de brume légers (×.3), voiles froids entre eux, soleil bas chaud (`1,.82,.58`) qui suit le point de lumière, vignette 7 %. Dans tout le ciel, des étincelles (`glint`) : cœur blanc (`1,.985,.95`) et halo doux qui éclaircit, elles scintillent comme les étoiles. Jamais de points sombres ou marron (ils font tache ; refusé le 29/10/2026).
 - **Cadence :** environ 30 images/s à l'accueil (pas de 32ms), environ 20 sur les pages (pas de 40ms : une image sur trois à 60 Hz). Le ciel s'arrête quand l'onglet est caché, quand la toile n'a plus de boîte (`canvas.clientWidth === 0`, cas d'une page masquée dans l'accueil) ou quand un module est ouvert par-dessus l'accueil. Un `ResizeObserver` le relance. Résolution réduite (`devicePixelRatio` plafonné à 1.5, × 0.75).
-- **Le ciel suit la lecture :** l'uniforme `uScroll` (hauteurs d'écran défilées, bornées à 0–200, lissées de .14 par image) décale la brume de ×.35 et les trois couches de poussières de ×.6, ×.45 et ×.3 : les plus proches vont plus vite. `lpSky.read(px, k)`, appelé par le trait de progression, abaisse le point de lumière de k·0.2·hauteur et son intensité de k·0.22. Le shader passe en `precision highp float` quand c'est possible. Coupé en mouvement réduit.
-- **Thème (tombée de la nuit / lever du jour) :** un `MutationObserver` sur `data-lp-theme` appelle `setLight`. Le passage dure 2800ms (`LDUR`), en courbe sinusoïdale douce, et se dessine à pleine cadence (sans le pas de 32/40ms tant que `S.lt0` est posé). Le fond se mélange en `smoothstep(.18,.82,L)`. Un ciel de crépuscule culmine à L = .5 : horizon orange `(1,.52,.24)`, rose `(.86,.42,.5)`, violet `(.42,.3,.56)`, zénith indigo `(.1,.1,.26)`. Un soleil placé à x = .64·ratio monte de y −.3 (sous l'horizon la nuit) à .5 avec L, avec éclat, disque doux et lueur d'horizon ; il n'est visible que pendant le passage. Les étoiles (`smoothstep(.62,.08,L)`) et la poussière d'or de l'aube (`smoothstep(.45,.98,L)`) ont chacune un seuil d'apparition propre : elles apparaissent ou s'éteignent une à une.
+- **Le ciel suit la lecture :** l'uniforme `uScroll` (hauteurs d'écran défilées, bornées à 0–200, lissées de .14 par image) décale la brume de ×.35, les trois couches d'étincelles de l'aube de ×.6, ×.5 et ×.4, et les étoiles du champ de ×.3 : les plus proches vont plus vite. `lpSky.read(px, k)`, appelé par le trait de progression, abaisse le point de lumière de k·0.2·hauteur et son intensité de k·0.22. Le shader passe en `precision highp float` quand c'est possible. Coupé en mouvement réduit.
+- **Thème (tombée de la nuit / lever du jour) :** un `MutationObserver` sur `data-lp-theme` appelle `setLight`. Le passage dure 2800ms (`LDUR`), en courbe sinusoïdale douce, et se dessine à pleine cadence (sans le pas de 32/40ms tant que `S.lt0` est posé). Le fond se mélange en `smoothstep(.18,.82,L)`. Un ciel de crépuscule culmine à L = .5 : horizon orange `(1,.52,.24)`, rose `(.86,.42,.5)`, violet `(.42,.3,.56)`, zénith indigo `(.1,.1,.26)`. Un soleil placé à x = .64·ratio monte de y −.3 (sous l'horizon la nuit) à .5 avec L, avec éclat, disque doux et lueur d'horizon ; il n'est visible que pendant le passage. Les étoiles (`smoothstep(.62,.08,L)`) et les étincelles de l'aube (`smoothstep(.45,.98,L)`) ont chacune un seuil d'apparition propre : elles apparaissent ou s'éteignent une à une.
 
 ### Dalle de source (`.tower`)
 - **Caractère :** verre laiteux plat, mot arabe en haut, nom et repère en bas ; toutes de même hauteur (136px ; 118px à 900–1279px ; 120px mobile ; 112px écrans bas).
@@ -342,7 +342,7 @@ Courbe `--lp-ease` = `cubic-bezier(.16,1,.3,1)` partout, sauf le repli et la lum
 
 ### Accessibilité
 - Focus : `outline:2px solid var(--lp-amber)`, décalage 3px, sur tout `:focus-visible`.
-- Contraste : 0 échec WCAG 2.2 AA en nuit comme en aube, mesuré au pixel sur le ciel vivant (≥ 4.5:1). D'où l'encre 3 `#8f9bb1` / `#4a5468` et l'ambre d'aube `#7f4900`, à ne pas éclaircir.
+- Contraste : 0 échec WCAG 2.2 AA en nuit comme en aube, mesuré au pixel sur le ciel vivant (≥ 4.5:1). D'où l'encre 3 `#8f9bb1` / `#3e475a` et l'ambre d'aube `#6a3c00`, à ne pas éclaircir.
 - Sélection en lueur .32 ; barres de défilement fines ; `lang="ar"` sur l'arabe ; dalles avec `aria-expanded` vers leur salle.
 
 ### Interrupteur de design

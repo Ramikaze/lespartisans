@@ -128,14 +128,16 @@
       'float noise(vec2 p){vec2 i=floor(p);vec2 f=fract(p);vec2 u=f*f*(3.-2.*f);',
       ' return mix(mix(hash(i),hash(i+vec2(1.,0.)),u.x),mix(hash(i+vec2(0.,1.)),hash(i+vec2(1.,1.)),u.x),u.y);}',
       'float fbm(vec2 p){float v=0.;float a=.5;for(int i=0;i<4;i++){v+=a*noise(p);p=p*2.02+vec2(1.7,9.2);a*=.5;}return v;}',
-      'float motes(vec2 uv,float sc,float sp,float sd,float vis){',
+      /* Étincelles du jour : x = cœur, y = halo ; elles scintillent comme les étoiles */
+      'vec2 glint(vec2 uv,float sc,float sp,float sd,float vis){',
       ' vec2 g=uv*sc;g.y-=uTime*sp;g.x+=sin(g.y*.35+sd)*.25;',
       ' vec2 id=floor(g);vec2 f=fract(g)-.5;float h=hash(id+sd);',
-      ' if(h<.86)return 0.;',
+      ' if(h<.86)return vec2(0.);',
       ' vec2 o=(vec2(hash(id+sd+1.7),hash(id+sd+3.1))-.5)*.6;',
-      ' float d=length(f-o);float tw=.55+.45*sin(uTime*(.6+h*1.4)+h*40.);',
-      ' float on=hash(id+sd+5.3)*.85;',
-      ' return smoothstep(.095,.015,d)*tw*smoothstep(on,on+.12,vis);}',
+      ' vec2 p=f-o;float d2=dot(p,p);',
+      ' float tw=.55+.45*sin(uTime*(.6+h*1.4)+h*40.);',
+      ' float on=hash(id+sd+5.3)*.85;on=smoothstep(on,on+.12,vis)*tw;',
+      ' return vec2(exp(-d2*1200.),exp(-d2*140.))*on;}',
       /* La lumière dans la nuit : cœur clair et chaud, halo qui décroît comme une vraie source, frange rosée ; la brume la révèle */
       'vec3 lamp(vec2 fr,float m){',
       ' vec2 gd=(fr-uGlow.xy)/uRes.y;float g2=dot(gd,gd);',
@@ -234,24 +236,23 @@
         ' vec2 gd=(fr-uGlow.xy)/uRes.y;float g2=dot(gd,gd);float glow=exp(-g2*7.)*uGlow.z;',
         /* Crépuscule : sn = 1 la nuit, 0 le jour ; les étoiles s'allument une à une quand la nuit tombe */
         ' float L=uLight;float sv=smoothstep(.62,.08,L);',
-        ' float mm=motes(uv-vec2(0.,uScroll*.6),18.,.22,1.,1.)+.7*motes(uv+3.-vec2(0.,uScroll*.45),30.,.32,7.,1.);',
         ' vec2 q=fr/uRes-.5;float vig=smoothstep(.35,.95,length(q*vec2(1.,1.25)));',
         /* coordonnées du ciel, qui tourne autour de son pôle */
         ' vec2 cs=uv-uPole;float rc=cos(uRot),rs=sin(uRot);cs=vec2(rc*cs.x+rs*cs.y,-rs*cs.x+rc*cs.y);',
         ' vec3 nt;float T=1.;'
       ].join('\n') + '\n' + night.join('\n') + '\n' + [
-        /* Aube : ardoise au zénith, nacre, horizon pêche ; bancs de brume, soleil bas, poussière d'or */
-        /* un ciel de demi-teinte et non blanc : les poussières d'or et les éclats clairs s'y voient (le texte garde ≥ 4.5:1) */
+        /* Aube : ardoise au zénith, nacre, horizon pêche ; bancs de brume, soleil bas, étincelles */
+        /* un ciel de demi-teinte et non blanc : les étincelles s'y voient (le texte garde ≥ 4.5:1) */
         ' vec3 dw=mix(vec3(.88,.80,.715),vec3(.80,.82,.87),smoothstep(.0,.5,y));',
         ' dw=mix(dw,vec3(.70,.745,.83),smoothstep(.5,1.,y)*.9);',
         ' dw=mix(dw,vec3(.93,.92,.91),fog*.3);',
         ' dw=mix(dw,vec3(.63,.69,.795),(1.-fog)*(.14+.12*n)*smoothstep(.25,1.,y));',
         ' dw=mix(dw,vec3(1.,.82,.58),clamp(glow*(.62+.5*fog),0.,1.)*.85);',
         ' float dv0=smoothstep(.45,.98,L);',
-        ' float md=motes(uv-vec2(0.,uScroll*.5),14.,.12,2.,dv0)+.6*motes(uv+5.-vec2(0.,uScroll*.4),24.,.16,11.,dv0);',
-        /* poussières d'or dans tout le ciel (pas seulement près du soleil), et fines étincelles claires qui scintillent */
-        ' dw=mix(dw,vec3(.70,.46,.14),clamp(md*(.75+.4*glow),0.,1.)*.85);',
-        ' dw=mix(dw,vec3(1.,.95,.84),clamp(mm*dv0*(.9+glow),0.,1.));',
+        /* étincelles dans tout le ciel : un cœur blanc, un halo doux qui éclaircit sans jamais salir le fond */
+        ' vec2 gp=glint(uv-vec2(0.,uScroll*.5),14.,.12,2.,dv0)+.6*glint(uv+5.-vec2(0.,uScroll*.4),24.,.16,11.,dv0)+.75*glint(uv-vec2(0.,uScroll*.6),18.,.22,1.,dv0);',
+        ' dw=min(dw+vec3(.13,.11,.07)*gp.y*(1.+glow),1.);',
+        ' dw=mix(dw,vec3(1.,.985,.95),clamp(gp.x*(1.+glow),0.,1.));',
         ' dw*=1.-vig*.07;',
         /* Passage : la nuit ou le jour l'emporte vite au centre de la transition */
         ' vec3 col=mix(nt,dw,smoothstep(.18,.82,L));',

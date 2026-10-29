@@ -72,12 +72,12 @@
       "light-amber": {
         "role": "primary",
         "displayName": "Ambre profond (aube)",
-        "canonical": "#7f4900"
+        "canonical": "#6a3c00"
       },
       "light-void": {
         "role": "neutral",
-        "displayName": "Nacre d'aube",
-        "canonical": "#e2e7ee"
+        "displayName": "Gris bleuté d'aube",
+        "canonical": "#cfd4df"
       },
       "light-ink": {
         "role": "neutral",
@@ -87,7 +87,7 @@
       "light-ink-3": {
         "role": "neutral",
         "displayName": "Encre 3 (aube)",
-        "canonical": "#4a5468"
+        "canonical": "#3e475a"
       }
     },
     "typographyMeta": {
