@@ -142,6 +142,11 @@ html[data-lp-theme="light"] #skyBtn,html[data-lp-theme="light"] .sky-menu{displa
 body.is-entering .home,body.is-entering .salle{pointer-events:none}
 /* pendant un travelling, la scène agrandie ne doit pas agrandir la page (barres de défilement, zoom arrière des téléphones, ciel redimensionné) */
 html.lp-cam,html.lp-cam body{overflow:hidden;overflow:clip}
+/* pendant un travelling, rien ne se repeint dans la scène agrandie (jusqu'à ~13×) : pas de flou d'arrière-plan,
+   que le navigateur recalculerait à cette échelle à chaque image (saccades, carrés), ni de transition d'ombre, de couleur ou de flou */
+html.lp-cam .day,html.lp-cam .find,html.lp-cam .salle-card{-webkit-backdrop-filter:none;backdrop-filter:none}
+html.lp-cam .home *,html.lp-cam .home *::before,html.lp-cam .home *::after,
+html.lp-cam .salle *,html.lp-cam .salle *::before,html.lp-cam .salle *::after{transition:none!important}
 .home.is-returning{animation:homeBack .75s var(--lp-ease) both}
 @keyframes homeBack{from{opacity:.25;transform:scale(1.02);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
 .home-date{display:none}
@@ -1114,6 +1119,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   towers.forEach(function (t, i) {
     var cell = t.parentElement;
     t.addEventListener('click', function () {
+      /* la caméra file déjà vers une destination : un second Entrée ne la relance pas */
+      if (body.classList.contains('is-entering')) return;
       clearTimeout(hoverTimer);
       if (t.dataset.room) window.openSubMenu(t.dataset.room, t);
       else enterFrom(t, +t.dataset.module, '');
@@ -1155,7 +1162,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   });
   stage.addEventListener('click', function (e) {
     var b = e.target.closest('[data-module]');
-    if (b) enterFrom(b, +b.dataset.module, b.dataset.state || '', pinned && pinned.dataset.room);
+    if (b && !body.classList.contains('is-entering')) enterFrom(b, +b.dataset.module, b.dataset.state || '', pinned && pinned.dataset.room);
   });
   document.getElementById('roomClose').addEventListener('click', leaveRoom);
   scrim.addEventListener('click', leaveRoom);
@@ -1232,7 +1239,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     scene._cam = a;
     el.classList.add('is-on');
     var arrived = false, ended = false;
-    function land() { if (!arrived) { arrived = true; arrive(); } }
+    /* on n'arrive que si cette caméra avance encore : arrêtée ou repartie en arrière, la destination n'est plus demandée */
+    function land() { if (!arrived && scene._cam === a && a.into) { arrived = true; arrive(); } }
     function end() {
       if (ended) return;
       ended = true;
@@ -1259,6 +1267,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (reduce.matches || !el || !scene.animate) return false;
     var a = scene._cam, r;
     if (a && a.into && a.el === el && a.playState !== 'finished') {
+      /* pas encore partie : rien à défaire (reverse() à l'instant 0 sauterait à la fin du chemin) */
+      if (!(a.currentTime > 0)) { stopCam(scene); return false; }
       /* la caméra avançait encore vers cet objet : elle fait demi-tour là où elle est, sans saut ni éclair */
       a.into = false;
       a.onfinish = null;
@@ -1397,7 +1407,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   salle.addEventListener('scroll', function () { bar.classList.toggle('is-solid', salle.scrollTop > 8); }, { passive: true });
   salle.addEventListener('click', function (e) {
     var b = e.target.closest('[data-module]');
-    if (!b) return;
+    if (!b || body.classList.contains('is-entering')) return;
     salle._lastState = b.dataset.state || '';
     enterFrom(b, +b.dataset.module, b.dataset.state || '', salleId);
   });
@@ -1481,6 +1491,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (compact.matches) {
       hideSalle();
       hideAllFrames();
+      /* une caméra encore en route (fenêtre rétrécie pendant un zoom) ne doit pas cacher l'accueil en finissant */
+      stopCam(homeEl);
       homeEl.style.display = '';
       setModuleBar(-1);
       pin(t);
@@ -1488,7 +1500,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     } else {
       var back = body.classList.contains('iframe-active') ? currentModule : -1;
       /* si l'on a reculé pendant le travelling, la salle n'est plus demandée : on ne l'ouvre pas */
-      if (fromTile && !_fromPop && back < 0) camIn(homeEl, fromTile, function () { if (history.state && history.state.id === id) showSalle(id, -1); });
+      /* à l'arrivée, on repasse par ici : si la fenêtre est passée en mode téléphone pendant le zoom, la salle s'ouvre en panneau */
+      if (fromTile && !_fromPop && back < 0) camIn(homeEl, fromTile, function () { if (history.state && history.state.id === id) { _fromPop = true; window.openSubMenu(id); _fromPop = false; } });
       else {
         if (back > -1) recedeFrame();
         showSalle(id, back);

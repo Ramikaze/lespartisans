@@ -117,7 +117,7 @@ body:not(.show-ar):not(.show-fr) .bismillah { display: none !important; }
 .verse-ar .w.playing{background:rgba(201,168,76,0.28);color:#fff;text-shadow:0 0 16px rgba(232,201,106,0.8),0 0 4px rgba(232,201,106,0.4);box-shadow:0 0 0 2px rgba(201,168,76,0.45),0 0 14px rgba(201,168,76,0.2);border-radius:5px;transform:scale(1.06);display:inline-block;position:relative;z-index:2;transition:transform .12s,box-shadow .12s}
 
 /* ── WORD TOOLTIP ── */
-#wtooltip{position:fixed;z-index:500;background:rgba(15,19,38,0.97);border:1px solid rgba(201,168,76,0.35);border-radius:12px;padding:12px 16px;max-width:280px;min-width:160px;pointer-events:none;opacity:0;transition:opacity .18s;box-shadow:0 8px 32px rgba(0,0,0,0.5)}
+#wtooltip{position:fixed;z-index:500;background:rgba(15,19,38,0.97);border:1px solid rgba(201,168,76,0.35);border-radius:12px;padding:12px 16px;width:max-content;max-width:min(280px,calc(100vw - 16px));min-width:160px;pointer-events:none;opacity:0;transition:opacity .18s;box-shadow:0 8px 32px rgba(0,0,0,0.5)}
 #wtooltip.show{opacity:1;pointer-events:all}
 .wtt-arabic{font-family:var(--ar-font),serif;font-weight:400;font-size:1.5rem;color:#e8c96a;direction:rtl;text-align:center;margin-bottom:6px}
 .wtt-trans{font-size:.78rem;color:#c9a84c;letter-spacing:.06em;text-align:center;margin-bottom:4px;font-style:italic}
@@ -1369,17 +1369,27 @@ document.getElementById('spPrev').addEventListener('click', _spPrev);
     });
   });
 
-  /* Touch support for mobile (inchangé) */
+  /* Téléphone : un tapotement sur un mot ouvre / ferme la bulle ; un glissé fait défiler la page,
+     même s'il part d'un mot (la bulle ouverte suit alors son mot) */
+  var tap = null;
   document.addEventListener('touchstart', function(e) {
+    var t = e.touches[0];
+    tap = e.touches.length === 1 ? { x: t.clientX, y: t.clientY, at: Date.now() } : null;
+  }, {passive: true});
+  document.addEventListener('touchcancel', function() { tap = null; });
+  document.addEventListener('touchend', function(e) {
+    var t = e.changedTouches[0], s = tap;
+    tap = null;
+    if (!s || !t || Math.abs(t.clientX - s.x) > 10 || Math.abs(t.clientY - s.y) > 10 || Date.now() - s.at > 600) return;
     var w = e.target.closest && e.target.closest('.verse-ar .w');
     if (w) {
-      e.preventDefault();
+      e.preventDefault();  /* pas de clic simulé ensuite : la bulle ne basculerait pas deux fois */
       if (currentWordEl === w && tt.classList.contains('show')) {
         hideTooltip();
       } else {
         showTooltip(w);
       }
-    } else if (!e.target.closest('#wtooltip')) {
+    } else if (!(e.target.closest && e.target.closest('#wtooltip'))) {
       hideTooltip();
     }
   }, {passive: false});
