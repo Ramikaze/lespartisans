@@ -132,7 +132,7 @@
       'vec2 glint(vec2 uv,float sc,float sp,float sd,float vis){',
       ' vec2 g=uv*sc;g.y-=uTime*sp;g.x+=sin(g.y*.35+sd)*.25;',
       ' vec2 id=floor(g);vec2 f=fract(g)-.5;float h=hash(id+sd);',
-      ' if(h<.86)return vec2(0.);',
+      ' if(h<.90)return vec2(0.);',
       ' vec2 o=(vec2(hash(id+sd+1.7),hash(id+sd+3.1))-.5)*.6;',
       ' vec2 p=f-o;float d2=dot(p,p);',
       ' float tw=.55+.45*sin(uTime*(.6+h*1.4)+h*40.);',
