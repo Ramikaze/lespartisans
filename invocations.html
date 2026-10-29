@@ -145,6 +145,9 @@ html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta
 .c-tri-ar{font-family:'Amiri Quran',serif;font-weight:400;font-size:var(--inv-ar-size,1.25rem);color:#c9a84c;direction:rtl;text-align:right;line-height:2;margin-bottom:6px}
 .c-tri-tr{font-size:var(--inv-tr-size,1.1rem);color:#9aa3b8;font-style:italic;line-height:1.6;margin-bottom:6px;padding-left:2px}
 .c-tri-fr{font-size:var(--inv-fr-size,0.88rem);color:#cec6b0;line-height:1.75;text-align:justify;hyphens:auto}
+.c-credit{margin-top:32px;padding-top:12px;border-top:1px solid rgba(201,168,76,0.15);font-size:12px;line-height:1.5;opacity:.72}
+.c-link{display:inline-block;margin:10px 0 14px;padding:9px 16px;border-radius:999px;border:1px solid rgba(201,168,76,0.45);background:rgba(201,168,76,0.08);color:#c9a84c;font:inherit;font-size:14px;cursor:pointer}
+.c-link:hover{background:rgba(201,168,76,0.16)}
 
 body:not(.show-ar) .c-tri-ar, body:not(.show-ar) .c-zv-ar { display: none !important; }
 body:not(.show-tr) .c-tri-tr { display: none !important; }
@@ -265,9 +268,13 @@ html[data-design="console"] .sb-theme-icon::before{
   -webkit-mask:var(--lp-ico) center/contain no-repeat;mask:var(--lp-ico) center/contain no-repeat;
 }
 html[data-design="console"] .sb-theme.open .sb-theme-icon::before{background:var(--lp-amber);opacity:1}
-html[data-design="console"] .sb-group:nth-child(1) .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 6.6C10.2 5.2 7.8 4.7 4 4.9v12.9c3.8-.2 6.2.3 8 1.7 1.8-1.4 4.2-1.9 8-1.7V4.9c-3.8-.2-6.2.3-8 1.7z'/%3E%3Cpath d='M12 6.6v12.9'/%3E%3C/svg%3E")}
-html[data-design="console"] .sb-group:nth-child(2) .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 20.5h16'/%3E%3Cpath d='M6 20.5v-7.5h12v7.5'/%3E%3Cpath d='M6 13c0-3.7 2.7-6.3 6-7.2 3.3.9 6 3.5 6 7.2'/%3E%3Cpath d='M12 5.8V3'/%3E%3Cpath d='M10 20.5v-3.3a2 2 0 0 1 4 0v3.3'/%3E%3C/svg%3E")}
-html[data-design="console"] .sb-group:nth-child(3) .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3.5l1.9 5.4 5.6 1.6-5.6 1.6L12 17.5l-1.9-5.4-5.6-1.6 5.6-1.6z'/%3E%3C/svg%3E")}
+/* une icône par groupe, attachée à son identifiant (les livres s'ajoutent sans décaler les icônes) */
+html[data-design="console"] .sb-group[data-theme="sahifa"] .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 6.6C10.2 5.2 7.8 4.7 4 4.9v12.9c3.8-.2 6.2.3 8 1.7 1.8-1.4 4.2-1.9 8-1.7V4.9c-3.8-.2-6.2.3-8 1.7z'/%3E%3Cpath d='M12 6.6v12.9'/%3E%3C/svg%3E")}
+html[data-design="console"] .sb-group[data-theme="cp1"] .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='8' cy='15' r='4'/%3E%3Cpath d='M11 12l9-9M16 7l2 2M14 9l2 2'/%3E%3C/svg%3E")}
+html[data-design="console"] .sb-group[data-theme="cp2"] .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z'/%3E%3C/svg%3E")}
+html[data-design="console"] .sb-group[data-theme="cp3"] .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 20.5h16'/%3E%3Cpath d='M6 20.5v-7.5h12v7.5'/%3E%3Cpath d='M6 13c0-3.7 2.7-6.3 6-7.2 3.3.9 6 3.5 6 7.2'/%3E%3Cpath d='M12 5.8V3'/%3E%3Cpath d='M10 20.5v-3.3a2 2 0 0 1 4 0v3.3'/%3E%3C/svg%3E")}
+html[data-design="console"] .sb-group[data-theme="cp4"] .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3.5l1.9 5.4 5.6 1.6-5.6 1.6L12 17.5l-1.9-5.4-5.6-1.6 5.6-1.6z'/%3E%3C/svg%3E")}
+html[data-design="console"] .sb-group[data-theme="autres"] .sb-theme-icon{--lp-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 7h11M9 12h11M9 17h11'/%3E%3Ccircle cx='4.5' cy='7' r='.6'/%3E%3Ccircle cx='4.5' cy='12' r='.6'/%3E%3Ccircle cx='4.5' cy='17' r='.6'/%3E%3C/svg%3E")}
 html[data-design="console"] .sb-chevron{font-family:var(--lp-font)!important;font-size:15px!important;line-height:1!important;width:14px;text-align:center;color:var(--lp-ink-3)!important;opacity:1!important;transition:transform .35s var(--lp-ease),color .25s!important}
 html[data-design="console"] .sb-theme.open > .sb-chevron,
 html[data-design="console"] .sb-item.subheader.open > .sb-chevron{color:var(--lp-amber)!important}
@@ -447,6 +454,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
 
 </div>
 
+<script src="cles-paradis-data.js"></script>
 <script>
 // ══════════════════════════════════════════
 // DATA
@@ -563,23 +571,13 @@ var DATA = {
       ]
     },
     {
-      id: 'ziyara',
-      label: 'Ziyāra — Visites pieuses',
-      icon: '✋',
+      /* textes du site absents des Clés des Paradis ; Wārith, ʿĀshūrā, Kumayl et Tawassul sont rangés dans les livres (cles-paradis-data.js) */
+      id: 'autres',
+      label: 'Autres textes',
+      icon: '📿',
       items: [
         { id: 'z-hussain', label: 'Ziyara Imam al-Ḥusayn', emoji: '🩸' },
-        { id: 'z-warith',  label: 'Ziyārat Wārith',        emoji: '🩸' },
-        { id: 'z-ashura',  label: 'Ziyara \'Āshūrā',       emoji: '🕊️' },
         { id: 'z-lundi',   label: 'Ziyārat du Lundi',      emoji: '🌙' },
-      ]
-    },
-    {
-      id: 'dua-classiques',
-      label: 'Du\'ā classiques',
-      icon: '🤲',
-      items: [
-        { id: 'kumayl', label: 'Du\'ā Kumayl', emoji: '🌙' },
-        { id: 'tawassul', label: 'Du\'ā at-Tawassul', emoji: '🤲' },
         { type: 'header', label: 'Du\'ā as-Simât' },
         { id: 'dua-simaat-intro', label: '1. Introduction', emoji: '📖' },
         { id: 'dua-simaat',       label: '2. L\'Invocation', emoji: '🤲' },
@@ -6672,9 +6670,22 @@ var DATA = {
 var sbScroll = document.getElementById('sb-scroll');
 var activeItemId = null;
 
+// ══ LES CLÉS DES PARADIS : ses livres entre la Ṣaḥīfa et « Autres textes » (cles-paradis-data.js) ══
+(function () {
+  var cp = window.CLES_PARADIS;
+  if (!cp) return;
+  var at = 0;
+  DATA.themes.forEach(function (t, i) { if (t.id === 'autres') at = i; });
+  Array.prototype.splice.apply(DATA.themes, [at || DATA.themes.length, 0].concat(cp.themes));
+  Object.keys(cp.invocations).forEach(function (id) { cp.invocations[id].credit = cp.credit; DATA.invocations[id] = cp.invocations[id]; });
+  /* la présentation du livre en tête des textes gardés (Kumayl, Wārith…), sans toucher aux lignes récitées */
+  Object.keys(cp.prepend).forEach(function (id) { var e = DATA.invocations[id]; if (e) e.body = cp.prepend[id].concat(e.body); });
+})();
+
 DATA.themes.forEach(function(theme) {
   var group = document.createElement('div');
   group.className = 'sb-group';
+  group.dataset.theme = theme.id;
 
   var themeBtn = document.createElement('div');
   themeBtn.className = 'sb-theme';
@@ -6786,6 +6797,8 @@ function invFs(type, dir) {
 function showInvocation(id) {
   var data = DATA.invocations[id];
   if(!data) return;
+  /* l'ancre suit l'entrée affichée (sans nouvelle entrée d'historique) : un lien vers elle depuis l'accueil reste juste */
+  if (location.hash.slice(1) !== id) try { history.replaceState(history.state, '', '#' + id); } catch (e) {}
 
   var welcome = document.getElementById('welcome');
   var content = document.getElementById('content');
@@ -6823,16 +6836,19 @@ function showInvocation(id) {
         html += '<div class="c-verse"><div class="c-vnum">'+v.n+'</div><div class="c-vtext">'+v.tx+'</div></div>';
       } else if(v.t === 'zv') {
         html += '<div class="c-zv"><div class="c-zv-text">'+v.tx+(v.ar?'<div class="c-zv-ar">'+v.ar+'</div>':'')+'</div></div>';
+      } else if(v.t === 'link') {
+        html += '<button class="c-link" type="button" data-module="'+v.module+'">'+v.tx+' →</button>';
       } else if(v.t === 'tri') {
         html += '<div class="c-tri">';
         if(v.ar) html += '<div class="c-tri-ar">'+v.ar+'</div>';
         if(v.tr) html += '<div class="c-tri-tr">'+v.tr+'</div>';
-        html += '<div class="c-tri-fr">'+v.fr+'</div>';
+        if(v.fr) html += '<div class="c-tri-fr">'+v.fr+'</div>';
         html += '</div>';
       }
     });
   }
 
+  if(data.credit) html += '<div class="c-credit">'+data.credit+'</div>';
   html += '</div>'; // close content-inner
   content.innerHTML = html;
   content.scrollTop = 0;
@@ -6841,6 +6857,13 @@ function showInvocation(id) {
   content.offsetHeight;
   content.style.animation = '';
 }
+/* Bouton vers une autre page du site : l'accueil l'ouvre (message open-module) */
+document.getElementById('content').addEventListener('click', function (e) {
+  var b = e.target.closest('.c-link');
+  if (!b) return;
+  if (window.parent === window) location.href = 'index.html#m' + (+b.dataset.module);  /* page ouverte seule */
+  else try { window.parent.postMessage({ type: 'open-module', idx: +b.dataset.module }, location.origin); } catch (err) {}
+});
 </script>
 
 <script>
@@ -6901,6 +6924,13 @@ function showInvocation(id) {
   if (!id) return;
   var el = itemEl(id);
   if (el) { unfold(el); el.click(); reveal(el); } else showInvocation(id);
+  window.addEventListener('hashchange', function () {
+    var h = '';
+    try { h = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
+    if (!DATA.invocations[h]) return;
+    var t = itemEl(h);
+    if (t) { unfold(t); t.click(); reveal(t); } else showInvocation(h);
+  });
   window.addEventListener('message', function (e) {
     if (!e.data || e.data.type !== 'gs-navigate' || !DATA.invocations[e.data.state]) return;
     document.querySelectorAll('#sb-scroll .sb-item.active').forEach(function (x) { x.classList.remove('active'); });
@@ -6949,6 +6979,7 @@ function showInvocation(id) {
 [data-theme="light"] .c-tri-ar{color:#7a5c24!important}
 [data-theme="light"] .c-tri-tr{color:#8a7c66!important}
 [data-theme="light"] .c-tri-fr{color:#3d3425!important}
+[data-theme="light"] .c-link{color:#7a5c24!important;border-color:rgba(122,92,36,0.4)!important;background:rgba(122,92,36,0.06)!important}
 [data-theme="light"] ::-webkit-scrollbar-track{background:#e8e0d4!important}
 [data-theme="light"] ::-webkit-scrollbar-thumb{background:rgba(122,92,36,0.25)!important}
 [data-theme="light"] .inv-fc .fc-grp{background:rgba(122,92,36,0.05)!important;border-color:rgba(122,92,36,0.12)!important}

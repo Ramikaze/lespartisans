@@ -646,6 +646,17 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       </ul>
     </section>
 
+    <section class="room" id="submenu-invocations" data-room="invocations" aria-labelledby="room-invocations" inert>
+      <header class="room-head"><h2 id="room-invocations">Duʿāʾ &amp; Ziyāra</h2><p>Invocations et visites pieuses de l'Ahl al-Bayt : la Ṣaḥīfa as-Sajjādiyya et Les Clés des Paradis.</p></header>
+      <ul class="sats">
+        <li><button class="sat" type="button" data-module="4" data-state="intro-ibn"><span class="sat-t">As-Ṣaḥīfa as-Sajjādiyya</span><span class="sat-d">Les invocations de l'Imam Zayn al-ʿĀbidīn (as) — arabe, phonétique et français.</span><span class="sat-m">Imam al-Sajjād · 83 invocations</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+        <li><button class="sat" type="button" data-module="4" data-state="cp1-demande-de-pardon-istigh-far"><span class="sat-t">Les Clés des Paradis — Petits duʿâʾ et prières</span><span class="sat-d">Livre 1 : pardon, protection, guérison, istikhâra, subsistance, matin et soir.</span><span class="sat-m">Mafātīḥ al-Jinān · Livre 1</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+        <li><button class="sat" type="button" data-module="4" data-state="z-warith"><span class="sat-t">Les Clés des Paradis — Les Ziyâra</span><span class="sat-d">Livre 3 : les visites pieuses du Prophète (s) et des Imams (as).</span><span class="sat-m">Mafātīḥ al-Jinān · Livre 3</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+        <li><button class="sat" type="button" data-module="4" data-state="kumayl"><span class="sat-t">Les Clés des Paradis — Les grands duʿâʾ</span><span class="sat-d">Livre 4 : Kumayl, Makârim al-Akhlâq, Tawassul.</span><span class="sat-m">Mafātīḥ al-Jinān · Livre 4</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+        <li><button class="sat" type="button" data-module="4" data-state="z-hussain"><span class="sat-t">Autres textes</span><span class="sat-d">Ziyâra de l'Imam al-Ḥusayn, Ziyârat du Lundi, Duʿâʾ as-Simât.</span><span class="sat-m">3 textes</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+      </ul>
+    </section>
+
     <section class="room" id="room-preview" aria-labelledby="room-preview-t" inert>
       <header class="room-head"><h2 id="room-preview-t"></h2><p class="js-pv-desc"></p></header>
       <p class="room-meta js-pv-meta"></p>
@@ -674,9 +685,9 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
         </button>
       </li>
       <li style="--i:2">
-        <button class="tower" type="button" data-module="4" data-title="Duʿāʾ &amp; Ziyāra" data-desc="Invocations et visites pieuses de l'Ahl al-Bayt, tirées de la Ṣaḥīfa as-Sajjādiyya." data-meta="As-Ṣaḥīfa · Ziyāra">
+        <button class="tower" type="button" data-room="invocations" aria-controls="submenu-invocations" aria-expanded="false">
           <span class="ar" lang="ar" aria-hidden="true">الدعاء</span>
-          <span class="t-name">Invocations</span><span class="t-meta">Ṣaḥīfa · Ziyāra</span>
+          <span class="t-name">Invocations</span><span class="t-meta">Ṣaḥīfa · Mafātīḥ</span>
           <svg class="ic chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </button>
       </li>
@@ -1001,7 +1012,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var pinned = null, shown = null, hoverTimer = null;
 
   function towerFor(room) { return document.querySelector('.tower[data-room="' + room + '"]'); }
-  var MOD_ROOM = { 8: 'coran', 2: 'coran', 19: 'coran', 18: 'coran', 10: 'hadith', 17: 'hadith', 0: 'chiisme', 7: 'chiisme', 9: 'chiisme', 13: 'chiisme', 14: 'chiisme', 3: 'ahlulbayt', 12: 'ahlulbayt' };
+  var MOD_ROOM = { 4: 'invocations', 8: 'coran', 2: 'coran', 19: 'coran', 18: 'coran', 10: 'hadith', 17: 'hadith', 0: 'chiisme', 7: 'chiisme', 9: 'chiisme', 13: 'chiisme', 14: 'chiisme', 3: 'ahlulbayt', 12: 'ahlulbayt' };
   function tileForModule(idx) {
     return MOD_ROOM[idx] ? towerFor(MOD_ROOM[idx]) : document.querySelector('.tower[data-module="' + idx + '"]');
   }
@@ -1144,7 +1155,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   });
   stage.addEventListener('click', function (e) {
     var b = e.target.closest('[data-module]');
-    if (b) enterFrom(b, +b.dataset.module, '', pinned && pinned.dataset.room);
+    if (b) enterFrom(b, +b.dataset.module, b.dataset.state || '', pinned && pinned.dataset.room);
   });
   document.getElementById('roomClose').addEventListener('click', leaveRoom);
   scrim.addEventListener('click', leaveRoom);
@@ -1335,7 +1346,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     salle.classList.remove('is-arriving', 'is-landing');
     if (back < 0) { void salle.offsetWidth; salle.classList.add('is-arriving', 'is-landing'); }
     /* au clavier, le retour rend la main sur la carte d'où l'on était parti */
-    var card = viaKeys && back > -1 && salle.querySelector('.salle-card[data-module="' + back + '"]');
+    var card = viaKeys && back > -1 && cardFor(back);
     (card || salle.querySelector('.salle-t')).focus({ preventScroll: true });
     lpSky.wake();
   }
@@ -1348,15 +1359,24 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     else if (recede && !reduce.matches && salle.animate) {
       var a = salle.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(.9)' }], { duration: 320, easing: EASE, fill: 'forwards' });
       salle._leave = a;
-      a.onfinish = function () { if (salle._leave === a) { salle._leave = null; off(); a.cancel(); } };
+      var gone = function () { if (salle._leave === a) { salle._leave = null; off(); a.cancel(); } };
+      a.onfinish = gone;
+      setTimeout(gone, 600);  /* filet : animation figée (onglet en arrière-plan) */
     } else off();
     bar.classList.toggle('is-solid', window.scrollY > 8);
   }
   salle.addEventListener('scroll', function () { bar.classList.toggle('is-solid', salle.scrollTop > 8); }, { passive: true });
   salle.addEventListener('click', function (e) {
     var b = e.target.closest('[data-module]');
-    if (b) enterFrom(b, +b.dataset.module, '', salleId);
+    if (!b) return;
+    salle._lastState = b.dataset.state || '';
+    enterFrom(b, +b.dataset.module, b.dataset.state || '', salleId);
   });
+  /* la carte d'où l'on est parti : plusieurs cartes peuvent ouvrir la même page (Invocations), l'état les distingue */
+  function cardFor(back) {
+    var sel = '.salle-card[data-module="' + back + '"]';
+    return (salle._lastState && salle.querySelector(sel + '[data-state="' + salle._lastState.replace(/["\\]/g, '') + '"]')) || salle.querySelector(sel);
+  }
 
   function home() {
     var wasModule = body.classList.contains('iframe-active');
@@ -1406,7 +1426,15 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       iframe.src = src;
     } else {
       arrive();
-      if (innerState && iframe.contentWindow) { try { iframe.contentWindow.location.hash = innerState; } catch (e) {} }
+      /* l'ancre change sans nouvelle entrée d'historique : le retour reste celui de l'accueil ;
+         page encore en chargement (about:blank) : on relance son chargement avec le nouvel état */
+      if (innerState && iframe.contentWindow) {
+        try {
+          var l = iframe.contentWindow.location;
+          if (l.href === 'about:blank') iframe.src = MODULES[idx] + '?v=' + Date.now() + '#' + innerState;
+          else l.replace(l.pathname + l.search + '#' + innerState);
+        } catch (e) {}
+      }
     }
     if (!_fromPop) {
       try { history.pushState({ page: 'module', idx: idx, innerState: innerState || '', from: moduleFrom }, '', '#m' + idx + (innerState ? ':' + innerState : '')); } catch (e) {}
@@ -1432,7 +1460,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
         if (back > -1) recedeFrame();
         showSalle(id, back);
         /* retour d'une page : la caméra ressort de sa carte */
-        if (back > -1 && !camOut(salle, salle.querySelector('.salle-card[data-module="' + back + '"]'))) salle.classList.add('is-landing');
+        if (back > -1 && !camOut(salle, cardFor(back))) salle.classList.add('is-landing');
       }
     }
     if (!_fromPop) try { history.pushState({ page: 'submenu', id: id, pushed: true }, '', '#' + id); } catch (e) {}
@@ -1486,6 +1514,12 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       return;
     }
     home();
+  });
+
+  /* Une page du site demande l'ouverture d'une autre (ex. Invocations → Verset du Trône) */
+  window.addEventListener('message', function (e) {
+    if (e.origin !== location.origin || !e.data || e.data.type !== 'open-module') return;
+    if (Number.isInteger(e.data.idx) && e.data.idx >= 0 && e.data.idx < N) openModule(e.data.idx, '');
   });
 
   /* Lien profond : une page signale son état interne */
