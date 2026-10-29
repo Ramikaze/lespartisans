@@ -139,7 +139,9 @@ html[data-lp-theme="light"] #skyBtn,html[data-lp-theme="light"] .sky-menu{displa
   transition:opacity .55s var(--lp-ease),transform .7s var(--lp-ease),filter .55s var(--lp-ease);
   transform-origin:50% 62%;
 }
-body.is-entering .home{opacity:0;transform:scale(.965);filter:blur(5px);pointer-events:none}
+body.is-entering .home,body.is-entering .salle{pointer-events:none}
+/* pendant un travelling, la scène agrandie ne doit pas agrandir la page (barres de défilement, zoom arrière des téléphones, ciel redimensionné) */
+html.lp-cam,html.lp-cam body{overflow:hidden;overflow:clip}
 .home.is-returning{animation:homeBack .75s var(--lp-ease) both}
 @keyframes homeBack{from{opacity:.25;transform:scale(1.02);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
 .home-date{display:none}
@@ -263,21 +265,22 @@ html[data-lp-theme="light"] .day-ar::highlight(lp-said){text-shadow:0 0 14px rgb
   mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
 }
 @property --sheen{syntax:'<number>';inherits:true;initial-value:0}
-.tower:hover{--lit:.45;--sheen:var(--tw-sheen-on);transform:translateY(-3px)}
+/* Le survol se lit sur la case (li), qui ne bouge pas : la dalle peut monter sans glisser sous le curseur */
+.towers > li:hover > .tower{--lit:.45;--sheen:var(--tw-sheen-on);transform:translateY(-3px)}
 .tower.is-on{
   --lit:1;transform:translateY(-8px) scale(1.035);
   box-shadow:var(--tw-inner),0 0 64px -10px rgba(var(--lp-glow),.7),0 30px 44px -26px rgba(var(--lp-glow),.5);
 }
 .tower.is-on::after{background:linear-gradient(180deg,rgba(var(--lp-glow),.95),rgba(var(--lp-glow),.32) 60%,rgba(var(--lp-glow),.55))}
 .ar{margin-bottom:auto;padding-bottom:10px;font-family:var(--lp-ar);font-size:22px;line-height:1.35;color:var(--tw-ar);text-wrap:balance;transition:color .5s var(--lp-ease)}
-.tower:hover .ar{color:var(--lp-ink)}
+.towers > li:hover > .tower .ar{color:var(--lp-ink)}
 .tower.is-on .ar{color:var(--lp-amber-hi)}
 .t-name{font-size:15px;font-weight:400;line-height:1.25;transition:color .5s}
 .t-meta{font-size:13px;font-weight:300;line-height:1.3;color:var(--lp-ink-3)}
 .tower.is-on .t-name{color:var(--lp-amber)}
 .tower.is-hollow{cursor:default;background:transparent;border:1px dashed var(--lp-edge);box-shadow:none}
 .tower.is-hollow::before,.tower.is-hollow::after{display:none}
-.tower.is-hollow:hover{transform:none}
+.towers > li:hover > .tower.is-hollow{transform:none}
 .tower.is-hollow .t-name{color:var(--lp-ink-2)}
 html[data-lp-theme="light"] .ar{text-shadow:0 1px 0 rgba(255,255,255,.75),0 0 22px rgba(255,186,104,.6)}
 html[data-lp-theme="light"] .tower.is-hollow{box-shadow:inset 0 2px 10px rgba(30,48,90,.1),inset 0 -1px 0 rgba(255,255,255,.85)}
@@ -306,18 +309,60 @@ html[data-lp-theme="light"] .tower.is-hollow .ar{text-shadow:none}
 .foot nav a,.foot nav button{padding:6px 10px;border-radius:999px;color:var(--lp-ink-2);transition:color .3s,background-color .3s}
 .foot nav a:hover,.foot nav button:hover{color:var(--lp-amber);background:var(--lp-fill)}
 
-/* ── Transition d'entrée : la source s'avance jusqu'à remplir l'écran ── */
-.lens{
-  position:fixed;z-index:250;pointer-events:none;border-radius:10px;
-  border:1px solid rgba(var(--lp-glow),.6);
-  background:radial-gradient(90% 70% at 50% 100%,rgba(var(--lp-glow),.36),transparent 70%),linear-gradient(180deg,rgba(225,235,255,.16),rgba(160,185,230,.05));
-  box-shadow:0 0 90px -10px rgba(var(--lp-glow),.55),inset 0 1px 0 rgba(255,255,255,.3);
+/* ── La salle : la dalle cliquée devient une page, ses rubriques en cartes de verre ── */
+/* posée au-dessus de l'accueil : pendant le travelling, l'accueil continue de filer dessous */
+.salle{
+  position:fixed;inset:0;z-index:2;overflow-y:auto;overscroll-behavior:contain;
+  padding:calc(var(--bar-h) + env(safe-area-inset-top) + clamp(28px,7vh,84px)) clamp(20px,4.2vw,64px) 56px;
 }
-html[data-lp-theme="light"] .lens{background:radial-gradient(90% 70% at 50% 100%,rgba(var(--lp-glow),.3),transparent 70%),linear-gradient(180deg,rgba(255,255,255,.95),rgba(255,255,255,.7))}
+.salle-head{max-width:900px}
+.salle-ar{margin:0 0 4px;font-family:var(--lp-ar);font-size:clamp(30px,2.7vw,42px);line-height:1.45;color:var(--lp-amber-hi);text-shadow:0 0 28px rgba(var(--lp-glow),.45)}
+.salle-t{margin:0;font-size:clamp(40px,4.4vw,68px);font-weight:200;line-height:1.03;letter-spacing:-.03em;text-wrap:balance}
+/* le titre reçoit le focus pour les lecteurs d'écran ; ce n'est pas une commande, il ne s'encadre pas */
+html[data-design="console"] .salle-t:focus-visible,.salle-t:focus{outline:none!important}
+.salle-d{margin:16px 0 0;max-width:52ch;font-size:clamp(16.5px,1.25vw,19px);font-weight:300;line-height:1.55;color:var(--lp-ink-2);text-wrap:pretty}
+.salle-cards{list-style:none;margin:clamp(30px,6vh,60px) 0 0;padding:0;display:grid;grid-template-columns:repeat(var(--cols,2),minmax(0,1fr));gap:16px;max-width:1180px}
+.salle-cards > li{display:flex;min-width:0}
+/* Une carte : la même vitre que les dalles ; elle s'allume au survol sans bouger, pour ne jamais fuir le curseur */
+.salle-card{
+  --lit:0;position:relative;isolation:isolate;overflow:hidden;
+  display:flex;flex-direction:column;gap:6px;width:100%;min-height:176px;padding:26px 58px 24px 26px;border-radius:22px;text-align:left;
+  background:radial-gradient(150px circle at var(--lx,-999px) var(--ly,-999px),rgba(var(--tw-sheen),var(--sheen)),transparent 72%),var(--tw-milk);
+  box-shadow:var(--tw-inner),var(--tw-drop);
+  -webkit-backdrop-filter:blur(14px) saturate(130%);backdrop-filter:blur(14px) saturate(130%);
+  transition:box-shadow .6s var(--lp-ease),--sheen .35s ease-out;
+}
+.salle-card::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 95% at 50% 125%,rgba(var(--lp-glow),.4),transparent 66%);opacity:var(--lit);transition:opacity .6s var(--lp-ease)}
+.salle-card::after{
+  content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;pointer-events:none;
+  background:radial-gradient(190px circle at var(--lx,-999px) var(--ly,-999px),rgba(var(--lp-glow),.95),rgba(var(--lp-glow),.3) 42%,transparent 72%),var(--tw-rim);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;
+  mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+}
+.salle-card:hover,.salle-card:focus-visible,.salle-card.is-on{--lit:1;--sheen:var(--tw-sheen-on);box-shadow:var(--tw-inner),0 0 56px -14px rgba(var(--lp-glow),.6),var(--tw-drop)}
+.salle-card:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px}
+.salle-card .sat-t{font-size:clamp(19px,1.5vw,22px);font-weight:400;line-height:1.25;transition:color .4s}
+.salle-card .sat-d{font-size:15px;font-weight:300;line-height:1.5;color:var(--lp-ink-2);text-wrap:pretty}
+.salle-card .sat-m{margin-top:auto;padding-top:12px;font-size:13.5px;font-weight:300;color:var(--lp-ink-3)}
+.salle-card .sat-go{position:absolute;top:26px;right:24px;width:20px;height:20px;color:var(--lp-ink-3);transition:color .3s,transform .45s var(--lp-ease)}
+.salle-card:hover .sat-t,.salle-card:focus-visible .sat-t,.salle-card.is-on .sat-t{color:var(--lp-amber)}
+.salle-card:hover .sat-go,.salle-card:focus-visible .sat-go{color:var(--lp-amber);transform:translate(2px,-2px)}
+@media (prefers-reduced-motion:no-preference){
+  .salle.is-arriving .salle-head > *{animation:surface .7s var(--lp-ease) both}
+  .salle.is-arriving .salle-t{animation-delay:.05s}
+  .salle.is-arriving .salle-d{animation-delay:.1s}
+  .salle.is-arriving .salle-cards > li{animation:rise .9s var(--lp-ease) both;animation-delay:calc(.16s + var(--i) * 60ms)}
+  /* la caméra a traversé la dalle : la salle arrive en finissant le mouvement vers l'avant */
+  .salle.is-landing{animation:salleLand .62s var(--lp-ease) both}
+}
+@media (prefers-reduced-motion:reduce){.salle.is-landing{animation:frameIn .25s ease both}}
+@keyframes salleLand{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:none}}
 
 /* ── Modules (iframes) ──────────────────────────────────────────────── */
 .iframe-wrap{display:none;position:fixed;top:calc(var(--bar-h) + env(safe-area-inset-top));left:0;right:0;bottom:0;z-index:100;background:var(--lp-void)}
 .iframe-wrap.active{display:block;animation:frameIn .6s var(--lp-ease) both}
+/* au retour, la page recule et s'efface pendant que la caméra ressort */
+.iframe-wrap.is-leaving{display:block;pointer-events:none}
 @keyframes frameIn{from{opacity:.2}to{opacity:1}}
 .iframe-wrap iframe{width:100%;height:100%;border:0;display:block;background:var(--lp-void)}
 .loader{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;background:var(--lp-void);transition:opacity .55s var(--lp-ease)}
@@ -417,7 +462,7 @@ html[data-lp-theme="light"] .lens{background:radial-gradient(90% 70% at 50% 100%
   .row{margin-top:6px}
   .towers{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   .tower{min-height:120px;padding:14px 10px 13px;border-radius:18px}
-  .tower:hover{transform:none}
+  .towers > li:hover > .tower{transform:none}
   .ar{font-size:23px;padding-bottom:8px;color:var(--lp-ink);text-shadow:0 0 18px rgba(var(--lp-glow),.35)}
   .tower.is-on{transform:none}
   .tower.is-hollow{opacity:.8}
@@ -442,11 +487,16 @@ html[data-lp-theme="light"] .lens{background:radial-gradient(90% 70% at 50% 100%
   .scrim{display:block;position:fixed;inset:0;z-index:390;background:var(--scrim);opacity:0;pointer-events:none;transition:opacity .45s var(--lp-ease)}
   .scrim.is-on{opacity:1;pointer-events:auto}
   .foot{flex-direction:column;align-items:flex-start}
+  .salle{padding:calc(var(--bar-h) + env(safe-area-inset-top) + 24px) 16px calc(32px + env(safe-area-inset-bottom))}
+  .salle-cards{grid-template-columns:minmax(0,1fr);gap:12px}
+  .salle-card{min-height:0;padding:20px 50px 18px 20px;border-radius:20px;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .salle-card .sat-go{top:21px;right:18px}
   .modal-panel{padding:30px 20px 24px}
   .gs-overlay{padding-top:calc(env(safe-area-inset-top) + 12px)}
 }
 @media (min-width:600px) and (max-width:899px){
   .towers{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .salle-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-height:820px) and (min-width:900px){
   .day{padding-top:18px;padding-bottom:16px}
@@ -483,7 +533,6 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 </head>
 <body>
 <canvas id="lp-sky" aria-hidden="true"></canvas>
-<div class="lens" id="lens" hidden></div>
 
 <header class="bar" id="bar">
   <button class="bar-back" id="navBackBtn" type="button" hidden>
@@ -691,6 +740,16 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   </footer>
 </main>
 
+<!-- La salle d'une source (ordinateur) : remplie depuis sa section .room au clic sur la dalle -->
+<main class="salle" id="salle" aria-labelledby="salleTitle" hidden>
+  <header class="salle-head">
+    <p class="salle-ar" lang="ar" aria-hidden="true"></p>
+    <h2 class="salle-t" id="salleTitle" tabindex="-1"></h2>
+    <p class="salle-d"></p>
+  </header>
+  <ul class="salle-cards"></ul>
+</main>
+
 <div id="frames"></div>
 
 <!-- Soutenir le projet -->
@@ -771,7 +830,6 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var backBtn = document.getElementById('navBackBtn');
   var stage = document.getElementById('stage');
   var scrim = document.getElementById('scrim');
-  var lens = document.getElementById('lens');
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
   var compact = window.matchMedia('(max-width: 899px)');
   var EASE = 'cubic-bezier(.16,1,.3,1)';
@@ -1039,14 +1097,19 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     show(tower, opts);
     if (compact.matches && !(opts && opts.noSheet)) openSheet();
   }
-  function leaveRoom() { if (location.hash.length > 1 && history.state && history.state.page === 'submenu') history.back(); else home(); }
+  /* On ne recule dans l'historique que vers une entrée que le site a lui-même posée (jamais hors du site) */
+  function leaveRoom() { if (history.state && history.state.page === 'submenu' && history.state.pushed) history.back(); else home(); }
 
   towers.forEach(function (t, i) {
+    var cell = t.parentElement;
     t.addEventListener('click', function () {
-      if (t.dataset.room) window.openSubMenu(t.dataset.room);
+      clearTimeout(hoverTimer);
+      if (t.dataset.room) window.openSubMenu(t.dataset.room, t);
       else enterFrom(t, +t.dataset.module, '');
     });
-    t.addEventListener('mouseenter', function () {
+    /* la dalle allumée monte : un clic dans la case, juste sous elle, compte encore pour elle */
+    cell.addEventListener('click', function (e) { if (e.target === cell) t.click(); });
+    cell.addEventListener('mouseenter', function () {
       if (compact.matches) return;
       clearTimeout(hoverTimer);
       hoverTimer = setTimeout(function () { show(t, { strength: 0.85 }); }, 90);
@@ -1081,13 +1144,18 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   });
   stage.addEventListener('click', function (e) {
     var b = e.target.closest('[data-module]');
-    if (b) enterFrom(b, +b.dataset.module, '');
+    if (b) enterFrom(b, +b.dataset.module, '', pinned && pinned.dataset.room);
   });
   document.getElementById('roomClose').addEventListener('click', leaveRoom);
   scrim.addEventListener('click', leaveRoom);
 
   compact.addEventListener('change', function () {
     closeSheet();
+    /* une salle ouverte change de forme avec l'écran : page sur ordinateur, panneau sur téléphone */
+    var id = salleId || (pinned && pinned.dataset.room);
+    if (id && !body.classList.contains('iframe-active') && history.state && history.state.page === 'submenu') {
+      _fromPop = true; window.openSubMenu(id); _fromPop = false; return;
+    }
     if (!compact.matches && pinned) show(pinned, { quiet: true }); else clearRoom();
   });
   window.addEventListener('resize', function () {
@@ -1096,25 +1164,120 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     drawThread(shown, stage.querySelector('.room.is-shown'), false);
   });
 
-  /* ── Transition d'entrée ── */
-  function enterFrom(el, idx, state) {
-    if (reduce.matches || !el || !lens.animate || body.classList.contains('iframe-active')) { openModule(idx, state); return; }
-    var r = el.getBoundingClientRect();
-    var top = bar.getBoundingClientRect().bottom;
-    lens.hidden = false;
+  /* ── La caméra : elle avance dans l'objet cliqué (dalle ou carte) jusqu'à le traverser ; au retour, elle en ressort ── */
+  var CAM_MOVE = 'cubic-bezier(.77,0,.175,1)';
+  /* Le chemin de la caméra : l'échelle croît de façon exponentielle (vitesse perçue régulière)
+     et l'objet glisse vers le centre ; la scène s'efface quand la caméra entre dans l'objet */
+  /* « fade » : instant du chemin où la scène commence à s'effacer (plus tard au retour, pour que l'accueil réapparaisse tôt) */
+  function camFrames(scene, el, fade) {
+    var r = el.getBoundingClientRect(), b = scene.getBoundingClientRect();
+    var vw = window.innerWidth, vh = window.innerHeight;
+    var cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+    var S = Math.max(vw / r.width, vh / r.height) * 1.15;
+    var dx = vw / 2 - cx, dy = vh / 2 - cy, f = [];
+    scene.style.transformOrigin = (cx - b.left).toFixed(1) + 'px ' + (cy - b.top).toFixed(1) + 'px';
+    for (var i = 0; i <= 10; i++) {
+      var t = i / 10, k = Math.pow(S, t), p = (k - 1) / (S - 1);
+      f.push({ offset: t, transform: 'translate(' + (dx * p).toFixed(1) + 'px,' + (dy * p).toFixed(1) + 'px) scale(' + k.toFixed(3) + ')', opacity: t <= fade ? 1 : Math.max(0, 1 - (t - fade) / .4) });
+    }
+    return f;
+  }
+  function stopCam(scene) {
+    var a = scene._cam;
+    scene._after = null;
+    if (!a) return;
+    scene._cam = null;
+    a.cancel();
+    scene.style.transformOrigin = '';
+    camDone();
+  }
+  function camDone() { if (!homeEl._cam && !salle._cam) html.classList.remove('lp-cam'); }
+  /* Avancer : « arrive » ouvre la destination à mi-course, par-dessus la scène qui file encore */
+  function camIn(scene, el, arrive) {
+    var r = el && el.getBoundingClientRect();
+    if (reduce.matches || !r || !r.width || !scene.animate || (compact.matches && stage.contains(el))) { arrive(); return; }
+    stopCam(scene);
     lpSky.glowTo(r.left + r.width / 2, r.top + r.height / 2, 1.6);
+    setTimeout(function () { lpSky.glowTo(window.innerWidth / 2, window.innerHeight * 0.55, 1.8); }, 200);
     body.classList.add('is-entering');
     closeSheet();
-    var anim = lens.animate([
-      { left: r.left + 'px', top: r.top + 'px', width: r.width + 'px', height: r.height + 'px', borderRadius: '12px', opacity: 1 },
-      { left: '0px', top: top + 'px', width: window.innerWidth + 'px', height: (window.innerHeight - top) + 'px', borderRadius: '0px', opacity: 1 }
-    ], { duration: 640, easing: EASE, fill: 'forwards' });
-    anim.onfinish = function () {
-      openModule(idx, state);
+    html.classList.add('lp-cam');
+    var a = scene.animate(camFrames(scene, el, .5), { duration: 640, easing: CAM_MOVE, fill: 'forwards' });
+    scene._cam = a;
+    el.classList.add('is-on');
+    var arrived = false, ended = false;
+    function land() { if (!arrived) { arrived = true; arrive(); } }
+    function end() {
+      if (ended) return;
+      ended = true;
+      land();
       body.classList.remove('is-entering');
-      var out = lens.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 420, easing: 'ease-out', fill: 'forwards' });
-      out.onfinish = function () { anim.cancel(); out.cancel(); lens.hidden = true; };
-    };
+      if (scene._cam !== a) return;
+      var after = scene._after;
+      scene._cam = null;
+      scene._after = null;
+      /* la scène quitte l'écran avant de perdre sa transformation : aucun éclair de l'ancienne vue */
+      if (after) after();
+      a.cancel();
+      scene.style.transformOrigin = '';
+      camDone();
+      el.classList.remove('is-on');
+    }
+    setTimeout(land, 360);
+    a.onfinish = end;
+    /* filet : si l'animation ne progresse pas (onglet en arrière-plan), on arrive quand même */
+    setTimeout(end, 1100);
+  }
+  /* Reculer : la scène part de l'intérieur de l'objet et revient à sa place, le même chemin à l'envers */
+  function camOut(scene, el) {
+    if (reduce.matches || !el || !scene.animate) return false;
+    stopCam(scene);
+    var r = el.getBoundingClientRect();
+    if (!r.width || r.bottom <= 0 || r.top >= window.innerHeight) return false;
+    var f = camFrames(scene, el, .6).reverse();
+    f.forEach(function (k, i) { k.offset = i / (f.length - 1); });
+    html.classList.add('lp-cam');
+    var a = scene.animate(f, { duration: 640, easing: CAM_MOVE });
+    scene._cam = a;
+    el.classList.add('is-on');
+    lpSky.glowTo(window.innerWidth / 2, window.innerHeight * 0.55, 1.6);
+    setTimeout(function () { lpSky.glowTo(r.left + r.width / 2, r.top + r.height * 0.7, 1.2); }, 260);
+    var ended = false;
+    function end() {
+      if (ended) return;
+      ended = true;
+      if (scene._cam === a) { scene._cam = null; a.cancel(); scene.style.transformOrigin = ''; camDone(); }
+      setTimeout(function () {
+        if (shown !== el) el.classList.remove('is-on');
+        if (!shown) lpSky.glowTo(window.innerWidth * 0.72, window.innerHeight * 0.42, 0.5);
+      }, 450);
+    }
+    a.onfinish = end;
+    setTimeout(end, 1100);
+    return true;
+  }
+  /* La scène quittée se cache tout de suite, ou à la fin du travelling qui l'emporte */
+  function hideHome() {
+    if (homeEl._cam) homeEl._after = function () { homeEl.style.display = 'none'; };
+    else homeEl.style.display = 'none';
+  }
+  /* Au retour, la page ouverte recule et s'efface au lieu de disparaître d'un coup */
+  function recedeFrame() {
+    var w = currentModule > -1 && document.getElementById('frame' + currentModule);
+    if (reduce.matches || !w || !w.classList.contains('active') || !w.animate) return;
+    w.classList.add('is-leaving');
+    var a = w.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(.92)' }], { duration: 340, easing: EASE, fill: 'forwards' });
+    var gone = false;
+    function done() { if (!gone) { gone = true; w.classList.remove('is-leaving'); a.cancel(); } }
+    a.onfinish = done;
+    setTimeout(done, 700);
+  }
+  /* « from » : la salle d'où l'on vient, pour que le retour y ramène */
+  function enterFrom(el, idx, state, from) {
+    if (body.classList.contains('iframe-active')) { openModule(idx, state, from); return; }
+    /* si l'on a reculé pendant le travelling, la page n'est plus demandée : on ne l'ouvre pas */
+    var asked = JSON.stringify(history.state);
+    camIn(salleId ? salle : homeEl, el, function () { if (JSON.stringify(history.state) === asked) openModule(idx, state, from); });
   }
 
   /* ── Routage ── */
@@ -1122,56 +1285,112 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     for (var i = 0; i < N; i++) document.getElementById('frame' + i).classList.remove('active');
     body.classList.remove('iframe-active');
   }
-  function setModuleBar(idx) {
-    backBtn.hidden = idx < 0;
+  /* « back » : où mène le bouton retour (Accueil, ou la salle d'où l'on vient) */
+  var backLabel = backBtn.querySelector('span');
+  function setModuleBar(idx, back) {
+    backBtn.hidden = idx < 0 && !back;
     barTitle.hidden = idx < 0;
     barTitle.textContent = idx < 0 ? '' : TITLES[idx];
+    backLabel.textContent = back || 'Accueil';
   }
+  function towerName(id) { var t = towerFor(id); return t ? t.querySelector('.t-name').textContent : ''; }
+
+  /* ── La salle (ordinateur) : la page d'une source, remplie depuis sa section .room ── */
+  var salle = document.getElementById('salle');
+  var salleId = null, moduleFrom = null, viaKeys = false;
+  document.addEventListener('keydown', function () { viaKeys = true; }, true);
+  document.addEventListener('pointerdown', function () { viaKeys = false; }, true);
+  function fillSalle(id) {
+    var room = document.getElementById('submenu-' + id);
+    salle.querySelector('.salle-ar').textContent = towerFor(id).querySelector('.ar').textContent;
+    salle.querySelector('.salle-t').textContent = room.querySelector('h2').textContent;
+    salle.querySelector('.salle-d').textContent = room.querySelector('.room-head p').textContent;
+    var list = salle.querySelector('.salle-cards'), sats = room.querySelectorAll('.sat');
+    list.innerHTML = '';
+    /* deux colonnes pour 2 ou 4 rubriques, trois au-delà */
+    list.style.setProperty('--cols', sats.length === 4 ? 2 : Math.min(sats.length, 3));
+    Array.prototype.forEach.call(sats, function (s, i) {
+      var li = document.createElement('li'), b = s.cloneNode(true);
+      li.style.setProperty('--i', i);
+      b.className = 'salle-card';
+      li.appendChild(b);
+      list.appendChild(li);
+    });
+  }
+  /* « back » : la page d'où l'on revient ; la salle revient alors sans cascade, la carte prête à recevoir la vitre */
+  function showSalle(id, back) {
+    if (salle._leave) { salle._leave.cancel(); salle._leave = null; }
+    stopCam(salle);
+    fillSalle(id);
+    salleId = id;
+    hideAllFrames();
+    closeSheet();
+    pinned = null;
+    clearRoom();
+    hideHome();
+    salle.hidden = false;
+    salle.scrollTop = 0;
+    bar.classList.remove('is-solid');
+    setModuleBar(-1, 'Accueil');
+    salle.classList.remove('is-arriving', 'is-landing');
+    if (back < 0) { void salle.offsetWidth; salle.classList.add('is-arriving', 'is-landing'); }
+    /* au clavier, le retour rend la main sur la carte d'où l'on était parti */
+    var card = viaKeys && back > -1 && salle.querySelector('.salle-card[data-module="' + back + '"]');
+    (card || salle.querySelector('.salle-t')).focus({ preventScroll: true });
+    lpSky.wake();
+  }
+  /* « recede » : la salle s'éloigne en s'effaçant pendant que la caméra ressort de sa dalle */
+  function hideSalle(recede) {
+    if (!salleId) return;
+    salleId = null;
+    function off() { salle.hidden = true; salle.classList.remove('is-arriving', 'is-landing'); }
+    if (salle._cam) salle._after = off;
+    else if (recede && !reduce.matches && salle.animate) {
+      var a = salle.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(.9)' }], { duration: 320, easing: EASE, fill: 'forwards' });
+      salle._leave = a;
+      a.onfinish = function () { if (salle._leave === a) { salle._leave = null; off(); a.cancel(); } };
+    } else off();
+    bar.classList.toggle('is-solid', window.scrollY > 8);
+  }
+  salle.addEventListener('scroll', function () { bar.classList.toggle('is-solid', salle.scrollTop > 8); }, { passive: true });
+  salle.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-module]');
+    if (b) enterFrom(b, +b.dataset.module, '', salleId);
+  });
+
   function home() {
     var wasModule = body.classList.contains('iframe-active');
-    var from = bar.getBoundingClientRect().bottom;
+    var wasSalle = salleId;
+    if (wasModule) recedeFrame();
     hideAllFrames();
+    hideSalle(true);
+    stopCam(homeEl);
     homeEl.style.display = '';
     setModuleBar(-1);
     closeSheet();
     pinned = null;
     clearRoom();
     window.scrollTo(0, 0);
-    var tile = wasModule ? tileForModule(currentModule) : null;
-    var tr = tile ? tile.getBoundingClientRect() : null;
-    if (wasModule && !reduce.matches) {
+    var tile = wasModule ? tileForModule(currentModule) : wasSalle ? towerFor(wasSalle) : null;
+    /* la caméra ressort de la dalle ; sans dalle visible, l'accueil revient en fondu */
+    if ((wasModule || wasSalle) && !camOut(homeEl, tile) && !reduce.matches) {
       homeEl.classList.remove('is-returning'); void homeEl.offsetWidth; homeEl.classList.add('is-returning');
     }
-    if (tr) foldInto(tile, tr, from);
+    /* au clavier, on revient sur la dalle d'où l'on était parti */
+    if (wasSalle && viaKeys && tile) tile.focus({ preventScroll: true });
     lpSky.wake();
     if (!_fromPop) try { history.pushState({ page: 'home' }, '', '#'); } catch (e) {}
   }
-  /* Le repli : la vitre de la page se resserre jusqu'à la dalle d'où l'on venait */
-  function foldInto(tile, tr, from) {
-    if (reduce.matches || compact.matches || !lens.animate || tr.bottom <= 0 || tr.top >= window.innerHeight) return;
-    lens.hidden = false;
-    var a = lens.animate([
-      { left: '0px', top: from + 'px', width: window.innerWidth + 'px', height: (window.innerHeight - from) + 'px', borderRadius: '0px', opacity: 1 },
-      { left: tr.left + 'px', top: tr.top + 'px', width: tr.width + 'px', height: tr.height + 'px', borderRadius: '18px', opacity: .85 }
-    ], { duration: 540, easing: 'cubic-bezier(.32,.72,0,1)', fill: 'forwards' });
-    tile.classList.add('is-on');
-    lpSky.glowTo(tr.left + tr.width / 2, tr.top + tr.height * 0.7, 1.2);
-    a.onfinish = function () {
-      var o = lens.animate([{ opacity: .85 }, { opacity: 0 }], { duration: 280, easing: 'ease-out', fill: 'forwards' });
-      o.onfinish = function () { a.cancel(); o.cancel(); lens.hidden = true; };
-      setTimeout(function () {
-        if (shown !== tile) { tile.classList.remove('is-on'); if (!shown) lpSky.glowTo(window.innerWidth * 0.72, window.innerHeight * 0.42, 0.5); }
-      }, 650);
-    };
-  }
-  function openModule(idx, innerState) {
+  function openModule(idx, innerState, from) {
     currentModule = idx;
-    homeEl.style.display = 'none';
+    moduleFrom = from || null;
+    hideHome();
+    hideSalle();
     hideAllFrames();
     closeSheet();
     document.getElementById('frame' + idx).classList.add('active');
     body.classList.add('iframe-active');
-    setModuleBar(idx);
+    setModuleBar(idx, moduleFrom && towerName(moduleFrom));
     var src = MODULES[idx] + '?v=' + Date.now() + (innerState ? '#' + innerState : '');
     var iframe = document.getElementById('iframe' + idx);
     var wrap = document.getElementById('frame' + idx);
@@ -1190,26 +1409,40 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       if (innerState && iframe.contentWindow) { try { iframe.contentWindow.location.hash = innerState; } catch (e) {} }
     }
     if (!_fromPop) {
-      try { history.pushState({ page: 'module', idx: idx, innerState: innerState || '' }, '', '#m' + idx + (innerState ? ':' + innerState : '')); } catch (e) {}
+      try { history.pushState({ page: 'module', idx: idx, innerState: innerState || '', from: moduleFrom }, '', '#m' + idx + (innerState ? ':' + innerState : '')); } catch (e) {}
     }
   }
   window.openModule = openModule;
-  window.openSubMenu = function (id) {
+  /* Une source à rubriques : sur ordinateur sa dalle s'avance et devient une page ; sur téléphone, le panneau monte */
+  window.openSubMenu = function (id, fromTile) {
     var t = towerFor(id);
     if (!t) return;
-    hideAllFrames();
-    homeEl.style.display = '';
-    setModuleBar(-1);
-    pin(t);
-    lpSky.wake();
-    if (!_fromPop) try { history.pushState({ page: 'submenu', id: id }, '', '#' + id); } catch (e) {}
+    if (compact.matches) {
+      hideSalle();
+      hideAllFrames();
+      homeEl.style.display = '';
+      setModuleBar(-1);
+      pin(t);
+      lpSky.wake();
+    } else {
+      var back = body.classList.contains('iframe-active') ? currentModule : -1;
+      /* si l'on a reculé pendant le travelling, la salle n'est plus demandée : on ne l'ouvre pas */
+      if (fromTile && !_fromPop && back < 0) camIn(homeEl, fromTile, function () { if (history.state && history.state.id === id) showSalle(id, -1); });
+      else {
+        if (back > -1) recedeFrame();
+        showSalle(id, back);
+        /* retour d'une page : la caméra ressort de sa carte */
+        if (back > -1 && !camOut(salle, salle.querySelector('.salle-card[data-module="' + back + '"]'))) salle.classList.add('is-landing');
+      }
+    }
+    if (!_fromPop) try { history.pushState({ page: 'submenu', id: id, pushed: true }, '', '#' + id); } catch (e) {}
   };
   window.closeSubMenu = function () { home(); };
 
   window.addEventListener('popstate', function (e) {
     _fromPop = true;
     var s = e.state;
-    if (s && s.page === 'module') openModule(s.idx, s.innerState);
+    if (s && s.page === 'module') openModule(s.idx, s.innerState, s.from);
     else if (s && s.page === 'submenu') window.openSubMenu(s.id);
     else home();
     _fromPop = false;
@@ -1239,7 +1472,21 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   }
 
   document.getElementById('logoBtn').addEventListener('click', function (e) { e.preventDefault(); home(); });
-  backBtn.addEventListener('click', home);
+  /* Le retour remonte d'un cran : page → salle d'où l'on vient → accueil */
+  backBtn.addEventListener('click', function () {
+    if (salleId) { leaveRoom(); return; }
+    if (moduleFrom && body.classList.contains('iframe-active')) {
+      if (history.state && history.state.page === 'module' && history.state.from === moduleFrom) history.back();
+      else {
+        /* historique sans l'entrée de la salle : on la remet à la place de la page, sans empiler */
+        var id = moduleFrom;
+        _fromPop = true; window.openSubMenu(id); _fromPop = false;
+        try { history.replaceState({ page: 'submenu', id: id }, '', '#' + id); } catch (e) {}
+      }
+      return;
+    }
+    home();
+  });
 
   /* Lien profond : une page signale son état interne */
   window.addEventListener('message', function (e) {
@@ -1247,7 +1494,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       var hash = window.location.hash;
       if (hash.indexOf('#m') === 0) {
         var idx = parseInt(hash.substring(2).split(':')[0], 10);
-        if (!isNaN(idx)) try { history.replaceState({ page: 'module', idx: idx, innerState: e.data.state }, '', '#m' + idx + ':' + e.data.state); } catch (ex) {}
+        if (!isNaN(idx)) try { history.replaceState({ page: 'module', idx: idx, innerState: e.data.state, from: moduleFrom }, '', '#m' + idx + ':' + e.data.state); } catch (ex) {}
       }
     }
   });
@@ -1380,6 +1627,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (e.key !== 'Escape') return;
     if (modal.classList.contains('active')) closeSupport();
     else if (stage.classList.contains('is-open')) leaveRoom();
+    else if (salleId && !document.getElementById('gsOverlay').classList.contains('open')) leaveRoom();
     else if (!compact.matches && pinned && !document.getElementById('gsOverlay').classList.contains('open')) leaveRoom();
   });
 

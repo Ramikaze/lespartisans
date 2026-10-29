@@ -643,7 +643,7 @@
     if (!fine || still || !('IntersectionObserver' in window)) return;
     /* verre des pages : le dégradé --lp-glass (nuit ou aube) ; verre de l'accueil : dalles, verset, recherche */
     var SIG = /rgba\(214, 226, 250, 0\.075\)|rgba\(255, 255, 255, 0\.74\)/;
-    var HUB = '.tower:not(.is-hollow),.day,.find';
+    var HUB = '.tower:not(.is-hollow),.day,.find,.salle-card';
     var BOX = { DIV: 1, SECTION: 1, NAV: 1, ASIDE: 1, ARTICLE: 1, LI: 1, BUTTON: 1, A: 1, HEADER: 1, FOOTER: 1, FIGURE: 1, BLOCKQUOTE: 1 };
     var seen = new WeakSet(), vis = new Set(), lit = new Set(), px = -1e4, py = -1e4, raf = 0, R = 170;
     var io = new IntersectionObserver(function (es) {
