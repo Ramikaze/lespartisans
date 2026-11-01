@@ -711,7 +711,7 @@
     'article-connaissance': '.quran,.hadith,.pillar-box', 'usul-al-din': '.quran,.hadith,.pillar-box',
     'tawheed': '.quran,.hadith,.pillar-box', 'nubuwwa': '.quran,.hadith,.pillar-box',
     'resister': '.quran,.hadith,.evidence,.action-box', 'chiisme-repond': '.question-block',
-    'hadith-kisa': '.passage', 'que-dit-le-coran': '.quran-box', 'aune-sagesse': '.c-intro'
+    'hadith-kisa': '.passage', 'que-dit-le-coran': '.quran-box', 'aune-sagesse': '.c-intro', 'bihar-anwar': '.c-intro'
   };
   document.addEventListener('DOMContentLoaded', function () {
     var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -745,7 +745,7 @@
     /* Passage par la brume : le nouveau chapitre se condense hors d'un voile,
        et la lumière du ciel respire. Seulement quand le chapitre change vraiment. */
     var CHAP = {
-      'invocations': ['#content', '.c-title'], 'aune-sagesse': ['#content', '.c-title'],
+      'invocations': ['#content', '.c-title'], 'aune-sagesse': ['#content', '.c-title'], 'bihar-anwar': ['#content', '.c-title'],
       'que-dit-le-coran': ['.content-area', '.subpart-title'],
       'chiisme-repond': ['.content-area', '.question-text,.chapter-title,h1,h2']
     }[page];

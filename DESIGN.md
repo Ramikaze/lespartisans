@@ -316,6 +316,9 @@ Coins doux et réguliers : 18px pour dalles et panneaux, 24px pour la dalle du v
 - **Numéro de section :** petite tuile éclairée ambre ; titre de section 300 ; filet qui s'efface vers la droite ; séparateur = point ambre 4px.
 - **Bouton haut de page :** verre plein, flèche ambre, halo au survol.
 
+### Fiche de hadith de Biḥār al-Anwār (`bihar-anwar.html`)
+La fiche de verre de *L'Aune* (pastille, parole), avec trois ajouts. **Chaîne de transmission** : seuls les transmetteurs se replient, derrière une pilule de 30px (`.isnad-toggle`, vrai `<button>` à `aria-expanded`, libellé fixe « Chaîne de transmission », 40px sur écran tactile) ; dépliée, la chaîne (`p.isnad`) passe en `--lp-ink-3`, .88rem, poids 300, contraste ≥ 4.5:1 en nuit comme en aube. Celui qui parle et les formules « Par sa chaîne allant jusqu'à… » restent dans la parole ; une fiche sans transmetteur n'a pas de bouton. **Commentaire d'al-Majlisī** : un encart toujours visible sous la parole (`.hadith-comment`, fond `--lp-fill`, filet `--lp-hairline`, 14px), titré en `--lp-ink-2`, pour qu'on ne le prenne pas pour la parole de l'Imam. **Hadith non traduit** (`.hadith-card.is-missing`) : fiche creuse, bordure en tirets, ni verre ni ombre, la seule mention « Non traduit dans l'édition SiratAli ». Le hadith ouvert par la recherche s'allume 2s (`.is-flash` : bordure ambre .65, halo).
+
 ### Lecture accompagnée (`lp-design.js`)
 - **Trait de progression** (`.lp-progress`) : 2px fixé en haut, dégradé lueur→ambre, suit l'élément qui défile vraiment ; apparaît en 0.4s.
 - **Lampes** (`.lp-lamp`) : les encadrés sacrés encore loin sous le pli démarrent atténués (`opacity .6`, `saturate(.65) brightness(.84)`) et s'allument une seule fois en 0.9s quand on les atteint. Non armées si mouvement réduit ou sans `IntersectionObserver`.
