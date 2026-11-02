@@ -43,6 +43,33 @@
     if (e.data && e.data.type === 'theme') setTheme(e.data.theme);
   });
 
+  /* Une page que le hub masque se tait : {type:'lp-hidden'} met en pause tout son en cours, même un
+     Audio() jamais inséré dans la page (récitation verset par verset). Les pages suivent l'événement
+     « pause » de leurs médias pour remettre leurs boutons à jour. Le hub n'envoie rien à la Radio. */
+  var lpPlaying = [];
+  try {
+    var lpPlay = HTMLMediaElement.prototype.play;
+    HTMLMediaElement.prototype.play = function () {
+      lpPlaying = lpPlaying.filter(function (m) { return !m.paused && m !== this; }, this);
+      lpPlaying.push(this);
+      return lpPlay.apply(this, arguments);
+    };
+  } catch (e) {}
+  window.addEventListener('message', function (e) {
+    if (e.origin !== location.origin || !e.data || e.data.type !== 'lp-hidden') return;
+    var all = lpPlaying.concat(Array.prototype.slice.call(document.querySelectorAll('audio,video')));
+    lpPlaying = [];
+    all.forEach(function (m) { try { if (!m.paused) m.pause(); } catch (ex) {} });
+  });
+
+  /* Ctrl+K (⌘K) dans n'importe quelle page ouvre la recherche du hub (un double envoi est sans effet) */
+  if (window.parent !== window) document.addEventListener('keydown', function (e) {
+    if ((e.ctrlKey || e.metaKey) && !e.altKey && (e.key === 'k' || e.key === 'K')) {
+      e.preventDefault();
+      try { window.parent.postMessage({ type: 'gs-open' }, location.origin); } catch (ex) {}
+    }
+  });
+
   window.LP_DESIGN = DESIGN;
   window.lpSetTheme = setTheme;
 

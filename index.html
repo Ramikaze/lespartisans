@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="console.css">
 <script src="vendor/fuse-7.0.0.min.js"></script>
-<script src="global-search-data.js"></script>
+<!-- global-search-data.js (3,7 Mo) n'est chargé qu'à la première ouverture de la recherche (voir withIndex) -->
 <style>
 /* ── Hub « Console » : jetons propres au hub ─────────────────────────── */
 html{
@@ -828,7 +828,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var MODULES = [
     "chiisme-repond.html", "chronologie.html", "verset-trone.html", "arbre-genealogique.html",
     "invocations.html", "bibliotheque.html", "videos.html", "article-connaissance.html",
-    "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-trone.html" /* ancien module 11 : ses liens #m11 ouvrent le Verset du Trône */,
+    "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-trone.html" /* 11 : ancien module jamais publié ; #m11 est renvoyé vers #m2 (initialRoute), l'entrée garde les numéros suivants */,
     "douze-imams.html", "tawheed.html", "nubuwwa.html", "resister.html",
     "99-noms.html", "aune-sagesse.html", "radio.html", "que-dit-le-coran.html",
     "bihar-anwar.html?vol=1", "bihar-anwar.html?vol=2"
@@ -1338,8 +1338,16 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   }
 
   /* ── Routage ── */
-  function hideAllFrames() {
-    for (var i = 0; i < N; i++) document.getElementById('frame' + i).classList.remove('active');
+  /* Une page qu'on quitte se tait (lp-design.js met ses sons en pause) ; la Radio (18) continue en fond */
+  var PLAYS_ON = { 18: true };
+  function hideAllFrames(keep) {
+    for (var i = 0; i < N; i++) {
+      var w = document.getElementById('frame' + i);
+      if (i !== keep && !PLAYS_ON[i] && w.classList.contains('active')) {
+        try { document.getElementById('iframe' + i).contentWindow.postMessage({ type: 'lp-hidden' }, location.origin); } catch (e) {}
+      }
+      w.classList.remove('active');
+    }
     body.classList.remove('iframe-active');
   }
   /* « back » : où mène le bouton retour (Accueil, ou la salle d'où l'on vient) */
@@ -1459,7 +1467,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     moduleFrom = from || null;
     hideHome();
     hideSalle();
-    hideAllFrames();
+    hideAllFrames(idx);
     closeSheet();
     document.getElementById('frame' + idx).classList.add('active');
     body.classList.add('iframe-active');
@@ -1537,6 +1545,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       var parts = hash.substring(2).split(':');
       var idx = parseInt(parts[0], 10);
       var inner = parts.slice(1).join(':');
+      /* ancien module 11 (une page jamais publiée) : ses liens ouvrent le Verset du Trône, sous son adresse #m2 */
+      if (idx === 11) { idx = 2; hash = '#m2' + (inner ? ':' + inner : ''); }
       if (!isNaN(idx) && idx >= 0 && idx < N) {
         _fromPop = true; openModule(idx, inner); _fromPop = false;
         try { history.replaceState({ page: 'module', idx: idx, innerState: inner }, '', hash); } catch (e) {}
@@ -1584,6 +1594,9 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       var hash = window.location.hash;
       if (hash.indexOf('#m') === 0) {
         var idx = parseInt(hash.substring(2).split(':')[0], 10);
+        /* seule la page affichée parle : une page masquée qui finit de charger n'écrit pas dans l'adresse d'une autre */
+        var shown = !isNaN(idx) && document.getElementById('iframe' + idx);
+        if (!shown || e.source !== shown.contentWindow) return;
         /* un état vide (retour à la Présentation d'une page) donne #m20, jamais #m20: */
         if (!isNaN(idx)) try { history.replaceState({ page: 'module', idx: idx, innerState: e.data.state, from: moduleFrom }, '', '#m' + idx + (e.data.state ? ':' + e.data.state : '')); } catch (ex) {}
       }
@@ -1751,11 +1764,25 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   };
   function typeIcon(t) { return '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">' + P[TYPE_ICONS[t] || 'find'] + '</svg>'; }
 
-  var gsData = window.GLOBAL_SEARCH_INDEX || [];
-  var gsFuse = new Fuse(gsData, {
+  /* L'index (global-search-data.js, 3,7 Mo) arrive à la première ouverture de la recherche, ou dès qu'on
+     approche le bouton : l'accueil ne l'attend plus pour s'afficher. En cas d'échec, la prochaine ouverture réessaie. */
+  var GS_OPTS = {
     keys: [{ name: 'title', weight: 0.55 }, { name: 'content', weight: 0.35 }, { name: 'type', weight: 0.10 }, { name: 'state', weight: 0.80 }],
     threshold: 0.38, distance: 300, minMatchCharLength: 2, includeMatches: true, ignoreLocation: true
-  });
+  };
+  var gsFuse = null, gsLoading = false, gsQueue = [];
+  function withIndex(cb) {
+    if (gsFuse) { if (cb) cb(); return; }
+    if (cb) gsQueue.push(cb);
+    if (gsLoading) return;
+    gsLoading = true;
+    var sc = document.createElement('script');
+    sc.src = 'global-search-data.js';
+    function flush() { gsLoading = false; var q = gsQueue; gsQueue = []; q.forEach(function (f) { f(); }); }
+    sc.onload = function () { try { gsFuse = new Fuse(window.GLOBAL_SEARCH_INDEX || [], GS_OPTS); } catch (e) {} flush(); };
+    sc.onerror = function () { sc.parentNode && sc.parentNode.removeChild(sc); flush(); };
+    document.head.appendChild(sc);
+  }
 
   var overlay = document.getElementById('gsOverlay');
   var input = document.getElementById('gsInput');
@@ -1767,6 +1794,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 
   function openGS() {
     if (overlay.classList.contains('open')) return;
+    withIndex();
     lastFocus = document.activeElement;
     overlay.classList.add('open');
     setTimeout(function () { input.focus(); }, 60);
@@ -1779,6 +1807,10 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   document.getElementById('gsOpenBtn').addEventListener('click', openGS);
+  ['gsOpenBtn', 'searchInput'].forEach(function (id) {
+    var b = document.getElementById(id);
+    if (b) ['pointerenter', 'focus', 'touchstart'].forEach(function (ev) { b.addEventListener(ev, function () { withIndex(); }, { once: true, passive: true }); });
+  });
   document.getElementById('gsClose').addEventListener('click', closeGS);
   overlay.addEventListener('click', function (e) { if (e.target === overlay) closeGS(); });
   document.addEventListener('keydown', function (e) {
@@ -1806,8 +1838,20 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       return;
     }
     var q = query.trim();
+    if (!gsFuse) {
+      hintEl.textContent = 'Chargement de l\'index…'; countEl.textContent = '';
+      withIndex(function () {
+        if (input.value.trim() !== q || !overlay.classList.contains('open')) return;   /* une frappe plus récente a pris le relais */
+        if (gsFuse) { renderResults(input.value); return; }
+        hintEl.textContent = '';
+        results.innerHTML = '<div class="gs-empty">' + EMPTY + 'L\'index de recherche n\'a pas pu être chargé. Vérifiez la connexion, puis réessayez.</div>';
+      });
+      return;
+    }
     var hits = gsFuse.search(q, { limit: 60 });
-    hintEl.textContent = 'Recherche en cours…';
+    /* les résultats du site s'affichent tout de suite ; ceux du Coran en ligne s'ajoutent à leur arrivée */
+    displayHits(hits, q, true);
+    hintEl.textContent = 'Recherche coranique en ligne…';
     fetch('https://api.quran.com/api/v4/search?q=' + encodeURIComponent(q) + '&size=6&language=fr')
       .then(function (r) { return r.json(); })
       .then(function (data) {
@@ -1817,13 +1861,17 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
             return { item: { type: 'Coran (En ligne)', title: 'Sourate ' + r.verse_key, content: r.translations && r.translations[0] ? r.translations[0].text.replace(/<[^>]*>?/gm, '') : r.text, state: r.verse_key, idx: 8 } };
           });
         }
-        if (input.value.trim() === q) displayHits(hits.concat(quranHits), q);
+        if (input.value.trim() !== q) return;
+        hintEl.textContent = '';
+        if (quranHits.length) { var keep = activeIdx; displayHits(hits.concat(quranHits), q); if (keep >= 0) setActive(keep); }
+        else if (!hits.length) displayHits(hits, q);
       })
-      .catch(function () { if (input.value.trim() === q) displayHits(hits, q); });
+      .catch(function () { if (input.value.trim() === q) { hintEl.textContent = ''; if (!hits.length) displayHits(hits, q); } });
   }
 
-  function displayHits(hits, query) {
+  function displayHits(hits, query, pending) {
     results.innerHTML = ''; flatItems = []; activeIdx = -1; hintEl.textContent = '';
+    if (!hits.length && pending) { countEl.textContent = ''; return; }   /* rien en local : on attend le Coran en ligne */
     if (!hits.length) {
       countEl.textContent = 'Aucun résultat';
       results.innerHTML = '<div class="gs-empty">' + EMPTY + 'Aucun résultat pour « ' + escHtml(query) + ' ». Essayez un autre mot ou une orthographe proche.</div>';
