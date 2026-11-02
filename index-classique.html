@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<script src="vendor/fuse-7.0.0.min.js"></script>
 <script src="global-search-data.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -657,7 +657,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     "coran-lecture.html",
     "usul-al-din.html",
     "hadith-kisa.html",
-    "verset-apprentissage.html",
+    "verset-trone.html", /* ancien module 11 : ses liens #m11 ouvrent le Verset du Trône */
     "douze-imams.html",
     "tawheed.html",
     "nubuwwa.html",
@@ -814,7 +814,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   
   /* ── Synchronisation de l'état interne (Deep Linking) ── */
   window.addEventListener('message', function(e) {
-    if (e.data && e.data.type === 'nav') {
+    if (e.origin === location.origin && e.data && e.data.type === 'nav' && typeof e.data.state === 'string') {   /* seulement nos pages */
       var hash = window.location.hash;
       if (hash.startsWith('#m')) {
         var idx = parseInt(hash.substring(2).split(':')[0], 10);

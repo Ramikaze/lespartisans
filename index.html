@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="console.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<script src="vendor/fuse-7.0.0.min.js"></script>
 <script src="global-search-data.js"></script>
 <style>
 /* ── Hub « Console » : jetons propres au hub ─────────────────────────── */
@@ -828,7 +828,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var MODULES = [
     "chiisme-repond.html", "chronologie.html", "verset-trone.html", "arbre-genealogique.html",
     "invocations.html", "bibliotheque.html", "videos.html", "article-connaissance.html",
-    "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-apprentissage.html",
+    "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-trone.html" /* ancien module 11 : ses liens #m11 ouvrent le Verset du Trône */,
     "douze-imams.html", "tawheed.html", "nubuwwa.html", "resister.html",
     "99-noms.html", "aune-sagesse.html", "radio.html", "que-dit-le-coran.html",
     "bihar-anwar.html?vol=1", "bihar-anwar.html?vol=2"
@@ -1580,7 +1580,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 
   /* Lien profond : une page signale son état interne */
   window.addEventListener('message', function (e) {
-    if (e.data && e.data.type === 'nav') {
+    if (e.origin === location.origin && e.data && e.data.type === 'nav' && typeof e.data.state === 'string') {   /* seulement nos pages */
       var hash = window.location.hash;
       if (hash.indexOf('#m') === 0) {
         var idx = parseInt(hash.substring(2).split(':')[0], 10);
