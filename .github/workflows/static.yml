@@ -27,10 +27,22 @@ jobs:
         uses: actions/checkout@v5
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      # Seuls les fichiers du site partent en ligne : ni les scripts de travail (*.py),
+      # ni les notes (*.md, *.txt), ni les brouillons de données, ni .DS_Store.
+      # Les PDF et l'audio restent publiés, même ceux qu'aucune page ne cite.
+      - name: Prepare site
+        run: |
+          mkdir _site
+          tar -cf - \
+            --exclude='./.git' --exclude='./.github' --exclude='./.impeccable' --exclude='./.gitignore' --exclude='.DS_Store' \
+            --exclude='*.py' --exclude='*.md' --exclude='*.txt' --exclude='*.traineddata' \
+            --exclude='./old_data.js' --exclude='./dua_simaat_parsed.js' --exclude='./supp_01_raw.json' \
+            --exclude='./page_0.png' --exclude='./_site' \
+            . | tar -xf - -C _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: '.'
+          path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
