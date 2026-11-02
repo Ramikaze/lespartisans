@@ -543,7 +543,9 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
 <script>
 /* Biḥār al-Anwār (al-Majlisī), traduction française de l'Édition SiratAli. Une page, deux livres :
    ?vol=1 ou ?vol=2 (le paramètre anti-cache du hub peut le suivre : ?vol=2&v=123). Les données viennent de
-   bihar-anwar-N-data.js (window.BIHAR_VOLUMES[N]), chargé par un <script> créé ici.
+   bihar-anwar-N-data.js (window.BIHAR_VOLUMES[N]), chargé par un <script> créé ici, sans le jeton du hub :
+   le navigateur garde ainsi le fichier (plusieurs centaines de Ko) et ne fait que le revalider.
+   Nouveau volume : l'ajouter à KNOWN, puis aux MODULES des deux accueils.
 
    État de lecture (ancre #… et messages du hub) :
      ""            la Présentation
@@ -558,9 +560,8 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
   'use strict';
 
   var KNOWN = [1, 2];
-  var vm = /[?&]vol=(\d)/.exec(location.search);
+  var vm = /[?&]vol=(\d+)(?:&|$)/.exec(location.search);
   var VOL = vm && KNOWN.indexOf(+vm[1]) >= 0 ? +vm[1] : 1;
-  var stamp = /[?&]v=(\d+)/.exec(location.search);
 
   var VOLUME = null;      // window.BIHAR_VOLUMES[VOL], une fois chargé
   var CHAPTERS = [];      // [{ sec, ch }] dans l'ordre du livre
@@ -613,7 +614,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
   }
   function load() {
     var s = document.createElement('script');
-    s.src = 'bihar-anwar-' + VOL + '-data.js' + (stamp ? '?v=' + stamp[1] : '');
+    s.src = 'bihar-anwar-' + VOL + '-data.js';
     s.onload = function () {
       var v = window.BIHAR_VOLUMES && window.BIHAR_VOLUMES[VOL];
       if (!v || !Array.isArray(v.sections)) { fail(); return; }
@@ -909,7 +910,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
   });
   checkTop();
 
-  // Seule entrée publique de la page (les contrôles de .claude/bihar-tools/check-page.js s'en servent)
+  // Seule entrée publique de la page (pour les contrôles automatiques)
   window.biharPage = { showState: showState, filterSidebar: filterSidebar, renderSommaire: renderSommaire, volume: function () { return VOL; } };
   load();
 })();
