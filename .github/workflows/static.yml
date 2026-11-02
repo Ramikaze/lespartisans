@@ -28,17 +28,21 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       # Seuls les fichiers du site partent en ligne : ni les scripts de travail (*.py),
-      # ni les notes (*.md, *.txt), ni les brouillons de données, ni .DS_Store.
-      # Les PDF et l'audio restent publiés, même ceux qu'aucune page ne cite.
+      # ni les notes et brouillons nommés ci-dessous, ni .DS_Store. Les PDF et l'audio
+      # restent publiés, même ceux qu'aucune page ne cite. Un futur robots.txt partirait bien.
+      # shell: bash → « -eo pipefail » : si l'archivage échoue, l'étape échoue (pas de site à moitié publié).
       - name: Prepare site
+        shell: bash
         run: |
           mkdir _site
           tar -cf - \
             --exclude='./.git' --exclude='./.github' --exclude='./.impeccable' --exclude='./.gitignore' --exclude='.DS_Store' \
-            --exclude='*.py' --exclude='*.md' --exclude='*.txt' --exclude='*.traineddata' \
+            --exclude='*.py' --exclude='./DESIGN.md' --exclude='./PRODUCT.md' \
+            --exclude='./all_data.txt' --exclude='./dua_simaat_extracted.txt' --exclude='./fra.traineddata' \
             --exclude='./old_data.js' --exclude='./dua_simaat_parsed.js' --exclude='./supp_01_raw.json' \
             --exclude='./page_0.png' --exclude='./_site' \
             . | tar -xf - -C _site
+          test -f _site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
