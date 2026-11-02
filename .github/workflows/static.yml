@@ -43,6 +43,9 @@ jobs:
             --exclude='./page_0.png' --exclude='./_site' \
             . | tar -xf - -C _site
           test -f _site/index.html
+          # Jeton de version des pages chargées par les accueils : le commit publié. Les pages restent
+          # en cache entre deux déploiements et sont rechargées après chacun (en local : Date.now()).
+          sed -i "s/__SITE_REV__/${GITHUB_SHA::12}/g" _site/index.html _site/index-classique.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

@@ -171,6 +171,7 @@ body {
 .fn-back-num { color:var(--accent); text-decoration:none; font-weight:700; }
 .fn-back { color:var(--accent); text-decoration:none; font-size:12px; margin-left:4px; }
 .fn-back:hover, .fn-back-num:hover { text-decoration:underline; }
+span.fn-back-num:hover { text-decoration:none; }
 .footnote:target { background:var(--accent-light); border-radius:4px; padding:4px 6px; margin-left:-6px; margin-right:-6px; }
 p:target { background:var(--accent-light); border-radius:4px; padding:2px 4px; margin-left:-4px; }
 
@@ -462,26 +463,41 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
 
 <script>
 (function() {
+ /* Stockage refusé (données de site bloquées, navigation privée stricte) : la page s'affiche quand même */
+ function lsGet(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+ function lsSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+ function lsBm(){try{const b=JSON.parse(lsGet('lc_bm')||'[]');return Array.isArray(b)?b.filter(i=>Number.isInteger(i)):[];}catch(e){return [];}}
  let S = {
  ch: -1, sb: false, sbt: 'toc', so: false, sq: '', sr: [],
- bm: JSON.parse(localStorage.getItem('lc_bm') || '[]'),
- th: localStorage.getItem('lc_th') || 'dark',
- fs: parseInt(localStorage.getItem('lc_fs') || '17')
+ bm: lsBm(),
+ th: lsGet('lc_th') || 'dark',
+ fs: parseInt(lsGet('lc_fs') || '17') || 17
  };
 
- const saveBm = () => localStorage.setItem('lc_bm', JSON.stringify(S.bm));
+ const saveBm = () => lsSet('lc_bm', JSON.stringify(S.bm));
  const isBm = i => S.bm.includes(i);
  const togBm = i => { if(isBm(i)) S.bm=S.bm.filter(b=>b!==i); else S.bm.push(i); saveBm(); render(); };
 
  function setTh(t) {
  S.th=t; document.body.setAttribute('data-theme',t);
- localStorage.setItem('lc_th',t);
+ lsSet('lc_th',t);
  document.querySelector('meta[name="theme-color"]').content = t==='dark'?'#0a1628':'#faf6f0';
  /* Design « Console » : la barre système suit le thème du site (data-lp-theme), pas celui de la page */
  if(document.documentElement.getAttribute('data-design')==='console')document.querySelector('meta[name="theme-color"]').content=document.documentElement.getAttribute('data-lp-theme')==='light'?'#d9dfea':'#04060c';
  }
 
- function goTo(i) { S.ch=i; S.sb=false; S.so=false; render(); document.querySelector('.content-area')?.scrollTo(0,0); }
+ /* Lien profond : l'ancre de la page (#5) et l'état transmis au hub (#m0:5) sont l'indice du chapitre
+    (0 = Préface, comme dans la recherche) ; l'accueil du livre n'a pas d'état. replaceState : changer de
+    chapitre n'ajoute pas d'entrée à l'historique (les ancres des notes, #fn-…, restent ignorées). */
+ function goTo(i) {
+ S.ch=i; S.sb=false; S.so=false; render(true); document.querySelector('.content-area')?.scrollTo(0,0);
+ const st=i>=0?String(i):'';
+ try{history.replaceState(history.state,'',st?'#'+st:location.pathname+location.search);}catch(e){}
+ try{if(window.parent!==window)window.parent.postMessage({type:'nav',state:st},location.origin);}catch(e){}
+ }
+ function chapterFrom(h){const m=/^#?(\d{1,3})$/.exec(h==null?'':String(h));const i=m?+m[1]:-1;return i<CH.length?i:-1;}
+ /* Ancre changée par le hub (résultat de recherche, Retour du site) ou par l'historique : même chapitre, rien à refaire */
+ function route(h){const i=chapterFrom(h);if(i>=0&&i!==S.ch)goTo(i);}
 
  function doSearch(q) {
  S.sq=q;
@@ -564,7 +580,11 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  html += '<div class="chapter-text" style="font-size:' + S.fs + 'px">' + fmtText(sec.content, chIdx) + '</div>';
  }
  }
- return html;
+ /* Note sans appel dans le texte : son numéro reste en texte et le ↩ disparaît (ils ne mèneraient nulle part) */
+ const hasRef = k => html.indexOf('id="fnref-' + k + '"') >= 0;
+ return html
+ .replace(/<a href="#fnref-(\d+-\d+)" class="fn-back-num">(\d+\.)<\/a>/g, (a, k, n) => hasRef(k) ? a : '<span class="fn-back-num">' + n + '</span>')
+ .replace(/ <a href="#fnref-(\d+-\d+)" class="fn-back" aria-label="Retour">↩<\/a>/g, (a, k) => hasRef(k) ? a : '');
  }
 
  function shareWA() {
@@ -599,8 +619,11 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  c.innerHTML=h;
  }
 
- function render() {
+ /* fresh : nouveau chapitre (haut de page). Sinon (menu, favori, recherche, thème…) la lecture reste où elle était. */
+ function render(fresh) {
  const app=document.getElementById('app'); setTh(S.th);
+ const oldCa=fresh?null:document.querySelector('.content-area'), oldTop=oldCa?oldCa.scrollTop:0;
+ const oldSl=document.querySelector('.sidebar-list'), oldSlTop=oldSl?oldSl.scrollTop:0;
  const c=S.ch>=0?CH[S.ch]:null, isH=S.ch<0, bm=!isH&&isBm(S.ch);
  let h='';
 
@@ -623,7 +646,7 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  }
  h+='</div></div>';
 
- h+='<div class="search-panel'+(S.so?' open':'')+'"><div class="search-input-wrap">'+I.search+'<input class="search-input" id="si" placeholder="Rechercher..." value="'+esc(S.sq)+'"><button class="search-close" data-a="cs">Fermer</button></div><div class="search-results" id="sr"></div></div>';
+ h+='<div class="search-panel'+(S.so?' open':'')+'"><div class="search-input-wrap">'+I.search+'<input class="search-input" id="si" placeholder="Rechercher..." value="'+esc(S.sq).replace(/"/g,'&quot;')+'"><button class="search-close" data-a="cs">Fermer</button></div><div class="search-results" id="sr"></div></div>';
 
  h+='<div class="header"><div class="header-left"><button class="header-btn" data-a="tsb">'+I.menu+'</button>';
  if(!isH)h+='<button class="header-btn" data-a="home" title="Accueil"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></button>';
@@ -673,6 +696,10 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  }
  h+='<div class="toast"></div>';
  app.innerHTML=h;
+ const ca=document.querySelector('.content-area');
+ if(ca&&oldTop){ca.style.scrollBehavior='auto';ca.scrollTop=oldTop;ca.style.scrollBehavior='';}
+ const sl=document.querySelector('.sidebar-list');
+ if(sl&&oldSlTop)sl.scrollTop=oldSlTop;
  if(S.so){const i=document.getElementById('si');if(i){i.focus();renderSR();}}
  }
 
@@ -689,8 +716,8 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  case'rb':e.stopPropagation();togBm(i);toast('Retiré des favoris');break;
  case'prev':if(S.ch>0)goTo(S.ch-1);break;case'next':if(S.ch<CH.length-1)goTo(S.ch+1);break;
  case'wa':shareWA();break;
- case'fd':S.fs=Math.max(13,S.fs-1);localStorage.setItem('lc_fs',S.fs);render();break;
- case'fu':S.fs=Math.min(24,S.fs+1);localStorage.setItem('lc_fs',S.fs);render();break;
+ case'fd':S.fs=Math.max(13,S.fs-1);lsSet('lc_fs',S.fs);render();break;
+ case'fu':S.fs=Math.min(24,S.fs+1);lsSet('lc_fs',S.fs);render();break;
  }
  });
 
@@ -716,10 +743,11 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
     }
     // ── Global Search deep-link navigation ──
     if (e.data && e.data.type === 'gs-navigate') {
-      var idx = parseInt(e.data.state, 10);
-      if (!isNaN(idx) && idx >= 0 && idx < CH.length) goTo(idx);
+      var idx = chapterFrom(e.data.state);
+      if (idx >= 0) goTo(idx);
     }
   });
+  window.addEventListener('hashchange', function() { route(location.hash); });
   // Relay Ctrl+K to parent for global search
   document.addEventListener('keydown', function(e) {
     if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
@@ -735,7 +763,10 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
     }
   } catch(ex) {}
 
-  setTh(S.th);render();
+  setTh(S.th);
+  /* Ouverture sur un chapitre : #m0:5 dans le hub → chiisme-repond.html#5 */
+  var startCh = chapterFrom(location.hash);
+  if (startCh >= 0) goTo(startCh); else render();
 })();
 </script>
 
