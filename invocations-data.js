@@ -101,7 +101,7 @@ var DATA = {
         { id: 's69', label: '69. La Supplication confidentielle des Repentis', emoji: '📖' },
         { id: 's70', label: '70. La Supplication confidentielle de ceux qui se plaignent', emoji: '📖' },
         { id: 's71', label: '71. La Supplication confidentielle des craintifs', emoji: '📖' },
-        { id: 's72', label: '72. Munâjât de ceux qui espèrent', disabled: true },
+        { id: 's72', label: '72. La Supplication confidentielle de ceux qui espèrent', emoji: '📖' },
         { id: 's73', label: '73. Munâjât des désireux', disabled: true },
         { id: 's74', label: '74. Munâjât des reconnaissants', disabled: true },
         { id: 's75', label: '75. Munâjât de ceux qui obéissent', disabled: true },
@@ -2292,6 +2292,23 @@ var DATA = {
         {t:'v',n:4, tx:'Mon Dieu ! Une âme que Tu as honorée de la Reconnaissance de Ton Unicité : comment pourrais-Tu l\'affliger de l\'humiliation de Ta Séparation ? Une conscience toute imprégnée de Ton Affection : comment pourrais-Tu l\'embraser de l\'ardeur de Tes Flammes ?'},
         {t:'v',n:5, tx:'Mon Dieu ! Accorde-moi l\'asile contre la souffrance de Ton Courroux et contre Ton Exaspération Intense. Ô Le Très-Affectueux ! Ô Le Très-Attentionné ! Ô Le Tout Miséricordieux ! Ô Le Très-Miséricordieux ! Ô Le Très-Fort ! Ô Le Dominateur Suprême ! Ô Celui Qui ne cesse de pardonner ! Ô Celui Qui ne cesse de voiler les fautes ! Délivre-moi, par Ta Miséricorde, du supplice du Feu ; de l\'occasion affligeante de l\'humiliation, lorsque les vertueux seront séparés des malfaiteurs ; lorsque les conditions seront modifiées et les frayeurs se déchaîneront ; lorsque ceux qui ont fait le bien seront rapprochés et ceux qui ont fait le mal seront écartés, <em>chaque homme recevra alors la rétribution de ce qu\'il aura accompli et personne ne sera lésé</em> (Coran 3/25).'},
         {t:'salawat'},
+      ]
+    },
+
+    s72: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '72. La Supplication confidentielle de ceux qui espèrent',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô Celui Qui, lorsqu\'IL est sollicité par un serviteur, lui accorde ; lorsque celui-ci place son espoir en ce qui est auprès de Lui, IL le lui fait réaliser ; s\'il vient à Lui, IL l\'accueille et le rapproche ; s\'il Lui déclare ouvertement la désobéissance, IL couvre sa faute et la dissimule ; s\'il place sa confiance en Lui, IL le satisfait et le comble.'},
+        {t:'v',n:2, tx:'Mon Dieu ! Quel est celui qui est venu à Toi recherchant Ton Hospitalité, et à qui Tu ne l\'aurais pas accordée ? Quel est celui qui s\'est agenouillé devant Ta Porte avec espoir, T\'a appelé, et envers qui Tu n\'aurais pas fait preuve de sollicitude ? Est-il convenable de me laisser repartir de devant Ta Porte accompagné du désespoir, alors que je ne connais aucun maître réputé pour sa bonté si ce n\'est Toi ? Comment pourrais-je espérer en un autre que Toi alors que Tu détiens la totalité du Bien dans Ta Main<sup id="ref-308"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-308\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[308]</a></sup> ? Comment attendre des autres, alors que la Création et l\'Ordre T\'appartiennent<sup id="ref-309"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-309\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[309]</a></sup> ? Pourrais-je interrompre mon espérance placée en Toi alors que Tu m\'as octroyé de Ton Bien avant même que je l\'aie demandé ? Me laisseras-Tu avoir besoin d\'un être semblable à moi alors que je m\'accroche à Ta Corde ? Ô Celui par la Miséricorde de Qui ceux qui cherchent parviennent à la félicité, dont la Sanction n\'atteint pas ceux qui implorent le pardon ! Comment pourrais-je T\'oublier alors que Tu ne cesses de Te souvenir de moi ? Comment me soustraire à Toi alors que Tu es mon Surveillant ?'},
+        {t:'v',n:3, tx:'Mon Dieu ! J\'ai tendu ma main vers la traînée de Ta Générosité, j\'ai ouvert mon espérance à la réception de Tes Dons ; aussi, fasse que je sois pur par le Culte pur de la Reconnaissance de Ton Unicité ; fasse que je sois parmi Tes Serviteurs Élus ! Ô Celui auprès de Qui chaque fugitif trouve asile et Qui est l\'espoir de celui qui cherche ! Ô L\'Excellent Espoir ! Ô Le Plus Généreux de ceux qui sont sollicités ! Ô Celui Qui ne rejette pas Son Solliciteur ni ne déçoit celui qui place son espoir en Lui ! Ô Celui dont La Porte est ouverte à Ses Implorants et dont le Voile Protecteur est sur ceux qui espèrent en Lui ! Je T\'implore par Ta Générosité de faire preuve de bienveillance envers moi en m\'accordant Tes Dons qui émerveilleront mon regard ; par l\'espoir que je place en Toi, de m\'accorder ce qui apaisera mon âme ; par la certitude, de m\'accorder ce par quoi Tu me faciliteras les épreuves de la vie immédiate et d\'enlever, face à ma clairvoyance, les voiles de l\'aveuglement ! Par Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-308"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-308\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[308]</a></span> Ici, il est fait allusion à une expression très connue pour être présente dans de nombreux Hadiths ; selon une version, le Prophète a dit lors d\'une supplication : « La totalité du Bien est dans Tes Mains, et le Mal ne revient pas vers Toi » [Muslim, <em>Musafirin</em>, 201 ; Nasa\'ï, <em>Iftitah</em>, 17].'},
+        {t:'intro', tx:'<span id="note-309"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-309\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[309]</a></span> Ici, il est fait allusion au Coran 7/54 : « <em>La Création et l\'Ordre ne Lui appartiennent-ils pas ?</em> ».'},
       ]
     },
 
