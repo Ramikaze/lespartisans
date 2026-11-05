@@ -1661,7 +1661,7 @@ window.checkRecon = function() {
   }
   let correct = 0;
   placed.forEach((el, i) => {
-    let expected = seg[seg.length - 1 - i].p; // RTL: first in target = last word
+    let expected = seg[i].p; // la zone est en direction:rtl : le 1er mot posé s'affiche à droite, comme le 1er mot du verset
     if (parseInt(el.dataset.pos) === expected) {
       el.classList.add('correct');
       correct++;
