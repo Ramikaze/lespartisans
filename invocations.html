@@ -219,7 +219,7 @@ body:not(.show-fr) .c-tri-fr, body:not(.show-fr) .c-zv-text, body:not(.show-fr) 
 .sb-toggle{border-radius:0 10px 10px 0!important}
 /* Les entrées du sommaire et la languette sont des <button> : remise à zéro sans peser sur les règles de classe,
    pleine largeur comme les anciens <div>, police de la page (ios-theme.css en donne une aux boutons) */
-:where(button.sb-theme,button.sb-item,button.sb-toggle){appearance:none;-webkit-appearance:none;background:none;border:0;border-radius:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+:where(button.sb-theme,button.sb-item,button.sb-toggle){appearance:none;-webkit-appearance:none;background:none;border:0;border-radius:0;font:inherit;color:inherit;text-align:inherit;cursor:pointer}
 :where(button.sb-theme,button.sb-item){width:-webkit-fill-available;width:-moz-available;width:stretch}
 .sb-theme,.sb-item,.sb-toggle{font-family:inherit}
 .sb-theme:active,.sb-item:active{transform:none}

@@ -285,7 +285,7 @@ input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!importa
 .sb-toggle{border-radius:0 10px 10px 0!important}
 /* Les entrées du sommaire et la languette sont des <button> : remise à zéro sans peser sur les règles de classe,
    pleine largeur comme les anciens <div>, police de la page (ios-theme.css en donne une aux boutons) */
-:where(button.sb-theme,button.sb-item,button.sb-toggle){appearance:none;-webkit-appearance:none;background:none;border:0;border-radius:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+:where(button.sb-theme,button.sb-item,button.sb-toggle){appearance:none;-webkit-appearance:none;background:none;border:0;border-radius:0;font:inherit;color:inherit;text-align:inherit;cursor:pointer}
 :where(button.sb-theme,button.sb-item){width:-webkit-fill-available;width:-moz-available;width:stretch}
 .sb-theme,.sb-item,.sb-toggle{font-family:inherit}
 .sb-theme:active,.sb-item:active{transform:none}
@@ -796,7 +796,7 @@ function renderSommaire() {
 // Pour le filtre du sommaire (comme bihar-anwar.html) : NFD, sans diacritiques, minuscules ;
 // apostrophes et ligatures ramenées au plus simple (« echeance » trouve « L'ÉCHÉANCE », « adhan » « ADHĀN »)
 function fold(s) {
-  return String(s == null ? '' : s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+  return String(s == null ? '' : s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
     .replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/[’‘ʼʻʿʾ`´]/g, "'").replace(/\s+/g, ' ').trim();
 }
 // Titres pliés une seule fois (parties, sujets), pas à chaque frappe

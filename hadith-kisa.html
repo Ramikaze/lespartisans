@@ -467,6 +467,13 @@ try {
     try { if (typeof S !== 'undefined') { S.th = 'light'; document.body.setAttribute('data-theme', 'light'); } } catch(ex) {}
   }
 } catch(e) {}
+// Ctrl+K / ⌘K : la recherche globale de l'accueil s'ouvre aussi depuis cette page (comme sur les autres pages)
+document.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    e.preventDefault();
+    try { window.parent.postMessage({type:'gs-open'}, '*'); } catch(ex) {}
+  }
+});
 </script>
 
 <!-- ══ Scroll-to-top ══ -->

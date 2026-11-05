@@ -1594,16 +1594,24 @@ var _rlBind = (function () {
 
 </script>
 <script>
-/* Lien profond (hub) : #2:153 ou #2-153 ouvre la sourate et allume le verset */
+/* Lien profond (hub) : #2:153 ou #2-153 ouvre la sourate et allume le verset ; #36 ouvre la sourate
+   (pas #s36 : ces ancres-là viennent de la page elle-même, le retour arrière les gère par popstate).
+   Mêmes états par la recherche (gs-navigate « 6-98 »). Le hub empile déjà l'entrée d'historique : la page la remplace. */
 (function () {
+  var last = '', lastAt = 0;
   function go(h) {
-    var m = /^#?(\d{1,3})[:\-](\d{1,3})$/.exec(h || '');
+    var m = /^#?(\d{1,3})(?:[:\-](\d{1,3}))?$/.exec(h || '');
     if (!m) return false;
-    var sn = +m[1], vn = +m[2];
+    var sn = +m[1], vn = m[2] ? +m[2] : 0;
     if (sn < 1 || sn > 114) return false;
-    openSurah(sn, vn);
+    /* Le hub demande parfois le même état deux fois de suite (ancre, puis gs-navigate) : une seule ouverture */
+    var k = sn + ':' + vn, now = Date.now();
+    if (k === last && now - lastAt < 1500) return true;
+    last = k; lastAt = now;
+    openSurah(sn, vn, true);
     return true;
   }
+  window._lpGo = go;
   go(window.__lpDeep);
   window.addEventListener('hashchange', function () { go(location.hash); });
 })();
@@ -1621,13 +1629,8 @@ window.addEventListener('message', function(e) {
     // Force canvas/render update
     try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
-  if (e.data && e.data.type === 'gs-navigate' && e.data.state) {
-    var parts = e.data.state.split(/[-:]/);
-    var sn = parseInt(parts[0], 10);
-    var vn = parts.length > 1 ? parseInt(parts[1], 10) : 1;
-    if (typeof openSurah === 'function' && !isNaN(sn)) {
-      openSurah(sn, vn);
-    }
+  if (e.data && e.data.type === 'gs-navigate' && typeof e.data.state === 'string' && window._lpGo) {
+    window._lpGo(e.data.state); /* « 6-98 », « 2:153 », « 36 » */
   }
 });
 try {

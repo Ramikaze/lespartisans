@@ -837,15 +837,29 @@ window.addEventListener('message', function(e) {
     try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
   // Global Search deep-link: state = nom number (1-99)
-  if (e.data && e.data.type === 'gs-navigate' && e.data.state) {
-    var num = parseInt(e.data.state, 10);
-    if (!isNaN(num)) {
-      var cards = document.querySelectorAll('.nom-card');
-      var card = cards[num - 1];
-      if (card) { setTimeout(function(){ card.scrollIntoView({behavior:'smooth', block:'center'}); card.style.borderColor='rgba(201,168,76,0.7)'; setTimeout(function(){ card.style.borderColor=''; }, 2000); }, 100); }
-    }
-  }
+  if (e.data && e.data.type === 'gs-navigate' && e.data.state) showName(e.data.state);
 });
+/* Un Nom (1-99) : défilement jusqu'à sa carte, qui s'éclaire deux secondes. Il vient de la recherche globale
+   (gs-navigate, page déjà ouverte) ou de l'ancre : #m16:<n> du hub donne #<n> à la page, à son arrivée
+   (recherche sur une page pas encore ouverte, lien partagé) comme ensuite (hashchange). Le hub envoie
+   parfois les deux pour un même résultat : l'éclat repart simplement de zéro. */
+var nameFlash = 0;
+function showName(state) {
+  var num = parseInt(state, 10);
+  var card = isNaN(num) ? null : document.querySelectorAll('.nom-card')[num - 1];
+  if (!card) return;
+  setTimeout(function(){
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+    document.querySelectorAll('.nom-card[style*="border-color"]').forEach(function(c){ c.style.borderColor=''; });
+    card.style.borderColor='rgba(201,168,76,0.7)';
+    clearTimeout(nameFlash);
+    nameFlash = setTimeout(function(){ card.style.borderColor=''; }, 2000);
+  }, 100);
+}
+function nameFromHash() { if (location.hash.length > 1) showName(location.hash.slice(1)); }
+window.addEventListener('hashchange', nameFromHash);
+/* à l'arrivée, une fois la page posée (polices comprises) pour que la carte soit bien au milieu */
+if (document.readyState === 'complete') nameFromHash(); else window.addEventListener('load', nameFromHash);
 document.addEventListener('keydown', function(e) {
   if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
     e.preventDefault();

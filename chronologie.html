@@ -648,7 +648,7 @@ em { font-style: italic; color: var(--gold); }
   position: relative;
   height: 600px;
 }
-#network-canvas { width: 100%; height: 100%; display: block; cursor: grab; }
+#network-canvas { width: 100%; height: 100%; display: block; cursor: grab; touch-action: pan-y; }
 #network-canvas:active { cursor: grabbing; }
 
 .graph-legend {
@@ -1295,11 +1295,10 @@ html[data-design="console"] footer p{ font-size:14px!important; font-weight:300!
       <button class="filter-btn" data-filter="imam">Imams</button>
       <button class="filter-btn" data-filter="prophet">Prophète</button>
       <button class="filter-btn" data-filter="dynasty">Dynasties</button>
-      <button class="filter-btn" data-filter="place">Lieux</button>
     </div>
 
     <div class="timeline-zoom-bar">
-      <span class="zoom-hint">Glisser &middot; Molette ou boutons pour zoomer</span>
+      <span class="zoom-hint">Glisser &middot; Ctrl + molette, pincement ou boutons pour zoomer</span>
       <div class="zoom-controls">
         <button class="zoom-btn" id="zoom-out">&#8722;</button>
         <div class="zoom-track"><div class="zoom-fill" id="zoom-fill"></div></div>
@@ -1824,6 +1823,30 @@ const NODES = [
     significance:'Sanctuaire des 7e et 9e Imams.',
     relatedIds:['kazim','jawad'] },
 
+  { id:'baghdad', name:'Bagdad', arabic:'بَغْدَاد', type:'place', category:'place',
+    date:'Fondée en 762 EC', era:'abbasid',
+    tags:['Abbassides','capitale','Kazimayn','savants'],
+    icon:'🏙',
+    description:'Ville d\'Irak fondée en 762 EC (145 AH) par le calife abbasside al-Mansur, qui en fit la capitale du califat. L\'Imam Musa al-Kazim y mourut en prison ; il repose avec l\'Imam al-Jawad à Kazimayn, aujourd\'hui un quartier de la ville. Al-Kulayni y passa la fin de sa vie et Sheikh al-Mufid y enseigna.',
+    significance:'Capitale abbasside et grand foyer du savoir chiite aux Xe et XIe siècles.',
+    relatedIds:['abbasid','kazim','jawad','kazimayn','kulayni','mufid'] },
+
+  { id:'isfahan', name:'Ispahan', arabic:'أَصْفَهَان', type:'place', category:'place',
+    date:'Capitale safavide dès 1598', era:'occultation',
+    tags:['Safavides','Iran','Majlisi','savants'],
+    icon:'🕌',
+    description:'Ville d\'Iran dont le shah safavide Abbas Ier fit sa capitale en 1598. Elle devint un foyer majeur des savants chiites : Allama Majlisi y naquit, y compila le Bihar al-Anwar et y est enterré.',
+    significance:'Capitale safavide et centre du savoir chiite au XVIIe siècle.',
+    relatedIds:['safavid','majlisi','biharanwar'] },
+
+  { id:'basra', name:'Bassora', arabic:'البَصْرَة', type:'place', category:'place',
+    date:'Fondée vers 636 EC', era:'early',
+    tags:['Irak','ville de garnison','Chameau'],
+    icon:'⚓',
+    description:'Ville du sud de l\'Irak, fondée vers 636 EC (les sources varient jusqu\'à 638) comme ville de garnison des conquêtes arabes. La bataille du Chameau (656 EC), qui opposa l\'Imam Ali à la coalition d\'Aisha, Talha et Zubayr, se déroula près de la ville.',
+    significance:'Théâtre de la bataille du Chameau, première guerre civile de l\'islam.',
+    relatedIds:['jamal','ali'] },
+
   /* THÈMES */
   { id:'imamat', name:'L\'Imamat', arabic:'الإِمَامَة', type:'theme', category:'theme',
     icon:'👑',
@@ -2056,6 +2079,10 @@ const EDGES = [
   {s:'tusi',t:'najaf',type:'fonde',label:'fonde hawza'},
   {s:'kulayni',t:'baghdad',type:'vécu_à',label:'vécut à'},
   {s:'mufid',t:'baghdad',type:'vécu_à',label:'vécut à'},
+  {s:'kazim',t:'baghdad',type:'meurt_à',label:'mourut à'},
+  {s:'abbasid',t:'baghdad',type:'capitale',label:'capitale de'},
+  {s:'majlisi',t:'isfahan',type:'vécu_à',label:'vécut à'},
+  {s:'jamal',t:'basra',type:'lieu',label:'près de'},
   {s:'mufid',t:'tusi',type:'enseigne',label:'enseigne'},
   {s:'tabatabai',t:'mizan',type:'auteur',label:'auteur de'},
   {s:'tabatabai',t:'qom',type:'vécu_à',label:'vécut à'},
@@ -2114,8 +2141,13 @@ function showSection(id) {
   if (sec) { sec.classList.add('active'); sec.scrollIntoView({behavior:'smooth',block:'start'}); }
   const btn = document.querySelector(`.nav-btn[data-section="${id}"]`);
   if (btn) btn.classList.add('active');
-  if (id === 'network') initGraph();
-  if (id === 'timeline') renderTimeline('all');
+  if (id === 'network') { initGraph(); graphState.show(); }
+  if (id === 'timeline') {
+    /* la frise suit l'ère et le filtre que montrent leurs boutons */
+    const era = document.querySelector('#era-tabs .era-tab.active')?.dataset.era || 'all';
+    const f = document.querySelector('#timeline-filters .filter-btn.active')?.dataset.filter || 'all';
+    renderTimeline(era, f === 'all' ? null : f);
+  }
 }
 
 document.querySelectorAll('.nav-btn').forEach(btn => {
@@ -2323,6 +2355,13 @@ function applyZoom() {
   });
 }
 
+/* Molette et pincement : une seule reconstruction de la frise par image */
+let _zoomWant = 1, _zoomFrame = 0;
+function zoomSoon(z) {
+  _zoomWant = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z));
+  if (!_zoomFrame) _zoomFrame = requestAnimationFrame(() => { _zoomFrame = 0; setZoom(_zoomWant); });
+}
+
 function setZoom(z) {
   const oldZoom = timelineZoom;
   timelineZoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z));
@@ -2499,32 +2538,27 @@ function renderTimeline(era, typeFilter) {
       lastX = e.pageX; lastT = now;
       outer.scrollLeft = scrollLeft - (e.pageX - startX);
     });
-    // Touch drag
-    let tStart = 0, tScroll = 0;
-    outer.ontouchstart = e => {
-      if (e.touches.length === 1) { tStart = e.touches[0].clientX; tScroll = outer.scrollLeft; }
-    };
+    // Touch : un doigt fait défiler la frise nativement (elle suit le doigt, avec l'inertie du système) ;
+    // deux doigts zooment
     outer.ontouchmove = e => {
-      if (e.touches.length === 1) {
-        outer.scrollLeft = tScroll - (e.touches[0].clientX - tStart) * 1.5;
-      } else if (e.touches.length === 2) {
+      if (e.touches.length === 2) {
         e.preventDefault();
         const d = Math.hypot(
           e.touches[0].clientX - e.touches[1].clientX,
           e.touches[0].clientY - e.touches[1].clientY
         );
         if (!outer._pinchDist) { outer._pinchDist = d; outer._pinchZoom = timelineZoom; return; }
-        setZoom(outer._pinchZoom * (d / outer._pinchDist));
+        zoomSoon(outer._pinchZoom * (d / outer._pinchDist));
       }
     };
     outer.ontouchend = () => { outer._pinchDist = null; };
 
-    // Mouse wheel zoom
+    // Molette : la page défile ; Ctrl/⌘ + molette (ou pincement du pavé tactile) zoome
     outer.addEventListener('wheel', function(e) {
-      if (e.ctrlKey || e.metaKey || Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      if (e.ctrlKey || e.metaKey) {
         e.preventDefault();
         const delta = e.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP;
-        setZoom(timelineZoom + delta);
+        zoomSoon((_zoomFrame ? _zoomWant : timelineZoom) + delta);
       }
     }, { passive: false });
 
@@ -2697,10 +2731,11 @@ function initGraph() {
   let isDragging = false;
   let dragNode = null;
   let panX = cssW/2, panY = cssH/2;
-  let scale = 1;
+  /* Écran étroit : le réseau (~620 px de large une fois stabilisé) tient en entier à l'ouverture */
+  let scale = Math.min(1, Math.max(0.6, cssW / 620));
   let lastMX = 0, lastMY = 0;
   let isPanning = false;
-  let animFrame;
+  let animFrame = 0;
 
   graphState = { gNodes, gEdges, nodeMap2 };
 
@@ -2858,12 +2893,17 @@ function initGraph() {
     ctx.restore();
   }
 
+  /* La boucle ne tourne que tant que la simulation bouge ou qu'on déplace un nœud, et jamais réseau masqué
+     (autre section, page cachée par le hub) ; survol, déplacement de la vue, zoom, filtre, thème la relancent. */
   function loop() {
+    animFrame = 0;
+    if (!wrap.clientWidth) return;
     tick();
     draw();
-    animFrame = requestAnimationFrame(loop);
+    if (alpha >= 0.005 || dragNode) animFrame = requestAnimationFrame(loop);
   }
-  loop();
+  function wake() { if (!animFrame) animFrame = requestAnimationFrame(loop); }
+  wake();
 
   /* Mouse events */
   function getNodeAtPos(mx,my) {
@@ -2900,6 +2940,7 @@ function initGraph() {
     }
     lastMX=mx; lastMY=my;
     const h = getNodeAtPos(mx,my);
+    if ((h?h.id:null) !== hoveredId || dragNode || isPanning) wake();
     hoveredId = h?h.id:null;
     canvas.style.cursor = h?'pointer': isPanning?'grabbing':'grab';
   });
@@ -2911,6 +2952,7 @@ function initGraph() {
     }
     dragNode=null; isDragging=false; isPanning=false;
     canvas.style.cursor='grab';
+    wake();
   });
 
   canvas.addEventListener('wheel', e => {
@@ -2921,7 +2963,42 @@ function initGraph() {
     panX = mx - (mx-panX)*(newScale/scale);
     panY = my - (my-panY)*(newScale/scale);
     scale = newScale;
+    wake();
   }, {passive:false});
+
+  /* Au doigt : un doigt déplace la vue (un glissement vertical fait défiler la page, touch-action:pan-y),
+     deux doigts zooment autour de leur milieu ; un toucher bref ouvre la fiche (souris émulée) */
+  const pts = new Map();
+  let pinch0 = 1, scale0 = 1, mid0 = null, pan0 = null;
+  function local(e) { const r = canvas.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; }
+  function startPinch() {
+    if (pts.size !== 2) return;
+    const [a, b] = [...pts.values()];
+    pinch0 = Math.hypot(a.x - b.x, a.y - b.y) || 1; scale0 = scale;
+    mid0 = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; pan0 = { x: panX, y: panY };
+  }
+  canvas.addEventListener('pointerdown', e => {
+    if (e.pointerType !== 'touch') return;
+    pts.set(e.pointerId, local(e)); startPinch();
+  });
+  canvas.addEventListener('pointermove', e => {
+    if (e.pointerType !== 'touch' || !pts.has(e.pointerId)) return;
+    const prev = pts.get(e.pointerId), p = local(e);
+    pts.set(e.pointerId, p);
+    if (pts.size === 1) { panX += p.x - prev.x; panY += p.y - prev.y; }
+    else if (pts.size === 2) {
+      const [a, b] = [...pts.values()];
+      const ns = Math.min(3, Math.max(0.2, scale0 * Math.hypot(a.x - b.x, a.y - b.y) / pinch0));
+      const m = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+      panX = m.x - (mid0.x - pan0.x) * (ns / scale0);
+      panY = m.y - (mid0.y - pan0.y) * (ns / scale0);
+      scale = ns;
+    }
+    wake();
+  });
+  const endPt = e => { if (pts.delete(e.pointerId)) startPinch(); };
+  canvas.addEventListener('pointerup', endPt);
+  canvas.addEventListener('pointercancel', endPt);
 
   /* Graph filter buttons */
   document.getElementById('graph-filters').addEventListener('click', e => {
@@ -2936,13 +3013,24 @@ function initGraph() {
     });
     selectedId = null;
     alpha = 0.5;
+    wake();
   });
 
-  window.addEventListener('resize', () => {
-    sizeCanvas();
-    panX = cssW/2;
-    panY = cssH/2;
-  });
+  /* Taille : relue quand le réseau est visible (masqué, sa largeur vaut 0 : on attend son retour) ;
+     le centre de la vue ne bouge pas */
+  function resize() {
+    if (!wrap.clientWidth) return;
+    if (wrap.clientWidth !== cssW || wrap.clientHeight !== cssH) {
+      const w0 = cssW, h0 = cssH;
+      sizeCanvas();
+      panX += (cssW - w0) / 2; panY += (cssH - h0) / 2;
+    }
+    wake();
+  }
+  window.addEventListener('resize', resize);
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(wrap);
+  graphState.show = resize;
+  graphState.wake = wake;
 }
 
 /* ============================================================
@@ -3001,12 +3089,8 @@ window.addEventListener('message', function(e) {
     document.documentElement.setAttribute('data-theme', t);
     document.body.setAttribute('data-theme', t);
     if (t !== 'light') { document.documentElement.removeAttribute('data-theme'); document.body.removeAttribute('data-theme'); }
-    // Force canvas redraw with new colors
-    if (typeof draw === 'function') { try { draw(); } catch(ex) {} }
-    if (typeof render === 'function') { try { render(); } catch(ex) {} }
-    // Restart graph animation to pick up new theme colors
-    try { if (typeof alpha !== 'undefined') alpha = 0.3; } catch(ex) {}
-    window.dispatchEvent(new Event('resize'));
+    // Réseau redessiné aux nouvelles couleurs (s'il est affiché ; sinon à son retour)
+    try { if (graphState && graphState.wake) graphState.wake(); } catch(ex) {}
   }
 });
 try {
