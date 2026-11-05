@@ -1139,6 +1139,7 @@ function renderNavigation(searchFilter = "") {
     filteredSubparts.forEach(s => {
       const itemEl = document.createElement("li");
       itemEl.className = `nav-item ${s.id === activeSubpartId ? 'active' : ''}`;
+      itemEl.dataset.id = s.id;
       itemEl.textContent = s.title;
       itemEl.addEventListener("click", () => {
         selectSubpart(s.id);
@@ -1169,17 +1170,17 @@ function selectSubpart(id) {
 
   if (!foundSubpart) return;
 
-  // Update URL hash without reload
-  window.location.hash = id;
+  // L'ancre suit le sujet sans ajouter d'entrée à l'historique (le premier « Retour » ne restait plus sur place)
+  try { history.replaceState(history.state, '', '#' + id); } catch(e) {}
 
   // PostMessage for deep linking parent synchronization
   try {
-    window.parent.postMessage({ type: 'nav', state: id }, '*');
+    window.parent.postMessage({ type: 'nav', state: id }, location.origin);
   } catch(e) {}
 
-  // Highlight in list
+  // Highlight in list : par l'identifiant (deux sujets s'appellent « Préambule »)
   document.querySelectorAll(".nav-item").forEach(item => {
-    item.classList.toggle("active", item.textContent === foundSubpart.title);
+    item.classList.toggle("active", item.dataset.id === id);
   });
 
   // Render reading pane with fade transition
