@@ -97,8 +97,8 @@ var DATA = {
         { id: 'jeudi',     label: '66. Invocation pour le Jeudi', emoji: '📖' },
         { id: 'vendredi',  label: '67. Invocation pour le Vendredi', emoji: '📖' },
         { id: 'samedi',    label: '68. Invocation pour le Samedi', emoji: '📖' },
-        { type: 'header', label: 'Les Munâjât (69–83)' },
-        { id: 's69', label: '69. Munâjât des Repentis', disabled: true },
+        { type: 'header', label: 'Supplications confidentielles (69–83)' },
+        { id: 's69', label: '69. La Supplication confidentielle des Repentis', emoji: '📖' },
         { id: 's70', label: '70. Munâjât de ceux qui se plaignent', disabled: true },
         { id: 's71', label: '71. Munâjât des craintifs', disabled: true },
         { id: 's72', label: '72. Munâjât de ceux qui espèrent', disabled: true },
@@ -2231,6 +2231,31 @@ var DATA = {
         {t:'tri', ar:'اللّٰهُمَّ أَنْتَ الْواحِدُ بِلَا شَرِيكٍ، وَالْمَلِكُ بِلَا تَمْلِيكٍ، لَاتُضَادُّ فِى حُكْمِكَ، وَلَا تُنَازَعُ فِى مُلْكِكَ', tr:'Allâhumma, anta-l-wâhidu bilâ sharîkinn, wa-l-maliku bilâ tamlîkinn, lâ tudâddu fî hukmika wa lâ tunâza’u fî mulkika', fr:"Ô mon Dieu ! Tu es L'Unique sans associé ! Le Roi sans avoir été intronisé ! Nul ne saurait s'opposer à Toi dans Ton Jugement ; nul ne saurait Te contester dans Ta Souveraineté !"},
         {t:'tri', ar:'أَسْأَلُكَ أَنْ تُصَلِّىَ عَلَىٰ مُحَمَّدٍ عَبْدِكَ وَرَسُولِكَ، وَأَنْ تُوزِعَنِى مِنْ شُكْرِ نُعْمَاكَ مَا تَبْلُغُ بِى غَايَةَ رِضَاكَ وَأَنْ تُعِينَنِى عَلَىٰ طَاعَتِكَ وَلُزُومِ عِبَادَتِكَ، وَاسْتِحْقَاقِ مَثُوبَتِكَ بِلُطْفِ عِنَايَتِكَ وَتَرْحَمَنِى بِصَدِّى عَنْ مَعَاصِيكَ مَا أَحْيَيْتَنِى، وَتُوَفِّقَنِى لِمَا يَنْفَعُنِى مَا أَبْقَيْتَنِى وَأَنْ تَشْرَحَ بِكِتَابِكَ صَدْرِى، وَتَحُطَّ بِتِلاوَتِهِ وِزْرِى، وَتَمْنَحَنِى السَّلَامَةَ فِى دِينِى وَنَفْسِى وَلَا تُوحِشَ بِى أَهْلَ أُنْسِى، وَتُتِمَّ إِحْسَانَكَ فِيَما بَقِىَ مِنْ عُمْرِى كَمَا أَحْسَنْتَ فِيَما مَضَىٰ مِنْهُ يَا أَرْحَمَ الرَّاحِمِينَ', tr:'As’aluka an tusalliya ‘alâ Muhammadinn ‘abdika wa rasûlika, wa an tûzi‘anî min shukri nu’mâka mâ tablughu bî ghâyata ridâka wa an tu‘înanî ‘alâ tâ‘atika wa luzûmi ‘ibâdatika, wa-stihqâqi mathûbatika bi-lutfi ‘inâyatika wa tarhamanî bi-saddî ‘an ma’âsîka mâ ahyaytanî, wa tuwaffiqanî limâ yanfa‘unî mâ abqaytanî wa an tashraha bi-kitâbika sadrî, wa tahutta bi-tilâwatihi wizrî, wa tamnahanî-s-salâmata fî dînî wa nafsî wa lâ tûhisha bî ahla unsî, wa tutimma ihsânaka fîmâ baqiya min ‘umrî kamâ ahsanta fîmâ madâ minhu yâ arhama-r-râhimîna', fr:"Je T'implore de bénir Mohammed, Ton Serviteur et Ton Messager, et les Gens de sa Famille ; inspire-moi le remerciement de Tes Bienfaits par lequel j'atteindrai le plus haut degré de Ta Satisfaction ; accorde-moi l'aide afin de T'obéir, de persister dans l'Adoration qui T'est due, et ainsi de mériter Ta Récompense par Ta Grâce Bienveillante. Fais preuve de Miséricorde à mon égard et protège-moi contre les actes de désobéissance envers Toi aussi longtemps que Tu me maintiendras en vie ; accorde-moi la réussite en ce qui m'est favorable aussi longtemps que Tu me préserveras ; élargis ma poitrine par Ton Livre ; délivre-moi de mon fardeau par sa lecture ; accorde-moi la perfection dans ma Religion et dans mon âme ; n'éloigne pas de moi les gens qui me sont familiers ; parachève Ton Bienfait pour ce qui reste de ma durée de vie de la même manière que Tu as fait preuve de Bienveillance envers moi par le passé ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !"},
         {t:'salawat'},
+      ]
+    },
+
+
+    s69: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '69. La Supplication confidentielle des Repentis',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'intro', tx:'<em>Quinze supplications confidentielles selon les paroles de Sayyed Al-Sajjad – Le Maître des prosternés</em>'},
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Les actes coupables m\'ont revêtu de l\'habit de la honte ; mon éloignement de Toi m\'a couvert du vêtement de la misère ; mes plus graves délits ont assombri mon cœur ; redonne-lui vie en agréant mon repentir ! Ô Toi Qui es mon unique Espoir ! C\'est Toi que je désire ardemment ! À Toi s\'adresse mon invocation et en Toi est placée ma confiance ; je témoigne par Ta Puissance : hors de Toi, je n\'obtiendrai aucun pardon pour mes transgressions, et je ne connais que Toi pour soigner ma blessure. Je reviens vers Toi, soumis, à des fins de m\'amender, honteux et humilié devant Toi. Si Tu m\'abandonnes sur le seuil de Ta Porte, qui viendra à mon secours ? Si Tu me tiens à l\'écart de Ta Proximité, quel abri m\'accueillera ? Quelle douleur produite par mon état d\'opprobre et de déshonneur ! Quelle tristesse par la faute de mes actes coupables et de mes transgressions !'},
+        {t:'v',n:2, tx:'Je T\'implore – Ô Celui Qui pardonne les actes coupables ! Ô Celui Qui réunit les ossements ! – d\'oublier mes actions ruineuses et de couvrir l\'infamie de mes intentions secrètes ! Ne me prive pas, au Lieu du Rassemblement de La Résurrection, de la fraîcheur de Ton Pardon et de Ton Indulgence ; ne me dépossède pas de la faveur de Ta Tolérance et de Ta Protection !'},
+        {t:'v',n:3, tx:'Mon Dieu ! Couvre mes actes coupables par l\'ombre de Ta Miséricorde et cache mes comportements blâmables par le voile de Ta Compassion !'},
+        {t:'v',n:4, tx:'Mon Dieu ! Vers qui se tournera le serviteur transgresseur si ce n\'est vers son Maître ? Qui pourra le sauver de Son Courroux si ce n\'est Lui ?'},
+        {t:'v',n:5, tx:'Mon Dieu ! Si le remords est un repentir<sup id="ref-303"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-303\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[303]</a></sup>, alors, je suis – par Ta Puissance – l\'un de ceux qui éprouvent un profond remords ; si la demande de pardon est un soulagement du fardeau des actes coupables, alors, je suis l\'un de ceux qui implorent le pardon ; vers Toi je reviens jusqu\'à ce que Tu en sois satisfait !'},
+        {t:'v',n:6, tx:'Mon Dieu ! Par Ton Pouvoir sur moi, reviens vers moi ; par Ta Clémence envers moi, accorde-moi Ta Grâce ; par Ta Connaissance de moi, fais preuve de compassion à mon égard !'},
+        {t:'v',n:7, tx:'Mon Dieu ! Tu es Celui Qui a ouvert une porte vers Ton Pardon pour Tes Adorateurs ; Tu lui as donné le nom « Repentir », car Tu dis : <em>Revenez à Dieu avec un repentir sincère</em><sup id="ref-304"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-304\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[304]</a></sup>. Quelle sera l\'excuse de celui qui néglige d\'entrer par la porte qui lui fut ouverte ?'},
+        {t:'v',n:8, tx:'Mon Dieu ! Si l\'acte coupable rattaché à Ton Serviteur est abominable, Ton Pardon, lui, est magnifique.'},
+        {t:'v',n:9, tx:'Mon Dieu ! Je ne suis pas le premier à T\'avoir désobéi et vers qui Tu es revenu, à avoir cherché à atteindre Ta Faveur et envers qui Tu as fait preuve d\'abondante générosité. Ô Toi Qui exauces le démuni ! Ô Toi Qui dissipes le Mal ! Ô Celui Qui est Très Grand dans la générosité ! Ô Celui Qui connaît le secret ! Ô Celui Qui est Magnifique en dissimulant de Son Voile Protecteur ! Je Te demande l\'Intercession de Ta Magnificence et de Ta Générosité ; je Te demande le Recours de Ton Excellence et de Ta Miséricorde ; aussi, exauce ma requête ; ne déçois pas mon espérance placée en Toi ; accepte mon repentir ; dissimule mon acte coupable par Ta Grâce et Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-303"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-303\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[303]</a></span> Allusion faite au hadith prophétique bien connu : « Le remords est un repentir » [Ibn Maja, <em>Zuhd</em>, 30 ; Ahmad, 1/376, 423 ; 6/264].'},
+        {t:'intro', tx:'<span id="note-304"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-304\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[304]</a></span> Coran 66/8'},
       ]
     },
 
