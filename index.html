@@ -418,6 +418,8 @@ html[data-design="console"] .salle-t:focus-visible,.salle-t:focus{outline:none!i
 /* ── Recherche globale ─────────────────────────────────────────────── */
 .gs-overlay{position:fixed;inset:0;z-index:1000;display:flex;justify-content:center;padding:10vh 16px 16px;background:var(--scrim);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);opacity:0;pointer-events:none;transition:opacity .3s var(--lp-ease)}
 .gs-overlay.open{opacity:1;pointer-events:auto}
+/* Fermés, la recherche et « Soutenir » sortent aussi du parcours au clavier et des lecteurs d'écran (après le fondu) */
+.gs-overlay:not(.open),.modal:not(.active){visibility:hidden;transition:opacity .35s var(--lp-ease),visibility 0s linear .35s}
 .gs-box{width:min(680px,100%);align-self:flex-start;display:flex;flex-direction:column;max-height:78vh;overflow:hidden;border-radius:22px;background:var(--gs-bg);border:1px solid var(--lp-edge);box-shadow:0 50px 120px -40px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.07);transform:translateY(-8px) scale(.985);transition:transform .45s var(--lp-ease)}
 .gs-overlay.open .gs-box{transform:none}
 .gs-input-wrap{display:flex;align-items:center;gap:12px;padding:16px 16px 16px 20px;border-bottom:1px solid var(--lp-hairline)}
@@ -535,6 +537,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
 }
+/* Très petits écrans (320 px) : le nom laisse la place aux boutons, dont celui du thème */
+@media (max-width:359px){.mark-name{display:none}.bar-tools{gap:0}}
 </style>
 </head>
 <body>
@@ -1507,6 +1511,10 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
           if (l.href === 'about:blank') iframe.src = moduleSrc(idx, innerState);
           else l.replace(l.pathname + l.search + '#' + innerState);
         } catch (e) {}
+      } else if (_fromPop && iframe.contentWindow) {
+        /* Retour vers l'entrée sans état (ex. #m4 après une recherche « Kumayl ») : la page revient à son début.
+           Rouvrir une page depuis sa dalle (hors historique) garde, lui, la place de lecture. */
+        try { var l0 = iframe.contentWindow.location; if (l0.hash && l0.hash !== '#') l0.replace(l0.pathname + l0.search + '#'); } catch (e) {}
       }
     }
     if (!_fromPop) {
