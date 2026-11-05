@@ -1474,8 +1474,9 @@ document.getElementById('spPrev').addEventListener('click', _spPrev);
    Pendant l'écoute d'un verset, ses mots s'allument au rythme du récitateur : le mot dit en ambre,
    les mots déjà dits un peu plus chauds ; tout revient au repos à l'arrêt ou au verset suivant.
    Minutage exact par mot de quran.com, seulement si le fichier everyayah joué est celui qu'il a
-   minuté : mêmes octets, ou (Husary 128k) même découpe que son 64k, à ~30 ms près. Autres
-   récitateurs, fichier de secours, découpage en mots différent : rien ne s'allume (pas d'estimation). */
+   minuté : mêmes octets, ou (Husary 128k) même découpe que son 64k, à ~30 ms près, ou (Yasser
+   Ad-Dussary) découpe mesurée dans le fichier sourate minuté. Autres récitateurs, fichier de secours,
+   découpage en mots différent : rien ne s'allume (pas d'estimation). */
 var _rlBind = (function () {
   if (document.documentElement.getAttribute('data-design') !== 'console') return function () {};
   /* Dossier everyayah → [récitation quran.com, dossier du fichier qu'elle minute] */
@@ -1491,8 +1492,16 @@ var _rlBind = (function () {
     'Minshawy_Mujawwad_192kbps': [8, 'Minshawi/Mujawwad/mp3/'],
     'Abu_Bakr_Ash-Shaatree_128kbps': [4, 'Shatri/mp3/']
   };
+  /* Yasser Ad-Dussary : quran.com ne minute pas ses fichiers par verset, seulement ses fichiers par
+     sourate (QDC, récitateur 97), dont everyayah a découpé ses versets. coran-minutage-dosari.json donne,
+     par sourate, la taille du fichier minuté et la position (ms) de chaque découpe, mesurée par
+     corrélation audio (null : pas trouvée sûrement, ou verset découpé autrement que chez quran.com).
+     Dossier everyayah → [récitateur QDC, ce fichier] */
+  var SOURATE = {
+    'Yasser_Ad-Dussary_128kbps': [97, 'coran-minutage-dosari.json']
+  };
   /* 'récitation:verset' → {n, segs} ; null : pas de minutage sûr ; false : échec réseau (réessai à la prochaine écoute) */
-  var times = {}, cur = null, raf = 0;
+  var times = {}, cur = null, raf = 0, loads = {};
 
   /* Segments quran.com : [premier mot − 1, dernier mot, début, fin] (ms ; mots comptés sans la marque de fin de verset) */
   function parse(v, file) {
@@ -1508,15 +1517,42 @@ var _rlBind = (function () {
     segs.sort(function (x, y) { return x[2] - y[2]; });
     return segs.length ? { n: n, segs: segs } : null;
   }
+  /* Segments QDC du fichier sourate : [mot, début, fin] (ms depuis le début de la sourate),
+     ramenés au fichier verset par sa position mesurée */
+  function parseSourate(v, pos, f, key) {
+    var sa = key.split(':'), p = pos && pos[sa[0]], off = p && p[1][sa[1] - 1], n = 0, segs = [], t;
+    if (typeof off !== 'number' || !f || +f.file_size !== p[0]) return null; /* découpe non mesurée, ou sourate changée depuis */
+    (f.verse_timings || []).forEach(function (x) { if (x.verse_key === key) t = x; });
+    var g = t && t.segments;
+    if (!g || !g.length) return null;
+    (v && v.words || []).forEach(function (w) { if (w.char_type_name === 'word') n++; });
+    for (var i = 0; i < g.length; i++) {
+      if (!g[i] || g[i].length !== 3) return null;
+      var s = [+g[i][0], +g[i][0], g[i][1] - off, g[i][2] - off];
+      if (!(s[0] >= 1 && s[0] <= n)) return null; /* mot hors du verset : numérotation douteuse */
+      if (s[3] > s[2]) segs.push(s);
+    }
+    segs.sort(function (x, y) { return x[2] - y[2]; });
+    return segs.length ? { n: n, segs: segs } : null;
+  }
+  function json(url) {
+    return fetch(url).then(function (r) { if (!r.ok) throw 0; return r.json(); });
+  }
+  /* Fichier commun à plusieurs versets (positions, minutage d'une sourate) : chargé une fois, oublié s'il échoue (réessai) */
+  function shared(url) {
+    return loads[url] || (loads[url] = json(url).catch(function (e) { delete loads[url]; throw e; }));
+  }
   /* Minutage d'un verset : chargé à sa première écoute, puis gardé */
   function timing(c) {
-    var k = c.rec[0] + ':' + c.key;
+    var k = c.rec[0] + ':' + c.key, v4 = 'https://api.quran.com/api/v4/verses/by_key/' + c.key + '?words=true';
     if (!(k in times)) {
       times[k] = undefined;
-      fetch('https://api.quran.com/api/v4/verses/by_key/' + c.key + '?words=true&audio=' + c.rec[0])
-        .then(function (r) { if (!r.ok) throw 0; return r.json(); })
-        .then(function (d) { times[k] = parse(d && d.verse, c.rec[1] + c.file); })
-        .catch(function () { times[k] = false; });
+      (c.whole
+        ? Promise.all([json(v4), shared(c.rec[1]),
+            shared('https://api.qurancdn.com/api/qdc/audio/reciters/' + c.rec[0] + '/audio_files?chapter=' + c.key.split(':')[0] + '&segments=true')])
+          .then(function (d) { return parseSourate(d[0] && d[0].verse, d[1], d[2] && d[2].audio_files && d[2].audio_files[0], c.key); })
+        : json(v4 + '&audio=' + c.rec[0]).then(function (d) { return parse(d && d.verse, c.rec[1] + c.file); }))
+        .then(function (r) { times[k] = r; }, function () { times[k] = false; });
     }
     return times[k];
   }
@@ -1579,10 +1615,10 @@ var _rlBind = (function () {
   function begin(au, id) {
     rest();
     var m = /everyayah\.com\/data\/([^\/]+)\/((\d{3})(\d{3})\.mp3)$/.exec(au.src), v = /^audio-(\d+)-(\d+)$/.exec(id);
-    var rec = m && REC[m[1]], key = m && +m[3] + ':' + +m[4];
+    var rec = m && (REC[m[1]] || SOURATE[m[1]]), key = m && +m[3] + ':' + +m[4];
     if (!rec || key !== (v ? +v[1] + ':' + +v[2] : '1:1')) return; /* fichier non minuté, ou pas celui de ce verset */
     if (times[rec[0] + ':' + key] === false) delete times[rec[0] + ':' + key];
-    cur = { au: au, id: id, src: au.src, rec: rec, file: m[2], key: key, spans: null, st: '' };
+    cur = { au: au, id: id, src: au.src, rec: rec, whole: !REC[m[1]], file: m[2], key: key, spans: null, st: '' };
     raf = requestAnimationFrame(tick);
   }
   return function (au, id) {
