@@ -673,9 +673,13 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   var loaded = new Array(N).fill(false);
 
   /* L'adresse d'une page, avec le jeton anti-cache : « ? » ou « & » selon que l'adresse porte déjà un paramètre (bihar-anwar.html?vol=2) */
+  /* Jeton de version des pages : le déploiement remplace __SITE_REV__ par le commit publié (static.yml),
+     si bien qu'une page reste en cache jusqu'au déploiement suivant. En local, un jeton neuf à chaque ouverture. */
+  var SITE_REV = '__SITE_REV__';
+  var REV = /^__/.test(SITE_REV) ? String(Date.now()) : SITE_REV;
   function moduleSrc(idx, innerState) {
     var base = MODULES[idx];
-    return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + Date.now() + (innerState ? '#' + innerState : '');
+    return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + REV + (innerState ? '#' + innerState : '');
   }
 
   /* ── Fermer tous les iframes ── */
@@ -748,7 +752,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     } else {
       var iframe = document.getElementById('iframe' + idx);
       if (innerState && iframe.contentWindow) {
-         try { iframe.contentWindow.location.hash = innerState; } catch(e) {}
+         /* replace : pas d'entrée d'historique en plus dans la page (le hub a déjà la sienne) */
+         try { var l = iframe.contentWindow.location; l.replace(l.pathname + l.search + '#' + innerState); } catch(e) {}
       }
     }
     if (!_fromPop) {
@@ -1217,7 +1222,9 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
     // Fetch Quran.com API search
     var apiUrl = 'https://api.quran.com/api/v4/search?q=' + encodeURIComponent(query.trim()) + '&size=6&language=fr';
-    fetch(apiUrl)
+    var ctl = window.AbortController ? new AbortController() : null;   /* au plus 5 s d'attente */
+    if (ctl) setTimeout(function () { ctl.abort(); }, 5000);
+    fetch(apiUrl, ctl ? { signal: ctl.signal } : undefined)
       .then(function(r){ return r.json(); })
       .then(function(data){
          var quranHits = [];
