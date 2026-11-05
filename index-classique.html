@@ -10,6 +10,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="vendor/fuse-7.0.0.min.js"></script>
+<script src="recherche.js"></script>
 <!-- global-search-data.js (3,7 Mo) n'est chargé qu'à la première ouverture de la recherche (voir withIndex) -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -1112,20 +1113,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
   /* L'index (global-search-data.js, 3,7 Mo) arrive à la première ouverture de la recherche :
      l'accueil ne l'attend plus pour s'afficher. En cas d'échec, la prochaine ouverture réessaie. */
-  var GS_OPTS = {
-    keys: [
-      { name: 'title',   weight: 0.55 },
-      { name: 'content', weight: 0.35 },
-      { name: 'type',    weight: 0.10 },
-      { name: 'state',   weight: 0.80 }
-    ],
-    threshold: 0.38,
-    distance: 300,
-    minMatchCharLength: 2,
-    includeMatches: true,
-    ignoreLocation: true
-  };
-  var gsFuse = null, gsLoading = false, gsQueue = [];
+  var gsFuse = null, gsLoading = false, gsQueue = [];   /* gsFuse : le moteur de recherche.js, une fois l'index arrivé */
   function withIndex(cb) {
     if (gsFuse) { if (cb) cb(); return; }
     if (cb) gsQueue.push(cb);
@@ -1134,7 +1122,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     var sc = document.createElement('script');
     sc.src = 'global-search-data.js';
     function flush() { gsLoading = false; var q = gsQueue; gsQueue = []; q.forEach(function (f) { f(); }); }
-    sc.onload = function () { try { gsFuse = new Fuse(window.GLOBAL_SEARCH_INDEX || [], GS_OPTS); } catch (e) {} flush(); };
+    sc.onload = function () { try { gsFuse = window.lpSearch.build(window.GLOBAL_SEARCH_INDEX || []); } catch (e) {} flush(); };
     sc.onerror = function () { sc.parentNode && sc.parentNode.removeChild(sc); flush(); };
     document.head.appendChild(sc);
   }
@@ -1215,7 +1203,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       });
       return;
     }
-    var hits = gsFuse.search(q, { limit: 60 });
+    var hits = gsFuse.search(q, 60);
     /* les résultats du site s'affichent tout de suite ; ceux du Coran en ligne s'ajoutent à leur arrivée */
     if (hits.length) displayHits(hits, q);
     hintEl.textContent = 'Recherche en direct...';
