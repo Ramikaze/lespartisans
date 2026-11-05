@@ -99,8 +99,8 @@ var DATA = {
         { id: 'samedi',    label: '68. Invocation pour le Samedi', emoji: '📖' },
         { type: 'header', label: 'Supplications confidentielles (69–83)' },
         { id: 's69', label: '69. La Supplication confidentielle des Repentis', emoji: '📖' },
-        { id: 's70', label: '70. Munâjât de ceux qui se plaignent', disabled: true },
-        { id: 's71', label: '71. Munâjât des craintifs', disabled: true },
+        { id: 's70', label: '70. La Supplication confidentielle de ceux qui se plaignent', emoji: '📖' },
+        { id: 's71', label: '71. La Supplication confidentielle des craintifs', emoji: '📖' },
         { id: 's72', label: '72. Munâjât de ceux qui espèrent', disabled: true },
         { id: 's73', label: '73. Munâjât des désireux', disabled: true },
         { id: 's74', label: '74. Munâjât des reconnaissants', disabled: true },
@@ -2259,6 +2259,41 @@ var DATA = {
       ]
     },
 
+
+    s70: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '70. La Supplication confidentielle de ceux qui se plaignent',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! À Toi je me plains d\'une âme instigatrice du Mal<sup id="ref-305"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-305\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[305]</a></sup> ; empressée à l\'acte coupable ; désireuse de Te désobéir ; s\'exposant d\'elle-même à Ton Courroux. Elle m\'entraîne sur les chemins dangereux ; elle fait de moi le plus complaisant des égarés qui se présentent à Toi ; nombreuses sont ses malices et elle est pleine d\'espoir ; lorsque le malheur l\'atteint, elle est inquiète ; lorsque le bien l\'atteint, elle refuse d\'accorder<sup id="ref-306"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-306\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[306]</a></sup> ; inclinée à la distraction et aux plaisirs ; chargée d\'insouciance et de négligence ; elle me précipite dans les mauvaises œuvres et m\'inspire d\'ajourner le repentir.'},
+        {t:'v',n:2, tx:'Mon Dieu ! Je me plains à Toi au sujet d\'un ennemi qui m\'égare, et de Satan qui me séduit. Il a envahi ma pensée intime de tentations nuisibles, et ses insinuations ont assailli mon cœur. Il soutient la passion contre moi ; il embellit pour moi l\'amour de la vie immédiate ; il s\'interpose entre moi, l\'obéissance et la proximité.'},
+        {t:'v',n:3, tx:'Mon Dieu ! À Toi je me plains au sujet d\'un cœur endurci ; rendu capricieux par les tentations nuisibles ; recouvert d\'une oxydation et fermé d\'un sceau<sup id="ref-307"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-307\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[307]</a></sup> ; au sujet d\'un œil indifférent à verser des larmes par crainte de Toi mais attiré par tout ce qui le fascine.'},
+        {t:'v',n:4, tx:'Mon Dieu ! Il n\'y a de force ni de puissance si ce n\'est par Ton Pouvoir ; ni de délivrance pour moi des calamités de la vie d\'ici-bas si ce n\'est par Ta Protection. Aussi, je T\'implore par l\'Excellence de Ta Sagesse et par le Caractère exécutoire de Ta Volonté de ne pas m\'exposer à être privé de l\'abondance de Ta Générosité ni de faire de moi l\'objet des épreuves. Sois envers moi un Secoureur contre les ennemis ; une Protection contre les actes humiliants et les défaillances ; un Protecteur contre les afflictions ; un Garant contre les actes de désobéissance ! Par Ta Clémence et Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-305"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-305\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[305]</a></span> Ici, il est fait allusion au Coran 12/53 : « <em>L\'âme est instigatrice du mal, à moins que mon Seigneur ne fasse miséricorde</em> ».'},
+        {t:'intro', tx:'<span id="note-306"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-306\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[306]</a></span> Ici, il est fait allusion au Coran 70/19 à 21 : « <em>L\'homme a été créé versatile : timide lorsque le malheur l\'atteint, violent lorsqu\'il est heureux</em> ».'},
+        {t:'intro', tx:'<span id="note-307"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-307\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[307]</a></span> Ici, il est fait allusion aux Versets du Coran : « <em>Non !… Leurs cœurs ont été endurcis par ce qu\'ils ont accompli</em> » (Coran 83/14) – « <em>Dieu a placé un sceau sur leurs cœurs, c\'est pourquoi ils ne savent rien</em> » (Coran 9/93).'},
+      ]
+    },
+
+    s71: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '71. La Supplication confidentielle des craintifs',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Est-il possible que Tu me châties malgré ma preuve de foi en Toi ? ou bien que Tu m\'éloignes de Toi en dépit de mon amour envers Toi ? ou bien que Tu m\'affliges alors que j\'espère en Ta Miséricorde et en Ta Clémence ? ou bien que Tu m\'abandonnes alors que je cherche asile dans Ton Pardon ? Comment Ta Face Généreuse pourrait-elle me décevoir ? J\'aimerais savoir : ma mère m\'a-t-elle enfanté pour être dans l\'extrême pauvreté ? M\'a-t-elle élevé pour être dans le malheur ? S\'il en était bien ainsi, mieux eût valu qu\'elle ne m\'enfantât pas et qu\'elle ne m\'élevât point ! J\'aimerais savoir : m\'as-Tu prévu au nombre des gens de la béatitude ? M\'as-Tu distingué par la faveur d\'être dans Ta Proximité et Ton Voisinage ? Ainsi, mes yeux seraient heureux et mon âme apaisée.'},
+        {t:'v',n:2, tx:'Mon Dieu ! Noircirais-Tu des faces qui tombent prosternées devant Ta Puissance ? Rendrais-Tu muettes des langues qui s\'expriment à des fins de vénération de Ta Gloire et de Ta Majesté ? Scellerais-Tu des cœurs dont les sentiments se nourrissent de Ton Amour ? Rendrais-Tu sourdes des oreilles qui prennent plaisir à écouter les paroles de Ton Rappel comme le veut Ta Volonté ? Attacherais-Tu des mains dont les espérances s\'élèvent vers Toi implorant Ta Clémence ? Châtierais-Tu des corps qui œuvrent à T\'obéir au point de se rendre amaigris dans l\'effort de la pratique adorative envers Toi ? Réprimerais-Tu des pieds qui accourent pour T\'adorer ?'},
+        {t:'v',n:3, tx:'Mon Dieu ! Ne ferme pas à ceux qui professent la Reconnaissance de Ton Unicité les Portes de Ta Miséricorde ; ne mets pas un voile sur ceux qui Te désirent ardemment en portant le regard vers Ta Splendeur !'},
+        {t:'v',n:4, tx:'Mon Dieu ! Une âme que Tu as honorée de la Reconnaissance de Ton Unicité : comment pourrais-Tu l\'affliger de l\'humiliation de Ta Séparation ? Une conscience toute imprégnée de Ton Affection : comment pourrais-Tu l\'embraser de l\'ardeur de Tes Flammes ?'},
+        {t:'v',n:5, tx:'Mon Dieu ! Accorde-moi l\'asile contre la souffrance de Ton Courroux et contre Ton Exaspération Intense. Ô Le Très-Affectueux ! Ô Le Très-Attentionné ! Ô Le Tout Miséricordieux ! Ô Le Très-Miséricordieux ! Ô Le Très-Fort ! Ô Le Dominateur Suprême ! Ô Celui Qui ne cesse de pardonner ! Ô Celui Qui ne cesse de voiler les fautes ! Délivre-moi, par Ta Miséricorde, du supplice du Feu ; de l\'occasion affligeante de l\'humiliation, lorsque les vertueux seront séparés des malfaiteurs ; lorsque les conditions seront modifiées et les frayeurs se déchaîneront ; lorsque ceux qui ont fait le bien seront rapprochés et ceux qui ont fait le mal seront écartés, <em>chaque homme recevra alors la rétribution de ce qu\'il aura accompli et personne ne sera lésé</em> (Coran 3/25).'},
+        {t:'salawat'},
+      ]
+    },
 
     'makarem': {
       source: 'As-Ṣaḥīfa as-Sajjādiyya',
