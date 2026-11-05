@@ -283,6 +283,16 @@ input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!importa
 .c-intro{border-left:none!important;border-radius:12px!important}
 .c-verse{border-radius:12px!important}
 .sb-toggle{border-radius:0 10px 10px 0!important}
+/* Les entrées du sommaire et la languette sont des <button> : remise à zéro sans peser sur les règles de classe,
+   pleine largeur comme les anciens <div>, police de la page (ios-theme.css en donne une aux boutons) */
+:where(button.sb-theme,button.sb-item,button.sb-toggle){appearance:none;-webkit-appearance:none;background:none;border:0;border-radius:0;font:inherit;color:inherit;text-align:inherit;cursor:pointer}
+:where(button.sb-theme,button.sb-item){width:-webkit-fill-available;width:-moz-available;width:stretch}
+.sb-theme,.sb-item,.sb-toggle{font-family:inherit}
+.sb-theme:active,.sb-item:active{transform:none}
+.sb-toggle:active{transform:translateY(-50%)}
+/* Repliés, les sujets ne prennent plus le focus au clavier (visibility), sans couper l'animation de fermeture */
+.sb-items{visibility:hidden;transition:max-height .3s cubic-bezier(.4,0,.2,1),visibility 0s linear .3s}
+.sb-items.open{visibility:visible;transition:max-height .3s cubic-bezier(.4,0,.2,1),visibility 0s}
 </style>
 <!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
 <script src="lp-design.js"></script>
@@ -512,7 +522,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
   </div>
 
   <!-- TOGGLE -->
-  <div class="sb-toggle" id="sb-toggle">‹</div>
+  <button class="sb-toggle" id="sb-toggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="Replier le sommaire">‹</button>
 
   <!-- VOILE DU TIROIR (mobile) -->
   <div class="sb-overlay" id="sb-overlay"></div>
@@ -627,23 +637,67 @@ function flashNote(el, block) {
   setTimeout(() => el.classList.remove('fn-flash'), 1600);
 }
 
+// Ouvre ou ferme le dossier d'une partie : classe, hauteur, et aria-expanded de son bouton
+function setGroup(itemsDiv, open) {
+  var btn = itemsDiv.previousElementSibling;
+  itemsDiv.classList.toggle('open', open);
+  itemsDiv.style.maxHeight = open ? '10000px' : '0px';
+  if (btn) { btn.classList.toggle('open', open); btn.setAttribute('aria-expanded', String(open)); }
+}
+
+// ══ ÉTAT DE LECTURE : ancre de la page (#…), recherche globale (gs-navigate), adresse du hub (#m17:…) ══
+// « p » : une page éditoriale (préface, introduction, bibliographie) ; « p,s » : le sujet s de la partie p.
+// Un état hors du livre (partie absente ou vide) ne donne rien ; un sujet absent ou hors de la partie donne son premier sujet.
+function parseState(str) {
+  var parts = String(str == null ? '' : str).split(','), p = parseInt(parts[0], 10);
+  var part = typeof AUNE_SAGESSE !== 'undefined' && p >= 0 ? AUNE_SAGESSE[p] : null;
+  if (!part) return null;
+  if (part.content || part.biblio) return { p: p, s: null };
+  if (!part.subparts || !part.subparts.length) return null;
+  var s = parseInt(parts[1], 10);
+  return { p: p, s: s >= 0 && s < part.subparts.length ? s : 0 };
+}
+function stateOf(p, s) { return s == null ? String(p) : p + ',' + s; }
+
+var shownState = null;  // l'état affiché
+var lastNav = null;     // l'état que l'adresse du hub porte déjà
+// L'ancre suit l'état affiché (sans entrée d'historique), et le hub le garde dans son adresse : rechargement,
+// partage et retour du navigateur retrouvent le sujet lu. L'arrivée (quiet) le pose sans message : elle vient du hub.
+function syncState(state, quiet) {
+  shownState = state;
+  try { if (location.hash.slice(1) !== state) history.replaceState(history.state, '', '#' + state); } catch (e) {}
+  if (quiet) { lastNav = state; return; }
+  if (state !== lastNav) {
+    lastNav = state;
+    try { if (window.parent !== window) window.parent.postMessage({ type: 'nav', state: state }, location.origin); } catch (e) {}
+  }
+}
+
+// Ouvre un état (ancre ou recherche) comme depuis le menu ; l'état déjà affiché n'est pas refait
+// (le hub envoie l'ancre et gs-navigate pour un même résultat). top : revenir au début du texte déjà affiché.
+function goTo(str, opts) {
+  opts = opts || {};
+  var st = parseState(str);
+  if (!st) return false;
+  if (stateOf(st.p, st.s) === shownState) {
+    if (opts.top) document.getElementById('content').scrollTop = 0;
+    return true;
+  }
+  openSubject(st.p, st.s, opts.quiet);
+  return true;
+}
+
 // Ouvre un sujet comme depuis le menu : dossier déplié, entrée active visible
-function openSubject(partIdx, subpartIdx) {
+function openSubject(partIdx, subpartIdx, quiet) {
   const group = document.getElementById(`sb-group-${partIdx}`);
   if (!group) return;
   const itemsDiv = group.querySelector('.sb-items');
   const themeBtn = group.querySelector('.sb-theme');
   if (itemsDiv && !itemsDiv.classList.contains('open')) {
-    document.querySelectorAll('.sb-items').forEach(d => {
-      d.classList.remove('open');
-      d.style.maxHeight = '0px';
-      d.previousElementSibling.classList.remove('open');
-    });
-    itemsDiv.classList.add('open');
-    themeBtn.classList.add('open');
-    itemsDiv.style.maxHeight = '10000px';
+    document.querySelectorAll('.sb-items').forEach(d => setGroup(d, false));
+    setGroup(itemsDiv, true);
   }
-  showContent(partIdx, subpartIdx);
+  showContent(partIdx, subpartIdx, null, quiet);
   // Seule la liste du menu défile (un scrollIntoView décalerait aussi le panneau replié)
   const activeItem = subpartIdx === null ? themeBtn : document.getElementById(`sb-item-${partIdx}-${subpartIdx}`);
   const list = document.getElementById('sb-scroll');
@@ -679,33 +733,39 @@ function renderSommaire() {
   }
   
   sbScroll.innerHTML = '';
-  
+
+  // Le sommaire est fait de <button> (parties, sujets) : il se parcourt au clavier (Tab, Entrée, Espace)
+  function sbButton(cls) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = cls;
+    return b;
+  }
+
   AUNE_SAGESSE.forEach((part, partIndex) => {
     const group = document.createElement('div');
     group.className = 'sb-group';
     group.id = `sb-group-${partIndex}`;
-    
+
     if (part.content || part.biblio) {
       // Direct editorial page
-      const themeBtn = document.createElement('div');
-      themeBtn.className = 'sb-theme';
-      themeBtn.innerHTML = `<span class="sb-theme-icon">📖</span><span class="sb-theme-label">${part.title}</span>`;
+      const themeBtn = sbButton('sb-theme');
+      themeBtn.innerHTML = `<span class="sb-theme-icon" aria-hidden="true">📖</span><span class="sb-theme-label">${part.title}</span>`;
       themeBtn.addEventListener('click', function(e) {
         showContent(partIndex, null, e);
       });
       group.appendChild(themeBtn);
     } else if (part.subparts && part.subparts.length > 0) {
       // Chapter folder containing subparts
-      const themeBtn = document.createElement('div');
-      themeBtn.className = 'sb-theme';
-      themeBtn.innerHTML = `<span class="sb-theme-icon">🗂️</span><span class="sb-theme-label">${part.title}</span><span class="sb-chevron">›</span>`;
-      
+      const themeBtn = sbButton('sb-theme');
+      themeBtn.setAttribute('aria-expanded', 'false');
+      themeBtn.innerHTML = `<span class="sb-theme-icon" aria-hidden="true">🗂️</span><span class="sb-theme-label">${part.title}</span><span class="sb-chevron" aria-hidden="true">›</span>`;
+
       const itemsDiv = document.createElement('div');
       itemsDiv.className = 'sb-items';
-      
+
       part.subparts.forEach((sub, subIndex) => {
-        const itemBtn = document.createElement('div');
-        itemBtn.className = 'sb-item';
+        const itemBtn = sbButton('sb-item');
         itemBtn.textContent = sub.title;
         itemBtn.id = `sb-item-${partIndex}-${subIndex}`;
         itemBtn.addEventListener('click', function(e) {
@@ -713,28 +773,15 @@ function renderSommaire() {
         });
         itemsDiv.appendChild(itemBtn);
       });
-      
+
       themeBtn.addEventListener('click', function(e) {
         e.stopPropagation();
         const isOpen = itemsDiv.classList.contains('open');
         // Close other expandable groups
         document.querySelectorAll('.sb-items').forEach(d => {
-          if (d !== itemsDiv) {
-            d.classList.remove('open');
-            d.style.maxHeight = '0px';
-            d.previousElementSibling.classList.remove('open');
-          }
+          if (d !== itemsDiv) setGroup(d, false);
         });
-        
-        if (!isOpen) {
-          itemsDiv.classList.add('open');
-          themeBtn.classList.add('open');
-          itemsDiv.style.maxHeight = '10000px';
-        } else {
-          itemsDiv.classList.remove('open');
-          themeBtn.classList.remove('open');
-          itemsDiv.style.maxHeight = '0px';
-        }
+        setGroup(itemsDiv, !isOpen);
       });
       
       group.appendChild(themeBtn);
@@ -746,27 +793,44 @@ function renderSommaire() {
 }
 
 // ══ SEARCH FILTER IN SIDEBAR ══
+// Pour le filtre du sommaire (comme bihar-anwar.html) : NFD, sans diacritiques, minuscules ;
+// apostrophes et ligatures ramenées au plus simple (« echeance » trouve « L'ÉCHÉANCE », « adhan » « ADHĀN »)
+function fold(s) {
+  return String(s == null ? '' : s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+    .replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/[’‘ʼʻʿʾ`´]/g, "'").replace(/\s+/g, ' ').trim();
+}
+// Titres pliés une seule fois (parties, sujets), pas à chaque frappe
+var FOLDS = null;
+function folds() {
+  if (!FOLDS) FOLDS = AUNE_SAGESSE.map(function (part) {
+    return { t: fold(part.title), s: (part.subparts || []).map(function (sub) { return fold(sub.title); }) };
+  });
+  return FOLDS;
+}
+// Les mots tapés doivent tous se lire dans le titre (casse, accents et apostrophes ignorés) ; un numéro trouve aussi ses hadiths
 function filterSidebar() {
-  const query = document.getElementById('sb-search').value.toLowerCase().trim();
+  const words = fold(document.getElementById('sb-search').value).split(' ').filter(Boolean);
+  const query = words.join(' ');
+  const hit = f => words.every(w => f.indexOf(w) >= 0);
+  const F = folds();
   const groups = document.querySelectorAll('.sb-group');
-  
+
   groups.forEach((group, partIndex) => {
     const part = AUNE_SAGESSE[partIndex];
-    const themeBtn = group.querySelector('.sb-theme');
     const itemsDiv = group.querySelector('.sb-items');
-    
+
     if (part.content || part.biblio) {
       // Editorial page search
-      const matches = part.title.toLowerCase().includes(query);
+      const matches = hit(F[partIndex].t);
       group.style.display = matches ? 'block' : 'none';
     } else if (part.subparts && part.subparts.length > 0) {
       // Expandable list search
       let matchingSubpartsCount = 0;
       const subItems = itemsDiv.querySelectorAll('.sb-item');
-      
+
       part.subparts.forEach((sub, subIndex) => {
         const itemBtn = subItems[subIndex];
-        const matches = sub.title.toLowerCase().includes(query) || (sub.hadiths && sub.hadiths.some(h => (h.number && h.number.toString().includes(query))));
+        const matches = hit(F[partIndex].s[subIndex]) || (sub.hadiths && sub.hadiths.some(h => (h.number && h.number.toString().includes(query))));
         if (matches) {
           itemBtn.style.display = 'block';
           matchingSubpartsCount++;
@@ -774,29 +838,23 @@ function filterSidebar() {
           itemBtn.style.display = 'none';
         }
       });
-      
-      const partHeaderMatches = part.title.toLowerCase().includes(query);
-      
+
+      const partHeaderMatches = hit(F[partIndex].t);
+
       if (query === '') {
         // Clear: show all, restore normal closed state
         group.style.display = 'block';
         subItems.forEach(i => i.style.display = 'block');
-        itemsDiv.classList.remove('open');
-        themeBtn.classList.remove('open');
-        itemsDiv.style.maxHeight = '0px';
+        setGroup(itemsDiv, false);
       } else if (matchingSubpartsCount > 0) {
         // Sub-items match: show group and auto-expand to show matching items
         group.style.display = 'block';
-        itemsDiv.classList.add('open');
-        themeBtn.classList.add('open');
-        itemsDiv.style.maxHeight = '10000px';
+        setGroup(itemsDiv, true);
       } else if (partHeaderMatches) {
         // Only chapter header matches: show all sub-items and group, but keep collapsed
         group.style.display = 'block';
         subItems.forEach(i => i.style.display = 'block');
-        itemsDiv.classList.remove('open');
-        themeBtn.classList.remove('open');
-        itemsDiv.style.maxHeight = '0px';
+        setGroup(itemsDiv, false);
       } else {
         // No matches at all: hide entire group
         group.style.display = 'none';
@@ -806,24 +864,22 @@ function filterSidebar() {
 }
 
 // ══ SHOW CONTENT IN CENTER AREA ══
-function showContent(partIndex, subpartIndex, event) {
+// quiet : à l'arrivée, l'état est posé sans être renvoyé au hub (voir syncState)
+function showContent(partIndex, subpartIndex, event, quiet) {
   if (event) event.stopPropagation();
-  
-  // 1. Remove active state from all items
-  document.querySelectorAll('.sb-theme').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.sb-item').forEach(el => el.classList.remove('active'));
-  
+  if (subpartIndex === undefined) subpartIndex = null;
+
   const part = AUNE_SAGESSE[partIndex];
   const group = document.getElementById(`sb-group-${partIndex}`);
-  
+  // Seuls les états du livre s'affichent (parseState les vérifie pour l'ancre et la recherche)
+  if (!part || !group || (subpartIndex === null ? !(part.content || part.biblio) : !(part.subparts && part.subparts[subpartIndex]))) return;
+
+  // 1. Remove active state from all items
+  document.querySelectorAll('#sb-scroll .active').forEach(el => { el.classList.remove('active'); el.removeAttribute('aria-current'); });
+
   // 2. Set active state in sidebar
-  if (subpartIndex === null) {
-    const themeBtn = group.querySelector('.sb-theme');
-    themeBtn.classList.add('active');
-  } else {
-    const itemBtn = document.getElementById(`sb-item-${partIndex}-${subpartIndex}`);
-    if (itemBtn) itemBtn.classList.add('active');
-  }
+  const activeBtn = subpartIndex === null ? group.querySelector('.sb-theme') : document.getElementById(`sb-item-${partIndex}-${subpartIndex}`);
+  if (activeBtn) { activeBtn.classList.add('active'); activeBtn.setAttribute('aria-current', 'true'); }
   
   // 3. Toggle views
   document.getElementById('welcome').classList.add('hidden');
@@ -840,7 +896,9 @@ function showContent(partIndex, subpartIndex, event) {
   } else if (subpartIndex === null) {
     // Editorial Content (Preface, Intro, etc.)
     const pages = paginateContent(part.content);
-    
+    // La page revient toujours à sa première feuille : l'index de la visite précédente ne vaut plus
+    currentSlideState[partIndex] = 0;
+
     if (pages.length > 1) {
       let pagesHtml = pages.map((page, i) => `
         <div id="slide-${partIndex}-${i}" class="content-slide" style="display: ${i === 0 ? 'block' : 'none'}; animation: fadeIn 0.4s ease;">
@@ -920,11 +978,13 @@ function showContent(partIndex, subpartIndex, event) {
 
   contentInner.innerHTML = html;
   content.scrollTop = 0;
-  
+
   // Trigger transition animation
   content.style.animation = 'none';
   content.offsetHeight;
   content.style.animation = '';
+
+  syncState(stateOf(partIndex, subpartIndex), quiet);
 }
 
 // ══ EDITORIAL PAGINATION NAVIGATION ══
@@ -1068,54 +1128,25 @@ toggle.addEventListener('click', function() {
   sidebar.classList.toggle('collapsed', !sidebarOpen);
   toggle.textContent = sidebarOpen ? '‹' : '›';
   toggle.style.left = sidebarOpen ? '240px' : '0';
+  toggle.setAttribute('aria-expanded', String(sidebarOpen));
+  toggle.setAttribute('aria-label', sidebarOpen ? 'Replier le sommaire' : 'Ouvrir le sommaire');
 });
 
 // ══ DEEP-LINK HASH NAVIGATION ══
-function handleHashNavigate() {
+// Format « partie,sujet » ou « partie » (voir parseState) ; un état hors du livre est ignoré.
+// Le délai laisse le cadre s'afficher dans le hub avant de placer le menu ; l'état déjà affiché
+// est vérifié à l'exécution (goTo), l'ancre et gs-navigate d'un même résultat ne le refont pas.
+function handleHashNavigate(quiet) {
   var hash = window.location.hash.substring(1);
-  if (hash) {
-    var parts = hash.split(',');
-    var partIdx = parseInt(parts[0], 10);
-    var subpartIdx = parts[1] !== undefined && parts[1] !== '' ? parseInt(parts[1], 10) : null;
-    
-    if (!isNaN(partIdx)) {
-      setTimeout(function() {
-        const group = document.getElementById(`sb-group-${partIdx}`);
-        if (group) {
-          // If it is an expandable group, expand it
-          const itemsDiv = group.querySelector('.sb-items');
-          const themeBtn = group.querySelector('.sb-theme');
-          if (itemsDiv && !itemsDiv.classList.contains('open')) {
-            // Close other groups
-            document.querySelectorAll('.sb-items').forEach(d => {
-              d.classList.remove('open');
-              d.style.maxHeight = '0px';
-              d.previousElementSibling.classList.remove('open');
-            });
-            itemsDiv.classList.add('open');
-            themeBtn.classList.add('open');
-            itemsDiv.style.maxHeight = '10000px';
-          }
-          
-          showContent(partIdx, subpartIdx);
-          
-          // Scroll active sidebar item into view
-          const activeItem = subpartIdx === null ? themeBtn : document.getElementById(`sb-item-${partIdx}-${subpartIdx}`);
-          if (activeItem) {
-            activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          }
-        }
-      }, 150);
-    }
-  }
+  if (parseState(hash)) setTimeout(function () { goTo(hash, { quiet: quiet === true }); }, 150);
 }
 
 // ══ INITIAL LOAD ══
 document.addEventListener('DOMContentLoaded', () => {
   renderSommaire();
-  handleHashNavigate();
+  handleHashNavigate(true);
 });
-window.addEventListener('hashchange', handleHashNavigate);
+window.addEventListener('hashchange', function () { handleHashNavigate(); });
 
 // ══ DEEP-LINK & THEME LISTENERS ══
 window.addEventListener('message', function(e) {
@@ -1124,42 +1155,11 @@ window.addEventListener('message', function(e) {
     document.documentElement.setAttribute('data-theme', t);
     document.body.setAttribute('data-theme', t === 'light' ? '' : 'dark');
   }
-  
-  // Search navigate message format: "partIdx,subpartIdx"
-  if (e.data && e.data.type === 'gs-navigate' && e.data.state) {
-    var parts = e.data.state.split(',');
-    var partIdx = parseInt(parts[0], 10);
-    var subpartIdx = parts[1] !== undefined && parts[1] !== '' ? parseInt(parts[1], 10) : null;
-    
-    if (!isNaN(partIdx)) {
-      setTimeout(function() {
-        const group = document.getElementById(`sb-group-${partIdx}`);
-        if (group) {
-          // If it is an expandable group, expand it
-          const itemsDiv = group.querySelector('.sb-items');
-          const themeBtn = group.querySelector('.sb-theme');
-          if (itemsDiv && !itemsDiv.classList.contains('open')) {
-            // Close other groups
-            document.querySelectorAll('.sb-items').forEach(d => {
-              d.classList.remove('open');
-              d.style.maxHeight = '0px';
-              d.previousElementSibling.classList.remove('open');
-            });
-            itemsDiv.classList.add('open');
-            themeBtn.classList.add('open');
-            itemsDiv.style.maxHeight = '10000px';
-          }
-          
-          showContent(partIdx, subpartIdx);
-          
-          // Scroll active sidebar item into view
-          const activeItem = subpartIdx === null ? themeBtn : document.getElementById(`sb-item-${partIdx}-${subpartIdx}`);
-          if (activeItem) {
-            activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          }
-        }
-      }, 150);
-    }
+
+  // Search navigate message format: "partIdx,subpartIdx" (un résultat désigne un sujet entier : son début)
+  if (e.data && e.data.type === 'gs-navigate' && typeof e.data.state === 'string') {
+    var state = e.data.state;
+    setTimeout(function () { goTo(state, { top: true }); }, 150);
   }
 });
 
@@ -1214,15 +1214,14 @@ try {
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof AUNE_SAGESSE === 'undefined' || !AUNE_SAGESSE.length || typeof showContent !== 'function') return;
     if (!document.getElementById('sb-group-0')) return;
-    var p = parseInt(window.location.hash.substring(1).split(',')[0], 10);
-    if (!isNaN(p) && document.getElementById('sb-group-' + p)) return; // lien profond : la page s'en charge
+    if (typeof parseState === 'function' && parseState(window.location.hash.substring(1))) return; // lien profond valable : la page s'en charge
     var first = AUNE_SAGESSE[0], bar = document.getElementById('sidebar');
     if (!first.content && !(first.subparts && first.subparts.length)) return;
     if (bar && window.matchMedia('(max-width: 768px)').matches) {
       bar.style.setProperty('transition', 'none', 'important');
       requestAnimationFrame(function () { requestAnimationFrame(function () { bar.style.removeProperty('transition'); }); });
     }
-    showContent(0, first.content ? null : 0);
+    showContent(0, first.content ? null : 0, null, true);  // l'arrivée : rien à renvoyer au hub
   });
 })();
 </script>

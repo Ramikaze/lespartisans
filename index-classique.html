@@ -9,8 +9,9 @@
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
-<script src="global-search-data.js"></script>
+<script src="vendor/fuse-7.0.0.min.js"></script>
+<script src="recherche.js"></script>
+<!-- global-search-data.js (3,7 Mo) n'est chargé qu'à la première ouverture de la recherche (voir withIndex) -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 
@@ -657,7 +658,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     "coran-lecture.html",
     "usul-al-din.html",
     "hadith-kisa.html",
-    "verset-apprentissage.html",
+    "verset-trone.html", /* 11 : ancien module jamais publié ; #m11 est renvoyé vers #m2 (handleInitialLoad), l'entrée garde les numéros suivants */
     "douze-imams.html",
     "tawheed.html",
     "nubuwwa.html",
@@ -673,14 +674,26 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   var loaded = new Array(N).fill(false);
 
   /* L'adresse d'une page, avec le jeton anti-cache : « ? » ou « & » selon que l'adresse porte déjà un paramètre (bihar-anwar.html?vol=2) */
+  /* Jeton de version des pages : le déploiement remplace __SITE_REV__ par le commit publié (static.yml),
+     si bien qu'une page reste en cache jusqu'au déploiement suivant. En local, un jeton neuf à chaque ouverture. */
+  var SITE_REV = '__SITE_REV__';
+  var REV = /^__/.test(SITE_REV) ? String(Date.now()) : SITE_REV;
   function moduleSrc(idx, innerState) {
     var base = MODULES[idx];
-    return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + Date.now() + (innerState ? '#' + innerState : '');
+    return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + REV + (innerState ? '#' + innerState : '');
   }
 
   /* ── Fermer tous les iframes ── */
-  function hideAllFrames() {
-    for (var i = 0; i < N; i++) document.getElementById('frame' + i).classList.remove('active');
+  /* Une page qu'on quitte se tait (lp-design.js met ses sons en pause) ; la Radio (18) continue en fond */
+  var PLAYS_ON = { 18: true };
+  function hideAllFrames(keep) {
+    for (var i = 0; i < N; i++) {
+      var w = document.getElementById('frame' + i);
+      if (i !== keep && !PLAYS_ON[i] && w.classList.contains('active')) {
+        try { document.getElementById('iframe' + i).contentWindow.postMessage({ type: 'lp-hidden' }, location.origin); } catch (e) {}
+      }
+      w.classList.remove('active');
+    }
     document.body.classList.remove('iframe-active');
   }
 
@@ -719,7 +732,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   /* ── Ouvrir un module dans un iframe ── */
   function openModule(idx, innerState) {
     document.getElementById('homeScreen').style.display = 'none';
-    hideAllFrames();
+    hideAllFrames(idx);
     document.getElementById('frame' + idx).classList.add('active');
     document.body.classList.add('iframe-active');
     var nbb = document.getElementById('navBackBtn');
@@ -740,7 +753,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     } else {
       var iframe = document.getElementById('iframe' + idx);
       if (innerState && iframe.contentWindow) {
-         try { iframe.contentWindow.location.hash = innerState; } catch(e) {}
+         /* replace : pas d'entrée d'historique en plus dans la page (le hub a déjà la sienne) */
+         try { var l = iframe.contentWindow.location; l.replace(l.pathname + l.search + '#' + innerState); } catch(e) {}
       }
     }
     if (!_fromPop) {
@@ -787,6 +801,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       var parts = hash.substring(2).split(':');
       var idx = parseInt(parts[0], 10);
       var innerState = parts.slice(1).join(':'); /* #m8:36:12 → « 36:12 » (verset), pas seulement « 36 » */
+      /* ancien module 11 (une page jamais publiée) : ses liens ouvrent le Verset du Trône, sous son adresse #m2 */
+      if (idx === 11) { idx = 2; hash = '#m2' + (innerState ? ':' + innerState : ''); }
       if (!isNaN(idx) && idx >= 0 && idx < MODULES.length) {
         _fromPop = true;
         openModule(idx, innerState);
@@ -814,11 +830,13 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   
   /* ── Synchronisation de l'état interne (Deep Linking) ── */
   window.addEventListener('message', function(e) {
-    if (e.data && e.data.type === 'nav') {
+    if (e.origin === location.origin && e.data && e.data.type === 'nav' && typeof e.data.state === 'string') {   /* seulement nos pages */
       var hash = window.location.hash;
       if (hash.startsWith('#m')) {
         var idx = parseInt(hash.substring(2).split(':')[0], 10);
-        if (!isNaN(idx)) {
+        /* seule la page affichée parle : une page masquée qui finit de charger n'écrit pas dans l'adresse d'une autre */
+        var shown = !isNaN(idx) && document.getElementById('iframe' + idx);
+        if (shown && e.source === shown.contentWindow) {
            /* un état vide (retour à la Présentation d'une page) donne #m20, jamais #m20: */
            try { history.replaceState({page:'module', idx:idx, innerState:e.data.state}, '', '#m' + idx + (e.data.state ? ':' + e.data.state : '')); } catch(ex){}
         }
@@ -1093,20 +1111,21 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   };
   function typeIcon(t) { return TYPE_ICONS[t] || '🔍'; }
 
-  var gsData = window.GLOBAL_SEARCH_INDEX || [];
-  var gsFuse = new Fuse(gsData, {
-    keys: [
-      { name: 'title',   weight: 0.55 },
-      { name: 'content', weight: 0.35 },
-      { name: 'type',    weight: 0.10 },
-      { name: 'state',   weight: 0.80 }
-    ],
-    threshold: 0.38,
-    distance: 300,
-    minMatchCharLength: 2,
-    includeMatches: true,
-    ignoreLocation: true
-  });
+  /* L'index (global-search-data.js, 3,7 Mo) arrive à la première ouverture de la recherche :
+     l'accueil ne l'attend plus pour s'afficher. En cas d'échec, la prochaine ouverture réessaie. */
+  var gsFuse = null, gsLoading = false, gsQueue = [];   /* gsFuse : le moteur de recherche.js, une fois l'index arrivé */
+  function withIndex(cb) {
+    if (gsFuse) { if (cb) cb(); return; }
+    if (cb) gsQueue.push(cb);
+    if (gsLoading) return;
+    gsLoading = true;
+    var sc = document.createElement('script');
+    sc.src = 'global-search-data.js';
+    function flush() { gsLoading = false; var q = gsQueue; gsQueue = []; q.forEach(function (f) { f(); }); }
+    sc.onload = function () { try { gsFuse = window.lpSearch.build(window.GLOBAL_SEARCH_INDEX || []); } catch (e) {} flush(); };
+    sc.onerror = function () { sc.parentNode && sc.parentNode.removeChild(sc); flush(); };
+    document.head.appendChild(sc);
+  }
 
   var overlay   = document.getElementById('gsOverlay');
   var input     = document.getElementById('gsInput');
@@ -1117,6 +1136,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   var closeBtn  = document.getElementById('gsClose');
 
   function openGS() {
+    withIndex();
     overlay.classList.add('open');
     setTimeout(function() { input.focus(); }, 60);
     renderResults('');
@@ -1172,12 +1192,27 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
       return;
     }
 
-    var hits = gsFuse.search(query.trim(), { limit: 60 });
+    var q = query.trim();
+    if (!gsFuse) {
+      hintEl.textContent = 'Chargement de l\'index...'; countEl.textContent = '';
+      withIndex(function () {
+        if (input.value.trim() !== q || !overlay.classList.contains('open')) return;   /* une frappe plus récente a pris le relais */
+        if (gsFuse) { renderResults(input.value); return; }
+        hintEl.textContent = '';
+        results.innerHTML = '<div class="gs-empty">L\'index de recherche n\'a pas pu être chargé. Vérifiez la connexion, puis réessayez.</div>';
+      });
+      return;
+    }
+    var hits = gsFuse.search(q, 60);
+    /* les résultats du site s'affichent tout de suite ; ceux du Coran en ligne s'ajoutent à leur arrivée */
+    if (hits.length) displayHits(hits, q);
     hintEl.textContent = 'Recherche en direct...';
 
     // Fetch Quran.com API search
     var apiUrl = 'https://api.quran.com/api/v4/search?q=' + encodeURIComponent(query.trim()) + '&size=6&language=fr';
-    fetch(apiUrl)
+    var ctl = window.AbortController ? new AbortController() : null;   /* au plus 5 s d'attente */
+    if (ctl) setTimeout(function () { ctl.abort(); }, 5000);
+    fetch(apiUrl, ctl ? { signal: ctl.signal } : undefined)
       .then(function(r){ return r.json(); })
       .then(function(data){
          var quranHits = [];
@@ -1194,10 +1229,13 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
              };
            });
          }
-         displayHits(hits.concat(quranHits), query.trim());
+         if (input.value.trim() !== q) return;   /* réponse d'une frappe dépassée */
+         var keep = activeIdx;
+         displayHits(hits.concat(quranHits), q);
+         if (keep >= 0) setActive(keep);
       })
       .catch(function(e){
-         displayHits(hits, query.trim());
+         if (input.value.trim() === q) displayHits(hits, q);
       });
   }
 

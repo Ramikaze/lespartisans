@@ -43,6 +43,33 @@
     if (e.data && e.data.type === 'theme') setTheme(e.data.theme);
   });
 
+  /* Une page que le hub masque se tait : {type:'lp-hidden'} met en pause tout son en cours, même un
+     Audio() jamais inséré dans la page (récitation verset par verset). Les pages suivent l'événement
+     « pause » de leurs médias pour remettre leurs boutons à jour. Le hub n'envoie rien à la Radio. */
+  var lpPlaying = [];
+  try {
+    var lpPlay = HTMLMediaElement.prototype.play;
+    HTMLMediaElement.prototype.play = function () {
+      lpPlaying = lpPlaying.filter(function (m) { return !m.paused && m !== this; }, this);
+      lpPlaying.push(this);
+      return lpPlay.apply(this, arguments);
+    };
+  } catch (e) {}
+  window.addEventListener('message', function (e) {
+    if (e.origin !== location.origin || !e.data || e.data.type !== 'lp-hidden') return;
+    var all = lpPlaying.concat(Array.prototype.slice.call(document.querySelectorAll('audio,video')));
+    lpPlaying = [];
+    all.forEach(function (m) { try { if (!m.paused) m.pause(); } catch (ex) {} });
+  });
+
+  /* Ctrl+K (⌘K) dans n'importe quelle page ouvre la recherche du hub (un double envoi est sans effet) */
+  if (window.parent !== window) document.addEventListener('keydown', function (e) {
+    if ((e.ctrlKey || e.metaKey) && !e.altKey && (e.key === 'k' || e.key === 'K')) {
+      e.preventDefault();
+      try { window.parent.postMessage({ type: 'gs-open' }, location.origin); } catch (ex) {}
+    }
+  });
+
   window.LP_DESIGN = DESIGN;
   window.lpSetTheme = setTheme;
 
@@ -584,6 +611,27 @@
       setCiel(e.data.ciel, false);
     });
 
+    /* Ressources GL du ciel : au démarrage, et de nouveau quand un contexte rendu revient (voir lp-hidden) */
+    function setupGL() {
+      two = true; tex = fbo = texB = fboB = null; old = null;
+      try {
+        P2 = link(VS, FS2, ['p']); U2 = locs(P2, ['uSky', 'uSkyB', 'uFull', 'uMix']);
+        gl.useProgram(P2); gl.uniform1i(U2.uSky, 0); gl.uniform1i(U2.uSkyB, 1);
+        P3 = link(VS3, FS3, ['aP', 'aS', 'aD']); U3 = locs(P3, ['uSky', 'uFull', 'uPole', 'uRot', 'uSRot', 'uAr', 'uTime', 'uLight', 'uPx', 'uCalm', 'uDpr', 'uHole', 'uHoleA', 'uRow', 'uRowA', 'uDrift', 'uScroll', 'uDim']);
+      } catch (e) { two = false; }
+      quad = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, quad);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+      gl.enableVertexAttribArray(0);
+      resize();
+      try { cur = make(ciel); } catch (e) {
+        if (ciel === 'brume') return false;
+        ciel = 'brume';
+        try { cur = make(ciel); } catch (e2) { return false; }
+      }
+      return true;
+    }
+
     function boot() {
       if (booted || !document.body) return;
       booted = true;
@@ -597,22 +645,8 @@
       }
       try { gl = canvas.getContext('webgl', { antialias: false, alpha: false, depth: false, stencil: false, powerPreference: 'low-power' }); } catch (e) {}
       if (!gl) { html.classList.add('no-webgl'); return; }
-      try {
-        P2 = link(VS, FS2, ['p']); U2 = locs(P2, ['uSky', 'uSkyB', 'uFull', 'uMix']);
-        gl.useProgram(P2); gl.uniform1i(U2.uSky, 0); gl.uniform1i(U2.uSkyB, 1);
-        P3 = link(VS3, FS3, ['aP', 'aS', 'aD']); U3 = locs(P3, ['uSky', 'uFull', 'uPole', 'uRot', 'uSRot', 'uAr', 'uTime', 'uLight', 'uPx', 'uCalm', 'uDpr', 'uHole', 'uHoleA', 'uRow', 'uRowA', 'uDrift', 'uScroll', 'uDim']);
-      } catch (e) { two = false; }
-      quad = gl.createBuffer();
-      gl.bindBuffer(gl.ARRAY_BUFFER, quad);
-      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
-      gl.enableVertexAttribArray(0);
       t0 = performance.now();
-      resize();
-      try { cur = make(ciel); } catch (e) {
-        if (ciel === 'brume') { gl = null; html.classList.add('no-webgl'); return; }
-        ciel = 'brume';
-        try { cur = make(ciel); } catch (e2) { gl = null; html.classList.add('no-webgl'); return; }
-      }
+      if (!setupGL()) { gl = null; html.classList.add('no-webgl'); return; }
       html.classList.add('lp-sky-on');
       window.addEventListener('resize', function () {
         resize();
@@ -627,9 +661,23 @@
         document.addEventListener('scroll', hole, { passive: true, capture: true });
         hole();
       }
+      /* Une page masquée par l'accueil rend son contexte WebGL : Chrome n'en garde que 16, et au-delà les plus
+         anciens (dont celui de l'accueil) étaient perdus pour de bon. Il revient quand la page réapparaît. */
+      var loseExt = gl.getExtension('WEBGL_lose_context'), lostByUs = false;
+      window.addEventListener('message', function (e) {
+        if (e.origin !== location.origin || !e.data || e.data.type !== 'lp-hidden' || !loseExt || !gl || gl.isContextLost()) return;
+        lostByUs = true; running = false; loseExt.loseContext();
+      });
       /* La page réapparaît dans l'accueil : la toile retrouve une taille, le ciel repart */
-      if (window.ResizeObserver) new ResizeObserver(function () { resize(); wake(); }).observe(canvas);
+      if (window.ResizeObserver) new ResizeObserver(function () {
+        if (lostByUs) { if (canvas.clientWidth > 0) { lostByUs = false; loseExt.restoreContext(); } return; }
+        resize(); wake();
+      }).observe(canvas);
       canvas.addEventListener('webglcontextlost', function (e) { e.preventDefault(); running = false; });
+      canvas.addEventListener('webglcontextrestored', function () {
+        if (!setupGL()) { html.classList.add('no-webgl'); return; }
+        draw(0); wake();
+      });
       draw(0);
       wake();
     }

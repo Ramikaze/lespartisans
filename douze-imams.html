@@ -283,16 +283,40 @@ IMAMS.forEach(function(im) {
   gridEl.appendChild(card);
 });
 
+/* Historique et lien profond. _fromPop : l'affichage vient de l'historique, de l'adresse ou du hub,
+   il n'empile rien (sinon le bouton Retour reviendrait sans fin sur la page). shownImam : fiche affichée
+   (0 = grille) ; redemander la même vue ne fait rien. L'état transmis au hub (#m12:<état>) est le rang
+   de l'Imam compté depuis 0, comme dans la recherche : « 3 » = 4e Imam. */
+var _fromPop = false, shownImam = 0;
+function sendNav() {
+  try { if (window.parent !== window) window.parent.postMessage({ type: 'nav', state: shownImam ? String(shownImam - 1) : '' }, location.origin); } catch (e) {}
+}
+/* « #imam4 » (adresse de la page) ou « #3 » / « 3 » (état du hub et de la recherche) → 4 ; sinon 0 */
+function imamFrom(h) {
+  var m = /^#?(?:imam(\d+)|(\d+))$/.exec(h == null ? '' : String(h));
+  var n = !m ? 0 : m[1] ? +m[1] : +m[2] + 1;
+  return n >= 1 && n <= 12 ? n : 0;
+}
+function route(n) {
+  _fromPop = true;
+  if (n) showDetail(n); else showGrid();
+  _fromPop = false;
+}
+
 function showGrid() {
+  if (_fromPop && !shownImam) return;
   wrapEl.style.display = '';
   detailEl.classList.remove('active');
+  shownImam = 0;
   window.scrollTo(0, 0);
-  try{history.pushState({page:'grid'}, '', '#')}catch(e){}
+  if (!_fromPop) try{history.pushState({page:'grid'}, '', '#')}catch(e){}
+  sendNav();
 }
 
 function showDetail(n) {
   var im = IMAMS.find(function(x){return x.n===n;});
-  if (!im) return;
+  if (!im || n === shownImam) return;
+  shownImam = n;
   wrapEl.style.display = 'none';
   detailEl.classList.add('active');
 
@@ -322,15 +346,20 @@ function showDetail(n) {
 
   document.getElementById('detailContent').innerHTML = h;
   window.scrollTo(0, 0);
-  try{history.pushState({page:'detail',n:n}, '', '#imam'+n)}catch(e){}
+  if (!_fromPop) try{history.pushState({page:'detail',n:n}, '', '#imam'+n)}catch(e){}
+  sendNav();
 }
 
-// Back button
-window.addEventListener('popstate', function(e) {
-  if (e.state && e.state.page === 'detail') showDetail(e.state.n);
-  else showGrid();
-});
-try{history.replaceState({page:'grid'}, '', '#')}catch(e){}
+// Retour / Suivant du navigateur, et adresse changée par le hub (résultat de recherche) : l'ancre fait foi
+window.addEventListener('popstate', function() { route(imamFrom(location.hash)); });
+window.addEventListener('hashchange', function() { route(imamFrom(location.hash)); });
+// Au chargement : la fiche demandée par l'adresse (#m12:3 dans le hub → douze-imams.html#3)
+(function() {
+  var n = imamFrom(location.hash);
+  route(n);
+  try{history.replaceState(n ? {page:'detail',n:n} : {page:'grid'}, '', n ? '#imam'+n : '#')}catch(e){}
+  if (!n) sendNav();
+})();
 
 // Theme listener
 window.addEventListener('message', function(e) {
@@ -341,10 +370,10 @@ window.addEventListener('message', function(e) {
     if (t !== 'light') { document.documentElement.removeAttribute('data-theme'); document.body.removeAttribute('data-theme'); }
     try { window.dispatchEvent(new Event('resize')); } catch(ex) {}
   }
-  // Global Search deep-link: state = 0-indexed imam number
+  // Global Search deep-link: state = 0-indexed imam number (le hub a déjà changé l'ancre : rien à empiler)
   if (e.data && e.data.type === 'gs-navigate') {
-    var n = parseInt(e.data.state, 10) + 1; // stored as 0-indexed
-    if (!isNaN(n) && n >= 1 && n <= 12) showDetail(n);
+    var n = imamFrom(e.data.state);
+    if (n) route(n);
   }
 });
 document.addEventListener('keydown', function(e) {

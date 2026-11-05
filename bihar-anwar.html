@@ -543,7 +543,17 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
 <script>
 /* Biḥār al-Anwār (al-Majlisī), traduction française de l'Édition SiratAli. Une page, deux livres :
    ?vol=1 ou ?vol=2 (le paramètre anti-cache du hub peut le suivre : ?vol=2&v=123). Les données viennent de
-   bihar-anwar-N-data.js (window.BIHAR_VOLUMES[N]), chargé par un <script> créé ici.
+   bihar-anwar-N-data.js (window.BIHAR_VOLUMES[N]), chargé par un <script> créé ici, sans le jeton du hub :
+   le navigateur garde ainsi le fichier (plusieurs centaines de Ko). Après toute correction des données,
+   changer DATA_REV ci-dessous : la page et ses données repartent alors ensemble.
+
+   Nouveau volume N (les deux accueils gardent leurs modules dans le même ordre) :
+     ici            KNOWN ;
+     index.html     MODULES et TITLES ("bihar-anwar.html?vol=N"), MOD_ROOM (N° de module → 'hadith'),
+                    un <li><button class="sat" data-module=…> dans la salle des Hadiths ;
+     index-classique.html  MODULES, un <div class="iframe-wrap" id="frameNN"> (sans lui, l'ouverture
+                    de n'importe quel module plante), une carte id="card-bihar-N" et cardModules ;
+     global-search-data.js  les entrées du volume (idx = N° de module, state = "chapitre[:n]").
 
    État de lecture (ancre #… et messages du hub) :
      ""            la Présentation
@@ -552,15 +562,15 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
    Messages reçus du hub : {type:'gs-navigate', state} et {type:'theme', theme}.
    Message envoyé au hub : {type:'nav', state} à chaque changement d'état.
 
-   Contrat du texte (donnees = edite/) : texte brut, \n entre paragraphes, <i>…</i> seulement. Tout est
+   Contrat du texte (le JSON de bihar-anwar-N-data.js) : texte brut, \n entre paragraphes, <i>…</i> seulement. Tout est
    échappé, puis seuls <i> et </i> reviennent. Rien d'autre des données n'est jamais inséré tel quel. */
 (function () {
   'use strict';
 
   var KNOWN = [1, 2];
-  var vm = /[?&]vol=(\d)/.exec(location.search);
+  var DATA_REV = '2026-11-02';   // à changer à chaque correction d'un bihar-anwar-N-data.js
+  var vm = /[?&]vol=(\d+)(?:&|$)/.exec(location.search);
   var VOL = vm && KNOWN.indexOf(+vm[1]) >= 0 ? +vm[1] : 1;
-  var stamp = /[?&]v=(\d+)/.exec(location.search);
 
   var VOLUME = null;      // window.BIHAR_VOLUMES[VOL], une fois chargé
   var CHAPTERS = [];      // [{ sec, ch }] dans l'ordre du livre
@@ -613,7 +623,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
   }
   function load() {
     var s = document.createElement('script');
-    s.src = 'bihar-anwar-' + VOL + '-data.js' + (stamp ? '?v=' + stamp[1] : '');
+    s.src = 'bihar-anwar-' + VOL + '-data.js?r=' + DATA_REV;
     s.onload = function () {
       var v = window.BIHAR_VOLUMES && window.BIHAR_VOLUMES[VOL];
       if (!v || !Array.isArray(v.sections)) { fail(); return; }
@@ -909,7 +919,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
   });
   checkTop();
 
-  // Seule entrée publique de la page (les contrôles de .claude/bihar-tools/check-page.js s'en servent)
+  // Seule entrée publique de la page (pour les contrôles automatiques)
   window.biharPage = { showState: showState, filterSidebar: filterSidebar, renderSommaire: renderSommaire, volume: function () { return VOL; } };
   load();
 })();

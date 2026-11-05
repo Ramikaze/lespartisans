@@ -905,6 +905,24 @@ function renderVerses() {
    TOOLTIP
 ════════════════════════════════════════════ */
 let currentIdx = -1, tooltipPinned = false;
+/* Mot sous la bulle, et côté choisi à l'ouverture (au-dessus, ou dessous faute de place) */
+let ttAnchor = null, ttBelow = false;
+
+/* Position d'après la taille réelle de la bulle ; follow : la bulle suit son mot sans changer de côté */
+function placeTooltip(follow) {
+  const tt = document.getElementById('tooltip');
+  if (!ttAnchor || !tt.classList.contains('show')) return;
+  const r = ttAnchor.getBoundingClientRect();
+  const tw = tt.offsetWidth, th = tt.offsetHeight;
+  let left = r.left + r.width/2 - tw/2;
+  left = Math.max(8, Math.min(left, window.innerWidth - tw - 8));
+  if (!follow) ttBelow = r.top - th - 10 < 60;
+  tt.style.left = left + 'px';
+  tt.style.top  = (ttBelow ? r.bottom + 10 : r.top - th - 10) + 'px';
+}
+/* .main défile (pas la fenêtre) : écoute en capture pour que la bulle suive son mot */
+document.addEventListener('scroll', () => placeTooltip(true), { capture: true, passive: true });
+window.addEventListener('resize', () => placeTooltip(true));
 
 function showTooltip(e, idx, pin) {
   if (tooltipPinned && !pin && idx !== currentIdx) return;
@@ -920,14 +938,8 @@ function showTooltip(e, idx, pin) {
   tt.classList.add('show');
 
   // Position
-  const r = (e.currentTarget || e.target).getBoundingClientRect();
-  const tw = 280, th = 180;
-  let left = r.left + r.width/2 - tw/2;
-  let top  = r.top - th - 10;
-  if (top < 60) top = r.bottom + 10;
-  left = Math.max(8, Math.min(left, window.innerWidth - tw - 8));
-  tt.style.left = left + 'px';
-  tt.style.top  = top  + 'px';
+  ttAnchor = e.currentTarget || e.target;
+  placeTooltip(false);
 
   // Highlight
   document.querySelectorAll('.w').forEach((el, i) => el.classList.toggle('active', +el.dataset.idx === idx));
@@ -982,6 +994,13 @@ function tryWord(idx, urls, i, btn) {
     if (btn) btn.classList.remove('playing');
     document.querySelectorAll('.w').forEach(el => el.classList.remove('playing'));
   }, {once:true});
+  /* Pause venue d'ailleurs (page masquée par le hub…) : le bouton et le mot cessent de briller */
+  au.addEventListener('pause', () => {
+    if (au.ended || wordAu !== au) return;
+    wordAu = null;
+    if (btn) btn.classList.remove('playing');
+    document.querySelectorAll('.w').forEach(el => el.classList.remove('playing'));
+  });
   au.src = urls[i];
   au.load();
 }
@@ -1077,7 +1096,39 @@ function getOrCreateAudio(v) {
     // Try next URL
     const srcs = VERSE_AUDIO[v];
     const curr = srcs.indexOf(au.src);
-    if (curr < srcs.length - 1) { au.src = srcs[curr+1]; au.play().catch(()=>{}); }
+    if (curr < srcs.length - 1) {
+      au.src = srcs[curr+1];
+      /* Lancé aussitôt si l'on écoutait ; le premier play() ayant échoué, l'interface est mise à jour ici */
+      if (activeVerse === v) au.play().then(() => {
+        if (activeVerse !== v) return;
+        if (gpActive && gpVerse === v) gpSetIcon(true); else setPlayIcon(v, true);
+        startTicker();
+      }).catch(()=>{});
+      return;
+    }
+    /* Secours en échec aussi (hors ligne…) : tout repasse à l'arrêt */
+    if (gpActive && gpVerse === v) gpPause();
+    else if (activeVerse === v) stopPlayback(v);
+  });
+  /* L'interface suit le lecteur : une pause venue d'ailleurs (le hub masque la page, touche média…)
+     remet boutons et surbrillance à l'arrêt ; la reprise repart d'où l'on était */
+  au.addEventListener('pause', () => {
+    if (au.ended || !au.paused) return; /* fin du verset ('ended' s'en charge) ou déjà relancé */
+    if (gpActive && gpVerse === v) { gpActive = false; gpSetIcon(false); }
+    if (activeVerse === v) {
+      activeVerse = null;
+      setPlayIcon(v, false);
+      if (_rafId) { cancelAnimationFrame(_rafId); _rafId = null; }
+      clearWordHighlight();
+    }
+  });
+  /* Relancé sans passer par la page (touche média, répétition du lecteur global) : l'interface le montre */
+  au.addEventListener('play', () => {
+    if (activeVerse === v) return;
+    activeVerse = v;
+    _lastHighlight = -1;
+    if (!(gpActive && gpVerse === v)) setPlayIcon(v, true);
+    startTicker();
   });
   au.src = urls[0];
   return au;
@@ -1610,7 +1661,7 @@ window.checkRecon = function() {
   }
   let correct = 0;
   placed.forEach((el, i) => {
-    let expected = seg[seg.length - 1 - i].p; // RTL: first in target = last word
+    let expected = seg[i].p; // la zone est en direction:rtl : le 1er mot posé s'affiche à droite, comme le 1er mot du verset
     if (parseInt(el.dataset.pos) === expected) {
       el.classList.add('correct');
       correct++;

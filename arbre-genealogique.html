@@ -27,7 +27,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .z-info{text-align:center;font-family:'Cinzel',serif;font-size:10px;color:#5a6480}
 
 /* CANVAS */
-#tree-container{position:fixed;inset:52px 0 0;cursor:grab;overflow:hidden}
+#tree-container{position:fixed;inset:52px 0 0;cursor:grab;overflow:hidden;touch-action:none}
 #tree-container:active{cursor:grabbing}
 /* Téléphone (design classique) : le titre tenait sur 5 lignes et débordait de la barre de 52 px.
    Titre sur une ligne (abrégé), légende dessous ; l'arbre commence sous la barre. */
@@ -862,15 +862,21 @@ container.addEventListener('wheel', e => {
   updateTransform();
 }, { passive: false });
 
-// Touch
+// Touch : l'arbre gère seul ses gestes (touch-action:none, et preventDefault pour Safari iOS) — sinon
+// le pincement agrandirait aussi toute la page. Le zoom se fait autour du milieu des deux doigts.
 let touches = [];
+function touchesFrom(e) {
+  touches = Array.from(e.touches);
+  /* doigt posé ou levé (fin d'un pincement) : le doigt restant repart de sa position, sans saut */
+  if (touches.length) { lastX = touches[0].clientX; lastY = touches[0].clientY; }
+  velX = 0; velY = 0;
+}
 container.addEventListener('touchstart', e => {
   stopMomentum();
-  touches = Array.from(e.touches);
-  lastX = touches[0].clientX; lastY = touches[0].clientY;
-  velX = 0; velY = 0;
+  touchesFrom(e);
 }, { passive: true });
 container.addEventListener('touchmove', e => {
+  e.preventDefault();
   if (e.touches.length === 1) {
     const dx = e.touches[0].clientX - lastX, dy = e.touches[0].clientY - lastY;
     panX += dx; panY += dy;
@@ -880,15 +886,22 @@ container.addEventListener('touchmove', e => {
   } else if (e.touches.length === 2) {
     const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
     if (touches.length >= 2) {
-      const d0 = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
-      const f = d / d0;
-      scale = Math.min(3, Math.max(0.15, scale * f));
+      const d0 = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY) || 1;
+      const rect = container.getBoundingClientRect();
+      /* point de l'arbre sous l'ancien milieu des doigts → placé sous le nouveau milieu */
+      const mx0 = (touches[0].clientX + touches[1].clientX) / 2 - rect.left, my0 = (touches[0].clientY + touches[1].clientY) / 2 - rect.top;
+      const mx = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left, my = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+      const newScale = Math.min(3, Math.max(0.15, scale * d / d0));
+      panX = mx - (mx0 - panX) * (newScale / scale);
+      panY = my - (my0 - panY) * (newScale / scale);
+      scale = newScale;
       updateTransform();
     }
     touches = Array.from(e.touches);
   }
-}, { passive: true });
-container.addEventListener('touchend', () => {
+}, { passive: false });
+container.addEventListener('touchend', e => {
+  if (e.touches.length) { touchesFrom(e); return; }
   if (Math.abs(velX) > 1 || Math.abs(velY) > 1) {
     (function glide() {
       velX *= 0.93; velY *= 0.93;
@@ -899,15 +912,17 @@ container.addEventListener('touchend', () => {
   }
 }, { passive: true });
 
-// Zoom buttons
-document.getElementById('z-in').addEventListener('click', () => {
-  scale = Math.min(3, scale * 1.25);
+// Zoom buttons : autour du centre de la vue (ce qu'on regarde reste au milieu)
+function zoomCenter(f) {
+  const cw = container.clientWidth, ch = container.clientHeight;
+  const newScale = Math.min(3, Math.max(0.15, scale * f));
+  panX = cw / 2 - (cw / 2 - panX) * (newScale / scale);
+  panY = ch / 2 - (ch / 2 - panY) * (newScale / scale);
+  scale = newScale;
   updateTransform();
-});
-document.getElementById('z-out').addEventListener('click', () => {
-  scale = Math.max(0.15, scale * 0.8);
-  updateTransform();
-});
+}
+document.getElementById('z-in').addEventListener('click', () => zoomCenter(1.25));
+document.getElementById('z-out').addEventListener('click', () => zoomCenter(0.8));
 document.getElementById('z-fit').addEventListener('click', () => {
   const cw = container.clientWidth, ch = container.clientHeight;
   scale = Math.min(cw / SVG_W, ch / SVG_H) * 0.95;

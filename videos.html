@@ -165,6 +165,17 @@ var VIDEOS = [
 
 var grid = document.getElementById('videoGrid');
 
+// Un lecteur YouTube (autre domaine) ne se met pas en pause de l'extérieur : on le remplace par sa vignette
+function stopVideos() {
+  Array.prototype.forEach.call(document.querySelectorAll('.video-embed'), function(embed) {
+    if (embed._thumb && embed.parentNode) embed.parentNode.replaceChild(embed._thumb, embed);
+  });
+}
+// L'accueil masque la page : la vidéo s'arrête (lp-design.js ne peut pas atteindre l'iframe YouTube)
+window.addEventListener('message', function(e) {
+  if (e.origin === location.origin && e.data && e.data.type === 'lp-hidden') stopVideos();
+});
+
 VIDEOS.forEach(function(v, i) {
   var card = document.createElement('div');
   card.className = 'video-card';
@@ -180,11 +191,13 @@ VIDEOS.forEach(function(v, i) {
     '</div>';
   grid.appendChild(card);
 
-  // Click to play: replace thumbnail with iframe
+  // Click to play: replace thumbnail with iframe (une seule vidéo à la fois : les autres reprennent leur vignette)
   card.querySelector('.video-thumb').addEventListener('click', function() {
+    stopVideos();
     var embed = document.createElement('div');
     embed.className = 'video-embed';
     embed.innerHTML = '<iframe src="https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+    embed._thumb = this;
     this.parentNode.replaceChild(embed, this);
   });
   // Clavier : Entrée ou Espace lancent la vidéo, comme un clic

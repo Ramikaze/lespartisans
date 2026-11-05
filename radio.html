@@ -300,6 +300,9 @@
       padding: 8px;
     }
 
+    /* Les stations sont des <button> (atteignables au clavier) : remise à zéro sans peser sur les règles de classe */
+    :where(button.station-item){appearance:none;-webkit-appearance:none;width:100%;margin:0;font:inherit;color:inherit;text-align:left;background:none;border:0}
+    .station-item:focus-visible{outline:2px solid #c9a84c;outline-offset:2px}
     .station-item {
       display: flex;
       align-items: center;
@@ -563,16 +566,24 @@ html[data-design="console"] .loading-stations[style]{color:var(--ra-err)!importa
       }
 
       list.forEach(function(station) {
-        var el = document.createElement('div');
+        var el = document.createElement('button');
+        el.type = 'button';
         el.className = 'station-item';
+        el.setAttribute('data-id', String(station.id));
         if(currentStation && currentStation.id === station.id) {
           el.className += ' active';
         }
 
-        el.innerHTML = `
-          <span class="item-name">${station.name}</span>
-          <span class="item-icon">▶</span>
-        `;
+        // Le nom vient de l'API mp3quran.net : posé en texte, jamais en HTML
+        var name = document.createElement('span');
+        name.className = 'item-name';
+        name.textContent = station.name;
+        var icon = document.createElement('span');
+        icon.className = 'item-icon';
+        icon.setAttribute('aria-hidden', 'true');
+        icon.textContent = '▶';
+        el.appendChild(name);
+        el.appendChild(icon);
 
         el.onclick = function() {
           selectStation(station);
@@ -587,13 +598,10 @@ html[data-design="console"] .loading-stations[style]{color:var(--ra-err)!importa
       playerTitle.textContent = station.name;
       
       // Update UI selection classes
+      // Par l'identifiant de la carte, pas par sa place : la liste affichée peut être filtrée
       var items = document.querySelectorAll('.station-item');
-      items.forEach(function(item, idx) {
-        if(stations[idx] && stations[idx].id === station.id) {
-          item.classList.add('active');
-        } else {
-          item.classList.remove('active');
-        }
+      items.forEach(function(item) {
+        item.classList.toggle('active', item.getAttribute('data-id') === String(station.id));
       });
 
       // Stop current play and load new stream URL
@@ -637,6 +645,21 @@ html[data-design="console"] .loading-stations[style]{color:var(--ra-err)!importa
         playerGlow.classList.remove('playing');
       }
     };
+
+    // Le flux se coupe, se termine ou n'est pas lisible : l'interface ne reste pas sur « En direct »
+    function streamStopped(msg) {
+      if(!currentStation) return;
+      statusDot.className = 'status-dot';
+      statusText.textContent = msg;
+      playIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
+      playerGlow.classList.remove('playing');
+    }
+    audio.addEventListener('error', function() { if(audio.getAttribute('src')) streamStopped('Erreur de connexion'); });
+    audio.addEventListener('ended', function() { streamStopped('Diffusion terminée'); });
+    audio.addEventListener('stalled', function() { if(!audio.paused) statusText.textContent = 'Connexion interrompue…'; });
+    audio.addEventListener('playing', function() { statusText.textContent = 'En direct'; });
+    // Une pause venue d'ailleurs (accueil) remet le bouton sur Lecture
+    audio.addEventListener('pause', function() { if(currentStation && statusText.textContent !== 'Erreur de connexion') streamStopped('Pause'); });
 
     // Volume management
     volumeSlider.oninput = function() {

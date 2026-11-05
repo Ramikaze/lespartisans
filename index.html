@@ -15,8 +15,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="console.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
-<script src="global-search-data.js"></script>
+<script src="vendor/fuse-7.0.0.min.js"></script>
+<script src="recherche.js"></script>
+<!-- global-search-data.js (3,7 Mo) n'est chargé qu'à la première ouverture de la recherche (voir withIndex) -->
 <style>
 /* ── Hub « Console » : jetons propres au hub ─────────────────────────── */
 html{
@@ -385,6 +386,7 @@ html[data-design="console"] .salle-t:focus-visible,.salle-t:focus{outline:none!i
 }
 @keyframes pageLight{from{opacity:.25;filter:blur(6px) brightness(.8)}to{opacity:1;filter:none}}
 .loader-line{width:140px;height:1px;background:linear-gradient(90deg,transparent,rgba(var(--lp-glow),.95),transparent);background-size:220% 100%;animation:sweep 1.4s linear infinite}
+.loader.done .loader-line{animation:none}
 @keyframes sweep{from{background-position:120% 0}to{background-position:-120% 0}}
 
 /* ── Fenêtre Soutenir ──────────────────────────────────────────────── */
@@ -417,6 +419,8 @@ html[data-design="console"] .salle-t:focus-visible,.salle-t:focus{outline:none!i
 /* ── Recherche globale ─────────────────────────────────────────────── */
 .gs-overlay{position:fixed;inset:0;z-index:1000;display:flex;justify-content:center;padding:10vh 16px 16px;background:var(--scrim);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);opacity:0;pointer-events:none;transition:opacity .3s var(--lp-ease)}
 .gs-overlay.open{opacity:1;pointer-events:auto}
+/* Fermés, la recherche et « Soutenir » sortent aussi du parcours au clavier et des lecteurs d'écran (après le fondu) */
+.gs-overlay:not(.open),.modal:not(.active){visibility:hidden;transition:opacity .35s var(--lp-ease),visibility 0s linear .35s}
 .gs-box{width:min(680px,100%);align-self:flex-start;display:flex;flex-direction:column;max-height:78vh;overflow:hidden;border-radius:22px;background:var(--gs-bg);border:1px solid var(--lp-edge);box-shadow:0 50px 120px -40px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.07);transform:translateY(-8px) scale(.985);transition:transform .45s var(--lp-ease)}
 .gs-overlay.open .gs-box{transform:none}
 .gs-input-wrap{display:flex;align-items:center;gap:12px;padding:16px 16px 16px 20px;border-bottom:1px solid var(--lp-hairline)}
@@ -534,6 +538,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
 }
+/* Très petits écrans (320 px) : le nom laisse la place aux boutons, dont celui du thème */
+@media (max-width:359px){.mark-name{display:none}.bar-tools{gap:0}}
 </style>
 </head>
 <body>
@@ -828,7 +834,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var MODULES = [
     "chiisme-repond.html", "chronologie.html", "verset-trone.html", "arbre-genealogique.html",
     "invocations.html", "bibliotheque.html", "videos.html", "article-connaissance.html",
-    "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-apprentissage.html",
+    "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-trone.html" /* 11 : ancien module jamais publié ; #m11 est renvoyé vers #m2 (initialRoute), l'entrée garde les numéros suivants */,
     "douze-imams.html", "tawheed.html", "nubuwwa.html", "resister.html",
     "99-noms.html", "aune-sagesse.html", "radio.html", "que-dit-le-coran.html",
     "bihar-anwar.html?vol=1", "bihar-anwar.html?vol=2"
@@ -843,9 +849,13 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   ];
   var N = MODULES.length;
   /* L'adresse d'une page, avec le jeton anti-cache : « ? » ou « & » selon que l'adresse porte déjà un paramètre (bihar-anwar.html?vol=2) */
+  /* Jeton de version des pages : le déploiement remplace __SITE_REV__ par le commit publié (static.yml),
+     si bien qu'une page reste en cache jusqu'au déploiement suivant. En local, un jeton neuf à chaque ouverture. */
+  var SITE_REV = '__SITE_REV__';
+  var REV = /^__/.test(SITE_REV) ? String(Date.now()) : SITE_REV;
   function moduleSrc(idx, innerState) {
     var base = MODULES[idx];
-    return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + Date.now() + (innerState ? '#' + innerState : '');
+    return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + REV + (innerState ? '#' + innerState : '');
   }
   var loaded = new Array(N).fill(false);
   var html = document.documentElement;
@@ -858,6 +868,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var scrim = document.getElementById('scrim');
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
   var compact = window.matchMedia('(max-width: 899px)');
+  /* Safari ≤ 13 (iOS 12–13) : MediaQueryList n'a pas encore addEventListener ; sans ce relais, tout l'accueil s'arrêtait */
+  function onMediaChange(mq, fn) { if (mq.addEventListener) mq.addEventListener('change', fn); else if (mq.addListener) mq.addListener(fn); }
   var EASE = 'cubic-bezier(.16,1,.3,1)';
   var _fromPop = false;
 
@@ -1014,7 +1026,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       else { audio.pause(); setPlaying(false); }
     });
     audio.addEventListener('play', function () { cancelAnimationFrame(saidRaf); saidRaf = requestAnimationFrame(tick); });
-    audio.addEventListener('pause', function () { cancelAnimationFrame(saidRaf); });
+    audio.addEventListener('pause', function () { cancelAnimationFrame(saidRaf); setPlaying(false); });
     audio.addEventListener('ended', function () { setPlaying(false); cancelAnimationFrame(saidRaf); said(null); });
     document.getElementById('votd-open').addEventListener('click', function (e) { enterFrom(e.currentTarget, 8, key); });
   })();
@@ -1177,7 +1189,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   document.getElementById('roomClose').addEventListener('click', leaveRoom);
   scrim.addEventListener('click', leaveRoom);
 
-  compact.addEventListener('change', function () {
+  onMediaChange(compact, function () {
     closeSheet();
     /* une salle ouverte change de forme avec l'écran : page sur ordinateur, panneau sur téléphone */
     var id = salleId || (pinned && pinned.dataset.room);
@@ -1338,8 +1350,16 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   }
 
   /* ── Routage ── */
-  function hideAllFrames() {
-    for (var i = 0; i < N; i++) document.getElementById('frame' + i).classList.remove('active');
+  /* Une page qu'on quitte se tait (lp-design.js met ses sons en pause) ; la Radio (18) continue en fond */
+  var PLAYS_ON = { 18: true };
+  function hideAllFrames(keep) {
+    for (var i = 0; i < N; i++) {
+      var w = document.getElementById('frame' + i);
+      if (i !== keep && !PLAYS_ON[i] && w.classList.contains('active')) {
+        try { document.getElementById('iframe' + i).contentWindow.postMessage({ type: 'lp-hidden' }, location.origin); } catch (e) {}
+      }
+      w.classList.remove('active');
+    }
     body.classList.remove('iframe-active');
   }
   /* « back » : où mène le bouton retour (Accueil, ou la salle d'où l'on vient) */
@@ -1455,11 +1475,16 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (!_fromPop) try { history.pushState({ page: 'home' }, '', '#'); } catch (e) {}
   }
   function openModule(idx, innerState, from) {
+    /* le verset du jour se tait quand une page s'ouvre (sinon deux récitations se superposent) */
+    var votd = document.getElementById('votd-audio');
+    if (votd && !votd.paused) votd.pause();
+    /* une page ouverte depuis l'accueil : « Accueil » et le logo y reviendront en reculant, sans empiler */
+    var fromHome = !history.state || history.state.page === 'home';
     currentModule = idx;
     moduleFrom = from || null;
     hideHome();
     hideSalle();
-    hideAllFrames();
+    hideAllFrames(idx);
     closeSheet();
     document.getElementById('frame' + idx).classList.add('active');
     body.classList.add('iframe-active');
@@ -1487,10 +1512,14 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
           if (l.href === 'about:blank') iframe.src = moduleSrc(idx, innerState);
           else l.replace(l.pathname + l.search + '#' + innerState);
         } catch (e) {}
+      } else if (_fromPop && iframe.contentWindow) {
+        /* Retour vers l'entrée sans état (ex. #m4 après une recherche « Kumayl ») : la page revient à son début.
+           Rouvrir une page depuis sa dalle (hors historique) garde, lui, la place de lecture. */
+        try { var l0 = iframe.contentWindow.location; if (l0.hash && l0.hash !== '#') l0.replace(l0.pathname + l0.search + '#'); } catch (e) {}
       }
     }
     if (!_fromPop) {
-      try { history.pushState({ page: 'module', idx: idx, innerState: innerState || '', from: moduleFrom }, '', '#m' + idx + (innerState ? ':' + innerState : '')); } catch (e) {}
+      try { history.pushState({ page: 'module', idx: idx, innerState: innerState || '', from: moduleFrom, backHome: fromHome && !moduleFrom }, '', '#m' + idx + (innerState ? ':' + innerState : '')); } catch (e) {}
     }
   }
   window.openModule = openModule;
@@ -1537,6 +1566,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       var parts = hash.substring(2).split(':');
       var idx = parseInt(parts[0], 10);
       var inner = parts.slice(1).join(':');
+      /* ancien module 11 (une page jamais publiée) : ses liens ouvrent le Verset du Trône, sous son adresse #m2 */
+      if (idx === 11) { idx = 2; hash = '#m2' + (inner ? ':' + inner : ''); }
       if (!isNaN(idx) && idx >= 0 && idx < N) {
         _fromPop = true; openModule(idx, inner); _fromPop = false;
         try { history.replaceState({ page: 'module', idx: idx, innerState: inner }, '', hash); } catch (e) {}
@@ -1555,7 +1586,13 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     try { history.replaceState({ page: 'home' }, '', '#'); } catch (e) {}
   }
 
-  document.getElementById('logoBtn').addEventListener('click', function (e) { e.preventDefault(); home(); });
+  /* Retour à l'accueil depuis une page ouverte depuis l'accueil : on recule d'un cran (le bouton Retour du
+     téléphone ne rouvre plus la page) ; sinon, nouvelle entrée « accueil » comme avant */
+  function goHome() {
+    if (body.classList.contains('iframe-active') && history.state && history.state.page === 'module' && history.state.backHome) history.back();
+    else home();
+  }
+  document.getElementById('logoBtn').addEventListener('click', function (e) { e.preventDefault(); goHome(); });
   /* Le retour remonte d'un cran : page → salle d'où l'on vient → accueil */
   backBtn.addEventListener('click', function () {
     if (salleId) { leaveRoom(); return; }
@@ -1569,7 +1606,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       }
       return;
     }
-    home();
+    goHome();
   });
 
   /* Une page du site demande l'ouverture d'une autre (ex. Invocations → Verset du Trône) */
@@ -1580,10 +1617,13 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 
   /* Lien profond : une page signale son état interne */
   window.addEventListener('message', function (e) {
-    if (e.data && e.data.type === 'nav') {
+    if (e.origin === location.origin && e.data && e.data.type === 'nav' && typeof e.data.state === 'string') {   /* seulement nos pages */
       var hash = window.location.hash;
       if (hash.indexOf('#m') === 0) {
         var idx = parseInt(hash.substring(2).split(':')[0], 10);
+        /* seule la page affichée parle : une page masquée qui finit de charger n'écrit pas dans l'adresse d'une autre */
+        var shown = !isNaN(idx) && document.getElementById('iframe' + idx);
+        if (!shown || e.source !== shown.contentWindow) return;
         /* un état vide (retour à la Présentation d'une page) donne #m20, jamais #m20: */
         if (!isNaN(idx)) try { history.replaceState({ page: 'module', idx: idx, innerState: e.data.state, from: moduleFrom }, '', '#m' + idx + (e.data.state ? ':' + e.data.state : '')); } catch (ex) {}
       }
@@ -1751,11 +1791,21 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   };
   function typeIcon(t) { return '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">' + P[TYPE_ICONS[t] || 'find'] + '</svg>'; }
 
-  var gsData = window.GLOBAL_SEARCH_INDEX || [];
-  var gsFuse = new Fuse(gsData, {
-    keys: [{ name: 'title', weight: 0.55 }, { name: 'content', weight: 0.35 }, { name: 'type', weight: 0.10 }, { name: 'state', weight: 0.80 }],
-    threshold: 0.38, distance: 300, minMatchCharLength: 2, includeMatches: true, ignoreLocation: true
-  });
+  /* L'index (global-search-data.js, 3,7 Mo) arrive à la première ouverture de la recherche, ou dès qu'on
+     approche le bouton : l'accueil ne l'attend plus pour s'afficher. En cas d'échec, la prochaine ouverture réessaie. */
+  var gsFuse = null, gsLoading = false, gsQueue = [];   /* gsFuse : le moteur de recherche.js, une fois l'index arrivé */
+  function withIndex(cb) {
+    if (gsFuse) { if (cb) cb(); return; }
+    if (cb) gsQueue.push(cb);
+    if (gsLoading) return;
+    gsLoading = true;
+    var sc = document.createElement('script');
+    sc.src = 'global-search-data.js';
+    function flush() { gsLoading = false; var q = gsQueue; gsQueue = []; q.forEach(function (f) { f(); }); }
+    sc.onload = function () { try { gsFuse = window.lpSearch.build(window.GLOBAL_SEARCH_INDEX || []); } catch (e) {} flush(); };
+    sc.onerror = function () { sc.parentNode && sc.parentNode.removeChild(sc); flush(); };
+    document.head.appendChild(sc);
+  }
 
   var overlay = document.getElementById('gsOverlay');
   var input = document.getElementById('gsInput');
@@ -1767,6 +1817,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
 
   function openGS() {
     if (overlay.classList.contains('open')) return;
+    withIndex();
     lastFocus = document.activeElement;
     overlay.classList.add('open');
     setTimeout(function () { input.focus(); }, 60);
@@ -1779,6 +1830,10 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   document.getElementById('gsOpenBtn').addEventListener('click', openGS);
+  ['gsOpenBtn', 'searchInput'].forEach(function (id) {
+    var b = document.getElementById(id);
+    if (b) ['pointerenter', 'focus', 'touchstart'].forEach(function (ev) { b.addEventListener(ev, function () { withIndex(); }, { once: true, passive: true }); });
+  });
   document.getElementById('gsClose').addEventListener('click', closeGS);
   overlay.addEventListener('click', function (e) { if (e.target === overlay) closeGS(); });
   document.addEventListener('keydown', function (e) {
@@ -1806,9 +1861,24 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       return;
     }
     var q = query.trim();
-    var hits = gsFuse.search(q, { limit: 60 });
-    hintEl.textContent = 'Recherche en cours…';
-    fetch('https://api.quran.com/api/v4/search?q=' + encodeURIComponent(q) + '&size=6&language=fr')
+    if (!gsFuse) {
+      hintEl.textContent = 'Chargement de l\'index…'; countEl.textContent = '';
+      withIndex(function () {
+        if (input.value.trim() !== q || !overlay.classList.contains('open')) return;   /* une frappe plus récente a pris le relais */
+        if (gsFuse) { renderResults(input.value); return; }
+        hintEl.textContent = '';
+        results.innerHTML = '<div class="gs-empty">' + EMPTY + 'L\'index de recherche n\'a pas pu être chargé. Vérifiez la connexion, puis réessayez.</div>';
+      });
+      return;
+    }
+    var hits = gsFuse.search(q, 60);
+    /* les résultats du site s'affichent tout de suite ; ceux du Coran en ligne s'ajoutent à leur arrivée */
+    displayHits(hits, q, true);
+    hintEl.textContent = 'Recherche coranique en ligne…';
+    /* au plus 5 s d'attente : sans réponse, la recherche en ligne est abandonnée (et « Aucun résultat » peut s'afficher) */
+    var ctl = window.AbortController ? new AbortController() : null;
+    if (ctl) setTimeout(function () { ctl.abort(); }, 5000);
+    fetch('https://api.quran.com/api/v4/search?q=' + encodeURIComponent(q) + '&size=6&language=fr', ctl ? { signal: ctl.signal } : undefined)
       .then(function (r) { return r.json(); })
       .then(function (data) {
         var quranHits = [];
@@ -1817,13 +1887,17 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
             return { item: { type: 'Coran (En ligne)', title: 'Sourate ' + r.verse_key, content: r.translations && r.translations[0] ? r.translations[0].text.replace(/<[^>]*>?/gm, '') : r.text, state: r.verse_key, idx: 8 } };
           });
         }
-        if (input.value.trim() === q) displayHits(hits.concat(quranHits), q);
+        if (input.value.trim() !== q) return;
+        hintEl.textContent = '';
+        if (quranHits.length) { var keep = activeIdx; displayHits(hits.concat(quranHits), q); if (keep >= 0) setActive(keep); }
+        else if (!hits.length) displayHits(hits, q);
       })
-      .catch(function () { if (input.value.trim() === q) displayHits(hits, q); });
+      .catch(function () { if (input.value.trim() === q) { hintEl.textContent = ''; if (!hits.length) displayHits(hits, q); } });
   }
 
-  function displayHits(hits, query) {
+  function displayHits(hits, query, pending) {
     results.innerHTML = ''; flatItems = []; activeIdx = -1; hintEl.textContent = '';
+    if (!hits.length && pending) { countEl.textContent = ''; return; }   /* rien en local : on attend le Coran en ligne */
     if (!hits.length) {
       countEl.textContent = 'Aucun résultat';
       results.innerHTML = '<div class="gs-empty">' + EMPTY + 'Aucun résultat pour « ' + escHtml(query) + ' ». Essayez un autre mot ou une orthographe proche.</div>';
