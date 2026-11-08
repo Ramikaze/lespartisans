@@ -83,9 +83,9 @@ var DATA = {
         { id: 's54', label: '54. Invocation pour Éloigner les soucis', emoji: '📖'},
         { type: 'header', label: 'Glorifications (55–61)' },
         { id: 's55', label: '55. Glorification de Zayn Al-Abidin', emoji: '📖' },
-        { id: 's56', label: '56. Invocation et Louange', disabled: true },
-        { id: 's57', label: '57. Mention des Ahl al-Bayt', disabled: true },
-        { id: 's58', label: '58. Bénédiction en faveur d\'Adam', disabled: true },
+        { id: 's56', label: '56. Une Invocation et une Louange dont il est l\'auteur', emoji: '📖' },
+        { id: 's57', label: '57. Son Invocation lors de la Mention des Gens de la Demeure de Mohammed', emoji: '📖' },
+        { id: 's58', label: '58. Son Invocation pour la demande de Bénédiction en faveur d\'Adam', emoji: '📖' },
         { id: 's59', label: '59. Invocation face à la détresse et la délivrance', disabled: true },
         { id: 's60', label: '60. Invocation face à ce qu\'il redoutait et craignait', disabled: true },
         { id: 's61', label: '61. Invocation face à son humiliation', disabled: true },
@@ -2276,6 +2276,57 @@ var DATA = {
         {t:'intro', tx:'<span id="note-273"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-273\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[273]</a></span> Ici, il est fait allusion au Coran 20/6 : « <em>À Lui appartient : ce qui est dans les cieux, ce qui est sur la terre, ce qui est entre les deux, ce qui est sous la terre</em> ».'},
         {t:'intro', tx:'<span id="note-274"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-274\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[274]</a></span> Ici, il est fait allusion à certains Versets du Saint Coran : « <em>Ne savent-ils pas que Dieu connaît leurs secrets et leurs conciliabules et que Dieu connaît parfaitement les mystères ?</em> » (Coran 9/78) – « <em>Pensent-ils que Nous n\'entendons pas leurs secrets et leurs confidences ? Bien au contraire ! Nos envoyés placés auprès d\'eux consignent tout par écrit</em> » (Coran 43/80) – « <em>Il n\'y a pas d\'entretien à trois où IL ne soit le quatrième ni à cinq où IL ne soit le sixième. Qu\'ils soient moins ou plus nombreux, IL est avec eux là où ils se trouvent ; puis, le Jour du Jugement, IL leur fera connaître ce qu\'ils ont fait. – En vérité, Dieu sait tout –</em> » (Coran 58/7).'},
         {t:'intro', tx:'<span id="note-275"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-275\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[275]</a></span> Ibn Shihab Al-Zuhri, décédé en 124/742, fut un juriste célèbre ainsi qu\'un éminent traditionaliste ; il est connu pour être le premier à avoir appelé l\'Imam « <em>Zayn Al-Abidin</em> ». Sa\'ïd Ibn Al-Musayyib, décédé en 94/712-713, fut l\'un des « <em>sept jurisconsultes</em> » de Médine. Il était connu en tant que Chef des Suivants (<em>Sayyid Al-Tabi\'ïn</em>), c\'est-à-dire les gens qui suivent la génération des Compagnons du Prophète.'},
+      ]
+    },
+
+    s56: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '56. Une Invocation et une Louange dont il est l\'auteur',
+      subtitle: 'Que la Paix soit sur lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Louange à Dieu ! Celui Qui s\'est manifesté aux cœurs par la Majesté ; Celui Qui s\'est voilé aux regards par la Puissance ; et Qui s\'est assujetti les choses par l\'Autorité !'},
+        {t:'v',n:2, tx:'Les vues ne sont pas suffisamment perçantes pour Le voir, ni les pensées capables d\'atteindre l\'Essence de Sa Majesté.'},
+        {t:'v',n:3, tx:'IL manifeste Son Pouvoir sur toute chose par Sa Majesté et Sa Magnificence ; IL s\'est vêtu de l\'habit de la Puissance, de la Bienfaisance et de la Majesté ; IL s\'est prescrit la Sainteté et l\'Excellence ; IL s\'est glorifié par la Vénération et la Splendeur ; IL s\'est attribué la Lumière et la Brillance.'},
+        {t:'v',n:4, tx:'Créateur sans pareil ; L\'Unique sans rival ; L\'Un Qui n\'a pas de contraire ; L\'Impénétrable Qui ne peut être égalé ; Un Dieu Qui n\'a pas d\'assistant ; Celui Qui donne un commencement à tout sans associé ; Celui Qui pourvoit aux moyens de subsistance sans aide !'},
+        {t:'v',n:5, tx:'IL est Le Premier sans début ; Celui Qui demeure ; Celui Qui se maintient sans difficulté ; Le Sécurisant éternel ; La Cause sans terme ; Le Façonneur sans l\'aide de quiconque ; Le Seigneur sans associé ; L\'Origine sans effort fourni ; Celui Qui réalise sans inaptitude.'},
+        {t:'v',n:6, tx:'IL n\'a de limite ni dans l\'espace ni dans le temps ; IL fut toujours ; IL est toujours ; IL sera pour toujours. Ainsi, pour l\'éternité, IL est Dieu ; Le Vivant ; Celui Qui se suffit à Lui-Même ; Celui Qui est sans fin ; Le Tout-Puissant ; Le Sage Suprême.'},
+        {t:'v',n:7, tx:'Mon Dieu ! Ton Serviteur est dans Ta Cour ! Ton Implorant est dans Ta Cour ! Ton Indigent est dans Ta Cour ! – Mon Dieu ! Ton Serviteur est dans Ta Cour ! Ton Implorant est dans Ta Cour ! Ton Indigent est dans Ta Cour ! – Mon Dieu ! Ton Serviteur est dans Ta Cour ! Ton Implorant est dans Ta Cour ! Ton Indigent est dans Ta Cour !'},
+        {t:'v',n:8, tx:'Mon Dieu ! Devant Toi tremblent les craintifs ; à Toi se livrent ceux qui regrettent par crainte de Toi en espérant en Ton Pardon !'},
+        {t:'v',n:9, tx:'Ô Dieu de la Vérité ! Accueille avec miséricorde la supplication de ceux qui appellent au secours ! Pardonne les actes coupables des insouciants ; accrois, au Jour de l\'arrivée auprès de Toi, le bienfait de ceux qui reviennent sans cesse vers Toi ! Ô Le Généreux !'},
+        {t:'salawat'},
+      ]
+    },
+
+    s57: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '57. Son Invocation lors de la Mention des Gens de la Demeure de Mohammed',
+      subtitle: 'Que les Bénédictions et la Paix soient avec eux et avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô mon Dieu ! Celui Qui a particulièrement distingué Mohammed et les Gens de sa Famille par la noblesse ; leur accordant la faveur du Message ; les distinguant par la médiation<sup id="ref-276"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-276\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[276]</a></sup> ; faisant d\'eux les Héritiers des Prophètes ; scellant par eux la lignée des Exécutants et des Guides ; les instruisant de la science qui fut et de la science qui demeure ; inclinant vers eux les cœurs des gens !'},
+        {t:'v',n:2, tx:'Aussi, bénis Mohammed et les Gens de sa Famille sanctifiée ; agis envers nous selon ce qui est digne de Toi dans la Religion, dans la vie immédiate et dans la Vie ultime. <em>Tu es, en vérité, puissant sur toute chose</em><sup id="ref-277"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-277\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[277]</a></sup>.'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-276"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-276\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[276]</a></span> Concernant la « médiation » accordée aux Imams, voir la note concernant l\'Invocation 47/56.'},
+        {t:'intro', tx:'<span id="note-277"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-277\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[277]</a></span> Coran 3/26'},
+      ]
+    },
+
+    s58: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '58. Son Invocation pour la demande de Bénédiction en faveur d\'Adam',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô mon Dieu ! Adam est la merveille de Ta Création ; le premier fait d\'argile à reconnaître Ta Seigneurie ; le commencement de Ton Argument contre Tes Serviteurs et Tes Créatures ; le guide qui mène à la recherche du refuge de Ton Pardon afin d\'éviter Ton Châtiment ; l\'ouvreur des voies du repentir envers Toi ; l\'intermédiaire qui enseigne aux créatures l\'accès à la connaissance de Toi ;'},
+        {t:'v',n:2, tx:'celui que Tu as instruit de Ta Satisfaction par Ta Bienveillance et Ta Miséricorde à son égard ;'},
+        {t:'v',n:3, tx:'celui qui est revenu et qui n\'a pas persisté dans sa désobéissance envers Toi ; le précurseur de ceux qui s\'humilient en se rasant la tête dans Ton Enceinte Sacrée ; et le précurseur de ceux qui ont recherché l\'accès à Ton Pardon par l\'obéissance après la désobéissance ; le père des Prophètes qui ont subi la souffrance par Amour pour Toi et qui, de tous les habitants de la terre, ont fourni le plus grand effort pour T\'obéir ;'},
+        {t:'v',n:4, tx:'aussi, bénis-le, Toi, ô Le Très Miséricordieux, ainsi que Tes Anges et les habitants de Tes Cieux et de Tes Terres, comme il magnifia Tes Commandements imprescriptibles ; guide-nous sur la voie qui mène à Ta Satisfaction ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
       ]
     },
 
