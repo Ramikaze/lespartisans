@@ -109,10 +109,10 @@ var DATA = {
         { id: 's77', label: '77. La Supplication confidentielle des Amoureux', emoji: '📖' },
         { id: 's78', label: '78. La Supplication confidentielle de ceux qui demandent la Médiation', emoji: '📖' },
         { id: 's79', label: '79. La Supplication confidentielle des démunis', emoji: '📖' },
-        { id: 's80', label: '80. Munâjât des savants', disabled: true },
-        { id: 's81', label: '81. Munâjât de ceux qui se souviennent', disabled: true },
-        { id: 's82', label: '82. Munâjât — Protection de Dieu', disabled: true },
-        { id: 's83', label: '83. Munâjât de ceux qui s\'abstiennent', disabled: true },
+        { id: 's80', label: '80. La Supplication confidentielle des savants', emoji: '📖' },
+        { id: 's81', label: '81. La Supplication confidentielle de ceux qui se souviennent', emoji: '📖' },
+        { id: 's82', label: '82. La Supplication confidentielle de ceux qui se placent sous la Protection de Dieu', emoji: '📖' },
+        { id: 's83', label: '83. La Supplication confidentielle de ceux qui s\'abstiennent', emoji: '📖' },
       ]
     },
     {
@@ -2410,6 +2410,70 @@ var DATA = {
         {t:'v',n:1, tx:'Ô mon Dieu ! Rien ne peut réparer ma fracture si ce n\'est Ta Bonté et Ta Compassion ; rien ne peut enrichir ma pauvreté si ce n\'est Ton Affection et Ta Bienveillance ; rien ne peut mettre un terme à mon inquiétude si ce n\'est Ta Sécurité ; rien ne peut me relever de mon humiliation si ce n\'est Ta Souveraineté ; rien ne peut accomplir mon vœu si ce n\'est Ta Grâce ; rien ne peut pourvoir à mon dénuement si ce n\'est Ta Générosité ; rien ne peut réaliser mon nécessaire si ce n\'est Toi ; rien ne peut me délivrer de ma détresse si ce n\'est Ta Miséricorde ; rien ne peut résoudre mon tort si ce n\'est Ta Clémence ; rien ne peut étancher ma soif ardente si ce n\'est de parvenir à Toi ; rien ne peut calmer mon ardeur si ce n\'est de Te rencontrer ; rien ne peut assouvir mon désir ardent si ce n\'est un regard porté à Ta Face ; rien ne peut rendre mon séjour paisible si ce n\'est d\'être proche de Toi ; rien ne peut apaiser mon inquiétude si ce n\'est Ton Repos Éternel ; rien ne peut guérir ma souffrance si ce n\'est Ta Thérapie spirituelle ; rien ne peut faire disparaître mon affliction si ce n\'est d\'être dans Ta Proximité ; rien ne peut cicatriser ma blessure si ce n\'est Ton Pardon ; rien ne peut évacuer l\'oxydation de mon cœur si ce n\'est Ta Rémission ; rien ne peut éradiquer de mon âme les tentations si ce n\'est Ton Ordre !'},
         {t:'v',n:2, tx:'Ô L\'Espoir Suprême de ceux qui espèrent ! Ô L\'Ultime Finalité de ceux qui sollicitent ! Ô La Requête Décisive des requérants ! Ô Le Plus Haut Désir des désireux ! Ô Le Tuteur des pieux ! Ô La Paix des inquiets ! Ô Celui Qui exauce l\'imploration du désespéré ! Ô Le Pourvoyeur de ceux qui sont démunis ! Ô Le Trésor des miséreux ! Ô Le Secours de ceux qui appellent au secours ! Ô L\'Exécutant des besoins des pauvres et des miséreux ! Ô Le Plus Généreux de ceux qui font preuve de générosité ! Ô Le Plus Miséricordieux de ceux qui font preuve de miséricorde ! À Toi appartiennent mon humble soumission et ma requête ; vers Toi sont orientées ma complainte et mon imploration ! Je T\'implore de me faire atteindre au Repos Éternel de Ta Satisfaction, et de perpétuer en ma faveur les bienfaits de Ta Gratitude ! Me voici ! debout, face au Portail de Ta Générosité, me présentant aux gratitudes de Ta Charité Bienveillante, bien accroché à Ton Lien solide, cramponné à Ton Anse la plus solide !'},
         {t:'v',n:3, tx:'Mon Dieu ! Fais preuve de Miséricorde envers Ton humble serviteur dont la langue est muette et les bonnes œuvres peu nombreuses ; fais preuve de bienfaisance envers lui par Ton Abondante Générosité ; accorde-lui l\'Abri de Ton Ombrage ! Ô Le Généreux ! Ô Le Splendide ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+      ]
+    },
+
+    s80: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '80. La Supplication confidentielle des savants',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Les langues ne peuvent T\'adresser la louange digne de Ta Majesté ; les esprits sont incapables de percevoir l\'Essence de Ta Beauté ; les regards ne parviennent pas à contempler les splendeurs de Ta Face ; Tu n\'as attribué à Tes Créatures aucun moyen permettant de Te connaître sinon celui d\'être dans l\'incapacité de Te connaître !'},
+        {t:'v',n:2, tx:'Mon Dieu ! Mets-nous parmi ceux dont l\'arbre de leur désir ardent de Toi s\'enracine profondément dans les jardins de leur pensée intime ; dont la ferveur de leur amour envers Toi a envahi leur cœur en totalité ! Ainsi, vers les nids des méditations, ils trouvent à s\'abriter ; des vergers de la proximité et de la découverte, ils s\'alimentent ; des sources de l\'amour, avec la coupe de la courtoisie, ils se désaltèrent ; dans les lieux de purification, ils pénètrent. Le voile a été ôté de devant leurs yeux<sup id="ref-314"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-314\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[314]</a></sup> ; l\'obscurité du soupçon a été écartée de leurs dogmes ; le trouble du doute a été enlevé de leurs cœurs et de leurs pensées secrètes ; par l\'acquisition de la connaissance se sont ouvertes leurs poitrines ; leurs déterminations se sont élevées pour gagner en priorité la félicité du renoncement ; leur boisson est de saveur exquise à la fontaine du comportement louable ; dans l\'assemblée de la bonne compagnie, leur intimité est plaisante ; dans le lieu de l\'inquiétude, leur esprit est rassuré ; dans le retour au Seigneur des Seigneurs, leurs âmes se sont apaisées<sup id="ref-315"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-315\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[315]</a></sup> ; leurs âmes ont acquis la certitude de la réussite et de la béatitude ; leurs yeux se sont réjouis à la vue de leur Bien-Aimé ; le lieu de leur installation fut permanent suite à la satisfaction de leur requête et à la réalisation de leur souhait ; leur commerce fut fécond dans l\'échange de la vie immédiate pour la Vie ultime !'},
+        {t:'v',n:3, tx:'Mon Dieu ! Qu\'elles sont agréables, pour les cœurs, les pensées inspirées par Ton Souvenir ! Qu\'il est plaisant, lors des méditations, le voyage qui mène à Toi par les chemins des mystères ; qu\'elle est délicieuse la saveur de l\'amour envers Toi ; qu\'il est exquis le nectar de Ta Proximité ! Aussi, mets-nous à l\'abri de Ton Exclusion et de Ton Éloignement ; installe-nous parmi l\'élite de Tes Connaisseurs, les plus vertueux de Tes Serviteurs, les plus véridiques en obéissance envers Toi, les plus sincères de Tes Adorateurs ! Ô Le Tout-Puissant ! Ô Le Majestueux ! Ô Le Généreux ! Ô Le Maître de la Grâce ! Par Ta Miséricorde et par Ta Bienveillance ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-314"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-314\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[314]</a></span> Ici, il est fait allusion au Coran 50/22 : « <em>Nous avons ôté ton voile ; ta vue est perçante aujourd\'hui</em> ».'},
+        {t:'intro', tx:'<span id="note-315"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-315\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[315]</a></span> Ici, il est fait allusion au Coran 89/27.28 : « <em>Ô toi !… Âme apaisée !… Retourne vers ton Seigneur, satisfaite et agréée</em> ».'},
+      ]
+    },
+
+    s81: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '81. La Supplication confidentielle de ceux qui se souviennent',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Si ce n\'était l\'obligation de suivre Ton Commandement, je T\'aurais avoué mon incapacité à me souvenir de Toi, car je ne me souviens de Toi que selon mon bon vouloir et non selon Ta Volonté ; ma compétence ne peut atteindre le degré qui me permettrait d\'être au rang de celui qui vénère Ta Sainteté ! Or, parmi les plus ineffables bienfaits à notre avantage, il y a sur nos langues l\'expression de Ton Invocation et Ta Permission, en notre faveur, de T\'invoquer, de Te louer et de Te glorifier !'},
+        {t:'v',n:2, tx:'Mon Dieu ! Inspire-nous Ton Souvenir dans la solitude ou en assemblées ; la nuit ou le jour ; en public ou en secret ; dans la joie ou la détresse ! Accorde-nous l\'intimité de l\'invocation secrète ; absorbe-nous dans l\'œuvre vertueuse, dans l\'effort agréé, et récompense-nous en pleine mesure !'},
+        {t:'v',n:3, tx:'Mon Dieu ! De Toi, les cœurs éperdument amoureux se sont épris ; par la connaissance de Toi, des esprits différents se sont rassemblés ; les cœurs ne s\'apaisent que par Ton Souvenir<sup id="ref-316"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-316\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[316]</a></sup> ; les âmes ne trouvent le repos que dans Ta Contemplation. Tu es Le Glorifié en tout lieu ; L\'Adoré en tout temps ; L\'Existant à tout moment ; L\'Invoqué par toutes les langues ; L\'Honoré dans chaque cœur ! J\'implore Ton Pardon pour toute réjouissance ne T\'ayant pas évoqué ; pour tout repos n\'incluant pas Ta Compagnie ; pour toute joie hors de Ta Proximité ; pour toute activité sans obéissance envers Toi !'},
+        {t:'v',n:4, tx:'Mon Dieu ! Tu as dit, et Ta Parole est Vérité : <em>Ô vous qui croyez ! Invoquez souvent le Nom de Dieu ! Louez-Le matin et soir !</em><sup id="ref-317"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-317\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[317]</a></sup> ; Tu as dit, et Ta Parole est Vérité : <em>Souvenez-vous de Moi, Je me souviendrai de vous !</em><sup id="ref-318"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-318\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[318]</a></sup> Tu nous as ordonné de T\'invoquer et Tu nous as promis de Te souvenir de nous afin de nous honorer, de nous distinguer et de nous élever. Voilà, nous T\'invoquons comme Tu nous l\'as recommandé ! Aussi, réalise à notre avantage ce que Tu nous as promis ! Ô Celui Qui se souvient de ceux qui L\'invoquent ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-316"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-316\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[316]</a></span> Ici, il est fait allusion au Coran 13/28.29 : « <em>Ceux qui croient ; ceux dont les cœurs s\'apaisent au souvenir de Dieu ; – les cœurs ne s\'apaisent-ils pas au souvenir de Dieu ? – ceux qui croient et qui font le bien</em> ».'},
+        {t:'intro', tx:'<span id="note-317"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-317\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[317]</a></span> Coran 33/41.42'},
+        {t:'intro', tx:'<span id="note-318"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-318\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[318]</a></span> Coran 2/152'},
+      ]
+    },
+
+    s82: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '82. La Supplication confidentielle de ceux qui se placent sous la Protection de Dieu',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô mon Dieu ! Ô Refuge des réfugiés ! Ô Protecteur de ceux qui cherchent à être protégés ! Ô Sauveur de ceux qui sont en péril ! Ô Défenseur des infortunés ! Ô Le Miséricordieux envers les misérables ! Ô Celui Qui exauce les malheureux ! Ô Trésor des démunis ! Ô Celui Qui soulage les affligés ! Ô Secours des opprimés ! Ô l\'Hôte des inquiets ! Ô Consolateur des défavorisés ! Ô Forteresse des demandeurs d\'asile ! Si je ne cherche pas refuge dans Ta Puissance, à qui m\'adresser pour trouver refuge ? Si je ne cherche pas asile dans Ton Pouvoir, à qui m\'adresser pour demander asile ? Alors que les actes coupables me contraignent à m\'agripper à la traînée de Ton Pardon ; que les fautes m\'obligent à implorer l\'ouverture des Portes de Ton Indulgence ; que l\'œuvre blâmable m\'a poussé à m\'agenouiller dans la Cour de Ta Gloire ; que la crainte de Ta Sanction m\'a conduit à m\'agripper à l\'anse de Ton Affection ! Celui qui s\'agrippe fermement à Ta Corde ne mérite pas d\'être déçu ; il ne convient pas à celui qui se réfugie auprès de Ta Puissance d\'être délaissé ou négligé.'},
+        {t:'v',n:2, tx:'Mon Dieu ! Ne nous démunis pas de Ta Défense ; ne nous découvre pas de Ta Sollicitude ; protège-nous des chemins de la perdition, car nous sommes sous Ta Surveillance, sous Ton Aile Protectrice et à Toi ! Je T\'implore par ceux qui forment Ton Élite parmi Tes Anges, par les gens de bien parmi Tes Créatures, de placer au-dessus de nous une protection qui nous sauvera des périls, nous préservera des grands fléaux, nous dissimulera aux coups violents des calamités ; de répandre sur nous de Ta Sérénité ; d\'illuminer nos visages par les lumières de Ton Amour ; de nous mettre à l\'abri auprès d\'<em>un appui solide</em><sup id="ref-319"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-319\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[319]</a></sup> ; de nous rassembler sous les ailes de Ta Protection ! Par Ta Bonté et Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-319"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-319\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[319]</a></span> Ici, il est fait allusion au propos de Loth : « <em>Si seulement je pouvais m\'opposer à vous par la force ou bien, si je trouvais un appui solide !…</em> » (Coran 11/80).'},
+      ]
+    },
+
+    s83: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '83. La Supplication confidentielle de ceux qui s\'abstiennent',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Tu nous as fait habiter la demeure de ce monde qui avait préparé pour nous les fosses de sa ruse ; ce monde nous a enchaînés aux mains de la mort, pris dans les filets de la traîtrise de ce monde ! En Toi nous cherchons refuge contre les complots de ses tricheries ; par Toi nous nous protégeons de la mystification des ornements de sa parure ! Il est celui qui anéantit ceux qui le recherchent ; il fait disparaître ceux qui s\'y installent ; il est tout rempli de fléaux et fourni en malheurs.'},
+        {t:'v',n:2, tx:'Mon Dieu ! Fais-nous renoncer à lui ; préserve-nous de lui par Ton Assistance et Ta Protection. Découvre-nous des habits de l\'opposition envers Toi ; pourvois à nos besoins par Ton Excellente Allocation ; accrois nos provisions par l\'ampleur de Ta Miséricorde ; sois Très Généreux dans nos présents par l\'abondance de Tes Dons ; enracine dans nos cœurs les arbres de Ton Amour ; parachève en nous les lumières de Ta Connaissance ; fais-nous savourer la douceur de Ton Pardon et le plaisir de Ton Indulgence ; réjouis nos yeux de Ta Contemplation le Jour de Ta Rencontre ; fais sortir de nos cœurs l\'amour de la vie immédiate comme Tu l\'as fait pour les vertueux de Tes Élus et les gens de bien de Tes Excellents ! Par Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde ! Ô Le Plus Généreux des généreux !'},
         {t:'salawat'},
       ]
     },
