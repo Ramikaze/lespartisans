@@ -141,7 +141,9 @@ body::before{content:'';position:fixed;inset:0;
 .gp-btn:hover{background:rgba(201,168,76,0.3)}
 .gp-btn.active{background:rgba(201,168,76,0.28);box-shadow:0 0 8px rgba(201,168,76,0.3)}
 #gp-play{width:36px;height:36px}
-#gp-prog{flex:1;height:3px;background:var(--surface2);border-radius:2px;cursor:pointer;min-width:0}
+#gp-prog{flex:1;height:3px;background:var(--surface2);border-radius:2px;cursor:pointer;min-width:0;position:relative}
+/* Barres d'avancement : fines à l'œil, mais une bande de toucher de 31 px pour le doigt (le calcul de la position reste celui de la barre) */
+#gp-prog::before,.ab-prog::before{content:"";position:absolute;left:0;right:0;top:-14px;bottom:-14px}
 #gp-fill{height:100%;background:linear-gradient(to right,var(--gold),var(--gold-l));border-radius:2px;width:0%;pointer-events:none;transition:width .2s linear}
 #gp-time{font-size:.62rem;color:var(--text-muted);white-space:nowrap;flex-shrink:0}
 [data-theme="light"] #global-player{background:rgba(232,224,210,0.95)!important;border-bottom-color:rgba(122,92,36,0.2)!important}

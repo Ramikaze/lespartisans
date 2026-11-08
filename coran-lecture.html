@@ -515,6 +515,12 @@ html[data-design="console"] .wtt-audio.playing{animation:none!important;box-shad
   html[data-design="console"] .sp-time{min-width:0!important}
   html[data-design="console"] .surah-player.visible ~ .scroll-top-btn{right:12px!important;bottom:calc(10px + env(safe-area-inset-bottom))!important;width:36px!important;height:36px!important}
 }
+/* Écrans tactiles de toute largeur (iPhone en paysage, tablette) : 16 px au moins, sinon Safari zoome au toucher du champ */
+@media (pointer:coarse){
+  html[data-design="console"] .sel,
+  html[data-design="console"] .list-reciter select,
+  html[data-design="console"] .font-ctrl .fc-select{font-size:16px!important}
+}
 </style>
 </head>
 <body class="show-ar show-fr">

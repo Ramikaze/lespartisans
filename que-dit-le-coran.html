@@ -302,6 +302,10 @@ body { background: var(--bg); color: var(--text); transition: background 0.3s, c
   .sidebar.open {
     transform: translateX(0);
   }
+  /* 16 px au moins : en dessous, Safari sur iPhone agrandit toute la page quand on touche le champ */
+  .search-input {
+    font-size: 16px;
+  }
   .mobile-header {
     display: flex;
   }
@@ -416,6 +420,8 @@ html[data-design="console"] .menu-btn::before{
 html[data-design="console"] .menu-btn:hover{background:var(--lp-fill-2)!important;border-color:var(--lp-lamp-line)!important}
 html[data-design="console"] .mobile-overlay{background:rgba(2,4,10,.55)!important;-webkit-backdrop-filter:blur(6px)!important;backdrop-filter:blur(6px)!important}
 html[data-design="console"][data-lp-theme="light"] .mobile-overlay{background:rgba(20,32,60,.22)!important}
+/* Écrans tactiles de toute largeur (iPhone en paysage, tablette) : 16 px au moins, sinon Safari zoome au toucher du champ */
+@media (pointer:coarse){.search-input,html[data-design="console"] .search-input{font-size:16px!important}}
 @media (max-width:900px){
   html[data-design="console"] .sidebar{
     top:8px!important;left:8px!important;bottom:8px!important;height:auto!important;margin:0!important;width:min(320px,calc(100vw - 56px))!important;
@@ -1221,6 +1227,7 @@ const mobileOverlay = document.getElementById("mobileOverlay");
 menuToggleBtn.addEventListener("click", () => {
   sidebar.classList.toggle("open");
   mobileOverlay.style.display = sidebar.classList.contains("open") ? "block" : "none";
+  syncSidebarInert();
 });
 
 mobileOverlay.addEventListener("click", closeMobileSidebar);
@@ -1228,7 +1235,20 @@ mobileOverlay.addEventListener("click", closeMobileSidebar);
 function closeMobileSidebar() {
   sidebar.classList.remove("open");
   mobileOverlay.style.display = "none";
+  syncSidebarInert();
 }
+
+/* Téléphone : le panneau fermé (hors écran) devient inert, ni focus ni lecteur d'écran ;
+   le focus qu'il portait passe d'abord au bouton « Sujets ». Sur ordinateur le panneau reste toujours visible. */
+const phoneSidebar = window.matchMedia("(max-width: 900px)");
+function syncSidebarInert() {
+  const hidden = phoneSidebar.matches && !sidebar.classList.contains("open");
+  if (hidden && sidebar.contains(document.activeElement)) menuToggleBtn.focus({ preventScroll: true });
+  if ("inert" in sidebar) sidebar.inert = hidden;
+}
+syncSidebarInert();
+if (phoneSidebar.addEventListener) phoneSidebar.addEventListener("change", syncSidebarInert);
+else if (phoneSidebar.addListener) phoneSidebar.addListener(syncSidebarInert);
 
 // Real-time Search input handler
 document.getElementById("topicSearch").addEventListener("input", (e) => {

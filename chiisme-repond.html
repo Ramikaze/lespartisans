@@ -628,7 +628,7 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  let h='';
 
  h+='<div class="sidebar-overlay'+(S.sb?' open':'')+'" data-a="csb"></div>';
- h+='<div class="sidebar'+(S.sb?' open':'')+'">';
+ h+='<div class="sidebar'+(S.sb?' open':'')+'"'+(S.sb?'':' inert')+'>'; // fermé (hors écran) : ni focus ni lecteur d'écran
  h+='<div class="sidebar-header"><h2>Le Chiisme Répond</h2><a class="download-btn" href="Le_Chiisme_Repond.pdf" download style="margin-top:10px;font-size:13px;padding:8px 16px;width:100%;justify-content:center;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>PDF original</a></div>';
  h+='<div class="font-controls"><span class="font-label">Taille :</span><button class="font-btn" data-a="fd">A-</button><span class="font-label">'+S.fs+'px</span><button class="font-btn" data-a="fu">A+</button></div>';
  h+='<div class="sidebar-tabs"><button class="sidebar-tab'+(S.sbt==='toc'?' active':'')+'" data-a="tt">Table des matières</button><button class="sidebar-tab'+(S.sbt==='bm'?' active':'')+'" data-a="tb">Favoris ('+S.bm.length+')</button></div>';
@@ -646,7 +646,7 @@ const CH = [{"title": "Préface", "sections": [{"type": "text", "content": "Au n
  }
  h+='</div></div>';
 
- h+='<div class="search-panel'+(S.so?' open':'')+'"><div class="search-input-wrap">'+I.search+'<input class="search-input" id="si" placeholder="Rechercher..." value="'+esc(S.sq).replace(/"/g,'&quot;')+'"><button class="search-close" data-a="cs">Fermer</button></div><div class="search-results" id="sr"></div></div>';
+ h+='<div class="search-panel'+(S.so?' open':'')+'"'+(S.so?'':' inert')+'><div class="search-input-wrap">'+I.search+'<input class="search-input" id="si" placeholder="Rechercher..." value="'+esc(S.sq).replace(/"/g,'&quot;')+'"><button class="search-close" data-a="cs">Fermer</button></div><div class="search-results" id="sr"></div></div>';
 
  h+='<div class="header"><div class="header-left"><button class="header-btn" data-a="tsb">'+I.menu+'</button>';
  if(!isH)h+='<button class="header-btn" data-a="home" title="Accueil"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></button>';

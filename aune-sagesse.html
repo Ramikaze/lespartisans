@@ -268,6 +268,8 @@ sup.fn a:hover{text-decoration:underline}
   .sidebar:not(.collapsed)~.sb-overlay{opacity:1;visibility:visible}
   /* Languette au-dessus du voile, plus facile à toucher ; le texte commence après elle */
   .sb-toggle{z-index:110;width:24px;height:56px;font-size:13px}
+  /* 16 px au moins : en dessous, Safari sur iPhone agrandit toute la page quand on touche le champ */
+  input.sb-search{font-size:16px}
   .content{padding-left:36px}
   [data-theme="light"] .sb-overlay{background:rgba(44,33,20,0.3)}
   [data-theme="light"] .sidebar:not(.collapsed){box-shadow:10px 0 30px rgba(60,45,20,0.25)}
@@ -479,6 +481,8 @@ html[data-design="console"] .nav-btn.next-btn{
 html[data-design="console"] .nav-btn.next-btn:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75)!important}
 html[data-design="console"] [id^="slide-counter-"]{font-family:var(--lp-font)!important;font-size:13px!important;font-weight:300!important;color:var(--lp-ink-3)!important;font-variant-numeric:tabular-nums}
 
+/* Écrans tactiles de toute largeur (iPhone en paysage, tablette) : 16 px au moins, sinon Safari zoome au toucher du champ */
+@media (pointer:coarse){input.sb-search,html[data-design="console"] input#sb-search{font-size:16px!important}}
 /* Mobile : le panneau devient un tiroir posé au-dessus de la lecture */
 @media (max-width:768px){
   html[data-design="console"]{--lp-sbw:min(300px,calc(100vw - 72px));--lp-sbm:8px}
@@ -492,8 +496,8 @@ html[data-design="console"] [id^="slide-counter-"]{font-family:var(--lp-font)!im
   html[data-design="console"] .sb-toggle{width:28px!important;height:56px!important;border-radius:14px!important}
   /* Marge gauche : la languette du tiroir (6 + 28px) ne recouvre plus le début des lignes */
   html[data-design="console"] .content{padding:26px 18px 88px 46px!important}
-  /* Pas de voile en console : le tiroir garde son ombre */
-  html[data-design="console"] .sb-overlay{display:none!important}
+  /* Voile invisible en console (le tiroir garde son ombre) : il sert seulement à refermer le tiroir d'un toucher à côté */
+  html[data-design="console"] .sb-overlay{background:transparent!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
   html[data-design="console"] .c-intro{padding:18px 18px!important}
   html[data-design="console"] .hadith-card{padding:16px 18px 18px!important}
 }
@@ -1125,6 +1129,9 @@ const toggle = document.getElementById('sb-toggle');
 let sidebarOpen = true;
 toggle.addEventListener('click', function() {
   sidebarOpen = !sidebarOpen;
+  // Un panneau fermé devient inert (ni focus ni lecteur d'écran) : le focus qu'il portait passe d'abord à la languette.
+  if (!sidebarOpen && sidebar.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+  if ('inert' in sidebar) sidebar.inert = !sidebarOpen;
   sidebar.classList.toggle('collapsed', !sidebarOpen);
   toggle.textContent = sidebarOpen ? '‹' : '›';
   toggle.style.left = sidebarOpen ? '240px' : '0';

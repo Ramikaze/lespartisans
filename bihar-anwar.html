@@ -484,8 +484,8 @@ html[data-design="console"] .pdf-card-dl svg{width:17px!important;height:17px!im
   html[data-design="console"] input#sb-search{font-size:16px!important}
   /* Marge gauche : la languette du tiroir (6 + 28px) ne recouvre plus le début des lignes */
   html[data-design="console"] .content{padding:26px 18px 88px 46px!important}
-  /* Pas de voile en console : le tiroir garde son ombre */
-  html[data-design="console"] .sb-overlay{display:none!important}
+  /* Voile invisible en console (le tiroir garde son ombre) : il sert seulement à refermer le tiroir d'un toucher à côté */
+  html[data-design="console"] .sb-overlay{background:transparent!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
   html[data-design="console"] .c-intro{padding:18px 18px!important}
   html[data-design="console"] .hadith-card{padding:16px 18px 18px!important}
   html[data-design="console"] .hadith-comment{padding:12px 14px 14px}

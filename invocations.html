@@ -206,6 +206,14 @@ body:not(.show-fr) .c-tri-fr, body:not(.show-fr) .c-zv-text, body:not(.show-fr) 
     margin-bottom: 4px;
   }
 }
+/* Mobile : un voile sous le tiroir ouvert (invisible en console, le tiroir garde son ombre) ; le toucher referme le tiroir */
+.sb-overlay{display:none}
+@media (max-width:768px){
+  .sb-overlay{display:block;position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.5);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
+  .sidebar:not(.collapsed)~.sb-overlay{opacity:1;visibility:visible}
+  .sb-toggle{z-index:110}
+  html[data-design="console"] .sb-overlay{background:transparent}
+}
 </style>
 <link rel="stylesheet" href="ios-theme.css">
 <style>
@@ -446,6 +454,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
 
   <!-- TOGGLE -->
   <button class="sb-toggle" id="sb-toggle" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="Ouvrir le sommaire">›</button>
+  <div class="sb-overlay" id="sb-overlay" aria-hidden="true"></div>
 
   <!-- MAIN -->
   <div class="main" id="main">
@@ -580,6 +589,9 @@ var toggle = document.getElementById('sb-toggle');
 var sidebarOpen = window.innerWidth > 768;
 
 function setSidebar(open) {
+  // Un panneau fermé devient inert (ni focus ni lecteur d'écran) : le focus qu'il portait passe d'abord à la languette.
+  if (!open && sidebar.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+  if ('inert' in sidebar) sidebar.inert = !open;
   sidebarOpen = open;
   sidebar.classList.toggle('collapsed', !open);
   toggle.textContent = open ? '‹' : '›';
@@ -592,6 +604,7 @@ setSidebar(sidebarOpen);
 toggle.addEventListener('click', function(){
   setSidebar(!sidebarOpen);
 });
+document.getElementById('sb-overlay').addEventListener('click', function(){ setSidebar(false); });
 
 // ══ RENDER INVOCATION ══
 // Font size controls

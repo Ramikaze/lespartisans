@@ -6,6 +6,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#04060c">
 <title>Les Partisans</title>
+<meta name="description" content="Ressources islamiques chiites en français : le Coran traduit, les hadiths des Ahl al-Bayt, les invocations (Ṣaḥīfa as-Sajjādiyya, Clés des Paradis), les 14 Infaillibles et les fondements de la foi.">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -196,6 +197,8 @@ html[data-lp-theme="light"] .day-ar::highlight(lp-said){text-shadow:0 0 14px rgb
 }
 .btn-lit:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 36px -4px rgba(var(--lp-glow),.75)}
 .btn-lit:active{transform:scale(.97)}
+/* « Écouter » garde sa place pendant que la récitation arrive : la page ne bouge pas quand il s'allume */
+.btn-lit:disabled{opacity:.4;cursor:default;box-shadow:none}
 .btn-lit svg{width:16px;height:16px}
 .btn-lit .i-pause{display:none}
 .btn-lit[aria-pressed="true"] .i-pause{display:block}
@@ -550,7 +553,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
     <span>Accueil</span>
   </button>
-  <a class="mark" id="logoBtn" href="#" aria-label="Les Partisans, accueil">
+  <a class="mark" id="logoBtn" href="./" aria-label="Les Partisans, accueil">
     <svg viewBox="0 0 20 26" aria-hidden="true"><path class="mark-arch" d="M2.5 25V12.5C2.5 8 6 4.6 10 1.5c4 3.1 7.5 6.5 7.5 11V25"/><circle class="mark-halo" cx="10" cy="15" r="5"/><circle class="mark-lamp" cx="10" cy="15" r="2.2"/></svg>
     <span class="mark-name">Les Partisans</span>
   </a>
@@ -593,10 +596,10 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       <h2 id="dayTitle">Verset du jour</h2>
       <span class="day-ref" id="votd-ref">Sourate al-Baqara · 2:153</span>
     </div>
-    <p class="day-ar" id="votd-ar" lang="ar" dir="rtl">يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ</p>
+    <p class="day-ar" id="votd-ar" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ</p>
     <blockquote class="day-fr" id="votd-fr">Croyants, recourez à la patience et à la Prière (persévérez dans la voie de la patience et de la prière) car DIEU est avec ceux qui patientent [sur Son chemin].</blockquote>
     <div class="day-foot">
-      <button class="btn-lit" id="votd-play" type="button" aria-pressed="false" hidden>
+      <button class="btn-lit" id="votd-play" type="button" aria-pressed="false" disabled>
         <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>
         <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5h3v14h-3zM13.5 5h3v14h-3z" fill="currentColor"/></svg>
         <span class="js-play-label">Écouter</span>
@@ -608,6 +611,205 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     </div>
     <audio id="votd-audio" preload="none"></audio>
   </section>
+<script>
+/* Date du jour et verset du jour, exécutés dès que leur bloc est lu : le texte définitif est en place avant
+   le premier affichage (sur Android, la page s'affichait avant le script de l'accueil et sautait). */
+  /* ── Date grégorienne et hégirienne ── */
+  (function () {
+    var d = new Date();
+    var g = '';
+    try { g = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(d); } catch (e) {}
+    var HM = ['Muḥarram', 'Ṣafar', 'Rabīʿ al-awwal', 'Rabīʿ al-thānī', 'Jumādā al-ūlā', 'Jumādā al-thāniya', 'Rajab', 'Shaʿbān', 'Ramaḍān', 'Shawwāl', 'Dhū al-qaʿda', 'Dhū al-ḥijja'];
+    var h = '';
+    try {
+      var fmt = new Intl.DateTimeFormat('en-u-ca-islamic-umalqura', { day: 'numeric', month: 'numeric', year: 'numeric' });
+      if (/islamic/.test(fmt.resolvedOptions().calendar)) {
+        var p = {};
+        fmt.formatToParts(d).forEach(function (x) { p[x.type] = x.value; });
+        if (p.day && p.month && p.year) h = p.day + ' ' + HM[(+p.month) - 1] + ' ' + String(p.year).replace(/\D/g, '') + ' H';
+      }
+    } catch (e) {}
+    document.querySelectorAll('.js-date-g').forEach(function (el) { el.textContent = g; });
+    document.querySelectorAll('.js-date-h').forEach(function (el) {
+      el.textContent = h;
+      el.title = 'Date hégirienne calculée (calendrier Umm al-Qurā) : elle peut différer d\'un ou deux jours de l\'observation du croissant.';
+    });
+    if (!h) document.querySelectorAll('.bar-dot').forEach(function (el) { el.hidden = true; });
+  })();
+
+  /* ── Verset du jour ── */
+  (function () {
+    var SURAHS = ['al-Fātiḥa','al-Baqara','Āl ʿImrān','an-Nisāʾ','al-Māʾida','al-Anʿām','al-Aʿrāf','al-Anfāl','at-Tawba','Yūnus','Hūd','Yūsuf','ar-Raʿd','Ibrāhīm','al-Ḥijr','an-Naḥl','al-Isrāʾ','al-Kahf','Maryam','Ṭā-Hā','al-Anbiyāʾ','al-Ḥajj','al-Muʾminūn','an-Nūr','al-Furqān','ash-Shuʿarāʾ','an-Naml','al-Qaṣaṣ','al-ʿAnkabūt','ar-Rūm','Luqmān','as-Sajda','al-Aḥzāb','Sabaʾ','Fāṭir','Yā-Sīn','aṣ-Ṣāffāt','Ṣād','az-Zumar','Ghāfir','Fuṣṣilat','ash-Shūrā','az-Zukhruf','ad-Dukhān','al-Jāthiya','al-Aḥqāf','Muḥammad','al-Fatḥ','al-Ḥujurāt','Qāf','adh-Dhāriyāt','aṭ-Ṭūr','an-Najm','al-Qamar','ar-Raḥmān','al-Wāqiʿa','al-Ḥadīd','al-Mujādala','al-Ḥashr','al-Mumtaḥana','aṣ-Ṣaff','al-Jumuʿa','al-Munāfiqūn','at-Taghābun','aṭ-Ṭalāq','at-Taḥrīm','al-Mulk','al-Qalam','al-Ḥāqqa','al-Maʿārij','Nūḥ','al-Jinn','al-Muzzammil','al-Muddaththir','al-Qiyāma','al-Insān','al-Mursalāt','an-Nabaʾ','an-Nāziʿāt','ʿAbasa','at-Takwīr','al-Infiṭār','al-Muṭaffifīn','al-Inshiqāq','al-Burūj','aṭ-Ṭāriq','al-Aʿlā','al-Ghāshiya','al-Fajr','al-Balad','ash-Shams','al-Layl','aḍ-Ḍuḥā','ash-Sharḥ','at-Tīn','al-ʿAlaq','al-Qadr','al-Bayyina','az-Zalzala','al-ʿĀdiyāt','al-Qāriʿa','at-Takāthur','al-ʿAṣr','al-Humaza','al-Fīl','Quraysh','al-Māʿūn','al-Kawthar','al-Kāfirūn','an-Naṣr','al-Masad','al-Ikhlāṣ','al-Falaq','an-Nās'];
+    var box = document.getElementById('votd-container');
+    var arEl = document.getElementById('votd-ar'), frEl = document.getElementById('votd-fr');
+    var refEl = document.getElementById('votd-ref'), srcEl = document.getElementById('votd-src');
+    var playBtn = document.getElementById('votd-play'), audio = document.getElementById('votd-audio');
+    var playLbl = playBtn.querySelector('.js-play-label');
+    var key = '2:153';
+    var segs = [], wordRanges = {}, saidPos = null, saidRaf = 0;
+    var Q = 'language=fr&translations=31&fields=text_uthmani&audio=7&translation_fields=resource_name&words=true&word_fields=text_uthmani';
+    /* Récitation lumineuse : le verset reste un seul texte, pour que le navigateur garde l'ordre arabe
+       de droite à gauche. Chaque mot est repéré par une plage de caractères, surlignée sans toucher au texte. */
+    var HL = !!(window.CSS && CSS.highlights && window.Highlight);
+    function setArabic(v) {
+      wordRanges = {}; said(null);
+      var words = (v.words || []).filter(function (w) { return w.char_type_name === 'word' && w.text_uthmani; })
+        .sort(function (a, b) { return a.position - b.position; });
+      if (!words.length) { arEl.textContent = v.text_uthmani; return; }
+      arEl.textContent = words.map(function (w) { return w.text_uthmani; }).join(' ');
+      if (!HL) return;
+      var node = arEl.firstChild, at = 0;
+      words.forEach(function (w) {
+        var r = document.createRange();
+        r.setStart(node, at); r.setEnd(node, at + w.text_uthmani.length);
+        wordRanges[w.position] = r;
+        at += w.text_uthmani.length + 1;
+      });
+    }
+    function said(pos) {
+      if (pos === saidPos) return;
+      saidPos = pos;
+      if (!HL) return;
+      var r = pos != null ? wordRanges[pos] : null;
+      if (r) CSS.highlights.set('lp-said', new Highlight(r)); else CSS.highlights.delete('lp-said');
+    }
+    function tick() {
+      var t = audio.currentTime * 1000, pos = null;
+      for (var i = 0; i < segs.length; i++) {
+        var g = segs[i], p = g.length > 3 ? g[1] : g[0], a = g.length > 3 ? g[2] : g[1], b = g.length > 3 ? g[3] : g[2];
+        if (t >= a && t < b) { pos = p; break; }
+      }
+      said(pos);
+      if (!audio.paused && !audio.ended) saidRaf = requestAnimationFrame(tick);
+    }
+
+    function refOf(k) { var s = +k.split(':')[0]; return 'Sourate ' + (SURAHS[s - 1] || s) + ' · ' + k; }
+    function render(data) {
+      var v = data && data.verse;
+      if (!v || !v.text_uthmani || !v.translations || !v.translations[0]) return false;
+      key = v.verse_key;
+      setArabic(v);
+      segs = (v.audio && v.audio.segments) || [];
+      frEl.textContent = v.translations[0].text.replace(/<sup.*?<\/sup>/g, '').replace(/<[^>]*>/g, '').trim();
+      refEl.textContent = refOf(key);
+      var rn = v.translations[0].resource_name || '';
+      var m = /\(([^)]+)\)\s*$/.exec(rn);
+      srcEl.textContent = 'Trad. ' + (m ? m[1] : (rn || 'Muhammad Hamidullah'));
+      fitArabic();
+      if (v.audio && v.audio.url) {
+        audio.src = (/^https?:/.test(v.audio.url) ? '' : 'https://verses.quran.com/') + v.audio.url;
+        playBtn.hidden = false; playBtn.disabled = false;
+      } else playBtn.hidden = true;
+      return true;
+    }
+    function done() { box.classList.remove('is-loading'); fitArabic(); }
+    /* Le verset arabe tient en trois lignes au plus : la police se réduit pour les longs versets. */
+    function fitArabic() {
+      arEl.style.removeProperty('--ar-fit');
+      var size = parseFloat(getComputedStyle(arEl).fontSize);
+      var lh = 1.85, guard = 0;
+      while (arEl.scrollHeight > size * lh * 3.25 && size > 21 && guard++ < 12) {
+        size -= 2;
+        arEl.style.setProperty('--ar-fit', size + 'px');
+      }
+    }
+    var fitT;
+    window.addEventListener('resize', function () { clearTimeout(fitT); fitT = setTimeout(fitArabic, 150); });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitArabic);
+    var today = new Date().toISOString().split('T')[0];
+    var RANDOM = 'https://api.quran.com/api/v4/verses/random?' + Q;
+    /* Versets courts de la première visite : l'arabe est celui de l'API au caractère près, le français celui du
+       Dr Fakhri (comme « Lire le Coran ») ; un par jour, selon la date, même sans stockage local. */
+    var FAKHRI = 'Dr Abolqasemi Fakhri';
+    var FIRST = [
+      ["2:45", "وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَـٰشِعِينَ", "Cherchez assistance dans la patience et la Prière ; et, c’est lourd sauf pour ceux qui sont humbles [devant DIEU],"],
+      ["2:152", "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ", "Souvenez-vous de Moi, Je Me souviendrai de vous. Soyez reconnaissants à Mon égard et ne soyez pas ingrats envers Moi."],
+      ["2:153", "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ", "Croyants, recourez à la patience et à la Prière (persévérez dans la voie de la patience et de la prière) car DIEU est avec ceux qui patientent [sur Son chemin]."],
+      ["2:186", "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ", "Et quand Mes serviteurs t’interrogent à Mon sujet, en vérité Je suis proche, J’exauce l’appel de celui qui [m’]appelle dès qu’il M’appelle. Qu’ils répondent à Mon appel et qu’ils croient en Moi afin qu’ils soient bien guidés."],
+      ["3:139", "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ", "Ne faiblissez pas, ne vous attristez pas, vous êtes supérieurs si vous êtes croyants [purs et sincères]."],
+      ["3:200", "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ", "Croyants, soyez patients [sur le chemin de DIEU], rivalisez de patience [pour tendre à la perfection], tenez-vous sur [vos] gardes (soyez fermes) et soyez pieux envers DIEU (obéissez à Ses ordres) afin que vous réussissiez [à parvenir au Paradis]."],
+      ["5:55", "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ", "Vos protecteurs [amis et guides sincères] ne sont que DIEU, Son prophète et les croyants [parfaits] qui accomplissent la Prière et font l’aumône en s’inclinant [devant DIEU]."],
+      ["13:28", "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ", "ceux qui ont cru et dont les cœurs se rassurent (s’allument) en se rappelant DIEU ». Remarquez, les cœurs se rassurent (s’illuminent) en se rappelant DIEU."],
+      ["20:114", "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ ۖ وَقُل رَّبِّ زِدْنِى عِلْمًۭا", "Exalté soit DIEU, le Vrai Souverain. Ne te hâtes pas [de réciter] le Coran avant que ne soit achevé pour toi sa révélation. Dis : « Seigneur, accrois ma science (et ma connaissance) »."],
+      ["29:69", "وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ", "[Tous] ceux qui [désirent sincèrement et] font un effort pour [venir vers] Nous, Nous les guiderons dans Nos chemins. [L’aide ou l’agrément de] DIEU est avec les bienfaiteurs [qui œuvrent conformément aux enseignements divins]."],
+      ["39:53", "۞ قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ", "Dis à Mes serviteurs : « [Ô hommes !] vous qui avez commis des excès à votre propre détriment, ne désespérez pas de la miséricorde de DIEU. DIEU pardonne tous les péchés, car Il est Celui qui pardonne, Très Miséricordieux."],
+      ["65:3", "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍۢ قَدْرًۭا", "et lui donnera des subsistances par des voies inattendues. Quiconque s’en remet à DIEU, DIEU lui suffit. DIEU réalise Son ordre. DIEU a assigné une mesure à chaque chose."],
+      ["94:6", "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا", "Oui, avec [à côté de chaque] difficulté, il y a une aise."]
+    ];
+    var cached = null, next = null;
+    try {
+      if (localStorage.getItem('quran_votd_date') === today) cached = JSON.parse(localStorage.getItem('quran_votd_data'));
+      next = JSON.parse(localStorage.getItem('quran_votd_next') || 'null');
+    } catch (e) {}
+    function keep(data) { try { localStorage.setItem('quran_votd_date', today); localStorage.setItem('quran_votd_data', JSON.stringify(data)); } catch (e) {} }
+    /* Le verset du jour s'affiche dès l'ouverture, jamais en remplacement d'un autre (la page ne saute plus) :
+       celui du lendemain est tiré d'avance et gardé ; à la première visite, c'est le verset du jour de la liste
+       FIRST, affiché aussitôt, dont seule la récitation est demandée (même texte : rien ne bouge). */
+    function prefetchNext() {
+      var tries = 0;
+      (function one() {
+        tries++;
+        fetch(RANDOM)
+          .then(function (r) { return r.json(); })
+          .then(function (data) {
+            var v = data && data.verse;
+            if (!v || !v.text_uthmani || !v.translations || !v.translations[0]) return;
+            var long = v.translations[0].text.length > 300 || v.text_uthmani.length > 210;
+            if (long && tries < 3) return one();
+            try { localStorage.setItem('quran_votd_next', JSON.stringify(data)); } catch (e) {}
+          })
+          .catch(function () {});
+      })();
+    }
+    if (cached && render(cached)) {
+      done();
+      /* Ancien cache sans le découpage en mots : on le complète pour la récitation lumineuse */
+      if (!cached.verse.words) {
+        fetch('https://api.quran.com/api/v4/verses/by_key/' + encodeURIComponent(cached.verse.verse_key) + '?' + Q)
+          .then(function (r) { return r.json(); })
+          .then(function (data) { if (data && data.verse && render(data)) { fitArabic(); keep(data); } })
+          .catch(function () {});
+      }
+      if (!next) prefetchNext();
+    }
+    else if (next && render(next)) {
+      keep(next);
+      try { localStorage.removeItem('quran_votd_next'); } catch (e) {}
+      done();
+      prefetchNext();
+    }
+    else {
+      var first = FIRST[Math.floor(Date.parse(today) / 864e5) % FIRST.length];
+      key = first[0];
+      arEl.textContent = first[1]; frEl.textContent = first[2];
+      refEl.textContent = refOf(key); srcEl.textContent = 'Trad. ' + FAKHRI;
+      done();
+      fetch('https://api.quran.com/api/v4/verses/by_key/' + encodeURIComponent(key) + '?' + Q)
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          /* la traduction affichée reste celle du Dr Fakhri, aussi dans le cache du jour */
+          var t = data && data.verse && data.verse.translations && data.verse.translations[0];
+          if (t) { t.text = first[2]; t.resource_name = 'Traduction française (' + FAKHRI + ')'; }
+          if (render(data)) keep(data); else playBtn.hidden = true;
+        })
+        .catch(function () { playBtn.hidden = true; });
+      prefetchNext();
+    }
+    function setPlaying(on) {
+      playBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      playLbl.textContent = on ? 'Pause' : 'Écouter';
+    }
+    playBtn.addEventListener('click', function () {
+      if (audio.paused) { audio.play().then(function () { setPlaying(true); }).catch(function () { setPlaying(false); }); }
+      else { audio.pause(); setPlaying(false); }
+    });
+    audio.addEventListener('play', function () { cancelAnimationFrame(saidRaf); saidRaf = requestAnimationFrame(tick); });
+    audio.addEventListener('pause', function () { cancelAnimationFrame(saidRaf); setPlaying(false); });
+    audio.addEventListener('ended', function () { setPlaying(false); cancelAnimationFrame(saidRaf); said(null); });
+    /* « Lire dans le Coran » est branché par le script de l'accueil, plus bas : il lit ici le verset affiché */
+    window.lpVotdKey = function () { return key; };
+  })();
+</script>
 
   <button class="find" id="searchInput" type="button">
     <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>
@@ -884,152 +1086,9 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     framesHost.appendChild(w);
   }
 
-  /* ── Date grégorienne et hégirienne ── */
-  (function () {
-    var d = new Date();
-    var g = '';
-    try { g = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(d); } catch (e) {}
-    var HM = ['Muḥarram', 'Ṣafar', 'Rabīʿ al-awwal', 'Rabīʿ al-thānī', 'Jumādā al-ūlā', 'Jumādā al-thāniya', 'Rajab', 'Shaʿbān', 'Ramaḍān', 'Shawwāl', 'Dhū al-qaʿda', 'Dhū al-ḥijja'];
-    var h = '';
-    try {
-      var fmt = new Intl.DateTimeFormat('en-u-ca-islamic-umalqura', { day: 'numeric', month: 'numeric', year: 'numeric' });
-      if (/islamic/.test(fmt.resolvedOptions().calendar)) {
-        var p = {};
-        fmt.formatToParts(d).forEach(function (x) { p[x.type] = x.value; });
-        if (p.day && p.month && p.year) h = p.day + ' ' + HM[(+p.month) - 1] + ' ' + String(p.year).replace(/\D/g, '') + ' H';
-      }
-    } catch (e) {}
-    document.querySelectorAll('.js-date-g').forEach(function (el) { el.textContent = g; });
-    document.querySelectorAll('.js-date-h').forEach(function (el) {
-      el.textContent = h;
-      el.title = 'Date hégirienne calculée (calendrier Umm al-Qurā) : elle peut différer d\'un ou deux jours de l\'observation du croissant.';
-    });
-    if (!h) document.querySelectorAll('.bar-dot').forEach(function (el) { el.hidden = true; });
-  })();
+  /* Date et verset du jour : script placé juste après le verset, plus haut */
+  document.getElementById('votd-open').addEventListener('click', function (e) { enterFrom(e.currentTarget, 8, window.lpVotdKey ? window.lpVotdKey() : '2:153'); });
 
-  /* ── Verset du jour ── */
-  (function () {
-    var SURAHS = ['al-Fātiḥa','al-Baqara','Āl ʿImrān','an-Nisāʾ','al-Māʾida','al-Anʿām','al-Aʿrāf','al-Anfāl','at-Tawba','Yūnus','Hūd','Yūsuf','ar-Raʿd','Ibrāhīm','al-Ḥijr','an-Naḥl','al-Isrāʾ','al-Kahf','Maryam','Ṭā-Hā','al-Anbiyāʾ','al-Ḥajj','al-Muʾminūn','an-Nūr','al-Furqān','ash-Shuʿarāʾ','an-Naml','al-Qaṣaṣ','al-ʿAnkabūt','ar-Rūm','Luqmān','as-Sajda','al-Aḥzāb','Sabaʾ','Fāṭir','Yā-Sīn','aṣ-Ṣāffāt','Ṣād','az-Zumar','Ghāfir','Fuṣṣilat','ash-Shūrā','az-Zukhruf','ad-Dukhān','al-Jāthiya','al-Aḥqāf','Muḥammad','al-Fatḥ','al-Ḥujurāt','Qāf','adh-Dhāriyāt','aṭ-Ṭūr','an-Najm','al-Qamar','ar-Raḥmān','al-Wāqiʿa','al-Ḥadīd','al-Mujādala','al-Ḥashr','al-Mumtaḥana','aṣ-Ṣaff','al-Jumuʿa','al-Munāfiqūn','at-Taghābun','aṭ-Ṭalāq','at-Taḥrīm','al-Mulk','al-Qalam','al-Ḥāqqa','al-Maʿārij','Nūḥ','al-Jinn','al-Muzzammil','al-Muddaththir','al-Qiyāma','al-Insān','al-Mursalāt','an-Nabaʾ','an-Nāziʿāt','ʿAbasa','at-Takwīr','al-Infiṭār','al-Muṭaffifīn','al-Inshiqāq','al-Burūj','aṭ-Ṭāriq','al-Aʿlā','al-Ghāshiya','al-Fajr','al-Balad','ash-Shams','al-Layl','aḍ-Ḍuḥā','ash-Sharḥ','at-Tīn','al-ʿAlaq','al-Qadr','al-Bayyina','az-Zalzala','al-ʿĀdiyāt','al-Qāriʿa','at-Takāthur','al-ʿAṣr','al-Humaza','al-Fīl','Quraysh','al-Māʿūn','al-Kawthar','al-Kāfirūn','an-Naṣr','al-Masad','al-Ikhlāṣ','al-Falaq','an-Nās'];
-    var box = document.getElementById('votd-container');
-    var arEl = document.getElementById('votd-ar'), frEl = document.getElementById('votd-fr');
-    var refEl = document.getElementById('votd-ref'), srcEl = document.getElementById('votd-src');
-    var playBtn = document.getElementById('votd-play'), audio = document.getElementById('votd-audio');
-    var playLbl = playBtn.querySelector('.js-play-label');
-    var key = '2:153';
-    var segs = [], wordRanges = {}, saidPos = null, saidRaf = 0;
-    var Q = 'language=fr&translations=31&fields=text_uthmani&audio=7&translation_fields=resource_name&words=true&word_fields=text_uthmani';
-    /* Récitation lumineuse : le verset reste un seul texte, pour que le navigateur garde l'ordre arabe
-       de droite à gauche. Chaque mot est repéré par une plage de caractères, surlignée sans toucher au texte. */
-    var HL = !!(window.CSS && CSS.highlights && window.Highlight);
-    function setArabic(v) {
-      wordRanges = {}; said(null);
-      var words = (v.words || []).filter(function (w) { return w.char_type_name === 'word' && w.text_uthmani; })
-        .sort(function (a, b) { return a.position - b.position; });
-      if (!words.length) { arEl.textContent = v.text_uthmani; return; }
-      arEl.textContent = words.map(function (w) { return w.text_uthmani; }).join(' ');
-      if (!HL) return;
-      var node = arEl.firstChild, at = 0;
-      words.forEach(function (w) {
-        var r = document.createRange();
-        r.setStart(node, at); r.setEnd(node, at + w.text_uthmani.length);
-        wordRanges[w.position] = r;
-        at += w.text_uthmani.length + 1;
-      });
-    }
-    function said(pos) {
-      if (pos === saidPos) return;
-      saidPos = pos;
-      if (!HL) return;
-      var r = pos != null ? wordRanges[pos] : null;
-      if (r) CSS.highlights.set('lp-said', new Highlight(r)); else CSS.highlights.delete('lp-said');
-    }
-    function tick() {
-      var t = audio.currentTime * 1000, pos = null;
-      for (var i = 0; i < segs.length; i++) {
-        var g = segs[i], p = g.length > 3 ? g[1] : g[0], a = g.length > 3 ? g[2] : g[1], b = g.length > 3 ? g[3] : g[2];
-        if (t >= a && t < b) { pos = p; break; }
-      }
-      said(pos);
-      if (!audio.paused && !audio.ended) saidRaf = requestAnimationFrame(tick);
-    }
-
-    function refOf(k) { var s = +k.split(':')[0]; return 'Sourate ' + (SURAHS[s - 1] || s) + ' · ' + k; }
-    function render(data) {
-      var v = data && data.verse;
-      if (!v || !v.text_uthmani || !v.translations || !v.translations[0]) return false;
-      key = v.verse_key;
-      setArabic(v);
-      segs = (v.audio && v.audio.segments) || [];
-      frEl.textContent = v.translations[0].text.replace(/<sup.*?<\/sup>/g, '').replace(/<[^>]*>/g, '').trim();
-      refEl.textContent = refOf(key);
-      var rn = v.translations[0].resource_name || '';
-      var m = /\(([^)]+)\)\s*$/.exec(rn);
-      srcEl.textContent = 'Trad. ' + (m ? m[1] : (rn || 'Muhammad Hamidullah'));
-      fitArabic();
-      if (v.audio && v.audio.url) {
-        audio.src = (/^https?:/.test(v.audio.url) ? '' : 'https://verses.quran.com/') + v.audio.url;
-        playBtn.hidden = false;
-      }
-      return true;
-    }
-    function done() { box.classList.remove('is-loading'); fitArabic(); }
-    /* Le verset arabe tient en trois lignes au plus : la police se réduit pour les longs versets. */
-    function fitArabic() {
-      arEl.style.removeProperty('--ar-fit');
-      var size = parseFloat(getComputedStyle(arEl).fontSize);
-      var lh = 1.85, guard = 0;
-      while (arEl.scrollHeight > size * lh * 3.25 && size > 21 && guard++ < 12) {
-        size -= 2;
-        arEl.style.setProperty('--ar-fit', size + 'px');
-      }
-    }
-    var fitT;
-    window.addEventListener('resize', function () { clearTimeout(fitT); fitT = setTimeout(fitArabic, 150); });
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitArabic);
-    var today = new Date().toISOString().split('T')[0];
-    var cached = null;
-    try { if (localStorage.getItem('quran_votd_date') === today) cached = JSON.parse(localStorage.getItem('quran_votd_data')); } catch (e) {}
-    if (cached && render(cached)) {
-      done();
-      /* Ancien cache sans le découpage en mots : on le complète pour la récitation lumineuse */
-      if (!cached.verse.words) {
-        fetch('https://api.quran.com/api/v4/verses/by_key/' + encodeURIComponent(cached.verse.verse_key) + '?' + Q)
-          .then(function (r) { return r.json(); })
-          .then(function (data) { if (data && data.verse && render(data)) { fitArabic(); try { localStorage.setItem('quran_votd_data', JSON.stringify(data)); } catch (e) {} } })
-          .catch(function () {});
-      }
-    }
-    else {
-      var tries = 0;
-      (function fetchOne() {
-        tries++;
-        fetch('https://api.quran.com/api/v4/verses/random?' + Q)
-          .then(function (r) { return r.json(); })
-          .then(function (data) {
-            var v = data && data.verse;
-            var long = v && v.translations && v.translations[0] && (v.translations[0].text.length > 300 || (v.text_uthmani || '').length > 210);
-            if (long && tries < 3) return fetchOne();
-            if (render(data)) {
-              try { localStorage.setItem('quran_votd_date', today); localStorage.setItem('quran_votd_data', JSON.stringify(data)); } catch (e) {}
-            }
-            done();
-          })
-          .catch(function () { done(); });
-      })();
-    }
-    function setPlaying(on) {
-      playBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
-      playLbl.textContent = on ? 'Pause' : 'Écouter';
-    }
-    playBtn.addEventListener('click', function () {
-      if (audio.paused) { audio.play().then(function () { setPlaying(true); }).catch(function () { setPlaying(false); }); }
-      else { audio.pause(); setPlaying(false); }
-    });
-    audio.addEventListener('play', function () { cancelAnimationFrame(saidRaf); saidRaf = requestAnimationFrame(tick); });
-    audio.addEventListener('pause', function () { cancelAnimationFrame(saidRaf); setPlaying(false); });
-    audio.addEventListener('ended', function () { setPlaying(false); cancelAnimationFrame(saidRaf); said(null); });
-    document.getElementById('votd-open').addEventListener('click', function (e) { enterFrom(e.currentTarget, 8, key); });
-  })();
 
   /* ── Sources et salles ── */
   var towers = Array.prototype.slice.call(document.querySelectorAll('.tower:not(.is-hollow)'));
@@ -1472,7 +1531,8 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     /* au clavier, on revient sur la dalle d'où l'on était parti */
     if (wasSalle && viaKeys && tile) tile.focus({ preventScroll: true });
     lpSky.wake();
-    if (!_fromPop) try { history.pushState({ page: 'home' }, '', '#'); } catch (e) {}
+    /* l'accueil garde une adresse nette, sans « # » final */
+    if (!_fromPop) try { history.pushState({ page: 'home' }, '', location.pathname + location.search); } catch (e) {}
   }
   function openModule(idx, innerState, from) {
     /* le verset du jour se tait quand une page s'ouvre (sinon deux récitations se superposent) */
@@ -1583,7 +1643,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     clearRoom();
     homeEl.classList.add('is-first');
     setTimeout(function () { homeEl.classList.remove('is-first'); }, 2000);
-    try { history.replaceState({ page: 'home' }, '', '#'); } catch (e) {}
+    try { history.replaceState({ page: 'home' }, '', location.pathname + location.search); } catch (e) {}
   }
 
   /* Retour à l'accueil depuis une page ouverte depuis l'accueil : on recule d'un cran (le bouton Retour du

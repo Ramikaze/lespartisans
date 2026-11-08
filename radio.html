@@ -236,6 +236,8 @@
       cursor: pointer;
     }
 
+    #volumeIcon:focus-visible { outline: 2px solid #c9a84c; outline-offset: 3px; border-radius: 4px; }
+
     .volume-slider {
       flex: 1;
       height: 4px;
@@ -496,7 +498,7 @@ html[data-design="console"] .loading-stations[style]{color:var(--ra-err)!importa
 
     <div class="controls">
       <div class="volume-box">
-        <svg id="volumeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg id="volumeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" role="button" tabindex="0" aria-label="Couper le son" aria-pressed="false">
           <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
           <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
         </svg>
@@ -661,26 +663,40 @@ html[data-design="console"] .loading-stations[style]{color:var(--ra-err)!importa
     // Une pause venue d'ailleurs (accueil) remet le bouton sur Lecture
     audio.addEventListener('pause', function() { if(currentStation && statusText.textContent !== 'Erreur de connexion') streamStopped('Pause'); });
 
-    // Volume management
+    // Volume. Sur iPhone et iPad, iOS ignore audio.volume (toujours 1, réglé par les boutons du téléphone) :
+    // le curseur y est masqué et le bouton coupe le son avec audio.muted, qui fonctionne partout.
+    var ICON_ON = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>';
+    var ICON_OFF = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
+    var lastVolume = 0.8;
+    var volumeFixed = (function() { try { var t = document.createElement('audio'); t.volume = 0.5; return t.volume !== 0.5; } catch(e) { return false; } })();
+    if(volumeFixed) volumeSlider.hidden = true;
+    function showVolume() {
+      var silent = audio.muted || audio.volume === 0;
+      volumeIcon.innerHTML = silent ? ICON_OFF : ICON_ON;
+      volumeIcon.setAttribute('aria-label', silent ? 'Remettre le son' : 'Couper le son');
+      volumeIcon.setAttribute('aria-pressed', String(silent));
+    }
     volumeSlider.oninput = function() {
-      audio.volume = this.value;
-      if(this.value == 0) {
-        volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
-      } else {
-        volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>';
-      }
+      var v = parseFloat(this.value);
+      audio.volume = v;
+      audio.muted = v === 0;
+      if(v > 0) lastVolume = v;
+      showVolume();
     };
 
     volumeIcon.onclick = function() {
-      if(audio.volume > 0) {
-        audio.volume = 0;
-        volumeSlider.value = 0;
-        volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
+      if(audio.muted || audio.volume === 0) {
+        audio.muted = false;
+        if(audio.volume === 0) audio.volume = lastVolume;
+        volumeSlider.value = audio.volume;
       } else {
-        audio.volume = 0.8;
-        volumeSlider.value = 0.8;
-        volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>';
+        audio.muted = true;
+        volumeSlider.value = 0;
       }
+      showVolume();
+    };
+    volumeIcon.onkeydown = function(e) {
+      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); volumeIcon.onclick(); }
     };
 
     // Filter stations on search
