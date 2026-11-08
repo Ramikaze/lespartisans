@@ -103,8 +103,8 @@ var DATA = {
         { id: 's71', label: '71. La Supplication confidentielle des craintifs', emoji: '📖' },
         { id: 's72', label: '72. La Supplication confidentielle de ceux qui espèrent', emoji: '📖' },
         { id: 's73', label: '73. La Supplication confidentielle des désireux', emoji: '📖' },
-        { id: 's74', label: '74. Munâjât des reconnaissants', disabled: true },
-        { id: 's75', label: '75. Munâjât de ceux qui obéissent', disabled: true },
+        { id: 's74', label: '74. La Supplication confidentielle des reconnaissants', emoji: '📖' },
+        { id: 's75', label: '75. La Supplication confidentielle de ceux qui obéissent à Dieu', emoji: '📖' },
         { id: 's76', label: '76. Munâjât des Pieux', disabled: true },
         { id: 's77', label: '77. Munâjât des Amoureux', disabled: true },
         { id: 's78', label: '78. Munâjât — demande de Médiation', disabled: true },
@@ -2326,6 +2326,37 @@ var DATA = {
         {t:'instruction', tx:'Notes de bas de page :'},
         {t:'intro', tx:'<span id="note-310"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-310\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[310]</a></span> Ici, il est fait allusion à l\'Invocation 59/8 ainsi qu\'au Hadith <em>qudsi</em> cité à la note 281 : « Je suis avec Mon Serviteur qui fait preuve d\'un bon sentiment envers Moi » ; d\'autres versions font état de la formulation suivante : « … aussi, laisse-le libre de penser ce qu\'il veut de Moi ».'},
         {t:'intro', tx:'<span id="note-311"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-311\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[311]</a></span> Ici, il est fait allusion à la requête du Prophète (pslf) citée à la note 256 : « Je cherche refuge dans Ta Satisfaction contre Ton Insatisfaction ainsi que dans Ton Pardon contre Ton Châtiment. Je cherche refuge en Toi et par Toi ».'},
+      ]
+    },
+
+    s74: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '74. La Supplication confidentielle des reconnaissants',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô mon Dieu ! J\'en ai oublié de T\'exprimer ma reconnaissance, pris dans le flot continuel de Ta Générosité ! J\'ai été incapable de faire Ton Éloge, pris dans le débordement de Ta Bonté ! J\'ai été distrait au point de ne pas faire mention de Tes Louanges, pris dans l\'enchaînement de Tes Preuves de Bienveillance ! J\'ai été impuissant à répandre Tes Faveurs, pris dans la succession des présents attribués par Tes Mains ! Là est la position de celui qui avoue la profusion de grâces et qui avoue l\'avoir accueillie avec peu de considération, témoignant contre lui-même d\'un état de négligence et de défaillance. Tu es Le Compatissant ; Le Clément ; Le Bienveillant ; Le Généreux ; Celui Qui ne déçoit pas ceux qui s\'adressent à Lui ni ne renvoie de Sa Cour ceux qui placent leur espérance en Lui ! Dans Ta Cour sont déposés les bagages de ceux qui espèrent ; dans Ton Enceinte séjournent les espérances de ceux qui affluent à la recherche d\'assistance ! Aussi, ne réponds à nos espérances ni par l\'insuccès ni par la déception ; ne nous revêts pas de l\'habit de la désolation et de l\'accablement !'},
+        {t:'v',n:2, tx:'Mon Dieu ! À côté de l\'abondance de Tes Bienfaits, ma reconnaissance est bien modeste ; à côté de la distinction dont Tu m\'as accordé la faveur, ma louange et mon éloge sont bien insignifiants ! Tes Faveurs m\'ont couvert des parures des lumières de la Foi ; les sollicitudes de Ta Bienveillance m\'ont orné des couronnes de la gloire ; elles m\'ont agrémenté de colliers qui ne peuvent être retirés et entouré de ceintures qui ne peuvent être ouvertes ! Tes Bienfaits sont tellement abondants que ma langue est impuissante à les dénombrer ! Tes Faveurs sont tellement innombrables que mon entendement est impuissant à les discerner et à les exprimer ! Aussi, comment parvenir à une preuve de gratitude alors que cette preuve de gratitude envers Toi nécessite elle-même une preuve de gratitude ? Chaque évocation de « Louange à Toi ! » m\'oblige à évoquer à nouveau « Louange à Toi ! »'},
+        {t:'v',n:3, tx:'Mon Dieu ! De la même manière que Tu nous as nourris par Ta Bienveillance, que Tu nous as élevés par Ta Bonté, continue de répandre sur nous Tes Grâces ; éloigne de nous les actes coupables susceptibles de sanction ; accorde-nous, de chacune des deux Demeures, l\'excellente part et la plus illustre, dans l\'immédiat et dans le futur. Louange à Toi ! pour Ton Épreuve justifiée et l\'abondance de Tes Faveurs, une Louange conforme à Ta Satisfaction, attirant Ton Immense Bonté, Te proclamant : Ô Le Tout-Puissant ! Ô Le Généreux ! Par Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+      ]
+    },
+
+    s75: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '75. La Supplication confidentielle de ceux qui obéissent à Dieu',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô mon Dieu ! Inspire-nous de l\'obéissance envers Toi ; écarte-nous de la désobéissance envers Toi ; facilite à notre avantage l\'accès à ce que nous désirons ardemment pour obtenir Ta Satisfaction ; fais-nous parvenir au milieu de Tes Jardins ; dissipe de nos cœurs les brumes de la suspicion ; débarrasse nos cœurs des barrières de l\'incertitude et de l\'aveuglement ; fais disparaître l\'erreur de nos consciences et affermis la vérité dans notre for intérieur car les doutes et les soupçons fécondent les séditions et souillent la pureté des dons et des bienfaits !'},
+        {t:'v',n:2, tx:'Ô mon Dieu ! Prends-nous à bord des vaisseaux de Ton Salut ; fais-nous apprécier le plaisir des supplications qui Te sont adressées ; laisse-nous boire aux sources de Ton Amour ; fais-nous goûter à la douceur de Ton Affection et de Ta Proximité ; fais que notre lutte soit pour Toi<sup id="ref-312"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-312\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[312]</a></sup> ; fais que notre préoccupation soit celle de l\'obéissance envers Toi ; fais que nos intentions d\'œuvrer pour Toi soient sincères, car nous existons par Toi et pour Toi ; nous ne possédons aucun autre moyen de parvenir à Toi si ce n\'est Toi !'},
+        {t:'v',n:3, tx:'Mon Dieu ! Installe-moi parmi les Élus ; les Excellents ; accorde-moi de rejoindre les justes ; les pieux ; les premiers à atteindre les dons généreux ; les plus rapides à accomplir le Bien ; les plus actifs à réaliser les bonnes œuvres impérissables ; les persévérants désireux d\'atteindre les plus hauts degrés ! <em>Tu es, en vérité, puissant sur toutes choses !</em><sup id="ref-313"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'note-313\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[313]</a></sup> et Tu es Le Plus Digne d\'exaucer ! Par Ta Miséricorde ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+        {t:'instruction', tx:'Notes de bas de page :'},
+        {t:'intro', tx:'<span id="note-312"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-312\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[312]</a></span> Ici, il est fait allusion au Coran 29/69 : « <em>Oui, nous dirigeons sur nos chemins ceux qui auront combattu pour nous. Dieu est avec ceux qui font le Bien</em> ».'},
+        {t:'intro', tx:'<span id="note-313"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-313\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[313]</a></span> Coran 3/26'},
       ]
     },
 
