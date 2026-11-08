@@ -10,6 +10,14 @@
    ?design=console) à l'adresse ; le choix tient pour l'onglet.
    ====================================================================== */
 (function () {
+  /* Messages entre fenêtres : seules les pages du site (même origine) sont écoutées. Une page d'un autre
+     site qui afficherait celui-ci dans un cadre, ou l'aurait ouvert, ne peut plus changer son thème, sa page
+     ni sa recherche (« theme », « gs-navigate », « gs-open »… étaient acceptés de partout). Chargé le premier,
+     cet écouteur passe avant tous ceux des pages et arrête les messages venus d'ailleurs. */
+  window.addEventListener('message', function (e) {
+    if (e.origin !== location.origin) e.stopImmediatePropagation();
+  }, true);
+
   var DESIGN = 'console';
 
   /* Ciel de nuit du design « Console » : 'brume' | 'lactee' | 'nebuleuse' | 'desert'.

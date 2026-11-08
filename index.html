@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.cdnfonts.com; font-src 'self' https://fonts.gstatic.com https://fonts.cdnfonts.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com; media-src 'self' https:; connect-src 'self' https://api.quran.com https://api.qurancdn.com https://www.mp3quran.net https://noembed.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#04060c">
@@ -12,12 +13,13 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="lp-design.js"></script>
 <script>if (window.LP_DESIGN === 'classique') { document.documentElement.style.display = 'none'; location.replace('index-classique.html' + location.hash); }</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/atkinson-next-200-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/scheherazade-new-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="console.css">
-<script src="vendor/fuse-7.0.0.min.js"></script>
-<script src="recherche.js"></script>
+<!-- Moteur de recherche : servi seulement quand l'index arrive (première ouverture de la recherche) ;
+     « defer » : il ne retarde plus le premier affichage de l'accueil -->
+<script src="vendor/fuse-7.0.0.min.js" defer></script>
+<script src="recherche.js" defer></script>
 <!-- global-search-data.js (3,7 Mo) n'est chargé qu'à la première ouverture de la recherche (voir withIndex) -->
 <style>
 /* ── Hub « Console » : jetons propres au hub ─────────────────────────── */
@@ -1559,7 +1561,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
         var l = document.getElementById('loader' + idx);
         if (l) l.classList.add('done');
         arrive();
-        try { iframe.contentWindow.postMessage({ type: 'theme', theme: currentTheme() }, '*'); } catch (e) {}
+        try { iframe.contentWindow.postMessage({ type: 'theme', theme: currentTheme() }, location.origin); } catch (e) {}
       }, { once: true });
       iframe.src = src;
     } else {
@@ -1691,7 +1693,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   });
 
   /* ── Recherche : déclencheurs ── */
-  document.getElementById('searchInput').addEventListener('click', function () { window.postMessage({ type: 'gs-open' }, '*'); });
+  document.getElementById('searchInput').addEventListener('click', function () { window.postMessage({ type: 'gs-open' }, location.origin); });
   var isMac = /Mac|iPhone|iPad|iPod/.test(navigator.platform || navigator.userAgent);
   document.querySelectorAll('.js-kbd').forEach(function (k) { k.textContent = isMac ? '⌘ K' : 'Ctrl K'; });
 
@@ -1709,7 +1711,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (broadcast) {
       for (var i = 0; i < N; i++) {
         var ifr = document.getElementById('iframe' + i);
-        if (ifr && ifr.contentWindow) try { ifr.contentWindow.postMessage({ type: 'theme', theme: t }, '*'); } catch (e) {}
+        if (ifr && ifr.contentWindow) try { ifr.contentWindow.postMessage({ type: 'theme', theme: t }, location.origin); } catch (e) {}
       }
     }
   }
@@ -1862,7 +1864,13 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     var sc = document.createElement('script');
     sc.src = 'global-search-data.js';
     function flush() { gsLoading = false; var q = gsQueue; gsQueue = []; q.forEach(function (f) { f(); }); }
-    sc.onload = function () { try { gsFuse = window.lpSearch.build(window.GLOBAL_SEARCH_INDEX || []); } catch (e) {} flush(); };
+    /* recherche.js est en « defer » : l'index (déjà en cache) peut arriver avant lui. Le moteur se construit
+       alors dès que les scripts différés ont tourné (DOMContentLoaded), sinon la première recherche restait vide. */
+    function build() { try { gsFuse = window.lpSearch.build(window.GLOBAL_SEARCH_INDEX || []); } catch (e) {} flush(); }
+    sc.onload = function () {
+      if (window.lpSearch || document.readyState !== 'loading') build();
+      else document.addEventListener('DOMContentLoaded', build, { once: true });
+    };
     sc.onerror = function () { sc.parentNode && sc.parentNode.removeChild(sc); flush(); };
     document.head.appendChild(sc);
   }
@@ -2008,7 +2016,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       var iframeEl = document.getElementById('iframe' + item.idx);
       var wasLoaded = !!(iframeEl && iframeEl.getAttribute('src'));
       window.openModule(item.idx, state);
-      if (wasLoaded && state) { try { iframeEl.contentWindow.postMessage({ type: 'gs-navigate', state: state }, '*'); } catch (ex) {} }
+      if (wasLoaded && state) { try { iframeEl.contentWindow.postMessage({ type: 'gs-navigate', state: state }, location.origin); } catch (ex) {} }
     }
   }
   var debounceTimer;

@@ -2,12 +2,13 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.cdnfonts.com; font-src 'self' https://fonts.gstatic.com https://fonts.cdnfonts.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com; media-src 'self' https:; connect-src 'self' https://api.quran.com https://api.qurancdn.com https://www.mp3quran.net https://noembed.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Biḥār al-Anwār (L'Océan des Lumières)</title>
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta Sans',sans-serif;overflow:hidden}
@@ -293,9 +294,7 @@ input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!importa
 /* Thème du design classique (data-theme) ; la Console a son propre interrupteur (lp-design.js) */
 try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/atkinson-next-200-800-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="console.css">
 <style id="lp-console-skin">/* Design « Console » — bihar-anwar (Biḥār al-Anwār) */
 /* Éléments propres à la console */
@@ -821,7 +820,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
     } catch (e) {}
     if (state !== lastNav) {
       lastNav = state;
-      try { if (window.parent !== window) window.parent.postMessage({ type: 'nav', state: state }, '*'); } catch (e) {}
+      try { if (window.parent !== window) window.parent.postMessage({ type: 'nav', state: state }, location.origin); } catch (e) {}
     }
   }
   function showState(state, opts) {
@@ -868,7 +867,7 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
     if (e.key === 'Escape' && phone() && drawerOpen) setDrawer(false);
     if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) {
       e.preventDefault();
-      try { window.parent.postMessage({ type: 'gs-open' }, '*'); } catch (ex) {}
+      try { window.parent.postMessage({ type: 'gs-open' }, location.origin); } catch (ex) {}
     }
   });
   // À l'arrivée sur téléphone le tiroir est déjà fermé, sans glissement visible

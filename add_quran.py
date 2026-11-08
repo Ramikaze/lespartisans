@@ -2,8 +2,8 @@ import json
 import re
 
 def update_global_search():
-    # 1. Read Q from coran-lecture.html
-    with open('coran-lecture.html', 'r', encoding='utf-8') as f:
+    # 1. Read Q from coran-texte.js (texte du Coran sorti de coran-lecture.html)
+    with open('coran-texte.js', 'r', encoding='utf-8') as f:
         content = f.read()
     
     match = re.search(r'var Q=(\[.*?\]);\s*var surahNames', content, re.DOTALL)
@@ -11,7 +11,7 @@ def update_global_search():
         match = re.search(r'var Q=(\[.*?\]);', content, re.DOTALL)
         
     if not match:
-        print("Could not find var Q=... in coran-lecture.html")
+        print("Could not find var Q=... in coran-texte.js")
         return
 
     q_json_str = match.group(1)

@@ -23,10 +23,14 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
+      # Actions épinglées sur un commit (le numéro de version suit en commentaire) : une étiquette déplacée
+      # chez leur auteur ne peut pas changer ce qui publie le site.
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          persist-credentials: false   # le jeton GitHub ne reste pas dans .git (rien n'est poussé ici)
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       # Seuls les fichiers du site partent en ligne : ni les scripts de travail (*.py),
       # ni les notes et brouillons nommés ci-dessous, ni .DS_Store. Les PDF et l'audio
       # restent publiés, même ceux qu'aucune page ne cite. Un futur robots.txt partirait bien.
@@ -47,9 +51,9 @@ jobs:
           # en cache entre deux déploiements et sont rechargées après chacun (en local : Date.now()).
           sed -i "s/__SITE_REV__/${GITHUB_SHA::12}/g" _site/index.html _site/index-classique.html
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
