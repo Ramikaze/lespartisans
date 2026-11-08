@@ -105,10 +105,10 @@ var DATA = {
         { id: 's73', label: '73. La Supplication confidentielle des désireux', emoji: '📖' },
         { id: 's74', label: '74. La Supplication confidentielle des reconnaissants', emoji: '📖' },
         { id: 's75', label: '75. La Supplication confidentielle de ceux qui obéissent à Dieu', emoji: '📖' },
-        { id: 's76', label: '76. Munâjât des Pieux', disabled: true },
-        { id: 's77', label: '77. Munâjât des Amoureux', disabled: true },
-        { id: 's78', label: '78. Munâjât — demande de Médiation', disabled: true },
-        { id: 's79', label: '79. Munâjât des démunis', disabled: true },
+        { id: 's76', label: '76. La Supplication confidentielle des Pieux', emoji: '📖' },
+        { id: 's77', label: '77. La Supplication confidentielle des Amoureux', emoji: '📖' },
+        { id: 's78', label: '78. La Supplication confidentielle de ceux qui demandent la Médiation', emoji: '📖' },
+        { id: 's79', label: '79. La Supplication confidentielle des démunis', emoji: '📖' },
         { id: 's80', label: '80. Munâjât des savants', disabled: true },
         { id: 's81', label: '81. Munâjât de ceux qui se souviennent', disabled: true },
         { id: 's82', label: '82. Munâjât — Protection de Dieu', disabled: true },
@@ -2357,6 +2357,60 @@ var DATA = {
         {t:'instruction', tx:'Notes de bas de page :'},
         {t:'intro', tx:'<span id="note-312"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-312\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[312]</a></span> Ici, il est fait allusion au Coran 29/69 : « <em>Oui, nous dirigeons sur nos chemins ceux qui auront combattu pour nous. Dieu est avec ceux qui font le Bien</em> ».'},
         {t:'intro', tx:'<span id="note-313"><a style="cursor:pointer; color:#c9a84c;" onclick="document.getElementById(\'ref-313\').scrollIntoView({behavior:\'smooth\', block:\'center\'})">[313]</a></span> Coran 3/26'},
+      ]
+    },
+
+    s76: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '76. La Supplication confidentielle des Pieux',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Gloire à Dieu ! Qu\'elles sont étroites les voies pour celui dont Tu n\'es pas Le Guide ! Qu\'elle est claire la vérité de celui dont Tu es Le Guide sur sa voie !'},
+        {t:'v',n:2, tx:'Mon Dieu ! Je T\'implore de nous guider sur les voies qui mènent à Toi ; de nous faire parcourir le chemin le plus court parmi les chemins qui font arriver à Toi ! Rapproche de nous celui qui est éloigné ; rends facile pour nous ce qui est pénible et difficile ! Fais-nous rejoindre Tes Serviteurs, ceux qui s\'empressent avec élan vers Toi ; qui frappent continuellement à Ta Porte ; qui T\'adorent le jour et la nuit alors qu\'ils sont pénétrés de crainte devant Toi ! Tu as purifié leurs points d\'eau potable ; Tu as satisfait les objets de leurs désirs ; Tu as couronné de succès leurs requêtes ; Tu as réalisé leurs vœux par Ta Bonté ; Tu as rempli leurs esprits de Ton Amour ; Tu as étanché leur soif de Ta Pure Boisson. Par Toi, ils sont parvenus au plaisir de la prière murmurée pour Toi, et par Toi, ils sont parvenus à leurs plus hauts desseins. Ô Celui Qui marche vers ceux qui marchent à Sa Rencontre ; Qui octroie les présents et leur accorde les grâces par l\'affection ! IL est Le Compatissant et Le Clément envers ceux qui sont insouciants de Son Souvenir, affectueux et sensible au point de les attirer jusqu\'à Sa Porte ! Je T\'implore de me mettre parmi ceux qui détiennent la plus grande part provenant de Toi ; la plus haute station auprès de Toi ; la plus abondante preuve de Ton Amour ; ainsi que la plus excellente parcelle de Ta Science, car ma résolution ne vise en exclusivité que Toi, et mon désir n\'est orienté que vers Toi. Tu es mon But et rien d\'autre ; seulement à Toi appartiennent mon réveil et mon sommeil. Te rencontrer est la seule réjouissance de mon œil ; parvenir à Toi est le vœu de mon âme. En Toi est mon désir ardent ; dans l\'amour pour Toi se trouve ma passion ; dans mon attachement à Ton égard se trouve ma ferveur ; Ta Satisfaction est mon aspiration ; T\'apercevoir est mon souhait ; être Ton Voisin est ma quête ; être proche de Toi est l\'objectif sublime de ma requête. Dans la supplication confidentielle adressée à Toi, je trouve mon repos et ma béatitude. En Toi réside le remède de ma maladie ; le soulagement de ma soif ardente ; l\'adoucissement de mon ardeur ; l\'apaisement de ma détresse. Aussi, sois mon Compagnon intime dans ma solitude ; Celui Qui me libère de mon faux pas ; Qui pardonne mon écart ; Qui accepte mon repentir ; Qui répond à mon invocation ; Le Tuteur de ma protection ; Celui Qui enrichit ma pauvreté ! Ne m\'écarte pas de Toi et ne m\'éloigne pas de Toi ! Ô ma Félicité et mon Paradis ! Ô ma Vie immédiate et ma Vie ultime ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+      ]
+    },
+
+    s77: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '77. La Supplication confidentielle des Amoureux',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Quel est celui qui, ayant goûté la douceur de Ton Amour, voudra Te remplacer par un autre ? Quel est celui qui, étant devenu intime avec Toi, voudra s\'éloigner de Toi ?'},
+        {t:'v',n:2, tx:'Mon Dieu ! Mets-nous en compagnie de celui que Tu as choisi pour être dans Ta Proximité et dans Ton Amitié Rapprochée ; que Tu as singularisé de Ton Affection et de Ton Amour ; que Tu as rendu désireux de Te rencontrer ; que Tu as rendu satisfait de Ton Décret ; à qui Tu as offert la faveur de contempler Ta Face ; à qui Tu as donné en cadeau Ta Satisfaction ; à qui Tu as accordé le refuge contre l\'éloignement de Toi et contre Ton Abandon ; que Tu as fait asseoir dans le Lieu de la sincérité auprès de Ton Voisinage ; que Tu as distingué par la connaissance de Toi ; que Tu as rendu apte à T\'adorer ; dont Tu as inspiré le cœur de Ta Volonté ; que Tu as choisi pour Te contempler ; dont Tu as libéré le cœur pour y placer Ton Amour ; que Tu as fait désireux de ce qui se trouve auprès de Toi ; que Tu as inspiré de Ton Souvenir ; que Tu as doté de la gratitude envers Toi ; que Tu as employé à T\'obéir ; que Tu as fait se tourner vers Tes Créatures vertueuses ; que Tu as choisi pour La Prière murmurée pour Toi ; et pour qui Tu as écarté toutes choses qui le distraient de Toi !'},
+        {t:'v',n:3, tx:'Mon Dieu ! Mets-nous parmi ceux dont l\'habitude est d\'éprouver de la satisfaction par Toi et un désir ardent de Toi ; dont le temps est vécu au rythme du remords et de la complainte ! Leurs fronts se prosternent devant Ta Puissance ; leurs yeux sont ouverts pour Te servir ; leurs larmes versées par crainte de Toi ; leurs cœurs attachés à Ton Amour ; leurs âmes tremblantes de la crainte révérencielle envers Toi. Ô Celui dont les lumières de Sa Sainteté émerveillent les regards de Ses Amoureux ; dont les glorifications de Sa Face rendent ardemment désireux les cœurs de Ses Connaisseurs ! Ô L\'Ardent Désir des cœurs qui Le désirent ! Ô La Sublime Limite des espérances des amoureux ! J\'implore par Toi de l\'amour pour Toi, de l\'amour pour ceux qui T\'aiment, de l\'amour pour toute œuvre qui me mène à Ta Proximité ; ainsi, Tu Te rendras plus aimé de moi que tout ce qui n\'est pas Toi ; Tu feras de mon amour pour Toi un Guide menant à Ta Satisfaction ; Tu feras de mon désir ardent envers Toi une Protection contre ma désobéissance envers Toi ! Fais preuve de faveur à mon égard en m\'accordant de porter mon regard vers Toi ; regarde-moi avec l\'œil de l\'affection et de la compassion ; ne détourne pas Ta Face de moi ; fais de moi l\'un des gens du bonheur et de la situation favorable auprès de Toi ! Ô Celui Qui répond ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+      ]
+    },
+
+    s78: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '78. La Supplication confidentielle de ceux qui demandent la Médiation',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Mon Dieu ! Je ne détiens aucune médiation face à Toi autre que la compassion des preuves de Ta Clémence, ni aucun chemin pour parvenir à Toi autre que l\'amabilité des faveurs de Ta Miséricorde ainsi que l\'Intercession de Ton Prophète, le Prophète de la Miséricorde, le libérateur de la communauté de l\'affliction. Fais de ces deux ma raison d\'obtenir Ton Pardon, laisse-les me mener au succès de Ta Satisfaction ! Mon espérance est parvenue dans l\'Enceinte Sacrée de Ta Générosité ; mon désir insatiable s\'est posé dans la Cour de Tes Dons somptueux. Aussi, concrétise mon espoir en Toi, scelle mes œuvres par le Bien, fais de moi l\'un de Tes Élus, ceux que Tu as installés commodément au milieu de Ton Paradis et fait entrer dans la Demeure de Ta Vénération ; dont Tu as réjoui les regards portés vers Toi le Jour de Ta Rencontre ; que Tu as faits les Héritiers des Stations de la Certitude dans Ton Voisinage !'},
+        {t:'v',n:2, tx:'Ô Celui auprès de Qui aucun de ceux qui arrivent n\'a trouvé ailleurs plus généreux que Lui ; ni aucun de ceux qui se dirigent vers Lui n\'a trouvé ailleurs plus miséricordieux que Lui. Ô Le Plus Excellent avec Qui le solitaire s\'isole. Ô Le Plus Affectueux auprès de Qui le fugitif trouve asile ! C\'est vers l\'abondante générosité de Ton Pardon que j\'ai tendu ma main, et c\'est vers Ta Générosité sans limite que j\'ai présenté la paume de ma main ! Ne fais pas preuve de privation à mon égard, ne m\'afflige pas de la déception et de la perdition ! Ô Celui Qui entend la supplication ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
+      ]
+    },
+
+    s79: {
+      source: 'As-Ṣaḥīfa as-Sajjādiyya',
+      title: '79. La Supplication confidentielle des démunis',
+      subtitle: 'Que la Paix soit avec lui',
+      body: [
+        {t:'tri', ar:'بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ', tr:'Bi-smi-llâhi ar-rahmâni ar-rahîmi', fr:"Au Nom de Dieu, le Clément, le Très Miséricordieux"},
+        {t:'salawat'},
+        {t:'v',n:1, tx:'Ô mon Dieu ! Rien ne peut réparer ma fracture si ce n\'est Ta Bonté et Ta Compassion ; rien ne peut enrichir ma pauvreté si ce n\'est Ton Affection et Ta Bienveillance ; rien ne peut mettre un terme à mon inquiétude si ce n\'est Ta Sécurité ; rien ne peut me relever de mon humiliation si ce n\'est Ta Souveraineté ; rien ne peut accomplir mon vœu si ce n\'est Ta Grâce ; rien ne peut pourvoir à mon dénuement si ce n\'est Ta Générosité ; rien ne peut réaliser mon nécessaire si ce n\'est Toi ; rien ne peut me délivrer de ma détresse si ce n\'est Ta Miséricorde ; rien ne peut résoudre mon tort si ce n\'est Ta Clémence ; rien ne peut étancher ma soif ardente si ce n\'est de parvenir à Toi ; rien ne peut calmer mon ardeur si ce n\'est de Te rencontrer ; rien ne peut assouvir mon désir ardent si ce n\'est un regard porté à Ta Face ; rien ne peut rendre mon séjour paisible si ce n\'est d\'être proche de Toi ; rien ne peut apaiser mon inquiétude si ce n\'est Ton Repos Éternel ; rien ne peut guérir ma souffrance si ce n\'est Ta Thérapie spirituelle ; rien ne peut faire disparaître mon affliction si ce n\'est d\'être dans Ta Proximité ; rien ne peut cicatriser ma blessure si ce n\'est Ton Pardon ; rien ne peut évacuer l\'oxydation de mon cœur si ce n\'est Ta Rémission ; rien ne peut éradiquer de mon âme les tentations si ce n\'est Ton Ordre !'},
+        {t:'v',n:2, tx:'Ô L\'Espoir Suprême de ceux qui espèrent ! Ô L\'Ultime Finalité de ceux qui sollicitent ! Ô La Requête Décisive des requérants ! Ô Le Plus Haut Désir des désireux ! Ô Le Tuteur des pieux ! Ô La Paix des inquiets ! Ô Celui Qui exauce l\'imploration du désespéré ! Ô Le Pourvoyeur de ceux qui sont démunis ! Ô Le Trésor des miséreux ! Ô Le Secours de ceux qui appellent au secours ! Ô L\'Exécutant des besoins des pauvres et des miséreux ! Ô Le Plus Généreux de ceux qui font preuve de générosité ! Ô Le Plus Miséricordieux de ceux qui font preuve de miséricorde ! À Toi appartiennent mon humble soumission et ma requête ; vers Toi sont orientées ma complainte et mon imploration ! Je T\'implore de me faire atteindre au Repos Éternel de Ta Satisfaction, et de perpétuer en ma faveur les bienfaits de Ta Gratitude ! Me voici ! debout, face au Portail de Ta Générosité, me présentant aux gratitudes de Ta Charité Bienveillante, bien accroché à Ton Lien solide, cramponné à Ton Anse la plus solide !'},
+        {t:'v',n:3, tx:'Mon Dieu ! Fais preuve de Miséricorde envers Ton humble serviteur dont la langue est muette et les bonnes œuvres peu nombreuses ; fais preuve de bienfaits envers lui par Ton Abondante Générosité ; accorde-lui l\'Abri de Ton Ombrage ! Ô Le Généreux ! Ô Le Splendide ! Ô Le Plus Miséricordieux de ceux qui font miséricorde !'},
+        {t:'salawat'},
       ]
     },
 
