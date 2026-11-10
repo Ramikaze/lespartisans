@@ -835,12 +835,13 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     </section>
 
     <section class="room" id="submenu-hadith" data-room="hadith" aria-labelledby="room-hadith" inert>
-      <header class="room-head"><h2 id="room-hadith">Hadiths des Ahl al-Bayt</h2><p>Hadiths majeurs de la tradition chiite : al-Kisâʾ, Thaqalayn, Biḥār al-Anwār et autres récits fondateurs.</p></header>
+      <header class="room-head"><h2 id="room-hadith">Hadiths des Ahl al-Bayt</h2><p>Hadiths majeurs de la tradition chiite : al-Kisâʾ, Thaqalayn, Biḥār al-Anwār, le Nahj al-Balagha et autres récits fondateurs.</p></header>
       <ul class="sats">
         <li><button class="sat" type="button" data-module="10"><span class="sat-t">Hadith al-Kisâʾ</span><span class="sat-d">Le Hadith de la Couverture — Arabe, translittération et traduction française, avec audio.</span><span class="sat-m">Audio · Trilingue · Coran 33:33</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
         <li><button class="sat" type="button" data-module="17"><span class="sat-t">L'Aune de la Sagesse</span><span class="sat-d">Mizan al-Hikmah — Encyclopédie thématique de hadiths du Prophète (s) et des Ahl al-Bayt (a).</span><span class="sat-m">Anthologie thématique · M. Reyshahri</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
         <li><button class="sat" type="button" data-module="20"><span class="sat-t">Biḥār al-Anwār — Volume 1</span><span class="sat-d">L'Océan des Lumières, d'al-Majlisī : le Livre de l'intellect et le Livre de la connaissance (ch. 1–7).</span><span class="sat-m">≈ 400 hadiths · Édition SiratAli</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
         <li><button class="sat" type="button" data-module="21"><span class="sat-t">Biḥār al-Anwār — Volume 2</span><span class="sat-d">Le Livre de la connaissance, ch. 8–35.</span><span class="sat-m">≈ 1 080 hadiths · Édition SiratAli</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+        <li><button class="sat" type="button" data-module="22"><span class="sat-t">Nahj al-Balagha</span><span class="sat-d">Discours et lettres de l'Imām ʿAlī (as), réunis par al-Sharīf al-Raḍī — deux traductions et l'arabe.</span><span class="sat-m">2 traductions · Arabe · Obeid &amp; Abul Naga</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
       </ul>
     </section>
 
@@ -1041,7 +1042,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     "coran-lecture.html", "usul-al-din.html", "hadith-kisa.html", "verset-trone.html" /* 11 : ancien module jamais publié ; #m11 est renvoyé vers #m2 (initialRoute), l'entrée garde les numéros suivants */,
     "douze-imams.html", "tawheed.html", "nubuwwa.html", "resister.html",
     "99-noms.html", "aune-sagesse.html", "radio.html", "que-dit-le-coran.html",
-    "bihar-anwar.html?vol=1", "bihar-anwar.html?vol=2"
+    "bihar-anwar.html?vol=1", "bihar-anwar.html?vol=2", "nahj-al-balagha.html"
   ];
   var TITLES = [
     "Le Chiisme Répond", "Chronologie & Réseau", "Verset du Trône", "Les 14 Infaillibles",
@@ -1049,7 +1050,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     "Lire le Coran", "Usûl al-Dîn", "Hadith al-Kisâʾ", "Verset du Trône",
     "Les Douze Imams", "Al-Tawḥīd", "La Prophétie et l'Imamat", "Résister",
     "Les 99 Noms d'Allah", "L'Aune de la Sagesse", "Radio Coranique", "Que dit le Coran ?",
-    "Biḥār al-Anwār — Vol. 1", "Biḥār al-Anwār — Vol. 2"
+    "Biḥār al-Anwār — Vol. 1", "Biḥār al-Anwār — Vol. 2", "Nahj al-Balagha"
   ];
   var N = MODULES.length;
   /* L'adresse d'une page, avec le jeton anti-cache : « ? » ou « & » selon que l'adresse porte déjà un paramètre (bihar-anwar.html?vol=2) */
@@ -1100,7 +1101,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var pinned = null, shown = null, hoverTimer = null;
 
   function towerFor(room) { return document.querySelector('.tower[data-room="' + room + '"]'); }
-  var MOD_ROOM = { 4: 'invocations', 8: 'coran', 2: 'coran', 19: 'coran', 18: 'coran', 10: 'hadith', 17: 'hadith', 20: 'hadith', 21: 'hadith', 0: 'chiisme', 7: 'chiisme', 9: 'chiisme', 13: 'chiisme', 14: 'chiisme', 3: 'ahlulbayt', 12: 'ahlulbayt' };
+  var MOD_ROOM = { 4: 'invocations', 8: 'coran', 2: 'coran', 19: 'coran', 18: 'coran', 10: 'hadith', 17: 'hadith', 20: 'hadith', 21: 'hadith', 22: 'hadith', 0: 'chiisme', 7: 'chiisme', 9: 'chiisme', 13: 'chiisme', 14: 'chiisme', 3: 'ahlulbayt', 12: 'ahlulbayt' };
   function tileForModule(idx) {
     return MOD_ROOM[idx] ? towerFor(MOD_ROOM[idx]) : document.querySelector('.tower[data-module="' + idx + '"]');
   }
@@ -1846,7 +1847,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     find: '<circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/>'
   };
   var TYPE_ICONS = {
-    'Chiisme Répond': 'ask', 'Aune de la Sagesse': 'text', 'Biḥār al-Anwār': 'text', 'Les 12 Imams': 'people', 'Invocations': 'star',
+    'Chiisme Répond': 'ask', 'Aune de la Sagesse': 'text', 'Biḥār al-Anwār': 'text', 'Nahj al-Balagha': 'text', 'Les 12 Imams': 'people', 'Invocations': 'star',
     '99 Noms': 'one', 'Connaissance & Raison': 'vol', 'Usul al-Din': 'vol', 'Al-Tawhid': 'vol',
     'Al-Nubuwwa': 'vol', 'Al-Nubuwwa & Imāmah': 'vol', 'Résister': 'flame', "Hadith al-Kisa'": 'text',
     'Chronologie': 'clock', 'Verset du Trône': 'book', 'Coran (En ligne)': 'book'

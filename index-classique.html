@@ -594,6 +594,13 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
         <div class="card-desc">Le Livre de la connaissance, ch. 8–35.</div>
         <div class="card-footer"><span class="card-meta">≈ 1 080 hadiths &middot; Édition SiratAli</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
       </div>
+      <div class="card" id="card-nahj">
+        <div class="card-icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 C6 8 8 6 10 6 L26 6 C28 6 30 8 30 10 L30 26 C30 28 28 30 26 30 L10 30 C8 30 6 28 6 26 Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.3"/><path d="M10 12 L26 12" stroke="#c9a84c" stroke-width="1.5"/><path d="M10 18 L26 18" stroke="#c9a84c" stroke-width="1.5"/><path d="M10 24 L20 24" stroke="#c9a84c" stroke-width="1.5"/></svg></div>
+        <div class="card-tag">Livre / Sommaire</div>
+        <div class="card-title">Nahj al-Balagha</div>
+        <div class="card-desc">Discours et lettres de l'Imām ʿAlī (as), réunis par al-Sharīf al-Raḍī — deux traductions et l'arabe.</div>
+        <div class="card-footer"><span class="card-meta">2 traductions &middot; Arabe &middot; Obeid &amp; Abul Naga</span><span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span></div>
+      </div>
     </div>
   </div>
 
@@ -644,6 +651,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 <div class="iframe-wrap" id="frame19"><div class="loader" id="loader19"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe19"></iframe></div>
 <div class="iframe-wrap" id="frame20"><div class="loader" id="loader20"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe20"></iframe></div>
 <div class="iframe-wrap" id="frame21"><div class="loader" id="loader21"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe21"></iframe></div>
+<div class="iframe-wrap" id="frame22"><div class="loader" id="loader22"><div class="loader-dots"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div><div class="loader-text">Chargement&#8230;</div></div><iframe id="iframe22"></iframe></div>
 
 <script>
 (function(){
@@ -669,7 +677,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
     "radio.html",
     "que-dit-le-coran.html",
     "bihar-anwar.html?vol=1",
-    "bihar-anwar.html?vol=2"
+    "bihar-anwar.html?vol=2",
+    "nahj-al-balagha.html"
   ];
   var N = MODULES.length;
   var loaded = new Array(N).fill(false);
@@ -846,7 +855,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
   });
 
   /* ── Cartes sur la page d'accueil → ouvrent le module directement ── */
-  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16, 17:17, 'radio':18, 'que-dit-le-coran':19, 'bihar-1':20, 'bihar-2':21};
+  var cardModules = {0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:11, 12:12, 'tawheed':13, 'nubuwwa':14, 'resister':15, 16:16, 17:17, 'radio':18, 'que-dit-le-coran':19, 'bihar-1':20, 'bihar-2':21, 'nahj':22};
   Object.keys(cardModules).forEach(function(cardId){
     var el = document.getElementById('card-' + cardId);
     if (el) el.addEventListener('click', function(){ openModule(cardModules[cardId], ''); });

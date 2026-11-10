@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.cdnfonts.com; font-src 'self' https://fonts.gstatic.com https://fonts.cdnfonts.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com; media-src 'self' https:; connect-src 'self' https://api.quran.com https://api.qurancdn.com https://www.mp3quran.net https://noembed.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nahj al-Balagha (La Voie de l'éloquence)</title>
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#070c18;color:#e8e2d0;font-family:'Plus Jakarta Sans',sans-serif;overflow:hidden}
+.app{display:flex;height:100%}
+
+/* Les entrées du sommaire sont des <button> : remise à zéro, sans peser sur les règles de classe */
+:where(button.sb-theme,button.sb-item,button.sb-toggle){appearance:none;-webkit-appearance:none;background:none;border:0;border-radius:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.sb-theme:active,.sb-item:active{transform:none}
+
+/* ══ SIDEBAR ══ */
+.sidebar{
+  width:240px;flex-shrink:0;height:100%;
+  background:#0a1020;border-right:1px solid rgba(201,168,76,0.12);
+  display:flex;flex-direction:column;overflow:hidden;
+  transition:width .3s cubic-bezier(.4,0,.2,1);
+}
+.sidebar.collapsed{width:0}
+.sb-header{
+  padding:16px 14px 12px;border-bottom:1px solid rgba(201,168,76,0.1);
+  flex-shrink:0;
+}
+.sb-title{font-family:'Cinzel',serif;font-size:12px;font-weight:700;color:#c9a84c;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.sb-sub{font-size:10px;color:#3a4560;margin-top:2px;white-space:nowrap}
+.sb-scroll{flex:1;overflow-y:auto;overflow-x:hidden;padding:8px 0;scrollbar-width:thin;scrollbar-color:rgba(201,168,76,0.15) transparent}
+.sb-scroll::-webkit-scrollbar{width:3px}
+.sb-scroll::-webkit-scrollbar-thumb{background:rgba(201,168,76,0.15)}
+
+/* Search input in sidebar */
+.sb-search-container{margin-top:10px;padding:0 2px}
+input.sb-search{
+  width:100%;padding:8px 12px;
+  background:rgba(255,255,255,0.03);border:1px solid rgba(201,168,76,0.2);
+  border-radius:6px;color:#e8e2d0;font-size:11.5px;
+  font-family:inherit;outline:none;transition:border-color 0.2s;
+}
+input.sb-search:focus{
+  border-color:#c9a84c;
+}
+.sb-empty{padding:12px 16px;font-size:12px;line-height:1.5;color:#9aa3b8}
+.sb-empty[hidden]{display:none}
+
+/* Section group */
+.sb-group{margin-bottom:4px}
+.sb-group[hidden]{display:none}
+.sb-theme{
+  display:flex;align-items:center;gap:8px;width:100%;
+  padding:9px 14px;cursor:pointer;
+  font-family:inherit;font-size:12px;font-weight:600;color:#9aa3b8;
+  transition:all .18s;
+  border-left:2px solid transparent;
+}
+.sb-theme:hover{color:#c9a84c;background:rgba(201,168,76,0.05)}
+.sb-theme.open{color:#c9a84c;border-left-color:rgba(201,168,76,0.4);background:rgba(201,168,76,0.06)}
+.sb-theme-icon{font-size:14px;flex-shrink:0}
+.sb-theme-label{flex:1;line-height:1.4}
+.sb-chevron{font-size:9px;transition:transform .2s;flex-shrink:0;color:#c9a84c;opacity:.6}
+.sb-theme.open .sb-chevron{transform:rotate(90deg)}
+
+/* Sub-items : repliés, ils ne prennent plus le focus au clavier (visibility) */
+.sb-items{
+  display:flex;flex-direction:column;max-height:0;overflow:hidden;visibility:hidden;
+  transition:max-height .3s cubic-bezier(.4,0,.2,1),visibility 0s linear .3s;
+}
+.sb-items.open{max-height:10000px;visibility:visible;transition:max-height .3s cubic-bezier(.4,0,.2,1),visibility 0s}
+.sb-item{
+  display:block;padding:7px 14px 7px 36px;
+  font-family:inherit;font-size:11.5px;color:#6b7280;cursor:pointer;
+  transition:all .15s;line-height:1.4;
+  border-left:2px solid transparent;
+}
+.sb-item[hidden]{display:none}
+.sb-item:hover{color:#c9a84c;background:rgba(201,168,76,0.04)}
+.sb-item.active{color:#c9a84c;font-weight:600;background:rgba(201,168,76,0.08);border-left-color:#c9a84c}
+
+/* ══ TOGGLE BUTTON ══ */
+.sb-toggle{
+  position:absolute;top:50%;left:240px;transform:translateY(-50%);
+  width:18px;height:48px;background:#0d1828;border:1px solid rgba(201,168,76,0.2);
+  border-left:none;border-radius:0 8px 8px 0;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  font-size:10px;color:#c9a84c;z-index:50;transition:left .3s;
+}
+.sb-toggle:hover{background:rgba(201,168,76,0.12)}
+.sb-toggle:active{transform:translateY(-50%)}
+.sidebar.collapsed~.sb-toggle{left:0}
+
+/* ══ MAIN CONTENT ══ */
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;position:relative}
+
+/* Content panel */
+.content{
+  flex:1;overflow-y:auto;padding:20px 24px 40px;
+  scrollbar-width:thin;scrollbar-color:rgba(201,168,76,0.15) transparent;
+  animation:fadeIn .25s ease;
+}
+.content:focus{outline:none}
+.content-inner{
+  max-width:1200px;margin:0 auto;
+}
+.content::-webkit-scrollbar{width:4px}
+.content::-webkit-scrollbar-thumb{background:rgba(201,168,76,0.2);border-radius:2px}
+@keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+
+/* ══ CONTENT ELEMENTS ══ */
+.c-source{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#c9a84c;opacity:.5;font-family:'Cinzel',serif;margin-bottom:4px;text-align:center}
+.c-title{font-family:'Cinzel',serif;font-size:20px;font-weight:700;color:#e8e2d0;line-height:1.3;margin-bottom:6px;text-align:center;overflow-wrap:anywhere}
+.c-subtitle{font-size:13px;color:#9aa3b8;font-style:italic;line-height:1.6;margin-bottom:16px;text-align:center;overflow-wrap:anywhere}
+.c-divider{height:1px;background:linear-gradient(90deg,rgba(201,168,76,0.25),transparent);margin-bottom:18px}
+.c-h3{font-family:'Cinzel',serif;font-size:13px;font-weight:600;color:#c9a84c;margin:4px 0 10px}
+
+/* Versets d'ouverture du chapitre */
+.c-intro{
+  font-size:14.5px;color:#9aa3b8;font-style:italic;line-height:1.7;
+  padding:12px 16px;border-left:2px solid rgba(201,168,76,0.3);
+  background:rgba(201,168,76,0.03);border-radius:0 8px 8px 0;margin-bottom:18px;
+  text-align:justify;hyphens:auto;overflow-wrap:anywhere;
+}
+.c-intro-label{font-size:11px;font-weight:600;font-style:normal;color:#c9a84c;margin-bottom:8px}
+.c-verse + .c-verse{margin-top:.8em}
+.c-verse-ref{white-space:nowrap;font-size:.86em;font-style:normal;color:#c9a84c}
+
+/* Note de l'éditeur, clôture du volume */
+.c-prose{font-size:13.5px;color:#cec6b0;line-height:1.8;text-align:justify;hyphens:auto;overflow-wrap:anywhere}
+.c-prose p + p{margin-top:1em}
+.c-closing{margin-top:28px;padding-top:18px;border-top:1px solid rgba(201,168,76,0.18);font-size:13px;line-height:1.7;color:#9aa3b8;overflow-wrap:anywhere}
+.c-closing p + p{margin-top:.5em}
+
+/* Hadith Card */
+.hadith-card{
+  margin-bottom:14px;padding:16px;
+  border-radius:10px;background:rgba(255,255,255,0.018);
+  border:1px solid rgba(255,255,255,0.035);
+  border-left:3px solid rgba(201,168,76,0.5);
+  transition:background .2s,border-color .6s,box-shadow .6s;
+}
+.hadith-card:hover{
+  background:rgba(201,168,76,0.04);border-color:rgba(201,168,76,0.1);
+}
+.hadith-card.is-flash,.hadith-card.is-flash:hover{background:rgba(201,168,76,0.14);border-color:rgba(201,168,76,0.55)}
+.hadith-number{
+  font-family:'Cinzel',serif;font-size:11px;font-weight:700;
+  color:#c9a84c;margin-bottom:8px;
+}
+.hadith-text{
+  font-size:13.5px;color:#cec6b0;line-height:1.8;text-align:justify;hyphens:auto;overflow-wrap:anywhere;
+}
+.hadith-text p + p{margin-top:.75em}
+
+/* Chaîne de transmission : repliée derrière un bouton ; seuls les transmetteurs se replient */
+.isnad-toggle{
+  display:inline-flex;align-items:center;gap:6px;margin-top:12px;min-height:30px;padding:0 12px;
+  border-radius:999px;border:1px solid rgba(201,168,76,0.3);background:rgba(201,168,76,0.08);
+  color:#c9a84c;font-family:inherit;font-size:12px;font-weight:600;line-height:1.2;cursor:pointer;
+  transition:background .2s,border-color .2s;
+}
+.isnad-toggle:hover{background:rgba(201,168,76,0.16);border-color:rgba(201,168,76,0.5)}
+.isnad-toggle .chev{display:inline-block;transition:transform .3s}
+.isnad-toggle[aria-expanded="true"] .chev{transform:rotate(90deg)}
+.isnad{margin-top:10px;font-size:12px;line-height:1.7;color:#9aa3b8;overflow-wrap:anywhere}
+.isnad[hidden]{display:none}
+@media (pointer:coarse){.isnad-toggle{min-height:40px}}
+
+/* Commentaire d'al-Majlisī : un bloc à part, toujours visible */
+.hadith-comment{margin-top:14px;padding:12px 14px;border-radius:10px;background:rgba(106,180,232,0.06);border:1px solid rgba(106,180,232,0.2)}
+.hadith-number + .hadith-comment{margin-top:0}
+.hadith-comment-label{font-size:11px;font-weight:600;color:#6ab4e8;margin-bottom:6px}
+.hadith-comment p{font-size:13px;line-height:1.7;color:#a8c4e0;overflow-wrap:anywhere}
+.hadith-comment p + p{margin-top:.6em}
+
+/* Hadith sauté par la traduction */
+.hadith-card.is-missing{border-style:dashed;background:none}
+.hadith-card.is-missing.is-flash{background:rgba(201,168,76,0.14)}
+.hadith-missing{font-size:13px;color:#9aa3b8}
+
+/* Carte PDF */
+.pdf-card{background:rgba(201,168,76,0.04);border:1px solid rgba(201,168,76,0.18);border-radius:14px;padding:28px 28px 24px;margin:24px auto 28px;max-width:700px}
+.pdf-card-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.pdf-card-icon{width:48px;height:48px;background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.25);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pdf-card-icon svg{width:26px;height:26px;color:#c9a84c}
+.pdf-card-title{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:#c9a84c}
+.pdf-card-subtitle{font-size:0.8rem;color:#5a6480;margin-top:2px}
+.pdf-card-text{font-size:0.92rem;color:#9e9480;line-height:1.75;margin-bottom:20px;text-align:justify}
+.pdf-card-actions{display:flex;flex-wrap:wrap;gap:10px}
+.pdf-card-dl{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.3);color:#c9a84c;padding:10px 22px;border-radius:10px;font-family:'Cinzel',serif;font-size:0.85rem;font-weight:600;letter-spacing:.04em;text-decoration:none;transition:all .2s;cursor:pointer}
+.pdf-card-dl:hover{background:rgba(201,168,76,0.22);border-color:rgba(201,168,76,0.5);transform:translateY(-1px)}
+.pdf-card-dl svg{width:18px;height:18px}
+
+/* Bouton « haut de page » */
+.scroll-top-btn{position:fixed;bottom:24px;right:24px;width:44px;height:44px;background:rgba(19,29,53,0.85);border:1px solid rgba(201,168,76,0.3);border-radius:50%;color:#c9a84c;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;pointer-events:none;transition:all .3s ease;z-index:999;backdrop-filter:blur(10px);box-shadow:0 4px 16px rgba(0,0,0,0.3)}
+.scroll-top-btn.visible{opacity:1;visibility:visible;pointer-events:all}
+.scroll-top-btn:hover{background:rgba(201,168,76,0.2);border-color:#c9a84c;transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.4),0 0 12px rgba(201,168,76,0.15)}
+.scroll-top-btn:active{transform:translateY(0)}
+.scroll-top-btn svg{width:20px;height:20px}
+
+/* ══ Light theme overrides ══ */
+[data-theme="light"] body{background:#e8e0d4!important;color:#2c2114!important}
+[data-theme="light"] .sidebar{background:#ddd5c6!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .sb-header{border-color:rgba(122,92,36,0.12)!important}
+[data-theme="light"] .sb-title{color:#7a5c24!important}
+[data-theme="light"] .sb-sub{color:#8a7c66!important}
+html:not([data-design="console"])[data-theme="light"] .sb-empty{color:#6b5e48}
+[data-theme="light"] .sb-theme{color:#5a4e3c!important}
+[data-theme="light"] .sb-theme:hover{color:#7a5c24!important;background:rgba(122,92,36,0.06)!important}
+[data-theme="light"] .sb-theme.open{color:#7a5c24!important;background:rgba(122,92,36,0.08)!important;border-left-color:rgba(122,92,36,0.4)!important}
+[data-theme="light"] .sb-chevron{color:#7a5c24!important}
+[data-theme="light"] .sb-item{color:#6b5e48!important}
+[data-theme="light"] .sb-item:hover{color:#7a5c24!important;background:rgba(122,92,36,0.05)!important}
+[data-theme="light"] .sb-item.active{color:#7a5c24!important;background:rgba(122,92,36,0.1)!important;border-left-color:#7a5c24!important}
+[data-theme="light"] .sb-toggle{background:#d8d0c2!important;border-color:rgba(122,92,36,0.2)!important;color:#7a5c24!important}
+[data-theme="light"] .sb-toggle:hover{background:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .hadith-card{background:rgba(0,0,0,0.03)!important;border-left-color:rgba(122,92,36,0.4)!important;border-color:rgba(0,0,0,0.06)!important}
+html:not([data-design="console"])[data-theme="light"] .hadith-card.is-flash{background:rgba(122,92,36,0.14)!important;border-color:rgba(122,92,36,0.5)!important}
+html:not([data-design="console"])[data-theme="light"] .hadith-card.is-missing{background:none!important}
+html:not([data-design="console"])[data-theme="light"] .hadith-card.is-missing.is-flash{background:rgba(122,92,36,0.14)!important}
+[data-theme="light"] .hadith-number{color:rgba(122,92,36,0.8)!important}
+[data-theme="light"] .hadith-text{color:#3d3425!important}
+html:not([data-design="console"])[data-theme="light"] .isnad-toggle{color:#7a5c24;border-color:rgba(122,92,36,0.3);background:rgba(122,92,36,0.08)}
+html:not([data-design="console"])[data-theme="light"] .isnad-toggle:hover{background:rgba(122,92,36,0.16)}
+html:not([data-design="console"])[data-theme="light"] .isnad,html:not([data-design="console"])[data-theme="light"] .hadith-missing{color:#5a4e3c}
+html:not([data-design="console"])[data-theme="light"] .hadith-comment{background:rgba(70,120,170,0.08);border-color:rgba(70,120,170,0.2)}
+html:not([data-design="console"])[data-theme="light"] .hadith-comment-label{color:#2a5080}
+html:not([data-design="console"])[data-theme="light"] .hadith-comment p{color:#3a5c85}
+[data-theme="light"] input#sb-search{background:rgba(0,0,0,0.03)!important;border-color:rgba(122,92,36,0.2)!important;color:#2c2114!important}
+[data-theme="light"] input#sb-search:focus{border-color:#7a5c24!important}
+[data-theme="light"] .c-title{color:#2c2114!important}
+[data-theme="light"] .c-subtitle{color:#6b5e48!important}
+[data-theme="light"] .c-source{color:#7a5c24!important}
+html:not([data-design="console"])[data-theme="light"] .c-h3,html:not([data-design="console"])[data-theme="light"] .c-intro-label,html:not([data-design="console"])[data-theme="light"] .c-verse-ref{color:#7a5c24}
+[data-theme="light"] .c-intro{color:#6b5e48!important;background:rgba(122,92,36,0.04)!important;border-left-color:rgba(122,92,36,0.3)!important}
+[data-theme="light"] .c-divider{background:linear-gradient(90deg,rgba(122,92,36,0.25),transparent)!important}
+html:not([data-design="console"])[data-theme="light"] .c-prose{color:#3d3425}
+html:not([data-design="console"])[data-theme="light"] .c-closing{color:#6b5e48;border-top-color:rgba(122,92,36,0.18)}
+[data-theme="light"] .pdf-card{background:rgba(122,92,36,0.04)!important;border-color:rgba(122,92,36,0.15)!important}
+[data-theme="light"] .pdf-card-icon{background:rgba(122,92,36,0.08)!important;border-color:rgba(122,92,36,0.2)!important}
+[data-theme="light"] .pdf-card-title{color:#7a5c24!important}
+html:not([data-design="console"])[data-theme="light"] .pdf-card-subtitle{color:#6b5e48}
+[data-theme="light"] .pdf-card-text{color:#5a4a30!important}
+[data-theme="light"] .pdf-card-dl{background:rgba(122,92,36,0.08)!important;color:#7a5c24!important;border-color:rgba(122,92,36,0.25)!important}
+[data-theme="light"] .pdf-card-dl:hover{background:rgba(122,92,36,0.16)!important}
+[data-theme="light"] .scroll-top-btn{background:rgba(225,218,206,0.9)!important;border-color:rgba(122,92,36,0.25)!important;color:#7a5c24!important;box-shadow:0 4px 16px rgba(60,45,20,0.12)!important}
+[data-theme="light"] .scroll-top-btn:hover{background:rgba(235,228,216,0.95)!important;border-color:#7a5c24!important;box-shadow:0 6px 20px rgba(60,45,20,0.18),0 0 12px rgba(122,92,36,0.1)!important}
+
+/* ══ MOBILE : le panneau devient un tiroir posé au-dessus d'un voile ══ */
+.sb-overlay{display:none}
+@media (max-width:768px){
+  .sidebar{position:fixed;top:0;left:0;z-index:100;box-shadow:10px 0 30px rgba(0,0,0,0.4)}
+  .sidebar.collapsed{box-shadow:none}
+  .sb-overlay{
+    display:block;position:fixed;inset:0;z-index:90;
+    background:rgba(0,0,0,0.5);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);
+    opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;
+  }
+  .sidebar:not(.collapsed)~.sb-overlay{opacity:1;visibility:visible}
+  /* Languette au-dessus du voile, plus facile à toucher ; le texte commence après elle */
+  .sb-toggle{z-index:110;width:24px;height:56px;font-size:13px}
+  .content{padding-left:36px}
+  [data-theme="light"] .sb-overlay{background:rgba(44,33,20,0.3)}
+  [data-theme="light"] .sidebar:not(.collapsed){box-shadow:10px 0 30px rgba(60,45,20,0.25)}
+}
+
+/* Mouvement réduit : pas de fondu à l'arrivée d'un chapitre, ni de glissement de la chaîne ou du flash */
+@media (prefers-reduced-motion:reduce){
+  .content{animation:none}
+  .hadith-card,.isnad-toggle,.isnad-toggle .chev{transition:none!important}
+}
+</style>
+<link rel="stylesheet" href="ios-theme.css">
+<style>
+/* ===== iOS deep pass — bihar-anwar ===== */
+.sb-theme,.sb-item{border-left:none!important}
+.sb-theme.open{border-radius:10px!important;background:rgba(201,168,76,0.08)!important}
+.sb-item.active{border-radius:10px!important;background:rgba(201,168,76,0.12)!important}
+input.sb-search{border-radius:10px!important;font-family:var(--ios-font)!important;background:rgba(255,255,255,0.06)!important;border-color:transparent!important}
+.c-intro{border-left:none!important;border-radius:12px!important}
+.sb-toggle{border-radius:0 10px 10px 0!important}
+.pdf-card{border-radius:18px!important}
+.pdf-card-icon{border-radius:14px!important}
+.pdf-card-dl{font-family:var(--ios-font)!important;border-radius:980px!important;font-weight:600!important;letter-spacing:0!important}
+</style>
+<!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
+<script src="lp-design.js"></script>
+<script>
+/* Thème du design classique (data-theme) ; la Console a son propre interrupteur (lp-design.js) */
+try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
+</script>
+<link rel="preload" href="fonts/atkinson-next-200-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/scheherazade-new-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="console.css">
+<style id="lp-console-skin">/* Design « Console » — nahj-al-balagha (Nahj al-Balagha) */
+/* Éléments propres à la console */
+html:not([data-design="console"]) .lp-only{display:none!important}
+html[data-design="console"] .lp-only{display:block}
+html[data-design="console"] .sb-title:not(.lp-only){display:none!important}
+
+/* Jetons de la page : bouton éclairé, tuile de numéro */
+html[data-design="console"]{
+  --ba-lit:radial-gradient(120% 150% at 50% 125%,rgba(var(--lp-glow),.24),transparent 70%),rgba(var(--lp-glow),.06);
+  --ba-lit-glow:inset 0 1px 0 rgba(255,255,255,.08),0 0 22px -6px rgba(var(--lp-glow),.55);
+  --ba-lit-glow-hi:inset 0 1px 0 rgba(255,255,255,.12),0 0 34px -4px rgba(var(--lp-glow),.72);
+  --ba-tile:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill);
+  --ba-tile-glow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo);
+}
+html[data-design="console"][data-lp-theme="light"]{
+  --ba-lit-glow:inset 0 1px 0 rgba(255,255,255,.7),0 6px 18px -8px rgba(160,100,20,.45);
+  --ba-lit-glow-hi:inset 0 1px 0 rgba(255,255,255,.8),0 10px 26px -8px rgba(160,100,20,.55);
+  --ba-tile-glow:inset 0 1px 0 rgba(255,255,255,.85),var(--lp-halo);
+}
+
+/* Gabarit : panneau latéral de verre posé dans la nuit ; brume seule, la lecture reste calme */
+html[data-design="console"]{--lp-sbw:272px;--lp-sbm:12px}
+html[data-design="console"] body{
+  background-image:var(--lp-fog)!important;background-repeat:no-repeat!important;
+  background-position:top center!important;background-size:auto!important;color:var(--lp-ink)!important;
+}
+html[data-design="console"] .sidebar{
+  width:var(--lp-sbw)!important;height:calc(100% - var(--lp-sbm) * 2)!important;margin:var(--lp-sbm) 0 var(--lp-sbm) var(--lp-sbm)!important;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;
+  box-shadow:var(--lp-panel-shadow)!important;
+  transition:width .45s var(--lp-ease),margin .45s var(--lp-ease),border-color .3s,box-shadow .3s!important;
+}
+html[data-design="console"] .sidebar.collapsed{width:0!important;margin-left:0!important;border-width:0!important;box-shadow:none!important}
+
+/* En-tête du panneau et recherche */
+html[data-design="console"] .sb-header{padding:18px 16px 15px!important;border-bottom:1px solid var(--lp-hairline)!important}
+html[data-design="console"] .sb-title{padding:0 2px;font-family:var(--lp-font)!important;font-size:16px!important;font-weight:400!important;letter-spacing:-.005em!important;text-transform:none!important;color:var(--lp-ink)!important;white-space:nowrap}
+html[data-design="console"] .sb-sub{padding:0 2px;font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:300!important;color:var(--lp-ink-3)!important;margin-top:4px!important}
+html[data-design="console"] .sb-search-container{margin-top:14px!important;padding:0!important}
+html[data-design="console"] input#sb-search{
+  display:block;width:100%;height:40px;padding:0 12px 0 36px!important;border:1px solid var(--lp-edge)!important;border-radius:12px!important;
+  background:var(--lp-fill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f2b45a' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 4.5 4.5'/%3E%3C/svg%3E") 12px 50%/16px 16px no-repeat!important;
+  font-family:var(--lp-font)!important;font-size:14px!important;font-weight:300!important;color:var(--lp-ink)!important;caret-color:var(--lp-amber);
+  outline:none!important;transition:border-color .25s,box-shadow .25s;
+}
+html[data-design="console"][data-lp-theme="light"] input#sb-search{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238f5200' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 4.5 4.5'/%3E%3C/svg%3E")!important}
+html[data-design="console"] input#sb-search::placeholder{color:var(--lp-ink-3);opacity:1}
+html[data-design="console"] input#sb-search:focus{border-color:rgba(var(--lp-glow),.5)!important;box-shadow:0 0 0 3px rgba(var(--lp-glow),.12)}
+
+/* Liste : Présentation, sections, chapitres */
+html[data-design="console"] .sb-scroll{padding:10px 8px 16px!important}
+html[data-design="console"] .sb-group{margin-bottom:2px!important}
+html[data-design="console"] .sb-theme{
+  gap:10px!important;padding:9px 10px 9px 12px!important;border:1px solid transparent!important;border-radius:12px!important;
+  font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:400!important;letter-spacing:.01em!important;color:var(--lp-ink-2)!important;background:transparent!important;
+  transition:background-color .25s,color .25s,border-color .25s!important;
+}
+html[data-design="console"] .sb-theme:hover{background:var(--lp-fill)!important;color:var(--lp-ink)!important}
+html[data-design="console"] .sb-theme.open{color:var(--lp-ink)!important;background:transparent!important;border-color:transparent!important}
+html[data-design="console"] .sb-theme.open:hover{background:var(--lp-fill)!important}
+html[data-design="console"] .sb-theme-label{line-height:1.4!important}
+html[data-design="console"] .sb-theme-icon{display:none!important}
+html[data-design="console"] .sb-chevron{font-family:var(--lp-font)!important;font-size:15px!important;line-height:1!important;width:14px;text-align:center;color:var(--lp-ink-3)!important;opacity:1!important;transition:transform .35s var(--lp-ease),color .25s!important}
+html[data-design="console"] .sb-theme.open > .sb-chevron{color:var(--lp-amber)!important}
+html[data-design="console"] .sb-item{
+  margin:1px 0 1px 14px!important;padding:8px 12px!important;border:1px solid transparent!important;border-radius:12px!important;
+  font-family:var(--lp-font)!important;font-size:13.5px!important;font-weight:300!important;line-height:1.45!important;
+  color:var(--lp-ink-2)!important;background:transparent!important;transition:background-color .25s,color .25s,border-color .25s!important;
+}
+html[data-design="console"] .sb-item:hover{background:var(--lp-fill)!important;color:var(--lp-ink)!important}
+/* Entrée choisie : la pastille éclairée d'ambre */
+html[data-design="console"] :is(.sb-item.active,.sb-theme.active){
+  color:var(--lp-amber)!important;font-weight:400!important;border-color:rgba(var(--lp-glow),.5)!important;
+  background:radial-gradient(120% 160% at 50% 120%,rgba(var(--lp-glow),.16),transparent 70%),rgba(var(--lp-glow),.08)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 0 22px -10px rgba(var(--lp-glow),.6)!important;
+}
+html[data-design="console"] .sb-empty{padding:12px 14px;font-family:var(--lp-font);font-size:13.5px;font-weight:300;color:var(--lp-ink-3)}
+
+/* Languette d'ouverture du panneau */
+html[data-design="console"] .sb-toggle{
+  left:calc(var(--lp-sbm) + var(--lp-sbw) + 6px)!important;width:22px!important;height:52px!important;
+  background:var(--lp-glass-solid)!important;border:1px solid var(--lp-edge)!important;border-radius:11px!important;
+  font-family:var(--lp-font)!important;font-size:15px!important;color:var(--lp-ink-2)!important;box-shadow:var(--lp-panel-shadow)!important;
+  transition:left .45s var(--lp-ease),color .25s,border-color .25s,box-shadow .25s!important;
+}
+html[data-design="console"] .sb-toggle:hover{color:var(--lp-amber)!important;border-color:var(--lp-lamp-line)!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important}
+html[data-design="console"] .sidebar.collapsed ~ .sb-toggle{left:6px!important}
+
+/* Colonne de lecture : titre fin, contexte dessous, filet de lumière */
+html[data-design="console"] .content{padding:38px clamp(20px,4.6vw,64px) 96px!important}
+html[data-design="console"] .content:focus-visible{outline:none!important}
+html[data-design="console"] .content-inner{max-width:760px!important;display:flex;flex-direction:column}
+html[data-design="console"] .c-title{order:-4;margin:0!important;text-align:left!important;font-family:var(--lp-font)!important;font-size:clamp(1.65rem,2.8vw,2.25rem)!important;font-weight:250!important;line-height:1.16!important;letter-spacing:-.02em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .c-subtitle{order:-3;margin:14px 0 0!important;text-align:left!important;font-family:var(--lp-font)!important;font-style:normal!important;font-size:.9rem!important;font-weight:400!important;letter-spacing:.01em!important;line-height:1.5!important;color:var(--lp-ink-2)!important}
+html[data-design="console"] .c-source{order:-2;margin:6px 0 0!important;text-align:left!important;font-family:var(--lp-font)!important;font-size:.84rem!important;font-weight:300!important;letter-spacing:0!important;text-transform:none!important;color:var(--lp-ink-3)!important;opacity:1!important}
+html[data-design="console"] .c-divider{order:-1;width:160px;height:1px!important;margin:24px 0 24px!important;background:linear-gradient(90deg,rgba(var(--lp-glow),.7),transparent)!important}
+html[data-design="console"] .c-h3{margin:4px 0 14px;font-family:var(--lp-font);font-size:1.02rem;font-weight:400;letter-spacing:-.005em;color:var(--lp-ink)}
+
+/* Versets d'ouverture du chapitre : la lampe */
+html[data-design="console"] .c-intro{
+  margin:0 0 26px!important;padding:22px 26px!important;text-align:left!important;
+  font-family:var(--lp-font)!important;font-style:normal!important;font-size:1.06rem!important;font-weight:var(--lp-body-w)!important;line-height:1.75!important;color:var(--lp-ink)!important;text-wrap:pretty;
+  background:radial-gradient(120% 100% at 50% 0%,var(--lp-lamp),transparent 66%),var(--lp-glass)!important;
+  border:1px solid var(--lp-lamp-line)!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow),var(--lp-halo)!important;
+}
+html[data-design="console"] .c-intro-label{margin:0 0 12px;font-family:var(--lp-font);font-size:.82rem;font-weight:500;letter-spacing:.01em;color:var(--lp-ink-2)}
+html[data-design="console"] .c-verse-ref{font-family:var(--lp-font);font-size:.84em;font-weight:400;color:var(--lp-amber)}
+
+/* Note de l'éditeur et clôture : texte droit, au ton de la lecture */
+html[data-design="console"] .c-prose{font-family:var(--lp-font);font-size:1.06rem;font-weight:var(--lp-body-w);line-height:1.78;color:var(--lp-read);text-align:left;-webkit-hyphens:auto;hyphens:auto}
+html[data-design="console"] .c-closing{margin-top:34px;padding-top:20px;border-top:1px solid var(--lp-hairline);font-family:var(--lp-font);font-size:.95rem;font-weight:300;line-height:1.7;color:var(--lp-ink-3)}
+
+/* Hadiths : verre, numéro en tuile éclairée, texte droit et lisible */
+html[data-design="console"] .hadith-card{
+  position:relative;margin:0 0 14px!important;padding:18px 24px 22px!important;
+  background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-left-width:1px!important;border-radius:18px!important;box-shadow:var(--lp-panel-shadow)!important;
+  transition:border-color .6s var(--lp-ease),box-shadow .6s var(--lp-ease);
+}
+html[data-design="console"] .hadith-card:hover{background:var(--lp-glass)!important;border-color:var(--lp-edge)!important}
+html[data-design="console"] .hadith-number{
+  display:inline-block;align-self:flex-start;margin-bottom:12px!important;padding:7px 11px!important;border-radius:10px!important;
+  font-family:var(--lp-font)!important;font-size:12.5px!important;font-weight:400!important;line-height:1!important;letter-spacing:0!important;color:var(--lp-amber)!important;font-variant-numeric:tabular-nums;
+  background:radial-gradient(120% 120% at 50% 100%,var(--lp-lamp),transparent 72%),var(--lp-fill)!important;
+  border:1px solid var(--lp-lamp-line)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.1),var(--lp-halo)!important;
+}
+html[data-design="console"] .hadith-text{font-family:var(--lp-font)!important;font-size:1.04rem!important;font-weight:var(--lp-body-w)!important;line-height:1.78!important;color:var(--lp-read)!important;text-align:left!important;-webkit-hyphens:auto;hyphens:auto}
+/* Termes arabes et titres d'ouvrages : droits, plus clairs (comme dans L'Aune) */
+html[data-design="console"] :is(.hadith-text,.c-intro,.c-prose) :is(i,em){font-style:normal!important;color:var(--lp-ink)!important}
+html[data-design="console"] .isnad :is(i,em){font-style:normal;color:var(--lp-ink-2)}
+html[data-design="console"] .hadith-comment :is(i,em){font-style:normal;color:var(--lp-ink)}
+
+/* Le hadith choisi par la recherche : la fiche s'allume deux secondes */
+html[data-design="console"] .hadith-card.is-flash{border-color:rgba(var(--lp-glow),.65)!important;box-shadow:var(--lp-panel-shadow),0 0 0 3px rgba(var(--lp-glow),.16),0 0 40px -6px rgba(var(--lp-glow),.5)!important}
+
+/* Chaîne de transmission (variante C) : une pilule repliée, puis la chaîne en petit et plus pâle */
+html[data-design="console"] .isnad-toggle{
+  gap:6px;margin-top:14px;min-height:30px;padding:0 12px 0 10px;
+  font-family:var(--lp-font);font-size:13px;font-weight:300;line-height:1.2;color:var(--lp-ink-3);
+  background:var(--lp-fill);border:1px solid var(--lp-edge);border-radius:999px;
+  transition:color .25s,border-color .25s,background-color .25s,transform .28s var(--lp-ease);
+}
+html[data-design="console"] .isnad-toggle:hover{color:var(--lp-ink);border-color:var(--lp-lamp-line)}
+html[data-design="console"] .isnad-toggle[aria-expanded="true"]{color:var(--lp-ink-2)}
+html[data-design="console"] .isnad-toggle .chev{transition:transform .3s var(--lp-ease)}
+html[data-design="console"] .isnad{margin-top:10px;font-family:var(--lp-font);font-size:.88rem;font-weight:300;line-height:1.6;color:var(--lp-ink-3)}
+
+/* Commentaire d'al-Majlisī : encart de verre, titre en encre 2, toujours visible */
+html[data-design="console"] .hadith-comment{margin-top:16px;padding:14px 18px 16px;background:var(--lp-fill);border:1px solid var(--lp-hairline);border-radius:14px}
+html[data-design="console"] .hadith-number + .hadith-comment{margin-top:0}
+html[data-design="console"] .hadith-comment-label{margin-bottom:6px;font-family:var(--lp-font);font-size:.82rem;font-weight:500;letter-spacing:.01em;color:var(--lp-ink-2)}
+html[data-design="console"] .hadith-comment p{font-family:var(--lp-font);font-size:.98rem;font-weight:var(--lp-body-w);line-height:1.7;color:var(--lp-ink-2);-webkit-hyphens:auto;hyphens:auto}
+
+/* Hadith sauté par la traduction : une fiche creuse, sans texte */
+html[data-design="console"] .hadith-card.is-missing{background:none!important;border-style:dashed!important;box-shadow:none!important;padding-bottom:18px!important}
+html[data-design="console"] .hadith-card.is-missing .hadith-number{margin-bottom:10px!important}
+html[data-design="console"] .hadith-card.is-missing.is-flash{box-shadow:0 0 0 3px rgba(var(--lp-glow),.16),0 0 40px -6px rgba(var(--lp-glow),.5)!important}
+html[data-design="console"] .hadith-missing{font-family:var(--lp-font);font-size:.95rem;font-weight:300;color:var(--lp-ink-3)}
+
+/* Le livre en PDF : une dalle de verre, son icône éclairée (même recette que coran-lecture) */
+html[data-design="console"] .pdf-card-dl{display:inline-flex;align-items:center;justify-content:center;gap:9px;height:44px;padding:0 20px 0 16px!important;border-radius:999px!important;font-family:var(--lp-font)!important;font-size:14.5px!important;font-weight:400!important;letter-spacing:0!important;color:var(--lp-amber)!important;background:var(--ba-lit)!important;border:1px solid rgba(var(--lp-glow),.55)!important;box-shadow:var(--ba-lit-glow)!important;transition:box-shadow .4s var(--lp-ease),transform .35s var(--lp-ease)!important}
+html[data-design="console"] .pdf-card-dl:hover{background:var(--ba-lit)!important;border-color:rgba(var(--lp-glow),.7)!important;box-shadow:var(--ba-lit-glow-hi)!important;transform:none!important}
+html[data-design="console"] .pdf-card-dl.is-quiet{color:var(--lp-ink-2)!important;background:var(--lp-fill)!important;border-color:var(--lp-edge)!important;box-shadow:none!important}
+html[data-design="console"] .pdf-card-dl.is-quiet:hover{color:var(--lp-ink)!important;background:var(--lp-fill-2)!important;border-color:var(--lp-lamp-line)!important;box-shadow:none!important}
+html[data-design="console"] .pdf-card{max-width:none!important;margin:30px 0 12px!important;padding:26px 28px 24px!important;background:var(--lp-glass)!important;border:1px solid var(--lp-edge)!important;border-radius:20px!important;box-shadow:var(--lp-panel-shadow)!important}
+html[data-design="console"] .pdf-card-head{gap:16px!important}
+html[data-design="console"] .pdf-card-icon{background:var(--ba-tile)!important;border:1px solid var(--lp-lamp-line)!important;box-shadow:var(--ba-tile-glow)!important}
+html[data-design="console"] .pdf-card-icon svg{width:24px!important;height:24px!important;color:var(--lp-amber)!important}
+html[data-design="console"] .pdf-card-title{font-family:var(--lp-font)!important;font-size:1.14rem!important;font-weight:400!important;line-height:1.3!important;letter-spacing:-.005em!important;color:var(--lp-ink)!important;text-wrap:balance}
+html[data-design="console"] .pdf-card-subtitle{margin-top:4px!important;font-size:.86rem!important;font-weight:300!important;color:var(--lp-ink-3)!important}
+html[data-design="console"] .pdf-card-text{margin-bottom:22px!important;font-size:1rem!important;font-weight:var(--lp-body-w)!important;line-height:1.72!important;color:var(--lp-read)!important;text-align:left!important;-webkit-hyphens:auto;hyphens:auto}
+html[data-design="console"] .pdf-card-dl svg{width:17px!important;height:17px!important}
+
+/* Mobile : le panneau devient un tiroir posé au-dessus de la lecture */
+@media (max-width:768px){
+  html[data-design="console"]{--lp-sbw:min(300px,calc(100vw - 72px));--lp-sbm:8px}
+  html[data-design="console"] .sidebar{
+    position:absolute!important;z-index:100;top:var(--lp-sbm)!important;left:var(--lp-sbm)!important;bottom:var(--lp-sbm)!important;height:auto!important;margin:0!important;
+    background:var(--lp-sheet-bg)!important;-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);
+    box-shadow:var(--lp-panel-shadow),0 40px 90px -30px rgba(0,0,0,.85)!important;
+  }
+  html[data-design="console"] .sidebar.collapsed{box-shadow:none!important}
+  html[data-design="console"] .main{width:100%}
+  html[data-design="console"] .sb-toggle{width:28px!important;height:56px!important;border-radius:14px!important}
+  /* 16 px : iOS ne zoome pas sur le champ de recherche */
+  html[data-design="console"] input#sb-search{font-size:16px!important}
+  /* Marge gauche : la languette du tiroir (6 + 28px) ne recouvre plus le début des lignes */
+  html[data-design="console"] .content{padding:26px 18px 88px 46px!important}
+  /* Voile invisible en console (le tiroir garde son ombre) : il sert seulement à refermer le tiroir d'un toucher à côté */
+  html[data-design="console"] .sb-overlay{background:transparent!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  html[data-design="console"] .c-intro{padding:18px 18px!important}
+  html[data-design="console"] .hadith-card{padding:16px 18px 18px!important}
+  html[data-design="console"] .hadith-comment{padding:12px 14px 14px}
+  html[data-design="console"] .pdf-card{padding:22px 20px 20px!important}
+}
+@media (pointer:coarse){
+  html[data-design="console"] .isnad-toggle{min-height:40px}
+}
+html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-shadow:var(--lp-panel-shadow)!important}
+@media (max-width:768px){
+  html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-shadow:var(--lp-panel-shadow),0 30px 70px -30px rgba(20,32,60,.4)!important}
+}
+@media (prefers-reduced-motion:reduce){
+  html[data-design="console"] .hadith-card,html[data-design="console"] .isnad-toggle,html[data-design="console"] .isnad-toggle .chev{transition:none!important}
+}
+
+/* ══ Nahj al-Balagha : deux traductions et l'arabe ══ */
+.nj-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.nj-col{min-width:0;overflow-wrap:anywhere}
+.nj-ar{font-family:'Scheherazade New','Amiri',serif;direction:rtl;text-align:right;font-size:1.45rem;line-height:2.05;overflow-wrap:anywhere;margin:0}
+.nj-by{margin-top:8px;font-size:.8rem;line-height:1.45}
+.nj-missing{font-style:italic;margin:0}
+.nj-note{margin-top:10px;font-size:.86rem;line-height:1.55;padding-left:10px;border-left:2px solid rgba(201,168,76,.55)}
+.nj-intro{font-style:italic;margin:0 0 8px}
+.nj-notes{margin-top:8px;font-size:.84rem;line-height:1.5}
+.nj-head{margin:30px 0 12px;font-size:1.05rem;font-weight:500}
+.nj-colhead{display:none}
+.nj-switch{display:inline-flex;padding:4px;border-radius:999px;margin:0 0 16px;gap:2px}
+.nj-switch button{appearance:none;border:0;background:none;font:inherit;cursor:pointer;min-height:40px;padding:0 15px;border-radius:999px}
+.nj-tabs{display:flex;gap:6px;margin-top:10px}
+.nj-tabs button{appearance:none;flex:1;min-height:34px;border-radius:999px;font:inherit;font-size:12px;cursor:pointer}
+.nj-badge{display:inline-block;margin-left:6px;padding:0 6px;border-radius:999px;font-size:10px;line-height:16px;vertical-align:1px}
+.nj-caps{font-variant:small-caps;text-transform:lowercase}
+@media (min-width:1000px){
+  .nj-grid{grid-template-columns:1fr 1fr 1.05fr;gap:26px}
+  .nj-grid.nj-solo{grid-template-columns:1fr 1.05fr}
+  .nj-col + .nj-col{border-left:1px solid rgba(128,128,128,.22);padding-left:24px}
+  .nj-colhead{display:grid;grid-template-columns:1fr 1fr 1.05fr;gap:26px;padding:0 24px;margin:0 0 10px;font-size:.76rem;letter-spacing:.07em;text-transform:uppercase}
+  .nj-colhead.nj-solo{grid-template-columns:1fr 1.05fr}
+  .nj-colhead span:last-child{text-align:right}
+  .nj-switch{display:none!important}
+}
+@media (max-width:999px){
+  [data-show="ob"] .nj-col[data-col="an"],[data-show="an"] .nj-col[data-col="ob"]{display:none}
+  .nj-col[data-col="ar"]{order:-1}
+  .nj-col + .nj-col:not([data-col="ar"]){border-top:1px solid rgba(128,128,128,.22);padding-top:12px}
+}
+html[data-design="console"] .nj-ar{color:var(--lp-ink)!important}
+html[data-design="console"] .nj-text p{font-family:var(--lp-font)!important;font-size:1.02rem!important;font-weight:var(--lp-body-w)!important;line-height:1.75!important;color:var(--lp-read)!important;margin:0 0 .6em!important}
+html[data-design="console"] .nj-by,html[data-design="console"] .nj-missing,html[data-design="console"] .nj-intro,
+html[data-design="console"] .nj-notes,html[data-design="console"] .nj-note,html[data-design="console"] .nj-colhead{color:var(--lp-ink-2)!important}
+html[data-design="console"] .nj-head{font-family:var(--lp-font)!important;color:var(--lp-amber)!important}
+html[data-design="console"] .nj-switch{border:1px solid var(--lp-edge);background:var(--lp-fill)}
+html[data-design="console"] .nj-switch button{color:var(--lp-ink-2)}
+html[data-design="console"] .nj-switch button[aria-pressed="true"]{color:var(--lp-amber);background:rgba(var(--lp-glow),.14);box-shadow:inset 0 0 0 1px rgba(var(--lp-glow),.45)}
+html[data-design="console"] .nj-tabs button{border:1px solid var(--lp-edge);background:var(--lp-fill);color:var(--lp-ink-2)}
+html[data-design="console"] .nj-tabs button[aria-selected="true"]{color:var(--lp-amber);border-color:rgba(var(--lp-glow),.55)}
+html[data-design="console"] .nj-badge{color:var(--lp-amber);border:1px solid rgba(var(--lp-glow),.45)}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- SIDEBAR : sommaire (ordre du livre, ou thèmes d'Abul Naga) -->
+  <nav class="sidebar" id="sidebar" aria-label="Sommaire du livre">
+    <div class="sb-header">
+      <div class="sb-title">📖 Nahj al-Balagha</div>
+      <div class="sb-title lp-only">Nahj al-Balagha</div>
+      <div class="sb-sub" id="sb-sub">Deux traductions · Arabe</div>
+      <div class="nj-tabs" role="tablist" aria-label="Sommaire">
+        <button type="button" role="tab" data-tab="livre" aria-selected="true" aria-controls="nj-livre">Ordre du livre</button>
+        <button type="button" role="tab" data-tab="themes" aria-selected="false" aria-controls="nj-themes">Par thèmes</button>
+      </div>
+      <div class="sb-search-container">
+        <input type="text" id="sb-search" class="sb-search" placeholder="Rechercher un texte..." aria-label="Rechercher un texte" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="sb-scroll" id="sb-scroll">
+      <div class="sb-empty" role="status">Le sommaire est en cours de chargement...</div>
+    </div>
+  </nav>
+
+  <button class="sb-toggle" id="sb-toggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="Replier le sommaire">‹</button>
+  <div class="sb-overlay" id="sb-overlay"></div>
+
+  <main class="main" id="main">
+    <div class="content" id="content" tabindex="-1">
+      <div class="content-inner" id="content-inner"></div>
+    </div>
+  </main>
+
+</div>
+
+<button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Retour en haut" title="Retour en haut">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+/* Nahj al-Balagha — deux traductions françaises (Obeid ; Abul Naga) et l'arabe. Module 22 du hub.
+   Données : nahj-sommaire-data.js (chargé au départ), puis nahj-discours / -lettres / -maximes-data.js à la demande
+   (window.NAHJ.sommaire, window.NAHJ.parts.<d|l|m>), fabriqués par .claude/nahj-tools/build.py. Après une correction
+   des données, changer DATA_REV : la page et ses données repartent ensemble.
+   État (ancre et messages du hub) : "" la Présentation ; "d1" un texte ; "d1:4" le passage 4 (la carte qui le
+   contient, même fusionnée « 3–4 », défile et brille 2 s). Les locutions (g…) sont dans le fichier des maximes.
+   Messages reçus : {type:'gs-navigate', state}, {type:'theme', theme} ; envoyé : {type:'nav', state}.
+   Ordinateur (≥ 1000 px) : trois colonnes Obeid | Abul Naga | Arabe. Plus étroit : boutons Obeid / Abul Naga /
+   Les deux (défaut), choix gardé dans localStorage « nahj-trad ».
+   Contrat du texte : brut, \n entre paragraphes ; tout est échappé, seuls <i> et </i> reviennent. */
+(function () {
+  'use strict';
+
+  var DATA_REV = '2026-11-10';
+  var FILES = { d: 'nahj-discours-data.js', l: 'nahj-lettres-data.js', m: 'nahj-maximes-data.js' };
+  var PART_OF = { d: 'd', l: 'l', m: 'm', g: 'm' };
+  var SINGULAR = { d: 'Discours', l: 'Lettre', m: 'Maxime', g: 'Locution' };
+  var PART_LABEL = { d: 'Discours', l: 'Lettres', m: 'Maximes', g: 'Locutions difficiles' };
+  var OB_BY = 'Traduction du Dr A. Obeid · éd. Al-Biruni, Beyrouth, 2004';
+  var AN_BY = 'Traduction revue par le Dr Sayyid Attia Abul Naga · éd. Dar al-Kitab al-Lubnani, 1989';
+  var MISSING = 'Non traduit dans l\'édition Abul Naga';
+  var PDFS = [
+    { href: 'Nahj-al-Balagha-Obeid.pdf', title: 'Nahj al-Balagha — traduction du Dr A. Obeid', size: '13,8 Mo', text: 'Édition bilingue Al-Biruni, Beyrouth, 2004 : le livre complet, tel que publié.' },
+    { href: 'Nahj-al-Balagha-Abul-Naga.pdf', title: 'Nahj al-Balagha — traduction revue par le Dr S. A. Abul Naga', size: '4,3 Mo', text: 'Édition bilingue Dar al-Kitab al-Lubnani, 1989 : un choix de textes en quatorze chapitres, tel que publié.' }
+  ];
+
+  var SOM = null, INDEX = Object.create(null), loading = Object.create(null);
+  var current = null, lastNav = '', pending = null, ready = false;
+  var show = pref() || 'both';
+  var $ = function (id) { return document.getElementById(id); };
+  var sidebar = $('sidebar'), toggle = $('sb-toggle'), overlay = $('sb-overlay');
+  var sbScroll = $('sb-scroll'), search = $('sb-search');
+  var content = $('content'), inner = $('content-inner');
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function rich(s) {
+    var depth = 0, out = '';
+    esc(s).split(/(&lt;\/?i&gt;)/).forEach(function (part) {
+      if (part === '&lt;i&gt;') { out += '<i>'; depth++; }
+      else if (part === '&lt;/i&gt;') { if (depth > 0) { out += '</i>'; depth--; } }
+      else out += part;
+    });
+    while (depth-- > 0) out += '</i>';
+    return out;
+  }
+  function paras(s) {
+    return String(s == null ? '' : s).split('\n').filter(function (p) { return p.trim(); }).map(function (p) { return '<p>' + rich(p) + '</p>'; }).join('');
+  }
+  function fold(s) {
+    return String(s == null ? '' : s).replace(/<\/?i>/g, '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+      .replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/[’‘ʼʻʿʾ`´]/g, "'").replace(/\s+/g, ' ').trim();
+  }
+  function pref() { try { var v = window.localStorage.getItem('nahj-trad'); return /^(ob|an|both)$/.test(v) ? v : null; } catch (e) { return null; } }
+  function setPref(v) { show = v; try { window.localStorage.setItem('nahj-trad', v); } catch (e) {} }
+  function isOnline(id) { return !!(SOM && INDEX[id] && SOM.online.indexOf(PART_OF[id.charAt(0)]) >= 0); }
+
+  // ══ DONNÉES ══
+  function script(src, ok, ko) {
+    var s = document.createElement('script');
+    s.src = src + '?r=' + DATA_REV;
+    s.onload = ok; s.onerror = ko;
+    document.head.appendChild(s);
+  }
+  function load() {
+    script('nahj-sommaire-data.js', function () {
+      SOM = window.NAHJ && window.NAHJ.sommaire;
+      if (!SOM || !Array.isArray(SOM.parts)) { fail(); return; }
+      SOM.parts.forEach(function (p) { p.texts.forEach(function (t) { INDEX[t.id] = { part: p, entry: t }; }); });
+      renderSommaire();
+      ready = true;
+      showState(pending !== null ? pending : fromHash());
+      pending = null;
+    }, fail);
+  }
+  function partData(p) { return window.NAHJ && window.NAHJ.parts && window.NAHJ.parts[p]; }
+  function loadPart(p, done) {
+    if (partData(p)) { done(); return; }
+    if (loading[p]) { loading[p].push(done); return; }
+    loading[p] = [done];
+    script(FILES[p], function () { var q = loading[p]; loading[p] = null; q.forEach(function (f) { f(); }); },
+      function () { loading[p] = null; inner.innerHTML = '<h2 class="c-title">Texte indisponible</h2><div class="c-divider"></div><p class="c-prose">Cette partie n\'a pas pu être chargée. Rechargez la page, ou revenez dans un instant.</p>'; });
+  }
+  function fail() {
+    sbScroll.innerHTML = '<div class="sb-empty" role="status">Le sommaire n\'a pas pu être chargé.</div>';
+    inner.innerHTML = '<h2 class="c-title">Livre indisponible</h2><div class="c-divider"></div><p class="c-prose">Le Nahj al-Balagha n\'a pas pu être chargé. Rechargez la page, ou revenez dans un instant.</p>';
+  }
+
+  // ══ SOMMAIRE ══
+  var GROUPS = [];
+  function renderSommaire() {
+    var h = '<div id="nj-livre" role="tabpanel"><div class="sb-group" id="sb-group-pres"><button class="sb-theme" id="sb-pres" type="button" data-state=""><span class="sb-theme-icon" aria-hidden="true">📖</span><span class="sb-theme-label">Présentation</span></button></div>';
+    SOM.parts.forEach(function (p) {
+      h += group(p.id, PART_LABEL[p.id] || p.label, p.texts.map(function (t) {
+        var label = t.n + (t.title ? '. ' + rich(t.title) : '');
+        return '<button class="sb-item" id="sb-item-' + esc(t.id) + '" type="button" data-state="' + esc(t.id) + '">' + label +
+          (t.an ? '<span class="nj-badge" title="Deux traductions">2</span>' : '') + '</button>';
+      }).join(''));
+    });
+    h += '<div class="sb-empty" id="sb-empty" role="status" hidden>Aucun texte ne correspond.</div></div>';
+    h += '<div id="nj-themes" role="tabpanel" hidden>';
+    (SOM.themes || []).forEach(function (th) {
+      h += group('th' + th.n, '<span class="nj-caps">' + rich(th.title) + '</span>', th.texts.map(function (t) {
+        return '<button class="sb-item" type="button" data-state="' + esc(t.state) + '"><span class="nj-caps">' + rich(t.title) + '</span></button>';
+      }).join(''));
+    });
+    h += '</div>';
+    sbScroll.innerHTML = h;
+    GROUPS = SOM.parts.map(function (p) {
+      var g = $('sb-group-' + p.id);
+      return { id: p.id, group: g, head: g.querySelector('.sb-theme'), body: g.querySelector('.sb-items'),
+        items: p.texts.map(function (t) { return { id: t.id, el: $('sb-item-' + t.id), fold: fold(t.n + '. ' + t.title + ' ' + (SINGULAR[t.id.charAt(0)] || '')) }; }) };
+    });
+  }
+  function group(id, label, items) {
+    return '<div class="sb-group" id="sb-group-' + esc(id) + '"><button class="sb-theme open" type="button" data-group="' + esc(id) + '" aria-expanded="true" aria-controls="sb-items-' + esc(id) + '">' +
+      '<span class="sb-theme-icon" aria-hidden="true">🗂️</span><span class="sb-theme-label">' + label + '</span><span class="sb-chevron" aria-hidden="true">›</span></button>' +
+      '<div class="sb-items open" id="sb-items-' + esc(id) + '">' + items + '</div></div>';
+  }
+  function setGroup(head, open) {
+    head.classList.toggle('open', open);
+    var body = $(head.getAttribute('aria-controls'));
+    if (body) body.classList.toggle('open', open);
+    head.setAttribute('aria-expanded', String(open));
+  }
+  function filterSidebar() {
+    var words = fold(search.value).split(' ').filter(Boolean), hits = [];
+    var hit = function (f) { return words.every(function (w) { return f.indexOf(w) >= 0; }); };
+    var pres = $('sb-group-pres');
+    if (pres) pres.hidden = !(!words.length || hit(fold('Présentation')));
+    var any = pres && !pres.hidden;
+    GROUPS.forEach(function (g) {
+      var n = 0;
+      g.items.forEach(function (it) { var ok = !words.length || hit(it.fold); it.el.hidden = !ok; if (ok) { n++; hits.push(it.id); } });
+      g.group.hidden = !n;
+      if (n) { any = true; setGroup(g.head, true); }
+    });
+    var empty = $('sb-empty');
+    if (empty) empty.hidden = !!any;
+    return words.length ? hits : [];
+  }
+  function setTab(name) {
+    Array.prototype.forEach.call(document.querySelectorAll('.nj-tabs [data-tab]'), function (b) { b.setAttribute('aria-selected', String(b.getAttribute('data-tab') === name)); });
+    $('nj-livre').hidden = name !== 'livre';
+    $('nj-themes').hidden = name !== 'themes';
+    search.parentNode.hidden = name !== 'livre';
+  }
+  function markActive(key, user) {
+    Array.prototype.forEach.call(sbScroll.querySelectorAll('.active'), function (e) { e.classList.remove('active'); e.removeAttribute('aria-current'); });
+    var el = key ? $('sb-item-' + key) : $('sb-pres');
+    if (!el) return;
+    el.classList.add('active');
+    el.setAttribute('aria-current', 'true');
+    if (!user && sbScroll.clientHeight && !$('nj-livre').hidden) sbScroll.scrollTop += el.getBoundingClientRect().top - sbScroll.getBoundingClientRect().top - sbScroll.clientHeight / 3;
+  }
+
+  // ══ PRÉSENTATION ══
+  var ICON_FILE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>';
+  var ICON_OPEN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
+  var ICON_DL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>';
+  function pdfCard(p) {
+    return '<div class="pdf-card"><div class="pdf-card-head"><div class="pdf-card-icon">' + ICON_FILE + '</div><div>' +
+      '<div class="pdf-card-title">' + esc(p.title) + '</div><div class="pdf-card-subtitle">PDF · ' + esc(p.size) + '</div></div></div>' +
+      '<div class="pdf-card-text">' + esc(p.text) + '</div><div class="pdf-card-actions">' +
+      '<a class="pdf-card-dl" href="' + esc(p.href) + '" target="_blank" rel="noopener">' + ICON_OPEN + 'Ouvrir le PDF</a>' +
+      '<a class="pdf-card-dl is-quiet" href="' + esc(p.href) + '" download>' + ICON_DL + 'Télécharger</a></div></div>';
+  }
+  function renderPresentation() {
+    var pr = SOM.presentation || {};
+    var h = '<h2 class="c-title">Présentation</h2>' +
+      '<div class="c-subtitle">Nahj al-Balagha — La Voie de l\'éloquence</div>' +
+      '<div class="c-source">Discours, lettres et maximes de l\'Imām \'Alī (as), réunis par al-Sharīf al-Raḍī</div>' +
+      '<div class="c-source">' + esc(OB_BY) + '</div>' +
+      '<div class="c-source">' + esc(AN_BY) + ' (texte arabe choisi et traduit par un groupe de spécialistes musulmans)</div>' +
+      '<div class="c-source">Arabe : mots de l\'édition Obeid, voyelles du texte de référence (Thaqalayn, Al-Islam.org)</div>' +
+      '<div class="c-source">Noms et formules suivent les conventions du site ; les fautes évidentes ont été corrigées</div>' +
+      '<div class="c-divider"></div>';
+    [['obeid', 'Préface de l\'éditeur (édition Obeid)'], ['abulnaga', 'Avant-propos (édition Abul Naga)'], ['vie', 'Aperçu sur la vie de l\'Imām \'Alī (as) (édition Abul Naga)']].forEach(function (s) {
+      var t = (pr[s[0]] || []).map(paras).join('');
+      if (t) h += '<h3 class="c-h3">' + esc(s[1]) + '</h3><div class="c-prose">' + t + '</div>';
+    });
+    return h + PDFS.map(pdfCard).join('');
+  }
+
+  // ══ TEXTE ══
+  function cardHtml(id, it, hasAn) {
+    var nums = it.nums.join('–');
+    var ob = '<div class="nj-col" data-col="ob"><div class="nj-text">' + paras(it.ob) + '</div>' +
+      (it.obNotes && it.obNotes.length ? '<div class="nj-notes">' + it.obNotes.map(rich).join('<br>') + '</div>' : '') +
+      '<p class="nj-by">' + esc(OB_BY) + '</p></div>';
+    var an = '';
+    if (hasAn) {
+      if (it.an) {
+        an = '<div class="nj-col" data-col="an">' + (it.anIntro ? '<p class="nj-intro">' + rich(it.anIntro) + '</p>' : '') +
+          '<div class="nj-text">' + paras(it.an) + '</div>' +
+          (it.anNotes && it.anNotes.length ? '<div class="nj-notes">' + it.anNotes.map(rich).join('<br>') + '</div>' : '') +
+          (it.diff ? '<p class="nj-note">Abul Naga traduit ici un texte arabe différent : « <span lang="ar" dir="rtl">' + esc(it.diff.x) + '</span> » au lieu de « <span lang="ar" dir="rtl">' + esc(it.diff.y) + '</span> ».</p>' : '') +
+          '<p class="nj-by">' + esc(AN_BY) + '</p></div>';
+      } else an = '<div class="nj-col" data-col="an"><p class="nj-missing">' + esc(MISSING) + '</p></div>';
+    }
+    var ar = '<div class="nj-col" data-col="ar"><p class="nj-ar" lang="ar" dir="rtl">' + esc(it.ar) + '</p></div>';
+    return '<div class="hadith-card nj-card" id="nj-' + esc(id) + '-' + it.nums[0] + '" data-nums=" ' + it.nums.join(' ') + ' ">' +
+      '<div class="hadith-number">' + esc(nums) + '</div><div class="nj-grid' + (hasAn ? '' : ' nj-solo') + '">' + ob + an + ar + '</div></div>';
+  }
+  function switchHtml() {
+    return '<div class="nj-switch" role="group" aria-label="Traduction affichée">' +
+      [['ob', 'Obeid'], ['an', 'Abul Naga'], ['both', 'Les deux']].map(function (b) {
+        return '<button type="button" data-show="' + b[0] + '" aria-pressed="' + (show === b[0]) + '">' + b[1] + '</button>';
+      }).join('') + '</div>';
+  }
+  function renderText(id) {
+    var kind = id.charAt(0), t = partData(PART_OF[kind])[id], e = INDEX[id].entry;
+    var h = '<h2 class="c-title">' + esc(SINGULAR[kind]) + ' ' + esc(e.n) + '</h2>' +
+      (t.title ? '<div class="c-subtitle">' + rich(t.title) + '</div>' : '') +
+      '<div class="c-source">Nahj al-Balagha · ' + esc(PART_LABEL[kind]) + ' · ' + (t.an ? 'Deux traductions · Arabe' : 'Traduction Obeid · Arabe') + '</div>' +
+      '<div class="c-divider"></div>';
+    if (t.an) h += switchHtml() + '<div class="nj-colhead"><span>Obeid</span><span>Abul Naga</span><span>Arabe</span></div>';
+    else h += '<div class="nj-colhead nj-solo"><span>Obeid</span><span>Arabe</span></div>';
+    t.items.forEach(function (it) {
+      h += it.t === 'head' ? '<h3 class="nj-head">' + rich(it.text) + '</h3>' : cardHtml(id, it, t.an);
+    });
+    inner.setAttribute('data-show', t.an ? show : 'both');
+    return h;
+  }
+
+  // ══ ÉTAT ══
+  function fromHash() { var h = location.hash.replace(/^#/, ''); try { h = decodeURIComponent(h); } catch (e) {} return h; }
+  var flashEl = null, flashTimer = 0;
+  function flash(el) {
+    if (flashEl && flashEl !== el) flashEl.classList.remove('is-flash');
+    clearTimeout(flashTimer);
+    flashEl = el;
+    el.classList.add('is-flash');
+    flashTimer = setTimeout(function () { el.classList.remove('is-flash'); if (flashEl === el) flashEl = null; }, 2000);
+  }
+  function place(el) { var box = content.getBoundingClientRect(), r = el.getBoundingClientRect(); content.scrollTop += r.top - box.top - Math.round(box.height * 0.16); }
+  function reveal(el) {
+    place(el);
+    if (document.fonts && document.fonts.status !== 'loaded') {
+      var at = content.scrollTop;
+      document.fonts.ready.then(function () { if (el.isConnected && Math.abs(content.scrollTop - at) < 40) place(el); });
+    }
+  }
+  function phone() { return window.matchMedia('(max-width: 768px)').matches; }
+  function sync(state) {
+    try { var base = location.pathname + location.search, url = base + (state ? '#' + state : ''); if (url !== base + location.hash) history.replaceState(null, '', url); } catch (e) {}
+    if (state !== lastNav) {
+      lastNav = state;
+      try { if (window.parent !== window) window.parent.postMessage({ type: 'nav', state: state }, location.origin); } catch (e) {}
+    }
+  }
+  function showState(state, opts) {
+    opts = opts || {};
+    if (!SOM) { pending = String(state == null ? '' : state); return; }
+    var s = String(state == null ? '' : state).replace(/^#/, ''), i = s.indexOf(':');
+    var id = i < 0 ? s : s.slice(0, i), n = i < 0 ? '' : s.slice(i + 1);
+    if (id && !isOnline(id)) { id = ''; n = ''; }
+    if (id && !partData(PART_OF[id.charAt(0)])) { loadPart(PART_OF[id.charAt(0)], function () { showState(s, opts); }); return; }
+    var changed = id !== current;
+    if (changed) {
+      inner.innerHTML = id ? renderText(id) : renderPresentation();
+      if (!id) inner.removeAttribute('data-show');
+      current = id;
+      content.scrollTop = 0;
+      content.style.animation = 'none'; void content.offsetHeight; content.style.animation = '';
+    }
+    markActive(id, opts.user);
+    var card = null;
+    if (id && n) card = inner.querySelector('.nj-card[data-nums*=" ' + (n.match(/\d+/) || [''])[0] + ' "]');
+    if (card) { reveal(card); flash(card); }
+    else if (!changed && opts.user) content.scrollTop = 0;
+    if (phone() && !sidebar.classList.contains('collapsed')) { setDrawer(false); if (opts.user) content.focus({ preventScroll: true }); }
+    sync(card ? id + ':' + n : id);
+  }
+
+  // ══ TIROIR ══
+  var drawerOpen = true;
+  function setDrawer(open) {
+    if (!open && sidebar.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+    drawerOpen = open;
+    sidebar.classList.toggle('collapsed', !open);
+    toggle.textContent = open ? '‹' : '›';
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Replier le sommaire' : 'Déplier le sommaire');
+    if ('inert' in sidebar) sidebar.inert = !open;
+  }
+  toggle.addEventListener('click', function () { setDrawer(!drawerOpen); });
+  overlay.addEventListener('click', function () { if (phone()) setDrawer(false); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && phone() && drawerOpen) setDrawer(false);
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); try { window.parent.postMessage({ type: 'gs-open' }, location.origin); } catch (ex) {} }
+  });
+  if (phone()) {
+    sidebar.style.setProperty('transition', 'none', 'important');
+    setDrawer(false);
+    requestAnimationFrame(function () { requestAnimationFrame(function () { sidebar.style.removeProperty('transition'); }); });
+  } else setDrawer(true);
+
+  // ══ ÉCOUTEURS ══
+  sbScroll.addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b || !sbScroll.contains(b)) return;
+    if (b.hasAttribute('data-state')) showState(b.getAttribute('data-state'), { user: true });
+    else if (b.hasAttribute('data-group')) setGroup(b, !b.classList.contains('open'));
+  });
+  document.querySelector('.nj-tabs').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-tab]');
+    if (b) setTab(b.getAttribute('data-tab'));
+  });
+  search.addEventListener('input', filterSidebar);
+  inner.addEventListener('click', function (e) {
+    var b = e.target.closest('.nj-switch [data-show]');
+    if (!b) return;
+    setPref(b.getAttribute('data-show'));
+    inner.setAttribute('data-show', show);
+    Array.prototype.forEach.call(inner.querySelectorAll('.nj-switch [data-show]'), function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+  });
+  window.addEventListener('hashchange', function () { showState(fromHash()); });
+  window.addEventListener('message', function (e) {
+    if (e.source !== window.parent && e.source !== window) return;
+    var d = e.data;
+    if (!d || typeof d !== 'object') return;
+    if (d.type === 'theme') document.documentElement.setAttribute('data-theme', d.theme === 'light' ? 'light' : 'dark');
+    else if (d.type === 'gs-navigate' && typeof d.state === 'string') showState(d.state);
+  });
+
+  var topBtn = $('scrollTopBtn');
+  function checkTop() { topBtn.classList.toggle('visible', content.scrollTop > 250); }
+  content.addEventListener('scroll', checkTop, { passive: true });
+  topBtn.addEventListener('click', function () {
+    var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    content.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
+  });
+  checkTop();
+
+  // Seule entrée publique de la page (pour les contrôles automatiques)
+  window.nahjPage = { showState: showState, ready: function () { return ready; }, state: function () { return lastNav; },
+    filter: function (q) { search.value = q; return filterSidebar(); } };
+  load();
+})();
+</script>
+</body>
+</html>
