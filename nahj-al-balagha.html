@@ -518,6 +518,10 @@ html[data-design="console"][data-lp-theme="light"] .sidebar:not(.collapsed){box-
 .nj-tabs{display:flex;gap:6px;margin-top:10px}
 .nj-tabs button{appearance:none;flex:1;min-height:34px;border-radius:999px;font:inherit;font-size:12px;cursor:pointer}
 .nj-badge{display:inline-block;margin-left:6px;padding:0 6px;border-radius:999px;font-size:10px;line-height:16px;vertical-align:1px}
+/* Maximes : premiers mots coupés à deux lignes, la pastille « 2 » reste visible à droite */
+.sb-item.nj-deb{display:flex;align-items:baseline}
+.nj-debut{flex:1;min-width:0;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nj-deb .nj-badge{flex:none}
 .nj-caps{font-variant:small-caps;text-transform:lowercase}
 @media (min-width:1000px){
   .nj-grid{grid-template-columns:1fr 1fr 1.05fr;gap:26px}
@@ -597,7 +601,7 @@ html[data-design="console"] .nj-badge{color:var(--lp-amber);border:1px solid rgb
 (function () {
   'use strict';
 
-  var DATA_REV = '2026-11-10b';
+  var DATA_REV = '2026-11-11';
   var FILES = { d: 'nahj-discours-data.js', l: 'nahj-lettres-data.js', m: 'nahj-maximes-data.js' };
   var PART_OF = { d: 'd', l: 'l', m: 'm', g: 'm' };
   var SINGULAR = { d: 'Discours', l: 'Lettre', m: 'Maxime', g: 'Locution' };
@@ -679,8 +683,9 @@ html[data-design="console"] .nj-badge{color:var(--lp-amber);border:1px solid rgb
     var h = '<div id="nj-livre" role="tabpanel"><div class="sb-group" id="sb-group-pres"><button class="sb-theme" id="sb-pres" type="button" data-state=""><span class="sb-theme-icon" aria-hidden="true">📖</span><span class="sb-theme-label">Présentation</span></button></div>';
     SOM.parts.forEach(function (p) {
       h += group(p.id, PART_LABEL[p.id] || p.label, p.texts.map(function (t) {
-        var label = t.n + (t.title ? '. ' + rich(t.title) : '');
-        return '<button class="sb-item" id="sb-item-' + esc(t.id) + '" type="button" data-state="' + esc(t.id) + '">' + label +
+        // Maximes et locutions n'ont pas de titre : leurs premiers mots, sur deux lignes au plus
+        var label = t.title ? t.n + '. ' + rich(t.title) : t.debut ? '<span class="nj-debut">' + t.n + '. ' + esc(t.debut) + '</span>' : t.n;
+        return '<button class="sb-item' + (t.title || !t.debut ? '' : ' nj-deb') + '" id="sb-item-' + esc(t.id) + '" type="button" data-state="' + esc(t.id) + '">' + label +
           (t.an ? '<span class="nj-badge" title="Deux traductions">2</span>' : '') + '</button>';
       }).join(''));
     });
@@ -696,7 +701,7 @@ html[data-design="console"] .nj-badge{color:var(--lp-amber);border:1px solid rgb
     GROUPS = SOM.parts.map(function (p) {
       var g = $('sb-group-' + p.id);
       return { id: p.id, group: g, head: g.querySelector('.sb-theme'), body: g.querySelector('.sb-items'),
-        items: p.texts.map(function (t) { return { id: t.id, el: $('sb-item-' + t.id), fold: fold(t.n + '. ' + t.title + ' ' + (SINGULAR[t.id.charAt(0)] || '')) }; }) };
+        items: p.texts.map(function (t) { return { id: t.id, el: $('sb-item-' + t.id), fold: fold(t.n + '. ' + (t.title || t.debut || '') + ' ' + (SINGULAR[t.id.charAt(0)] || '')) }; }) };
     });
   }
   function group(id, label, items) {
