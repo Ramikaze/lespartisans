@@ -9,8 +9,9 @@
 /* ── 0. Polices, servies par le site lui-même ─────────────────────────
    Atkinson Hyperlegible Next et Scheherazade New (licence SIL OFL 1.1, voir fonts/OFL-*.txt),
    fichiers de Google Fonts copiés tels quels dans fonts/. Plus de feuille fonts.googleapis.com
-   qui bloque le premier affichage ; chaque page précharge la latine d'Atkinson, et l'arabe de Scheherazade 400
-   quand elle en affiche au chargement (sinon le passage de la police de secours change la hauteur des lignes).
+   qui bloque le premier affichage ; chaque page précharge la latine d'Atkinson. L'arabe de Scheherazade 400 n'est
+   préchargé que là où il est en haut de l'écran dans du texte qui peut bouger (accueil, Verset du Trône,
+   Hadith al-Kisâʾ) : ailleurs, ses 79 Ko retardaient l'affichage sans rien éviter (mesuré le 2026-11-11).
    Les @font-face ne téléchargent rien tant qu'aucun texte ne les utilise (design classique). */
 /* latin-ext */
 @font-face {

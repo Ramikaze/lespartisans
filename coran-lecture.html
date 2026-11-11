@@ -283,7 +283,6 @@ body:not(.show-ar):not(.show-fr) .bismillah { display: none !important; }
 <!-- Design « Console » (lp-design.js : 'console' ou 'classique') -->
 <script src="lp-design.js"></script>
 <link rel="preload" href="fonts/atkinson-next-200-800-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/scheherazade-new-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="console.css">
 <style id="lp-console-skin">/* Design « Console » — coran-lecture */
 /* Jetons de la page : bouton éclairé, tuile de numéro */
@@ -614,8 +613,9 @@ window.__lpDeep = location.hash;</script>
 <div class="surah-view" id="surahView"></div>
 
 <!-- Mot à mot (coran-mots-fr.js, 2,3 Mo) : chargé au premier clic sur un mot arabe (voir loadFRW) -->
-<!-- Texte du Coran (2,5 Mo) : chargé à part, la page s'affiche pendant son téléchargement -->
-<script src="coran-texte.js"></script>
+<!-- Texte du Coran (2,5 Mo) : chargé à part et sans bloquer (async). La liste des sourates s'affiche tout de suite
+     (SOURATES, plus bas) ; une sourate ouverte avant son arrivée attend le texte (voir avecTexte). -->
+<script src="coran-texte.js" async id="coranTexte" onerror="window.__coranTexteEchec=true"></script>
 <script>
 
 
@@ -653,12 +653,56 @@ function cfs(type, dir) {
 document.documentElement.style.setProperty('--ar-size', _arSize + 'rem');
 document.documentElement.style.setProperty('--fr-size', _frSize + 'rem');
 
-// Build surah list + dropdown
-Q.forEach(function(s){
+// Les 114 sourates (numéro, noms, lieu, nombre de versets), tirées de coran-texte.js : la liste et le menu
+// s'affichent sans attendre le texte (2,5 Mo). À refaire si un nom ou un nombre de versets change là-bas.
+var SOURATES=[{"n":1,"fr":"Le commencement [du Livre]","ar":"Al-Fâtiha","l":"la","c":7},{"n":2,"fr":"La vache","ar":"Al-Baqarah","l":"Médine","c":286},{"n":3,"fr":"La famille de ‘Imrân","ar":"Âl-cImrân","l":"Médine","c":200},{"n":4,"fr":"Les femmes","ar":"An-Nisaa","l":"Médine","c":176},{"n":5,"fr":"La nourriture céleste","ar":"Al-Mâida","l":"Médine","c":120},{"n":6,"fr":"Les bestiaux","ar":"Al-Ancâm","l":"la","c":165},{"n":7,"fr":"Les A’râf","ar":"Al-Acrâf","l":"la","c":206},{"n":8,"fr":"Le butin","ar":"Al-Anfâl","l":"Médine","c":75},{"n":9,"fr":"Le repentir","ar":"At-Tawbah","l":"Médine","c":129},{"n":10,"fr":"Jonas","ar":"Yoûnous","l":"la","c":109},{"n":11,"fr":"Houd","ar":"Hoûd","l":"la","c":123},{"n":12,"fr":"Joseph","ar":"Yousouf","l":"la","c":111},{"n":13,"fr":"Le tonnerre","ar":"Ar-Racd","l":"Médine","c":43},{"n":14,"fr":"Abraham","ar":"Ibrâhîm","l":"la","c":52},{"n":15,"fr":"Al Hijr","ar":"Al-Hijr","l":"la","c":99},{"n":16,"fr":"Les abeilles","ar":"An-Nahl","l":"la","c":128},{"n":17,"fr":"Le voyage nocturne","ar":"Al-Isrâ","l":"la","c":111},{"n":18,"fr":"La caverne","ar":"Al-Kahf","l":"la","c":110},{"n":19,"fr":"Marie","ar":"Maryam","l":"la","c":98},{"n":20,"fr":"Tâ-hâ","ar":"Tâ-hâ","l":"la","c":135},{"n":21,"fr":"Les prophètes","ar":"Al-Anbiyâ","l":"la","c":112},{"n":22,"fr":"Le Pèlerinage","ar":"Al-Hajj","l":"Médine","c":78},{"n":23,"fr":"Les croyants","ar":"Al-Mouminoûn","l":"la","c":118},{"n":24,"fr":"La lumière","ar":"An-Noûr","l":"Médine","c":64},{"n":25,"fr":"La distinction","ar":"Al-Fourqâne","l":"la","c":77},{"n":26,"fr":"Les poètes","ar":"Ash-Shoucarâ’","l":"la","c":227},{"n":27,"fr":"Les fourmis","ar":"An-Naml","l":"la","c":93},{"n":28,"fr":"Le récit","ar":"Al-Qassas","l":"la","c":88},{"n":29,"fr":"L’araignée","ar":"Al-cAnkaboût","l":"la","c":69},{"n":30,"fr":"Les byzantins","ar":"Ar-Roûm","l":"la","c":60},{"n":31,"fr":"Luqmân","ar":"Louqmân","l":"la","c":34},{"n":32,"fr":"La prosternation","ar":"As-Sajdah","l":"la","c":30},{"n":33,"fr":"Les parties [rebelles]","ar":"Al-Ahzâb","l":"Médine","c":73},{"n":34,"fr":"Saba’","ar":"Saba’","l":"Médine","c":54},{"n":35,"fr":"Celui qui crée [la nature]","ar":"Fâtir","l":"la","c":45},{"n":36,"fr":"Yâ-Sîn :","ar":"Yâ-Sîn","l":"la","c":83},{"n":37,"fr":"Les rangés","ar":"As-Sâffât","l":"la","c":182},{"n":38,"fr":"Sâd","ar":"Sâd","l":"la","c":88},{"n":39,"fr":"Les groupements","ar":"Az-Zoumar","l":"la","c":75},{"n":40,"fr":"Celui-Qui-Pardonne","ar":"Al-Ghâfir","l":"la","c":85},{"n":41,"fr":"Exposé en détail","ar":"Foussilat","l":"la","c":54},{"n":42,"fr":"La délibération","ar":"Ash-Shoûrâ","l":"la","c":53},{"n":43,"fr":"L’ornement [excessif]","ar":"Az-Zoukhrouf","l":"la","c":89},{"n":44,"fr":"La fumée","ar":"Ad-Doukhân","l":"la","c":59},{"n":45,"fr":"L’agenouillée","ar":"Al-Jâthiya","l":"la","c":37},{"n":46,"fr":"Al Ahqâf","ar":"Al-Ahqâf","l":"la","c":35},{"n":47,"fr":"Muhammad","ar":"Muhammad","l":"la","c":38},{"n":48,"fr":"La victoire","ar":"Al-Fath","l":"Médine","c":29},{"n":49,"fr":"Les chambres","ar":"Al-Houjourât","l":"Médine","c":18},{"n":50,"fr":"Qâf","ar":"Qâf","l":"la","c":45},{"n":51,"fr":"Les vents [productifs]","ar":"Adh-Dhâriyât","l":"la","c":60},{"n":52,"fr":"Le mont [At-Tour]","ar":"At-Toûr","l":"la","c":49},{"n":53,"fr":"L’étoile","ar":"An-Najm","l":"la","c":62},{"n":54,"fr":"La lune","ar":"Al-Qamar","l":"la","c":55},{"n":55,"fr":"Le Tout Miséricordieux","ar":"Ar-Rahmân","l":"Médine","c":78},{"n":56,"fr":"L’évènement (vie, mort, résurrection)","ar":"AlWâqicah","l":"la","c":96},{"n":57,"fr":"Le fer","ar":"Al-Hadîd","l":"Médine","c":29},{"n":58,"fr":"La discussion","ar":"Al-Moujâdalah","l":"Médine","c":22},{"n":59,"fr":"Le rassemblement","ar":"Al-Hashr","l":"Médine","c":24},{"n":60,"fr":"Les mises à l’épreuve","ar":"Al-Moumtahanah","l":"Médine","c":13},{"n":61,"fr":"Le rang","ar":"As-Saff","l":"Médine","c":14},{"n":62,"fr":"Le vendredi","ar":"Al-Jumucah","l":"Médine","c":11},{"n":63,"fr":"Les hypocrites","ar":"Al-Mounâfiqoûn","l":"Médine","c":11},{"n":64,"fr":"La perte","ar":"At-Taghâboun","l":"Médine","c":18},{"n":65,"fr":"La répudiation (s’abstenir)","ar":"At-Talâq","l":"Médine","c":12},{"n":66,"fr":"L’interdiction","ar":"At-Tahrîm","l":"Médine","c":12},{"n":67,"fr":"La royauté","ar":"Al-Moulk","l":"la","c":30},{"n":68,"fr":"Le calame","ar":"Al-Qalam","l":"la","c":52},{"n":69,"fr":"Le [Jour] vrai","ar":"Al-Hâqqah","l":"la","c":52},{"n":70,"fr":"Les voies d’ascension","ar":"Al-Macârij","l":"la","c":44},{"n":71,"fr":"Noé","ar":"Noûh","l":"la","c":28},{"n":72,"fr":"Les djinns","ar":"Al-Jinn","l":"la","c":28},{"n":73,"fr":"Celui qui s’est enveloppé","ar":"Al-Mouzzammil","l":"la","c":20},{"n":74,"fr":"Le revêtu d’un manteau","ar":"Al-Mouddaththir","l":"la","c":56},{"n":75,"fr":"La Résurrection","ar":"Al-Qiyâmah","l":"la","c":40},{"n":76,"fr":"L’homme","ar":"Al-Insân","l":"Médine","c":31},{"n":77,"fr":"Les envoyés","ar":"Al-Moursalât","l":"la","c":50},{"n":78,"fr":"La nouvelle","ar":"An-Naba’","l":"la","c":40},{"n":79,"fr":"Les anges qui arrachent","ar":"An-Nâzicât","l":"la","c":46},{"n":80,"fr":"[Il s’est] renfrogné","ar":"cAbasa","l":"la","c":42},{"n":81,"fr":"L’obscurcissement","ar":"At-Takwîr","l":"la","c":29},{"n":82,"fr":"Se fendre","ar":"Al-Infitâr","l":"la","c":19},{"n":83,"fr":"Les fraudeurs","ar":"Al-Mutaffifîn","l":"la","c":36},{"n":84,"fr":"La crevasse","ar":"Al-Inshiqâq","l":"la","c":25},{"n":85,"fr":"Les constellations","ar":"Al-Bouroûj","l":"la","c":22},{"n":86,"fr":"L’étoile du soir","ar":"At-Târiq","l":"la","c":17},{"n":87,"fr":"Le Très-Haut","ar":"Al-Aclâ","l":"la","c":19},{"n":88,"fr":"Celle qui couvre","ar":"Al-Ghâshiyah","l":"la","c":26},{"n":89,"fr":"L’aube","ar":"Al-Fajr","l":"la","c":30},{"n":90,"fr":"La cité","ar":"Al-Balad","l":"la","c":20},{"n":91,"fr":"Le soleil","ar":"Ash-Shams","l":"la","c":15},{"n":92,"fr":"La nuit","ar":"Al-Layl","l":"la","c":21},{"n":93,"fr":"Le jour montant","ar":"Ad-Douhâ","l":"la","c":11},{"n":94,"fr":"L’ouverture","ar":"Ash-Sharh","l":"la","c":8},{"n":95,"fr":"La figue","ar":"At-Tîn","l":"la","c":8},{"n":96,"fr":"L’embryon","ar":"Al cAlaq","l":"la","c":19},{"n":97,"fr":"Le décret [divin]","ar":"Al-Qadr","l":"la","c":5},{"n":98,"fr":"La preuve","ar":"Al-Bayyinah","l":"Médine","c":8},{"n":99,"fr":"La secousse [finale]","ar":"Az-Zalzalah","l":"Médine","c":8},{"n":100,"fr":"Les coursiers","ar":"Al-cÂdiyyât","l":"la","c":11},{"n":101,"fr":"Celle qui fracasse","ar":"Al-Qâricah","l":"la","c":11},{"n":102,"fr":"La suprématie","ar":"At-Takâthur","l":"la","c":8},{"n":103,"fr":"L’époque","ar":"Al-cAsr","l":"la","c":3},{"n":104,"fr":"Le calomniateur","ar":"Al-Houmazah","l":"la","c":9},{"n":105,"fr":"L’éléphant","ar":"Al-Fîl","l":"la","c":5},{"n":106,"fr":"Les Quraysh","ar":"Quraysh","l":"la","c":4},{"n":107,"fr":"L’aide","ar":"Al-Mâcoûn","l":"la","c":7},{"n":108,"fr":"La rivière Kawthar","ar":"Al-Kawthar","l":"la","c":3},{"n":109,"fr":"Les impies","ar":"Al-Kâfiroûn","l":"la","c":6},{"n":110,"fr":"Le secours","ar":"An-Nasr","l":"Médine","c":3},{"n":111,"fr":"La corde","ar":"Al-Masad","l":"la","c":5},{"n":112,"fr":"Le pur culte (Unicité de DIEU)","ar":"Al-Ikhlâs","l":"la","c":4},{"n":113,"fr":"L’aurore","ar":"Al-Falaq","l":"la","c":5},{"n":114,"fr":"Les hommes","ar":"An-Nâs","l":"la","c":6}];
+
+/* Texte du Coran (Q, AR de coran-texte.js, chargé en async) : avecTexte(f) lance f dès qu'il est là. */
+var _texteAttente = [], _texteEchec = false;
+function texteLa() { return typeof Q !== 'undefined' && typeof AR !== 'undefined'; }
+function texteArrive() {
+  if (!texteLa()) return;
   /* Garde-fou des données : versets numérotés 1..c, sans fragment ni verset en trop (cf. 6:98, 71:11, 7:207) */
-  if (s.v.length !== s.c || s.v.some(function(v, i){ return v[0] !== i + 1; })) {
-    try { console.warn('Coran : numérotation incohérente dans la sourate ' + s.n + ' (' + s.v.length + ' entrées pour ' + s.c + ' versets)'); } catch(e) {}
+  Q.forEach(function(s){
+    var m = SOURATES[s.n - 1];   /* SOURATES doit suivre coran-texte.js */
+    if (!m || m.fr !== s.fr || m.ar !== s.ar || m.l !== s.l || m.c !== s.c) {
+      try { console.warn('Coran : SOURATES diffère de coran-texte.js pour la sourate ' + s.n); } catch(e) {}
+    }
+    if (s.v.length !== s.c || s.v.some(function(v, i){ return v[0] !== i + 1; })) {
+      try { console.warn('Coran : numérotation incohérente dans la sourate ' + s.n + ' (' + s.v.length + ' entrées pour ' + s.c + ' versets)'); } catch(e) {}
+    }
+  });
+  var q = _texteAttente; _texteAttente = [];
+  q.forEach(function(f){ f(); });
+}
+/* Échec (hors ligne…) : l'attente s'arrête et le dit ; rouvrir une sourate relance le téléchargement */
+function texteEchoue() {
+  _texteEchec = true; _texteAttente = []; _ouvertureAttendue = null;
+  var st = view.querySelector('.s-meta[role="status"]');
+  if (st) st.textContent = 'Texte indisponible : vérifiez la connexion, puis rouvrez la sourate.';
+}
+function avecTexte(f) {
+  if (texteLa()) { f(); return; }
+  _texteAttente.push(f);
+  if (_texteEchec) {   /* le premier téléchargement a échoué (réseau) : nouvel essai à la demande */
+    _texteEchec = false;
+    var sc = document.createElement('script');
+    sc.src = 'coran-texte.js';
+    sc.onload = texteArrive;
+    sc.onerror = texteEchoue;
+    document.head.appendChild(sc);
   }
+}
+(function(){
+  var el = document.getElementById('coranTexte');
+  if (texteLa()) { texteArrive(); return; }   /* déjà exécuté avant ce script */
+  if (window.__coranTexteEchec) { _texteEchec = true; return; }   /* déjà en échec avant ce script */
+  el.addEventListener('load', texteArrive);
+  el.addEventListener('error', texteEchoue);
+})();
+
+// Build surah list + dropdown
+SOURATES.forEach(function(s){
   // Dropdown
   var opt = document.createElement('option');
   opt.value = s.n;
@@ -784,7 +828,28 @@ function revealVerse(el) {
 
 /* replace : l'état vient du hub (lien profond, recherche) ou remplace la même sourate (récitateur) :
    pas de nouvelle entrée d'historique */
+var _ouvertureAttendue = null;
 function openSurah(num, scrollToVerse, replace) {
+  if (!texteLa()) {
+    var m = SOURATES[num - 1];
+    if (!m) return;
+    var premiere = !_ouvertureAttendue;
+    _ouvertureAttendue = [num, scrollToVerse, replace];
+    listEl.style.display = 'none';
+    view.style.display = 'block';
+    selWrap.classList.add('active');
+    surahSel.value = num;
+    view.innerHTML = '<div class="surah-header"><div class="s-num">Sourate ' + m.n + ' sur 114</div>' +
+      '<div class="s-name">' + m.fr + '</div><div class="s-name-ar">' + m.ar + '</div>' +
+      '<div class="s-meta" role="status">Chargement du texte…</div></div>';
+    window.scrollTo(0, 0);
+    if (premiere) avecTexte(function(){
+      var a = _ouvertureAttendue; _ouvertureAttendue = null;
+      /* revenu à la liste entre-temps : on ne rouvre rien */
+      if (a && view.style.display !== 'none') openSurah(a[0], a[1], a[2]);
+    });
+    return;
+  }
   var s = Q.find(function(x){ return x.n === num; });
   if (!s) return;
 
@@ -1077,7 +1142,7 @@ function _vaGet(id) {
       var rec = getReciter();
       var cdnId = rec.cdn || 'ar.husary';
       var sn = parseInt(parts[1], 10), vn = parseInt(parts[2], 10), offset = 0;
-      for (var i = 0; i < Q.length; i++) { if (Q[i].n < sn) offset += Q[i].c; }
+      for (var i = 0; i < SOURATES.length; i++) { if (SOURATES[i].n < sn) offset += SOURATES[i].c; }
       au.src = 'https://cdn.islamic.network/quran/audio/128/' + cdnId + '/' + (offset + vn) + '.mp3';
       if (_vaCurrentId === id) _vaPlay(au);
       return;
