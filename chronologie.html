@@ -2140,6 +2140,12 @@ function showSection(id) {
   if (sec) { sec.classList.add('active'); sec.scrollIntoView({behavior:'smooth',block:'start'}); }
   const btn = document.querySelector(`.nav-btn[data-section="${id}"]`);
   if (btn) btn.classList.add('active');
+  /* Lien profond : la rubrique s'écrit dans l'adresse (#events), sans nouvelle entrée d'historique,
+     et l'accueil, s'il affiche la page, met la sienne à jour (#m1:events) */
+  if (sec) {
+    try { history.replaceState(history.state, '', id === 'home' ? location.pathname + location.search : '#' + id); } catch (e) {}
+    try { if (window.parent !== window) window.parent.postMessage({ type: 'nav', state: id === 'home' ? '' : id }, location.origin); } catch (e) {}
+  }
   if (id === 'network') { initGraph(); graphState.show(); }
   if (id === 'timeline') {
     /* la frise suit l'ère et le filtre que montrent leurs boutons */
@@ -3077,6 +3083,17 @@ renderPlaces();
 renderThemes();
 renderScholars();
 renderTimeline('all');
+
+/* Ouverture sur une rubrique : chronologie.html#events, ou #m1:events dans l'accueil (pastilles de la salle
+   « Ahl al-Bayt & Histoire ») ; l'accueil change ensuite l'ancre de la page déjà chargée (hashchange) */
+function sectionFromHash() {
+  let h = '';
+  try { h = decodeURIComponent(location.hash.replace(/^#/, '')); } catch (e) { return ''; }
+  const el = h && document.getElementById(h);
+  return el && el.classList.contains('section') ? h : '';
+}
+(function () { const s = sectionFromHash(); if (s && s !== 'home') showSection(s); })();
+window.addEventListener('hashchange', function () { const s = sectionFromHash(); if (s) showSection(s); });
 </script>
 
 

@@ -352,6 +352,14 @@ html[data-design="console"] .salle-t:focus-visible,.salle-t:focus{outline:none!i
 }
 .salle-card:hover,.salle-card:focus-visible,.salle-card.is-on{--lit:1;--sheen:var(--tw-sheen-on);box-shadow:var(--tw-inner),0 0 56px -14px rgba(var(--lp-glow),.6),var(--tw-drop)}
 .salle-card:focus-visible{outline:2px solid var(--lp-amber);outline-offset:3px}
+/* Une porte et ses rubriques en pastilles (Ahl al-Bayt & Histoire : la Chronologie) ; dans la salle, posées au bas de la carte */
+.sats > li.has-chips{display:flex;flex-direction:column}
+.sat-chips{list-style:none;margin:0 0 8px;padding:0 0 0 18px;display:flex;flex-wrap:wrap;gap:6px}
+.sat-chip{min-height:30px;padding:5px 12px;border-radius:999px;font-size:13.5px;line-height:1.3;color:var(--lp-ink-2);border:1px solid var(--lp-edge);transition:color .3s,border-color .3s,background-color .3s}
+.sat-chip:hover,.sat-chip:focus-visible{color:var(--lp-amber);border-color:var(--lp-lamp-line);background:rgba(var(--lp-glow),.07)}
+.sat-chip:focus-visible{outline:2px solid var(--lp-amber);outline-offset:2px}
+.salle-cards > li.has-chips{position:relative}
+.salle-cards > li.has-chips .sat-chips{position:absolute;left:26px;right:26px;bottom:22px;margin:0;padding:0}
 .salle-card .sat-t{font-size:clamp(19px,1.5vw,22px);font-weight:400;line-height:1.25;transition:color .4s}
 .salle-card .sat-d{font-size:15px;font-weight:300;line-height:1.5;color:var(--lp-ink-2);text-wrap:pretty}
 .salle-card .sat-m{margin-top:auto;padding-top:12px;font-size:13.5px;font-weight:300;color:var(--lp-ink-3)}
@@ -857,10 +865,12 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     </section>
 
     <section class="room" id="submenu-ahlulbayt" data-room="ahlulbayt" aria-labelledby="room-ahlulbayt" inert>
-      <header class="room-head"><h2 id="room-ahlulbayt">Ahl al-Bayt</h2><p>Les 14 Infaillibles, arbre généalogique et biographies des 12 Imams.</p></header>
+      <header class="room-head"><h2 id="room-ahlulbayt">Ahl al-Bayt &amp; Histoire</h2><p>Les 14 Infaillibles, la vie des douze Imams et l'histoire du chiisme, de la naissance du Prophète à l'Occultation.</p></header>
       <ul class="sats">
         <li><button class="sat" type="button" data-module="3"><span class="sat-t">Les 14 Infaillibles</span><span class="sat-d">Arbre généalogique interactif des 14 Infaillibles et leurs compagnons.</span><span class="sat-m">Pannable · Zoomable · Détails</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
         <li><button class="sat" type="button" data-module="12"><span class="sat-t">Les Douze Imams</span><span class="sat-d">Biographies détaillées des 12 Imams : naissance, martyre, lieu de sépulture et rôle historique.</span><span class="sat-m">12 biographies · Fiches détaillées</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button></li>
+        <li class="has-chips"><button class="sat" type="button" data-module="1"><span class="sat-t">Chronologie &amp; Réseau</span><span class="sat-d">L'histoire du chiisme, rubrique par rubrique.</span><svg class="ic sat-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></button>
+          <ul class="sat-chips" aria-label="Rubriques de la Chronologie"><li><button class="sat-chip" type="button" data-module="1" data-state="timeline">Frise</button></li><li><button class="sat-chip" type="button" data-module="1" data-state="network">Réseau</button></li><li><button class="sat-chip" type="button" data-module="1" data-state="imams">Imams</button></li><li><button class="sat-chip" type="button" data-module="1" data-state="events">Événements</button></li><li><button class="sat-chip" type="button" data-module="1" data-state="places">Lieux</button></li><li><button class="sat-chip" type="button" data-module="1" data-state="themes">Thèmes</button></li><li><button class="sat-chip" type="button" data-module="1" data-state="scholars">Savants</button></li></ul></li>
       </ul>
     </section>
 
@@ -919,40 +929,33 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       </li>
       <li style="--i:4">
         <button class="tower" type="button" data-room="ahlulbayt" aria-controls="submenu-ahlulbayt" aria-expanded="false">
-          <span class="ar" lang="ar" aria-hidden="true">أهل البيت</span>
-          <span class="t-name">Ahl al-Bayt</span><span class="t-meta">14 Infaillibles</span>
+          <span class="ar" lang="ar" aria-hidden="true">أهل البيت والتاريخ</span>
+          <span class="t-name">Ahl al-Bayt &amp; Histoire</span><span class="t-meta">14 Infaillibles · Chronologie</span>
           <svg class="ic chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </button>
       </li>
       <li style="--i:5">
-        <button class="tower" type="button" data-module="1" data-title="Chronologie &amp; Réseau" data-desc="Frise, réseau de personnalités, Imams et thèmes clés." data-meta="7 sections · Zoom interactif">
-          <span class="ar" lang="ar" aria-hidden="true">التاريخ</span>
-          <span class="t-name">Chronologie</span><span class="t-meta">7 sections</span>
-          <svg class="ic chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
-        </button>
-      </li>
-      <li style="--i:6">
         <button class="tower" type="button" data-module="16" data-title="Les 99 Noms d'Allah" data-desc="Les plus beaux Noms d'Allah (Asmâʾ Allah al-Husnâ) selon la tradition, révélant la grandeur et la miséricorde du Créateur." data-meta="99 Noms · Asmâʾ al-Husnâ">
           <span class="ar" lang="ar" aria-hidden="true">الأسماء الحسنى</span>
           <span class="t-name">Les 99 Noms</span><span class="t-meta">Asmāʾ al-Ḥusnā</span>
           <svg class="ic chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </button>
       </li>
-      <li style="--i:7">
+      <li style="--i:6">
         <button class="tower" type="button" data-module="15" data-title="Résister" data-desc="L'Islam face aux temps dystopiques. L'école de Karbala comme fondement d'une résistance lucide face au monde moderne." data-meta="Série d'articles · ʿĀshūrāʾ">
           <span class="ar" lang="ar" aria-hidden="true">عاشوراء</span>
           <span class="t-name">Résister</span><span class="t-meta">8 articles</span>
           <svg class="ic chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </button>
       </li>
-      <li style="--i:8">
+      <li style="--i:7">
         <button class="tower" type="button" data-module="6" data-title="Vidéos" data-desc="Conférences, documentaires et enseignements islamiques." data-meta="9 vidéos · YouTube">
           <span class="ar" lang="ar" aria-hidden="true">مرئيات</span>
           <span class="t-name">Vidéos</span><span class="t-meta">9 vidéos</span>
           <svg class="ic chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </button>
       </li>
-      <li style="--i:9">
+      <li style="--i:8">
         <div class="tower is-hollow" role="group" aria-label="Bibliothèque, bientôt">
           <span class="ar" lang="ar" aria-hidden="true">المكتبة</span>
           <span class="t-name">Bibliothèque</span><span class="t-meta">Bientôt</span>
@@ -1101,7 +1104,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
   var pinned = null, shown = null, hoverTimer = null;
 
   function towerFor(room) { return document.querySelector('.tower[data-room="' + room + '"]'); }
-  var MOD_ROOM = { 4: 'invocations', 8: 'coran', 2: 'coran', 19: 'coran', 18: 'coran', 10: 'hadith', 17: 'hadith', 20: 'hadith', 21: 'hadith', 22: 'hadith', 0: 'chiisme', 7: 'chiisme', 9: 'chiisme', 13: 'chiisme', 14: 'chiisme', 3: 'ahlulbayt', 12: 'ahlulbayt' };
+  var MOD_ROOM = { 4: 'invocations', 8: 'coran', 2: 'coran', 19: 'coran', 18: 'coran', 10: 'hadith', 17: 'hadith', 20: 'hadith', 21: 'hadith', 22: 'hadith', 0: 'chiisme', 7: 'chiisme', 9: 'chiisme', 13: 'chiisme', 14: 'chiisme', 1: 'ahlulbayt', 3: 'ahlulbayt', 12: 'ahlulbayt' };
   function tileForModule(idx) {
     return MOD_ROOM[idx] ? towerFor(MOD_ROOM[idx]) : document.querySelector('.tower[data-module="' + idx + '"]');
   }
@@ -1454,6 +1457,16 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       li.style.setProperty('--i', i);
       b.className = 'salle-card';
       li.appendChild(b);
+      /* une porte à rubriques (la Chronologie) : ses pastilles viennent avec elle, au bas de la carte */
+      var chips = s.parentNode.querySelector('.sat-chips');
+      if (chips) {
+        chips = chips.cloneNode(true);
+        li.className = 'has-chips';
+        li.appendChild(chips);
+        var fit = function () { b.style.paddingBottom = (chips.offsetHeight + 40) + 'px'; };
+        if (window.ResizeObserver) new ResizeObserver(fit).observe(chips);
+        requestAnimationFrame(fit);
+      }
       list.appendChild(li);
     });
   }
