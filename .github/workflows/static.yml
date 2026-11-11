@@ -31,6 +31,10 @@ jobs:
           persist-credentials: false   # le jeton GitHub ne reste pas dans .git (rien n'est poussé ici)
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+      # Sécurité : même politique (CSP) dans chaque page, lp-design.js en premier, aucun postMessage vers « * ».
+      # Une page oubliée arrête la mise en ligne ; correction locale : python3 verifier_csp.py --corriger
+      - name: Check security policy
+        run: python3 -I verifier_csp.py
       # Seuls les fichiers du site partent en ligne : ni les scripts de travail (*.py),
       # ni les notes et brouillons nommés ci-dessous, ni .DS_Store. Les PDF et l'audio
       # restent publiés, même ceux qu'aucune page ne cite. Un futur robots.txt partirait bien.
