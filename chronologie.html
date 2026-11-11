@@ -1212,7 +1212,7 @@ html[data-design="console"] footer p{ font-size:14px!important; font-weight:300!
     <button class="nav-btn active" data-section="home">Accueil</button>
     <button class="nav-btn" data-section="timeline">Frise</button>
     <button class="nav-btn" data-section="network">Réseau</button>
-    <button class="nav-btn" data-section="imams">Imams</button>
+    <button class="nav-btn" data-section="imams" title="Biographies des Douze Imams">Imams</button>
     <button class="nav-btn" data-section="events">Événements</button>
     <button class="nav-btn" data-section="places">Lieux</button>
     <button class="nav-btn" data-section="themes">Thèmes</button>
@@ -1341,21 +1341,6 @@ html[data-design="console"] footer p{ font-size:14px!important; font-weight:300!
     </div>
 
     <div class="graph-legend" id="graph-legend"></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     IMAMS
-     ============================================================ -->
-<section id="imams" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label">Les successeurs du Prophète</span>
-      <h2>Les douze Imams</h2>
-      <p>Selon la doctrine chiite duodécimaine, les Imams sont les guides légitimes de la communauté après le Prophète Muhammad ﷺ.</p>
-      <div class="section-divider"></div>
-    </div>
-    <div class="grid grid-3" id="imams-grid"></div>
   </div>
 </section>
 
@@ -2133,7 +2118,21 @@ NODES.forEach(n => NODE_MAP[n.id] = n);
 /* ============================================================
    NAVIGATION
    ============================================================ */
+/* Les Imams ont une seule page, leurs biographies (douze-imams.html) : le bouton « Imams » du menu, la carte et
+   le bouton de l'accueil de la page, une ancre #imams y mènent. Dans l'accueil du site, la page s'y ouvre comme
+   une source (open-module) ; seule, ou dans l'ancien accueil, la page des biographies remplace celle-ci. */
+function ouvrirBiographies() {
+  try {
+    if (window.parent !== window && !/index-classique\.html$/.test(window.parent.location.pathname)) {
+      window.parent.postMessage({ type: 'open-module', idx: 12 }, location.origin);
+      return;
+    }
+  } catch (e) {}
+  location.href = 'douze-imams.html';
+}
+
 function showSection(id) {
+  if (id === 'imams') { ouvrirBiographies(); return; }
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
   const sec = document.getElementById(id);
@@ -2598,22 +2597,6 @@ document.getElementById('timeline-filters').addEventListener('click', e => {
 /* ============================================================
    IMAMS GRID
    ============================================================ */
-function renderImams() {
-  const imams = NODES.filter(n => n.type==='imam' && n.imamate).sort((a,b)=>a.imamate-b.imamate);
-  document.getElementById('imams-grid').innerHTML = imams.map(n => `
-    <div class="card imam-card" onclick="openDetail('${n.id}')">
-      <div class="imam-number">${n.imamate}</div>
-      <span class="card-badge" style="background:var(--imam-bg);color:var(--imam);border:1px solid rgba(126,184,250,0.3);">
-        ${n.imamate}er Imam
-      </span>
-      <div class="card-date">${n.date}</div>
-      <h3>${n.name}</h3>
-      ${n.arabic?`<div style="direction:rtl;font-size:1rem;color:var(--gold);opacity:0.6;margin-bottom:8px;">${n.arabic}</div>`:''}
-      <p>${(n.description||'').substring(0,130)}…</p>
-      <div class="card-footer">${(n.tags||[]).slice(0,3).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
-    </div>`).join('');
-}
-
 /* ============================================================
    EVENTS GRID
    ============================================================ */
@@ -3077,7 +3060,6 @@ if (LP_CONSOLE) {
 /* ============================================================
    INIT
    ============================================================ */
-renderImams();
 renderEvents();
 renderPlaces();
 renderThemes();
@@ -3092,8 +3074,14 @@ function sectionFromHash() {
   const el = h && document.getElementById(h);
   return el && el.classList.contains('section') ? h : '';
 }
-(function () { const s = sectionFromHash(); if (s && s !== 'home') showSection(s); })();
-window.addEventListener('hashchange', function () { const s = sectionFromHash(); if (s) showSection(s); });
+(function () {
+  if (location.hash === '#imams') { ouvrirBiographies(); return; }   /* ancien lien vers la rubrique des Imams */
+  const s = sectionFromHash(); if (s && s !== 'home') showSection(s);
+})();
+window.addEventListener('hashchange', function () {
+  if (location.hash === '#imams') { ouvrirBiographies(); return; }
+  const s = sectionFromHash(); if (s) showSection(s);
+});
 </script>
 
 
