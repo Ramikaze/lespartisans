@@ -114,8 +114,14 @@
       if (valid(cv)) ciel = cv;
     } catch (e) {}
 
+    /* Taille de la fenêtre, relue seulement quand elle change : lire innerWidth/innerHeight à chaque image
+       oblige le navigateur à recalculer la mise en page de la page entière avant de répondre */
+    var VW = window.innerWidth, VH = window.innerHeight;
+    function measure() { VW = window.innerWidth; VH = window.innerHeight; }
+    window.addEventListener('resize', measure);
+
     function rest() {             /* point de lumière au repos */
-      var w = window.innerWidth, h = window.innerHeight;
+      var w = VW, h = VH;
       return isHub ? [w * 0.72, h * 0.42, 0.5] : [w * 0.5, Math.min(h * 0.12, 120), 0.62];
     }
     function lightNow() { return html.getAttribute('data-lp-theme') === 'light' ? 1 : 0; }
@@ -133,8 +139,8 @@
       /* Le ciel suit la lecture : la brume dérive avec le défilement, la lumière descend un peu */
       read: function (px, k) {
         if (isHub || reduce.matches) return;
-        S.sT = Math.min(200, Math.max(0, px / Math.max(1, window.innerHeight)));
-        var r = rest(); S.ty = r[1] + k * window.innerHeight * 0.2; S.ta = r[2] - k * 0.22;
+        S.sT = Math.min(200, Math.max(0, px / Math.max(1, VH)));
+        var r = rest(); S.ty = r[1] + k * VH * 0.2; S.ta = r[2] - k * 0.22;
         wake();
       },
       /* Respiration : la lumière s'avive un instant (changement de chapitre) puis revient */
@@ -415,7 +421,7 @@
     }
     function aim(c) {
       if (!c) return;
-      var w = window.innerWidth, h = window.innerHeight, C = CFG[c.name] || {};
+      var w = VW, h = VH, C = CFG[c.name] || {};
       if (C.pole === 'lumiere') { var r = rest(); c.pole = [r[0] / h, 1 - r[1] / h]; }
       else c.pole = [w / h * 0.3, 1.62];
       c.amt = isHub ? 1 : (C.page || 1);
@@ -424,8 +430,13 @@
     /* Pause : onglet caché, page masquée par l'accueil (une iframe en display:none
        garde sa taille et ses rafraîchissements, mais la toile n'y a plus de boîte),
        ou page ouverte par-dessus l'accueil. */
+    /* La largeur de la toile est tenue par son ResizeObserver (boxW) : la lire à chaque image (clientWidth)
+       forçait le navigateur à recalculer la mise en page de toute la page, image après image (plus de 300 ms
+       au chargement de l'accueil, processeur de téléphone). Avant sa première mesure, on la lit une fois. */
+    var boxW = -1;
+    function visible() { return boxW >= 0 ? boxW > 0 : canvas.clientWidth > 0; }
     function paused() {
-      return document.hidden || !canvas || canvas.clientWidth === 0 ||
+      return document.hidden || !canvas || !visible() || (gl && gl.isContextLost()) ||
         (document.body && document.body.classList.contains('iframe-active'));
     }
     function target(t, f) {
@@ -442,8 +453,14 @@
       gl.bindTexture(gl.TEXTURE_2D, null);
       return ok;
     }
+    /* Même fenêtre qu'au dernier appel : la toile garde son tampon (le redimensionner le réalloue et l'efface) */
+    var lastSize = '';
     function resize() {
-      var w = window.innerWidth, h = window.innerHeight, d = window.devicePixelRatio || 1;
+      measure();
+      var w = VW, h = VH, d = window.devicePixelRatio || 1;
+      var size = w + 'x' + h + '@' + d;
+      if (size === lastSize && tex) { aim(cur); aim(old); return; }
+      lastSize = size;
       scale = Math.min(d, 1.5) * 0.75;
       if (w * h * scale * scale > 1.7e6) scale = Math.sqrt(1.7e6 / (w * h));
       lw = Math.max(1, Math.round(w * scale)); lh = Math.max(1, Math.round(h * scale));
@@ -460,7 +477,7 @@
     }
     /* Passe 1 d'un ciel, dans sa texture */
     function night(c, f, t, spin) {
-      var w = window.innerWidth, h = window.innerHeight, U = c.U1;
+      var w = VW, h = VH, U = c.U1;
       gl.bindFramebuffer(gl.FRAMEBUFFER, f);
       gl.viewport(0, 0, lw, lh);
       gl.useProgram(c.P1);
@@ -487,7 +504,7 @@
       gl.drawArrays(gl.POINTS, 0, c.n);
     }
     function draw(t) {
-      var w = window.innerWidth, h = window.innerHeight, spin = reduce.matches ? 0 : t * SPIN, sspin = S.s * 0.03, k = 1;
+      var w = VW, h = VH, spin = reduce.matches ? 0 : t * SPIN, sspin = S.s * 0.03, k = 1;
       if (old) { k = Math.min(1, (performance.now() - xt0) / XDUR); k = k * k * (3 - 2 * k); }
       gl.activeTexture(gl.TEXTURE1); gl.bindTexture(gl.TEXTURE_2D, null);
       gl.activeTexture(gl.TEXTURE0); gl.bindTexture(gl.TEXTURE_2D, null);
@@ -674,15 +691,33 @@
       var loseExt = gl.getExtension('WEBGL_lose_context'), lostByUs = false;
       window.addEventListener('message', function (e) {
         if (e.origin !== location.origin || !e.data || e.data.type !== 'lp-hidden' || !loseExt || !gl || gl.isContextLost()) return;
-        lostByUs = true; running = false; loseExt.loseContext();
+        lostByUs = true; wantBack = false; running = false; loseExt.loseContext();
       });
       /* La page réapparaît dans l'accueil : la toile retrouve une taille, le ciel repart */
-      if (window.ResizeObserver) new ResizeObserver(function () {
-        if (lostByUs) { if (canvas.clientWidth > 0) { lostByUs = false; loseExt.restoreContext(); } return; }
+      /* La page réapparaît : le contexte revient s'il est perdu. Tant que l'événement de perte n'est pas arrivé
+         (perte demandée à l'instant), Safari refuse restoreContext et le ciel restait éteint : il reviendra
+         dès que cet événement arrive (lostEvt). */
+      var wantBack = false, lostEvt = false;
+      function comeBack() {
+        if (lostEvt) { wantBack = false; lostByUs = false; lostEvt = false; loseExt.restoreContext(); }
+        else wantBack = true;
+      }
+      if (window.ResizeObserver) new ResizeObserver(function (es) {
+        boxW = es[es.length - 1].contentRect.width;
+        if (lostByUs) { if (boxW > 0) comeBack(); return; }
         resize(); wake();
       }).observe(canvas);
-      canvas.addEventListener('webglcontextlost', function (e) { e.preventDefault(); running = false; });
+      /* L'accueil la remontre (openModule) : le contexte rendu revient, ou le ciel reprend s'il était seulement en pause */
+      window.addEventListener('message', function (e) {
+        if (e.origin !== location.origin || !e.data || e.data.type !== 'lp-shown' || !gl) return;
+        if (lostByUs) comeBack(); else wake();
+      });
+      canvas.addEventListener('webglcontextlost', function (e) {
+        e.preventDefault(); running = false; lostEvt = true;
+        if (wantBack) setTimeout(comeBack, 0);
+      });
       canvas.addEventListener('webglcontextrestored', function () {
+        lostEvt = false;
         if (!setupGL()) { html.classList.add('no-webgl'); return; }
         draw(0); wake();
       });

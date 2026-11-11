@@ -1564,6 +1564,9 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     hideAllFrames(idx);
     closeSheet();
     document.getElementById('frame' + idx).classList.add('active');
+    /* la page revient au premier plan : son ciel, rendu quand l'accueil l'avait cachée (lp-hidden), se rallume ;
+       Safari garde la taille d'une page cachée, sa toile ne voit pas d'elle-même qu'elle réapparaît */
+    try { document.getElementById('iframe' + idx).contentWindow.postMessage({ type: 'lp-shown' }, location.origin); } catch (e) {}
     body.classList.add('iframe-active');
     setModuleBar(idx, moduleFrom && towerName(moduleFrom));
     var src = moduleSrc(idx, innerState);
