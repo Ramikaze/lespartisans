@@ -196,7 +196,8 @@ html[data-design="console"] .lp-glass::after{
 }
 /* Passage par la brume : le chapitre suivant se condense hors d'un voile */
 @keyframes lpMist{ from{ opacity:0; filter:blur(4px); transform:translateY(10px); } to{ opacity:1; filter:none; transform:none; } }
-html[data-design="console"] .lp-mist{ animation:lpMist .55s var(--lp-ease) both; }
+/* backwards, pas both : la classe reste posée (lp-design.js), l'état final ne doit pas rester figé */
+html[data-design="console"] .lp-mist{ animation:lpMist .55s var(--lp-ease) backwards; }
 html[data-design="console"] ::selection{ background:rgba(var(--lp-glow),.32); color:var(--lp-ink); }
 html[data-design="console"] :focus-visible{ outline:2px solid var(--lp-amber)!important; outline-offset:3px!important; }
 html[data-design="console"] *{ scrollbar-width:thin; scrollbar-color:rgba(150,170,210,.3) transparent; }

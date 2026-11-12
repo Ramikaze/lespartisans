@@ -859,7 +859,8 @@
       chapCheck();
       new MutationObserver(function () { if (!mq) mq = requestAnimationFrame(chapCheck); })
         .observe(document.body, { childList: true, subtree: true, characterData: true });
-      document.addEventListener('animationend', function (e) { if (e.animationName === 'lpMist') e.target.classList.remove('lp-mist'); });
+      /* lp-mist reste posée une fois la brume finie : la retirer rendait la main à l'animation d'arrivée
+         de la page (#content : fadeIn), qui repartait de zéro — le texte s'affichait, disparaissait, revenait */
     }
 
     /* Lampes : un encadré encore loin s'allume une seule fois quand on l'atteint */
