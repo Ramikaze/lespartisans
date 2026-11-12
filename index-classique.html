@@ -759,7 +759,9 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
         var t = document.documentElement.getAttribute('data-theme') || 'dark';
         try { iframe.contentWindow.postMessage({type:'theme',theme:t}, location.origin); } catch(e) {}
       }, { once: true });
-      iframe.src = src;
+      /* replace : sur iPhone, iframe.src ajoutait une entrée d'historique (cadre vide → page) ; le retour
+         reculait alors le cadre vers une page blanche au lieu de quitter la page */
+      try { iframe.contentWindow.location.replace(src); } catch (e) { iframe.src = src; }
     } else {
       var iframe = document.getElementById('iframe' + idx);
       if (innerState && iframe.contentWindow) {

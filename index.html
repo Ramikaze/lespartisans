@@ -1065,6 +1065,13 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     var base = MODULES[idx];
     return base + (base.indexOf('?') < 0 ? '?' : '&') + 'v=' + REV + (innerState ? '#' + innerState : '');
   }
+  /* Charger une page dans son cadre sans entrée d'historique. Sur iPhone, iframe.src en ajoutait une
+     (cadre vide → page) : « Retour » reculait alors le cadre vers une page blanche au lieu de quitter la page.
+     data-loaded remplace l'attribut src, qui reste vide (la recherche globale le lit). */
+  function loadFrame(iframe, url) {
+    iframe.setAttribute('data-loaded', '1');
+    try { iframe.contentWindow.location.replace(url); } catch (e) { iframe.src = url; }
+  }
   var loaded = new Array(N).fill(false);
   var html = document.documentElement;
   var body = document.body;
@@ -1581,7 +1588,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
         arrive();
         try { iframe.contentWindow.postMessage({ type: 'theme', theme: currentTheme() }, location.origin); } catch (e) {}
       }, { once: true });
-      iframe.src = src;
+      loadFrame(iframe, src);
     } else {
       arrive();
       /* l'ancre change sans nouvelle entrée d'historique : le retour reste celui de l'accueil ;
@@ -1589,7 +1596,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
       if (innerState && iframe.contentWindow) {
         try {
           var l = iframe.contentWindow.location;
-          if (l.href === 'about:blank') iframe.src = moduleSrc(idx, innerState);
+          if (l.href === 'about:blank') loadFrame(iframe, moduleSrc(idx, innerState));
           else l.replace(l.pathname + l.search + '#' + innerState);
         } catch (e) {}
       } else if (_fromPop && iframe.contentWindow) {
@@ -2032,7 +2039,7 @@ html.lp-sunrise .day::after{inset:0;background:linear-gradient(105deg,transparen
     if (typeof window.openModule === 'function' && item.idx >= 0) {
       var state = item.state || '';
       var iframeEl = document.getElementById('iframe' + item.idx);
-      var wasLoaded = !!(iframeEl && iframeEl.getAttribute('src'));
+      var wasLoaded = !!(iframeEl && iframeEl.hasAttribute('data-loaded'));
       window.openModule(item.idx, state);
       if (wasLoaded && state) { try { iframeEl.contentWindow.postMessage({ type: 'gs-navigate', state: state }, location.origin); } catch (ex) {} }
     }
